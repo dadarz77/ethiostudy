@@ -1,0 +1,530 @@
+/* Content: Grade 10 Mathematics — Unit 4: Trigonometry (4 topics) */
+window.Lessons = window.Lessons || {};
+
+Lessons["g10-mathematics-um4-t1"] = {
+  overview: "Degrees are a Babylonian habit (360 arbitrary slices); radians are the natural unit mathematicians and physicists actually use — an angle measured by the arc it cuts. This lesson converts between them and uses radian measure for the clean arc-length and sector formulas s = rθ and A = ½r²θ.",
+  objectives: [
+    "Define a radian via arc length equal to radius",
+    "Convert fluently between degrees and radians",
+    "Recall the π-radian = 180° bridge and common special angles",
+    "Compute arc length s = rθ and sector area A = ½r²θ (θ in radians)",
+    "Explain why radians make formulas simpler than degrees"
+  ],
+  simple: "Imagine walking around a circular track of radius r. The angle you sweep at the centre depends on how far you walked AND how tight the circle is. Radians factor out the circle size: one radian is the angle you get when you walk exactly one radius of arc. Full lap = 2π radii of arc (circumference 2πr), so a full turn = 2π radians = 360°. Half turn = π rad = 180° — that's the conversion bridge: multiply degrees by π/180 to get radians, by 180/π to go back. Special angles become memorable: 30° = π/6, 45° = π/4, 60° = π/3, 90° = π/2. Why bother? Because with radians, arc length is just s = rθ and sector area is A = ½r²θ — no ugly 360/360 fractions. A 60° slice is 'π/3 of a radius-times…' — the formulas only stay clean when θ is in radians.",
+  detailed: "<p><b>Definition.</b> An angle in radians is the ratio θ = s/r, where s is the arc length subtended at radius r. Since it is a length divided by a length, a radian is dimensionless — 'rad' is a label, not a unit. One radian ≈ 57.3°. A full revolution sweeps arc 2πr, so θ = 2πr/r = 2π rad — the appearance of π is geometric, not arbitrary. The defining bridge: π rad = 180°, giving conversions: degrees → radians ×(π/180); radians → degrees ×(180/π).</p><p><b>Special angles</b> worth instant recall: 0, π/6, π/4, π/3, π/2, 2π/3, 3π/4, 5π/6, π and their degree twins 0°, 30°, 45°, 60°, 90°, …, 180°. Notice the pattern: each is a clean fraction of π because 180 has many divisors. Negative angles mean clockwise rotation; angles beyond 2π mean multiple turns — the rotation view (not the slice view) generalises to everything later.</p><p><b>Arc and sector.</b> From θ = s/r directly: s = rθ (θ in radians). The sector is the 'pizza slice' whose area scales with its arc: fraction θ/2π of the circle πr² gives A = ½r²θ. Both formulas are ONLY valid in radians — in degrees you need the clunky s = (θ/360)·2πr and A = (θ/360)·πr². This is the practical reason mathematicians insist on radians: the formulas lose their correction factors.</p><p><b>Where radians earn their keep:</b> angular velocity ω = θ/t (rad/s) links to linear speed by v = rω — a clean multiplication that fails in degrees. Gears, wheels, orbits: one revolution = 2π rad, so a wheel spinning f revolutions/second has ω = 2πf rad/s and a rim point moves at v = 2πfr. The 'per radian' language also previews calculus: the derivative of sin x is cos x ONLY when x is in radians (in degrees a factor π/180 dangles from every differentiation).</p><p><b>Problem habits:</b> draw the circle, mark the angle, label r and the arc/sector. Convert everything to radians FIRST, then apply s = rθ or A = ½r²θ. Sanity-check: an arc longer than the radius means an angle above 1 rad; a sector area above half the circle means θ > π. Keep answers in terms of π when exactness is wanted (a 90° sector of r = 6 has area 9π, not 'about 28.3').</p>",
+  keyTerms: [
+    { term: "Radian", def: "Angle subtending an arc equal to the radius; θ = s/r" },
+    { term: "π rad = 180°", def: "The conversion bridge between the two angle systems" },
+    { term: "Subtend", def: "(An arc) to 'reach across' an angle at the centre" },
+    { term: "Arc length", def: "s = rθ — distance along the circle, θ in radians" },
+    { term: "Sector", def: "Pizza-slice region between two radii and an arc; A = ½r²θ" },
+    { term: "Angular velocity ω", def: "Rate of rotation in rad/s; v = rω for rim speed" },
+    { term: "Coterminal angles", def: "Angles differing by full turns (2π rad), same terminal side" }
+  ],
+  formulas: [
+    {
+      name: "Degree–radian conversion",
+      formula: "θ(rad) = θ(°) × π/180 | θ(°) = θ(rad) × 180/π",
+      meaning: "Scale between the two units using π rad = 180°",
+      vars: [{ name: "π/180", meaning: "radians per degree", unit: "rad/°" }],
+      units: "rad or °",
+      when: "Any switch between systems",
+      example: "150° = 150π/180 = 5π/6 rad"
+    },
+    {
+      name: "Arc length",
+      formula: "s = rθ",
+      meaning: "Arc = radius times angle (radians only)",
+      vars: [{ name: "r", meaning: "radius", unit: "m, cm…" }, { name: "θ", meaning: "central angle", unit: "rad" }],
+      units: "length",
+      when: "Distance along a circular path",
+      example: "r = 10 cm, θ = 1.2 rad → s = 12 cm"
+    },
+    {
+      name: "Sector area",
+      formula: "A = ½r²θ = ½rs",
+      meaning: "Slice area from angle, or from arc length",
+      vars: [{ name: "θ", meaning: "central angle", unit: "rad" }, { name: "s", meaning: "arc length", unit: "length" }],
+      units: "area",
+      when: "Pizza slices, sprinkler coverage, gear teeth",
+      example: "r = 4 m, θ = π/3 → A = ½·16·π/3 = 8π/3 ≈ 8.38 m²"
+    },
+    {
+      name: "Angular to linear speed",
+      formula: "v = rω",
+      meaning: "Rim speed = radius × angular velocity (rad/s)",
+      vars: [{ name: "ω", meaning: "angular velocity", unit: "rad/s" }, { name: "v", meaning: "tangential speed", unit: "m/s" }],
+      units: "m/s",
+      when: "Wheels, gears, rotating machinery",
+      example: "Wheel r = 0.3 m at 10 rev/s: ω = 20π rad/s, v = 6π ≈ 18.8 m/s"
+    }
+  ],
+  workedExamples: [
+    {
+      problem: "Convert: (a) 210° to radians (b) 7π/12 to degrees.",
+      given: "Two angles in different systems",
+      formula: "×π/180 and ×180/π",
+      substitution: "(a) 210 × π/180 = 7π/6 (b) 7π/12 × 180/π = 7 × 15",
+      calculation: "(a) 7π/6 rad (b) 105°",
+      answer: "210° = 7π/6 rad; 7π/12 = 105°"
+    },
+    {
+      problem: "A bicycle wheel of radius 35 cm turns through an angle of 5π/6 rad. How far does the bike move (no slipping)?",
+      given: "r = 35 cm, θ = 5π/6",
+      formula: "Distance rolled = arc length s = rθ",
+      substitution: "s = 35 × 5π/6",
+      calculation: "= 175π/6 ≈ 91.6 cm",
+      answer: "≈ 91.6 cm — one full turn would be 2πr ≈ 220 cm"
+    },
+    {
+      problem: "A sprinkler waters a 120° sector at radius 8 m. Find the watered area.",
+      given: "θ = 120°, r = 8 m",
+      formula: "Convert first: 120° = 2π/3 rad; A = ½r²θ",
+      substitution: "A = ½ × 64 × 2π/3",
+      calculation: "= 64π/3 ≈ 67.0 m²",
+      answer: "≈ 67 m² (check: 120° is a third of a circle; full circle 64π ≈ 201; a third ≈ 67 ✓)"
+    },
+    {
+      problem: "A gojo (grinder) disc of radius 20 cm spins at 300 revolutions per minute. Find ω in rad/s and the speed of a point on the rim.",
+      given: "300 rpm, r = 0.2 m",
+      formula: "ω = 2πf; v = rω",
+      substitution: "f = 300/60 = 5 Hz; ω = 10π rad/s",
+      calculation: "v = 0.2 × 10π = 2π ≈ 6.28 m/s",
+      answer: "ω = 10π ≈ 31.4 rad/s; rim speed ≈ 6.3 m/s"
+    },
+    {
+      problem: "An arc of 15 cm subtends 2.5 rad at the centre. Find the radius and the sector area.",
+      given: "s = 15 cm, θ = 2.5 rad",
+      formula: "r = s/θ; A = ½r²θ",
+      substitution: "r = 15/2.5 = 6; A = ½ × 36 × 2.5",
+      calculation: "A = 45",
+      answer: "r = 6 cm, sector area = 45 cm²"
+    }
+  ],
+  commonMistakes: [
+    "Using s = rθ or A = ½r²θ with θ in DEGREES — convert to radians first, every time",
+    "Multiplying by 180/π when converting degrees → radians (the factor is backwards)",
+    "Thinking 1 radian = 100° (it's ≈ 57.3° — half a right angle plus a bit)",
+    "Forgetting the ½ in sector area: A = ½r²θ, not r²θ",
+    "rpm to rad/s: multiplying by 2π but forgetting to divide by 60 (minutes → seconds)",
+    "Assuming the arc-length formula changes with circle size — θ = s/r is scale-free by design",
+    "Writing 'radians' as a unit in dimensional analysis — radians are dimensionless ratios"
+  ],
+  applications: [
+    "Vehicle speedometers: wheel rpm × 2π × radius = road speed — all radian arithmetic",
+    "Ethiopian coffee-roasting drums and injera griddles (gojo): rim speed determines grinding rate",
+    "Clock hands: the minute hand sweeps π/30 rad per minute; angle questions on clocks are radian conversions",
+    "Agriculture: centre-pivot and sector sprinklers water ½r²θ areas — farmers size pumps from sector math",
+    "Satellite orbits: angular position in rad and orbital radius give ground-track arc distances"
+  ],
+  summary: "A radian is the angle cutting an arc of one radius — a dimensionless ratio θ = s/r — and the bridge π rad = 180° converts between systems. In radians the geometry is clean: s = rθ, A = ½r²θ, v = rω; in degrees the same facts drag correction factors. Convert first, then compute, and sanity-check against the circle's total 2π.",
+  visuals: [
+    { type: "tableVisual", config: { title: "Special angles both ways", headers: ["Degrees", "Radians", "½-turns"], rows: [["30°", "π/6", "1/12"], ["45°", "π/4", "1/8"], ["60°", "π/3", "1/6"], ["90°", "π/2", "1/4"], ["180°", "π", "1/2"], ["360°", "2π", "1"]] } },
+    { type: "steps", config: { title: "Where 1 radian comes from", steps: [{ label: "Take radius r", detail: "any circle" }, { label: "Walk arc = r", detail: "string of length r along rim" }, { label: "Angle swept", detail: "= 1 rad, always ≈ 57.3°" }, { label: "Full lap = 2πr", detail: "so full turn = 2π rad" }] } },
+    { type: "qa", config: { title: "Quick conversions", pairs: [{ q: "150° in rad?", a: "<b>5π/6</b> — ×π/180" }, { q: "3π/4 in degrees?", a: "<b>135°</b> — ×180/π" }, { q: "Arc: r = 10, θ = 0.7 rad?", a: "<b>s = 7</b> — s = rθ" }, { q: "Sector: r = 3, θ = π?", a: "<b>½·9·π ≈ 14.1</b> — half the circle" }] } }
+  ],
+  questions: [
+    { type: "mcq", q: "90° in radians is:", options: ["π/6", "π/4", "π/2", "2π"], answer: 2, difficulty: 1, explanation: "90 × π/180 = π/2" },
+    { type: "mcq", q: "5π/4 radians equals:", options: ["125°", "205°", "225°", "245°"], answer: 2, difficulty: 2, explanation: "5π/4 × 180/π = 5 × 45 = 225°" },
+    { type: "mcq", q: "Arc length for r = 6 cm, θ = 2 rad:", options: ["3 cm", "8 cm", "12 cm", "36 cm"], answer: 2, difficulty: 1, explanation: "s = rθ = 6 × 2 = 12 cm" },
+    { type: "mcq", q: "One radian is approximately:", options: ["100°", "63.7°", "57.3°", "45°"], answer: 2, difficulty: 1, explanation: "180/π ≈ 57.296°" },
+    { type: "tf", q: "Radians are larger units than degrees (1 rad > 1°).", answer: true, difficulty: 1, explanation: "1 rad ≈ 57.3°, so numerically radian values are much smaller for the same angle" },
+    { type: "tf", q: "The formula A = ½r²θ works with θ in degrees.", answer: false, difficulty: 2, explanation: "Radians only — degrees need A = (θ/360)πr²" },
+    { type: "short", q: "Convert 45° to radians.", answer: "π/4", difficulty: 1, explanation: "45 × π/180 = π/4" },
+    { type: "calc", q: "Sector area: r = 4 m, θ = π/2 rad. Give the EXACT value (e.g. '4π').", answer: "4π", altAnswers: ["12.57"], difficulty: 2, explanation: "A = ½r²θ = ½·16·π/2 = 4π ≈ 12.57 m² — exactly a quarter of the circle's 16π" },
+    { type: "calc", q: "A wheel of radius 0.5 m rolls without slipping through 3 rad. Distance travelled (m)?", answer: "1.5", difficulty: 2, explanation: "s = rθ = 0.5 × 3 = 1.5 m" },
+    { type: "concept", q: "Why do mathematicians prefer radians over degrees?", answer: "cleaner formulas|s = rθ|no conversion factors|natural unit|arc ratio", difficulty: 2, explanation: "Arc and sector formulas (s = rθ, A = ½r²θ) and calculus (d/dx sin x = cos x) hold only in radians — degrees add correction factors everywhere" }
+  ]
+};
+
+Lessons["g10-mathematics-um4-t2"] = {
+  overview: "Sine, cosine and tangent start as right-triangle ratios — SOH CAH TOA — and graduate to circular functions via the unit circle, which extends them to every angle and reveals their wave graphs. This lesson builds both views and the sign rules that connect them.",
+  objectives: [
+    "Define sin, cos, tan as right-triangle ratios (SOH CAH TOA)",
+    "Extend the definitions to any angle using the unit circle",
+    "Apply the CAST sign rule across the four quadrants",
+    "Recall exact values at 0°, 30°, 45°, 60°, 90° and special radian twins",
+    "Sketch one period of sin, cos and tan graphs with key features"
+  ],
+  simple: "In a right triangle, the three trig ratios compare one side to another using the angle θ as the reference: sin θ = Opposite/Hypotenuse, cos θ = Adjacent/Hypotenuse, tan θ = Opposite/Adjacent (memorise: SOH CAH TOA). Because similar triangles give identical ratios regardless of size, the angle alone decides everything. Now upgrade: place the angle at the centre of a circle of radius 1 and look at the point where its terminal side lands — that point is (cos θ, sin θ). Suddenly trig works for ANY angle, negative or huge: sine is the y-coordinate, cosine the x-coordinate, tangent their ratio. The x- and y-coordinates flip signs by quadrant, giving the CAST rule: All positive in Q1, Sine in Q2, Tangent in Q3, Cosine in Q4. Plot y = sin x and you get the smooth wave that describes everything from sound to sunlight hours.",
+  detailed: "<p><b>Triangle definition.</b> For acute θ in a right triangle: sin θ = opp/hyp, cos θ = adj/hyp, tan θ = opp/adj = sin θ/cos θ. The ratios are size-independent (similar triangles), which is why a protractor angle suffices. Complementary pairing: sin θ = cos(90° − θ) — sine and cosine are the same function read from the two different acute angles. Exact values come from two special triangles: the 45-45-90 (legs 1, hyp √2) gives sin 45° = √2/2; the 30-60-90 (sides 1, √3, 2) gives sin 30° = 1/2, sin 60° = √3/2. With 0° and 90° as endpoint cases (sin 0 = 0, cos 0 = 1, sin 90 = 1, cos 90 = 0, tan 90 undefined), the whole exact table is reconstructible — never memorise it blindly, rebuild it from the triangles.</p><p><b>Unit circle definition.</b> Rotate a radius of length 1 from the positive x-axis by angle θ (counter-clockwise positive, clockwise negative). The terminal point P = (cos θ, sin θ) — cosine is the x-coordinate, sine the y-coordinate, and since P sits on x² + y² = 1, we get the Pythagorean identity sin²θ + cos²θ = 1 for free. Tangent = y/x, which dies at x = 0 (θ = 90°, 270° — the asymptotes). Angles differing by 360° (2π) land on the same point: the functions are periodic with period 2π (tan: π). Reference angles: any θ reduces to an acute angle with the same |ratio|, and CAST assigns the sign — e.g. sin 150° = +sin 30° = 1/2 (Q2, sine positive), cos 240° = −cos 60° = −1/2 (Q3, cosine negative).</p><p><b>The graphs.</b> y = sin x: wave through (0,0), peak 1 at π/2, zero at π, trough −1 at 3π/2, back at 2π — amplitude 1, period 2π, range [−1, 1]. y = cos x: the same wave shifted left by π/2 (starts at its peak). y = tan x: repeating branches between vertical asymptotes at π/2 + kπ, passing through zero at multiples of π, period π, range all reals. Reading these graphs is the skill that makes equations (next lesson) and applications (the one after) possible — sketch the wave, draw the horizontal line y = k, and the intersections are the solutions.</p><p><b>Sign discipline:</b> CAST (or 'All-Sin-Tan-Cos' starting Q1) is the quadrant rule. Equivalently: x-coordinate sign = cos sign, y-coordinate sign = sin sign, ratio sign = tan sign. A negative angle −θ reflects across the x-axis: cos(−θ) = cos θ (even), sin(−θ) = −sin θ (odd), tan(−θ) = −tan θ. These parity facts simplify identities and graph transformations later.</p>",
+  keyTerms: [
+    { term: "SOH CAH TOA", def: "Sin=Opp/Hyp, Cos=Adj/Hyp, Tan=Opp/Adj in a right triangle" },
+    { term: "Unit circle", def: "Circle of radius 1; terminal point (cos θ, sin θ) defines trig for all angles" },
+    { term: "Terminal side", def: "The rotating radius's final position that determines the angle's quadrant" },
+    { term: "CAST rule", def: "Signs by quadrant: All, Sine, Tangent, Cosine positive (Q1→Q4)" },
+    { term: "Reference angle", def: "Acute angle to the x-axis; same |ratio|, CAST gives the sign" },
+    { term: "Period", def: "2π for sin/cos, π for tan — the repeat length" },
+    { term: "Amplitude", def: "Peak height of the wave: 1 for standard sin and cos" }
+  ],
+  formulas: [
+    {
+      name: "Right-triangle ratios",
+      formula: "sin θ = o/h | cos θ = a/h | tan θ = o/a",
+      meaning: "Side ratios relative to angle θ (hypotenuse h, opposite o, adjacent a)",
+      vars: [{ name: "θ", meaning: "acute angle", unit: "deg or rad" }, { name: "h", meaning: "hypotenuse", unit: "length" }],
+      units: "dimensionless ratio",
+      when: "Right triangles: heights, distances, slopes",
+      example: "o = 3, h = 5 → sin θ = 0.6, θ ≈ 36.9°"
+    },
+    {
+      name: "Unit-circle definition",
+      formula: "P(θ) = (cos θ, sin θ) on x² + y² = 1",
+      meaning: "Cosine is the x-coordinate, sine the y-coordinate of the rotated point",
+      vars: [{ name: "θ", meaning: "any real angle", unit: "rad (or °)" }],
+      units: "dimensionless",
+      when: "Any angle, negative or > 360°; signs by quadrant",
+      example: "θ = 150°: P = (−√3/2, 1/2) → cos = −√3/2, sin = +1/2"
+    },
+    {
+      name: "Tangent as ratio",
+      formula: "tan θ = sin θ / cos θ",
+      meaning: "Slope of the terminal side; undefined where cos θ = 0",
+      vars: [{ name: "cos θ ≠ 0", meaning: "excludes 90°, 270°, …", unit: "—" }],
+      units: "dimensionless",
+      when: "Relating the three functions; finding asymptotes",
+      example: "tan 45° = (√2/2)/(√2/2) = 1"
+    }
+  ],
+  workedExamples: [
+    {
+      problem: "A ladder 6 m long leans against a wall at 70° to the floor. How high does it reach?",
+      given: "Hypotenuse 6 m, angle 70° at base",
+      formula: "sin θ = opp/hyp → height = 6 sin 70°",
+      substitution: "sin 70° ≈ 0.9397",
+      calculation: "6 × 0.9397 ≈ 5.64",
+      answer: "≈ 5.6 m up the wall (sanity: less than 6 ✓)"
+    },
+    {
+      problem: "Find exact values of sin 150°, cos 225° and tan 300° using reference angles and CAST.",
+      given: "Three non-acute angles",
+      formula: "Reference angle + quadrant sign",
+      substitution: "150°: ref 30°, Q2 → sin +; 225°: ref 45°, Q3 → cos −; 300°: ref 60°, Q4 → tan −",
+      calculation: "sin 150° = 1/2; cos 225° = −√2/2; tan 300° = −√3",
+      answer: "1/2, −√2/2, −√3"
+    },
+    {
+      problem: "If sin θ = 3/5 and θ is in Q2, find cos θ and tan θ exactly.",
+      given: "One ratio + quadrant",
+      formula: "sin²θ + cos²θ = 1; tan = sin/cos",
+      substitution: "cos²θ = 1 − 9/25 = 16/25; Q2 → cos negative",
+      calculation: "cos θ = −4/5; tan θ = (3/5)/(−4/5) = −3/4",
+      answer: "cos θ = −4/5, tan θ = −3/4"
+    },
+    {
+      problem: "State the period, amplitude and range of y = 3 sin(2x).",
+      given: "Transformed sine",
+      formula: "y = A sin(Bx): amplitude |A|, period 2π/|B|",
+      substitution: "A = 3, B = 2",
+      calculation: "period = 2π/2 = π",
+      answer: "Amplitude 3, period π, range [−3, 3] — the 2 squeezes the wave to half its width"
+    },
+    {
+      problem: "Evaluate without tables: sin 0 + sin 90° + sin 180° + sin 270° + sin 360°.",
+      given: "Five quarter-turn sines",
+      formula: "Unit circle y-coordinates: 0, 1, 0, −1, 0",
+      substitution: "0 + 1 + 0 + (−1) + 0",
+      calculation: "= 0",
+      answer: "0 — the full wave's positive and negative halves cancel exactly"
+    }
+  ],
+  commonMistakes: [
+    "Applying SOH CAH TOA to non-right triangles — the basic ratios need a 90° angle",
+    "Labeling opposite/adjacent from the WRONG acute angle (they swap between the two)",
+    "Forgetting CAST signs: writing sin 150° = −1/2 (Q2 sine is POSITIVE)",
+    "Saying tan 90° = 0 or 'big' — it is UNDEFINED (division by cos 90° = 0)",
+    "Confusing the point (cos θ, sin θ) order — cosine is x FIRST, like 'cos' before 'sin' alphabetically on axes",
+    "Assuming sin(2θ) = 2 sin θ — the function doesn't distribute over its argument",
+    "Mixing degree and radian mode on the calculator — sin(π/2) in DEG mode gives ≈ 0.027, a red flag"
+  ],
+  applications: [
+    "Sound: every pure tone is a sine wave — frequency is the period, loudness the amplitude",
+    "Daylight hours in Addis Ababa (near equator) oscillate slightly sinusoidally through the year",
+    "Tides, AC electricity (50 Hz sine), and heart monitor traces are all sine curves",
+    "Construction: roof pitch, ladder safety angles and ramp gradients are cosine/tangent calculations",
+    "Astronomy: planet positions projected on the sky trace sinusoids — Kepler's laws ride on trig"
+  ],
+  summary: "SOH CAH TOA defines the ratios in right triangles; the unit circle upgrades them to coordinates — P(θ) = (cos θ, sin θ) — valid for every angle, with quadrant signs by CAST and reference angles reducing everything to the exact 30/45/60 table. The graphs are waves: sin and cos have amplitude 1, period 2π (cos shifted π/2 left), tan has period π with asymptotes where cos = 0. y = A sin(Bx) scales amplitude by |A| and divides the period by |B|.",
+  visuals: [
+    { type: "tableVisual", config: { title: "Exact values table", headers: ["θ", "sin", "cos", "tan"], rows: [["0°", "0", "1", "0"], ["30°", "1/2", "√3/2", "√3/3"], ["45°", "√2/2", "√2/2", "1"], ["60°", "√3/2", "1/2", "√3"], ["90°", "1", "0", "undef"]] } },
+    { type: "cycleDiagram", config: { title: "CAST — who's positive where", nodes: ["Q1: ALL +", "Q2: Sin +", "Q3: Tan +", "Q4: Cos +"] } },
+    { type: "lineGraph", config: { title: "One period: sin and cos waves", xLabel: "x (rad)", yLabel: "y", series: [{ label: "sin x", points: [[0, 0], [0.79, 0.71], [1.57, 1], [2.36, 0.71], [3.14, 0], [3.93, -0.71], [4.71, -1], [5.5, -0.71], [6.28, 0]] }, { label: "cos x", points: [[0, 1], [0.79, 0.71], [1.57, 0], [2.36, -0.71], [3.14, -1], [3.93, -0.71], [4.71, 0], [5.5, 0.71], [6.28, 1]] }] } }
+  ],
+  questions: [
+    { type: "mcq", q: "In a right triangle, cos θ is:", options: ["opp/hyp", "adj/hyp", "opp/adj", "hyp/adj"], answer: 1, difficulty: 1, explanation: "CAH: cosine = adjacent over hypotenuse" },
+    { type: "mcq", q: "sin 150° =", options: ["−1/2", "1/2", "√3/2", "−√3/2"], answer: 1, difficulty: 2, explanation: "Reference 30°, Q2 where sine is positive: +1/2" },
+    { type: "mcq", q: "The point (cos θ, sin θ) = (0, −1) corresponds to θ =", options: ["90°", "180°", "270°", "360°"], answer: 2, difficulty: 2, explanation: "x = 0, y = −1 is the bottom of the circle: 270°" },
+    { type: "mcq", q: "Period of y = sin(2x) is:", options: ["2π", "π", "4π", "π/2"], answer: 1, difficulty: 2, explanation: "Period = 2π/B = 2π/2 = π" },
+    { type: "tf", q: "tan 90° = 0.", answer: false, difficulty: 2, explanation: "tan = sin/cos; cos 90° = 0 makes it undefined (vertical asymptote)" },
+    { type: "tf", q: "cos(−θ) = cos θ for all θ.", answer: true, difficulty: 2, explanation: "Reflecting across the x-axis keeps the x-coordinate: cosine is an even function" },
+    { type: "short", q: "State the exact value of tan 45°.", answer: "1", difficulty: 1, explanation: "sin 45° = cos 45° → ratio 1 (isosceles right triangle: opp = adj)" },
+    { type: "short", q: "In which quadrants is sin θ negative?", answer: "Q3 and Q4|3 and 4|third and fourth", difficulty: 2, explanation: "Sine is the y-coordinate — negative below the x-axis" },
+    { type: "calc", q: "A 10 m wire from a 6 m pole top to the ground makes angle θ with the ground. sin θ = 6/10. Find θ in degrees to 1 decimal.", answer: "36.9", difficulty: 2, explanation: "θ = arcsin(0.6) ≈ 36.87°", tolerance: 0.2 },
+    { type: "concept", q: "Why does sin θ = cos(90° − θ)?", answer: "complementary|other acute angle|swaps opposite adjacent|same ratio", difficulty: 2, explanation: "The two acute angles of a right triangle are complementary; the side opposite one is adjacent to the other — same ratio, different name" }
+  ]
+};
+
+Lessons["g10-mathematics-um4-t3"] = {
+  overview: "Trigonometric identities are equations true for EVERY angle — the Pythagorean identity and the quotient/reciprocal family let you rewrite expressions into solvable form. With identities in hand, trig equations become algebra in disguise: substitute, factor, and harvest solutions from the periodic wave.",
+  objectives: [
+    "State and apply the Pythagorean identities",
+    "Use quotient and reciprocal identities to rewrite expressions",
+    "Prove simple identities by transforming one side",
+    "Solve basic trig equations over [0, 2π) and general solutions",
+    "Use the double-angle formulas sin 2θ and cos 2θ"
+  ],
+  simple: "An identity is a trig equation that never lies: sin²θ + cos²θ = 1 for every angle, because it IS the unit circle x² + y² = 1 in trig clothing. From it, divide by cos² and you get 1 + tan²θ = sec²θ; divide by sin² and get cot²θ + 1 = csc²θ. The other tools: tan θ = sin θ/cos θ, and the reciprocals sec = 1/cos, csc = 1/sin, cot = 1/tan. Proving an identity means taking the messy side and rewriting until it matches the other — never 'do the same thing to both sides' (you can't assume what you're proving!). Solving equations like 2sin θ = 1 works by isolating: sin θ = 1/2, then reading the wave: θ = 30° and 150°, plus every 360° repeat. Quadratic-looking ones (2cos²θ − cos θ − 1 = 0) factor after substituting u = cos θ. The double-angle gifts: sin 2θ = 2 sin θ cos θ and cos 2θ = cos²θ − sin²θ = 2cos²θ − 1 = 1 − 2sin²θ.",
+  detailed: "<p><b>The identity kit.</b> Pythagorean: sin²θ + cos²θ = 1 (unit circle). Quotient: tan θ = sin θ/cos θ, cot θ = cos θ/sin θ. Reciprocal: sec θ = 1/cos θ, csc θ = 1/sin θ, cot θ = 1/tan θ. Derived: 1 + tan²θ = sec²θ and 1 + cot²θ = csc²θ (divide the Pythagorean identity by cos² or sin²). Strategy for proofs: convert everything to sin and cos, find common denominators, use sin² + cos² = 1 to collapse. E.g. prove (1 − cos²θ)/sin θ = sin θ: LHS = sin²θ/sin θ = sin θ ✓. Aim at the target form, work one side only, and justify each step.</p><p><b>Solving sin θ = k.</b> For |k| ≤ 1: the reference angle α = arcsin(k) gives solutions θ = α and π − α in [0, 2π), then + 2πk for the general solution. E.g. sin θ = 1/2 → θ = π/6, 5π/6 (+2nπ). For |k| > 1: no solution — the range of sine is [−1, 1]. cos θ = k gives θ = ±α (+2nπ); tan θ = k gives θ = α + nπ (period π, only ONE family per period). Always ask: which interval? 'General solution' means the +2nπ (or +nπ) families; 'in [0, 2π)' means list the specific values.</p><p><b>Equations needing identities:</b> when both sin and cos appear, convert to one function: 2sin²θ − sin θ − 1 = 0 factors as (2sin θ + 1)(sin θ − 1) = 0 → sin θ = −1/2 or 1 → θ = 7π/6, 11π/6, π/2. Homogeneous forms like 2sin θ cos θ = cos θ must NOT be 'solved' by dividing by cos θ (you'd lose the cos θ = 0 roots!) — factor instead: cos θ(2sin θ − 1) = 0 → cos θ = 0 (θ = π/2, 3π/2) or sin θ = 1/2. This factoring-versus-dividing trap is the #1 error of the lesson.</p><p><b>Double angles</b> come from the addition formulas (θ + φ versions): sin 2θ = 2 sin θ cos θ; cos 2θ = cos²θ − sin²θ with its two single-function siblings via the Pythagorean identity — handy when an equation mixes θ and 2θ: cos 2θ = sin θ → 1 − 2sin²θ = sin θ → quadratic in sin θ. The identities also power exact values: sin 15° from the half-angle or 45° − 30° difference formula.</p><p><b>Verification discipline:</b> identities can be sanity-checked with a test angle (θ = 30° or 45°) — if both sides disagree there, the 'proof' is broken. And solutions must be checked in the ORIGINAL equation, since squaring or multiplying by expressions can introduce extraneous roots (e.g. solving via squaring sin θ = cos θ can admit θ where signs differ).</p>",
+  keyTerms: [
+    { term: "Identity", def: "Equation true for all permissible values of the variable" },
+    { term: "Pythagorean identity", def: "sin²θ + cos²θ = 1 — the unit circle restated" },
+    { term: "Reciprocal identities", def: "sec = 1/cos, csc = 1/sin, cot = 1/tan" },
+    { term: "General solution", def: "All solutions via +2nπ (or +nπ for tan) families" },
+    { term: "Double-angle formulas", def: "sin 2θ = 2sinθcosθ; cos 2θ = cos²θ − sin²θ" },
+    { term: "Extraneous root", def: "A 'solution' introduced by squaring or lost/added by dividing" },
+    { term: "Reference angle", def: "Acute α with the same |trig value|; quadrant decides the actual solution" }
+  ],
+  formulas: [
+    {
+      name: "Pythagorean family",
+      formula: "sin²θ + cos²θ = 1 | 1 + tan²θ = sec²θ | 1 + cot²θ = csc²θ",
+      meaning: "One circle equation, three divisions of it",
+      vars: [{ name: "θ", meaning: "any angle (where defined)", unit: "rad/°" }],
+      units: "dimensionless",
+      when: "Converting between functions; proving identities",
+      example: "cos θ = 3/5, Q1 → sin²θ = 1 − 9/25 = 16/25 → sin θ = 4/5"
+    },
+    {
+      name: "Double angle",
+      formula: "sin 2θ = 2 sin θ cos θ | cos 2θ = 1 − 2sin²θ = 2cos²θ − 1",
+      meaning: "Sine doubles via the product; cosine doubles via three interchangeable forms",
+      vars: [{ name: "2θ", meaning: "the doubled angle", unit: "rad/°" }],
+      units: "dimensionless",
+      when: "Mixed-angle equations; exact values; physics waves",
+      example: "sin θ = 3/5, cos θ = 4/5 → sin 2θ = 24/25"
+    },
+    {
+      name: "Solution families",
+      formula: "sin θ = k: θ = α, π − α + 2nπ | cos θ = k: θ = ±α + 2nπ | tan θ = k: θ = α + nπ",
+      meaning: "How many solution branches each function has per period",
+      vars: [{ name: "α", meaning: "reference angle (arcsin/arccos/arctan k)", unit: "rad" }, { name: "n", meaning: "any integer", unit: "—" }],
+      units: "rad",
+      when: "Writing complete solution sets",
+      example: "tan θ = 1 → θ = π/4 + nπ"
+    }
+  ],
+  workedExamples: [
+    {
+      problem: "Prove: (sin θ + cos θ)² = 1 + sin 2θ.",
+      given: "Identity to establish",
+      formula: "Expand LHS; Pythagorean + double-angle",
+      substitution: "LHS = sin²θ + 2sinθcosθ + cos²θ",
+      calculation: "= (sin²θ + cos²θ) + 2sinθcosθ = 1 + sin 2θ",
+      answer: "= RHS ∎ (one side only — never 'both sides')"
+    },
+    {
+      problem: "Solve 2sin θ − 1 = 0 for θ ∈ [0, 2π).",
+      given: "Linear trig equation",
+      formula: "Isolate sin, then reference angle + CAST",
+      substitution: "sin θ = 1/2; reference π/6; sine positive in Q1, Q2",
+      calculation: "θ = π/6 and π − π/6 = 5π/6",
+      answer: "θ = π/6, 5π/6 (general: +2nπ)"
+    },
+    {
+      problem: "Solve 2cos²θ − cos θ − 1 = 0 on [0, 360°).",
+      given: "Quadratic in cos θ",
+      formula: "Substitute u = cos θ; factor",
+      substitution: "2u² − u − 1 = (2u + 1)(u − 1) = 0 → u = −1/2 or 1",
+      calculation: "cos θ = 1 → 0°; cos θ = −1/2 → Q2/Q3: 120°, 240°",
+      answer: "θ = 0°, 120°, 240°"
+    },
+    {
+      problem: "Solve 2sin θ cos θ = cos θ on [0, 2π).",
+      given: "Common factor on both sides",
+      formula: "FACTOR — never divide by cos θ",
+      substitution: "cos θ(2sin θ − 1) = 0",
+      calculation: "cos θ = 0 → π/2, 3π/2; sin θ = 1/2 → π/6, 5π/6",
+      answer: "θ = π/6, π/2, 5π/6, 3π/2 — dividing by cos θ would have lost two of these"
+    },
+    {
+      problem: "Given sin θ = 3/5 with θ in Q2, find sin 2θ and cos 2θ exactly.",
+      given: "One ratio, quadrant",
+      formula: "cos θ = −4/5 (Q2); double-angle formulas",
+      substitution: "sin 2θ = 2(3/5)(−4/5); cos 2θ = 1 − 2(9/25)",
+      calculation: "= −24/25; = 1 − 18/25 = 7/25",
+      answer: "sin 2θ = −24/25, cos 2θ = 7/25 (check: (−24/25)² + (7/25)² = 625/625 = 1 ✓)"
+    }
+  ],
+  commonMistakes: [
+    "Dividing both sides by sin θ or cos θ when solving — always FACTOR and keep the zero roots",
+    "'Proving' identities by manipulating both sides simultaneously as if the result were already true",
+    "sin²θ meaning (sin θ)² — not sin(sin θ) and not sin(θ²)",
+    "Forgetting the second solution per period for sin and cos (only tan has one)",
+    "Writing general solutions without +2nπ when the question asks for ALL solutions",
+    "Using a calculator's arcsin and stopping — it returns only the principal value, missing the CAST twin",
+    "Applying sin 2θ = 2 sin θ (the double-angle is a PRODUCT, not a scalar multiple)"
+  ],
+  applications: [
+    "AC power engineering: average of sin² over a cycle = ½ (from cos 2θ identity) gives RMS voltage 220/√2",
+    "Signal processing: identity rewriting is how filters and mixers combine frequencies",
+    "Physics: projectile range R = v²sin 2θ/g — the double-angle formula explains why 45° is optimal",
+    "Vibration analysis: combining waves of the same frequency uses sum-to-product identities",
+    "Navigation: great-circle corrections reduce to trig identities between latitude/longitude angles"
+  ],
+  summary: "Identities — the Pythagorean family, quotient and reciprocal sets, and double-angle formulas — are always-true rewritings that turn trig equations into algebra. Solve by isolating and harvesting both branches per period (sin/cos) with CAST, or substitute u = trig function for quadratics. Factor, never divide, when a function appears on both sides, and prove identities one side at a time.",
+  visuals: [
+    { type: "formulaDerivation", config: { title: "From circle to identities", lines: [{ expr: "x² + y² = 1", note: "unit circle" }, { expr: "x = cos θ, y = sin θ", note: "substitute definitions" }, { expr: "sin²θ + cos²θ = 1", note: "Pythagorean identity" }, { expr: "÷ cos²θ", note: "divide through" }, { expr: "tan²θ + 1 = sec²θ", note: "derived identity" }] } },
+    { type: "steps", config: { title: "Solving trig equations", steps: [{ label: "One function", detail: "use identities to unify" }, { label: "Isolate/factor", detail: "never divide away roots" }, { label: "Reference angle", detail: "arcsin etc. gives α" }, { label: "CAST twins", detail: "find all per period" }, { label: "Generalise", detail: "+2nπ or +nπ if asked" }] } },
+    { type: "qa", config: { title: "Identity first-aid", pairs: [{ q: "1 − sin²θ simplifies to?", a: "<b>cos²θ</b> — Pythagorean" }, { q: "2 sin θ cos θ equals?", a: "<b>sin 2θ</b> — double angle" }, { q: "cos²θ − sin²θ equals?", a: "<b>cos 2θ</b>" }, { q: "sin θ = 2 has solutions?", a: "<b>None</b> — range is [−1, 1]" }] } }
+  ],
+  questions: [
+    { type: "mcq", q: "sin²θ + cos²θ =", options: ["0", "1", "2", "tan θ"], answer: 1, difficulty: 1, explanation: "The Pythagorean identity — unit circle x² + y² = 1" },
+    { type: "mcq", q: "1 − cos²θ equals:", options: ["sin²θ", "tan²θ", "cos²θ", "sec²θ"], answer: 0, difficulty: 1, explanation: "Rearrange sin² + cos² = 1" },
+    { type: "mcq", q: "Solutions of sin θ = 1/2 in [0, 2π):", options: ["π/6 only", "π/6, 5π/6", "π/3, 2π/3", "5π/6 only"], answer: 1, difficulty: 2, explanation: "Reference π/6; sine positive in Q1 and Q2" },
+    { type: "mcq", q: "The equation 2cos²θ + cos θ = 0 factors as:", options: ["cos θ(2cos θ + 1) = 0", "(2cos θ)(cos θ) + cos θ", "cos(2θ + 1) = 0", "2cos θ(cos θ + 1) = 0"], answer: 0, difficulty: 2, explanation: "Common factor cos θ; roots cos θ = 0 or −1/2" },
+    { type: "tf", q: "tan²θ + 1 = sec²θ is a valid identity.", answer: true, difficulty: 2, explanation: "Divide sin² + cos² = 1 by cos²θ" },
+    { type: "tf", q: "sin 2θ = 2 sin θ.", answer: false, difficulty: 1, explanation: "sin 2θ = 2 sin θ cos θ — the cosine factor is essential" },
+    { type: "short", q: "If cos θ = 5/13 and θ is acute, sin θ = ?", answer: "12/13", difficulty: 2, explanation: "√(1 − 25/169) = √(144/169) = 12/13" },
+    { type: "calc", q: "Solve tan θ = √3 for θ in degrees, 0° ≤ θ < 180°.", answer: "60", difficulty: 2, explanation: "tan 60° = √3; period 180° so only 60° in range" },
+    { type: "concept", q: "Why can't you solve sin θ = cos θ by dividing both sides by cos θ and forgetting cos θ = 0 cases?", answer: "lose solutions|cos zero|division by zero|factor instead", difficulty: 3, explanation: "Dividing assumes cos θ ≠ 0; any angle where cos θ = 0 (and sin θ = 0 too — impossible here, but the habit kills roots in general) is silently discarded. Factoring keeps every branch" },
+    { type: "calc", q: "sin θ = 3/5, cos θ = 4/5 (acute). Compute sin 2θ as a decimal.", answer: "0.96", difficulty: 2, explanation: "2 × 3/5 × 4/5 = 24/25 = 0.96" }
+  ]
+};
+
+Lessons["g10-mathematics-um4-t4"] = {
+  overview: "Trigonometry pays the bills: heights you can't climb, distances you can't cross, angles you can't measure directly — all recoverable from one measured angle and one known length. This lesson deploys sine/cosine/tangent, angles of elevation and depression, and the sine and cosine rules for non-right triangles.",
+  objectives: [
+    "Model height/distance problems with right-triangle trig",
+    "Use angles of elevation and depression correctly (alternate angles!)",
+    "Apply the sine rule for non-right triangles (two cases)",
+    "Apply the cosine rule and choose the right rule for given data",
+    "Compute areas with ½ab sin C and solve multi-step field problems"
+  ],
+  simple: "You can't walk a tape measure up the Entoto hill or across the Blue Nile gorge — but you CAN measure an angle. Stand 50 m from a tower's base, sight the top at 62° elevation: height = 50 × tan 62° ≈ 94 m. That's the whole magic: one angle + one accessible length unlocks the inaccessible side. Angles of depression work identically — looking DOWN at 25° from a cliff means the object looks UP at 25° from its end (alternate angles between parallel horizontals). When the triangle isn't right-angled, two bigger tools take over: the sine rule (a/sin A = b/sin B = c/sin C) when you have a side and its opposite angle, and the cosine rule (c² = a² + b² − 2ab cos C) — Pythagoras with a correction term — when you have two sides and the included angle. Area upgrades from ½bh to ½ab sin C when the height is inconvenient.",
+  detailed: "<p><b>Elevation and depression.</b> An angle of elevation is measured UP from the horizontal to a line of sight; depression, DOWN. Both live at the observer's eye, and the horizontal lines at eye level and at the target are parallel — so depression at the top equals elevation at the bottom (alternate angles). The classic setup: observer, foot-of-vertical, target form a right triangle; pick the ratio by which sides you know/want: tan for opposite-over-adjacent (height from distance), sin for hypotenuse situations. Two-position problems (walk 20 m closer, angle changes from 30° to 60°) need two equations: h = d·tan 60° and h = (d + 20)·tan 30° — solve simultaneously; the trick is expressing both distances from the SAME foot point.</p><p><b>Sine rule.</b> In ANY triangle: a/sin A = b/sin B = c/sin C (proof: drop the altitude from C; h = b sin A = a sin B). Use it when you know a side and its OPPOSITE angle (AAS or ASA data), or two sides and a non-included angle — the ambiguous case: given a, b, A, the equation sin B = b·sin A/a can yield B or 180° − B (two triangles) when b sin A < a < b. Always check the angle-sum budget: A + B < 180°.</p><p><b>Cosine rule.</b> c² = a² + b² − 2ab cos C — Pythagoras plus the −2ab cos C correction that vanishes at C = 90°. Use with SAS (two sides + included angle → third side) or SSS (three sides → any angle, via cos C = (a² + b² − c²)/2ab). Choosing: got an opposite pair? sine rule. Got the included angle or all sides? cosine rule. Neither? you lack information.</p><p><b>Area.</b> Area = ½ab sin C (any two sides and their included angle) — the generalisation of ½bh since h = b sin C. Combined with the sine/cosine rules it solves full field triangulation: measure one baseline and four angles, compute every side via sine rule, every area via ½ab sin C. Surveyors mapped Ethiopia's highlands exactly this way — triangulation networks from measured baselines.</p><p><b>3D extensions:</b> a pyramid or roof ridge problem is two right triangles chained — find the base diagonal first (Pythagoras in the floor plane), then the vertical angle. The angle between a slant edge and the floor is NOT the face angle — it uses the diagonal. Draw the hidden right triangle explicitly; label knowns; one trig step per triangle. Bearing problems (N30°E style) add a compass diagram: resolve into north/east components with sin/cos of the bearing angle.</p>",
+  keyTerms: [
+    { term: "Angle of elevation", def: "Angle up from horizontal to the line of sight" },
+    { term: "Angle of depression", def: "Angle down from horizontal — equals the alternate elevation at the target" },
+    { term: "Line of sight", def: "The straight ray from observer's eye to the object" },
+    { term: "Sine rule", def: "a/sin A = b/sin B = c/sin C — works with opposite side-angle pairs" },
+    { term: "Cosine rule", def: "c² = a² + b² − 2ab cos C — SAS and SSS solver" },
+    { term: "Ambiguous case", def: "SSA data giving 0, 1 or 2 triangles via sin B's two candidates" },
+    { term: "Included angle", def: "The angle BETWEEN two known sides — the cosine rule's requirement" },
+    { term: "Triangulation", def: "Mapping distances from one baseline plus measured angles" }
+  ],
+  formulas: [
+    {
+      name: "Height from elevation",
+      formula: "h = d · tan θ",
+      meaning: "Height = horizontal distance × tangent of elevation angle",
+      vars: [{ name: "d", meaning: "horizontal distance to foot", unit: "m" }, { name: "θ", meaning: "angle of elevation", unit: "deg" }, { name: "h", meaning: "height above eye level", unit: "m" }],
+      units: "m",
+      when: "Towers, hills, trees from a measured distance",
+      example: "d = 50 m, θ = 62°: h = 50 × 1.881 ≈ 94 m"
+    },
+    {
+      name: "Sine rule",
+      formula: "a/sin A = b/sin B = c/sin C",
+      meaning: "Each side is proportional to the sine of its opposite angle",
+      vars: [{ name: "a, b, c", meaning: "sides", unit: "length" }, { name: "A, B, C", meaning: "opposite angles", unit: "deg" }],
+      units: "length",
+      when: "AAS, ASA, or SSA (check ambiguity)",
+      example: "A = 40°, a = 10, B = 60°: b = 10 sin 60°/sin 40° ≈ 13.5"
+    },
+    {
+      name: "Cosine rule",
+      formula: "c² = a² + b² − 2ab cos C | cos C = (a² + b² − c²)/(2ab)",
+      meaning: "Third side from SAS; angle from SSS — Pythagoras generalised",
+      vars: [{ name: "C", meaning: "angle included by a and b", unit: "deg" }],
+      units: "length² / dimensionless",
+      when: "SAS or SSS triangles",
+      example: "a = 7, b = 5, C = 60°: c² = 49 + 25 − 35 = 39, c ≈ 6.24"
+    },
+    {
+      name: "Triangle area",
+      formula: "Area = ½ab sin C",
+      meaning: "Half the product of two sides times sine of their included angle",
+      vars: [{ name: "C", meaning: "included angle", unit: "deg" }],
+      units: "area",
+      when: "Any triangle with two sides + included angle",
+      example: "a = 8, b = 6, C = 30°: Area = ½·48·0.5 = 12"
+    }
+  ],
+  workedExamples: [
+    {
+      problem: "From a point 80 m from the foot of a tower, the angle of elevation to the top is 51°. Find the tower's height (observer's eye negligible).",
+      given: "d = 80 m, θ = 51°",
+      formula: "tan θ = h/d → h = d tan θ",
+      substitution: "h = 80 × tan 51° = 80 × 1.2349",
+      calculation: "≈ 98.8",
+      answer: "≈ 99 m tall"
+    },
+    {
+      problem: "From a 120 m cliff, the angle of depression to a boat is 22°. How far is the boat from the cliff base?",
+      given: "height 120 m, depression 22° → alternate elevation 22° at boat",
+      formula: "tan 22° = 120/d → d = 120/tan 22°",
+      substitution: "tan 22° ≈ 0.4040",
+      calculation: "d = 120/0.404 ≈ 297",
+      answer: "≈ 297 m from the base (never put the depression angle inside the triangle at the top — use its alternate)"
+    },
+    {
+      problem: "A surveyor measures angle A = 55°, side b = 200 m, angle C = 75° in triangle ABC. Find side a.",
+      given: "ASA data",
+      formula: "Angle sum → B = 180 − 55 − 75 = 50°; sine rule a/sin A = b/sin B",
+      substitution: "a = 200 × sin 55°/sin 50°",
+      calculation: "= 200 × 0.8192/0.7660 ≈ 213.9",
+      answer: "a ≈ 214 m — ASA always: find the third angle first, then the sine rule"
+    },
+    {
+      problem: "Two sides of a plot measure 90 m and 120 m with included angle 70°. Find the third side and the area.",
+      given: "SAS",
+      formula: "Cosine rule then ½ab sin C",
+      substitution: "c² = 90² + 120² − 2(90)(120)cos 70° = 8100 + 14400 − 21600(0.342)",
+      calculation: "c² = 22500 − 7387 = 15113 → c ≈ 122.9 m; Area = ½·90·120·sin 70° = 5400 × 0.9397",
+      answer: "Third side ≈ 123 m; area ≈ 5,074 m²"
+    },
+    {
+      problem: "Walking 100 m straight toward a hill, the elevation angle changes from 25° to 40°. Find the hill's height.",
+      given: "Two positions, same top",
+      formula: "h = x tan 40° and h = (x + 100) tan 25° (x = final distance)",
+      substitution: "x tan 40° = (x + 100) tan 25° → 0.8391x = 0.4663x + 46.63",
+      calculation: "0.3728x = 46.63 → x ≈ 125.1; h = 125.1 × 0.8391",
+      answer: "h ≈ 105 m"
+    }
+  ],
+  commonMistakes: [
+    "Placing the angle of depression inside the triangle at the observer — use the ALTERNATE elevation angle at the target",
+    "Applying the sine rule to SAS data (no opposite pair exists!) — that's the cosine rule's job",
+    "Forgetting the ambiguous case: SSA can give two valid triangles; check 180° − B also fits",
+    "Mixing which angle is 'included' — cosine rule needs the angle BETWEEN the two known sides",
+    "Using sin instead of tan when height and ground distance are the two legs (no hypotenuse involved)",
+    "Calculator in radian mode while angles are in degrees — answers wildly off",
+    "Rounding mid-calculation — keep full precision, round only the final answer",
+    "Assuming the slant face angle of a pyramid equals the edge-to-floor angle (the latter uses the base diagonal)"
+  ],
+  applications: [
+    "Surveying: triangulation networks measured Ethiopia's highland distances from baselines and theodolite angles",
+    "Aviation: descent paths (3° glide slope) are tangent problems — altitude vs runway distance",
+    "Gorge tourism: measuring Blue Nile gorge depth from the rim with a clinometer and tape",
+    "Agriculture: irregular plot areas for land certificates computed via ½ab sin C triangulation",
+    "Solar installation: panel tilt angles use elevation geometry to catch Addis's near-vertical noon sun"
+  ],
+  summary: "One measured angle plus one accessible length solves inaccessible heights and distances: h = d·tan θ for right-triangle setups, with depression angles converted via alternate angles. Non-right triangles split by data: opposite pair → sine rule (watch the SSA ambiguity); SAS/SSS → cosine rule; area → ½ab sin C. Multi-step field problems chain these moves — draw, label, choose the rule, compute once, round at the end.",
+  visuals: [
+    { type: "steps", config: { title: "Which rule? Decision tree", steps: [{ label: "Right angle?", detail: "→ SOH CAH TOA" }, { label: "Opposite pair known?", detail: "→ sine rule" }, { label: "SAS or SSS?", detail: "→ cosine rule" }, { label: "Two sides + included?", detail: "→ area ½ab sin C" }] } },
+    { type: "comparison", config: { title: "Sine vs Cosine rule", left: { name: "Sine rule", items: ["a/sinA = b/sinB", "Needs opposite pair", "AAS / ASA / SSA", "SSA: check 2 solutions"] }, right: { name: "Cosine rule", items: ["c²=a²+b²−2abcosC", "Needs SAS or SSS", "One answer, no ambiguity", "Pythagoras when C=90°"] } } },
+    { type: "qa", config: { title: "Field-setup checks", pairs: [{ q: "Depression 22° from cliff — angle in triangle?", a: "<b>22° at the boat</b> (alternate)" }, { q: "Know b, c, angle A (between them)?", a: "<b>Cosine rule</b> for side a" }, { q: "Know A, B, a?", a: "<b>Sine rule</b> — A is opposite a" }] } }
+  ],
+  questions: [
+    { type: "mcq", q: "A kite's string (30 m) makes 65° with the ground. Height uses:", options: ["30 cos 65°", "30 sin 65°", "30 tan 65°", "30/sin 65°"], answer: 1, difficulty: 1, explanation: "Height is opposite the angle; string is hypotenuse → sin" },
+    { type: "mcq", q: "Given sides a, b and the angle C BETWEEN them, find side c with:", options: ["sine rule", "cosine rule", "SOH CAH TOA", "½ab sin C"], answer: 1, difficulty: 2, explanation: "SAS data → cosine rule (½ab sin C would give area, not side)" },
+    { type: "mcq", q: "The ambiguous case (0, 1 or 2 triangles) arises with:", options: ["SAS", "ASA", "SSA", "SSS"], answer: 2, difficulty: 3, explanation: "SSA via sine rule: sin B = value can give B or 180° − B" },
+    { type: "mcq", q: "Angle of depression from a bridge to a boat is 30°. The angle of elevation from the boat to the bridge is:", options: ["60°", "30°", "150°", "depends on boat size"], answer: 1, difficulty: 2, explanation: "Alternate angles between parallel horizontals — equal" },
+    { type: "tf", q: "The cosine rule reduces to Pythagoras when the included angle is 90°.", answer: true, difficulty: 2, explanation: "cos 90° = 0 kills the −2ab cos C term" },
+    { type: "tf", q: "Area = ½ab sin C works for any triangle given two sides and their included angle.", answer: true, difficulty: 1, explanation: "It's the general formula; ½bh is the special case with C = 90°" },
+    { type: "calc", q: "d = 40 m, elevation 60°. Tower height = 40 tan 60° ≈ ? (1 decimal)", answer: "69.3", difficulty: 2, explanation: "40 × √3 ≈ 69.28 m", tolerance: 0.2 },
+    { type: "calc", q: "Triangle: A = 30°, a = 10, b = 16. Using sin B = b·sin A/a = 0.8, the two possible B values are 53.1° and ?", answer: "126.9", difficulty: 3, explanation: "B = 180° − 53.1° = 126.9°; both fit since A + B < 180° in each case", tolerance: 0.3 },
+    { type: "short", q: "Sides 5, 6 with included angle 90°: area = ½·5·6·sin 90° = ?", answer: "15", difficulty: 1, explanation: "sin 90° = 1 → ½ × 30 = 15" },
+    { type: "concept", q: "Why measure a baseline and angles (triangulation) instead of direct distance across a gorge?", answer: "inaccessible|can't cross|angles easier|indirect measurement|no tape across", difficulty: 2, explanation: "The distance can't be walked or taped; angles and a short baseline CAN be measured, and trig recovers the impossible length" }
+  ]
+};

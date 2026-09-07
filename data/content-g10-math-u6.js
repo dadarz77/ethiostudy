@@ -1,0 +1,381 @@
+/* Content: Grade 10 Mathematics — Unit 6: Solid Geometry (3 topics) */
+window.Lessons = window.Lessons || {};
+
+Lessons["g10-mathematics-um6-t1"] = {
+  overview: "Prisms and cylinders are the 'extruded shapes': a constant cross-section swept along a straight path. That single property gives both volume formulas — base area × height — and turns surface area into 'two bases plus a wrapped rectangle'. From tin cans to concrete beams, this is the workhorse family of solid geometry.",
+  objectives: [
+    "Identify prisms by their constant cross-section and name them by base",
+    "Compute prism volume as base area × height",
+    "Unwrap a prism's surface: lateral faces as rectangles",
+    "Derive cylinder volume πr²h and surface 2πr² + 2πrh",
+    "Solve combined problems (holes, tanks, beams) with unit discipline"
+  ],
+  simple: "A prism is a shape you can make by sliding a flat figure straight through space: slide a triangle and you get a triangular prism (a Toblerone box), slide a hexagon and the pencil cross-section appears. The sliding distance is the height, and every slice parallel to the base is IDENTICAL — that's the defining property. Volume follows instantly: base area × height, because you're stacking copies of the base. A cylinder is just a 'circle prism': V = πr² × h. Surface area is packaging math: paint the two ends plus the wrap. For a prism the wrap is a row of rectangles (perimeter of base × height works for right prisms); for a cylinder the wrap unrolls into a rectangle of width 2πr (the circumference) and height h — so S = 2πr² + 2πrh. 'Right' means straight-sided (not leaning); leaning prisms need the slant height for their faces but keep base × perpendicular-height for volume.",
+  detailed: "<p><b>Definition and taxonomy.</b> A prism has two congruent, parallel faces (the bases) and all other faces parallelograms joining corresponding edges; the cross-section parallel to the bases is constant throughout. Named by base: triangular, rectangular (a cuboid), pentagonal, hexagonal prisms. A <b>right prism</b> has lateral edges perpendicular to the bases (lateral faces are rectangles); an oblique prism leans (lateral faces are parallelograms, volume unchanged — Cavalieri's principle: same slices, same heights, same volume).</p><p><b>Volume.</b> V = B·h where B is the base area and h the perpendicular distance between bases. For the cuboid B·h = lwh; for the cylinder B = πr² gives V = πr²h. Cavalieri justifies the oblique case: slide every slice sideways and the volume never changes.</p><p><b>Surface area of right prisms.</b> S = 2B + (perimeter of base)·h. The lateral strip unrolls to a rectangle whose width is the base perimeter and height the prism height. For the cylinder: two circles 2πr² plus the unrolled rectangle 2πr·h → S = 2πr(r + h). The <b>lateral area</b> alone (the wrap, no ends) matters for pipes and labels: 2πrh.</p><p><b>Diagonals.</b> Space diagonal of a cuboid = √(l² + w² + h²) — Pythagoras applied twice (floor diagonal, then up). Face diagonals use the two relevant dimensions. A common exam path: given the diagonal and two dimensions, recover the third.</p><p><b>Applied patterns.</b> (1) Tank problems: capacity in litres = volume in cm³ ÷ 1000 (or m³ × 1000). (2) Hole problems: subtract the inner cylinder from the outer prism/cylinder (a drilled beam, a pipe's metal volume = π(R² − r²)h). (3) Melting/recasting: volume is conserved — sphere of clay becomes a cylinder, equate πr³·(4/3) = πR²h. (4) Cost problems: surface area drives paint/tin cost, volume drives capacity — read which one the question wants. Always convert units BEFORE computing, and report with units cubed.</p>",
+  keyTerms: [
+    { term: "Prism", def: "Solid with congruent parallel bases and constant cross-section" },
+    { term: "Right vs oblique", def: "Straight lateral edges vs leaning (volume identical via Cavalieri)" },
+    { term: "Base area B", def: "Area of the end face that defines the prism's name" },
+    { term: "Lateral area", def: "Wrap only: perimeter × height (prism), 2πrh (cylinder)" },
+    { term: "Cylinder", def: "Circular prism: V = πr²h, S = 2πr² + 2πrh" },
+    { term: "Space diagonal", def: "Cuboid corner-to-opposite-corner: √(l² + w² + h²)" },
+    { term: "Cavalieri's principle", def: "Equal cross-sections at every height → equal volumes" }
+  ],
+  formulas: [
+    {
+      name: "Prism volume",
+      formula: "V = B·h",
+      meaning: "Base area times perpendicular height",
+      vars: [{ name: "B", meaning: "area of the base face", unit: "length²" }, { name: "h", meaning: "distance between bases", unit: "length" }],
+      units: "length³",
+      when: "Every prism, right or oblique",
+      example: "Triangular base 12 cm², length 30 cm: V = 360 cm³"
+    },
+    {
+      name: "Cylinder measures",
+      formula: "V = πr²h | S = 2πr² + 2πrh | lateral = 2πrh",
+      meaning: "Circle base swept; two ends plus unrolled rectangle",
+      vars: [{ name: "r", meaning: "radius", unit: "length" }, { name: "h", meaning: "height", unit: "length" }],
+      units: "length³ / length²",
+      when: "Tanks, pipes, cans, columns",
+      example: "r = 7, h = 10: V = 490π ≈ 1540, S = 238π ≈ 748"
+    },
+    {
+      name: "Cuboid diagonal",
+      formula: "d = √(l² + w² + h²)",
+      meaning: "Pythagoras twice: floor diagonal then up the wall",
+      vars: [{ name: "l, w, h", meaning: "the three dimensions", unit: "length" }],
+      units: "length",
+      when: "Rod fitting inside a box, space diagonals",
+      example: "3 × 4 × 12 box: d = √(9 + 16 + 144) = 13"
+    }
+  ],
+  workedExamples: [
+    {
+      problem: "A triangular prism has a right-triangle base with legs 6 and 8 cm and length 20 cm. Find volume and total surface area.",
+      given: "legs 6, 8 (hypotenuse 10), length 20",
+      formula: "V = B·h; S = 2B + perimeter·length",
+      substitution: "B = ½·6·8 = 24; perimeter = 6 + 8 + 10 = 24",
+      calculation: "V = 24 × 20 = 480 cm³; S = 48 + 24 × 20 = 528 cm²",
+      answer: "480 cm³ and 528 cm²"
+    },
+    {
+      problem: "A cylindrical water tank has diameter 1.4 m and height 2 m. How many litres does it hold?",
+      given: "r = 0.7 m, h = 2 m",
+      formula: "V = πr²h; litres = m³ × 1000",
+      substitution: "V = π × 0.49 × 2 = 0.98π",
+      calculation: "≈ 3.079 m³ → 3079 litres",
+      answer: "≈ 3080 L (about 3 cubic metres)"
+    },
+    {
+      problem: "A metal pipe is 1 m long with inner radius 4 cm and outer radius 5 cm. Find the volume of metal.",
+      given: "R = 5, r = 4, h = 100 cm",
+      formula: "V = π(R² − r²)h",
+      substitution: "= π(25 − 16)·100 = 900π",
+      calculation: "≈ 2827 cm³",
+      answer: "900π ≈ 2827 cm³ of metal (annulus × length)"
+    },
+    {
+      problem: "The diagonal of a cuboid room floor-to-ceiling-corner is asked: room 3 m × 4 m × 12 m. Longest straight pole that fits?",
+      given: "dimensions 3, 4, 12",
+      formula: "d = √(l² + w² + h²)",
+      substitution: "√(9 + 16 + 144) = √169",
+      calculation: "= 13",
+      answer: "13 m pole (the 3-4-5 floor diagonal extends up the 12 wall)"
+    },
+    {
+      problem: "Find the total surface area of a closed cylindrical can with r = 3.5 cm and h = 10 cm — and the label-only (lateral) area.",
+      given: "r = 3.5, h = 10",
+      formula: "S = 2πr(r + h); lateral = 2πrh",
+      substitution: "S = 2π × 3.5 × 13.5 = 94.5π; lateral = 2π × 3.5 × 10 = 70π",
+      calculation: "S ≈ 296.9 cm²; lateral ≈ 219.9 cm²",
+      answer: "≈ 297 cm² of tin for the closed can; the label alone wraps 70π ≈ 220 cm²"
+    }
+  ],
+  commonMistakes: [
+    "Using slant length instead of PERPENDICULAR height for volume (Cavalieri needs the straight drop)",
+    "Forgetting one of the two bases in surface area (tanks with lids vs open-top)",
+    "Lateral area vs total surface: pipes have no ends, cans do — read the question",
+    "Unit chaos: mixing m and cm in one formula — convert first, then compute",
+    "Litres from cm³: dividing by 100 (it's 1000 cm³ = 1 L)",
+    "Diameter plugged in as radius (the classic tank error)",
+    "Naming a cylinder 'circular prism' in a theory answer — say 'cylinder' and note the constant cross-section"
+  ],
+  applications: [
+    "Water harvesting: rooftop tanks and borehole casings are cylinders — capacity planning is πr²h",
+    "Construction: concrete beams (rectangular prisms) ordered by volume; a 0.25 m³ mixer batch counts beams",
+    "Packaging design: tin can optimization — minimum metal for a fixed volume happens at h = 2r",
+    "Agriculture: furrow irrigation channels as trapezoidal prisms — flow = cross-section × velocity",
+    "3D printing & CNC: extrusion paths are prisms; material estimate = base area × travel"
+  ],
+  summary: "Prisms and cylinders share one DNA: a constant cross-section swept along a height, so V = base area × height (πr²h for cylinders) — Cavalieri keeps this true even when the solid leans. Surface area is packaging: ends plus the unrolled wrap (perimeter × height, or 2πrh). Diagonals come from double-Pythagoras, and applied problems split by whether the question wants capacity (volume) or material (area).",
+  visuals: [
+    { type: "steps", config: { title: "Unrolling a cylinder", steps: [{ label: "Two circles", detail: "the ends: 2πr²" }, { label: "Cut the seam", detail: "wrap opens flat" }, { label: "Rectangle", detail: "width = circumference 2πr" }, { label: "Height stays h", detail: "area 2πrh" }, { label: "Total", detail: "2πr(r + h) ∎" }] } },
+    { type: "comparison", config: { title: "Volume vs Surface questions", left: { name: "Ask for VOLUME", items: ["How much water fits?", "Concrete needed", "Metal in a pipe", "Litres capacity"] }, right: { name: "Ask for SURFACE", items: ["Tin for the can", "Paint the walls", "Label paper", "Tile the tank"] } } },
+    { type: "qa", config: { title: "Quick solids", pairs: [{ q: "Cuboid 2×3×4 volume?", a: "<b>24</b> — lwh" }, { q: "Cylinder r=1,h=10 V?", a: "<b>10π ≈ 31.4</b>" }, { q: "Pipe metal formula?", a: "<b>π(R²−r²)h</b>" }] } }
+  ],
+  questions: [
+    { type: "mcq", q: "Volume of any prism equals:", options: ["perimeter × height", "base area × height", "base area × slant", "surface × height"], answer: 1, difficulty: 1, explanation: "V = B·h — stacking the base through the height" },
+    { type: "mcq", q: "A cylinder r = 2, h = 5 has volume:", options: ["10π", "20π", "40π", "4π"], answer: 1, difficulty: 1, explanation: "πr²h = π·4·5 = 20π" },
+    { type: "mcq", q: "The lateral (wrap) area of a cylinder is:", options: ["2πr²", "2πrh", "πr²h", "πrh"], answer: 1, difficulty: 2, explanation: "Unrolled rectangle: circumference × height" },
+    { type: "mcq", q: "Space diagonal of a 3×4×12 cuboid:", options: ["15", "13", "√144", "17"], answer: 1, difficulty: 2, explanation: "√(9+16+144) = √169 = 13" },
+    { type: "tf", q: "An oblique prism with the same base and height has the same volume as a right prism.", answer: true, difficulty: 2, explanation: "Cavalieri's principle — identical cross-sections at every level" },
+    { type: "tf", q: "1 litre equals 100 cm³.", answer: false, difficulty: 1, explanation: "1 L = 1000 cm³ = 0.001 m³" },
+    { type: "calc", q: "Triangular prism: base area 15 cm², length 12 cm. Volume (cm³)?", answer: "180", difficulty: 1, explanation: "15 × 12 = 180 cm³" },
+    { type: "calc", q: "Tank cylinder: r = 1 m, h = 2.5 m. Litres (use π = 3.1416, round to nearest 100)?", answer: "7900|7854|7850", difficulty: 3, explanation: "V = 2.5π ≈ 7.854 m³ ≈ 7854 L ≈ 7900" },
+    { type: "short", q: "Formula for the metal volume of a pipe (outer R, inner r, length h)?", answer: "π(R²-r²)h|pi(R^2-r^2)h", difficulty: 2, explanation: "Annulus area × length: πR²h − πr²h" },
+    { type: "concept", q: "Why does leaning a prism not change its volume?", answer: "cavalieri|same cross-section|same slices|equal areas each level", difficulty: 3, explanation: "Every horizontal slice keeps the same shape and area regardless of sideways shift — Cavalieri's principle" }
+  ]
+};
+
+Lessons["g10-mathematics-um6-t2"] = {
+  overview: "Pyramids and cones taper a base to a point. The taper costs exactly a factor of three: volume is one-third of the matching prism or cylinder. Surface area runs along slant heights, and the frustum — the pyramid with its top sliced off — carries the truncated shapes of lampshades, embankments and buckets.",
+  objectives: [
+    "Explain the ⅓ factor between pyramid and prism volumes",
+    "Compute pyramid/cone volume as ⅓ × base × height",
+    "Use slant height for lateral areas: ½·perimeter·l and πrl",
+    "Find slant height via Pythagoras: l = √(h² + r²) for cones",
+    "Work with frustums as big-minus-small similar solids"
+  ],
+  simple: "Put a pyramid inside a prism with the same base and height — same footprint, same ceiling. The pyramid fills exactly ONE THIRD of the prism. (Water demo: three pyramid-fulls pour one prism-full.) Same for a cone inside a cylinder: V = ⅓πr²h. Why a third? The cross-section at height fraction t shrinks to (1−t)² of the base — the square of the linear scale — and averaging a squared shrink over the height gives exactly ⅓. Surface area is different: the faces are triangles, so you need the SLANT height l — the distance down the face — not the vertical drop. For a cone, the lateral surface unrolls into a circular sector: area = πrl. The total is πrl + πr². A frustum is what's left when you saw off the top of a pyramid or cone (bucket, lampshade): volume = big solid minus the little similar one you removed.",
+  detailed: "<p><b>The ⅓ origin.</b> A cube splits into three square pyramids of equal volume meeting at the centre — each pyramid has base = face and height = half-side, so V = ⅓·s²·(s/2)·2… more cleanly: six pyramids fill a cube, each ⅓·s²·(s/2) = s³/6 ✓. Cavalieri then transfers the fact to every pyramid: same base area, same height → same volume ⅓Bh. Cones follow as circular-based pyramids: ⅓πr²h.</p><p><b>Slant height and lateral area.</b> For a regular pyramid (square base, apex above centre), each lateral face is an isosceles triangle whose height is the SLANT height l = √(h² + (b/2)²) — the right triangle of vertical height plus half-base. Lateral area = ½·perimeter·l; add the base for total. For a cone, l = √(h² + r²) and the unrolled lateral surface is a sector of radius l and arc 2πr → area = ½·(2πr)·l = πrl. Total S = πr(r + l). Never use vertical h where the face's slant l belongs — that's the top surface-area error.</p><p><b>Frustums.</b> Slice a cone/pyramid parallel to the base: the removed top is SIMILAR to the whole (linear scale k = h_top/H, so area scale k², volume scale k³). Frustum volume = V_whole − V_top = ⅓πr²h(1 − k³) — or the memorized form V = (πh/3)(R² + Rr + r²) with the two radii. Lateral surface of a cone frustum = π(R + r)l (the average circumference times slant) — the lampshade formula. Similarity does the heavy lifting: any missing dimension comes from ratio chains.</p><p><b>Problem archetypes:</b> (1) tent/roof/hopper capacity → volume; (2) sheet metal for a conical roof → πrl lateral only; (3) bucket (frustum) → difference method; (4) 'cone melted into cylinder' → conserve volume, solve for the unknown; (5) similar solids scaling: double every length → area ×4, volume ×8 — the square-cube law behind why big animals need thick legs.</p>",
+  keyTerms: [
+    { term: "Pyramid", def: "Polygon base with triangular faces meeting at an apex" },
+    { term: "Cone", def: "Circular-base pyramid; V = ⅓πr²h" },
+    { term: "Slant height l", def: "Distance along the face: √(h² + r²) for cones" },
+    { term: "Lateral area", def: "Faces only: ½pl (pyramid), πrl (cone)" },
+    { term: "Frustum", def: "Solid between base and a parallel cut slicing off the apex" },
+    { term: "Similar solids", def: "Scale k: lengths ×k, areas ×k², volumes ×k³" }
+  ],
+  formulas: [
+    {
+      name: "Pyramid & cone volume",
+      formula: "V = ⅓Bh | V = ⅓πr²h",
+      meaning: "One third of the enclosing prism/cylinder",
+      vars: [{ name: "B", meaning: "base area", unit: "length²" }, { name: "h", meaning: "PERPENDICULAR height to apex", unit: "length" }],
+      units: "length³",
+      when: "Tents, heaps, hoppers, funnels",
+      example: "Cone r = 3, h = 7: V = ⅓·9π·7 = 21π ≈ 66"
+    },
+    {
+      name: "Cone surface",
+      formula: "S = πr(r + l), l = √(r² + h²)",
+      meaning: "Base disc plus unrolled sector",
+      vars: [{ name: "l", meaning: "slant height", unit: "length" }],
+      units: "length²",
+      when: "Sheet-metal roofs, paper cones, traffic cones",
+      example: "r = 5, h = 12 → l = 13; lateral = 65π"
+    },
+    {
+      name: "Frustum (cone)",
+      formula: "V = (πh/3)(R² + Rr + r²) | lateral = π(R + r)l",
+      meaning: "Whole minus similar top; average-circumference wrap",
+      vars: [{ name: "R, r", meaning: "bottom and top radii", unit: "length" }],
+      units: "length³ / length²",
+      when: "Buckets, lampshades, embankments",
+      example: "R = 6, r = 3, h = 4: V = (4π/3)(36 + 18 + 9) = 84π"
+    }
+  ],
+  workedExamples: [
+    {
+      problem: "A cone has radius 5 cm and vertical height 12 cm. Find slant height, volume and total surface area.",
+      given: "r = 5, h = 12",
+      formula: "l = √(r² + h²); V = ⅓πr²h; S = πr(r + l)",
+      substitution: "l = √(25 + 144) = 13; V = ⅓·25π·12; S = π·5·18",
+      calculation: "V = 100π ≈ 314 cm³; S = 90π ≈ 283 cm²",
+      answer: "l = 13 cm, V ≈ 314 cm³, S ≈ 283 cm² (the 5-12-13 triple)"
+    },
+    {
+      problem: "A square pyramid has base side 10 m and height 12 m. Find its lateral surface area (four triangular faces).",
+      given: "base 10, h 12",
+      formula: "slant l = √(h² + (s/2)²); lateral = ½·perimeter·l",
+      substitution: "l = √(144 + 25) = 13; perimeter = 40",
+      calculation: "= ½ × 40 × 13 = 260",
+      answer: "260 m² of face tiling (the 10-24-26… here 5-12-13 half-section)"
+    },
+    {
+      problem: "A conical heap of grain has diameter 6 m and slant height 5 m. Estimate its volume in m³.",
+      given: "r = 3, l = 5 → h = √(25 − 9) = 4",
+      formula: "V = ⅓πr²h",
+      substitution: "= ⅓ × π × 9 × 4",
+      calculation: "= 12π ≈ 37.7",
+      answer: "≈ 38 m³ of grain — farmers price heaps by exactly this"
+    },
+    {
+      problem: "A bucket is a frustum with radii 20 cm and 12 cm, depth 15 cm. Find its capacity.",
+      given: "R = 20, r = 12, h = 15",
+      formula: "V = (πh/3)(R² + Rr + r²)",
+      substitution: "= 5π(400 + 240 + 144) = 5π × 784",
+      calculation: "= 3920π ≈ 12315 cm³",
+      answer: "≈ 12.3 litres"
+    },
+    {
+      problem: "A solid cone (r = 6, h = 12) is melted and recast into a cylinder of radius 4. Find the cylinder's height.",
+      given: "Volume conserved",
+      formula: "⅓π·36·12 = π·16·h",
+      substitution: "144π = 16πh",
+      calculation: "h = 9",
+      answer: "9 cm — melt problems are one equation: V_before = V_after"
+    }
+  ],
+  commonMistakes: [
+    "Forgetting the ⅓ in pyramid/cone volume (writing Bh or πr²h)",
+    "Using vertical height h in lateral area where slant l belongs (πrh instead of πrl)",
+    "Computing l = √(h² + r²) with the DIAMETER instead of radius",
+    "Frustum volume: plugging the slant as h in (πh/3)(R² + Rr + r²) — that formula wants perpendicular depth",
+    "Similar-solid scaling: doubling lengths doubles volume (it's ×8 — cube the scale)",
+    "Open-top buckets: subtract the missing disc from total surface",
+    "Mixing cm³ and litres by a factor of 100 instead of 1000"
+  ],
+  applications: [
+    "Grain economics: teff and wheat heaps at markets are cones — traders estimate volume (and price) from diameter and slant",
+    "Roofing: conical and pyramidal roofs need πrl or ½pl of sheet metal — the slant is the cut length",
+    "Earthworks: road embankments and dams are frustum prisms — fill volume decides truck loads",
+    "Design: lampshades and funnels are frustums; the lateral formula sizes the fabric",
+    "Biology's square-cube law: animals taper load-bearing bones because volume (mass) grows faster than area"
+  ],
+  summary: "Tapered solids cost a factor of three: pyramid and cone volumes are ⅓ × base × perpendicular height (proved by cube-splitting plus Cavalieri). Their skins run on SLANT height: lateral = ½pl or πrl with l = √(h² + r²). Frustums are similar-solid subtractions — V = (πh/3)(R² + Rr + r²), lateral = π(R + r)l — and everything scales as k, k², k³.",
+  visuals: [
+    { type: "comparison", config: { title: "Straight vs tapered", left: { name: "Prism / cylinder", items: ["V = Bh", "constant cross-section", "lateral: p·h", "no apex"] }, right: { name: "Pyramid / cone", items: ["V = ⅓Bh", "shrinks to a point", "lateral: ½pl, πrl", "apex + slant l"] } } },
+    { type: "steps", config: { title: "Cone surface unrolled", steps: [{ label: "Cut up the slant", detail: "seam from apex to rim" }, { label: "Flatten", detail: "lateral face → circular sector" }, { label: "Sector radius = l", detail: "arc = base circumference 2πr" }, { label: "Area = ½·arc·radius", detail: "= πrl" }, { label: "Add base", detail: "πr² → total πr(r+l)" }] } },
+    { type: "qa", config: { title: "Slant or height?", pairs: [{ q: "Volume uses…?", a: "<b>perpendicular h</b>" }, { q: "Lateral area uses…?", a: "<b>slant l</b>" }, { q: "r=3, h=4: l?", a: "<b>5</b> — √(9+16)" }] } }
+  ],
+  questions: [
+    { type: "mcq", q: "Cone volume formula:", options: ["πr²h", "⅓πr²h", "⅔πr²h", "πrl"], answer: 1, difficulty: 1, explanation: "One third of the enclosing cylinder" },
+    { type: "mcq", q: "Cone r = 3, h = 4. Slant height:", options: ["5", "6", "7", "12"], answer: 0, difficulty: 1, explanation: "√(9 + 16) = 5 (3-4-5)" },
+    { type: "mcq", q: "Lateral surface of a cone is:", options: ["πr²", "πrl", "2πrh", "πrh"], answer: 1, difficulty: 2, explanation: "Unrolled sector: ½ × 2πr × l" },
+    { type: "mcq", q: "Every length of a solid is tripled. Its volume becomes:", options: ["3×", "6×", "9×", "27×"], answer: 3, difficulty: 2, explanation: "Volume scales as the CUBE: 3³ = 27" },
+    { type: "tf", q: "A pyramid's volume equals ⅓ of the prism with the same base and height.", answer: true, difficulty: 1, explanation: "The defining ⅓ relation (Cavalieri-justified)" },
+    { type: "tf", q: "A frustum is what remains after cutting a pyramid parallel to its base.", answer: true, difficulty: 1, explanation: "Base-to-cut slice of the original solid" },
+    { type: "calc", q: "Cone r = 6, h = 5. Volume = ⅓π·36·5 = 60π. Give 60π ≈ ?", answer: "188.5", difficulty: 2, explanation: "60 × 3.1416 ≈ 188.5 cm³", tolerance: 0.5 },
+    { type: "calc", q: "Square pyramid base 6×6, height 10. Volume (⅓Bh)?", answer: "120", difficulty: 2, explanation: "⅓ × 36 × 10 = 120" },
+    { type: "short", q: "Lateral area formula of a cone (letters r, l)?", answer: "πrl", difficulty: 1, explanation: "Half the arc (2πr) times slant l" },
+    { type: "concept", q: "Why is the cone's volume a third of the cylinder's, in terms of cross-sections?", answer: "square of scale|shrinks as (1-t)^2|average is one third|similar sections", difficulty: 3, explanation: "At height fraction t the slice is (1−t)² of the base; the average of (1−t)² over [0,1] is exactly ⅓, so the whole solid is ⅓ of the prism" }
+  ]
+};
+
+Lessons["g10-mathematics-um6-t3"] = {
+  overview: "The sphere is the most perfect solid — every point of its surface the same distance from the centre. Its surface area 4πr² and volume (4/3)πr³ are Grade 10's two crown formulas, connected by a satisfying fact: the volume's derivative is the surface. Hemispheres, bubbles, planets and grain silos all run on these two lines.",
+  objectives: [
+    "Compute sphere surface 4πr² and volume (4/3)πr³",
+    "Handle hemispheres: curved surface 2πr², volume (2/3)πr³",
+    "Explain the sphere-cylinder connection (Archimedes: ⅔ of the circumscribing cylinder)",
+    "Solve melt/recast and conservation-of-volume problems",
+    "Apply the surface-to-volume ratio to real phenomena"
+  ],
+  simple: "Two formulas rule the sphere: skin = 4πr² (exactly four great circles' worth of area — imagine flattening the surface onto four discs of the same radius) and content = (4/3)πr³. A hemisphere is half the volume but its surface is a curved dome 2πr² PLUS the flat circular cut πr² — decide whether the question counts the cut face. Archimedes' proudest result: the sphere fits inside a cylinder of the same radius and height 2r, and the sphere is exactly TWO-THIRDS of that cylinder — in volume AND in surface (the cylinder's curved skin 4πr² matches the sphere's area exactly). Conservation problems: melt a sphere into a cone, blow it into a shell — the volume equation is the whole solution. And the ratio fact that explains nature: as a ball grows, volume outruns surface (r³ vs r²), so big things lose heat slowly — elephants need radiator ears, ice melts fast as cubes and slow as one big sphere.",
+  detailed: "<p><b>The formulas.</b> Surface area S = 4πr²; volume V = (4/3)πr³. Grade-10 derivations lean on the hemisphere: a hemisphere's curved surface is half of 4πr² = 2πr²; its volume is half of (4/3)πr³ = (2/3)πr³. The classic justification of the volume is Cavalieri with the 'napkin ring': a hemisphere of radius r and a cylinder (radius r, height r) minus a double-cone have equal cross-sectional areas at every height — π(r² − h²) each — so the hemisphere = cylinder − cones = πr³ − ⅓πr³ = (2/3)πr³, doubling to the sphere.</p><p><b>Archimedes' ⅔ theorem.</b> Circumscribing cylinder: radius r, height 2r. Cylinder volume = πr²·2r = 2πr³ → sphere is ⅔ of it. Cylinder total surface = 2πr² + 4πr² = 6πr² → sphere is ⅔ of that too; the curved skins match 4πr² = 4πr². Archimedes asked for this figure on his tomb — the sphere-cylinder ratio 2:3 in both measures.</p><p><b>Hemispheres in practice.</b> A dome's plaster area = 2πr²; a solid hemisphere's TOTAL surface = 2πr² + πr² = 3πr² (the flat base counts). A bowl (hollow hemisphere) holds (2/3)πr³. Water-tank caps, silo roofs and observatory domes are hemispheres — always ask: inside skin, outside skin, or with base?</p><p><b>Conservation & ratios.</b> Recasting: (4/3)πR³ = ⅓πr²h (sphere to cone) — one equation, one unknown. Cutting: a sphere of radius R into n equal spheres gives each radius R/∛n (volume divides, radius cubes). Surface-to-volume ratio: S/V = 3/r — halves when r doubles. Consequences: small animals overheat (high S/V loses heat fast), cells stay microscopic (nutrient uptake is a surface process), catalyst powders work because crushing multiplies surface at no volume cost.</p><p><b>Bands and caps (extension):</b> the surface of a spherical zone depends only on its HEIGHT: 2πr·h_band — Archimedes' hat-box theorem: a sphere and its circumscribing cylinder share the band area at every slice. Useful for dome segments and astronomical apertures.</p>",
+  keyTerms: [
+    { term: "Sphere", def: "Locus of points at distance r from a centre; S = 4πr², V = (4/3)πr³" },
+    { term: "Great circle", def: "Circle through the centre — the sphere's largest cross-section, radius r" },
+    { term: "Hemisphere", def: "Half-sphere: curved surface 2πr², total 3πr², volume (2/3)πr³" },
+    { term: "Circumscribing cylinder", def: "Radius r, height 2r — sphere is ⅔ of it in volume and surface" },
+    { term: "Spherical zone", def: "Band between two parallel cuts; area = 2πr × band height" },
+    { term: "Surface-to-volume ratio", def: "S/V = 3/r — falls as size grows" }
+  ],
+  formulas: [
+    {
+      name: "Sphere surface & volume",
+      formula: "S = 4πr² | V = (4/3)πr³",
+      meaning: "Four great discs of skin; four-thirds of a radius-cube times π",
+      vars: [{ name: "r", meaning: "radius", unit: "length" }],
+      units: "length² / length³",
+      when: "Balls, bubbles, planets, tanks",
+      example: "r = 3: S = 36π ≈ 113, V = 36π ≈ 113 — numerically equal at r = 3!"
+    },
+    {
+      name: "Hemisphere set",
+      formula: "curved S = 2πr² | total S = 3πr² | V = (2/3)πr³",
+      meaning: "Half the sphere; add the flat disc only when the base is included",
+      vars: [{ name: "r", meaning: "radius", unit: "length" }],
+      units: "length² / length³",
+      when: "Domes, bowls, caps",
+      example: "Dome r = 7: plaster area = 2π·49 ≈ 308 m²"
+    },
+    {
+      name: "S/V ratio",
+      formula: "S/V = 3/r",
+      meaning: "Bigger spheres have proportionally less skin",
+      vars: [{ name: "r", meaning: "radius", unit: "length" }],
+      units: "1/length",
+      when: "Heat loss, reaction rates, cell size",
+      example: "r = 1 → 3; r = 3 → 1; r = 10 → 0.3"
+    }
+  ],
+  workedExamples: [
+    {
+      problem: "Find the surface area and volume of a sphere of radius 6 cm.",
+      given: "r = 6",
+      formula: "S = 4πr²; V = (4/3)πr³",
+      substitution: "S = 4π·36; V = (4/3)π·216",
+      calculation: "S = 144π ≈ 452.4 cm²; V = 288π ≈ 904.8 cm³",
+      answer: "≈ 452 cm² and ≈ 905 cm³ (V = Sr/3 — the ratio check)"
+    },
+    {
+      problem: "A hemispherical bowl of radius 14 cm is filled with water. How many litres?",
+      given: "r = 14, hemisphere",
+      formula: "V = (2/3)πr³",
+      substitution: "= (2/3)π × 2744",
+      calculation: "≈ 5749 cm³",
+      answer: "≈ 5.75 litres"
+    },
+    {
+      problem: "A metallic sphere r = 7 cm is melted into a wire (cylinder) of radius 0.7 cm. Find the wire's length.",
+      given: "Volume conserved",
+      formula: "(4/3)π·7³ = π·0.7²·L",
+      substitution: "(4/3)·343 = 0.49·L → 457.33 = 0.49L",
+      calculation: "L ≈ 933.3 cm",
+      answer: "≈ 9.33 m of wire — π cancels, one linear equation"
+    },
+    {
+      problem: "Compare S/V for a cell of radius 1 µm vs 10 µm. Why are cells small?",
+      given: "S/V = 3/r",
+      formula: "ratio comparison",
+      substitution: "r = 1 → 3; r = 10 → 0.3",
+      calculation: "10× smaller cell has 10× more surface per volume",
+      answer: "Membrane exchange must serve the volume inside — big cells starve, so life keeps cells microscopic and multicellular"
+    },
+    {
+      problem: "A sphere's radius doubles. By what factors do surface and volume grow?",
+      given: "r → 2r",
+      formula: "S ∝ r², V ∝ r³",
+      substitution: "(2)² = 4, (2)³ = 8",
+      calculation: "surface ×4, volume ×8",
+      answer: "×4 and ×8 — the square-cube law in one line"
+    }
+  ],
+  commonMistakes: [
+    "Writing 3πr² for a hemisphere's curved surface (that's WITH the base; dome-only is 2πr²)",
+    "Using diameter as radius in 4πr² or (4/3)πr³ — halve first",
+    "Forgetting to cube r in the volume formula (squaring it)",
+    "Recast problems: equating SURFACES instead of volumes (melting conserves volume)",
+    "S/V = 3/r inverted — ratio SHRINKS as radius grows",
+    "Zone/band area needing the sphere's radius and band HEIGHT, not the band's own radius",
+    "Reporting cm³ as litres without dividing by 1000"
+  ],
+  applications: [
+    "Astronomy: planet volumes and surface areas from measured radii — Earth's 510 million km² surface is 4πr²",
+    "Storage engineering: spherical tanks hold the most volume per unit of steel (minimum surface for given V) — LPG spheres",
+    "Bubbles & drops: surface tension forces spheres; pressure inside a bubble scales as 1/r (Laplace law preview)",
+    "Sports equipment: ball coverage (leather/polymer area) is a surface problem — a size-5 football ≈ 0.16 m² of panels",
+    "Medicine & biology: drug nanoparticles work because crushing a pill's volume into nano-spheres explodes total surface"
+  ],
+  summary: "The sphere's twin laws — S = 4πr² and V = (4/3)πr³ — come together in Archimedes' ⅔ theorem (sphere vs circumscribing cylinder, in both measures). Hemispheres split the skin question: 2πr² curved, 3πr² with base. Melting and cutting problems are volume-conservation equations, and the ratio S/V = 3/r explains cell sizes, cooling rates and why spheres are the cheapest tanks.",
+  visuals: [
+    { type: "comparison", config: { title: "Sphere vs its cylinder", left: { name: "Cylinder (r, 2r)", items: ["V = 2πr³", "curved S = 4πr²", "total S = 6πr²"] }, right: { name: "Sphere (r)", items: ["V = ⅔ of cylinder", "S = ⅔ of total", "skins match: 4πr²"] } } },
+    { type: "steps", config: { title: "Napkin-ring volume idea", steps: [{ label: "Hemisphere + cylinder", detail: "same r, height r" }, { label: "Carve a double cone", detail: "apex at centre" }, { label: "Slice at height h", detail: "ring area π(r²−h²)" }, { label: "Matches cone-hole", detail: "Cavalieri: equal slices" }, { label: "Hemi = ⅔ cylinder", detail: "πr³ − ⅓πr³ ∎" }] } },
+    { type: "lineGraph", config: { title: "Square-cube law as radius grows", xLabel: "radius r", yLabel: "relative size", series: [{ label: "surface ∝ r²", color: "#22c55e", points: [[1,1],[2,4],[3,9],[4,16],[5,25]] }, { label: "volume ∝ r³", color: "#f59e0b", points: [[1,1],[2,8],[3,27],[4,64],[5,125]] }] } }
+  ],
+  questions: [
+    { type: "mcq", q: "Surface area of a sphere:", options: ["πr²", "2πr²", "4πr²", "6πr²"], answer: 2, difficulty: 1, explanation: "Four great circles' worth of skin" },
+    { type: "mcq", q: "Volume of a sphere of radius 3:", options: ["12π", "36π", "9π", "27π"], answer: 1, difficulty: 1, explanation: "(4/3)π·27 = 36π" },
+    { type: "mcq", q: "A hemisphere's CURVED surface only is:", options: ["2πr²", "3πr²", "4πr²", "πr²"], answer: 0, difficulty: 2, explanation: "Half of 4πr² — the flat disc excluded" },
+    { type: "mcq", q: "Sphere radius triples: volume grows by:", options: ["3×", "6×", "9×", "27×"], answer: 3, difficulty: 2, explanation: "r³ scaling: 3³ = 27" },
+    { type: "tf", q: "A sphere is ⅔ the volume of its circumscribing cylinder.", answer: true, difficulty: 2, explanation: "Archimedes' theorem: ⅔ in both volume and total surface" },
+    { type: "tf", q: "Larger cells have a higher surface-to-volume ratio.", answer: false, difficulty: 2, explanation: "S/V = 3/r — it falls as the cell grows; that's why cells stay small" },
+    { type: "calc", q: "Sphere r = 10 cm: volume = (4/3)π·1000 ≈ ? (nearest 100)", answer: "4200|4189", difficulty: 2, explanation: "4188.8 cm³ ≈ 4200", tolerance: 50 },
+    { type: "calc", q: "A ball's surface is 64π cm². Its radius (cm)?", answer: "4", difficulty: 2, explanation: "4πr² = 64π → r² = 16 → r = 4" },
+    { type: "short", q: "S/V ratio of a sphere of radius 3 (as a fraction or decimal)?", answer: "1|1.0", difficulty: 3, explanation: "3/r = 3/3 = 1" },
+    { type: "concept", q: "Why are LPG storage tanks spherical while water towers are cylindrical?", answer: "minimum surface|least material|pressure evenly|volume per surface", difficulty: 3, explanation: "For a given volume the sphere has the least surface — cheapest shell for pressurized gas; water towers are low-pressure, so a cylinder (flat base, easy construction) wins on buildability" }
+  ]
+};

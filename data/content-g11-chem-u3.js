@@ -1,0 +1,470 @@
+/* Content: Grade 11 Chemistry — Unit 3: States of Matter (4 topics) */
+window.Lessons = window.Lessons || {};
+
+Lessons["g11-chemistry-uc3-t1"] = {
+  overview: "Why does ice float, water climb a paper towel and mercury bead up? Kinetic theory says all matter is particles in motion; the state depends on the tug-of-war between their kinetic energy and the intermolecular forces holding them together. This unit starts that war.",
+  objectives: [
+    "State kinetic-molecular theory and apply it to solids, liquids, gases",
+    "Distinguish intermolecular forces from covalent bonds by scale",
+    "Classify IMF types: dispersion, dipole-dipole, hydrogen bonding, ion-dipole",
+    "Explain evaporation, vapor pressure and boiling via kinetic energy distributions",
+    "Predict state and properties from particle-level forces"
+  ],
+  simple: "Everything is particles jiggling. Heat them and they jiggle faster. In a solid, the attractions are strong enough to lock particles in place — they only vibrate. In a liquid, attractions still hold neighbours together but particles slide past each other — flows, takes container shape. In a gas, particles move so fast that attractions barely matter — they fly apart and fill any volume. The forces BETWEEN molecules (IMFs) are 10–100× weaker than the bonds WITHIN: boiling water breaks H-bonds (40 kJ/mol), not O–H bonds (463). Evaporation is the fastest molecules escaping the surface; the ones left behind are slower — that's why sweat cools you. Put a lid on and escaping molecules return until rates match: vapor pressure. Boil when vapor pressure equals atmospheric pressure — water at 100 °C at sea level, but only ~90 °C on Entoto mountain, which is why cooking takes longer up there.",
+  detailed: "<p><b>Kinetic-molecular theory (KMT) postulates.</b> (1) Matter = particles with empty space between. (2) Particles are in constant random motion; average KE = (3/2)RT per mole — temperature IS motion. (3) Collisions are elastic (energy conserved). (4) Particles attract each other (IMFs); strength vs KE decides state. Gas: KE ≫ IMF. Liquid: KE ≈ IMF. Solid: IMF ≫ KE. Heating doesn't change the particles — it changes their energy and the balance.</p><p><b>The IMF ladder (all weaker than covalent/ionic bonds).</b> (1) London dispersion: instantaneous dipoles from electron-cloud fluctuations; universal; grows with polarizability (electron count, surface area): F₂ gas < I₂ solid; n-pentane bp 36 °C > neopentane 10 °C (shape matters). (2) Dipole-dipole: permanent dipoles align: HCl bp −85 °C > F₂ −188 (same mass, polarity wins). (3) Hydrogen bonding: H on N/O/F to lone pair: H₂O 100 vs H₂S −60 °C — a 160-degree premium. (4) Ion-dipole: salt dissolving — Na⁺ hydrated by water's δ⁻ oxygens; strongest of the IMFs, which is why water is the universal solvent for ionic compounds.</p><p><b>Maxwell-Boltzmann distribution.</b> At any temperature, speeds spread from near-zero to very high; the curve shifts right and flattens as T rises. Evaporation = the high-energy tail escaping; cooling of the remainder explains evaporative coolers (the 'zeroon' pot-in-pot fridge used in Ethiopian highlands) and sweating. Vapor pressure: closed container → escape rate = return rate → equilibrium vapor pressure, dependent only on liquid identity and T (not volume, not how much liquid). Boiling: bubbles of vapor can only survive when P_vapor ≥ P_atmosphere — so boiling point tracks pressure: 100 °C at 1 atm, ~90 °C at 3000 m (Addis Ababa), 121 °C at 2 atm in an autoclave.</p><p><b>Reading properties.</b> Surface tension: liquid surfaces contract (IMFs pull molecules inward) — water 72 mN/m (H-bonds) vs hexane 18. Viscosity: internal friction — glycerol (3 OH, H-bond network) syrupy vs ether runny. Capillary action: adhesion to walls + cohesion inside — water climbs glass, mercury doesn't (cohesion > adhesion). All four: same IMF story.</p>",
+  keyTerms: [
+    { term: "Kinetic-molecular theory", def: "Particles in motion; T = average KE; state = KE vs IMF balance" },
+    { term: "Intermolecular force", def: "Attraction BETWEEN molecules — 10–100× weaker than bonds" },
+    { term: "Polarizability", def: "How easily a cloud distorts → dispersion strength" },
+    { term: "Vapor pressure", def: "Equilibrium pressure of escaping molecules; depends on T only" },
+    { term: "Boiling point", def: "T where vapor pressure = external pressure" },
+    { term: "Surface tension", def: "Surface contraction from inward-pulled IMFs" }
+  ],
+  formulas: [
+    {
+      name: "Average kinetic energy",
+      formula: "KE_avg = (3/2)kT (per particle) = (3/2)RT (per mole)",
+      meaning: "Temperature is motion, in joules",
+      vars: [{ name: "k", meaning: "Boltzmann 1.38 × 10⁻²³ J/K", unit: "J/K" }],
+      units: "J",
+      when: "Any KMT reasoning",
+      example: "300 K: 6.2 × 10⁻²¹ J per molecule — tiny, but universal"
+    },
+    {
+      name: "Boiling condition",
+      formula: "boil when P_vapor = P_ext",
+      meaning: "Bubbles survive only at balance",
+      vars: [{ name: "P_ext", meaning: "atmospheric or applied", unit: "atm" }],
+      units: "—",
+      when: "Pressure cookers, high-altitude cooking",
+      example: "Addis (~1400 m): water boils ~95 °C — beans need more time"
+    }
+  ],
+  workedExamples: [
+    {
+      problem: "Order by boiling point: CH₄, H₂O, H₂S, HF. Explain.",
+      given: "IMF types",
+      formula: "H-bond > dipole > dispersion",
+      substitution: "CH₄ dispersion only; H₂S dipole; HF & H₂O H-bond",
+      calculation: "CH₄ −161 < H₂S −60 < HF 20 < H₂O 100",
+      answer: "Water tops HF because each H₂O can donate 2 and accept 2 H-bonds (3-D network) vs HF's chains"
+    },
+    {
+      problem: "Why does a wet cloth cool water in a clay pot (zeroon) even at 35 °C air?",
+      given: "evaporation",
+      formula: "MB tail escapes, remainder cools",
+      substitution: "fast water molecules leave through porous clay",
+      calculation: "average KE of remaining water drops → T falls",
+      answer: "Evaporative cooling: the pot loses its hottest molecules, keeping the rest ~10–15 °C cooler — no electricity needed"
+    },
+    {
+      problem: "Water's vapor pressure at 25 °C is 23.8 mmHg. What happens if you double the container volume at constant T?",
+      given: "equilibrium",
+      formula: "P_vapor depends on T only",
+      substitution: "more space → more evaporation until same P",
+      calculation: "P returns to 23.8 mmHg (if liquid remains)",
+      answer: "Unchanged — vapor pressure is an identity+temperature property, not a volume property"
+    },
+    {
+      problem: "Explain why ethanol (78 °C) boils far below water (100 °C) though both H-bond.",
+      given: "structure",
+      formula: "H-bond count per molecule",
+      substitution: "water: 2 donors + 2 acceptors → network; ethanol: 1 OH on a non-polar tail",
+      calculation: "fewer/ weaker effective H-bonds per molecule",
+      answer: "Ethanol's hydrocarbon tail dilutes the H-bond network — less energy to free molecules"
+    },
+    {
+      problem: "An autoclave reaches 121 °C. What pressure does that require, and why does it sterilize better?",
+      given: "boiling condition",
+      formula: "P_vapor(121 °C) ≈ 2 atm",
+      substitution: "sealed vessel traps vapor → pressure climbs → bp rises",
+      calculation: "superheated liquid water kills spores that 100 °C misses",
+      answer: "~2 atm — pressure cookers and autoclaves buy temperature with pressure"
+    }
+  ],
+  commonMistakes: [
+    "Saying boiling breaks covalent bonds — it breaks IMFs; molecules stay intact",
+    "Vapor pressure thought to depend on container size or liquid amount — only identity + T",
+    "Confusing evaporation (surface, any T) with boiling (bulk, at bp)",
+    "Dispersion forces denied for non-polar molecules — they're the ONLY ones, and they're real",
+    "H-bonding claimed for every H-containing molecule — needs H on N/O/F",
+    "Thinking temperature rises during boiling — added heat breaks IMFs, T plateaus",
+    "Surface tension attributed to 'the surface being strong' — it's inward net pull minimizing area"
+  ],
+  applications: [
+    "Zeroon pot-in-pot coolers: evaporative cooling stores vegetables without grid power",
+    "Pressure cookers at high altitude: restore the 100 °C that Addis's air steals",
+    "Antifreeze & coolants: glycols disrupt water's H-bond network, lowering freezing point",
+    "Inkjet printing: surface tension and viscosity tuned so droplets form cleanly",
+    "Distillation of essential oils (besbela, kard): vapor-pressure differences separate aromatics"
+  ],
+  summary: "Kinetic theory frames states as a balance: particle KE (temperature) versus intermolecular forces. The IMF ladder — dispersion, dipole, H-bond, ion-dipole — explains boiling points, surface tension, viscosity and capillary action. Evaporation is the MB high-energy tail escaping (cooling the rest); vapor pressure is its equilibrium; boiling happens when vapor pressure matches external pressure — which is why altitude and pressure cookers matter.",
+  visuals: [
+    { type: "comparison", config: { title: "Three states, one rule", left: { name: "Solid / Liquid", items: ["solid: IMF ≫ KE, vibrate in place", "liquid: IMF ≈ KE, slide past", "both: fixed volume"] }, right: { name: "Gas", items: ["KE ≫ IMF", "flies apart", "fills container", "compressible"] } } },
+    { type: "steps", config: { title: "Why sweat cools you", steps: [{ label: "Skin wetted", detail: "water layer" }, { label: "Fast molecules escape", detail: "MB tail leaves" }, { label: "Slow ones remain", detail: "avg KE drops" }, { label: "T falls", detail: "cooling" }, { label: "Body benefits", detail: "thermoregulation" }] } },
+    { type: "qa", config: { title: "IMF identification", pairs: [{ q: "Only force in CO₂(s)?", a: "<b>dispersion</b>" }, { q: "Na⁺ in water?", a: "<b>ion-dipole</b>" }, { q: "Strongest IMF type?", a: "<b>ion-dipole</b> (H-bond among neutral)" }] } }
+  ],
+  questions: [
+    { type: "mcq", q: "Boiling water breaks:", options: ["O–H covalent bonds", "hydrogen bonds between molecules", "ionic bonds", "nothing"], answer: 1, difficulty: 1, explanation: "IMFs separate; molecules stay H₂O" },
+    { type: "mcq", q: "Vapor pressure of a liquid depends on:", options: ["container volume", "liquid amount", "temperature and identity", "surface area"], answer: 2, difficulty: 2, explanation: "Equilibrium property — identity + T only" },
+    { type: "mcq", q: "Which has ONLY dispersion forces?", options: ["HCl", "H₂O", "CCl₄", "NH₃"], answer: 2, difficulty: 2, explanation: "Non-polar molecule — no permanent dipole, no H-bond" },
+    { type: "mcq", q: "Evaporation cools a liquid because:", options: ["cold air enters", "fast molecules escape", "bonds form", "pressure rises"], answer: 1, difficulty: 2, explanation: "The energetic tail leaves; average KE of the rest drops" },
+    { type: "tf", q: "At the boiling point, added heat raises the temperature.", answer: false, difficulty: 2, explanation: "Plateau — heat breaks IMFs until all liquid converts" },
+    { type: "tf", q: "Water boils at a lower temperature on a mountain.", answer: true, difficulty: 1, explanation: "Lower P_atm → vapor pressure matches sooner → lower bp" },
+    { type: "calc", q: "KE_avg per mole at 300 K (J, R = 8.314)?", answer: "3741", difficulty: 3, explanation: "(3/2)(8.314)(300) ≈ 3741 J/mol" },
+    { type: "calc", q: "If P_atm = 0.7 atm, water boils when its vapor pressure equals what?", answer: "0.7", difficulty: 2, explanation: "Boil condition: P_vapor = P_ext = 0.7 atm (~90 °C)" },
+    { type: "short", q: "IMF responsible for HF, NH₃, H₂O anomalies:", answer: "hydrogen bonding|hydrogen bond", difficulty: 1, explanation: "H-bonding — the big bp premium" },
+    { type: "concept", q: "Why does ice float, and why does that matter for lakes?", answer: "open lattice|less dense solid|H-bond network|insulates water below", difficulty: 3, explanation: "H-bonds lock ice into an open hexagonal lattice — solid less dense than liquid; floating ice insulates the water below, letting aquatic life survive cold snaps" }
+  ]
+};
+
+Lessons["g11-chemistry-uc3-t2"] = {
+  overview: "Gases are the simplest state to model: particles so far apart that IMFs vanish. The ideal gas law PV = nT unifies Boyle, Charles and Avogadro; kinetic theory derives pressure from collisions; Dalton adds mixtures; and real gases reveal where the model breaks.",
+  objectives: [
+    "State and apply Boyle's, Charles's and Avogadro's laws",
+    "Use the ideal gas law and the combined gas law in calculations",
+    "Derive pressure from kinetic theory (collisions with walls)",
+    "Apply Dalton's law of partial pressures and gas-collection-over-water",
+    "Explain real-gas deviations (van der Waals) at high P / low T"
+  ],
+  simple: "Gas particles fly freely; pressure is their constant bombardment of the walls. Shrink the volume to half and hits double → pressure doubles (Boyle: P₁V₁ = P₂V₂ at constant T). Heat a balloon and particles hit harder and spread out → volume grows (Charles: V ∝ T in kelvin). Blow more particles in → more hits (Avogadro: V ∝ n). All three fuse into PV = nRT (R = 8.314). Kinetic theory adds the microscopic picture: P = (1/3)(N/V)·m·v̄² — pressure is momentum transfer — and from it, KE_avg = (3/2)kT: temperature literally measures motion. Mix gases and each keeps hitting as if alone: total pressure = sum of partials (Dalton) — why we need oxygen tanks at altitude. Real gases misbehave when squeezed (particle volume matters) or chilled (IMFs matter): CO₂ liquefies, helium stays close to ideal.",
+  detailed: "<p><b>The empirical laws.</b> Boyle (T, n fixed): P ∝ 1/V — squeeze a syringe. Charles (P, n): V ∝ T(K) — hot air balloon. Gay-Lussac (V, n): P ∝ T — aerosol can warning. Avogadro (P, T): V ∝ n — equal volumes, equal molecules (22.7 L/mol at STP 1 bar/273 K; 22.4 at 1 atm). Combined: P₁V₁/T₁ = P₂V₂/T₂ (n fixed). Ideal gas law: PV = nRT, R = 8.314 J/(mol·K) = 0.08206 L·atm/(mol·K) — pick units to match.</p><p><b>Kinetic derivation sketch.</b> One particle bouncing in a box transfers 2mvₓ per wall hit; hits every 2L/vₓ → force = mvₓ²/L. Sum over N, use v̄ₓ² = v̄²/3: PV = (1/3)Nm v̄². Compare with PV = NkT → (1/2)m v̄² = (3/2)kT. Consequences: u_rms = √(3RT/M) — at 25 °C H₂ moves 1920 m/s, O₂ 482 — why Earth keeps O₂ but lost its H₂ to space. Effusion (Graham): rate ∝ 1/√M — uranium enrichment used it.</p><p><b>Dalton.</b> In a mixture, each gas contributes P_i = n_iRT/V; total P = ΣP_i. Mole fraction x_i = n_i/n_tot → P_i = x_i·P_tot. Collection over water: P_gas = P_total − P_H₂O(T) — the vapor pressure correction students forget. Air at 1 atm: O₂ 0.21 atm; at 3000 m (~0.7 atm) O₂ drops to 0.15 — the physiology of altitude is Dalton's law.</p><p><b>Real gases — van der Waals.</b> (P + an²/V²)(V − nb) = nRT: b corrects for finite particle volume (dominant at high P — molecules can't compress past their own size); a corrects for IMF attraction (dominant at low T — molecules linger near walls, hitting softer). Compressibility Z = PV/nRT: ideal Z = 1; H₂ > 1 always (volume wins); CO₂ dips below 1 (attraction) then above — the crossover is the story. Liquefaction: only below the critical temperature can pressure condense a gas — CO₂ critical at 31 °C, so a hot fire extinguisher won't liquefy it.</p>",
+  keyTerms: [
+    { term: "Ideal gas", def: "Point particles, no IMFs, elastic hits — obeys PV = nRT exactly" },
+    { term: "STP", def: "0 °C, 1 atm → 22.4 L/mol (1 bar → 22.7)" },
+    { term: "Partial pressure", def: "A gas's solo contribution in a mixture (Dalton)" },
+    { term: "Mole fraction", def: "x_i = n_i/n_total; P_i = x_i·P_tot" },
+    { term: "u_rms", def: "√(3RT/M) — the speed scale of gas molecules" },
+    { term: "Critical temperature", def: "Above it, no pressure liquefies the gas" }
+  ],
+  formulas: [
+    {
+      name: "Ideal gas law",
+      formula: "PV = nRT",
+      meaning: "The state equation of the simplest model",
+      vars: [{ name: "R", meaning: "8.314 J/(mol·K) or 0.08206 L·atm/(mol·K)", unit: "—" }],
+      units: "consistent set",
+      when: "Any low-P, high-T gas",
+      example: "2 mol at 300 K, 1 atm: V = nRT/P ≈ 49.1 L"
+    },
+    {
+      name: "Dalton + Graham",
+      formula: "P_tot = ΣP_i | rate ∝ 1/√M",
+      meaning: "Mixtures add; lighter gases escape faster",
+      vars: [{ name: "x_i", meaning: "mole fraction", unit: "—" }],
+      units: "atm / relative",
+      when: "Gas mixtures, leaks, enrichment",
+      example: "³⁵Cl₂ vs ³⁷Cl₂ effuse 1.03× apart — tiny, but cascadeable"
+    }
+  ],
+  workedExamples: [
+    {
+      problem: "A balloon is 2.0 L at 27 °C. Heated to 127 °C at constant pressure — new volume?",
+      given: "Charles",
+      formula: "V₁/T₁ = V₂/T₂ (K!)",
+      substitution: "2.0/300 = V₂/400",
+      calculation: "V₂ = 2.67 L",
+      answer: "2.67 L — always convert to kelvin first"
+    },
+    {
+      problem: "Find the mass of O₂ in 10.0 L at 1.5 atm and 300 K.",
+      given: "PV = nRT",
+      formula: "n = PV/RT",
+      substitution: "n = (1.5 × 10.0)/(0.08206 × 300)",
+      calculation: "n = 0.609 mol → × 32 g/mol",
+      answer: "19.5 g O₂"
+    },
+    {
+      problem: "Gas collected over water: total 750 mmHg at 25 °C (P_H₂O = 23.8). Pressure of the dry gas?",
+      given: "Dalton",
+      formula: "P_gas = P_tot − P_H₂O",
+      substitution: "750 − 23.8",
+      calculation: "= 726 mmHg",
+      answer: "726 mmHg — forgetting the water correction is THE classic lab error"
+    },
+    {
+      problem: "Compare rms speeds of H₂ and O₂ at 300 K.",
+      given: "u = √(3RT/M)",
+      formula: "ratio = √(M_O₂/M_H₂)",
+      substitution: "√(32/2) = 4",
+      calculation: "H₂: 1937 m/s; O₂: 484 m/s",
+      answer: "H₂ moves 4× faster — why Earth's atmosphere has no free hydrogen"
+    },
+    {
+      problem: "Air is 21% O₂. At 0.70 atm (high altitude), what's the O₂ partial pressure?",
+      given: "P_i = x_i·P_tot",
+      formula: "0.21 × 0.70",
+      substitution: "= 0.147 atm",
+      calculation: "vs 0.21 at sea level — 30% less driving force into blood",
+      answer: "0.147 atm — Dalton explains altitude sickness and why climbers carry O₂"
+    }
+  ],
+  commonMistakes: [
+    "Celsius in gas laws — every T must be kelvin (27 °C = 300 K)",
+    "Mixing R units: 8.314 needs Pa·m³; 0.08206 needs L·atm — match the set",
+    "Boyle's law applied while changing temperature too — it's constant-T only",
+    "Dalton: partial pressures multiplied instead of added for total",
+    "Collection over water: forgetting to subtract vapor pressure",
+    "'Ideal' assumed everywhere — near liquefaction (high P, low T) it fails badly",
+    "Molar volume 22.4 L quoted at any conditions — it's STP only"
+  ],
+  applications: [
+    "Scuba & altitude: nitrogen partial pressure governs bends; climbers acclimatize to Dalton's math",
+    "Car tyres: Gay-Lussac — hot roads raise P; check pressures cold",
+    "Balloon flights & hot-air ballooning: Charles's law as lift engine",
+    "Gas storage & transport: LPG is propane liquefied by pressure (van der Waals in a tank)",
+    "Uranium enrichment: Graham's effusion cascade feeds nuclear fuel cycles"
+  ],
+  summary: "Gases obey PV = nRT because particles are far apart and IMFs vanish; Boyle, Charles and Avogadro are its one-variable slices. Kinetic theory derives pressure as wall bombardment and identifies temperature with average KE (u_rms = √(3RT/M)). Dalton makes mixtures additive (P_i = x_iP_tot) — the physics of altitude and gas collection. Real gases deviate via finite volume (b) and attraction (a), liquefying below their critical temperature.",
+  visuals: [
+    { type: "lineGraph", config: { title: "Boyle's law: P vs V (n,T fixed)", xLabel: "volume (L)", yLabel: "pressure (atm)", series: [{ label: "PV = 12", color: "#3b82f6", points: [[1, 12], [2, 6], [3, 4], [4, 3], [6, 2], [12, 1]] }] } },
+    { type: "steps", config: { title: "Gas-law problem recipe", steps: [{ label: "List P, V, n, T", detail: "with units" }, { label: "T → kelvin", detail: "always" }, { label: "Pick the law", detail: "combined or ideal" }, { label: "Solve symbolically", detail: "then plug" }, { label: "Sanity-check", detail: "direction of change" }] } },
+    { type: "qa", config: { title: "Numbers to own", pairs: [{ q: "Molar volume at STP?", a: "<b>22.4 L (1 atm)</b>" }, { q: "R in L·atm?", a: "<b>0.08206</b>" }, { q: "Earth keeps O₂ not H₂ because…?", a: "<b>u_rms ∝ 1/√M</b>" }] } }
+  ],
+  questions: [
+    { type: "mcq", q: "Doubling absolute T at constant P:", options: ["V halves", "V doubles", "V unchanged", "n doubles"], answer: 1, difficulty: 1, explanation: "Charles: V ∝ T" },
+    { type: "mcq", q: "Pressure of a gas comes from:", options: ["IMFs", "collisions with walls", "gravity", "bond vibrations"], answer: 1, difficulty: 1, explanation: "Momentum transfer in wall bombardment" },
+    { type: "mcq", q: "Total pressure of 0.4 mol He + 0.6 mol Ne in a fixed V,T equals:", options: ["P of He only", "sum of partial pressures", "average", "0.4P"], answer: 1, difficulty: 2, explanation: "Dalton: P_tot = ΣP_i" },
+    { type: "mcq", q: "Real gases deviate most at:", options: ["high T, low P", "low T, high P", "STP", "vacuum"], answer: 1, difficulty: 2, explanation: "Attraction and finite volume matter when crowded and slow" },
+    { type: "tf", q: "Equal volumes of gases at same T and P contain equal moles.", answer: true, difficulty: 2, explanation: "Avogadro's law — the 22.4 L logic" },
+    { type: "tf", q: "Helium is more ideal than water vapour.", answer: true, difficulty: 2, explanation: "Tiny, non-polar, weak dispersion — He is the closest real gas" },
+    { type: "calc", q: "3.0 mol gas at 350 K, 2.0 atm. Volume (L, 1 dp)?", answer: "43.1", difficulty: 2, explanation: "V = nRT/P = 3×0.08206×350/2 = 43.1 L" },
+    { type: "calc", q: "P₁V₁ = P₂V₂: 2.0 L at 3 atm compressed to 1.5 L. New P (atm)?", answer: "4", difficulty: 2, explanation: "P₂ = 3×2/1.5 = 4 atm" },
+    { type: "short", q: "Law: each gas in a mixture exerts its own pressure independently.", answer: "dalton|dalton's law", difficulty: 1, explanation: "Dalton's law of partial pressures" },
+    { type: "concept", q: "Why does a gas cool when it expands freely against a piston?", answer: "work done by gas|KE converted|energy leaves", difficulty: 3, explanation: "Pushing the piston spends molecular KE as work — molecules rebound slower; average KE drops → T falls (refrigerators and clouds exploit this)" }
+  ]
+};
+
+Lessons["g11-chemistry-uc3-t3"] = {
+  overview: "Liquids are the compromise state: dense like solids, flowing like gases. Their signature properties — vapor pressure, surface tension, viscosity, the phase diagram — all read directly from intermolecular forces and kinetic energy.",
+  objectives: [
+    "Explain liquid properties (cohesion, adhesion, surface tension, viscosity) via IMFs",
+    "Read heating curves and compute q = mcΔT and q = nΔH across transitions",
+    "Interpret phase diagrams: triple point, critical point, slopes",
+    "Distinguish crystalline vs amorphous and normal vs supercooled liquids",
+    "Apply Clausius–Clapeyron logic to vapor-pressure data"
+  ],
+  simple: "Liquid molecules are close enough to attract but energetic enough to slide. Cohesion (same-molecule pull) makes water bead; adhesion (different-molecule pull) makes it wet glass; when adhesion > cohesion, liquid creeps up a thin tube — capillary action, how water climbs trees and paper towels. Surface tension: surface molecules get pulled sideways and down (no neighbours above), so the surface behaves like a stretched skin — insects walk on it. Viscosity is flow-friction: honey's H-bond network and long molecules tangle; heat thins it (KE beats IMFs). Heat a liquid and temperature rises until boiling, then plateaus — added energy breaks IMFs, not motion (heating curve flat = phase change). The phase diagram maps all of it: the vapor-pressure curve ends at the critical point (beyond it, no liquid exists — supercritical CO₂ cleans coffee); the triple point is the one condition where ice, water and vapor coexist. Water's solid-liquid line leans LEFT — pressure melts ice — the rare exception from ice's open lattice.",
+  detailed: "<p><b>IMFs in the bulk.</b> Each interior molecule is pulled equally in all directions (net zero); surface molecules feel a net inward pull → minimizing area = surface tension γ (water 72.8 mN/m at 20 °C, ethanol 22, mercury 486 — metallic bonding). Adhesion vs cohesion decides wetting: water on clean glass spreads (adhesion via H-bonds to SiO₂); on wax beads (cohesion wins). Capillary rise h = 2γcosθ/(ρgr): narrow tube + strong adhesion = tall climb.</p><p><b>Viscosity.</b> Internal friction between sliding layers. Set by IMF strength, molecular length/entanglement, and T: glycerol (3 OH) 1000× water; silicones polymer-chain; all thin when heated (KE overcomes attraction) — opposite of gases, where heat thickens (more collisions). Measured by flow time through a capillary viscometer.</p><p><b>Heating curves & energy.</b> q = mcΔT within a phase (water c = 4.184 J/g·K); at transitions q = nΔH: fusion 6.01 kJ/mol (0 °C), vaporization 40.7 (100 °C) — vaporization ≫ fusion because gas creation severs ALL IMFs, melting only loosens them. Ice→steam for 1 g: heat ice 0→0 (334 J/g), warm 0→100 (418 J), vaporize (2260 J) — steam burns worse than boiling water because that 2260 J/g releases on your skin. ΔH_vap also drives the Clausius–Clapeyron line: ln P = −ΔH_vap/(RT) + C — vapor-pressure plots are straight lines in 1/T; slope gives ΔH_vap.</p><p><b>Phase diagrams.</b> Axes P vs T; curves = coexistence. Vaporization curve ends at critical point (water: 374 °C, 218 atm — beyond: supercritical fluid, gas-like penetration + liquid-like solvation → decaf coffee, dry cleaning). Sublimation curve meets fusion and vaporization at the triple point (water: 0.01 °C, 4.58 mmHg — once the kelvin definition's anchor). Slopes: most substances' fusion line leans right (solid denser); water leans left — pressure lowers ice's melting point (ice skating's temporary lubricant; regel: wires cutting through ice that refreezes above).</p><p><b>Supercooling & nucleation.</b> Very clean, still liquid can pass its freezing point without solidifying — no nucleation sites; a disturbance crystallizes it instantly (instant 'ice' clouds, hand-warmer sodium acetate 'clicks').</p>",
+  keyTerms: [
+    { term: "Cohesion / adhesion", def: "Same-molecule / different-surface attraction" },
+    { term: "Surface tension γ", def: "Inward-pulled surface acting like a skin (N/m)" },
+    { term: "Viscosity", def: "Resistance to flow — IMF + entanglement, falls with T" },
+    { term: "Heating curve", def: "T vs q: sloped segments (mcΔT) + plateaus (ΔH)" },
+    { term: "Triple point", def: "Unique P,T where all three phases coexist" },
+    { term: "Critical point", def: "End of vaporization curve; beyond: supercritical fluid" }
+  ],
+  formulas: [
+    {
+      name: "Sensible vs latent heat",
+      formula: "q = mcΔT | q = nΔH_fus / ΔH_vap",
+      meaning: "Warming vs transforming",
+      vars: [{ name: "c", meaning: "specific heat (water 4.184 J/g·K)", unit: "J/g·K" }],
+      units: "J",
+      when: "Any heating-curve calculation",
+      example: "1 g ice → steam: 334 + 418 + 2260 = 3012 J"
+    },
+    {
+      name: "Clausius–Clapeyron (2-point)",
+      formula: "ln(P₂/P₁) = −ΔH_vap/R · (1/T₂ − 1/T₁)",
+      meaning: "Vapor pressure climbs exponentially with T",
+      vars: [{ name: "R", meaning: "8.314 J/mol·K", unit: "—" }],
+      units: "K, Pa",
+      when: "Boiling points at new pressures",
+      example: "Water at 0.7 atm boils ~90 °C — solve the log equation"
+    }
+  ],
+  workedExamples: [
+    {
+      problem: "How much energy converts 50 g ice at 0 °C to steam at 100 °C? (ΔH_fus 334 J/g, c 4.184, ΔH_vap 2260 J/g.)",
+      given: "three stages",
+      formula: "q = m(334) + mc(100) + m(2260)",
+      substitution: "50×334 + 50×4.184×100 + 50×2260",
+      calculation: "16700 + 20920 + 113000 = 150620 J",
+      answer: "≈ 151 kJ — vaporization dominates the bill"
+    },
+    {
+      problem: "Explain why steam at 100 °C burns far worse than liquid water at 100 °C.",
+      given: "ΔH_vap released on condensation",
+      formula: "q = mcΔT + mΔH_vap",
+      substitution: "condensing steam adds 2260 J/g before cooling even starts",
+      calculation: "vs liquid's 4.18 J/g·K",
+      answer: "Each gram of steam dumps 2260 J just becoming water — the latent heat is the weapon"
+    },
+    {
+      problem: "Water's fusion line slopes left. What does that predict when pressure is applied to ice at 0 °C?",
+      given: "ice less dense than water",
+      formula: "Le Chatelier-style: pressure favors the denser phase",
+      substitution: "melting reduces volume → pressure promotes it",
+      calculation: "melting point falls with P (~0.0075 °C/atm)",
+      answer: "Ice melts under pressure — the skating-blade and regel phenomenon"
+    },
+    {
+      problem: "Using Clausius–Clapeyron logic: ethanol's vapor pressure doubles from 20→35 °C. Why does a wet cloth dry faster on a hot day?",
+      given: "exponential P_vap(T)",
+      formula: "ln P ∝ −1/T",
+      substitution: "higher T → far more molecules clear the IMF barrier",
+      calculation: "evaporation rate tracks surface vapor pressure",
+      answer: "Vapor pressure rises exponentially — warm air + warm liquid = much faster drying"
+    },
+    {
+      problem: "Glycerol is 1000× more viscous than water. Name two molecular causes.",
+      given: "structure",
+      formula: "IMF + entanglement",
+      substitution: "three –OH groups → dense H-bond network",
+      calculation: "larger, more polarizable molecule → stronger dispersion too",
+      answer: "H-bond crosslinking + size — both resist layer sliding"
+    }
+  ],
+  commonMistakes: [
+    "Plateaus on heating curves read as 'no heat entering' — heat enters but breaks IMFs, not motion",
+    "ΔH_vap < ΔH_fus claimed — vaporization is always larger (all IMFs severed)",
+    "Surface tension attributed to molecules 'sticking together at the surface' — it's the NET INWARD pull",
+    "Viscosity of gases confused with liquids — gases THICKEN with heat, liquids thin",
+    "Critical point treated as 'all gases liquefy with enough pressure' — only below T_c",
+    "Water's left-leaning fusion line applied to all substances — it's the exception",
+    "Supercooling called 'below freezing without freezing forever' — it's metastable; nucleation snaps it"
+  ],
+  applications: [
+    "Decaf coffee: supercritical CO₂ pulls caffeine without cooking the beans — phase diagram in your cup",
+    "Antifreeze chemistry: ethylene glycol disrupts H-bond networks, dropping freezing point",
+    "Inkjet & coating design: γ and viscosity tuned for droplet formation and leveling",
+    "Ice skating & glaciers: pressure melting and regel shape ice physics",
+    "Food preservation: water activity (IMF-bound water) controls spoilage — drying and salting"
+  ],
+  summary: "Liquids balance KE against IMFs: cohesion/adhesion set wetting and capillary rise, surface tension is the inward-pulled skin, viscosity is flow-friction (falling with T). Heating curves alternate mcΔT slopes with ΔH plateaus — vaporization's 40.7 kJ/mol dwarfs fusion's 6.0. Phase diagrams encode it all: triple point, critical point, and water's rare left-leaning fusion line. Clausius–Clapeyron makes vapor pressure exponential in 1/T.",
+  visuals: [
+    { type: "lineGraph", config: { title: "Heating curve: ice → steam (1 g)", xLabel: "heat added (J)", yLabel: "temp (°C)", series: [{ label: "T vs q", color: "#3b82f6", points: [[0, -20], [42, 0], [376, 0], [794, 100], [3054, 100], [3138, 150]] }] } },
+    { type: "comparison", config: { title: "Cohesion vs adhesion", left: { name: "Cohesion wins", items: ["mercury beads", "water on wax", "high surface tension", "no wetting"] }, right: { name: "Adhesion wins", items: ["water on glass", "spreads flat", "capillary climb", "wets fibers"] } } },
+    { type: "qa", config: { title: "Diagram reflexes", pairs: [{ q: "Triple point of water?", a: "<b>0.01 °C, 4.58 mmHg</b>" }, { q: "Critical point of water?", a: "<b>374 °C, 218 atm</b>" }, { q: "Water's fusion line leans…?", a: "<b>left</b> — ice floats" }] } }
+  ],
+  questions: [
+    { type: "mcq", q: "Surface tension arises because surface molecules:", options: ["have extra neighbours", "feel net inward pull", "evaporate", "are hotter"], answer: 1, difficulty: 2, explanation: "No molecules above → unbalanced inward force minimizes area" },
+    { type: "mcq", q: "During boiling, added heat:", options: ["raises T", "breaks IMFs at constant T", "breaks covalent bonds", "does nothing"], answer: 1, difficulty: 1, explanation: "Latent heat — plateau at bp" },
+    { type: "mcq", q: "Viscosity of a liquid with heating:", options: ["increases", "decreases", "constant", "oscillates"], answer: 1, difficulty: 2, explanation: "KE beats IMFs — liquids run thinner when hot" },
+    { type: "mcq", q: "Beyond the critical point:", options: ["solid forms", "liquid and gas are indistinguishable", "pressure is zero", "IMFs vanish"], answer: 1, difficulty: 2, explanation: "Supercritical fluid — no phase boundary" },
+    { type: "tf", q: "ΔH_vap of water exceeds ΔH_fus.", answer: true, difficulty: 2, explanation: "40.7 vs 6.01 kJ/mol — vaporization severs all attractions" },
+    { type: "tf", q: "Applying pressure to ice at 0 °C tends to melt it.", answer: true, difficulty: 3, explanation: "Water's fusion line slopes left — denser phase favored" },
+    { type: "calc", q: "Energy to melt 10 g ice at 0 °C (J)?", answer: "3340", difficulty: 2, explanation: "10 × 334 = 3340 J" },
+    { type: "calc", q: "Heat 100 g water 20→80 °C (J)?", answer: "25104", difficulty: 2, explanation: "100 × 4.184 × 60 = 25104 J" },
+    { type: "short", q: "Water climbing a thin glass tube:", answer: "capillary action|capillary", difficulty: 1, explanation: "Capillary action — adhesion + cohesion" },
+    { type: "concept", q: "Why does a pressure cooker cook faster?", answer: "higher pressure|higher boiling point|hotter liquid water", difficulty: 3, explanation: "Sealed vessel raises P above 1 atm → water's bp climbs to ~121 °C → reactions (starch gelatinization, fiber softening) run far faster at the hotter temperature" }
+  ]
+};
+
+Lessons["g11-chemistry-uc3-t4"] = {
+  overview: "Solids are IMFs frozen into architecture: crystalline lattices with repeating unit cells, or amorphous glasses. Band theory sorts them into conductors, semiconductors and insulators — and the same four lattice types explain why diamond cuts glass while graphite writes on paper.",
+  objectives: [
+    "Distinguish crystalline vs amorphous solids",
+    "Identify four crystal lattice types and their properties",
+    "Compute packing in unit cells: atoms per cell, edge-length relations",
+    "Use Bragg's law to connect X-ray diffraction to structure",
+    "Explain conductors/semiconductors/insulators with band theory"
+  ],
+  simple: "In a crystal, atoms stack in a repeating 3-D pattern; the smallest repeating box is the unit cell. Count its contents: corners contribute 1/8 each, faces 1/2, the centre 1 — so a body-centred cubic cell holds 2 atoms, face-centred cubic 4. Packing efficiency: metals hug the densest arrangements (fcc/hcp 74%), simple cubic only 52%. X-rays scatter off atomic planes and interfere; Bragg's law nλ = 2d sinθ turns the diffraction pattern into atomic distances — the method that revealed DNA. Four lattice families explain properties: ionic (NaCl — hard, brittle, high mp), molecular (ice, dry ice — soft, low mp), covalent network (diamond, quartz — extreme hardness, giant mp), metallic (Cu — sea, conductive, malleable). Band theory adds electronics: filled and empty bands separated by a gap — none (metal), small (semiconductor: Si, doped into every chip), large (insulator: diamond).",
+  detailed: "<p><b>Crystalline vs amorphous.</b> Crystals: long-range order, sharp melting point, cleave along planes (NaCl, quartz). Amorphous: short-range order only, soften over a range (glass, rubber, plastics) — frozen liquids. X-ray diffraction distinguishes them instantly: sharp peaks vs broad halos.</p><p><b>Unit cells & counting.</b> Seven crystal systems; cubic is the teaching set. Simple cubic (sc): 8 corners × 1/8 = 1 atom, a = 2r, packing 52%. BCC: +1 centre = 2 atoms, body diagonal 4r = a√3, 68%. FCC (cubic close-packed): 8×1/8 + 6×1/2 = 4 atoms, face diagonal 4r = a√2, 74% — same efficiency as hcp (ABAB vs ABC stacking). Ionic cells: count ions per site type (NaCl: 4 Na⁺ + 4 Cl⁻ per cell; ZnS: 4:4; CsCl: 1:1 — NOT BCC, different ions). Density from cell: ρ = (Z·M)/(N_A·a³) — crystallography becomes arithmetic.</p><p><b>Bragg diffraction.</b> Planes spaced d reflect X-rays; path difference 2d sinθ must equal nλ for constructive interference. Measure θ → get d → map the lattice. Powder patterns fingerprint compounds (pharmaceutical polymorphs); single-crystal XRD solved everything from caffeine to the ribosome.</p><p><b>Four lattice types.</b> Ionic: Coulomb glue — hard, brittle, high mp, insulating solid/conducting melt. Molecular: IMFs only — soft, low mp (I₂ sublimes, sucrose caramelizes). Covalent network: bonds span the crystal — diamond (sp³, 3550 °C, hardest), graphite (sp² sheets + dispersion between — soft, conducts in-plane: the pencil and electrode), quartz SiO₂, SiC. Metallic: sea — all metals/alloys.</p><p><b>Band theory.</b> N atoms merge orbitals into bands. Filled band + empty band overlapping or partially filled → conductor (metals). Large gap (> ~3 eV) → insulator (diamond 5.5 eV). Gap 0.5–2 eV → semiconductor: Si 1.1 eV, Ge 0.67 — conductivity rises with T (opposite of metals!) and with doping: P (5 valence) → n-type (extra electron); B (3) → p-type (hole). p–n junction = diode = transistor = every chip. LEDs: recombination emits hν ≈ E_gap — red AlGaAs to blue GaN (2014 Nobel, enabling white LEDs).</p>",
+  keyTerms: [
+    { term: "Unit cell", def: "Smallest repeating box of the lattice" },
+    { term: "Coordination number", def: "Nearest neighbours (sc 6, bcc 8, fcc 12, NaCl 6)" },
+    { term: "Packing efficiency", def: "Fraction of cell volume filled: sc 52, bcc 68, fcc 74%" },
+    { term: "Bragg's law", def: "nλ = 2d sinθ — diffraction reads atomic spacing" },
+    { term: "Band gap", def: "Energy between filled and empty bands — the conductivity dial" },
+    { term: "n-type / p-type", def: "Donor-doped (extra e⁻) / acceptor-doped (holes)" }
+  ],
+  formulas: [
+    {
+      name: "Bragg's law",
+      formula: "nλ = 2d sinθ",
+      meaning: "Constructive interference from plane reflections",
+      vars: [{ name: "d", meaning: "plane spacing", unit: "m" }, { name: "θ", meaning: "glancing angle", unit: "deg" }],
+      units: "same length",
+      when: "XRD structure solving",
+      example: "λ = 0.154 nm, θ = 14.2°, n = 1 → d = 0.312 nm (Cu 111)"
+    },
+    {
+      name: "Cell density",
+      formula: "ρ = ZM/(N_A a³)",
+      meaning: "Mass of cell contents over its volume",
+      vars: [{ name: "Z", meaning: "formula units per cell", unit: "—" }],
+      units: "g/cm³",
+      when: "Identifying structures from density",
+      example: "Cu fcc: Z = 4, a = 361 pm → ρ = 8.9 g/cm³ ✓"
+    }
+  ],
+  workedExamples: [
+    {
+      problem: "How many atoms per unit cell: sc, bcc, fcc?",
+      given: "site sharing",
+      formula: "corners 1/8, faces 1/2, body 1",
+      substitution: "sc: 8×1/8; bcc: +1; fcc: +6×1/2",
+      calculation: "1, 2, 4",
+      answer: "sc 1, bcc 2, fcc 4 — the counting that makes density work"
+    },
+    {
+      problem: "Iron is bcc with a = 287 pm. Find the atomic radius.",
+      given: "body diagonal = 4r = a√3",
+      formula: "r = a√3/4",
+      substitution: "287 × 1.732/4",
+      calculation: "≈ 124 pm",
+      answer: "r ≈ 124 pm — bcc touches along the BODY diagonal, not the edge"
+    },
+    {
+      problem: "X-rays (λ = 0.154 nm) diffract at θ = 22.5° (n = 1). Plane spacing d?",
+      given: "Bragg",
+      formula: "d = λ/(2 sinθ)",
+      substitution: "0.154/(2 × 0.383)",
+      calculation: "= 0.201 nm",
+      answer: "d ≈ 0.20 nm — atomic-scale ruler calibrated"
+    },
+    {
+      problem: "Diamond and graphite are both pure carbon. Why do their properties diverge so wildly?",
+      given: "hybridization",
+      formula: "structure → bonding → properties",
+      substitution: "diamond: sp³ 3-D network; graphite: sp² sheets + π sea + dispersion gaps",
+      calculation: "network = hardest; sheets slide = lubricant; mobile π = conductor",
+      answer: "Same atoms, different architecture — the lattice type IS the property list"
+    },
+    {
+      problem: "Why does a semiconductor's conductivity rise with temperature while a metal's falls?",
+      given: "band picture",
+      formula: "carriers vs scattering",
+      substitution: "Si: heat promotes e⁻ across 1.1 eV gap → more carriers; metals: band already full of carriers, heat only adds scattering",
+      calculation: "carrier creation beats mobility loss in Si",
+      answer: "Metals have carriers to spare (heat just impedes them); semiconductors must CREATE carriers with heat"
+    }
+  ],
+  commonMistakes: [
+    "Counting corner atoms as whole — each contributes 1/8 (fcc ≠ 14 atoms; it's 4)",
+    "CsCl called bcc — it's simple cubic with a two-ion basis (different species!)",
+    "Bragg θ measured from the surface instead of the plane (glancing angle)",
+    "Graphite called an insulator — it conducts IN-PLANE via delocalized π",
+    "Semiconductor doping reversed: P (5 e⁻) = n-type, B (3 e⁻) = p-type",
+    "Amorphous solids called 'slow crystals' — they lack long-range order entirely",
+    "Band gap confused with activation energy of IMFs — different physics"
+  ],
+  applications: [
+    "Silicon chips: doped p–n junctions — every phone is solid-state chemistry",
+    "LED lighting: GaN blue + phosphor = white lamps (Nobel 2014) — band-gap engineering",
+    "Pharmaceuticals: polymorph screening by XRD — crystal form decides drug dissolution",
+    "Solar cells: Si p–n junctions convert light to current — Ethiopia's insolation potential",
+    "Materials selection: diamond cutters, graphite lubricants, quartz oscillators — lattice type as spec sheet"
+  ],
+  summary: "Crystalline solids repeat a unit cell: count atoms by site sharing (sc 1, bcc 2, fcc 4), pack them at 52–74%, and measure d-spacings with Bragg's law nλ = 2d sinθ. Four lattice families — ionic, molecular, covalent network, metallic — map directly to hardness, mp and conduction. Band theory completes it: no gap (metal), ~1 eV (semiconductor, dopable into n/p), large gap (insulator) — the physics behind chips, LEDs and solar cells.",
+  visuals: [
+    { type: "comparison", config: { title: "Four lattice types", left: { name: "Ionic / Molecular", items: ["ionic: hard, brittle, high mp", "molecular: soft, low mp", "insulating solids"] }, right: { name: "Network / Metallic", items: ["network: extreme mp + hardness", "metallic: sea, malleable", "both conduct"] } } },
+    { type: "steps", config: { title: "Unit-cell counting", steps: [{ label: "Corners", detail: "× 1/8 each" }, { label: "Faces", detail: "× 1/2 each" }, { label: "Body centre", detail: "× 1" }, { label: "Edges", detail: "× 1/4" }, { label: "Sum = Z", detail: "then ρ = ZM/N_Aa³" }] } },
+    { type: "qa", config: { title: "Structure facts", pairs: [{ q: "fcc atoms per cell?", a: "<b>4</b>" }, { q: "Diamond vs graphite?", a: "<b>sp³ vs sp²</b>" }, { q: "Si band gap?", a: "<b>1.1 eV</b>" }] } }
+  ],
+  questions: [
+    { type: "mcq", q: "Atoms per fcc unit cell:", options: ["1", "2", "4", "8"], answer: 2, difficulty: 2, explanation: "8×1/8 + 6×1/2 = 4" },
+    { type: "mcq", q: "Which is a covalent network solid?", options: ["NaCl", "diamond", "dry ice", "copper"], answer: 1, difficulty: 1, explanation: "sp³ carbon lattice throughout" },
+    { type: "mcq", q: "Bragg's law is:", options: ["nλ = 2d sinθ", "PV = nRT", "E = hν", "λ = h/mv"], answer: 0, difficulty: 2, explanation: "Diffraction condition for plane spacing" },
+    { type: "mcq", q: "Doping Si with phosphorus creates:", options: ["p-type", "n-type", "insulator", "metal"], answer: 1, difficulty: 2, explanation: "P's 5th electron is free — donor" },
+    { type: "tf", q: "Glass is an amorphous solid.", answer: true, difficulty: 1, explanation: "No long-range order; softens over a range" },
+    { type: "tf", q: "Packing efficiency is highest in simple cubic.", answer: false, difficulty: 2, explanation: "sc is worst (52%); fcc/hcp best (74%)" },
+    { type: "calc", q: "Bragg: λ = 0.20 nm, θ = 30°, n = 1. d (nm)?", answer: "0.2", difficulty: 2, explanation: "d = λ/(2 sin30°) = 0.20/1 = 0.20 nm" },
+    { type: "calc", q: "bcc cell edge 300 pm: atomic radius (pm, nearest integer)?", answer: "130", difficulty: 3, explanation: "r = a√3/4 = 300×1.732/4 ≈ 130 pm" },
+    { type: "short", q: "Band gap size separating conductor from insulator: name the region 0.5–2 eV used in chips:", answer: "semiconductor", difficulty: 1, explanation: "Semiconductors — tunable gaps" },
+    { type: "concept", q: "Why is graphite soft and slippery while diamond is the hardest natural material?", answer: "sheets vs network|sp2 layers|dispersion between layers|sp3 3D", difficulty: 3, explanation: "Graphite: strong sp² sheets held to each other only by weak dispersion — layers shear. Diamond: every C sp³-bonded in a 3-D network — deformation requires breaking covalent bonds themselves" }
+  ]
+};

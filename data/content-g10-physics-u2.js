@@ -1,0 +1,519 @@
+/* ============================================================
+   Content: Grade 10 Physics — Unit 2: Uniformly Accelerated Motion
+   6 topics: Position/Displacement, Velocity, Acceleration,
+   Equations of Motion, Graphs, Relative Velocity.
+   ============================================================ */
+window.Lessons = window.Lessons || {};
+
+/* --- p2-1: Position and Displacement --- */
+Lessons["g10-physics-up2-t1"] = {
+  overview: "To describe motion, we first need to talk about where something is (position) and how far it has moved from where it started (displacement). These ideas are the foundation of kinematics.",
+  objectives: [
+    "Define position relative to a reference point",
+    "Distinguish between distance and displacement",
+    "Use a number line or coordinate system to describe position",
+    "Understand that displacement is a vector while distance is a scalar"
+  ],
+  simple: "Position is WHERE something is — like 'the car is at the 5 km mark'. Distance is HOW FAR you traveled altogether — like 'we drove 100 km'. Displacement is how far you are from where you started, in a straight line — like 'we ended up 20 km north of home'. Even if you drive around in circles for hours, if you end where you started, your displacement is zero!",
+  detailed: `<p><b>Position</b> is the location of an object relative to a chosen reference point (origin). On a number line, position can be positive or negative depending on which side of the origin the object is.</p>
+<p><b>Distance (d)</b> is the total length of the path traveled. It is a scalar — always positive, never decreases, and doesn't tell you direction.</p>
+<p><b>Displacement (Δs or Δx)</b> is the change in position: the straight-line distance from the starting point to the ending point, with direction. It is a vector.</p>
+<p>Displacement = final position − initial position: <b>Δx = x₂ − x₁</b></p>
+<p>If an object moves from position 2 m to position 10 m, its displacement is 8 m in the positive direction. If it then returns to 2 m, the total distance is 16 m but the total displacement is 0 m.</p>`,
+  keyTerms: [
+    { term: "Position", def: "The location of an object relative to a reference point (origin)." },
+    { term: "Distance", def: "Total path length traveled; a scalar quantity." },
+    { term: "Displacement", def: "Change in position (final − initial); a vector quantity." },
+    { term: "Reference point / origin", def: "The zero mark from which positions are measured." },
+    { term: "Δ (delta)", def: "Greek letter meaning 'change in' a quantity." }
+  ],
+  formulas: [
+    {
+      name: "Displacement",
+      formula: "Δx = x₂ − x₁",
+      meaning: "Displacement equals final position minus initial position.",
+      vars: [
+        { name: "Δx", meaning: "displacement", unit: "meters (m)" },
+        { name: "x₂", meaning: "final position", unit: "meters (m)" },
+        { name: "x₁", meaning: "initial position", unit: "meters (m)" }
+      ],
+      units: "meters (m)",
+      when: "To find how far (and in which direction) an object moved between two positions.",
+      example: "An object moves from x₁ = 2 m to x₂ = 10 m. Δx = 10 − 2 = 8 m."
+    }
+  ],
+  workedExamples: [
+    {
+      problem: "A student walks from the classroom (position 0 m) to the library (position 50 m east), then to the cafeteria (position 20 m east). Find the total distance and the displacement.",
+      given: "Start: 0 m. Library: +50 m. Cafeteria: +20 m.",
+      formula: "Distance = total path. Displacement = final − initial.",
+      substitution: "Distance = 50 + 30 = 80 m. Displacement = 20 − 0 = 20 m east.",
+      calculation: "The displacement is +20 m (east of start).",
+      answer: "Distance = 80 m, Displacement = 20 m east"
+    }
+  ],
+  commonMistakes: [
+    "Using distance and displacement interchangeably. Distance is the path; displacement is the straight-line change in position.",
+    "Forgetting that displacement can be negative (direction matters!).",
+    "Forgetting to state the direction of a displacement."
+  ],
+  applications: [
+    "Satellite navigation systems calculate displacement, not distance, to give you the shortest route.",
+    "Physiotherapists track displacement during joint rehabilitation exercises.",
+    "Sports science measures a runner's displacement (not just distance) to analyze efficiency."
+  ],
+  summary: "Position is where an object is. Distance is the total path traveled (scalar). Displacement = final position − initial position (vector). You can travel far but have zero displacement if you return to the start.",
+  visuals: [
+    { type: "numberLine", config: { min: 0, max: 10, marks: [], highlights: [{ value: 2, label: "start" }, { value: 9, label: "finish" }] } }
+  , {"type":"qa","config":{"title":"Quick Review — tap a question to reveal the answer","pairs":[{"q":"A student walks from the classroom (position 0 m) to the library (position 50 m east), th…","a":"<b>Answer:</b> Distance = 80 m, Displacement = 20 m east"}]}}],
+  questions: [
+    { type: "mcq", q: "Which quantity tells you the total length of the path traveled?", options: ["Displacement", "Distance", "Position", "Velocity"], answer: 1, difficulty: 1, explanation: "Distance is the total path length — a scalar. Displacement is the straight-line change in position." },
+    { type: "mcq", q: "An object moves from position −3 m to position 5 m. Its displacement is:", options: ["8 m", "2 m", "−8 m", "5 m"], answer: 0, difficulty: 2, explanation: "Δx = 5 − (−3) = 5 + 3 = 8 m, in the positive direction." },
+    { type: "tf", q: "A person who runs around a 400 m track once has a displacement of 400 m.", answer: false, difficulty: 1, explanation: "They end where they started, so displacement = 0 m. The distance was 400 m." },
+    { type: "short", q: "What is the displacement of an object that returns exactly to its starting point?", answer: "0|zero", difficulty: 1, explanation: "Final position = initial position, so Δx = 0." },
+    { type: "concept", q: "A delivery truck drives 10 km east, then 10 km west, back to the depot. Compare distance and displacement.", answer: "distance 20|displacement 0|distance is 20 km|displacement is zero", difficulty: 2, explanation: "Distance = 10 + 10 = 20 km. Displacement = 0 because it returns to the start." },
+    { type: "calc", q: "A car moves from position 15 m to position 42 m. Find its displacement.", answer: "27", difficulty: 1, explanation: "Δx = 42 − 15 = 27 m", tolerance: 0.1 }
+  ]
+};
+
+/* --- p2-2: Average and Instantaneous Velocity --- */
+Lessons["g10-physics-up2-t2"] = {
+  overview: "Velocity describes how fast an object's position changes AND in what direction. Average velocity considers the whole trip; instantaneous velocity tells you the velocity at a specific instant.",
+  objectives: [
+    "Define average velocity and calculate it from displacement and time",
+    "Distinguish between speed and velocity",
+    "Explain instantaneous velocity",
+    "Interpret velocity values and signs"
+  ],
+  simple: "Speed is 'how fast' — like 60 km/h. Velocity is 'how fast AND which way' — like 60 km/h north. Average velocity = total displacement ÷ total time. If you drive a windy road for 2 hours and end up only 40 km from home, your average velocity is 20 km/h in the direction of home — even if your speedometer showed 80 km/h the whole time!",
+  detailed: `<p><b>Speed</b> is the rate of change of distance: speed = distance ÷ time. It's a scalar.</p>
+<p><b>Velocity</b> is the rate of change of displacement: velocity = displacement ÷ time. It's a vector — it has direction.</p>
+<p><b>Average velocity:</b> v<sub>avg</sub> = Δx / Δt = (x₂ − x₁) / (t₂ − t₁)</p>
+<p>Average velocity depends only on the total displacement and total time — not on the details of the path.</p>
+<p><b>Instantaneous velocity</b> is the velocity at a single moment. On a position–time graph, it's the slope of the tangent line at that point. Your car's speedometer shows instantaneous speed.</p>
+<p>The sign of velocity tells direction: positive means moving in the positive direction, negative means moving opposite. In SI units, velocity is measured in meters per second (m/s).</p>`,
+  keyTerms: [
+    { term: "Speed", def: "Rate of change of distance; scalar (m/s)." },
+    { term: "Velocity", def: "Rate of change of displacement; vector (m/s)." },
+    { term: "Average velocity", def: "Total displacement divided by total time." },
+    { term: "Instantaneous velocity", def: "Velocity at a specific instant; slope of tangent on x–t graph." },
+    { term: "Uniform motion", def: "Motion at constant velocity (no acceleration)." }
+  ],
+  formulas: [
+    {
+      name: "Average velocity",
+      formula: "v_avg = Δx / Δt",
+      meaning: "Average velocity is the total displacement divided by the total time interval.",
+      vars: [
+        { name: "v_avg", meaning: "average velocity", unit: "m/s" },
+        { name: "Δx", meaning: "displacement", unit: "meters (m)" },
+        { name: "Δt", meaning: "time interval", unit: "seconds (s)" }
+      ],
+      units: "meters per second (m/s)",
+      when: "To find average velocity over a trip given total displacement and time.",
+      example: "Δx = 100 m, Δt = 20 s. v_avg = 100/20 = 5 m/s."
+    }
+  ],
+  workedExamples: [
+    {
+      problem: "A cyclist travels 360 m east in 45 s, then 240 m west in 35 s. Find (a) average speed and (b) average velocity.",
+      given: "East: 360 m in 45 s. West: 240 m in 35 s.",
+      formula: "speed = total distance / total time; velocity = displacement / total time",
+      substitution: "Total distance = 360 + 240 = 600 m. Total time = 45 + 35 = 80 s. Speed = 600/80 = 7.5 m/s.",
+      calculation: "Displacement = 360 − 240 = 120 m east. Velocity = 120/80 = 1.5 m/s east.",
+      answer: "Average speed = 7.5 m/s, average velocity = 1.5 m/s east"
+    }
+  ],
+  commonMistakes: [
+    "Confusing speed and velocity: speed has no direction, velocity does.",
+    "Using distance instead of displacement for velocity.",
+    "Forgetting to state the direction of velocity."
+  ],
+  applications: [
+    "Traffic enforcement: average speed cameras measure average velocity over a stretch.",
+    "Sports analytics: average sprint velocity vs. top (instantaneous) speed.",
+    "Aviation: ground velocity combines airspeed with wind — a vector sum."
+  ],
+  summary: "Speed = distance/time (scalar). Velocity = displacement/time (vector). Average velocity = total displacement ÷ total time. Instantaneous velocity is the velocity right now — the slope of the tangent on a position–time graph.",
+  visuals: [
+    { type: "motionGraph", config: { type: "st", data: [0, 5, 10, 15, 20, 25], title: "Position–time (constant velocity)" } }
+  , {"type":"qa","config":{"title":"Quick Review — tap a question to reveal the answer","pairs":[{"q":"A cyclist travels 360 m east in 45 s, then 240 m west in 35 s. Find (a) average speed and…","a":"<b>Answer:</b> Average speed = 7.5 m/s, average velocity = 1.5 m/s east"}]}}],
+  questions: [
+    { type: "mcq", q: "Average velocity is defined as:", options: ["Distance ÷ time", "Displacement ÷ time", "Speed × time", "Acceleration ÷ time"], answer: 1, difficulty: 1, explanation: "Average velocity = displacement ÷ time. Using distance instead gives average speed." },
+    { type: "calc", q: "A runner covers 400 m east in 50 s. Find the average velocity.", answer: "8", difficulty: 1, explanation: "v = 400/50 = 8 m/s east", tolerance: 0.1 },
+    { type: "tf", q: "A car can have a high average speed but a low average velocity.", answer: true, difficulty: 2, explanation: "If the car winds around and returns near its start, distance is large (high speed) but displacement is small (low velocity)." },
+    { type: "mcq", q: "The speedometer in a car shows:", options: ["Average velocity", "Instantaneous speed", "Average speed", "Displacement"], answer: 1, difficulty: 1, explanation: "A speedometer shows the speed at the current moment — instantaneous speed." },
+    { type: "concept", q: "On a position–time graph, what does the slope represent?", answer: "velocity|speed", difficulty: 2, explanation: "The slope of a position–time graph is the velocity (rate of change of position)." },
+    { type: "short", q: "What is the SI unit of velocity?", answer: "m/s|meters per second|metre per second", difficulty: 1, explanation: "Velocity is measured in meters per second (m/s) in SI units." }
+  ]
+};
+
+/* --- p2-3: Acceleration --- */
+Lessons["g10-physics-up2-t3"] = {
+  overview: "Acceleration is the rate at which velocity changes. Whenever an object speeds up, slows down, or changes direction, it is accelerating. Understanding acceleration is key to explaining most real-world motion.",
+  objectives: [
+    "Define acceleration as the rate of change of velocity",
+    "Calculate acceleration from change in velocity and time",
+    "Distinguish acceleration from velocity",
+    "Understand that slowing down is also acceleration (negative)"
+  ],
+  simple: "Acceleration is how quickly velocity changes. If your car goes from 0 to 60 km/h in 6 seconds, it's accelerating. If it brakes from 60 to 0 in 3 seconds, it's ALSO accelerating — just in the negative direction (decelerating). Even turning a corner is acceleration because the direction of velocity changes!",
+  detailed: `<p><b>Acceleration</b> (a) is the rate of change of velocity:</p>
+<p>a = Δv / Δt = (v − u) / (t₂ − t₁)</p>
+<p>where u is the initial velocity, v is the final velocity, and Δt is the time taken.</p>
+<p>Acceleration is a vector — it has magnitude and direction. The SI unit is meters per second squared (m/s²).</p>
+<p><b>Positive acceleration</b> means velocity is increasing in the positive direction. <b>Negative acceleration</b> (deceleration) means velocity is decreasing or increasing in the negative direction.</p>
+<p><b>Uniform acceleration</b> means the velocity changes by the same amount each second — the acceleration is constant.</p>
+<p>A common acceleration is free fall: g = 9.8 m/s² downward. This is the acceleration due to gravity near Earth's surface.</p>`,
+  keyTerms: [
+    { term: "Acceleration", def: "Rate of change of velocity (m/s²)." },
+    { term: "Deceleration", def: "Negative acceleration — velocity decreasing." },
+    { term: "Uniform acceleration", def: "Constant acceleration; velocity changes equally each second." },
+    { term: "Free fall", def: "Motion under gravity alone, acceleration g = 9.8 m/s²." },
+    { term: "Initial velocity (u)", def: "Velocity at the start of the time interval." },
+    { term: "Final velocity (v)", def: "Velocity at the end of the time interval." }
+  ],
+  formulas: [
+    {
+      name: "Acceleration",
+      formula: "a = (v − u) / t",
+      meaning: "Acceleration is the change in velocity divided by the time taken.",
+      vars: [
+        { name: "a", meaning: "acceleration", unit: "m/s²" },
+        { name: "v", meaning: "final velocity", unit: "m/s" },
+        { name: "u", meaning: "initial velocity", unit: "m/s" },
+        { name: "t", meaning: "time taken", unit: "seconds (s)" }
+      ],
+      units: "meters per second squared (m/s²)",
+      when: "To find acceleration from initial and final velocity over a known time.",
+      example: "u = 0 m/s, v = 20 m/s, t = 4 s. a = (20 − 0)/4 = 5 m/s²."
+    }
+  ],
+  workedExamples: [
+    {
+      problem: "A car accelerates from rest (u = 0) to 30 m/s in 6 seconds. Find its acceleration.",
+      given: "u = 0 m/s, v = 30 m/s, t = 6 s",
+      formula: "a = (v − u) / t",
+      substitution: "a = (30 − 0) / 6",
+      calculation: "a = 30 / 6 = 5 m/s²",
+      answer: "Acceleration = 5 m/s² (in the direction of motion)"
+    },
+    {
+      problem: "A train moving at 25 m/s comes to a stop in 10 s. Find its acceleration.",
+      given: "u = 25 m/s, v = 0 m/s, t = 10 s",
+      formula: "a = (v − u) / t",
+      substitution: "a = (0 − 25) / 10",
+      calculation: "a = −25 / 10 = −2.5 m/s²",
+      answer: "Acceleration = −2.5 m/s² (deceleration of 2.5 m/s²)"
+    }
+  ],
+  commonMistakes: [
+    "Thinking acceleration means 'speeding up' only. Slowing down and changing direction are also acceleration.",
+    "Forgetting units: m/s², not m/s.",
+    "Mixing up initial (u) and final (v) velocity in the formula.",
+    "Ignoring the sign of acceleration (direction)."
+  ],
+  applications: [
+    "Car safety: airbags and crumple zones increase the time over which you decelerate, reducing the force (and injury).",
+    "Roller coasters: designers use acceleration limits to keep rides exciting but safe.",
+    "Space travel: rockets accelerate continuously, and astronauts feel this as G-forces."
+  ],
+  summary: "Acceleration = (v − u)/t, measured in m/s². It's the rate of change of velocity. Speeding up, slowing down, and turning all involve acceleration. Gravity provides a = 9.8 m/s² near Earth's surface.",
+  visuals: [
+    { type: "motionGraph", config: { type: "st", data: [0, 1, 4, 9, 16, 25], title: "Position–time for constant acceleration (parabola)" } }
+  , {"type":"qa","config":{"title":"Quick Review — tap a question to reveal the answer","pairs":[{"q":"A car accelerates from rest (u = 0) to 30 m/s in 6 seconds. Find its acceleration.","a":"<b>Answer:</b> Acceleration = 5 m/s² (in the direction of motion)"},{"q":"A train moving at 25 m/s comes to a stop in 10 s. Find its acceleration.","a":"<b>Answer:</b> Acceleration = −2.5 m/s² (deceleration of 2.5 m/s²)"}]}}],
+  questions: [
+    { type: "mcq", q: "Acceleration is the rate of change of:", options: ["Distance", "Displacement", "Velocity", "Speed"], answer: 2, difficulty: 1, explanation: "Acceleration = change in velocity ÷ time. It describes how quickly velocity changes." },
+    { type: "calc", q: "A ball accelerates from rest to 15 m/s in 3 s. Find its acceleration.", answer: "5", difficulty: 1, explanation: "a = (15 − 0)/3 = 5 m/s²", tolerance: 0.1 },
+    { type: "calc", q: "A car slows from 20 m/s to 4 m/s in 8 s. Find the acceleration (include sign).", answer: "-2", difficulty: 2, explanation: "a = (4 − 20)/8 = −16/8 = −2 m/s²", tolerance: 0.1 },
+    { type: "tf", q: "An object moving in a circle at constant speed has zero acceleration.", answer: false, difficulty: 2, explanation: "Its speed is constant but its direction changes, so its velocity changes — it is accelerating (centripetal acceleration)." },
+    { type: "mcq", q: "The SI unit of acceleration is:", options: ["m/s", "m/s²", "m²/s", "s/m"], answer: 1, difficulty: 1, explanation: "Velocity (m/s) divided by time (s) gives m/s²." },
+    { type: "short", q: "What is the acceleration due to gravity near Earth's surface?", answer: "9.8|9.81|10", difficulty: 1, explanation: "g ≈ 9.8 m/s² (often rounded to 10 m/s²), directed downward." }
+  ]
+};
+
+/* --- p2-4: Equations of Motion with Constant Acceleration --- */
+Lessons["g10-physics-up2-t4"] = {
+  overview: "These four equations connect displacement, velocity, acceleration, and time for objects moving with constant acceleration. They are the workhorses of kinematics — master them and you can solve almost any motion problem.",
+  objectives: [
+    "State the four equations of motion",
+    "Identify the variables in each equation",
+    "Choose the right equation for a given problem",
+    "Solve problems involving constant acceleration step by step"
+  ],
+  simple: "These equations are like a toolkit. Each one connects 4 of the 5 motion variables: u (start speed), v (end speed), a (acceleration), t (time), s (displacement). If you know any 3, you can find the 4th. It's like a recipe — pick the right equation, plug in the numbers, solve!",
+  detailed: `<p>For motion with <b>constant acceleration</b>, where u = initial velocity, v = final velocity, a = acceleration, t = time, and s = displacement:</p>
+<p><b>1. v = u + at</b> — relates final velocity to initial velocity, acceleration, and time.</p>
+<p><b>2. s = ut + ½at²</b> — displacement in terms of initial velocity, acceleration, and time.</p>
+<p><b>3. v² = u² + 2as</b> — useful when time is NOT known.</p>
+<p><b>4. s = ½(u + v)t</b> — displacement as the average velocity (½(u+v)) times time.</p>
+<p><b>Solving strategy:</b> Write down what's given. Identify what you need. Pick the equation containing all of them. Watch the signs: up/forward = positive, down/backward = negative. For objects in free fall, a = g = 9.8 m/s² downward.</p>`,
+  keyTerms: [
+    { term: "Initial velocity (u)", def: "Velocity at t = 0." },
+    { term: "Final velocity (v)", def: "Velocity at the end of the time interval." },
+    { term: "Displacement (s)", def: "Change in position (vector)." },
+    { term: "Constant acceleration", def: "Acceleration that doesn't change over time." },
+    { term: "Free fall", def: "Motion under gravity only, a = g." }
+  ],
+  formulas: [
+    {
+      name: "Equation 1 (velocity–time)",
+      formula: "v = u + at",
+      meaning: "Final velocity = initial velocity + (acceleration × time).",
+      vars: [
+        { name: "v", meaning: "final velocity", unit: "m/s" },
+        { name: "u", meaning: "initial velocity", unit: "m/s" },
+        { name: "a", meaning: "acceleration", unit: "m/s²" },
+        { name: "t", meaning: "time", unit: "s" }
+      ],
+      units: "m/s",
+      when: "You know u, a, t and want v (or any rearrangement).",
+      example: "u = 5 m/s, a = 2 m/s², t = 4 s → v = 5 + 8 = 13 m/s."
+    },
+    {
+      name: "Equation 2 (displacement–time)",
+      formula: "s = ut + ½at²",
+      meaning: "Displacement depends on the initial velocity term and the acceleration term.",
+      vars: [
+        { name: "s", meaning: "displacement", unit: "m" },
+        { name: "u", meaning: "initial velocity", unit: "m/s" },
+        { name: "t", meaning: "time", unit: "s" },
+        { name: "a", meaning: "acceleration", unit: "m/s²" }
+      ],
+      units: "meters (m)",
+      when: "You know u, a, t and want displacement.",
+      example: "u = 0, a = 9.8, t = 2 → s = 0 + ½(9.8)(4) = 19.6 m."
+    },
+    {
+      name: "Equation 3 (velocity–displacement)",
+      formula: "v² = u² + 2as",
+      meaning: "Relates velocities and displacement without needing time.",
+      vars: [
+        { name: "v", meaning: "final velocity", unit: "m/s" },
+        { name: "u", meaning: "initial velocity", unit: "m/s" },
+        { name: "a", meaning: "acceleration", unit: "m/s²" },
+        { name: "s", meaning: "displacement", unit: "m" }
+      ],
+      units: "m²/s² (take square root for m/s)",
+      when: "Time is not given and you need to connect velocities and displacement.",
+      example: "u = 0, a = 5, s = 10 → v² = 0 + 2(5)(10) = 100 → v = 10 m/s."
+    },
+    {
+      name: "Equation 4 (average velocity)",
+      formula: "s = ½(u + v)t",
+      meaning: "Displacement equals average velocity times time (for constant acceleration).",
+      vars: [
+        { name: "s", meaning: "displacement", unit: "m" },
+        { name: "u", meaning: "initial velocity", unit: "m/s" },
+        { name: "v", meaning: "final velocity", unit: "m/s" },
+        { name: "t", meaning: "time", unit: "s" }
+      ],
+      units: "meters (m)",
+      when: "You know both velocities and time.",
+      example: "u = 10, v = 30, t = 5 → s = ½(40)(5) = 100 m."
+    }
+  ],
+  workedExamples: [
+    {
+      problem: "A car starts from rest and accelerates uniformly at 3 m/s² for 8 seconds. Find (a) its final velocity and (b) the distance traveled.",
+      given: "u = 0 m/s, a = 3 m/s², t = 8 s",
+      formula: "(a) v = u + at; (b) s = ut + ½at²",
+      substitution: "(a) v = 0 + 3 × 8 = 24 m/s. (b) s = 0 + ½ × 3 × 8² = ½ × 3 × 64 = 96 m",
+      calculation: "Final velocity 24 m/s; distance 96 m.",
+      answer: "(a) v = 24 m/s, (b) s = 96 m"
+    },
+    {
+      problem: "A ball is thrown downward with initial velocity 5 m/s from a height of 20 m. Find its velocity just before hitting the ground (a = g = 9.8 m/s²).",
+      given: "u = 5 m/s (downward), s = 20 m, a = 9.8 m/s²",
+      formula: "v² = u² + 2as",
+      substitution: "v² = 5² + 2 × 9.8 × 20 = 25 + 392 = 417",
+      calculation: "v = √417 ≈ 20.4 m/s downward",
+      answer: "v ≈ 20.4 m/s downward"
+    }
+  ],
+  commonMistakes: [
+    "Using the wrong equation — write down what you know first, then choose.",
+    "Forgetting to square t in s = ut + ½at².",
+    "Sign errors: define up as positive and stick to it.",
+    "Using average speed formula when acceleration is not constant (the equations only work for constant acceleration!)."
+  ],
+  applications: [
+    "Accident reconstruction: police use skid marks (distance) and friction to estimate a car's speed using v² = u² + 2as.",
+    "Engineering: elevator design uses these equations to ensure smooth, safe acceleration profiles.",
+    "Sports science: analyzing jump height from takeoff velocity."
+  ],
+  summary: "The four equations of motion (v = u + at, s = ut + ½at², v² = u² + 2as, s = ½(u+v)t) apply ONLY to constant acceleration. Strategy: list givens → identify target → pick equation → solve with signs.",
+  visuals: [
+    { type: "motionGraph", config: { type: "st", data: [0, 1, 4, 9, 16, 25], title: "s = ut + ½at² (u=0, a=2): parabolic rise" } }
+  , {"type":"qa","config":{"title":"Quick Review — tap a question to reveal the answer","pairs":[{"q":"A car starts from rest and accelerates uniformly at 3 m/s² for 8 seconds. Find (a) its fi…","a":"<b>Answer:</b> (a) v = 24 m/s, (b) s = 96 m"},{"q":"A ball is thrown downward with initial velocity 5 m/s from a height of 20 m. Find its vel…","a":"<b>Answer:</b> v ≈ 20.4 m/s downward"}]}}],
+  questions: [
+    { type: "mcq", q: "Which equation is best when time is NOT given?", options: ["v = u + at", "s = ut + ½at²", "v² = u² + 2as", "s = ½(u+v)t"], answer: 2, difficulty: 2, explanation: "v² = u² + 2as contains no time variable, so it's used when time is unknown." },
+    { type: "calc", q: "A car accelerates from rest at 4 m/s² for 5 s. Find its final velocity.", answer: "20", difficulty: 1, explanation: "v = u + at = 0 + 4×5 = 20 m/s", tolerance: 0.1 },
+    { type: "calc", q: "How far does a freely falling object (from rest) travel in 3 s? Use g = 9.8 m/s².", answer: "44.1", difficulty: 2, explanation: "s = ut + ½at² = 0 + ½×9.8×9 = 44.1 m", tolerance: 0.3 },
+    { type: "calc", q: "A ball is thrown up at 20 m/s. What is its maximum height? (g = 9.8 m/s², v = 0 at the top)", answer: "20.4", difficulty: 3, explanation: "v² = u² + 2as → 0 = 400 + 2(−9.8)s → s = 400/19.6 = 20.4 m", tolerance: 0.5 },
+    { type: "concept", q: "At the top of its flight, a ball thrown upward has zero velocity. Is its acceleration zero too?", answer: "no|still 9.8|acceleration is 9.8|not zero", difficulty: 3, explanation: "Even at the top, gravity still acts: acceleration is 9.8 m/s² downward. Zero velocity ≠ zero acceleration." },
+    { type: "mcq", q: "The equations of motion apply when:", options: ["Velocity is constant", "Acceleration is constant", "Speed is constant", "Distance is constant"], answer: 1, difficulty: 2, explanation: "The kinematic equations assume constant (uniform) acceleration." }
+  ]
+};
+
+/* --- p2-5: Graphical Representation of Motion --- */
+Lessons["g10-physics-up2-t5"] = {
+  overview: "Graphs turn motion into pictures you can read. Position–time, velocity–time, and acceleration–time graphs each tell a different story about how an object moves — and they're all connected.",
+  objectives: [
+    "Interpret position–time graphs (slope = velocity)",
+    "Interpret velocity–time graphs (slope = acceleration, area = displacement)",
+    "Sketch graphs for different types of motion",
+    "Convert between graph types"
+  ],
+  simple: "A position–time graph shows where an object is at each moment — a straight line means constant velocity, a curve means acceleration. A velocity–time graph shows how fast it's going — the slope is acceleration and the area under the graph is the distance traveled. Reading graphs is like reading a story about the motion!",
+  detailed: `<p><b>Position–time (x–t) graphs:</b></p>
+<ul>
+<li>The slope at any point = instantaneous velocity.</li>
+<li>A straight line = constant velocity (uniform motion).</li>
+<li>A steeper line = faster motion.</li>
+<li>A curved line = changing velocity (acceleration). A parabola means constant acceleration.</li>
+<li>A horizontal line = object at rest (position not changing).</li>
+</ul>
+<p><b>Velocity–time (v–t) graphs:</b></p>
+<ul>
+<li>The slope = acceleration.</li>
+<li>The area under the graph = displacement.</li>
+<li>A horizontal line = constant velocity (zero acceleration).</li>
+<li>A sloped line = constant acceleration.</li>
+</ul>
+<p><b>Acceleration–time (a–t) graphs:</b></p>
+<ul>
+<li>A horizontal line at zero = constant velocity.</li>
+<li>A horizontal line above zero = constant positive acceleration.</li>
+<li>The area under the graph = change in velocity.</li>
+</ul>`,
+  keyTerms: [
+    { term: "Slope", def: "Rise over run on a graph; represents velocity on x–t, acceleration on v–t." },
+    { term: "Area under the graph", def: "On v–t graphs, represents displacement." },
+    { term: "Tangent", def: "A line touching a curve at one point; its slope gives instantaneous rate." },
+    { term: "Intercept", def: "Where the graph crosses an axis." }
+  ],
+  formulas: [
+    {
+      name: "Slope of a graph",
+      formula: "slope = Δy / Δx",
+      meaning: "The slope between two points is the vertical change divided by the horizontal change.",
+      vars: [
+        { name: "Δy", meaning: "change in vertical quantity", unit: "varies" },
+        { name: "Δx", meaning: "change in horizontal quantity", unit: "varies" }
+      ],
+      units: "Depends on the axes (m/s for x–t graphs, m/s² for v–t graphs).",
+      when: "To find the rate of change represented by a straight-line graph.",
+      example: "On an x–t graph, a line rising 10 m over 2 s has slope 5 m/s = velocity."
+    }
+  ],
+  workedExamples: [
+    {
+      problem: "A velocity–time graph is a straight line from (0 s, 0 m/s) to (4 s, 8 m/s). Find (a) the acceleration and (b) the displacement.",
+      given: "Initial velocity 0, final velocity 8 m/s, time 4 s.",
+      formula: "(a) a = slope = Δv/Δt. (b) displacement = area under graph = ½ × base × height.",
+      substitution: "(a) a = (8 − 0)/4 = 2 m/s². (b) Area = ½ × 4 × 8 = 16 m",
+      calculation: "The graph forms a triangle of base 4 and height 8.",
+      answer: "(a) a = 2 m/s², (b) displacement = 16 m"
+    }
+  ],
+  commonMistakes: [
+    "Confusing the meanings: slope on x–t is velocity, on v–t is acceleration.",
+    "Forgetting that the AREA under a v–t graph is displacement (not the slope).",
+    "Reading curved graphs as straight lines — the slope of a curve changes continuously."
+  ],
+  applications: [
+    "Physicists and engineers read motion graphs to analyze everything from vehicle crash tests to particle accelerators.",
+    "Biomedical: gait analysis uses position/time graphs to study walking patterns.",
+    "Smartphone sensors produce acceleration–time graphs that apps interpret (step counters!)."
+  ],
+  summary: "On x–t graphs: slope = velocity, curve = acceleration. On v–t graphs: slope = acceleration, area = displacement. On a–t graphs: area = change in velocity. Practice sketching and reading these graphs — they appear on every exam.",
+  visuals: [
+    { type: "motionGraph", config: { type: "st", data: [0, 4, 8, 12, 16, 20], title: "Constant velocity (straight line)" } }
+  , {"type":"qa","config":{"title":"Quick Review — tap a question to reveal the answer","pairs":[{"q":"A velocity–time graph is a straight line from (0 s, 0 m/s) to (4 s, 8 m/s). Find (a) the…","a":"<b>Answer:</b> (a) a = 2 m/s², (b) displacement = 16 m"}]}}],
+  questions: [
+    { type: "mcq", q: "On a position–time graph, the slope represents:", options: ["Acceleration", "Velocity", "Displacement", "Time"], answer: 1, difficulty: 1, explanation: "The slope of an x–t graph is the rate of change of position = velocity." },
+    { type: "mcq", q: "On a velocity–time graph, the area under the curve represents:", options: ["Acceleration", "Velocity", "Displacement", "Force"], answer: 2, difficulty: 2, explanation: "Area under a v–t graph = velocity × time = displacement." },
+    { type: "mcq", q: "On a velocity–time graph, the slope represents:", options: ["Displacement", "Velocity", "Speed", "Acceleration"], answer: 3, difficulty: 1, explanation: "Slope of v–t graph = change in velocity ÷ time = acceleration." },
+    { type: "tf", q: "A horizontal line on a position–time graph means the object is moving at constant velocity.", answer: false, difficulty: 2, explanation: "A horizontal line on x–t means position isn't changing — the object is AT REST (velocity = 0)." },
+    { type: "short", q: "What shape does a position–time graph have for constant acceleration from rest?", answer: "parabola|curved line|curve", difficulty: 2, explanation: "s = ½at² gives a parabola when plotted against time." },
+    { type: "concept", q: "A v–t graph shows a triangle from 0 to 4 s with height 10 m/s. What is the displacement?", answer: "20", difficulty: 3, explanation: "Area = ½ × base × height = ½ × 4 × 10 = 20 m", tolerance: 0.1 }
+  ]
+};
+
+/* --- p2-6: Relative Velocity in One Dimension --- */
+Lessons["g10-physics-up2-t6"] = {
+  overview: "Motion is always relative to something. When you're on a train, the world outside seems to move backward. Relative velocity tells you how fast one object is moving as seen from another object.",
+  objectives: [
+    "Explain that velocity is measured relative to a reference frame",
+    "Calculate relative velocity for objects moving in the same direction",
+    "Calculate relative velocity for objects moving in opposite directions",
+    "Solve simple problems involving trains, cars, and rivers"
+  ],
+  simple: "If you're driving at 80 km/h and a car passes you at 90 km/h, the other car is only going 10 km/h faster than you — that's the relative velocity. If two cars drive toward each other at 60 km/h each, they approach at 120 km/h! Velocity depends on who's watching.",
+  detailed: `<p><b>Relative velocity</b> is the velocity of one object as observed from another object.</p>
+<p>For two objects A and B moving along the same line:</p>
+<p><b>Same direction:</b> v<sub>AB</sub> = v<sub>A</sub> − v<sub>B</sub></p>
+<p>If A moves at 80 km/h and B at 60 km/h in the same direction, A's velocity relative to B is 80 − 60 = 20 km/h.</p>
+<p><b>Opposite directions:</b> v<sub>AB</sub> = v<sub>A</sub> − (−v<sub>B</sub>) = v<sub>A</sub> + v<sub>B</sub></p>
+<p>If A moves east at 60 km/h and B moves west at 60 km/h, they approach each other at 120 km/h.</p>
+<p>The formula v<sub>AB</sub> = v<sub>A</sub> − v<sub>B</sub> works universally: the velocity of A relative to B is A's velocity minus B's velocity (treating directions with signs).</p>`,
+  keyTerms: [
+    { term: "Relative velocity", def: "Velocity of one object measured from another moving object." },
+    { term: "Reference frame", def: "The coordinate system (observer) from which motion is measured." },
+    { term: "Observer", def: "The point of view from which motion is described." }
+  ],
+  formulas: [
+    {
+      name: "Relative velocity (1D)",
+      formula: "v_AB = v_A − v_B",
+      meaning: "The velocity of A relative to B equals A's velocity minus B's velocity (with signs for direction).",
+      vars: [
+        { name: "v_AB", meaning: "velocity of A relative to B", unit: "m/s or km/h" },
+        { name: "v_A", meaning: "velocity of A", unit: "m/s or km/h" },
+        { name: "v_B", meaning: "velocity of B", unit: "m/s or km/h" }
+      ],
+      units: "Same as the velocities (m/s or km/h).",
+      when: "To find how fast one moving object approaches or recedes from another.",
+      example: "A car at 90 km/h passes a truck at 70 km/h (same direction): relative velocity = 20 km/h."
+    }
+  ],
+  workedExamples: [
+    {
+      problem: "Two trains move on parallel tracks. Train A moves east at 30 m/s, Train B moves east at 20 m/s. What is the velocity of A relative to B?",
+      given: "v_A = 30 m/s east, v_B = 20 m/s east",
+      formula: "v_AB = v_A − v_B",
+      substitution: "v_AB = 30 − 20 = 10 m/s",
+      calculation: "Positive, so east.",
+      answer: "A moves 10 m/s east relative to B (A is pulling away)."
+    },
+    {
+      problem: "Car A moves east at 25 m/s. Car B moves west at 15 m/s. Find the velocity of A relative to B.",
+      given: "v_A = +25 m/s (east), v_B = −15 m/s (west)",
+      formula: "v_AB = v_A − v_B",
+      substitution: "v_AB = 25 − (−15) = 25 + 15 = 40 m/s",
+      calculation: "Positive = east.",
+      answer: "A approaches B at 40 m/s east (they close at 40 m/s)."
+    }
+  ],
+  commonMistakes: [
+    "Adding velocities when objects move the same direction (should subtract).",
+    "Forgetting signs for direction.",
+    "Thinking relative velocity only matters for trains — it applies to everything moving!"
+  ],
+  applications: [
+    "Driving: judging overtaking speed needs relative velocity.",
+    "Aviation: mid-air collision avoidance is all about relative velocity.",
+    "River crossing: a boat's velocity relative to the bank combines its own velocity and the current."
+  ],
+  summary: "Relative velocity compares motion between two objects: v_AB = v_A − v_B. Same direction → subtract; opposite directions → add. The answer's sign shows direction.",
+  visuals: [{"type":"mindMap","config":{"center":"Relative Veloci…","branches":[{"label":"Relative velo…","items":["Velocity of one object measured f…"]},{"label":"Reference fra…","items":["The coordinate system (observer)…"]},{"label":"Observer","items":["The point of view from which moti…"]}]}},{"type":"qa","config":{"title":"Quick Review — tap a question to reveal the answer","pairs":[{"q":"Two trains move on parallel tracks. Train A moves east at 30 m/s, Train B moves east at 2…","a":"<b>Answer:</b> A moves 10 m/s east relative to B (A is pulling away)."},{"q":"Car A moves east at 25 m/s. Car B moves west at 15 m/s. Find the velocity of A relative t…","a":"<b>Answer:</b> A approaches B at 40 m/s east (they close at 40 m/s)."}]}}],
+  questions: [
+    { type: "mcq", q: "Two cars drive in the same direction at 70 km/h and 50 km/h. The faster car's velocity relative to the slower one is:", options: ["120 km/h", "20 km/h", "70 km/h", "−20 km/h"], answer: 1, difficulty: 1, explanation: "70 − 50 = 20 km/h. Same direction means subtract." },
+    { type: "mcq", q: "Two cars drive toward each other, each at 60 km/h. Their relative velocity is:", options: ["0 km/h", "60 km/h", "120 km/h", "30 km/h"], answer: 2, difficulty: 1, explanation: "Opposite directions: 60 − (−60) = 120 km/h." },
+    { type: "calc", q: "Train A moves at 40 m/s east, train B at 25 m/s east. Find A's velocity relative to B.", answer: "15", difficulty: 1, explanation: "40 − 25 = 15 m/s east", tolerance: 0.1 },
+    { type: "concept", q: "You're on a train moving at 80 km/h and see another train moving at 80 km/h in the SAME direction. What is its velocity relative to you?", answer: "0|zero|stationary", difficulty: 2, explanation: "80 − 80 = 0. The other train appears stationary relative to you." },
+    { type: "tf", q: "Relative velocity is always the sum of the two velocities.", answer: false, difficulty: 2, explanation: "Only for opposite directions. For same direction, it's the difference." },
+    { type: "short", q: "What formula gives the velocity of A relative to B?", answer: "va - vb|va minus vb|v_A − v_B", difficulty: 1, explanation: "v_AB = v_A − v_B" }
+  ]
+};

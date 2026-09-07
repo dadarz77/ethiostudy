@@ -1,0 +1,390 @@
+/* Content: Grade 11 Biology — Unit 1: Diversity of Living Organisms & Biology's Methods (4 topics) */
+window.Lessons = window.Lessons || {};
+
+Lessons["g11-biology-ub1-t1"] = {
+  overview: "Biology begins with observation: how scientists learn from nature — classification, the taxonomic hierarchy, binomial naming, and the five-kingdom/ six-domain picture that organizes Earth's millions of species. Ethiopia is a megadiverse country: this topic grounds the language you'll use for every organism ahead.",
+  objectives: [
+    "Explain why biologists classify organisms",
+    "List the taxonomic hierarchy from domain to species",
+    "Apply binomial nomenclature rules correctly",
+    "Compare the five kingdoms with examples",
+    "Use dichotomous keys to identify organisms"
+  ],
+  simple: "Imagine a library with no shelves, no labels — that's nature without classification. Biologists sort life into a hierarchy: Domain → Kingdom → Phylum → Class → Order → Family → Genus → Species (remember: 'Dear King Philip Came Over For Good Soup'). Every organism gets a two-name Latin address — binomial nomenclature: Homo sapiens (genus capitalized, species lowercase, both italicized). The five kingdoms: Monera (bacteria — no nucleus), Protista (algae, amoeba), Fungi (mushrooms, molds — absorb food), Plantae (photosynthesizers), Animalia (multicellular, ingest food). A dichotomous key is a 'this or that' game: 'Does it have a backbone? Yes → no →' — each answer narrows to the name. Classification isn't cosmetic: it predicts biology (if it's in the grass family, expect hollow stems and parallel leaf veins) and reveals evolutionary relationships — modern classification follows DNA, not just appearance.",
+  detailed: "<p><b>Why classify.</b> ~8.7 million species exist; naming and grouping makes information storable and predictive. Taxonomy (naming/describing/classifying) sits within systematics, which adds evolutionary history. Artificial systems (Linnaeus, 1735 — morphology) gave way to natural/phylogenetic systems (post-Darwin — common ancestry, confirmed by DNA, biochemistry, embryology).</p><p><b>The hierarchy.</b> Domain (Bacteria, Archaea, Eukarya — Woese's rRNA split, 1990) → Kingdom → Phylum (Division in botany) → Class → Order → Family (-aceae in plants, -idae in animals) → Genus → Species. Each level = more exclusive, fewer members, more shared characters. Species concept: interbreeding natural population reproductively isolated from others (biological concept; limits: asexuals, fossils — morphological and phylogenetic concepts fill gaps).</p><p><b>Binomial rules.</b> Genus + specific epithet; Latinized; italicized (underlined in handwriting); genus capitalized, epithet lowercase; first describer's name and date may follow (Homo sapiens Linnaeus, 1758). Type specimens anchor names in museums; priority rule: earliest valid publication wins (hence synonym churn as DNA re-sorting proceeds).</p><p><b>Five kingdoms (Whittaker, 1969 — still the school frame).</b> Monera: prokaryotic, peptidoglycan walls, binary fission — cyanobacteria in Ethiopian lakes (Spirulina harvests, Awassa). Protista: eukaryotic, mostly unicellular — Amoeba, Paramecium, algae; Plasmodium (malaria) sits here. Fungi: chitin walls, absorptive heterotrophs, spores — yeast, mold, mushroom; the injera fermentation partner with bacteria. Plantae: cellulose, chloroplasts, embryos — from mosses to coffee (Coffea arabica, native to Ethiopian forests). Animalia: no walls, nervous/muscle tissue, ingestion — from sponges to humans. Three-domain systems split Monera into Bacteria + Archaea (the extremophiles — hot springs at Aluto-Langano).</p><p><b>Dichotomous keys.</b> Paired contrasting statements (couplets); each choice eliminates half; terminal = identification. Constructed from stable characters. Field guides and lab practicals run on them — and building one is a classic Grade 11 practical: leaf shapes, insect wings, bird beaks.</p>",
+  keyTerms: [
+    { term: "Taxonomy", def: "Science of naming, describing, classifying" },
+    { term: "Binomial nomenclature", def: "Two-part Latin name: Genus species" },
+    { term: "Species", def: "Interbreeding population, reproductively isolated" },
+    { term: "Phylogeny", def: "Evolutionary history — the true classification target" },
+    { term: "Dichotomous key", def: "Couplet-by-couplet identification tool" },
+    { term: "Domain", def: "Highest rank: Bacteria, Archaea, Eukarya" }
+  ],
+  workedExamples: [
+    {
+      problem: "Write the correct binomial for 'the coffee plant of Ethiopia' given genus Coffea, species arabica.",
+      given: "naming rules",
+      formula: "Genus capitalized, epithet lowercase, italic",
+      substitution: "Coffea arabica",
+      calculation: "(optionally: Coffea arabica L.)",
+      answer: "Coffea arabica — never 'Coffea Arabica' or 'coffea arabica'"
+    },
+    {
+      problem: "Organisms A and B share the same family; B and C share the same genus. Which pair is most similar?",
+      given: "hierarchy logic",
+      formula: "lower rank = closer relationship",
+      substitution: "genus is below family",
+      calculation: "B and C share more recent ancestry",
+      answer: "B and C — the genus is a finer, more exclusive box"
+    },
+    {
+      problem: "Build the first couplet of a key for: frog, crocodile, tilapia, cat.",
+      given: "four animals",
+      formula: "choose a binary character",
+      substitution: "'Body covered in scales? Yes → crocodile/tilapia; No → frog/cat'",
+      calculation: "next couplets: gills vs limbs, then fur vs moist skin",
+      answer: "Any stable, observable either/or character works — scales, then gills, then fur"
+    },
+    {
+      problem: "An organism is unicellular, has a nucleus, and contains chloroplasts. Which kingdom — and why not Monera?",
+      given: "traits",
+      formula: "nucleus = eukaryote",
+      substitution: "Monera lack nuclei; chloroplasts + unicellular → a protistan alga (or a plant cell, but unicellular points Protista)",
+      calculation: "Chlamydomonas — kingdom Protista",
+      answer: "Protista: the nucleus rules out Monera outright; unicellular algal habit rules out Plantae"
+    },
+    {
+      problem: "DNA analysis moved the red panda from Procyonidae (raccoons) to its own family Ailuridae. What does this show about classification?",
+      given: "reclassification",
+      formula: "phylogeny over morphology",
+      substitution: "raccoon-panda skull similarities were convergent, not inherited",
+      calculation: "molecules revealed true ancestry",
+      answer: "Classification is hypothesis-driven and revisable — DNA is the current referee"
+    }
+  ],
+  commonMistakes: [
+    "Writing binomials without italics or capitalizing the species epithet (Homo Sapiens ✗)",
+    "Confusing genus (a group of species) with family (a group of genera)",
+    "Placing viruses in Monera — viruses aren't in any kingdom (acellular)",
+    "Thinking 'Protista' is a natural group — it's partly a holding category for eukaryotes that aren't fungi/plants/animals",
+    "Using one character for a key couplet that varies with age or sex — keys need stable traits",
+    "Saying classification is 'just naming' — it encodes evolutionary predictions",
+    "Mixing up Archaea and Bacteria — both prokaryotic but different domains (walls, genetics, extremophily)"
+  ],
+  applications: [
+    "Coffee certification: Coffea arabica vs canephora (robusta) — species identity sets price and flavor",
+    "Malaria control: identifying Anopheles species complexes by key — vector control depends on exact names",
+    "Biodiversity inventory: Ethiopia's endemic species (Walia ibex, Gelada baboon) — conservation prioritizes unique lineages",
+    "Forensics & food safety: DNA barcoding detects species fraud (horse meat, fake fish)",
+    "Agriculture: wild relatives of crops (teff's wild grasses) are classified and banked for breeding"
+  ],
+  summary: "Classification turns nature's chaos into a predictive address system: Domain→Kingdom→Phylum→Class→Order→Family→Genus→Species, with binomial names (Genus species, italicized). The five kingdoms — Monera, Protista, Fungi, Plantae, Animalia — sort by cell type, nutrition and organization, while modern systematics re-draws them by DNA phylogeny. Dichotomous keys operationalize the system: couplet by couplet, any trained observer reaches the name.",
+  visuals: [
+    { type: "steps", config: { title: "The hierarchy (human example)", steps: [{ label: "Eukarya", detail: "domain — nucleus" }, { label: "Animalia", detail: "kingdom — ingest food" }, { label: "Chordata", detail: "phylum — backbone" }, { label: "Mammalia", detail: "class — milk" }, { label: "Primates", detail: "order" }, { label: "Hominidae", detail: "family" }, { label: "Homo", detail: "genus" }, { label: "H. sapiens", detail: "species" }] } },
+    { type: "comparison", config: { title: "Five kingdoms at a glance", left: { name: "Prokaryote", items: ["Monera: bacteria", "no nucleus", "binary fission"] }, right: { name: "Eukaryote", items: ["Protista · Fungi", "Plantae · Animalia", "nucleus + organelles"] } } },
+    { type: "mindMap", config: { center: "Kingdoms", branches: [{ label: "Monera", items: ["bacteria", "cyanobacteria"] }, { label: "Protista", items: ["amoeba", "algae", "Plasmodium"] }, { label: "Fungi", items: ["yeast", "mold", "mushroom"] }, { label: "Plantae", items: ["moss→coffee"] }, { label: "Animalia", items: ["sponge→human"] }] } }
+  ],
+  questions: [
+    { type: "mcq", q: "Correct binomial format:", options: ["homo Sapiens", "Homo sapiens", "Homo Sapiens", "homo sapiens"], answer: 1, difficulty: 1, explanation: "Genus capital, epithet lower, italicized" },
+    { type: "mcq", q: "The rank below family and above species:", options: ["order", "genus", "class", "phylum"], answer: 1, difficulty: 1, explanation: "Family → genus → species" },
+    { type: "mcq", q: "Which kingdom is entirely prokaryotic?", options: ["Protista", "Fungi", "Monera", "Animalia"], answer: 2, difficulty: 1, explanation: "Bacteria/archaea — no nucleus" },
+    { type: "mcq", q: "A dichotomous key presents:", options: ["pictures only", "paired contrasting statements", "DNA sequences", "random guesses"], answer: 1, difficulty: 2, explanation: "Couplets: choose one of two" },
+    { type: "tf", q: "Two organisms in the same genus must be in the same family.", answer: true, difficulty: 2, explanation: "Hierarchy: genus nests inside family" },
+    { type: "tf", q: "Viruses belong to kingdom Monera.", answer: false, difficulty: 2, explanation: "Viruses are acellular — outside all kingdoms" },
+    { type: "short", q: "Science of naming and classifying:", answer: "taxonomy", difficulty: 1, explanation: "Taxonomy" },
+    { type: "short", q: "Ethiopia's native crop species, genus Coffea:", answer: "coffea arabica|arabica", difficulty: 1, explanation: "Coffea arabica — arabica coffee" },
+    { type: "calc", q: "How many names in a binomial?", answer: "2|two", difficulty: 1, explanation: "Genus + specific epithet" },
+    { type: "concept", q: "Why do modern classifications sometimes move organisms to new families?", answer: "dna evidence|phylogeny|new data|convergent traits", difficulty: 3, explanation: "DNA and molecular phylogenetics reveal true ancestry; when morphological similarities turn out to be convergent (look-alikes, not relatives), systematists reassign taxa so classification matches evolution" }
+  ]
+};
+
+Lessons["g11-biology-ub1-t2"] = {
+  overview: "Biology is no longer only field notebooks: microscopes to MRI, PCR to gene editing, cell culture to bioinformatics. This topic maps the tools and techniques — and the scientific method that wields them — that define modern biological technology.",
+  objectives: [
+    "Describe microscopy: light, electron, and what each reveals",
+    "Explain centrifugation and cell fractionation",
+    "Outline key molecular techniques: PCR, gel electrophoresis, sequencing",
+    "Summarize tissue culture and its uses",
+    "Apply the scientific method to a biological problem"
+  ],
+  simple: "Tools decide what you can see. Light microscopes (up to ~1500×, stained cells, living tissue) opened the cell era; electron microscopes (TEM: internal ultrastructure at ~10⁶×; SEM: 3D surfaces) opened the organelle era — but kill specimens and need vacuum. Spin it: centrifugation separates by density — homogenize tissue, spin progressively faster, and nuclei, then mitochondria, then ribosomes pellet out (cell fractionation). Copy it: PCR amplifies one DNA fragment into billions — three temperature steps (denature 95 °C, anneal ~55 °C, extend 72 °C) cycled ~30 times, Taq polymerase from a hot-spring bacterium doing the work. Sort it: gel electrophoresis — DNA is negative, so it migrates through a jelly toward the positive electrode; smaller fragments run faster → size ladder. Read it: DNA sequencing (Sanger, then next-gen) writes the A-C-G-T text. Grow it: tissue culture — a piece of plant in sterile nutrient gel regenerates a whole plantlet (clone) — Ethiopia uses it for banana, coffee and orchid multiplication. Behind all of them: the scientific method — observe, question, hypothesize, experiment (control vs variable), analyze, conclude, share.",
+  detailed: "<p><b>Microscopy.</b> Light: resolution ~0.2 µm (wavelength limit); stains (methylene blue, iodine, Gram) add contrast; phase-contrast and fluorescence (GFP tags) show living dynamics. TEM: electron beam through ultrathin section → 2D internal detail (membranes, ribosomes). SEM: reflected electrons → 3D surface (pollen, insect eyes). Total magnification = eyepiece × objective. Histology: sectioning + staining of tissues; live imaging now follows single molecules.</p><p><b>Fractionation.</b> Homogenize cells in cold buffered solution → centrifuge: low speed pellets nuclei; medium, mitochondria/chloroplasts/lysosomes; high, microsomes (ER fragments); ultracentrifugation, ribosomes. Density-gradient centrifugation separates even finer (mesosome-proof, DNA semiconservative replication — Meselson-Stahl's ¹⁵N gradient).</p><p><b>Molecular toolkit.</b> PCR: primers flank target; thermal cycler; 2ⁿ exponential amplification (30 cycles ≈ 10⁹ copies) — forensics, pathogen diagnosis (HIV, TB, crop viruses), ancient DNA. Gel electrophoresis: agarose matrix, voltage, ethidium/or safe stains visualize bands; DNA ladder sizes them. Recombinant DNA: restriction enzymes cut at palindromes, ligase pastes gene into plasmid vector, transform bacteria — insulin, Bt crops. Sequencing: Sanger chain-termination (dideoxynucleotides) → next-gen (millions of reads parallel) → nanopore (real-time, portable — used in outbreak tracking).</p><p><b>Cell & tissue culture.</b> Aseptic technique: sterilized media (salts, sugars, vitamins, hormones — MS medium for plants; serum for animal lines). Plant tissue culture: totipotency — explant → callus → organogenesis → plantlets; micropropagation of disease-free banana, coffee; somatic embryogenesis. Animal: cell lines (HeLa), monoclonal antibodies, vaccine production. Stem cells: embryonic vs induced pluripotent (iPSC) — regenerative medicine's bench.</p><p><b>Bioinformatics & imaging beyond the lab.</b> Databases (GenBank), BLAST similarity search, genome browsers; remote sensing and GIS map ecosystems; CRISPR-Cas9 edits genes with a guide RNA; DNA microarrays/RNA-seq read gene expression. The method never changes: hypothesis → controlled test → reproducible data → peer review.</p>",
+  keyTerms: [
+    { term: "Resolution", def: "smallest distance between two distinguishable points" },
+    { term: "Cell fractionation", def: "centrifugal separation of organelles by density" },
+    { term: "PCR", def: "polymerase chain reaction — exponential DNA amplification" },
+    { term: "Gel electrophoresis", def: "size-sorting charged molecules in a field" },
+    { term: "Totipotency", def: "one cell's capacity to regenerate a whole organism" },
+    { term: "Bioinformatics", def: "computational analysis of biological data" }
+  ],
+  workedExamples: [
+    {
+      problem: "Choose the microscope: (a) viewing live cheek cells, (b) seeing ribosome structure, (c) photographing pollen surface in 3D.",
+      given: "three needs",
+      formula: "capability match",
+      substitution: "(a) light (phase-contrast); (b) TEM; (c) SEM",
+      calculation: "resolution vs viability trade-off",
+      answer: "Light for living, TEM for inside, SEM for surface"
+    },
+    {
+      problem: "A PCR starts with 1 DNA copy. After 25 cycles, roughly how many?",
+      given: "exponential",
+      formula: "2ⁿ",
+      substitution: "2²⁵ ≈ 3.4 × 10⁷",
+      calculation: "tens of millions",
+      answer: "~34 million copies — enough to see on a gel"
+    },
+    {
+      problem: "On an electrophoresis gel, fragment A travels farther than fragment B. What can you conclude?",
+      given: "band positions",
+      formula: "smaller = faster",
+      substitution: "A is shorter than B",
+      calculation: "compare to ladder for sizes",
+      answer: "A has fewer base pairs — distance ∝ 1/size"
+    },
+    {
+      problem: "A farmer's banana plants are virus-infected. Design a tissue-culture solution.",
+      given: "totipotency",
+      formula: "meristem culture",
+      substitution: "excise the <0.5 mm shoot tip (virus-free zone), culture on MS medium, multiply plantlets",
+      calculation: "clean stock regenerates",
+      answer: "Meristem culture + thermotherapy yields virus-free clones — standard in Ethiopian banana micropropagation"
+    },
+    {
+      problem: "Order the steps: isolate mitochondria from liver.",
+      given: "fractionation",
+      formula: "speed sequence",
+      substitution: "homogenize cold → 600 ×g (nuclei pellet) → 15,000 ×g (mito pellet) → 100,000 ×g (microsomes)",
+      calculation: "resuspend mito pellet",
+      answer: "Low spin clears debris, medium spin captures mitochondria — keep cold to protect enzymes"
+    }
+  ],
+  commonMistakes: [
+    "Confusing magnification with resolution — empty magnification enlarges blur",
+    "Claiming electron microscopes view living cells — vacuum and staining kill",
+    "PCR thought to copy whole genomes — it amplifies a primer-defined segment",
+    "Electrophoresis: DNA moves to the negative electrode — no, it's negative, so it runs to the anode (+)",
+    "Tissue culture seen as cloning 'machines' — success depends on totipotency and hormones, not the gel",
+    "Centrifugation 'separates by size' alone — density and mass both matter (Svedberg units)",
+    "Skipping controls when designing experiments — the classic practical-report error"
+  ],
+  applications: [
+    "Diagnostics: PCR for HIV/TB load, malaria RDTs (antibody tech), blood glucose strips (enzyme electrodes)",
+    "Agriculture: micropropagation of disease-free banana/coffee; marker-assisted breeding via sequencing",
+    "Forensics & paternity: STR fingerprinting on gels/capillaries — DNA evidence",
+    "Medicine: monoclonal antibodies (pregnancy tests to cancer drugs), vaccine cell cultures",
+    "Environmental: eDNA sequencing detects species in lakes (Awassa fish inventories without nets)"
+  ],
+  summary: "Biological technology is a ladder of resolution and manipulation: light → electron microscopy for seeing; centrifugation for separating; PCR, electrophoresis, sequencing and recombinant DNA for reading and writing genes; tissue culture for regenerating organisms from cells. All serve the scientific method — testable hypotheses, controlled variables, reproducible data — whether the lab is Addis University or a village field kit.",
+  visuals: [
+    { type: "steps", config: { title: "PCR cycle (×30)", steps: [{ label: "95 °C denature", detail: "strands separate" }, { label: "~55 °C anneal", detail: "primers bind" }, { label: "72 °C extend", detail: "Taq builds" }, { label: "Double", detail: "2ⁿ copies" }] } },
+    { type: "comparison", config: { title: "Microscope powers", left: { name: "Light", items: ["~1500×, 0.2 µm", "living cells OK", "stained color"] }, right: { name: "Electron", items: ["TEM 10⁶× internal", "SEM 3D surface", "dead, vacuum"] } } },
+    { type: "flowChart", config: { title: "From gene to product", nodes: [{ label: "PCR", detail: "amplify" }, { label: "Cut & paste", detail: "restriction + ligase" }, { label: "Transform", detail: "into bacteria" }, { label: "Express", detail: "protein harvest" }] } }
+  ],
+  questions: [
+    { type: "mcq", q: "Resolution limit of light microscopy is about:", options: ["0.2 nm", "0.2 µm", "2 µm", "20 µm"], answer: 1, difficulty: 2, explanation: "Half the wavelength of visible light" },
+    { type: "mcq", q: "PCR needs all EXCEPT:", options: ["primers", "Taq polymerase", "ribosomes", "dNTPs"], answer: 2, difficulty: 2, explanation: "PCR copies DNA — no translation machinery" },
+    { type: "mcq", q: "DNA in gel electrophoresis migrates toward:", options: ["the anode (+)", "the cathode (−)", "neither", "randomly"], answer: 0, difficulty: 2, explanation: "Phosphate backbone is negative" },
+    { type: "mcq", q: "Organelles are separated by:", options: ["PCR", "centrifugation", "electrophoresis", "staking"], answer: 1, difficulty: 1, explanation: "Differential centrifugation" },
+    { type: "tf", q: "A single plant cell can regenerate a whole plant in culture.", answer: true, difficulty: 2, explanation: "Totipotency — the basis of micropropagation" },
+    { type: "tf", q: "SEM produces images of internal cell structures.", answer: false, difficulty: 2, explanation: "SEM = surfaces; TEM = internals" },
+    { type: "calc", q: "PCR copies after 30 cycles from 1 molecule (order of magnitude)?", answer: "1e9|billion|10^9", difficulty: 2, explanation: "2³⁰ ≈ 1.07 × 10⁹" },
+    { type: "calc", q: "Total magnification: eyepiece 10×, objective 40×?", answer: "400", difficulty: 1, explanation: "10 × 40 = 400×" },
+    { type: "short", q: "Enzyme that builds DNA in PCR:", answer: "taq|taq polymerase|dna polymerase", difficulty: 2, explanation: "Taq DNA polymerase (heat-stable, Thermus aquaticus)" },
+    { type: "concept", q: "Why must tissue-culture work be aseptic?", answer: "contamination|fungi bacteria grow faster|sterile medium|nutrients", difficulty: 3, explanation: "Culture media are rich in sugars and nutrients — airborne mold and bacteria grow far faster than plant tissue and overtake the explant; sterility (laminar flow, autoclaving, flame) keeps the slow-growing culture alive" }
+  ]
+};
+
+Lessons["g11-biology-ub1-t3"] = {
+  overview: "Biological technology reshapes society: vaccines and antibiotics doubled life expectancy; Green Revolution genetics fed billions; now gene editing, biofuels and synthetic biology promise more while raising risk. This topic weighs benefits against harms — health, agriculture, environment and equity in the Ethiopian context.",
+  objectives: [
+    "Assess medical biotech impacts: vaccines, antibiotics, diagnostics",
+    "Evaluate agricultural biotech: GMOs, breeding, biocontrol",
+    "Analyze environmental applications and risks",
+    "Discuss equity: who benefits from biotechnology",
+    "Weigh evidence in the GMO debate"
+  ],
+  simple: "Every major biotech wave changed who lives and who eats. Medicine: vaccination (smallpox erased, polio nearly), antibiotics (once turned fatal wounds into inconveniences — now threatened by resistance), PCR diagnostics (HIV/TB/malaria load tests). Agriculture: high-yield wheat and teff breeding, irrigation, biocontrol (the cactus moth that saved Ethiopian fodder — and the fall armyworm that now devours maize), and GMOs (Bt cotton/corn — insect-resistant; Golden Rice — vitamin-A rice). Environment: bioremediation (oil-eating bacteria), biofuels (Ethiopian sugar-ethanol), waste treatment. The costs: antibiotic overuse breeds superbugs; monocultures and agrochemicals degrade soil and water; GMO debates pit yield and nutrition against corporate control and ecological caution; gene drives could erase malaria — or ecosystems. The honest position: judge each application on evidence, risk assessment and who gets the benefits — technology amplifies the intentions behind it.",
+  detailed: "<p><b>Health impacts.</b> Vaccines: herd immunity thresholds; cold chains; Ethiopia's EPI program cut child mortality dramatically. Antibiotics: Fleming 1928 → selection pressure → MRSA, XDR-TB; AMR is projected to cause 10 M deaths/year by 2050 without stewardship. Diagnostics: rapid tests (malaria RDTs), PCR, CRISPR-based SHERLOCK — earlier treatment saves lives. Genomics: pharmacogenomics, carrier screening; ethical minefields (privacy, insurance).</p><p><b>Agriculture.</b> Conventional breeding (hybridization, selection) — Borlaug's dwarf wheats: Green Revolution yields but also water/chemical dependence. Tissue culture: virus-free planting material. Transgenics: Bt (Cry toxin — specific to lepidopteran guts), herbicide tolerance (glyphosate — enables no-till but drives resistant weeds), Golden Rice (β-carotene — vitamin A deficiency kills/blinds ~half a million children yearly; adoption stalled by regulation and debate). Gene editing (CRISPR): precise, sometimes transgene-free — regulatory status evolving; Ethiopia researches drought-tolerant teff and enset improvements via marker-assisted selection. Biocontrol: classical (imported parasitoids against cactus pear — a global success story with African roots) vs augmentation.</p><p><b>Environment.</b> Bioremediation: hydrocarbon-degrading bacteria post-spill; phytoremediation (plants pull heavy metals). Biofuels: first-gen (sugar/starch — food-vs-fuel tension), algae/second-gen (cellulose). Invasive GMOs & gene drives: designed to spread through wild populations — malaria-vector suppression (Target Malaria works on Anopheles in Burkina Faso, a regional neighbor) — immense benefit, irreversible risk, community consent central. Synthetic biology: engineered microbes make artemisinin (antimalarial), vanilla, fuels.</p><p><b>Equity & governance.</b> Patent walls (seed companies vs farmer seed-saving — Ethiopia's smallholder reality); biosafety proclamation and inspection (Ethiopia regulates GMO import/field trials); access: Golden Rice is royalty-free for the poor, yet debate delayed it a decade. The literacy goal: separate evidence (meta-analyses: no validated harm from approved GM foods; Bt cut pesticide spray ~37% in meta-analysis) from ideology, and ask 'benefit to whom, risk to whom, decided by whom?'.</p>",
+  keyTerms: [
+    { term: "Biotechnology", def: "using living systems to make or improve products" },
+    { term: "AMR", def: "antimicrobial resistance — evolution in the clinic" },
+    { term: "GMO", def: "organism with engineered foreign/edited DNA" },
+    { term: "Biocontrol", def: "natural enemies used against pests" },
+    { term: "Gene drive", def: "biased inheritance spreading a trait through a wild population" },
+    { term: "Biosafety", def: "regulation of engineered-organism release" }
+  ],
+  workedExamples: [
+    {
+      problem: "A maize field suffers fall armyworm. Compare pesticide spraying vs Bt maize vs biocontrol.",
+      given: "three strategies",
+      formula: "cost-benefit-risk",
+      substitution: "spray: fast, costly, kills beneficials, residue; Bt: season-long protection, less insecticide, resistance risk if no refuge; biocontrol (parasitoids): cheap, self-sustaining, slower",
+      calculation: "IPM integrates all three",
+      answer: "Best practice: refuge-managed Bt or biocontrol within integrated pest management — not one silver bullet"
+    },
+    {
+      problem: "Antibiotics worked for TB in 1990; XDR-TB now resists nearly all. Explain via natural selection.",
+      given: "evolution",
+      formula: "selection pressure",
+      substitution: "incomplete courses leave the resistant mutants; they multiply and transmit",
+      calculation: "resistance = evolution observed in years",
+      answer: "Misuse accelerates selection — stewardship (full courses, no OTC misuse) slows it"
+    },
+    {
+      problem: "Golden Rice delivers β-carotene but took 20+ years to reach farmers' fields. Why?",
+      given: "tech ready, adoption slow",
+      formula: "regulation + debate",
+      substitution: "biosafety approvals, activist opposition, trait-backcrossing delays",
+      calculation: "opportunity cost: children stayed vitamin-A deficient",
+      answer: "Socio-political friction, not science — the case study in evidence vs ideology"
+    },
+    {
+      problem: "Ethiopia's ethanol plants: name one benefit and one risk.",
+      given: "biofuel",
+      formula: "food vs fuel",
+      substitution: "benefit: fuel security, jobs, cleaner cooking; risk: land/water pressure, food-price effects",
+      calculation: "depends on siting and feedstock",
+      answer: "Both real — the trade-off is governance, not chemistry"
+    },
+    {
+      problem: "A gene drive mosquito could eliminate malaria vectors in a region. List two arguments for and two against.",
+      given: "weighing",
+      formula: "risk-benefit",
+      substitution: "for: millions of lives, no annual nets/sprays; against: ecological cascade (food web), irreversibility across borders, consent",
+      calculation: "containment impossible once released",
+      answer: "Extraordinary benefit vs extraordinary irreversibility — phased testing + community consent is the path"
+    }
+  ],
+  commonMistakes: [
+    "'GMOs are proven safe' / 'GMOs cause cancer' — both overstatements; evidence is case-by-case",
+    "Antibiotics prescribed for viral flu — useless and fuels AMR",
+    "Biocontrol seen as 'release a predator' — host-specificity testing takes years (else you get cane toads)",
+    "Confusing hybrid seeds (breeding) with GMOs (engineering)",
+    "Assuming technology alone fixes hunger — distribution, land rights, markets decide",
+    "Gene drives treated as reversible — they're designed to be self-spreading",
+    "Dismissing biosafety laws as bureaucracy — they're the risk-assessment infrastructure"
+  ],
+  applications: [
+    "Vaccines & EPI: Ethiopia's immunization coverage gains — cold chain + community health workers",
+    "Teff & wheat breeding: marker-assisted selection for yield and lodging — food security",
+    "Enset biotech: tissue culture for disease-free planting material of the 'false banana'",
+    "Leather & food industry: enzyme biotech (proteases) — cleaner tanning in Ethiopian leather exports",
+    "Public health: RDTs and PCR networks for outbreak response (cholera, measles)"
+  ],
+  summary: "Biotechnology's waves — vaccines/antibiotics, breeding/GMOs, gene editing/synthetic biology — delivered longer lives and higher yields while spawning resistance, ecological and equity risks. Evidence judges each case: Bt reduced insecticide use; AMR punishes antibiotic misuse; Golden Rice shows politics can stall life-saving science. The informed stance: demand risk assessment, stewardship and fair access — technology is a magnifier of intent.",
+  visuals: [
+    { type: "mindMap", config: { center: "Biotech impacts", branches: [{ label: "Health", items: ["vaccines", "antibiotics→AMR", "PCR dx"] }, { label: "Food", items: ["breeding", "GMOs", "tissue culture"] }, { label: "Environment", items: ["bioremediation", "biofuels", "gene drives"] }] } },
+    { type: "comparison", config: { title: "Green Revolution vs Gene Revolution", left: { name: "Breeding (1960s)", items: ["hybrids, irrigation", "fed billions", "water/chem cost"] }, right: { name: "Engineering (now)", items: ["transgenes, CRISPR", "traits on demand", "patent/consent issues"] } } },
+    { type: "steps", config: { title: "AMR in four moves", steps: [{ label: "Infection spreads", detail: "TB in community" }, { label: "Incomplete Rx", detail: "weak ones die" }, { label: "Resistant survive", detail: "multiply" }, { label: "Superbug transmits", detail: "drugs fail" }] } }
+  ],
+  questions: [
+    { type: "mcq", q: "Bt crops primarily reduce:", options: ["water use", "insecticide spraying", "soil erosion", "labor"], answer: 1, difficulty: 2, explanation: "The plant makes its own insect toxin" },
+    { type: "mcq", q: "Antibiotic resistance arises because:", options: ["bodies resist", "bacteria mutate & are selected", "drugs expire", "viruses carry it"], answer: 1, difficulty: 2, explanation: "Selection on bacterial variation" },
+    { type: "mcq", q: "Golden Rice was engineered to provide:", options: ["protein", "vitamin A precursor", "iron", "fiber"], answer: 1, difficulty: 2, explanation: "β-carotene — against vitamin-A deficiency" },
+    { type: "mcq", q: "A gene drive works by:", options: ["killing all mosquitoes", "biased inheritance spreading a trait", "sterilizing males only", "vaccinating vectors"], answer: 1, difficulty: 3, explanation: "It cheats Mendelian segregation to self-spread" },
+    { type: "tf", q: "Hybrid seeds are the same thing as GMOs.", answer: false, difficulty: 2, explanation: "Hybrids come from breeding; GMOs from direct DNA engineering" },
+    { type: "tf", q: "Biocontrol agents need host-specificity testing before release.", answer: true, difficulty: 2, explanation: "Otherwise the control becomes the pest (cane toad lesson)" },
+    { type: "short", q: "AMR stands for:", answer: "antimicrobial resistance", difficulty: 1, explanation: "Antimicrobial resistance" },
+    { type: "short", q: "Ethiopia's program for childhood immunization:", answer: "epi|expanded program on immunization", difficulty: 2, explanation: "EPI — Expanded Program on Immunization" },
+    { type: "concept", q: "Why can biofuels both help and hurt food security?", answer: "land competition|food vs fuel|jobs and fuel|price pressure", difficulty: 3, explanation: "The same land, water and labor can grow food or fuel crops — fuel demand can raise food prices and displace smallholders, while revenues, jobs and cleaner energy can raise incomes; the net effect depends on feedstock, siting and tenure rules" },
+    { type: "concept", q: "Give one reason GMO regulation can be both necessary and harmful.", answer: "biosafety protects|delay costs lives|precaution vs access", difficulty: 3, explanation: "Regulation guards against real ecological/health risks and builds public trust — but slow, politicized approval (Golden Rice: 20 years) withholds proven benefits from the people who need them most; the craft is risk-proportionate, evidence-based speed" }
+  ]
+};
+
+Lessons["g11-biology-ub1-t4"] = {
+  overview: "Biological power demands ethical restraint: experimentation on humans and animals, genetic privacy, editing the germline, patenting life, and equity in who benefits. This topic builds the reasoning framework — principles, codes and cases — for deciding what biology SHOULD do, not just what it can.",
+  objectives: [
+    "State core research-ethics principles: consent, harm, confidentiality",
+    "Explain animal-research ethics (3Rs)",
+    "Analyze genetic-privacy and discrimination issues",
+    "Debate human germline editing with evidence",
+    "Apply ethical reasoning to biotech cases"
+  ],
+  simple: "Just because we CAN doesn't mean we SHOULD. Four pillars: (1) Informed consent — participants understand risks and can quit (the Nuremberg Code, born from Nazi 'experiments'; Tuskegee's syphilis study — men denied treatment for 40 years — is the cautionary tale). (2) Animal welfare — the 3Rs: Replace (cell cultures, models), Reduce (fewer animals, better stats), Refine (less pain). (3) Justice — benefits and risks shared fairly; the richest shouldn't be the only ones who access gene therapy while the poor host risky trials. (4) Honesty — no fabricated data, disclose conflicts. Hot cases: germline editing (the 2018 'CRISPR babies' — He Jiankui — universally condemned: heritable, unconsenting future generations, safer alternatives existed); direct-to-consumer genetic tests (privacy — could insurers use your BRCA result?); patenting genes (Myriad's BRCA patent struck down: 'products of nature' aren't patentable, but cDNA is). Ethics isn't a hurdle to science — it's the reason society trusts science.",
+  detailed: "<p><b>Human research ethics.</b> Documents: Nuremberg Code (1947 — voluntary consent absolute), Declaration of Helsinki (1964, revised — physician-researcher duty), Belmont Report (1979 — respect for persons, beneficence, justice). Mechanisms: Institutional Review Boards / ethics committees pre-approve protocols; vulnerable populations (children, prisoners, the poor) get extra protection; placebo limits; data safety monitoring boards halt trials early for harm OR overwhelming benefit. Ethiopian context: national research ethics review (MoE/ MoH/ university IRBs) — community consent matters in village trials.</p><p><b>Animal ethics.</b> Sentience argument (Singer) vs biomedical necessity; institutional animal care committees; the 3Rs operationalized: replacement (in vitro, organ-on-chip, computer models), reduction (statistics designed for fewer subjects), refinement (analgesia, housing, humane endpoints). Alternatives now mandatory where validated (cosmetics testing banned in many jurisdictions).</p><p><b>Genetic ethics.</b> Privacy: GINA (US 2008) bars health-insurance genetic discrimination — employment gaps remain; forensic DNA databases balance safety vs civil liberty. Predictive testing: right to know vs right NOT to know (Huntington's). Germline vs somatic: somatic edits treat one patient (approved CAR-T, gene therapy for sickle cell — a cure relevant to Ethiopia's high sickle-cell burden); germline edits the lineage — heritable, unconsenting descendants, enhancement slippery slope; international moratorium consensus (2019 expert panel): unsafe, irresponsible now.</p><p><b>Ownership & equity.</b> Biopiracy cases (neem, turmeric — traditional knowledge patents revoked; Ethiopia's enset/coffee heritage claims); access-and-benefit-sharing (Nagoya Protocol — CBD); the TRIPS/public-health tension (HIV drug compulsory licensing). Patenting life: Diamond v. Chakrabarty (microbes OK), Myriad (native genes not). Equity lens: who pays for trials, who gets the drug — '10/90 gap' (10% of research funds address 90% of disease burden).</p><p><b>Dual use & environment.</b> Gain-of-function research (potential pandemic insight vs lab-leak risk); synthetic organisms escaping; gene drives crossing borders without consent — ethics as governance: precaution, participation, proportionality, accountability.</p>",
+  keyTerms: [
+    { term: "Informed consent", def: "voluntary, understood, revocable agreement to participate" },
+    { term: "3Rs", def: "Replace, Reduce, Refine — animal research ethic" },
+    { term: "IRB/ethics committee", def: "independent protocol review before research" },
+    { term: "Germline editing", def: "heritable changes to eggs/sperm/embryos — the red line" },
+    { term: "Biopiracy", def: "patenting others' genetic resources/traditional knowledge" },
+    { term: "Dual use", def: "research serving both benefit and harm" }
+  ],
+  workedExamples: [
+    {
+      problem: "A vaccine trial in a village: list three ethical requirements before recruiting.",
+      given: "field research",
+      formula: "consent + review + fairness",
+      substitution: "IRB approval; understandable consent (language, literacy aids); community engagement; post-trial access to the vaccine",
+      calculation: "placebo only if no proven vaccine exists",
+      answer: "Approved protocol, informed consent, justice in benefits — plus local community buy-in"
+    },
+    {
+      problem: "He Jiankui edited twin embryos' CCR5 gene (2018). Name two reasons the verdict was 'irresponsible'.",
+      given: "germline case",
+      formula: "risk vs alternatives",
+      substitution: "HIV could be prevented by sperm washing/PMTCT — no medical need; edits heritable and mosaic/off-target risks unquantified; consent of future children impossible",
+      calculation: "safer paths existed",
+      answer: "Unnecessary risk + heritability without consent — the science was available, the ethics wasn't"
+    },
+    {
+      problem: "Sickle-cell gene therapy costs ~$2 M per patient in high-income countries. Apply the justice lens.",
+      given: "equity",
+      formula: "burden vs access",
+      substitution: "highest burden is sub-Saharan Africa (Ethiopia included); price + infrastructure exclude those who need it most",
+      calculation: "10/90 gap in action",
+      answer: "A cure available only to the rich reproduces health injustice — licensing, tiered pricing, local capacity are the ethical fixes"
+    },
+    {
+      problem: "A cosmetics company wants to test a new cream on rabbits. Offer the 3Rs solution.",
+      given: "animal testing",
+      formula: "replace/reduce/refine",
+      substitution: "replace with reconstructed human skin assays (validated); reduce via optimal design; refine with analgesia and humane endpoints",
+      calculation: "many jurisdictions ban cosmetics animal tests outright",
+      answer: "Validated in vitro alternatives exist — replacement is both ethical and increasingly legal"
+    },
+    {
+      problem: "A firm patents a gene sequence isolated from an Ethiopian medicinal plant used traditionally. Which frameworks object?",
+      given: "biopiracy",
+      formula: "Nagoya + prior art",
+      substitution: "access-and-benefit-sharing violated (no PIC, no benefit sharing); traditional knowledge = prior art; 'isolated natural product' patentability limits",
+      calculation: "revocation precedents: neem, turmeric",
+      answer: "International law (CBD/Nagoya) and patent doctrine both challenge it — communities deserve consent and benefit"
+    }
+  ],
+  commonMistakes: [
+    "Consent treated as a signature — it's a process of understanding and voluntariness",
+    "Placebo controls used when an effective treatment exists — ethically barred",
+    "Animal ethics reduced to 'be gentle' — the 3Rs are design requirements",
+    "Somatic vs germline editing conflated — heritability is the ethical watershed",
+    "Genetic data treated as ordinary data — it identifies you AND your relatives, forever",
+    "Ethics framed as anti-science — it's the trust infrastructure research runs on",
+    "Assuming rich-country rules cover local trials — exploitation concerns are highest where oversight is weakest"
+  ],
+  applications: [
+    "Clinical trials: Ethiopia's research-ethics review committees gatekeep all human studies",
+    "Genetic counseling: privacy and non-directiveness around carrier screening (sickle cell, thalassemia)",
+    "Gene-edit governance: national biosafety and reproductive-medicine laws implementing the moratorium",
+    "Benefit sharing: coffee origin branding and Nagoya compliance for genetic resources",
+    "Lab culture: data integrity, conflict disclosure, misconduct policies — everyday research ethics"
+  ],
+  summary: "Research ethics rests on consent, beneficence, justice and honesty — codified after Nuremberg and enforced by review boards. Animals earn the 3Rs; genetic data earns privacy and anti-discrimination; germline editing stays a moratorium because it decides for unborn generations; traditional knowledge and genetic resources belong to their communities under Nagoya. Ethics doesn't slow good science — it's what makes science trustworthy.",
+  visuals: [
+    { type: "mindMap", config: { center: "Bioethics pillars", branches: [{ label: "Autonomy", items: ["informed consent", "privacy"] }, { label: "Beneficence", items: ["risk-benefit", "3Rs"] }, { label: "Justice", items: ["fair access", "benefit sharing"] }, { label: "Integrity", items: ["honest data", "review"] }] } },
+    { type: "steps", config: { title: "Ethical trial checklist", steps: [{ label: "Review board approves", detail: "independent" }, { label: "Community consulted", detail: "not just signed" }, { label: "Consent understood", detail: "language, literacy" }, { label: "Risks minimized", detail: "DSMB oversight" }, { label: "Benefits shared", detail: "post-trial access" }] } },
+    { type: "comparison", config: { title: "Editing cells vs lineage", left: { name: "Somatic", items: ["treats patient", "not inherited", "approved therapies"] }, right: { name: "Germline", items: ["edits descendants", "no consent possible", "moratorium"] } } }
+  ],
+  questions: [
+    { type: "mcq", q: "The Nuremberg Code's core demand:", options: ["patent rights", "voluntary consent", "animal welfare", "open data"], answer: 1, difficulty: 2, explanation: "Voluntary informed consent — from the 1947 trials" },
+    { type: "mcq", q: "The 3Rs are:", options: ["Read, Write, Research", "Replace, Reduce, Refine", "Rights, Rules, Review", "Risk, Reward, Report"], answer: 1, difficulty: 1, explanation: "Animal-research ethic" },
+    { type: "mcq", q: "Why is germline editing the red line?", options: ["too expensive", "changes are heritable without consent", "it doesn't work", "only in plants"], answer: 1, difficulty: 2, explanation: "Future generations can't consent" },
+    { type: "mcq", q: "Biopiracy is challenged by:", options: ["TRIPS only", "Nagoya Protocol", "Helsinki", "3Rs"], answer: 1, difficulty: 3, explanation: "Access & benefit sharing under the CBD" },
+    { type: "tf", q: "Placebo controls are always acceptable.", answer: false, difficulty: 2, explanation: "Not when effective treatment exists" },
+    { type: "tf", q: "Genetic test results can implicate biological relatives.", answer: true, difficulty: 2, explanation: "Shared DNA — privacy is familial" },
+    { type: "short", q: "Committee that approves human research protocols:", answer: "irb|ethics committee|institutional review board", difficulty: 1, explanation: "IRB / research ethics committee" },
+    { type: "short", q: "The 2018 CRISPR-babies scientist:", answer: "he jiankui", difficulty: 3, explanation: "He Jiankui — condemned worldwide" },
+    { type: "concept", q: "Why must consent in a rural trial involve community leaders AND individuals?", answer: "community consent|individual autonomy|trust|both levels", difficulty: 3, explanation: "Individual autonomy is non-negotiable — but in communal societies, engaging leaders builds trust, surfaces collective risks and prevents the research being seen (or being) an outside imposition; both layers are required: leaders open the door, persons choose to walk through it" },
+    { type: "concept", q: "A gene therapy cures sickle cell but costs $2M. State the ethical problem and one fix.", answer: "justice|access gap|tiered pricing|licensing|local manufacturing", difficulty: 3, explanation: "Justice: the burden is highest where ability to pay is lowest — fixes include voluntary licensing/tiered pricing, public funding tied to access, or regional manufacturing/technology transfer so the cure follows the disease" }
+  ]
+};

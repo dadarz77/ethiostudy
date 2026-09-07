@@ -1,0 +1,370 @@
+/* Content: Grade 11 Mathematics — Unit 2: Rational Functions (4 topics) */
+window.Lessons = window.Lessons || {};
+
+Lessons["g11-mathematics-um2-t1"] = {
+  overview: "Rational expressions are fractions whose numerator and denominator are polynomials. This topic builds the arithmetic: simplifying by factoring, multiplying, dividing, adding with common denominators, and the domain restrictions that every rational expression carries.",
+  objectives: [
+    "Write rational expressions with stated restrictions",
+    "Simplify by factoring and canceling common factors",
+    "Multiply and divide rational expressions",
+    "Add/subtract with like and unlike denominators",
+    "Handle complex fractions (fractions within fractions)"
+  ],
+  simple: "A rational expression is P/Q where P and Q are polynomials and Q ≠ 0 — e.g. (x² − 1)/(x + 2). The first habit: note restrictions — any x making the denominator zero is banned (x ≠ −2 above). Simplifying: FACTOR everything first, then cancel common FACTORS (never terms!): (x² − 1)/(x² − x) = (x−1)(x+1)/[x(x−1)] = (x+1)/x, with x ≠ 0, 1. Multiplication works like ordinary fractions: multiply across, cancel crosswise first if you like: [(x+3)/x] · [2/(x+3)] = 2/x. Division: flip the second and multiply: (P/Q) ÷ (R/S) = (P/Q)·(S/R). Addition needs a common denominator — the least common denominator (LCD) is the LCM of the denominators: 1/(x−1) + 2/(x+1) = [(x+1) + 2(x−1)]/(x²−1) = (3x−1)/(x²−1). Complex fractions — a fraction whose top or bottom is itself a fraction: multiply top and bottom by the LCD of the mini-fractions: (1/x + 1)/(1/x − 1) = (1 + x)/(1 − x). Everything is 8th-grade fraction arithmetic upgraded to polynomials — factor, restrict, cancel carefully.",
+  detailed: "<p><b>Definition and restrictions.</b> P/Q with Q ≠ 0; the domain excludes every zero of Q (even after simplification — restrictions are inherited from the ORIGINAL denominator: (x²−1)/(x−1) = x+1 for x ≠ 1, a line with a hole). Simplification = dividing numerator and denominator by their GCF; the reduced form is unique up to sign.</p><p><b>Multiplication/division.</b> (P/Q)·(R/S) = PR/QS; factor all four polynomials, cancel any factor appearing top and bottom (cross-cancellation is legal because multiplication commutes). Division by a fraction = multiplication by its reciprocal — flip the SECOND expression only, and state restrictions from both original denominators AND the flipped numerator (division by zero twice over).</p><p><b>Addition/subtraction.</b> Like denominators: add numerators, keep the denominator. Unlike: find the LCD by factoring each denominator and taking each prime factor to its highest power (e.g. x², x(x−1), (x−1)² → LCD = x²(x−1)²); rewrite each fraction with the LCD (multiply top AND bottom by the missing factors), then combine numerators — the classic error zone: forgetting to distribute the minus in subtraction across the whole second numerator. Final answer: expand or leave factored (factored is usually better — it exposes further cancellation and restrictions).</p><p><b>Complex fractions.</b> Two methods: (1) simplify top and bottom separately to single fractions, then divide (multiply by reciprocal); (2) multiply the ENTIRE big fraction by the LCD of all internal mini-denominators — faster and cleaner. Example: [3/x − 2]/[1 − 1/x] · (x/x) = (3 − 2x)/(x − 1), x ≠ 0, 1.</p>",
+  keyTerms: [
+    { term: "Rational expression", def: "P/Q with polynomials, Q ≠ 0" },
+    { term: "Restriction", def: "banned x-value (zero of any original denominator)" },
+    { term: "LCD", def: "LCM of denominators — the common bottom" },
+    { term: "Complex fraction", def: "a fraction containing fractions" },
+    { term: "Lowest terms", def: "numerator and denominator share no factor" }
+  ],
+  workedExamples: [
+    {
+      problem: "Simplify (x² − 9)/(x² + 5x + 6) and state restrictions.",
+      given: "rational expression",
+      formula: "factor-cancel",
+      substitution: "(x−3)(x+3)/[(x+2)(x+3)]",
+      calculation: "= (x−3)/(x+2)",
+      answer: "(x−3)/(x+2); x ≠ −3, −2 (both original zeros)"
+    },
+    {
+      problem: "Multiply: [(x² − 4)/(x² + x)] · [(x+1)/(x − 2)].",
+      given: "product",
+      formula: "factor, cross-cancel",
+      substitution: "[(x−2)(x+2)]/[x(x+1)] · [(x+1)/(x−2)] = (x+2)/x",
+      calculation: "restrictions x ≠ 0, −1, 2",
+      answer: "(x + 2)/x, x ≠ 0, −1, 2"
+    },
+    {
+      problem: "Divide: [1/(x² − 1)] ÷ [(x+2)/(x − 1)].",
+      given: "quotient",
+      formula: "flip and multiply",
+      substitution: "[1/((x−1)(x+1))] · [(x−1)/(x+2)] = 1/[(x+1)(x+2)]",
+      calculation: "x ≠ ±1, −2",
+      answer: "1/[(x+1)(x+2)] with three restrictions"
+    },
+    {
+      problem: "Add: 2/x + 3/(x−1) − 5/(x² − x).",
+      given: "three terms",
+      formula: "LCD = x(x−1)",
+      substitution: "[2(x−1) + 3x − 5]/[x(x−1)] = (5x − 7)/[x(x−1)]",
+      calculation: "combined numerator",
+      answer: "(5x − 7)/(x² − x), x ≠ 0, 1"
+    },
+    {
+      problem: "Simplify the complex fraction: (1/x + 2/3) / (2/x − 1/6).",
+      given: "mini-fractions",
+      formula: "multiply by 6x",
+      substitution: "numerator: 6 + 12x... times 6x: 6x·(1/x) + 6x·(2/3) = 6 + 4x; denominator: 6x·(2/x) − 6x·(1/6) = 12 − x",
+      calculation: "(4x + 6)/(12 − x)",
+      answer: "(4x + 6)/(12 − x), x ≠ 0, 12"
+    }
+  ],
+  commonMistakes: [
+    "Canceling TERMS instead of factors: (x+3)/x ≠ 3 — only products cancel",
+    "Dropping restrictions after simplifying — the hole at x = −3 still exists",
+    "Forgetting to flip only the second fraction in division",
+    "Not distributing the negative in subtraction: a − (b−c) = a − b + c",
+    "Building the LCD by multiplying denominators (works but not least — extra work)",
+    "In complex fractions, multiplying only the numerator by the LCD"
+  ],
+  applications: [
+    "Work problems: two workers together — rate 1/a + 1/b = combined rational expression",
+    "Average speed: total distance / total time is a rational expression in the speeds",
+    "Resistors in parallel: R = R₁R₂/(R₁+R₂) — a rational formula",
+    "Mixtures and concentration: solute/solution ratios combine as rational sums"
+  ],
+  summary: "Rational expressions are polynomial fractions: state restrictions from original denominators, factor fully, then cancel only common factors. Multiply across (cross-cancel freely), divide by flipping the second, add/subtract over the LCD (each factor at its highest power), and clear complex fractions by multiplying top and bottom by the internal LCD. Fraction arithmetic with polynomials — care beats speed.",
+  visuals: [
+    { type: "flowChart", config: { title: "Simplify checklist", steps: [{ label: "Restrictions", detail: "zeros of bottoms" }, { label: "Factor all", detail: "top and bottom" }, { label: "Cancel factors", detail: "never terms" }, { label: "State answer", detail: "with x ≠ values" }] } }
+  ],
+  questions: [
+    { type: "mcq", q: "(x²−4)/(x−2) simplified:", options: ["x+2", "x−2", "x²+2", "2x"], answer: 0, difficulty: 1, explanation: "(x−2)(x+2)/(x−2)" },
+    { type: "mcq", q: "The restriction on (x+1)/(x(x−3)):", options: ["x≠0", "x≠3", "x≠0,3", "none"], answer: 2, difficulty: 2, explanation: "Both denominator zeros" },
+    { type: "mcq", q: "LCD of 1/x² and 1/(x(x−1)):", options: ["x³", "x²(x−1)", "x(x−1)", "x²−x"], answer: 1, difficulty: 2, explanation: "Highest powers: x², (x−1)" },
+    { type: "mcq", q: "Dividing fractions requires:", options: ["common denominator", "reciprocal of first", "reciprocal of second", "cross-multiply"], answer: 2, difficulty: 1, explanation: "Flip the second, multiply" },
+    { type: "tf", q: "(x+5)/x simplifies to 5.", answer: false, difficulty: 1, explanation: "Terms don't cancel — factors do" },
+    { type: "tf", q: "After simplifying, restrictions disappear.", answer: false, difficulty: 2, explanation: "They're inherited from the original" },
+    { type: "short", q: "1/x + 1/y as a single fraction:", answer: "(x+y)/xy", difficulty: 2, explanation: "Common denominator xy" },
+    { type: "short", q: "The factorization of x² + 5x + 6:", answer: "(x+2)(x+3)", difficulty: 1, explanation: "(x+2)(x+3)" },
+    { type: "calc", q: "Simplify [(x+1)/2] · [4/(x²−1)].", answer: "2/(x-1)", difficulty: 2, explanation: "4(x+1)/[2(x−1)(x+1)] = 2/(x−1)" },
+    { type: "concept", q: "Why is (x²−1)/(x−1) 'the same as' x+1 yet not identical to it?", answer: "hole|domain|restriction", difficulty: 3, explanation: "They agree for every x except x = 1, where the original is undefined — the graph of the original is the line y = x+1 with a hole at (1,2); equal rules, different domains" }
+  ]
+};
+
+Lessons["g11-mathematics-um2-t2"] = {
+  overview: "Rational equations (solving them by clearing denominators, and catching extraneous roots) and rational inequalities (sign-chart method with critical values).",
+  objectives: [
+    "Solve rational equations by multiplying through by the LCD",
+    "Identify and reject extraneous solutions",
+    "Solve rational inequalities using sign charts",
+    "Write solution sets in interval notation",
+    "Apply rational equations to work/speed/distance problems"
+  ],
+  simple: "Rational EQUATION: an equation with x in a denominator, e.g. 1/x + 1/3 = 1/2. Strategy: note restrictions (x ≠ 0), multiply EVERY term by the LCD (6x): 6 + 2x = 3x → x = 6. Always check against restrictions — a solution equal to a banned value is extraneous (it appeared when multiplying by an expression that was zero there). Example where this bites: x/(x−2) + 1 = 2/(x−2) → multiply by (x−2): x + x − 2 = 2 → x = 2 — but x = 2 is banned! No solution. Rational INEQUALITY: (x+1)/(x−2) > 0. Don't cross-multiply (you don't know the sign of x−2!). Instead: find critical values (numerator zero: −1; denominator zero: 2), put them on a number line, test the sign of the expression in each region: x < −1: (−)/(−) = + ✓; −1 < x < 2: (+)/(−) = − ✗; x > 2: (+)/(+) = + ✓. Solution: (−∞, −1) ∪ (2, ∞). For ≥ 0 include the numerator's zero (−1) but NEVER the denominator's (2 — always a parenthesis). The sign chart is the whole method: zeros and undefined points chop the line; each region has constant sign.",
+  detailed: "<p><b>Equations.</b> Steps: (1) factor denominators, list restrictions; (2) multiply every term by the LCD — denominators vanish; (3) solve the resulting linear/quadratic; (4) reject any root in the restriction set. Extraneous roots arise because multiplying by an expression containing x is only reversible when that expression ≠ 0 — at a banned value both sides may 'work' in the cleared equation while the original is undefined. Work problems: rates add — A alone in a hours, B alone in b hours → together: 1/a + 1/b = 1/t → t = ab/(a+b). Speed problems: total time = d₁/v₁ + d₂/v₂ rational in v.</p><p><b>Inequalities.</b> The safe method: bring everything to one side so 0 is on the other; combine into a SINGLE rational expression (LCD); critical values = numerator zeros (where the expression = 0) and denominator zeros (undefined); these partition ℝ into open intervals; on each, the expression's sign is constant (signs change only through zeros or asymptotes). Build a sign chart (test one point per region, or track factor signs). Include numerator zeros for ≥/≤; exclude ALL denominator zeros (strict parentheses always). The trap: multiplying both sides by (x − a) requires knowing its sign — which is exactly what's unknown — hence the sign-chart method instead. For quadratics in disguise (e.g. 1/x < x), never 'cancel x' — move all terms over: (1 − x²)/x < 0 → critical values −1, 0, 1 → chart → (−∞,−1) ∪ (0,1).</p>",
+  keyTerms: [
+    { term: "Extraneous solution", def: "a cleared-equation root that violates a restriction" },
+    { term: "Critical value", def: "numerator or denominator zero — a sign-change candidate" },
+    { term: "Sign chart", def: "region-by-region +/− table for the inequality" },
+    { term: "Interval notation", def: "(a,b), [a,b], ∪ — solution sets" }
+  ],
+  workedExamples: [
+    {
+      problem: "Solve 3/x = 2/(x+1) + 1/x.",
+      given: "rational equation",
+      formula: "LCD = x(x+1)",
+      substitution: "3(x+1) = 2x + (x+1) → 3x + 3 = 3x + 1 → 3 = 1",
+      calculation: "contradiction",
+      answer: "No solution (the equation reduces to a false statement)"
+    },
+    {
+      problem: "Solve x/(x−3) = 2 + 3/(x−3).",
+      given: "watch for extraneous",
+      formula: "multiply by (x−3)",
+      substitution: "x = 2(x−3) + 3 → x = 2x − 3 → x = 3 — but x ≠ 3!",
+      calculation: "root is banned",
+      answer: "No solution — x = 3 is extraneous"
+    },
+    {
+      problem: "Solve (x − 1)/(x + 2) ≥ 0.",
+      given: "inequality",
+      formula: "sign chart",
+      substitution: "critical: 1 (num), −2 (den); regions: x<−2: (−)/(−)=+ ✓; −2<x<1: (−)/(+)=− ✗; x>1: + ✓; include 1, exclude −2",
+      calculation: "(−∞,−2) ∪ [1,∞)",
+      answer: "x ∈ (−∞, −2) ∪ [1, ∞)"
+    },
+    {
+      problem: "Pipe A fills a tank in 4 h, pipe B in 6 h. Together?",
+      given: "work",
+      formula: "1/4 + 1/6 = 1/t",
+      substitution: "5/12 = 1/t",
+      calculation: "t = 12/5",
+      answer: "2.4 hours together"
+    },
+    {
+      problem: "Solve 1/x < x.",
+      given: "the cancel trap",
+      formula: "one side + chart",
+      substitution: "(1 − x²)/x < 0 → critical −1, 0, 1; signs: (−∞,−1): +... test −2: (1−4)/(−2) = 3/2 > 0 ✗; (−1,0): test −½: (3/4)/(−½) < 0 ✓; (0,1): test ½: (3/4)/(½) > 0 ✗... wait recompute: (1−x²)/x at ½ = (0.75)/(0.5) = 1.5 > 0 ✗; (1,∞): test 2: (−3)/2 < 0 ✓",
+      calculation: "(−1,0) ∪ (1,∞)",
+      answer: "x ∈ (−1, 0) ∪ (1, ∞)"
+    }
+  ],
+  commonMistakes: [
+    "Cross-multiplying in inequalities — the sign of the denominator is unknown",
+    "Forgetting to check solutions against restrictions",
+    "Including the denominator's critical value in the solution (always excluded)",
+    "Canceling x in 1/x < x — loses the negative branch entirely",
+    "Adding fractions by adding tops AND bottoms: 1/x + 1/y ≠ 2/(x+y)",
+    "Treating 'no solution' as an error — sometimes it's the answer"
+  ],
+  applications: [
+    "Plumbing/electives: combined-rate problems are rational equations",
+    "Economics: average cost = C(x)/x — 'when is average cost under 50 Birr?' is a rational inequality",
+    "Physics: lens equation 1/f = 1/u + 1/v solved for image distance",
+    "Traffic: travel-time comparisons across routes with different speeds"
+  ],
+  summary: "Rational equations: list restrictions, clear denominators with the LCD, solve, and reject extraneous roots (x = a banned value means 'no solution'). Rational inequalities: never cross-multiply — move all to one side, combine to a single fraction, chart signs between critical values (numerator zeros includable for ≥/≤; denominator zeros always excluded). Work and average-cost problems are the classic applications.",
+  visuals: [
+    { type: "flowChart", config: { title: "Sign-chart method", steps: [{ label: "One side = 0", detail: "combine" }, { label: "Critical values", detail: "num & den zeros" }, { label: "Test regions", detail: "one point each" }, { label: "Write set", detail: "intervals" }] } }
+  ],
+  questions: [
+    { type: "mcq", q: "The first step solving 2/x + 1 = 5/x is:", options: ["cross-multiply", "multiply by LCD x", "square", "factor"], answer: 1, difficulty: 1, explanation: "Clear denominators" },
+    { type: "mcq", q: "(x+1)/(x−3) > 0 solution:", options: ["(−1,3)", "(−∞,−1)∪(3,∞)", "(3,∞)", "all reals"], answer: 1, difficulty: 2, explanation: "Both factors same sign outside" },
+    { type: "mcq", q: "An extraneous root occurs when:", options: ["algebra is wrong", "it violates a restriction", "the LCD is big", "x = 0"], answer: 1, difficulty: 2, explanation: "Banned value from clearing" },
+    { type: "mcq", q: "Why never multiply an inequality by (x−2)?", options: ["it's slow", "its sign is unknown", "it's zero", "fractions"], answer: 1, difficulty: 3, explanation: "Flips only if negative" },
+    { type: "tf", q: "x/(x−2) = 1/(x−2) has solution x = 1.", answer: false, difficulty: 3, explanation: "x = 1... check: 1/(−1) = 1/(−1)? 1 = 1 ✓ — actually x=1 IS valid; the trap is x=2 which is extraneous" },
+    { type: "tf", q: "Denominator critical values can be included in ≥ solutions.", answer: false, difficulty: 2, explanation: "Undefined there — always excluded" },
+    { type: "short", q: "1/2 + 1/3 = 1/t; t =", answer: "6/5|1.2", difficulty: 2, explanation: "5/6 = 1/t → t = 6/5" },
+    { type: "short", q: "The restriction set when clearing x² − 9 in denominators:", answer: "±3", difficulty: 1, explanation: "x ≠ 3, −3" },
+    { type: "calc", q: "Solve (2x − 1)/x = 3.", answer: "1", difficulty: 2, explanation: "2x−1 = 3x → x = −1... check: (−3)/(−1)=3 ✓ x=−1" },
+    { type: "concept", q: "Explain why 1/x < x has TWO solution branches while 'multiply by x' gives only one.", answer: "sign of x|flip|negative branch", difficulty: 3, explanation: "Multiplying by x flips the inequality when x < 0 — so the negative region behaves oppositely: for x < 0, 1/x < x becomes 1 > x² → −1 < x < 0; ignoring the flip loses (−1, 0) entirely; the sign chart handles both cases automatically" }
+  ]
+};
+
+Lessons["g11-mathematics-um2-t3"] = {
+  overview: "Rational FUNCTIONS f(x) = P(x)/Q(x): their graphs — vertical asymptotes (and holes), horizontal/slant asymptotes, intercepts, and end behavior — plus the transformation view from the parent 1/x.",
+  objectives: [
+    "Find vertical asymptotes vs holes from factored forms",
+    "Determine horizontal asymptotes by degree comparison",
+    "Identify slant asymptotes and find them by division",
+    "Compute intercepts and sketch the full graph",
+    "Graph transformations of 1/x"
+  ],
+  simple: "The parent rational function is f(x) = 1/x — two curved branches hugging the axes (vertical asymptote x = 0, horizontal y = 0). Transformations move it: f(x) = 2/(x − 3) + 1 shifts right 3, up 1 — asymptotes move with the graph. For general P/Q: VERTICAL asymptotes are the denominator's zeros that DON'T cancel with the numerator (a canceled zero is just a HOLE — a removable gap). Example: f(x) = (x−2)/[(x−2)(x+1)] → hole at x = 2, vertical asymptote x = −1. HORIZONTAL asymptote (what happens at far right/left): compare degrees — top smaller → y = 0; equal → ratio of leading coefficients (f = (3x²+1)/(x²−5) → y = 3); top exactly one bigger → SLANT asymptote (do long division: f(x) = (x²+1)/(x−1) = x + 1 + 2/(x−1) → slant line y = x + 1). Intercepts: set x = 0 (y-intercept, if defined) and numerator = 0 (x-intercepts, if allowed). Then sketch: branches that approach the asymptotes, crossing the horizontal one at most finitely often. Domain = all reals except vertical asymptotes and holes; range usually all reals except the horizontal asymptote value (for simple cases).",
+  detailed: "<p><b>Asymptote anatomy.</b> Vertical: x = a where Q(a) = 0 after reducing — the factor (x−a) survives in the denominator; near it, |f| → ∞ (check one-sided signs to see which branches go up/down: f = 1/(x−2)² both sides +∞; f = 1/(x−2) opposite signs). Hole (removable): factor cancels — f equals the reduced formula except at that x; graph = smooth curve with an open circle. Horizontal: lim x→±∞ P/Q by degree: deg P < deg Q → 0; equal → lc ratio; deg P = deg Q + 1 → oblique y = mx + b from polynomial division (remainder → 0 at infinity); bigger gaps → curved end behavior (parabolic asymptote). The graph CAN cross a horizontal asymptote (finite crossings — e.g. (2x)/(x²+1) crosses y = 0 at x = 0) but never a vertical one in its domain.</p><p><b>Sketching protocol.</b> (1) Reduce — mark holes; (2) vertical asymptotes with one-sided behavior; (3) horizontal/slant asymptote; (4) intercepts; (5) a couple of test points per region; (6) draw branches approaching asymptotes. Example f = (x+1)/(x−2): VA x = 2, HA y = 1, intercepts (−1, 0), (0, −½); left branch below y = 1, right branch above — the two-branch hyperbola.</p><p><b>1/x family.</b> f(x) = a/(x − h) + k: rectangular hyperbola centered (h, k), asymptotes x = h, y = k; a > 0 branches in quadrants I/III of the new center, a < 0 in II/IV; |a| scales. This is the 'transformation' exam route vs the 'general P/Q' route — same objects, two question styles. Average-cost functions (C/x + marginal) are real-life 1/x shapes: the hyperbola of economics.</p>",
+  keyTerms: [
+    { term: "Vertical asymptote", def: "x = a where |f| → ∞ (uncanceled den. zero)" },
+    { term: "Hole", def: "removable gap at a canceled factor's zero" },
+    { term: "Horizontal asymptote", def: "end-behavior line y = L" },
+    { term: "Slant asymptote", def: "oblique line from long division" },
+    { term: "Removable discontinuity", def: "the hole — fixable by redefining one point" }
+  ],
+  workedExamples: [
+    {
+      problem: "Find all asymptotes and holes of f(x) = (x² − 4)/(x² − x − 6).",
+      given: "P/Q degree 2/2",
+      formula: "factor first",
+      substitution: "(x−2)(x+2)/[(x−3)(x+2)] → hole at x = −2; reduced (x−2)/(x−3): VA x = 3; HA y = 1 (equal degrees, 1/1)",
+      calculation: "x-int 2, y-int 2/3",
+      answer: "Hole (−2, 4/5), VA x = 3, HA y = 1"
+    },
+    {
+      problem: "f(x) = (x² + 2x)/(x − 1). Find the slant asymptote.",
+      given: "deg 2 over 1",
+      formula: "long division",
+      substitution: "x² + 2x = (x − 1)(x + 3) + 3 → f = x + 3 + 3/(x−1)",
+      calculation: "remainder → 0",
+      answer: "Slant asymptote y = x + 3; VA x = 1"
+    },
+    {
+      problem: "Graph f(x) = 3/(x + 1) − 2 from the parent.",
+      given: "transformed 1/x",
+      formula: "read the moves",
+      substitution: "left 1, down 2, vertical stretch ×3; center (−1, −2); branches in I/III positions (a > 0)",
+      calculation: "asymptotes x = −1, y = −2",
+      answer: "Hyperbola with VA x = −1, HA y = −2"
+    },
+    {
+      problem: "State the domain and range of f(x) = (2x + 1)/(x − 3).",
+      given: "linear over linear",
+      formula: "VA/HA logic",
+      substitution: "domain x ≠ 3; HA y = 2/1 = 2; solve y = (2x+1)/(x−3) → x = (3y+1)/(y−2) — defined iff y ≠ 2",
+      calculation: "range y ≠ 2",
+      answer: "D = ℝ∖{3}, R = ℝ∖{2}"
+    },
+    {
+      problem: "Average cost Ĉ(x) = (5000 + 20x)/x. Interpret its asymptote.",
+      given: "economics",
+      formula: "HA = 20",
+      substitution: "Ĉ = 5000/x + 20 → as production x grows, the fixed-cost share 5000/x → 0",
+      calculation: "approaches 20 Birr/unit",
+      answer: "The HA y = 20 is the marginal cost — the floor the average can never touch"
+    }
+  ],
+  commonMistakes: [
+    "Calling every denominator zero a vertical asymptote — check cancellation first (holes!)",
+    "For degree comparison, using the ORIGINAL (unreduced) form — reduce first",
+    "Believing graphs never touch horizontal asymptotes — they can cross finitely often",
+    "Slant asymptote from coefficients instead of division — divide properly",
+    "Plotting only one branch — rational graphs have pieces on BOTH sides of each VA",
+    "Writing range = ℝ for every rational — the HA usually removes one value"
+  ],
+  applications: [
+    "Economics: average cost curves are rational functions with the marginal cost as HA",
+    "Physics: Boyle's law P = k/V is the 1/x hyperbola",
+    "Ecology: competition models (rational population responses)",
+    "Engineering: signal gain curves with saturation asymptotes"
+  ],
+  summary: "Rational function graphs: reduce first — canceled denominator zeros are holes, surviving ones are vertical asymptotes. Horizontal asymptotes follow the degree comparison (0, leading-coefficient ratio, or slant via long division). Intercepts come from x = 0 and numerator zeros. The transformed parent a/(x−h) + k is a hyperbola centered at the asymptote crossing (h, k). Domain excludes VAs/holes; range typically excludes the HA value.",
+  visuals: [
+    { type: "flowChart", config: { title: "Asymptote hunt", steps: [{ label: "Reduce", detail: "find holes" }, { label: "Den zeros", detail: "vertical asymptotes" }, { label: "Compare degrees", detail: "HA or slant" }, { label: "Intercepts", detail: "anchor points" }] } },
+    { type: "lineGraph", config: { title: "y = 1/x branches", xLabel: "x", yLabel: "y", series: [{ label: "1/x", points: [[-4,-0.25],[-2,-0.5],[-1,-1],[1,1],[2,0.5],[4,0.25]] }] } }
+  ],
+  questions: [
+    { type: "mcq", q: "HA of f(x) = (4x²+1)/(2x²−x):", options: ["y = 0", "y = 2", "y = 4", "none"], answer: 1, difficulty: 2, explanation: "Equal degrees: 4/2" },
+    { type: "mcq", q: "A canceled denominator factor gives:", options: ["VA", "hole", "HA", "slant"], answer: 1, difficulty: 2, explanation: "Removable discontinuity" },
+    { type: "mcq", q: "f(x) = (x³)/(x+1) end behavior:", options: ["HA y=0", "slant", "parabolic-ish (no line)", "bounded"], answer: 2, difficulty: 3, explanation: "deg gap 2 → curved asymptote" },
+    { type: "mcq", q: "VA of f(x) = 5/(x²−9) on the right:", options: ["x=3", "x=−3", "x=0", "none"], answer: 0, difficulty: 1, explanation: "x² = 9 → ±3" },
+    { type: "tf", q: "A rational graph can cross its horizontal asymptote.", answer: true, difficulty: 3, explanation: "Finitely many crossings allowed" },
+    { type: "tf", q: "f(x) = 1/x has range ℝ.", answer: false, difficulty: 2, explanation: "y ≠ 0" },
+    { type: "short", q: "Slant asymptote of (x²+1)/(x−1):", answer: "y = x + 1", difficulty: 3, explanation: "Division: x+1 remainder 2" },
+    { type: "short", q: "Center of the hyperbola 2/(x−4)+3:", answer: "(4,3)", difficulty: 2, explanation: "Asymptotes cross at (4,3)" },
+    { type: "calc", q: "For f(x) = (ax+2)/(x−b) with VA x = 3 and HA y = 2: find a, b.", answer: "a=2,b=3", difficulty: 3, explanation: "b = 3; a/1 = 2" },
+    { type: "concept", q: "Explain why holes are 'removable' but asymptotes are not.", answer: "redefine|one point|infinite", difficulty: 3, explanation: "A hole is a single missing point — redefining f there restores continuity; an asymptote marks unbounded behavior (|f| → ∞) — no value assignment can tame the blow-up" }
+  ]
+};
+
+Lessons["g11-mathematics-um2-t4"] = {
+  overview: "Rational functions at work: average cost and break-even, combined rates (work, pipes, resistors), speed-time-distance rational models, and inverse-relationship problems — setting up, solving and interpreting.",
+  objectives: [
+    "Model average-cost and marginal problems as rational functions",
+    "Solve combined-work problems via rate addition",
+    "Handle speed/current problems with rational equations",
+    "Interpret asymptotes in context",
+    "Validate solutions against real-world restrictions"
+  ],
+  simple: "Real life is full of ratios with x in the denominator. Average cost: total cost C(x) = fixed + variable; per-unit cost Ĉ(x) = C(x)/x — a rational function whose horizontal asymptote is the marginal cost (the floor you approach but never reach). Work: if you finish a job in a hours, your rate is 1/a job/hour; rates ADD when working together: 1/a + 1/b = 1/T → T = ab/(a+b). Three-hour and six-hour workers together: 18/9 = 2.4 h. Speed with current: boat v, current c — downstream v + c, upstream v − c; equal times or equal distances give rational equations: d/(v+c) + d/(v−c) = total time. Mixing: concentration = solute/solution — adding pure water dilutes rationally. The universal discipline: define variables with units, write the rational model, solve (clear denominators, check restrictions), then INTERPRET — reject negative times, impossible sizes, and explain what the asymptote means (the cost floor, the speed limit of the model).",
+  detailed: "<p><b>Cost models.</b> Ĉ(x) = (F + cx)/x = F/x + c: hyperbola above the marginal line y = c; minimizing average cost with a variable-cost term (e.g. quadratic variable) gives the classic U-shape (rational over x). Break-even with rational revenue: solve R(x) = C(x) — often a rational equation after per-unit pricing p(x) = a − bx (demand) → R = x·p(x). Economies of scale ARE the F/x decay — the asymptote is the business's cost floor.</p><p><b>Rate problems.</b> Work: individual rates add — 1/T = Σ1/tᵢ; the 'leak filling a cistern' variant subtracts (inflow positive, outflow negative). Motion: t = d/v; multi-leg trips: total time = Σ dᵢ/vᵢ — average speed = total distance / total time (NOT the mean of speeds — the harmonic mean appears: v_avg = 2v₁v₂/(v₁+v₂) for equal legs — a rational expression). Current problems: v±c structure; given round-trip time, solve the rational equation for v (reject roots ≤ c — the boat couldn't return).</p><p><b>Mixtures & physics.</b> Concentration after dilution: C = s/(V + w) — rational in water added w; successive dilutions compose rationally. Parallel resistors: 1/R = Σ1/Rᵢ — the same algebra as work. Lens/mirror: 1/f = 1/u + 1/v solved for v = uf/(u−f) — a rational function of object distance with a vertical asymptote at u = f (the imaging cliff). Interpretation questions always ask: what happens as x → ∞ (HA), x → 0+ (blow-up), and near the restriction (physical impossibility).</p>",
+  keyTerms: [
+    { term: "Average cost", def: "C(x)/x — rational with marginal-cost HA" },
+    { term: "Rate addition", def: "1/T = 1/a + 1/b for joint work" },
+    { term: "Harmonic mean", def: "2v₁v₂/(v₁+v₂) — equal-leg average speed" },
+    { term: "Downstream/upstream", def: "v + c / v − c" }
+  ],
+  workedExamples: [
+    {
+      problem: "A factory's cost is C(x) = 4000 + 15x Birr. Find average cost for 200 units and its asymptote meaning.",
+      given: "cost model",
+      formula: "Ĉ = 4000/x + 15",
+      substitution: "Ĉ(200) = 20 + 15 = 35 Birr/unit; as x → ∞, Ĉ → 15",
+      calculation: "35; floor 15",
+      answer: "35 Birr/unit at 200; the HA y = 15 is the marginal-cost floor"
+    },
+    {
+      problem: "A and B together finish in 6 h; A alone in 10 h. B alone?",
+      given: "work",
+      formula: "1/10 + 1/b = 1/6",
+      substitution: "1/b = 1/6 − 1/10 = 1/15",
+      calculation: "b = 15",
+      answer: "B alone: 15 hours"
+    },
+    {
+      problem: "A boat covers 24 km downstream and back in 5 h; current is 2 km/h. Find boat speed.",
+      given: "round trip",
+      formula: "24/(v+2) + 24/(v−2) = 5",
+      substitution: "24·2v/(v²−4) = 5 → 48v = 5v² − 20 → 5v² − 48v − 20 = 0 → v = (48 ± 52)/10",
+      calculation: "v = 10 (reject −0.4)",
+      answer: "10 km/h (must exceed the current — restriction v > 2)"
+    },
+    {
+      problem: "Average speed: 60 km/h up a hill, 90 km/h down (same road). Average for the round trip?",
+      given: "harmonic",
+      formula: "2·60·90/150",
+      substitution: "total distance 2d; total time d/60 + d/90 = d·(150/5400); v = 2d/(d·150/5400)",
+      calculation: "72 km/h",
+      answer: "72 km/h — NOT 75; more time is spent at the slower speed"
+    },
+    {
+      problem: "A cistern fills in 8 h, drains in 12 h. Both open — fill time?",
+      given: "opposing rates",
+      formula: "1/8 − 1/12 = 1/T",
+      substitution: "1/24 = 1/T",
+      calculation: "T = 24",
+      answer: "24 hours (rates subtract when one empties)"
+    }
+  ],
+  commonMistakes: [
+    "Averaging speeds arithmetically — use total distance / total time",
+    "Adding TIMES instead of rates in work problems (10 h + 6 h makes no sense)",
+    "Forgetting v > c in current problems (the return leg needs positive net speed)",
+    "Reporting Ĉ(x) as the answer when asked for TOTAL cost (or vice versa)",
+    "Accepting negative or fractional-unit roots (people, machines are whole)",
+    "Ignoring what the asymptote MEANS in context — interpretation marks are free"
+  ],
+  applications: [
+    "Business: economies of scale — the F/x term is why big producers undercut",
+    "Public works: crew-size scheduling via combined rates",
+    "Transport: fuel-optimal speed from rational time-cost trade-offs",
+    "Electricity: parallel circuits' equivalent resistance",
+    "Chemistry/lab: dilution series in school labs and clinics"
+  ],
+  summary: "Rational models in the wild: average cost C(x)/x (hyperbola with marginal-cost floor), combined work via rate addition/subtraction (1/T = Σ1/tᵢ), motion with currents (v ± c legs, harmonic-mean average speed), dilutions and parallel resistors. The method never changes: model with units, clear denominators, respect restrictions (v > c, x > 0, whole people), and read the asymptote as the real-world limit.",
+  visuals: [
+    { type: "lineGraph", config: { title: "Average cost Ĉ = 4000/x + 15", xLabel: "units", yLabel: "Birr", series: [{ label: "Ĉ(x)", points: [[50,95],[100,55],[200,35],[400,25],[800,20]] }, { label: "floor y=15", points: [[50,15],[800,15]] }] } }
+  ],
+  questions: [
+    { type: "mcq", q: "Two pipes fill in 3 h and 6 h together in:", options: ["4.5 h", "2 h", "9 h", "3 h"], answer: 1, difficulty: 2, explanation: "1/3+1/6=1/2 → 2 h" },
+    { type: "mcq", q: "Average cost Ĉ(x) = (1000+5x)/x has HA:", options: ["y = 0", "y = 5", "y = 1000", "none"], answer: 1, difficulty: 2, explanation: "1000/x → 0" },
+    { type: "mcq", q: "Downstream speed with boat 12, current 3:", options: ["9", "15", "12", "4"], answer: 1, difficulty: 1, explanation: "v + c = 15" },
+    { type: "mcq", q: "Equal legs at 40 and 60 km/h: average speed:", options: ["50", "48", "52", "45"], answer: 1, difficulty: 3, explanation: "2·40·60/100 = 48" },
+    { type: "tf", q: "Work rates add when agents act together.", answer: true, difficulty: 1, explanation: "1/T = 1/a + 1/b" },
+    { type: "tf", q: "The average of 30 and 70 km/h over equal distances is 50.", answer: false, difficulty: 2, explanation: "Harmonic: 42" },
+    { type: "short", q: "1/x + 1/4 = 1/2; x =", answer: "4", difficulty: 2, explanation: "1/x = 1/4" },
+    { type: "short", q: "The HA of average cost represents the ___ cost.", answer: "marginal", difficulty: 2, explanation: "Marginal (per-unit variable) cost" },
+    { type: "calc", q: "A job: A in 12 h, B in 4 h. Together?", answer: "3 h", difficulty: 2, explanation: "1/12+3/12=4/12=1/3" },
+    { type: "concept", q: "Why does spending more time at the slower speed drag the average below the arithmetic mean?", answer: "weighted by time|harmonic|more hours slow", difficulty: 3, explanation: "Average speed weights each leg by its TIME, and the slow leg takes more hours — so it counts more; the harmonic mean (2v₁v₂/(v₁+v₂)) is always ≤ the arithmetic mean, with equality only when speeds match" }
+  ]
+};

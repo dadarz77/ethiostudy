@@ -1,0 +1,406 @@
+/* ============================================================
+   Content: Grade 10 Physics — Unit 3: Elasticity and Static Equilibrium
+   5 topics: Elasticity/Plasticity, Density, Stress/Strain,
+   Young Modulus, Static Equilibrium.
+   ============================================================ */
+window.Lessons = window.Lessons || {};
+
+/* --- p3-1: Elasticity and Plasticity --- */
+Lessons["g10-physics-up3-t1"] = {
+  overview: "When you stretch a rubber band, it snaps back. When you bend a paperclip too far, it stays bent. These are examples of elasticity (returning to original shape) and plasticity (permanent deformation). Understanding these properties is essential for engineering and materials science.",
+  objectives: [
+    "Define elasticity and plasticity",
+    "Distinguish between elastic and plastic deformation",
+    "Give examples of elastic and plastic materials",
+    "Understand the elastic limit"
+  ],
+  simple: "Elasticity means an object goes back to its original shape after the force is removed. A rubber band is elastic. Plasticity means it stays deformed permanently. Play-Doh is plastic. Most materials are elastic up to a point, then become plastic — that's the elastic limit. Bend a paperclip gently and it springs back (elastic). Bend it too much and it stays bent (plastic).",
+  detailed: `<p><b>Elasticity</b> is the ability of a material to return to its original shape and size after the deforming force is removed. The deformation is temporary and reversible.</p>
+<p><b>Plasticity</b> is the property of materials to undergo permanent deformation that remains after the deforming force is removed. The deformation is permanent and irreversible.</p>
+<p><b>Elastic limit:</b> The maximum stress a material can withstand without permanent deformation. Below this limit, behavior is elastic. Above it, the material deforms plastically and won't return to its original shape.</p>
+<p><b>Examples:</p>
+<ul>
+<li>Elastic: rubber bands, springs, steel (within limits), tendons</li>
+<li>Plastic: clay, lead, chewing gum, modeling clay</li>
+</ul>`,
+  keyTerms: [
+    { term: "Elasticity", def: "Ability to return to original shape after force is removed." },
+    { term: "Plasticity", def: "Permanent deformation that remains after force is removed." },
+    { term: "Elastic limit", def: "The maximum stress a material can take without permanent deformation." },
+    { term: "Deformation", def: "A change in shape or size due to an applied force." },
+    { term: "Hooke's law", def: "Within elastic limit, extension is proportional to load." }
+  ],
+  workedExamples: [
+    {
+      problem: "A spring stretches 2 cm when a 10 N weight is hung from it. If the spring's elastic limit is 5 cm, what happens when a 30 N weight is hung?",
+      given: "10 N → 2 cm stretch. Elastic limit at 5 cm.",
+      formula: "Within elastic limit, stretch ∝ force. 30 N should stretch 6 cm.",
+      substitution: "30/10 = 3 times the force, so stretch = 3 × 2 cm = 6 cm",
+      calculation: "6 cm > 5 cm elastic limit, so the spring will deform plastically.",
+      answer: "The spring will stretch beyond its elastic limit and not return to its original length."
+    }
+  ],
+  commonMistakes: [
+    "Thinking all materials are either elastic or plastic — most are elastic up to a limit, then plastic.",
+    "Confusing 'elastic limit' with 'breaking point' — the elastic limit comes first."
+  ],
+  applications: [
+    "Car suspension springs are designed to stay within their elastic limit under normal driving.",
+    "Bridges are built with materials that can handle expected loads without exceeding the elastic limit.",
+    "Memory foam is specially designed to be slowly elastic (viscoelastic)."
+  ],
+  summary: "Elasticity = returns to original shape (reversible, temporary). Plasticity = stays deformed (permanent, irreversible). The elastic limit is the boundary between them. Hooke's law describes elastic behavior.",
+  visuals: [
+    { type: "flowChart", config: { steps: ["Force applied", "Deformation", "Below elastic limit?", "YES → Return to shape (elasticity)", "NO → Permanent change (plasticity)"], title: "Elastic vs Plastic Behavior" } }
+  , {"type":"qa","config":{"title":"Quick Review — tap a question to reveal the answer","pairs":[{"q":"A spring stretches 2 cm when a 10 N weight is hung from it. If the spring's elastic limit…","a":"<b>Answer:</b> The spring will stretch beyond its elastic limit and not return to its original length."}]}}],
+  questions: [
+    { type: "mcq", q: "A material that returns to its original shape after the force is removed is:", options: ["Plastic", "Elastic", "Brittle", "Ductile"], answer: 1, difficulty: 1, explanation: "Elastic materials return to their original shape. Plastic materials stay deformed." },
+    { type: "mcq", q: "Permanent deformation occurs when the applied force exceeds the:", options: ["Elastic limit", "Breaking point", "Yield point", "Both A and B"], answer: 0, difficulty: 2, explanation: "The elastic limit is the threshold beyond which permanent deformation occurs. The breaking point is later." },
+    { type: "tf", q: "A rubber band is perfectly elastic at any stretch.", answer: false, difficulty: 1, explanation: "Elastic bands have an elastic limit too — stretch too far and they snap or permanently deform." },
+    { type: "short", q: "What is the difference between elastic and plastic deformation?", answer: "elastic is reversible|plastic is permanent|elastic returns to shape", difficulty: 1, explanation: "Elastic deformation is reversible (returns to original shape). Plastic deformation is permanent." },
+    { type: "concept", q: "Why is steel used in construction rather than lead, even though lead is stronger?", answer: "steel is elastic|lead is plastic|steel returns to shape", difficulty: 3, explanation: "Steel is elastic within its design range — it returns to shape after loads pass. Lead deforms plastically under smaller loads, making it unsuitable for structural support." },
+    { type: "calc", q: "A spring stretches 4 cm under a 20 N load. Assuming it stays within its elastic limit, how much will it stretch under 35 N?", answer: "7", difficulty: 2, explanation: "Stretch ∝ force: 4 cm × (35/20) = 7 cm (Hooke's law)", tolerance: 0.1 },
+    { type: "mcq", q: "Which material is an example of a plastic (rather than elastic) substance?", options: ["Steel spring", "Rubber band", "Clay", "Bicycle chain"], answer: 2, difficulty: 1, explanation: "Clay deforms permanently under force — it's plastic. Springs, rubber bands are elastic." }
+  ]
+};
+
+/* --- p3-2: Density and Specific Gravity --- */
+Lessons["g10-physics-up3-t2"] = {
+  overview: "Density tells us how much mass is packed into a given volume. It's why a small lead weight feels heavier than a large foam block. Specific gravity compares a material's density to water.",
+  objectives: [
+    "Define density and state its SI unit",
+    "Calculate the density of a material given mass and volume",
+    "Define specific gravity",
+    "Use density to determine if an object will float"
+  ],
+  simple: "Density = mass ÷ volume. If you have a brick of lead and a brick of wood the same size, the lead is heavier because it's more dense — more mass packed into the same space. Specific gravity compares a material's density to water. If specific gravity > 1, it sinks. If < 1, it floats.",
+  detailed: `<p>Density (ρ, the Greek letter rho) is defined as mass per unit volume:</p>
+<p>ρ = m / V</p>
+<p>The SI unit of density is kg/m³. Common units also include g/cm³ (1 g/cm³ = 1000 kg/m³).</p>
+<p><b>Density of water:</b> 1000 kg/m³ = 1 g/cm³</p>
+<p><b>Specific gravity (SG)</b> is the ratio of a material's density to the density of water:</p>
+<p>SG = ρ_material / ρ_water</p>
+<p>SG is a pure number (no units). If SG > 1, the material sinks in water; if SG < 1, it floats.</p>`,
+  keyTerms: [
+    { term: "Density", def: "Mass per unit volume (kg/m³ or g/cm³)." },
+    { term: "Specific gravity", def: "Ratio of a material's density to water density (no units)." },
+    { term: "Mass", def: "Amount of matter in an object (kg)." },
+    { term: "Volume", def: "Amount of space an object occupies (m³)." }
+  ],
+  formulas: [
+    {
+      name: "Density",
+      formula: "ρ = m / V",
+      meaning: "Density equals mass divided by volume.",
+      vars: [
+        { name: "ρ", meaning: "density", unit: "kg/m³" },
+        { name: "m", meaning: "mass", unit: "kg" },
+        { name: "V", meaning: "volume", unit: "m³" }
+      ],
+      units: "kg/m³ (or g/cm³)",
+      when: "To find the density of a material, or to find mass from volume or vice versa.",
+      example: "m = 20 kg, V = 0.01 m³. ρ = 20/0.01 = 2000 kg/m³."
+    },
+    {
+      name: "Specific gravity",
+      formula: "SG = ρ / ρ_water",
+      meaning: "Specific gravity is the density of a material divided by the density of water (1000 kg/m³).",
+      vars: [
+        { name: "SG", meaning: "specific gravity", unit: "none" },
+        { name: "ρ", meaning: "density of the material", unit: "kg/m³" },
+        { name: "ρ_water", meaning: "density of water (1000 kg/m³)", unit: "kg/m³" }
+      ],
+      units: "Dimensionless (no units).",
+      when: "To compare a material's density to water, or to determine if it floats.",
+      example: "ρ = 800 kg/m³. SG = 800/1000 = 0.8. Since < 1, it floats."
+    }
+  ],
+  workedExamples: [
+    {
+      problem: "A metal block has a mass of 2.5 kg and a volume of 0.0005 m³. Find its density. Will it float in water?",
+      given: "m = 2.5 kg, V = 0.0005 m³, ρ_water = 1000 kg/m³",
+      formula: "ρ = m/V = 2.5/0.0005",
+      substitution: "ρ = 5000 kg/m³. SG = 5000/1000 = 5",
+      calculation: "SG = 5 > 1, so it sinks.",
+      answer: "Density = 5000 kg/m³. It will sink (SG = 5)."
+    },
+    {
+      problem: "A liquid has a density of 780 kg/m³. What is its specific gravity? Will it float on water?",
+      given: "ρ = 780 kg/m³",
+      formula: "SG = 780/1000",
+      substitution: "SG = 0.78",
+      calculation: "SG < 1, so it floats.",
+      answer: "SG = 0.78. It will float on water."
+    }
+  ],
+  commonMistakes: [
+    "Confusing density with weight — density is mass/volume, not weight/volume.",
+    "Forgetting to convert units: 1 g/cm³ = 1000 kg/m³.",
+    "Thinking specific gravity has units — it's a ratio, so it's dimensionless."
+  ],
+  applications: [
+    "Ships float because their average density (including the air inside) is less than water.",
+    "Hot air balloons rise because hot air is less dense than cool air.",
+    "Gold purity testing: pure gold has density 19,300 kg/m³ — any lower density indicates impurities."
+  ],
+  summary: "Density ρ = m/V (kg/m³) tells how tightly mass is packed. Specific gravity = ρ substance ÷ ρ water (unitless). SG < 1 floats, SG > 1 sinks. Density is an identifying property of a material — and it changes with temperature (hot air is less dense).",
+  visuals: [
+    { type: "tableVisual", config: { headers: ["Material", "Density (kg/m³)", "SG", "Float?"], rows: [["Ice", "917", "0.92", "Yes"], ["Wood (oak)", "750", "0.75", "Yes"], ["Water", "1000", "1.0", "—"], ["Steel", "7800", "7.8", "No"], ["Gold", "19300", "19.3", "No"]], title: "Densities of Common Materials" } }
+  , {"type":"qa","config":{"title":"Quick Review — tap a question to reveal the answer","pairs":[{"q":"A metal block has a mass of 2.5 kg and a volume of 0.0005 m³. Find its density. Will it f…","a":"<b>Answer:</b> Density = 5000 kg/m³. It will sink (SG = 5)."},{"q":"A liquid has a density of 780 kg/m³. What is its specific gravity? Will it float on water?","a":"<b>Answer:</b> SG = 0.78. It will float on water."}]}}],
+  questions: [
+    { type: "mcq", q: "Density is defined as:", options: ["Weight ÷ volume", "Mass ÷ volume", "Mass × volume", "Volume ÷ mass"], answer: 1, difficulty: 1, explanation: "Density = mass ÷ volume (ρ = m/V)." },
+    { type: "calc", q: "An object has mass 6 kg and volume 0.003 m³. Find its density.", answer: "2000", difficulty: 1, explanation: "ρ = 6/0.003 = 2000 kg/m³", tolerance: 1 },
+    { type: "calc", q: "A material has density 2500 kg/m³. What is its specific gravity?", answer: "2.5", difficulty: 1, explanation: "SG = 2500/1000 = 2.5", tolerance: 0.1 },
+    { type: "tf", q: "An object with specific gravity 0.5 will sink in water.", answer: false, difficulty: 1, explanation: "SG < 1 means it's less dense than water, so it floats." },
+    { type: "mcq", q: "The SI unit of density is:", options: ["kg/m", "kg/m³", "g/cm³", "N/m³"], answer: 1, difficulty: 1, explanation: "The SI unit is kg/m³ (though g/cm³ is also commonly used)." },
+    { type: "calc", q: "What volume does 1000 kg of water occupy? (ρ_water = 1000 kg/m³)", answer: "1", difficulty: 2, explanation: "V = m/ρ = 1000/1000 = 1 m³", tolerance: 0.01 }
+  ]
+};
+
+/* --- p3-3: Stress and Strain --- */
+Lessons["g10-physics-up3-t3"] = {
+  overview: "When a force is applied to a material, it experiences stress (the internal force per area) and strain (the resulting deformation). These are the fundamental concepts for understanding how materials respond to loads.",
+  objectives: [
+    "Define stress as force per unit area",
+    "Define strain as the ratio of change in length to original length",
+    "Calculate stress and strain for simple cases",
+    "State Hooke's law and the elastic limit"
+  ],
+  simple: "Stress is like 'how hard you're pushing per square meter' — the same force on a thinner wire creates more stress. Strain is 'how much it stretches compared to its original length' — a 1 cm stretch on a 1 m rope is a strain of 0.01 (or 1%). Hooke's law says: within the elastic limit, stress and strain are proportional.",
+  detailed: `<p><b>Stress (σ):</b> The internal force per unit area within a material:</p>
+<p>σ = F / A</p>
+<p>where F is the applied force (in N) and A is the cross-sectional area (in m²). The SI unit of stress is the Pascal (Pa), which is N/m².</p>
+<p><b>Strain (ε):</b> The ratio of change in length to the original length:</p>
+<p>ε = ΔL / L₀</p>
+<p>Strain is dimensionless (no units). It's often expressed as a percentage.</p>
+<p><b>Hooke's Law:</b> Within the elastic limit, stress is directly proportional to strain:</p>
+<p>σ = E × ε</p>
+<p>where E is the Young's modulus (a material property).</p>`,
+  keyTerms: [
+    { term: "Stress", def: "Force per unit area (Pa or N/m²)." },
+    { term: "Strain", def: "Ratio of change in length to original length (no units)." },
+    { term: "Hooke's law", def: "Within the elastic limit, extension is proportional to the applied force." },
+    { term: "Elastic limit", def: "Maximum stress before permanent deformation occurs." },
+    { term: "Pascal (Pa)", def: "SI unit of stress = 1 N/m²." }
+  ],
+  formulas: [
+    {
+      name: "Stress",
+      formula: "σ = F / A",
+      meaning: "Stress equals the applied force divided by the cross-sectional area.",
+      vars: [
+        { name: "σ", meaning: "stress", unit: "Pa (N/m²)" },
+        { name: "F", meaning: "applied force", unit: "N" },
+        { name: "A", meaning: "cross-sectional area", unit: "m²" }
+      ],
+      units: "Pascals (Pa) = N/m²",
+      when: "To find the internal force per area in a material under load.",
+      example: "F = 500 N, A = 0.01 m². σ = 500/0.01 = 50,000 Pa = 50 kPa."
+    },
+    {
+      name: "Strain",
+      formula: "ε = ΔL / L₀",
+      meaning: "Strain equals the change in length divided by the original length.",
+      vars: [
+        { name: "ε", meaning: "strain", unit: "none (dimensionless)" },
+        { name: "ΔL", meaning: "change in length", unit: "m" },
+        { name: "L₀", meaning: "original length", unit: "m" }
+      ],
+      units: "No units (often expressed as a percentage).",
+      when: "To find how much a material deforms relative to its original size.",
+      example: "L₀ = 2 m, ΔL = 0.004 m. ε = 0.004/2 = 0.002 = 0.2%."
+    }
+  ],
+  workedExamples: [
+    {
+      problem: "A steel wire of radius 1 mm and length 2 m is stretched by a force of 100 N. Find (a) stress, (b) strain if the wire extends by 0.5 mm.",
+      given: "r = 1 mm = 0.001 m, L₀ = 2 m, F = 100 N, ΔL = 0.5 mm = 0.0005 m",
+      formula: "(a) A = πr², σ = F/A. (b) ε = ΔL/L₀",
+      substitution: "A = π × 0.001² = 3.14 × 10⁻⁶ m². σ = 100/(3.14×10⁻⁶) = 31.8 × 10⁶ Pa = 31.8 MPa",
+      calculation: "ε = 0.0005/2 = 0.00025 = 0.025%",
+      answer: "(a) Stress = 31.8 MPa, (b) Strain = 0.00025"
+    }
+  ],
+  commonMistakes: [
+    "Forgetting to convert area to m² (mm² → m²: divide by 1,000,000).",
+    "Thinking strain has units — it's a ratio, so it's dimensionless.",
+    "Applying Hooke's law beyond the elastic limit."
+  ],
+  applications: [
+    "Civil engineers calculate stress in bridge supports to ensure they can handle traffic loads.",
+    "Dental braces apply controlled stress to teeth, causing gradual strain (movement) in the jawbone.",
+    "Aircraft wings are designed to withstand specific stress levels during flight."
+  ],
+  summary: "Stress = F/A (Pa), strain = ΔL/L₀ (no units). Hooke's law: within the elastic limit, stress ∝ strain. Stress is the cause (force per area), strain is the effect (deformation).",
+  visuals: [
+    { type: "forceDiagram", config: { forces: [{ angle: 90, magnitude: 60, label: "F" }, { angle: -90, magnitude: 60, label: "F" }], box: { x: 90, y: 50, w: 60, h: 50 } } }
+  , {"type":"qa","config":{"title":"Quick Review — tap a question to reveal the answer","pairs":[{"q":"A steel wire of radius 1 mm and length 2 m is stretched by a force of 100 N. Find (a) str…","a":"<b>Answer:</b> (a) Stress = 31.8 MPa, (b) Strain = 0.00025"}]}}],
+  questions: [
+    { type: "mcq", q: "Stress is defined as:", options: ["Force × area", "Force ÷ area", "Area ÷ force", "Mass ÷ volume"], answer: 1, difficulty: 1, explanation: "Stress = force ÷ area (σ = F/A)." },
+    { type: "mcq", q: "Strain has units of:", options: ["Pascals", "Newtons", "No units", "m²"], answer: 2, difficulty: 1, explanation: "Strain = ΔL/L₀, a ratio of lengths, so it's dimensionless." },
+    { type: "calc", q: "A force of 200 N is applied to a cross-sectional area of 0.005 m². Find the stress.", answer: "40000", difficulty: 1, explanation: "σ = 200/0.005 = 40,000 Pa = 40 kPa", tolerance: 100 },
+    { type: "calc", q: "A wire of original length 3 m stretches by 6 mm. Find the strain.", answer: "0.002", difficulty: 2, explanation: "ε = 0.006/3 = 0.002", tolerance: 0.0001 },
+    { type: "tf", q: "Hooke's law applies to all materials regardless of the load.", answer: false, difficulty: 2, explanation: "Hooke's law only applies within the elastic limit. Beyond that, the material deforms plastically." },
+    { type: "short", q: "What is the SI unit of stress?", answer: "pascal|Pa|N/m²", difficulty: 1, explanation: "Stress is measured in Pascals (Pa), which is N/m²." }
+  ]
+};
+
+/* --- p3-4: The Young Modulus --- */
+Lessons["g10-physics-up3-t4"] = {
+  overview: "The Young modulus (E) is a material property that tells us how stiff a material is — how much it resists stretching or compression. Steel has a high Young modulus (very stiff), while rubber has a low one (very stretchy).",
+  objectives: [
+    "Define the Young modulus as the ratio of stress to strain",
+    "Calculate the Young modulus from stress and strain data",
+    "Compare the stiffness of different materials using their Young modulus",
+    "Understand that the Young modulus applies only within the elastic limit"
+  ],
+  simple: "The Young modulus is like the 'stiffness' of a material. Imagine pulling on a steel rod and a rubber band of the same size. The steel barely stretches — it has a high Young modulus. The rubber stretches a lot — it has a low Young modulus. The formula is E = stress ÷ strain. A high E means a stiff material.",
+  detailed: `<p><b>Young's modulus (E):</b> A measure of the stiffness of a material. It is the ratio of tensile stress to tensile strain within the elastic limit:</p>
+<p>E = σ / ε = (F/A) / (ΔL/L₀)</p>
+<p>E is a property of the material, not of the specific object. It has the same units as stress (Pa) because strain is dimensionless.</p>
+<p><b>Typical values:</b></p>
+<p>Steel: E ≈ 200 × 10⁹ Pa (200 GPa)</p>
+<p>Aluminum: E ≈ 70 × 10⁹ Pa (70 GPa)</p>
+<p>Wood: E ≈ 10 × 10⁹ Pa (10 GPa)</p>
+<p>Rubber: E ≈ 0.01 × 10⁹ Pa (10 MPa)</p>`,
+  keyTerms: [
+    { term: "Young modulus", def: "Ratio of stress to strain; a measure of stiffness (Pa)." },
+    { term: "Stiffness", def: "Resistance to elastic deformation when a force is applied." },
+    { term: "Elastic region", def: "The range of stress within which Hooke's law applies." },
+    { term: "GPa", def: "Gigapascal = 10⁹ Pa. Used for large Young modulus values." }
+  ],
+  formulas: [
+    {
+      name: "Young modulus",
+      formula: "E = (F/A) / (ΔL/L₀) = F·L₀ / (A·ΔL)",
+      meaning: "Young's modulus equals stress divided by strain. It measures stiffness.",
+      vars: [
+        { name: "E", meaning: "Young's modulus", unit: "Pa (N/m²)" },
+        { name: "F", meaning: "applied force", unit: "N" },
+        { name: "L₀", meaning: "original length", unit: "m" },
+        { name: "A", meaning: "cross-sectional area", unit: "m²" },
+        { name: "ΔL", meaning: "change in length", unit: "m" }
+      ],
+      units: "Pascals (Pa), often in GPa (10⁹ Pa).",
+      when: "To find how stiff a material is, or to predict how much it will stretch under a given load.",
+      example: "F = 1000 N, L₀ = 2 m, A = 1×10⁻⁴ m², ΔL = 0.001 m. E = 1000×2/(1×10⁻⁴×0.001) = 2×10¹⁰ Pa = 20 GPa."
+    }
+  ],
+  workedExamples: [
+    {
+      problem: "A steel rod of length 3 m and cross-sectional area 2×10⁻⁴ m² is stretched by 1.5 mm when a force of 20 kN is applied. Find the Young modulus of steel.",
+      given: "L₀ = 3 m, A = 2×10⁻⁴ m², ΔL = 1.5 mm = 0.0015 m, F = 20 kN = 20000 N",
+      formula: "E = F·L₀ / (A·ΔL)",
+      substitution: "E = 20000 × 3 / (2×10⁻⁴ × 0.0015)",
+      calculation: "E = 60000 / (3×10⁻⁷) = 2×10¹¹ Pa = 200 GPa",
+      answer: "E = 200 GPa (matches the known value for steel)"
+    }
+  ],
+  commonMistakes: [
+    "Forgetting to convert mm to m (1 mm = 0.001 m).",
+    "Using the Young modulus formula beyond the elastic limit.",
+    "Confusing the Young modulus (material property) with stiffness (depends on geometry too)."
+  ],
+  applications: [
+    "Engineers select materials with appropriate Young modulus — bridges need high E (steel), while shock absorbers need low E (rubber).",
+    "Dental fillings: the material must have a similar Young modulus to tooth enamel to avoid cracking.",
+    "Sports equipment: a pole vaulting pole must have a specific Young modulus to bend and spring back effectively."
+  ],
+  summary: "Young modulus E = stress/strain = (F/A)/(ΔL/L₀). It's a material property (stiffness). High E = stiff (steel ~200 GPa). Low E = flexible (rubber ~0.01 GPa). Only valid within the elastic limit.",
+  visuals: [
+    { type: "tableVisual", config: { headers: ["Material", "E (GPa)"], rows: [["Rubber", "0.01"], ["Wood", "10"], ["Aluminum", "70"], ["Steel", "200"], ["Diamond", "1200"]], title: "Young Modulus of Common Materials" } }
+  , {"type":"qa","config":{"title":"Quick Review — tap a question to reveal the answer","pairs":[{"q":"A steel rod of length 3 m and cross-sectional area 2×10⁻⁴ m² is stretched by 1.5 mm when…","a":"<b>Answer:</b> E = 200 GPa (matches the known value for steel)"}]}}],
+  questions: [
+    { type: "mcq", q: "The Young modulus measures:", options: ["Strength", "Stiffness", "Ductility", "Hardness"], answer: 1, difficulty: 1, explanation: "The Young modulus measures stiffness — how much a material resists stretching or compression." },
+    { type: "mcq", q: "A material with a high Young modulus is:", options: ["Very stretchy", "Very stiff", "Very heavy", "Very soft"], answer: 1, difficulty: 1, explanation: "High E means high stiffness — the material resists deformation." },
+    { type: "calc", q: "A force of 500 N is applied to a wire of area 1×10⁻⁶ m² and length 2 m. It stretches 0.002 m. Find E.", answer: "5e11|5×10¹¹|500000000000", difficulty: 3, explanation: "E = 500×2/(1×10⁻⁶×0.002) = 1000/2×10⁻⁹ = 5×10¹¹ Pa = 500 GPa", tolerance: 1e10 },
+    { type: "calc", q: "Steel has E = 200 GPa. A steel rod of area 5×10⁻⁴ m² and length 4 m is loaded with 100 kN. Find the extension.", answer: "0.004", difficulty: 3, explanation: "ΔL = F·L₀/(E·A) = 100000×4/(200×10⁹×5×10⁻⁴) = 400000/10⁸ = 0.004 m = 4 mm", tolerance: 0.0005 },
+    { type: "concept", q: "Why can't we use the Young modulus formula above the elastic limit?", answer: "permanent deformation|plastic deformation|nonlinear|not proportional", difficulty: 3, explanation: "Above the elastic limit, the material deforms plastically and stress/strain are no longer proportional. The formula E = σ/ε only applies in the linear elastic region." },
+    { type: "mcq", q: "Which material has the HIGHEST Young modulus?", options: ["Rubber", "Wood", "Steel", "Diamond"], answer: 3, difficulty: 1, explanation: "Diamond has E ≈ 1200 GPa — the stiffest listed. Rubber has the lowest." },
+    { type: "calc", q: "A material has a stress of 200 MPa and a strain of 0.001. Find its Young modulus in GPa.", answer: "200", difficulty: 3, explanation: "E = σ/ε = 200×10⁶ / 0.001 = 200×10⁹ Pa = 200 GPa", tolerance: 1 }
+  ]
+};
+
+/* --- p3-5: Static Equilibrium --- */
+Lessons["g10-physics-up3-t5"] = {
+  overview: "An object is in static equilibrium when it is at rest AND all forces and torques on it are balanced. This is the foundation of structural engineering — why buildings don't fall, why bridges hold up, and why a book sits still on a table.",
+  objectives: [
+    "State the two conditions for static equilibrium",
+    "Apply the first condition: net force = 0",
+    "Apply the second condition: net torque = 0",
+    "Solve simple equilibrium problems"
+  ],
+  simple: "For an object to be perfectly still (static equilibrium), two things must be true: (1) all the forces pushing left/right/up/down must cancel out — net force = 0. (2) all the twisting forces (torques/rotations) must cancel out — net torque = 0. It's like a tug-of-war where both sides pull equally AND the rope isn't spinning around.",
+  detailed: `<p>An object is in <b>static equilibrium</b> when it is at rest (not moving) and remains at rest (not about to start moving). This requires two conditions:</p>
+<p><b>First condition (translational equilibrium):</b> The sum of all forces in any direction is zero.</p>
+<p>ΣF = 0, which means ΣFₓ = 0 AND ΣFᵧ = 0 (and ΣF_z = 0 in 3D).</p>
+<p><b>Second condition (rotational equilibrium):</b> The sum of all torques about any point is zero.</p>
+<p>Στ = 0</p>
+<p><b>Torque (τ)</b> is the rotational equivalent of force. It depends on the force and the perpendicular distance from the pivot point:</p>
+<p>τ = F × d</p>
+<p>where d is the perpendicular distance from the pivot to the line of action of the force.</p>
+<p>Torque is positive (counterclockwise) or negative (clockwise) depending on direction.</p>`,
+  keyTerms: [
+    { term: "Static equilibrium", def: "State where an object is at rest and all forces and torques are balanced." },
+    { term: "Translational equilibrium", def: "First condition: net force = 0 (no linear acceleration)." },
+    { term: "Rotational equilibrium", def: "Second condition: net torque = 0 (no angular acceleration)." },
+    { term: "Torque", def: "Turning effect of a force; τ = F × d (N·m)." },
+    { term: "Pivot / fulcrum", def: "The point about which an object rotates." },
+    { term: "Moment", def: "Another name for torque; the product of force and perpendicular distance." }
+  ],
+  formulas: [
+    {
+      name: "Torque",
+      formula: "τ = F × d",
+      meaning: "Torque equals the force multiplied by the perpendicular distance from the pivot.",
+      vars: [
+        { name: "τ", meaning: "torque", unit: "N·m" },
+        { name: "F", meaning: "force applied", unit: "N" },
+        { name: "d", meaning: "perpendicular distance from pivot", unit: "m" }
+      ],
+      units: "Newton-meters (N·m)",
+      when: "To find the turning effect of a force about a pivot point.",
+      example: "F = 20 N, d = 0.5 m. τ = 20 × 0.5 = 10 N·m (counterclockwise)."
+    }
+  ],
+  workedExamples: [
+    {
+      problem: "A 2 m long seesaw has a fulcrum at its center. A 300 N child sits on the left end. Where should the child on the right sit to balance? The right child weighs 400 N.",
+      given: "Left child: F₁ = 300 N, distance d₁ = 1 m. Right child: F₂ = 400 N.",
+      formula: "For equilibrium, clockwise torque = counterclockwise torque. τ₁ = τ₂ → F₁d₁ = F₂d₂",
+      substitution: "300 × 1 = 400 × d₂ → 300 = 400d₂",
+      calculation: "d₂ = 300/400 = 0.75 m",
+      answer: "The 400 N child sits 0.75 m from the fulcrum on the right side."
+    },
+    {
+      problem: "A uniform beam of weight 500 N and length 4 m rests on two supports at its ends. A 200 N weight hangs 1 m from the left end. Find the forces at the supports.",
+      given: "Beam weight = 500 N (acts at center, 2 m from each end). Extra weight = 200 N at 1 m from left. Total length = 4 m.",
+      formula: "First condition: ΣF = 0 → R_left + R_right = 500 + 200 = 700 N. Take torques about left end: Στ = 0 → (500×2) + (200×1) − (R_right×4) = 0",
+      substitution: "1000 + 200 = 4R_right → R_right = 300 N",
+      calculation: "R_left = 700 − 300 = 400 N",
+      answer: "Left support: 400 N, Right support: 300 N"
+    }
+  ],
+  commonMistakes: [
+    "Only checking the first condition (ΣF = 0) — the second condition (Στ = 0) is equally important.",
+    "Forgetting the sign convention for torque (clockwise vs counterclockwise).",
+    "Taking the wrong distance for torque — it must be perpendicular distance from the pivot."
+  ],
+  applications: [
+    "Bridges: the weight of the bridge and traffic must be balanced by the support forces — this is a static equilibrium problem.",
+    "Cranes use counterweights to create torque balance, preventing them from tipping over.",
+    "Your body maintains equilibrium constantly — the balance in your inner ear helps you stand still."
+  ],
+  summary: "Static equilibrium requires: (1) ΣF = 0 — no net force, (2) Στ = 0 — no net torque. Torque = F × d (N·m). Use the first condition to relate forces, and the second (taking torques about a convenient point) to find unknown forces.",
+  visuals: [
+    { type: "forceDiagram", config: { forces: [{ angle: 90, magnitude: 50, label: "R_left" }, { angle: -90, magnitude: 80, label: "mg" }, { angle: 90, magnitude: 50, label: "R_right" }], box: { x: 80, y: 60, w: 80, h: 30 } } }
+  , {"type":"qa","config":{"title":"Quick Review — tap a question to reveal the answer","pairs":[{"q":"A 2 m long seesaw has a fulcrum at its center. A 300 N child sits on the left end. Where…","a":"<b>Answer:</b> The 400 N child sits 0.75 m from the fulcrum on the right side."},{"q":"A uniform beam of weight 500 N and length 4 m rests on two supports at its ends. A 200 N…","a":"<b>Answer:</b> Left support: 400 N, Right support: 300 N"}]}}],
+  questions: [
+    { type: "mcq", q: "How many conditions must be satisfied for static equilibrium?", options: ["One", "Two", "Three", "Four"], answer: 1, difficulty: 1, explanation: "Two conditions: (1) ΣF = 0 (translational) and (2) Στ = 0 (rotational)." },
+    { type: "mcq", q: "Torque depends on:", options: ["Force only", "Distance only", "Force and perpendicular distance", "Mass and acceleration"], answer: 2, difficulty: 1, explanation: "τ = F × d, where d is the perpendicular distance from the pivot." },
+    { type: "mcq", q: "The SI unit of torque is:", options: ["N/m", "N·m", "N·m²", "N/m²"], answer: 1, difficulty: 1, explanation: "Torque = force × distance, so units are N·m (Newton-meters)." },
+    { type: "calc", q: "A 50 N force is applied 0.4 m from a pivot. Find the torque (counterclockwise).", answer: "20", difficulty: 1, explanation: "τ = 50 × 0.4 = 20 N·m", tolerance: 0.1 },
+    { type: "calc", q: "A 100 N weight hangs 1.5 m from the left support of a 3 m beam. The beam's weight is negligible. Find the force on the left support.", answer: "50", difficulty: 3, explanation: "Take torques about right support: (100×1.5) = R_left × 3 → R_left = 150/3 = 50 N", tolerance: 0.5 },
+    { type: "concept", q: "A tightrope walker holds a long pole. How does the pole help with equilibrium?", answer: "increases moment of inertia|provides torque|balance|adjusts center of mass", difficulty: 3, explanation: "The long pole increases the rotational inertia and allows the walker to make small torque adjustments by shifting the pole, helping maintain balance." }
+  ]
+};

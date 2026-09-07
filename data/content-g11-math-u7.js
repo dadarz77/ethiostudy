@@ -1,0 +1,463 @@
+/* Content: Grade 11 Mathematics — Unit 7: Statistics (5 topics) */
+window.Lessons = window.Lessons || {};
+
+Lessons["g11-mathematics-um7-t1"] = {
+  overview: "Types of data: qualitative vs quantitative, discrete vs continuous, and the four measurement scales (nominal, ordinal, interval, ratio) — the classification that decides which statistics are legal.",
+  objectives: [
+    "Split data into qualitative and quantitative",
+    "Distinguish discrete from continuous variables",
+    "Name the four measurement scales with examples",
+    "Choose the scale for a given variable",
+    "Explain why scale dictates the allowed summaries"
+  ],
+  simple: "Before any calculation: WHAT KIND of data is this? QUALITATIVE (categorical) data sorts into labels: blood type, kebele, rating 'good/fair/poor'. QUANTITATIVE data counts or measures numbers — and splits again: DISCRETE = countable jumps (students per class: 25, 26 — never 25.4), CONTINUOUS = any value in a range (height 165.3 cm, time 9.87 s — limited only by the ruler). THE FOUR SCALES, weakest to strongest: (1) NOMINAL — pure names, no order (jersey numbers, ethnic group): you can only count categories. (2) ORDINAL — ordered but gaps meaningless (rank 1/2/3 in a race, satisfaction scales): order works, subtraction doesn't. (3) INTERVAL — equal gaps, no true zero (Celsius: 0°C isn't 'no heat'; 20° isn't 'twice 10°'): add/subtract OK, ratios NOT. (4) RATIO — real zero (height, mass, birr, time): everything legal including 'twice as much'. The scale decides your tools: mode for nominal, median for ordinal, mean for interval/ratio; ratios only from ratio data. Misclassifying is the silent killer: averaging jersey numbers produces a meaningless 14.7.",
+  detailed: "<p><b>Discrete vs continuous mechanics.</b> Discrete variables come from counting (finite or listably infinite: shoe size, number of children); continuous from measuring (uncountably many values in any interval: weight, temperature). The distinction drives later machinery: discrete probability uses sums and bar graphs; continuous uses integrals and density curves (histograms with AREA, not height). Note the practical blur: measured to the nearest kg, weight is recorded in steps — mathematically we still model it as continuous.</p><p><b>Scale hierarchy.</b> Each scale adds permissions: nominal → equality tests; ordinal → order comparisons; interval → differences; ratio → ratios. The zero test separates interval from ratio: does '0 X' mean absence of X? 0 kg = no mass (ratio); 0°C = water's freezing brine point (interval); calendar year 0 = arbitrary (interval). Kelvin rescues temperature to ratio scale — the zero becomes absence of thermal motion.</p><p><b>Encoding choices.</b> Ordinal data coded 1–5 (Likert scales) tempts arithmetic — means of Likert items are debated precisely because the gaps between 'agree' and 'strongly agree' aren't proven equal. Nominal codes (country = 251) are labels, not numbers — arithmetic on them is nonsense. The scale is a property of the VARIABLE's meaning, not its printed digits.</p><p><b>Ethiopian context examples.</b> Woreda names: nominal. Crop-yield grades (premium/standard/off): ordinal. Rainfall mm: ratio. Temperature °C: interval. Household size: discrete ratio. Land area ha: continuous ratio.</p>",
+  keyTerms: [
+    { term: "Qualitative", def: "category labels" },
+    { term: "Quantitative", def: "numerical measures" },
+    { term: "Discrete", def: "countable values" },
+    { term: "Continuous", def: "any value in a range" },
+    { term: "NOIR scales", def: "nominal < ordinal < interval < ratio" }
+  ],
+  workedExamples: [
+    {
+      problem: "Classify: (a) jersey numbers, (b) race finish positions, (c) Celsius temperature, (d) monthly income in birr.",
+      given: "four variables",
+      formula: "scale test",
+      substitution: "(a) nominal (labels), (b) ordinal (order, gaps vary), (c) interval (no true zero), (d) ratio (0 birr = none)",
+      calculation: "four answers",
+      answer: "Nominal, ordinal, interval, ratio — the ladder in order"
+    },
+    {
+      problem: "Discrete or continuous: (a) eggs in a crate, (b) volume of milk in a litre pack, (c) goals in a match, (d) response time in ms?",
+      given: "measurement vs counting",
+      formula: "jump test",
+      substitution: "counted: a, c; measured: b, d",
+      calculation: "2/2",
+      answer: "Discrete: eggs, goals. Continuous: milk volume, response time"
+    },
+    {
+      problem: "Why is 'twice as hot' invalid for 20°C vs 10°C but valid for 20 kg vs 10 kg?",
+      given: "ratio test",
+      formula: "true zero",
+      substitution: "Celsius zero is arbitrary — convert to Kelvin: 293 vs 283 K = only 1.04×; kg zero = absence — 20/10 = 2 genuinely",
+      calculation: "scale matters",
+      answer: "Interval scales forbid ratios; ratio scales allow them"
+    },
+    {
+      problem: "A survey records religion, then frequency per group. Which scale, which summary?",
+      given: "categorical",
+      formula: "nominal rules",
+      substitution: "no order among religions → nominal → only counts and the MODE (most common group)",
+      calculation: "mode",
+      answer: "Nominal; summarize with frequencies and mode — never a mean"
+    },
+    {
+      problem: "Star ratings 1–5 for a hotel: what CAN you compute honestly?",
+      given: "ordinal",
+      formula: "ordinal permissions",
+      substitution: "order comparisons and the median rating are safe; the mean 4.2 assumes equal gaps between stars",
+      calculation: "median",
+      answer: "Median and mode; mean only with the equal-gaps caveat"
+    }
+  ],
+  commonMistakes: [
+    "Averaging nominal codes (jersey numbers, area codes) — meaningless",
+    "Calling Likert means 'obviously fine' — gaps between categories aren't proven equal",
+    "Treating year (2025) as ratio — 'twice 1990' is nonsense; it's interval",
+    "Confusing discrete with 'few values' — a die roll is discrete; a measured weight rounded is still modeled continuous",
+    "Thinking 0 in a scale means ratio — check whether 0 is ABSENCE of the quantity",
+    "Mixing scales in one comparison (ratios of interval data)"
+  ],
+  applications: [
+    "Survey design: scale choice dictates the analysis plan",
+    "Public health: blood type (nominal) vs viral load (ratio) need different stats",
+    "Agriculture: yield grades (ordinal) vs kg/ha (ratio) for extension reports",
+    "Education: class rank (ordinal) vs score % (ratio)"
+  ],
+  summary: "Data splits qualitative (labels) vs quantitative (numbers), the latter into discrete (counted, jumps) and continuous (measured, any value). The four scales — nominal (names), ordinal (order), interval (equal gaps, fake zero), ratio (true zero) — form a permission ladder: each level unlocks more statistics. Mode for nominal, median for ordinal, mean for interval/ratio, ratios only for ratio. Classify first, calculate second — the scale decides what's legal.",
+  visuals: [
+    { type: "flowChart", config: { title: "The scale ladder", steps: [{ label: "Nominal", detail: "names only" }, { label: "Ordinal", detail: "+ order" }, { label: "Interval", detail: "+ differences" }, { label: "Ratio", detail: "+ true zero, ratios" }] } }
+  ],
+  questions: [
+    { type: "mcq", q: "Which is continuous?", options: ["shoe size", "number of shops", "river length", "goals"], answer: 2, difficulty: 1, explanation: "Measured, any value" },
+    { type: "mcq", q: "Kelvin temperature is which scale?", options: ["nominal", "ordinal", "interval", "ratio"], answer: 3, difficulty: 3, explanation: "0 K = no thermal energy" },
+    { type: "mcq", q: "The ONLY legal summary of nominal data:", options: ["mean", "median", "mode", "range"], answer: 2, difficulty: 2, explanation: "Most frequent category" },
+    { type: "mcq", q: "Rankings (1st, 2nd, 3rd) are:", options: ["nominal", "ordinal", "interval", "ratio"], answer: 1, difficulty: 1, explanation: "Ordered, gaps unknown" },
+    { type: "tf", q: "Discrete data must have few possible values.", answer: false, difficulty: 2, explanation: "Countably many is fine" },
+    { type: "tf", q: "Subtraction is legal on ordinal data.", answer: false, difficulty: 3, explanation: "Gaps aren't meaningful" },
+    { type: "short", q: "The four scales in order (weakest first): nominal, ___, interval, ratio", answer: "ordinal", difficulty: 1, explanation: "Ordinal" },
+    { type: "short", q: "Data from COUNTING is ___; from MEASURING is ___:", answer: "discrete,continuous", difficulty: 2, explanation: "Discrete; continuous" },
+    { type: "calc", q: "Is 'calendar year' interval or ratio? Justify in one line.", answer: "interval", difficulty: 3, explanation: "Year 0 is arbitrary — ratios meaningless; differences (durations) are valid → interval" },
+    { type: "concept", q: "Why does the mean of jersey numbers fail while the mean of heights works?", answer: "nominal codes|ratio scale|meaning", difficulty: 3, explanation: "Jersey numbers are nominal labels — the digits carry no quantity, so averaging invents a number with no meaning; heights are ratio-scale measurements where equal units and a true zero make the sum-and-divide operation correspond to a real balance point" }
+  ]
+};
+
+Lessons["g11-mathematics-um7-t2"] = {
+  overview: "Grouped data: frequency tables, class intervals, boundaries, midpoints, and cumulative frequencies — organizing raw measurements into analyzable structure.",
+  objectives: [
+    "Build a frequency table from raw data",
+    "Define class limits, boundaries, width, and midpoints",
+    "Compute relative and cumulative frequencies",
+    "Choose sensible class counts and widths",
+    "Read tables to answer distribution questions"
+  ],
+  simple: "Thirty exam scores in a heap are useless; the same thirty in a TABLE tell a story. BUILD: sort the data, choose classes (roughly 5–8 groups for school data), tally counts = FREQUENCIES. Vocabulary for the class 50–59: LOWER/UPPER CLASS LIMITS = 50, 59; CLASS BOUNDARIES = 49.5, 59.5 (the half-units that close the gaps between integer classes); CLASS WIDTH = boundary difference = 10; MIDPOINT (class mark) = (50+59)/2 = 54.5 — the class's 'representative value' used in every grouped calculation. RELATIVE frequency = f/total (proportion, or ×100 for percent); CUMULATIVE = running total down the table (how many ≤ 59? ≤ 69?) — the reading behind medians and percentiles next topics. Example: scores 42,45,50,53,58,61,64,66,70,72,75,78,80,82,85,88,90,91,93,95 grouped 40–49:2, 50–59:4, 60–69:3, 70–79:4, 80–89:4, 90–99:3 → total 20. Rules of the craft: classes equal width (unless justified), no overlaps, no empty gaps mid-table, and every data point lands in exactly one class. The table is the input to histograms (t3) and grouped mean/median/mode (t4) — garbage grouping = garbage statistics.",
+  detailed: "<p><b>Construction protocol.</b> Range = max − min. Number of classes k ≈ √n (or Sturges: 1 + log₂n). Width w = range/k rounded UP to a convenient number. Start at or below the minimum on a round value. Tally with marks (||||) or count directly. Check: Σf = n — the total must match the raw count.</p><p><b>Boundaries vs limits.</b> With integer data, class 50–59 and 60–69 leave a gap at 59.5 — boundaries 49.5–59.5 seal it (half the gap to the neighbor). For continuous data recorded to 1 mm, limits ARE effectively boundaries. Boundaries matter for histograms (bars must touch) and for the median interpolation (t4).</p><p><b>Relative & cumulative columns.</b> Relative frequency f/n: proportions sum to 1; percentages to 100. Cumulative frequency CF: add each f to the running total — CF of a class = count of values ≤ its upper boundary. Cumulative relative CF: running percent — '65% scored below 70' is a CF reading. The ogive curve (t3) plots CF against upper boundaries.</p><p><b>Midpoints.</b> x̄_class = (lower + upper limits)/2 (or boundaries — same result). The midpoint stands in for ALL values in the class during grouped-mean computation — the assumption that values sit at the center is the price of grouping; wider classes = more distortion.</p>",
+  keyTerms: [
+    { term: "Class limits", def: "stated endpoints 50, 59" },
+    { term: "Boundaries", def: "gap-sealers 49.5, 59.5" },
+    { term: "Class width", def: "boundary span (10)" },
+    { term: "Midpoint", def: "(L+U)/2 — class representative" },
+    { term: "Cumulative freq", def: "running total ≤ boundary" }
+  ],
+  workedExamples: [
+    {
+      problem: "Group 24 heights (cm): 150,152,153,155,156,158,160,161,162,163,164,165,166,167,168,169,170,171,172,174,175,177,180,182 into classes of width 5 starting 150.",
+      given: "raw data",
+      formula: "tally",
+      substitution: "150–154:3, 155–159:3, 160–164:5, 165–169:5, 170–174:4, 175–179:2, 180–184:2",
+      calculation: "Σf = 24 ✓",
+      answer: "Seven classes; check total = 24"
+    },
+    {
+      problem: "For class 160–164: give limits, boundaries, width, midpoint.",
+      given: "one class",
+      formula: "definitions",
+      substitution: "limits 160,164; boundaries 159.5,164.5; width 5; midpoint 162",
+      calculation: "four values",
+      answer: "160/164; 159.5/164.5; 5; 162"
+    },
+    {
+      problem: "In a 40-student class, 12 scored 70–79. Relative and cumulative readings?",
+      given: "one class",
+      formula: "f/n",
+      substitution: "12/40 = 0.30 = 30%; if CF at 69 = 18, CF at 79 = 30",
+      calculation: "30%",
+      answer: "Relative 0.3; cumulative below 80 = 30 students (75%)"
+    },
+    {
+      problem: "Data range 12–97, want 5 classes. Width and start?",
+      given: "construction",
+      formula: "range/k",
+      substitution: "(97−12)/5 = 17 → round to 20; start at 10",
+      calculation: "10–29, 30–49, …",
+      answer: "Width 20 from 10: classes 10–29…90–109 cover all data"
+    },
+    {
+      problem: "Why can't classes be 10–20, 20–30, 30–40 for integer data?",
+      given: "overlap check",
+      formula: "exclusivity",
+      substitution: "a value of 20 lands in two classes — use 10–19, 20–29 or boundaries 10–<20",
+      calculation: "ambiguous",
+      answer: "Overlapping limits break the one-class-per-value rule"
+    }
+  ],
+  commonMistakes: [
+    "Width = upper − lower LIMITS (59−50 = 9) — use BOUNDARIES: 59.5−49.5 = 10",
+    "Overlapping classes (10–20, 20–30) — values on the seam double-count",
+    "Midpoint of 50–59 written as 54 — (50+59)/2 = 54.5, keep the half",
+    "Forgetting Σf must equal n — the tally check",
+    "Unequal widths without a reason (histogram areas then lie)",
+    "Too many classes (one value each = ungrouped) or too few (all in one)"
+  ],
+  applications: [
+    "Report writing: exam-score bands, age brackets in census data",
+    "Business: sales grouped by size class for quick summaries",
+    "Health: BMI categories, age groups in clinic records",
+    "Input stage for histograms, grouped mean/median/mode (next topics)"
+  ],
+  summary: "Grouped data = sorted values binned into equal-width classes with frequencies. Limits are the stated edges; boundaries seal the half-unit gaps; width = boundary span; midpoint = class representative for all later math. Relative frequency = f/n; cumulative = running totals (the percentile reading). Construction: range ÷ ~√n classes, round width up, start low, tally, verify Σf = n. The table is the machine that feeds histograms and grouped statistics — build it honestly.",
+  visuals: [
+    { type: "barChart", config: { title: "Sample frequency table", labels: ["40–49", "50–59", "60–69", "70–79", "80–89", "90–99"], values: [2, 4, 3, 4, 4, 3] } }
+  ],
+  questions: [
+    { type: "mcq", q: "Class width is computed from:", options: ["limits", "boundaries", "midpoints", "frequencies"], answer: 1, difficulty: 2, explanation: "Boundary span" },
+    { type: "mcq", q: "Midpoint of 70–89:", options: ["79.5", "70", "89", "80"], answer: 0, difficulty: 2, explanation: "(70+89)/2 = 79.5" },
+    { type: "mcq", q: "CF at a class counts values:", options: ["in it", "≤ its upper boundary", "≥ lower", "at midpoint"], answer: 1, difficulty: 2, explanation: "Running total" },
+    { type: "mcq", q: "Relative frequency sums to:", options: ["n", "100", "1", "0"], answer: 2, difficulty: 1, explanation: "Proportions sum to 1" },
+    { type: "tf", q: "Classes may overlap if the data is continuous.", answer: false, difficulty: 2, explanation: "Never — one class per value" },
+    { type: "tf", q: "The midpoint represents all values in its class for grouped calculations.", answer: true, difficulty: 2, explanation: "The grouping assumption" },
+    { type: "short", q: "Boundaries of class 30–39:", answer: "29.5,39.5", difficulty: 2, explanation: "29.5 and 39.5" },
+    { type: "short", q: "Σf must equal ___:", answer: "n", difficulty: 1, explanation: "The total count n" },
+    { type: "calc", q: "40 data points, class 60–69 has f = 10. Relative frequency?", answer: "0.25", difficulty: 1, explanation: "10/40 = 0.25" },
+    { type: "concept", q: "Why does grouping lose information, and what compensates?", answer: "midpoint|assumption|width", difficulty: 3, explanation: "Grouping replaces each value with its class midpoint — within-class spread is erased; narrow classes and enough of them (≈√n) keep the distortion small, and the midpoint assumption is the price paid for a readable summary" }
+  ]
+};
+
+Lessons["g11-mathematics-um7-t3"] = {
+  overview: "Graphical representation of grouped data: histograms (area = frequency), frequency polygons, and cumulative-frequency ogives — reading distributions off pictures.",
+  objectives: [
+    "Draw histograms with bars touching (continuous classes)",
+    "Handle unequal class widths via frequency density",
+    "Construct frequency polygons from midpoints",
+    "Plot ogives and read medians/percentiles from them",
+    "Choose the right graph for the question"
+  ],
+  simple: "THREE PICTURES, THREE JOBS. HISTOGRAM: bars over class boundaries, heights = frequencies (equal widths) — the SHAPE of the distribution: where it peaks, how it spreads, skew direction. Bars TOUCH because the variable is continuous (no gaps between 49.5 and 50). Unequal widths? Height = frequency DENSITY = f/width — otherwise a fat class fakes a tall story (area, not height, must carry frequency). FREQUENCY POLYGON: dots at (midpoint, frequency), joined, tails to zero at the ends — same shape, cleaner for OVERLAYING two distributions (boys vs girls scores on one grid). OGIVE (cumulative curve): dots at (upper boundary, CF), joined — always rising; READ the MEDIAN at CF = n/2 (draw across, drop down) and any percentile the same way (Q1 at n/4, Q3 at 3n/4). Example: 40 students, median = value where CF crosses 20 — across from 20, down to ~67 marks. Shape vocabulary: symmetric / skewed right (long tail up — income!) / skewed left; unimodal / bimodal. The histogram shows the mountain, the polygon traces its ridge, the ogive counts hikers below each altitude.",
+  detailed: "<p><b>Histogram mechanics.</b> X-axis: class boundaries (not limits — bars must meet). Y-axis: frequency (equal widths) or density f/w (unequal). Area of each bar = frequency — the conservation law of histograms. Compare two datasets on one grid: use RELATIVE frequency or density so totals match.</p><p><b>Frequency polygon.</b> Points at midpoints with the class frequency; extend to midpoints of empty end-classes (frequency 0) so the curve closes. Polygon vs histogram: polygons compare multiple series; histograms show absolute counts per class.</p><p><b>Ogive reading.</b> Plot (upper boundary, CF) — the curve answers 'how many below x?' at any x. Median: horizontal at n/2 → intersection → vertical down. Interquartile: same at n/4 and 3n/4. Percentile p: at p·n/100. Two ogives (one 'less than', one 'more than') cross AT the median — the intersection property.</p><p><b>Shape interpretation.</b> Symmetric: mean ≈ median. Right-skew (tail toward big values — incomes, house prices): mean > median — the median is the honest center. Left-skew: mean < median. Bimodal: two peaks — often two populations mixed (morning/afternoon traffic). These readings guide which average to report (t4).</p>",
+  keyTerms: [
+    { term: "Histogram", def: "touching bars, area = frequency" },
+    { term: "Frequency density", def: "f/width for unequal classes" },
+    { term: "Polygon", def: "midpoint dots joined" },
+    { term: "Ogive", def: "cumulative curve" },
+    { term: "Skew", def: "tail direction of the distribution" }
+  ],
+  workedExamples: [
+    {
+      problem: "Classes 0–9 (f 5), 10–29 (f 8), 30–39 (f 3). Bar heights?",
+      given: "unequal widths",
+      formula: "density = f/w",
+      substitution: "5/10 = 0.5; 8/20 = 0.4; 3/10 = 0.3",
+      calculation: "densities",
+      answer: "Heights 0.5, 0.4, 0.3 — the wide middle class is NOT the tallest"
+    },
+    {
+      problem: "From an ogive of 40 students, CF crosses 20 at boundary 67. Report.",
+      given: "median reading",
+      formula: "n/2 line",
+      substitution: "median = 67",
+      calculation: "67",
+      answer: "Median score 67 — half the class scored below"
+    },
+    {
+      problem: "Two classes' histograms overlaid: which graph type handles it best?",
+      given: "comparison",
+      formula: "tool choice",
+      substitution: "frequency polygons (or density histograms) — bars overlap badly",
+      calculation: "polygon",
+      answer: "Frequency polygons on one grid"
+    },
+    {
+      problem: "Income histogram peaks left with a long right tail. Mean vs median?",
+      given: "skew reading",
+      formula: "skew rule",
+      substitution: "right-skew → mean pulled up by the tail",
+      calculation: "mean > median",
+      answer: "Mean > median — report the median as the typical income"
+    },
+    {
+      problem: "Build a polygon for classes 10–19 (4), 20–29 (7), 30–39 (2).",
+      given: "points",
+      formula: "midpoints",
+      substitution: "(14.5,4), (24.5,7), (34.5,2) + close at (4.5,0), (44.5,0)",
+      calculation: "5 points",
+      answer: "Joined dots peaking at 24.5"
+    }
+  ],
+  commonMistakes: [
+    "Gaps between histogram bars (that's a bar chart for categories — histograms touch)",
+    "Using limits instead of boundaries on the x-axis",
+    "Unequal widths with raw frequencies as heights — must use density",
+    "Ogive plotted against LOWER boundaries or midpoints — it's UPPER boundaries",
+    "Reading the median off the histogram's tallest bar — that's the modal class",
+    "Forgetting to close the frequency polygon at zero on both ends"
+  ],
+  applications: [
+    "School reports: score distributions as histograms for parents",
+    "Economics: income/wealth curves — skew tells the inequality story",
+    "Medicine: growth charts are percentile ogives (height-for-age)",
+    "Quality control: production histograms vs specification limits"
+  ],
+  summary: "Histograms: touching bars over boundaries, AREA = frequency (density = f/width when classes differ) — they show shape, peaks, skew. Frequency polygons: midpoint dots joined — the comparison-friendly outline. Ogives: cumulative curve over upper boundaries — read the median at n/2, quartiles at n/4 and 3n/4, any percentile at p·n/100. Shape vocabulary (symmetric, right/left skew, bimodal) decides which average to trust. Three graphs, three questions: what's the shape, how do groups compare, what's below x?",
+  visuals: [
+    { type: "lineGraph", config: { title: "Ogive: cumulative frequency", xLabel: "upper boundary", yLabel: "CF", series: [{ label: "CF", points: [[49.5, 2], [59.5, 6], [69.5, 9], [79.5, 13], [89.5, 17], [99.5, 20]] }] } }
+  ],
+  questions: [
+    { type: "mcq", q: "Histogram bars touch because:", options: ["pretty", "continuous data", "frequencies equal", "widths equal"], answer: 1, difficulty: 2, explanation: "No gaps in the variable" },
+    { type: "mcq", q: "Unequal widths require heights of:", options: ["f", "f/width", "f·width", "√f"], answer: 1, difficulty: 3, explanation: "Frequency density" },
+    { type: "mcq", q: "The ogive reads the median at CF =", options: ["n", "n/2", "n/4", "max f"], answer: 1, difficulty: 2, explanation: "Half the data" },
+    { type: "mcq", q: "Right-skewed means:", options: ["mean<median", "mean>median", "equal", "zero"], answer: 1, difficulty: 3, explanation: "Tail pulls mean up" },
+    { type: "tf", q: "A frequency polygon uses class midpoints.", answer: true, difficulty: 1, explanation: "Dots at midpoints" },
+    { type: "tf", q: "Bar charts and histograms are the same thing.", answer: false, difficulty: 2, explanation: "Gaps vs touching; categories vs classes" },
+    { type: "short", q: "Ogive points use the ___ class boundary:", answer: "upper", difficulty: 2, explanation: "Upper" },
+    { type: "short", q: "In a histogram, the bar's ___ (not height) equals frequency:", answer: "area", difficulty: 3, explanation: "Area" },
+    { type: "calc", q: "Class 20–49 with f = 12: density?", answer: "0.4", difficulty: 2, explanation: "12/30 = 0.4" },
+    { type: "concept", q: "Why does a wide class with raw frequency as height mislead?", answer: "area|density|fake tall", difficulty: 3, explanation: "Frequency must live in the AREA; a 3× wider bar with the same height claims 3× the data — density (f/width) rescales heights so areas stay honest" }
+  ]
+};
+
+Lessons["g11-mathematics-um7-t4"] = {
+  overview: "Measures of central tendency for grouped data: the estimated mean (Σfx/Σf), the interpolated median, and the modal class — plus when each average tells the truth.",
+  objectives: [
+    "Compute the grouped mean via midpoints: x̄ = Σfx/Σf",
+    "Interpolate the grouped median with the ogive formula",
+    "Identify the modal class (and density-corrected mode)",
+    "Choose mean vs median vs mode by shape",
+    "Compare grouped estimates to raw-data answers"
+  ],
+  simple: "Three centers, grouped versions. MEAN: each class contributes its MIDPOINT × its frequency: x̄ = Σf·x / Σf. Table: classes 50–59 (f 4, x 54.5), 60–69 (f 6, x 64.5), 70–79 (f 8, x 74.5), 80–89 (f 2, x 84.5) → Σfx = 218+387+596+169 = 1370, Σf = 20 → x̄ = 68.5. MEDIAN: position n/2 = 10th — CF runs 4, 10, 18, 20, so the 10th value lands at the end of 60–69. Interpolate: median = L + ((n/2 − CF_prev)/f)·w = 59.5 + ((10−4)/6)·10 = 69.5. MODAL CLASS: highest bar (70–79 with f 8) — for unequal widths, highest DENSITY. CHOOSING: symmetric data → mean (uses everything); skewed or outliers → median (income: mean 85k, median 60k — 'typical' is the median); categories or 'most popular' → mode (sizes to stock). Grouped answers are ESTIMATES — the midpoint assumption blurs them; raw data beats grouped whenever you have it.",
+  detailed: "<p><b>Mean derivation.</b> Grouping replaces each value by its class midpoint: Σxᵢ ≈ Σⱼ fⱼ·xⱼ (j over classes). Bias appears when values cluster off-center within classes; narrow classes reduce it. Worked with the table above: 68.5 — compare to the true raw mean if available.</p><p><b>Median interpolation.</b> The formula assumes uniform spread WITHIN the median class: median = L + ((n/2 − F)/f)·w where L = lower boundary, F = CF before the class, f = class frequency, w = width. The ogive gives the same number geometrically (across at n/2, down) — the formula is the ogive in algebra.</p><p><b>Mode refinements.</b> Grouped mode = midpoint of the modal class's boundary interval... the school-level answer is the modal CLASS (state it as an interval, not a fake point). For unequal widths, the modal class = max density. The 'mode formula' 3median − 2mean (empirical relation) estimates the mode for moderately skewed unimodal data — a check, not a definition.</p><p><b>Selection guide.</b> Mean: algebraically tractable, sensitive to every value (good for symmetric, bad with outliers — 999, 5, 5, 5: mean 253.5, median 5). Median: robust, position-based — the right 'typical' for incomes, house prices, exam scores with a few zeros. Mode: only center for nominal data; the business answer ('size 42 sells most'). Report the shape (t3) alongside the center — skew tells which one to trust.</p>",
+  keyTerms: [
+    { term: "Grouped mean", def: "Σfx/Σf with midpoints" },
+    { term: "Median formula", def: "L + ((n/2−F)/f)·w" },
+    { term: "Modal class", def: "tallest bar (density)" },
+    { term: "Robust", def: "unmoved by outliers (median)" },
+    { term: "Empirical mode", def: "3·median − 2·mean" }
+  ],
+  workedExamples: [
+    {
+      problem: "Mean of: 40–49 f2, 50–59 f4, 60–69 f3, 70–79 f4, 80–89 f4, 90–99 f3.",
+      given: "frequency table",
+      formula: "Σfx/Σf",
+      substitution: "midpoints 44.5,54.5,64.5,74.5,84.5,94.5 → fx: 89,218,193.5,298,338,283.5 = 1420; Σf = 20",
+      calculation: "71",
+      answer: "x̄ = 71 marks"
+    },
+    {
+      problem: "Median of the same table (n = 20).",
+      given: "CF: 2,6,9,13,17,20",
+      formula: "L + ((n/2−F)/f)w",
+      substitution: "n/2 = 10 → class 70–79 (F = 9, f = 4, L = 69.5, w = 10): 69.5 + ((10−9)/4)·10",
+      calculation: "72",
+      answer: "Median = 72"
+    },
+    {
+      problem: "Modal class of the same table?",
+      given: "equal widths",
+      formula: "max f",
+      substitution: "f = 4 ties at 50–59, 70–79, 80–89 — three modal classes (multimodal)",
+      calculation: "ties",
+      answer: "Trimodal: 50–59, 70–79, 80–89 — report honestly, don't force one"
+    },
+    {
+      problem: "Salaries: 5 staff at 8k, 4 at 10k, 1 at 90k. Mean vs median — which is 'typical'?",
+      given: "skewed data",
+      formula: "both",
+      substitution: "mean = (40+40+90)/10 = 17k; median = 8.5k (between 5th and 6th)",
+      calculation: "17 vs 8.5",
+      answer: "Median — the 90k outlier doubles the mean; 'typical' is ~8.5k"
+    },
+    {
+      problem: "Empirical mode check: mean 68.5, median 72 → mode?",
+      given: "relation",
+      formula: "3M − 2x̄",
+      substitution: "3·72 − 2·68.5 = 216 − 137",
+      calculation: "79",
+      answer: "≈ 79 — left-skewed (mode > median > mean), consistent with the table's high-end mass"
+    }
+  ],
+  commonMistakes: [
+    "Multiplying frequencies by class LIMITS instead of midpoints",
+    "Median formula using n instead of n/2, or limits instead of boundaries",
+    "CF before the median class (F) taken as the class's own CF",
+    "Reporting the modal class midpoint as a precise 'mode'",
+    "Quoting the mean for skewed data as 'typical' (income trap)",
+    "Forgetting grouped results are estimates — comparing them to raw means as errors"
+  ],
+  applications: [
+    "School reports: grouped exam statistics (mean/median per section)",
+    "Economics: median household income (never the mean alone)",
+    "Retail: modal size for stocking decisions",
+    "Health: median survival time (survival curves are ogives)"
+  ],
+  summary: "Grouped mean = Σf·midpoint/Σf — the midpoint assumption in action. Grouped median = L + ((n/2 − F)/f)·w — uniform-spread interpolation, identical to the ogive reading. Modal class = tallest bar (density if widths differ); ties are legitimate (bimodal). Choose by shape: mean for symmetric, median for skewed/outlier-heavy, mode for categories and popularity. Grouped numbers are estimates — say so, and pair every center with its distribution's shape.",
+  visuals: [
+    { type: "table", config: { title: "Grouped mean worked", headers: ["Class", "f", "x", "fx"], rows: [["50–59", "4", "54.5", "218"], ["60–69", "6", "64.5", "387"], ["70–79", "8", "74.5", "596"], ["80–89", "2", "84.5", "169"], ["Σ", "20", "", "1370"]] } }
+  ],
+  questions: [
+    { type: "mcq", q: "Grouped mean uses:", options: ["limits", "midpoints", "boundaries", "modes"], answer: 1, difficulty: 1, explanation: "Σfx/Σf" },
+    { type: "mcq", q: "The median position in grouped data is:", options: ["n", "n/2", "(n+1)/2", "f/2"], answer: 1, difficulty: 2, explanation: "Half the frequency" },
+    { type: "mcq", q: "Which average survives an extreme outlier?", options: ["mean", "median", "range", "SD"], answer: 1, difficulty: 2, explanation: "Robust" },
+    { type: "mcq", q: "Modal class is found from:", options: ["mean", "highest frequency/density", "midpoint", "CF"], answer: 1, difficulty: 1, explanation: "Tallest bar" },
+    { type: "tf", q: "Grouped means are exact values of the raw mean.", answer: false, difficulty: 2, explanation: "Estimates via midpoints" },
+    { type: "tf", q: "A dataset can have two modal classes.", answer: true, difficulty: 1, explanation: "Bimodal" },
+    { type: "short", q: "x̄ grouped = Σ___ / Σf:", answer: "fx", difficulty: 1, explanation: "f·x (frequency × midpoint)" },
+    { type: "short", q: "Empirical mode = 3·median − 2·___:", answer: "mean", difficulty: 2, explanation: "Mean" },
+    { type: "calc", q: "Classes 0–9 f3, 10–19 f7: estimate the mean.", answer: "11.5", difficulty: 2, explanation: "(4.5·3 + 14.5·7)/10 = (13.5+101.5)/10 = 11.5" },
+    { type: "concept", q: "Why is median income preferred over mean income in reports?", answer: "skew|outliers|robust", difficulty: 3, explanation: "Income is right-skewed — a few billionaires drag the mean far above what anyone typical earns; the median sits at the exact middle person, so 'half earn more, half less' matches the reader's sense of 'typical'" }
+  ]
+};
+
+Lessons["g11-mathematics-um7-t5"] = {
+  overview: "Real-life applications of statistics: choosing measures for decisions, comparing distributions, interpreting official data (CSA, health, education), and spotting statistical misuse.",
+  objectives: [
+    "Match the question to the right statistic",
+    "Compare two distributions (center + spread + shape)",
+    "Read Ethiopian data sources critically",
+    "Detect misleading graphs and averages",
+    "Design a small statistical investigation"
+  ],
+  simple: "Statistics is decision support. THE WORKFLOW: (1) question ('which section performs better?'), (2) data (scores — grouped table), (3) shape first (histogram: symmetric? skewed?), (4) center (mean if symmetric, median if skewed), (5) SPREAD too (two sections can share a mean and differ wildly — range/SD tell the difference), (6) decide. COMPARISON example: Section A mean 70, scores tight 65–75; Section B mean 70, scores 30–100 — same average, opposite classrooms; report both center AND spread. READING OFFICIAL DATA (Ethiopia's CSA, ministry reports): check the source, the year, the units, the sample — 'GDP grew 6%' needs 'real vs nominal, which base year'. MISUSE PATTERNS: truncated y-axis (a 1% change drawn as a cliff), cherry-picked averages (mean for the press, median when attacked), misleading percentages ('9 out of 10 dentists' — sample of 10?), correlation sold as causation (ice cream sales track drownings — summer causes both), and survivorship bias (only happy customers surveyed). YOUR INVESTIGATION: one question, one variable, ≥30 data points, grouped table, histogram, center+spread, one honest conclusion with its limitation stated. That's the whole unit in a school project.",
+  detailed: "<p><b>Comparison protocol.</b> Side-by-side: same-scale histograms or overlaid polygons; then centers (mean/median per shape), then spreads (range, interquartile from ogives, SD next unit), then SHAPE differences (skew, bimodality). Conclude in context: 'B's median is 5 marks higher but its IQR is double — B is better on average, far less consistent'.</p><p><b>Official-data literacy.</b> Questions to ask of any statistic: Who collected it? When? How (census vs sample; self-report vs measurement)? What's the denominator (rates per 1000 need population)? Real vs nominal (inflation!)? Ethiopian examples: literacy rates by region (survey-based, self-report caveats), rainfall station data (gaps = missing months, not zero), enrollment vs attendance (enrolled ≠ attending).</p><p><b>Misuse catalogue.</b> Graph tricks: axis truncation, pictograms with area ≠ value, dual axes. Number tricks: averaging averages (ignoring group sizes — weighted mean fixes it), percentage of a percentage, base-rate neglect ('risk doubled' from 0.1% to 0.2%). Selection tricks: survivorship (broken planes never surveyed), cherry-picked time windows. The defense: recompute from raw numbers when possible; ask what's NOT shown.</p><p><b>Investigation design.</b> Operational definitions (what exactly counts as 'screen time'), sampling (random beats volunteers — volunteer bias inflates interest), sample size (≥30 for stable proportions), ethics (consent, anonymity for personal data), and reporting: table + graph + center + spread + limitation. The assessment rubric for the unit's project.</p>",
+  keyTerms: [
+    { term: "Distribution summary", def: "shape + center + spread" },
+    { term: "Truncated axis", def: "zoomed-in lie" },
+    { term: "Weighted mean", def: "averaging averages correctly" },
+    { term: "Base rate", def: "the starting probability" },
+    { term: "Volunteer bias", def: "self-selected sample skew" }
+  ],
+  workedExamples: [
+    {
+      problem: "Two shops' weekly sales (birr): A: 120,125,118,122,130; B: 60,200,90,180,110. Compare.",
+      given: "raw data",
+      formula: "center + spread",
+      substitution: "means: A 123, B 128; ranges: A 12, B 140; A tight, B wild",
+      calculation: "spread decides",
+      answer: "B averages slightly higher but is 10× less predictable — stability favors A"
+    },
+    {
+      problem: "A news graph shows profits 'soaring' from 100M to 101M with the y-axis starting at 99.5M. Verdict?",
+      given: "misuse check",
+      formula: "truncation test",
+      substitution: "real change +1%; the axis makes it look like +100%",
+      calculation: "misleading",
+      answer: "Truncated-axis exaggeration — replot from 0 or state the true 1%"
+    },
+    {
+      problem: "Section A (20 students) mean 65; Section B (30 students) mean 70. Combined mean?",
+      given: "averaging averages",
+      formula: "weighted",
+      substitution: "(20·65 + 30·70)/50 = (1300+2100)/50",
+      calculation: "68",
+      answer: "68 — NOT 67.5 (the simple average ignores group sizes)"
+    },
+    {
+      problem: "'Crime rose 50% in the town' — from 2 cases to 3. Critique.",
+      given: "small numbers",
+      formula: "base rate",
+      substitution: "50% of 2 = 1 case — percentage hides the absolute scale",
+      calculation: "meaningless %",
+      answer: "Report absolute counts for tiny bases; percentages need denominators"
+    },
+    {
+      problem: "Design a one-week class investigation on study time vs quiz score.",
+      given: "open task",
+      formula: "workflow",
+      substitution: "question → define 'study time' (minutes/night, self-log) → survey ≥30 classmates → grouped table + histogram → median (skew likely) + IQR → scatter for the link → limitation: self-report bias",
+      calculation: "plan",
+      answer: "Any plan hitting: definition, sample, graph, center+spread, limitation"
+    }
+  ],
+  commonMistakes: [
+    "Reporting only the mean — shape and spread are half the story",
+    "Averaging averages without weights (group sizes ignored)",
+    "Reading percentages without base rates (50% of 2 = 1)",
+    "Accepting truncated axes or area-lie pictograms",
+    "Correlation → causation without a mechanism or experiment",
+    "Volunteer samples presented as representative populations"
+  ],
+  applications: [
+    "School: section comparison reports for staff meetings",
+    "Media literacy: decoding news statistics and ads",
+    "Public health: vaccination coverage rates and denominators",
+    "Business: sales stability (spread) vs growth (center) decisions",
+    "Civic life: budget and census figures in public debate"
+  ],
+  summary: "Applied statistics = the full loop: question → collect (mind the sampling) → shape (histogram) → center (mean/median by skew) → spread (range/IQR) → decide, with limitations named. Compare distributions on all three axes, never the mean alone. Official data demands source/year/units/denominator checks. Misuse radar: truncated axes, unweighted averages of averages, base-rate-free percentages, correlation-as-causation, survivorship and volunteer bias. One honest investigation — 30+ points, table, graph, center+spread, stated weakness — is this unit's real deliverable.",
+  visuals: [
+    { type: "comparison", config: { title: "Same mean, different story", left: { name: "Section A", items: ["mean 70", "range 65–75", "tight & consistent"] }, right: { name: "Section B", items: ["mean 70", "range 30–100", "wild & uneven"] } } }
+  ],
+  questions: [
+    { type: "mcq", q: "Two groups' combined mean needs:", options: ["simple average", "weighted by sizes", "medians", "modes"], answer: 1, difficulty: 2, explanation: "Weights = n" },
+    { type: "mcq", q: "A truncated y-axis tends to:", options: ["clarify", "exaggerate change", "hide data", "fix skew"], answer: 1, difficulty: 1, explanation: "Zooms the lie" },
+    { type: "mcq", q: "For skewed income data report:", options: ["mean", "median", "mode", "range"], answer: 1, difficulty: 2, explanation: "Robust center" },
+    { type: "mcq", q: "'Risk doubled' from 0.05% needs:", options: ["belief", "base rate check", "mean", "graph"], answer: 1, difficulty: 3, explanation: "Absolute scale" },
+    { type: "tf", q: "A mean alone fully describes a distribution.", answer: false, difficulty: 1, explanation: "Need shape + spread" },
+    { type: "tf", q: "Volunteer surveys can be biased.", answer: true, difficulty: 1, explanation: "Self-selection" },
+    { type: "short", q: "The three distribution descriptors: shape, center, ___", answer: "spread", difficulty: 1, explanation: "Spread" },
+    { type: "short", q: "Averaging averages correctly requires weighting by ___:", answer: "group sizes", difficulty: 2, explanation: "Sample sizes" },
+    { type: "calc", q: "Class of 15 (mean 60) + class of 25 (mean 72): combined mean?", answer: "67.5", difficulty: 2, explanation: "(900+1800)/40 = 67.5" },
+    { type: "concept", q: "Why can 'average' be a misleading word in public debate?", answer: "mean|median|shape", difficulty: 3, explanation: "'Average' silently picks the mean, which outliers and skew distort — the median or mode may better represent the typical case; honest reporting names WHICH average and shows the distribution's shape" }
+  ]
+};

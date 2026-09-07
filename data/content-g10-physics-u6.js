@@ -1,0 +1,406 @@
+/* ============================================================
+   Content: Grade 10 Physics — Unit 6: EM Waves and Geometrical Optics
+   4 topics: EM Waves & the Spectrum, Reflection & Refraction,
+   Mirrors & Lenses, The Human Eye & Colour.
+   ============================================================ */
+window.Lessons = window.Lessons || {};
+
+/* --- p6-1: Electromagnetic Waves and the EM Spectrum --- */
+Lessons["g10-physics-up6-t1"] = {
+  overview: "Light is an electromagnetic wave — oscillating electric and magnetic fields racing through space at 3 × 10⁸ m/s. Visible light is just a sliver of a vast family: radio, microwave, infrared, visible, ultraviolet, X-ray and gamma, all the same phenomenon at different frequencies.",
+  objectives: [
+    "Describe the nature and properties of electromagnetic waves",
+    "Use c = fλ for any EM wave",
+    "Order the EM spectrum by frequency, wavelength and energy",
+    "Match each band to its production, uses and hazards"
+  ],
+  simple: "Shake an electric charge and you send out a wave — that's an electromagnetic (EM) wave. All EM waves travel at light-speed in vacuum and need no medium (sunlight crosses empty space). The only difference between a radio wave and a gamma ray is frequency: radio = lazy, long waves; gamma = frantic, tiny waves. Higher frequency = more energy = more dangerous to your cells.",
+  detailed: `<p><b>Nature of EM waves:</b> mutually perpendicular oscillating electric and magnetic fields, perpendicular to the direction of travel — so EM waves are <b>transverse</b>. They can be reflected, refracted, diffracted and polarised, and travel through vacuum at c = 3.0 × 10⁸ m/s.</p>
+<p><b>The wave equation:</b> c = fλ, where f is frequency (Hz) and λ wavelength (m). Since c is fixed in vacuum, high frequency ⇒ short wavelength.</p>
+<p><b>The spectrum (increasing f, decreasing λ, increasing photon energy):</b>
+<br>• <b>Radio</b> — broadcasting, communications; metres to km.
+<br>• <b>Microwave</b> — ovens (2.45 GHz heats water), Wi-Fi, radar, satellite links.
+<br>• <b>Infrared</b> — 'heat radiation': remote controls, thermal cameras, night vision.
+<br>• <b>Visible</b> — red (long, ~700 nm) to violet (short, ~400 nm); the only band our eyes detect.
+<br>• <b>Ultraviolet</b> — sterilising, fluorescent lamps, vitamin D; causes sunburn, skin cancer (ionising at the high end).
+<br>• <b>X-rays</b> — medical imaging, security scanners; penetrate soft tissue, stopped by bone/lead; ionising.
+<br>• <b>Gamma rays</b> — radioactive nuclei, cancer radiotherapy, sterilising food; most penetrating, most dangerous.</p>
+<p><b>Common misconception:</b> the bands differ only in frequency/wavelength — the wave itself is identical in nature. There is no sharp boundary between adjacent bands.</p>
+<p><b>Ionising vs non-ionising:</b> UV/X/gamma photons carry enough energy to knock electrons off atoms (ionisation) → DNA damage → cancer risk. Radio→visible don't (they mainly heat).</p>`,
+  keyTerms: [
+    { term: "Electromagnetic wave", def: "Transverse wave of oscillating electric and magnetic fields; travels at c in vacuum." },
+    { term: "c = fλ", def: "Wave equation for EM radiation in vacuum." },
+    { term: "EM spectrum", def: "The full range of EM waves ordered by frequency/wavelength." },
+    { term: "Ionising radiation", def: "EM radiation energetic enough to remove electrons from atoms (UV high end, X, γ)." },
+    { term: "Transverse wave", def: "Oscillations perpendicular to travel direction — proven for light by polarisation." }
+  ],
+  formulas: [
+    {
+      name: "Wave equation for light",
+      formula: "c = f·λ",
+      meaning: "Speed of light equals frequency times wavelength.",
+      vars: [
+        { name: "c", meaning: "speed of light in vacuum (3.0 × 10⁸)", unit: "m/s" },
+        { name: "f", meaning: "frequency", unit: "Hz" },
+        { name: "λ", meaning: "wavelength", unit: "m" }
+      ],
+      units: "SI throughout",
+      when: "Any EM wave in vacuum/air: find the missing one of c, f, λ.",
+      example: "f = 100 MHz radio: λ = 3×10⁸ / 10⁸ = 3 m."
+    }
+  ],
+  workedExamples: [
+    {
+      problem: "A Wi-Fi router transmits at 2.4 GHz. Find the wavelength.",
+      given: "f = 2.4 × 10⁹ Hz, c = 3.0 × 10⁸ m/s",
+      formula: "λ = c/f",
+      substitution: "λ = 3.0×10⁸ / 2.4×10⁹",
+      calculation: "λ = 0.125 m = 12.5 cm",
+      answer: "About 12.5 cm — comparable to the size of a room, which is why Wi-Fi diffracts around furniture."
+    },
+    {
+      problem: "Green light has wavelength 500 nm. Find its frequency. (1 nm = 10⁻⁹ m)",
+      given: "λ = 500 × 10⁻⁹ m",
+      formula: "f = c/λ",
+      substitution: "f = 3.0×10⁸ / 5.0×10⁻⁷",
+      calculation: "f = 6.0 × 10¹⁴ Hz",
+      answer: "6 × 10¹⁴ Hz — hundreds of trillions of oscillations per second."
+    }
+  ],
+  commonMistakes: [
+    "Thinking microwaves, infrared and X-rays are fundamentally different 'kinds' of stuff — they're all EM waves, differing only in f and λ.",
+    "Believing EM waves need a medium (they don't — sound does, light doesn't).",
+    "Mixing up the order: gamma has the HIGHEST frequency, radio the LOWEST.",
+    "Forgetting to convert GHz → Hz and nm → m before using c = fλ."
+  ],
+  applications: [
+    "Radio/TV broadcasting, mobile phones, Wi-Fi and Bluetooth — the communications backbone.",
+    "Microwave ovens, radar speed guns, satellite navigation.",
+    "Infrared remotes, thermal imaging (electrical faults, fever screening), night vision.",
+    "UV sterilisation of water and surgical tools; fluorescence in security inks.",
+    "X-ray imaging and CT; gamma radiotherapy (e.g. cobalt-60) and food sterilisation."
+  ],
+  summary: "All EM waves: transverse, travel at c = 3×10⁸ m/s in vacuum, obey c = fλ. Spectrum from radio (long λ, low f) to gamma (short λ, high f). Higher f ⇒ more energy ⇒ ionising danger (UV/X/γ). Same wave, different frequency.",
+  visuals: [
+    { type: "flowChart", config: { steps: ["Radio (km–m)", "Microwave (cm–mm)", "Infrared (700 nm–1 mm)", "Visible (400–700 nm)", "Ultraviolet (10–400 nm)", "X-ray (0.01–10 nm)", "Gamma (<0.01 nm)"], title: "EM Spectrum: increasing frequency →" } }
+  , {"type":"qa","config":{"title":"Quick Review — tap a question to reveal the answer","pairs":[{"q":"A Wi-Fi router transmits at 2.4 GHz. Find the wavelength.","a":"<b>Answer:</b> About 12.5 cm — comparable to the size of a room, which is why Wi-Fi diffracts around furniture."},{"q":"Green light has wavelength 500 nm. Find its frequency. (1 nm = 10⁻⁹ m)","a":"<b>Answer:</b> 6 × 10¹⁴ Hz — hundreds of trillions of oscillations per second."}]}}],
+  questions: [
+    { type: "mcq", q: "Which travels fastest in vacuum?", options: ["Radio waves", "Visible light", "X-rays", "All EM waves travel at c"], answer: 3, difficulty: 1, explanation: "Every EM wave travels at 3×10⁸ m/s in vacuum — only f and λ differ." },
+    { type: "calc", q: "Find the wavelength (in metres) of a 150 MHz radio wave. (c = 3×10⁸)", answer: "2", difficulty: 2, explanation: "λ = c/f = 3×10⁸/1.5×10⁸ = 2 m.", tolerance: 0.05 },
+    { type: "mcq", q: "Arrange in order of INCREASING frequency:", options: ["gamma, X-ray, UV, visible, IR, microwave, radio", "radio, microwave, IR, visible, UV, X-ray, gamma", "visible, radio, IR, UV, microwave, X-ray, gamma", "radio, IR, microwave, visible, UV, gamma, X-ray"], answer: 1, difficulty: 2, explanation: "Frequency rises from radio (lowest) to gamma (highest)." },
+    { type: "mcq", q: "Which band has photons energetic enough to be ionising?", options: ["Radio and microwave", "Infrared", "Ultraviolet, X-ray, gamma", "Visible"], answer: 2, difficulty: 2, explanation: "High-frequency UV, X-rays and gamma rays can knock electrons off atoms and damage DNA." },
+    { type: "tf", q: "EM waves require a medium like air to travel.", answer: false, difficulty: 1, explanation: "They travel through vacuum — sunlight reaches us through empty space." },
+    { type: "short", q: "What is the speed of light in vacuum (give the number in m/s)?", answer: "3×10⁸|300000000|3 x 10^8|3.0×10⁸|3e8|300 million", difficulty: 1, explanation: "c = 3.0 × 10⁸ m/s." },
+    { type: "concept", q: "Why is a microwave oven's 12.5 cm wave safe for food while gamma radiation is lethal, though both are EM waves?", answer: "gamma higher frequency more energy|photon energy depends on frequency|microwave non ionising", difficulty: 3, explanation: "Photon energy is proportional to frequency: microwaves (10⁹ Hz) are non-ionising and only rotate water molecules (heat), while gamma (10²⁰+ Hz) photons break chemical bonds and damage DNA." }
+  ]
+};
+
+/* --- p6-2: Reflection and Refraction of Light --- */
+Lessons["g10-physics-up6-t2"] = {
+  overview: "Light bounces off surfaces (reflection) and bends when it changes medium (refraction). Two precise laws — angle in = angle out, and Snell's law — let you predict mirrors, straws-in-water, and why pools look shallow.",
+  objectives: [
+    "State and apply the two laws of reflection",
+    "Distinguish regular and diffuse reflection",
+    "Explain refraction and why light bends at a boundary",
+    "Use Snell's law and n = c/v, and define refractive index"
+  ],
+  simple: "Reflection: the angle light hits a mirror equals the angle it leaves — measured from the NORMAL (the perpendicular line), not the surface. Refraction: light slows down entering glass or water, and if it arrives at an angle, one side of the wavefront slows first — the ray bends. Into denser (slower): bends TOWARD the normal. Out: bends AWAY. That bending is why a straw looks broken in a glass.",
+  detailed: `<p><b>Laws of reflection:</b> (1) The incident ray, reflected ray and normal all lie in one plane. (2) Angle of incidence = angle of reflection (θᵢ = θᵣ), always measured from the normal.</p>
+<p><b>Regular vs diffuse:</b> a smooth surface (mirror) reflects parallel rays parallel → clear image. A rough surface scatters rays in all directions (diffuse) → you see the surface itself from any angle, but no reflection of the source. Both obey the laws — microscopic bumps just point the normals every which way.</p>
+<p><b>Refraction:</b> light changes speed between media. The <b>refractive index</b> n = c/v (always ≥ 1; vacuum n = 1, air ≈ 1.0003, water 1.33, glass ≈ 1.5, diamond 2.42). Bigger n = slower light = 'optically denser'.</p>
+<p><b>Snell's law:</b> n₁ sinθ₁ = n₂ sinθ₂ (angles from the normal). Entering a higher-n medium → bends toward the normal; lower n → away.</p>
+<p><b>Special cases:</b>
+<br>• Normal incidence (θ = 0): slows down but does NOT bend.
+<br>• <b>Total internal reflection:</b> travelling toward a LOWER-n medium past the <b>critical angle</b> c (where sin c = n₂/n₁), no refracted ray exists — all light reflects. This runs optical fibres and sparkling diamonds.</p>
+<p><b>Consequences:</b> apparent depth < real depth (pool looks shallow); objects appear displaced; prisms split white light because n varies slightly with colour (dispersion); mirages come from gradual refraction in hot air layers.</p>`,
+  keyTerms: [
+    { term: "Normal", def: "Line perpendicular to the surface at the point of incidence — angles are measured from it." },
+    { term: "Refractive index (n)", def: "n = c/v, how much a medium slows light." },
+    { term: "Snell's law", def: "n₁sinθ₁ = n₂sinθ₂ governing bending at a boundary." },
+    { term: "Critical angle", def: "Incidence angle (in the denser medium) beyond which refraction vanishes." },
+    { term: "Total internal reflection", def: "Complete reflection when light tries to exit a denser medium past the critical angle." },
+    { term: "Diffuse reflection", def: "Scattering of light from a rough surface in many directions." }
+  ],
+  formulas: [
+    {
+      name: "Refractive index",
+      formula: "n = c / v",
+      meaning: "The index equals vacuum light-speed divided by speed in the medium.",
+      vars: [
+        { name: "n", meaning: "refractive index", unit: "—" },
+        { name: "c", meaning: "speed in vacuum (3×10⁸)", unit: "m/s" },
+        { name: "v", meaning: "speed in the medium", unit: "m/s" }
+      ],
+      units: "dimensionless",
+      when: "To find how slow light travels in a material.",
+      example: "Glass n = 1.5 → v = 3×10⁸/1.5 = 2×10⁸ m/s."
+    },
+    {
+      name: "Snell's law",
+      formula: "n₁·sinθ₁ = n₂·sinθ₂",
+      meaning: "The product n·sinθ is unchanged across a boundary.",
+      vars: [
+        { name: "n₁, n₂", meaning: "refractive indices of the two media", unit: "—" },
+        { name: "θ₁, θ₂", meaning: "angles from the normal (incident, refracted)", unit: "degrees" }
+      ],
+      units: "angles in degrees from the NORMAL",
+      when: "Any ray crossing between two media at an angle.",
+      example: "Air→water, θ₁ = 30°: sinθ₂ = sin30°/1.33 = 0.376 → θ₂ ≈ 22°."
+    },
+    {
+      name: "Critical angle",
+      formula: "sin c = n₂ / n₁",
+      meaning: "The angle where the refracted ray grazes the surface (θ₂ = 90°).",
+      vars: [
+        { name: "c", meaning: "critical angle", unit: "degrees" },
+        { name: "n₁", meaning: "denser medium the light starts in", unit: "—" },
+        { name: "n₂", meaning: "less dense outside medium", unit: "—" }
+      ],
+      units: "degrees",
+      when: "Light inside a denser medium trying to exit (glass→air, water→air).",
+      example: "Water→air: sin c = 1/1.33 = 0.752 → c ≈ 49°."
+    }
+  ],
+  workedExamples: [
+    {
+      problem: "A ray in air strikes water (n = 1.33) at 40° to the normal. Find the angle of refraction.",
+      given: "n₁ = 1.00, θ₁ = 40°, n₂ = 1.33",
+      formula: "n₁sinθ₁ = n₂sinθ₂",
+      substitution: "sinθ₂ = (1.00 × sin40°)/1.33 = 0.643/1.33 = 0.483",
+      calculation: "θ₂ = sin⁻¹(0.483) ≈ 29°",
+      answer: "≈ 29° — bent toward the normal, as expected entering a denser medium."
+    },
+    {
+      problem: "Light travels at 2.0 × 10⁸ m/s in a glass block. Find its refractive index, and the critical angle for glass→air.",
+      given: "v = 2.0×10⁸ m/s, c = 3.0×10⁸ m/s",
+      formula: "n = c/v; sin c = 1/n",
+      substitution: "n = 3.0/2.0 = 1.5; sin c = 1/1.5 = 0.667",
+      calculation: "c = sin⁻¹(0.667) ≈ 42°",
+      answer: "n = 1.5, critical angle ≈ 42°."
+    }
+  ],
+  commonMistakes: [
+    "Measuring angles from the SURFACE instead of the normal (a 30° 'grazing' ray is actually 60° incidence).",
+    "Bending the wrong way: into denser → toward the normal.",
+    "Forgetting total internal reflection needs BOTH: going to a lower-n medium AND exceeding the critical angle.",
+    "Thinking the reflected ray disappears in refraction — usually partial reflection always happens too."
+  ],
+  applications: [
+    "Optical fibres: light bounces by total internal reflection carrying internet/phone data.",
+    "Endoscopes let doctors see inside the body using fibre bundles.",
+    "Prisms in binoculars/periscopes use TIR instead of mirrors (no tarnish, 100% efficient).",
+    "Lenses in glasses, cameras, microscopes — all designed with Snell's law.",
+    "Diamonds sparkle because n = 2.42 gives a tiny 24° critical angle — light traps inside."
+  ],
+  summary: "Reflection: θᵢ = θᵣ from the normal. Refraction: light changes speed (n = c/v) and bends per Snell n₁sinθ₁ = n₂sinθ₂ — toward normal entering denser. Past the critical angle (sin c = n₂/n₁), total internal reflection — the trick behind fibres and sparkles.",
+  visuals: [
+    { type: "flowChart", config: { steps: ["Ray hits boundary at angle", "Part reflects (θᵢ = θᵣ)", "Part refracts (n₁sinθ₁ = n₂sinθ₂)", "Entering denser → toward normal", "Entering rarer → away", "Beyond critical angle → total internal reflection"], title: "What Happens at a Boundary" } }
+  , {"type":"qa","config":{"title":"Quick Review — tap a question to reveal the answer","pairs":[{"q":"A ray in air strikes water (n = 1.33) at 40° to the normal. Find the angle of refraction.","a":"<b>Answer:</b> ≈ 29° — bent toward the normal, as expected entering a denser medium."},{"q":"Light travels at 2.0 × 10⁸ m/s in a glass block. Find its refractive index, and the criti…","a":"<b>Answer:</b> n = 1.5, critical angle ≈ 42°."}]}}],
+  questions: [
+    { type: "mcq", q: "Angles of incidence and reflection are measured between the ray and:", options: ["The surface", "The normal", "The horizontal", "The refracted ray"], answer: 1, difficulty: 1, explanation: "All ray angles are measured from the normal (perpendicular to the surface)." },
+    { type: "calc", q: "A medium slows light to 1.5×10⁸ m/s. What is its refractive index? (c = 3×10⁸)", answer: "2", difficulty: 1, explanation: "n = c/v = 3×10⁸/1.5×10⁸ = 2.", tolerance: 0.05 },
+    { type: "mcq", q: "Light passes from water into air. It bends:", options: ["Toward the normal", "Away from the normal", "Not at all", "Back on itself"], answer: 1, difficulty: 2, explanation: "Leaving a denser medium for a rarer one speeds the ray up and bends it away from the normal." },
+    { type: "mcq", q: "Total internal reflection requires light to travel:", options: ["From rarer to denser medium", "From denser to rarer medium past the critical angle", "Along the normal", "At exactly the critical angle"], answer: 1, difficulty: 2, explanation: "Both conditions: heading toward a lower-n medium AND exceeding the critical angle." },
+    { type: "calc", q: "Glass has n = 1.5. Find the critical angle in degrees (sin c = 1/n). Round to the nearest degree.", answer: "42", difficulty: 3, explanation: "sin c = 1/1.5 = 0.667 → c ≈ 41.8° ≈ 42°.", tolerance: 1 },
+    { type: "concept", q: "Why does a swimming pool look shallower than it really is?", answer: "refraction bends light away|apparent depth|rays bend at surface", difficulty: 2, explanation: "Light from the pool floor bends away from the normal leaving the water; your eye traces rays straight back, forming a virtual image higher than the real floor." },
+    { type: "tf", q: "Diffuse reflection violates the law of reflection.", answer: false, difficulty: 2, explanation: "Every tiny ray obeys θᵢ = θᵣ locally — the rough surface just points normals in all directions." }
+  ]
+};
+
+/* --- p6-3: Mirrors and Lenses --- */
+Lessons["g10-physics-up6-t3"] = {
+  overview: "Curved mirrors and lenses form images by reflection and refraction. With a few ray rules and one equation, you can predict every image — real or virtual, upright or inverted, magnified or diminished — from torch reflectors to camera lenses.",
+  objectives: [
+    "Construct ray diagrams for concave and convex mirrors",
+    "Describe image properties for each object position",
+    "Construct ray diagrams for converging and diverging lenses",
+    "Use the mirror/lens equation and magnification formula"
+  ],
+  simple: "Concave mirror (caves in): focuses light to a real point — makeup mirrors magnify your face, torches throw a parallel beam. Convex mirror (bulges out): always gives a smaller upright wide view — car wing mirrors ('objects closer than they appear'). Convex lens: same job as concave mirror but by refraction; concave lens always shrinks and spreads. One equation handles them all: 1/f = 1/u + 1/v, with m = v/u for size.",
+  detailed: `<p><b>Setup:</b> principal axis through the centre of curvature C and pole/centre; focal point F halfway from pole to C (f = R/2). Object distance u, image distance v, focal length f.</p>
+<p><b>Three rays you need (any two locate the image):</b>
+<br>1. Parallel to axis → reflects/refracts through F.
+<br>2. Through F → leaves parallel to axis.
+<br>3. Through the centre (C for mirrors, optical centre for lenses) → undeviated.</p>
+<p><b>Concave mirror image table (object distance u vs f, R = 2f):</b>
+<br>• u > 2f: real, inverted, diminished, between F and C (used: nothing special — general imaging).
+<br>• u = 2f: real, inverted, SAME size at C.
+<br>• f < u < 2f: real, inverted, magnified beyond C (projectors).
+<br>• u = f: no image (rays parallel — torches/spotlights send parallel beams this way).
+<br>• u < f: virtual, upright, magnified behind mirror (shaving/makeup mirrors).</p>
+<p><b>Convex mirror:</b> ALWAYS virtual, upright, diminished, behind the mirror — wide field of view (shop security, wing mirrors).</p>
+<p><b>Converging (convex) lens:</b> same table as the concave mirror (real images when u > f; magnifying glass when u < f). <b>Diverging (concave) lens:</b> always virtual, upright, diminished.</p>
+<p><b>Equations (real-is-positive convention):</b> 1/f = 1/u + 1/v; magnification m = v/u (image height/object height). Virtual image ⇒ v negative; diverging devices ⇒ f negative.</p>
+<p><b>Real vs virtual:</b> real images form where rays actually meet — can be projected on a screen, always inverted. Virtual images form where rays only appear to come from — cannot be screened, upright.</p>`,
+  keyTerms: [
+    { term: "Principal focus (F)", def: "Point where rays parallel to the axis converge (or appear to diverge from)." },
+    { term: "Focal length (f)", def: "Distance from pole/optical centre to F; f = R/2 for spherical mirrors." },
+    { term: "Real image", def: "Formed by actual ray intersection; projectable; inverted." },
+    { term: "Virtual image", def: "Formed by apparent ray divergence; not projectable; upright." },
+    { term: "Magnification (m)", def: "m = v/u = image height / object height." },
+    { term: "Converging lens", def: "Thicker in the middle (convex); brings parallel rays to a focus." }
+  ],
+  formulas: [
+    {
+      name: "Mirror/lens equation",
+      formula: "1/f = 1/u + 1/v",
+      meaning: "Links focal length with object and image distances.",
+      vars: [
+        { name: "f", meaning: "focal length (− for diverging)", unit: "m or cm" },
+        { name: "u", meaning: "object distance", unit: "m or cm" },
+        { name: "v", meaning: "image distance (− for virtual)", unit: "m or cm" }
+      ],
+      units: "same unit throughout",
+      when: "Finding where an image forms, or the focal length.",
+      example: "f = 10 cm, u = 15 cm: 1/v = 1/10 − 1/15 = 1/30 → v = 30 cm (real)."
+    },
+    {
+      name: "Magnification",
+      formula: "m = v / u",
+      meaning: "Image size relative to object size.",
+      vars: [
+        { name: "m", meaning: "magnification", unit: "—" },
+        { name: "v", meaning: "image distance", unit: "cm" },
+        { name: "u", meaning: "object distance", unit: "cm" }
+      ],
+      units: "dimensionless",
+      when: "To find image size or whether it's enlarged.",
+      example: "v = 30, u = 15 → m = 2: image twice the object's size."
+    }
+  ],
+  workedExamples: [
+    {
+      problem: "A concave mirror has f = 10 cm. An object 4 cm tall stands 30 cm away. Find the image position, size and nature.",
+      given: "f = 10 cm, u = 30 cm, h = 4 cm",
+      formula: "1/v = 1/f − 1/u; m = v/u",
+      substitution: "1/v = 1/10 − 1/30 = 2/30 → v = 15 cm; m = 15/30 = 0.5",
+      calculation: "h′ = 0.5 × 4 = 2 cm.",
+      answer: "Image 15 cm in front of the mirror, 2 cm tall, real and inverted (u > 2f case)."
+    },
+    {
+      problem: "A lens of focal length 20 cm must project a sharp image of a slide onto a screen 80 cm away. Where should the slide go?",
+      given: "f = +20 cm (converging), v = 80 cm (real image on screen)",
+      formula: "1/u = 1/f − 1/v",
+      substitution: "1/u = 1/20 − 1/80 = 3/80",
+      calculation: "u = 80/3 ≈ 26.7 cm; m = 80/26.7 = 3× enlarged.",
+      answer: "Place the slide ≈ 26.7 cm from the lens; the image is 3× magnified, inverted."
+    }
+  ],
+  commonMistakes: [
+    "Mixing up which mirror converges: CONCAVE mirrors converge (like a convex lens); mnemonics: 'cave catches light'.",
+    "Forgetting f = R/2 — the focus is halfway to the centre of curvature.",
+    "Sign errors: virtual image ⇒ v negative; diverging lens/convex mirror ⇒ f negative.",
+    "Saying a magnifying glass makes a real image — held close (u < f) it makes a virtual, upright, magnified one.",
+    "Measuring u and v from the wrong point (always from the pole/optical centre)."
+  ],
+  applications: [
+    "Car headlight and torch reflectors: bulb at F sends a parallel beam out.",
+    "Makeup/shaving mirrors: concave with face inside f → magnified upright face.",
+    "Rear-view wing mirrors & shop security: convex → wide view, diminished image.",
+    "Cameras and projectors: converging lenses form real images on film/sensor/screen.",
+    "Microscopes and telescopes: combinations of lenses multiply magnification.",
+    "Corrective glasses: converging lenses for long-sightedness, diverging for short-sightedness."
+  ],
+  summary: "Three standard rays locate any image. Concave mirrors/converging lenses: real inverted images outside f, virtual magnified inside f. Convex mirrors/diverging lenses: always virtual, upright, diminished. 1/f = 1/u + 1/v, m = v/u, f = R/2.",
+  visuals: [
+    { type: "flowChart", config: { steps: ["Draw ray parallel to axis → through F", "Draw ray through F → leaves parallel", "Where they meet = image", "Rays actually meet → real", "Only extensions meet → virtual"], title: "Locating an Image (any two rays)" } }
+  , {"type":"qa","config":{"title":"Quick Review — tap a question to reveal the answer","pairs":[{"q":"A concave mirror has f = 10 cm. An object 4 cm tall stands 30 cm away. Find the image pos…","a":"<b>Answer:</b> Image 15 cm in front of the mirror, 2 cm tall, real and inverted (u &gt; 2f case)."},{"q":"A lens of focal length 20 cm must project a sharp image of a slide onto a screen 80 cm aw…","a":"<b>Answer:</b> Place the slide ≈ 26.7 cm from the lens; the image is 3× magnified, inverted."}]}}],
+  questions: [
+    { type: "mcq", q: "A concave mirror always produces a virtual, magnified image when the object is:", options: ["Beyond C", "At C", "Between F and the mirror", "At F"], answer: 2, difficulty: 2, explanation: "Inside the focal point (u < f) the concave mirror acts as a magnifying mirror — virtual and upright." },
+    { type: "mcq", q: "Which mirror is used as a car's rear-view (wing) mirror?", options: ["Concave", "Convex", "Plane", "Cylindrical"], answer: 1, difficulty: 1, explanation: "Convex gives a wide field of view with an upright diminished image." },
+    { type: "calc", q: "f = 10 cm, u = 15 cm for a converging lens. Find v in cm.", answer: "30", difficulty: 2, explanation: "1/v = 1/10 − 1/15 = 1/30 → v = 30 cm.", tolerance: 0.5 },
+    { type: "calc", q: "An object 20 cm from a mirror forms an image 60 cm away. What is the magnification?", answer: "3", difficulty: 1, explanation: "m = v/u = 60/20 = 3.", tolerance: 0.1 },
+    { type: "mcq", q: "The focal length of a spherical mirror of radius of curvature 40 cm is:", options: ["10 cm", "20 cm", "40 cm", "80 cm"], answer: 1, difficulty: 1, explanation: "f = R/2 = 40/2 = 20 cm." },
+    { type: "tf", q: "A real image can be captured on a screen.", answer: true, difficulty: 1, explanation: "Real images form where rays actually converge — a screen placed there catches them." },
+    { type: "concept", q: "Why must a slide projector's slide be inserted upside down?", answer: "real image inverted|projector makes inverted image", difficulty: 2, explanation: "The converging lens (u just beyond f) forms a real, inverted image — so the slide goes in inverted to project upright." }
+  ]
+};
+
+/* --- p6-4: The Human Eye and Colour --- */
+Lessons["g10-physics-up6-t4"] = {
+  overview: "Your eye is a living camera: a lens focuses light onto a film of millions of detectors. And colour is not painted onto objects — it's the light they choose to reflect. This topic ties the whole optics unit to real life: glasses, rainbows and why the sky is blue.",
+  objectives: [
+    "Describe the structure of the eye and how it focuses (accommodation)",
+    "Explain short- and long-sightedness and their lens corrections",
+    "Explain the dispersion of white light and the colour spectrum",
+    "Describe additive (primary) and subtractive (pigment) colour mixing"
+  ],
+  simple: "Light enters the cornea and pupil (the iris's adjustable hole), the lens flexes to focus on a retina full of light sensors, and the brain flips the inverted image. Young lenses squeeze to see close — that ability (accommodation) fades with age. Colour: a red shirt isn't red-painted — it absorbs every colour except red, which it bounces to you. Mix coloured LIGHT and red+green+blue = white; mix PAINT and all colours ≈ black/brown.",
+  detailed: `<p><b>Eye structure & function:</b>
+<br>• <b>Cornea</b>: does most of the bending (refraction) of incoming light.
+<br>• <b>Iris</b>: muscular diaphragm controlling the <b>pupil</b> size (large in dim light, small in bright).
+<br>• <b>Accommodation</b>: ciliary muscles change lens shape — thicker/stronger for near objects, thinner for far. The <b>near point</b> (~25 cm for a young adult) and <b>far point</b> (infinity for a normal eye) bound clear vision.
+<br>• <b>Retina</b>: the 'film' — rods (dim-light, monochrome, peripheral) and cones (colour, detail; concentrated in the <b>fovea</b>). Optic nerve carries signals to the brain; the <b>blind spot</b> is where the nerve exits (no receptors).
+<br>• The image on the retina is <b>real, inverted and diminished</b> — the brain interprets it upright.</p>
+<p><b>Defects & correction:</b>
+<br>• <b>Myopia (short-sighted)</b>: eyeball too long / lens too strong → far images focus IN FRONT of the retina. Correct with a <b>diverging (concave) lens</b>.
+<br>• <b>Hyperopia (long-sighted)</b>: eyeball too short / weak lens → near images focus BEHIND the retina. Correct with a <b>converging (convex) lens</b>.
+<br>• Presbyopia (ageing stiff lens), astigmatism (irregular cornea), cataract (clouded lens) round out the common conditions.</p>
+<p><b>Colour & dispersion:</b> white light is a mixture of all visible wavelengths. A prism refracts each colour differently (n is larger for violet) → violet bends most, red least → the spectrum ROYGBIV. Rainbows are dispersion + internal reflection in raindrops.</p>
+<p><b>Additive mixing (lights):</b> primaries <b>Red, Green, Blue</b>. R+G = yellow, R+B = magenta, G+B = cyan, R+G+B = white. (Screens use RGB pixels.)</p>
+<p><b>Subtractive mixing (pigments/filters):</b> primaries <b>Cyan, Magenta, Yellow</b> (school texts often say red, yellow, blue). Each pigment absorbs some colours and reflects the rest: a green leaf reflects green, absorbs red+blue. A red filter transmits only red. An object appears black if it absorbs everything, white if it reflects everything. Printer inks are CMY(K).</p>`,
+  keyTerms: [
+    { term: "Accommodation", def: "Changing lens shape to focus at different distances." },
+    { term: "Near point", def: "Closest distance of distinct vision (~25 cm young adult)." },
+    { term: "Myopia", def: "Short-sightedness: distant focus in front of the retina; concave lens corrects." },
+    { term: "Hyperopia", def: "Long-sightedness: near focus behind the retina; convex lens corrects." },
+    { term: "Dispersion", def: "Splitting white light into colours because n depends on wavelength." },
+    { term: "Additive primaries", def: "Red, green, blue lights — combine to white." },
+    { term: "Subtractive primaries", def: "Cyan, magenta, yellow pigments — each removes (absorbs) colours." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "A student can see clearly only up to 2 m. Diagnose the defect and explain the correction.",
+      given: "Far point = 2 m (should be infinity).",
+      formula: "Myopia: image of distant objects forms in front of the retina.",
+      substitution: "A diverging lens spreads incoming parallel rays so the eye's lens can bring them onto the retina.",
+      calculation: "(Lens power: P = −1/2 = −0.5 D for distance vision.)",
+      answer: "Short-sightedness (myopia), corrected with a concave (diverging) lens."
+    },
+    {
+      problem: "A white T-shirt is viewed through a red filter. What colour does it appear, and why?",
+      given: "White reflects all colours; red filter transmits only red.",
+      formula: "Subtractive filtering: only the transmitted colour reaches the eye.",
+      substitution: "The shirt reflects red light; the filter passes it.",
+      calculation: "No other colours exist to be blocked.",
+      answer: "The shirt appears RED — it reflects every colour, but only red gets through the filter."
+    },
+    {
+      problem: "Why does a blue flower look black under pure yellow light?",
+      given: "Yellow light = red + green (additive). Blue pigment absorbs red and green, reflects blue.",
+      formula: "An object can only reflect colours that illuminate it.",
+      substitution: "No blue in the yellow light; the pigment absorbs the red and green components.",
+      calculation: "Zero light reflected → black.",
+      answer: "The flower absorbs all the yellow light's components and has no blue to reflect — it appears black."
+    }
+  ],
+  commonMistakes: [
+    "Saying the lens does most of the refraction — the CORNEA does; the lens fine-tunes (accommodation).",
+    "Swapping the corrections: myopia → concave, hyperopia → convex.",
+    "Thinking objects 'contain' colour — they reflect some wavelengths and absorb the rest.",
+    "Confusing additive (RGB lights → white) with subtractive (pigments → dark) mixing.",
+    "Believing the retina image is upright — it's inverted; the brain flips perception."
+  ],
+  applications: [
+    "Glasses, contact lenses and LASER eye surgery all reshape focusing power.",
+    "Cameras copy the eye: aperture ≈ pupil, lens ≈ eye lens, sensor ≈ retina.",
+    "TVs/phones build every colour from RGB subpixels (additive mixing).",
+    "Colour printing uses CMYK inks (subtractive mixing).",
+    "Rainbows, prism spectroscopy and fibre-optic colour signals all come from dispersion.",
+    "Night-vision and astronomy exploit rod sensitivity; fovea detail explains why we point our eyes directly."
+  ],
+  summary: "Eye = cornea (main bend) + adjustable lens (accommodation) + retina (rods/cones) forming a real inverted image. Myopia → concave lens; hyperopia → convex. White light = all colours (dispersion proves it). Additive primaries RGB → white; pigments absorb (subtract) — objects only reflect the light they're given.",
+  visuals: [
+    { type: "flowChart", config: { steps: ["Cornea refracts (most bending)", "Pupil (iris) controls light", "Lens accommodates (fine focus)", "Retina: rods + cones detect", "Optic nerve → brain flips image"], title: "Light's Journey Through the Eye" } }
+  , {"type":"qa","config":{"title":"Quick Review — tap a question to reveal the answer","pairs":[{"q":"A student can see clearly only up to 2 m. Diagnose the defect and explain the correction.","a":"<b>Answer:</b> Short-sightedness (myopia), corrected with a concave (diverging) lens."},{"q":"A white T-shirt is viewed through a red filter. What colour does it appear, and why?","a":"<b>Answer:</b> The shirt appears RED — it reflects every colour, but only red gets through the filter."},{"q":"Why does a blue flower look black under pure yellow light?","a":"<b>Answer:</b> The flower absorbs all the yellow light's components and has no blue to reflect — it appears black."}]}}],
+  questions: [
+    { type: "mcq", q: "Short-sightedness is corrected using a:", options: ["Convex lens", "Concave lens", "Cylindrical mirror", "Prism"], answer: 1, difficulty: 1, explanation: "Myopia needs a diverging (concave) lens to push the focus back onto the retina." },
+    { type: "mcq", q: "The part of the eye that does most of the refraction of light is the:", options: ["Lens", "Iris", "Cornea", "Retina"], answer: 2, difficulty: 2, explanation: "The cornea bends light most; the lens only fine-tunes focus (accommodation)." },
+    { type: "mcq", q: "Additive primaries of light are:", options: ["Red, yellow, blue", "Cyan, magenta, yellow", "Red, green, blue", "Orange, green, violet"], answer: 2, difficulty: 1, explanation: "RGB lights add to white; RYB/CMY belong to pigment (subtractive) mixing." },
+    { type: "concept", q: "Why do leaves look green in sunlight?", answer: "reflect green absorb others|chlorophyll absorbs red blue|reflects green light", difficulty: 2, explanation: "Leaf pigments absorb red and blue wavelengths and reflect green — only the reflected colour reaches your eye." },
+    { type: "mcq", q: "In the retina, cells responsible for colour vision and fine detail are:", options: ["Rods", "Cones", "Neurons", "Muscles"], answer: 1, difficulty: 1, explanation: "Cones handle colour and sharp detail (dense in the fovea); rods handle dim, monochrome vision." },
+    { type: "tf", q: "The image formed on the retina is upright.", answer: false, difficulty: 2, explanation: "It is real and inverted — the brain processes it as upright." },
+    { type: "mcq", q: "A prism spreads white light because:", options: ["Colours travel at different speeds in glass", "Glass absorbs some colours", "Different colours refract by different amounts", "Light reflects off the prism faces"], answer: 2, difficulty: 2, explanation: "Refractive index varies with wavelength (violet bends most) — this is dispersion." }
+  ]
+};
