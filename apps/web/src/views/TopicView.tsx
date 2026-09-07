@@ -6,6 +6,8 @@ import { buildQuiz, gradeQuiz, type QuizQuestion, type QuizResult } from '../lib
 import { ask as tutorAsk, suggestions as tutorSuggestions } from '../lib/tutor';
 import { QuestionCard } from '../components/QuestionCard';
 
+const NO_NOTES: never[] = []; // stable ref: zustand v5 getSnapshot must not return a fresh array
+
 type Tab = 'lesson' | 'quiz' | 'tutor' | 'notes';
 
 export default function TopicView() {
@@ -16,7 +18,7 @@ export default function TopicView() {
 
   const logStudy = useAppStore(s => s.logStudy);
   const logQuiz = useAppStore(s => s.logQuiz);
-  const notes = useAppStore(s => s.notes[tid] ?? []);
+  const notes = useAppStore(s => s.notes[tid] ?? NO_NOTES);
   const addNote = useAppStore(s => s.addNote);
   const deleteNote = useAppStore(s => s.deleteNote);
   const quizLen = useAppStore(s => s.settings.quizLen);
