@@ -14,7 +14,7 @@ export interface TutorTopic {
 const pick = <T,>(arr: T[]): T => arr[Math.floor(Math.random() * arr.length)];
 
 /** Quick chips shown above the chat */
-export function suggestions(topic: TutorTopic, ls: Lesson): string[] {
+export function suggestions(_topic: TutorTopic, ls: Lesson): string[] {
   const base = [
     'Explain this in simpler words', 'Give me another example', 'Why is this formula used?',
     "Explain like I'm a beginner", 'Give me a harder question',

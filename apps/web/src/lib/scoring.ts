@@ -93,15 +93,6 @@ export interface Stats {
   studySec: number; avgMastery: number;
 }
 
-function forEachTopic(cur: CurriculumLike, grade: string | null, fn: (tid: string) => void) {
-  for (const g of Object.keys(cur)) {
-    if (grade && g !== grade) continue;
-    for (const sk of Object.keys(cur[g]))
-      for (const unit of cur[g][sk].units)
-        for (const t of unit.topics) fn(t._id);
-  }
-}
-
 export function statsFor(
   cur: CurriculumLike,
   progress: Record<string, TopicProgress>,

@@ -60,7 +60,7 @@ export function checkAnswer(q: Question, userAnswer: unknown): boolean {
       return Number(userAnswer) === expected;
     }
     case 'tf':
-      return (userAnswer === true || userAnswer === 'true') === (q.answer === true || q.answer === 'true');
+      return (userAnswer === true || userAnswer === 'true') === q.answer;
     case 'calc': {
       const expected = numify(q.answer);
       if (isNaN(expected)) return checkText(q, userAnswer); // text answer mislabeled as calc
@@ -72,11 +72,9 @@ export function checkAnswer(q: Question, userAnswer: unknown): boolean {
     case 'short':
     case 'concept':
     case 'app':
-      // A numeric answer with options present is really an MCQ index
-      // (some data files mislabel type) — grade it as such.
-      if (typeof q.answer === 'number' && Array.isArray(q.options) && q.options.length) {
-        return Number(userAnswer) === q.answer || checkText(q, userAnswer);
-      }
+      // The old JS engine had a defensive "numeric answer + options = mislabeled
+      // MCQ" branch here; the Zod schema proves that shape can't exist in the
+      // converted data (0 occurrences), so grading is pure text matching.
       return checkText(q, userAnswer);
   }
   return false;

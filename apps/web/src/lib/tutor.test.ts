@@ -8,7 +8,7 @@ import { UnitLessonsSchema } from '../data/schema';
 const unit = UnitLessonsSchema.parse(JSON.parse(readFileSync(join(process.cwd(), 'src/data/lessons/g11-mathematics-um1.json'), 'utf8')));
 const tid = 'g11-mathematics-um1-t1';
 const ls = unit[tid];
-const topic = { _id: tid, title: ls.title || 'Functions', _grade: '11', _subjectTitle: 'Mathematics' };
+const topic = { _id: tid, title: 'Functions', _grade: '11', _subjectTitle: 'Mathematics' };
 
 describe('tutor intent routing', () => {
   it('empty question prompts', () => expect(ask(topic, ls, '')).toContain('Ask me anything'));

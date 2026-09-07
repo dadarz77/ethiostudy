@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { CURRICULUM, ALL_TOPICS, topicById, lessonFor, subjectsFor } from './curriculum';
+import { ALL_TOPICS, topicById, lessonFor, subjectsFor } from './curriculum';
 
 const allTids = Object.keys(ALL_TOPICS);
 

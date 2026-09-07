@@ -86,7 +86,7 @@ export const useAppStore = create<AppStore>()(
       logStudy: (tid, seconds) => set(s => {
         const applied = applyStudy(s.progress[tid] ?? emptyProgress(), seconds);
         if (!applied) return {};
-        const history: HistoryEntry[] = [{ type: 'study', topicId: tid, sec: seconds, at: Date.now() }, ...s.history].slice(0, 500);
+        const history: HistoryEntry[] = [{ type: 'study' as const, topicId: tid, sec: seconds, at: Date.now() }, ...s.history].slice(0, 500);
         return {
           progress: { ...s.progress, [tid]: { ...applied, mastery: recomputeMastery(applied) } },
           totalStudySec: s.totalStudySec + seconds,
@@ -99,7 +99,7 @@ export const useAppStore = create<AppStore>()(
         const applied = applyQuiz(s.progress[tid] ?? emptyProgress(), correct, total, scorePct);
         const weakMap = { ...s.weakMap };
         for (const wid of wrongIds ?? []) weakMap[wid] = (weakMap[wid] || 0) + 1;
-        const history: HistoryEntry[] = [{ type: 'quiz', topicId: tid, score: scorePct, correct, total, at: Date.now() }, ...s.history].slice(0, 500);
+        const history: HistoryEntry[] = [{ type: 'quiz' as const, topicId: tid, score: scorePct, correct, total, at: Date.now() }, ...s.history].slice(0, 500);
         return {
           progress: { ...s.progress, [tid]: { ...applied, mastery: recomputeMastery(applied) } },
           weakMap,
