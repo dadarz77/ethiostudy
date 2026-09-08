@@ -31,8 +31,8 @@ const cur = load([join(DATA, 'curriculum-g9.js'), join(DATA, 'curriculum-g10.js'
 const L = load(contentFiles.map(f => join(DATA, f)));
 
 const curriculum = cur.CURRICULUM_ALL; // { "9": [...], "10": [...], "11": [...subj...] }
-// Pilot: grade 9 ships mathematics only for now; other G9 subjects stay unlisted until lessons are authored.
-curriculum["9"] = { mathematics: cur.CURRICULUM_G9.mathematics };
+// Grade 9 pilot: ship subjects whose lessons are fully authored (Math, Biology); Chem/Physics join when authored.
+curriculum["9"] = { mathematics: cur.CURRICULUM_G9.mathematics, biology: cur.CURRICULUM_G9.biology };
 const lessons = L.Lessons ?? {};
 // Rebuild flat topic index over all grades (curriculum-g11 builds only 10+11 at load time).
 const topicIndex = {};
@@ -62,7 +62,7 @@ console.log(`curriculum topics: ${topicIds.length}`);
 console.log(`lesson keys: ${lessonKeys.length}`);
 console.log(`ORPHAN keys (in content, not in curriculum): ${orphans.length}`);
 console.log(`TOPICS without lesson: ${missing.length}`);
-if (orphans.length || missing.length || topicIds.length !== 249) {
+if (orphans.length || missing.length || topicIds.length !== 260) {
   console.error('INVARIANT FAILED — aborting, nothing written.');
   process.exit(1);
 }

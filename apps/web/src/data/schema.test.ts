@@ -11,11 +11,11 @@ const DATA = join(__dirname);
 const unitFiles = readdirSync(DIR).filter(f => f.endsWith('.json') && !f.endsWith('.test.json'));
 
 describe('content integrity', () => {
-  it('has all 61 unit files', () => {
-    expect(unitFiles.length).toBe(61);
+  it('has all 67 unit files', () => {
+    expect(unitFiles.length).toBe(67);
   });
 
-  it('every lesson validates against LessonSchema (249 topics)', () => {
+  it('every lesson validates against LessonSchema (260 topics)', () => {
     let topics = 0;
     const errors: string[] = [];
     for (const f of unitFiles) {
@@ -33,19 +33,19 @@ describe('content integrity', () => {
       }
     }
     expect(errors).toEqual([]);
-    expect(topics).toBe(249);
+    expect(topics).toBe(260);
   });
 
   it('curriculum.json validates and covers all three grades', () => {
     const cur = CurriculumSchema.parse(JSON.parse(readFileSync(join(DATA, 'curriculum.json'), 'utf8')));
     expect(Object.keys(cur)).toEqual(expect.arrayContaining(['9', '10', '11']));
     const units = Object.values(cur).flatMap(g => Object.values(g)).reduce((s, subj) => s + subj.units.length, 0);
-    expect(units).toBe(61);
+    expect(units).toBe(67);
   });
 
   it('topics.json has 226 entries with _id matching keys', () => {
     const idx = TopicIndexSchema.parse(JSON.parse(readFileSync(join(DATA, 'topics.json'), 'utf8')));
-    expect(Object.keys(idx).length).toBe(249);
+    expect(Object.keys(idx).length).toBe(260);
     for (const [k, t] of Object.entries(idx)) expect(t._id).toBe(k);
   });
 

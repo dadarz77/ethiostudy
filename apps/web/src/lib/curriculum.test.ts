@@ -4,8 +4,8 @@ import { ALL_TOPICS, topicById, lessonFor, loadLesson, loadAllLessons, subjectsF
 const allTids = Object.keys(ALL_TOPICS);
 
 describe('curriculum wiring', () => {
-  it('249 topics indexed across all grades', () => {
-    expect(allTids.length).toBe(249);
+  it('260 topics indexed across all grades', () => {
+    expect(allTids.length).toBe(260);
     expect(subjectsFor('10').length).toBeGreaterThanOrEqual(4);
     expect(subjectsFor('11').length).toBeGreaterThanOrEqual(4);
   });
