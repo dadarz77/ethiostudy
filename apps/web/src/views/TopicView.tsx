@@ -6,6 +6,7 @@ import { buildQuiz, gradeQuiz, TYPE_LABELS, type QuizQuestion, type QuizResult }
 import { ask as tutorAsk, suggestions as tutorSuggestions } from '../lib/tutor';
 import { QuestionCard } from '../components/QuestionCard';
 import { Chip, DiffChip, ScoreRing, EmptyState } from '../components/ui';
+import { Rich, readTime } from '../lib/richtext';
 
 type Tab = 'lesson' | 'quiz' | 'tutor' | 'notes';
 
@@ -108,8 +109,6 @@ export default function TopicView() {
           <button className="icon-btn" title="Bookmark" onClick={() => toggleBookmark({ id: tid, kind: 'topic', topicId: tid, label: topic.title })}>{bookmarks ? '✅' : '🔖'}</button>
         </div>
       </section>
-
-      {lesson.overview && <div className="callout callout-info mt-4"><strong>📌 Quick Overview</strong><br />{lesson.overview}</div>}
 
       <div className="card timer-card mt-4">
         <div className="spread">
@@ -252,41 +251,109 @@ function LessonPane({ lesson }: { lesson: NonNullable<ReturnType<typeof lessonFo
   if (!lesson.simple && !lesson.keyTerms?.length && !lesson.formulas?.length) {
     return <EmptyState icon="🚧" title="Lesson coming soon" sub="The full lesson for this topic is being written. Try the Quiz or another topic!" />;
   }
+  const wordCount = ((lesson.overview ?? '') + (lesson.simple ?? '') + (lesson.detailed ?? '')).replace(/<[^>]+>/g, ' ').split(/\s+/).filter(Boolean).length;
   return (
     <>
-      {lesson.objectives?.length ? <div className="card"><h3>🎯 Learning Objectives</h3><p className="tiny muted">By the end of this lesson you should be able to:</p><ul className="objectives">{lesson.objectives.map((o, i) => <li key={i}>{o}</li>)}</ul></div> : null}
-      {lesson.simple && <div className="card"><h3>💡 Simple Explanation</h3><p>{lesson.simple}</p></div>}
-      {lesson.detailed && <div className="card"><h3>📖 Detailed Explanation</h3>{lesson.detailed.split('\n').map((x, i) => x.trim() ? <p key={i}>{x}</p> : null)}</div>}
-      {lesson.keyTerms?.length ? <div className="card"><h3>🔑 Key Terms</h3>{lesson.keyTerms.map((k, i) => <div key={i} className="keyterm"><b>{k.term}</b><span>{k.def}</span></div>)}</div> : null}
-      {lesson.formulas?.length ? <div className="card"><h3>🧮 Formulas</h3>{lesson.formulas.map((f, i) => (
-        <div key={i} className="formula-box">
-          <div className="tiny muted">{f.name || ''}</div>
-          <div className="formula-main">{f.formula}</div>
-          {f.meaning && <p className="mt-2" style={{ marginBottom: 6 }}>{f.meaning}</p>}
-          {f.vars && (() => {
-            const vs = typeof f.vars === 'string' ? [f.vars] : f.vars;
-            return <div className="tiny">{vs.map((v, j) => <span key={j}>{typeof v === 'string' ? v : <><b>{v.name}</b> = {v.meaning}{v.unit ? ' (' + v.unit + ')' : ''}</>}{j < vs.length - 1 ? ' · ' : ''}</span>)}</div>;
-          })()}
-          {f.when && <div className="tiny mt-2 muted"><b>Use when:</b> {f.when}</div>}
-          {f.units && <div className="tiny mt-2 muted"><b>Units:</b> {f.units}</div>}
+      {/* ---- Reading header: overview lede + meta chips ---- */}
+      <section className="lesson-lede card">
+        {lesson.overview && <Rich html={lesson.overview} cls="lede-text" />}
+        <div className="row mt-3" style={{ gap: 8, flexWrap: 'wrap' }}>
+          <span className="chip">📖 {readTime(wordCount)}</span>
+          {lesson.objectives?.length ? <span className="chip">🎯 {lesson.objectives.length} objectives</span> : null}
+          {lesson.formulas?.length ? <span className="chip">🧮 {lesson.formulas.length} formulas</span> : null}
+          {lesson.workedExamples?.length ? <span className="chip">✍️ {lesson.workedExamples.length} worked examples</span> : null}
         </div>
-      ))}</div> : null}
-      {lesson.workedExamples?.length ? <div className="card"><h3>✍️ Worked Examples</h3>{lesson.workedExamples.map((ex, i) => (
-        <div key={i} className="example-box">
-          <div className="example-head">📐 Example {i + 1}</div>
-          <div className="example-body">
-            <div className="step"><span className="s-label">Problem</span><span>{ex.problem}</span></div>
-            {ex.given && <div className="step"><span className="s-label">Given</span><span>{ex.given}</span></div>}
-            {ex.formula && <div className="step"><span className="s-label">Formula</span><span className="formula-main" style={{ textAlign: 'left', fontSize: '1.1rem' }}>{ex.formula}</span></div>}
-            {ex.substitution && <div className="step"><span className="s-label">Substitution</span><span>{ex.substitution}</span></div>}
-            {ex.calculation && <div className="step"><span className="s-label">Calculation</span><span>{ex.calculation}</span></div>}
-            {ex.answer && <div className="answer-line">Answer: {ex.answer}</div>}
-          </div>
-        </div>
-      ))}</div> : null}
-      {lesson.applications?.length ? <div className="card"><h3>🌍 Real-World Applications</h3><ul>{lesson.applications.map((a, i) => <li key={i}>{a}</li>)}</ul></div> : null}
-      {lesson.commonMistakes?.length ? <div className="card"><h3>⚠️ Common Mistakes</h3><ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>{lesson.commonMistakes.map((cm, i) => <li key={i} style={{ margin: '8px 0' }}>❌ {cm}</li>)}</ul></div> : null}
-      {lesson.summary && <div className="card callout callout-success"><h3 style={{ marginTop: 0 }}>📋 Quick Summary</h3>{lesson.summary.split('\n').map((x, i) => x.trim() ? <p key={i} style={{ marginBottom: 6 }}>{x}</p> : null)}</div>}
+      </section>
+
+      {lesson.objectives?.length ? (
+        <section className="card lesson-section">
+          <h3 className="section-title">🎯 Learning Objectives</h3>
+          <p className="tiny muted">By the end of this lesson you should be able to:</p>
+          <ul className="objectives checklist">{lesson.objectives.map((o, i) => <li key={i}><Rich html={o} inline /></li>)}</ul>
+        </section>
+      ) : null}
+
+      {lesson.simple && (
+        <section className="card lesson-section simple-card">
+          <h3 className="section-title">💡 In Plain Words</h3>
+          <Rich html={lesson.simple} cls="simple-text" />
+        </section>
+      )}
+
+      {lesson.detailed && (
+        <article className="card lesson-section prose">
+          <h3 className="section-title">📖 The Full Story</h3>
+          <Rich html={lesson.detailed} />
+        </article>
+      )}
+
+      {lesson.keyTerms?.length ? (
+        <section className="card lesson-section">
+          <h3 className="section-title">🔑 Key Terms</h3>
+          <div className="keyterm-grid">{lesson.keyTerms.map((k, i) => (
+            <div key={i} className="keyterm"><b>{k.term}</b><span>{k.def}</span></div>
+          ))}</div>
+        </section>
+      ) : null}
+      {lesson.formulas?.length ? (
+        <section className="card lesson-section">
+          <h3 className="section-title">🧮 Formulas</h3>
+          {lesson.formulas.map((f, i) => (
+            <div key={i} className="formula-box">
+              <div className="tiny muted">{f.name || ''}</div>
+              <div className="formula-main">{f.formula}</div>
+              {f.meaning && <Rich html={f.meaning} cls="mt-2" />}
+              {f.vars && (() => {
+                const vs = typeof f.vars === 'string' ? [f.vars] : f.vars;
+                return <div className="tiny var-list">{vs.map((v, j) => <span key={j}>{typeof v === 'string' ? v : <><b>{v.name}</b> = {v.meaning}{v.unit ? ' (' + v.unit + ')' : ''}</>}{j < vs.length - 1 ? ' · ' : ''}</span>)}</div>;
+              })()}
+              {f.when && <div className="tiny mt-2 muted"><b>Use when:</b> <Rich html={f.when} inline /></div>}
+              {f.units && <div className="tiny mt-2 muted"><b>Units:</b> {f.units}</div>}
+            </div>
+          ))}
+        </section>
+      ) : null}
+      {lesson.workedExamples?.length ? (
+        <section className="card lesson-section">
+          <h3 className="section-title">✍️ Worked Examples</h3>
+          {lesson.workedExamples.map((ex, i) => (
+            <div key={i} className="example-box">
+              <div className="example-head">📐 Example {i + 1}</div>
+              <div className="example-body">
+                <div className="step"><span className="s-label">Problem</span><Rich html={ex.problem} inline /></div>
+                {ex.given && <div className="step"><span className="s-label">Given</span><Rich html={ex.given} inline /></div>}
+                {ex.formula && <div className="step"><span className="s-label">Formula</span><span className="formula-main inline-formula">{ex.formula}</span></div>}
+                {ex.substitution && <div className="step"><span className="s-label">Substitution</span><Rich html={ex.substitution} inline /></div>}
+                {ex.calculation && <div className="step"><span className="s-label">Calculation</span><Rich html={ex.calculation} inline /></div>}
+                {ex.answer && <div className="answer-line">✅ Answer: <Rich html={ex.answer} inline /></div>}
+              </div>
+            </div>
+          ))}
+        </section>
+      ) : null}
+
+      {lesson.applications?.length ? (
+        <section className="card lesson-section">
+          <h3 className="section-title">🌍 Real-World Applications</h3>
+          <ul className="objectives checklist">{lesson.applications.map((a, i) => <li key={i}><Rich html={a} inline /></li>)}</ul>
+        </section>
+      ) : null}
+
+      {lesson.commonMistakes?.length ? (
+        <section className="card lesson-section">
+          <h3 className="section-title">⚠️ Common Mistakes</h3>
+          <div className="mistake-list">{lesson.commonMistakes.map((cm, i) => (
+            <div key={i} className="mistake-item"><span className="mistake-x">✕</span><Rich html={cm} inline /></div>
+          ))}</div>
+        </section>
+      ) : null}
+
+      {lesson.summary && (
+        <section className="card lesson-section summary-card">
+          <h3 className="section-title">📋 Quick Summary</h3>
+          <Rich html={lesson.summary} />
+        </section>
+      )}
     </>
   );
 }

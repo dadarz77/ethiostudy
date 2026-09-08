@@ -690,3 +690,47 @@ tr:hover td { background: color-mix(in srgb, var(--card-2) 60%, transparent); }
 /* Three.js hero canvas inside orbit-scene */
 .hero-3d { position:absolute; inset:0; }
 .hero-3d canvas { display:block; width:100%; height:100%; }
+
+/* ================= LESSON READING EXPERIENCE (v2.1) ================= */
+.lesson-lede { border-left: 3px solid var(--accent); background: linear-gradient(135deg, var(--card), color-mix(in srgb, var(--accent) 6%, var(--card))); }
+.lede-text { font-size: 1.06rem; line-height: 1.75; color: var(--foreground); font-weight: 500; }
+.lesson-section { margin-top: var(--space-4); }
+.section-title { font-family: var(--font-display); font-size: 1.15rem; font-weight: 800; letter-spacing: -.3px; margin: 0 0 var(--space-3); padding-bottom: 10px; position: relative; }
+.section-title::after { content: ''; position: absolute; left: 0; bottom: 0; width: 44px; height: 3px; border-radius: 3px; background: linear-gradient(90deg, var(--accent), transparent); }
+
+/* prose: the detailed explanation reads like a book page */
+.prose { max-width: 68ch; }
+.prose p { margin: 0 0 1em; }
+.prose b, .prose strong { color: var(--accent); font-weight: 700; }
+.prose ul, .prose ol { margin: 0 0 1em 1.3em; }
+.prose li { margin-bottom: .45em; }
+.prose sub, .prose sup { font-size: .72em; }
+.simple-card { border-left: 3px solid #34d399; }
+.simple-text { font-size: 1.05rem; line-height: 1.8; color: var(--muted-foreground); }
+.simple-text b { color: #34d399; }
+
+/* key terms as cards */
+.keyterm-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: var(--space-3); }
+.keyterm { background: color-mix(in srgb, var(--card) 70%, var(--accent) 4%); border: 1px solid var(--border); border-radius: 12px; padding: 12px 14px; display: grid; gap: 4px; }
+.keyterm b { font-size: .95rem; }
+.keyterm span { font-size: .85rem; color: var(--muted-foreground); line-height: 1.55; }
+
+/* formula var lists */
+.var-list b { color: var(--accent); }
+.inline-formula { text-align: left; font-size: 1.05rem; margin: 2px 0; }
+
+/* mistakes with red rail */
+.mistake-list { display: grid; gap: 10px; }
+.mistake-item { display: flex; gap: 12px; align-items: flex-start; background: color-mix(in srgb, #ef4444 7%, var(--card)); border: 1px solid color-mix(in srgb, #ef4444 25%, var(--border)); border-radius: 12px; padding: 12px 14px; line-height: 1.6; }
+.mistake-x { flex: none; width: 22px; height: 22px; border-radius: 50%; background: #ef4444; color: #fff; display: grid; place-items: center; font-size: .75rem; font-weight: 800; margin-top: 1px; }
+
+/* checklist for objectives and applications */
+.checklist { list-style: none; padding: 0; margin: 0; display: grid; gap: 9px; }
+.checklist li { position: relative; padding-left: 30px; line-height: 1.6; }
+.checklist li::before { content: '\2713'; position: absolute; left: 0; top: 0; width: 20px; height: 20px; border-radius: 6px; background: color-mix(in srgb, #34d399 18%, transparent); color: #34d399; font-weight: 800; font-size: .78rem; display: grid; place-items: center; }
+
+/* summary = exam-ready recap */
+.summary-card { border: 1px solid color-mix(in srgb, #34d399 35%, var(--border)); background: linear-gradient(160deg, var(--card), color-mix(in srgb, #34d399 7%, var(--card))); }
+.summary-card p { line-height: 1.75; margin: 0 0 .7em; }
+.summary-card b { color: #34d399; }
+@media (max-width: 700px) { .prose { max-width: none; } .keyterm-grid { grid-template-columns: 1fr; } }
