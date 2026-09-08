@@ -46,6 +46,7 @@ export default function Practice() {
         <div>
           <label>Grade</label>
           <select value={selGrade} onChange={e => { setSelGrade(e.target.value as Grade); setSelSubject('all'); setSelUnit('all'); }}>
+            <option value="9">Grade 9</option>
             <option value="10">Grade 10</option>
             <option value="11">Grade 11</option>
           </select>
