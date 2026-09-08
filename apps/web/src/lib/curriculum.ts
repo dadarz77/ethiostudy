@@ -43,20 +43,51 @@ export function topicById(tid: string): Topic | undefined {
   return ALL_TOPICS[tid];
 }
 
-/* ---- lessons: eager map of unit files ---- */
-const unitFiles = import.meta.glob('../data/lessons/*.json', { eager: true, import: 'default' }) as Record<string, Record<string, unknown>>;
+/* ---- lessons: lazy per-unit chunks (Phase 5: 3MB of JSON stays out of the main bundle) ---- */
+const unitLoaders = import.meta.glob(
+  ['../data/lessons/*.json', '!../data/lessons/*.test.json'], // negative pattern keeps test fixtures out of the bundle
+  { import: 'default' },
+) as Record<string, () => Promise<Record<string, unknown>>>;
 
 const lessonCache = new Map<string, Lesson | null>();
+function fileKeyFor(tid: string): string | null {
+  const unit = tid.replace(/-t\d+$/, ''); // g10-mathematics-um1-t1 -> g10-mathematics-um1
+  const key = Object.keys(unitLoaders).find(k => k.endsWith('/' + unit + '.json'));
+  return key ?? null;
+}
+
+/** Synchronous read — only valid after loadLesson resolved (cache hit). */
 export function lessonFor(tid: string): Lesson | null {
+  return lessonCache.get(tid) ?? null;
+}
+
+/** Async load of one lesson (loads + caches its whole unit chunk). */
+export async function loadLesson(tid: string): Promise<Lesson | null> {
   if (lessonCache.has(tid)) return lessonCache.get(tid)!;
   const t = ALL_TOPICS[tid];
   if (!t) { lessonCache.set(tid, null); return null; }
-  const file = Object.values(unitFiles).find(u => tid in u);
-  const raw = file?.[tid];
+  const key = fileKeyFor(tid);
+  if (!key) { lessonCache.set(tid, null); return null; }
+  const raw = (await unitLoaders[key]())[tid];
   const parsed = raw ? LessonSchema.safeParse(raw) : null;
   const lesson = parsed?.success ? (parsed.data as Lesson) : null;
   lessonCache.set(tid, lesson);
   return lesson;
+}
+
+let allPromise: Promise<void> | null = null;
+/** Load every unit chunk (for global search / exam pools). Cached. */
+export function loadAllLessons(): Promise<void> {
+  allPromise ??= Promise.all(Object.entries(unitLoaders).map(async ([key, fn]) => {
+    const unit = await fn();
+    for (const [tid, raw] of Object.entries(unit)) {
+      if (lessonCache.has(tid)) continue;
+      const parsed = LessonSchema.safeParse(raw);
+      lessonCache.set(tid, parsed.success ? (parsed.data as Lesson) : null);
+    }
+    void key;
+  })).then(() => undefined);
+  return allPromise;
 }
 
 export function fmtTime(sec: number): string {

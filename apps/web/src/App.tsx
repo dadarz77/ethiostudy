@@ -1,18 +1,21 @@
-import { useEffect } from 'react';
+import { useEffect, Suspense } from 'react';
 import { NavLink, Route, Routes, useNavigate } from 'react-router-dom';
 import { useAppStore } from './store/useAppStore';
 import { tr } from './lib/i18n';
 import ParticleField from './components/ParticleField';
 import SearchBox from './components/SearchBox';
 import Dashboard from './views/Dashboard';
-import Browse from './views/Browse';
-import TopicView from './views/TopicView';
-import Practice from './views/Practice';
-import Exam from './views/Exam';
-import Progress from './views/Progress';
-import Bookmarks from './views/Bookmarks';
-import Notes from './views/Notes';
-import Settings from './views/Settings';
+import { lazy } from 'react';
+
+/* Route-level code splitting: only Dashboard (with the Three.js hero) is eager. */
+const Browse = lazy(() => import('./views/Browse'));
+const TopicView = lazy(() => import('./views/TopicView'));
+const Practice = lazy(() => import('./views/Practice'));
+const Exam = lazy(() => import('./views/Exam'));
+const Progress = lazy(() => import('./views/Progress'));
+const Bookmarks = lazy(() => import('./views/Bookmarks'));
+const Notes = lazy(() => import('./views/Notes'));
+const Settings = lazy(() => import('./views/Settings'));
 
 const NAV = [
   { to: '/', key: 'dashboard', ico: '🏠', end: true },
@@ -78,6 +81,7 @@ export default function App() {
             </button>
           </header>
           <main className="view" id="view">
+            <Suspense fallback={<div className="card" style={{ textAlign: 'center', padding: 48 }}>✦ loading…</div>}>
             <Routes>
               <Route path="/" element={<Dashboard />} />
               <Route path="/browse" element={<Browse />} />
@@ -89,6 +93,7 @@ export default function App() {
               <Route path="/notes" element={<Notes />} />
               <Route path="/settings" element={<Settings />} />
             </Routes>
+            </Suspense>
           </main>
         </div>
       </div>

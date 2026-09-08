@@ -1,32 +1,91 @@
-import type { Question } from '../data/schema';
-import { TYPE_LABELS } from '../lib/quiz';
+import { useAppStore } from '../store/useAppStore';
+import { TYPE_LABELS, type QuizQuestion } from '../lib/quiz';
+import { Chip } from './ui';
 
-export function QuestionCard({ q, index, answer, onAnswer }: {
-  q: Question; index: number; answer: unknown; onAnswer: (a: unknown) => void;
+/* One quiz question card — exact port of v1's renderQuestion():
+   .quiz-q card, lettered options, correct/incorrect callout after submit. */
+export function QuestionCard({ q, index, answer, onAnswer, result }: {
+  q: QuizQuestion;
+  index: number;
+  answer: unknown;
+  onAnswer?: (a: unknown) => void;
+  result?: { correct: boolean };
 }) {
+  const submitted = !!result;
+  const setAnswer = (a: unknown) => onAnswer?.(a);
+
+  let body: React.ReactNode;
+  if (q.type === 'mcq' || q.type === 'ordering') {
+    const opts = q.options ?? [];
+    body = opts.map((o, oi) => {
+      let cls = 'option';
+      if (submitted) {
+        const correctIdx = Array.isArray(q.answer) ? Number(q.answer[0]) : Number(q.answer);
+        if (oi === correctIdx) cls += ' correct';
+        else if (answer === oi) cls += ' incorrect';
+      }
+      return (
+        <div key={oi} className={cls}>
+          <span className="opt-letter">{String.fromCharCode(65 + oi)}.</span>
+          <label style={{ cursor: 'pointer', flex: 1 }}>
+            <input type="radio" name={'q' + index} checked={answer === oi} disabled={submitted} onChange={() => setAnswer(oi)} />
+            <span style={{ marginLeft: 8 }}>{o}</span>
+          </label>
+        </div>
+      );
+    });
+  } else if (q.type === 'tf') {
+    body = ['T', 'F'].map(tf => {
+      let cls = 'option';
+      const picked = answer === true ? 'T' : answer === false ? 'F' : null;
+      if (submitted && tf === (q.answer === true ? 'T' : 'F')) cls += ' correct';
+      else if (submitted && picked === tf) cls += ' incorrect';
+      return (
+        <div key={tf} className={cls}>
+          <span className="opt-letter">{tf}</span>
+          <label style={{ cursor: 'pointer', flex: 1 }}>
+            <input type="radio" name={'q' + index} checked={picked === tf} disabled={submitted}
+              onChange={() => setAnswer(tf === 'T')} />
+            <span style={{ marginLeft: 8 }}>{tf === 'T' ? 'True' : 'False'}</span>
+          </label>
+        </div>
+      );
+    });
+  } else {
+    body = (
+      <input className="note-editor" style={{ minHeight: 52 }} type="text"
+        placeholder="Type your answer…" value={typeof answer === 'string' ? answer : ''} disabled={submitted}
+        onChange={e => setAnswer(e.target.value)} />
+    );
+  }
+
+  const diff = q.difficulty ?? 3;
+  const correctText = q.type === 'mcq' || q.type === 'ordering'
+    ? (q.options?.[Array.isArray(q.answer) ? Number(q.answer[0]) : Number(q.answer)] ?? '')
+    : q.type === 'tf' ? String(q.answer)
+    : Array.isArray(q.answer) ? String(q.answer[0]).replace(/\|/g, ' or ') : String(q.answer);
+
   return (
-    <div className="question-card">
-      <div className="q-head">Q{index + 1} · {TYPE_LABELS[q.type]} · {q.difficulty}★</div>
-      <p className="q-text">{q.q}</p>
-      {q.type === 'mcq' && q.options.map((o, i) => (
-        <label key={i} className={'opt' + (answer === i ? ' sel' : '')}>
-          <input type="radio" name={'q' + index} checked={answer === i} onChange={() => onAnswer(i)} /> {String.fromCharCode(65 + i)}. {o}
-        </label>
-      ))}
-      {q.type === 'tf' && ['true', 'false'].map(v => (
-        <label key={v} className={'opt' + (answer === v ? ' sel' : '')}>
-          <input type="radio" name={'q' + index} checked={answer === v} onChange={() => onAnswer(v)} /> {v === 'true' ? 'True' : 'False'}
-        </label>
-      ))}
-      {q.type === 'ordering' && (
-        <select value={(answer as number) ?? ''} onChange={e => onAnswer(Number(e.target.value))}>
-          <option value="" disabled>First item in the sequence…</option>
-          {q.options.map((o, i) => <option key={i} value={i}>{o}</option>)}
-        </select>
-      )}
-      {(q.type === 'short' || q.type === 'concept' || q.type === 'app' || q.type === 'calc') && (
-        <input className="text-answer" value={(answer as string) ?? ''} onChange={e => onAnswer(e.target.value)} placeholder="Type your answer…" />
+    <div className="quiz-q card">
+      <div className="quiz-q-head">
+        <Chip text={`Q${index + 1}`} />
+        <Chip text={TYPE_LABELS[q.type]} />
+        <Chip text={diff >= 4 ? 'Hard' : diff >= 3 ? 'Medium' : 'Easy'} cls={diff >= 4 ? 'chip-diff-hard' : diff >= 3 ? 'chip-diff-medium' : 'chip-diff-easy'} />
+      </div>
+      <div className="quiz-q-text">{q.q}</div>
+      <div className="mt-2">{body}</div>
+      {submitted && (
+        <div className={'mt-3 callout ' + (result!.correct ? 'callout-success' : 'callout-danger')} style={{ margin: 0 }}>
+          <b>{result!.correct ? '✅ Correct!' : '❌ Incorrect'}</b>
+          {!result!.correct && <div className="mt-2"><b>Correct answer:</b> {correctText}</div>}
+          {q.explanation && <div className="mt-2 tiny">💡 {q.explanation}</div>}
+        </div>
       )}
     </div>
   );
+}
+
+/* Bookmark button helper used by views */
+export function useBookmarkToggle() {
+  return useAppStore(s => s.toggleBookmark);
 }

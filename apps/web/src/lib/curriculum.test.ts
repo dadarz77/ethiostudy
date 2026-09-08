@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { ALL_TOPICS, topicById, lessonFor, subjectsFor } from './curriculum';
+import { ALL_TOPICS, topicById, lessonFor, loadLesson, loadAllLessons, subjectsFor } from './curriculum';
 
 const allTids = Object.keys(ALL_TOPICS);
 
@@ -15,7 +15,8 @@ describe('curriculum wiring', () => {
     expect(bad).toEqual([]);
   });
 
-  it('every topic resolves to a valid lesson with questions', () => {
+  it('every topic resolves to a valid lesson with questions', async () => {
+    await loadAllLessons();
     const missing = allTids.filter(t => !lessonFor(t));
     expect(missing).toEqual([]);
     const noQuiz = allTids.filter(t => !(lessonFor(t)!.questions?.length));
@@ -31,8 +32,12 @@ describe('curriculum wiring', () => {
     expect(topicById('nope')).toBeUndefined();
   });
 
-  it('lessonFor caches and rejects unknown ids', () => {
-    expect(lessonFor('bogus')).toBeNull();
-    expect(lessonFor('g10-mathematics-um1-t1')).toBe(lessonFor('g10-mathematics-um1-t1'));
+  it('loadLesson caches and rejects unknown ids', async () => {
+    expect(await loadLesson('bogus')).toBeNull();
+    const a = await loadLesson('g10-mathematics-um1-t1');
+    const b = await loadLesson('g10-mathematics-um1-t1');
+    expect(a).toBeTruthy();
+    expect(a).toBe(b);
+    expect(lessonFor('g10-mathematics-um1-t1')).toBe(a); // sync read after load
   });
 });

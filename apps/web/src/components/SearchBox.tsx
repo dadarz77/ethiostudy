@@ -1,21 +1,25 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { ALL_TOPICS, lessonFor } from '../lib/curriculum';
+import { ALL_TOPICS, loadAllLessons, lessonFor } from '../lib/curriculum';
 
 /* Global search — port of showSearchResults(): matches title, subject,
-   unit, subtopics, and lesson key terms; Enter opens the first hit. */
+   unit, subtopics, and lesson key terms; Enter opens the first hit.
+   Lessons load lazily; the haystack upgrades once they're all cached. */
 export default function SearchBox() {
   const navigate = useNavigate();
   const [q, setQ] = useState('');
   const [open, setOpen] = useState(false);
+  const [lessonsReady, setLessonsReady] = useState(false);
   const boxRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => { loadAllLessons().then(() => setLessonsReady(true)); }, []);
 
   const hay = useMemo(() => Object.values(ALL_TOPICS).map(t => ({
     t, s: [t.title, t._subjectTitle, t._unitTitle,
       ...(Array.isArray(t.subtopics) ? t.subtopics.map(String) : []),
       ...(lessonFor(t._id)?.keyTerms ?? []).map(k => k.term + ' ' + k.def),
     ].join(' ').toLowerCase(),
-  })), []);
+  })), [lessonsReady]);
 
   const results = q.trim().length < 2 ? [] :
     hay.filter(h => h.s.includes(q.toLowerCase())).slice(0, 12).map(h => h.t);

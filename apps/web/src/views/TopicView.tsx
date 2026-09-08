@@ -1,19 +1,26 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { useAppStore } from '../store/useAppStore';
-import { topicById, lessonFor } from '../lib/curriculum';
-import { buildQuiz, gradeQuiz, type QuizQuestion, type QuizResult } from '../lib/quiz';
+import { topicById, lessonFor, loadLesson } from '../lib/curriculum';
+import { buildQuiz, gradeQuiz, TYPE_LABELS, type QuizQuestion, type QuizResult } from '../lib/quiz';
 import { ask as tutorAsk, suggestions as tutorSuggestions } from '../lib/tutor';
 import { QuestionCard } from '../components/QuestionCard';
-
-const NO_NOTES: never[] = []; // stable ref: zustand v5 getSnapshot must not return a fresh array
+import { Chip, DiffChip, ScoreRing, EmptyState } from '../components/ui';
 
 type Tab = 'lesson' | 'quiz' | 'tutor' | 'notes';
+
+const NO_NOTES: never[] = []; // stable ref: zustand v5 getSnapshot must not return a fresh array
 
 export default function TopicView() {
   const { tid = '' } = useParams();
   const topic = topicById(tid);
-  const lesson = useMemo(() => (topic ? lessonFor(tid) : null), [tid, topic]);
+  const [lesson, setLesson] = useState<ReturnType<typeof lessonFor>>(null);
+  useEffect(() => {
+    let alive = true;
+    setLesson(null);
+    loadLesson(tid).then(l => { if (alive) setLesson(l); });
+    return () => { alive = false; };
+  }, [tid]);
   const [tab, setTab] = useState<Tab>('lesson');
 
   const logStudy = useAppStore(s => s.logStudy);
@@ -22,6 +29,10 @@ export default function TopicView() {
   const addNote = useAppStore(s => s.addNote);
   const deleteNote = useAppStore(s => s.deleteNote);
   const quizLen = useAppStore(s => s.settings.quizLen);
+  const progress = useAppStore(s => s.progress);
+  const mastery = useAppStore(s => s.mastery);
+  const bookmarks = useAppStore(s => s.bookmarks.some(b => b.id === tid));
+  const toggleBookmark = useAppStore(s => s.toggleBookmark);
 
   /* study timer */
   const startRef = useRef(Date.now());
@@ -31,20 +42,34 @@ export default function TopicView() {
     return () => flush();
   }, [tid, logStudy]);
 
+  const [timerSec, setTimerSec] = useState(0);
+  const [timerRun, setTimerRun] = useState(false);
+  const [timerTarget, setTimerTarget] = useState(25 * 60);
+  useEffect(() => {
+    if (!timerRun) return;
+    const iv = setInterval(() => setTimerSec(v => v + 1), 1000);
+    return () => clearInterval(iv);
+  }, [timerRun]);
+
   /* quiz state */
   const [quiz, setQuiz] = useState<QuizQuestion[] | null>(null);
   const [answers, setAnswers] = useState<unknown[]>([]);
   const [result, setResult] = useState<QuizResult | null>(null);
+  const [quizCount, setQuizCount] = useState(Math.min(quizLen, lesson?.questions?.length ?? quizLen));
 
   /* tutor state */
-  const [chat, setChat] = useState<{ role: 'user' | 'tutor'; text: string }[]>([]);
+  const [chat, setChat] = useState<{ role: 'user' | 'ai'; text: string }[]>([]);
   const [input, setInput] = useState('');
   const chips = useMemo(() => (topic && lesson ? tutorSuggestions(topic, lesson) : []), [topic, lesson]);
 
-  if (!topic || !lesson) return <div className="view-inner"><h1>Topic not found</h1></div>;
+  if (!topic) return <EmptyState icon="🔍" title="Topic not found" sub="It may belong to another grade — switch grade in Settings." />;
+  if (!lesson) return <div className="card" style={{ textAlign: 'center', padding: 48 }}><div className="orbit-star" style={{ position: 'static', display: 'inline-block' }}>✦</div><p className="muted mt-3">Loading lesson…</p></div>;
+
+  const p = progress[tid];
+  const studied = (p?.totalQ ?? 0) > 0 || (p?.studySec ?? 0) > 0;
 
   const startQuiz = () => {
-    setQuiz(buildQuiz(lesson.questions ?? [], quizLen));
+    setQuiz(buildQuiz(lesson.questions ?? [], quizCount));
     setAnswers([]);
     setResult(null);
   };
@@ -58,21 +83,58 @@ export default function TopicView() {
 
   const sendTutor = (text: string) => {
     if (!text.trim()) return;
-    setChat(c => [...c, { role: 'user', text }, { role: 'tutor', text: tutorAsk(topic, lesson, text) }]);
+    setChat(c => [...c, { role: 'user', text }, { role: 'ai', text: tutorAsk(topic, lesson, text) }]);
     setInput('');
   };
 
-  return (
-    <div className="view-inner topic-view">
-      <header className="topic-header">
-        <h1>{topic.title}</h1>
-        <div className="topic-sub">{topic._subjectTitle} · Grade {topic._grade} · {topic._unitTitle}</div>
-      </header>
+  const mm = String(Math.floor(timerSec / 60)).padStart(2, '0');
+  const ss = String(timerSec % 60).padStart(2, '0');
 
-      <div className="tabs">
+  return (
+    <>
+      <section className="lesson-studio-header">
+        <div className="breadcrumb">
+          <a href="#/">Dashboard</a> / <a href={'#/browse?grade=' + topic._grade}>{topic._subjectTitle}</a> / <span>{topic._unitTitle}</span>
+        </div>
+        <div className="spread">
+          <div>
+            <h1 className="lesson-title">{topic.title}</h1>
+            <div className="row">
+              <Chip text={`${topic._subjectIcon ?? ''} ${topic._subjectTitle} · Grade ${topic._grade}`} cls="chip-subject" />
+              <DiffChip d={topic.difficulty ?? 1} />
+              {studied && <Chip text={`${mastery(tid)}% mastery`} />}
+            </div>
+          </div>
+          <button className="icon-btn" title="Bookmark" onClick={() => toggleBookmark({ id: tid, kind: 'topic', topicId: tid, label: topic.title })}>{bookmarks ? '✅' : '🔖'}</button>
+        </div>
+      </section>
+
+      {lesson.overview && <div className="callout callout-info mt-4"><strong>📌 Quick Overview</strong><br />{lesson.overview}</div>}
+
+      <div className="card timer-card mt-4">
+        <div className="spread">
+          <h3 style={{ margin: 0 }}>⏱️ Study Timer</h3>
+          <span className="tiny muted">Topic: {topic.title}</span>
+        </div>
+        <div className="timer-display" style={{ fontVariantNumeric: 'tabular-nums' }}>{mm}:{ss}</div>
+        <div className="timer-presets">
+          {[10, 15, 25, 45, 60].map(m => (
+            <button key={m} className={'timer-preset' + (timerTarget === m * 60 ? ' active' : '')} onClick={() => setTimerTarget(m * 60)}>{m} min</button>
+          ))}
+        </div>
+        <div className="timer-controls">
+          <button className="btn btn-primary" onClick={() => setTimerRun(true)}>▶ Start</button>
+          <button className="btn" onClick={() => setTimerRun(r => !r)}>⏸ Pause / Resume</button>
+          <button className="btn" onClick={() => { setTimerRun(false); setTimerSec(0); }}>↺ Reset</button>
+          <button className="btn btn-danger" onClick={() => { logStudy(tid, timerSec); setTimerRun(false); setTimerSec(0); }}>✅ Finish Session</button>
+        </div>
+        <div className="tiny muted mt-3">Pick a time or use the default 25 minutes, then press Start. Your study time is tracked automatically.</div>
+      </div>
+
+      <div className="tabs mt-4">
         {(['lesson', 'quiz', 'tutor', 'notes'] as Tab[]).map(t => (
           <button key={t} className={'tab' + (tab === t ? ' active' : '')} onClick={() => setTab(t)}>
-            {t === 'lesson' ? '📖 Lesson' : t === 'quiz' ? '🧠 Quiz' : t === 'tutor' ? '🤖 Tutor' : '📒 Notes'}
+            {t === 'lesson' ? '📖 Lesson' : t === 'quiz' ? '🎯 Quiz' : t === 'tutor' ? '🤖 AI Tutor' : '📒 Notes'}
           </button>
         ))}
       </div>
@@ -80,107 +142,151 @@ export default function TopicView() {
       {tab === 'lesson' && <LessonPane lesson={lesson} />}
 
       {tab === 'quiz' && (
-        <div className="quiz-pane">
-          {!quiz && !result && (
-            <button className="btn btn-primary btn-big" onClick={startQuiz}>Start quiz ({Math.min(quizLen, lesson.questions?.length ?? 0)} questions)</button>
-          )}
-          {quiz && !result && (
-            <>
-              {quiz.map((q, i) => (
-                <QuestionCard key={i} q={q} index={i} answer={answers[i]}
-                  onAnswer={a => setAnswers(prev => { const n = [...prev]; n[i] = a; return n; })} />
-              ))}
-              <button className="btn btn-primary btn-big" onClick={submitQuiz}>Submit answers</button>
-            </>
-          )}
-          {result && (
-            <div className="quiz-result">
-              <h2>{result.grade.emoji} {result.grade.label} — {result.pct}%</h2>
-              <p>{result.feedback}</p>
-              {result.perQ.map((p, i) => (
-                <details key={i} className={'quiz-review-item ' + (p.correct ? 'ok' : 'bad')}>
-                  <summary>{p.correct ? '✅' : '❌'} Q{i + 1}: {p.q.q}</summary>
-                  <p>Your answer: {String(p.userAnswer ?? '—')}</p>
-                  <p>Correct: {p.q.type === 'mcq' ? p.q.options[p.q.answer] : p.q.type === 'tf' ? String(p.q.answer) : Array.isArray(p.q.answer) ? p.q.answer.join(' | ') : String(p.q.answer)}</p>
-                  {p.q.explanation && <p className="explain">{p.q.explanation}</p>}
-                </details>
-              ))}
-              <button className="btn btn-primary" onClick={startQuiz}>Retake</button>
+        !quiz && !result ? (
+          (lesson.questions?.length ?? 0) === 0
+            ? <EmptyState icon="🎯" title="No quiz yet" sub="Questions for this topic are being prepared. Try another topic!" />
+            : <div className="card">
+              <h3>🎯 Topic Quiz — {topic.title}</h3>
+              <p className="muted">{lesson.questions!.length} questions available · {TYPE_LABELS[lesson.questions![0].type]} and more · adaptive difficulty</p>
+              <div className="row mt-4">
+                <span style={{ fontWeight: 700 }}>Number of questions:</span>
+                {[5, 10, 15, 20].filter(c => c <= lesson.questions!.length).map(c => (
+                  <button key={c} className={'timer-preset' + (quizCount === c ? ' active' : '')} onClick={() => setQuizCount(c)}>{c}</button>
+                ))}
+              </div>
+              <div className="mt-4">
+                <button className="btn btn-primary btn-lg" onClick={startQuiz}>Start Quiz 🚀</button>
+              </div>
+              {(p?.quizScores?.length ?? 0) > 0 && (
+                <div className="mt-4"><div className="tiny muted">Last 5 scores: {p!.quizScores.slice(-5).map((sc, i) => (
+                  <b key={i} style={{ color: sc >= 70 ? 'var(--success)' : 'var(--danger)' }}>{sc}%</b>
+                )).join(' · ')}</div></div>
+              )}
             </div>
-          )}
-        </div>
+        ) : result ? (
+          <>
+            <div className="card mt-4" style={{ textAlign: 'center' }}>
+              <h2 style={{ color: result.pct >= 70 ? 'var(--success)' : 'var(--danger)' }}>{result.grade.emoji} {result.pct}% — {result.grade.label}</h2>
+              <p className="muted">Score: {result.correct}/{result.total}</p>
+              <ScoreRing pct={result.pct} />
+              <p className="mt-3">{result.feedback}</p>
+              <div className="row mt-4" style={{ justifyContent: 'center' }}>
+                <button className="btn" onClick={() => setTab('lesson')}>📖 Review lesson</button>
+                <button className="btn btn-primary" onClick={startQuiz}>🔁 Retake quiz</button>
+              </div>
+              <div className="tiny muted mt-3">Mastery: {mastery(tid)}% · {p?.attempts ?? 0} attempt(s)</div>
+            </div>
+            {result.perQ.map((pq, i) => <QuestionCard key={i} q={pq.q} index={i} answer={answers[i]} result={pq} />)}
+          </>
+        ) : (
+          <>
+            {quiz!.map((q, i) => (
+              <QuestionCard key={i} q={q} index={i} answer={answers[i]}
+                onAnswer={a => setAnswers(prev => { const n = [...prev]; n[i] = a; return n; })} />
+            ))}
+            <div className="row mt-4" style={{ justifyContent: 'center' }}>
+              <button className="btn btn-primary btn-lg" onClick={submitQuiz}>Submit answers ✓</button>
+            </div>
+          </>
+        )
       )}
 
       {tab === 'tutor' && (
-        <div className="tutor-pane">
-          <div className="chip-row">
-            {chips.map(c => <button key={c} className="chip" onClick={() => sendTutor(c)}>{c}</button>)}
+        <div className="tutor-box">
+          <div className="spread" style={{ padding: '14px 18px', borderBottom: '1px solid var(--border)', background: 'var(--card-2)' }}>
+            <h3 style={{ margin: 0 }}>🤖 AI Tutor <span className="tiny muted">— {topic.title}</span></h3>
           </div>
-          <div className="chat-log">
+          <div className="tutor-chat">
+            <div className="tutor-msg ai">Hi! I'm your personal tutor for <b>{topic.title}</b>. Ask me to explain it simpler, give examples, or quiz you. 🎓</div>
             {chat.map((m, i) => (
-              <div key={i} className={'chat-msg ' + m.role}>{m.text.split('\n').map((l, j) => <p key={j}>{l}</p>)}</div>
+              <div key={i} className={'tutor-msg ' + m.role}>{m.text.split('\n').map((l, j) => <p key={j}>{l}</p>)}</div>
             ))}
-            {!chat.length && <div className="chat-msg tutor">Hi! I'm your EthioStudy tutor for <b>{topic.title}</b>. Ask me anything, or tap a suggestion above. 🎓</div>}
           </div>
-          <form className="chat-input" onSubmit={e => { e.preventDefault(); sendTutor(input); }}>
-            <input value={input} onChange={e => setInput(e.target.value)} placeholder="Ask about this topic…" />
+          <div className="tutor-chips">
+            {chips.map(c => <button key={c} className="btn btn-sm" onClick={() => sendTutor(c)}>{c}</button>)}
+          </div>
+          <form className="tutor-input" onSubmit={e => { e.preventDefault(); sendTutor(input); }}>
+            <input value={input} onChange={e => setInput(e.target.value)} placeholder="Ask the AI tutor anything about this topic…" />
             <button className="btn btn-primary" type="submit">Send</button>
           </form>
         </div>
       )}
 
       {tab === 'notes' && (
-        <div className="notes-pane">
-          <form onSubmit={e => {
-            const f = e.target as HTMLFormElement;
-            const ta = f.elements.namedItem('note') as HTMLTextAreaElement;
-            if (ta.value.trim()) { addNote(tid, ta.value.trim()); ta.value = ''; }
-            e.preventDefault();
-          }}>
-            <textarea name="note" placeholder="Write a note about this topic…" rows={3} />
-            <button className="btn btn-primary" type="submit">Save note</button>
-          </form>
-          {notes.map((n, i) => (
-            <div key={i} className="note-card">
-              <p>{n.text}</p>
-              <div className="note-foot">
-                <span>{new Date(n.at).toLocaleString()}</span>
-                <button className="icon-btn" onClick={() => deleteNote(tid, i)}>🗑</button>
-              </div>
+        <>
+          <div className="card">
+            <h3>📒 Notes — {topic.title}</h3>
+            <p className="tiny muted">Notes save automatically. Write while you study!</p>
+            <textarea className="note-editor" id="noteInput" placeholder="Write your notes here… (Ctrl+Enter or click Save)"
+              onKeyDown={e => {
+                if ((e.ctrlKey || e.metaKey) && e.key === 'Enter') {
+                  const ta = e.target as HTMLTextAreaElement;
+                  if (ta.value.trim()) { addNote(tid, ta.value.trim()); ta.value = ''; }
+                }
+              }} />
+            <button className="btn btn-primary mt-3" onClick={() => {
+              const ta = document.getElementById('noteInput') as HTMLTextAreaElement | null;
+              if (ta?.value.trim()) { addNote(tid, ta.value.trim()); ta.value = ''; }
+            }}>💾 Save Note</button>
+          </div>
+          {notes.length > 0 && (
+            <div className="card mt-3">
+              {notes.map((n, i) => (
+                <div key={i} className="spread" style={{ padding: '10px 0', borderBottom: i < notes.length - 1 ? '1px solid var(--border)' : 'none' }}>
+                  <div>
+                    <p style={{ margin: 0 }}>{n.text}</p>
+                    <div className="tiny muted mt-2">{new Date(n.at).toLocaleString()}</div>
+                  </div>
+                  <button className="icon-btn" onClick={() => deleteNote(tid, i)}>🗑</button>
+                </div>
+              ))}
             </div>
-          ))}
-        </div>
+          )}
+        </>
       )}
-    </div>
+    </>
   );
 }
 
 function LessonPane({ lesson }: { lesson: NonNullable<ReturnType<typeof lessonFor>> }) {
+  if (!lesson.simple && !lesson.keyTerms?.length && !lesson.formulas?.length) {
+    return <EmptyState icon="🚧" title="Lesson coming soon" sub="The full lesson for this topic is being written. Try the Quiz or another topic!" />;
+  }
   return (
-    <div className="lesson-pane">
-      {lesson.simple && <section className="lesson-block"><h3>💡 Simple Explanation</h3><p>{lesson.simple}</p></section>}
-      {lesson.objectives?.length ? <section className="lesson-block"><h3>🎯 Objectives</h3><ul>{lesson.objectives.map((o, i) => <li key={i}>{o}</li>)}</ul></section> : null}
-      {lesson.keyTerms?.length ? <section className="lesson-block"><h3>📕 Key Terms</h3>{lesson.keyTerms.map((k, i) => <div key={i} className="keyterm"><b>{k.term}</b> — {k.def}</div>)}</section> : null}
-      {lesson.formulas?.length ? <section className="lesson-block"><h3>🧮 Formulas</h3>{lesson.formulas.map((f, i) => (
-        <div key={i} className="formula-card">
-          <div className="formula-name">{f.name}</div>
-          <code className="formula-expr">{f.formula}</code>
-          {f.meaning && <p>{f.meaning}</p>}
-          {f.when && <p className="muted">When to use: {f.when}</p>}
-          {f.units && <p className="muted">Units: {f.units}</p>}
+    <>
+      {lesson.objectives?.length ? <div className="card"><h3>🎯 Learning Objectives</h3><p className="tiny muted">By the end of this lesson you should be able to:</p><ul className="objectives">{lesson.objectives.map((o, i) => <li key={i}>{o}</li>)}</ul></div> : null}
+      {lesson.simple && <div className="card"><h3>💡 Simple Explanation</h3><p>{lesson.simple}</p></div>}
+      {lesson.detailed && <div className="card"><h3>📖 Detailed Explanation</h3>{lesson.detailed.split('\n').map((x, i) => x.trim() ? <p key={i}>{x}</p> : null)}</div>}
+      {lesson.keyTerms?.length ? <div className="card"><h3>🔑 Key Terms</h3>{lesson.keyTerms.map((k, i) => <div key={i} className="keyterm"><b>{k.term}</b><span>{k.def}</span></div>)}</div> : null}
+      {lesson.formulas?.length ? <div className="card"><h3>🧮 Formulas</h3>{lesson.formulas.map((f, i) => (
+        <div key={i} className="formula-box">
+          <div className="tiny muted">{f.name || ''}</div>
+          <div className="formula-main">{f.formula}</div>
+          {f.meaning && <p className="mt-2" style={{ marginBottom: 6 }}>{f.meaning}</p>}
+          {f.vars && (() => {
+            const vs = typeof f.vars === 'string' ? [f.vars] : f.vars;
+            return <div className="tiny">{vs.map((v, j) => <span key={j}>{typeof v === 'string' ? v : <><b>{v.name}</b> = {v.meaning}{v.unit ? ' (' + v.unit + ')' : ''}</>}{j < vs.length - 1 ? ' · ' : ''}</span>)}</div>;
+          })()}
+          {f.when && <div className="tiny mt-2 muted"><b>Use when:</b> {f.when}</div>}
+          {f.units && <div className="tiny mt-2 muted"><b>Units:</b> {f.units}</div>}
         </div>
-      ))}</section> : null}
-      {lesson.workedExamples?.length ? <section className="lesson-block"><h3>✍️ Worked Examples</h3>{lesson.workedExamples.map((ex, i) => (
-        <details key={i} className="example-card">
-          <summary><b>{ex.problem}</b></summary>
-          {ex.given && <p>Given: {ex.given}</p>}
-          {ex.formula && <p>Formula: {ex.formula}</p>}
-          {(ex.substitution || ex.calculation) && <p>{ex.substitution} {ex.calculation}</p>}
-          <p className="answer">✅ Answer: {ex.answer}</p>
-        </details>
-      ))}</section> : null}
-      {lesson.applications?.length ? <section className="lesson-block"><h3>🌍 Real-world Applications</h3><ul>{lesson.applications.map((a, i) => <li key={i}>{a}</li>)}</ul></section> : null}
-      {lesson.commonMistakes?.length ? <section className="lesson-block warn"><h3>⚠️ Common Mistakes</h3><ul>{lesson.commonMistakes.map((m, i) => <li key={i}>{m}</li>)}</ul></section> : null}
-    </div>
+      ))}</div> : null}
+      {lesson.workedExamples?.length ? <div className="card"><h3>✍️ Worked Examples</h3>{lesson.workedExamples.map((ex, i) => (
+        <div key={i} className="example-box">
+          <div className="example-head">📐 Example {i + 1}</div>
+          <div className="example-body">
+            <div className="step"><span className="s-label">Problem</span><span>{ex.problem}</span></div>
+            {ex.given && <div className="step"><span className="s-label">Given</span><span>{ex.given}</span></div>}
+            {ex.formula && <div className="step"><span className="s-label">Formula</span><span className="formula-main" style={{ textAlign: 'left', fontSize: '1.1rem' }}>{ex.formula}</span></div>}
+            {ex.substitution && <div className="step"><span className="s-label">Substitution</span><span>{ex.substitution}</span></div>}
+            {ex.calculation && <div className="step"><span className="s-label">Calculation</span><span>{ex.calculation}</span></div>}
+            {ex.answer && <div className="answer-line">Answer: {ex.answer}</div>}
+          </div>
+        </div>
+      ))}</div> : null}
+      {lesson.applications?.length ? <div className="card"><h3>🌍 Real-World Applications</h3><ul>{lesson.applications.map((a, i) => <li key={i}>{a}</li>)}</ul></div> : null}
+      {lesson.commonMistakes?.length ? <div className="card"><h3>⚠️ Common Mistakes</h3><ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>{lesson.commonMistakes.map((cm, i) => <li key={i} style={{ margin: '8px 0' }}>❌ {cm}</li>)}</ul></div> : null}
+      {lesson.summary && <div className="card callout callout-success"><h3 style={{ marginTop: 0 }}>📋 Quick Summary</h3>{lesson.summary.split('\n').map((x, i) => x.trim() ? <p key={i} style={{ marginBottom: 6 }}>{x}</p> : null)}</div>}
+    </>
   );
 }
