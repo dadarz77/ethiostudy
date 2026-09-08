@@ -290,7 +290,7 @@ function LessonPane({ lesson }: { lesson: NonNullable<ReturnType<typeof lessonFo
       {lesson.keyTerms?.length ? (
         <section className="card lesson-section">
           <h3 className="section-title">🔑 Key Terms</h3>
-          <div className="keyterm-grid">{lesson.keyTerms.map((k, i) => (
+          <div>{lesson.keyTerms.map((k, i) => (
             <div key={i} className="keyterm"><b>{k.term}</b><span>{k.def}</span></div>
           ))}</div>
         </section>

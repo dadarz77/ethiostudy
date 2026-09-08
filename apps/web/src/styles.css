@@ -709,11 +709,7 @@ tr:hover td { background: color-mix(in srgb, var(--card-2) 60%, transparent); }
 .simple-text { font-size: 1.05rem; line-height: 1.8; color: var(--muted-foreground); }
 .simple-text b { color: #34d399; }
 
-/* key terms as cards */
-.keyterm-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: var(--space-3); }
-.keyterm { background: color-mix(in srgb, var(--card) 70%, var(--accent) 4%); border: 1px solid var(--border); border-radius: 12px; padding: 12px 14px; display: grid; gap: 4px; }
-.keyterm b { font-size: .95rem; }
-.keyterm span { font-size: .85rem; color: var(--muted-foreground); line-height: 1.55; }
+/* key terms keep the original two-column table-style list (.keyterm below) */
 
 /* formula var lists */
 .var-list b { color: var(--accent); }
@@ -733,4 +729,4 @@ tr:hover td { background: color-mix(in srgb, var(--card-2) 60%, transparent); }
 .summary-card { border: 1px solid color-mix(in srgb, #34d399 35%, var(--border)); background: linear-gradient(160deg, var(--card), color-mix(in srgb, #34d399 7%, var(--card))); }
 .summary-card p { line-height: 1.75; margin: 0 0 .7em; }
 .summary-card b { color: #34d399; }
-@media (max-width: 700px) { .prose { max-width: none; } .keyterm-grid { grid-template-columns: 1fr; } }
+@media (max-width: 700px) { .prose { max-width: none; } }
