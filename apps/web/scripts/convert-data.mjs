@@ -27,13 +27,29 @@ function load(files) {
 }
 
 const contentFiles = readdirSync(DATA).filter(f => f.startsWith('content-')).sort();
-const cur = load([join(DATA, 'curriculum-g10.js'), join(DATA, 'curriculum-g11.js')]);
+const cur = load([join(DATA, 'curriculum-g9.js'), join(DATA, 'curriculum-g10.js'), join(DATA, 'curriculum-g11.js')]);
 const L = load(contentFiles.map(f => join(DATA, f)));
 
-const curriculum = cur.CURRICULUM_ALL; // { "10": [...subjects], "11": [...subjects] }
-const topicIndex = cur.topicIndex ?? {};
+const curriculum = cur.CURRICULUM_ALL; // { "9": [...], "10": [...], "11": [...subj...] }
+// Pilot: grade 9 ships mathematics only for now; other G9 subjects stay unlisted until lessons are authored.
+curriculum["9"] = { mathematics: cur.CURRICULUM_G9.mathematics };
 const lessons = L.Lessons ?? {};
-if (!curriculum?.["10"] || !curriculum?.["11"]) {
+// Rebuild flat topic index over all grades (curriculum-g11 builds only 10+11 at load time).
+const topicIndex = {};
+for (const [grade, subjects] of Object.entries(curriculum)) {
+  for (const [subjKey, subj] of Object.entries(subjects)) {
+    for (const unit of subj.units) {
+      for (const topic of unit.topics) {
+        const tid = `g${grade}-${subjKey}-u${unit.id.split('-')[0]}-t${topic.id.split('-')[1]}`;
+        topic._id = tid; topic._grade = grade; topic._subject = subjKey;
+        topic._unit = unit.id; topic._unitTitle = unit.title;
+        topic._subjectTitle = subj.title; topic._subjectIcon = subj.icon; topic._subjectColor = subj.color;
+        topicIndex[tid] = topic;
+      }
+    }
+  }
+}
+if (!curriculum?.["9"] || !curriculum?.["10"] || !curriculum?.["11"]) {
   console.error('CURRICULUM_ALL missing grades — check globals'); process.exit(1);
 }
 
@@ -46,7 +62,7 @@ console.log(`curriculum topics: ${topicIds.length}`);
 console.log(`lesson keys: ${lessonKeys.length}`);
 console.log(`ORPHAN keys (in content, not in curriculum): ${orphans.length}`);
 console.log(`TOPICS without lesson: ${missing.length}`);
-if (orphans.length || missing.length || topicIds.length !== 226) {
+if (orphans.length || missing.length || topicIds.length !== 249) {
   console.error('INVARIANT FAILED — aborting, nothing written.');
   process.exit(1);
 }

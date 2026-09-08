@@ -15,7 +15,7 @@ export default function Settings() {
       <div className="card mt-4">
         <h3>🎓 Grade</h3>
         <div className="row">
-          {(['10', '11'] as const).map(g => (
+          {(['9', '10', '11'] as const).map(g => (
             <button key={g} className={'btn' + (settings.grade === g ? ' btn-primary' : '')} onClick={() => setSetting('grade', g)}>Grade {g}</button>
           ))}
         </div>

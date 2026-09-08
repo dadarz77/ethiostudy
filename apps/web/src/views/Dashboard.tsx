@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import { useAppStore } from '../store/useAppStore';
-import { topicById, subjectsFor, fmtTime, CURRICULUM } from '../lib/curriculum';
+import { topicById, subjectsFor, fmtTime, CURRICULUM, type Grade } from '../lib/curriculum';
 import { statsFor } from '../lib/scoring';
 import { tr } from '../lib/i18n';
 import { StatCard, ProgressBar, EmptyState, useOrbitTilt } from '../components/ui';
@@ -45,7 +45,7 @@ export default function Dashboard() {
           <button className="text-action" onClick={() => navigate('/browse')}>{lang === 'am' ? 'ሁሉንም ይመልከቱ' : 'View curriculum'} <span>→</span></button>
         </div>
         <div className="subject-card-grid">
-          {subjectsFor(grade as '10' | '11').map(({ key, s: subj }, index) => {
+          {subjectsFor(grade as Grade).map(({ key, s: subj }, index) => {
             const st = statsFor(CURRICULUM as never, s.progress, { grade, subjectKey: key });
             return (
               <button key={key} className={'subject-orbit-card subject-' + key} style={{ ['--card-index' as string]: index }}
@@ -88,7 +88,7 @@ export default function Dashboard() {
 
       <h2 className="section-title">📈 {lang === 'am' ? 'በትምህርት ዓይነት እድገት' : 'Progress by Subject'} — Grade {grade}</h2>
       <div className="card">
-        {subjectsFor(grade as '10' | '11').map(({ key, s: subj }, i) => {
+        {subjectsFor(grade as Grade).map(({ key, s: subj }, i) => {
           const st = statsFor(CURRICULUM as never, s.progress, { grade, subjectKey: key });
           return (
             <div key={key} style={{ margin: i === 0 ? 0 : '18px 0 0' }}>

@@ -19,7 +19,7 @@ export interface HistoryEntry {
   type: 'study' | 'quiz'; topicId: string; at: number; score?: number; sec?: number; correct?: number; total?: number;
 }
 export interface Settings {
-  theme: 'dark' | 'light'; grade: '10' | '11'; language: 'en' | 'am';
+  theme: 'dark' | 'light'; grade: '9' | '10' | '11'; language: 'en' | 'am';
   sound: boolean; quizLen: number; examLen: number;
 }
 

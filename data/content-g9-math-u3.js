@@ -1,0 +1,255 @@
+/* Content: Grade 9 Mathematics — Unit 3: Solving Equations (3 topics) */
+window.Lessons = window.Lessons || {};
+
+Lessons["g9-mathematics-um3-t1"] = {
+  overview: "Linear equations are balance-scale problems: whatever you do to one side, do to the other. Two unknowns need two equations — substitution and elimination are the two ways to break the tie.",
+  objectives: [
+    "Solve one-step and multi-step linear equations in one variable",
+    "Handle equations with variables on both sides and brackets",
+    "Solve simultaneous linear equations by substitution",
+    "Solve simultaneous linear equations by elimination",
+    "Set up and solve word problems with two unknowns"
+  ],
+  simple: "An equation is a balance: 2x + 3 = 11 says 'two copies of x plus 3 weigh the same as 11'. Peel backwards — subtract 3 (2x = 8), divide by 2 (x = 4), check: 2·4+3 = 11 ✓. Two unknowns? One sentence isn't enough: x + y = 10 has endless answers. Add a second condition like x − y = 2 and only (6, 4) survives. <b>Substitution</b>: rearrange one equation, plug into the other. <b>Elimination</b>: line up coefficients and add/subtract to destroy one unknown.",
+  detailed: "<p>A <b>linear equation</b> in x has the form ax + b = c. Solving means isolating x with inverse operations applied to BOTH sides: undo +/− first, then ×/÷. With variables on both sides (5x − 2 = 2x + 10), collect x-terms left and constants right: 3x = 12 → x = 4. Brackets expand first: 3(x − 1) = 2(x + 4) → 3x − 3 = 2x + 8 → x = 11. Fractions clear by multiplying through by the LCD: x/2 + x/3 = 5 becomes 3x + 2x = 30 → x = 6. Always substitute the answer back — a one-line check catches slips.</p><p>Special outcomes: if x vanishes and a FALSE statement remains (3 = 7), the equation has <b>no solution</b>; if it vanishes leaving a TRUE statement (0 = 0), <b>every</b> value solves it (infinitely many). Recognising these saves exam panic.</p><p>A <b>system of simultaneous equations</b> demands a pair (x, y) satisfying both lines at once — geometrically, the intersection of two straight lines. <b>Substitution</b> works well when one variable is already isolated: from y = 2x − 1 and x + y = 8, replace y: x + (2x − 1) = 8 → 3x = 9 → x = 3, y = 5. <b>Elimination</b> shines with aligned coefficients: 2x + 3y = 12 and 2x − y = 4 subtract to 4y = 8 → y = 2, then x = 3. When coefficients don't align, multiply one or both equations first (e.g. ×3 and ×2 to force matching x-coefficients).</p><p>Word-problem translation recipe: name the unknowns with units ('let x = price of one quintal of teff, y = price of one quintal of maize'), write one equation per stated relationship, solve, then re-read the question to answer what was ASKED. Classic shapes: total-and-difference (x + y = total, x − y = difference → x = (T+D)/2), cost mixtures, age problems ('in 5 years I will be twice…'), and speed-distance (downstream/upstream currents add and subtract).</p><p>Geometry enters too: angles on a line sum to 180°, so (3x + 10) + (2x − 20) = 180 solves for x. The complement/supplement and perimeter formulas are linear equations wearing costumes.</p>",
+  keyTerms: [
+    { term: "Linear equation", def: "First-degree equation ax + b = c; its graph is a straight line" },
+    { term: "Identity", def: "True for every value (0 = 0 after simplifying) — infinitely many solutions" },
+    { term: "Contradiction", def: "False for every value (3 = 7) — no solution" },
+    { term: "Simultaneous equations", def: "Two or more equations sharing the same unknowns" },
+    { term: "Substitution method", def: "Isolate one unknown and inject it into the other equation" },
+    { term: "Elimination method", def: "Add or subtract equations to cancel one unknown" }
+  ],
+  formulas: [
+    {
+      name: "Total-and-difference shortcut",
+      formula: "x = (T + D)/2, y = (T − D)/2",
+      meaning: "When x + y = T and x − y = D, the larger is half the total plus half the difference",
+      when: "Speed-solving two-number word problems"
+    }
+  ],
+  workedExamples: [
+    {
+      problem: "Solve: 4(x − 3) + 2 = 3(2x − 5).",
+      calculation: "4x − 12 + 2 = 6x − 15 → 4x − 10 = 6x − 15 → −2x = −5",
+      answer: "x = 5/2 (check: LHS = 4(−1/2) + 2 = 0; RHS = 3(0) = 0 ✓)"
+    },
+    {
+      problem: "Solve x/2 − x/3 = 5.",
+      substitution: "× LCD 6: 3x − 2x = 30",
+      answer: "x = 30"
+    },
+    {
+      problem: "Solve simultaneously: 3x + 2y = 16, x − y = 2.",
+      formula: "substitution from second: x = y + 2",
+      calculation: "3(y+2) + 2y = 16 → 5y + 6 = 16 → y = 2, x = 4",
+      answer: "(x, y) = (4, 2)"
+    },
+    {
+      problem: "A mother is 3 times as old as her son. In 10 years she will be twice as old. Find their ages.",
+      given: "m = 3s; m + 10 = 2(s + 10)",
+      calculation: "3s + 10 = 2s + 20 → s = 10, m = 30",
+      answer: "Son 10, mother 30 (check: 40 = 2×20 ✓)"
+    }
+  ],
+  commonMistakes: [
+    "Applying an operation to one side only — the balance breaks",
+    "Sign error expanding brackets: −2(x − 3) = −2x + 6, not −2x − 6",
+    "In elimination, ADDING when signs differ: if y-coefficients are +3 and −3, add to cancel; if both +3, subtract",
+    "Answering with x when the question asked for x + y or a distance",
+    "Division-by-zero panic on 'no solution': state 'inconsistent — no solution' instead of retrying algebra",
+    "Forgetting to check: substitute back into BOTH original equations, not the rearranged one"
+  ],
+  applications: [
+    "Market math: '3 knots + 2 tomatoes = 110 birr; 1 knot + 4 tomatoes = 120' — prices are a 2×2 system",
+    "Mixtures: blending teff grades at different prices is a weighted linear system",
+    "Mobile plans: break-even between pay-as-you-go (y = mx) and monthly bundle (y = m'x + b)",
+    "Construction: perimeter and angle constraints in a frame are linear equations"
+  ],
+  summary: "Solve linear equations with inverse operations both sides — brackets first, clear fractions with the LCD. False remainders mean no solution; true remainders mean infinitely many. Two unknowns need two equations: substitute when one is isolated, eliminate when coefficients line up (multiply to force them). Word problems: name unknowns, one equation per fact, check in the ORIGINALS.",
+  visuals: [],
+  questions: [
+    { type: "mcq", q: "Solve: 5x − 7 = 3x + 9", options: ["x = 1", "x = 8", "x = 2", "x = 16"], answer: 1, difficulty: 1, explanation: "2x = 16 → x = 8. Check: 40−7 = 33 = 24+9 ✓" },
+    { type: "mcq", q: "The equation 2(x+3) = 2x + 7 has:", options: ["x = 1", "no solution", "infinitely many solutions", "x = 0"], answer: 1, difficulty: 2, explanation: "6 = 7 after cancelling 2x — a contradiction." },
+    { type: "mcq", q: "Solve x/3 + x/4 = 7:", options: ["x = 12", "x = 24", "x = 21", "x = 84"], answer: 0, difficulty: 2, explanation: "×12: 4x + 3x = 84 → 7x = 84 → x = 12." },
+    { type: "mcq", q: "The system x + y = 7, x − y = 3 solves to:", options: ["(5, 2)", "(4, 3)", "(3, 4)", "(6, 1)"], answer: 0, difficulty: 1, explanation: "Add: 2x = 10 → x = 5, y = 2." },
+    { type: "mcq", q: "For 2x + 3y = 11 and 2x − y = 3, the fastest route is:", options: ["substitution only", "subtract to eliminate x", "multiply both by 2", "graph first"], answer: 1, difficulty: 2, explanation: "x-coefficients are equal — subtract: 4y = 8 → y = 2, x = 5/2… check in second: 2x = 5, x = 2.5 ✓" },
+    { type: "mcq", q: "3 pens + 2 notebooks cost 115 birr; a pen costs 5 more than a notebook. Pen price:", options: ["20", "25", "30", "35"], answer: 1, difficulty: 2, explanation: "p = n + 5: 3(n+5) + 2n = 115 → 5n = 100 → n = 20, p = 25. Check: 75 + 40 = 115 ✓" },
+    { type: "mcq", q: "Which pair is a solution to 2x + y = 8?", options: ["(2, 3)", "(3, 2)", "(4, 4)", "(1, 5)"], answer: 1, difficulty: 1, explanation: "2(3) + 2 = 8 ✓. One linear equation has many solutions; check each pair." },
+    { type: "mcq", q: "Solve 7 − 2(x − 1) = 3x:", options: ["x = 1", "x = 9/5", "x = 5/9", "x = −1"], answer: 1, difficulty: 2, explanation: "7 − 2x + 2 = 3x → 9 = 5x → x = 9/5." }
+  ]
+};
+
+Lessons["g9-mathematics-um3-t2"] = {
+  overview: "Quadratics have up to two answers — the price of being second degree. Three tools unlock them all: factoring, completing the square, and the quadratic formula that never fails.",
+  objectives: [
+    "Recognize quadratic equations in standard form ax² + bx + c = 0",
+    "Solve by factoring using the zero-product property",
+    "Complete the square on any quadratic",
+    "Apply the quadratic formula and interpret the discriminant",
+    "Choose the most efficient method for a given quadratic"
+  ],
+  simple: "A quadratic has x² as its biggest power: x² − 5x + 6 = 0. Factoring finds two numbers that multiply to c and add to b: 2 and 3 → (x−2)(x−3) = 0 → x = 2 or 3. Why does that work? If two things multiply to ZERO, one of them MUST be zero (zero-product property). When factoring fails, the <b>quadratic formula</b> x = (−b ± √(b²−4ac)) / 2a computes the answer directly, every time. The ± predicts up to two solutions, and the bit under the root (b²−4ac) tells you how many.",
+  detailed: "<p>A quadratic is <b>ax² + bx + c = 0</b> with a ≠ 0. Some drop terms (x² − 9 = 0, x² + 4x = 0) — those missing pieces make them especially fast: x² = 9 → x = ±3; x(x + 4) = 0 → x = 0 or −4.</p><p><b>Factoring</b> exploits the zero-product property: if PQ = 0 then P = 0 or Q = 0. For x² + bx + c hunt two numbers multiplying to c and adding to b: x² − 5x + 6 → −2 × −3 = 6, −2 + −3 = −5 → (x − 2)(x − 3) = 0 → x = 2 or 3. Special patterns speed it further: difference of squares a² − b² = (a+b)(a−b), and perfect squares a² ± 2ab + b² = (a±b)².</p><p><b>Completing the square</b> rewrites any quadratic as (x + p)² = q. Take half of b, square it, add and subtract: x² + 6x + 2 = 0 → (x² + 6x + 9) − 9 + 2 = 0 → (x + 3)² = 7 → x = −3 ± √7. This always works because the left side becomes a perfect square by construction — and it reveals the vertex (−3, −7) for free, connecting algebra to the parabola's shape.</p><p>The <b>quadratic formula</b> x = (−b ± √(b² − 4ac)) / 2a IS completing the square performed once and for all on ax² + bx + c = 0. Feed in a, b, c with their signs. The <b>discriminant</b> Δ = b² − 4ac counts solutions without finding them: Δ > 0 two distinct real roots, Δ = 0 exactly one (x = −b/2a, the vertex touches the axis), Δ < 0 none in the reals.</p><p>Worked discipline prevents the classic formula fires: wrap b and c in parentheses with their signs (a = 1, b = −5, c = 6), compute Δ first, then the two branches of ±. Check by substitution or by the root-sum/product facts (covered next topic). When a ≠ 1, factoring needs the AC-trick (two numbers multiplying to ac, splitting the middle) — or just use the formula.</p><p>Word problems frame quadratics everywhere: rectangle area (length = width + k gives w(w+k) = A → quadratic), projectile height h = ut − 5t² (set h = target, solve; two times = going up and coming down), consecutive integers, and profit = price × units with a linear demand. Reject negative lengths/ages/time — the math gives two roots; the situation picks one.</p>",
+  keyTerms: [
+    { term: "Quadratic equation", def: "ax² + bx + c = 0 with a ≠ 0 — degree two, up to two roots" },
+    { term: "Zero-product property", def: "PQ = 0 ⇒ P = 0 or Q = 0 — why factoring solves" },
+    { term: "Roots", def: "The x-values satisfying the equation; where the parabola meets y = 0" },
+    { term: "Completing the square", def: "Rewriting as (x + p)² = q by adding (b/2)²" },
+    { term: "Discriminant Δ", def: "b² − 4ac: sign counts the real roots (>0 two, =0 one, <0 none)" },
+    { term: "Difference of squares", def: "a² − b² = (a + b)(a − b)" }
+  ],
+  formulas: [
+    {
+      name: "Quadratic formula",
+      formula: "x = (−b ± √(b² − 4ac)) / 2a",
+      meaning: "Solves every quadratic ax² + bx + c = 0; ± gives both branches",
+      vars: [{ name: "a", meaning: "coefficient of x² (a ≠ 0)" }, { name: "b", meaning: "coefficient of x" }, { name: "c", meaning: "constant term" }],
+      when: "When factoring is hard or impossible; always works"
+    },
+    {
+      name: "Discriminant",
+      formula: "Δ = b² − 4ac",
+      meaning: "Δ > 0: two real roots · Δ = 0: one repeated root · Δ < 0: no real roots",
+      when: "Counting solutions before solving; proving a line is tangent (Δ = 0)"
+    }
+  ],
+  workedExamples: [
+    {
+      problem: "Solve x² − 7x + 12 = 0 by factoring.",
+      calculation: "Two numbers ×12, sum −7: −3 and −4 → (x − 3)(x − 4) = 0",
+      answer: "x = 3 or x = 4"
+    },
+    {
+      problem: "Solve x² + 6x − 2 = 0 by completing the square.",
+      calculation: "(x + 3)² = 2 + 9 = 11",
+      answer: "x = −3 ± √11"
+    },
+    {
+      problem: "Apply the formula to 2x² − 4x − 3 = 0.",
+      given: "a = 2, b = −4, c = −3",
+      formula: "x = (4 ± √(16 + 24)) / 4",
+      calculation: "Δ = 16 − 4(2)(−3) = 40; x = (4 ± 2√10)/4",
+      answer: "x = 1 + √10/2 ≈ 2.58 or x = 1 − √10/2 ≈ −0.58"
+    },
+    {
+      problem: "A ball's height is h = 20t − 5t². When is h = 15 m? Explain the two answers.",
+      substitution: "20t − 5t² = 15 → t² − 4t + 3 = 0 → (t − 1)(t − 3) = 0",
+      answer: "t = 1 s (rising) and t = 3 s (falling) — same height twice"
+    }
+  ],
+  commonMistakes: [
+    "Dividing or moving terms while KEEPING the x² term — rearrange to ax² + bx + c = 0 FIRST",
+    "Formula sign disaster: with b = −4, −b = +4 and b² = 16 — plug b with its sign inside the square",
+    "Forgetting the ± and losing half the solutions (x² = 9 has x = ±3)",
+    "Applying zero-product without setting the equation to 0: (x−2)(x+2) = 5 cannot be split — rearrange to x² = 9 first, then x = ±3",
+    "Assuming every quadratic factors over integers — Δ not a perfect square means formula/square method needed",
+    "In word problems, presenting a negative root as a real answer (discard time/length < 0)"
+  ],
+  applications: [
+    "Projectile motion: every thrown object traces a parabola — quadratics predict peak and landing",
+    "Business profit: revenue = price × sales with linear demand gives a quadratic with a maximum",
+    "Design: arches, satellite dishes and headlights are parabolas defined by quadratic equations",
+    "Area problems: a path of width x around a garden gives (L+2x)(W+2x) = known area — quadratic in x"
+  ],
+  summary: "Quadratics (ax²+bx+c = 0, a ≠ 0) have up to two roots. Factor when integer pairs exist (zero-product does the rest); complete the square (add (b/2)²) for vertex insight; the formula x = (−b ± √(b²−4ac))/2a always works, with the discriminant counting roots: two/one/none as Δ > 0, = 0, < 0.",
+  visuals: [],
+  questions: [
+    { type: "mcq", q: "x² − 9 = 0 solutions:", options: ["x = 3 only", "x = ±3", "x = ±9", "no solution"], answer: 1, difficulty: 1, explanation: "Difference of squares: (x−3)(x+3)=0 → x = ±3." },
+    { type: "mcq", q: "Factor x² + 5x + 6:", options: ["(x+2)(x+3)", "(x+1)(x+6)", "(x−2)(x−3)", "(x+5)(x+1)"], answer: 0, difficulty: 1, explanation: "2×3 = 6 and 2+3 = 5." },
+    { type: "mcq", q: "The discriminant of x² + 2x + 5 is:", options: ["16 → two roots", "−16 → no real roots", "4 → one root", "24 → two roots"], answer: 1, difficulty: 2, explanation: "Δ = 4 − 20 = −16 < 0: the parabola floats above the axis." },
+    { type: "mcq", q: "x² − 6x + 9 = 0 has:", options: ["two distinct roots", "one repeated root x = 3", "root x = 9", "no roots"], answer: 1, difficulty: 2, explanation: "Perfect square (x − 3)² = 0; Δ = 36 − 36 = 0." },
+    { type: "mcq", q: "Solving 2x² + 3x − 2 = 0 with the formula, Δ equals:", options: ["7", "25", "−7", "5"], answer: 1, difficulty: 2, explanation: "Δ = 9 − 4(2)(−2) = 9 + 16 = 25; roots x = 1/2 and x = −2." },
+    { type: "mcq", q: "Completing the square on x² + 8x requires adding:", options: ["8", "16", "64", "4"], answer: 1, difficulty: 2, explanation: "(b/2)² = 4² = 16 → (x+4)² − 16." },
+    { type: "mcq", q: "Zero-product property says:", options: ["if PQ = 0 then P = 0 and Q = 0", "if PQ = 0 then P = 0 or Q = 0", "PQ can be 0 with both non-zero", "only integers qualify"], answer: 1, difficulty: 1, explanation: "At least one factor must vanish — the 'or' is the whole point of factoring." },
+    { type: "mcq", q: "h = 20t − 5t²; h = 0 at t = 0 (launch). It lands at:", options: ["t = 2", "t = 4", "t = 5", "t = 20"], answer: 1, difficulty: 2, explanation: "5t(4 − t) = 0 → t = 4 s." }
+  ]
+};
+
+Lessons["g9-mathematics-um3-t3"] = {
+  overview: "Some equations hide quadratics underneath — same structure, different costume. Substitution exposes them, and Vieta's formulas let you build equations from their roots.",
+  objectives: [
+    "Spot equations reducible to quadratic form via substitution",
+    "Solve biquadratic equations x⁴ + bx² + c = 0",
+    "Solve simple rational equations by cross-multiplying",
+    "Check for and reject extraneous solutions",
+    "Use sum and product of roots (Vieta) to build and verify equations"
+  ],
+  simple: "x⁴ − 5x² + 4 = 0 looks quartic but is quadratic in disguise: call u = x², solve u² − 5u + 4 = 0 → u = 1 or 4, then x = ±1, ±2. <b>Substitute</b> the ugly middle away, solve the simple shape, <b>back-substitute</b>. One warning: clearing fractions (multiply both sides by the denominator) can invent fake solutions that divide by zero — always test your answers in the original. Bonus magic: for x² + bx + c, the roots always add to −b and multiply to c. Roots 2 and 5? The equation is x² − 7x + 10 = 0.",
+  detailed: "<p><b>Biquadratics</b> have no odd powers: x⁴ − 13x² + 36 = 0. Set u = x² (u ≥ 0 for real x), solve u² − 13u + 36 = 0 → u = 4 or 9, back-substitute: x = ±2, ±3. Four roots total. If the u-roots come out negative, there are no real x — and each positive u contributes a ± pair.</p><p>The same substitution rescues other disguises: (x² + x)² − 4(x² + x) − 5 = 0 takes u = x² + x; x + √x − 2 = 0 takes u = √x; even x³-like symmetric equations bend to clever u. The recipe: identify the repeated block, replace it with u, solve the quadratic, return to x, then solve the simpler resulting equations.</p><p><b>Rational equations</b> (unknowns in denominators) clear by multiplying by the LCD — but that multiplication is only legal where denominators ≠ 0, so record <b>restrictions first</b>: x/3 + 3/x = 2 (x ≠ 0) ×3x → x² + 9 = 6x → (x − 3)² = 0 → x = 3 ✓. Worse, squaring both sides of √(x+3) = x−1 manufactures <b>extraneous roots</b>: x² − 3x − 4 = 0 gives x = 4 or −1, and only x = 4 survives the original (−1 fails: √2 ≠ −2). The rule: after clearing fractions or squaring, substitute every candidate back into the ORIGINAL equation.</p><p><b>Vieta's formulas</b> relate roots to coefficients without solving: for ax² + bx + c = 0, sum = −b/a, product = c/a. For a monic quadratic, roots r, s generate x² − (r+s)x + rs. Use them to (i) verify solutions fast (x² − 5x + 6: roots 2,3 add to 5 ✓ multiply to 6 ✓), (ii) write equations from given roots, (iii) compute r² + s² = (r+s)² − 2rs and similar symmetric expressions with zero extra algebra.</p><p>Radical equations and fractional exponents fold into the same method: x^(1/2) is u; x^(2/3) is u²; solve in u, raise back, check. The discipline that separates clean solutions from wrong ones is always the same two habits: state restrictions before clearing, and verify in the original at the end.</p>",
+  keyTerms: [
+    { term: "Reducible to quadratic", def: "Equations that become quadratics after a substitution u = f(x)" },
+    { term: "Biquadratic", def: "x⁴ + px² + q = 0 — quadratic in x², up to four real roots" },
+    { term: "Extraneous solution", def: "A fake root introduced by squaring or clearing denominators" },
+    { term: "Restriction", def: "Value(s) excluded before solving (denominator ≠ 0, radicand ≥ 0)" },
+    { term: "Vieta's formulas", def: "Sum of roots = −b/a; product = c/a" }
+  ],
+  formulas: [
+    {
+      name: "Vieta for quadratics",
+      formula: "r + s = −b/a · r·s = c/a",
+      meaning: "Roots and coefficients are two views of the same equation",
+      vars: [{ name: "r, s", meaning: "the two roots" }],
+      when: "Checking solutions, forming equations from roots, symmetric root expressions"
+    },
+    {
+      name: "Biquadratic substitution",
+      formula: "u = x² → au² + bu + c = 0 → x = ±√u",
+      meaning: "Solve for the square, then root back (discard u < 0 over the reals)",
+      when: "x⁴ + px² + q = 0 and any equation with a repeated inner block"
+    }
+  ],
+  workedExamples: [
+    {
+      problem: "Solve x⁴ − 10x² + 9 = 0.",
+      substitution: "u = x²: u² − 10u + 9 = 0 → (u − 1)(u − 9) = 0",
+      calculation: "u = 1 → x = ±1; u = 9 → x = ±3",
+      answer: "x = ±1, ±3"
+    },
+    {
+      problem: "Solve x + √x − 6 = 0.",
+      substitution: "u = √x (u ≥ 0): u² + u − 6 = 0 → (u + 3)(u − 2) = 0",
+      calculation: "u = 2 valid, u = −3 rejected (u ≥ 0)",
+      answer: "x = u² = 4"
+    },
+    {
+      problem: "Solve 2/(x − 1) + 3/(x + 1) = 1.",
+      given: "x ≠ ±1",
+      substitution: "×(x−1)(x+1): 2(x+1) + 3(x−1) = x² − 1",
+      calculation: "5x − 1 = x² − 1 → x² − 5x = 0 → x(x − 5) = 0",
+      answer: "x = 0 or x = 5 (both pass: x=0 → −2 + 3 = 1 ✓; x=5 → 1/2 + 1/2 = 1 ✓)"
+    },
+    {
+      problem: "One root of x² − 7x + k = 0 is 3. Find k and the other root.",
+      formula: "sum = 7, so other root = 7 − 3 = 4",
+      calculation: "product = k = 3·4",
+      answer: "k = 12, other root 4"
+    }
+  ],
+  commonMistakes: [
+    "Stopping after u: biquadratics need back-substitution — u = x² then x = ±√u",
+    "Forgetting the ± when returning from u (x⁴ = 9 gives x = ±√3, not just √3)",
+    "Skipping verification after squaring — extraneous roots slip into answers",
+    "Solving without noting restrictions (x ≠ 0 in fractions, radicand ≥ 0)",
+    "Vieta sign slip: sum of roots = −b/a, so x² + 5x + 6 has sum −5, not +5",
+    "Accepting u = −4 from the u-quadratic as a real x — u ≥ 0 required for real roots"
+  ],
+  applications: [
+    "Physics: certain oscillation and optics equations arrive as biquadratics in disguise",
+    "Economics: quadratic-cost pricing problems with x² appearing under a (x + 1/x) structure",
+    "Engineering tolerance analysis: rational equations link gear ratios and current flow",
+    "Pure algebra: Vieta powers 'find an equation whose roots are the squares/reciprocals of…' — exam staple"
+  ],
+  summary: "Repeated-block equations reduce to quadratics by substituting the block (u = x², √x, x²+x), solving in u, then back-substituting — keeping restrictions u ≥ 0. Clearing denominators and squaring can create extraneous roots: note restrictions first, verify in the original last. Vieta: roots add to −b/a, multiply to c/a — free checks and instant equation-building.",
+  visuals: [],
+  questions: [
+    { type: "mcq", q: "x⁴ − 5x² + 4 = 0 has how many real roots?", options: ["1", "2", "4", "0"], answer: 2, difficulty: 2, explanation: "u² − 5u + 4 = 0 → u = 1, 4 (both positive) → x = ±1, ±2." },
+    { type: "mcq", q: "In x + √x = 12, substituting u = √x gives:", options: ["u² + u − 12 = 0", "u + u² = 12", "u² − u − 12 = 0", "2u = 12"], answer: 0, difficulty: 2, explanation: "x = u²: u² + u − 12 = 0 → u = 3 → x = 9." },
+    { type: "mcq", q: "An extraneous solution is one that:", options: ["solves the final equation but not the original", "is negative", "appears twice", "requires the formula"], answer: 0, difficulty: 1, explanation: "It was manufactured by squaring or clearing — the original rejects it." },
+    { type: "mcq", q: "Roots of x² − 6x + 8 = 0 have sum and product:", options: ["6 and 8", "−6 and 8", "8 and 6", "2 and 4"], answer: 0, difficulty: 1, explanation: "Vieta: sum = −(−6)/1 = 6; product = 8 (roots 2 and 4 ✓)." },
+    { type: "mcq", q: "Squaring both sides of √(x + 5) = x − 1 can introduce solutions that fail because:", options: ["squaring loses the sign condition x − 1 ≥ 0", "it adds roots", "the square root has two values", "x must be negative"], answer: 0, difficulty: 3, explanation: "√ is non-negative, so the RHS must satisfy x ≥ 1 before squaring — candidates below fail the check." },
+    { type: "mcq", q: "A quadratic with roots 2 and −5 is:", options: ["x² − 3x − 10 = 0", "x² + 3x − 10 = 0", "x² − 7x + 10 = 0", "x² − 3x + 10 = 0"], answer: 1, difficulty: 2, explanation: "x² − (sum)x + product; sum = −3, product = −10 → x² + 3x − 10 = 0." },
+    { type: "mcq", q: "x⁴ + 3x² − 4 = 0 real solutions:", options: ["x = ±1", "x = ±2", "no real x", "x = 1 only"], answer: 0, difficulty: 2, explanation: "u² + 3u − 4 = (u+4)(u−1) → u = 1 valid (x = ±1); u = −4 rejected." },
+    { type: "mcq", q: "Solving x/(x−2) = 3 requires noting first:", options: ["x ≠ 0", "x ≠ 2", "x > 2", "x is even"], answer: 1, difficulty: 1, explanation: "The denominator must not vanish: x ≠ 2 before clearing (then x = 3x − 6 → x = 3 ✓)." }
+  ]
+};

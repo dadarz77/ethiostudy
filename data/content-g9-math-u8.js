@@ -1,0 +1,168 @@
+/* Content: Grade 9 Mathematics — Unit 8: Vectors in Two Dimensions (2 topics) */
+window.Lessons = window.Lessons || {};
+
+Lessons["g9-mathematics-um8-t1"] = {
+  overview: "A vector is a directed step — it has length AND direction, unlike plain numbers. Add them tip-to-tail, scale them, and resolve real journeys into component moves.",
+  objectives: [
+    "Distinguish scalars from vectors and represent vectors as arrows or ordered pairs",
+    "Add and subtract vectors geometrically (triangle/parallelogram law)",
+    "Multiply vectors by scalars",
+    "Compute and use vector components and magnitude",
+    "Apply vector addition to displacement problems"
+  ],
+  simple: "Walking 5 km is a number; walking 5 km <b>north-east</b> is a vector. Write it as an arrow AB or a column pair (x, y) = 'go x right, y up'. Addition is following the moves back-to-back: (3,0) + (0,4) = (3,4) — the diagonal shortcut of a two-leg walk. Subtracting = adding the reverse arrow. Scaling stretches or shrinks: 2·(1,3) = (2,6). The length (magnitude) comes from Pythagoras: |(3,4)| = 5.",
+  detailed: "<p>A <b>vector</b> has magnitude and direction; a <b>scalar</b> has only magnitude (mass, temperature, speed). Notation: arrow notation AB→ (from A to B), or bold/italic letters, or column form (x, y). A vector is <b>free</b>: any parallel, equal-length, same-direction arrow represents it regardless of starting point. The zero vector (0,0) has no direction; the vector from P(p₁,p₂) to Q(q₁,q₂) is (q₁−p₁, q₂−p₂).</p><p><b>Addition</b> is componentwise: (a,b) + (c,d) = (a+c, b+d), matching the tip-to-tail drawing: place the second arrow's tail at the first's head; the resultant runs from the original tail to the final head. The parallelogram law shows u + v = v + u (commutative), and grouping gives associativity — vector addition obeys the same algebraic laws as numbers. <b>Subtraction</b>: u − v = u + (−v), where −v flips the arrow; geometrically, AB = OB − OA from a common origin.</p><p><b>Scalar multiplication</b> kv scales length by |k| and flips direction if k < 0: k(a,b) = (ka, kb). Parallel vectors are exactly scalar multiples of each other (same or opposite line of action) — the standard exam test for 'are these parallel?': check if one row/column is a multiple of the other.</p><p>The <b>components</b> (x, y) are the projections onto the axes: x = |v|cosθ, y = |v|sinθ where θ is the bearing from the +x axis. <b>Magnitude</b> |v| = √(x² + y²) by Pythagoras — the length of the arrow. Resolving turns a bearing-and-distance description into components (a plane at 500 km/h on 060° moves (500sin60°, 500cos60°) in east-north axes), and recomposing turns components back into a journey statement.</p><p>Displacement problems compose motions: boat velocity + current velocity = actual track; walking east 3 then north 4 lands you |√(9+16)| = 5 from home. The order of additions doesn't change the final position — the commutative law in walking form. Keep direction vocabulary straight: speed is the scalar of velocity, distance of displacement.</p>",
+  keyTerms: [
+    { term: "Vector", def: "Quantity with magnitude and direction; an arrow or (x, y) pair" },
+    { term: "Scalar", def: "Magnitude only (number × vector scales it)" },
+    { term: "Resultant", def: "The single vector equal to the sum of several" },
+    { term: "Component form", def: "(x, y): the horizontal and vertical pieces" },
+    { term: "Magnitude |v|", def: "Length of the arrow: √(x² + y²)" },
+    { term: "Parallel vectors", def: "Scalar multiples of one another" }
+  ],
+  formulas: [
+    {
+      name: "Operations",
+      formula: "(a,b)+(c,d) = (a+c, b+d) · k(a,b) = (ka, kb) · |v| = √(x² + y²)",
+      meaning: "Add components, scale components, Pythagoras for length",
+      when: "Every vector computation"
+    },
+    {
+      name: "Resolution",
+      formula: "x = |v| cos θ · y = |v| sin θ",
+      meaning: "Split a magnitude-and-direction vector into axis components",
+      when: "Converting bearings/speeds to (x, y) or back"
+    }
+  ],
+  workedExamples: [
+    {
+      problem: "u = (2, −3), v = (−1, 5). Find u + v, u − v, 3u.",
+      answer: "u+v = (1, 2); u−v = (3, −8); 3u = (6, −9)"
+    },
+    {
+      problem: "Magnitude and direction of (−6, 8)?",
+      calculation: "|v| = √(36+64) = 10; θ = atan2(8, −6) ≈ 126.9°",
+      answer: "10, at ≈ 127° from +x axis"
+    },
+    {
+      problem: "A boat heads north at 12 km/h; current 5 km/h east. Actual velocity?",
+      formula: "resultant = (5, 12)",
+      calculation: "√(25 + 144) = 13; bearing tan⁻¹(5/12)",
+      answer: "13 km/h at N 22.6° E"
+    },
+    {
+      problem: "Are (4, −6) and (−2, 3) parallel?",
+      calculation: "(4,−6) = −2·(−2, 3)",
+      answer: "Yes — scalar multiple (opposite direction)"
+    }
+  ],
+  commonMistakes: [
+    "Adding magnitudes instead of vectors: |u| + |v| ≥ |u+v|, equality only when parallel",
+    "Flipping subtraction: v − u ≠ u − v (they're negatives of each other)",
+    "Missing the component order (x horizontal, y vertical)",
+    "Calling parallel vectors 'equal' — same line of action, possibly different magnitude/direction sense",
+    "Mixing degrees in atan2: use the calculator's inverse trig with quadrant care",
+    "Drawing the resultant from tail of first to TAIL of last — it ends at the HEAD"
+  ],
+  applications: [
+    "Navigation: wind corrections for planes and currents for ships are vector sums",
+    "Game dev & graphics: movement = velocity vectors added per frame",
+    "Physics preview: forces as vectors (later: equilibrium = sum zero)",
+    "Aviation weather: radar maps give (u, v) wind components directly"
+  ],
+  summary: "Vectors pair magnitude with direction; component form (x, y) makes addition and scaling arithmetic. Draw sums tip-to-tail; magnitude is Pythagoras; parallel = scalar multiple; resolve with cos/sin for bearings. Displacement is the resultant of the legs walked.",
+  visuals: [],
+  questions: [
+    { type: "mcq", q: "Which is a vector?", options: ["mass", "temperature", "velocity", "speed"], answer: 2, difficulty: 1, explanation: "Velocity carries direction; the others are scalars." },
+    { type: "mcq", q: "(1, 4) + (3, −2) =", options: ["(4, 2)", "(4, 6)", "(3, −8)", "(2, 2)"], answer: 0, difficulty: 1, explanation: "Add components: (1+3, 4−2)." },
+    { type: "mcq", q: "|(5, −12)| =", options: ["7", "13", "17", "119"], answer: 1, difficulty: 1, explanation: "√(25+144) = √169 = 13." },
+    { type: "mcq", q: "Which is parallel to (2, 3)?", options: ["(4, 6)", "(3, 2)", "(−2, 3)", "(6, 2)"], answer: 0, difficulty: 2, explanation: "(4,6) = 2·(2,3) — scalar multiple." },
+    { type: "mcq", q: "−3·(2, −5) =", options: ["(−6, 15)", "(6, −15)", "(−6, −15)", "(−1, 2)"], answer: 0, difficulty: 2, explanation: "Multiply each component; negatives flip both signs." },
+    { type: "mcq", q: "Walking 3 east then 4 north, displacement magnitude:", options: ["7", "5", "12", "1"], answer: 1, difficulty: 1, explanation: "Resultant (3,4): √25 = 5." },
+    { type: "mcq", q: "The vector from A(1,2) to B(4,−1) is:", options: ["(5, 1)", "(3, −3)", "(−3, 3)", "(4, −3)"], answer: 1, difficulty: 2, explanation: "B − A = (4−1, −1−2)." },
+    { type: "mcq", q: "Components of a 20 N force at 30° above horizontal:", options: ["(10, 17.3)", "(17.3, 10)", "(20, 30)", "(10, 10)"], answer: 1, difficulty: 3, explanation: "x = 20cos30 ≈ 17.3, y = 20sin30 = 10." }
+  ]
+};
+
+Lessons["g9-mathematics-um8-t2"] = {
+  overview: "The coordinate plane and vectors are the same language twice: points are positions, vectors are movements between them. Midpoints, distances and shape proofs follow mechanically.",
+  objectives: [
+    "Use position vectors to name points as movements from the origin",
+    "Compute distance between two points",
+    "Compute the midpoint of a segment",
+    "Classify figures on the plane with distance/slope tools",
+    "Write vector equations of points moving along lines"
+  ],
+  simple: "Pin a point (3, 4) to the map with its <b>position vector</b> — the move from origin O to that point. Once points are vectors, movements are subtraction: from A to B is simply b − a. Two formulas do the measuring: <b>distance</b> = √((x₂−x₁)² + (y₂−y₁)²) (Pythagoras again) and <b>midpoint</b> = average the coordinates ((x₁+x₂)/2, (y₁+y₂)/2). Want to prove a shape is a rectangle on a test? Distances for sides/diagonals, midpoints for bisecting.",
+  detailed: "<p>The <b>position vector</b> of P(x, y) is OP = (x, y) — coordinates ARE vectors once an origin is fixed. The displacement from P to Q is q − p. A point moving from P along vector d, t parts of it, has position p + t·d — the vector equation of a line; different t's slide along the line, and collinearity of three points means one displacement is a scalar multiple of another.</p><p><b>Distance</b> between P₁(x₁,y₁) and P₂(x₂,y₂): d = √((x₂−x₁)² + (y₂−y₁)²) — Pythagoras on the component legs. Midpoint M = ((x₁+x₂)/2, (y₁+y₂)/2) — averaging walks half the horizontal and half the vertical, landing exactly center. Both extend from the vector toolkit: |q − p| for distance, (p + q)/2 for midpoint.</p><p>Analytic geometry proves shape facts by computation: to show a quadrilateral is a parallelogram, prove one pair of opposite sides equal AND parallel (same vector) or that the diagonals share a midpoint. Rhombus: all sides equal. Rectangle: diagonals equal and bisect each other. Square: both tests. These reduce geometry to arithmetic — plug coordinates into distance/midpoint formulas.</p><p>Dividing a segment in ratio m:n: P + (m/(m+n))·(Q − P) generalizes the midpoint (m = n). The 'section formula' answers trisection points and balance questions. For areas on the grid, the box method (surrounding rectangle minus corner triangles) or the determinant/shoelace formula finishes the coordinate kit — the determinant version |x₁(y₂−y₃) + x₂(y₃−y₁) + x₃(y₁−y₂)|/2 handles any triangle directly.</p><p>Practice pattern: place figures conveniently on axes first (a vertex at origin, a side along an axis) — coordinates become small, and the algebra shrinks. Then translate back to the general statement if the proof needs it.</p>",
+  keyTerms: [
+    { term: "Position vector", def: "The vector from origin to a point — coordinates as movement" },
+    { term: "Displacement PQ", def: "q − p, the vector from P to Q" },
+    { term: "Distance formula", def: "√((Δx)² + (Δy)²) between two points" },
+    { term: "Midpoint formula", def: "Average of endpoints' coordinates" },
+    { term: "Section/ratio point", def: "p + (m/(m+n))(q − p) divides PQ in ratio m:n" },
+    { term: "Collinear", def: "On one line: one displacement is a scalar multiple of another" }
+  ],
+  formulas: [
+    {
+      name: "Coordinate toolkit",
+      formula: "d = √((x₂−x₁)² + (y₂−y₁)²) · M = ((x₁+x₂)/2, (y₁+y₂)/2)",
+      meaning: "Distance from Pythagoras; midpoint from averaging",
+      when: "Any two-point measurement on the plane"
+    },
+    {
+      name: "Line in vector form",
+      formula: "r = p + t·d",
+      meaning: "Start at p, travel t copies of direction d",
+      when: "Describing moving points and testing collinearity"
+    }
+  ],
+  workedExamples: [
+    {
+      problem: "Distance and midpoint between A(−1, 2) and B(5, 10).",
+      calculation: "d = √(36 + 64) = 10; M = (2, 6)",
+      answer: "10 and (2, 6)"
+    },
+    {
+      problem: "Show A(0,0), B(4,1), C(3,5), D(−1,4) form a parallelogram.",
+      calculation: "AB = (4,1) and DC = C − D = (4,1) — equal vectors",
+      answer: "AB ∥ DC and equal → parallelogram"
+    },
+    {
+      problem: "Find P dividing A(1,1) to B(7,9) in ratio 2:1.",
+      formula: "p + (2/3)(b − a) = (1,1) + (2/3)(6,8)",
+      answer: "P = (5, 19/3)"
+    },
+    {
+      problem: "Are A(1,2), B(3,6), C(6,12) collinear?",
+      calculation: "AB = (2,4), AC = (5,10): AC = 2.5·AB",
+      answer: "Yes — scalar multiples"
+    }
+  ],
+  commonMistakes: [
+    "Subtracting position vectors in the wrong direction (QP = p − q, not q − p)",
+    "Forgetting to square negative differences (distance is always ≥ 0)",
+    "Midpoint as half the difference instead of the average",
+    "Testing 'parallel sides' with distance instead of direction vectors",
+    "Section formula ratio flip: AP:PB = m:n uses fraction m/(m+n) of (b−a)",
+    "Choosing awkward coordinates for a 'prove generally' question — set out from the origin"
+  ],
+  applications: [
+    "GPS: positions are coordinate vectors; routes are displacements between waypoints",
+    "Robotics: arm joints chain position vectors (forward kinematics)",
+    "CAD/drafting: every shape is a vector list; snaps compute midpoints and ratios",
+    "GIS mapping: land parcels proved equal/parallel via coordinate theorems"
+  ],
+  summary: "Coordinates = position vectors; movement = vector subtraction. Distance is Pythagoras, midpoint is averaging, ratio-points step a fraction along the displacement. Shape proofs: equal-and-parallel opposite sides (same vector) or diagonals sharing a midpoint. Parameterized lines r = p + t·d describe motion.",
+  visuals: [],
+  questions: [
+    { type: "mcq", q: "The position vector of (−3, 7) is:", options: ["(3, −7)", "(−3, 7)", "√58", "10"], answer: 1, difficulty: 1, explanation: "Position vectors equal the coordinates from O." },
+    { type: "mcq", q: "Distance from (1, 1) to (4, 5):", options: ["5", "7", "25", "√7"], answer: 0, difficulty: 1, explanation: "√(9 + 16) = 5." },
+    { type: "mcq", q: "Midpoint of (−2, 5) and (6, −1):", options: ["(2, 2)", "(4, 4)", "(2, 3)", "(8, 4)"], answer: 0, difficulty: 1, explanation: "Average each coordinate: (2, 2)." },
+    { type: "mcq", q: "Vector from P(2,3) to Q(0,7):", options: ["(2, −4)", "(−2, 4)", "(7, 3)", "(−7, −3)"], answer: 1, difficulty: 2, explanation: "q − p = (0−2, 7−3)." },
+    { type: "mcq", q: "To prove a quadrilateral is a parallelogram with vectors, show:", options: ["all sides equal", "one pair of opposite sides equal & parallel", "diagonals equal", "angles sum 360"], answer: 1, difficulty: 2, explanation: "Equal-and-parallel one pair suffices (the same vector for both sides)." },
+    { type: "mcq", q: "Point P = a + ½(b − a) is:", options: ["midpoint of AB", "beyond B", "the origin", "the centroid"], answer: 0, difficulty: 2, explanation: "Halfway along the displacement = midpoint." },
+    { type: "mcq", q: "If AB = 3·CD, then the segments are:", options: ["equal", "parallel with AB three times as long", "perpendicular", "midpoints"], answer: 1, difficulty: 2, explanation: "Scalar multiple ⇒ same line direction, triple length." },
+    { type: "mcq", q: "The point (t, 2t) as t varies traces:", options: ["a circle", "a straight line", "a parabola", "one point"], answer: 1, difficulty: 3, explanation: "r = t(1,2): all multiples of one vector — the line y = 2x." }
+  ]
+};

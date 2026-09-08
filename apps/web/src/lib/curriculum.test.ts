@@ -4,14 +4,14 @@ import { ALL_TOPICS, topicById, lessonFor, loadLesson, loadAllLessons, subjectsF
 const allTids = Object.keys(ALL_TOPICS);
 
 describe('curriculum wiring', () => {
-  it('226 topics indexed across both grades', () => {
-    expect(allTids.length).toBe(226);
+  it('249 topics indexed across all grades', () => {
+    expect(allTids.length).toBe(249);
     expect(subjectsFor('10').length).toBeGreaterThanOrEqual(4);
     expect(subjectsFor('11').length).toBeGreaterThanOrEqual(4);
   });
 
   it('every _id follows the g{grade}-{subject}-u{unit}-t{n} pattern', () => {
-    const bad = allTids.filter(t => !/^g(10|11)-[a-z]+-u[a-z]*\d+-t\d+$/.test(t));
+    const bad = allTids.filter(t => !/^g(9|10|11)-[a-z]+-u[a-z]*\d+-t\d+$/.test(t));
     expect(bad).toEqual([]);
   });
 
