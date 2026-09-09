@@ -49,7 +49,7 @@ export default function App() {
             <div className="brand-mark">🎓</div>
             <div className="brand-text">
               <div className="brand-name">Ethio<span>Study</span></div>
-              <div className="brand-sub">Grade 9–11 · New Curriculum</div>
+              <div className="brand-sub">Grade 9–12 · New Curriculum</div>
             </div>
           </div>
 

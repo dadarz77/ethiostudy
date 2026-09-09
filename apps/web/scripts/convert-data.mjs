@@ -27,12 +27,14 @@ function load(files) {
 }
 
 const contentFiles = readdirSync(DATA).filter(f => f.startsWith('content-')).sort();
-const cur = load([join(DATA, 'curriculum-g9.js'), join(DATA, 'curriculum-g10.js'), join(DATA, 'curriculum-g11.js')]);
+const cur = load([join(DATA, 'curriculum-g9.js'), join(DATA, 'curriculum-g10.js'), join(DATA, 'curriculum-g11.js'), join(DATA, 'curriculum-g12.js')]);
 const L = load(contentFiles.map(f => join(DATA, f)));
 
 const curriculum = cur.CURRICULUM_ALL; // { "9": [...], "10": [...], "11": [...subj...] }
 // Grade 9: ship subjects whose lessons are fully authored (Math, Biology, Chemistry, Physics).
 curriculum["9"] = cur.CURRICULUM_G9;
+// Grade 12: map registered (staged rollout — topics browse, lessons arrive per subject).
+curriculum["12"] = cur.CURRICULUM_G12;
 const lessons = L.Lessons ?? {};
 // Rebuild flat topic index over all grades (curriculum-g11 builds only 10+11 at load time).
 const topicIndex = {};
@@ -49,7 +51,7 @@ for (const [grade, subjects] of Object.entries(curriculum)) {
     }
   }
 }
-if (!curriculum?.["9"] || !curriculum?.["10"] || !curriculum?.["11"]) {
+if (!curriculum?.["9"] || !curriculum?.["10"] || !curriculum?.["11"] || !curriculum?.["12"]) {
   console.error('CURRICULUM_ALL missing grades — check globals'); process.exit(1);
 }
 
@@ -57,12 +59,18 @@ if (!curriculum?.["9"] || !curriculum?.["10"] || !curriculum?.["11"]) {
 const topicIds = Object.keys(topicIndex);
 const lessonKeys = Object.keys(lessons);
 const orphans = lessonKeys.filter(k => !topicIndex[k]);
-const missing = topicIds.filter(k => !lessons[k]);
+// Grade 12 is a staged rollout: map shipped, lessons authored subject-by-subject.
+// Missing-lesson invariant applies to every grade EXCEPT 12; G12 counts are reported.
+const missing = topicIds.filter(k => !lessons[k] && topicIndex[k]._grade !== '12');
+const g12NoLesson = topicIds.filter(k => topicIndex[k]._grade === '12' && !lessons[k]).length;
 console.log(`curriculum topics: ${topicIds.length}`);
 console.log(`lesson keys: ${lessonKeys.length}`);
 console.log(`ORPHAN keys (in content, not in curriculum): ${orphans.length}`);
-console.log(`TOPICS without lesson: ${missing.length}`);
-if (orphans.length || missing.length || topicIds.length !== 279) {
+console.log(`TOPICS without lesson (excl. G12 staged): ${missing.length}`);
+console.log(`G12 topics awaiting lessons: ${g12NoLesson}`);
+const totalTopics = Object.keys(topicIndex).length;
+const authoredTarget = totalTopics - g12NoLesson;
+if (orphans.length || missing.length || topicIds.length !== 380 || authoredTarget !== lessonKeys.length) {
   console.error('INVARIANT FAILED — aborting, nothing written.');
   process.exit(1);
 }

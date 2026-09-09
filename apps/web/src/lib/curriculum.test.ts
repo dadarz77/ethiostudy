@@ -4,22 +4,24 @@ import { ALL_TOPICS, topicById, lessonFor, loadLesson, loadAllLessons, subjectsF
 const allTids = Object.keys(ALL_TOPICS);
 
 describe('curriculum wiring', () => {
-  it('279 topics indexed across all grades', () => {
-    expect(allTids.length).toBe(279);
+  it('380 topics indexed across all grades', () => {
+    expect(allTids.length).toBe(380);
     expect(subjectsFor('10').length).toBeGreaterThanOrEqual(4);
     expect(subjectsFor('11').length).toBeGreaterThanOrEqual(4);
   });
 
   it('every _id follows the g{grade}-{subject}-u{unit}-t{n} pattern', () => {
-    const bad = allTids.filter(t => !/^g(9|10|11)-[a-z]+-u[a-z]*\d+-t\d+$/.test(t));
+    const bad = allTids.filter(t => !/^g(9|10|11|12)-[a-z]+-u[a-z]*\d+-t\d+$/.test(t));
     expect(bad).toEqual([]);
   });
 
-  it('every topic resolves to a valid lesson with questions', async () => {
+  it('every AUTHORED topic resolves to a valid lesson with questions', async () => {
     await loadAllLessons();
-    const missing = allTids.filter(t => !lessonFor(t));
+    // G12 ships as a staged rollout: map live, lessons authored per subject.
+    const authored = allTids.filter(t => !t.startsWith('g12-'));
+    const missing = authored.filter(t => !lessonFor(t));
     expect(missing).toEqual([]);
-    const noQuiz = allTids.filter(t => !(lessonFor(t)!.questions?.length));
+    const noQuiz = authored.filter(t => !(lessonFor(t)?.questions?.length));
     // some topics legitimately have no bank yet — report, don't fail
     expect(noQuiz.length).toBeLessThan(30);
   });

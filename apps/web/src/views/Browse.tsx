@@ -32,7 +32,7 @@ export default function Browse() {
         <div className="spread">
           <h1>📚 Browse Curriculum</h1>
           <div className="row">
-            {['10', '11'].map(g => (
+            {Object.keys(CURRICULUM).sort().map(g => (
               <button key={g} className={'btn ' + (g === grade ? 'btn-primary' : '')}
                 onClick={() => navigate('/browse?grade=' + g)}>Grade {g}</button>
             ))}

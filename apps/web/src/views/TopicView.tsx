@@ -16,10 +16,11 @@ export default function TopicView() {
   const { tid = '' } = useParams();
   const topic = topicById(tid);
   const [lesson, setLesson] = useState<ReturnType<typeof lessonFor>>(null);
+  const [lessonLoaded, setLessonLoaded] = useState(false);
   useEffect(() => {
     let alive = true;
-    setLesson(null);
-    loadLesson(tid).then(l => { if (alive) setLesson(l); });
+    setLesson(null); setLessonLoaded(false);
+    loadLesson(tid).then(l => { if (alive) { setLesson(l); setLessonLoaded(true); } });
     return () => { alive = false; };
   }, [tid]);
   const [tab, setTab] = useState<Tab>('lesson');
@@ -64,7 +65,9 @@ export default function TopicView() {
   const chips = useMemo(() => (topic && lesson ? tutorSuggestions(topic, lesson) : []), [topic, lesson]);
 
   if (!topic) return <EmptyState icon="🔍" title="Topic not found" sub="It may belong to another grade — switch grade in Settings." />;
-  if (!lesson) return <div className="card" style={{ textAlign: 'center', padding: 48 }}><div className="orbit-star" style={{ position: 'static', display: 'inline-block' }}>✦</div><p className="muted mt-3">Loading lesson…</p></div>;
+  if (!lesson) return lessonLoaded
+    ? <EmptyState icon="🚧" title="Lesson coming soon" sub={`The full lesson for "${topic.title}" is being written. It ships with its Grade ${topic._grade} subject very soon!`} />
+    : <div className="card" style={{ textAlign: 'center', padding: 48 }}><div className="orbit-star" style={{ position: 'static', display: 'inline-block' }}>✦</div><p className="muted mt-3">Loading lesson…</p></div>;
 
   const p = progress[tid];
   const studied = (p?.totalQ ?? 0) > 0 || (p?.studySec ?? 0) > 0;

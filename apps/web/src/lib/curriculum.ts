@@ -7,7 +7,7 @@ import topicsFlat from '../data/topics.json';
 import type { Lesson, TopicMeta } from '../data/schema';
 import { LessonSchema } from '../data/schema';
 
-export type Grade = '9' | '10' | '11';
+export type Grade = '9' | '10' | '11' | '12';
 export interface Subject { id: string; title: string; icon: string; color: string; units: Unit[] }
 export interface Unit { id: string; title: string; topics: Topic[] }
 export interface Topic extends TopicMeta {

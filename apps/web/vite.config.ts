@@ -11,7 +11,7 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.svg'],
       manifest: {
-        name: 'EthioStudy — Grade 9–11',
+        name: 'EthioStudy — Grade 9–12',
         short_name: 'EthioStudy',
         description: 'Ethiopian new-curriculum study app: lessons, quizzes, AI tutor. Offline-ready.',
         theme_color: '#0b1020',
