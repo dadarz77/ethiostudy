@@ -1,0 +1,64 @@
+/* Content: Grade 9 Chemistry — Unit 1: Chemistry and Its Importance (1 topic) */
+window.Lessons = window.Lessons || {};
+
+Lessons["g9-chemistry-uc1-t1"] = {
+  overview: "Chemistry is the science of matter — what things are made of and how they change. This first lesson maps the field's branches, its careers, and the chemistry already running inside Ethiopia's kitchens, factories and farms.",
+  objectives: [
+    "Define chemistry and distinguish matter from non-matter",
+    "Name the major branches of chemistry and their subject matter",
+    "Give everyday examples of chemical change",
+    "List chemistry-related careers and their roles",
+    "Identify Ethiopian industries that run on chemistry"
+  ],
+  simple: "<b>Chemistry = the study of matter</b> — anything with mass that takes up space — and how it changes. Its branches: <b>organic</b> (carbon compounds — fuels, plastics, medicines), <b>inorganic</b> (metals, minerals, salts), <b>physical</b> (energy and rates), <b>analytical</b> (what's in a sample, and how much), <b>biochemistry</b> (chemistry of life). Burning, rusting, fermenting, digesting injera batter — all chemistry. Careers: pharmacist, lab technologist, quality-control chemist, forensic scientist, chemical engineer, environmental scientist. Ethiopia: cement, sugar, textile dyeing, leather tanning, pharmaceuticals, cooking-oil refining and mining are chemistry industries.",
+  detailed: "<p><b>Matter</b> is anything with mass occupying space — air included (a balloon proves it). Energy (light, heat) is NOT matter — no mass, no volume; chemistry sits at their intersection because every chemical change involves energy. A <b>chemical change</b> produces new substances — rust, ash, ethanol from fermented honey (tej), the souring of dough — and can't be undone by physical tricks, unlike melting or dissolving (physical changes).</p><p>The field divides by subject: <b>organic chemistry</b> studies carbon compounds (all fuels, plastics, dyes, drugs — named from when life's products were thought 'organic'); <b>inorganic</b> covers everything else — metals, minerals, table salt; <b>physical chemistry</b> asks HOW and HOW FAST — energy changes and reaction rates; <b>analytical chemistry</b> answers WHAT'S IN IT and HOW MUCH — purity testing of medicines, water-quality labs; <b>biochemistry</b> handles the chemistry of living cells, bridging Units 3–5 of biology.</p><p>Everyday chemistry the student already knows: soap emulsifying oil (molecules with a water-lover head and oil-lover tail), baking soda puffing pancakes, chlorine purifying drinking water, fertilizer feeding teff fields, preservatives keeping food, the Maillard browning of a coffee bean during roasting — Ethiopia's most economically important crop is a chemistry process before it's a beverage.</p><p><b>Careers</b> built on it: pharmacy and medicine (drug action), chemical & process engineering (designing factories), quality assurance in food/beverage/pharma plants, forensics (matching evidence chemically), environmental science (pollution monitoring), agriculture & soil science (fertilizer recommendations), teaching and research. All of these require exactly the literacy this course builds: measurement, atomic theory, bonding, reactions, quantities.</p><p>In Ethiopia, chemistry is industry: <b>cement</b> (Derba, Mugher — calcium chemistry at 1,450°C), <b>sugar</b> factories (combustion, crystallization), <b>leather tanning</b> (the oldest industrial chemistry — collagen + chromium salts), <b>textile dyeing</b> (organic chromophores bonding to fibres), <b>cooking-oil extraction</b> (solvent extraction from noug and sesame), <b>mining</b> (gold cyanidation, potash evaporation from Danakil), <b>pharmaceutical plants</b> (synthesis and formulation), and beverage/brewing fermentation. The Ethiopian Chemical Industry Development Institute and university labs employ analytical chemists daily.</p><p>Finally — why study it? Chemical literacy makes you a safer consumer (reading labels, never mixing bleach with ammonia), a better farmer (soil pH and fertilizer), a sharper student of biology and physics (their atoms are shared), and a candidate for some of the fastest-growing job markets in a developing industrial economy.</p>",
+  keyTerms: [
+    { term: "Chemistry", def: "Science of matter's composition, structure, properties and change" },
+    { term: "Matter", def: "Anything with mass that occupies space" },
+    { term: "Chemical change", def: "Change producing new substances (rusting, burning, fermenting)" },
+    { term: "Organic chemistry", def: "Chemistry of carbon compounds" },
+    { term: "Analytical chemistry", def: "Identifying and quantifying components of samples" },
+    { term: "Quality control", def: "Industrial chemistry ensuring products meet specification" }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "Classify each as physical or chemical change: (a) tearing injera, (b) dough souring, (c) melting butter, (d) iron gate rusting.",
+      answer: "(a) physical, (b) chemical — bacteria make new acids, (c) physical, (d) chemical — iron becomes iron oxide"
+    },
+    {
+      problem: "A factory tests each batch of paracetamol tablets for exact drug content. Which chemistry branch is at work?",
+      answer: "Analytical chemistry (quality control) — 'what's in it, how much'"
+    },
+    {
+      problem: "Is a perfume scent filling a room chemistry? And why does the smell itself matter to chemists?",
+      answer: "The spreading is physical (diffusion); but aroma compounds are organic molecules whose structure–smell relationships ARE chemistry — that's what organic/analytical chemists study"
+    }
+  ],
+  commonMistakes: [
+    "Confusing 'chemistry' with 'chemicals' — everything is chemicals; 'chemical-free' is meaningless",
+    "Calling all changes chemistry (melting, dissolving are physical)",
+    "Thinking organic = 'natural/food-grade' — organic chemistry just means carbon-based",
+    "Believing chemistry happens only in labs",
+    "Mixing up branches (biochemistry is not the study of cells' structure — that's biology; it's their reactions)"
+  ],
+  applications: [
+    "Reading fertilizer and cleaning-product labels — and the never-mix-bleach-with-ammonia rule",
+    "Coffee processing: drying, roasting chemistry defines cup quality and export value",
+    "Leather & textile industries: the tanning and dyeing chemistry Ethiopia exports",
+    "Water treatment: chlorination chemistry behind safe tap water",
+    "Career planning: medicine, pharmacy, engineering, forensics, environmental science all gate through this subject"
+  ],
+  summary: "Chemistry studies matter and its transformations, split into organic, inorganic, physical, analytical and biochemistry. It powers everyday life (cooking, cleaning, farming) and Ethiopian industry (cement, sugar, leather, coffee, mining, pharma) — and opens a wide range of careers.",
+  visuals: [],
+  questions: [
+    { type: "mcq", q: "Chemistry is best described as the study of:", options: ["living organisms only", "matter and its changes", "energy sources", "rock formations"], answer: 1, difficulty: 1, explanation: "Composition, structure, properties, change of matter." },
+    { type: "mcq", q: "Which is a CHEMICAL change?", options: ["ice melting", "sugar dissolving", "iron rusting", "water boiling"], answer: 2, difficulty: 1, explanation: "Rust is a new substance — iron oxide." },
+    { type: "mcq", q: "The branch that identifies substances and measures 'how much' is:", options: ["organic", "analytical", "biochemistry", "inorganic"], answer: 1, difficulty: 2, explanation: "Identification + quantification = analysis." },
+    { type: "mcq", q: "Organic chemistry studies compounds containing:", options: ["oxygen", "carbon", "metals", "water"], answer: 1, difficulty: 1, explanation: "Carbon-based compounds — fuels, plastics, drugs." },
+    { type: "mcq", q: "Matter is anything that:", options: ["is heavy", "has mass and occupies space", "is visible", "can be touched"], answer: 1, difficulty: 1, explanation: "Air counts too — mass + volume." },
+    { type: "mcq", q: "The chemistry of Ethiopia's cement industry is mainly the study of:", options: ["carbon compounds", "calcium silicate reactions with water", "dyes", "fermentation"], answer: 1, difficulty: 3, explanation: "Cement setting is inorganic calcium chemistry." },
+    { type: "mcq", q: "Which profession applies chemistry to designing factories that make fuels, drugs and plastics?", options: ["geologist", "chemical engineer", "cartographer", "actuary"], answer: 1, difficulty: 2, explanation: "Process design at industrial scale." },
+    { type: "mcq", q: "Brewing tej (honey wine) relies on:", options: ["rusting", "fermentation — a chemical change", "sublimation", "filtration"], answer: 1, difficulty: 1, explanation: "Yeast converts honey sugars to ethanol + CO₂." }
+  ]
+};

@@ -1,0 +1,158 @@
+/* Content: Grade 9 Chemistry — Unit 2: Measurements and Scientific Methods (2 topics) */
+window.Lessons = window.Lessons || {};
+
+Lessons["g9-chemistry-uc2-t1"] = {
+  overview: "Chemistry is a measuring science: a reaction is only as good as your balance, your cylinder and your digits. This lesson sets the SI units chemists live by, the derived quantities they calculate, and the significant-figure rules that keep claims honest.",
+  objectives: [
+    "Recall the seven SI base units and the three used most in chemistry",
+    "Convert within metric prefixes (k, d, c, m, μ, n)",
+    "Compute derived quantities (volume, density) with correct units",
+    "Apply significant-figure rules in readings and calculations",
+    "Distinguish accuracy from precision"
+  ],
+  simple: "The <b>SI system</b> is the world's one measuring language: <b>metre (m)</b> length, <b>kilogram (kg)</b> mass, <b>second (s)</b> time, plus kelvin (K), mole (mol), ampere (A), candela (cd). Prefixes slice it: milli = 1/1000, centi = 1/100, kilo = 1000. Chemistry's favorites: volume (L, dm³, cm³), <b>density = mass ÷ volume</b> (g/cm³), temperature in K (°C + 273). Every measurement carries <b>significant figures</b>: all the digits you're sure of plus one estimated — 2.50 g ≠ 2.5 g in precision. <b>Accuracy</b> = hitting the true value; <b>precision</b> = repeating tightly.",
+  detailed: "<p><b>Why units matter:</b> a number without a unit is meaningless (a 'dose of 5' kills or cures depending on the unit), and mismatched units have crashed spacecraft (the 1999 Mars Climate Orbiter — one team used pound-seconds, the other newton-seconds). The <b>SI system</b>, agreed internationally, defines seven base units; chemistry leans on the <b>metre, kilogram, second, kelvin and mole</b>.</p><p><b>Metric prefixes</b> are decimal steps: kilo (10³), deci (10⁻¹), centi (10⁻²), milli (10⁻³), micro (10⁻⁶), nano (10⁻⁹). Converting is moving the decimal point: 1 m = 100 cm = 1000 mm; 1 kg = 1000 g; 1 L = 1000 mL = 1 dm³; 1 mg = 0.001 g. Practice the ladder method: each step ×10 or ÷10 by its exponent gap.</p><p><b>Derived quantities</b> combine base units: area = m², volume = m³ with the practical 1 mL = 1 cm³; solids displaced water measure irregular volumes. <b>Density</b> (g/cm³ or kg/m³) = mass ÷ volume — an identifying property of a substance: water 1.0, iron 7.9, gold 19.3 g/cm³; it also predicts floating (wood < water sinks nothing; oil floats). Temperature in <b>kelvin</b>: K = °C + 273 (0 K = absolute zero, molecular motion minimal) — used whenever formulas need proportional temperature.</p><p><b>Significant figures</b> communicate precision honestly. Rules: all non-zeros count; zeros between non-zeros count (2005 = 4 sf); leading zeros NEVER count (0.0025 = 2 sf — they only place the decimal); trailing zeros count ONLY with a decimal point (2.50 = 3 sf, 250 = 2 sf ambiguous — scientific notation fixes it: 2.5×10² vs 2.50×10²). Reading instruments: record all certain marks + <b>one estimated digit</b> (a meniscus at 24.0 mL on a cylinder graduated in 1 mL). In calculations: multiplication/division → fewest sf of any input; addition/subtraction → fewest decimal places. Intermediate steps keep extra digits; round once at the end (avoiding rounding-error snowball). Exact numbers (definitions, counted objects) have infinite sf.</p><p><b>Accuracy vs precision:</b> hitting the true value (accuracy) needs correct calibration; repeating tightly (precision) needs a steady technique. A dartboard picture is the classic: throws clustered far from the bull = precise but not accurate; scattered around the center = accurate on average, imprecise. Chemists chase both with calibration and replicates.</p><p><b>Tools in the lab:</b> triple-beam/electronic balance (mass, g), graduated cylinder (volume, rough), burette/pipette (volume, precise), thermometer, stopwatch; <b>scientific notation</b> handles absurd sizes (atom diameter ≈ 1×10⁻¹⁰ m, Avogadro 6.02×10²³) keeping every huge/tiny number readable and its sf explicit.</p>",
+  keyTerms: [
+    { term: "SI base unit", def: "The seven agreed fundamental units (m, kg, s, K, mol, A, cd)" },
+    { term: "Derived unit", def: "Product/power of base units, e.g. cm³, g/cm³" },
+    { term: "Density", def: "Mass per unit volume — identifying property" },
+    { term: "Significant figures", def: "Certain digits plus one estimated — honest precision" },
+    { term: "Scientific notation", def: "a × 10ⁿ form for very large/small numbers" },
+    { term: "Accuracy / precision", def: "Near true value / repeatable closeness" }
+  ],
+  formulas: [
+    {
+      name: "Density",
+      formula: "ρ = m ÷ V",
+      meaning: "mass divided by volume; units g/cm³ or kg/m³",
+      when: "Identifying substances, predicting float/sink",
+      example: "iron piece 158 g in 20 cm³ → 158 ÷ 20 = 7.9 g/cm³ ✓ iron"
+    },
+    {
+      name: "Kelvin conversion",
+      formula: "T(K) = T(°C) + 273",
+      meaning: "Absolute temperature scale offset",
+      when: "Gas laws and proportional-temperature work",
+      example: "body temp 37°C → 310 K"
+    }
+  ],
+  workedExamples: [
+    {
+      problem: "Convert 0.75 L to mL and cm³.",
+      calculation: "0.75 × 1000; 1 mL = 1 cm³",
+      answer: "750 mL = 750 cm³"
+    },
+    {
+      problem: "Count significant figures: (a) 0.00450 (b) 2008 (c) 1000 (d) 3.020 × 10⁴.",
+      answer: "(a) 3 (leading zeros dead, trailing after decimal counts), (b) 4 (sandwich zeros count), (c) 1 (no decimal point — ambiguous, write 1×10³ or 1.000×10³), (d) 4 (only the mantissa's digits count)"
+    },
+    {
+      problem: "A rock of 52.0 g raises water from 25.0 to 33.0 mL. Density?",
+      calculation: "V = 33.0 − 25.0 = 8.0 cm³ (2 sf by subtraction rule); ρ = 52.0 ÷ 8.0 = 6.5",
+      answer: "6.5 g/cm³ — limited to 2 sf by the volume difference"
+    },
+    {
+      problem: "Multiply 3.24 × 2.1. Report honestly.",
+      calculation: "6.804 → fewest sf is 2 (from 2.1)",
+      answer: "6.8"
+    },
+    {
+      problem: "Three students weigh a 25.00 g standard: A gets 24.9, 25.1, 25.0; B gets 24.5, 24.6, 24.5; C gets 25.02, 24.98, 25.00. Who's accurate? precise? both?",
+      answer: "A: accurate on average, moderate precision. B: precise but NOT accurate (systematic error — balance needs calibration). C: both — tight AND true"
+    }
+  ],
+  commonMistakes: [
+    "Counting leading zeros as significant (0.0025 has 2, not 4)",
+    "Reporting a calculator's full output (0.7 g/cm³ typed as 0.70234) — false precision",
+    "Confusing mL and mg — one is volume, the other mass; never 'convert' them directly",
+    "Mixing °C into formulas needing K (gas volumes halve wrongly at 0°C)",
+    "Rounding each intermediate step (round once, at the end)",
+    "Saying precision and accuracy mean the same thing"
+  ],
+  applications: [
+    "Pharmacy: a 10× dosing error from mg/g confusion is a classic unit fatality",
+    "Gold-smuggling & scrap markets: density separates real gold (19.3) from fool's brass (8.4)",
+    "Cooking & agriculture: graduated scoops, dilute sprays and fertilizer bags are ratio math",
+    "Lab work for national exams: meniscus reading and burette technique are practical syllabus items",
+    "Water quality: turbidity and chlorine dose calculations ride on mL and ppm conversions"
+  ],
+  summary: "SI gives chemistry one language: metre–kilogram–second–kelvin–mole with decimal prefixes; density (m÷V) and volume link mass to space. Significant figures (leading zeros never count, trailing only after a decimal) and rounding by the weakest input keep numbers honest. Accuracy = truth, precision = repeatability — lab work aims for both.",
+  visuals: [],
+  questions: [
+    { type: "mcq", q: "The SI base unit of mass is the:", options: ["gram", "kilogram", "milligram", "tonne"], answer: 1, difficulty: 1, explanation: "Uniquely, the base unit carries a prefix: kg." },
+    { type: "mcq", q: "How many mL are in 2.5 L?", options: ["25", "250", "2500", "0.0025"], answer: 2, difficulty: 1, explanation: "kilo→milli is three decimal steps." },
+    { type: "mcq", q: "Significant figures in 0.05030:", options: ["3", "4", "5", "2"], answer: 1, difficulty: 2, explanation: "Leading zero dead; 5, 0(between), 3, final 0 (after decimal) = 4." },
+    { type: "mcq", q: "Density of a liquid: 125 g for 100 mL =", options: ["0.8 g/mL", "1.25 g/mL", "12,500 g/mL", "12.5 g/mL"], answer: 1, difficulty: 1, explanation: "ρ = m ÷ V = 125 ÷ 100." },
+    { type: "mcq", q: "Which expression has FOUR significant figures?", options: ["2.0 × 10³", "200", "1.002 × 10²", "0.02"], answer: 2, difficulty: 3, explanation: "Mantissa digits 1,0,0,2 all count." },
+    { type: "mcq", q: "25.0 mL of water is how many cm³?", options: ["2.5", "25", "250", "0.025"], answer: 1, difficulty: 1, explanation: "1 mL ≡ 1 cm³ exactly." },
+    { type: "mcq", q: "30°C in kelvin is:", options: ["303 K", "243 K", "33 K", "330 K"], answer: 0, difficulty: 2, explanation: "30 + 273 = 303 K." },
+    { type: "mcq", q: "A precise but inaccurate result usually indicates:", options: ["random luck", "a systematic error (bad calibration)", "enough trials", "correct reading"], answer: 1, difficulty: 3, explanation: "Tightly repeating the SAME wrong value = instrument bias." },
+    { type: "mcq", q: "Multiplying 4.567 × 2.3, the product should be reported with:", options: ["4 sf", "3 sf", "2 sf", "1 sf"], answer: 2, difficulty: 2, explanation: "Fewest sf among factors: 2.3 has two." },
+    { type: "mcq", q: "An object sinks in water if its density is:", options: ["less than 1 g/cm³", "equal to 1 g/cm³", "greater than 1 g/cm³", "zero"], answer: 2, difficulty: 1, explanation: "Buoyancy vs weight — density decides." }
+  ]
+};
+
+Lessons["g9-chemistry-uc2-t2"] = {
+  overview: "The scientific method is chemistry's referee: propose, test, measure, revise. This lesson walks the method end-to-end and installs the lab-safety habits that make experiments survivable.",
+  objectives: [
+    "Sequence the scientific method steps with a worked example",
+    "Design a fair test: variable, control, replicate",
+    "State lab rules: handling acids, heating, waste, PPE",
+    "Recognize hazard symbols and safe responses",
+    "Explain why repeatable results matter more than one lucky trial"
+  ],
+  simple: "The method: <b>observe → question → hypothesize → experiment → analyze → conclude → share</b>. A good experiment changes ONE thing (<b>independent variable</b>), measures the response (<b>dependent</b>), keeps everything else fixed (<b>constants</b>) with a <b>control</b> to compare against — and repeats (replicates) so luck can't masquerade as pattern. In the lab: goggles on, tie long hair, waft never sniff, <b>add acid to water</b> (never water to acid), know the flame-out plan (fire blanket, not running). A hypothesis can't be 'proven' — only supported or rejected by evidence.",
+  detailed: "<p><b>Observation</b> (quantitative measurements and qualitative notices) sparks a <b>question</b>. A <b>hypothesis</b> is a testable, specific prediction — 'if surface area increases, then dissolving speeds up because more solid touches the solvent.' It becomes an <b>experiment</b>: manipulate the independent variable, measure the dependent, freeze the rest (temperature, stirring, volume) and run a <b>control</b> (unchanged baseline) plus <b>replicates</b> (repeat trials to average out random error). Analyze (tables → graphs → trends), conclude (support or reject; back to hypothesis if rejected), and <b>communicate</b> so others can <b>reproduce</b> — reproducibility is what separates science from anecdote. A model that survives all this becomes theory; one anomaly of honest measurement can beat ten confident opinions.</p><p><b>Lab safety</b> is the method's precondition. Core rules: PPE (goggles, apron, closed shoes, tied hair); no tasting, never sniff directly (gently <b>waft</b>); know exits, water, fire blanket and first-aid box before starting. Chemistry-specific: <b>acids and bases are corrosive</b> — dilute slowly, <b>always add acid to water</b> (water into concentrated acid boils locally and spits acid); when heating test tubes, point the mouth away from people, use a test-tube holder, never seal a heated vessel; mercury thermometers broken = report, never handle with bare hands; glassware chipped = discard bin, not sink; waste goes to labelled containers, not drains, per teacher instruction.</p><p><b>Hazard symbols</b> (GHS pictograms): flammable (flame), corrosive (drips eating metal/hand), toxic (skull), oxidizing (flame over circle), irritant (exclamation), environmental hazard (dead fish/tree). Reading a bottle's labels before use is rule zero — the label tells you the PPE and spill response.</p><p><b>Fire triangle</b>: fuel + oxygen + heat — remove one and fire dies: small alcohol flame? Cover with damp cloth/fire blanket (suffocate); never water on oil or electrical fires (spreads/energizes). A spilled acid? Neutralize with sodium hydrogen carbonate powder as directed, then wash.</p><p>Finally, the <b>ethics and humility</b> of the method: record raw data exactly as read (no 'tidying' to fit expectations — that's fraud, e.g. the cold-fusion scandal), report uncertainty, and accept that a rejected hypothesis is progress: it removes a wrong road for everyone. Chemistry's great discoveries (polythene, Teflon, penicillin's biology) came from careful observation of 'failed' experiments.</p>",
+  keyTerms: [
+    { term: "Hypothesis", def: "Testable, falsifiable prediction" },
+    { term: "Control", def: "Unchanged baseline run for comparison" },
+    { term: "Replicate", def: "Repeat trial reducing random error" },
+    { term: "Wafting", def: "Gently fanning vapour toward the nose" },
+    { term: "Corrosive", def: "Chemical that destroys living tissue/metals (acids, strong bases)" },
+    { term: "Reproducibility", def: "Others getting your result from your method" }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "Design a test for: 'sugar dissolves faster in hot water.' List IV, DV, two constants, the control.",
+      answer: "IV: water temperature; DV: dissolving time; constants: volume, mass of sugar, stirring rate; control: same setup at room temperature as baseline"
+    },
+    {
+      problem: "Why must you add acid to water rather than the reverse?",
+      answer: "Dilution is intensely exothermic; a drop of water entering concentrated acid flashes to steam and ejects acid droplets — pouring acid into a large water volume disperses the heat safely"
+    },
+    {
+      problem: "A group runs one trial, gets a perfect trend, and stops. What method step did they skip and why does it matter?",
+      answer: "Replication — one trial can't separate pattern from random error; conclusions need averaged repeats to be trusted"
+    }
+  ],
+  commonMistakes: [
+    "Saying a hypothesis is 'proved' — evidence supports or fails to support",
+    "Testing two variables at once and not knowing which caused what",
+    "Forgetting the control group",
+    "Tweaking numbers to match the expected answer (fraud, not fixing)",
+    "Sniffing bottle openings directly",
+    "Pouring water into concentrated acid 'to dilute it'"
+  ],
+  applications: [
+    "School practical exams (NCDC) test exactly these procedures — safety and fair tests score marks",
+    "Consumer skepticism: a supplement 'study' with no control or replication is marketing",
+    "Kitchen science: testing ripening/brewing conditions is hands-on method practice",
+    "Occupational: lab technicians, quality officers, health workers all apply the method daily",
+    "Climate/agriculture: farmers' field trials (one seed variety vs the usual plot = control) mirror this design"
+  ],
+  summary: "The method loops observation → hypothesis → controlled experiment (one variable, baseline, replicates) → analysis → conclusion → communication, with reproducibility as the gold standard. Safety is inseparable: PPE, wafting, acid-into-water, aware exits and fire-blanket response, hazard-symbol literacy. Honest data, even when it kills your hypothesis, is the whole point.",
+  visuals: [],
+  questions: [
+    { type: "mcq", q: "In an experiment, the independent variable is the one you:", options: ["measure", "deliberately change", "keep constant", "discard"], answer: 1, difficulty: 1, explanation: "IV changes; DV responds." },
+    { type: "mcq", q: "The control group exists to:", options: ["save chemicals", "provide a comparison baseline", "make the lab safer", "double the IV"], answer: 1, difficulty: 1, explanation: "No baseline, no conclusion." },
+    { type: "mcq", q: "Correct dilution practice is:", options: ["water into acid", "acid into water", "either order", "no water"], answer: 1, difficulty: 2, explanation: "Acid-to-water disperses heat safely." },
+    { type: "mcq", q: "Smelling a chemical safely means:", options: ["nose over the bottle", "wafting toward you", "sniff hard twice", "drinking a sip"], answer: 1, difficulty: 1, explanation: "Fan vapour gently; never inhale directly." },
+    { type: "mcq", q: "The flame pictogram warns the substance is:", options: ["radioactive", "flammable", "corrosive", "an oxidizer"], answer: 1, difficulty: 1, explanation: "Catches fire easily." },
+    { type: "mcq", q: "Repeating trials mainly reduces:", options: ["systematic error", "random error", "cost", "need for goggles"], answer: 1, difficulty: 3, explanation: "Averaging shrinks random scatter; calibration kills systematic." },
+    { type: "mcq", q: "An alcohol lamp fire on the bench is best smothered with:", options: ["a bucket of water", "a fire blanket/damp cloth", "blowing on it", "the fan"], answer: 1, difficulty: 2, explanation: "Cut off oxygen — don't spread a liquid fire." },
+    { type: "mcq", q: "A conclusion is accepted by the scientific community when it can be:", options: ["reproduced by others", "published fast", "defended loudly", "kept secret"], answer: 0, difficulty: 2, explanation: "Reproducibility is the acceptance test." },
+    { type: "mcq", q: "Which is a testable hypothesis?", options: ["copper is 'noble'", "temperature affects rate of fizzing", "chemistry is interesting", "acid tastes sour-ish"], answer: 1, difficulty: 2, explanation: "Specific, measurable, falsifiable." },
+    { type: "mcq", q: "Before using any reagent bottle you should first:", options: ["smell it", "read its label and hazard symbols", "pour a sample", "shake it"], answer: 1, difficulty: 1, explanation: "The label defines the risks and required PPE." }
+  ]
+};
