@@ -1,0 +1,176 @@
+/* Content: Grade 9 Physics — Unit 3: Motion in a Straight Line (topic 1) */
+window.Lessons = window.Lessons || {};
+
+Lessons["g9-physics-up3-t1"] = {
+  overview: "A bus from Addis to Adama travels 98 km of road but ends up 87 km from home. Physics keeps both numbers — distance and displacement — because 'how much ground' and 'how far from start' answer different questions. This lesson sorts them, then builds speed, velocity and the travel graphs that tell motion's whole story at a glance.",
+  objectives: [
+    "Distinguish scalar and vector quantities with examples",
+    "Contrast distance (path length) and displacement (straight-line change of position)",
+    "Compute average speed and velocity from total path / total time",
+    "Read and interpret distance–time and velocity–time graphs",
+    "Convert between m/s and km/h confidently"
+  ],
+  simple: "<b>Distance</b> = total ground covered (scalar — just a number). <b>Displacement</b> = straight-line change from start to finish, WITH direction (vector). Run a lap of the track: distance 400 m, displacement 0. <b>Speed</b> = distance ÷ time (km/h); <b>velocity</b> = displacement ÷ time (m/s with direction). A 50 km/h limit speaks speed; '50 km/h toward Adama' is velocity. On a <b>distance–time graph</b>: slope = speed, flat = stopped. On a <b>velocity–time graph</b>: slope = acceleration, area under = distance.",
+  detailed: "<p><b>Scalars vs vectors:</b> a scalar has magnitude only (mass, time, distance, speed, energy); a vector has magnitude AND direction (displacement, velocity, acceleration, force — Units 4 leans hard on this). Add scalars with arithmetic; add vectors with direction counted: walk 3 m east then 4 m west → distance 7 m, displacement 1 m east. The bus Addis→Adama: odometer 98 km (distance), but the city-to-city straight line ≈ 87 km east (displacement) — the winding road is why they differ; the bigger the detours, the wider the gap.</p><p><b>Speed and velocity:</b> average speed s = d/t uses total path length; average velocity v = Δx/t uses displacement and inherits its direction. Instantaneous speed = the speedometer right now (limit of s = d/t over a shrinking interval). Units: SI is m/s; road life is km/h; convert by dividing by 3.6 (108 km/h = 30 m/s — memorize that pair). A sprinter covers 100 m in 10 s → 10 m/s average; the rabbit-and-turtle lesson: average speed cares only about totals, not where the pausing happened.</p><p><b>Distance–time graphs:</b> position plotted against time. Straight rising line = constant speed, slope = how fast (a 20 m climb over 5 s = 4 m/s); steeper = faster; flat = parked; falling = returning home (negative slope = velocity toward the start); curved = changing speed (steeper tangent as it goes = accelerating). Two travelers on one grid: where lines cross, they meet.</p><p><b>Velocity–time graphs:</b> slope = acceleration (next lesson), and the <b>area under the line = displacement</b> — for constant velocity it's a rectangle (v×t); for accelerating from rest a triangle (½vt); for a car journey: accelerate-cruise-brake gives a trapezium — split it into parts, add areas. A vehicle that cruised to a stop at a red light: read its whole journey from that single picture.</p><p><b>Graph-reading exam method:</b> name the axes, state what slope and area mean for THAT graph (slope of d–t is speed; slope of v–t is acceleration; area of v–t is distance — do not mix them up), extract numbers with units, compute with the formula the graph implies. Practice sketching the Addis→Adama bus: fast motorway start (steep cruise on d–t), traffic crawl (flattening), fuel stop (horizontal), final push — one sketch exercises every skill here.</p>",
+  keyTerms: [
+    { term: "Scalar", def: "Magnitude only (mass, time, speed)" },
+    { term: "Vector", def: "Magnitude + direction (displacement, velocity, force)" },
+    { term: "Distance", def: "Total path length travelled" },
+    { term: "Displacement", def: "Straight-line change of position with direction" },
+    { term: "Average speed", def: "Total distance ÷ total time" },
+    { term: "Instantaneous speed", def: "Speed at one moment (speedometer)" },
+    { term: "Slope = speed", def: "On a distance–time graph" }
+  ],
+  formulas: [
+    {
+      name: "Average speed / velocity",
+      formula: "s = d ÷ t · v = Δx ÷ t",
+      meaning: "distance or displacement over total time",
+      when: "Any journey question; mind the scalar/vector difference",
+      example: "bus: 98 km in 2 h → 49 km/h average speed; displacement 87 km/2 h → 43.5 km/h toward Adama average velocity"
+    },
+    {
+      name: "Unit bridge",
+      formula: "km/h = m/s × 3.6",
+      meaning: "1 m/s = 3.6 km/h",
+      when: "Road vs physics units",
+      example: "30 m/s = 108 km/h"
+    }
+  ],
+  workedExamples: [
+    {
+      problem: "You walk 300 m east to the shop, then 120 m back west. Total time 7 min. Distance? Displacement? Average speed?",
+      calculation: "d = 420 m; Δx = 180 m east; t = 420 s",
+      answer: "420 m, 180 m east, 1.0 m/s average speed"
+    },
+    {
+      problem: "A d–t graph rises 60 m in 12 s, then runs flat 8 s, then falls back 60 m in 15 s. Describe each phase with speeds.",
+      answer: "outward 5 m/s; rest 20 s (flat = stopped); return 4 m/s homeward (negative velocity −4 m/s)"
+    },
+    {
+      problem: "A v–t graph: 0→20 m/s over 10 s, then steady 20 m/s for 30 s. Distance travelled?",
+      calculation: "triangle ½×10×20 = 100 m; rectangle 30×20 = 600 m",
+      answer: "700 m — area under the line"
+    },
+    {
+      problem: "Convert 72 km/h to m/s and 15 m/s to km/h.",
+      calculation: "÷3.6; ×3.6",
+      answer: "20 m/s; 54 km/h"
+    }
+  ],
+  commonMistakes: [
+    "Using 'speed' and 'velocity' interchangeably (velocity needs direction)",
+    "Saying a full lap has displacement = track length (it's zero — you're back home)",
+    "Reading a d–t flat segment as 'at rest' wrongly as constant speed, or vice versa on v–t (there flat = constant speed)",
+    "Mixing slope/area meanings between the two graph types",
+    "Forgetting to convert minutes to seconds in '7 min'",
+    "Treating km/h→m/s as ×3.6 instead of ÷"
+  ],
+  applications: [
+    "Speed limit signs (km/h) vs physics work (m/s): the conversion is daily, not academic",
+    "Bus/transport planning: average speed with stops determines schedules on highland roads",
+    "Phone maps compute your displacement vector and ETA from path + time — silent physics",
+    "Athletics: 400 m sprinters run 400 m distance, 0 displacement — race design obeys the distinction",
+    "Road-safety forensics: skid v–t graphs reconstruct a crash's speed history"
+  ],
+  summary: "Distance counts ground, displacement counts change of position (with direction — vector). Average speed = d/t, velocity = Δx/t; slope on d–t graphs gives speed, flat gives stop, and area under v–t gives distance. Convert km/h ↔ m/s by the 3.6 bridge. The two graph families are motion's full autobiography — read them right.",
+  visuals: [],
+  questions: [
+    { type: "mcq", q: "Which pair is both vectors?", options: ["mass, time", "displacement, velocity", "speed, distance", "energy, force"], answer: 1, difficulty: 1, explanation: "Both carry direction; the others don't." },
+    { type: "mcq", q: "Running one full 400 m track lap gives distance and displacement of:", options: ["400 m, 400 m", "0, 400 m", "400 m, 0", "800 m, 0"], answer: 2, difficulty: 1, explanation: "Path = 400; back at start → Δx = 0." },
+    { type: "mcq", q: "36 km/h equals:", options: ["10 m/s", "3.6 m/s", "100 m/s", "36 m/s"], answer: 0, difficulty: 1, explanation: "÷ 3.6." },
+    { type: "mcq", q: "On a distance–time graph, a horizontal segment means:", options: ["maximum speed", "constant speed", "the object is stopped", "returning fast"], answer: 2, difficulty: 1, explanation: "Distance isn't changing." },
+    { type: "mcq", q: "The area under a velocity–time graph gives:", options: ["acceleration", "distance travelled", "speed", "time"], answer: 1, difficulty: 2, explanation: "v × t accumulated = displacement." },
+    { type: "mcq", q: "A car does 150 km in 2.5 h. Average speed:", options: ["375 km/h", "60 km/h", "75 km/h", "30 km/h"], answer: 1, difficulty: 1, explanation: "150 ÷ 2.5 = 60." },
+    { type: "mcq", q: "50 m east then 80 m west. Net displacement:", options: ["130 m", "30 m west", "30 m east", "80 m"], answer: 1, difficulty: 2, explanation: "East 50 − west 80 → 30 m west." },
+    { type: "mcq", q: "A d–t line slopes steeper than another's. The first object:", options: ["moves slower", "moves faster", "is stopped", "returns home"], answer: 1, difficulty: 1, explanation: "Slope = speed; steeper = more m/s." },
+    { type: "mcq", q: "Instantaneous speed is measured by:", options: ["the odometer", "the speedometer", "a stopwatch over a lap", "a map ruler"], answer: 1, difficulty: 2, explanation: "Odometer = total distance; speedometer = right now." },
+    { type: "mcq", q: "A 100 m race in 25 s gives average velocity of:", options: ["25 m/s", "4 m/s", "400 m/s", "100 m/s"], answer: 1, difficulty: 1, explanation: "100 ÷ 25 = 4 (straight track → magnitude equals speed)." }
+  ]
+};
+
+Lessons["g9-physics-up3-t2"] = {
+  overview: "Speed tells where you are heading; acceleration tells how your velocity is changing — pressing the gas, the brake, or curving a corner. Galileo found that falling bodies share one acceleration, and from that seed grew four equations that solve nearly every straight-line motion problem in this course.",
+  objectives: [
+    "Define acceleration as rate of change of velocity (vector, m/s²)",
+    "Read acceleration from velocity–time graph slopes",
+    "Choose and apply the four SUVAT equations of uniformly accelerated motion",
+    "Use v = u + at, s = ½(u+v)t, v² = u² + 2as, s = ut + ½at²",
+    "Solve free-fall problems with g = 10 m/s² (approx)"
+  ],
+  simple: "<b>Acceleration</b> a = (v − u) ÷ t — how fast velocity changes, in m/s². Speeding up: positive; braking: negative (deceleration); even constant-speed cornering accelerates (direction changes). From a <b>v–t graph</b>: slope = a, area = s. When a is constant, four equations connect u, v, a, t, s (the SUVAT set): pick the one that skips your unknown. Free fall: gravity gives everything a ≈ 10 m/s² downward — a dropped stone gains 10 m/s every second.",
+  detailed: "<p><b>Definition:</b> a = Δv/Δt = (v−u)/t, units m/s per second = m/s². A car reaching 20 m/s from rest in 5 s accelerates at 4 m/s². Negative a means velocity decreasing when motion is positive (braking) — or speed increasing backward; the vector sign matters as much as the number. Constant-speed circular motion still accelerates because velocity's DIRECTION changes — flag for later; here everything is straight lines.</p><p><b>Graphically:</b> on v–t, slope = acceleration (straight rising line = uniform acceleration; curve = changing a; flat = zero a, constant v) — Unit 3-topic 1 already promised this: area under v–t = displacement, so a triangle gives s = ½vt, the seed of the equations below.</p><p><b>The four equations (uniform a only):</b> v = u + at (velocity after time t); s = ½(u+v)t (distance from average velocity); s = ut + ½at² (distance when v unknown); v² = u² + 2as (no time anywhere — the t-free favorite). Strategy: list the knowns among u, v, a, t, s; the missing one picks the equation (each equation omits exactly one variable). Units before substituting: everything in m and s — km/h first through the 3.6 bridge.</p><p><b>Derivation sketch (exam gold for top marks):</b> from a = (v−u)/t comes v = u + at. Average velocity under constant a is ½(u+v) → s = ½(u+v)t. Substitute v from the first into the second: s = ut + ½at². Combine first two to delete t: v² = u² + 2as. Four equations, one definition, two graph facts — nothing memorized blind.</p><p><b>Free fall:</b> near Earth's surface gravity accelerates all objects equally, g ≈ 9.8 (use 10) m/s² DOWNWARD, ignoring air resistance — Galileo's Pisa lesson, verified by the hammer-feather drop on the Moon. Dropped (u=0): after 3 s, v = 30 m/s, fallen s = ½×10×9 = 45 m. Thrown up: velocity falls by 10 m/s each second to 0 at the peak (a still 10 downward AT the peak — the most-asked trick), then it falls again; up-flight and down-flight are mirror images. Sign discipline: pick down as + for fall problems and stay consistent.</p><p><b>Braking-distance thinking:</b> from v² = u² + 2as, stopping distance ∝ u² — double the speed → quadruple the skid. Ethiopian road-safety posters encode Grade 9 physics: reaction distance (constant v × ~1 s) + braking distance (u²/2a). A full exam staple: multi-stage journeys (accelerate, cruise, brake) = apply SUVAT stage by stage, matching final v of one stage to initial u of the next.</p>",
+  keyTerms: [
+    { term: "Acceleration", def: "Rate of change of velocity — m/s², vector" },
+    { term: "Deceleration", def: "Acceleration opposing motion (speeding down)" },
+    { term: "SUVAT", def: "The five variables u,v,a,t,s linked by four equations" },
+    { term: "Uniform acceleration", def: "Constant a — the validity condition for the four equations" },
+    { term: "Free fall", def: "Motion under gravity alone: g ≈ 9.8–10 m/s² downward" },
+    { term: "Slope of v–t", def: "Instantaneous acceleration" }
+  ],
+  formulas: [
+    { name: "Definition", formula: "a = (v − u) ÷ t", meaning: "velocity change per second", when: "any acceleration question" },
+    { name: "SUVAT 1", formula: "v = u + at", meaning: "velocity after time t under uniform a", when: "s not involved" },
+    { name: "SUVAT 2", formula: "s = ½(u + v)t", meaning: "distance via mean velocity", when: "a not involved" },
+    { name: "SUVAT 3", formula: "s = ut + ½at²", meaning: "distance from start conditions", when: "v not involved" },
+    { name: "SUVAT 4", formula: "v² = u² + 2as", meaning: "velocity–position link", when: "t not involved; braking & falls", example: "stop from 20 m/s at −5 m/s²: s = 0−400 / (2×−5) = 40 m" },
+    { name: "Free fall", formula: "g ≈ 9.8 m/s² (course: 10)", meaning: "all objects, no air resistance", when: "dropped/thrown vertical" }
+  ],
+  workedExamples: [
+    {
+      problem: "A motorcycle accelerates uniformly from rest at 3 m/s² for 8 s. Final speed and distance?",
+      calculation: "v = 0 + 3×8; s = ½×3×64 (via ut+½at²)",
+      answer: "24 m/s (86 km/h); 96 m"
+    },
+    {
+      problem: "A bus at 15 m/s brakes to rest over 25 m. Find deceleration.",
+      calculation: "v² = u² + 2as → 0 = 225 + 2a(25) → a = −4.5",
+      answer: "4.5 m/s² deceleration (t-free equation — t was never given)"
+    },
+    {
+      problem: "A stone is dropped from a cliff. How far in 4 s? How fast then? (g = 10)",
+      calculation: "s = ½×10×16; v = 10×4",
+      answer: "80 m; 40 m/s"
+    },
+    {
+      problem: "Ball thrown straight up at 25 m/s. Peak height? Time back to hand?",
+      calculation: "peak: 0 = 625 − 2×10×s → s = 31.25 m; up in t = 25/10 = 2.5 s",
+      answer: "31.25 m high; 5 s total (mirror symmetry) — note a = 10 down even at the peak"
+    },
+    {
+      problem: "Car at 72 km/h accelerates at 2 m/s² for 10 s. New speed in km/h?",
+      calculation: "u = 20 m/s; v = 20 + 20 = 40 m/s; ×3.6",
+      answer: "144 km/h — convert first, convert back at the end"
+    }
+  ],
+  commonMistakes: [
+    "Plugging km/h straight into SUVAT (must be m/s — the 3.6 bridge first)",
+    "Sign blunders: braking a as +value in v² = u² + 2as (write a = −4.5 and let algebra settle it)",
+    "Saying acceleration is zero at the peak of a throw (g acts the whole flight)",
+    "Mixing which equation omits which letter (build the missing-variable habit)",
+    "Treating 'dropped' as u ≠ 0 (dropped = released = u = 0)",
+    "Applying the four equations when a changes (they demand uniform acceleration)"
+  ],
+  applications: [
+    "Road safety: stopping distance ∝ speed² explains why 120 km/h needs 4× the room of 60",
+    "Amusement & sports: coaster launches, long-jump takeoffs — SUVAT everywhere",
+    "Aviation: rotate speed and runway length = s = ½at² with lift constraint",
+    "Construction: dropped tool impact velocity (v² = 2gs) sets hard-hat policy",
+    "Exam classic: multi-stage v–t graphs of buses between stations — piecewise SUVAT"
+  ],
+  summary: "Acceleration = Δv/Δt (m/s², vector, read from v–t slopes). Under uniform a, four SUVAT equations connect u, v, a, t, s — choose by which variable you don't have. Free fall is the built-in example: g ≈ 10 m/s² down for everything, mirror-symmetric up/down, nonzero a even at the peak. Convert to SI before substituting; let signs handle the rest.",
+  visuals: [],
+  questions: [
+    { type: "mcq", q: "The unit of acceleration is:", options: ["m/s", "m²/s", "m/s²", "km/h"], answer: 2, difficulty: 1, explanation: "Velocity (m/s) per second." },
+    { type: "mcq", q: "A car goes 0→18 m/s in 6 s. Acceleration:", options: ["3 m/s²", "108 m/s²", "12 m/s²", "0.33 m/s²"], answer: 0, difficulty: 1, explanation: "18 ÷ 6." },
+    { type: "mcq", q: "On a v–t graph, acceleration equals the:", options: ["area under the line", "slope of the line", "height", "length"], answer: 1, difficulty: 1, explanation: "Area = distance; slope = a." },
+    { type: "mcq", q: "Which SUVAT equation omits time?", options: ["v = u + at", "s = ut + ½at²", "v² = u² + 2as", "s = ½(u+v)t"], answer: 2, difficulty: 2, explanation: "The velocity–position one." },
+    { type: "mcq", q: "Free-fall g ≈ 10 m/s² means each second:", options: ["speed grows 10 m/s", "distance grows 10 m", "speed is 10 m/s always", "acceleration shrinks"], answer: 0, difficulty: 1, explanation: "Constant velocity gain per second." },
+    { type: "mcq", q: "At the top of a vertical throw, the ball's acceleration is:", options: ["zero", "9.8 m/s² downward", "9.8 m/s² upward", "maximum upward"], answer: 1, difficulty: 3, explanation: "Gravity never clocks off — only v = 0 there." },
+    { type: "mcq", q: "Stopping distance from speed u (constant braking a):", options: ["∝ u", "∝ u²", "∝ √u", "independent of u"], answer: 1, difficulty: 3, explanation: "0 = u² + 2as → s = u²/2a." },
+    { type: "mcq", q: "Object from rest, a = 4 m/s², 5 s. Distance:", options: ["20 m", "50 m", "100 m", "10 m"], answer: 1, difficulty: 2, explanation: "s = ½×4×25." },
+    { type: "mcq", q: "A feather and hammer fall together on the Moon because:", options: ["Moon gravity is weaker", "without air resistance all objects share g", "the feather is cold", "magnets"], answer: 1, difficulty: 2, explanation: "Air drag fooled us on Earth; SUVAT's g is universal." },
+    { type: "mcq", q: "Train at 30 m/s decelerates 2 m/s² for 8 s. Speed after:", options: ["6 m/s", "54 m/s", "14 m/s", "22 m/s"], answer: 0, difficulty: 2, explanation: "v = 30 − 2×8." }
+  ]
+};
+

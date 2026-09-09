@@ -1,0 +1,83 @@
+/* Content: Grade 9 Physics — Unit 2: Physical Quantities and Measurement (1 topic) */
+window.Lessons = window.Lessons || {};
+
+Lessons["g9-physics-up2-t1"] = {
+  overview: "Before you can find speed you must measure length and time — and measure them well. This lesson builds the physicist's ruler: base and derived quantities, the instruments that realize them, and the vernier and micrometer that read what your eye cannot.",
+  objectives: [
+    "Distinguish base from derived quantities and name SI units for each",
+    "Select appropriate instruments for length, mass, time, volume",
+    "Read a vernier caliper and a micrometer screw gauge",
+    "Estimate measurement uncertainty and minimize error",
+    "Measure irregular volumes by displacement"
+  ],
+  simple: "<b>Base quantities</b> stand alone: length (metre), mass (kilogram), time (second), temperature (kelvin), current (ampere), amount (mole), luminous intensity (candela). <b>Derived quantities</b> are combinations: volume (m³), speed (m/s), force (N = kg·m/s²). Right tool for the job: tape for a room, <b>vernier caliper</b> for a small cylinder (0.1 mm), <b>micrometer</b> for a wire (0.01 mm), electronic balance for mass, stopwatch for time, measuring cylinder/displacement for volume. Every reading carries <b>error</b>: zero errors, parallax (eye not straight on), instrument limits — so measure carefully, repeat, average, and report honestly.",
+  detailed: "<p><b>Quantities</b> = number + unit (a bare '5' means nothing; '5 m' is a statement). The seven <b>SI base quantities</b>: length (m), mass (kg), time (s), electric current (A), temperature (K), amount of substance (mol), luminous intensity (cd). Everything else is <b>derived</b> by multiplication/powers: area m², volume m³, speed m/s, density kg/m³, force N, energy J. Dimension-checking derived units (does kg·m/s² equal a newton? yes by definition) is a free exam proofreader.</p><p><b>Length instruments ladder:</b> metre rule/tape (mm resolution — fine for a desk), <b>vernier caliper</b> (0.05–0.1 mm — internal/external diameters, depths: main scale + sliding vernier whose aligned division adds the decimal: read main just before zero, then find the vernier line matching a main line), <b>micrometer screw gauge</b> (0.01 mm — wire diameter, sheet thickness: sleeve mm + half-mm marks, thimble divisions on the datum line). Principle of both: a magnified scale translates a small distance into a readable one.</p><p><b>Mass and time:</b> electronic balance (g, 0.001 g lab models; remember mass ≠ weight, Units 4 will split them properly); beam balance when calibration matters. Time: stopwatch (0.01 s manual), and the trick for short intervals — measure many oscillations and divide (a pendulum's period from 20 swings beats timing one).</p><p><b>Volume:</b> regular solids by measurement + formula (V = l·w·h, πr²h for cylinders); liquids in a graduated cylinder read at the meniscus bottom, eye level with it; <b>irregular solids by displacement</b>: water level rise in a eureka/graduated cylinder = the object's volume (Archimedes' old trick, still the school method).</p><p><b>Error and uncertainty:</b> no measurement is exact. Sources: <b>zero error</b> (instrument reads nonzero when it shouldn't — calibrate or subtract), <b>parallax</b> (viewing at an angle — eye square to the scale), <b>resolution limit</b> (smallest division — uncertainty typically ±half a division), human reaction (stopwatch ±0.2 s — hence averaging). Strategy: choose resolution matched to the task, check zero, avoid parallax, <b>repeat and average</b> (random errors shrink), and report with uncertainty: d = 24.5 ± 0.1 mm. Significant figures from Chemistry apply: your result is no finer than your worst input.</p><p>Why it matters: every formula later in this course (speed, density, work, wave speed) is a measurement recipe — garbage in, garbage out. The national practical exam checks vernier/micrometer reading explicitly; and beyond school, machinists, medics and engineers live by calibrated measurement.</p>",
+  keyTerms: [
+    { term: "Base quantity", def: "One of the seven independently defined SI quantities" },
+    { term: "Derived quantity", def: "Built from base quantities (volume, speed, force)" },
+    { term: "Resolution", def: "Smallest change an instrument can detect" },
+    { term: "Zero error", def: "False nonzero reading at true zero — systematic" },
+    { term: "Parallax", def: "Reading error from viewing at an angle" },
+    { term: "Displacement method", def: "Irregular volume by water-level rise" },
+    { term: "Random vs systematic error", def: "Scatter (average away) vs bias (calibrate away)" }
+  ],
+  formulas: [
+    {
+      name: "Regular volumes",
+      formula: "V = lwh · V = πr²h · V = 4⁄3πr³",
+      meaning: "Cuboid, cylinder, sphere",
+      when: "Regular solids; liquids straight from the cylinder",
+      example: "wire 0.5 mm radius × 1 m: V = π(5×10⁻⁴)²(1) ≈ 7.9×10⁻⁷ m³ = 0.79 cm³"
+    }
+  ],
+  workedExamples: [
+    {
+      problem: "Vernier main scale shows 23 mm before zero; vernier division 6 aligns (0.05 mm scale). Reading?",
+      calculation: "23 + 6×0.05",
+      answer: "23.30 mm"
+    },
+    {
+      problem: "Micrometer: sleeve 3 mm + 0.5 mark visible, thimble reads 27 (0.01 mm). Result?",
+      calculation: "3.5 + 27×0.01",
+      answer: "3.77 mm"
+    },
+    {
+      problem: "A stone raises cylinder water from 40.0 to 63.5 mL. Its volume?",
+      answer: "23.5 mL = 23.5 cm³ (displacement — shape never matters)"
+    },
+    {
+      problem: "You time 20 pendulum swings = 32.4 s. Period, and why 20 not 1?",
+      calculation: "32.4 ÷ 20",
+      answer: "1.62 s — reaction error (±0.2 s) spreads over 20 swings: ±0.01 s per period vs ±0.2 s if single"
+    }
+  ],
+  commonMistakes: [
+    "Reading the vernier by guessing between lines — only ALIGNED marks count",
+    "Parallax on cylinder meniscus (read at eye level, bottom of curve)",
+    "Forgetting to close the jaws for a zero check before measuring",
+    "Confusing mass (kg) with weight (N) before Unit 4 defines the difference",
+    "Reporting 23.30 mm from a plain metre rule — claiming digits the tool never gave",
+    "Averaging to hide systematic error (a mis-zeroed caliper biases every trial equally)"
+  ],
+  applications: [
+    "National practical exams: caliper/micrometer readings are guaranteed marks",
+    "Workshop & tailoring: fabric widths, wire gauges, bolt sizes all vernier-grade checks",
+    "Medicine & pharmacy: syringe volumes and dose masses are life-critical measurement",
+    "Agriculture: sprayer calibration = volume per area done right",
+    "Construction: rebar diameters (micrometer) decide load ratings"
+  ],
+  summary: "Seven SI base quantities generate every derived unit; match the instrument's resolution to the job — rule, caliper (0.05 mm), micrometer (0.01 mm), balance, stopwatch, displacement for volumes. Errors split systematic (zero, calibration — kill by checking) and random (average, repeat). Report what you actually measured, uncertainty and all.",
+  visuals: [],
+  questions: [
+    { type: "mcq", q: "Which is a base SI quantity?", options: ["volume", "speed", "time", "force"], answer: 2, difficulty: 1, explanation: "Length, mass, time, temp, current, mole, candela." },
+    { type: "mcq", q: "The unit N equals in base units:", options: ["kg·m/s", "kg·m/s²", "kg/m·s²", "g·m/s²"], answer: 1, difficulty: 2, explanation: "Derived from F = ma." },
+    { type: "mcq", q: "To measure a wire's 0.4 mm diameter, best tool:", options: ["metre rule", "tape", "micrometer", "vernier at 0.05 mm"], answer: 2, difficulty: 1, explanation: "Only the micrometer resolves 0.01 mm safely here." },
+    { type: "mcq", q: "A vernier reads best by:", options: ["estimating between vernier lines", "main scale before zero + aligned vernier line", "squinting", "dividing by 10"], answer: 1, difficulty: 2, explanation: "Exact alignment — no interpolation." },
+    { type: "mcq", q: "Parallax error is avoided by:", options: ["taking many readings anyway", "placing the eye directly level with the mark", "using a bigger instrument", "rounding"], answer: 1, difficulty: 1, explanation: "Angle of view shifts the apparent mark." },
+    { type: "mcq", q: "An irregular stone's volume is best found by:", options: ["the ruler and π", "weighing it", "water displacement", "melting it"], answer: 2, difficulty: 1, explanation: "Level rise = its volume, shape-free." },
+    { type: "mcq", q: "A systematic zero error:", options: ["shrinks with averaging", "biases every reading equally — calibrate it out", "is impossible in school labs", "only affects time"], answer: 1, difficulty: 3, explanation: "Repeats don't cure bias." },
+    { type: "mcq", q: "Timing 20 swings and dividing mainly reduces:", options: ["zero error", "reaction-time error per period", "parallax", "gravity variation"], answer: 1, difficulty: 2, explanation: "Human reaction spreads across 20 cycles." },
+    { type: "mcq", q: "Volume of a 2×3×5 cm block in SI:", options: ["30 mL", "3.0×10⁻⁵ m³", "0.3 m³", "30 m³"], answer: 1, difficulty: 2, explanation: "30 cm³ = 30×10⁻⁶ m³." },
+    { type: "mcq", q: "A measurement should honestly be reported as:", options: ["as many digits as the calculator gives", "value + unit + uncertainty", "just the unit", "rounded to whole numbers always"], answer: 1, difficulty: 2, explanation: "Digits alone overstate precision." }
+  ]
+};

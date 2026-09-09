@@ -9,7 +9,7 @@ const lessons = all as unknown as Entry[];
 
 describe('grader regression (2,304 questions)', () => {
   it('fixture loaded', () => {
-    expect(lessons.length).toBe(2494);
+    expect(lessons.length).toBe(2594);
   });
 
   it('every canonical answer passes its own question', () => {

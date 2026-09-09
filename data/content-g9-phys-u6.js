@@ -1,0 +1,156 @@
+/* Content: Grade 9 Physics — Unit 6: Mechanical Oscillation and Sound Waves (topic 1) */
+window.Lessons = window.Lessons || {};
+
+Lessons["g9-physics-up6-t1"] = {
+  overview: "A kebero drum skin, a swing at Meskel Square, a hanging lamp in a drafty church — all trace the same back-and-forth math. This lesson defines oscillation's vocabulary (amplitude, period, frequency) and the pendulum whose period depends on length, not weight.",
+  objectives: [
+    "Define oscillatory motion and its quantities: displacement, amplitude, period, frequency",
+    "Relate period and frequency: T = 1/f",
+    "State the factors affecting a simple pendulum's period (length, g — not mass or amplitude)",
+    "Describe energy transformation in an oscillation (KE ↔ PE)",
+    "Distinguish free, damped and forced oscillation/resonance"
+  ],
+  simple: "An <b>oscillation</b> repeats about a central position: <b>amplitude</b> = max displacement, <b>period T</b> = seconds per cycle, <b>frequency f</b> = cycles per second (hertz); T = 1/f. A <b>pendulum's</b> period depends only on its <b>length</b> (and gravity): T = 2π√(L/g) — a heavy bob swings as fast as a light one, and small swings take the same time as big ones (isochronism — Galileo's church-lamp discovery). Energy shuttles between KE (fastest at the bottom) and PE (top of the swing); friction <b>damps</b> the swing away; push at exactly its natural rhythm and <b>resonance</b> builds it huge — singers shatter glass with it, engineers design bridges to avoid it.",
+  detailed: "<p><b>The vocabulary of back-and-forth:</b> equilibrium is the rest position; displacement measures where the oscillator is from it; <b>amplitude A</b> is the maximum displacement (how FAR it swings); <b>one complete oscillation</b> = there and back (centre→right→centre→left→centre); <b>period T</b> = time for one, <b>frequency f</b> = oscillations per second in hertz (Hz); T = 1/f (a 2 Hz swing lasts 0.5 s each way-round). The <b>oscillatory force</b> is always a restoring one: toward equilibrium, growing with displacement (spring) or angle (pendulum) — that's what guarantees the repetition. Common systems: pendulum (gravity restores), mass-spring (elasticity restores), stretched string, vibrating drumhead — every sound later rides on these.</p><p><b>Simple pendulum findings (the lab syllabus):</b> bob as point mass on a weightless string, small angles. Experiment 1 — vary mass: T unchanged (Galileo's lamp: big and small swings share timing). Experiment 2 — vary amplitude (small): T unchanged — <b>isochronism</b>, the reason pendulum clocks work at all. Experiment 3 — vary length: T grows with √L — quadruple the string to double the period. The formula T = 2π√(L/g) collects all three (only L and g appear; the Moon's weaker g makes a pendulum clock run slow — a real navigation disaster story). Practical exam trick for accuracy: time 20 oscillations, divide; keep angles under ~10° so 'small' holds.</p><p><b>Energy in the swing:</b> at the ends all PE (max height, v = 0); at the bottom all KE (max speed); constant exchange. Total energy ∝ A² — double the amplitude needs four times the energy. Damping (air, pivot friction) bleeds it away as heat: amplitude decays exponentially — <b>damped oscillation</b>; real clocks and swing sets need periodic pushes replacing exactly what friction steals.</p><p><b>Forced oscillation & resonance:</b> drive the oscillator at frequency f_drive and it follows; when f_drive hits the <b>natural frequency</b> f₀, energy is added in perfect sync — amplitude surges: <b>resonance</b>. Loves: pushing a child on a swing at the right beat, a radio tuning to one station's carrier frequency, a washing machine walking across the floor off-balance, an opera voice finding a glass's f₀ and ringing it apart. Hates: bridges and buildings designed off-tune from wind/footstep/motor frequencies (the Tacoma Narrows lesson), soldiers breaking step on bridges. Resonance is neither friend nor enemy — it's timing.</p><p><b>Reading it as graphs:</b> displacement–time is a wave shape (next topic's language); peak-to-peak = period; height = amplitude; a steeper trace at the same A carries the same f — amplitude and frequency are independent knobs (loud, high, slow, fast: four descriptors, two axes — the classic confusion to untangle here before sound doubles it).</p>",
+  keyTerms: [
+    { term: "Oscillation", def: "Repetitive motion about equilibrium driven by a restoring force" },
+    { term: "Amplitude", def: "Maximum displacement from equilibrium" },
+    { term: "Period T", def: "Time for one complete oscillation (s)" },
+    { term: "Frequency f", def: "Oscillations per second (Hz); T = 1/f" },
+    { term: "Isochronism", def: "Period independent of amplitude (small swings) and mass" },
+    { term: "Damping", def: "Amplitude decay by energy dissipation" },
+    { term: "Resonance", def: "Amplitude surge when driving matches natural frequency" }
+  ],
+  formulas: [
+    { name: "Period–frequency", formula: "T = 1/f", meaning: "reciprocal twins", when: "any oscillation", example: "heartbeat 75/min = 1.25 Hz → T = 0.8 s" },
+    { name: "Pendulum", formula: "T = 2π√(L ÷ g)", meaning: "length sets the beat (small angles)", when: "simple pendulum", example: "L = 1 m → T ≈ 2.0 s on Earth" }
+  ],
+  workedExamples: [
+    {
+      problem: "A pendulum completes 40 oscillations in 82 s. Period and frequency?",
+      calculation: "T = 82/40; f = 1/T",
+      answer: "2.05 s; 0.49 Hz"
+    },
+    {
+      problem: "How long must a seconds pendulum (T = 2 s: one second each way) be? (g = 10)",
+      calculation: "2 = 2π√(L/10) → L = g(T/2π)² = 10×(2/6.28)²",
+      answer: "≈ 1.0 m — grandfather clocks are built around this number"
+    },
+    {
+      problem: "String quadrupled in length: period and the clock's behavior?",
+      calculation: "T ∝ √L → ×√4 = 2",
+      answer: "period doubles → the clock runs at half speed, losing 12 hours a day"
+    },
+    {
+      problem: "Same pendulum on the Moon (g = 1.6): T of the 1 m version?",
+      calculation: "T = 2π√(1/1.6)",
+      answer: "≈ 5.0 s — 2.5× slower than its 2.0 s Earth period"
+    }
+  ],
+  commonMistakes: [
+    "Counting one pass as an oscillation (must return to the START — there AND back)",
+    "Thinking heavy bobs swing slower (mass cancels — pendulum = gravity vs inertia)",
+    "Confusing amplitude (how far) with frequency (how often)",
+    "Using the pendulum formula for large angles (isochronism dies past ~10°)",
+    "Saying resonance creates energy (it absorbs driving efficiently — timing, not magic)",
+    "Blaming the clock for losing seconds when it's the length that grew (thermal — Grade 10 crossover)"
+  ],
+  applications: [
+    "Clocks from grandfather to atomic: timekeeping IS counting stable periods",
+    "Playground swings: pumping legs at natural frequency = self-resonance",
+    "Musical kebero/masinko: instrument bodies tuned to resonate at wanted pitches",
+    "Buildings & bridges: tuned mass dampers and code rules against resonant wind/footfall",
+    "Medical: your heartbeat's frequency, MRI's resonant atoms — oscillation inside biology"
+  ],
+  summary: "Oscillation repeats about equilibrium: amplitude measures size, period/frequency measure timing (T = 1/f). A simple pendulum's period depends on length and g alone — isochronous in mass and small amplitude, per T = 2π√(L/g). Energy trades KE↔PE each cycle, friction damps it, and driving in rhythm (resonance) rebuilds it dramatically — useful in clocks, music and radios, dangerous in bridges.",
+  visuals: [],
+  questions: [
+    { type: "mcq", q: "One complete oscillation of a pendulum bob is:", options: ["one side to the other", "there and back to start", "half a swing", "ten seconds"], answer: 1, difficulty: 1, explanation: "Return to start AND direction." },
+    { type: "mcq", q: "If f = 5 Hz, T is:", options: ["5 s", "0.2 s", "2 s", "50 s"], answer: 1, difficulty: 1, explanation: "T = 1/f." },
+    { type: "mcq", q: "The period of a simple pendulum does NOT depend on:", options: ["length", "gravity", "bob mass", "none — all matter"], answer: 2, difficulty: 2, explanation: "Only L and g enter T = 2π√(L/g)." },
+    { type: "mcq", q: "Quadrupling pendulum length changes T by:", options: ["×4", "×2", "×½", "unchanged"], answer: 1, difficulty: 2, explanation: "√4 = 2." },
+    { type: "mcq", q: "At the bottom of its swing, the bob has:", options: ["max PE, zero KE", "max KE, min PE", "equal KE and PE", "zero both"], answer: 1, difficulty: 2, explanation: "Fastest point — energy all kinetic." },
+    { type: "mcq", q: "Damping means:", options: ["frequency falls", "amplitude decays as energy dissipates", "period stops", "mass evaporates"], answer: 1, difficulty: 1, explanation: "Friction drains the swing's energy to heat." },
+    { type: "mcq", q: "Resonance happens when the driving frequency:", options: ["is twice f₀", "matches the natural frequency", "is below f₀", "is zero"], answer: 1, difficulty: 1, explanation: "Sync = every push adds." },
+    { type: "mcq", q: "Time 20 oscillations rather than 1 to:", options: ["use the formula", "reduce reaction-error share of the reading", "double f", "prevent damping"], answer: 1, difficulty: 2, explanation: "±0.2 s spread over 20 cycles." },
+    { type: "mcq", q: "A pendulum clock taken to the Moon will:", options: ["gain (run fast)", "lose (run slow)", "keep perfect time", "stop"], answer: 1, difficulty: 3, explanation: "Smaller g lengthens T." },
+    { type: "mcq", q: "Doubling a swing's amplitude requires energy:", options: ["doubled", "×4", "unchanged", "halved"], answer: 1, difficulty: 3, explanation: "E ∝ A²." }
+  ]
+};
+
+Lessons["g9-physics-up6-t2"] = {
+  overview: "Sound is a traveling pressure wiggle — and everything about hearing, from a whisper across a classroom to a masinko string, follows from what carries the wiggle, how fast, how often and how hard.",
+  objectives: [
+    "Describe sound as a longitudinal mechanical wave needing a medium",
+    "Relate wave speed, frequency and wavelength: v = fλ",
+    "Explain loudness (amplitude) and pitch (frequency) with ranges (20 Hz–20 kHz)",
+    "Calculate echo-distance problems with v ≈ 343 m/s in air",
+    "Contrast reflection, absorption and the decibel scale"
+  ],
+  simple: "Sound = a <b>longitudinal wave</b>: vibrating source shoves air into <b>compressions and rarefactions</b> that race outward — no air, no sound (the vacuum bell-jar demo; space is silent). It needs a <b>medium</b> and moves fastest in stiff ones: air 343 m/s, water 1,500, steel 5,000. <b>Pitch</b> = frequency (high note = fast wiggle; humans hear 20 Hz–20 kHz; beyond = ultrasound). <b>Loudness</b> = amplitude, measured in decibels (dB — +10 dB sounds about twice as loud; 85 dB damages with time). <b>v = fλ</b> ties speed, frequency, wavelength. Echoes: sound reflects — time delay × 343 ÷ 2 = distance.",
+  detailed: "<p><b>Making and moving sound:</b> any vibrating body — string, drum skin, vocal folds, loudspeaker cone — nudges nearby air; the nudge passes molecule to molecule as a <b>longitudinal</b> wave: oscillations PARALLEL to travel, alternating <b>compressions</b> (high pressure, molecules crowded) and <b>rarefactions</b> (thinned). Contrast transverse waves (ripples, guitar strings — perpendicular): sound in fluids cannot be transverse (no sideways stiffness). The wave carries <b>energy, not matter</b> — an air molecule jiggles back around its post; YOU receive the disturbance, not the speaker's breath. Vacuum kills sound entirely (the alarm bell under the glass jar fades as air is pumped — the classic demonstration) yet light still arrives: sound is mechanical, light is electromagnetic (no medium needed).</p><p><b>Speed:</b> elasticity × density decide: ≈343 m/s in air at 20°C (faster in warm air — ~0.6 m/s per °C), ≈1,500 m/s in water, ~5,000 m/s in steel — why train rails announce themselves before the headlight appears, and why dolphins hear in milliseconds across kilometers. Light's 3×10⁸ m/s makes storms' flash-then-clap timing a distance meter (3 s of delay ≈ 1 km).</p><p><b>The three equation quantities:</b> frequency f (Hz) — wiggle rate — sets <b>pitch</b> (440 Hz = orchestra's tuning A; children hear higher limits than grandparents). Wavelength λ (m) — compression to compression. Speed v (m/s) — medium-determined. <b>v = fλ</b>: note that in air the SAME speed forces the trade — high pitch = short waves, bass = long waves (a 20 Hz rumor is 17 m end-to-end; hence subwoofer sizes). Ultrasound (above ~20 kHz) sees with echoes — prenatal scans, fish finders, flaw detection in metal; elephants and whales communicate below hearing (infrasound travels huge distances).</p><p><b>Loudness and dB:</b> amplitude of the pressure variation carries intensity (W/m²); the ear responds logarithmically, so sound level in <b>decibels</b>: 0 dB = faintest hearing, whisper 30, conversation 60, traffic 80, concert 100, jackhammer 120 (pain), +10 dB ≈ perceived doubling, but 3 dB = actual doubling of INTENSITY. Sustained 85 dB+ risks permanent hair-cell damage — earplug physics. Loudness also falls with distance (energy spreads over a growing sphere: ∝ 1/r²) — why crowds hear the PA poorly past 50 m without delay speakers.</p><p><b>Reflection & echoes:</b> hard surfaces bounce sound; soft porous ones absorb (curtains quiet rooms). An echo returns with delay t = 2d/v; the ear separates echoes from the original above ~0.1 s, i.e. surfaces beyond ~17 m — shorter delays blend as REVERBERATION (church acoustics: stone adds grandeur, carpets tame it; concert halls are shaped reflectors). Sonar and echo-sounding measure sea depth, and bats navigate the same way — biology doing v = 2d/t in real time.</p>",
+  keyTerms: [
+    { term: "Mechanical wave", def: "Disturbance needing a medium — sound's first identity" },
+    { term: "Longitudinal wave", def: "Vibration parallel to travel (compressions/rarefactions)" },
+    { term: "Compression / rarefaction", def: "High/low pressure zones of a sound wave" },
+    { term: "Wavelength λ", def: "Distance between matching points of consecutive cycles" },
+    { term: "Audible range", def: "~20 Hz–20 kHz for young human ears" },
+    { term: "Ultrasound / infrasound", def: "Above hearing / below hearing" },
+    { term: "Decibel (dB)", def: "Logarithmic loudness/intensity level" },
+    { term: "Echo / reverberation", def: "Distinct return / blended reflections" }
+  ],
+  formulas: [
+    { name: "Wave equation", formula: "v = f × λ", meaning: "speed = cycles/s × metres/cycle", when: "any wave question", example: "850 Hz note in air: λ = 343/850 ≈ 0.40 m" },
+    { name: "Echo distance", formula: "d = v × t ÷ 2", meaning: "round-trip halves the time", when: "cliffs, halls, sonar", example: "clap echo in 1.4 s → 343×1.4/2 ≈ 240 m" },
+    { name: "Storm range", formula: "distance ≈ 343 × (flash-to-clap seconds)", meaning: "light arrives instantly", when: "thunderstorms", example: "6 s gap → ~2 km" }
+  ],
+  workedExamples: [
+    {
+      problem: "A bass string vibrates at 55 Hz. Wavelength of its sound in air?",
+      calculation: "λ = v/f = 343/55",
+      answer: "≈ 6.2 m — feel why bass needs big speakers and long horns"
+    },
+    {
+      problem: "Ship's sonar sends a pulse; echo from the seabed returns in 0.8 s (water v = 1,500 m/s). Depth?",
+      calculation: "d = 1500 × 0.8 ÷ 2",
+      answer: "600 m"
+    },
+    {
+      problem: "You see lightning, hear thunder 5 s later. How far?",
+      answer: "≈ 343×5 ≈ 1.7 km"
+    },
+    {
+      problem: "Why does a shout across a 40 m tiled hall echo but a 4 m washroom doesn't?",
+      answer: "40 m → 0.23 s return — beyond the ear's 0.1 s merge window; 4 m → 0.023 s — reflections blend into the original as reverberation"
+    }
+  ],
+  commonMistakes: [
+    "Saying sound carries air from source to ear (it carries energy; the air just jiggles in place)",
+    "Claiming sound travels in space/vacuum (needs a medium — films lied)",
+    "Mixing v = fλ trade: assuming high pitch = high speed (speed is the medium's, f and λ split the work)",
+    "Doubling echo time wrongly (round trip — divide by 2 for distance)",
+    "Using light's speed for the thunder trick (343 m/s or the ~3 s/km rule)",
+    "Believing a 100 dB source is 100× a whisper (the scale is logarithmic)"
+  ],
+  applications: [
+    "Prenatal ultrasound imaging and industrial crack-detection: echoes as tools",
+    "Concert and church design: reflection, absorption and reverberation time",
+    "Hearing protection at markets, workshops, clubs: the dB budget of daily life",
+    "Lightning distance and fog-warning horns: v(air) as a measurement ruler",
+    "Musical instruments (krar strings, washint air columns): λ, f and resonance body design"
+  ],
+  summary: "Sound is a longitudinal mechanical wave — compressions racing through matter at v = fλ (343 m/s in air, faster in liquids/solids, impossible in vacuum). Frequency sets pitch (20 Hz–20 kHz hearing window; ultrasound/infra outside), amplitude sets loudness on the logarithmic dB ladder, distance spreads it thin, and hard surfaces reflect it as echo or reverberation. One equation explains bass horns, thunder distance and sonar depth.",
+  visuals: [],
+  questions: [
+    { type: "mcq", q: "Sound in air is a ___ wave:", options: ["transverse", "longitudinal", "surface", "electromagnetic"], answer: 1, difficulty: 1, explanation: "Compressions along travel direction." },
+    { type: "mcq", q: "Sound cannot travel through:", options: ["water", "steel", "vacuum", "warm air"], answer: 2, difficulty: 1, explanation: "No medium, no mechanical wave." },
+    { type: "mcq", q: "In which is sound fastest?", options: ["air", "water", "steel", "same everywhere"], answer: 2, difficulty: 2, explanation: "Stiff media pass pressure ~15× faster than air." },
+    { type: "mcq", q: "Pitch of a sound is set by its:", options: ["amplitude", "frequency", "speed", "wavelength alone"], answer: 1, difficulty: 1, explanation: "Hz = how high." },
+    { type: "mcq", q: "λ of a 686 Hz note (v = 343) is:", options: ["0.5 m", "2 m", "686 m", "171 m"], answer: 0, difficulty: 2, explanation: "v/f." },
+    { type: "mcq", q: "Human hearing spans roughly:", options: ["20 Hz–20 kHz", "2–2,000 Hz", "0–100 kHz", "1 kHz–1 GHz"], answer: 0, difficulty: 2, explanation: "Ultrasound beyond 20 kHz; limits shrink with age." },
+    { type: "mcq", q: "Loudness mainly depends on the wave's:", options: ["frequency", "amplitude", "speed", "wavelength"], answer: 1, difficulty: 1, explanation: "Bigger pressure swing = louder (dB scale)." },
+    { type: "mcq", q: "Echo delay of 0.6 s to a cliff means distance ≈:", options: ["103 m", "206 m", "412 m", "61 m"], answer: 1, difficulty: 2, explanation: "343×0.6÷2." },
+    { type: "mcq", q: "Under the bell jar, an electric bell fades when air is pumped because:", options: ["power fails", "sound needs a medium", "glass blocks it", "the bell cools"], answer: 1, difficulty: 2, explanation: "The classic vacuum-silence proof." },
+    { type: "mcq", q: "Medical ultrasound images using:", options: ["X-ray absorption", "reflected sound pulses", "radio waves", "heat"], answer: 1, difficulty: 2, explanation: "High-frequency echoes mapped by time-of-return." }
+  ]
+};
