@@ -259,6 +259,10 @@ input, select, textarea { font-family: inherit; font-size: 1rem; color: var(--fg
   border-radius: var(--radius) var(--radius) 0 0;
 }
 .card + .card { margin-top: var(--space-4); }
+button.card { color: inherit; font: inherit; }
+.unit-pick { transition: border-color var(--tr), background var(--tr); }
+.unit-pick:hover { border-color: var(--border-strong); }
+.unit-pick-on { border-color: var(--blue); background: rgba(96,165,250,.08); }
 .card-hover { transition: transform var(--tr), box-shadow var(--tr), border-color var(--tr); }
 .card-hover:hover { transform: translateY(-4px); box-shadow: var(--shadow); border-color: var(--border-strong); }
 
