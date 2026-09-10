@@ -17,8 +17,8 @@ describe('curriculum wiring', () => {
 
   it('every AUTHORED topic resolves to a valid lesson with questions', async () => {
     await loadAllLessons();
-    // G12 ships as a staged rollout: map live, lessons authored per subject.
-    const authored = allTids.filter(t => !t.startsWith('g12-'));
+    // G12 ships as a staged rollout: math is fully authored; sciences land per subject.
+    const authored = allTids.filter(t => !t.startsWith('g12-') || t.startsWith('g12-mathematics'));
     const missing = authored.filter(t => !lessonFor(t));
     expect(missing).toEqual([]);
     const noQuiz = authored.filter(t => !(lessonFor(t)?.questions?.length));

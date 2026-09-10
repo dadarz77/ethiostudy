@@ -7,9 +7,9 @@ import all from '../data/lessons/all-questions.test.json';
 type Entry = { tid: string; q: Record<string, unknown> };
 const lessons = all as unknown as Entry[];
 
-describe('grader regression (2,304 questions)', () => {
+describe('grader regression (2,778 questions)', () => {
   it('fixture loaded', () => {
-    expect(lessons.length).toBe(2594);
+    expect(lessons.length).toBe(2778);
   });
 
   it('every canonical answer passes its own question', () => {
