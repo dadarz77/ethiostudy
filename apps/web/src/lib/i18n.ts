@@ -5,6 +5,7 @@ export type Lang = 'en' | 'am';
 const COPY: Record<Lang, Record<string, string>> = {
   en: {
     dashboard: 'Dashboard', browse: 'Browse Curriculum', practice: 'Practice', exam: 'Exam Prep',
+    international: 'International',
     progress: 'Progress', bookmarks: 'Bookmarks', notes: 'Notes', settings: 'Settings',
     pickTopic: 'PICK A TOPIC', welcome: 'Welcome back, Student!', continue: 'Continue learning',
     explore: 'Explore subjects', weak: 'Practice weak topics', readiness: 'Exam readiness',
@@ -12,6 +13,7 @@ const COPY: Record<Lang, Record<string, string>> = {
   },
   am: {
     dashboard: 'መነሻ', browse: 'ሥርዓተ ትምህርት', practice: 'ልምምድ', exam: 'ለፈተና ዝግጅት',
+    international: 'ዓለም አቀፍ',
     progress: 'እድገት', bookmarks: 'ምልክቶች', notes: 'ማስታወሻዎች', settings: 'ቅንብሮች',
     pickTopic: 'ርዕስ ምረጥ', welcome: 'እንኳን ደህና መጡ!', continue: 'ትምህርት ቀጥል',
     explore: 'ትምህርቶችን ይመልከቱ', weak: 'ደካማ ርዕሶችን ተለማመዱ', readiness: 'የፈተና ዝግጁነት',
