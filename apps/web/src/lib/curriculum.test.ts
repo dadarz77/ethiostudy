@@ -18,7 +18,7 @@ describe('curriculum wiring', () => {
   it('every AUTHORED topic resolves to a valid lesson with questions', async () => {
     await loadAllLessons();
     // G12 ships as a staged rollout: math + physics fully authored; chem/bio land next.
-    const authored = allTids.filter(t => !t.startsWith('g12-') || /^g12-(mathematics|physics)/.test(t));
+    const authored = allTids.filter(t => !t.startsWith('g12-') || /^g12-(mathematics|physics|chemistry)/.test(t));
     const missing = authored.filter(t => !lessonFor(t));
     expect(missing).toEqual([]);
     const noQuiz = authored.filter(t => !(lessonFor(t)?.questions?.length));
