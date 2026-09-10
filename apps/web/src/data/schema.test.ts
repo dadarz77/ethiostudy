@@ -11,8 +11,8 @@ const DATA = join(__dirname);
 const unitFiles = readdirSync(DIR).filter(f => f.endsWith('.json') && !f.endsWith('.test.json'));
 
 describe('content integrity', () => {
-  it('has all 94 unit files', () => {
-    expect(unitFiles.length).toBe(94);
+  it('has all 100 unit files', () => {
+    expect(unitFiles.length).toBe(100);
   });
 
   it('every lesson validates against LessonSchema (380 topics)', () => {
@@ -33,8 +33,8 @@ describe('content integrity', () => {
       }
     }
     expect(errors).toEqual([]);
-    // 380 total topics; G12 is staged — math (23) + physics (29) + chemistry (21) authored, biology lands next.
-    expect(topics).toBe(352);
+    // 380 total topics; all four G12 subjects authored (math 23, physics 29, chemistry 21, biology 28).
+    expect(topics).toBe(380);
   });
 
   it('curriculum.json validates and covers all four grades', () => {
