@@ -8,6 +8,7 @@ export default function Browse() {
   const navigate = useNavigate();
   const [params] = useSearchParams();
   const grade = useAppStore(s => s.settings.grade);
+  const setSetting = useAppStore(s => s.setSetting);
   const progress = useAppStore(s => s.progress);
   const mastery = useAppStore(s => s.mastery);
 
@@ -32,9 +33,9 @@ export default function Browse() {
         <div className="spread">
           <h1>📚 Browse Curriculum</h1>
           <div className="row">
-            {Object.keys(CURRICULUM).sort().map(g => (
+            {Object.keys(CURRICULUM).sort((a, b) => Number(a) - Number(b)).map(g => (
               <button key={g} className={'btn ' + (g === grade ? 'btn-primary' : '')}
-                onClick={() => navigate('/browse?grade=' + g)}>Grade {g}</button>
+                onClick={() => { setSetting('grade', g); navigate('/browse?grade=' + g); }}>Grade {g}</button>
             ))}
           </div>
         </div>
@@ -96,7 +97,7 @@ export default function Browse() {
         return (
           <>
             <div className="breadcrumb mt-3">
-              <a href="#/">Dashboard</a> / <a href={'#/browse?grade=' + grade}>{subj.title}</a> / <span>Unit {ui}</span>
+              <a href="#/">Dashboard</a> / <a href={'#/browse?grade=' + grade + '&subject=' + subjKey}>{subj.title}</a> / <span>Unit {ui}</span>
             </div>
             <h1 className="mt-2">{unit.title}</h1>
             <div className="grid mt-4">

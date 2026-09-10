@@ -42,7 +42,13 @@ export default function Dashboard() {
       <section className="subject-deck" aria-label={tr('explore', lang)}>
         <div className="section-heading">
           <div><div className="eyebrow">{tr('explore', lang)}</div><h2>Grade {grade} subjects</h2></div>
-          <button className="text-action" onClick={() => navigate('/browse')}>{lang === 'am' ? 'ሁሉንም ይመልከቱ' : 'View curriculum'} <span>→</span></button>
+          <div className="row" style={{ gap: 8 }}>
+            {Object.keys(CURRICULUM).sort((a, b) => Number(a) - Number(b)).map(g => (
+              <button key={g} className={'btn btn-sm ' + (g === grade ? 'btn-primary' : '')}
+                onClick={() => s.setSetting('grade', g)}>G{g}</button>
+            ))}
+            <button className="text-action" onClick={() => navigate('/browse')}>{lang === 'am' ? 'ሁሉንም ይመልከቱ' : 'View curriculum'} <span>→</span></button>
+          </div>
         </div>
         <div className="subject-card-grid">
           {subjectsFor(grade as Grade).map(({ key, s: subj }, index) => {

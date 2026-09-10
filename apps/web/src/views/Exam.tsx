@@ -8,6 +8,7 @@ import { ScoreRing, Chip } from '../components/ui';
 /** Exam Prep — sample N questions across a whole subject, grade at the end */
 export default function Exam() {
   const grade = useAppStore(s => s.settings.grade);
+  const setSetting = useAppStore(s => s.setSetting);
   const examLen = useAppStore(s => s.settings.examLen);
   const logQuiz = useAppStore(s => s.logQuiz);
   const [exam, setExam] = useState<{ qs: QuizQuestion[]; topicOf: string[]; subject: string; key: string } | null>(null);
@@ -56,6 +57,12 @@ export default function Exam() {
           <section className="page-hero">
             <h1>📝 Exam Prep — Grade {grade}</h1>
             <p>{examLen} mixed questions sampled across every unit in a subject. The closest thing to the real national exam.</p>
+            <div className="row mt-3" style={{ gap: 8 }}>
+              {Object.keys(CURRICULUM).sort((a, b) => Number(a) - Number(b)).map(g => (
+                <button key={g} className={'btn btn-sm ' + (g === grade ? 'btn-primary' : '')}
+                  onClick={() => setSetting('grade', g)}>Grade {g}</button>
+              ))}
+            </div>
           </section>
           <div className="grid grid-2 mt-4">
             {subjects.map(({ key, s: subj }) => (
