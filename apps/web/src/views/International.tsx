@@ -20,7 +20,6 @@ export default function International() {
   const [answers, setAnswers] = useState<unknown[]>([]);
   const [result, setResult] = useState<QuizResult | null>(null);
   const [busy, setBusy] = useState(false);
-  const [secsLeft, setSecsLeft] = useState(0);
   const startedAt = useRef(0);
 
   // live pool sizes for the open setup
