@@ -525,11 +525,11 @@
   "areaId": "electro",
   "type": "calc",
   "q": "For the reaction CH4 + 2O2 -> CO2 + 2H2O, use the mean bond energies given: C-H = 413 kJ/mol, O=O = 498 kJ/mol, C=O = 799 kJ/mol, O-H = 463 kJ/mol. How much energy is released (in kJ) when one mole of methane burns? Give a positive number.",
-  "answer": "810",
+  "answer": "802",
   "tolerance": 2,
   "answer_note": "kJ",
   "difficulty": 3,
-  "explanation": "Energy absorbed breaking bonds = 4(413) + 2(498) = 1652 + 996 = 2648 kJ. Energy released forming bonds = 2(799) + 4(463) = 1598 + 1852 = 3450 kJ (CO2 has two C=O bonds; each H2O has two O-H bonds). Net release = 3450 - 2648 = 810 kJ."
+  "explanation": "Energy absorbed breaking bonds = 4(413) + 2(498) = 1652 + 996 = 2648 kJ. Energy released forming bonds = 2(799) + 4(463) = 1598 + 1852 = 3450 kJ (CO2 has two C=O bonds; each H2O has two O-H bonds). Net release = 3450 - 2648 = 802 kJ."
  },
  {
   "id": "auth-chem-electro-016",
@@ -549,11 +549,11 @@
   "areaId": "electro",
   "type": "calc",
   "q": "Ethene reacts with hydrogen: CH2=CH2 + H2 -> CH3-CH3. Mean bond energies given: C=C = 614 kJ/mol, C-C = 347 kJ/mol, H-H = 436 kJ/mol, C-H = 413 kJ/mol. Calculate the overall energy change, in kJ, for this reaction. Enter a negative number if the reaction is exothermic.",
-  "answer": "-128",
+  "answer": "-123",
   "tolerance": 2,
   "answer_note": "kJ",
   "difficulty": 3,
-  "explanation": "The 4 unchanged C-H bonds cancel out. Bonds broken = 614 (C=C) + 436 (H-H) = 1050 kJ. Bonds formed = 347 (new C-C) + 2(413) (two new C-H) = 1173 kJ. Energy change = 1050 - 1173 = -128 kJ, so the hydrogenation is exothermic."
+  "explanation": "The 4 unchanged C-H bonds cancel out. Bonds broken = 614 (C=C) + 436 (H-H) = 1050 kJ. Bonds formed = 347 (new C-C) + 2(413) (two new C-H) = 1173 kJ. Energy change = 1050 - 1173 = -123 kJ, so the hydrogenation is exothermic."
  },
  {
   "id": "auth-chem-electro-018",
@@ -561,11 +561,11 @@
   "areaId": "electro",
   "type": "calc",
   "q": "For the reaction N2 + 3H2 -> 2NH3, use the mean bond energies given: N triple-bond N = 945 kJ/mol, H-H = 436 kJ/mol, N-H = 391 kJ/mol. Calculate the overall energy change, in kJ, for the reaction as written. Enter a negative number if the reaction is exothermic.",
-  "answer": "-88",
+  "answer": "-93",
   "tolerance": 2,
   "answer_note": "kJ",
   "difficulty": 2,
-  "explanation": "Bonds broken = 945 + 3(436) = 945 + 1308 = 2253 kJ. Bonds formed = 6(391) = 2346 kJ (each NH3 has three N-H bonds). Energy change = 2253 - 2346 = -88 kJ, so ammonia formation is exothermic."
+  "explanation": "Bonds broken = 945 + 3(436) = 945 + 1308 = 2253 kJ. Bonds formed = 6(391) = 2346 kJ (each NH3 has three N-H bonds). Energy change = 2253 - 2346 = -93 kJ, so ammonia formation is exothermic."
  },
  {
   "id": "auth-chem-electro-019",
@@ -573,11 +573,11 @@
   "areaId": "electro",
   "type": "calc",
   "q": "Carbon monoxide burns: 2CO + O2 -> 2CO2. Mean bond energies given: the C-to-O bond in CO = 1072 kJ/mol, O=O = 498 kJ/mol, C=O = 799 kJ/mol. Calculate the overall energy change, in kJ, for the reaction as written. Enter a negative number if the reaction is exothermic.",
-  "answer": "-986",
+  "answer": "-554",
   "tolerance": 2,
   "answer_note": "kJ",
   "difficulty": 3,
-  "explanation": "Bonds broken = 2(1072) + 498 = 2144 + 498 = 2642 kJ. Bonds formed = 4(799) = 3196 kJ (each CO2 has two C=O bonds). Energy change = 2642 - 3196 = -986 kJ, so the combustion is exothermic."
+  "explanation": "Bonds broken = 2(1072) + 498 = 2144 + 498 = 2642 kJ. Bonds formed = 4(799) = 3196 kJ (each CO2 has two C=O bonds). Energy change = 2642 - 3196 = -554 kJ, so the combustion is exothermic."
  },
  {
   "id": "auth-chem-electro-020",
