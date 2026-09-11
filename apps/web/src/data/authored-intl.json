@@ -4673,5 +4673,645 @@
   "explanation": "cos C = (4 squared + 7 squared - 9 squared) / (2 x 4 x 7) = (16 + 49 - 81) / 56 = -16/56 = -0.2857, so C = arccos(-0.2857) = 106.60..., about 106.6 degrees.",
   "answer_note": "106.6 degrees",
   "id": "auth-math-trig-025"
+ },
+ {
+  "examId": "sat-reading",
+  "areaId": "craft",
+  "type": "mcq",
+  "q": "The following passage is from a nature documentary narration.\n\nSeagrass meadows, which once covered vast stretches of coastal seabeds, ______ recovering in several protected bays after decades of decline.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?\n\nA. is\nB. was\nC. are\nD. have been",
+  "options": [
+   "is",
+   "was",
+   "are",
+   "have been"
+  ],
+  "answer": 2,
+  "difficulty": 1,
+  "explanation": "The subject is the plural noun 'meadows,' so the plural verb 'are' is required. 'Is' and 'was' are singular; 'have been' would need the auxiliary to carry the full predicate ('are recovering' is the intended progressive form).",
+  "id": "auth-sat-reading-001"
+ },
+ {
+  "examId": "sat-reading",
+  "areaId": "craft",
+  "type": "mcq",
+  "q": "The following passage is about a museum exhibit.\n\nThe exhibit on Ice Age megafauna opens Saturday, and curator Elena Marsh wants ______ to arrive early: the first two hundred visitors receive a guided tour.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?\n\nA. them\nB. they\nC. their\nD. theirs",
+  "options": [
+   "them",
+   "they",
+   "their",
+   "theirs"
+  ],
+  "answer": 0,
+  "difficulty": 1,
+  "explanation": "'Them' is the object of the verb 'wants,' so the objective case is required. 'They' is subjective, 'their' is a possessive adjective needing a noun, and 'theirs' is an absolute possessive pronoun.",
+  "id": "auth-sat-reading-003"
+ },
+ {
+  "examId": "sat-reading",
+  "areaId": "craft",
+  "type": "mcq",
+  "q": "The following passage is about a musician.\n\nKnown for ______ performances, the violinist Katarina Volk can make even a familiar sonata sound startlingly new.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?\n\nA. her\nB. hers\nC. herself\nD. her's",
+  "options": [
+   "her",
+   "hers",
+   "herself",
+   "her's"
+  ],
+  "answer": 0,
+  "difficulty": 1,
+  "explanation": "A possessive adjective modifying 'performances' is needed, and 'her' is already possessive  -  it never takes an apostrophe. 'Hers' is an absolute possessive, 'herself' is reflexive, and 'her's' is a misspelling.",
+  "id": "auth-sat-reading-005"
+ },
+ {
+  "examId": "sat-reading",
+  "areaId": "craft",
+  "type": "mcq",
+  "q": "The following passage is about a library.\n\nThe reading room on the second floor is quiet, ______ the lobby downstairs is often bustling with school groups.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?\n\nA. while\nB. which\nC. that\nD. where",
+  "options": [
+   "while",
+   "which",
+   "that",
+   "where"
+  ],
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "'While' joins the two independent clauses and signals the contrast between the quiet reading room and the busy lobby. 'Which' and 'that' cannot connect two complete sentences, and 'where' would make the second clause a dependent relative clause without a proper antecedent.",
+  "id": "auth-sat-reading-007"
+ },
+ {
+  "examId": "sat-reading",
+  "areaId": "craft",
+  "type": "mcq",
+  "q": "The following passage is about field researchers.\n\nMarine biologists Taguchi and Okonkwo spent the entire expedition cataloguing specimens. ______ notebooks from that trip later became the basis for three published papers.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?\n\nA. Their\nB. There\nC. They're\nD. Them",
+  "options": [
+   "Their",
+   "There",
+   "They're",
+   "Them"
+  ],
+  "answer": 0,
+  "difficulty": 1,
+  "explanation": "A possessive adjective modifying 'notebooks' is required: 'Their.' 'There' refers to a place, 'They're' is a contraction of 'they are,' and 'Them' is an object pronoun.",
+  "id": "auth-sat-reading-009"
+ },
+ {
+  "examId": "sat-reading",
+  "areaId": "craft",
+  "type": "mcq",
+  "q": "The following passage is from an article about an animal behavior study.\n\nA honeyguide bird leads a human to a wild beehive, and when the hive is opened ______ fed on the beeswax.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?\n\nA. it\nB. they\nC. them\nD. its",
+  "options": [
+   "it",
+   "they",
+   "them",
+   "its"
+  ],
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "The subject 'a honeyguide bird' is singular, so the singular subjective pronoun 'it' agrees with it. 'They' disagrees in number, 'them' is objective case, and 'its' is possessive.",
+  "id": "auth-sat-reading-011"
+ },
+ {
+  "examId": "sat-reading",
+  "areaId": "craft",
+  "type": "mcq",
+  "q": "The following passage is about city planning.\n\nMedellin, Colombia, has built green corridors along former highway medians. City officials credit the corridors with ______ local temperatures by as much as two degrees.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?\n\nA. lowering\nB. lowered\nC. to lower\nD. lowered to",
+  "options": [
+   "lowering",
+   "lowered",
+   "to lower",
+   "lowered to"
+  ],
+  "answer": 0,
+  "difficulty": 1,
+  "explanation": "The idiom is 'credit something with doing something,' so the gerund 'lowering' follows the preposition 'with.' The other choices break the idiomatic pattern.",
+  "id": "auth-sat-reading-013"
+ },
+ {
+  "examId": "sat-reading",
+  "areaId": "craft",
+  "type": "mcq",
+  "q": "The following passage is about runners.\n\nAmong the marathoners who qualified this season, Rosa Lindqvist was ______, finishing in 2:21:04 while the next-fastest qualifier crossed in 2:24.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?\n\nA. fast\nB. fastest\nC. faster\nD. more fast",
+  "options": [
+   "fast",
+   "fastest",
+   "faster",
+   "more fast"
+  ],
+  "answer": 1,
+  "difficulty": 1,
+  "explanation": "The comparison involves three or more runners ('among the marathoners'), so the superlative 'fastest' is required. 'Fast' is positive degree, 'faster' compares only two, and 'more fast' is not standard.",
+  "id": "auth-sat-reading-015"
+ },
+ {
+  "examId": "sat-reading",
+  "areaId": "craft",
+  "type": "mcq",
+  "q": "The following passage is about lexicography.\n\nThe dictionary's editors track words that appear in newspapers, blogs, and transcripts. When enough citations accumulate, ______ added to a future edition.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?\n\nA. it's\nB. its\nC. they're\nD. there's",
+  "options": [
+   "it's",
+   "its",
+   "they're",
+   "there's"
+  ],
+  "answer": 2,
+  "difficulty": 2,
+  "explanation": "The pronoun must refer to the plural 'words,' and the sentence needs a subject plus the verb 'are' before 'added': 'they're' ('they are'). 'It's' and 'there's' imply a singular subject, and 'its' supplies no verb.",
+  "id": "auth-sat-reading-017"
+ },
+ {
+  "examId": "sat-reading",
+  "areaId": "craft",
+  "type": "mcq",
+  "q": "The following passage is about weather instruments.\n\nBefore the Doppler radar network became operational, forecasters ______ storm motion almost entirely by hand, tracing echoes onto paper charts.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?\n\nA. had estimated\nB. estimate\nC. will estimate\nD. are estimating",
+  "options": [
+   "had estimated",
+   "estimate",
+   "will estimate",
+   "are estimating"
+  ],
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "The past perfect 'had estimated' places the estimating before another past event (the radar becoming operational). The present- and future-tense choices clash with the past time frame.",
+  "id": "auth-sat-reading-019"
+ },
+ {
+  "examId": "sat-reading",
+  "areaId": "craft",
+  "type": "mcq",
+  "q": "The following passage is about a conference.\n\nThe summit drew researchers from twelve countries. The organizers, ______ were volunteering on university breaks, handled most of the registration work themselves.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?\n\nA. who\nB. whom\nC. which\nD. whose",
+  "options": [
+   "who",
+   "whom",
+   "which",
+   "whose"
+  ],
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "'Who' is the subject of the relative clause ('who were volunteering'). 'Whom' is objective case, 'which' refers to things rather than people, and 'whose' would indicate possession.",
+  "id": "auth-sat-reading-021"
+ },
+ {
+  "examId": "sat-reading",
+  "areaId": "craft",
+  "type": "mcq",
+  "q": "The following passage is about a composer.\n\nAlthough many of her contemporaries embraced electronic instruments, Ruth Kessler remained devoted to acoustic ones; ______, her late string quartets are scored for sixteen unamplified players.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?\n\nA. accordingly\nB. nevertheless\nC. however\nD. in contrast",
+  "options": [
+   "accordingly",
+   "nevertheless",
+   "however",
+   "in contrast"
+  ],
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "The clause after the semicolon states a consequence of her devotion to acoustics, so 'accordingly' fits. 'Nevertheless,' 'however,' and 'in contrast' all signal opposition, which the sentence does not express.",
+  "id": "auth-sat-reading-023"
+ },
+ {
+  "examId": "sat-reading",
+  "areaId": "craft",
+  "type": "mcq",
+  "q": "The following passage is about a survey.\n\nThe team canvassed nearly sixty households; ______ responses were recorded in a shared spreadsheet.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?\n\nA. their\nB. there\nC. they're\nD. them",
+  "options": [
+   "their",
+   "there",
+   "they're",
+   "them"
+  ],
+  "answer": 0,
+  "difficulty": 1,
+  "explanation": "The possessive adjective 'their' modifies 'responses' and refers to the households. 'There' is locational, 'they're' means 'they are,' and 'them' cannot modify a noun.",
+  "id": "auth-sat-reading-025"
+ },
+ {
+  "examId": "sat-reading",
+  "areaId": "craft",
+  "type": "mcq",
+  "q": "The following passage is about a park.\n\nWhen the park opens in spring, it will include a skate ramp ______ a climbing wall, drawing teenagers from across the district.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?\n\nA. and\nB. and,\nC. and;\nD. and:",
+  "options": [
+   "and",
+   "and,",
+   "and;",
+   "and:"
+  ],
+  "answer": 0,
+  "difficulty": 1,
+  "explanation": "A simple conjunction joining two noun phrases ('a skate ramp and a climbing wall') takes no additional punctuation. A comma, semicolon, or colon after 'and' would wrongly break up the compound object.",
+  "id": "auth-sat-reading-027"
+ },
+ {
+  "examId": "sat-reading",
+  "areaId": "craft",
+  "type": "mcq",
+  "q": "The following passage is about an astronomer.\n\nDr. Amara Diallo has published extensively on exoplanet atmospheres. Two of her colleagues praised ______ work in a recent review article.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?\n\nA. her\nB. hers\nC. herself\nD. she",
+  "options": [
+   "her",
+   "hers",
+   "herself",
+   "she"
+  ],
+  "answer": 0,
+  "difficulty": 1,
+  "explanation": "A possessive adjective modifying 'work' is needed, and the antecedent is Dr. Diallo: 'her.' 'Hers' stands alone without a noun, 'herself' is reflexive, and 'she' is subjective case.",
+  "id": "auth-sat-reading-029"
+ },
+ {
+  "examId": "sat-reading",
+  "areaId": "craft",
+  "type": "mcq",
+  "q": "The following passage is about civic life.\n\nThe town council delayed the vote on the new zoning code. ______, a coalition of residents organized a petition drive that gathered four thousand signatures in a month.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?\n\nA. Even so\nB. For example\nC. Likewise\nD. In other words",
+  "options": [
+   "Even so",
+   "For example",
+   "Likewise",
+   "In other words"
+  ],
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "The second sentence describes a response that proceeded despite the delay, so the concessive transition 'Even so' fits. 'For example' signals illustration, 'Likewise' signals similarity, and 'In other words' signals restatement  -  none capture the contrast.",
+  "id": "auth-sat-reading-031"
+ },
+ {
+  "examId": "sat-reading",
+  "areaId": "craft",
+  "type": "mcq",
+  "q": "The following passage is about historians.\n\nThe biography draws on the personal papers of two early suffragists: the letters of both ______ were donated to the state archive in 1987.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?\n\nA. women\nB. womens\nC. women's\nD. womens'",
+  "options": [
+   "women",
+   "womens",
+   "women's",
+   "womens'"
+  ],
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "The phrase 'the letters of both women' needs the plain plural 'women' after the preposition 'of'; the possessive is unnecessary because 'of' already marks the relationship. 'Womens' misspells the irregular plural, so the possessive forms built on it are also wrong.",
+  "id": "auth-sat-reading-033"
+ },
+ {
+  "examId": "sat-reading",
+  "areaId": "craft",
+  "type": "mcq",
+  "q": "The following passage is about an editor.\n\nOver the winter, the editor catalogued the author's correspondence, revised three long chapters, and ______ the final index.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?\n\nA. assembled\nB. assembling\nC. to assemble\nD. assembles",
+  "options": [
+   "assembled",
+   "assembling",
+   "to assemble",
+   "assembles"
+  ],
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "Parallel structure requires a past-tense verb to match 'catalogued' and 'revised': 'assembled.' The participle, infinitive, and present-tense forms all break the parallel series.",
+  "id": "auth-sat-reading-035"
+ },
+ {
+  "examId": "sat-reading",
+  "areaId": "craft",
+  "type": "mcq",
+  "q": "The following passage is about emergency services.\n\n______ it not for the volunteer firefighters who worked through the night, the ridge road would have remained blocked for weeks.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?\n\nA. Were\nB. If\nC. Was\nD. Had",
+  "options": [
+   "Were",
+   "If",
+   "Was",
+   "Had"
+  ],
+  "answer": 0,
+  "difficulty": 3,
+  "explanation": "The inverted subjunctive conditional 'Were it not for...' is the standard form; inserting 'If' would leave 'If it not for' ungrammatical. 'Had' requires a participle ('Had it not been for'), and 'Was' breaks the subjunctive.",
+  "id": "auth-sat-reading-037"
+ },
+ {
+  "examId": "sat-reading",
+  "areaId": "craft",
+  "type": "mcq",
+  "q": "The following passage is about an archive.\n\nWhile touring the restricted stacks, ______ discovered a bundle of unsigned letters that historians now believe were written by the novelist herself.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?\n\nA. the curator\nB. the bundle\nC. the stacks\nD. the letters",
+  "options": [
+   "the curator",
+   "the bundle",
+   "the stacks",
+   "the letters"
+  ],
+  "answer": 0,
+  "difficulty": 3,
+  "explanation": "The introductory modifier 'While touring the stacks' must attach to the entity doing the touring: the curator. Choosing 'the bundle' or 'the stacks' creates a dangling modifier (objects cannot tour), and 'the letters' conflicts with the relative clause that follows.",
+  "id": "auth-sat-reading-039"
+ },
+ {
+  "examId": "sat-reading",
+  "areaId": "info",
+  "type": "mcq",
+  "q": "Textiles conservator Mei-Lin Chow notes that nineteenth-century quilts often show fading in sharp geometric patterns rather than even wear. Because commercial synthetic dyes of the era were sold in fixed color blocks, quilters bought fabric by the printed design instead of matching dye lots, so adjacent triangles on a single quilt might come from batches that were never meant to match. The uneven fading we see today, Chow argues, is therefore less a record of how a quilt was used than a record of ______\n\nWhich choice most logically completes the text?\n\nA. how it was assembled from commercially available materials\nB. the climate in which it was stored\nC. the artistic intentions of its maker\nD. the quality of the thread used to stitch it",
+  "options": [
+   "how it was assembled from commercially available materials",
+   "the climate in which it was stored",
+   "the artistic intentions of its maker",
+   "the quality of the thread used to stitch it"
+  ],
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "Chow's claim is that the fading patterns reflect dye-batch differences introduced because quilters bought fabric by printed design; that is a record of assembly from commercial stock, not of use, storage, intent, or thread.",
+  "id": "auth-sat-reading-041"
+ },
+ {
+  "examId": "sat-reading",
+  "areaId": "info",
+  "type": "mcq",
+  "q": "A team of ecologists tracked pollinator visits to wildflower plots near and far from streetlights. Plots under artificial light received 31 percent fewer visits overall, and the flowers there set significantly less seed. Moths, which navigate by moonlight, were the group most affected: they orbited the lamps instead of foraging. The researchers conclude that the seed decline in lit plots is best explained by ______\n\nWhich choice most logically completes the text?\n\nA. moths and other nocturnal pollinators being diverted from flowers to lights\nB. a change in soil composition near roadways\nC. the flowers blooming earlier in the season\nD. birds outcompeting insects for nectar",
+  "options": [
+   "moths and other nocturnal pollinators being diverted from flowers to lights",
+   "a change in soil composition near roadways",
+   "the flowers blooming earlier in the season",
+   "birds outcompeting insects for nectar"
+  ],
+  "answer": 0,
+  "difficulty": 1,
+  "explanation": "The passage links fewer visits, the mechanism (moths orbiting lamps instead of foraging), and reduced seed set, so diversion of nocturnal pollinators is the explanation the text supports.",
+  "id": "auth-sat-reading-043"
+ },
+ {
+  "examId": "sat-reading",
+  "areaId": "info",
+  "type": "mcq",
+  "q": "Historian Amadi Bello writes that colonial census-takers in West Africa recorded households using categories borrowed from British parish records. Later scholars who treated those census tables as straightforward counts of family size, Bello shows, reproduced the categories of the recorders rather than the realities those records were meant to describe. Bello's main argument is that ______\n\nWhich choice most logically completes the text?\n\nA. official records can shape the very phenomena researchers believe they are simply measuring\nB. census data from the colonial period should be disregarded entirely\nC. colonial administrators were uninterested in accurate counts\nD. family size in West Africa was larger than parish records suggest",
+  "options": [
+   "official records can shape the very phenomena researchers believe they are simply measuring",
+   "census data from the colonial period should be disregarded entirely",
+   "colonial administrators were uninterested in accurate counts",
+   "family size in West Africa was larger than parish records suggest"
+  ],
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "Bello's point is that later scholars inherited the recorders' categories: the instruments of measurement shape what gets counted. He nowhere says the data are worthless, that administrators were careless, or anything about actual family size.",
+  "id": "auth-sat-reading-045"
+ },
+ {
+  "examId": "sat-reading",
+  "areaId": "info",
+  "type": "mcq",
+  "q": "Engineers testing self-healing concrete embedded capsules of bacteria that produce limestone when exposed to water. Cracks 0.3 millimeters wide sealed completely within three weeks in laboratory tanks, but cracks wider than 0.8 millimeters showed little healing. Since the bacteria activate only where water reaches the capsules, and the capsules are spaced roughly ten centimeters apart, the results suggest the technology is best suited for ______\n\nWhich choice most logically completes the text?\n\nA. maintaining structures against frequent fine cracking, not repairing major structural damage\nB. applications where concrete stays permanently dry\nC. roads that experience heavy truck traffic\nD. locations where low temperatures slow chemical reactions",
+  "options": [
+   "maintaining structures against frequent fine cracking, not repairing major structural damage",
+   "applications where concrete stays permanently dry",
+   "roads that experience heavy truck traffic",
+   "locations where low temperatures slow chemical reactions"
+  ],
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "Healing worked on narrow cracks and failed on wide ones, so the technology suits managing fine cracking rather than repairing major damage. Dryness would prevent activation entirely, and traffic and temperature go beyond the evidence.",
+  "id": "auth-sat-reading-047"
+ },
+ {
+  "examId": "sat-reading",
+  "areaId": "info",
+  "type": "mcq",
+  "q": "A student is writing a paper claiming that in Zora Kelman's novel Harbor Line, the lighthouse keeper's silence should be read as defiance rather than grief.\n\nWhich quotation from the novel most directly supports the student's claim?\n\nA. \"He stopped answering letters the winter the ferry stopped running, and the town forgave him for it.\"\nB. \"When the commissioners asked him to sign the logbook, he set the pen down without a word and walked to the lamp.\"\nC. \"Grief had made a stone of him, and stones do not weep.\"\nD. \"The light turned above him each night whether he climbed the stairs or not.\"",
+  "options": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "answer": 1,
+  "difficulty": 3,
+  "explanation": "Choice B shows silence directed at an authority figure making a demand  -  silence as refusal, hence defiance. A and C support grief or withdrawal; D supports indifference to routine, not defiance.",
+  "id": "auth-sat-reading-049"
+ },
+ {
+  "examId": "sat-reading",
+  "areaId": "info",
+  "type": "mcq",
+  "q": "Researchers compared two cities' bus systems. City P spent 18 percent less per ride than City Q, but ridership per capita was nearly identical, and complaint rates about reliability were twice as high in City P. A transit analyst cited these figures to argue that cheaper operation often trades away service quality.\n\nWhich finding, if true, would most directly weaken the analyst's argument?\n\nA. City P's lower costs come mainly from cheap fuel contracts, and its reliability complaints trace to a single corridor under construction\nB. City Q's ridership grew faster than City P's over the same decade\nC. Both cities operate electric buses purchased from the same manufacturer\nD. City P's fares are higher than City Q's",
+  "options": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "answer": 0,
+  "difficulty": 3,
+  "explanation": "If City P's complaints stem from a temporary construction project rather than its cheaper operation, the claimed cost-quality trade-off is undermined. Growth rates, bus manufacturer, and fares do not connect cost and reliability.",
+  "id": "auth-sat-reading-051"
+ },
+ {
+  "examId": "sat-reading",
+  "areaId": "info",
+  "type": "mcq",
+  "q": "In surveys, people consistently report trusting scientific findings more when researchers explain their methods in plain language. Yet a media study found that articles which stripped methods from scientific claims received more shares than articles that included them. The difference, the authors suggest, is that surveys ask people what they value, while share counts record what they ______\n\nWhich choice most logically completes the text?\n\nA. actually pass along in practice\nB. would prefer to have read\nC. expect their friends to trust\nD. cite in formal discussions",
+  "options": [
+   "actually pass along in practice",
+   "would prefer to have read",
+   "expect their friends to trust",
+   "cite in formal discussions"
+  ],
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "The passage contrasts stated preferences with observed behavior, so shares record what people actually pass along. Preferences, expectations, and formal citations all remain in the realm of stated values, not behavior.",
+  "id": "auth-sat-reading-053"
+ },
+ {
+  "examId": "sat-reading",
+  "areaId": "info",
+  "type": "mcq",
+  "q": "Musicologist Priya Raman argues that ragtime was not, as its early critics claimed, mere novelty piano trickery. She points out that composers like Joplin published pedagogical essays on touch and phrasing, and that their notated scores specify dynamics with a precision unusual for popular music of the 1890s.\n\nRaman's evidence is offered primarily to support which claim?\n\nA. Ragtime composers understood their music as an art form demanding disciplined interpretation.\nB. Ragtime was more popular than its early critics acknowledged.\nC. Notated scores are unreliable records of performance practice.\nD. Piano technique improved rapidly during the 1890s.",
+  "options": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "Pedagogical essays on touch and precisely marked dynamics show composers treated ragtime as serious music requiring disciplined interpretation  -  a direct answer to the 'mere novelty' charge. Popularity, score reliability, and technique trends are not what the evidence supports.",
+  "id": "auth-sat-reading-055"
+ },
+ {
+  "examId": "sat-reading",
+  "areaId": "info",
+  "type": "mcq",
+  "q": "The following passage is adapted from a report on urban trees.\n\nStreet trees cool sidewalks partly by shading them and partly by releasing water vapor. In a hot, dry city, irrigation raises a tree's cooling output sharply; in a humid coastal city, irrigation changes it little.\n\nA city planner would most likely conclude from the passage that spending on tree irrigation will deliver the most cooling benefit per dollar in ______\n\nWhich choice most logically completes the text?\n\nA. arid inland neighborhoods than in humid coastal ones\nB. humid coastal neighborhoods than in arid inland ones\nC. any neighborhood, since the benefit is uniform\nD. neighborhoods with the oldest trees, regardless of climate",
+  "options": [
+   "arid inland neighborhoods than in humid coastal ones",
+   "humid coastal neighborhoods than in arid inland ones",
+   "any neighborhood, since the benefit is uniform",
+   "neighborhoods with the oldest trees, regardless of climate"
+  ],
+  "answer": 0,
+  "difficulty": 1,
+  "explanation": "Because irrigation sharply boosts evaporative cooling only where air is dry, the benefit per dollar is greatest in arid inland areas. Tree age and uniformity are not addressed by the passage.",
+  "id": "auth-sat-reading-057"
+ },
+ {
+  "examId": "sat-reading",
+  "areaId": "info",
+  "type": "mcq",
+  "q": "Developmental linguists note that children acquiring tonal languages like Yoruba learn to distinguish lexical tones before they master many consonants. Adults learning such languages as beginners, by contrast, typically struggle with tones longest.\n\nWhich finding, if true, would most directly help explain the contrast described?\n\nA. Infants' perceptual systems remain tuned to pitch contrasts until speech-specific categories consolidate later in development\nB. Adults hear fewer tones in everyday life than infants do\nC. Tonal languages are objectively harder to learn than non-tonal languages\nD. Children have better memories for vocabulary than adults do",
+  "options": [
+   "Infants' perceptual systems remain tuned to pitch contrasts until speech-specific categories consolidate later in development",
+   "Adults hear fewer tones in everyday life than infants do",
+   "Tonal languages are objectively harder to learn than non-tonal languages",
+   "Children have better memories for vocabulary than adults do"
+  ],
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "The developmental contrast  -  tones easy for infants, hard for adult learners  -  is explained by early perceptual tuning to pitch that later narrows. Exposure frequency, 'objective' difficulty, and vocabulary memory do not explain the tone-specific pattern.",
+  "id": "auth-sat-reading-059"
+ },
+ {
+  "examId": "sat-reading",
+  "areaId": "info",
+  "type": "mcq",
+  "q": "A museum's visitor logs show that attendance for its ancient-Egypt exhibition peaks on rainy days, while attendance for its modern-art exhibition is flat across weather conditions. The marketing director proposed moving the modern-art opening to the rainy season to boost turnout. Critics responded that the proposal misreads the data, because a rain effect appeared in the logs only for ______\n\nWhich choice most logically completes the text?\n\nA. exhibitions whose audiences make discretionary same-day trips\nB. the museum's most expensive exhibitions\nC. exhibitions held in rented off-site venues\nD. openings that receive television coverage",
+  "options": [
+   "exhibitions whose audiences make discretionary same-day trips",
+   "the museum's most expensive exhibitions",
+   "exhibitions held in rented off-site venues",
+   "openings that receive television coverage"
+  ],
+  "answer": 0,
+  "difficulty": 3,
+  "explanation": "The critics' objection is that rain drives attendance only where visitors decide on the day itself  -  a property the logs show for the Egypt exhibition but not for modern art. Cost, venue, and coverage are unsupported by the passage.",
+  "id": "auth-sat-reading-061"
+ },
+ {
+  "examId": "sat-reading",
+  "areaId": "info",
+  "type": "mcq",
+  "q": "Paleobotanists examining Cretaceous root fossils found fine root branches in only 12 of 90 sampled species, though the trait is common in modern plants. Because such delicate structures fossilize only under exceptional conditions, the researchers caution that the scarcity of evidence ______\n\nWhich choice most logically completes the text?\n\nA. probably reflects preservation limits rather than a true absence of the trait in the period\nB. proves that modern plants evolved the trait independently\nC. shows that Cretaceous soils were too dry to support fine roots\nD. indicates that fossilization conditions have worsened since the Cretaceous",
+  "options": [
+   "probably reflects preservation limits rather than a true absence of the trait in the period",
+   "proves that modern plants evolved the trait independently",
+   "shows that Cretaceous soils were too dry to support fine roots",
+   "indicates that fossilization conditions have worsened since the Cretaceous"
+  ],
+  "answer": 0,
+  "difficulty": 1,
+  "explanation": "If fine roots rarely fossilize, their near-absence in the record likely reflects preservation bias, not biological absence. The caution supports neither proof of independent evolution nor claims about soils or changing conditions.",
+  "id": "auth-sat-reading-063"
+ },
+ {
+  "examId": "sat-reading",
+  "areaId": "info",
+  "type": "mcq",
+  "q": "A cartographer recorded travel times between a highland village and a market town by three routes: the ridge trail (2.1 hours, dry season only), the valley road (3.6 hours, year-round), and the river ferry (1.4 hours, six months of the year). Village records show that in the 1890s, market trips rose sharply between November and March and fell between June and September.\n\nWhich choice most logically completes the text?\n\nThe rise in November-March trips is best explained by travelers ______\n\nA. using the ridge trail and the ferry, which are fastest but unavailable in the wet months\nB. switching to the slower valley road during those months\nC. avoiding the market town during the cool season\nD. combining all three routes into a single circuit",
+  "options": [
+   "using the ridge trail and the ferry, which are fastest but unavailable in the wet months",
+   "switching to the slower valley road during those months",
+   "avoiding the market town during the cool season",
+   "combining all three routes into a single circuit"
+  ],
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "The seasonal swing in trips matches the availability windows of the two fastest routes: when the ridge trail and ferry operate in dry months, travel is quicker and more frequent. The valley road's year-round access explains baseline travel, not the surge.",
+  "id": "auth-sat-reading-065"
+ },
+ {
+  "examId": "sat-reading",
+  "areaId": "info",
+  "type": "mcq",
+  "q": "Novelist Kenji Arakawa keeps index cards listing every sentence he has cut from drafts. He says the cards are not a graveyard but a quarry: blocked on a new book, he mines them and sometimes finds a discarded line that unlocks a chapter.\n\nArakawa's practice is best described as an example of ______\n\nWhich choice most logically completes the text?\n\nA. treating rejected material as a renewable resource for future work\nB. proving that first drafts are usually superior to revisions\nC. demonstrating that cutting sentences is unnecessary\nD. showing that index cards improve memory better than computers",
+  "options": [
+   "treating rejected material as a renewable resource for future work",
+   "proving that first drafts are usually superior to revisions",
+   "demonstrating that cutting sentences is unnecessary",
+   "showing that index cards improve memory better than computers"
+  ],
+  "answer": 0,
+  "difficulty": 1,
+  "explanation": "The quarry metaphor frames cuts as raw material to be reused  -  rejected work as a renewable resource. Nothing in the passage endorses drafts over revisions, opposes cutting, or compares cards to computers.",
+  "id": "auth-sat-reading-067"
+ },
+ {
+  "examId": "sat-reading",
+  "areaId": "info",
+  "type": "mcq",
+  "q": "Economists studying 1920s radio advertising found that stations adopting sponsored programs early gained audiences, but by 1929, when nearly all stations had sponsors, audience sizes converged while programming standardized.\n\nThe convergence most strongly suggests that the early adopters' advantage was ______\n\nWhich choice most logically completes the text?\n\nA. a temporary benefit of being first, which disappeared once sponsorship became universal\nB. permanent evidence that sponsored content is more appealing to listeners\nC. proof that audiences disliked advertising when it first appeared\nD. unrelated to sponsorship and caused instead by improved transmitters",
+  "options": [
+   "a temporary benefit of being first, which disappeared once sponsorship became universal",
+   "permanent evidence that sponsored content is more appealing to listeners",
+   "proof that audiences disliked advertising when it first appeared",
+   "unrelated to sponsorship and caused instead by improved transmitters"
+  ],
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "The advantage held while sponsorship was rare and vanished as it spread, indicating a first-mover edge rather than a lasting effect of sponsorship. Transmitters and audience dislike are unsupported by the passage.",
+  "id": "auth-sat-reading-069"
+ },
+ {
+  "examId": "sat-reading",
+  "areaId": "info",
+  "type": "mcq",
+  "q": "The following passage is about a poet.\n\nElizabeth Bishop's letters reveal months spent revising single poems, while her published output remained small  -  roughly a hundred poems in a lifetime. Some critics read this scarcity as evidence of diminishing inspiration; her editors, who saw her working notebooks, counter that the notebooks overflow with half-finished experiments, more vigorous than any finished anthology could show.\n\nThe editors' counterargument depends on which assumption?\n\nA. A large volume of abandoned experimentation can indicate creative energy even when it yields few finished poems.\nB. Published poems are always weaker than manuscript drafts.\nC. Critics have never examined a poet's working notebooks.\nD. The poet's later work is stronger than her early work.",
+  "options": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "answer": 0,
+  "difficulty": 3,
+  "explanation": "The editors infer vigor from the notebooks' overflow of experiments, which requires assuming abundant unfinished work can signal creative energy. They need not claim drafts beat published poems, that critics never saw notebooks, or anything about which period is strongest.",
+  "id": "auth-sat-reading-071"
+ },
+ {
+  "examId": "sat-reading",
+  "areaId": "info",
+  "type": "mcq",
+  "q": "Marine protected areas (MPAs) are often praised for rebuilding fish stocks. A global review found that stocks inside well-enforced MPAs recovered within a decade, but catches in adjacent waters rose no more than in unprotected control regions.\n\nWhich choice most logically completes the text?\n\nThe review most directly weakens the claim that MPAs ______\n\nA. spill substantial benefits into surrounding fishing grounds\nB. help target species reproduce inside reserves\nC. require enforcement to be effective\nD. should be established only near coastlines",
+  "options": [
+   "spill substantial benefits into surrounding fishing grounds",
+   "help target species reproduce inside reserves",
+   "require enforcement to be effective",
+   "should be established only near coastlines"
+  ],
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "No catch increase near reserves undercuts the spillover claim specifically. The review actually confirms within-reserve recovery and the importance of enforcement, so those claims are not what is weakened.",
+  "id": "auth-sat-reading-073"
+ },
+ {
+  "examId": "sat-reading",
+  "areaId": "info",
+  "type": "mcq",
+  "q": "In an experiment, cuttlefish were shown their own reflections and repeatedly adjusted their skin to inspect patterned patches on their bodies, a behavior associated in other species with self-recognition. Skeptics note the animals never passed the classical dye-mark test. Proponents reply that requiring a mammal-shaped test of a color-changing animal is like ______\n\nWhich choice most logically completes the text?\n\nA. judging a bird's navigation by how well it can smell\nB. measuring a fish's eyesight with a written exam\nC. expecting a chess player to also run fast\nD. testing a dog's hearing only with low tones",
+  "options": [
+   "judging a bird's navigation by how well it can smell",
+   "measuring a fish's eyesight with a written exam",
+   "expecting a chess player to also run fast",
+   "testing a dog's hearing only with low tones"
+  ],
+  "answer": 0,
+  "difficulty": 3,
+  "explanation": "The needed analogy is a mismatch between the species' sensory modality and the test's demands: navigation by smell for a bird fits. Written exams are an artifact of human administration rather than a sensory mismatch, and the other options lack the modality-confusion logic.",
+  "id": "auth-sat-reading-075"
+ },
+ {
+  "examId": "sat-reading",
+  "areaId": "info",
+  "type": "mcq",
+  "q": "Architects of a new transit hub planned skylights to cut daytime electricity use. One year later, the hub's daytime lighting bills fell 40 percent, but its overall energy use rose 9 percent. Facility engineers explained that the same skylights admitted so much summer heat that air-conditioning loads more than offset the lighting savings.\n\nWhich choice most logically completes the text?\n\nThe episode illustrates that ______\n\nA. a design change benefiting one energy system can increase costs in another\nB. skylights reliably reduce a building's total energy use\nC. lighting accounts for most commercial energy consumption\nD. air-conditioning should be replaced entirely by natural ventilation",
+  "options": [
+   "a design change benefiting one energy system can increase costs in another",
+   "skylights reliably reduce a building's total energy use",
+   "lighting accounts for most commercial energy consumption",
+   "air-conditioning should be replaced entirely by natural ventilation"
+  ],
+  "answer": 0,
+  "difficulty": 1,
+  "explanation": "Lower lighting use alongside higher total use shows a cross-system trade-off. The outcome contradicts the claim that skylights reliably cut total use, and the passage says nothing about lighting's overall share or replacing air-conditioning.",
+  "id": "auth-sat-reading-077"
+ },
+ {
+  "examId": "sat-reading",
+  "areaId": "info",
+  "type": "mcq",
+  "q": "Folklorist Dara Whitfield collected two versions of a river-crossing tale: an upstream town's version features a clever heron, while a downstream town's features a foolish fox. The settings, plot sequence, and even many phrases are nearly identical. Whitfield concludes the versions likely descend from a single tale type, and the animal differences most probably reflect ______\n\nWhich choice most logically completes the text?\n\nA. each community adapting a shared story to local symbols and sensibilities\nB. one town copying the other's storybook directly\nC. two unrelated stories that merely resemble each other\nD. a printing error preserved through generations of retelling",
+  "options": [
+   "each community adapting a shared story to local symbols and sensibilities",
+   "one town copying the other's storybook directly",
+   "two unrelated stories that merely resemble each other",
+   "a printing error preserved through generations of retelling"
+  ],
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "Deep structural identity with divergent, locally meaningful characters is the classic signature of adaptation of a shared tale type. Direct copying would likely preserve the characters, unrelated origin contradicts the shared structure, and printing errors are irrelevant to oral versions.",
+  "id": "auth-sat-reading-079"
  }
 ]
