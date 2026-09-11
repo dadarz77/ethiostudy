@@ -590,5 +590,2193 @@
   "answer_note": "degrees C",
   "difficulty": 2,
   "explanation": "Mass of solution = 100 cm3 x 1.0 g/cm3 = 100 g. Rearranging Q = m c delta-T: delta-T = Q / (m c) = 2850 J / (100 g x 4.2 J/g/degree C) = 2850 / 420 = 6.78... = 6.8 degrees C."
+ },
+ {
+  "id": "auth-math-number-001",
+  "examId": "igcse-math",
+  "areaId": "number",
+  "type": "mcq",
+  "q": "Express 180 as a product of prime factors, in index form.",
+  "answer": 1,
+  "difficulty": 1,
+  "explanation": "180 = 2 x 90 = 2^2 x 45 = 2^2 x 3^2 x 5. Check: 4 x 9 x 5 = 180.",
+  "options": [
+   "2^3 x 3^2 x 5",
+   "2^2 x 3^2 x 5",
+   "2^2 x 3^3 x 5",
+   "2 x 3^2 x 5^2"
+  ]
+ },
+ {
+  "id": "auth-math-number-002",
+  "examId": "igcse-math",
+  "areaId": "number",
+  "type": "mcq",
+  "q": "Which of these numbers is a prime number?",
+  "options": [
+   "51",
+   "57",
+   "61",
+   "91"
+  ],
+  "answer": 2,
+  "difficulty": 1,
+  "explanation": "51 = 3 x 17, 57 = 3 x 19 and 91 = 7 x 13, so all are composite. 61 has no factors other than 1 and itself."
+ },
+ {
+  "id": "auth-math-number-003",
+  "examId": "igcse-math",
+  "areaId": "number",
+  "type": "mcq",
+  "q": "Two bells ring together at 12:00 noon. One bell rings every 8 minutes and the other every 12 minutes. When do they next ring together?",
+  "options": [
+   "12:20 pm",
+   "12:24 pm",
+   "12:36 pm",
+   "12:48 pm"
+  ],
+  "answer": 1,
+  "difficulty": 2,
+  "explanation": "LCM(8, 12) = 24, so they ring together again 24 minutes later, at 12:24 pm."
+ },
+ {
+  "id": "auth-math-number-004",
+  "examId": "igcse-math",
+  "areaId": "number",
+  "type": "calc",
+  "q": "Work out the highest common factor (HCF) of 84 and 126.",
+  "answer": "42",
+  "difficulty": 1,
+  "explanation": "84 = 2^2 x 3 x 7 and 126 = 2 x 3^2 x 7. HCF = 2 x 3 x 7 = 42.",
+  "answer_note": "a whole number"
+ },
+ {
+  "id": "auth-math-number-005",
+  "examId": "igcse-math",
+  "areaId": "number",
+  "type": "mcq",
+  "q": "Express 360 as a product of prime factors in index form.",
+  "options": [
+   "2^3 x 3^2 x 5",
+   "2^2 x 3^3 x 5",
+   "2^3 x 3 x 5^2",
+   "2 x 3^2 x 5^3"
+  ],
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "360 = 8 x 45 = 2^3 x 3^2 x 5, since 8 x 9 x 5 = 360. The other options give 2^2 x 3^3 x 5 = 540, 2^3 x 3 x 5^2 = 600 and 2 x 3^2 x 5^3 = 2250."
+ },
+ {
+  "id": "auth-math-number-006",
+  "examId": "igcse-math",
+  "areaId": "number",
+  "type": "mcq",
+  "q": "The HCF of two numbers is 6 and their LCM is 60. One of the numbers is 12. What is the other number?",
+  "options": [
+   "10",
+   "20",
+   "30",
+   "40"
+  ],
+  "answer": 2,
+  "difficulty": 3,
+  "explanation": "Product of two numbers = HCF x LCM = 6 x 60 = 360. Other number = 360 / 12 = 30. Check: HCF(12, 30) = 6 and LCM(12, 30) = 60."
+ },
+ {
+  "id": "auth-math-number-007",
+  "examId": "igcse-math",
+  "areaId": "number",
+  "type": "calc",
+  "q": "Work out the value of 2^3 x 3^2 x 5.",
+  "answer": "360",
+  "difficulty": 1,
+  "explanation": "2^3 = 8 and 3^2 = 9, so 8 x 9 x 5 = 360.",
+  "answer_note": "a whole number"
+ },
+ {
+  "id": "auth-math-number-008",
+  "examId": "igcse-math",
+  "areaId": "number",
+  "type": "calc",
+  "q": "Work out the product of the smallest prime number, the smallest composite number greater than 1, and the smallest odd number greater than 1.",
+  "answer": "24",
+  "difficulty": 1,
+  "explanation": "Smallest prime = 2, smallest composite number greater than 1 = 4, smallest odd number greater than 1 = 3. Product = 2 x 4 x 3 = 24.",
+  "answer_note": "a whole number"
+ },
+ {
+  "id": "auth-math-number-009",
+  "examId": "igcse-math",
+  "areaId": "number",
+  "type": "mcq",
+  "q": "Which fraction is equal to the recurring decimal 0.4444... ?",
+  "options": [
+   "2/5",
+   "4/9",
+   "4/10",
+   "40/99"
+  ],
+  "answer": 1,
+  "difficulty": 2,
+  "explanation": "Let x = 0.444... . Then 10x = 4.444... , so 9x = 4 and x = 4/9. The tempting 2/5 = 0.4 is the terminating decimal, not the recurring one."
+ },
+ {
+  "id": "auth-math-number-010",
+  "examId": "igcse-math",
+  "areaId": "number",
+  "type": "mcq",
+  "q": "Express 1/3 + 1/4 as a single fraction.",
+  "answer": 0,
+  "difficulty": 1,
+  "explanation": "Common denominator 12: 1/3 = 4/12 and 1/4 = 3/12, so the sum is 7/12. Adding numerators and denominators to get 2/7 is a common error.",
+  "options": [
+   "7/12",
+   "2/7",
+   "1/7",
+   "13/12"
+  ]
+ },
+ {
+  "id": "auth-math-number-011",
+  "examId": "igcse-math",
+  "areaId": "number",
+  "type": "mcq",
+  "q": "Write 467 000 in standard form.",
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "Move the decimal point 5 places to the left to get 4.67, so 467 000 = 4.67 x 10^5.",
+  "options": [
+   "4.67 x 10^5",
+   "46.7 x 10^4",
+   "4.67 x 10^6",
+   "0.467 x 10^6"
+  ]
+ },
+ {
+  "id": "auth-math-number-012",
+  "examId": "igcse-math",
+  "areaId": "number",
+  "type": "mcq",
+  "q": "Work out 2 1/2 x 2/3. Give your answer as a fraction in its simplest form.",
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "2 1/2 = 5/2, so 5/2 x 2/3 = 10/6 = 5/3.",
+  "options": [
+   "5/3",
+   "5/6",
+   "2/15",
+   "15/4"
+  ]
+ },
+ {
+  "id": "auth-math-number-013",
+  "examId": "igcse-math",
+  "areaId": "number",
+  "type": "mcq",
+  "q": "Write 0.00045 in standard form.",
+  "options": [
+   "4.5 x 10^-4",
+   "4.5 x 10^-3",
+   "45 x 10^-5",
+   "4.5 x 10^4"
+  ],
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "Move the decimal point 4 places to the right to get 4.5, so 0.00045 = 4.5 x 10^-4. The exponent must be negative for numbers less than 1, and 45 x 10^-5 is not standard form because 45 > 10."
+ },
+ {
+  "id": "auth-math-number-014",
+  "examId": "igcse-math",
+  "areaId": "number",
+  "type": "mcq",
+  "q": "Which of these numbers is the smallest?",
+  "options": [
+   "0.5",
+   "9/20",
+   "0.405",
+   "7/16"
+  ],
+  "answer": 2,
+  "difficulty": 1,
+  "explanation": "As decimals: 0.5, 9/20 = 0.45, 0.405, 7/16 = 0.4375. The smallest is 0.405."
+ },
+ {
+  "id": "auth-math-number-015",
+  "examId": "igcse-math",
+  "areaId": "number",
+  "type": "mcq",
+  "q": "Work out (4 x 10^3) + (6 x 10^5). Give your answer in standard form.",
+  "options": [
+   "10 x 10^4",
+   "1.06 x 10^5",
+   "6.04 x 10^5",
+   "4.06 x 10^5"
+  ],
+  "answer": 2,
+  "difficulty": 2,
+  "explanation": "4 x 10^3 + 6 x 10^5 = 4000 + 600 000 = 604 000 = 6.04 x 10^5. Adding coefficients and averaging the powers (10 x 10^4) is the classic error."
+ },
+ {
+  "id": "auth-math-number-016",
+  "examId": "igcse-math",
+  "areaId": "number",
+  "type": "mcq",
+  "q": "Work out (4 x 10^5) x (6 x 10^3) and give your answer in standard form.",
+  "options": [
+   "2.4 x 10^8",
+   "2.4 x 10^9",
+   "24 x 10^8",
+   "2.4 x 10^15"
+  ],
+  "answer": 1,
+  "difficulty": 3,
+  "explanation": "4 x 6 = 24 and 10^5 x 10^3 = 10^8, giving 24 x 10^8 = 2.4 x 10^9. 24 x 10^8 is the same value but is not standard form because 24 > 10."
+ },
+ {
+  "id": "auth-math-number-017",
+  "examId": "igcse-math",
+  "areaId": "number",
+  "type": "calc",
+  "q": "Round 15.487 to 3 significant figures.",
+  "answer": "15.5",
+  "difficulty": 1,
+  "explanation": "The third significant figure is the digit 4 in the tenths place; the next digit is 8, so round up: 15.487 becomes 15.5. 15.49 is 2 decimal places, not 3 significant figures.",
+  "answer_note": "a decimal"
+ },
+ {
+  "id": "auth-math-number-018",
+  "examId": "igcse-math",
+  "areaId": "number",
+  "type": "calc",
+  "q": "Round 60 452 to 2 significant figures.",
+  "answer": "60000",
+  "difficulty": 1,
+  "explanation": "The first two significant figures are 6 and 0; the next digit is 4, so round down: 60 452 becomes 60 000.",
+  "answer_note": "a whole number"
+ },
+ {
+  "id": "auth-math-number-019",
+  "examId": "igcse-math",
+  "areaId": "number",
+  "type": "calc",
+  "q": "A rod is measured as 8.5 cm, correct to 1 decimal place. Write down the lower bound of the length.",
+  "answer": "8.45",
+  "difficulty": 1,
+  "explanation": "Measured to 1 decimal place, the true length is within 0.05 cm of 8.5, so the lower bound is 8.5 - 0.05 = 8.45 cm.",
+  "answer_note": "in cm, e.g. 8.45"
+ },
+ {
+  "id": "auth-math-number-020",
+  "examId": "igcse-math",
+  "areaId": "number",
+  "type": "calc",
+  "q": "Estimate the value of (4.8 x 9.7) / 9.8 by rounding each number to 1 significant figure.",
+  "answer": "5",
+  "difficulty": 1,
+  "explanation": "Rounding gives (5 x 10) / 10 = 5.",
+  "answer_note": "a whole number"
+ },
+ {
+  "id": "auth-math-number-021",
+  "examId": "igcse-math",
+  "areaId": "number",
+  "type": "mcq",
+  "q": "A rectangle has length 12.6 cm and width 8.55 cm, both measured to 3 significant figures. What is the greatest possible area of the rectangle?",
+  "options": [
+   "107.73 cm^2",
+   "108.22 cm^2",
+   "108.70 cm^2",
+   "112.65 cm^2"
+  ],
+  "answer": 1,
+  "difficulty": 3,
+  "explanation": "Upper bounds: length at most 12.65 cm and width at most 8.555 cm, so greatest area = 12.65 x 8.555 = 108.22075, about 108.22 cm^2. 107.73 cm^2 is the nominal area 12.6 x 8.55 and ignores the bounds."
+ },
+ {
+  "id": "auth-math-number-022",
+  "examId": "igcse-math",
+  "areaId": "number",
+  "type": "calc",
+  "q": "A rectangle has length 8.5 cm and width 7.2 cm, each measured to 1 decimal place. Work out the minimum possible area of the rectangle.",
+  "answer": "60.4175",
+  "difficulty": 3,
+  "explanation": "Lower bounds: 8.45 cm and 7.15 cm. Minimum area = 8.45 x 7.15 = 60.4175 cm^2.",
+  "tolerance": 0.05,
+  "answer_note": "in cm^2, e.g. 60.4175"
+ },
+ {
+  "id": "auth-math-number-023",
+  "examId": "igcse-math",
+  "areaId": "number",
+  "type": "mcq",
+  "q": "Simplify the ratio 24 : 36.",
+  "options": [
+   "4 : 6",
+   "2 : 3",
+   "3 : 4",
+   "6 : 9"
+  ],
+  "answer": 1,
+  "difficulty": 1,
+  "explanation": "Divide both numbers by their HCF, 12: 24 : 36 = 2 : 3. 4 : 6 and 6 : 9 are not fully simplified."
+ },
+ {
+  "id": "auth-math-number-024",
+  "examId": "igcse-math",
+  "areaId": "number",
+  "type": "calc",
+  "q": "Divide 5600 birr between Abebe, Chaltu and Dawit in the ratio 3 : 4 : 7. How many birr does Dawit receive?",
+  "answer": "2800",
+  "difficulty": 2,
+  "explanation": "Total parts = 3 + 4 + 7 = 14. One part = 5600 / 14 = 400 birr, so Dawit gets 7 x 400 = 2800 birr.",
+  "answer_note": "in birr"
+ },
+ {
+  "id": "auth-math-number-025",
+  "examId": "igcse-math",
+  "areaId": "number",
+  "type": "mcq",
+  "q": "On a map with scale 1 : 250 000, the distance between two towns is 8 cm. What is the actual distance in km?",
+  "options": [
+   "2 km",
+   "20 km",
+   "200 km",
+   "2000 km"
+  ],
+  "answer": 1,
+  "difficulty": 2,
+  "explanation": "Actual distance = 8 x 250 000 = 2 000 000 cm. Dividing by 100 000 to convert cm to km gives 20 km."
+ },
+ {
+  "id": "auth-math-number-026",
+  "examId": "igcse-math",
+  "areaId": "number",
+  "type": "mcq",
+  "q": "A recipe for injera uses teff flour and water in the ratio 5 : 3 by mass. If 20 kg of teff flour is used, how much water is needed?",
+  "options": [
+   "8 kg",
+   "12 kg",
+   "15 kg",
+   "16 kg"
+  ],
+  "answer": 1,
+  "difficulty": 2,
+  "explanation": "20 kg of flour is 4 times the 5 parts of the ratio, so water = 4 x 3 = 12 parts = 12 kg."
+ },
+ {
+  "id": "auth-math-number-027",
+  "examId": "igcse-math",
+  "areaId": "number",
+  "type": "mcq",
+  "q": "It takes 15 workers 12 days to build a wall. How long would it take 9 workers, working at the same rate?",
+  "options": [
+   "7.2 days",
+   "20 days",
+   "18 days",
+   "8 days"
+  ],
+  "answer": 1,
+  "difficulty": 3,
+  "explanation": "Inverse proportion: total work = 15 x 12 = 180 worker-days, so time = 180 / 9 = 20 days. The answer 7.2 days comes from treating it as direct proportion (12 x 9 / 15)."
+ },
+ {
+  "id": "auth-math-number-028",
+  "examId": "igcse-math",
+  "areaId": "number",
+  "type": "calc",
+  "q": "The cost of teff flour is directly proportional to the mass bought. If 17 kg costs 442 birr, work out the cost of 12 kg.",
+  "answer": "312",
+  "difficulty": 2,
+  "explanation": "Unit cost = 442 / 17 = 26 birr per kg, so 12 kg costs 12 x 26 = 312 birr.",
+  "answer_note": "in birr"
+ },
+ {
+  "id": "auth-math-number-029",
+  "examId": "igcse-math",
+  "areaId": "number",
+  "type": "mcq",
+  "q": "A bus travels 210 km in 3.5 hours. How far does it travel in 5 hours at the same average speed?",
+  "options": [
+   "280 km",
+   "300 km",
+   "320 km",
+   "340 km"
+  ],
+  "answer": 1,
+  "difficulty": 2,
+  "explanation": "Speed = 210 / 3.5 = 60 km/h, so distance in 5 hours = 5 x 60 = 300 km."
+ },
+ {
+  "id": "auth-math-number-030",
+  "examId": "igcse-math",
+  "areaId": "number",
+  "type": "calc",
+  "q": "Work out 35% of 240.",
+  "answer": "84",
+  "difficulty": 1,
+  "explanation": "10% of 240 = 24, so 30% = 72 and 5% = 12; 72 + 12 = 84.",
+  "answer_note": "a number"
+ },
+ {
+  "id": "auth-math-number-031",
+  "examId": "igcse-math",
+  "areaId": "number",
+  "type": "mcq",
+  "q": "After a price increase of 20%, a shirt costs 348 birr. What was the price before the increase?",
+  "options": [
+   "278.40 birr",
+   "290 birr",
+   "328 birr",
+   "417.60 birr"
+  ],
+  "answer": 1,
+  "difficulty": 3,
+  "explanation": "348 = 1.2 x original, so original = 348 / 1.2 = 290 birr. Subtracting 20% of 348 (giving 278.40) is wrong because the percentage applies to the original price."
+ },
+ {
+  "id": "auth-math-number-032",
+  "examId": "igcse-math",
+  "areaId": "number",
+  "type": "calc",
+  "q": "The population of a town is 45 000 and increases by 12%. What is the new population?",
+  "answer": "50400",
+  "difficulty": 2,
+  "explanation": "Increase = 0.12 x 45 000 = 5400, so new population = 45 000 + 5400 = 50 400.",
+  "answer_note": "a whole number"
+ },
+ {
+  "id": "auth-math-number-033",
+  "examId": "igcse-math",
+  "areaId": "number",
+  "type": "mcq",
+  "q": "A jacket priced 2000 birr is reduced by 25%, and then the reduced price is reduced by a further 10%. What is the final price?",
+  "options": [
+   "1500 birr",
+   "1550 birr",
+   "1350 birr",
+   "1300 birr"
+  ],
+  "answer": 2,
+  "difficulty": 2,
+  "explanation": "After 25% off: 2000 x 0.75 = 1500 birr. After a further 10% off: 1500 x 0.9 = 1350 birr. Adding the percentages (35% off, giving 1300) ignores compound change."
+ },
+ {
+  "id": "auth-math-number-034",
+  "examId": "igcse-math",
+  "areaId": "number",
+  "type": "calc",
+  "q": "A shop buys a sack of rice at 250 birr and sells it at 320 birr. Work out the percentage profit.",
+  "answer": "28",
+  "difficulty": 2,
+  "explanation": "Profit = 320 - 250 = 70 birr. Percentage profit = 70 / 250 x 100 = 28%. Using the selling price as base (70 / 320 x 100 = 22%) is wrong.",
+  "answer_note": "a percentage, e.g. 28"
+ },
+ {
+  "id": "auth-math-number-035",
+  "examId": "igcse-math",
+  "areaId": "number",
+  "type": "mcq",
+  "q": "A number is increased by 10% and then the result is decreased by 10%. What is the net effect on the number?",
+  "options": [
+   "It is unchanged",
+   "It has decreased by 1%",
+   "It has increased by 1%",
+   "It has decreased by 10%"
+  ],
+  "answer": 1,
+  "difficulty": 3,
+  "explanation": "Overall multiplier = 1.1 x 0.9 = 0.99, so the number has decreased by 1%. For example, 100 becomes 110 and then 99."
+ },
+ {
+  "id": "auth-math-number-036",
+  "examId": "igcse-math",
+  "areaId": "number",
+  "type": "calc",
+  "q": "Decrease 480 by 15%.",
+  "answer": "408",
+  "difficulty": 2,
+  "explanation": "15% of 480 = 72, so 480 - 72 = 408. Alternatively 480 x 0.85 = 408.",
+  "answer_note": "a number"
+ },
+ {
+  "id": "auth-math-number-037",
+  "examId": "igcse-math",
+  "areaId": "number",
+  "type": "mcq",
+  "q": "Which single percentage change is equivalent to decreasing a price by 15% and then decreasing the new price by 15%?",
+  "options": [
+   "A decrease of 30%",
+   "A decrease of 27.75%",
+   "A decrease of 22.5%",
+   "A decrease of 45%"
+  ],
+  "answer": 1,
+  "difficulty": 3,
+  "explanation": "Overall multiplier = 0.85 x 0.85 = 0.7225, so the price has fallen by 1 - 0.7225 = 0.2775 = 27.75%, not 30%."
+ },
+ {
+  "id": "auth-math-number-038",
+  "examId": "igcse-math",
+  "areaId": "number",
+  "type": "mcq",
+  "q": "The price of coffee rose from 300 birr to 360 birr per kilogram. By what percentage did the price increase?",
+  "options": [
+   "16.7%",
+   "20%",
+   "60%",
+   "120%"
+  ],
+  "answer": 1,
+  "difficulty": 1,
+  "explanation": "Increase = 60 birr. Percentage increase = 60 / 300 x 100 = 20%. The 16.7% comes from wrongly dividing by the new price, 60 / 360 x 100."
+ },
+ {
+  "id": "auth-math-number-039",
+  "examId": "igcse-math",
+  "areaId": "number",
+  "type": "mcq",
+  "q": "A car is worth 900 000 birr and depreciates by 8% per year. What is its value after 3 years, correct to the nearest birr?",
+  "options": [
+   "684 000 birr",
+   "700 819 birr",
+   "778 688 birr",
+   "828 000 birr"
+  ],
+  "answer": 1,
+  "difficulty": 3,
+  "explanation": "Value = 900 000 x 0.92^3 = 900 000 x 0.778688 = 700 819.2, so about 700 819 birr. Subtracting 3 x 8% = 24% (giving 684 000) ignores compound depreciation."
+ },
+ {
+  "id": "auth-math-number-040",
+  "examId": "igcse-math",
+  "areaId": "number",
+  "type": "mcq",
+  "q": "The exchange rate is 1 US dollar = 57 birr. A traveler changes 500 US dollars into birr. How many birr does she receive?",
+  "options": [
+   "28 500 birr",
+   "885 birr",
+   "30 000 birr",
+   "2850 birr"
+  ],
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "500 x 57 = 28 500 birr. Dividing 500 by 57 (about 8.8, or 885 with an extra place) is the common direction error."
+ },
+ {
+  "id": "auth-math-number-041",
+  "examId": "igcse-math",
+  "areaId": "number",
+  "type": "calc",
+  "q": "A worker's monthly salary increases by 6.5%. Her new salary is 12 780 birr. Work out her salary before the increase.",
+  "answer": "12000",
+  "difficulty": 2,
+  "explanation": "New salary = 1.065 x old salary, so old salary = 12 780 / 1.065 = 12 000 birr.",
+  "answer_note": "in birr"
+ },
+ {
+  "id": "auth-math-number-042",
+  "examId": "igcse-math",
+  "areaId": "number",
+  "type": "mcq",
+  "q": "Simplify 7^4 x 7^3.",
+  "options": [
+   "7^12",
+   "7^7",
+   "49^7",
+   "7^1"
+  ],
+  "answer": 1,
+  "difficulty": 1,
+  "explanation": "When multiplying powers with the same base, add the indices: 7^4 x 7^3 = 7^(4+3) = 7^7. Multiplying the indices (7^12) is the common error."
+ },
+ {
+  "id": "auth-math-number-043",
+  "examId": "igcse-math",
+  "areaId": "number",
+  "type": "mcq",
+  "q": "Which of these is equal to 2^12?",
+  "options": [
+   "(2^3)^4",
+   "(2^3)^9",
+   "2^6 x 2^2",
+   "2^15 / 2^2"
+  ],
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "(2^3)^4 = 2^(3x4) = 2^12. The others give (2^3)^9 = 2^27, 2^6 x 2^2 = 2^8 and 2^15 / 2^2 = 2^13."
+ },
+ {
+  "id": "auth-math-number-044",
+  "examId": "igcse-math",
+  "areaId": "number",
+  "type": "mcq",
+  "q": "Work out the value of (2/3)^-2. Give your answer as a fraction.",
+  "answer": 0,
+  "difficulty": 3,
+  "explanation": "A negative index reciprocates the fraction: (2/3)^-2 = (3/2)^2 = 9/4.",
+  "options": [
+   "9/4",
+   "4/9",
+   "-9/4",
+   "-4/9"
+  ]
+ },
+ {
+  "id": "auth-math-number-045",
+  "examId": "igcse-math",
+  "areaId": "number",
+  "type": "mcq",
+  "q": "Simplify 2^5 x 3^5.",
+  "options": [
+   "6^10",
+   "5^6",
+   "6^5",
+   "36^5"
+  ],
+  "answer": 2,
+  "difficulty": 2,
+  "explanation": "Same index, different bases: 2^5 x 3^5 = (2 x 3)^5 = 6^5. Multiplying bases and indices (6^10) is the common error."
+ },
+ {
+  "id": "auth-sat-algebra-001",
+  "examId": "sat-math",
+  "areaId": "algebra",
+  "type": "mcq",
+  "q": "If 7x - 3 = 4x + 12, what is the value of x?",
+  "options": [
+   "3",
+   "4",
+   "5",
+   "7"
+  ],
+  "answer": 2,
+  "difficulty": 1,
+  "explanation": "Subtract 4x from both sides: 3x - 3 = 12. Add 3: 3x = 15, so x = 5."
+ },
+ {
+  "id": "auth-sat-algebra-002",
+  "examId": "sat-math",
+  "areaId": "algebra",
+  "type": "mcq",
+  "q": "What is the solution to x/2 + x/3 = 10?",
+  "options": [
+   "6",
+   "10",
+   "12",
+   "15"
+  ],
+  "answer": 2,
+  "difficulty": 2,
+  "explanation": "Multiply both sides by 6: 3x + 2x = 60, so 5x = 60 and x = 12. Answering 15 comes from using 3x + 3x instead of 3x + 2x."
+ },
+ {
+  "id": "auth-sat-algebra-003",
+  "examId": "sat-math",
+  "areaId": "algebra",
+  "type": "mcq",
+  "q": "If 5(x - 2) = 3(x + 4), what is the value of x?",
+  "options": [
+   "-11",
+   "1",
+   "7",
+   "11"
+  ],
+  "answer": 3,
+  "difficulty": 2,
+  "explanation": "Expand: 5x - 10 = 3x + 12. Subtract 3x and add 10 to both sides: 2x = 22, so x = 11. Answering 1 comes from writing 2x = 12 - 10 - 10."
+ },
+ {
+  "id": "auth-sat-algebra-004",
+  "examId": "sat-math",
+  "areaId": "algebra",
+  "type": "mcq",
+  "q": "If 2(x + a) = 2x + 5, what is the value of a?",
+  "options": [
+   "-2.5",
+   "2.5",
+   "5",
+   "10"
+  ],
+  "answer": 1,
+  "difficulty": 1,
+  "explanation": "Expand: 2x + 2a = 2x + 5, so 2a = 5 and a = 2.5. Choosing 5 overlooks the factor of 2 multiplying (x + a)."
+ },
+ {
+  "id": "auth-sat-algebra-005",
+  "examId": "sat-math",
+  "areaId": "algebra",
+  "type": "mcq",
+  "q": "For what value of b does the equation bx + 3 = 5x - 6 have NO solution?",
+  "options": [
+   "-6",
+   "-5",
+   "3",
+   "5"
+  ],
+  "answer": 3,
+  "difficulty": 3,
+  "explanation": "No solution requires equal coefficients of x but unequal constants: with b = 5 the equation becomes 5x + 3 = 5x - 6, impossible for every x."
+ },
+ {
+  "id": "auth-sat-algebra-006",
+  "examId": "sat-math",
+  "areaId": "algebra",
+  "type": "mcq",
+  "q": "For what value of k does the equation 3(x - 2) + k = 3x - 6 have infinitely many solutions?",
+  "options": [
+   "-6",
+   "0",
+   "3",
+   "6"
+  ],
+  "answer": 1,
+  "difficulty": 1,
+  "explanation": "Expand: 3x - 6 + k = 3x - 6. The variable terms already match, so every x satisfies the equation exactly when k = 0."
+ },
+ {
+  "id": "auth-sat-algebra-007",
+  "examId": "sat-math",
+  "areaId": "algebra",
+  "type": "mcq",
+  "q": "How many values of x satisfy the equation 4(2x - 1) = 2(4x + 3)?",
+  "options": [
+   "None",
+   "Exactly one",
+   "Exactly two",
+   "Infinitely many"
+  ],
+  "answer": 0,
+  "difficulty": 3,
+  "explanation": "Expand: 8x - 4 = 8x + 6, which forces -4 = 6, a false statement, so no value of x works."
+ },
+ {
+  "id": "auth-sat-algebra-008",
+  "examId": "sat-math",
+  "areaId": "algebra",
+  "type": "mcq",
+  "q": "If (x - 3)/2 = 5, what is the value of x?",
+  "options": [
+   "7",
+   "10",
+   "13",
+   "16"
+  ],
+  "answer": 2,
+  "difficulty": 1,
+  "explanation": "Multiply both sides by 2: x - 3 = 10. Add 3: x = 13. Choosing 10 stops before adding 3 back."
+ },
+ {
+  "id": "auth-sat-algebra-009",
+  "examId": "sat-math",
+  "areaId": "algebra",
+  "type": "calc",
+  "q": "What value of x satisfies 3(2x + 5) = 7x + 2?",
+  "answer": "13",
+  "difficulty": 2,
+  "explanation": "Expand: 6x + 15 = 7x + 2. Subtract 6x from both sides: 15 = x + 2, so x = 13.",
+  "tolerance": 0.02
+ },
+ {
+  "id": "auth-sat-algebra-010",
+  "examId": "sat-math",
+  "areaId": "algebra",
+  "type": "mcq",
+  "q": "For what value of c is x = 6 a solution to 2(x - c) = 14?",
+  "options": [
+   "-1",
+   "1",
+   "2",
+   "12"
+  ],
+  "answer": 0,
+  "difficulty": 3,
+  "explanation": "Substitute x = 6: 2(6 - c) = 14, so 6 - c = 7 and c = -1. Dropping the negative sign gives the trap answer 1."
+ },
+ {
+  "id": "auth-sat-algebra-011",
+  "examId": "sat-math",
+  "areaId": "algebra",
+  "type": "calc",
+  "q": "If 8y - 3(2y + 1) = 5, what is the value of y?",
+  "answer": "4",
+  "difficulty": 2,
+  "explanation": "Expand: 8y - 6y - 3 = 5, so 2y - 3 = 5, then 2y = 8 and y = 4.",
+  "tolerance": 0.02
+ },
+ {
+  "id": "auth-sat-algebra-012",
+  "examId": "sat-math",
+  "areaId": "algebra",
+  "type": "mcq",
+  "q": "The equation 6(x + 2) = 3(2x + k) is true for every value of x. What is the value of k?",
+  "options": [
+   "2",
+   "3",
+   "4",
+   "6"
+  ],
+  "answer": 2,
+  "difficulty": 1,
+  "explanation": "Expand: 6x + 12 = 6x + 3k. For the identity to hold, 12 = 3k, so k = 4. Answering 6 comes from solving 2k = 12."
+ },
+ {
+  "id": "auth-sat-algebra-013",
+  "examId": "sat-math",
+  "areaId": "algebra",
+  "type": "mcq",
+  "q": "If x + y = 12 and x - y = 4, what is the value of x?",
+  "options": [
+   "4",
+   "6",
+   "8",
+   "9"
+  ],
+  "answer": 2,
+  "difficulty": 1,
+  "explanation": "Add the two equations: 2x = 16, so x = 8. Subtracting them instead gives y = 4, the common mix-up."
+ },
+ {
+  "id": "auth-sat-algebra-014",
+  "examId": "sat-math",
+  "areaId": "algebra",
+  "type": "mcq",
+  "q": "The system 2x + 3y = 16 and y = 2x has solution (x, y). What is the value of y?",
+  "options": [
+   "2",
+   "4",
+   "6",
+   "8"
+  ],
+  "answer": 1,
+  "difficulty": 2,
+  "explanation": "Substitute y = 2x: 2x + 3(2x) = 8x = 16, so x = 2 and y = 4. Answering 2 reports x instead of y."
+ },
+ {
+  "id": "auth-sat-algebra-015",
+  "examId": "sat-math",
+  "areaId": "algebra",
+  "type": "calc",
+  "q": "If 3p - 6q = 21, what is the value of p - 2q?",
+  "answer": "7",
+  "difficulty": 2,
+  "explanation": "Divide the entire equation by 3: p - 2q = 7. Keeping 21 comes from dividing only part of the equation.",
+  "tolerance": 0.02
+ },
+ {
+  "id": "auth-sat-algebra-016",
+  "examId": "sat-math",
+  "areaId": "algebra",
+  "type": "mcq",
+  "q": "The graph of y = 2x + 5 passes through which point?",
+  "options": [
+   "(0, 2)",
+   "(1, 5)",
+   "(1, 7)",
+   "(2, 7)"
+  ],
+  "answer": 2,
+  "difficulty": 1,
+  "explanation": "Substitute x = 1: y = 2(1) + 5 = 7, so (1, 7) lies on the line. At x = 2 the line gives y = 9, not 7."
+ },
+ {
+  "id": "auth-sat-algebra-017",
+  "examId": "sat-math",
+  "areaId": "algebra",
+  "type": "calc",
+  "q": "In the system m + n = 30 and m - n = 14, what is the value of m?",
+  "answer": "22",
+  "difficulty": 1,
+  "explanation": "Add the equations: 2m = 44, so m = 22 (and then n = 8).",
+  "tolerance": 0.02
+ },
+ {
+  "id": "auth-sat-algebra-018",
+  "examId": "sat-math",
+  "areaId": "algebra",
+  "type": "mcq",
+  "q": "If 2x + y = 9 and x + 2y = 6, what is the value of 3x + 3y?",
+  "options": [
+   "5",
+   "9",
+   "15",
+   "25"
+  ],
+  "answer": 2,
+  "difficulty": 2,
+  "explanation": "Add the equations directly: (2x + x) + (y + 2y) = 9 + 6, so 3x + 3y = 15."
+ },
+ {
+  "id": "auth-sat-algebra-019",
+  "examId": "sat-math",
+  "areaId": "algebra",
+  "type": "mcq",
+  "q": "The system 15x + 10y = 400 and 3x + 2y = 31 has how many solutions (x, y)?",
+  "options": [
+   "None",
+   "Exactly one",
+   "Exactly two",
+   "Infinitely many"
+  ],
+  "answer": 0,
+  "difficulty": 3,
+  "explanation": "Dividing the first equation by 5 gives 3x + 2y = 80, which contradicts 3x + 2y = 31, so the parallel lines never meet."
+ },
+ {
+  "id": "auth-sat-algebra-020",
+  "examId": "sat-math",
+  "areaId": "algebra",
+  "type": "mcq",
+  "q": "A theater sold 120 tickets, adult and student. Adult tickets cost 50 birr and student tickets cost 30 birr, and total revenue was 4400 birr. How many student tickets were sold?",
+  "options": [
+   "40",
+   "50",
+   "70",
+   "80"
+  ],
+  "answer": 3,
+  "difficulty": 3,
+  "explanation": "With a + s = 120 and 50a + 30s = 4400, substitute a = 120 - s: 6000 - 20s = 4400, so s = 80. The 40 adults sold are the trap answer."
+ },
+ {
+  "id": "auth-sat-algebra-021",
+  "examId": "sat-math",
+  "areaId": "algebra",
+  "type": "mcq",
+  "q": "For which value of c does the system x + 2y = 5 and 3x + 6y = c have infinitely many solutions?",
+  "options": [
+   "5",
+   "10",
+   "15",
+   "20"
+  ],
+  "answer": 2,
+  "difficulty": 3,
+  "explanation": "The second left side is 3 times the first, so the equations describe one line exactly when c = 3(5) = 15."
+ },
+ {
+  "id": "auth-sat-algebra-022",
+  "examId": "sat-math",
+  "areaId": "algebra",
+  "type": "calc",
+  "q": "If 4x + y = 14 and 4x - y = 6, what is the value of the product xy?",
+  "answer": "10",
+  "difficulty": 2,
+  "explanation": "Add the equations: 8x = 20, so x = 2.5. Then y = 14 - 4(2.5) = 4, and xy = 2.5 * 4 = 10.",
+  "tolerance": 0.02
+ },
+ {
+  "id": "auth-sat-algebra-023",
+  "examId": "sat-math",
+  "areaId": "algebra",
+  "type": "mcq",
+  "q": "A shop sells notebooks and pens at fixed prices. 3 notebooks and 2 pens cost 380 birr, while 1 notebook and 2 pens cost 220 birr. What is the price, in birr, of one notebook?",
+  "options": [
+   "60",
+   "70",
+   "80",
+   "100"
+  ],
+  "answer": 2,
+  "difficulty": 2,
+  "explanation": "Subtract the second equation from the first: 2 notebooks = 160 birr, so a notebook costs 80 birr. Back-substitution gives a pen at 70 birr, the trap answer."
+ },
+ {
+  "id": "auth-sat-algebra-024",
+  "examId": "sat-math",
+  "areaId": "algebra",
+  "type": "mcq",
+  "q": "In the system x + 2y = 11 and 3x - y = 5, what is the value of x + y?",
+  "options": [
+   "5",
+   "6",
+   "7",
+   "9"
+  ],
+  "answer": 2,
+  "difficulty": 2,
+  "explanation": "From the first equation x = 11 - 2y. Substitute: 3(11 - 2y) - y = 5, so 33 - 7y = 5, giving y = 4 and x = 3; x + y = 7. Answering 4 reports only y."
+ },
+ {
+  "id": "auth-sat-algebra-025",
+  "examId": "sat-math",
+  "areaId": "algebra",
+  "type": "calc",
+  "q": "The point (p, 12) lies on the graph of y = 5x - 8. What is the value of p?",
+  "answer": "4",
+  "difficulty": 1,
+  "explanation": "Substitute: 12 = 5p - 8, so 5p = 20 and p = 4.",
+  "tolerance": 0.02
+ },
+ {
+  "id": "auth-sat-algebra-026",
+  "examId": "sat-math",
+  "areaId": "algebra",
+  "type": "mcq",
+  "q": "A line passes through (1, 5) and (4, 17). What is its slope?",
+  "options": [
+   "1/3",
+   "3",
+   "4",
+   "12"
+  ],
+  "answer": 2,
+  "difficulty": 1,
+  "explanation": "Slope = (17 - 5)/(4 - 1) = 12/3 = 4. Answering 12 forgets to divide by the run, and 1/3 flips rise over run."
+ },
+ {
+  "id": "auth-sat-algebra-027",
+  "examId": "sat-math",
+  "areaId": "algebra",
+  "type": "mcq",
+  "q": "For the function g with g(0) = 9 and a constant rate of change of -2.5, which input x gives g(x) = 0?",
+  "options": [
+   "2.4",
+   "3.6",
+   "4",
+   "6"
+  ],
+  "answer": 1,
+  "difficulty": 2,
+  "explanation": "g(x) = 9 - 2.5x, so setting it to zero gives x = 9/2.5 = 3.6."
+ },
+ {
+  "id": "auth-sat-algebra-028",
+  "examId": "sat-math",
+  "areaId": "algebra",
+  "type": "mcq",
+  "q": "The function f satisfies f(x + 3) = 4x - 5 for all x. What is f(6)?",
+  "options": [
+   "-1",
+   "3",
+   "7",
+   "19"
+  ],
+  "answer": 2,
+  "difficulty": 3,
+  "explanation": "f(6) needs x + 3 = 6, so x = 3 and f(6) = 4(3) - 5 = 7. Answering 19 plugs 6 in place of x."
+ },
+ {
+  "id": "auth-sat-algebra-029",
+  "examId": "sat-math",
+  "areaId": "algebra",
+  "type": "mcq",
+  "q": "A water tank holds 500 liters and drains at 18 liters per minute. Which function gives the liters W remaining after t minutes?",
+  "options": [
+   "W(t) = 18t - 500",
+   "W(t) = 500 + 18t",
+   "W(t) = 500 - 18t",
+   "W(t) = 500t - 18"
+  ],
+  "answer": 2,
+  "difficulty": 1,
+  "explanation": "The tank starts at 500 liters and loses 18 liters each minute, so W(t) = 500 - 18t."
+ },
+ {
+  "id": "auth-sat-algebra-030",
+  "examId": "sat-math",
+  "areaId": "algebra",
+  "type": "mcq",
+  "q": "A phone plan charges a fixed monthly fee plus a per-minute rate for calls. A month with 120 minutes costs 116 birr, and a month with 200 minutes costs 180 birr. What is the per-minute rate, in birr?",
+  "options": [
+   "0.6",
+   "0.8",
+   "1.0",
+   "1.2"
+  ],
+  "answer": 1,
+  "difficulty": 2,
+  "explanation": "Rate = (180 - 116)/(200 - 120) = 64/80 = 0.8 birr per minute. The fixed fee works out to 116 - 0.8(120) = 20 birr, which is not the rate."
+ },
+ {
+  "id": "auth-sat-algebra-031",
+  "examId": "sat-math",
+  "areaId": "algebra",
+  "type": "mcq",
+  "q": "For the linear function h, h(2) = 13 and h(7) = 3. What is the rate of change of h?",
+  "options": [
+   "-2",
+   "-1/2",
+   "1/2",
+   "2"
+  ],
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "Rate of change = (3 - 13)/(7 - 2) = -10/5 = -2. Dropping the negative sign gives the trap answer 2."
+ },
+ {
+  "id": "auth-sat-algebra-032",
+  "examId": "sat-math",
+  "areaId": "algebra",
+  "type": "calc",
+  "q": "The graph of y = kx + 7 passes through (3, 25). What is the value of k?",
+  "answer": "6",
+  "difficulty": 1,
+  "explanation": "Substitute: 25 = 3k + 7, so 3k = 18 and k = 6.",
+  "tolerance": 0.02
+ },
+ {
+  "id": "auth-sat-algebra-033",
+  "examId": "sat-math",
+  "areaId": "algebra",
+  "type": "mcq",
+  "q": "A tractor's value decreases by a constant amount each year. It was worth 600000 birr when new and 450000 birr after 3 years. What is its value, in birr, after 5 years?",
+  "options": [
+   "350000",
+   "375000",
+   "400000",
+   "425000"
+  ],
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "The yearly drop is (600000 - 450000)/3 = 50000 birr, so after 5 years the value is 600000 - 5(50000) = 350000. Answering 400000 applies only 4 years of depreciation."
+ },
+ {
+  "id": "auth-sat-algebra-034",
+  "examId": "sat-math",
+  "areaId": "algebra",
+  "type": "mcq",
+  "q": "What is the slope of a line perpendicular to the line 6x - 2y = 11?",
+  "options": [
+   "-3",
+   "-1/3",
+   "1/3",
+   "3"
+  ],
+  "answer": 1,
+  "difficulty": 3,
+  "explanation": "Rewrite as y = 3x - 11/2, so the slope is 3; a perpendicular slope is the negative reciprocal, -1/3. Choosing 3 is the parallel slope."
+ },
+ {
+  "id": "auth-sat-algebra-035",
+  "examId": "sat-math",
+  "areaId": "algebra",
+  "type": "mcq",
+  "q": "What is the solution to -3(x - 4) >= 18?",
+  "options": [
+   "x <= -2",
+   "x >= -2",
+   "x <= 2",
+   "x >= 6"
+  ],
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "Divide by -3 and reverse the inequality: x - 4 <= -6, so x <= -2. Forgetting to reverse the sign gives x >= -2."
+ },
+ {
+  "id": "auth-sat-algebra-036",
+  "examId": "sat-math",
+  "areaId": "algebra",
+  "type": "calc",
+  "q": "Solve 5x - 9 < 26. What is the largest integer x that satisfies the inequality?",
+  "answer": "6",
+  "difficulty": 1,
+  "explanation": "5x < 35, so x < 7; the greatest integer strictly less than 7 is 6.",
+  "tolerance": 0.02
+ },
+ {
+  "id": "auth-sat-algebra-037",
+  "examId": "sat-math",
+  "areaId": "algebra",
+  "type": "mcq",
+  "q": "If -4 < 2x + 4 < 8, which inequality gives all values of x?",
+  "options": [
+   "-4 < x < 2",
+   "-2 < x < 0",
+   "0 < x < 4",
+   "-4 < x < 8"
+  ],
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "Subtract 4 from all parts: -8 < 2x < 4. Divide by 2: -4 < x < 2. Choosing -4 < x < 8 skips the division."
+ },
+ {
+  "id": "auth-sat-algebra-038",
+  "examId": "sat-math",
+  "areaId": "algebra",
+  "type": "mcq",
+  "q": "The system of inequalities 2x - y > 4 and x + y < 6 describes which region of the coordinate plane?",
+  "options": [
+   "The region above both lines",
+   "The region below both lines",
+   "The region above the first line and below the second",
+   "The region below the first line and above the second"
+  ],
+  "answer": 1,
+  "difficulty": 3,
+  "explanation": "Rewrite: y < 2x - 4 (below the first line) and y < 6 - x (below the second), so the solution set is the region lying below both lines."
+ },
+ {
+  "id": "auth-sat-algebra-039",
+  "examId": "sat-math",
+  "areaId": "algebra",
+  "type": "mcq",
+  "q": "A festival arena holds at most 2000 people. Children, c, enter free and adults, a, pay 25 birr each. Organizers expect at least 300 adults and want revenue of at least 15000 birr. Which system captures these conditions?",
+  "options": [
+   "c + a <= 2000, a >= 300, 25a >= 15000",
+   "c + a >= 2000, a <= 300, 25a <= 15000",
+   "c + a <= 2000, a <= 300, 25a >= 15000",
+   "c + a <= 2000, a >= 300, 25c >= 15000"
+  ],
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "Capacity caps the total, adult attendance is a minimum, and adult revenue 25a must reach 15000 birr. The last option wrongly bills the children, who pay nothing."
+ },
+ {
+  "id": "auth-sat-algebra-040",
+  "examId": "sat-math",
+  "areaId": "algebra",
+  "type": "mcq",
+  "q": "What is the smallest integer k for which 5k - 12 <= 8k + 3?",
+  "options": [
+   "-5",
+   "-3",
+   "3",
+   "5"
+  ],
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "Rearranging: -15 <= 3k, so k >= -5, and -5 is the smallest integer satisfying the inequality."
+ },
+ {
+  "id": "auth-sat-algebra-041",
+  "examId": "sat-math",
+  "areaId": "algebra",
+  "type": "calc",
+  "q": "A taxi charges a 25-birr pickup fee plus 9 birr per kilometer. With at most 160 birr, what is the greatest whole number of kilometers a rider can travel?",
+  "answer": "15",
+  "difficulty": 2,
+  "explanation": "9d + 25 <= 160 gives 9d <= 135, so d <= 15 and the greatest whole number of kilometers is 15.",
+  "tolerance": 0.02,
+  "answer_note": "kilometers"
+ },
+ {
+  "id": "auth-sat-algebra-042",
+  "examId": "sat-math",
+  "areaId": "algebra",
+  "type": "mcq",
+  "q": "If w + 7 > 12 and w - 4 < 10, between which values must w lie?",
+  "options": [
+   "5 < w < 6",
+   "5 < w < 14",
+   "w > 12",
+   "w < 14"
+  ],
+  "answer": 1,
+  "difficulty": 1,
+  "explanation": "The first inequality gives w > 5 and the second gives w < 14, so 5 < w < 14. Choosing 5 < w < 6 mis-solves the second as w < 6."
+ },
+ {
+  "id": "auth-sat-algebra-043",
+  "examId": "sat-math",
+  "areaId": "algebra",
+  "type": "mcq",
+  "q": "Simplify: 7x - 2x + 9 - 4.",
+  "options": [
+   "5x + 5",
+   "5x + 13",
+   "9x + 5",
+   "9x + 13"
+  ],
+  "answer": 0,
+  "difficulty": 1,
+  "explanation": "Combine like terms: (7x - 2x) + (9 - 4) = 5x + 5. Adding 9 + 4 instead gives the trap 5x + 13."
+ },
+ {
+  "id": "auth-sat-algebra-044",
+  "examId": "sat-math",
+  "areaId": "algebra",
+  "type": "mcq",
+  "q": "Which expression is equivalent to 5(2x - 3) + 4x - 7?",
+  "options": [
+   "6x - 22",
+   "10x - 22",
+   "14x - 10",
+   "14x - 22"
+  ],
+  "answer": 3,
+  "difficulty": 1,
+  "explanation": "Distribute and combine: 10x - 15 + 4x - 7 = 14x - 22. Forgetting the 4x leaves 10x - 22."
+ },
+ {
+  "id": "auth-sat-algebra-045",
+  "examId": "sat-math",
+  "areaId": "algebra",
+  "type": "mcq",
+  "q": "The expression (ax + b) + (2x - 5) is equivalent to 7x for every value of x. What is the value of a + b?",
+  "options": [
+   "5",
+   "7",
+   "10",
+   "12"
+  ],
+  "answer": 2,
+  "difficulty": 2,
+  "explanation": "Combine like terms: (a + 2)x + (b - 5) = 7x, so a = 5 and b = 5, giving a + b = 10."
+ },
+ {
+  "id": "auth-sat-algebra-046",
+  "examId": "sat-math",
+  "areaId": "algebra",
+  "type": "calc",
+  "q": "What is the value of (3^4) / (3^2)?",
+  "answer": "9",
+  "difficulty": 1,
+  "explanation": "Quotient of powers: 3^(4-2) = 3^2 = 9.",
+  "tolerance": 0.02
+ },
+ {
+  "id": "auth-sat-algebra-047",
+  "examId": "sat-math",
+  "areaId": "algebra",
+  "type": "mcq",
+  "q": "Which expression is equivalent to (2x)^6 / (2x)^2, for x not equal to 0?",
+  "options": [
+   "8x^4",
+   "16x^3",
+   "16x^4",
+   "64x^4"
+  ],
+  "answer": 2,
+  "difficulty": 2,
+  "explanation": "Quotient of powers: (2x)^4 = 16x^4. Answering 8x^4 applies the exponent only to x, and 64x^4 miscomputes 2^4 as 2^6."
+ },
+ {
+  "id": "auth-sat-algebra-048",
+  "examId": "sat-math",
+  "areaId": "algebra",
+  "type": "calc",
+  "q": "If 4^(3x) = 64, what is the value of x?",
+  "answer": "1",
+  "difficulty": 2,
+  "explanation": "Write both sides in base 2: 2^(6x) = 2^6, so 6x = 6 and x = 1. Answering 2 comes from solving 3x = 6 without converting the base.",
+  "tolerance": 0.02
+ },
+ {
+  "id": "auth-sat-algebra-049",
+  "examId": "sat-math",
+  "areaId": "algebra",
+  "type": "mcq",
+  "q": "For all x not equal to 7, which expression is equivalent to (49 - x^2)/(7 - x)?",
+  "options": [
+   "7 - x",
+   "7 + x",
+   "x - 7",
+   "-(7 + x)"
+  ],
+  "answer": 1,
+  "difficulty": 3,
+  "explanation": "Factor the numerator: 49 - x^2 = (7 - x)(7 + x). Canceling (7 - x) leaves 7 + x."
+ },
+ {
+  "id": "auth-sat-algebra-050",
+  "examId": "sat-math",
+  "areaId": "algebra",
+  "type": "calc",
+  "q": "For what value of n does 7^2 * 7^n = 7^9 hold?",
+  "answer": "7",
+  "difficulty": 1,
+  "explanation": "A product of powers adds exponents: 2 + n = 9, so n = 7.",
+  "tolerance": 0.02
+ },
+ {
+  "id": "auth-sat-algebra-051",
+  "examId": "sat-math",
+  "areaId": "algebra",
+  "type": "mcq",
+  "q": "Which expression is equivalent to 9(18x + 7y)?",
+  "options": [
+   "162x + 7y",
+   "162x + 63y",
+   "27x + 63y",
+   "72x + 63y"
+  ],
+  "answer": 1,
+  "difficulty": 1,
+  "explanation": "Distribute the 9: 9 * 18x = 162x and 9 * 7y = 63y. The first option forgets to distribute to the y-term."
+ },
+ {
+  "id": "auth-sat-algebra-052",
+  "examId": "sat-math",
+  "areaId": "algebra",
+  "type": "mcq",
+  "q": "If x^3 = 125, what is the value of (x^2)^2?",
+  "options": [
+   "25",
+   "125",
+   "625",
+   "15625"
+  ],
+  "answer": 2,
+  "difficulty": 2,
+  "explanation": "x = 5 because 5^3 = 125; then (x^2)^2 = x^4 = 625. Answering 25 gives x^2, not x^4."
+ },
+ {
+  "id": "auth-sat-algebra-053",
+  "examId": "sat-math",
+  "areaId": "algebra",
+  "type": "mcq",
+  "q": "A farmer harvests 220 kg of coffee cherries per hectare. Drying reduces the mass by 20 percent. How many kilograms of dried beans remain from one hectare?",
+  "options": [
+   "154",
+   "176",
+   "180",
+   "196"
+  ],
+  "answer": 1,
+  "difficulty": 1,
+  "explanation": "Drying removes 0.2 * 220 = 44 kg, so 220 - 44 = 176 kg remain. Answering 196 subtracts 20 instead of 20 percent."
+ },
+ {
+  "id": "auth-sat-algebra-054",
+  "examId": "sat-math",
+  "areaId": "algebra",
+  "type": "mcq",
+  "q": "A truck travels 240 km in 4 hours at constant speed. How many hours would the same trip take at a speed 20 km/h faster?",
+  "options": [
+   "3",
+   "3.5",
+   "4",
+   "4.5"
+  ],
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "The original speed is 240/4 = 60 km/h; at 80 km/h the time is 240/80 = 3 hours. Choosing 3.5 subtracts 20 km/h instead of adding."
+ },
+ {
+  "id": "auth-sat-algebra-055",
+  "examId": "sat-math",
+  "areaId": "algebra",
+  "type": "calc",
+  "q": "A tailor charges a fixed fitting fee plus 35 birr per dress. Altering 6 dresses costs 290 birr in total. What is the fitting fee, in birr?",
+  "answer": "80",
+  "difficulty": 2,
+  "explanation": "Six dresses cost 6 * 35 = 210 birr, so the fitting fee is 290 - 210 = 80 birr.",
+  "tolerance": 0.02,
+  "answer_note": "birr"
+ },
+ {
+  "id": "auth-sat-algebra-056",
+  "examId": "sat-math",
+  "areaId": "algebra",
+  "type": "mcq",
+  "q": "A school choir sells 480 chocolate bars. Milk bars cost 15 birr and dark bars cost 25 birr, and total revenue was 9600 birr. How many dark bars were sold?",
+  "options": [
+   "120",
+   "180",
+   "240",
+   "300"
+  ],
+  "answer": 2,
+  "difficulty": 3,
+  "explanation": "With m + d = 480 and 15m + 25d = 9600, substitute m = 480 - d: 7200 + 10d = 9600, so d = 240. The 120 milk bars are the trap answer."
+ },
+ {
+  "id": "auth-sat-algebra-057",
+  "examId": "sat-math",
+  "areaId": "algebra",
+  "type": "calc",
+  "q": "Planting teff costs 1200 birr per hectare. Each hectare yields 30 quintals sold at 90 birr per quintal. How many full hectares must a farmer plant for profit (revenue minus planting cost) to reach at least 200000 birr?",
+  "answer": "134",
+  "difficulty": 3,
+  "explanation": "Profit per hectare is 30 * 90 - 1200 = 1500 birr, and 200000/1500 is about 133.3, so 134 full hectares are needed.",
+  "tolerance": 0.02,
+  "answer_note": "hectares"
+ },
+ {
+  "id": "auth-sat-algebra-058",
+  "examId": "sat-math",
+  "areaId": "algebra",
+  "type": "mcq",
+  "q": "A courier charges a flat 40 birr per delivery plus 6 birr per kilometer. Which equation gives the total cost C, in birr, for a trip of d kilometers?",
+  "options": [
+   "C = 46d",
+   "C = 40d + 6",
+   "C = 40 + 6d",
+   "C = 6d - 40"
+  ],
+  "answer": 2,
+  "difficulty": 1,
+  "explanation": "The flat fee does not scale with distance, while the per-kilometer charge does, so C = 40 + 6d."
+ },
+ {
+  "id": "auth-sat-algebra-059",
+  "examId": "sat-math",
+  "areaId": "algebra",
+  "type": "calc",
+  "q": "Two pumps fill a pool: pump A moves 90 liters per minute and pump B moves 60 liters per minute. Working together for 12 minutes they fill exactly one pool. How many liters does the pool hold?",
+  "answer": "1800",
+  "difficulty": 1,
+  "explanation": "The combined rate is 90 + 60 = 150 liters per minute, so in 12 minutes they deliver 150 * 12 = 1800 liters.",
+  "tolerance": 0.02,
+  "answer_note": "liters"
+ },
+ {
+  "id": "auth-sat-algebra-060",
+  "examId": "sat-math",
+  "areaId": "algebra",
+  "type": "mcq",
+  "q": "A group of friends splits the cost of a 3600-birr boat rental equally. When 3 more people join, each share drops by 200 birr. How many people were in the original group?",
+  "options": [
+   "6",
+   "8",
+   "9",
+   "12"
+  ],
+  "answer": 0,
+  "difficulty": 3,
+  "explanation": "With 6 people each pays 3600/6 = 600 birr; with 9 people each pays 3600/9 = 400 birr, exactly 200 less. For 9 original members the drop to 12 people is only 3600/9 - 3600/12 = 100 birr."
+ },
+ {
+  "id": "auth-phy-nuclear-001",
+  "examId": "igcse-physics",
+  "areaId": "nuclear",
+  "type": "mcq",
+  "q": "Which subatomic particle has a relative mass of 1 and no electric charge?",
+  "options": [
+   "A proton",
+   "A neutron",
+   "An electron",
+   "An alpha particle"
+  ],
+  "answer": 1,
+  "difficulty": 1,
+  "explanation": "The neutron has relative mass 1 and is neutral. A proton also has mass 1 but carries a positive charge; an electron has negligible mass."
+ },
+ {
+  "id": "auth-phy-nuclear-002",
+  "examId": "igcse-physics",
+  "areaId": "nuclear",
+  "type": "mcq",
+  "q": "What is meant by the term isotope?",
+  "options": [
+   "Atoms of the same element with different numbers of electrons",
+   "Atoms of different elements with the same mass number",
+   "Atoms of the same element with the same number of protons but different numbers of neutrons",
+   "Atoms that have lost or gained a charge"
+  ],
+  "answer": 2,
+  "difficulty": 2,
+  "explanation": "Isotopes have identical proton numbers (same element) but different neutron numbers, so their mass numbers differ. A different electron count would make an ion, not an isotope."
+ },
+ {
+  "id": "auth-phy-nuclear-003",
+  "examId": "igcse-physics",
+  "areaId": "nuclear",
+  "type": "mcq",
+  "q": "A nucleus of carbon-14 (proton number 6) undergoes beta-minus decay. What is the proton number of the daughter nucleus?",
+  "options": [
+   "4",
+   "5",
+   "7",
+   "8"
+  ],
+  "answer": 2,
+  "difficulty": 2,
+  "explanation": "Beta-minus decay turns a neutron into a proton, so the proton number increases by 1, from 6 to 7 (nitrogen-14). Decreasing to 5 describes beta-plus decay and dropping to 4 describes alpha emission."
+ },
+ {
+  "id": "auth-phy-nuclear-004",
+  "examId": "igcse-physics",
+  "areaId": "nuclear",
+  "type": "mcq",
+  "q": "A nucleus emits a beta-minus particle. How does the nucleus change?",
+  "options": [
+   "The proton number increases by 1 and the nucleon number stays the same",
+   "The proton number decreases by 2 and the nucleon number decreases by 4",
+   "The nucleon number increases by 1",
+   "Only energy is lost, with no change to the particles in the nucleus"
+  ],
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "In beta-minus decay a neutron becomes a proton plus an emitted electron, so the proton number rises by 1 while the nucleon number is unchanged. Losing 2 protons and 2 neutrons describes alpha decay."
+ },
+ {
+  "id": "auth-phy-nuclear-005",
+  "examId": "igcse-physics",
+  "areaId": "nuclear",
+  "type": "mcq",
+  "q": "Which type of nuclear radiation is the most strongly ionising?",
+  "options": [
+   "Gamma rays",
+   "Beta particles",
+   "Alpha particles",
+   "Neutrons"
+  ],
+  "answer": 2,
+  "difficulty": 1,
+  "explanation": "Alpha particles are relatively massive and carry a +2 charge, so they strip electrons from many atoms over a very short distance. Gamma rays are uncharged and interact weakly, making them the least ionising of the three common emissions."
+ },
+ {
+  "id": "auth-phy-nuclear-006",
+  "examId": "igcse-physics",
+  "areaId": "nuclear",
+  "type": "mcq",
+  "q": "A source is placed behind a sheet of paper and the radiation is completely stopped. Which radiation is it?",
+  "options": [
+   "Alpha",
+   "Beta",
+   "Gamma",
+   "None of them can be stopped by paper"
+  ],
+  "answer": 0,
+  "difficulty": 1,
+  "explanation": "Alpha particles have very low penetration and are stopped by paper or a few centimetres of air. Beta is stopped by a few millimetres of aluminium and gamma needs several centimetres of lead."
+ },
+ {
+  "id": "auth-phy-nuclear-007",
+  "examId": "igcse-physics",
+  "areaId": "nuclear",
+  "type": "mcq",
+  "q": "Complete the fission equation: uranium-235 + neutron -> barium-141 + krypton-92 + how many neutrons?",
+  "options": [
+   "1 neutron",
+   "2 neutrons",
+   "3 neutrons",
+   "4 neutrons"
+  ],
+  "answer": 2,
+  "difficulty": 3,
+  "explanation": "Total nucleons before = 235 + 1 = 236. After: 141 + 92 = 233, so 3 neutrons are released (236 - 233 = 3). These 3 neutrons can trigger further fissions and sustain the chain reaction."
+ },
+ {
+  "id": "auth-phy-nuclear-008",
+  "examId": "igcse-physics",
+  "areaId": "nuclear",
+  "type": "mcq",
+  "q": "Which of the following is a source of natural background radiation?",
+  "options": [
+   "Radio masts",
+   "Radon gas from rocks",
+   "X-ray machines",
+   "Mobile phones"
+  ],
+  "answer": 1,
+  "difficulty": 1,
+  "explanation": "Radon released from radioactive rocks underground is a major natural background source, along with cosmic rays. Radio masts and mobile phones emit non-radioactive radio waves; X-ray machines are artificial."
+ },
+ {
+  "id": "auth-phy-nuclear-009",
+  "examId": "igcse-physics",
+  "areaId": "nuclear",
+  "type": "mcq",
+  "q": "Which radiation has the greatest penetrating power through several centimetres of lead?",
+  "options": [
+   "Alpha particles",
+   "Beta particles",
+   "Gamma rays",
+   "Alpha and beta penetrate equally well"
+  ],
+  "answer": 2,
+  "difficulty": 1,
+  "explanation": "Gamma rays are uncharged electromagnetic radiation and need thick lead or concrete to reduce their intensity appreciably. Alpha is stopped by paper and beta by a few millimetres of aluminium, so neither reaches far into lead."
+ },
+ {
+  "id": "auth-phy-nuclear-010",
+  "examId": "igcse-physics",
+  "areaId": "nuclear",
+  "type": "mcq",
+  "q": "A laboratory technician handles a radioactive source. Which precaution reduces the radiation dose she receives?",
+  "options": [
+   "Keeping the source in a glass container",
+   "Handling the source with long tongs and storing it in a lead container",
+   "Working near the source for longer periods",
+   "Cooling the source to reduce its activity"
+  ],
+  "answer": 1,
+  "difficulty": 2,
+  "explanation": "Lead absorbs the radiation and distance (tongs) greatly reduces the intensity reaching her, both lowering the dose. Glass stops only alpha and does little for gamma, longer exposure increases dose, and cooling does not change nuclear activity."
+ },
+ {
+  "id": "auth-phy-nuclear-011",
+  "examId": "igcse-physics",
+  "areaId": "nuclear",
+  "type": "calc",
+  "q": "A radioactive sample has a half-life of 6 hours and initially contains 1000 g of the radioactive isotope. How many hours pass before only 125 g of the isotope remain?",
+  "answer": "18",
+  "tolerance": 0.02,
+  "difficulty": 2,
+  "explanation": "1000 -> 500 -> 250 -> 125 g is three half-lives; 3 x 6 h = 18 h."
+ },
+ {
+  "id": "auth-phy-nuclear-012",
+  "examId": "igcse-physics",
+  "areaId": "nuclear",
+  "type": "calc",
+  "q": "A sample contains 80 g of a radioactive isotope with a half-life of 10 minutes. What mass of the isotope, in g, remains after 40 minutes?",
+  "answer": "5",
+  "tolerance": 0.02,
+  "difficulty": 2,
+  "explanation": "40 min is 4 half-lives: 80 -> 40 -> 20 -> 10 -> 5 g. Halving only twice (20 g) is the common error of using 2 half-lives instead of 4."
+ },
+ {
+  "id": "auth-phy-nuclear-013",
+  "examId": "igcse-physics",
+  "areaId": "nuclear",
+  "type": "calc",
+  "q": "The activity of a sample falls from 1000 Bq to 125 Bq in 24 days. What is the half-life of the isotope, in days?",
+  "answer": "8",
+  "tolerance": 0.02,
+  "difficulty": 2,
+  "explanation": "1000 -> 500 -> 250 -> 125 Bq is three half-lives, so the half-life = 24 / 3 = 8 days. Dividing 24 by 4 mistakes the four activity values for four halvings."
+ },
+ {
+  "id": "auth-phy-nuclear-014",
+  "examId": "igcse-physics",
+  "areaId": "nuclear",
+  "type": "calc",
+  "q": "A detector next to a source of phosphorus-32 (half-life 20 minutes) records a count rate of 640 counts per second. What count rate, in counts per second, will it record after 1 hour, ignoring background radiation?",
+  "answer": "80",
+  "tolerance": 0.02,
+  "difficulty": 3,
+  "explanation": "1 hour = 60 min = 3 half-lives: 640 -> 320 -> 160 -> 80 counts per second. The count rate halves with the remaining nuclei because activity is proportional to the number of undecayed atoms."
+ },
+ {
+  "id": "auth-phy-nuclear-015",
+  "examId": "igcse-physics",
+  "areaId": "nuclear",
+  "type": "calc",
+  "q": "A fresh sample of iodine-131 has an activity of 800 Bq. The half-life of iodine-131 is 8 days. What is the activity, in Bq, after 24 days?",
+  "answer": "125",
+  "tolerance": 0.02,
+  "difficulty": 2,
+  "explanation": "24 days is 3 half-lives: 800 -> 400 -> 200 -> 125 Bq. Answering 400 Bq stops after only one halving."
+ },
+ {
+  "id": "auth-phy-thermal-001",
+  "examId": "igcse-physics",
+  "areaId": "thermal",
+  "type": "mcq",
+  "q": "When the temperature of a gas increases, the molecules have greater mean...",
+  "options": [
+   "mass",
+   "kinetic energy",
+   "potential energy only",
+   "number of atoms"
+  ],
+  "answer": 1,
+  "difficulty": 1,
+  "explanation": "Temperature is a measure of the average kinetic energy of the particles, so heating a gas makes its molecules move faster on average. Mass and the number of particles do not change with temperature."
+ },
+ {
+  "id": "auth-phy-thermal-002",
+  "examId": "igcse-physics",
+  "areaId": "thermal",
+  "type": "mcq",
+  "q": "Smoke particles observed in air through a microscope move in a random, jerky path. What causes this motion?",
+  "options": [
+   "Convection currents in the air only",
+   "Collisions with fast-moving air molecules",
+   "Chemical reactions inside the smoke particles",
+   "Gravity pulling the particles unevenly"
+  ],
+  "answer": 1,
+  "difficulty": 2,
+  "explanation": "This is Brownian motion: invisible air molecules strike the visible smoke particles unevenly from all sides, producing random jerky paths. Convection may drift the whole cloud steadily, but the random jitter comes from molecular collisions."
+ },
+ {
+  "id": "auth-phy-thermal-003",
+  "examId": "igcse-physics",
+  "areaId": "thermal",
+  "type": "mcq",
+  "q": "Warm air rises above a radiator. Which statement explains this transfer of energy by convection?",
+  "options": [
+   "Warm air is a better conductor than cold air",
+   "Warm air expands, becomes less dense and rises, so cooler, denser air sinks to replace it",
+   "The radiator emits infra-red rays that push the air upwards",
+   "Air molecules move faster and stick to the ceiling"
+  ],
+  "answer": 1,
+  "difficulty": 2,
+  "explanation": "Convection is bulk movement of a fluid caused by density differences: heated air expands, its density falls and it rises. Radiation needs no fluid at all, and conduction through still air is far too slow to circulate a room."
+ },
+ {
+  "id": "auth-phy-thermal-004",
+  "examId": "igcse-physics",
+  "areaId": "thermal",
+  "type": "mcq",
+  "q": "A metal spoon and a plastic spoon are left in a cup of hot soup. The handle of the metal spoon gets hot first because...",
+  "options": [
+   "metals contain free electrons that rapidly transfer kinetic energy along the rod",
+   "the metal spoon starts at a higher temperature than the plastic spoon",
+   "plastic cannot conduct heat at all",
+   "convection currents carry energy through the solid spoon"
+  ],
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "In metals, mobile free electrons gain kinetic energy and quickly carry it along the rod, adding to the particle-by-particle vibration transfer. Plastic conducts poorly but not at zero, and convection needs a fluid that can flow, so it cannot occur inside a solid spoon."
+ },
+ {
+  "id": "auth-phy-thermal-005",
+  "examId": "igcse-physics",
+  "areaId": "thermal",
+  "type": "mcq",
+  "q": "Water is left in an open dish and slowly disappears at room temperature. Which molecules escape?",
+  "options": [
+   "Only molecules from the bottom of the dish",
+   "Molecules from anywhere in the liquid, exactly as in boiling",
+   "The fastest-moving molecules at the surface, which overcome the attractive forces and escape",
+   "Molecules created by the surrounding air"
+  ],
+  "answer": 2,
+  "difficulty": 2,
+  "explanation": "Evaporation uses surface molecules with energies above the average to break free, so it happens below boiling point and only at the surface. Boiling is different: it occurs throughout the liquid at a fixed temperature."
+ },
+ {
+  "id": "auth-phy-thermal-006",
+  "examId": "igcse-physics",
+  "areaId": "thermal",
+  "type": "mcq",
+  "q": "A bimetallic strip made of brass and iron is heated and bends with the brass on the outside of the curve. Why does it bend?",
+  "options": [
+   "Brass contracts when heated",
+   "The two metals expand by different amounts, so the one that expands more (brass) forms the longer outer arc",
+   "Air trapped between the metals pushes them apart",
+   "Only one of the two metals expands"
+  ],
+  "answer": 1,
+  "difficulty": 2,
+  "explanation": "Differential expansion makes the strip curve: the metal that expands more becomes the longer outside of the bend. If both metals expanded equally the strip would simply lengthen without bending."
+ },
+ {
+  "id": "auth-phy-thermal-007",
+  "examId": "igcse-physics",
+  "areaId": "thermal",
+  "type": "mcq",
+  "q": "Steam condensing on a cold mirror transfers energy to the glass because...",
+  "options": [
+   "the steam molecules are moving slower than the glass molecules",
+   "energy is released when gas molecules form liquid bonds during condensation",
+   "condensation only happens above 100 degrees Celsius",
+   "the mirror conducts heat into the steam"
+  ],
+  "answer": 1,
+  "difficulty": 2,
+  "explanation": "Condensation releases the latent heat of vaporisation as particles slow down and bond into the liquid - this is why steam burns are worse than boiling-water burns. Energy is absorbed, not released, when bonds are broken during evaporation."
+ },
+ {
+  "id": "auth-phy-thermal-008",
+  "examId": "igcse-physics",
+  "areaId": "thermal",
+  "type": "mcq",
+  "q": "Which everyday feature is designed to allow for the expansion of a material when it gets hot?",
+  "options": [
+   "Expansion gaps between sections of a railway line",
+   "Rubber soles on shoes",
+   "The vacuum layer in a flask",
+   "The shiny surface of a solar water heater"
+  ],
+  "answer": 0,
+  "difficulty": 1,
+  "explanation": "Gaps give the rails room to lengthen on hot days without buckling. The vacuum prevents conduction and convection, and shiny surfaces reduce radiation - neither has anything to do with expansion."
+ },
+ {
+  "id": "auth-phy-thermal-009",
+  "examId": "igcse-physics",
+  "areaId": "thermal",
+  "type": "mcq",
+  "q": "Tea cools fastest in a mug with which surface?",
+  "options": [
+   "Shiny white",
+   "Matt black",
+   "Shiny black",
+   "Matt white"
+  ],
+  "answer": 1,
+  "difficulty": 2,
+  "explanation": "Matt (dull) black surfaces are the best emitters of infra-red radiation, so a hot drink in one loses energy fastest by radiation. Shiny surfaces are poor emitters, which is why vacuum flasks are silvered inside."
+ },
+ {
+  "id": "auth-phy-thermal-010",
+  "examId": "igcse-physics",
+  "areaId": "thermal",
+  "type": "mcq",
+  "q": "During the melting of ice at 0 degrees Celsius, energy is supplied but the temperature stays constant. Where does the energy go?",
+  "options": [
+   "It is destroyed because the temperature does not rise",
+   "It breaks the intermolecular bonds, increasing the potential energy of the molecules",
+   "It increases the average kinetic energy of the molecules",
+   "It escapes into the air immediately"
+  ],
+  "answer": 1,
+  "difficulty": 3,
+  "explanation": "The latent heat increases the separation and potential energy of the molecules as the solid structure breaks down, while the average kinetic energy - and hence the temperature - is unchanged. 'Destroyed' violates conservation of energy."
+ },
+ {
+  "id": "auth-phy-thermal-011",
+  "examId": "igcse-physics",
+  "areaId": "thermal",
+  "type": "calc",
+  "q": "Calculate the energy required to heat 2.0 kg of water from 20 degrees Celsius to 50 degrees Celsius, in J. (Specific heat capacity of water = 4200 J/(kg degrees Celsius))",
+  "answer": "252000",
+  "tolerance": 0.02,
+  "difficulty": 2,
+  "explanation": "Q = m c deltaT = 2.0 x 4200 x 30 = 252000 J. Using 50 instead of the 30 degree temperature change is the most common error.",
+  "answer_note": "J"
+ },
+ {
+  "id": "auth-phy-thermal-012",
+  "examId": "igcse-physics",
+  "areaId": "thermal",
+  "type": "calc",
+  "q": "A 0.50 kg metal block is heated with 2250 J of energy and its temperature rises by 10 degrees Celsius. What is the specific heat capacity of the metal, in J/(kg degrees Celsius)?",
+  "answer": "450",
+  "tolerance": 0.02,
+  "difficulty": 3,
+  "explanation": "c = Q / (m deltaT) = 2250 / (0.50 x 10) = 450 J/(kg degrees Celsius), matching aluminium. Dividing by the mass alone (4500) omits the temperature change."
+ },
+ {
+  "id": "auth-phy-thermal-013",
+  "examId": "igcse-physics",
+  "areaId": "thermal",
+  "type": "calc",
+  "q": "An electric heater supplies 840 J per second to a beaker containing 0.10 kg of water. How many seconds does it take to raise the temperature of the water by 20 degrees Celsius, assuming no energy losses? (c of water = 4200 J/(kg degrees Celsius))",
+  "answer": "10",
+  "tolerance": 0.02,
+  "difficulty": 3,
+  "explanation": "Energy needed = 0.10 x 4200 x 20 = 8400 J, so time = 8400 / 840 = 10 s. Ignoring the power rating and equating 8400 J to 8400 s is the trap here.",
+  "answer_note": "s"
+ },
+ {
+  "id": "auth-phy-thermal-014",
+  "examId": "igcse-physics",
+  "areaId": "thermal",
+  "type": "calc",
+  "q": "A 0.25 kg piece of metal at 100 degrees Celsius is dropped into 0.40 kg of water at 15 degrees Celsius. The metal releases 2000 J of energy to the water. Calculate the temperature rise of the water, in degrees Celsius, to 2 decimal places.",
+  "answer": "1.19",
+  "tolerance": 0.02,
+  "difficulty": 3,
+  "explanation": "deltaT = Q / (m c) = 2000 / (0.40 x 4200) = 1.19 degrees Celsius. Using the metal's mass instead of the water's mass gives a much larger, wrong rise."
+ },
+ {
+  "id": "auth-phy-thermal-015",
+  "examId": "igcse-physics",
+  "areaId": "thermal",
+  "type": "calc",
+  "q": "33600 J of energy is supplied to melt a block of ice at 0 degrees Celsius completely. The specific latent heat of fusion of ice is 336000 J/kg. What is the mass of the ice, in kg?",
+  "answer": "0.1",
+  "tolerance": 0.02,
+  "difficulty": 2,
+  "explanation": "m = Q / L = 33600 / 336000 = 0.1 kg. During melting the temperature stays at 0 degrees Celsius, so no c deltaT term is used.",
+  "answer_note": "kg"
+ },
+ {
+  "id": "auth-phy-waves-001",
+  "examId": "igcse-physics",
+  "areaId": "waves",
+  "type": "mcq",
+  "q": "A ray of light strikes a plane mirror. The angle between the incident ray and the normal is 40 degrees. What is the angle of reflection?",
+  "options": [
+   "0 degrees",
+   "40 degrees",
+   "50 degrees",
+   "90 degrees"
+  ],
+  "answer": 1,
+  "difficulty": 1,
+  "explanation": "The law of reflection states that the angle of reflection equals the angle of incidence, both measured from the normal. Answering 50 degrees uses the angle with the mirror surface instead of with the normal."
+ },
+ {
+  "id": "auth-phy-waves-002",
+  "examId": "igcse-physics",
+  "areaId": "waves",
+  "type": "mcq",
+  "q": "A ray of light travels from air into a glass block. What happens to the ray at the boundary?",
+  "options": [
+   "It bends towards the normal because light slows down in the glass",
+   "It bends away from the normal because light speeds up in the glass",
+   "It continues undeviated because its speed does not change",
+   "It is totally reflected at every angle"
+  ],
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "Entering a denser (slower) medium, the wavefronts slow down and the ray refracts towards the normal. Bending away from the normal happens in the reverse direction, glass to air, and total reflection occurs only beyond the critical angle going the other way."
+ },
+ {
+  "id": "auth-phy-waves-003",
+  "examId": "igcse-physics",
+  "areaId": "waves",
+  "type": "mcq",
+  "q": "Which property of a wave does NOT change when the wave is refracted at a boundary between two media?",
+  "options": [
+   "Speed",
+   "Wavelength",
+   "Frequency",
+   "Direction of travel"
+  ],
+  "answer": 2,
+  "difficulty": 3,
+  "explanation": "The frequency is fixed by the source and stays the same across the boundary; the speed changes and, since v = f lambda, the wavelength changes with it. 'Wavelength is unchanged' is the tempting but wrong choice."
+ },
+ {
+  "id": "auth-phy-waves-004",
+  "examId": "igcse-physics",
+  "areaId": "waves",
+  "type": "mcq",
+  "q": "A boy makes a drum louder by hitting it harder. Which property of the sound wave increases?",
+  "options": [
+   "Frequency",
+   "Amplitude",
+   "Speed in air",
+   "Wavelength"
+  ],
+  "answer": 1,
+  "difficulty": 1,
+  "explanation": "Loudness is set by amplitude: a harder hit makes the drum skin vibrate with larger amplitude. Pitch depends on frequency, and the speed of sound in air stays about 340 m/s however hard the drum is hit."
+ },
+ {
+  "id": "auth-phy-waves-005",
+  "examId": "igcse-physics",
+  "areaId": "waves",
+  "type": "mcq",
+  "q": "Total internal reflection occurs when light travels...",
+  "options": [
+   "from air into glass, at any angle",
+   "from glass into air, with the angle of incidence greater than the critical angle",
+   "from glass into air, with the angle of incidence less than the critical angle",
+   "along a mirror surface at 45 degrees"
+  ],
+  "answer": 1,
+  "difficulty": 3,
+  "explanation": "TIR needs both conditions: the light must go from denser to less dense medium AND the angle of incidence must exceed the critical angle. Below the critical angle most of the light simply refracts out into the air."
+ },
+ {
+  "id": "auth-phy-waves-006",
+  "examId": "igcse-physics",
+  "areaId": "waves",
+  "type": "mcq",
+  "q": "White light passes through a red filter. What emerges on the other side?",
+  "options": [
+   "All colours, unchanged",
+   "Only red light; the other colours are absorbed",
+   "Only blue and green light; red is absorbed",
+   "No light at all"
+  ],
+  "answer": 1,
+  "difficulty": 2,
+  "explanation": "A red filter transmits red and absorbs the rest of the visible spectrum. The reverse behaviour - absorbing red and transmitting the others - describes a complementary filter, and a filter never creates colour, it only selects what is already in the white light."
+ },
+ {
+  "id": "auth-phy-waves-007",
+  "examId": "igcse-physics",
+  "areaId": "waves",
+  "type": "mcq",
+  "q": "A red apple looks black when viewed through a blue filter. Why?",
+  "options": [
+   "The filter destroys the light",
+   "The apple reflects mainly red light, and the blue filter absorbs it, so almost no light reaches the eye",
+   "Blue light cools the apple's surface so it darkens",
+   "The apple turns blue but the eye sees blue as black"
+  ],
+  "answer": 1,
+  "difficulty": 3,
+  "explanation": "A red apple reflects red and absorbs the other colours; the blue filter then blocks that reflected red, so virtually no light reaches the eye and the apple appears black. Filters absorb or transmit light - they never destroy it."
+ },
+ {
+  "id": "auth-phy-waves-008",
+  "examId": "igcse-physics",
+  "areaId": "waves",
+  "type": "mcq",
+  "q": "Which waves travel at about 3.0e8 m/s in a vacuum?",
+  "options": [
+   "Sound waves",
+   "Water waves",
+   "Gamma rays",
+   "Seismic waves"
+  ],
+  "answer": 2,
+  "difficulty": 1,
+  "explanation": "Gamma rays are electromagnetic radiation and all EM waves travel at 3.0e8 m/s in vacuum. Sound, water and seismic waves are mechanical - they need a medium and travel far more slowly (and cannot cross a vacuum at all)."
+ },
+ {
+  "id": "auth-phy-waves-009",
+  "examId": "igcse-physics",
+  "areaId": "waves",
+  "type": "mcq",
+  "q": "Ultrasound is used to scan an unborn baby before birth. Why is ultrasound chosen instead of X-rays?",
+  "options": [
+   "Ultrasound travels faster through tissue than X-rays",
+   "Ultrasound is non-ionising, whereas X-rays are ionising and can damage living cells",
+   "Ultrasound passes through the body without any reflection",
+   "X-rays cannot travel through air"
+  ],
+  "answer": 1,
+  "difficulty": 3,
+  "explanation": "The image is actually formed by partial reflections at tissue boundaries, so 'no reflection' is wrong - the key point is safety: ultrasonic pressure waves do not ionise atoms, unlike X-rays, which can harm a developing baby."
+ },
+ {
+  "id": "auth-phy-waves-010",
+  "examId": "igcse-physics",
+  "areaId": "waves",
+  "type": "mcq",
+  "q": "A ripple tank produces straight wave fronts that are closer together on one side of the tank. This shows the waves there have...",
+  "options": [
+   "a higher frequency",
+   "entered a shallower region where their speed and wavelength are smaller",
+   "reflected off the tank wall",
+   "become longitudinal instead of transverse"
+  ],
+  "answer": 1,
+  "difficulty": 3,
+  "explanation": "The frequency is fixed by the source, so closer wavefronts mean shorter wavelength, and v = f lambda then shows the speed is smaller - characteristic of a shallower region of water. Reflection would send waves in the opposite direction, not compress the spacing."
+ },
+ {
+  "id": "auth-phy-waves-011",
+  "examId": "igcse-physics",
+  "areaId": "waves",
+  "type": "calc",
+  "q": "A sound wave has a frequency of 256 Hz and travels through air at 340 m/s. Calculate its wavelength in metres, to 2 decimal places.",
+  "answer": "1.33",
+  "tolerance": 0.02,
+  "difficulty": 2,
+  "explanation": "lambda = v / f = 340 / 256 = 1.328 m, which rounds to 1.33 m. Multiplying v x f instead of dividing is the main distractor error.",
+  "answer_note": "m"
+ },
+ {
+  "id": "auth-phy-waves-012",
+  "examId": "igcse-physics",
+  "areaId": "waves",
+  "type": "calc",
+  "q": "A student claps while facing a wall 170 m away. Sound travels at 340 m/s. How many seconds pass before she hears the echo?",
+  "answer": "1",
+  "tolerance": 0.02,
+  "difficulty": 2,
+  "explanation": "The sound travels to the wall and back, a total distance of 340 m, so t = 340 / 340 = 1 s. Using only the 170 m one-way distance (t = 0.5 s) is the classic error - an echo is a round trip.",
+  "answer_note": "s"
+ },
+ {
+  "id": "auth-phy-waves-013",
+  "examId": "igcse-physics",
+  "areaId": "waves",
+  "type": "calc",
+  "q": "Ripples on a lake have a wavelength of 0.5 m and travel at 1.5 m/s. What is the frequency of the ripples, in Hz?",
+  "answer": "3",
+  "tolerance": 0.02,
+  "difficulty": 1,
+  "explanation": "f = v / lambda = 1.5 / 0.5 = 3 Hz. Computing lambda / v = 0.33 inverts the v = f lambda relationship.",
+  "answer_note": "Hz"
+ },
+ {
+  "id": "auth-phy-waves-014",
+  "examId": "igcse-physics",
+  "areaId": "waves",
+  "type": "calc",
+  "q": "A wave generator makes 4 complete waves per second. What is the period of the waves, in seconds?",
+  "answer": "0.25",
+  "tolerance": 0.02,
+  "difficulty": 2,
+  "explanation": "Period T = 1 / f = 1 / 4 = 0.25 s. Answering 4 s confuses frequency (waves per second) with period (seconds per wave).",
+  "answer_note": "s"
+ },
+ {
+  "id": "auth-phy-waves-015",
+  "examId": "igcse-physics",
+  "areaId": "waves",
+  "type": "calc",
+  "q": "A ship sends a sound pulse towards the sea bed 1200 m below it. The speed of sound in seawater is 1500 m/s. How long, in seconds, until the reflected pulse is detected?",
+  "answer": "1.6",
+  "tolerance": 0.02,
+  "difficulty": 3,
+  "explanation": "Round-trip distance = 2 x 1200 = 2400 m, so t = 2400 / 1500 = 1.6 s. Answering 0.8 s forgets that the pulse travels down AND back.",
+  "answer_note": "s"
  }
 ]

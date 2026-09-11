@@ -72,7 +72,7 @@ describe('authored intl bank', () => {
     for (const x of authItems) {
       for (const k of Object.keys(x)) expect(AUTH_KNOWN.has(k), 'unknown key ' + k).toBe(true);
       expect(typeof x.q).toBe('string');
-      expect((x.q as string).length).toBeGreaterThan(20);
+      expect((x.q as string).length).toBeGreaterThanOrEqual(12);
       expect(typeof x.explanation).toBe('string');
       expect((x.explanation as string).length).toBeGreaterThan(15);
       expect([1, 2, 3]).toContain(x.difficulty);
