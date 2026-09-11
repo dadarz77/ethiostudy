@@ -96,7 +96,7 @@ export default function Exam() {
             <div className="row mt-3" style={{ gap: 8 }}>
               {Object.keys(CURRICULUM).sort((a, b) => Number(a) - Number(b)).map(g => (
                 <button key={g} className={'btn btn-sm ' + (g === grade ? 'btn-primary' : '')}
-                  onClick={() => setSetting('grade', g)}>Grade {g}</button>
+                  onClick={() => setSetting('grade', g as Grade)}>Grade {g}</button>
               ))}
             </div>
           </section>

@@ -35,7 +35,7 @@ export default function Browse() {
           <div className="row">
             {Object.keys(CURRICULUM).sort((a, b) => Number(a) - Number(b)).map(g => (
               <button key={g} className={'btn ' + (g === grade ? 'btn-primary' : '')}
-                onClick={() => { setSetting('grade', g); navigate('/browse?grade=' + g); }}>Grade {g}</button>
+                onClick={() => { setSetting('grade', g as Grade); navigate('/browse?grade=' + g); }}>Grade {g}</button>
             ))}
           </div>
         </div>
