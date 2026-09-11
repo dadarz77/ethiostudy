@@ -114,16 +114,20 @@ export const INTL_EXAMS: IntlExam[] = [
 
 export interface AreaSlice { area: IntlArea; pool: { q: unknown; tid: string }[] }
 
-/** Questions available per area for an exam (needs lessons loaded for accurate counts). */
-export function areaPools(exam: IntlExam, lessonFor: (tid: string) => { questions?: unknown[] } | null, topicList: { _id: string; _grade: string; _subject: string; _unit: string }[]): AreaSlice[] {
+/** Questions available per area for an exam (needs lessons loaded for accurate counts).
+ *  topicList accepts either an array of topics or a Record keyed by topic id. */
+export function areaPools(exam: IntlExam, lessonFor: (tid: string) => { questions?: unknown[] } | null, topicList: { _id: string; _grade: string; _subject: string; _unit: string }[] | Record<string, { _id?: string; _grade: string; _subject: string; _unit: string }>): AreaSlice[] {
+  const list = Array.isArray(topicList) ? topicList : Object.values(topicList);
   return exam.areas.map(area => {
     const keys = new Set(area.units.map(([g, s, u]) => g + '|' + s + '|' + u));
     const pool: { q: unknown; tid: string }[] = [];
-    for (const t of topicList) {
+    for (const t of list) {
+      const tid = (t as { _id?: string })._id ?? (t as { id?: string }).id;
+      if (!tid) continue;
       if (t._subject !== exam.subject) continue;
       if (!keys.has(t._grade + '|' + t._subject + '|' + t._unit)) continue;
-      const ls = lessonFor(t._id);
-      for (const q of ls?.questions ?? []) pool.push({ q, tid: t._id });
+      const ls = lessonFor(tid);
+      for (const q of ls?.questions ?? []) pool.push({ q, tid });
     }
     return { area, pool };
   });

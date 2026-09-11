@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { INTL_EXAMS } from './intl-maps';
+import { INTL_EXAMS, areaPools } from './intl-maps';
 import { CURRICULUM, ALL_TOPICS } from '../lib/curriculum';
 import { lessonFor, loadAllLessons } from '../lib/curriculum';
 
@@ -42,5 +42,17 @@ describe('intl exam blueprints', () => {
         expect(n, e.id + '/' + a.id + ' empty pool').toBeGreaterThan(0);
       }
     }
+  });
+
+  it('areaPools works with the Record shape the view passes (regression: for..of crash)', async () => {
+    await loadAllLessons();
+    // The view calls: areaPools(exam, tid => lessonFor(tid), ALL_TOPICS) and ALL_TOPICS is a Record, not an array.
+    const exam = INTL_EXAMS.find(e => e.id === 'igcse-chemistry')!;
+    const slices = areaPools(exam, tid => lessonFor(tid) as never, ALL_TOPICS as never);
+    expect(slices.length).toBe(exam.areas.length);
+    const total = slices.reduce((n, s) => n + s.pool.length, 0);
+    expect(total).toBeGreaterThan(100); // chemistry pool is ~414
+    // every pooled item carries a resolvable topic id
+    for (const s of slices) for (const p of s.pool) expect(p.tid).toBeTruthy();
   });
 });
