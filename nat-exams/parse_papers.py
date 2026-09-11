@@ -118,11 +118,17 @@ def parse_pair(subj, yr):
         if not letter or letter not in r['opts']:
             continue
         order = [l for l in 'ABCD' if l in r['opts']]
+        opt_texts = [r['opts'][l] for l in order]
+        if len(set(o.lower().strip() for o in opt_texts)) != len(opt_texts):
+            flagged.append({'n': n, 'grid': g or '?', 'tick': '?', 'q': r['q'][:80], 'why': 'duplicate options'})
+            continue
+        q = r['q']
+        q = q[0].upper() + q[1:] if q else q
         out.append({
             'id': f'natl-{subj}-{yr}-{n:03d}',
             'subject': subj, 'year': int(yr), 'yearCal': 'EC',
-            'q': r['q'],
-            'options': [r['opts'][l] for l in order],
+            'q': q,
+            'options': opt_texts,
             'answer': order.index(letter),
             'confidence': 'grid+tick' if (g and t) else ('grid' if g else 'tick'),
             'type': 'mcq',

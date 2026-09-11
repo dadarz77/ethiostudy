@@ -13,6 +13,7 @@ const TopicView = lazy(() => import('./views/TopicView'));
 const Practice = lazy(() => import('./views/Practice'));
 const Exam = lazy(() => import('./views/Exam'));
 const International = lazy(() => import('./views/International'));
+const National = lazy(() => import('./views/National'));
 const Progress = lazy(() => import('./views/Progress'));
 const Bookmarks = lazy(() => import('./views/Bookmarks'));
 const Notes = lazy(() => import('./views/Notes'));
@@ -24,6 +25,7 @@ const NAV = [
   { to: '/practice', key: 'practice', ico: '🧠' },
   { to: '/exam', key: 'exam', ico: '📝' },
   { to: '/international', key: 'international', ico: '🌍' },
+  { to: '/national', key: 'national', ico: '🇪🇹' },
   { to: '/progress', key: 'progress', ico: '📈' },
   { to: '/bookmarks', key: 'bookmarks', ico: '🔖' },
   { to: '/notes', key: 'notes', ico: '📒' },
@@ -91,6 +93,7 @@ export default function App() {
               <Route path="/practice" element={<Practice />} />
               <Route path="/exam" element={<Exam />} />
               <Route path="/international" element={<International />} />
+              <Route path="/national" element={<National />} />
               <Route path="/progress" element={<Progress />} />
               <Route path="/bookmarks" element={<Bookmarks />} />
               <Route path="/notes" element={<Notes />} />

@@ -899,7 +899,7 @@
    "subject": "biology",
    "year": 2007,
    "yearCal": "EC",
-   "q": "which of the following is an inorganic molecule?",
+   "q": "Which of the following is an inorganic molecule?",
    "options": [
     "CaCo3V",
     "CH4",
@@ -1266,7 +1266,7 @@
    "subject": "biology",
    "year": 2007,
    "yearCal": "EC",
-   "q": "which of the following happens in both cyclic and non-cyclic photophosphorylation?",
+   "q": "Which of the following happens in both cyclic and non-cyclic photophosphorylation?",
    "options": [
     "ATPisformed",
     "Oxygen is generated",

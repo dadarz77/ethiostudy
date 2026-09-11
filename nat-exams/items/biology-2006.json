@@ -352,22 +352,6 @@
    "type": "mcq"
   },
   {
-   "id": "natl-biology-2006-023",
-   "subject": "biology",
-   "year": 2006,
-   "yearCal": "EC",
-   "q": "In a cross between round green pea of RRyy genotype wrinkled yellow pea of rrYY genotype, what is the expected genotype of the F1?",
-   "options": [
-    "RRyy",
-    "rrYY",
-    "RRYY",
-    "RrYyv"
-   ],
-   "answer": 3,
-   "confidence": "grid+tick",
-   "type": "mcq"
-  },
-  {
    "id": "natl-biology-2006-024",
    "subject": "biology",
    "year": 2006,
@@ -1236,7 +1220,7 @@
    "subject": "biology",
    "year": 2006,
    "yearCal": "EC",
-   "q": "which of the following pairs are analogous structures ?",
+   "q": "Which of the following pairs are analogous structures ?",
    "options": [
     "Wingof bird and wingof a butterfly",
     "Front leg of a horse and a human arm",
@@ -1568,14 +1552,22 @@
    "type": "mcq"
   }
  ],
- "flagged": [],
+ "flagged": [
+  {
+   "n": 23,
+   "grid": "D",
+   "tick": "?",
+   "q": "In a cross between round green pea of RRyy genotype wrinkled yellow pea of rrYY ",
+   "why": "duplicate options"
+  }
+ ],
  "stats": {
   "questions": 98,
-  "items": 98,
-  "flagged": 0,
+  "items": 97,
+  "flagged": 1,
   "grid": 100,
   "conf": {
-   "grid+tick": 35,
+   "grid+tick": 34,
    "grid": 63,
    "tick": 0
   }

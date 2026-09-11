@@ -1121,22 +1121,6 @@
    "type": "mcq"
   },
   {
-   "id": "natl-biology-2005-071",
-   "subject": "biology",
-   "year": 2005,
-   "yearCal": "EC",
-   "q": "Inwhich ofitscontentsRNAdiffersfromDNA?",
-   "options": [
-    "Deoxyribose andguanine",
-    "Ribose and uracil",
-    "Ribose and uracil",
-    "Phosphate and adenine"
-   ],
-   "answer": 1,
-   "confidence": "grid",
-   "type": "mcq"
-  },
-  {
    "id": "natl-biology-2005-072",
    "subject": "biology",
    "year": 2005,
@@ -1601,15 +1585,23 @@
    "type": "mcq"
   }
  ],
- "flagged": [],
+ "flagged": [
+  {
+   "n": 71,
+   "grid": "B",
+   "tick": "?",
+   "q": "Inwhich ofitscontentsRNAdiffersfromDNA?",
+   "why": "duplicate options"
+  }
+ ],
  "stats": {
   "questions": 100,
-  "items": 100,
-  "flagged": 0,
+  "items": 99,
+  "flagged": 1,
   "grid": 100,
   "conf": {
    "grid+tick": 30,
-   "grid": 70,
+   "grid": 69,
    "tick": 0
   }
  }
