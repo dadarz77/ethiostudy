@@ -1,0 +1,7 @@
+pdf/
+ocr/
+__pycache__/
+*.part
+ocr_progress.json
+ocr_restarts.log
+ALL_DONE.flag

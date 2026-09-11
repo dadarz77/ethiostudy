@@ -1,0 +1,1439 @@
+{
+ "items": [
+  {
+   "id": "natl-biology-2006-001",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following do viruses share with cells?",
+   "options": [
+    "Cell wall",
+    "Cytoplasma",
+    "Nucleic acid",
+    "Protoplasma"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-002",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which one of the following cellular forms did Robert Hooke observe under his crude microscope?",
+   "options": [
+    "Bacteria",
+    "Protozoa",
+    "Yeast",
+    "Empty cell wall"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-003",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "In the case of enzymatic chemical reactions, what do you call the substance that is acted up on by an enzyme?",
+   "options": [
+    "Polypeptide",
+    "Coenzyme",
+    "Vitamin",
+    "Substrate"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-004",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Choose the organisms that belong to the eukaryotes?",
+   "options": [
+    "Bacteria",
+    "Blue -green algae",
+    "Amoebav",
+    "Virus"
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-006",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following structures is NOT present in animal cells?",
+   "options": [
+    "Cell wall",
+    "Nucleus",
+    "Protoplasm O B) Nucleic acid"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-007",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "An experimental animal stopped responding to a stimulus that has been repeated so many times .What type of learnedbehavioris this?",
+   "options": [
+    "Latent learning",
+    "Habituation",
+    "Imprinting",
+    "Operant conditioning"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-008",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Behavior that is repeated on a daily basis is referred to as:",
+   "options": [
+    "Lunar",
+    "Circadian",
+    "Circannua",
+    "Seasonal"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-009",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which molecule in the cell is the constituent of the gene?",
+   "options": [
+    "Nucleic acid",
+    "Protein",
+    "Lipid",
+    "Carbohydrate"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-010",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which is the branch of biology that studies abut the origin and gradual changes of living things?",
+   "options": [
+    "Microbiology",
+    "Evolutionv",
+    "Mutation",
+    "Reproduction"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-011",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "What is the general term for the part of the protoplasms that lies outside the nucleus?",
+   "options": [
+    "Cytosol",
+    "Cytoplasm",
+    "Central vacuole",
+    "Plasma membrane"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-012",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "How many net ATP molecule are generated through anaerobic respiration , when a single glucose molecule is change to pyruvate in the human body?",
+   "options": [
+    "Tow",
+    "Three",
+    "Four",
+    "Six"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-013",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following groups of bacteria consists of rod shaped cells?",
+   "options": [
+    "Gram - positive",
+    "Bacilli",
+    "Cocci",
+    "Spirilla 14.How many carbon and oxygen tomes are there in a molecule of maltose? A)6carbon and6oxygen B)12 Carbone and 11 √ C) 11 carbon and 12 oxygen D) 24 carbon and 12 oxygen"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-015",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "On which of the following organelles of the eukaryotic cell does protein synthesis take place?",
+   "options": [
+    "The nucleus",
+    "The ribosomev",
+    "The chloroplast",
+    "The mitochondrion"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-016",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following parts of plant roots is harboring nitrogen fixing bacteria",
+   "options": [
+    "Root nodulev",
+    "Root hair",
+    "Root tip",
+    "Root cap"
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-017",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following is true about protozoa?",
+   "options": [
+    "They are a group of bacteria",
+    "They are one-celled organisms",
+    "They represent both plant and animals",
+    "They are unicellular animals"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-018",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following is a distinguishing feature of amino acids that is NOT found in carbohydrates?",
+   "options": [
+    "Carbon",
+    "Oxygen",
+    "Hydrogen",
+    "Nitrogenv"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-019",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following statement is true about matter and energy in the ecosystem?",
+   "options": [
+    "Both matter and energy arerecycled",
+    "Matter is not recycled energy is recycled",
+    "Matter is recycled energy is not recycled OI",
+    "Energy is recycled more than matter does"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-020",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which one of the following molecule in living things is not an organic molecule?",
+   "options": [
+    "Sugar",
+    "Nucleotide",
+    "Amino acid",
+    "Water 21.At which stage is most of the ATP generated in aerobic respiration? A) Glycolysis B) Link reaction C) Krebs cycle D) Electron transport"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-022",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following is the common characteristic of all enzymes?",
+   "options": [
+    "They act inside cells only",
+    "They are proteins",
+    "They require cofactors",
+    "They operate at any PH"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-023",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "In a cross between round green pea of RRyy genotype wrinkled yellow pea of rrYY genotype, what is the expected genotype of the F1?",
+   "options": [
+    "RRyy",
+    "rrYY",
+    "RRYY",
+    "RrYyv"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-024",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following cellular structures is possessed by all cells NotAnswered",
+   "options": [
+    "Cell membranev",
+    "Nucleus",
+    "Cell wall OI",
+    "Golgi apparatus"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-025",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "During the krebs cycle which of the following molecule temporarily stores most of the energy released from food molecule",
+   "options": [
+    "ADP",
+    "ATP",
+    "NADH",
+    "FADH 26.Which of the following carbohydrate has structural function? A) Cellulosev B) Glycogen C) Starch D) Sucrose"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-027",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following forms of nitrogen are readily utilization by green plants?",
+   "options": [
+    "Atmosphericnitrogen",
+    "Nitrite",
+    "Ammonium ion",
+    "Nitratev"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-028",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "In some crosses of maize, the progeny produces better yield than the parents. What is this phenomenon known as?",
+   "options": [
+    "Dominance",
+    "Hetrozygosity",
+    "Hybrid vigorv",
+    "Inbreeding depression"
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-029",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following techniques is used to separate DNA fragments according to their size on gel?",
+   "options": [
+    "Southern blotting",
+    "Electrophoresis",
+    "Radioactive labeling",
+    "Digestionbyrestriction"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-030",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following group of animals have males with ZZ and females with ZW sex chromosome constitution?",
+   "options": [
+    "Grasshopper",
+    "Birdsv",
+    "Mammals",
+    "Honey bee"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-031",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "The molecule of which pigment is located at the reaction center of a photosystem?",
+   "options": [
+    "Chlorophyll av",
+    "Chlorophyll b",
+    "Carotenoid",
+    "Accessory pigments"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-032",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "According to Lamarck's theory of evolution what is the mechanism by which evolving organisms acquire new structures?",
+   "options": [
+    "Mutation",
+    "Hereditary variation",
+    "Use -and- disuse of parts of the body",
+    "Recombination of ancestral genes"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-033",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "In which of the activities of the honey bee colony are worker bees involved?",
+   "options": [
+    "Laying eggs",
+    "Serving as queens",
+    "Reproductive function",
+    "Taking care of the larvaev"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-034",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "In which one of the following ways the Tundra biome differs from desert biome?",
+   "options": [
+    "It is a treeless biome",
+    "It has little biodiversity",
+    "It receives little precipitation",
+    "It has permanently frozen subsoil"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-035",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which one of the following is the mechanism by which tow genes located on the same chromosome are separated?",
+   "options": [
+    "Independent assortment",
+    "Segregation",
+    "Linkage",
+    "Crossing overv"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-037",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following can be taken as case for evidence of evolution from the filed of plant and animal breeding?",
+   "options": [
+    "Artificial breeding always creates new sepecies",
+    "Artificial breeding only produces new organisms with higher yield",
+    "Artificial breeding shows that natural selection can produces variations",
+    "Artificial breeding can produces new variations in organisms"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-038",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following mechanism moves digested amino acids and glucose across the plasma membrane of the cell lining thewall of the small intestine?",
+   "options": [
+    "Osmosis",
+    "Simple diffusion",
+    "Facilitated diffusion",
+    "Active transport"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-039",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Where exactly in the cell dose the Krebs cycle take place?",
+   "options": [
+    "Mitochondrialmatrix",
+    "Inner mitochondrial membrane",
+    "Cytoplasmic fluid",
+    "Outermitochondrial membrane"
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-040",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "What is the ultimate source of renege for all organism living on the earth?",
+   "options": [
+    "Water",
+    "Oxygen",
+    "Nitrogen",
+    "The sunv"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-041",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following substance is NOT necessary for photosyntheseis to take place?",
+   "options": [
+    "Chlorophyll",
+    "Carbon dioxide",
+    "Oxygenv",
+    "Water"
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-042",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which group of organic compound includes the enzymes?",
+   "options": [
+    "Proteins",
+    "Lipids",
+    "Starches",
+    "Carbohydrates"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-043",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Into which of the following organic compound can lipase maltase and sucrase be grouped?",
+   "options": [
+    "Hormones",
+    "Carbohydrates",
+    "Nucleic acids",
+    "Enzymes"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-044",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Choose the characteristics that viruses share with living things.",
+   "options": [
+    "Theyaremadeupof manyspecialized cells",
+    "They contain genetic material",
+    "They reproduce by mitosis",
+    "They contain chlorphyll"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-045",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which one of the following eukaryotic cell organelles was a free living cell before eukaryotic cells evolved?",
+   "options": [
+    "Nucleus",
+    "Ribosome",
+    "Chloroplastv",
+    "Nucleolus"
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-046",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "If radioactive substance that weighs one kilogram has a half-life of 1o0 years what would be the percentage ofthesubstanceleftafter300years?",
+   "options": [
+    "50",
+    "30",
+    "25",
+    "12.5"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-047",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following is more true about the male of the honey bee? NotAnswered",
+   "options": [
+    "It has no father",
+    "It is sterilev",
+    "It is diploid",
+    "It regulates the colony"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-049",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "In Ethiopia, which one of the following vertebrate groups has the largest number of genera?",
+   "options": [
+    "Mammals",
+    "Birds",
+    "Reptiles",
+    "Amphibians"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-050",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following is an accurate representation of the relationships between the terms metabolism anabolism and catabolism?",
+   "options": [
+    "Anabolism= Catabolism",
+    "Metabolism =Catabolism",
+    "Anabolism=Catabolism+Metabolism",
+    "Metabolism=cataboilsm+Anabolism"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-051",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which do you call structures that have the have the same evolutionary origin but now are different in",
+   "options": [
+    "Endemic",
+    "Analogous",
+    "Homologous",
+    "Indigenous"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-052",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which term describes the process by which water is lost by evaporating through the stomata of leaves ?",
+   "options": [
+    "Transport",
+    "Transpiration",
+    "Anchorage",
+    "Adhesion 53.Which of thefollowing is true about saturated fatty acids? A)They have single bondsbetween carbon atoms B) They are the same as polyunsaturated fatty acids C) They are the same as monounsaturated fatty acids D) They have double bonds between the carbon atoms"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-054",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "For a biological detergent to effectively remove oily and greasy dirt, which of the following enzymes should it contain?",
+   "options": [
+    "Cellulase",
+    "Protease",
+    "Amylase",
+    "LipaseV"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-055",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "In which kingdom of life is it most likely to finde many examples of organisms that can undergo metamorphosis?",
+   "options": [
+    "Monera",
+    "Fungi",
+    "Plantae",
+    "Animals"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-056",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "During protein synthesis where in the cell does transcription take place?",
+   "options": [
+    "Ribosome",
+    "Nucleus",
+    "Endoplasmic reticulum",
+    "Golgi apparatus 57.What is a perfect flower? A) A flower with petals and pistil B)A flowerwith stamens and sepals C)Aflowerwithstamens and pistil D) A flower with sepals and petals 58.Whichmoleculescarrytheinstructionforproteinsynthesis? A) Carbohydrates and lipids B) Amino acids C) DNA and RNAv D) Enzymes"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-059",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which region of the human digestive tract contains enzymes that perform well at low PH?",
+   "options": [
+    "Mouth",
+    "Stomach",
+    "Small intestinev",
+    "Sunlight"
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-060",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following resources is needed by an ecosystem from outside in order to sustain itself",
+   "options": [
+    "Producers",
+    "Macronutrients",
+    "Micronutrients",
+    "Sunlightv"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-061",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following is true about the substance represented by the chemical formula C2H-NO2?",
+   "options": [
+    "Simple sugar",
+    "Inorganic substance",
+    "Fatty acid",
+    "Amino acidv"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-062",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which one of the following characteristic is UNNECESSARY for an object to be considered a living thing?",
+   "options": [
+    "Ability to respond to stimuli",
+    "Ability to reproduce",
+    "Ability to grow",
+    "Ability to movev"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-063",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which filed studies the way in which individual traits of organisms are transmitted from one generation to the next? Q",
+   "options": [
+    "Genetics",
+    "Ecology",
+    "Evolution",
+    "Morphology"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-064",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "In which of the following ways is the carbon dioxide of the atmosphere fixed in to the Carbone found in organic molecules?",
+   "options": [
+    "In thebreathingprocesses of all animals",
+    "In the decomposition of organic molecules",
+    "In the process of photosynthesis by green plants<",
+    "In all the cellular respiration processes of organisms"
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-065",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following is NOT a term used to describe organisms that have had foreign genes added to them?",
+   "options": [
+    "Genetically modified organisms",
+    "Transgenic organisms",
+    "Genetically engineered organisms",
+    "Pathogenic organisms"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-066",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following is prevented from taking place if populations are separated by a geographic barrier?",
+   "options": [
+    "Mutation",
+    "Evolution",
+    "Gene flow",
+    "Natural selection"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-067",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "In protein synthesis, what is produced during transcription?",
+   "options": [
+    "Protein",
+    "mRNA",
+    "DNA",
+    "Polypeptide"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-068",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "If a cell fails to clear its cellular debris which one of its organelle is most likely NOT functioning?",
+   "options": [
+    "Nucleus",
+    "Mitochondria",
+    "Endoplasmic reticulum",
+    "Ribosomes"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-069",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following applies to the tropical rainforest? NotAnswered",
+   "options": [
+    "Low rainfall and hight temperature",
+    "Low rainfall and low temperature",
+    "High rainfall and hight temperaturev",
+    "High rainfall and low temperature"
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-070",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which stage in the life cycle of HIV is inhibited by the antiretroviral drug known as integrase inhibitor?",
+   "options": [
+    "conversion ofviralRNA toDNA",
+    "Replication of the viral genome",
+    "Insertion of the viral genome in to host genome",
+    "Release of the viral progeny from the cell photosynthesis in separate cells? O ）A) C-3 plants O B) C-4 plants O C) CAM plants O D) plants with out chlorophyll"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-072",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Among the following identify the organelle in which nucleic acid is NOT found ?",
+   "options": [
+    "Mitochondria",
+    "Chloroplast",
+    "Ribosome",
+    "Golgi apparatus"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-073",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following can create strong inter- specific competition if share by two or more species?",
+   "options": [
+    "Habitatv",
+    "Ecosystem",
+    "Niche",
+    "Predator"
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-074",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "The half-life of carbon-14 is about 5730 years. If a fossil is 17200 years old, about what percent of its original carbon -14 is still present in the fossil? NotAnswered",
+   "options": [
+    "75 %",
+    "50 %",
+    "25 %",
+    "12 %"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-075",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following pairs of individuals have identical DNA fingerprints?",
+   "options": [
+    "Father and sun",
+    "Mother and daughter",
+    "Brother and sister",
+    "Monozygotictwins"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-076",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Among the following which one has little or no contribution to the loss of biodiversity?",
+   "options": [
+    "Overgrazing by domestic animals",
+    "Clearing forests to grow crops",
+    "Growing crops of improved verities",
+    "Growing crops of land"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-077",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Suppose sites A,B,C and D have Simpson's Index of Diversity (d) values of 20,8,16,and 3, respectively, which site is dominated by one or just a few species?",
+   "options": [
+    "Site A",
+    "Site B",
+    "Site C",
+    "Site D"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-078",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following types of chromosome mutations gives rise to an extra chromosome?",
+   "options": [
+    "Inversion",
+    "Trans location",
+    "Deletion",
+    "Non- disjunction"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-079",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Suppose a hypothetical cube- shaped cell has sides of 10 micrometers, what is the surface area to volume ratio of this cell?",
+   "options": [
+    "6:10",
+    "10:10",
+    "3:6",
+    "4:8"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-080",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "which of the following pairs are analogous structures ?",
+   "options": [
+    "Wingof bird and wingof a butterfly",
+    "Front leg of a horse and a human arm",
+    "Wing of a bird and wing of a bat",
+    "Front leg of a frog and wing of a bat"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-081",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "How are unsaturated fats distinguished?",
+   "options": [
+    "They are made up of glucose and fructose",
+    "They are made up of amino acids and glycerol",
+    "They have double bonds in their carbon chains",
+    "They have only single bonds at the points of attachment"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-082",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the the following mating produces children all having the same ABO blood phenotypes",
+   "options": [
+    "AO xAB",
+    "BBx",
+    "AO x B",
+    "AA x B"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-083",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following is the largest ecological unit?",
+   "options": [
+    "Acommunity",
+    "A biome",
+    "A population",
+    "An ecosystemv"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-084",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Among the following fossil hominid species which one is the oldest of all?",
+   "options": [
+    "Homo erectus",
+    "Ardipithecus ramidus",
+    "Australopithecus afarensis",
+    "Australopithecusafricanus"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-085",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "During aerobic respiration what is the route through which protons return from the mitochondrial inter- membrane spacebacktoitsmatrix?",
+   "options": [
+    "Proton pump",
+    "ATP synthase",
+    "Ion channel",
+    "Membrane lipid"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-086",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "From which of the processes of cellular respiration is the majority of the ATP generated?",
+   "options": [
+    "Anaerobic fermentation",
+    "Glycolysis and link reaction",
+    "Electron transport and chemiosmosis",
+    "Krebs cycle and glycolysis"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-087",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Choose the one that represent a chemical formula of an organic compound?",
+   "options": [
+    "C12H22O11",
+    "Mg(OH)2",
+    "NH3",
+    "NaCL"
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-088",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "In which of the following solutions does an animal cell undergo hemolysis?",
+   "options": [
+    "In hypotonic solutionv",
+    "In hypertonic solution",
+    "In isotonic solution",
+    "In both hypotonic and hypertonic solution"
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-089",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "On which of the following does the rate of algal photosynthesis in a lake depend?",
+   "options": [
+    "The Oxygencontentofthewater",
+    "The nitrogen content of the water",
+    "The elevation where thelakeis found",
+    "The amount of light that penetrates the lake water"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-090",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "What does the absence of chloroplast in a unicellular organism indicate?",
+   "options": [
+    "Reproduction by sexual means",
+    "Autotrophic nutrition",
+    "Heterotrophic nutrition",
+    "Completed lack of metabolic processes"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-091",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following did the early heterotrophs do that probably assisted the origin of autotrophs?",
+   "options": [
+    "They added oxygen and chlorophyll to the environment",
+    "They added carbon dioxide to the environment",
+    "They stored energy in the bonds of inorganic compound",
+    "They manufactured food from carbon dioxide and oxygen"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-092",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "If DNA contain 10% thymine, what is the percentage of cytosine in the DNA? NotAnswered",
+   "options": [
+    "10%",
+    "30%",
+    "40%",
+    "90%"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-093",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following conclusions can be drawn the structural similarities observed between the flippers ofwhales and the arms ofhumans?",
+   "options": [
+    "The human species began life in the ocean",
+    "The human species and whales share a common ancestry",
+    "Whales are older than the human species",
+    "Whales have evolved from early humans that went back to the ocean"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-094",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following will happen if a plant cell is kept in a solution that is stronger than its protoplasms?",
+   "options": [
+    "The cell will become turgid",
+    "The central vacuole will expand",
+    "The protoplasms will get plasmolysed",
+    "The cell will swell and burst"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-095",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following is produced when a lipid molecule is hydrolyzed?",
+   "options": [
+    "Aminoacid andwater",
+    "Amino acid and glucose",
+    "Fatty acids and glycerol",
+    "Glucose and glycerol"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-096",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "What is the ecological succession in which plant communities establish after an area has been completely demolished by fire?",
+   "options": [
+    "Tree succession",
+    "Secondary succession",
+    "Primary succession",
+    "Bare rock succession 97.WhatisthedifferencebetweenHIVandAIDs? A)AIDS is the virus and HIV is the disease B) Both AIDS and HIV refer to the disease C)AIDS is the disease and HIV is the virus D) Both AIDS and HIV refer to the virus"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-098",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "From which organism is the first antibiotic used in medicine produced ?",
+   "options": [
+    "Gram negative bacteria",
+    "Members of the fungi",
+    "Genetically modified protozoa",
+    "Higher plants"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-099",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Biotechnology can be applied in environmental remediation . To which of the major application areas of biotechnology is this most related?",
+   "options": [
+    "Medicine and nutrition",
+    "Medicine and industry",
+    "Biodiversity and industry",
+    "Agriculture and environment"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2006-100",
+   "subject": "biology",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Suppose in an experiment conducted to test a new drug, 20 people were given the drug and 20 people a placebo. What is the control of the experiment?",
+   "options": [
+    "People who received the placebov",
+    "People who received the new drug",
+    "The new drug itself",
+    "The new drug and the placebo Your Answers you have scored O out of O Answer Key 1.C 11.B 21.D 31.A 41.C 51.C 61.D 71.B 81.C 91.B 2.D 12.A 22.B 32.C 42.A 52.B 62.D 72.D 82.B 92.C 3.D 13.B 23.D 33.D 43.D 53.A 63.A 73.A 83.D 93.B 4.C 14.B 24.A 34.D 44.B 54.D 64.C 74.D 84.C 94.C 5.D 15.B 25.C 35.D 45.C 55.D 65.D 75.D 85.B 95.C 6.A 16.A 26.A 36.B 46.D 56.B 66.C 76.D 86.C 96.B 7.B 17.B 27.D 37.C 47.B 57.C 67.B 77.D 87.A 97.C 8.B 18.D 28.C 38.D 48.C 58.C 68.C 78.D 88.A 98.B 9.A 19.C 29.B 39.A 49.B 59.C 69.C 79.A 89.A 99.D 10.B 20.D 30.B 40.D 50.D 60.D 70.C 80.A 90.C 100.A @ 2019 Camara Education Ethiopia. Ethiopian General Secondary Education Certificate and University Entrance Examinations"
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  }
+ ],
+ "flagged": [],
+ "stats": {
+  "questions": 89,
+  "items": 89,
+  "flagged": 0,
+  "grid": 100,
+  "conf": {
+   "grid+tick": 33,
+   "grid": 56,
+   "tick": 0
+  }
+ }
+}

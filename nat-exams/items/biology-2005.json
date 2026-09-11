@@ -1,0 +1,1511 @@
+{
+ "items": [
+  {
+   "id": "natl-biology-2005-001",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Which one of the following is the main constituent of biological membranes?",
+   "options": [
+    "Phospholipids",
+    "Glycoproteins",
+    "Glycolipids",
+    "Cholesterol"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-002",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "One of the following biomes in Africa is supporting large wild mammals such as elephants, giraffes and lions.",
+   "options": [
+    "The Congo rain forest",
+    "The rain forest of western Ethiopia",
+    "The savanna grassland",
+    "The Sahara desert"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-003",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Which of the following steps in the scientific method comes following observation?",
+   "options": [
+    "Predication",
+    "Hypothesis",
+    "Experiment",
+    "Theory"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-004",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "The main components of the plant cell wall are",
+   "options": [
+    "Starch",
+    "Cellulosev",
+    "protein",
+    "chitin 5.Whichofthefollowingclasses ofenzymesdigests carbohydrates? A) Amylasesv B) Lipases O C) Proteases O D) Nucleases"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-006",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Which of the following kingdoms of life is consisting of prokaryotic organisms?",
+   "options": [
+    "Fungi",
+    "Monerav",
+    "Protista",
+    "Plantae"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-007",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Which component of soil fertility is improved when farmers grow legumes in crop rotation ?",
+   "options": [
+    "Phosphorus",
+    "Nitrogenv",
+    "Sulfur",
+    "Carbon"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-008",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Before making crosses, which part of the flower did Mendel remove to avoid self pollination?",
+   "options": [
+    "Stigmav",
+    "Ovule",
+    "Ovary",
+    "Stamens 9.Which one of thefollowingdobees use toinform otherbees about location and distance of a new source of nectar they discover? A) Pheromones O B) Waggle dancev C) Buzzing noise O1 D) vibration of wings"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-009",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Which one of the following do bees use to inform other bees about location and distance of a new source of nectar they discover?",
+   "options": [
+    "Pheromones",
+    "Waggle dance",
+    "Buzzing noise",
+    "vibration of wings"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-010",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "One of the following molecules is the building units of an enzyme molecule.",
+   "options": [
+    "Amino acids",
+    "glucose",
+    "Nucleotides",
+    "Fatty acids"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-011",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "What are the specialists in biology called if he/she studies fossils to generate new knowledge on the origin and evolution of living things of past geologic periods?",
+   "options": [
+    "Geneticist",
+    "Ecologist",
+    "PaleontogistV",
+    "comparativeBiochemist"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-012",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "All proteins contain carbon, hydrogen, oxygen and what other element?",
+   "options": [
+    "Chlorine",
+    "Fluorine",
+    "Nitrogenv",
+    "Sulphur"
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-013",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Which of the following is the correct F2 phenotypic ratio of a monohybrid cross?",
+   "options": [
+    "1:2",
+    "1:1",
+    "3:1<",
+    "2:2"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-015",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Which unit is best to use for measuring the smallest cells and organelles?",
+   "options": [
+    "Micrometer",
+    "Milliliter",
+    "Millimeter",
+    "Nanometer"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-016",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Which energy rich organic compound contains adenine in its molecule ?",
+   "options": [
+    "Lipid",
+    "Carbohydrate",
+    "Glucose",
+    "ATP√ 17.What are the most frequent causative agents of food poisoning? A)Bachteriav B)Protozoa C) viruses D) Worms"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-017",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "What are the most frequent causative agents of food poisoning?",
+   "options": [
+    "Bachteria",
+    "Protozoa",
+    "viruses",
+    "Worms"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-018",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "What are the most likely causes of variations within species?",
+   "options": [
+    "Mitosis and a sexual reproduction.",
+    "Overpopulation and overproduction.",
+    "Vegetative propagation and cloning.",
+    "Mutationsandsexualreproduction."
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-019",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "In which hominid species did scientists find the smallest brain size (cranial capacity)?",
+   "options": [
+    "Homo Sapiens",
+    "Homo Habilis",
+    "Homo erectus",
+    "Homo neanderthalensis"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-020",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Which of the following is NOT classified as a learned behavior?",
+   "options": [
+    "Insight",
+    "Innate",
+    "Latent",
+    "Conditioned"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-021",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "In which one of the following aspects is the tropical rain forest biome poor?",
+   "options": [
+    "Species diversity",
+    "amount of sunlight",
+    "Annual precipitation",
+    "Soil fertility"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-022",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "If the size of a cell increase, which one of the following gets smaller?",
+   "options": [
+    "The volume of the cell",
+    "The surface area of the cell",
+    "surface area to volume ratio of cell",
+    "volume to surface ratio of the cell"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-023",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "What makes unsaturated fatty acids different from saturated fatty acids?",
+   "options": [
+    "The presence of long chain of carbon",
+    "The presence of one or more double bonds",
+    "The presence of large number of hydrogen atoms",
+    "Their occurrence assolid at room temperature"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-024",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Which of the following pairs of molecule are known to have catalytic activity?",
+   "options": [
+    "Lipids and proteins",
+    "carbohydrate and proteins",
+    "protein and RNAsV",
+    "protein and DNAs"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-025",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "If a suspension of a mixture of cellular organelle is spun in a centrifuge, which organelle settles to the bottom first?",
+   "options": [
+    "Mitochondria",
+    "Nucleiv",
+    "Chloroplasts",
+    "Ribosomes"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-026",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "During chemiosmosis, what substance diffuses from one side to the other side of the membrane?",
+   "options": [
+    "Watermolecules",
+    "protons",
+    "Electrons",
+    "ATP molecules"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-027",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Which of the following human diseases can be prevented by taking proper diets? NotAnswered",
+   "options": [
+    "Degenerative diseases",
+    "Genetic diseases",
+    "Social diseases",
+    "Deficiency diseases"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-028",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "When two species are compared ,which of the following sources of evidence is least informative about the degreeofrelationshipsbetweenthespecies?",
+   "options": [
+    "Nucleotide sequence of DNAs",
+    "Amino acid sequence of proteins",
+    "Gluscose sequence of polysaccharides",
+    "DNA-DNA hybridization"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-029",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Which of the following practices dose NOT normally transmit HIV?",
+   "options": [
+    "Sexual intercourse through anus",
+    "sharing injection needles",
+    "Blood transfusion",
+    "shaking hands"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-030",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "What is the important role played by microorganism such as bacteria and fungi in the ecosystem?",
+   "options": [
+    "?Antibiotic production",
+    "Recycling of nutrients",
+    "Forming organic substance",
+    "Supplyingenergyto the ecosystem"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-031",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Which of the following theories explains evolutionary changes of living things in terms of changes in their allele frequencies?",
+   "options": [
+    "Darwin's natural selection",
+    "Spontaneous generation",
+    "Inheritance of acquired characteristics",
+    "Neo-Darwinism"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-032",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Which of the following is an important function of the Golgi apparatus?",
+   "options": [
+    "Protein synthesis",
+    "packaging of proteins",
+    "Removing ofdebris from cell",
+    "Storage of waste materials not needed by the cell"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-033",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Which of the following is NOT usually true as an ecological succession progresses to advanced seral stages",
+   "options": [
+    "More ecological niches areformed",
+    "Species become more diverse",
+    "The depth of the soil increase",
+    "Less population is supported"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-034",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "One of the following is an important cause of gene of gene mutation.",
+   "options": [
+    "Old age",
+    "Alcoholic drinks",
+    "Smoking",
+    "Radiation"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-035",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "What is the reproductive isolating mechanism called if two species of forgs do not interbreed because they cannotunderstandthematingcallsofoneanother",
+   "options": [
+    "Seasonal isolation",
+    "Behavioralisolationv",
+    "Temporal isolation",
+    "isolation by distance 36.Howmanychromosomesdohumansinheritfromeachoftheirparents? A)23chromosomev B) 23 pairs of chromosome C)46 chromosome D) 46 pairs of chromosome"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-036",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "How many chromosomes do humans inherit from each of their parents?",
+   "options": [
+    "23chromosome",
+    "23 pairs of chromosome",
+    "46 chromosome",
+    "46 pairs of chromosome"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-037",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "In which one of the four phases of population growth is the number of the population the highest ?",
+   "options": [
+    "Lag phase",
+    "log phase",
+    "Constant phase",
+    "Decline phase"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-038",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Which of the following is NOT true abut the gene called SRY?",
+   "options": [
+    "It is found on the Y-chromosome.",
+    "It determines maleness.",
+    "Testes develop in its presence.",
+    "Female have two copies of this gene."
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-039",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "To which of the following groups do those bacterio phages that integrate their DNA in to the chromosome of theirbacterial hostbelong?",
+   "options": [
+    "Virulent viruses",
+    "Lytic viruses",
+    "Lysogenic viruses",
+    "Non-parasitic viruses"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-040",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "What do we call the learned behavior if a mouse that had just escaped from the mouth of a cat jumped violemy at a slight touch by a trivial object?",
+   "options": [
+    "Latent learning",
+    "Sensitization",
+    "Conditioning",
+    "Imprinting"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-041",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "In which of the following features are eukaryotic cells distinguished from prokaryotic cells?",
+   "options": [
+    "They have mitochondria",
+    "Their nuclei lack membrane",
+    "They have no DNA",
+    "They have smallest ribosomes"
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-042",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "What will happen if human red biood cells are kept in a hypotonic solution",
+   "options": [
+    "Lose water by osmosis and burst",
+    "Losewaterbyosmosis and shrink",
+    "Take in water by osmosis ,swell and burst",
+    "Take in water by osmosis ,swell and remain turgid"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-043",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Which of the following field equipment is used to detrmine an exact location of a place?",
+   "options": [
+    "Theodolite",
+    "Global positioning systemv",
+    "Field microscope",
+    "Field PH kit"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-044",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "The sheep'dolly' is an example of which biotechnological manipulation of animals by human?",
+   "options": [
+    "Transgenic animal",
+    "Genetically engineered animal",
+    "Cloned animal",
+    "Hybrid animal"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-045",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Among the following ,which one is the best criterion to show that two population belong to same species?",
+   "options": [
+    "Morphological similarity",
+    "Physiologically similarity",
+    "Inhabiting the same geographic area",
+    "Production of fertile offspring"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-046",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "In the process of the evolution of life on earth , which of the following four processes evolved last?",
+   "options": [
+    "Photosynthesis",
+    "Aerobic respiration",
+    "chemosynthesis",
+    "Photo-autotrophism"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-047",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "What is a theory in biology?",
+   "options": [
+    "The outcome of an experiment",
+    "A proof that shows the hypothesis is true",
+    "A hypothesis supported by experiments and/or observations.",
+    "An opinion or educated guess resulting from observations. 48.For which of the following is a theodolite used in biology education? A) Measuring the height of trees B) Recording positions where a species is found C) Measuring the rate of flow of water in a cell. D) Measuring the PH of water or soil."
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-048",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "For which of the following is a theodolite used in biology education?",
+   "options": [
+    "Measuring the height of trees",
+    "Recording positions where a species is found",
+    "Measuring the rate of flow of water in a cell.",
+    "Measuring the PH of water or soil."
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-049",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "What is the name of the suger found in milk?",
+   "options": [
+    "Glucose",
+    "Lactosev",
+    "Maltose",
+    "Sucrose 50.Towhich class of enzymes do the digestive enzymes belongs? A) Esterases B) Transferases C) Hydrolyses ）D) Isomerases"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-050",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "To which class of enzymes do the digestive enzymes belongs?",
+   "options": [
+    "Esterases",
+    "Transferases",
+    "Hydrolyses",
+    "Isomerases"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-051",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Which of the following crops is considered to be the best choice for a better balance of essential amino aidesas ahumandiet?",
+   "options": [
+    "Maize",
+    "Quinoav",
+    "Rice",
+    "Wheat"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-052",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "What is the main reason fore the high species richness of pants and mammals observed in Ethiopia?",
+   "options": [
+    "Lack ofpredators",
+    "Lack of disturbance",
+    "Presence of several becomes within the country",
+    "Efficient management of the ecological resources"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-053",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "In which type of solution is the water potential more negative than in the cells?",
+   "options": [
+    "Hypotonic",
+    "hyper-tonic",
+    "Isotonic",
+    "equal solute and solvent concentration"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-054",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Which of the following paired organelle are membrane-bound?",
+   "options": [
+    "Ribosomes and peroxisomes",
+    "Chloroplasts and ribosomes",
+    "Mitochondria and ribosome",
+    "chloroplasts andmitochondriav 55.Mostcell membrane areprimarily composed of which compounds A) Proteins and lipids B) DNA and ATP C) Chitin and starch D) Nucleotides and amino acids"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-056",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Which group of micro-organisms cause the diseases known as athletes foot?",
+   "options": [
+    "Bacteria",
+    "Fungiv",
+    "Protozoa",
+    "Viruses"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-057",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Choose the one that is different from all the others.",
+   "options": [
+    "Genetically modified organisms",
+    "Genetically engineered organisms",
+    "Pathogenic organisms",
+    "Transgenic organisms"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-058",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Under which of the following groups can the fungi be more conveniently placed?",
+   "options": [
+    "Autotrophs",
+    "Heterotrophs",
+    "Prokaryotes",
+    "Plants"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-059",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "What is the type of community called when it has reached the final and most complex stage of a succession",
+   "options": [
+    "Pioneer community",
+    "seral community",
+    "Climax community",
+    "secondary community 60.Whichofthefollowingisanecosystem A) A Tropical Rain forest B) The African continent C) All the organisms in a given area D) The non-living components of an environment"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-061",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Which of the following characteristics can show the evolutionary relationships among organism?",
+   "options": [
+    "Structures having similar function",
+    "structures having same size",
+    "structure having common origin<",
+    "structure having different origin"
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-062",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "The group of the Ethiopian wolf does NOT contribute to territory marking with their urine containing pheromones is",
+   "options": [
+    "Adult males",
+    "Adult females",
+    "sub-adult males",
+    "Sub-adult females"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-063",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "In which of the following are flowers and fruits found?",
+   "options": [
+    "Ferns and relative",
+    "Gymnosperms and ferns",
+    "Mosses and conifers",
+    "monocots and dicots"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-064",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "In a cross between heterozygous what proportion is expected to be homozygous recessive?",
+   "options": [
+    "25%",
+    "50%",
+    "75%",
+    "100%"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-065",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Gene silencing is the function of one of the following molecules.",
+   "options": [
+    "dsRNA",
+    "mRNA",
+    "siRNAv",
+    "tRNA"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-066",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Which processes is held responsible for chronic myelogenous leukemia?",
+   "options": [
+    "Translocationv",
+    "Translation",
+    "Transcription",
+    "Duplication"
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-068",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Which one of the following concepts contains all the other ?",
+   "options": [
+    "Species",
+    "Genus",
+    "population",
+    "community"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-069",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Choose the one that is NOT a requirement of all living things.",
+   "options": [
+    "Ability to think",
+    "organization of parts",
+    "Response to the stimuli",
+    "Maintenance of internal constancy"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-070",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "What is the advantage of using HAART (highly active antiretroviral therapy ) for the treatment of HIV",
+   "options": [
+    "It gives a lasting immunity to HIV",
+    "It prevents mutation of HIV.",
+    "It prevents re-infection by HIV.",
+    "It helps to break the life cycle of HIV. 71.Inwhich ofitscontentsRNAdiffersfromDNA? A)Deoxyribose andguanine B) Ribose and uracil C) Ribose and uracil D) Phosphate and adenine"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-071",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "In which of its contents RNA differs from DNA?",
+   "options": [
+    "Deoxyribose and guanine",
+    "Ribose and uracil",
+    "Ribose and uracil",
+    "Phosphate and adenine"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-074",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Which of the following types of enzyme inhibitions can be removed when the end product of the metabolic pathway is depleted?",
+   "options": [
+    "Allosteric inhibition",
+    "Non-reversible inhibition",
+    "competitive inhibition",
+    "Reversible competitive inhibition 75.If redblood cellsshrinkwhenplacedin acertainsolution,what isthestrength of thesolutionrelative to the strength of the protoplasm of the cells? A) Hypotonic O B) Isotonic C) Hyper tonic√ D) Isoosmotic"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-075",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "If red blood cells shrink when placed in a certain solution ,what is the strength of the solution relative to the strength of the protoplasm of the cells?",
+   "options": [
+    "Hypotonic",
+    "Isotonic",
+    "Hyper tonic",
+    "Isoosmotic"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-076",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Which of the following is NOT true about photo system-II?",
+   "options": [
+    "Its reaction center molecule is P680.",
+    "Its passes its excited electrons to photo system-I",
+    "The energy lost from its excited electrons reduces NADP",
+    "It replenishes its lost electrons from photolysis of water."
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-077",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "On which one of the following principle are most of the anti-HIV drugs currently in use working?",
+   "options": [
+    "Inhibition of enzyme action",
+    "Degradation of viral RNA",
+    "Digesting of viral particles",
+    "Phagocytosis of the virus 78.Among the following mating,where the ABO blood genotype of the partners are shown, identify the mating in which all the children will have the same blood type. A) AO x BO O B)AAx OO C) AB x BO D) BB x A"
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-078",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Among the following mating, where the ABO blood genotype of the partners are shown, identify the mating in which all the children will have the same blood type.",
+   "options": [
+    "AO x B",
+    "AA x 00",
+    "AB x B",
+    "BB x A"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-079",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "If a newmutant allele arises in a certainpopulation,which of the following factors determines if the allele is going to b adaptive or non- adaptive",
+   "options": [
+    "Theenvironmentinwhichthepopulationlives.",
+    "The rate at which the gene mutates.",
+    "The population in which the gene is found",
+    "The use and disuse of the gene by the population"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-080",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Which of the following is the correct route that connects a stimulus and a response?",
+   "options": [
+    "Receptor --> coordinator --> effectorV",
+    "Coordinator-->receptor--> effector",
+    "Receptor--> effector --> coordinator ）",
+    "Effector-->receptor --> coordinator"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-081",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "In which of the following compound are both members of the pair are polymers of carbohydrates that naturally occur in plants only?",
+   "options": [
+    "Starch and chitin",
+    "Starch and cellulosev",
+    "Glycogen and cellulose",
+    "Glycogen and chitin"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-082",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Which of the following is generally expected to give better health benefits when presence in human diet?",
+   "options": [
+    "Animal fat",
+    "Mono unsaturated fatty acid",
+    "Saturated fatty acid",
+    "Polyunsaturated fatty acid"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-083",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "What is the important of chemiosmosis in photosynthesis and cellular respiration?",
+   "options": [
+    "Splitting of water molecules",
+    "Operating the proton pump",
+    "Combining hydrogen and carbon",
+    "Synthesizing ATP"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-084",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "If the age pyramid of a certain country is narrowing at the base ,what does this tell about the trend of the",
+   "options": [
+    "declining",
+    "growing fast",
+    "increasing slowly",
+    "stabilizing"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-085",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Suppose the amino acid coding region in a mRNAis 1200 nucleotides long, how long is the protein in terms of amino acid number?",
+   "options": [
+    "1200 amino acids",
+    "600 amino acids",
+    "400 amino acids",
+    "300 amino acids"
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-086",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "If a new anti-HIV drug is to be developed to prevent the virus form entering the host cell, which one of the following processes should the drug target?",
+   "options": [
+    "Reverse transcription",
+    "Binding of Gp120 and CD4<",
+    "Integration of viral DNA in to host DNA",
+    "Assembly of viral parts in to a whole virus"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-087",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Which one of the following factors is NOT important for evolutionary change of a population",
+   "options": [
+    "Over reproduction",
+    "Insufficiency of natural resource",
+    "Existence ofheritablevariations",
+    "Survival of all that are born"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-088",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "One of the following would be harder to see under the ordinary light microscope that is more likely to be availableinschoollaboratories.",
+   "options": [
+    "Nucleus",
+    "A bacterium",
+    "A mitochondrion",
+    "A ribosomev"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-089",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "In some human liver cells there are 92 chromosome per cell. What is the ploidy level of such cells?",
+   "options": [
+    "Haploid",
+    "Diploid",
+    "Tetraploid",
+    "Hexaploid"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-090",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Which of the following groups of substance are all inorganic?",
+   "options": [
+    "Water ,sugar, calcium, carbonate",
+    "sugar , fatty acid , amino acid",
+    "Water,calciumcarbonate,carbondioxidev",
+    "Carbon dioxide ,amino acid, fatty acid"
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-091",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "To what kind of animal behavior can the spinning of a web by a spider be classified?",
+   "options": [
+    "Learned behavior",
+    "Experiential behavior",
+    "Instinctive behavior",
+    "Accidental behavior"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-092",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Which of the following is a recently developed active area of research in biology today?",
+   "options": [
+    "Taxonomic study",
+    "study about the cell theory",
+    "Ecological research",
+    "stem cell research"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-093",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Where dose the light dependent reaction of photosynthesis occur in the chloroplast?",
+   "options": [
+    "In the thylakoid ?membrane",
+    "In the fluid of the stroma",
+    "In all parts of the chloroplast",
+    "In the stomatal opening"
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-094",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "For which of the following is the sugar produced by photosynthesis NOT used?",
+   "options": [
+    "To produce biomass.",
+    "To make new DNA",
+    "To produce ATP in respiration",
+    "To produce enzymesv"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-095",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "In which process is ATP generated during short distance hight speed running ?",
+   "options": [
+    "Aerobic respiration",
+    "Mitochondrial energy transformation",
+    "Anaerobic respiration",
+    "The krebs cycle"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-096",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Which one of the following choices shows the end products of a mitotic cell division?",
+   "options": [
+    "Gametes and ordinary cells",
+    "Four genetically different cells",
+    "Two genetically different cells",
+    "Two genetically identical cells"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-097",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "What exactly happens during a substitution mutation?",
+   "options": [
+    "One base is replaced by a different base.",
+    "An extra base is added during DNA replication",
+    "A base is missed out during DNA replication",
+    "Change occur in the arrangement or structure of a chromosome"
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-098",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "During the course of evolution, which of the following events came before all the others?",
+   "options": [
+    "Origin of dinosaurs and other reptiles.",
+    "Availability of free oxygen in the atmospare",
+    "Origin of the oldest eukaryotic organism",
+    "origin of the first multicellular animals and plants."
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-099",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "What kind of natural selection is at work in a situation where individual at both extreme ends of the range get better survival advantages that those around the middle?",
+   "options": [
+    "Stabilizing selection",
+    "Direction selection extremes",
+    "Disruptive selectionV",
+    "Selection that removes the"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-100",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "In which geologic period does the fossil record show more diverse and relatively higher forms of organism?",
+   "options": [
+    "Devonian",
+    "Cretaceous",
+    "Jurassic",
+    "Permian Your Answers you have scored O out of 0 Answer Key 1.A 11.C 21.D 31.D 41.A 51.B 61.C 71.B 81.B 91.C 2.C 12.C 22.C 32.B 42.C 52.C 62.D 72.C 82.D 92.D 3.B 13.C 23.B 33.D 43.B 53.B 63.D 73.D 83.B 93.A 4.B 14.B 24.C 34.D 44.C 54.D 64.A 74.A 84.A 94.D 5.A 15.D 25.B 35.B 45.D 55.A 65.C 75.C 85.C 95.C 6.B 16.D 26.B 36.A 46.B 56.B 66.A 76.C 86.B 96.D 7.B 17.A 27.D 37.C 47.C 57.C 67.D 77.A 87.D 97.A 8.A 18.D 28.C 38.D 48.A 58.B 68.D 78.B 88.D 98.B 9.B 19.B 29.D 39.C 49.B 59.C 69.A 79.A 89.C 99.C 10.D 20.B 30.B 40.B 50.C 60.A 70.D 80.A 90.C 100.B ? 2019CamaraEducationEthiopia.EthiopianGeneral SecondaryEducationCertificate and UniversityEntranceExaminations"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  }
+ ],
+ "flagged": [
+  {
+   "n": 72,
+   "grid": "C",
+   "tick": "D",
+   "q": "Which of the following cell types can be rich in lysosomes?"
+  }
+ ],
+ "stats": {
+  "questions": 94,
+  "items": 93,
+  "flagged": 1,
+  "grid": 100,
+  "conf": {
+   "grid+tick": 22,
+   "grid": 71,
+   "tick": 0
+  }
+ }
+}
