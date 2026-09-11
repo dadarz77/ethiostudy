@@ -2778,5 +2778,1900 @@
   "difficulty": 3,
   "explanation": "Round-trip distance = 2 x 1200 = 2400 m, so t = 2400 / 1500 = 1.6 s. Answering 0.8 s forgets that the pulse travels down AND back.",
   "answer_note": "s"
+ },
+ {
+  "examId": "igcse-biology",
+  "areaId": "cells",
+  "type": "mcq",
+  "q": "Which organelle is the main site of aerobic respiration in a cell?",
+  "options": [
+   "Ribosome",
+   "Mitochondrion",
+   "Golgi apparatus",
+   "Vacuole"
+  ],
+  "answer": 1,
+  "difficulty": 1,
+  "explanation": "Mitochondria carry out aerobic respiration, producing ATP for the cell. Ribosomes make proteins, the Golgi apparatus packages substances, and the vacuole stores cell sap.",
+  "id": "auth-bio-cell-101"
+ },
+ {
+  "examId": "igcse-biology",
+  "areaId": "cells",
+  "type": "mcq",
+  "q": "What is the primary function of ribosomes?",
+  "options": [
+   "Packaging proteins for secretion",
+   "Making proteins",
+   "Breaking down worn-out organelles",
+   "Storing genetic information"
+  ],
+  "answer": 1,
+  "difficulty": 1,
+  "explanation": "Ribosomes are the site of protein synthesis (translation). The Golgi apparatus packages proteins; lysosomes break down material; the nucleus stores genetic information.",
+  "id": "auth-bio-cell-102"
+ },
+ {
+  "examId": "igcse-biology",
+  "areaId": "cells",
+  "type": "mcq",
+  "q": "Which structure controls what enters and leaves a cell?",
+  "options": [
+   "Cell wall",
+   "Cell membrane",
+   "Nucleus",
+   "Cytoplasm"
+  ],
+  "answer": 1,
+  "difficulty": 1,
+  "explanation": "The cell membrane is partially permeable and regulates movement of substances in and out. The cell wall is fully permeable and gives support; the nucleus controls cell activities but not membrane traffic.",
+  "id": "auth-bio-cell-103"
+ },
+ {
+  "examId": "igcse-biology",
+  "areaId": "cells",
+  "type": "mcq",
+  "q": "Which of the following is found in plant cells but NOT in animal cells?",
+  "options": [
+   "Mitochondria",
+   "Ribosomes",
+   "Chloroplasts",
+   "Cell membrane"
+  ],
+  "answer": 2,
+  "difficulty": 1,
+  "explanation": "Chloroplasts, a cellulose cell wall and a large permanent vacuole are unique to (most) plant cells. Mitochondria, ribosomes and cell membranes are present in both.",
+  "id": "auth-bio-cell-104"
+ },
+ {
+  "examId": "igcse-biology",
+  "areaId": "cells",
+  "type": "mcq",
+  "q": "What is the main component of a plant cell wall?",
+  "options": [
+   "Cellulose",
+   "Chitin",
+   "Protein",
+   "Phospholipid"
+  ],
+  "answer": 0,
+  "difficulty": 1,
+  "explanation": "Plant cell walls are made of cellulose, which gives strength and support. Chitin is found in fungal cell walls; phospholipids make up cell membranes, not walls.",
+  "id": "auth-bio-cell-105"
+ },
+ {
+  "examId": "igcse-biology",
+  "areaId": "cells",
+  "type": "mcq",
+  "q": "Where is DNA mainly found in a eukaryotic cell?",
+  "options": [
+   "In the cytoplasm",
+   "In the nucleus",
+   "In the vacuole",
+   "In the cell membrane"
+  ],
+  "answer": 1,
+  "difficulty": 1,
+  "explanation": "In eukaryotes the DNA is in chromosomes inside the nucleus. Free DNA in the cytoplasm is a feature of prokaryotes (bacteria), not eukaryotic cells.",
+  "id": "auth-bio-cell-106"
+ },
+ {
+  "examId": "igcse-biology",
+  "areaId": "cells",
+  "type": "mcq",
+  "q": "A microscope objective lens magnifies x40 and the eyepiece lens magnifies x10. What is the total magnification?",
+  "options": [
+   "x4",
+   "x50",
+   "x400",
+   "x4000"
+  ],
+  "answer": 2,
+  "difficulty": 1,
+  "explanation": "Total magnification = objective x eyepiece = 40 x 10 = x400. Adding the values (x50) is a common error; magnifications multiply, they do not add.",
+  "id": "auth-bio-cell-107"
+ },
+ {
+  "examId": "igcse-biology",
+  "areaId": "cells",
+  "type": "mcq",
+  "q": "A cell measures 0.05 mm in real size. What will its image measure when viewed at x400 total magnification?",
+  "options": [
+   "0.2 mm",
+   "2 mm",
+   "20 mm",
+   "200 mm"
+  ],
+  "answer": 2,
+  "difficulty": 3,
+  "explanation": "Image size = real size x magnification = 0.05 mm x 400 = 20 mm. A useful formula triangle is image = real x magnification.",
+  "id": "auth-bio-cell-108"
+ },
+ {
+  "examId": "igcse-biology",
+  "areaId": "cells",
+  "type": "mcq",
+  "q": "The image of a specimen is 8 mm long and the actual specimen is 0.02 mm long. What is the magnification?",
+  "options": [
+   "x40",
+   "x400",
+   "x160",
+   "x0.0025"
+  ],
+  "answer": 1,
+  "difficulty": 2,
+  "explanation": "Magnification = image / real = 8 / 0.02 = x400. Choosing x40 comes from inverting the division or a decimal-place slip.",
+  "id": "auth-bio-cell-109"
+ },
+ {
+  "examId": "igcse-biology",
+  "areaId": "cells",
+  "type": "mcq",
+  "q": "A student drew a cell 90 mm wide from a view at x450 magnification. What is the real width of the cell?",
+  "options": [
+   "0.02 mm",
+   "0.2 mm",
+   "2 mm",
+   "40.5 mm"
+  ],
+  "answer": 1,
+  "difficulty": 2,
+  "explanation": "Real size = image / magnification = 90 / 450 = 0.2 mm. The answer in mm is required; 0.02 mm results from a decimal-place error.",
+  "id": "auth-bio-cell-110"
+ },
+ {
+  "examId": "igcse-biology",
+  "areaId": "cells",
+  "type": "mcq",
+  "q": "Which statement about the cell wall is correct?",
+  "options": [
+   "It is partially permeable and controls what enters the cell",
+   "It is fully permeable and supports the cell",
+   "It is the site of photosynthesis",
+   "It is found in animal cells as well as plant cells"
+  ],
+  "answer": 1,
+  "difficulty": 2,
+  "explanation": "The cellulose cell wall is fully permeable  -  solutes in solution pass through it freely  -  and its role is support and protection. Controlling entry is the cell membrane's job, and animal cells have no wall.",
+  "id": "auth-bio-cell-111"
+ },
+ {
+  "examId": "igcse-biology",
+  "areaId": "cells",
+  "type": "mcq",
+  "q": "Which structure in a palisade mesophyll cell is NOT found in a typical animal cell?",
+  "options": [
+   "Mitochondrion",
+   "Rough endoplasmic reticulum",
+   "Large permanent vacuole",
+   "Nucleus"
+  ],
+  "answer": 2,
+  "difficulty": 1,
+  "explanation": "Plant cells have a large permanent vacuole (with cell sap); animal cells at most have small, temporary vacuoles. Mitochondria, ER and nuclei occur in both.",
+  "id": "auth-bio-cell-112"
+ },
+ {
+  "examId": "igcse-biology",
+  "areaId": "cells",
+  "type": "mcq",
+  "q": "Which of the following correctly describes a feature of a bacterial (prokaryotic) cell?",
+  "options": [
+   "DNA is contained in a membrane-bound nucleus",
+   "It has 80S ribosomes like animal cells",
+   "Its DNA is a single loop free in the cytoplasm",
+   "It reproduces by mitosis"
+  ],
+  "answer": 2,
+  "difficulty": 2,
+  "explanation": "Prokaryotes have no nuclear membrane: their DNA is a single loop (often plus small plasmids) free in the cytoplasm, and their ribosomes are smaller (70S) than eukaryotic 80S ribosomes. Bacteria divide by binary fission, not mitosis.",
+  "id": "auth-bio-cell-113"
+ },
+ {
+  "examId": "igcse-biology",
+  "areaId": "cells",
+  "type": "mcq",
+  "q": "Which structure allows a bacterium to move?",
+  "options": [
+   "Pilus",
+   "Flagellum",
+   "Capsule",
+   "Plasmid"
+  ],
+  "answer": 1,
+  "difficulty": 1,
+  "explanation": "The flagellum is a rotating tail that propels the bacterium. Pili help bacteria attach, the capsule protects against drying and the immune system, and plasmids carry extra genes.",
+  "id": "auth-bio-cell-114"
+ },
+ {
+  "examId": "igcse-biology",
+  "areaId": "cells",
+  "type": "mcq",
+  "q": "A bacterium contains a small ring of DNA separate from its main chromosome. What is this structure called?",
+  "options": [
+   "Plasmid",
+   "Golgi vesicle",
+   "Nucleolus",
+   "Histone"
+  ],
+  "answer": 0,
+  "difficulty": 1,
+  "explanation": "Plasmids are small loops of DNA that carry extra genes, for example antibiotic-resistance genes, and can be passed between bacteria. The nucleolus is inside a eukaryotic nucleus and makes ribosomes.",
+  "id": "auth-bio-cell-115"
+ },
+ {
+  "examId": "igcse-biology",
+  "areaId": "cells",
+  "type": "mcq",
+  "q": "Which of the following is NOT found in a bacterial cell?",
+  "options": [
+   "Cell wall",
+   "Ribosomes",
+   "Mitochondria",
+   "Cell membrane"
+  ],
+  "answer": 2,
+  "difficulty": 2,
+  "explanation": "Bacteria have no mitochondria or other membrane-bound organelles; respiration enzymes sit in the cell membrane/cytoplasm. Bacteria do have a (non-cellulose) wall, 70S ribosomes and a cell membrane.",
+  "id": "auth-bio-cell-116"
+ },
+ {
+  "examId": "igcse-biology",
+  "areaId": "cells",
+  "type": "mcq",
+  "q": "A root hair cell is specialised for absorbing water and mineral ions. Which adaptation best increases its absorption rate?",
+  "options": [
+   "A thick cellulose wall",
+   "A long extension that greatly increases surface area",
+   "Many chloroplasts",
+   "A large central vacuole storing cell sap"
+  ],
+  "answer": 1,
+  "difficulty": 1,
+  "explanation": "The root hair is a tubular outgrowth of epidermal cell cytoplasm: a large surface-area-to-volume ratio speeds osmosis and ion uptake. Root hairs have thin walls, no chloroplasts (underground), and the vacuole stores rather than absorbs.",
+  "id": "auth-bio-cell-117"
+ },
+ {
+  "examId": "igcse-biology",
+  "areaId": "cells",
+  "type": "mcq",
+  "q": "What is the correct definition of a cell?",
+  "options": [
+   "The smallest living unit of structure and function in an organism",
+   "A group of similar tissues working together",
+   "Any structure containing DNA",
+   "The fluid inside the plasma membrane"
+  ],
+  "answer": 0,
+  "difficulty": 1,
+  "explanation": "A cell is the smallest unit of life able to carry out all life processes. A group of tissues forms an organ; cytoplasm is the fluid inside the membrane.",
+  "id": "auth-bio-cell-118"
+ },
+ {
+  "examId": "igcse-biology",
+  "areaId": "cells",
+  "type": "mcq",
+  "q": "Which of these is the correct order of biological organisation, from simplest to most complex?",
+  "options": [
+   "Organ  ->  tissue  ->  cell  ->  organ system  ->  organism",
+   "Cell  ->  tissue  ->  organ  ->  organ system  ->  organism",
+   "Tissue  ->  cell  ->  organ system  ->  organ  ->  organism",
+   "Cell  ->  organ  ->  tissue  ->  organism  ->  organ system"
+  ],
+  "answer": 1,
+  "difficulty": 1,
+  "explanation": "Cells of similar type form tissues; tissues form organs; organs work in organ systems; systems make up the organism. Mnemonic: 'Come Try Or See Odd Bodies'.",
+  "id": "auth-bio-cell-119"
+ },
+ {
+  "examId": "igcse-biology",
+  "areaId": "cells",
+  "type": "mcq",
+  "q": "Which is the best definition of a tissue?",
+  "options": [
+   "A group of organs performing one function",
+   "A group of similar cells with the same structure working together for a common function",
+   "A single cell adapted for one job",
+   "The fluid that surrounds organelles"
+  ],
+  "answer": 1,
+  "difficulty": 1,
+  "explanation": "A tissue is a group of similar cells working together, e.g. xylem or palisade tissue. A group of organs is an organ system, not a tissue.",
+  "id": "auth-bio-cell-120"
+ },
+ {
+  "examId": "igcse-biology",
+  "areaId": "cells",
+  "type": "mcq",
+  "q": "The active site of an enzyme is best described as:",
+  "options": [
+   "The part of the enzyme where the substrate molecule fits and is converted to product",
+   "The place where the enzyme is stored in the cell",
+   "The region of the enzyme that is denatured first",
+   "The product that leaves the enzyme unchanged"
+  ],
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "The active site is the specific 3D-shaped cleft where the complementary substrate binds (lock-and-key / induced fit) and reaction occurs. The substrate is converted to product and released; the enzyme itself is unchanged.",
+  "id": "auth-bio-cell-121"
+ },
+ {
+  "examId": "igcse-biology",
+  "areaId": "cells",
+  "type": "mcq",
+  "q": "Why does heating an enzyme to 80  C usually stop it working?",
+  "options": [
+   "The enzyme's active site changes shape so the substrate no longer fits",
+   "The enzyme is used up in the reaction",
+   "The substrate is destroyed by the heat",
+   "The enzyme's amino-acid sequence is broken into individual amino acids"
+  ],
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "High temperature breaks the bonds holding the enzyme's 3D shape, so the active site is deformed (denatured) and the substrate no longer fits. The peptide bonds of the primary structure generally survive; enzymes are not 'used up'.",
+  "id": "auth-bio-cell-122"
+ },
+ {
+  "examId": "igcse-biology",
+  "areaId": "cells",
+  "type": "mcq",
+  "q": "Which part of an animal cell contains the watery fluid in which the organelles are suspended?",
+  "options": [
+   "Cytoplasm",
+   "Nucleoplasm",
+   "Cell sap",
+   "Keratin"
+  ],
+  "answer": 0,
+  "difficulty": 1,
+  "explanation": "Cytoplasm is the aqueous medium holding the organelles and site of many reactions. Nucleoplasm fills the nucleus, cell sap fills a plant vacuole, keratin is a structural protein.",
+  "id": "auth-bio-cell-123"
+ },
+ {
+  "examId": "igcse-biology",
+  "areaId": "cells",
+  "type": "mcq",
+  "q": "A plant cell is placed in pure water for several hours. What is its final state?",
+  "options": [
+   "Flaccid",
+   "Plasmolysed",
+   "Turgid, but it will not burst because the cell wall resists further entry of water",
+   "Lysed, because too much water entered"
+  ],
+  "answer": 2,
+  "difficulty": 2,
+  "explanation": "Water enters by osmosis and the vacuole pushes the cytoplasm against the wall  -  the cell becomes turgid. The inelastic cellulose wall prevents bursting, which is why plant cells (unlike animal cells) do not lyse in dilute solutions.",
+  "id": "auth-bio-cell-124"
+ },
+ {
+  "examId": "igcse-biology",
+  "areaId": "cells",
+  "type": "mcq",
+  "q": "A red blood cell is placed in very concentrated salt solution. What happens to it?",
+  "options": [
+   "It swells and bursts",
+   "Water leaves it by osmosis and it shrinks and shrivels (crenation)",
+   "It is unchanged because the membrane is impermeable to water",
+   "It gains salt and increases in size"
+  ],
+  "answer": 1,
+  "difficulty": 2,
+  "explanation": "Water moves from the cell (higher water potential) into the concentrated solution, so the cell shrinks and shrivels  -  crenation. Animal cells do not plasmolyse properly because they have no wall.",
+  "id": "auth-bio-cell-125"
+ },
+ {
+  "examId": "igcse-biology",
+  "areaId": "cells",
+  "type": "mcq",
+  "q": "A leaf cell has a large permanent vacuole. What is its main role?",
+  "options": [
+   "Storing cell sap to help maintain turgor pressure",
+   "Photosynthesis",
+   "Protein synthesis",
+   "Aerobic respiration"
+  ],
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "The vacuole stores cell sap (water, dissolved sugars and ions), helping keep the cell turgid and supporting the plant. Photosynthesis is in chloroplasts, protein synthesis at ribosomes, respiration in mitochondria.",
+  "id": "auth-bio-cell-126"
+ },
+ {
+  "examId": "igcse-biology",
+  "areaId": "cells",
+  "type": "mcq",
+  "q": "Which observation best distinguishes a cheek (animal) cell from an Elodea (plant) cell under a light microscope?",
+  "options": [
+   "The animal cell has a nucleus",
+   "The plant cell has a green colour from chloroplasts, a fixed shape from its wall, and a large vacuole",
+   "The animal cell contains cytoplasm",
+   "The plant cell is larger than 0.1 mm"
+  ],
+  "answer": 1,
+  "difficulty": 3,
+  "explanation": "Both cells have nuclei and cytoplasm. Plant cells are recognised by chloroplasts (green bodies), a rigid wall giving a fixed shape, and a large central vacuole pushing the cytoplasm to the edge.",
+  "id": "auth-bio-cell-127"
+ },
+ {
+  "examId": "igcse-biology",
+  "areaId": "cells",
+  "type": "mcq",
+  "q": "Why is the cell membrane described as 'partially permeable' (selectively permeable)?",
+  "options": [
+   "It lets all substances through equally",
+   "It allows some substances, such as water and oxygen, through but blocks or controls others",
+   "It only lets positively charged ions through",
+   "It allows large molecules through but blocks small ones"
+  ],
+  "answer": 1,
+  "difficulty": 1,
+  "explanation": "'Partially permeable' means small molecules like water and O2 cross freely while other substances are blocked or carried selectively by transport proteins. Large molecules generally cannot cross freely.",
+  "id": "auth-bio-cell-128"
+ },
+ {
+  "examId": "igcse-biology",
+  "areaId": "cells",
+  "type": "mcq",
+  "q": "A sperm cell (mammal) and a motor neurone are both highly specialised. Which pair of features matches each cell to its function?",
+  "options": [
+   "Sperm: many mitochondria for energy to swim; neurone: long axon to carry impulses quickly",
+   "Sperm: chloroplasts for energy; neurone: cilia for movement",
+   "Sperm: a thick wall for protection; neurone: alveoli for gas exchange",
+   "Sperm: a large vacuole; neurone: myofibrils for contraction"
+  ],
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "The sperm's midpiece is packed with mitochondria to power the flagellum, and its acrosome digests into the egg. A neurone's long axon transmits electrical impulses rapidly, with myelin speeding conduction.",
+  "id": "auth-bio-cell-129"
+ },
+ {
+  "examId": "igcse-biology",
+  "areaId": "cells",
+  "type": "mcq",
+  "q": "One cell of an amoeba is about 0.5 mm across and a human egg cell is about 0.1 mm across. A student views both at x100. Which is the correct comparison of their image sizes?",
+  "options": [
+   "The amoeba image is 50 mm and the egg image is 10 mm, so the amoeba image is 5x larger",
+   "The amoeba image is 5 mm and the egg image is 1 mm",
+   "Both images are the same because magnification is identical",
+   "The egg image is larger because egg cells are more specialised"
+  ],
+  "answer": 0,
+  "difficulty": 3,
+  "explanation": "Image = real x magnification: amoeba 0.5 x 100 = 50 mm; egg 0.1 x 100 = 10 mm  -  a 5x difference, exactly the real-size ratio. Magnification enlarges proportionally; specialisation is irrelevant to size.",
+  "id": "auth-bio-cell-130"
+ },
+ {
+  "examId": "igcse-biology",
+  "areaId": "transport",
+  "type": "mcq",
+  "q": "Which is the correct definition of diffusion?",
+  "options": [
+   "The movement of particles from a region of lower to higher concentration",
+   "The net movement of particles from a region of higher concentration to a region of lower concentration, down a concentration gradient",
+   "The movement of water across a partially permeable membrane",
+   "The movement of substances using energy from respiration"
+  ],
+  "answer": 1,
+  "difficulty": 1,
+  "explanation": "Diffusion is the net movement of particles down a concentration gradient (high  ->  low) due to random motion. Low  ->  high against the gradient is active transport; water across a membrane is osmosis.",
+  "id": "auth-bio-trans-101"
+ },
+ {
+  "examId": "igcse-biology",
+  "areaId": "transport",
+  "type": "mcq",
+  "q": "Osmosis is best defined as the movement of:",
+  "options": [
+   "Water from dilute to concentrated solution through a partially permeable membrane",
+   "Water from concentrated to dilute solution through a partially permeable membrane",
+   "Solvent molecules in any direction through a cell wall",
+   "Gas molecules from high to low pressure"
+  ],
+  "answer": 0,
+  "difficulty": 1,
+  "explanation": "Osmosis is the net movement of WATER molecules from a region of higher water potential (dilute solution) to lower water potential (concentrated solution) through a partially permeable membrane.",
+  "id": "auth-bio-trans-102"
+ },
+ {
+  "examId": "igcse-biology",
+  "areaId": "transport",
+  "type": "mcq",
+  "q": "Which type of transport across a membrane requires energy from respiration?",
+  "options": [
+   "Diffusion",
+   "Osmosis",
+   "Active transport",
+   "Facilitated diffusion"
+  ],
+  "answer": 2,
+  "difficulty": 1,
+  "explanation": "Active transport uses ATP from respiration to move substances against a concentration gradient via carrier proteins. Diffusion and osmosis are passive; so is facilitated diffusion (through protein channels, no energy).",
+  "id": "auth-bio-trans-103"
+ },
+ {
+  "examId": "igcse-biology",
+  "areaId": "transport",
+  "type": "mcq",
+  "q": "A root hair cell absorbs nitrate ions from soil water where nitrates are at a LOWER concentration than inside the cell. Which process moves the nitrates in?",
+  "options": [
+   "Diffusion",
+   "Osmosis",
+   "Transpiration",
+   "Active transport"
+  ],
+  "answer": 3,
+  "difficulty": 2,
+  "explanation": "Because the nitrates move against the concentration gradient (low outside  ->  high inside), only active transport can do it, using energy released by respiration in the mitochondria-rich root hair cell.",
+  "id": "auth-bio-trans-104"
+ },
+ {
+  "examId": "igcse-biology",
+  "areaId": "transport",
+  "type": "mcq",
+  "q": "Which cells are alive at maturity and form the conducting tubes of phloem?",
+  "options": [
+   "Vessel elements",
+   "Tracheids",
+   "Sieve tube elements",
+   "Companion cells only"
+  ],
+  "answer": 2,
+  "difficulty": 2,
+  "explanation": "Sieve tube elements are alive at maturity (no nucleus, perforated end walls = sieve plates) and rely on companion cells for their metabolism. Xylem vessel elements and tracheids are dead at maturity.",
+  "id": "auth-bio-trans-105"
+ },
+ {
+  "examId": "igcse-biology",
+  "areaId": "transport",
+  "type": "mcq",
+  "q": "In the transpiration stream, what is the MAIN driving force pulling water up the xylem?",
+  "options": [
+   "Root pressure pushing water from below",
+   "The evaporation of water from mesophyll cell surfaces creating tension (transpiration pull), aided by cohesion between water molecules",
+   "Capillary action in the phloem",
+   "Active transport of water by endodermal cells"
+  ],
+  "answer": 1,
+  "difficulty": 2,
+  "explanation": "Transpiration from leaf mesophyll creates a negative pressure (tension); water's cohesion (hydrogen bonding) and adhesion to xylem walls transmit the pull upward as a continuous column. Root pressure and capillarity contribute only slightly.",
+  "id": "auth-bio-trans-106"
+ },
+ {
+  "examId": "igcse-biology",
+  "areaId": "transport",
+  "type": "mcq",
+  "q": "Which combination of conditions increases the rate of transpiration?",
+  "options": [
+   "Low temperature, high humidity, still air",
+   "High temperature, low humidity, windy conditions",
+   "High humidity, bright light, still air",
+   "Darkness, low temperature, high humidity"
+  ],
+  "answer": 1,
+  "difficulty": 1,
+  "explanation": "Transpiration is fastest when the water-potential gradient between leaf and air is steepest: hot (more evaporation), dry (steeper gradient), windy (blows away the humid boundary layer). Bright light also opens stomata.",
+  "id": "auth-bio-trans-107"
+ },
+ {
+  "examId": "igcse-biology",
+  "areaId": "transport",
+  "type": "mcq",
+  "q": "Guard cells control the size of the stomatal pore by:",
+  "options": [
+   "Changing shape as they become turgid (pore opens) or flaccid (pore closes)",
+   "Contracting like muscle cells",
+   "Secreting wax over the pore",
+   "Pushing against the surrounding xylem vessels"
+  ],
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "Guard cells have unevenly thickened walls; when K+ ions (and water) enter, they become turgid and bow apart, opening the pore; losing water makes them flaccid and the pore closes. They are not muscle.",
+  "id": "auth-bio-trans-108"
+ },
+ {
+  "examId": "igcse-biology",
+  "areaId": "transport",
+  "type": "mcq",
+  "q": "An aquatic plant leaf and a desert plant leaf are compared. Which adaptation pattern is expected?",
+  "options": [
+   "Aquatic leaves have thick waxy cuticles; desert leaves have few stomata on the upper surface",
+   "Aquatic leaves have stomata on the upper surface and thin/absent cuticle; desert leaves have thick cuticle and sunken or few stomata",
+   "Both have identical stomatal distribution",
+   "Desert leaves have large surface areas; aquatic leaves have spines"
+  ],
+  "answer": 1,
+  "difficulty": 2,
+  "explanation": "Floating leaves exchange gases from above (stomata on upper epidermis, thin cuticle). Xerophytes reduce water loss: thick waxy cuticle, sunken stomata in pits trapping moist air, fewer stomata, sometimes spines (reduced leaves).",
+  "id": "auth-bio-trans-109"
+ },
+ {
+  "examId": "igcse-biology",
+  "areaId": "transport",
+  "type": "mcq",
+  "q": "Why must a potometer be set up with the cut stem under water?",
+  "options": [
+   "To keep the plant cool",
+   "To stop an air bubble entering the xylem and breaking the continuous water column",
+   "To dissolve sugars out of the stem",
+   "To prevent the reservoir emptying"
+  ],
+  "answer": 1,
+  "difficulty": 2,
+  "explanation": "Cutting underwater prevents air being drawn into the xylem, which would break the cohesive water column and stop the plant taking up water, invalidating the measurement.",
+  "id": "auth-bio-trans-110"
+ },
+ {
+  "examId": "igcse-biology",
+  "areaId": "transport",
+  "type": "mcq",
+  "q": "A capillary tube of radius 0.5 mm is used in a potometer and the bubble moves 20 mm in 2 minutes. If the same volume uptake were measured in a tube of radius 1.0 mm, how far would the bubble move in the same time?",
+  "options": [
+   "5 mm",
+   "10 mm",
+   "20 mm",
+   "80 mm"
+  ],
+  "answer": 0,
+  "difficulty": 3,
+  "explanation": "Volume = pir^2L; doubling the radius quadruples the cross-sectional area, so the same volume of water moves the bubble one-quarter the distance: 20 / 4 = 5 mm. This is why potometer results in mm/min are not comparable between different tube diameters.",
+  "id": "auth-bio-trans-111"
+ },
+ {
+  "examId": "igcse-biology",
+  "areaId": "transport",
+  "type": "mcq",
+  "q": "Which is the correct route of water from soil to the atmosphere?",
+  "options": [
+   "Root hair  ->  cortex  ->  xylem  ->  stem xylem  ->  leaf mesophyll  ->  evaporation  ->  stomata  ->  atmosphere",
+   "Root hair  ->  phloem  ->  leaf  ->  stomata  ->  atmosphere",
+   "Soil  ->  leaf cuticle  ->  xylem  ->  root  ->  atmosphere",
+   "Root hair  ->  endodermis only by diffusion  ->  phloem  ->  atmosphere"
+  ],
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "Water enters root hair cells (by osmosis), passes through the cortex (apoplast/symplast) and into xylem vessels, up the stem, into leaf veins, evaporates from mesophyll surfaces and diffuses out via stomata.",
+  "id": "auth-bio-trans-112"
+ },
+ {
+  "examId": "igcse-biology",
+  "areaId": "transport",
+  "type": "mcq",
+  "q": "Potassium ions build up to high concentrations in guard cells. What immediate effect does this have on the stoma?",
+  "options": [
+   "Water leaves the guard cells by osmosis and the stoma closes",
+   "Water enters the guard cells by osmosis, they become turgid and the stoma opens",
+   "The guard cells divide and the pore widens permanently",
+   "Nothing  -  K+ has no effect on stomata"
+  ],
+  "answer": 1,
+  "difficulty": 2,
+  "explanation": "Accumulating K+ lowers the water potential of guard-cell sap, so water enters by osmosis; turgid guard cells bow apart and the pore opens. Losing K+ reverses the process.",
+  "id": "auth-bio-trans-113"
+ },
+ {
+  "examId": "igcse-biology",
+  "areaId": "transport",
+  "type": "mcq",
+  "q": "In the mass flow (pressure flow) hypothesis, how does sap move along a phloem sieve tube?",
+  "options": [
+   "High sugar concentration at the source lowers water potential there; water enters by osmosis, raising pressure; pressure pushes sap toward the sink where sugar is removed",
+   "Water is pumped into the phloem by companion cells using no energy",
+   "Sugars are actively transported along the tube one molecule at a time by motor proteins",
+   "Gravity pulls sap downward from leaves to roots"
+  ],
+  "answer": 0,
+  "difficulty": 3,
+  "explanation": "At the source, loading sucrose lowers psi, water follows by osmosis and hydrostatic pressure rises; at the sink, unloading lowers pressure, so sap flows source  ->  sink down the pressure gradient. ATP is needed to load the sugars.",
+  "id": "auth-bio-trans-114"
+ },
+ {
+  "examId": "igcse-biology",
+  "areaId": "transport",
+  "type": "mcq",
+  "q": "A ring of bark (including phloem) is removed from a tree trunk (ringting). Weeks later the tissue SWOLLS above the ring. Why?",
+  "options": [
+   "Xylem is blocked, so water accumulates above the cut",
+   "Sucrose transported downwards in the phloem is trapped above the cut and accumulates, drawing in water",
+   "Root pressure pushes sap upwards past the ring",
+   "The cut region produces extra cellulose"
+  ],
+  "answer": 1,
+  "difficulty": 3,
+  "explanation": "Removing bark removes phloem but not xylem, so water still rises (the leaves survive), but sugars moving down from the leaves pile up at the upper lip of the ring, lowering water potential and drawing in water  -  the swelling.",
+  "id": "auth-bio-trans-115"
+ },
+ {
+  "examId": "igcse-biology",
+  "areaId": "transport",
+  "type": "mcq",
+  "q": "Which is the correct order of structures a blood cell passes through, from body tissue back to the lungs?",
+  "options": [
+   "Vena cava  ->  right atrium  ->  right ventricle  ->  pulmonary artery  ->  lungs",
+   "Pulmonary vein  ->  left atrium  ->  left ventricle  ->  aorta  ->  lungs",
+   "Aorta  ->  left ventricle  ->  pulmonary artery  ->  lungs",
+   "Right ventricle  ->  vena cava  ->  lungs"
+  ],
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "Deoxygenated blood from the body returns via the vena cava to the right atrium, then right ventricle, which pumps it through the pulmonary artery to the lungs. Note: the pulmonary ARTERY carries deoxygenated blood away from the heart.",
+  "id": "auth-bio-trans-116"
+ },
+ {
+  "examId": "igcse-biology",
+  "areaId": "transport",
+  "type": "mcq",
+  "q": "Which is NOT a feature of an artery that suits it to its function?",
+  "options": [
+   "Thick, muscular elastic walls",
+   "Narrow lumen",
+   "High-pressure pulse of blood flow",
+   "Walls with a thick layer of elastic fibres that stretch and recoil"
+  ],
+  "answer": 2,
+  "difficulty": 2,
+  "explanation": "'High-pressure pulse' describes the blood flow  -  a consequence of the heart's pumping  -  not a structural FEATURE of the vessel. Thick elastic walls and a narrow lumen are genuine arterial adaptations maintaining pressure.",
+  "id": "auth-bio-trans-117"
+ },
+ {
+  "examId": "igcse-biology",
+  "areaId": "transport",
+  "type": "mcq",
+  "q": "What is the function of valves in veins?",
+  "options": [
+   "To increase the speed of blood flow",
+   "To prevent the backflow of blood under low pressure",
+   "To exchange gases with surrounding tissues",
+   "To secrete clotting factors"
+  ],
+  "answer": 1,
+  "difficulty": 1,
+  "explanation": "Veins carry blood at low pressure, often against gravity; flap-like semilunar valves close to stop backflow, ensuring one-way movement toward the heart. Exchange happens in capillaries.",
+  "id": "auth-bio-trans-118"
+ },
+ {
+  "examId": "igcse-biology",
+  "areaId": "transport",
+  "type": "mcq",
+  "q": "During a cardiac cycle, when the ventricles contract (systole), which valves' states are correct?",
+  "options": [
+   "Tricuspid and bicuspid (AV) valves shut; semilunar valves open",
+   "AV valves open; semilunar valves shut",
+   "All four valves open",
+   "All four valves shut"
+  ],
+  "answer": 0,
+  "difficulty": 3,
+  "explanation": "Ventricular systole raises ventricular pressure: the AV valves snap shut (producing the 'lub') preventing backflow into atria, while semilunar valves are forced open and blood is ejected into the aorta/pulmonary artery.",
+  "id": "auth-bio-trans-119"
+ },
+ {
+  "examId": "igcse-biology",
+  "areaId": "transport",
+  "type": "mcq",
+  "q": "The heart muscle has its own blood supply. Blockage of these vessels causes a myocardial infarction. Which arteries are blocked?",
+  "options": [
+   "Pulmonary arteries",
+   "Coronary arteries",
+   "Carotid arteries",
+   "Renal arteries"
+  ],
+  "answer": 1,
+  "difficulty": 2,
+  "explanation": "Coronary arteries branch from the aorta to supply the heart muscle itself; a clot in one starves cardiac muscle of oxygen, killing tissue  -  a heart attack. A blocked cerebral artery causes a stroke.",
+  "id": "auth-bio-trans-120"
+ },
+ {
+  "examId": "igcse-biology",
+  "areaId": "transport",
+  "type": "mcq",
+  "q": "Red blood cells in mammals have a biconcave disc shape and no nucleus. How do these features suit their function?",
+  "options": [
+   "The flat disc shape reduces friction in arteries and the nucleus stores extra oxygen",
+   "The concave shape gives a large surface-area-to-volume ratio for fast diffusion and flexibility through narrow capillaries; no nucleus leaves more room for haemoglobin",
+   "The shape makes them heavier so they sink to wounded areas; the nucleus produces haemoglobin",
+   "Neither feature affects oxygen transport"
+  ],
+  "answer": 1,
+  "difficulty": 2,
+  "explanation": "Biconcavity maximises surface area for diffusion and allows squeezing through capillaries; losing the nucleus (and most organelles) at maturity maximises space for haemoglobin and reduces its own oxygen use.",
+  "id": "auth-bio-trans-121"
+ },
+ {
+  "examId": "igcse-biology",
+  "areaId": "transport",
+  "type": "mcq",
+  "q": "Phagocytes and lymphocytes defend the body. Which row correctly describes each?",
+  "options": [
+   "Phagocytes: engulf and digest pathogens by phagocytosis; lymphocytes: produce antibodies and antitoxins (some remember the pathogen)",
+   "Phagocytes: make antibodies; lymphocytes: engulf pathogens",
+   "Both types only clot blood",
+   "Phagocytes: produce fibrin; lymphocytes: carry oxygen"
+  ],
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "Phagocytes (e.g. neutrophils, macrophages) engulf pathogens through the membrane and digest them in lysosomes; lymphocytes are the antibody-producing (B) and killer/memory (T) cells of specific immunity.",
+  "id": "auth-bio-trans-122"
+ },
+ {
+  "examId": "igcse-biology",
+  "areaId": "transport",
+  "type": "mcq",
+  "q": "Which sequence correctly describes the formation of a blood clot?",
+  "options": [
+   "Fibrinogen (soluble protein in plasma)  ->  converted by clotting factors to insoluble fibrin, which mesh-traps platelets and red cells",
+   "Platelets  ->  turn into fibrin fibres",
+   "Red blood cells  ->  divide to seal the wound",
+   "Calcium ions  ->  evaporate leaving a scab of dried plasma only"
+  ],
+  "answer": 0,
+  "difficulty": 3,
+  "explanation": "Clotting converts soluble plasma fibrinogen into insoluble fibrin strands via a cascade of clotting factors (with Ca2+ and platelet factors); the mesh traps cells to form the clot, which dries to a scab.",
+  "id": "auth-bio-trans-123"
+ },
+ {
+  "examId": "igcse-biology",
+  "areaId": "transport",
+  "type": "mcq",
+  "q": "Which is the correct difference between lymph and blood plasma?",
+  "options": [
+   "Lymph contains red blood cells; plasma does not",
+   "Lymph is plasma that has left capillaries and bathes cells; it lacks red cells and most large proteins, and returns to the blood via lymphatic vessels",
+   "Lymph is found only in arteries",
+   "Plasma is found between cells; lymph is inside the heart"
+  ],
+  "answer": 1,
+  "difficulty": 3,
+  "explanation": "High-pressure filtration forces plasma (minus most big proteins and all cells) out of capillaries into the tissue fluid, becoming lymph, which drains through lymphatic vessels back into the blood near the heart.",
+  "id": "auth-bio-trans-124"
+ },
+ {
+  "examId": "igcse-biology",
+  "areaId": "transport",
+  "type": "mcq",
+  "q": "Which component is matched to a substance it does NOT normally carry in significant amounts in a healthy human?",
+  "options": [
+   "Plasma  -  glucose and amino acids",
+   "Red blood cells  -  oxygen bound to haemoglobin",
+   "Plasma  -  carbon dioxide as hydrogen carbonate ions",
+   "Red blood cells  -  digested fat absorbed from the small intestine"
+  ],
+  "answer": 3,
+  "difficulty": 3,
+  "explanation": "Absorbed fats leave the small intestine as chylomicrons into the LYMPH (lacteals), not the blood capillaries, and never ride on red cells. Plasma carries glucose, amino acids and most CO2 (as HCO3-); RBCs carry O2.",
+  "id": "auth-bio-trans-125"
+ },
+ {
+  "examId": "igcse-biology",
+  "areaId": "transport",
+  "type": "mcq",
+  "q": "Which vessels exchange materials with tissue cells, and what happens to tissue fluid there?",
+  "options": [
+   "Arteries; tissue fluid drains into the vena cava directly",
+   "Capillaries; plasma fluid leaves capillaries as tissue fluid, exchanges with cells, and most re-enters capillaries while the remainder drains into lymph vessels",
+   "Veins; all tissue fluid becomes sweat",
+   "Lymph nodes; all plasma becomes lymph inside the heart"
+  ],
+  "answer": 1,
+  "difficulty": 2,
+  "explanation": "Exchange occurs in capillaries: tissue fluid bathes cells, most is reabsorbed at the venous end, and surplus (plus leaked proteins) drains away via lymphatic vessels before returning to the blood.",
+  "id": "auth-bio-trans-126"
+ },
+ {
+  "examId": "igcse-biology",
+  "areaId": "transport",
+  "type": "mcq",
+  "q": "Which is a correct difference between gas exchange in an insect and in a fish?",
+  "options": [
+   "Insects use tracheae delivering air directly to tissues; fish use gills where counter-current flow keeps a diffusion gradient between water and blood",
+   "Both use lungs",
+   "Insects breathe through their skin only; fish use gills for feeding only",
+   "Fish use counter-current flow in tracheoles; insects use gills"
+  ],
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "Insect tracheal systems pipe air directly to cells through tracheoles (no blood involved). Fish pump water over gill lamellae, where blood flows opposite to water (counter-current) maintaining a concentration gradient along the whole lamella.",
+  "id": "auth-bio-trans-127"
+ },
+ {
+  "examId": "igcse-biology",
+  "areaId": "transport",
+  "type": "mcq",
+  "q": "Why does a fish's counter-current arrangement of blood and water flow across the gill lamellae maximise oxygen uptake?",
+  "options": [
+   "It makes the blood flow faster than the water",
+   "A concentration gradient for oxygen is maintained along the entire length of the lamella, so even blood with lots of O2 still gains more",
+   "It allows the gills to absorb oxygen from air",
+   "It prevents carbon dioxide entering the blood"
+  ],
+  "answer": 1,
+  "difficulty": 3,
+  "explanation": "Because water and blood flow in opposite directions, water always meets blood with less O2, so the diffusion gradient never disappears and ~80-90% of dissolved O2 can be extracted, versus ~50% with parallel flow.",
+  "id": "auth-bio-trans-128"
+ },
+ {
+  "examId": "igcse-biology",
+  "areaId": "transport",
+  "type": "mcq",
+  "q": "Which feature of insect tracheae allows fairly active insects to obtain oxygen without a blood transport system for it?",
+  "options": [
+   "Tracheae are lined with moisture and richly supplied with capillaries",
+   "Tracheae are reinforced tubes that branch into thin, fluid-filled tracheoles reaching individual cells, delivering air directly",
+   "Tracheae open to the air via spiracles that also pump blood",
+   "Tracheae contain haemoglobin"
+  ],
+  "answer": 1,
+  "difficulty": 3,
+  "explanation": "Air enters via spiracles, travels through chitin-reinforced tracheae to fine tracheoles bathed in fluid that contacts muscle cells, so gases diffuse directly  -  the blood (haemolymph) carries nutrients, not O2. Tracheae are not vascularised.",
+  "id": "auth-bio-trans-129"
+ },
+ {
+  "examId": "igcse-biology",
+  "areaId": "transport",
+  "type": "mcq",
+  "q": "A student investigates diffusion by placing a cube of agar (2 cm sides) in dilute acid and measuring how long the colour change takes to reach the centre. Which change would DECREASE the time for full penetration?",
+  "options": [
+   "Replacing the 2 cm cube with four 1 cm cubes",
+   "Replacing the cube with a 4 cm cube",
+   "Using the same 2 cm cube at a lower temperature",
+   "Placing the cube in strong alkali before the acid"
+  ],
+  "answer": 0,
+  "difficulty": 3,
+  "explanation": "Four 1 cm cubes have twice the total surface area (and a much higher surface-area-to-volume ratio) of one 2 cm cube, so acid reaches all centres sooner. A bigger cube, lower temperature and a chemical barrier all slow diffusion  -  this models why cells must be small.",
+  "id": "auth-bio-trans-130"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "geometry",
+  "type": "mcq",
+  "q": "Two parallel lines are cut by a transversal. One interior angle measures 65 degrees. What is the size of the co-interior (allied) angle on the same side of the transversal?",
+  "options": [
+   "65 degrees",
+   "115 degrees",
+   "25 degrees",
+   "295 degrees"
+  ],
+  "answer": 1,
+  "difficulty": 1,
+  "explanation": "Co-interior angles between parallel lines sum to 180 degrees, so the angle is 180 - 65 = 115 degrees.",
+  "id": "auth-math-geom-001"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "geometry",
+  "type": "mcq",
+  "q": "Line A is parallel to line B and a transversal crosses both. An angle on line A measures 112 degrees. What is the corresponding angle on line B?",
+  "options": [
+   "68 degrees",
+   "156 degrees",
+   "112 degrees",
+   "22 degrees"
+  ],
+  "answer": 2,
+  "difficulty": 1,
+  "explanation": "Corresponding angles are equal when two parallel lines are cut by a transversal, so the angle is 112 degrees.",
+  "id": "auth-math-geom-002"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "geometry",
+  "type": "mcq",
+  "q": "Two straight lines cross, forming four angles. One angle measures 3x degrees and the angle adjacent to it on the same straight line measures (x + 60) degrees. Find x.",
+  "options": [
+   "20",
+   "30",
+   "40",
+   "15"
+  ],
+  "answer": 1,
+  "difficulty": 2,
+  "explanation": "Angles on a straight line sum to 180 degrees: 3x + x + 60 = 180, so 4x = 120 and x = 30.",
+  "id": "auth-math-geom-003"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "geometry",
+  "type": "mcq",
+  "q": "Triangle ABC is isosceles with AB = AC. If angle BAC measures 40 degrees, what is the size of angle ABC?",
+  "options": [
+   "40 degrees",
+   "80 degrees",
+   "70 degrees",
+   "140 degrees"
+  ],
+  "answer": 1,
+  "difficulty": 1,
+  "explanation": "Base angles of an isosceles triangle are equal: (180 - 40) / 2 = 140 / 2 = 70 degrees.",
+  "id": "auth-math-geom-004"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "geometry",
+  "type": "mcq",
+  "q": "In a triangle, one exterior angle measures 118 degrees and the two remote interior angles are 54 degrees and x degrees. Find x.",
+  "options": [
+   "74",
+   "64",
+   "62",
+   "124"
+  ],
+  "answer": 1,
+  "difficulty": 2,
+  "explanation": "An exterior angle equals the sum of the two remote interior angles: x = 118 - 54 = 64 degrees.",
+  "id": "auth-math-geom-005"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "geometry",
+  "type": "mcq",
+  "q": "What is the sum of the interior angles of a hexagon?",
+  "options": [
+   "360 degrees",
+   "540 degrees",
+   "720 degrees",
+   "900 degrees"
+  ],
+  "answer": 2,
+  "difficulty": 1,
+  "explanation": "Sum = (n - 2) x 180 = (6 - 2) x 180 = 4 x 180 = 720 degrees.",
+  "id": "auth-math-geom-006"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "geometry",
+  "type": "mcq",
+  "q": "Each exterior angle of a regular polygon measures 24 degrees. How many sides does the polygon have?",
+  "options": [
+   "12",
+   "24",
+   "15",
+   "10"
+  ],
+  "answer": 2,
+  "difficulty": 2,
+  "explanation": "Exterior angles of any convex polygon sum to 360 degrees, so n = 360 / 24 = 15 sides.",
+  "id": "auth-math-geom-007"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "geometry",
+  "type": "mcq",
+  "q": "Find the size of each interior angle of a regular octagon.",
+  "options": [
+   "135 degrees",
+   "140 degrees",
+   "130 degrees",
+   "1080 degrees"
+  ],
+  "answer": 1,
+  "difficulty": 2,
+  "explanation": "Interior sum = (8 - 2) x 180 = 1080 degrees; each angle = 1080 / 8 = 135 degrees.",
+  "id": "auth-math-geom-008"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "geometry",
+  "type": "mcq",
+  "q": "O is the centre of a circle. Points A and B lie on the circumference and angle AOB = 130 degrees. Point C is on the major arc AB. What is angle ACB?",
+  "options": [
+   "130 degrees",
+   "65 degrees",
+   "50 degrees",
+   "260 degrees"
+  ],
+  "answer": 1,
+  "difficulty": 2,
+  "explanation": "The angle at the centre is twice the angle at the circumference standing on the same arc, so angle ACB = 130 / 2 = 65 degrees.",
+  "id": "auth-math-geom-009"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "geometry",
+  "type": "mcq",
+  "q": "Quadrilateral ABCD is inscribed in a circle (a cyclic quadrilateral). If angle ABC = 65 degrees, what is angle ADC?",
+  "options": [
+   "65 degrees",
+   "115 degrees",
+   "90 degrees",
+   "295 degrees"
+  ],
+  "answer": 1,
+  "difficulty": 2,
+  "explanation": "Opposite angles of a cyclic quadrilateral sum to 180 degrees, so angle ADC = 180 - 65 = 115 degrees.",
+  "id": "auth-math-geom-010"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "geometry",
+  "type": "mcq",
+  "q": "PT is a tangent to a circle with centre O at point P. If angle PTO is 38 degrees, where T is a point on the tangent, what is the size of angle POT?",
+  "options": [
+   "38 degrees",
+   "52 degrees",
+   "142 degrees",
+   "90 degrees"
+  ],
+  "answer": 1,
+  "difficulty": 3,
+  "explanation": "The tangent is perpendicular to the radius at the point of contact, so angle TPO = 90 degrees. Hence angle POT = 180 - 90 - 38 = 52 degrees.",
+  "id": "auth-math-geom-011"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "geometry",
+  "type": "mcq",
+  "q": "Points A, B, C and D lie on a circle. Angles BAC and BDC both stand on the minor arc BC. If angle BAC = 47 degrees, what is angle BDC?",
+  "options": [
+   "43 degrees",
+   "94 degrees",
+   "47 degrees",
+   "133 degrees"
+  ],
+  "answer": 2,
+  "difficulty": 1,
+  "explanation": "Angles in the same segment are equal, so angle BDC = angle BAC = 47 degrees.",
+  "id": "auth-math-geom-012"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "geometry",
+  "type": "mcq",
+  "q": "A right-angled triangle has legs of 9 cm and 12 cm. How long is the hypotenuse?",
+  "options": [
+   "15 cm",
+   "21 cm",
+   "10.5 cm",
+   "14 cm"
+  ],
+  "answer": 0,
+  "difficulty": 1,
+  "explanation": "By Pythagoras, hypotenuse = sqrt(9 squared + 12 squared) = sqrt(81 + 144) = sqrt(225) = 15 cm.",
+  "id": "auth-math-geom-013"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "geometry",
+  "type": "mcq",
+  "q": "A ladder 6.5 m long leans against a vertical wall with its foot 2.5 m from the wall. How far up the wall does the ladder reach?",
+  "options": [
+   "5.5 m",
+   "6 m",
+   "4 m",
+   "4.5 m"
+  ],
+  "answer": 1,
+  "difficulty": 2,
+  "explanation": "Height = sqrt(6.5 squared - 2.5 squared) = sqrt(42.25 - 6.25) = sqrt(36) = 6 m.",
+  "id": "auth-math-geom-014"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "geometry",
+  "type": "calc",
+  "q": "A rectangle has a diagonal of 25 cm and one side of 15 cm. Find, in square cm, the area of the rectangle.",
+  "answer": "300",
+  "difficulty": 2,
+  "explanation": "The other side is sqrt(25 squared - 15 squared) = sqrt(625 - 225) = sqrt(400) = 20 cm, so area = 15 x 20 = 300 square cm.",
+  "id": "auth-math-geom-015"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "geometry",
+  "type": "mcq",
+  "q": "A triangle has a base of 14 cm and a perpendicular height of 9 cm. What is its area?",
+  "options": [
+   "126 square cm",
+   "63 square cm",
+   "23 square cm",
+   "207 square cm"
+  ],
+  "answer": 1,
+  "difficulty": 1,
+  "explanation": "Area of a triangle = (1/2) x base x height = (1/2) x 14 x 9 = 63 square cm.",
+  "id": "auth-math-geom-016"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "geometry",
+  "type": "mcq",
+  "q": "A parallelogram has sides of 10 cm and 6 cm, and the perpendicular distance between the longer sides is 4 cm. What is its area?",
+  "options": [
+   "40 square cm",
+   "60 square cm",
+   "24 square cm",
+   "100 square cm"
+  ],
+  "answer": 0,
+  "difficulty": 3,
+  "explanation": "Area of a parallelogram = base x perpendicular height = 10 x 4 = 40 square cm (the slant side 6 cm is not used).",
+  "id": "auth-math-geom-017"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "geometry",
+  "type": "calc",
+  "q": "A trapezium has parallel sides of 8 cm and 14 cm with a perpendicular height of 6 cm. Find its area in square cm.",
+  "answer": "66",
+  "difficulty": 2,
+  "explanation": "Area of a trapezium = (1/2)(a + b)h = (1/2)(8 + 14) x 6 = (1/2) x 22 x 6 = 66 square cm.",
+  "id": "auth-math-geom-018"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "geometry",
+  "type": "mcq",
+  "q": "What is the circumference of a circle of radius 5 cm? Take pi = 3.14.",
+  "options": [
+   "15.7 cm",
+   "31.4 cm",
+   "78.5 cm",
+   "314 cm"
+  ],
+  "answer": 1,
+  "difficulty": 1,
+  "explanation": "Circumference = 2 x pi x r = 2 x 3.14 x 5 = 31.4 cm.",
+  "id": "auth-math-geom-019"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "geometry",
+  "type": "mcq",
+  "q": "A cylindrical can has radius 4 cm and height 10 cm. What is its volume? Take pi = 3.14.",
+  "options": [
+   "125.6 cubic cm",
+   "502.4 cubic cm",
+   "160 cubic cm",
+   "1256 cubic cm"
+  ],
+  "answer": 1,
+  "difficulty": 2,
+  "explanation": "Volume = pi x r squared x h = 3.14 x 16 x 10 = 502.4 cubic cm.",
+  "id": "auth-math-geom-020"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "geometry",
+  "type": "calc",
+  "q": "A solid sphere has radius 3 cm. Find its volume in cubic cm, correct to 1 decimal place. Take pi = 3.14159. (Volume of sphere = 4/3 x pi x r cubed)",
+  "answer": "113.1",
+  "difficulty": 2,
+  "explanation": "Volume = (4/3) x pi x 3 cubed = 36pi = 36 x 3.14159 = 113.097... which rounds to 113.1 cubic cm.",
+  "answer_note": "113.1 (36pi)",
+  "id": "auth-math-geom-021"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "geometry",
+  "type": "mcq",
+  "q": "A cone has radius 3 cm and perpendicular height 4 cm, with slant height 5 cm. What is its total surface area? Take pi = 3.14.",
+  "options": [
+   "47.1 square cm",
+   "75.36 square cm",
+   "28.26 square cm",
+   "113.04 square cm"
+  ],
+  "answer": 1,
+  "difficulty": 3,
+  "explanation": "Curved surface = pi x r x l = 3.14 x 3 x 5 = 47.1; base = pi x r squared = 3.14 x 9 = 28.26; total = 47.1 + 28.26 = 75.36 square cm.",
+  "id": "auth-math-geom-022"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "geometry",
+  "type": "mcq",
+  "q": "Two similar triangles have corresponding sides in the ratio 3 : 5. What is the ratio of their areas?",
+  "options": [
+   "3 : 5",
+   "9 : 25",
+   "27 : 125",
+   "6 : 10"
+  ],
+  "answer": 1,
+  "difficulty": 2,
+  "explanation": "Areas of similar figures are in the ratio of the square of the linear scale factor: 3 squared : 5 squared = 9 : 25.",
+  "id": "auth-math-geom-023"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "geometry",
+  "type": "calc",
+  "q": "Two similar solids have surface areas of 48 square cm and 300 square cm. If the smaller solid has a volume of 32 cubic cm, find the volume, in cubic cm, of the larger solid.",
+  "answer": "500",
+  "difficulty": 3,
+  "explanation": "Area ratio large to small = 300/48 = 6.25, so the linear scale factor is 2.5 and the volume scale factor is 2.5 cubed = 15.625. Larger volume = 32 x 15.625 = 500 cubic cm.",
+  "answer_note": "500",
+  "id": "auth-math-geom-024"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "geometry",
+  "type": "mcq",
+  "q": "A ship sails from port P on a bearing of 070 degrees for 10 km. What is the bearing of P from the ship's final position?",
+  "options": [
+   "110 degrees",
+   "250 degrees",
+   "290 degrees",
+   "070 degrees"
+  ],
+  "answer": 2,
+  "difficulty": 3,
+  "explanation": "The back bearing differs by 180 degrees: 070 + 180 = 250 degrees.",
+  "id": "auth-math-geom-025"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "geometry",
+  "type": "mcq",
+  "q": "Two parallel lines are crossed by a transversal. An alternate (zig-zag) angle to a 48 degree angle measures how many degrees?",
+  "options": [
+   "42 degrees",
+   "48 degrees",
+   "132 degrees",
+   "96 degrees"
+  ],
+  "answer": 1,
+  "difficulty": 1,
+  "explanation": "Alternate angles between parallel lines are equal, so the angle is 48 degrees.",
+  "id": "auth-math-geom-026"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "geometry",
+  "type": "mcq",
+  "q": "The three angles of a triangle are in the ratio 2 : 3 : 4. What is the size of the largest angle?",
+  "options": [
+   "80 degrees",
+   "90 degrees",
+   "60 degrees",
+   "120 degrees"
+  ],
+  "answer": 0,
+  "difficulty": 1,
+  "explanation": "Angles sum to 180 degrees; the parts are 180 / 9 = 20 degrees each, so the largest is 4 x 20 = 80 degrees.",
+  "id": "auth-math-geom-027"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "geometry",
+  "type": "mcq",
+  "q": "What is the size of each interior angle of a regular pentagon?",
+  "options": [
+   "90 degrees",
+   "120 degrees",
+   "108 degrees",
+   "72 degrees"
+  ],
+  "answer": 2,
+  "difficulty": 1,
+  "explanation": "Interior sum = (5 - 2) x 180 = 540 degrees; each angle = 540 / 5 = 108 degrees.",
+  "id": "auth-math-geom-028"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "geometry",
+  "type": "calc",
+  "q": "A rectangle measures 10 cm by 6 cm. A semicircle of radius 3 cm is cut from one of the long sides. Find the area, in square cm, of the remaining shape. Take pi = 3.14.",
+  "answer": "45.87",
+  "difficulty": 2,
+  "explanation": "Rectangle area = 60. Semicircle area = (1/2) x 3.14 x 3 squared = (1/2) x 28.26 = 14.13. Remaining = 60 - 14.13 = 45.87 square cm.",
+  "answer_note": "45.87",
+  "id": "auth-math-geom-029"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "geometry",
+  "type": "mcq",
+  "q": "The reflex angle AOB at the centre of a circle is 250 degrees. Point C lies on the minor arc AB. What is the size of angle ACB?",
+  "options": [
+   "125 degrees",
+   "110 degrees",
+   "250 degrees",
+   "70 degrees"
+  ],
+  "answer": 0,
+  "difficulty": 3,
+  "explanation": "The obtuse (non-reflex) angle at the centre is 360 - 250 = 110 degrees. The angle at the circumference on the minor arc stands on the reflex arc: angle ACB = 250 / 2 = 125 degrees.",
+  "id": "auth-math-geom-030"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "geometry",
+  "type": "calc",
+  "q": "A cuboid measures 3 cm by 4 cm by 12 cm. Find the length, in cm, of the diagonal from one corner to the opposite corner of the solid. (The solid diagonal satisfies d squared = l squared + w squared + h squared.)",
+  "answer": "13",
+  "difficulty": 3,
+  "explanation": "d squared = 9 + 16 + 144 = 169, so d = sqrt(169) = 13 cm.",
+  "id": "auth-math-geom-031"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "geometry",
+  "type": "mcq",
+  "q": "A closed cylinder has radius 2 cm and height 5 cm. What is its total surface area? Take pi = 3.14.",
+  "options": [
+   "62.8 square cm",
+   "87.92 square cm",
+   "25.12 square cm",
+   "50.24 square cm"
+  ],
+  "answer": 1,
+  "difficulty": 2,
+  "explanation": "Curved surface = 2 x pi x r x h = 2 x 3.14 x 2 x 5 = 62.8; two ends = 2 x 3.14 x 4 = 25.12; total = 87.92 square cm.",
+  "id": "auth-math-geom-032"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "geometry",
+  "type": "calc",
+  "q": "A prism has a trapezium cross-section with parallel sides 6 cm and 10 cm, perpendicular height 4 cm, and the prism is 7 cm long. Find its volume in cubic cm.",
+  "answer": "224",
+  "difficulty": 2,
+  "explanation": "Cross-sectional area = (1/2)(6 + 10) x 4 = 32 square cm. Volume = cross-section x length = 32 x 7 = 224 cubic cm.",
+  "id": "auth-math-geom-033"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "geometry",
+  "type": "mcq",
+  "q": "What is the perimeter, in cm, of a semicircle of diameter 10 cm, including the straight edge? Take pi = 3.14.",
+  "options": [
+   "15.7 cm",
+   "25.7 cm",
+   "31.4 cm",
+   "41.4 cm"
+  ],
+  "answer": 1,
+  "difficulty": 3,
+  "explanation": "Curved part = (1/2) x pi x d = 5 x 3.14 = 15.7; add the diameter 10 to get 25.7 cm.",
+  "id": "auth-math-geom-034"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "geometry",
+  "type": "mcq",
+  "q": "From a lighthouse, a boat is observed on a bearing of 035 degrees and a second boat on a bearing of 125 degrees. What is the angle between the two lines of sight?",
+  "options": [
+   "55 degrees",
+   "90 degrees",
+   "160 degrees",
+   "45 degrees"
+  ],
+  "answer": 1,
+  "difficulty": 2,
+  "explanation": "Angle between bearings = 125 - 35 = 90 degrees.",
+  "id": "auth-math-geom-035"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "geometry",
+  "type": "mcq",
+  "q": "ABCD is a cyclic quadrilateral. Angle A = (2x + 10) degrees and the opposite angle C = (3x - 20) degrees. Find x.",
+  "options": [
+   "30",
+   "42",
+   "38",
+   "26"
+  ],
+  "answer": 2,
+  "difficulty": 3,
+  "explanation": "Opposite angles sum to 180 degrees: (2x + 10) + (3x - 20) = 180, so 5x - 10 = 180, 5x = 190, x = 38.",
+  "id": "auth-math-geom-036"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "geometry",
+  "type": "calc",
+  "q": "Two similar polygons have areas in the ratio 1 : 16. If the smaller polygon has a perimeter of 24 cm, find the perimeter, in cm, of the larger polygon.",
+  "answer": "96",
+  "difficulty": 3,
+  "explanation": "Area ratio 1 : 16 means the linear scale factor is sqrt(16) = 4, so the larger perimeter = 24 x 4 = 96 cm.",
+  "id": "auth-math-geom-037"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "geometry",
+  "type": "mcq",
+  "q": "Triangle ABC is inscribed in a semicircle with AB as diameter, so angle ACB = 90 degrees. If angle CAB = (2x + 10) degrees and angle CBA = (x + 20) degrees, find x.",
+  "options": [
+   "20",
+   "30",
+   "25",
+   "40"
+  ],
+  "answer": 0,
+  "difficulty": 3,
+  "explanation": "The two acute angles sum to 90 degrees: (2x + 10) + (x + 20) = 90, so 3x + 30 = 90, 3x = 60, x = 20.",
+  "id": "auth-math-geom-038"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "geometry",
+  "type": "calc",
+  "q": "A cone has radius 6 cm and perpendicular height 10 cm. Find its volume, in cubic cm, correct to 1 decimal place. (Volume = 1/3 x pi x r squared x h; take pi = 3.14159)",
+  "answer": "377.0",
+  "difficulty": 3,
+  "explanation": "Volume = (1/3) x 3.14159 x 36 x 10 = 120 x 3.14159 = 376.99..., which rounds to 377.0 cubic cm.",
+  "answer_note": "377.0 (120pi)",
+  "id": "auth-math-geom-039"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "geometry",
+  "type": "mcq",
+  "q": "A quadrilateral has angles of 80 degrees, 100 degrees, x degrees and (x + 20) degrees. Find x.",
+  "options": [
+   "70",
+   "80",
+   "90",
+   "100"
+  ],
+  "answer": 1,
+  "difficulty": 1,
+  "explanation": "Angles of a quadrilateral sum to 360 degrees: 80 + 100 + x + x + 20 = 360, so 2x = 160 and x = 80.",
+  "id": "auth-math-geom-040"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "trig",
+  "type": "mcq",
+  "q": "A right-angled triangle has an angle of 30 degrees and the side opposite that angle measures 7 cm. Given sin 30 = 0.5, what is the length of the hypotenuse?",
+  "options": [
+   "3.5 cm",
+   "14 cm",
+   "12.1 cm",
+   "21 cm"
+  ],
+  "answer": 1,
+  "difficulty": 1,
+  "explanation": "sin 30 = opposite / hypotenuse, so hypotenuse = 7 / 0.5 = 14 cm.",
+  "id": "auth-math-trig-001"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "trig",
+  "type": "mcq",
+  "q": "In a right-angled triangle, the side adjacent to angle theta measures 8 cm and the hypotenuse measures 17 cm. Given cos theta = 8/17, what is sin theta?",
+  "options": [
+   "15/17",
+   "8/15",
+   "9/17",
+   "15/8"
+  ],
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "The opposite side = sqrt(17 squared - 8 squared) = sqrt(289 - 64) = sqrt(225) = 15, so sin theta = 15/17.",
+  "id": "auth-math-trig-002"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "trig",
+  "type": "calc",
+  "q": "A ramp is inclined at 18 degrees to the horizontal and is 5 m long along its surface. Given sin 18 = 0.3090, find the vertical height, in metres, that the ramp rises through. Give your answer correct to 1 decimal place.",
+  "answer": "1.5",
+  "difficulty": 2,
+  "explanation": "Height = 5 x sin 18 = 5 x 0.3090 = 1.545, which rounds to 1.5 m.",
+  "answer_note": "1.5 m (1.545 exact from given value)",
+  "id": "auth-math-trig-003"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "trig",
+  "type": "mcq",
+  "q": "A kite flies on a 40 m string, assumed straight, at an angle of elevation of 55 degrees. Given sin 55 = 0.8192, which value is closest to its height above the ground (ignore the height of the handler)?",
+  "options": [
+   "22.9 m",
+   "32.8 m",
+   "48.8 m",
+   "20.5 m"
+  ],
+  "answer": 1,
+  "difficulty": 1,
+  "explanation": "Height = 40 x sin 55 = 40 x 0.8192 = 32.768, about 32.8 m.",
+  "id": "auth-math-trig-004"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "trig",
+  "type": "mcq",
+  "q": "From the top of a 60 m tall cliff, the angle of depression of a boat is 25 degrees. Which expression gives the horizontal distance, in metres, of the boat from the base of the cliff? (tan 25 is available from a table.)",
+  "options": [
+   "60 x tan 25",
+   "60 / tan 25",
+   "60 x sin 25",
+   "60 / sin 25"
+  ],
+  "answer": 1,
+  "difficulty": 3,
+  "explanation": "The angle of elevation from the boat equals the angle of depression, 25 degrees. tan 25 = 60 / distance, so distance = 60 / tan 25.",
+  "id": "auth-math-trig-005"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "trig",
+  "type": "calc",
+  "q": "A ladder leans against a vertical wall making an angle of 62 degrees with the horizontal ground, and reaches 7 m up the wall. Given sin 62 = 0.8829, find the length of the ladder, in metres, correct to 1 decimal place.",
+  "answer": "7.9",
+  "difficulty": 2,
+  "explanation": "sin 62 = 7 / length, so length = 7 / 0.8829 = 7.928..., about 7.9 m.",
+  "answer_note": "7.9 m",
+  "id": "auth-math-trig-006"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "trig",
+  "type": "mcq",
+  "q": "A right-angled triangle has legs of 5 cm and 12 cm. What is the size of the angle opposite the 5 cm side, to 1 decimal place? (tan theta = 5/12; use your calculator.)",
+  "options": [
+   "22.6 degrees",
+   "67.4 degrees",
+   "25.0 degrees",
+   "45.0 degrees"
+  ],
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "theta = arctan(5/12) = arctan(0.4167) = 22.62..., about 22.6 degrees.",
+  "id": "auth-math-trig-007"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "trig",
+  "type": "mcq",
+  "q": "The line of greatest slope of a hill rises 30 m vertically over a horizontal distance of 80 m. What is the angle of slope of the hill, to the nearest degree?",
+  "options": [
+   "21 degrees",
+   "36 degrees",
+   "54 degrees",
+   "20 degrees"
+  ],
+  "answer": 1,
+  "difficulty": 2,
+  "explanation": "tan theta = 30 / 80 = 0.375, so theta = arctan(0.375) = 20.56..., about 21 degrees.",
+  "id": "auth-math-trig-008"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "trig",
+  "type": "mcq",
+  "q": "In triangle ABC, angle A = 40 degrees, angle B = 80 degrees and side BC (opposite A) = 10 cm. Using the sine rule, which expression gives side AC (opposite B)?",
+  "options": [
+   "10 sin 80 / sin 40",
+   "10 sin 40 / sin 80",
+   "10 sin 60 / sin 40",
+   "10 sin 80 / sin 60"
+  ],
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "Sine rule: AC / sin B = BC / sin A, so AC = 10 x sin 80 / sin 40.",
+  "id": "auth-math-trig-009"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "trig",
+  "type": "calc",
+  "q": "In triangle ABC, angle A = 30 degrees, angle B = 70 degrees and side a (opposite A) = 8 cm. Given sin 70 = 0.9397 and sin 30 = 0.5, find side b (opposite B), in cm, correct to 1 decimal place using the sine rule.",
+  "answer": "15.0",
+  "difficulty": 3,
+  "explanation": "b / sin 70 = 8 / sin 30, so b = 8 x 0.9397 / 0.5 = 15.035..., about 15.0 cm.",
+  "answer_note": "15.0 cm",
+  "id": "auth-math-trig-010"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "trig",
+  "type": "mcq",
+  "q": "In triangle ABC, AB = 7 cm, AC = 9 cm and the included angle A = 60 degrees. Using the cosine rule, which value is closest to BC?",
+  "options": [
+   "8.0 cm",
+   "14.0 cm",
+   "4.5 cm",
+   "10.2 cm"
+  ],
+  "answer": 0,
+  "difficulty": 3,
+  "explanation": "BC squared = 7 squared + 9 squared - 2 x 7 x 9 x cos 60 = 49 + 81 - 126 x 0.5 = 130 - 63 = 67, so BC = sqrt(67) = 8.19..., closest to 8.0 cm.",
+  "id": "auth-math-trig-011"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "trig",
+  "type": "mcq",
+  "q": "A triangle has sides of 5 cm, 6 cm and 9 cm. What is the cosine of the angle opposite the 9 cm side, using the cosine rule?",
+  "options": [
+   "-1/3",
+   "1/3",
+   "-1/5",
+   "-7/15"
+  ],
+  "answer": 0,
+  "difficulty": 3,
+  "explanation": "cos C = (5 squared + 6 squared - 9 squared) / (2 x 5 x 6) = (25 + 36 - 81) / 60 = -20/60 = -1/3, so the angle is obtuse.",
+  "id": "auth-math-trig-012"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "trig",
+  "type": "mcq",
+  "q": "A guy rope of length 12 m is attached to the top of a vertical 9 m pole and pegged in level ground. What angle, to the nearest degree, does the rope make with the ground?",
+  "options": [
+   "41 degrees",
+   "49 degrees",
+   "37 degrees",
+   "53 degrees"
+  ],
+  "answer": 1,
+  "difficulty": 2,
+  "explanation": "sin theta = 9 / 12 = 0.75, so theta = arcsin(0.75) = 48.59..., about 49 degrees.",
+  "id": "auth-math-trig-013"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "trig",
+  "type": "mcq",
+  "q": "In a right-angled triangle, tan theta = 12/5 and the hypotenuse is 13 cm. What is cos theta?",
+  "options": [
+   "5/13",
+   "12/13",
+   "13/12",
+   "5/12"
+  ],
+  "answer": 0,
+  "difficulty": 1,
+  "explanation": "tan theta = opposite/adjacent = 12/5, so the adjacent side is 5 with hypotenuse 13: cos theta = 5/13.",
+  "id": "auth-math-trig-014"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "trig",
+  "type": "calc",
+  "q": "In triangle ABC, angle B = 50 degrees, side AB = 10 cm and side BC = 6 cm. Given cos 50 = 0.6428, find the length of AC, in cm, correct to 1 decimal place, using the cosine rule.",
+  "answer": "7.7",
+  "difficulty": 3,
+  "explanation": "AC squared = 10 squared + 6 squared - 2 x 10 x 6 x cos 50 = 100 + 36 - 120 x 0.6428 = 136 - 77.136 = 58.864. AC = sqrt(58.864) = 7.67..., about 7.7 cm.",
+  "answer_note": "7.7 cm",
+  "id": "auth-math-trig-015"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "trig",
+  "type": "mcq",
+  "q": "A triangle has two sides of 8 cm and 11 cm with an included angle of 50 degrees. Given sin 50 = 0.7660, what is its area?",
+  "options": [
+   "33.7 square cm",
+   "67.4 square cm",
+   "44.0 square cm",
+   "88.0 square cm"
+  ],
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "Area = (1/2) x 8 x 11 x sin 50 = 44 x 0.7660 = 33.7 square cm. (67.4 forgets the factor of 1/2.)",
+  "id": "auth-math-trig-016"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "trig",
+  "type": "calc",
+  "q": "Two sides of a triangle measure 14 cm and 9 cm and include an angle of 35 degrees. Given sin 35 = 0.5736, find the area of the triangle, in square cm, correct to 1 decimal place. (Area = 1/2 x a x b x sin C)",
+  "answer": "36.1",
+  "difficulty": 2,
+  "explanation": "Area = (1/2) x 14 x 9 x sin 35 = 63 x 0.5736 = 36.14, which rounds to 36.1 square cm.",
+  "answer_note": "36.1 square cm",
+  "id": "auth-math-trig-017"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "trig",
+  "type": "mcq",
+  "q": "Theta is an acute angle and sin theta = cos theta. What is the size of theta?",
+  "options": [
+   "30 degrees",
+   "45 degrees",
+   "60 degrees",
+   "90 degrees"
+  ],
+  "answer": 1,
+  "difficulty": 1,
+  "explanation": "Sin theta equals cos theta only when theta = 45 degrees, since sin and cos swap values between complementary angles.",
+  "id": "auth-math-trig-018"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "trig",
+  "type": "mcq",
+  "q": "In a right-angled triangle, the hypotenuse is 10 cm and one acute angle is 36 degrees. Given cos 36 = 0.8090, what is the length of the side adjacent to the 36 degree angle?",
+  "options": [
+   "8.1 cm",
+   "5.9 cm",
+   "12.4 cm",
+   "6.5 cm"
+  ],
+  "answer": 0,
+  "difficulty": 1,
+  "explanation": "Adjacent = hypotenuse x cos 36 = 10 x 0.8090 = 8.09, about 8.1 cm.",
+  "id": "auth-math-trig-019"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "trig",
+  "type": "calc",
+  "q": "The sun shines at an angle of elevation of 40 degrees and a vertical tower casts a horizontal shadow 12 m long. Given tan 40 = 0.8391, find the height of the tower, in metres, correct to 1 decimal place.",
+  "answer": "10.1",
+  "difficulty": 1,
+  "explanation": "Height = 12 x tan 40 = 12 x 0.8391 = 10.07, which rounds to 10.1 m.",
+  "answer_note": "10.1 m",
+  "id": "auth-math-trig-020"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "trig",
+  "type": "calc",
+  "q": "In a right-angled triangle, the side opposite angle theta measures 7 cm and the hypotenuse measures 25 cm. Find theta, in degrees, correct to 1 decimal place.",
+  "answer": "16.3",
+  "difficulty": 1,
+  "explanation": "sin theta = 7/25 = 0.28, so theta = arcsin(0.28) = 16.26..., about 16.3 degrees.",
+  "answer_note": "16.3 degrees",
+  "id": "auth-math-trig-021"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "trig",
+  "type": "calc",
+  "q": "In a triangle, the two sides surrounding an angle of 60 degrees measure 5 cm and 8 cm. Given cos 60 = 0.5, find the length, in cm, of the side opposite the 60 degree angle.",
+  "answer": "7",
+  "difficulty": 2,
+  "explanation": "a squared = 5 squared + 8 squared - 2 x 5 x 8 x cos 60 = 25 + 64 - 80 x 0.5 = 89 - 40 = 49, so a = 7 cm.",
+  "answer_note": "7 cm",
+  "id": "auth-math-trig-022"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "trig",
+  "type": "calc",
+  "q": "A cuboid measures 3 cm by 4 cm by 12 cm. Find, in degrees correct to 1 decimal place, the angle that the solid diagonal from a bottom corner to the opposite top corner makes with the 3 by 4 base face.",
+  "answer": "67.4",
+  "difficulty": 3,
+  "explanation": "The base diagonal is sqrt(9 + 16) = 5 cm. The required angle satisfies tan theta = 12 / 5 = 2.4, so theta = arctan(2.4) = 67.38..., about 67.4 degrees.",
+  "answer_note": "67.4 degrees",
+  "id": "auth-math-trig-023"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "trig",
+  "type": "calc",
+  "q": "The area of a triangle is 21 square cm and two of its sides are 7 cm and 8 cm. Given area = 1/2 x a x b x sin C, find the acute angle between these two sides, in degrees correct to 1 decimal place.",
+  "answer": "48.6",
+  "difficulty": 3,
+  "explanation": "21 = (1/2) x 7 x 8 x sin C = 28 sin C, so sin C = 0.75 and C = arcsin(0.75) = 48.59..., about 48.6 degrees.",
+  "answer_note": "48.6 degrees",
+  "id": "auth-math-trig-024"
+ },
+ {
+  "examId": "igcse-math",
+  "areaId": "trig",
+  "type": "calc",
+  "q": "A triangle has sides of 4 cm, 7 cm and 9 cm. Find the size, in degrees correct to 1 decimal place, of its largest angle using the cosine rule. (The largest angle is opposite the longest side.)",
+  "answer": "106.6",
+  "difficulty": 3,
+  "explanation": "cos C = (4 squared + 7 squared - 9 squared) / (2 x 4 x 7) = (16 + 49 - 81) / 56 = -16/56 = -0.2857, so C = arccos(-0.2857) = 106.60..., about 106.6 degrees.",
+  "answer_note": "106.6 degrees",
+  "id": "auth-math-trig-025"
  }
 ]
