@@ -99,7 +99,11 @@ describe('authored intl bank', () => {
   it('no duplicate authored stems', () => {
     const seen = new Set<string>();
     for (const x of authItems) {
-      const k = (x.q as string).toLowerCase().replace(/[^a-z0-9]/g, '').slice(0, 80);
+      // SAT-style items pair boilerplate question stems ("Which choice...") with
+      // unique passages, and two items may share a passage with unique questions.
+      // Full-text equality is the real duplicate signal.
+      const raw = (x.q as string).toLowerCase().replace(/[^a-z0-9]/g, '');
+      const k = raw;
       expect(seen.has(k), 'duplicate: ' + String(x.q).slice(0, 50)).toBe(false);
       seen.add(k);
     }

@@ -112,6 +112,20 @@ export const INTL_EXAMS: IntlExam[] = [
       { id: 'geomtrig', name: 'Geometry & Trigonometry', units: [...g('9', 'mathematics', 'm5', 'm6', 'm7'), ...g('10', 'mathematics', 'm4', 'm5', 'm6', 'm7')] },
     ],
   },
+  // ───────────────────────── SAT Reading & Writing (authored-only bank) ─────────────────────────
+  {
+    id: 'sat-reading', brand: 'sat', brandLabel: 'Digital SAT®', subject: 'reading_writing',
+    title: 'Reading & Writing — all four domains', icon: '🗽', color: 'blue',
+    defaults: { count: 24, minutes: 32 },
+    blurb: 'Domain practice in the real Digital SAT format: short passages, evidence, Standard English Conventions.',
+    disclaimer: SAT_DISC,
+    areas: [
+      { id: 'craft', name: 'Craft & Structure (words in context, text purpose, connections)', units: [] },
+      { id: 'info', name: 'Information & Ideas (central ideas, inferences, quantitative evidence)', units: [] },
+      { id: 'std', name: 'Standard English Conventions (boundaries, punctuation, agreement)', units: [] },
+      { id: 'expr', name: 'Expression of Ideas (transitions, rhetorical synthesis)', units: [] },
+    ],
+  },
 ];
 
 export interface AreaSlice { area: IntlArea; pool: { q: unknown; tid: string }[] }

@@ -14,9 +14,9 @@ for (const [g, subs] of Object.entries(CURRICULUM as Record<string, Record<strin
 const topics = Object.values(ALL_TOPICS as unknown as Record<string, { _id: string; _grade: string; _subject: string; _unit: string }>);
 
 describe('intl exam blueprints', () => {
-  it('has the five shipped exams', () => {
+  it('has the six shipped exams', () => {
     expect(INTL_EXAMS.map(e => e.id).sort()).toEqual(
-      ['igcse-biology', 'igcse-chemistry', 'igcse-math', 'igcse-physics', 'sat-math']);
+      ['igcse-biology', 'igcse-chemistry', 'igcse-math', 'igcse-physics', 'sat-math', 'sat-reading']);
   });
 
   it('every unit reference is a real grade|subject|unit', () => {
@@ -35,6 +35,9 @@ describe('intl exam blueprints', () => {
     await loadAllLessons();
     for (const e of INTL_EXAMS) {
       for (const a of e.areas) {
+        // authored-only areas (e.g. SAT Reading & Writing) have no Ethiopian
+        // curriculum units; their pools are validated via areaPools below.
+        if (a.units.length === 0) continue;
         const keys = new Set(a.units.map(r => r.join('|')));
         const n = topics
           .filter(t => t._subject === e.subject && keys.has(t._grade + '|' + t._subject + '|' + t._unit))
