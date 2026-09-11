@@ -13,8 +13,10 @@ OCR = os.path.join(HERE, 'ocr')
 ITEMS = os.path.join(HERE, 'items')
 os.makedirs(ITEMS, exist_ok=True)
 
-Q_START = re.compile(r'^\s*(\d{1,3})[\.\)]\s+(?=\S)')
-OPT_LINE = re.compile(r'^\s*[O0○）\)\]]?\s*\(?\s*([A-D])\s*[\)\].]\s*(.*)$')
+Q_START = re.compile(r'^\s*(\d{1,3})[\.\)]\s*(?=[a-zA-Z])(?!\s*[A-D][\.\)\s:])')
+GRID_TOKEN = re.compile(r'\b\d{1,3}\.[A-D]\b')
+OPT_LINE = re.compile(r'^\s*[O0○）\)\]—-]?\s*\(?\s*([A-D])\s*[\)\].\uFF09:]\s*(.*)$')
+RADIO_FIX = re.compile(r'^(\s*)[O0○]\s+([A-D])\s+(\S.*)$')
 ANS_ROW = re.compile(r'^\s*(\d{1,3})\s*[\.\-–:]?\s*([A-D])\b')
 BANNER = re.compile(r'PAGE \d+|National|Exam|Subject|Time Allowed|Instructions|Not Answered|BOOKLET|SUBJECT\s*CODE|NUMBER\s*OF\s*ITEMS|TIME\s*ALLOWED|^\d+/\d+/\d+|^\d+/\d+$|euee\.epizy|Contents/exam', re.I)
 TICK_END = re.compile(r'(?:[√✓]|[a-z][vx<])$')
@@ -49,6 +51,7 @@ def parse_block(num, lines):
     """Return dict q, opts{A-D}, ticks{letter}, complete flag."""
     q_parts, opts, order = [], {}, []
     for ln in lines:
+        ln = RADIO_FIX.sub(r'\1\2) \3', ln)  # 'O B text' -> 'B) text'
         m = OPT_LINE.match(ln)
         if m and (not order or m.group(1) == chr(ord(order[-1]) + 1)):
             order.append(m.group(1))
@@ -66,7 +69,7 @@ def parse_block(num, lines):
         if TICK_END.search(raw) and len(raw) > 3:
             ticks[k] = True
     res['ticks'] = ticks
-    res['complete'] = len(order) >= 2 and all(len(o) > 1 for o in res['opts'].values())
+    res['complete'] = len(order) >= 2 and all(len(o) >= 1 for o in res['opts'].values())
     return res
 
 def parse_paper_questions(txt):

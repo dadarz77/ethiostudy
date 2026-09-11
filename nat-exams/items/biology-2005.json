@@ -58,9 +58,25 @@
     "Starch",
     "Cellulosev",
     "protein",
-    "chitin 5.Whichofthefollowingclasses ofenzymesdigests carbohydrates? A) Amylasesv B) Lipases O C) Proteases O D) Nucleases"
+    "chitin"
    ],
    "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-005",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Whichofthefollowingclasses ofenzymesdigests carbohydrates?",
+   "options": [
+    "Amylasesv",
+    "Lipases",
+    "Proteases",
+    "Nucleases"
+   ],
+   "answer": 0,
    "confidence": "grid+tick",
    "type": "mcq"
   },
@@ -106,7 +122,7 @@
     "Stigmav",
     "Ovule",
     "Ovary",
-    "Stamens 9.Which one of thefollowingdobees use toinform otherbees about location and distance of a new source of nectar they discover? A) Pheromones O B) Waggle dancev C) Buzzing noise O1 D) vibration of wings"
+    "Stamens"
    ],
    "answer": 0,
    "confidence": "grid",
@@ -117,15 +133,15 @@
    "subject": "biology",
    "year": 2005,
    "yearCal": "EC",
-   "q": "Which one of the following do bees use to inform other bees about location and distance of a new source of nectar they discover?",
+   "q": "Which one of thefollowingdobees use toinform otherbees about location and distance of a new source of nectar they discover?",
    "options": [
     "Pheromones",
-    "Waggle dance",
-    "Buzzing noise",
+    "Waggle dancev",
+    "Buzzing noise O1",
     "vibration of wings"
    ],
    "answer": 1,
-   "confidence": "grid",
+   "confidence": "grid+tick",
    "type": "mcq"
   },
   {
@@ -193,6 +209,22 @@
    "type": "mcq"
   },
   {
+   "id": "natl-biology-2005-014",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "How many carbon atoms are there in one disaccharide molecule?",
+   "options": [
+    "6",
+    "12",
+    "18",
+    "24"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
    "id": "natl-biology-2005-015",
    "subject": "biology",
    "year": 2005,
@@ -218,10 +250,10 @@
     "Lipid",
     "Carbohydrate",
     "Glucose",
-    "ATP√ 17.What are the most frequent causative agents of food poisoning? A)Bachteriav B)Protozoa C) viruses D) Worms"
+    "ATP"
    ],
    "answer": 3,
-   "confidence": "grid",
+   "confidence": "grid+tick",
    "type": "mcq"
   },
   {
@@ -231,13 +263,13 @@
    "yearCal": "EC",
    "q": "What are the most frequent causative agents of food poisoning?",
    "options": [
-    "Bachteria",
+    "Bachteriav",
     "Protozoa",
     "viruses",
     "Worms"
    ],
    "answer": 0,
-   "confidence": "grid",
+   "confidence": "grid+tick",
    "type": "mcq"
   },
   {
@@ -522,7 +554,7 @@
     "Seasonal isolation",
     "Behavioralisolationv",
     "Temporal isolation",
-    "isolation by distance 36.Howmanychromosomesdohumansinheritfromeachoftheirparents? A)23chromosomev B) 23 pairs of chromosome C)46 chromosome D) 46 pairs of chromosome"
+    "isolation by distance"
    ],
    "answer": 1,
    "confidence": "grid+tick",
@@ -533,15 +565,15 @@
    "subject": "biology",
    "year": 2005,
    "yearCal": "EC",
-   "q": "How many chromosomes do humans inherit from each of their parents?",
+   "q": "Howmanychromosomesdohumansinheritfromeachoftheirparents?",
    "options": [
-    "23chromosome",
+    "23chromosomev",
     "23 pairs of chromosome",
     "46 chromosome",
     "46 pairs of chromosome"
    ],
    "answer": 0,
-   "confidence": "grid",
+   "confidence": "grid+tick",
    "type": "mcq"
   },
   {
@@ -714,7 +746,7 @@
     "The outcome of an experiment",
     "A proof that shows the hypothesis is true",
     "A hypothesis supported by experiments and/or observations.",
-    "An opinion or educated guess resulting from observations. 48.For which of the following is a theodolite used in biology education? A) Measuring the height of trees B) Recording positions where a species is found C) Measuring the rate of flow of water in a cell. D) Measuring the PH of water or soil."
+    "An opinion or educated guess resulting from observations."
    ],
    "answer": 2,
    "confidence": "grid",
@@ -746,7 +778,7 @@
     "Glucose",
     "Lactosev",
     "Maltose",
-    "Sucrose 50.Towhich class of enzymes do the digestive enzymes belongs? A) Esterases B) Transferases C) Hydrolyses ）D) Isomerases"
+    "Sucrose"
    ],
    "answer": 1,
    "confidence": "grid",
@@ -757,7 +789,7 @@
    "subject": "biology",
    "year": 2005,
    "yearCal": "EC",
-   "q": "To which class of enzymes do the digestive enzymes belongs?",
+   "q": "Towhich class of enzymes do the digestive enzymes belongs?",
    "options": [
     "Esterases",
     "Transferases",
@@ -826,9 +858,25 @@
     "Ribosomes and peroxisomes",
     "Chloroplasts and ribosomes",
     "Mitochondria and ribosome",
-    "chloroplasts andmitochondriav 55.Mostcell membrane areprimarily composed of which compounds A) Proteins and lipids B) DNA and ATP C) Chitin and starch D) Nucleotides and amino acids"
+    "chloroplasts andmitochondriav"
    ],
    "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-055",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Mostcell membrane areprimarily composed of which compounds",
+   "options": [
+    "Proteins and lipids",
+    "DNA and ATP",
+    "Chitin and starch",
+    "Nucleotides and amino acids"
+   ],
+   "answer": 0,
    "confidence": "grid",
    "type": "mcq"
   },
@@ -890,9 +938,25 @@
     "Pioneer community",
     "seral community",
     "Climax community",
-    "secondary community 60.Whichofthefollowingisanecosystem A) A Tropical Rain forest B) The African continent C) All the organisms in a given area D) The non-living components of an environment"
+    "secondary community"
    ],
    "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-060",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Whichofthefollowingisanecosystem",
+   "options": [
+    "A Tropical Rain forest",
+    "The African continent",
+    "All the organisms in a given area",
+    "The non-living components of an environment"
+   ],
+   "answer": 0,
    "confidence": "grid",
    "type": "mcq"
   },
@@ -993,6 +1057,22 @@
    "type": "mcq"
   },
   {
+   "id": "natl-biology-2005-067",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Two parents of genotype Aa are cross-bred .The alleles show complete dominance. What proportion of the offspring will phenotypically look like their parents?",
+   "options": [
+    "0",
+    "1/4",
+    "1/2",
+    "3/4~"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
    "id": "natl-biology-2005-068",
    "subject": "biology",
    "year": 2005,
@@ -1034,7 +1114,7 @@
     "It gives a lasting immunity to HIV",
     "It prevents mutation of HIV.",
     "It prevents re-infection by HIV.",
-    "It helps to break the life cycle of HIV. 71.Inwhich ofitscontentsRNAdiffersfromDNA? A)Deoxyribose andguanine B) Ribose and uracil C) Ribose and uracil D) Phosphate and adenine"
+    "It helps to break the life cycle of HIV."
    ],
    "answer": 3,
    "confidence": "grid",
@@ -1045,15 +1125,47 @@
    "subject": "biology",
    "year": 2005,
    "yearCal": "EC",
-   "q": "In which of its contents RNA differs from DNA?",
+   "q": "Inwhich ofitscontentsRNAdiffersfromDNA?",
    "options": [
-    "Deoxyribose and guanine",
+    "Deoxyribose andguanine",
     "Ribose and uracil",
     "Ribose and uracil",
     "Phosphate and adenine"
    ],
    "answer": 1,
    "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-072",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Which of the following cell types can be rich in lysosomes?",
+   "options": [
+    "Red blood cells",
+    "Nerve cells",
+    "Phagocytic cells",
+    "Muscle cells"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2005-073",
+   "subject": "biology",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Whatcan oneconclude about the contentsof thefoodstuff if amixture ofBenedictsolution andfoodstuff remain blue after heating ?",
+   "options": [
+    "It contains proteins",
+    "It lacks starch",
+    "It contains fats",
+    "It lacks reducing sugarv"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
    "type": "mcq"
   },
   {
@@ -1066,7 +1178,7 @@
     "Allosteric inhibition",
     "Non-reversible inhibition",
     "competitive inhibition",
-    "Reversible competitive inhibition 75.If redblood cellsshrinkwhenplacedin acertainsolution,what isthestrength of thesolutionrelative to the strength of the protoplasm of the cells? A) Hypotonic O B) Isotonic C) Hyper tonic√ D) Isoosmotic"
+    "Reversible competitive inhibition"
    ],
    "answer": 0,
    "confidence": "grid",
@@ -1077,7 +1189,7 @@
    "subject": "biology",
    "year": 2005,
    "yearCal": "EC",
-   "q": "If red blood cells shrink when placed in a certain solution ,what is the strength of the solution relative to the strength of the protoplasm of the cells?",
+   "q": "If redblood cellsshrinkwhenplacedin acertainsolution,what isthestrength of thesolutionrelative to the strength of the protoplasm of the cells?",
    "options": [
     "Hypotonic",
     "Isotonic",
@@ -1085,7 +1197,7 @@
     "Isoosmotic"
    ],
    "answer": 2,
-   "confidence": "grid",
+   "confidence": "grid+tick",
    "type": "mcq"
   },
   {
@@ -1114,7 +1226,7 @@
     "Inhibition of enzyme action",
     "Degradation of viral RNA",
     "Digesting of viral particles",
-    "Phagocytosis of the virus 78.Among the following mating,where the ABO blood genotype of the partners are shown, identify the mating in which all the children will have the same blood type. A) AO x BO O B)AAx OO C) AB x BO D) BB x A"
+    "Phagocytosis of the virus"
    ],
    "answer": 0,
    "confidence": "grid+tick",
@@ -1125,10 +1237,10 @@
    "subject": "biology",
    "year": 2005,
    "yearCal": "EC",
-   "q": "Among the following mating, where the ABO blood genotype of the partners are shown, identify the mating in which all the children will have the same blood type.",
+   "q": "Among the following mating,where the ABO blood genotype of the partners are shown, identify the mating in which all the children will have the same blood type.",
    "options": [
     "AO x B",
-    "AA x 00",
+    "AAx",
     "AB x B",
     "BB x A"
    ],
@@ -1482,29 +1594,22 @@
     "Devonian",
     "Cretaceous",
     "Jurassic",
-    "Permian Your Answers you have scored O out of 0 Answer Key 1.A 11.C 21.D 31.D 41.A 51.B 61.C 71.B 81.B 91.C 2.C 12.C 22.C 32.B 42.C 52.C 62.D 72.C 82.D 92.D 3.B 13.C 23.B 33.D 43.B 53.B 63.D 73.D 83.B 93.A 4.B 14.B 24.C 34.D 44.C 54.D 64.A 74.A 84.A 94.D 5.A 15.D 25.B 35.B 45.D 55.A 65.C 75.C 85.C 95.C 6.B 16.D 26.B 36.A 46.B 56.B 66.A 76.C 86.B 96.D 7.B 17.A 27.D 37.C 47.C 57.C 67.D 77.A 87.D 97.A 8.A 18.D 28.C 38.D 48.A 58.B 68.D 78.B 88.D 98.B 9.B 19.B 29.D 39.C 49.B 59.C 69.A 79.A 89.C 99.C 10.D 20.B 30.B 40.B 50.C 60.A 70.D 80.A 90.C 100.B ? 2019CamaraEducationEthiopia.EthiopianGeneral SecondaryEducationCertificate and UniversityEntranceExaminations"
+    "Permian Your Answers you have scored O out of 0 Answer Key"
    ],
    "answer": 1,
    "confidence": "grid",
    "type": "mcq"
   }
  ],
- "flagged": [
-  {
-   "n": 72,
-   "grid": "C",
-   "tick": "D",
-   "q": "Which of the following cell types can be rich in lysosomes?"
-  }
- ],
+ "flagged": [],
  "stats": {
-  "questions": 94,
-  "items": 93,
-  "flagged": 1,
+  "questions": 100,
+  "items": 100,
+  "flagged": 0,
   "grid": 100,
   "conf": {
-   "grid+tick": 22,
-   "grid": 71,
+   "grid+tick": 30,
+   "grid": 70,
    "tick": 0
   }
  }
