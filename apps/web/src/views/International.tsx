@@ -112,7 +112,7 @@ export default function International() {
             {INTL_EXAMS.filter(e => e.brand === 'sat').map(e => <Card key={e.id} e={e} onOpen={openSetup} busy={busy} />)}
           </div>
 
-          <p className="tiny muted mt-4">⚖️ Unofficial practice tools. EthioStudy is not affiliated with or endorsed by Cambridge Assessment or the College Board. Exam names are trademarks of their respective owners; content areas are published syllabus outlines, and every question comes from our own curriculum bank.</p>
+          <p className="tiny muted mt-4">⚖️ Unofficial practice tools. EthioStudy is not affiliated with or endorsed by Cambridge Assessment or the College Board. Exam names are trademarks of their respective owners; content areas are published syllabus outlines. Questions come from our curriculum bank plus openly-licensed sources — IGCSE Physics includes numeric problems adapted from <a href="https://openstax.org/details/books/physics" target="_blank" rel="noreferrer">OpenStax Physics 2e</a> (CC BY 4.0).</p>
         </>
       )}
 

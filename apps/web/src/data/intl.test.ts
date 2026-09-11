@@ -55,4 +55,34 @@ describe('intl exam blueprints', () => {
     // every pooled item carries a resolvable topic id
     for (const s of slices) for (const p of s.pool) expect(p.tid).toBeTruthy();
   });
+
+  it('OpenStax CC-BY items enrich IGCSE Physics pools and are valid calc questions', async () => {
+    await loadAllLessons();
+    const os = (await import('./openstax-physics.json')).default as {
+      id: string; type: string; q: string; answer: string; areaId: string; explanation: string; source: string;
+    }[];
+    expect(os.length).toBe(25);
+    // schema sanity + license attribution on every item
+    for (const x of os) {
+      expect(x.type).toBe('calc');
+      expect(parseFloat(x.answer)).not.toBeNaN();
+      expect(x.q.length).toBeGreaterThan(25);
+      expect(x.explanation).toContain('OpenStax');   // attribution embedded
+      expect(['forces', 'thermal', 'waves', 'emagnet', 'nuclear']).toContain(x.areaId);
+    }
+    // injection: physics pools grow by the right amount per area
+    const exam = INTL_EXAMS.find(e => e.id === 'igcse-physics')!;
+    const slices = areaPools(exam, tid => lessonFor(tid) as never, ALL_TOPICS as never);
+    const total = slices.reduce((n, s) => n + s.pool.length, 0);
+    expect(total).toBeGreaterThanOrEqual(228 + 25 - 3); // baseline plus all injected items
+    const waves = slices.find(s => s.area.id === 'waves')!;
+    const wavesOsIds = os.filter(x => x.areaId === 'waves').map(x => x.id);
+    expect(wavesOsIds.length).toBeGreaterThan(0);
+    for (const id of wavesOsIds) {
+      expect(waves.pool.some(p => (p.q as { id?: string }).id === id), id + ' missing from waves pool').toBe(true);
+    }
+    // non-physics exams must NOT receive the injection
+    const chem = areaPools(INTL_EXAMS.find(e => e.id === 'igcse-chemistry')!, tid => lessonFor(tid) as never, ALL_TOPICS as never);
+    for (const s of chem) for (const p of s.pool) expect((p.q as { id?: string }).id ?? '').not.toMatch(/^os-ph/);
+  });
 });

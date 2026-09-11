@@ -5,6 +5,7 @@
  * own editorial judgment; no exam content is copied. Questions are drawn from the
  * EthioStudy curriculum bank.
  */
+import OPENSTAX_PHYSICS from './openstax-physics.json';
 
 export type UnitRef = [grade: '9' | '10' | '11' | '12', subject: string, unit: string];
 
@@ -31,7 +32,7 @@ export interface IntlExam {
 const g = (grade: '9' | '10' | '11' | '12', subject: string, ...units: string[]): UnitRef[] =>
   units.map(u => [grade, subject, u] as UnitRef);
 
-const IGCSE_DISC = 'Unofficial practice. EthioStudy is not affiliated with or endorsed by Cambridge Assessment. Questions are drawn from the Ethiopian curriculum bank, mapped to published IGCSE syllabus areas.';
+const IGCSE_DISC = 'Unofficial practice. EthioStudy is not affiliated with or endorsed by Cambridge Assessment. Questions are drawn from the Ethiopian curriculum bank plus CC-BY sources (OpenStax Physics 2e, adapted), mapped to published IGCSE syllabus areas.';
 const SAT_DISC = 'Unofficial practice. EthioStudy is not affiliated with or endorsed by the College Board®. SAT® is a registered trademark of the College Board.';
 
 export const INTL_EXAMS: IntlExam[] = [
@@ -128,6 +129,12 @@ export function areaPools(exam: IntlExam, lessonFor: (tid: string) => { question
       if (!keys.has(t._grade + '|' + t._subject + '|' + t._unit)) continue;
       const ls = lessonFor(tid);
       for (const q of ls?.questions ?? []) pool.push({ q, tid });
+    }
+    // CC-BY enrichment: OpenStax Physics 2e numeric problems (adapted, attribution in explanation)
+    if (exam.id === 'igcse-physics') {
+      for (const q of OPENSTAX_PHYSICS) {
+        if ((q as { areaId?: string }).areaId === area.id) pool.push({ q, tid: 'intl:igcse-physics:openstax' });
+      }
     }
     return { area, pool };
   });
