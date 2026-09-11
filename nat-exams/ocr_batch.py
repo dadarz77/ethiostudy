@@ -2,7 +2,7 @@
 
 Each pdf/<name>.pdf gets ocr/<name>.txt when complete (skip if present).
 Render 200 dpi via pymupdf, OCR via rapidocr (CPU, low-spec friendly).
-Run:  python ocr_batch.py [limit]   # limit = max files this invocation
+Run:  python ocr_batch.py [limit] [shard] [nshards]   # shard = this worker's index (0-based); files assigned by index % nshards
 """
 import sys, os, time, json
 
@@ -17,6 +17,25 @@ from rapidocr_onnxruntime import RapidOCR
 
 ocr = RapidOCR()
 
+# night-shift courtesy: never outrank the user's own apps
+try:
+    import psutil
+    psutil.Process().nice(psutil.IDLE_PRIORITY_CLASS)
+except Exception:
+    pass
+
+PAUSE_FLAG = os.path.join(HERE, 'PAUSE.flag')
+
+def rest_if_asked():
+    """Block between pages while PAUSE.flag exists (health monitor creates it)."""
+    paused = False
+    while os.path.exists(PAUSE_FLAG):
+        if not paused:
+            log('PAUSED for machine rest break'); paused = True
+        time.sleep(20)
+    if paused:
+        log('resumed after rest break')
+
 def log(msg):
     print(f'[{time.strftime("%H:%M:%S")}] {msg}', flush=True)
 
@@ -29,7 +48,10 @@ def load_prog():
 pdfs = sorted(f for f in os.listdir(PDF_DIR) if f.endswith('.pdf') and os.path.getsize(os.path.join(PDF_DIR, f)) > 10000)
 todo = [p for p in pdfs if not os.path.exists(os.path.join(OCR_DIR, p[:-4] + '.txt'))]
 limit = int(sys.argv[1]) if len(sys.argv) > 1 else 999
-log(f'{len(pdfs)} pdfs, {len(todo)} to OCR, doing {min(len(todo), limit)} this run')
+shard = int(sys.argv[2]) if len(sys.argv) > 2 else 0
+nshards = int(sys.argv[3]) if len(sys.argv) > 3 else 1
+todo = [p for i, p in enumerate(todo) if i % nshards == shard]
+log(f'shard {shard}/{nshards}: {len(todo)} files to OCR, doing {min(len(todo), limit)} this run')
 
 for p in todo[:limit]:
     t0 = time.time()
