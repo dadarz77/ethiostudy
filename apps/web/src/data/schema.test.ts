@@ -61,3 +61,56 @@ describe('content integrity', () => {
     for (const tid of seen) expect(idx[tid]).toBeTruthy();
   });
 });
+
+/* ---------- authored international bank (thin-pool originals) ---------- */
+const AUTHORED_PATH = join(DATA, 'authored-intl.json');
+const authItems = JSON.parse(readFileSync(AUTHORED_PATH, 'utf8')) as Record<string, unknown>[];
+const AUTH_KNOWN = new Set(['type', 'q', 'options', 'answer', 'difficulty', 'explanation', 'tolerance', 'altAnswers', 'answer_note', 'examId', 'areaId', 'source', 'id']);
+
+describe('authored intl bank', () => {
+  it('every authored item has required fields and known keys', () => {
+    for (const x of authItems) {
+      for (const k of Object.keys(x)) expect(AUTH_KNOWN.has(k), 'unknown key ' + k).toBe(true);
+      expect(typeof x.q).toBe('string');
+      expect((x.q as string).length).toBeGreaterThan(20);
+      expect(typeof x.explanation).toBe('string');
+      expect((x.explanation as string).length).toBeGreaterThan(15);
+      expect([1, 2, 3]).toContain(x.difficulty);
+      expect(typeof x.examId).toBe('string');
+      expect(typeof x.areaId).toBe('string');
+    }
+  });
+
+  it('mcq answers in range; calc answers numeric; only mcq/calc types', () => {
+    for (const x of authItems) {
+      expect(['mcq', 'calc']).toContain(x.type);
+      if (x.type === 'mcq') {
+        const opts = x.options as string[];
+        expect(Array.isArray(opts) && opts.length >= 2 && opts.length <= 5).toBe(true);
+        expect(Number.isInteger(x.answer) && (x.answer as number) >= 0 && (x.answer as number) < opts.length).toBe(true);
+      } else {
+        expect(x.options === undefined).toBe(true);
+        const a = x.answer;
+        expect(typeof a === 'number' || /^-?\d[\d.eE+-]*$/.test(String(a).trim()), 'calc answer: ' + String(a)).toBe(true);
+      }
+    }
+  });
+
+  it('no duplicate authored stems', () => {
+    const seen = new Set<string>();
+    for (const x of authItems) {
+      const k = (x.q as string).toLowerCase().replace(/[^a-z0-9]/g, '').slice(0, 80);
+      expect(seen.has(k), 'duplicate: ' + String(x.q).slice(0, 50)).toBe(false);
+      seen.add(k);
+    }
+  });
+
+  it('authored items are ASCII-only (no CJK/stray unicode)', () => {
+    const bad = (s: string) => [...s].some(c => c.charCodeAt(0) > 126);
+    for (const x of authItems) {
+      expect(!bad(x.q as string), 'non-ascii stem: ' + String(x.q).slice(0, 40)).toBe(true);
+      for (const o of (x.options as string[]) ?? []) expect(!bad(o), 'non-ascii option').toBe(true);
+      expect(!bad(x.explanation as string), 'non-ascii explanation').toBe(true);
+    }
+  });
+});

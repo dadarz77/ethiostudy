@@ -6,6 +6,7 @@
  * EthioStudy curriculum bank.
  */
 import OPENSTAX_PHYSICS from './openstax-physics.json';
+import AUTHORED_INTL from './authored-intl.json';
 
 export type UnitRef = [grade: '9' | '10' | '11' | '12', subject: string, unit: string];
 
@@ -135,6 +136,11 @@ export function areaPools(exam: IntlExam, lessonFor: (tid: string) => { question
       for (const q of OPENSTAX_PHYSICS) {
         if ((q as { areaId?: string }).areaId === area.id) pool.push({ q, tid: 'intl:igcse-physics:openstax' });
       }
+    }
+    // Original authored bank (thin-pool enrichment; see scripts/authoring): keyed by exam+area
+    for (const q of AUTHORED_INTL) {
+      const a = q as { examId?: string; areaId?: string };
+      if (a.examId === exam.id && a.areaId === area.id) pool.push({ q, tid: 'intl:authored:' + area.id });
     }
     return { area, pool };
   });

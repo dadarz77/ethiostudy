@@ -1,0 +1,594 @@
+[
+ {
+  "id": "auth-chem-abse-001",
+  "examId": "igcse-chemistry",
+  "areaId": "abse",
+  "type": "mcq",
+  "q": "According to the Arrhenius theory, what is an acid?",
+  "options": [
+   "A substance that produces hydrogen ions, H+, when dissolved in water",
+   "A substance that produces hydroxide ions, OH-, when dissolved in water",
+   "A substance that donates a pair of electrons to a metal ion",
+   "A substance that turns blue litmus paper red when added as a solid"
+  ],
+  "answer": 0,
+  "difficulty": 1,
+  "explanation": "An Arrhenius acid increases the concentration of H+ ions in aqueous solution; producing OH- is the Arrhenius definition of a base. Electron-pair donation describes a Lewis base, and litmus must be tested in solution, not as a solid."
+ },
+ {
+  "id": "auth-chem-abse-002",
+  "examId": "igcse-chemistry",
+  "areaId": "abse",
+  "type": "mcq",
+  "q": "Which statement best explains why aqueous ammonia is an Arrhenius base even though its formula, NH3, contains no OH group?",
+  "options": [
+   "It reacts with water to produce hydroxide ions, OH-, in solution",
+   "It contains hydrogen atoms that can be released as H+ ions",
+   "It turns red litmus paper blue as a dry gas",
+   "It is a weak acid that partially ionises in water"
+  ],
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "NH3 + H2O -> NH4+ + OH-, so the solution contains hydroxide ions produced by reaction with water, which is what the Arrhenius definition requires. Red litmus must be damp to register the alkaline solution, and ammonia is not an acid."
+ },
+ {
+  "id": "auth-chem-abse-003",
+  "examId": "igcse-chemistry",
+  "areaId": "abse",
+  "type": "mcq",
+  "q": "A solution has a pH of 3. What colour is universal indicator solution in this solution?",
+  "options": [
+   "Purple",
+   "Green",
+   "Orange-red",
+   "Colourless"
+  ],
+  "answer": 2,
+  "difficulty": 1,
+  "explanation": "pH 3 is acidic: universal indicator is red at pH 1-2 and orange at about pH 3. Green is neutral (pH 7) and purple is strongly alkaline (about pH 12-14); universal indicator is never colourless over these ranges."
+ },
+ {
+  "id": "auth-chem-abse-004",
+  "examId": "igcse-chemistry",
+  "areaId": "abse",
+  "type": "mcq",
+  "q": "The gas given off when marble chips react with dilute hydrochloric acid is bubbled through limewater. What observation is made, and which reaction causes it?",
+  "options": [
+   "The limewater turns milky, because the gas forms insoluble calcium carbonate",
+   "The limewater turns blue, because the gas is alkaline",
+   "A squeaky pop is heard, because the gas is hydrogen",
+   "The limewater stays clear, because carbon dioxide is only detected with a lighted splint"
+  ],
+  "answer": 0,
+  "difficulty": 1,
+  "explanation": "Marble chips (CaCO3) + HCl give CO2; CO2 turns limewater (calcium hydroxide solution) milky by re-forming insoluble white CaCO3. The pop test is for hydrogen, limewater does not turn blue, and CO2 is identified by the milky test, not a splint."
+ },
+ {
+  "id": "auth-chem-abse-005",
+  "examId": "igcse-chemistry",
+  "areaId": "abse",
+  "type": "mcq",
+  "q": "Two beakers contain 1.0 mol/dm3 hydrochloric acid and 1.0 mol/dm3 ethanoic acid. Equal pieces of magnesium ribbon react much faster with the hydrochloric acid. Which particle-level explanation is correct?",
+  "options": [
+   "Hydrochloric acid has a higher concentration of acid particles than ethanoic acid",
+   "Ethanoic acid molecules are larger, so they cannot reach the metal surface",
+   "Hydrochloric acid is fully ionised, so it has a higher concentration of H+ ions for more frequent collisions",
+   "Ethanoic acid is a dilute solution, so it reacts more slowly"
+  ],
+  "answer": 2,
+  "difficulty": 2,
+  "explanation": "Both solutions are 1.0 mol/dm3, so the concentration of acid particles is the same; the difference is that HCl ionises completely while CH3COOH only partially ionises, giving fewer H+ ions and fewer successful collisions per second. Weak refers to degree of ionisation, not to dilution."
+ },
+ {
+  "id": "auth-chem-abse-006",
+  "examId": "igcse-chemistry",
+  "areaId": "abse",
+  "type": "mcq",
+  "q": "Two solutions, both of concentration 0.10 mol/dm3, are tested with universal indicator: hydrochloric acid turns it red (pH 1) and ethanoic acid turns it orange (pH about 3). Methyl orange was also added to each. Which conclusion is supported by these results?",
+  "options": [
+   "Ethanoic acid is more dilute than hydrochloric acid",
+   "Ethanoic acid is weaker because fewer of its particles ionise, so fewer H+ ions are present at the same concentration",
+   "Both acids are strong because they have the same concentration",
+   "Methyl orange would be yellow in the hydrochloric acid and red in the ethanoic acid"
+  ],
+  "answer": 1,
+  "difficulty": 3,
+  "explanation": "Equal concentrations but different pH values show different [H+]: CH3COOH only partially ionises, so it is a weak acid. Both solutions are acidic, so methyl orange is red in both (it is only yellow in alkali); equal concentrations rule out a dilution difference, and strength is about ionisation, not concentration."
+ },
+ {
+  "id": "auth-chem-abse-007",
+  "examId": "igcse-chemistry",
+  "areaId": "abse",
+  "type": "mcq",
+  "q": "What are the products when magnesium ribbon reacts with dilute sulfuric acid?",
+  "options": [
+   "Magnesium sulfate and hydrogen",
+   "Magnesium sulfite and oxygen",
+   "Magnesium oxide and hydrogen",
+   "Magnesium sulfate and carbon dioxide"
+  ],
+  "answer": 0,
+  "difficulty": 1,
+  "explanation": "Acid + metal -> salt + hydrogen, so Mg + H2SO4 -> MgSO4 + H2. Oxygen is not produced (that is an electrolysis product), sulfite would form from sulfur dioxide, and carbon dioxide is impossible because no carbon is present."
+ },
+ {
+  "id": "auth-chem-abse-008",
+  "examId": "igcse-chemistry",
+  "areaId": "abse",
+  "type": "mcq",
+  "q": "Calcium carbonate chips are added to excess dilute hydrochloric acid. Which list gives the products of the reaction?",
+  "options": [
+   "Calcium chloride, carbon dioxide and water",
+   "Calcium chloride and hydrogen only",
+   "Calcium hydroxide, carbon dioxide and hydrochloric acid",
+   "Calcium oxide, carbon dioxide and water"
+  ],
+  "answer": 0,
+  "difficulty": 1,
+  "explanation": "Acid + carbonate -> salt + carbon dioxide + water: CaCO3 + 2HCl -> CaCl2 + CO2 + H2O. Hydrogen is the product only of acid + metal reactions; calcium hydroxide is a base that would react further with the acid; heating, not acids, decomposes CaCO3 to CaO."
+ },
+ {
+  "id": "auth-chem-abse-009",
+  "examId": "igcse-chemistry",
+  "areaId": "abse",
+  "type": "mcq",
+  "q": "Which pair of substances reacts to form only potassium nitrate and water?",
+  "options": [
+   "Potassium metal and dilute nitric acid",
+   "Potassium hydroxide solution and dilute nitric acid",
+   "Potassium carbonate solution and dilute nitric acid",
+   "Potassium oxide solid and dilute hydrochloric acid"
+  ],
+  "answer": 1,
+  "difficulty": 2,
+  "explanation": "Alkali + acid -> salt + water only: KOH + HNO3 -> KNO3 + H2O. Potassium metal also releases hydrogen and potassium carbonate also releases carbon dioxide, while potassium oxide with hydrochloric acid would form potassium chloride, not the nitrate."
+ },
+ {
+  "id": "auth-chem-abse-010",
+  "examId": "igcse-chemistry",
+  "areaId": "abse",
+  "type": "mcq",
+  "q": "A student prepares pure, dry crystals of copper(II) sulfate by adding copper(II) oxide powder to warm dilute sulfuric acid. Why must the copper(II) oxide be added in excess?",
+  "options": [
+   "To raise the temperature of the reaction mixture",
+   "To make sure all the sulfuric acid has reacted, so the filtrate contains no leftover acid",
+   "To speed up the reaction so crystals form faster",
+   "Because copper(II) oxide is soluble and the excess dissolves completely"
+  ],
+  "answer": 1,
+  "difficulty": 2,
+  "explanation": "Copper(II) oxide is an insoluble base; adding it in excess guarantees every H+ ion has reacted, and the unreacted solid is then removed by filtration, leaving a pure salt solution. It neither heats nor catalyses the reaction, and if it were soluble the excess could not be filtered off."
+ },
+ {
+  "id": "auth-chem-abse-011",
+  "examId": "igcse-chemistry",
+  "areaId": "abse",
+  "type": "mcq",
+  "q": "Why is the excess-solid method not suitable for preparing sodium sulfate from sodium hydroxide solution and dilute sulfuric acid?",
+  "options": [
+   "Sodium hydroxide is not a base, so it does not react with acids",
+   "Sodium sulfate is insoluble, so no salt forms in solution",
+   "Sodium hydroxide dissolves completely, so any excess cannot be removed by filtration and would contaminate the salt",
+   "The reaction between sodium hydroxide and sulfuric acid does not produce a salt"
+  ],
+  "answer": 2,
+  "difficulty": 3,
+  "explanation": "The excess-solid method needs an INSOLUBLE base that can be filtered off once the acid is used up. NaOH is a soluble base, so leftover NaOH stays in the filtrate and contaminates the crystals; a titration using an indicator is used instead to find the exact neutralisation volume."
+ },
+ {
+  "id": "auth-chem-abse-012",
+  "examId": "igcse-chemistry",
+  "areaId": "abse",
+  "type": "mcq",
+  "q": "After filtering the excess solid from the warm salt solution, how should a student obtain dry crystals of copper(II) sulfate?",
+  "options": [
+   "Heat the filtrate to complete dryness over a full flame, then scrape out the powder",
+   "Evaporate some of the water to concentrate the solution, cool it so crystals form, then filter and pat the crystals dry",
+   "Add ethanol to the solution and distill the mixture at 100 degrees C",
+   "Boil the solution hard for ten minutes, then leave the beaker uncovered overnight"
+  ],
+  "answer": 1,
+  "difficulty": 2,
+  "explanation": "Crystallisation steps: concentrate by gentle evaporation, test with a glass rod that crystals form on cooling, cool the solution to grow crystals, then filter and dry the crystals between sheets of filter paper. Boiling to dryness burns the hydrated salt and traps soluble impurities in a crust."
+ },
+ {
+  "id": "auth-chem-abse-013",
+  "examId": "igcse-chemistry",
+  "areaId": "abse",
+  "type": "mcq",
+  "q": "A gas is collected during the reaction of zinc with dilute hydrochloric acid. A lighted splint held at the mouth of the tube produces a squeaky pop. Which gas is present?",
+  "options": [
+   "Oxygen",
+   "Carbon dioxide",
+   "Hydrogen",
+   "Chlorine"
+  ],
+  "answer": 2,
+  "difficulty": 1,
+  "explanation": "The squeaky pop with a lighted splint is the standard test for hydrogen; zinc + HCl gives ZnCl2 and H2. Oxygen relights a glowing splint, carbon dioxide simply extinguishes a flame without popping, and chlorine bleaches damp litmus paper."
+ },
+ {
+  "id": "auth-chem-abse-014",
+  "examId": "igcse-chemistry",
+  "areaId": "abse",
+  "type": "mcq",
+  "q": "Farmer A is testing soil and finds it has a pH of 5. Which substance should be added to the soil, and what does this do to the pH?",
+  "options": [
+   "Calcium hydroxide, which raises the pH towards neutral",
+   "Sulfuric acid, which lowers the pH",
+   "Water, which raises the pH back to exactly 7",
+   "Ammonium nitrate fertiliser, which raises the pH"
+  ],
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "pH 5 soil is too acidic for crops; a base such as calcium hydroxide (slaked lime) is spread on the soil and neutralises the acid, raising the pH towards 7. Adding acid would worsen the problem, and simply adding water moves the pH only slightly towards neutral, never to exactly 7; ammonium nitrate is acidic in the soil."
+ },
+ {
+  "id": "auth-chem-abse-015",
+  "examId": "igcse-chemistry",
+  "areaId": "abse",
+  "type": "calc",
+  "q": "0.0200 mol of magnesium ribbon reacts completely with excess dilute hydrochloric acid: Mg + 2HCl -> MgCl2 + H2. What volume of hydrogen gas is produced at room temperature and pressure, in cm3? (1 mol of any gas occupies 24.0 dm3 at r.t.p.)",
+  "answer": "480",
+  "tolerance": 0.02,
+  "answer_note": "cm3",
+  "difficulty": 2,
+  "explanation": "From Mg + 2HCl -> MgCl2 + H2, 1 mol of Mg gives 1 mol of H2, so n(H2) = 0.0200 mol. V = n x 24.0 = 0.0200 x 24.0 = 0.480 dm3 = 480 cm3."
+ },
+ {
+  "id": "auth-chem-abse-016",
+  "examId": "igcse-chemistry",
+  "areaId": "abse",
+  "type": "calc",
+  "q": "20.0 cm3 of 0.100 mol/dm3 sulfuric acid exactly neutralises 25.0 cm3 of sodium hydroxide solution: H2SO4 + 2NaOH -> Na2SO4 + 2H2O. Calculate the concentration of the sodium hydroxide solution in mol/dm3.",
+  "answer": "0.160",
+  "tolerance": 0.02,
+  "answer_note": "mol/dm3",
+  "difficulty": 3,
+  "explanation": "n(H2SO4) = 0.100 x 20.0/1000 = 0.00200 mol; the 1:2 ratio gives n(NaOH) = 2 x 0.00200 = 0.00400 mol. c(NaOH) = 0.00400 / (25.0/1000) = 0.160 mol/dm3."
+ },
+ {
+  "id": "auth-chem-abse-017",
+  "examId": "igcse-chemistry",
+  "areaId": "abse",
+  "type": "calc",
+  "q": "2.50 g of calcium carbonate (Mr = 100) reacts completely with excess dilute nitric acid: CaCO3 + 2HNO3 -> Ca(NO3)2 + CO2 + H2O. What volume of carbon dioxide is produced at r.t.p., in cm3? (1 mol of gas occupies 24.0 dm3 at r.t.p.)",
+  "answer": "600",
+  "tolerance": 0.02,
+  "answer_note": "cm3",
+  "difficulty": 2,
+  "explanation": "n(CaCO3) = 2.50/100 = 0.0250 mol, and 1 mol CaCO3 gives 1 mol CO2, so n(CO2) = 0.0250 mol. V = 0.0250 x 24.0 = 0.600 dm3 = 600 cm3."
+ },
+ {
+  "id": "auth-chem-abse-018",
+  "examId": "igcse-chemistry",
+  "areaId": "abse",
+  "type": "calc",
+  "q": "Calculate the mass of potassium hydroxide (Mr = 56.1) needed to make 500 cm3 of a 0.200 mol/dm3 solution. Give your answer in grams to 2 significant figures.",
+  "answer": "5.6",
+  "tolerance": 0.02,
+  "answer_note": "g",
+  "difficulty": 2,
+  "explanation": "n = c x V = 0.200 x 500/1000 = 0.100 mol. Mass = n x Mr = 0.100 x 56.1 = 5.61 g, which rounds to 5.6 g to 2 significant figures."
+ },
+ {
+  "id": "auth-chem-abse-019",
+  "examId": "igcse-chemistry",
+  "areaId": "abse",
+  "type": "calc",
+  "q": "50.0 cm3 of 2.00 mol/dm3 hydrochloric acid is added to 0.0500 mol of sodium hydroxide: HCl + NaOH -> NaCl + H2O. Calculate the number of moles of hydrochloric acid remaining after the reaction is complete.",
+  "answer": "0.050",
+  "tolerance": 0.02,
+  "answer_note": "mol",
+  "difficulty": 3,
+  "explanation": "n(HCl) added = 2.00 x 50.0/1000 = 0.100 mol. HCl and NaOH react in a 1:1 ratio, so 0.0500 mol of HCl is used; 0.100 - 0.0500 = 0.050 mol remains in excess."
+ },
+ {
+  "id": "auth-chem-abse-020",
+  "examId": "igcse-chemistry",
+  "areaId": "abse",
+  "type": "calc",
+  "q": "A 2.00 g sample of impure calcium carbonate (Mr = 100) is reacted with excess dilute hydrochloric acid. The insoluble impurities are filtered off and dried and have a mass of 0.75 g. Calculate the percentage purity of the calcium carbonate sample.",
+  "answer": "62.5",
+  "tolerance": 0.02,
+  "answer_note": "%",
+  "difficulty": 3,
+  "explanation": "Mass of pure CaCO3 = 2.00 - 0.75 = 1.25 g. Percentage purity = 1.25/2.00 x 100 = 62.5%. This corresponds to 0.0125 mol CaCO3, which would give 300 cm3 of CO2 at r.t.p., confirming only the carbonate reacted."
+ },
+ {
+  "id": "auth-chem-electro-001",
+  "examId": "igcse-chemistry",
+  "areaId": "electro",
+  "type": "mcq",
+  "q": "Which statement about bond breaking and bond making in a chemical reaction is correct?",
+  "options": [
+   "Energy is released when bonds are broken and energy is absorbed when bonds are formed",
+   "Energy is absorbed when bonds are broken and energy is released when bonds are formed",
+   "Both bond breaking and bond making release energy",
+   "Both bond breaking and bond making absorb energy"
+  ],
+  "answer": 1,
+  "difficulty": 1,
+  "explanation": "Breaking bonds always requires an input of energy (endothermic) and forming bonds always releases energy (exothermic). The overall energy change of a reaction is the balance between these two."
+ },
+ {
+  "id": "auth-chem-electro-002",
+  "examId": "igcse-chemistry",
+  "areaId": "electro",
+  "type": "mcq",
+  "q": "Citric acid solution and sodium hydrogencarbonate solution are mixed in a beaker. The temperature of the mixture falls. What does this show about the reaction?",
+  "options": [
+   "It is endothermic because it takes in heat from the surroundings, which get colder",
+   "It is endothermic because it gives out heat to the surroundings, which get colder",
+   "It is exothermic because it takes in heat from the surroundings, which get colder",
+   "It is exothermic because the reaction itself is cold"
+  ],
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "A fall in temperature means heat energy is taken in from the surroundings during the reaction, so the reaction is endothermic. 'Endothermic' does not mean the reaction is cold; it means energy is absorbed from the surroundings, cooling them."
+ },
+ {
+  "id": "auth-chem-electro-003",
+  "examId": "igcse-chemistry",
+  "areaId": "electro",
+  "type": "mcq",
+  "q": "Which statement describes the energy levels in an exothermic reaction?",
+  "options": [
+   "The products have less energy than the reactants, so energy is released to the surroundings",
+   "The products have more energy than the reactants, so energy is taken in from the surroundings",
+   "The reactants and products have the same energy, so no energy change happens",
+   "The activation energy is zero, so no energy is needed to start the reaction"
+  ],
+  "answer": 0,
+  "difficulty": 1,
+  "explanation": "In an energy-level description of an exothermic reaction, the products sit lower than the reactants; the difference in energy is released to the surroundings. An activation energy hump still exists, so it is not zero."
+ },
+ {
+  "id": "auth-chem-electro-004",
+  "examId": "igcse-chemistry",
+  "areaId": "electro",
+  "type": "mcq",
+  "q": "Methane burns in oxygen. Which statement about the energy changes in this reaction is correct?",
+  "options": [
+   "Energy is released because the bonds formed in the products release more energy, in total, than the bonds broken in the reactants absorb",
+   "No energy is needed to start the reaction because bonds in the reactants do not have to be broken",
+   "The reaction is endothermic because a lighted splint is needed to ignite the gas",
+   "Energy is absorbed when the new C=O and O-H bonds in the products are formed"
+  ],
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "Combustion needs a spark or flame first to supply the activation energy for breaking reactant bonds, but the new bonds in CO2 and H2O release more energy than was absorbed, so burning is strongly exothermic."
+ },
+ {
+  "id": "auth-chem-electro-005",
+  "examId": "igcse-chemistry",
+  "areaId": "electro",
+  "type": "mcq",
+  "q": "Dilute hydrochloric acid is added to sodium hydroxide solution in a beaker. What happens to the temperature of the mixture and why?",
+  "options": [
+   "It rises, because neutralisation is exothermic and releases heat to the surroundings",
+   "It falls, because neutralisation is endothermic and takes in heat from the surroundings",
+   "It falls, because the acid cools the alkali as it is added",
+   "It stays the same, because no energy change occurs in a neutralisation reaction"
+  ],
+  "answer": 0,
+  "difficulty": 1,
+  "explanation": "Neutralisation (H+ + OH- -> H2O) releases energy to the surroundings, so the temperature of the mixture rises. Reactions that 'feel cold' are endothermic; acid-base neutralisation is not one of them."
+ },
+ {
+  "id": "auth-chem-electro-006",
+  "examId": "igcse-chemistry",
+  "areaId": "electro",
+  "type": "mcq",
+  "q": "In electrolysis, what is the electrolyte?",
+  "options": [
+   "The molten or aqueous ionic compound that is decomposed",
+   "The solid metal rod connected to the positive terminal",
+   "The d.c. power supply that drives the reaction",
+   "The gas collected at one of the electrodes"
+  ],
+  "answer": 0,
+  "difficulty": 1,
+  "explanation": "The electrolyte is the molten or dissolved ionic substance containing mobile ions that carry the current and are decomposed. The rods are the electrodes and the power supply is the battery or cell."
+ },
+ {
+  "id": "auth-chem-electro-007",
+  "examId": "igcse-chemistry",
+  "areaId": "electro",
+  "type": "mcq",
+  "q": "Which statement about the cathode in electrolysis is correct?",
+  "options": [
+   "It is the negative electrode and reduction happens there",
+   "It is the positive electrode and oxidation happens there",
+   "It is the negative electrode and oxidation happens there",
+   "It is the positive electrode and reduction happens there"
+  ],
+  "answer": 0,
+  "difficulty": 1,
+  "explanation": "RED CAT: reduction (gain of electrons) occurs at the cathode, which is the electrode connected to the negative terminal of the power supply. The anode is the positive electrode where oxidation happens."
+ },
+ {
+  "id": "auth-chem-electro-008",
+  "examId": "igcse-chemistry",
+  "areaId": "electro",
+  "type": "mcq",
+  "q": "Molten sodium chloride, NaCl, is electrolysed using inert electrodes. What is collected at each electrode?",
+  "options": [
+   "Sodium metal at the cathode and chlorine gas at the anode",
+   "Chlorine gas at the cathode and sodium metal at the anode",
+   "Hydrogen gas at the cathode and chlorine gas at the anode",
+   "Sodium metal at the cathode and oxygen gas at the anode"
+  ],
+  "answer": 0,
+  "difficulty": 1,
+  "explanation": "Molten NaCl contains only Na+ and Cl- ions. Na+ moves to the cathode and gains electrons (Na+ + e- -> Na); Cl- moves to the anode and loses electrons (2Cl- -> Cl2 + 2e-). Hydrogen and oxygen only appear when water is present in an aqueous solution."
+ },
+ {
+  "id": "auth-chem-electro-009",
+  "examId": "igcse-chemistry",
+  "areaId": "electro",
+  "type": "mcq",
+  "q": "Aqueous copper(II) sulfate, CuSO4, is electrolysed using inert platinum electrodes. What is produced at the cathode?",
+  "options": [
+   "A pink-brown copper coating, because Cu2+ ions gain electrons",
+   "Hydrogen gas, because H+ ions are discharged in preference to Cu2+ ions",
+   "Oxygen gas, because OH- ions migrate to the cathode",
+   "Sulfur dioxide gas, because SO4 2- ions are oxidised"
+  ],
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "Cu2+ ions are less reactive than H+ ions (copper is below hydrogen in the reactivity series), so Cu2+ is preferentially discharged: Cu2+ + 2e- -> Cu. At the anode it is OH- that loses electrons, not sulfate, giving oxygen."
+ },
+ {
+  "id": "auth-chem-electro-010",
+  "examId": "igcse-chemistry",
+  "areaId": "electro",
+  "type": "mcq",
+  "q": "Concentrated aqueous sodium chloride (brine) is electrolysed using inert electrodes. Which products are formed?",
+  "options": [
+   "Hydrogen at the cathode, chlorine at the anode, and sodium hydroxide solution left in the cell",
+   "Sodium metal at the cathode, chlorine gas at the anode, and water left in the cell",
+   "Hydrogen at the cathode, oxygen gas at the anode, and sodium chloride left unchanged",
+   "Chlorine at the cathode, hydrogen at the anode, and sodium hydroxide in the solution"
+  ],
+  "answer": 0,
+  "difficulty": 3,
+  "explanation": "In brine, H+ from water is discharged in preference to Na+ (sodium is far more reactive than hydrogen), giving hydrogen at the cathode; Cl- is discharged giving chlorine at the anode. Na+ and OH- are left behind, so NaOH solution forms. Sodium metal is never produced from aqueous solution."
+ },
+ {
+  "id": "auth-chem-electro-011",
+  "examId": "igcse-chemistry",
+  "areaId": "electro",
+  "type": "mcq",
+  "q": "Which half-equation represents the reaction at the cathode during the electrolysis of aqueous copper(II) sulfate with inert electrodes?",
+  "options": [
+   "Cu2+ + 2e- -> Cu",
+   "Cu -> Cu2+ + 2e-",
+   "2H+ + 2e- -> H2",
+   "4OH- -> 2H2O + O2 + 4e-"
+  ],
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "At the cathode reduction (gain of electrons) occurs and Cu2+ is discharged in preference to H+, so Cu2+ + 2e- -> Cu. The option with electrons on the right is an oxidation, and the OH- half-equation is the anode reaction."
+ },
+ {
+  "id": "auth-chem-electro-012",
+  "examId": "igcse-chemistry",
+  "areaId": "electro",
+  "type": "mcq",
+  "q": "Which half-equation shows the reaction at the anode during the electrolysis of aqueous sodium sulfate with inert electrodes?",
+  "options": [
+   "4OH- -> 2H2O + O2 + 4e-",
+   "2SO4 2- -> 2SO2 + O2 + 4e-",
+   "2H2O + 2e- -> H2 + 2OH-",
+   "Na+ + e- -> Na"
+  ],
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "At the anode OH- ions from water lose electrons to give oxygen: 4OH- -> 2H2O + O2 + 4e-. Sulfate ions are never discharged in water electrolysis, and the options showing gain of electrons are cathode reactions."
+ },
+ {
+  "id": "auth-chem-electro-013",
+  "examId": "igcse-chemistry",
+  "areaId": "electro",
+  "type": "mcq",
+  "q": "A simple cell is made by dipping two metals, connected by a wire through a voltmeter, into sodium chloride solution. Using the reactivity series Mg > Zn > Fe > Cu > Ag, which pair gives the largest voltage?",
+  "options": [
+   "Zinc and silver",
+   "Zinc and iron",
+   "Iron and copper",
+   "Copper and silver"
+  ],
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "The voltage of a simple cell increases with the difference in reactivity between the two metals. Zinc and silver are furthest apart in the given series, so that pair gives the largest voltage; copper and silver are closest and give the smallest."
+ },
+ {
+  "id": "auth-chem-electro-014",
+  "examId": "igcse-chemistry",
+  "areaId": "electro",
+  "type": "mcq",
+  "q": "How does the energy conversion in a battery (simple cell) differ from that in electrolysis?",
+  "options": [
+   "A battery converts chemical energy into electrical energy, while electrolysis converts electrical energy into chemical energy",
+   "A battery converts electrical energy into chemical energy, while electrolysis converts chemical energy into electrical energy",
+   "Both convert chemical energy into electrical energy, but a battery also releases heat",
+   "Both convert electrical energy into chemical energy, but electrolysis needs a salt bridge"
+  ],
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "A cell or battery generates electricity from a spontaneous chemical reaction: chemical to electrical energy. Electrolysis forces a non-spontaneous reaction using an external power supply: electrical to chemical energy. The two processes are opposite energy conversions."
+ },
+ {
+  "id": "auth-chem-electro-015",
+  "examId": "igcse-chemistry",
+  "areaId": "electro",
+  "type": "calc",
+  "q": "For the reaction CH4 + 2O2 -> CO2 + 2H2O, use the mean bond energies given: C-H = 413 kJ/mol, O=O = 498 kJ/mol, C=O = 799 kJ/mol, O-H = 463 kJ/mol. How much energy is released (in kJ) when one mole of methane burns? Give a positive number.",
+  "answer": "810",
+  "tolerance": 2,
+  "answer_note": "kJ",
+  "difficulty": 3,
+  "explanation": "Energy absorbed breaking bonds = 4(413) + 2(498) = 1652 + 996 = 2648 kJ. Energy released forming bonds = 2(799) + 4(463) = 1598 + 1852 = 3450 kJ (CO2 has two C=O bonds; each H2O has two O-H bonds). Net release = 3450 - 2648 = 810 kJ."
+ },
+ {
+  "id": "auth-chem-electro-016",
+  "examId": "igcse-chemistry",
+  "areaId": "electro",
+  "type": "calc",
+  "q": "For the reaction H2 + Cl2 -> 2HCl, use the mean bond energies given: H-H = 436 kJ/mol, Cl-Cl = 243 kJ/mol, H-Cl = 431 kJ/mol. Calculate the overall energy change, in kJ, for the reaction as written. Enter a negative number if the reaction is exothermic.",
+  "answer": "-183",
+  "tolerance": 2,
+  "answer_note": "kJ",
+  "difficulty": 2,
+  "explanation": "Bonds broken = 436 + 243 = 679 kJ. Bonds formed = 2(431) = 862 kJ. Energy change = energy in - energy out = 679 - 862 = -183 kJ, so the reaction is exothermic."
+ },
+ {
+  "id": "auth-chem-electro-017",
+  "examId": "igcse-chemistry",
+  "areaId": "electro",
+  "type": "calc",
+  "q": "Ethene reacts with hydrogen: CH2=CH2 + H2 -> CH3-CH3. Mean bond energies given: C=C = 614 kJ/mol, C-C = 347 kJ/mol, H-H = 436 kJ/mol, C-H = 413 kJ/mol. Calculate the overall energy change, in kJ, for this reaction. Enter a negative number if the reaction is exothermic.",
+  "answer": "-128",
+  "tolerance": 2,
+  "answer_note": "kJ",
+  "difficulty": 3,
+  "explanation": "The 4 unchanged C-H bonds cancel out. Bonds broken = 614 (C=C) + 436 (H-H) = 1050 kJ. Bonds formed = 347 (new C-C) + 2(413) (two new C-H) = 1173 kJ. Energy change = 1050 - 1173 = -128 kJ, so the hydrogenation is exothermic."
+ },
+ {
+  "id": "auth-chem-electro-018",
+  "examId": "igcse-chemistry",
+  "areaId": "electro",
+  "type": "calc",
+  "q": "For the reaction N2 + 3H2 -> 2NH3, use the mean bond energies given: N triple-bond N = 945 kJ/mol, H-H = 436 kJ/mol, N-H = 391 kJ/mol. Calculate the overall energy change, in kJ, for the reaction as written. Enter a negative number if the reaction is exothermic.",
+  "answer": "-88",
+  "tolerance": 2,
+  "answer_note": "kJ",
+  "difficulty": 2,
+  "explanation": "Bonds broken = 945 + 3(436) = 945 + 1308 = 2253 kJ. Bonds formed = 6(391) = 2346 kJ (each NH3 has three N-H bonds). Energy change = 2253 - 2346 = -88 kJ, so ammonia formation is exothermic."
+ },
+ {
+  "id": "auth-chem-electro-019",
+  "examId": "igcse-chemistry",
+  "areaId": "electro",
+  "type": "calc",
+  "q": "Carbon monoxide burns: 2CO + O2 -> 2CO2. Mean bond energies given: the C-to-O bond in CO = 1072 kJ/mol, O=O = 498 kJ/mol, C=O = 799 kJ/mol. Calculate the overall energy change, in kJ, for the reaction as written. Enter a negative number if the reaction is exothermic.",
+  "answer": "-986",
+  "tolerance": 2,
+  "answer_note": "kJ",
+  "difficulty": 3,
+  "explanation": "Bonds broken = 2(1072) + 498 = 2144 + 498 = 2642 kJ. Bonds formed = 4(799) = 3196 kJ (each CO2 has two C=O bonds). Energy change = 2642 - 3196 = -986 kJ, so the combustion is exothermic."
+ },
+ {
+  "id": "auth-chem-electro-020",
+  "examId": "igcse-chemistry",
+  "areaId": "electro",
+  "type": "calc",
+  "q": "50.0 cm3 of 1.0 mol/dm3 hydrochloric acid is neutralised by 50.0 cm3 of 1.0 mol/dm3 sodium hydroxide solution. The heat energy released is 2.85 kJ. Using Q = m c (change in temperature), with total volume 100 cm3, density 1.0 g/cm3 and specific heat capacity c = 4.2 J/g/degree C, calculate the temperature rise of the mixture, in degrees Celsius. Give your answer to 1 decimal place.",
+  "answer": "6.8",
+  "tolerance": 0.2,
+  "answer_note": "degrees C",
+  "difficulty": 2,
+  "explanation": "Mass of solution = 100 cm3 x 1.0 g/cm3 = 100 g. Rearranging Q = m c delta-T: delta-T = Q / (m c) = 2850 J / (100 g x 4.2 J/g/degree C) = 2850 / 420 = 6.78... = 6.8 degrees C."
+ }
+]
