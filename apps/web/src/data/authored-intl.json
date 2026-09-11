@@ -1267,7 +1267,7 @@
   ],
   "answer": 2,
   "difficulty": 2,
-  "explanation": "Multiply both sides by 6: 3x + 2x = 60, so 5x = 60 and x = 12. Answering 15 comes from using 3x + 3x instead of 3x + 2x."
+  "explanation": "Multiply both sides by 6: 3x + 2x = 60, so 5x = 60 and x = 12. Answering 10 comes from writing 3x + 3x instead of 3x + 2x, giving 6x = 60."
  },
  {
   "id": "auth-sat-algebra-003",
@@ -1283,7 +1283,7 @@
   ],
   "answer": 3,
   "difficulty": 2,
-  "explanation": "Expand: 5x - 10 = 3x + 12. Subtract 3x and add 10 to both sides: 2x = 22, so x = 11. Answering 1 comes from writing 2x = 12 - 10 - 10."
+  "explanation": "Expand: 5x - 10 = 3x + 12. Subtract 3x and add 10 to both sides: 2x = 22, so x = 11. Answering 1 comes from writing 2x = 12 - 10 = 2, forgetting to add the 10 across."
  },
  {
   "id": "auth-sat-algebra-004",
@@ -2024,7 +2024,7 @@
   ],
   "answer": 1,
   "difficulty": 1,
-  "explanation": "Drying removes 0.2 * 220 = 44 kg, so 220 - 44 = 176 kg remain. Answering 196 subtracts 20 instead of 20 percent."
+  "explanation": "Drying removes 0.2 * 220 = 44 kg, so 220 - 44 = 176 kg remain. Answering 154 subtracts 30 percent instead of 20."
  },
  {
   "id": "auth-sat-algebra-054",
@@ -2040,7 +2040,7 @@
   ],
   "answer": 0,
   "difficulty": 2,
-  "explanation": "The original speed is 240/4 = 60 km/h; at 80 km/h the time is 240/80 = 3 hours. Choosing 3.5 subtracts 20 km/h instead of adding."
+  "explanation": "The original speed is 240/4 = 60 km/h; at 80 km/h the time is 240/80 = 3 hours. Answering 4 just reuses the original time instead of recalculating."
  },
  {
   "id": "auth-sat-algebra-055",
