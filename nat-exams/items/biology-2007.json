@@ -202,9 +202,25 @@
     "Lactose",
     "Sucrose",
     "ATP",
-    "Lipid 14. A carbohydrate compound is known to have 12 carbon atoms in the whole molecule. What could this compound be? A) A polypeptid B)A disaccharide C) A monosaccharide D) A polysaccharide"
+    "Lipid"
    ],
    "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2007-014",
+   "subject": "biology",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "A carbohydrate compound is known to have 12 carbon atoms in the whole molecule. What could this compound be?",
+   "options": [
+    "A polypeptid",
+    "A disaccharide",
+    "A monosaccharide",
+    "A polysaccharide"
+   ],
+   "answer": 0,
    "confidence": "grid",
    "type": "mcq"
   },
@@ -840,9 +856,25 @@
     "Lower than for enzymes in the human body.",
     "Higher than for enzymes in the human body.",
     "The same as enzymes found in human body.",
-    "Lower than enzymes found in warm blooded animals. 55.A cow was found to yield much higher than any of the breeds of the parental cattle. What could be the mostprobablereasonforthis? A) Dominant genes B) Hybrid vigour C) Recessive genes D) Co-dominance genes"
+    "Lower than enzymes found in warm blooded animals."
    ],
    "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2007-055",
+   "subject": "biology",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "A cow was found to yield much higher than any of the breeds of the parental cattle. What could be the mostprobablereasonforthis?",
+   "options": [
+    "Dominant genes",
+    "Hybrid vigour",
+    "Recessive genes",
+    "Co-dominance genes"
+   ],
+   "answer": 0,
    "confidence": "grid",
    "type": "mcq"
   },
@@ -1527,7 +1559,7 @@
     "Deciduousforest",
     "Tropical rain forest",
     "Desert",
-    "Tundra Your Answers you have scored O out of 0 Answer Key"
+    "Tundra Your Answers you have scored O out of 0 Answer Key 1.D 11.C 21.C 31.D 41.D 51.D 61.C 71.C 81.C 91.C 2.A 12.B 22.A 32.C 42.C 52.B 62.B 72.A 82.C 92.B 3.C 13.C 23.A 33.A 43.C 53.C 63.A 73.D 83.D 93.A 4.C 14.B 24.A 34.A 44.C 54.C 64.C 74.C 84.A 94.D 5.A 15.B 25.C 35.A 45.B 55.B 65.A 75.C 85.C 95.A 6.D 16.D 26.C 36.D 46.B 56.B 66.C 76.C 86.B 96.B 7.C 17.D 27.D 37.A 47.D 57.B 67.D 77.D 87.B 97.B 8.C 18.B 28.B 38.C 48.B 58.C 68.C 78.D 88.A 98.D 9.B 19.A 29.B 39.B 49.B 59.A 69.C 79.B 89.C 99.D 10.B 20.A 30.D 40.A 50.D 60.A 70.B 80.C 90.C 100.B ? 2019CamaraEducationEthiopia.EthiopianGeneral SecondaryEducationCertificate and UniversityEntranceExaminations"
    ],
    "answer": 1,
    "confidence": "grid",
@@ -1543,13 +1575,13 @@
   }
  ],
  "stats": {
-  "questions": 97,
-  "items": 96,
+  "questions": 99,
+  "items": 98,
   "flagged": 1,
   "grid": 100,
   "conf": {
    "grid+tick": 26,
-   "grid": 70,
+   "grid": 72,
    "tick": 0
   }
  }

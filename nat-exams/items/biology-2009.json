@@ -1,0 +1,1581 @@
+{
+ "items": [
+  {
+   "id": "natl-biology-2009-001",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "The word science comes from the Latin word'Scientia' meaning what ?",
+   "options": [
+    "Study",
+    "Experiment",
+    "Life",
+    "Knowledgev"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-003",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "What is the intermediate compound that is formed during an enzyme catalyzed reaction?",
+   "options": [
+    "Reaction",
+    "Substrate",
+    "Product",
+    "Enzyme-substance complex"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-004",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of the following microorganisms are prokaryotic?",
+   "options": [
+    "Bacteriav",
+    "Protozoa",
+    "Yeast",
+    "Algae"
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-006",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "From which of the following diseases can one be protected by sleeping under the cover of a mosquito net?",
+   "options": [
+    "Sleeping sickness",
+    "AIDS",
+    "Malaria",
+    "Athlete's foot"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-007",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of the following parts of the flower did Mendel remove from young flowers to prevent self- population ?",
+   "options": [
+    "Stamens",
+    "Sepals",
+    "Petals",
+    "Ovaries"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-008",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "What do we call the place where organisms live in their ecosystem ? NotAnswered",
+   "options": [
+    "Abiotic",
+    "Biotic",
+    "Habitat",
+    "Niche"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-009",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of the following is the sex chromosome constitution of human males?",
+   "options": [
+    "XX",
+    "XY",
+    "ZZ",
+    "ZW"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-010",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of the following plants use CAM photosynthesis?",
+   "options": [
+    "Sugarcane",
+    "Sorghum",
+    "Maize",
+    "Cactus"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-011",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of the following bases is NOT found in RNA? a) Adenine",
+   "options": [
+    "Guanine",
+    "Cytosine",
+    "ThymineV"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-012",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "In a report of the scientific experiment description of which of the following comes before all the others?",
+   "options": [
+    "Procedure",
+    "Results",
+    "Hypothesis",
+    "Conclusion"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-013",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which one of the following is different from the other three?",
+   "options": [
+    "Starch",
+    "Glycogen",
+    "Cellulose",
+    "Maltose"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-014",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "What happens when a plant cell absorbs in more water?",
+   "options": [
+    "It shrinks",
+    "Itbecomesturgid",
+    "It becomes wilted",
+    "It swells and bursts"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-015",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which level of protein structural organization involves two or more polypeptide?",
+   "options": [
+    "Primary structure",
+    "Secondary structure",
+    "Tertiary structure",
+    "Quaternary structure"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-016",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of the following do biologists consider ancestral to the higher organisms of today?",
+   "options": [
+    "Plantae",
+    "Animalia",
+    "Fungi",
+    "Protistav"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-017",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Whichtypeof fatty acidsishealthierwhenused as ahumanfoodsource?",
+   "options": [
+    "Saturated fatty acids",
+    "Mono unsaturated fatty acids",
+    "Polyunsaturated fatty acid",
+    "Fatty acids in animal products"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-018",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of thefollowing isNOT recycled in the ecosystem?",
+   "options": [
+    "Sulphur",
+    "Energy",
+    "Carbon",
+    "Phosphorus"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-019",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "What kind of cross is performed to determine whether the parent was homozygous or heterozygous ?",
+   "options": [
+    "Monohybrid cross",
+    "Di-hybrid cross",
+    "Back cross",
+    "Double cross"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-020",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which type of animal behavior happens with out learning?",
+   "options": [
+    "Innatev",
+    "Latent",
+    "Insight",
+    "Conditioned"
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-021",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which drop of iodine solution is added to a solution of a foodstuff and the foodstuff turns dark blue what dosethefoodstuffcontain",
+   "options": [
+    "Reducing sugar",
+    "Disaccharide",
+    "Glucose",
+    "Starch"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-022",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of the following has the highest risk of HlV transmission?",
+   "options": [
+    "Hand shaking",
+    "Needle sharing",
+    "Towel Sharing",
+    "Toilet Sharing NotAnswered A) Nitrogen O B) Carbon O C) Hydrogen O D) Oxygen"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-023",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of the following elements is the most abundant in living things?",
+   "options": [
+    "Nitrogen",
+    "Carbon",
+    "Hydrogen",
+    "Oxygen"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-024",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of the following organelles is common to both plant and animal cells?",
+   "options": [
+    "Cell wall",
+    "Chloroplast",
+    "Mitochondriav",
+    "Centralvaculie"
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-025",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Among the following organic molecules, identify the one that dose not contain nitrogen.",
+   "options": [
+    "Starchv",
+    "Protein",
+    "DNA",
+    "RNA"
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-026",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "If a cell fails to form lysosomes, which of the following cellular functions will get disturbed first?",
+   "options": [
+    "Protein synthesis",
+    "Chromosomereplication",
+    "Removalofcellulardebris",
+    "Transport across cell membrane"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-027",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Most co-enzymes are the derivatives of which of the following enzymes would one use?",
+   "options": [
+    "Proteins",
+    "Vitamins",
+    "Carbohydrates",
+    "Fats"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-028",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "To produce from starch, which of the following enzymes would one use?",
+   "options": [
+    "Isomerases",
+    "Lyases",
+    "Hydrolases",
+    "Ligases"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-029",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which class of enzyme inhibitors has similar shape as that of the normal substrate?",
+   "options": [
+    "Allosteric",
+    "Competivev",
+    "Denaturing",
+    "Irreversible"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-030",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Fore a substance to easily pass arose the cell membrane by simple diffusion which of the following properties should it possess?",
+   "options": [
+    "Large size",
+    "Ability to dissolve in lipid",
+    "Positive charge",
+    "Negative charge"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-031",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Among the following factors that affect enzyme activity, which one dose NOT cause enzyme denaturation?",
+   "options": [
+    "High pH",
+    "Low pH",
+    "High temperature",
+    "Competitive inhibitor"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-032",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of the following is a type of ecological succession that starts from a cleared forest area?",
+   "options": [
+    "Hydrosere",
+    "Primary",
+    "Secondary",
+    "Pioneer"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-033",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of the following stage of photosynthesis can take place in the dark?",
+   "options": [
+    "Photolysis of water",
+    "Photosystem I",
+    "Photosystem II",
+    "Calvin cyclev"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-034",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of the following is the major role-played by bacteria and fungi in the ecosystem?",
+   "options": [
+    "Causing diseases",
+    "Nutrient recycling",
+    "Fixing carbon dioxide",
+    "Producing antibiotice"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-035",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "If a heterozygous tall pea plant (Tt) is crossed with a short pea plant(tt) ,what percentage of the progeny is expected tobe short?",
+   "options": [
+    "100%",
+    "75%",
+    "50%",
+    "25%"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-036",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of the following human cell types is attacked byHIV?",
+   "options": [
+    "Red blood cells",
+    "White",
+    "T- lymphocytes",
+    "Leukocytes"
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-037",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of the following processes is most important to release nutrients from dead organic matter in to the soil?",
+   "options": [
+    "Fixation",
+    "Decompositionv",
+    "Excretion",
+    "Respiration"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-038",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of the following biomes supports the highest diversity of plant and animal life?",
+   "options": [
+    "Tropical rain forest",
+    "Deciduous forest",
+    "Grassland",
+    "African savannah"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-039",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of the following demographic factors can increase the size of the world population?",
+   "options": [
+    "Natality",
+    "Migration",
+    "Emigration",
+    "Immigration"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-040",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "When Mendel crossed a tall pea plant with a short plant the F1 progeny were all tall what F1 did he obtain whenhemadethereciprocal cross?",
+   "options": [
+    "Short plants",
+    "Tall plants",
+    "Extra-tall plants",
+    "Plants of average height"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-041",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Among the following ABO blood group genotype, which one produces two types which one produces two types of antigens?",
+   "options": [
+    "IA10",
+    "IB10",
+    "IAIB",
+    "IBIB"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-042",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of the following methods do animal breeders use to produce domestic animals with hybrid vigor?",
+   "options": [
+    "Feedingwithnatritivefood",
+    "Matingtogetherrelatedanimals",
+    "Giving proper veterinary care",
+    "Crossbreeding their animals"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-043",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of the following groups are believed to be the first photosynthetic organisms to evolve on earth?",
+   "options": [
+    "Green plants",
+    "Green algae",
+    "Blue green algae",
+    "Lichens"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-044",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of the following factors brings about changes during both evolution and breeding of plants and animals?",
+   "options": [
+    "Limitedresources OH",
+    "Productionofexcessprogeny",
+    "Selectionv",
+    "Competition"
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-045",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Among the following which one is held most responsible for the present fast depletion of the world biodiversity ?",
+   "options": [
+    "Herbivores",
+    "Carnivores",
+    "Grazers",
+    "Humans"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-046",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of the following reproductive isolating mechanisms keeps the horse and donkey as two independent species?",
+   "options": [
+    "Hybrid inviability",
+    "Hybrid infertility",
+    "Ecological isolation",
+    "Habitat isolation"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-047",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of the following activities of an organism do we call a behavior ?",
+   "options": [
+    "Receptionofexternalstimulus",
+    "Responding of internal stimulus",
+    "Responding of stimulus",
+    "Lackofreceptorstoreceivestimulus"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-048",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "A reflex that involves internal organs such as the heart is referred to as:",
+   "options": [
+    "Somatic reflex",
+    "External reflex",
+    "Spinal reflex",
+    "Autonomic reflex"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-049",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "At which of the following generation of crosses between dominant and recessive homozygote parents are all the progeny heterozygote?",
+   "options": [
+    "Pi generation ?",
+    "F1 generation",
+    "F2 generation",
+    "F3 generation"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-050",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of the following organs serves as a coordinating system in a reflex action?",
+   "options": [
+    "Spinal cord",
+    "Dehydrogenase",
+    "Nerve cells",
+    "Oxidoreductase"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-051",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which type of enzyme catalyzes the joining of two molecules by the formation of new bonds?",
+   "options": [
+    "Decarboxylase",
+    "Dehydrogenase",
+    "LigaseV",
+    "Oxidoreductase"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-052",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "WhichofthefollowingstatementaboutenzymeisNOTcorrect?",
+   "options": [
+    "Enzymes speed up on a chemical reaction",
+    "Enzymes are very specific in their reaction",
+    "The presence of an enzyme will change the outcome of a reaction",
+    "Enzymes lower the energy of activation for a reaction to occur"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-053",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Glycolysis occurs in the_",
+   "options": [
+    "Cytoplasm",
+    "Mitochondrion",
+    "Nucleus",
+    "Chloroplast"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-054",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Anaerobicmetabolismrefers to thegeneration ofATP:",
+   "options": [
+    "Without the involvement of ADP",
+    "Without the use of glycogen",
+    "Without the use of oxygen",
+    "by the conversion of pyruvate to lactate"
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-055",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "The conversion of one molecule of glucose to two molecule of pyruvate results in the net formation of:",
+   "options": [
+    "Two molecule ofATP",
+    "Six molecules of water",
+    "Three molecules of ATP",
+    "Thirty -eight molecules of ATP"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-056",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "During alcohol fermentation pyruvic acid in the presence of pyruvate decarboxylase is first converted to_.",
+   "options": [
+    "Glucose",
+    "Lactose",
+    "Lactic acid",
+    "Acetaldehyde"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-057",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "The total amount of living tissue within a given trophic level is called:",
+   "options": [
+    "Organic mass",
+    "Energy mass",
+    "Trophic mass",
+    "Biomass"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-058",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Biomes where trees predominant are called",
+   "options": [
+    "Polar biomes",
+    "desert biomes",
+    "Trophic mass",
+    "Grassland biomes"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-059",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "The goals of biodiversity conservation include all of the following EXCEPT",
+   "options": [
+    "Protecting individual species",
+    "Introducing exotic species in to new environments efforts",
+    "Preserving habitats and ecosystem",
+    "making sure local people benefit from conservation efforts"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-060",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "The maximum population growth rate characteristic of a species is called?",
+   "options": [
+    "limiting factor",
+    "biotic potential",
+    "carrying capacity",
+    "exponential growth pattern"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-061",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "From among the following choice the field which is a branch or a part of biotechnology.",
+   "options": [
+    "parasitology",
+    "Immunology",
+    "Phycology",
+    "Genetic engineering"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-062",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of the following is publicly an UNDESIRED research activity",
+   "options": [
+    "breeding a new crop variety",
+    "synthesis of a new vaccine",
+    "manufacture of a new effective medicine",
+    "breeding a new pathogeinc microoganism"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-063",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of the following alternatives contain ONLY organic molecule?",
+   "options": [
+    "calcium carbonate, glucose, methane",
+    "carbon dioxide, sodium chloride, lysine",
+    "linoleic acid, glycine, methane",
+    "water, carbon dioxide, calcium carbonate"
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-064",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which test is suitable for checking the presence of lipidsinfoodstuffs ?",
+   "options": [
+    "buiret test",
+    "bendect's test",
+    "emulsion test",
+    "lodine test"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-065",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Howdoheavymetalionsreducethereactionrateofenzymes?",
+   "options": [
+    "by distroying the 3- dimensional shape of the enzymes active site",
+    "by raising the temperature above the optimum level for the enzyme",
+    "by dropping the PH well below the optimum level for the enzyme",
+    "by inducing mutation that disrupt thefunctioning of the enzyme"
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-066",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "What happens when enzymes become denatured?",
+   "options": [
+    "They can normally catalyzed the reductions",
+    "their active sites are changed",
+    "rate of the reactionincrease",
+    "bonds holding amino acids are unaffected"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-067",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "What happens when humanred blood cell are kept in a hypertonic solution ?",
+   "options": [
+    "the same net gain and loss of water",
+    "more water gets into the cell than leaving it",
+    "more water goes out of the cell then getting in",
+    "the cell prevent water from getting in or leaving out"
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-068",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Among thefollowingwhichonebestdescribes thecell of bacteria?",
+   "options": [
+    "Eukaryotic",
+    "Prokaryotic",
+    "Both eukaryotic and prokaryotic",
+    "Neither prokaryotic nor eukaryotic"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-069",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of the following nitrogenous bases of nucleic acids is a purine base?",
+   "options": [
+    "Adeninev",
+    "Cytosine",
+    "Thymine",
+    "Uracil"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-071",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of the following groups of viruses copy their RNA to DNA?",
+   "options": [
+    "Bacteriphages",
+    "DNA viruses",
+    "RNA viruses",
+    "Retroviruses"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-072",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of the following can reverse an enzyme inhibition that is caused by an allosteric inhibitor?",
+   "options": [
+    "Adding more substrate",
+    "Addingmoreendproduct",
+    "Depletingtheendproduct",
+    "Depleting the substrate"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-073",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "During the Krebs cycle, to which of the following molecule is most of the energy released from food transferred?",
+   "options": [
+    "ATP",
+    "NAD",
+    "ADP",
+    "AMP"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-074",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "If in a DNA molecule consisting of 1000 base pairs, there are 300 adenine bases, how many guanine bases will be present?",
+   "options": [
+    "200",
+    "400",
+    "600",
+    "700"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-075",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "During which stage of aerobic respiration dose oxidative phosphorylatuion occur?",
+   "options": [
+    "Glycolysis",
+    "Krebs cycle",
+    "Link reaction",
+    "Chemiosmosis"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-076",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "What mode of feeding do soil organisms that release nutrients from dead organic matter in to the soil have?",
+   "options": [
+    "Photoautotrophic",
+    "Saprophytic",
+    "Chemoautotrophic",
+    "Parasitic"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-077",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "When farmers are using fewer and fewer number of crop verities, what would happen to the genetic diversity of our crop plants?",
+   "options": [
+    "It would get eroded",
+    "It would be more conserved",
+    "It would be more diverse",
+    "Nothing would happen to it"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-078",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "During anaerobic respiration, what is the gross number of ATP molecules that are produced per glucose molecule?",
+   "options": [
+    "Two",
+    "Three",
+    "Fourv",
+    "Six"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-079",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Among the following four processes, identify the one that probably evolved before all the other three.",
+   "options": [
+    "Aerobic respiration",
+    "Anaerobic respiration<",
+    "Oxidizing atmospher",
+    "Photosynthesis"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-080",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of the following is NOT a learned behavior?",
+   "options": [
+    "Imprinting",
+    "Habituation",
+    "Conditioning",
+    "Trial and error"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-081",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "If an actively growing seedling is kept horizontally, which of the following would eventually happen to the seedling?",
+   "options": [
+    "The shoot would bend upward",
+    "The root would bend upward",
+    "The seeding would stop growing",
+    "The seedling would grow horizontally"
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-082",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of the following was the most possible mode of evolution by which the many species of Darwin's finches evolved on the Galapagos Islandeds?",
+   "options": [
+    "Phyletic evolution",
+    "Divergent evolution",
+    "Convergent evolution",
+    "Sympatric evolution"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-083",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Forwhich of thefollowingprocesses isATPNOT required?",
+   "options": [
+    "Diffusion of oxygen in to cells O ）1",
+    "Synthesis of molecules",
+    "Active transport of molecules from one site to another",
+    "Muscle contraction"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-084",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Mutation may be described as:",
+   "options": [
+    "Phenotypicchange",
+    "Change in gene structurev",
+    "Continuous variation",
+    "Change due to hybridization"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-085",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of the following is the most UNLIKELY action that would be expected from Ethiopians who have been given adequated biological literacy?",
+   "options": [
+    "Engagement in activities resulting in biodiversity loss",
+    "Supporting activities concerned with food security",
+    "Awareness about climate change and its problem",
+    "Engagement in biological resources conservation"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-086",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which form of mutation is responsible for the diseasesknown as leukemia?",
+   "options": [
+    "Duplication",
+    "Insertion Q",
+    "Inversion",
+    "Deletion"
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-087",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of the following characteristic can show the evolutionary relationships among organisms?",
+   "options": [
+    "Structure having similar functions",
+    "Presence of analogous structures",
+    "Presence of homologous structures",
+    "Structure having different origins"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-088",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of the following species isolating processes could lead to the evolution of a new species by the mechanisms known as sympatric speciation?",
+   "options": [
+    "A river that change its course for many years",
+    "A new mountainrange that was created manyyears Q",
+    "population of a species having different breeding seasons",
+    "A landmass thatseparated twowaterbodiesfor manyyears"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-089",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "What is an apoenzyme?",
+   "options": [
+    "A protein moleculev",
+    "An active enzyme",
+    "A non- protein molecule",
+    "A non-protein cofactor"
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-090",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "For which of the following can divergent evolution be taken as an alternative name?",
+   "options": [
+    "Allopatric speculation",
+    "Adaptive radiation",
+    "Stabilizing selection",
+    "A non- protein cofactor"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-091",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which one of the following is the result of the similarity observed between the wings of a bird and a pterodactyl?",
+   "options": [
+    "Convergent evolution",
+    "Directional selection",
+    "Stabilizing selection",
+    "Divergent evolution"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-092",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of the following played an important role in the evolution of human being?",
+   "options": [
+    "Emergency of wings in addition to limbs",
+    "Development of even toes in the forearms",
+    "Development of feathers and hallow bones",
+    "Development of opposable thumb to grasp"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-093",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "In which one of the following do we use genetically modified bacteria for purpose other than human health?",
+   "options": [
+    "Production of insulin",
+    "Production of antibiotics",
+    "Production of herbicides",
+    "Production ofvaccines"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-094",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which knowledge about cell biology scientists discover after all the others?",
+   "options": [
+    "The first understanding that all living things are made of cells",
+    "Knowledge about how chromosomes behave during mitosis",
+    "First understanding about the double helix structure of DNA",
+    "First understanding about the DNA sequence in human genomev"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-095",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of the following statements can be considered as the better definition of thebiological concept of behavior?",
+   "options": [
+    "The reaction of a person or an animal in response to an external or internal stimulus",
+    "The responses or reactions or movements that a living plant makes in any situation",
+    "A system of coordinated response by an organism to an external or internal stimulus",
+    "A receptor of some kind of stimulus that an organism has which produces a response"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-096",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "To which category of behavior does the human behavior that involves the strengthening of existing responses or the formation of new responses to existing stimuli that occur because of practice or repetition belong?",
+   "options": [
+    "Learned behavior",
+    "Instinctive behavior",
+    "Innate behavior",
+    "Inborn behavior"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-097",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of the following is NOT grouped under genetically pre-programmed pattern of behavior?",
+   "options": [
+    "Reflex actionsinhumans",
+    "Orientation behavior",
+    "Conditioned behavior",
+    "Instinctive behaviors"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-098",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which group of bacteria reduces nitrate to nitrogen gas in th nitrogen cycle?",
+   "options": [
+    "Nitrogen fixing bacteria",
+    "Ammonium ion forming",
+    "Denitrifying bacteria",
+    "photosynthetic bacteria"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-099",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "The main factors that determine the types of terrestrial biomes in a certain geographical area are: NotAnswered",
+   "options": [
+    "Soil and vegetation",
+    "Soil and biological diversity",
+    "Complexity in ecological succession",
+    "Precipitation & temperature"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-biology-2009-100",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "In which parts of Ethiopian are Lions, Elephants, & Giraffes found more community?",
+   "options": [
+    "In the afroalpine and subafroalpine zones",
+    "In the highland areas of northern Ethiopian",
+    "In the grasslands of southwesternEthiopian",
+    "In central and northern parts of the rift valley Your Answers you have scored O out of 0 Answer Key 1.D 11.D 21.D 31.D 41.C 51.C 61.D 71.D 81.A 91.A 2.C 12.C 22.B 32.C 42.D 52.C 62.D 72.B 82.B 92.D 3.D 13.D 23.C 33.D 43.C 53.A 63.C 73.B 83.A 93.C 4.A 14.B 24.C 34.B 44.C 54.C 64.C 74.A 84.B 94.D 5.D 15.D 25.A 35.C 45.D 55.A 65.A 75.D 85.A 95.C 6.C 16.D 26.C 36.C 46.B 56.D 66.B 76.B 86.C 96.A 7.A 17.C 27.B 37.B 47.C 57.D 67.C 77.A 87.C 97.C 8.C 18.B 28.C 38.A 48.D 58.C 68.B 78.C 88.C 98.C 9.B 19.C 29.B 39.A 49.B 59.B 69.A 79.B 89.A 99.D 10.D 20.A 30.B 40.B 50.A 60.B 70.B 80.A 90.B 100.C 2019CamaraEducationEthiopia.EthiopianGeneral SecondaryEducationCertificate and UniversityEntranceExaminations"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  }
+ ],
+ "flagged": [
+  {
+   "n": 2,
+   "grid": "C",
+   "tick": "A",
+   "q": "Which of the following substance can be used over and over again in an enzyme ca"
+  },
+  {
+   "n": 70,
+   "grid": "B",
+   "tick": "?",
+   "q": "Which of the plants with the following genotype is hetrozygyous?",
+   "why": "duplicate options"
+  }
+ ],
+ "stats": {
+  "questions": 100,
+  "items": 97,
+  "flagged": 2,
+  "grid": 100,
+  "conf": {
+   "grid+tick": 30,
+   "grid": 67,
+   "tick": 0
+  }
+ }
+}

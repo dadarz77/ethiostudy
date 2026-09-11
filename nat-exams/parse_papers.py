@@ -13,7 +13,7 @@ OCR = os.path.join(HERE, 'ocr')
 ITEMS = os.path.join(HERE, 'items')
 os.makedirs(ITEMS, exist_ok=True)
 
-Q_START = re.compile(r'^\s*(\d{1,3})[\.\)]\s*(?=[a-zA-Z])(?!\s*[A-D][\.\)\s:])')
+Q_START = re.compile(r'^\s*(\d{1,3})[\.\)]\s*(?=[a-zA-Z])(?![A-D](?:\s*$|\s+\d))')
 GRID_TOKEN = re.compile(r'\b\d{1,3}\.[A-D]\b')
 OPT_LINE = re.compile(r'^\s*[O0○）\)\]—-]?\s*\(?\s*([A-D])\s*[\)\].\uFF09:]\s*(.*)$')
 RADIO_FIX = re.compile(r'^(\s*)[O0○]\s+([A-D])\s+(\S.*)$')
@@ -23,6 +23,10 @@ TICK_END = re.compile(r'(?:[√✓]|[a-z][vx<])$')
 
 def clean(s):
     s = re.sub(r'\s+', ' ', s).strip()
+    # strip practice-site UI artifacts that appear INLINE in long OCR lines
+    s = re.sub(r'\|?\s*Not Answered\s*', ' ', s)
+    s = re.sub(r'euee\.epizy\.com/\S*', ' ', s)
+    s = re.sub(r'\d{1,2}/\d{1,2}/\d{2},?\s*\d{1,2}:\d{2}\s*[AP]M', ' ', s)
     # strip OCR radio/tick artifacts at EDGES only when not part of a word:
     # leading "O " counts as artifact only if next token starts uppercase w/o rest-of-word (radio glyph), rare — skip leading strip.
     s = re.sub(r'(?:\s*[O○]|\s*[√✓]|\s+[vx<])+$', '', s)
