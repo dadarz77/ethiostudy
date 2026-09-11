@@ -2324,7 +2324,7 @@
   "examId": "igcse-physics",
   "areaId": "nuclear",
   "type": "calc",
-  "q": "A detector next to a source of phosphorus-32 (half-life 20 minutes) records a count rate of 640 counts per second. What count rate, in counts per second, will it record after 1 hour, ignoring background radiation?",
+  "q": "A detector next to a source of carbon-11 (half-life 20 minutes) records a count rate of 640 counts per second. What count rate, in counts per second, will it record after 1 hour, ignoring background radiation?",
   "answer": "80",
   "tolerance": 0.02,
   "difficulty": 3,
@@ -2336,10 +2336,10 @@
   "areaId": "nuclear",
   "type": "calc",
   "q": "A fresh sample of iodine-131 has an activity of 800 Bq. The half-life of iodine-131 is 8 days. What is the activity, in Bq, after 24 days?",
-  "answer": "125",
+  "answer": "100",
   "tolerance": 0.02,
   "difficulty": 2,
-  "explanation": "24 days is 3 half-lives: 800 -> 400 -> 200 -> 125 Bq. Answering 400 Bq stops after only one halving."
+  "explanation": "24 days is 3 half-lives: 800 -> 400 -> 200 -> 100 Bq. Answering 400 Bq stops after only one halving; answering 125 comes from halving 250 instead of 200."
  },
  {
   "id": "auth-phy-thermal-001",
@@ -2522,7 +2522,7 @@
   "answer": "450",
   "tolerance": 0.02,
   "difficulty": 3,
-  "explanation": "c = Q / (m deltaT) = 2250 / (0.50 x 10) = 450 J/(kg degrees Celsius), matching aluminium. Dividing by the mass alone (4500) omits the temperature change."
+  "explanation": "c = Q / (m deltaT) = 2250 / (0.50 x 10) = 450 J/(kg degrees Celsius), close to that of iron or steel (aluminium is about 900). Dividing by the mass alone (4500) omits the temperature change."
  },
  {
   "id": "auth-phy-thermal-013",
