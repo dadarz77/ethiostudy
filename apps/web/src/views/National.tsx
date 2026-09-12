@@ -1,4 +1,5 @@
 import { useMemo, useState } from 'react';
+import { useAppStore } from '../store/useAppStore';
 import NAT_ITEMS from '../data/nat-exams.json';
 import { gradeQuiz, type QuizQuestion, type QuizResult } from '../lib/quiz';
 import { QuestionCard } from '../components/QuestionCard';
@@ -18,6 +19,17 @@ const SUBJECTS: Record<string, { title: string; icon: string }> = {
   english: { title: 'English', icon: '🇬🇧' },
 };
 
+/* Group a graded run by subject so each national-exam score logs to the
+   student's progress under a virtual `natl:<subject>` topic id. Pure — unit-tested. */
+export function bySubjectGroups(subjectOf: string[], perQ: { correct: boolean }[]) {
+  const g: Record<string, { c: number; n: number }> = {};
+  perQ.forEach((p, i) => {
+    const e = (g[subjectOf[i]] ??= { c: 0, n: 0 });
+    e.n++; if (p.correct) e.c++;
+  });
+  return g;
+}
+
 function toQuiz(list: NatItem[]): QuizQuestion[] {
   return list.map((it, i) => ({ ...it, _qi: i }) as unknown as QuizQuestion);
 }
@@ -26,6 +38,7 @@ function shuffle<T>(arr: T[]): T[] { const a = arr.slice(); for (let i = a.lengt
 type Run = { title: string; icon: string; qs: QuizQuestion[]; yearOf: number[]; subjectOf: string[]; seconds: number };
 
 export default function National() {
+  const logQuiz = useAppStore(s => s.logQuiz);
   const [setupSubj, setSetupSubj] = useState<string | null>(null);
   const [years, setYears] = useState<Set<number>>(new Set());
   const [len, setLen] = useState(30);
@@ -73,7 +86,15 @@ export default function National() {
     start(pool, 'EUEE mixed mock', '🇪🇹', pool.length, 60);
   };
 
-  const submit = () => { if (run) setResult(gradeQuiz(run.qs, answers)); };
+  const submit = () => {
+    if (!run) return;
+    const r = gradeQuiz(run.qs, answers);
+    setResult(r);
+    // Feed the flagship feature into the same progress/streak engine as curriculum quizzes.
+    for (const [subj, { c, n }] of Object.entries(bySubjectGroups(run.subjectOf, r.perQ))) {
+      if (n > 0) logQuiz('natl:' + subj, c, n, Math.round((c / n) * 100));
+    }
+  };
   const answered = answers.filter(a => a !== undefined && a !== null && a !== '').length;
 
   /* ── LANDING ── */

@@ -43,6 +43,34 @@ export default function Progress() {
         })}
       </div>
 
+      {(() => {
+        const nat = Object.entries(progress).filter(([k]) => k.startsWith('natl:'));
+        if (!nat.length) return null;
+        return (
+          <>
+            <h2 className="section-title">🏥 National Exams — past-paper performance</h2>
+            <div className="card">
+              {nat.map(([k, tp], i) => {
+                const subj = k.slice(5);
+                const avg = tp.quizScores.length ? Math.round(tp.quizScores.reduce((a, b) => a + b, 0) / tp.quizScores.length) : 0;
+                return (
+                  <div key={k} style={{ margin: i === 0 ? 0 : '16px 0 0' }}>
+                    <div className="spread" style={{ marginBottom: 6 }}>
+                      <span style={{ fontWeight: 700, fontFamily: 'var(--font-display)' }}>
+                        {subj.charAt(0).toUpperCase() + subj.slice(1)}{' '}
+                        <span className="muted" style={{ fontWeight: 400 }}>· {tp.attempts} exam{tp.attempts === 1 ? '' : 's'} · {tp.correct}/{tp.totalQ} correct</span>
+                      </span>
+                      <span style={{ fontWeight: 700, color: 'var(--fg-2)', fontVariantNumeric: 'tabular-nums' }}>{avg}% avg</span>
+                    </div>
+                    <ProgressBar pct={avg} cls={avg > 60 ? '' : avg > 40 ? 'warn' : 'low'} />
+                  </div>
+                );
+              })}
+            </div>
+          </>
+        );
+      })()}
+
       <h2 className="section-title">🔥 Weakest topics — practice these next</h2>
       <div className="card">
         {weak.length === 0 ? (

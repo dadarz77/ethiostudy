@@ -119,10 +119,13 @@ export default function Dashboard() {
               <tr><th>Activity</th><th>Topic</th><th>When</th></tr>
               {recent.map((h, i) => {
                 const t = topicById(h.topicId);
+                const label = t?.title ?? (h.topicId.startsWith('natl:')
+                  ? h.topicId.slice(5).replace(/^\w/, c => c.toUpperCase()) + ' · National Exam'
+                  : '—');
                 return (
                   <tr key={i}>
                     <td>{h.type === 'quiz' ? '🎯 Quiz' : '⏱️ Study'}</td>
-                    <td>{t?.title ?? '—'}</td>
+                    <td>{label}</td>
                     <td>{h.type === 'quiz' ? h.score + '%' : fmtTime(h.sec ?? 0)} · {relTime(h.at)}</td>
                   </tr>
                 );
