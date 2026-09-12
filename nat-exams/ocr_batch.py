@@ -20,6 +20,25 @@ ocr = RapidOCR()
 def log(msg):
     print(f'[{time.strftime("%H:%M:%S")}] {msg}', flush=True)
 
+# crew cap: never let RAM-thrashing spawn-storms happen on this i3
+import subprocess
+def crew_count():
+    try:
+        chk = subprocess.run(
+            ['powershell', '-NoProfile', '-Command',
+             "Get-CimInstance Win32_Process -Filter \"Name='python.exe'\" | "
+             "Where-Object { $_.CommandLine -like '*ocr_batch*' } | Measure-Object | "
+             "Select-Object -ExpandProperty Count"],
+            capture_output=True, text=True, timeout=30)
+        return int(chk.stdout.strip())
+    except Exception:
+        return -1
+
+MAX_WORKERS = 2
+if crew_count() > MAX_WORKERS:
+    log('crew at capacity — standing down, not joining')
+    raise SystemExit(0)
+
 # night-shift courtesy: never outrank the user's own apps
 try:
     import psutil

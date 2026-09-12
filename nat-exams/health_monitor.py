@@ -77,9 +77,12 @@ if not os.path.exists(PAUSE):
          "Where-Object { $_.CommandLine -like '*ocr_batch*' } | Measure-Object | Select-Object -ExpandProperty Count"],
         capture_output=True, text=True, timeout=60)
     if chk.stdout.strip() == '0':
+        # ONLY when count is a verified zero — never top up, never double-spawn
         subprocess.Popen([PY, os.path.join(HERE, 'ocr_batch.py')], cwd=HERE,
                          creationflags=0x00000008)
-        log('RESTARTED ocr_batch (was dead)')
+        log('RESTARTED ocr_batch (crew was fully dead)')
+    elif chk.stdout.strip() not in ('1', '2', '3', '4', '5'):
+        log(f'SPAWN SKIPPED: worker count unreadable ({chk.stdout.strip()!r}) — not spawning blind')
 
 save_state(st)
 
