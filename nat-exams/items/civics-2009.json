@@ -1457,10 +1457,10 @@
     "Employment in an NGO that support HIV/AIDS patients.",
     "A teacher serving as committee member in school environmental club.",
     "A solider serving in Ethiopia peacekeeping force in Darfur, Sudan.",
-    "Teaching community elders literacy skill at weekends without pay. √ Your Answers you have scored O out of 0 Answer Key 1.B 11.A 21.D 31.B 41.A 51.C 61.B 71.D 81.B 91.D 2.C 12.B 22.B 32.C 42.B 52.B 62.D 72.B 82.B 92.C 3.D 13.C 23.A 33.B 43.D 53.B 63.A 73.D 83.C 93.C 4.C 14.B 24.B 34.C 44.C 54.C 64.D 74.C 84.A 94.D 5.D 15.D 25.D 35.C 45.B 55.D 65.C 75.B 85.B 95.C 6.A 16.A 26.C 36.A 46.B 56.C 66.D 76.A 86.B 96.D 7.C 17.B 27.B 37.A 47.C 57.C 67.D 77.C 87.B 97.B 8.C 18.C 28.D 38.A 48.C 58.C 68.A 78.A 88.D 98.D 9.D 19.B 29.D 39.C 49.D 59.A 69.A 79.D 89.B 99.B 10.C 20.C 30.B 40.D 50.D 60.A 70.B 80.C 90.D 100.D @ 2019Camara EducationEthiopia.EthiopianGeneral SecondaryEducationCertificate and UniversityEntranceExaminations"
+    "Teaching community elders literacy skill at weekends without pay."
    ],
    "answer": 3,
-   "confidence": "grid",
+   "confidence": "grid+tick",
    "type": "mcq"
   }
  ],
@@ -1471,8 +1471,8 @@
   "flagged": 0,
   "grid": 100,
   "conf": {
-   "grid+tick": 51,
-   "grid": 40,
+   "grid+tick": 52,
+   "grid": 39,
    "tick": 0
   }
  }

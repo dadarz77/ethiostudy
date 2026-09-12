@@ -917,10 +917,10 @@
     "theformulaholdstrue thoughit doesnotworkfor n=1",
     "since the left-had-side is an even number and the right had side an odd number, the Principle of Mathematicall Induction is False.",
     "this is one example where the Principle of Mathematical Induction fails to work.",
-    "the above formula does not work for all natural numbers n E N√ Your Answers you have scored O out of 0 Answer Key 1.A 11.B 21.C 31.B 41.C 51.C 61.C 2.B 12.C 22.A 32.B 42.C 52.A 62.A 3.C 13.A 23.D 33.D 43.B 53.D 63.B 4.D 14.C 24.B 34.D 44.D 54.B 64.A 5.A 15.B 25.B 35.B 45.D 55.A 65.D 6.C 16.A 26.B 36.B 46.D 56.D 7.C 17.D 27.C 37.B 47.C 57.B 8.A 18.C 28.A 38.C 48.C 58.B 9.D 19.B 29.B 39.C 49.A 59.D 10.C 20.A 30.C 40.D 50.D 60.A 2019CamaraEducationEthiopia.EthiopianGeneral SecondaryEducationCertificate and UniversityEntranceExaminations"
+    "the above formula does not work for all natural numbers n E N"
    ],
    "answer": 3,
-   "confidence": "grid",
+   "confidence": "grid+tick",
    "type": "mcq"
   }
  ],
@@ -931,8 +931,8 @@
   "flagged": 0,
   "grid": 65,
   "conf": {
-   "grid+tick": 8,
-   "grid": 49,
+   "grid+tick": 9,
+   "grid": 48,
    "tick": 0
   }
  }

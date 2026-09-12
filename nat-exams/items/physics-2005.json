@@ -684,33 +684,24 @@
    "answer": 0,
    "confidence": "grid",
    "type": "mcq"
-  },
-  {
-   "id": "natl-physics-2005-050",
-   "subject": "physics",
-   "year": 2005,
-   "yearCal": "EC",
-   "q": "A rocket moving in free space has a speed of 3 x 10?m/s relative to the earth. Its engines are turned on and fuel is ejected in a direction opposite the rockets motion at a speed of 5 x 10? m/s relative to the rocket. What is the speed of the rocket relative to the earth once the rockets mass is reduced to half its mass before ignition?",
-   "options": [
-    "7 x 10?m/s",
-    "5 x 10?m/s",
-    "4 x 103m/s",
-    "2 x 10?m/sv Your Answers you have scored O out of o Answer Key 1.D 11.A 21.D 31.D 41.A 2.A 12.A 22.C 32.A 42.C 3.C 13.B 23.A 33.C 43.C 4.C 14.C 24.B 34.B 44.D 5.D 15.C 25.C 35.C 45.B 6.B 16.D 26.A 36.B 46.C 7.A 17.B 27.D 37.A 47.C 8.A 18.B 28.A 38.D 48.C 9.D 19.C 29.C 39.C 49.A 10.A 20.D 30.B 40.D 50.D @2019CamaraEducationEthiopia.EthiopianGeneralSecondaryEducationCertificateandUniversityEntranceExaminations"
-   ],
-   "answer": 0,
-   "confidence": "grid",
-   "type": "mcq"
   }
  ],
- "flagged": [],
+ "flagged": [
+  {
+   "n": 50,
+   "grid": "A",
+   "tick": "D",
+   "q": "A rocket moving in free space has a speed of 3 x 10?m/s relative to the earth. I"
+  }
+ ],
  "stats": {
   "questions": 45,
-  "items": 44,
-  "flagged": 0,
+  "items": 43,
+  "flagged": 1,
   "grid": 50,
   "conf": {
    "grid+tick": 6,
-   "grid": 37,
+   "grid": 36,
    "tick": 0
   }
  }

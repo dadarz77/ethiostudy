@@ -727,10 +727,10 @@
     "The distance between an adjacent trough and a peak.",
     "The amplitude of the wave.",
     "The distance between a node and antinodes.",
-    "The distance between two adjacent points which are in phase.√ Your Answers you have scored O out of 0 Answer Key 1.D 11.D 21.C 31.B 41.A 2.B 12.A 22.D 32.A 42.D 3.C 13.C 23.B 33.A 43.D 4.B 14.A 24.A 34.A 44.A 5.D 15.A 25.B 35.B 45.A 6.A 16.B 26.B 36.A 46.C 7.C 17.C 27.D 37.D 47.C 8.A 18.A 28.D 38.C 48.D 9.D 19.A 29.B 39.B 49.D 10.C 20.A 30.B 40.C 50.D @ 2019Camara EducationEthiopia.EthiopianGeneral SecondaryEducationCertificate and UniversityEntranceExaminations"
+    "The distance between two adjacent points which are in phase."
    ],
    "answer": 3,
-   "confidence": "grid",
+   "confidence": "grid+tick",
    "type": "mcq"
   }
  ],
@@ -741,8 +741,8 @@
   "flagged": 0,
   "grid": 50,
   "conf": {
-   "grid+tick": 18,
-   "grid": 27,
+   "grid+tick": 19,
+   "grid": 26,
    "tick": 0
   }
  }

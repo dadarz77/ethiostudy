@@ -19,6 +19,9 @@ OPT_LINE = re.compile(r'^\s*[O0○）\)\]—-]?\s*\(?\s*([A-D])\s*[\)\].\uFF09:]
 RADIO_FIX = re.compile(r'^(\s*)[O0○]\s+([A-D])\s+(\S.*)$')
 ANS_ROW = re.compile(r'^\s*(\d{1,3})\s*[\.\-–:]?\s*([A-D])\b')
 BANNER = re.compile(r'PAGE \d+|National|Exam|Subject|Time Allowed|Instructions|Not Answered|BOOKLET|SUBJECT\s*CODE|NUMBER\s*OF\s*ITEMS|TIME\s*ALLOWED|^\d+/\d+/\d+|^\d+/\d+$|euee\.epizy|Contents/exam', re.I)
+# scanned papers print a footer (results recap + answer key grid + copyright) that OCRs
+# onto the SAME line as the last option. Truncate the line at the marker, end the paper there.
+FOOTER = re.compile(r'Your\s*Answers|Answer\s*Key|scored?\s*out\s*of|(?:Submit\s*)?2019\s*Camara|Camara\s*Education', re.I)
 TICK_END = re.compile(r'(?:[√✓]|[a-z][vx<])$')
 
 # Greek letters rapidocr commonly misreads as CJK/fullwidth look-alikes.
@@ -44,6 +47,13 @@ def blocks_from(txt):
     """Yield (num, body_lines) question blocks."""
     out, num, cur = [], None, []
     for ln in txt.splitlines():
+        fm = FOOTER.search(ln)
+        if fm:
+            head = ln[:fm.start()].rstrip()
+            if num is not None and head:
+                cur.append(head)  # keep the legit option text before the footer
+                out.append((num, cur))
+            break  # printed footer block reached — paper ends here
         if len(ln) < 70 and BANNER.search(ln):
             continue
         m = Q_START.match(ln)

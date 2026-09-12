@@ -1473,10 +1473,10 @@
     "Getting pleasure.",
     "Developing a hobby.",
     "Enjoying creative works.",
-    "Acquiring knowledge. √ Your Answers you have scored O out of 0 Answer Key 1.B 11.C 21.C 31.B 41.B 51.A 61.B 71.C 81.A 91.A 2.A 12.D 22.D 32.D 42.C 52.B 62.B 72.D 82.A 92.C 3.A 13.A 23.B 33.B 43.C 53.B 63.B 73.C 83.B 93.B 4.C 14.B 24.D 34.A 44.B 54.A 64.C 74.D 84.A 94.D 5.D 15.C 25.A 35.C 45.A 55.C 65.D 75.A 85.B 95.B 6.B 16.B 26.C 36.D 46.C 56.D 66.A 76.B 86.D 96.A 7.A 17.D 27.B 37.A 47.D 57.B 67.C 77.C 87.B 97.C 8.C 18.A 28.D 38.D 48.C 58.D 68.B 78.A 88.C 98.D 9.A 19.D 29.A 39.A 49.C 59.C 69.D 79.B 89.A 99.C 10.D 20.B 30.D 40.C 50.A 60.A 70.C 80.A 90.C 100.D @2019CamaraEducationEthiopia.EthiopianGeneralSecondaryEducationCertificateandUniversityEntranceExaminations"
+    "Acquiring knowledge."
    ],
    "answer": 3,
-   "confidence": "grid",
+   "confidence": "grid+tick",
    "type": "mcq"
   }
  ],
@@ -1500,8 +1500,8 @@
   "flagged": 2,
   "grid": 100,
   "conf": {
-   "grid+tick": 58,
-   "grid": 35,
+   "grid+tick": 59,
+   "grid": 34,
    "tick": 0
   }
  }
