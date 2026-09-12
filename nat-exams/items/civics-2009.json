@@ -240,6 +240,22 @@
    "type": "mcq"
   },
   {
+   "id": "natl-civics-2009-018",
+   "subject": "civics",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "A policy designed to remedy past discrimination against women , the disabled and minorities is termed as:",
+   "options": [
+    "Civil right movement.",
+    "Reverse discrimination.",
+    "Affirmative action.",
+    "Zero tolerance."
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
    "id": "natl-civics-2009-019",
    "subject": "civics",
    "year": 2009,
@@ -1354,12 +1370,6 @@
  ],
  "flagged": [
   {
-   "n": 18,
-   "grid": "A",
-   "tick": "C",
-   "q": "A policy designed to remedy past discrimination against women , the disabled and"
-  },
-  {
    "n": 42,
    "grid": "B",
    "tick": "D",
@@ -1368,11 +1378,11 @@
  ],
  "stats": {
   "questions": 90,
-  "items": 85,
-  "flagged": 2,
+  "items": 86,
+  "flagged": 1,
   "grid": 100,
   "conf": {
-   "grid+tick": 50,
+   "grid+tick": 51,
    "grid": 35,
    "tick": 0
   }

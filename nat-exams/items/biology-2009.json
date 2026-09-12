@@ -17,6 +17,22 @@
    "type": "mcq"
   },
   {
+   "id": "natl-biology-2009-002",
+   "subject": "biology",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of the following substance can be used over and over again in an enzyme catalyzed reaction?",
+   "options": [
+    "Enzyme -substrate complex",
+    "Substrate",
+    "Enzyme",
+    "Reaction product"
+   ],
+   "answer": 2,
+   "confidence": "llm-verified",
+   "type": "mcq"
+  },
+  {
    "id": "natl-biology-2009-003",
    "subject": "biology",
    "year": 2009,
@@ -1554,12 +1570,6 @@
  ],
  "flagged": [
   {
-   "n": 2,
-   "grid": "C",
-   "tick": "A",
-   "q": "Which of the following substance can be used over and over again in an enzyme ca"
-  },
-  {
    "n": 70,
    "grid": "B",
    "tick": "?",
@@ -1569,8 +1579,8 @@
  ],
  "stats": {
   "questions": 100,
-  "items": 97,
-  "flagged": 2,
+  "items": 98,
+  "flagged": 1,
   "grid": 100,
   "conf": {
    "grid+tick": 30,

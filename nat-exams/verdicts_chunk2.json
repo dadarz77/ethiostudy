@@ -1,0 +1,44 @@
+[
+ {
+  "id": "natl-chemistry-2006-036",
+  "letter": "B",
+  "confidence": "high",
+  "resolved_by": "solver-crew-2",
+  "reasoning": "Solid triacylglycerol at room temp = fat (oils are liquid; waxes/lecithin aren't TAGs)."
+ },
+ {
+  "id": "natl-chemistry-2009-035",
+  "letter": "D",
+  "confidence": "high",
+  "resolved_by": "solver-crew-2",
+  "reasoning": "rate(NO2)=(4/2)x2.5e-6=5.0e-6 mol/s."
+ },
+ {
+  "id": "natl-chemistry-2009-049",
+  "letter": "C",
+  "confidence": "high",
+  "resolved_by": "solver-crew-2",
+  "reasoning": "BP elevation scales with van't Hoff i: sucrose 1, Na2SO4 3, KBr 2."
+ },
+ {
+  "id": "natl-chemistry-2009-078",
+  "letter": "C",
+  "confidence": "medium",
+  "resolved_by": "solver-crew-2",
+  "reasoning": "Hess: 2(-425)-(-414)-(-286) = -150 kJ."
+ },
+ {
+  "id": "natl-chemistry-2010-066",
+  "letter": "B",
+  "confidence": "high",
+  "resolved_by": "solver-crew-2",
+  "reasoning": "N2+ loses sigma2p HOMO electron, leaving 1 in sigma2p."
+ },
+ {
+  "id": "natl-civics-2005-055",
+  "letter": "B",
+  "confidence": "high",
+  "resolved_by": "solver-crew-2",
+  "reasoning": "Rule-of-law government wins confidence and acceptance of the people."
+ }
+]

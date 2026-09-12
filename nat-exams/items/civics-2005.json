@@ -783,6 +783,22 @@
    "type": "mcq"
   },
   {
+   "id": "natl-civics-2005-055",
+   "subject": "civics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "A government that respects the rule of law in its functions will be able to:",
+   "options": [
+    "Stay in power whatever it does to the people",
+    "Win the confidence and acceptance of the people",
+    "Exercise supreme and absolute power over the people",
+    "Conceal any type of human right abuse of citizens"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
    "id": "natl-civics-2005-056",
    "subject": "civics",
    "year": 2005,
@@ -1466,12 +1482,6 @@
    "q": "Which of the following is morally wrong according to the Ethiopian culture?"
   },
   {
-   "n": 55,
-   "grid": "A",
-   "tick": "B",
-   "q": "A government that respects the rule of law in its functions will be able to:"
-  },
-  {
    "n": 70,
    "grid": "A",
    "tick": "B",
@@ -1480,11 +1490,11 @@
  ],
  "stats": {
   "questions": 95,
-  "items": 91,
-  "flagged": 4,
+  "items": 92,
+  "flagged": 3,
   "grid": 100,
   "conf": {
-   "grid+tick": 41,
+   "grid+tick": 42,
    "grid": 50,
    "tick": 0
   }

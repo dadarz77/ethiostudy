@@ -12,11 +12,14 @@ DISPUTED = os.path.join(HERE, 'disputed.json')
 
 
 def load_overrides():
-    """map item id -> letter (A-D), empty if none."""
+    """map item id -> letter (A-D), empty if none. Accepts either a dict
+    {id: letter} or the solver list-of-verdicts shape."""
     if os.path.exists(OVERRIDES):
         try:
             d = json.load(open(OVERRIDES, encoding='utf-8'))
-            return {k: v for k, v in d.items() if v in 'ABCD'}
+            if isinstance(d, list):
+                d = {v['id']: v.get('letter') for v in d}
+            return {k: v for k, v in d.items() if isinstance(v, str) and v in 'ABCD'}
         except Exception:
             return {}
     return {}

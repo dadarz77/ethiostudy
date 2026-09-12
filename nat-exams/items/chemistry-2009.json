@@ -495,6 +495,22 @@
    "type": "mcq"
   },
   {
+   "id": "natl-chemistry-2009-035",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Considerthefollowingreactions: 2N2O5(g)→ 4NO2(g) +02(g) At a certain temperature, the rate of decomposition of N2Os(g) is 2.5 x 10°mol/s. What will be the rate of formation of NO2?",
+   "options": [
+    "1.0x 10-5mol/s",
+    "2.5 x10-6mol/s",
+    "1.3 x 10-6mol/s",
+    "5.0x10-6mol/sv"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
    "id": "natl-chemistry-2009-036",
    "subject": "chemistry",
    "year": 2009,
@@ -555,6 +571,22 @@
     "BeBr2: linear 41.A 0.217g sample of HgOreacts with excess iodide ions according to the reaction: HgO + 4I +H2O →HgI4²-+ 2OH- Howmanyml, of 0.1M HCl is required toreach equilibrium point during the titration of the solution? NotAnswered A.1.0 O B.10√ O C.20 O D.50"
    ],
    "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-042",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Whichstatement aboutindicators is alwayscorrect?",
+   "options": [
+    "The mid-point of thePH rage of an indicator is 7.0",
+    "The PH rage is greater with higher PKa values.",
+    "Thecolourredindicates an acidicsolution.",
+    "ThePKa values of the indicator is within its PH range."
+   ],
+   "answer": 3,
    "confidence": "grid+tick",
    "type": "mcq"
   },
@@ -655,6 +687,22 @@
    "type": "mcq"
   },
   {
+   "id": "natl-chemistry-2009-049",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "What will be the ration of theboilingpoint elevation of a 0.1M solution of sucrose,sodium sulphate and potassium bromide?",
+   "options": [
+    "1:3 :1",
+    "1:1: 2",
+    "1:3 :2",
+    "1:2:2"
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
    "id": "natl-chemistry-2009-050",
    "subject": "chemistry",
    "year": 2009,
@@ -684,6 +732,22 @@
    ],
    "answer": 2,
    "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-053",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "A certain 500g toothpaste sample has 0.2g of fluoride. What is the concentration of the fluoride in ppm?",
+   "options": [
+    "200",
+    "250",
+    "400",
+    "1000"
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
    "type": "mcq"
   },
   {
@@ -1039,6 +1103,22 @@
    "type": "mcq"
   },
   {
+   "id": "natl-chemistry-2009-078",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Based on the followinginformation ΔH\"(KJ) H2(g)+1/2O2(g)→H20(l) -286 2Na(s) + 1/2O2(g) →Na2O(s) 414 Na(s) +1/2O2(g) +1/2H2(g)→ NaOH(s) -425 Whatwill be thestandard enthalpychangesfor thereaction? Na2O(s)+H2O(l)→ 2NaOH(s)? NotAnswered",
+   "options": [
+    "-978KJ",
+    "-722KJ",
+    "-150KJ",
+    "+275KJ"
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
    "id": "natl-chemistry-2009-079",
    "subject": "chemistry",
    "year": 2009,
@@ -1073,55 +1153,25 @@
  ],
  "flagged": [
   {
-   "n": 35,
-   "grid": "C",
-   "tick": "D",
-   "q": "Considerthefollowingreactions: 2N2O5(g)→ 4NO2(g) +02(g) At a certain temperature"
-  },
-  {
    "n": 38,
    "grid": "C",
    "tick": "D",
    "q": "What is the bond order of a superoxide anion,with the chemical formula O2?"
   },
   {
-   "n": 42,
-   "grid": "A",
-   "tick": "D",
-   "q": "Whichstatement aboutindicators is alwayscorrect?"
-  },
-  {
-   "n": 49,
-   "grid": "A",
-   "tick": "C",
-   "q": "What will be the ration of theboilingpoint elevation of a 0.1M solution of sucro"
-  },
-  {
    "n": 51,
    "grid": "B",
    "tick": "C",
    "q": "If 0.454kg of nitroglycerin explodes according to the followingreaction: 2CH5(NO"
-  },
-  {
-   "n": 53,
-   "grid": "A",
-   "tick": "C",
-   "q": "A certain 500g toothpaste sample has 0.2g of fluoride. What is the concentration"
-  },
-  {
-   "n": 78,
-   "grid": "B",
-   "tick": "C",
-   "q": "Based on the followinginformation ΔH\"(KJ) H2(g)+1/2O2(g)→H20(l) -286 2Na(s) + 1/"
   }
  ],
  "stats": {
   "questions": 76,
-  "items": 67,
-  "flagged": 7,
+  "items": 72,
+  "flagged": 2,
   "grid": 80,
   "conf": {
-   "grid+tick": 9,
+   "grid+tick": 14,
    "grid": 58,
    "tick": 0
   }

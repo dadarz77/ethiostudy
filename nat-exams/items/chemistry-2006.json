@@ -545,6 +545,22 @@
    "type": "mcq"
   },
   {
+   "id": "natl-chemistry-2006-036",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "A triacylglycerol that is solid at room temperature is called:",
+   "options": [
+    "?Lecithin",
+    "?Fat",
+    "?Wax",
+    "?Oil"
+   ],
+   "answer": 1,
+   "confidence": "llm-verified",
+   "type": "mcq"
+  },
+  {
    "id": "natl-chemistry-2006-037",
    "subject": "chemistry",
    "year": 2006,
@@ -1202,12 +1218,6 @@
  ],
  "flagged": [
   {
-   "n": 36,
-   "grid": "A",
-   "tick": "C",
-   "q": "A triacylglycerol that is solid at room temperature is called:"
-  },
-  {
    "n": 48,
    "grid": "A",
    "tick": "D",
@@ -1223,8 +1233,8 @@
  ],
  "stats": {
   "questions": 78,
-  "items": 75,
-  "flagged": 3,
+  "items": 76,
+  "flagged": 2,
   "grid": 80,
   "conf": {
    "grid+tick": 21,
