@@ -527,6 +527,22 @@
    "type": "mcq"
   },
   {
+   "id": "natl-physics-2010-039",
+   "subject": "physics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which one of the following is not the use of Doppler effect?",
+   "options": [
+    "Astronomy",
+    "Energy transmission",
+    "Radar",
+    "Bloodflowmeasurement 40. A 632.8 nm laser light produces an interference pattern on a screen of 4.0 m from a pair of slits. The slit space is equal to 0.2 mm. calculate the fridge width. A.15.3 cm B.25.3 mm C.6.33 mm D.12.7mmv"
+   ],
+   "answer": 1,
+   "confidence": "llm-verified",
+   "type": "mcq"
+  },
+  {
    "id": "natl-physics-2010-041",
    "subject": "physics",
    "year": 2010,
@@ -677,18 +693,12 @@
    "grid": "A",
    "tick": "C",
    "q": "A beaker with water resting on a scale weighs 40 N. a block suspended on a hangi"
-  },
-  {
-   "n": 39,
-   "grid": "B",
-   "tick": "D",
-   "q": "Which one of the following is not the use of Doppler effect?"
   }
  ],
  "stats": {
   "questions": 45,
-  "items": 42,
-  "flagged": 2,
+  "items": 43,
+  "flagged": 1,
   "grid": 49,
   "conf": {
    "grid+tick": 18,

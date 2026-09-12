@@ -33,6 +33,22 @@
    "type": "mcq"
   },
   {
+   "id": "natl-physics-2009-003",
+   "subject": "physics",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "A uranium atom initially at rest has a mass of 2 units and spontaneously disintegrated into two fragments. One of the fragments has a mass of 0.8 units and moves at a speed of 24m/s as shown in figure below. What is the speed of the second fragments? M=2units.u=0 m2,v 300 530 m=0.8units,v=24m/s",
+   "options": [
+    "25.6m/s",
+    "21.3m/s",
+    "16m/sv",
+    "14.8m/s 4. A 1kg object explodes and breaks up into three pieces. One piece has a mass of 400g and has a velocity of (15i + 10j)m/s. a second piece has a mass of 250g and has a velocity of (25i 10j)m/s. What is the velocity of the third piece? OA.(-4.3i+ 35j)m/s O B. (-35i 4.3j)m/s C. (35i 4.3j)m/s ）D. (-35i 4.3j)m/s"
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
    "id": "natl-physics-2009-005",
    "subject": "physics",
    "year": 2009,
@@ -110,6 +126,22 @@
    ],
    "answer": 0,
    "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2009-011",
+   "subject": "physics",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "A block of mass m_10kg placed on a frictionless incline plane connected to mass m2=15kg using a string of negligible mass passing over a pulley of moment of inertia I=0.25kgm² and radius R=10cm as shown in the diagram. What is the torque on the pulley? mi m2",
+   "options": [
+    "2.5Nm",
+    "4Nm",
+    "5Nm",
+    "12Nmv"
+   ],
+   "answer": 2,
+   "confidence": "llm-verified",
    "type": "mcq"
   },
   {
@@ -702,27 +734,14 @@
    "type": "mcq"
   }
  ],
- "flagged": [
-  {
-   "n": 3,
-   "grid": "A",
-   "tick": "C",
-   "q": "A uranium atom initially at rest has a mass of 2 units and spontaneously disinte"
-  },
-  {
-   "n": 11,
-   "grid": "A",
-   "tick": "D",
-   "q": "A block of mass m_10kg placed on a frictionless incline plane connected to mass "
-  }
- ],
+ "flagged": [],
  "stats": {
   "questions": 46,
-  "items": 44,
-  "flagged": 2,
+  "items": 46,
+  "flagged": 0,
   "grid": 50,
   "conf": {
-   "grid+tick": 17,
+   "grid+tick": 18,
    "grid": 27,
    "tick": 0
   }

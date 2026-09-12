@@ -292,5 +292,26 @@
   "confidence": "high",
   "resolved_by": "crew-R0b",
   "reasoning": "Only option with correct capitalization throughout; D lowercases wrongly, stray tick is OCR bleed, grid C prevails."
+ },
+ {
+  "id": "natl-physics-2009-003",
+  "letter": "C",
+  "confidence": "high",
+  "resolved_by": "crew-R4",
+  "reasoning": "Conservation of momentum from rest: 0.8x24 = 1.2xv gives v = 16 m/s, matching the tick (grid A is wrong)."
+ },
+ {
+  "id": "natl-physics-2009-011",
+  "letter": "C",
+  "confidence": "medium",
+  "resolved_by": "crew-R4",
+  "reasoning": "With a 30-degree incline and g=10, net driving force 100 N over effective mass (10+15+I/R^2=50 kg) gives a=2 m/s^2, so torque=I*alpha gives (T2-T1)R = (120-70)x0.1 = 5 N m."
+ },
+ {
+  "id": "natl-physics-2010-039",
+  "letter": "B",
+  "confidence": "high",
+  "resolved_by": "crew-R4",
+  "reasoning": "Doppler effect is used in astronomy (redshift), radar (speed measurement), and blood-flow meters, but not for energy transmission, so the grid's B is correct and the tick's D is OCR bleed from question 40."
  }
 ]
