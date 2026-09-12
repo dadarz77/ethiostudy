@@ -1,0 +1,1434 @@
+{
+ "items": [
+  {
+   "id": "natl-civics-2006-001",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Whichcountriesbenefitmostfrom thenewworld orderofglobalization?",
+   "options": [
+    "Developing countries",
+    "Developed countries",
+    "under developed countries",
+    "less developed countries"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-002",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "What is the principle of constitutional at law that protects the life, liberty and property of personal?",
+   "options": [
+    "Criminal of a person",
+    "Civil law",
+    "due process oflaw",
+    "procedural law"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-003",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following is a name given to human needs for food, shelter and security? NotAnswered",
+   "options": [
+    "Maintenanceneeds",
+    "Transformational needs",
+    "societal needs",
+    "actualization needs"
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-004",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "An amendment to a constitution is",
+   "options": [
+    "Replacing old constitution by a new one.",
+    "Additionalarticletoaconstitution",
+    "Deceleratingaconstitutionnullandvoid",
+    "Emphasizing an article of a constitution"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-005",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "A person who refuses to give military service on grounds of religion or other belief is",
+   "options": [
+    "Conscientious objectors",
+    "Whistle blower",
+    "unpatriotic citizen",
+    "secret intelligence officer"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-006",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Who was the American civil right activists sent to prison for refusing to give up her seat in a bus for a white man?",
+   "options": [
+    "Rose Luxemburg",
+    "Patricia Goldman",
+    "clara zeitkin",
+    "Rose park"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-007",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "The ability to hear with un pleasant and annoying situation is known as",
+   "options": [
+    "Assertiveness",
+    "Arrogance",
+    "Lenience",
+    "Tolerance"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-009",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following traits is expected from judges for justice for justices to prevail?",
+   "options": [
+    "Compassion",
+    "sympathy",
+    "kindness",
+    "impartiality"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-010",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following characteristics could be a guarantee for individual freedom?",
+   "options": [
+    "Rule oflaw",
+    "Right to trial",
+    "trial by jury",
+    "human rights"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-011",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Who presents a nominee for the post of prime ministry of the FDRE?",
+   "options": [
+    "speaker of the house of peoples' representatives.",
+    "The speaker of the house of federation.",
+    "The opposition in the House of peoples' representatives.",
+    "The majority party in the House of peoples' representative."
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-012",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following is true?",
+   "options": [
+    "Thereisnorelationshipbetweensavinganddevelopment",
+    "Idir and Iqub are backward saving mechanism that do not help individuals improve their lives",
+    "Saving plays a critical role in the development endeavors of countries like Ethiopia",
+    "Word Bank is the only global monetary organization."
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-013",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following was the most negative experience in the period of the derg?",
+   "options": [
+    "\"Qey Shibir\"",
+    "\"Meret Le arashu\"",
+    "\"Ideget Behibret\"",
+    "\"Meserete Timihrt\""
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-014",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "In the FDRE ,interprating law is the responsibility of the judiciary organ ,whereas interprating the constituation is the responsiblity of:",
+   "options": [
+    "The executive organ",
+    "The Legislative organ",
+    "The house of people Representative",
+    "The house of Federation"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-015",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "The American Foreign secretary,JohnKerry facilitated a peace talk between Israel and Palestine recently .what was the role of Mr.Kerry?",
+   "options": [
+    "Arbitration",
+    "Negotiation",
+    "meditation",
+    "resolution"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-016",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Whichofthefollowingisthecorrectorderthatshouldbefollowedwhileformulatingademocratic constitution?",
+   "options": [
+    "Drafting -ratification -discussion",
+    "Drafting- discussion- ratification",
+    "Ratification- discussion- Drafting",
+    "Discussion - Drafting- discussion"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-017",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following is an inclusive term?",
+   "options": [
+    "Good governance",
+    "Transparency",
+    "accountability",
+    "responsibility"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-018",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following countries combine both presidential and parliamentary government system?",
+   "options": [
+    "USA and England",
+    "Ethiopia and USA",
+    "Russian andSouthAfrican",
+    "South African and USA"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-019",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which one of the following government system differs from others?",
+   "options": [
+    "Unlimited government",
+    "Totalitarian government",
+    "unitary government",
+    "federal government"
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-020",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following is correct according to article 10 of the FDRE constitution?",
+   "options": [
+    "Human rights are inviolable and inalienable.",
+    "Human rights do not emanate from the nature of mankind.",
+    "Human rights emanate from the good will of governments.",
+    "Human rights do not have any relation with democratic rights."
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-021",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which one of thefollowing is correct?",
+   "options": [
+    "Constitution and specific laws have equal weight.",
+    "Constitution and specific laws do not any relation.",
+    "Constitution is a mother lawfrom which specificlaw can be derived.",
+    "Constitution is a mother law that emanates from specific laws."
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-022",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "What was the name of the corruption in which president Nixon had been involved during his presidency?",
+   "options": [
+    "The wastegate scandal",
+    "The communist scandal",
+    "the Great depression",
+    "the American scandal"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-023",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following is correct about budget allocation for different regions of Ethiopia?",
+   "options": [
+    "The federal government allocates and distributes money reasonably based on the specific situations of different regions.",
+    "The federal government allocates equal amount of money to all Nations, Nationalities and peoples of Ethiopia.",
+    "The federal government allocates less amount of money to less developed regions.",
+    "The federal government allocates large amount of money to better developed regions."
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-024",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which one of following personalities is different from others?",
+   "options": [
+    "Nyerere",
+    "Mengsistu",
+    "Mobutu d. Idi Amin"
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-025",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which one of the following women was famous for her political career in the modern history of Ethiopia?",
+   "options": [
+    "Empress Zewditu",
+    "Empress menene",
+    "Empress Taitu",
+    "yodit Gudit"
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-026",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "One of the following Ethiopia rivers is different from others:",
+   "options": [
+    "Abay",
+    "Awash",
+    "Tekeze",
+    "Baro"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-027",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which one of the following is true based on article 61 of the FDRE constitution?",
+   "options": [
+    "The House of federation is the supreme authority in the country",
+    "The House ofederation consist of only one representative for each one people of the contrary.",
+    "TheHouseof federationshall havememberselected by thestatecouncil.",
+    "The House of federation consists of representatives of the major ethnic groups in the country."
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-028",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which one of the following is INCORRECT about conflict resolution in Ethiopia?",
+   "options": [
+    "All Ethiopian people have indigenous conflict resolution mechanism",
+    "Elders/ shimagles are highly respected in the indigenous conflict resolution process",
+    "Elders/ shimagles cannot resolve conflicts that involve homicide",
+    "Arbitration and mediation are employed to resolve conflict"
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-029",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following gives ultimate decisions according to the Ethiopian law?",
+   "options": [
+    "TheFederal supreme court",
+    "The federal high court",
+    "the state supremecourt",
+    "the state high court"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-030",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following countries is unique example in the world that does not have a written constitution?",
+   "options": [
+    "China",
+    "France",
+    "Netherlands",
+    "Englandv"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-031",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following is the mandate of the federal government of Ethiopia under the current constitutionalprovision?",
+   "options": [
+    "Establishing the regional policeforce",
+    "Establishing the foreign relation",
+    "Writing constitutions for all regional governments",
+    "Organizing cultural event in the regional"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-032",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following groups were the most undermined ones in the long history of in Ethiopia?",
+   "options": [
+    "Potters",
+    "Peasants",
+    "merchants",
+    "Women"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-033",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following is true about illegal human migration in current Ethiopia context? NotAnswered",
+   "options": [
+    "All illegal migrant are from southern Ethiopia",
+    "The major destination of woman migrant is South Africa.",
+    "Illegal migration has become the major socio-cultural problem.",
+    "Illegal migration is assisted by government agencies."
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-034",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following is true about benefits and burdens?",
+   "options": [
+    "Benefits and burdens must be shared equally among all people in society",
+    "Benefits and burdens must shared on the education level of individuals.",
+    "Individual who carry more burden should get less benefits. OI",
+    "Individual who carry less burden must not enjoy their political right."
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-035",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following negative impact of globalization?",
+   "options": [
+    "Transfer of global information and knowledge",
+    "Dependence of economically weak nations on the developed ones",
+    "Market competition between economically weak and strong nation",
+    "Advancement of technology"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-036",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "In what way did Ethiopia protect her independence from foreign aggression the past few centuries?",
+   "options": [
+    "Through diplomatic negotiation.",
+    "Through patriotic resistance struggle.",
+    "Through peaceful submission",
+    "Through the support of western great power."
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-038",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "In what possible ways can student like you protect themselves from peer influence?",
+   "options": [
+    "By avoiding relations with peer group",
+    "By studying hard always",
+    "By making planned activities",
+    "By staying at home after school"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-039",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which one of the following is NOT among the people of Southern Ethiopia?",
+   "options": [
+    "Ari",
+    "Hammer",
+    "Nuer",
+    "Surma"
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-040",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which one of the following social groups is the most disadvantaged group in Ethiopia?",
+   "options": [
+    "Artisans",
+    "women",
+    "children",
+    "persons with Disabilities"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-041",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "In democracy countries obligations of citizens arise from their",
+   "options": [
+    "Rights that they enjoy",
+    "Duties and responsibilities",
+    "Gender identity",
+    "Position in society"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-042",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Why are elected official accountable to their electorate? It is because",
+   "options": [
+    "They should listen to the grievance of the electorate.",
+    "The electorate is the source of their political power.",
+    "They need to have constant contact with their electors.",
+    "The electorate can replace them with another if any time."
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-043",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "The table below show a comparison of two different system of government. FederalSystemUnitarySystem ？ Which information completes the above table?",
+   "options": [
+    "Role of government limited / Role of government expanded.",
+    "Rule by a democracy / Rule by a monarchy",
+    "Power divided among the branches/ power held by one branch.",
+    "Power shared / power delegated."
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-044",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "One of the following declarations was promulgated following the humanitarian crisis of second world war :",
+   "options": [
+    "University declaration of human rights.",
+    "World health day.",
+    "Declaration ofenvironment protection.",
+    "March against HIV/AIDS."
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-046",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Identifytheincorrectstatementfromthegivenalternatives:",
+   "options": [
+    "Industriousnessleadstoself-reliance.",
+    "Self-reliance leads to self-confidence.",
+    "Addictions could affect theworking habitsof theyouth.",
+    "Male-oriented jobs make individuals more industrious."
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-047",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Assertive behavior includes all of the following, except:",
+   "options": [
+    "Questioning",
+    "Positive thinking",
+    "critical arguments",
+    "hasty generalization"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-048",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Who is the Author of famous Ethiopian Novel, \"oromay\"?",
+   "options": [
+    "Kebede Mikael",
+    "Bealu Girma",
+    "Haddis Alemayhu",
+    "Mamo Wudneh"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-049",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "What do an absolute monarchy and an autocracy have in common?",
+   "options": [
+    "Supremacy of a single ruler.",
+    "Absence of written constitution. D. Single legislative house."
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-050",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following is true about foreign in Ethiopia?",
+   "options": [
+    "Ethiopia is fully dependent on foreign aid.",
+    "Foreign is the base of Ethiopia.",
+    "Ethiopia's goal is to be self-reliant in the future.",
+    "Ethiopia is the major beneficiaryforeign aid in Africa."
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-051",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "One similarity between parliamentary and presidential democracies is that in both cases:",
+   "options": [
+    "The head of state elected by the members of parliament.",
+    "The head of state is elected by popular vote.",
+    "There is a smooth and peaceful transition of state power.",
+    "Government is formed most of the time by coalition of parties."
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-052",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following statement is true about progressive taxation?",
+   "options": [
+    "Varying tax rates are levied on people who earn equal income.",
+    "People are expected to pay tax at a rate proportionate to their income.",
+    "People who earn more equal tax with those who earn less.",
+    "Reich people are taxed more while the poor are exempted from it."
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-053",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Civic minded citizens serve their community wholeheartedly mainly to get",
+   "options": [
+    "Fame and recognition",
+    "Monetary reward",
+    "Appointment to public office",
+    "Personal satisfaction."
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-054",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "What was the objective of the non-aligned movement",
+   "options": [
+    "Tobecome an alternativeforcefortheEastandWestinthecoldwar.",
+    "To promote economic cooperation between developing countries.",
+    "To advocate solutions to global social and political problems.",
+    "To be natural in the East and West conformation of the cold war."
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-055",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following is a characteristics feature of the demography of developing nations?",
+   "options": [
+    "High birth rate and high death rate.",
+    "High birth rate and low death rate.",
+    "Low birth rate and high death rate.",
+    "Low birth rate and low death rate."
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-056",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "What is ethics?It is a NotAnswered",
+   "options": [
+    "Collection of moral standards accepted by society.",
+    "Part of philosophy that studies moral standards.",
+    "Set of rules and regulations issued by democratic states.",
+    "Reference material on moral standards issued by UNO."
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-057",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "An altruist is identified by his/ her readiness to",
+   "options": [
+    "Initiates action for constitutional amendment.",
+    "Considered to be revolutionary.",
+    "Automatically made null and void.",
+    "Replace some articles in the constitution."
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-058",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "An altruistisidentifiedbyhis/herreadinessto",
+   "options": [
+    "Lead people in protests against injustice.",
+    "Oppose any form of dictatorship and tyranny.",
+    "Sacrifice ones happiness and welfare for others.",
+    "Use any means to gain power and respect. A. Insure that they are violated by anyone.√ B. Introduce new types of rights for their people. C. Coordinate their use with social development. D. Use any means to gain power and respect."
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-059",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Concerning human rights what governments are required to do is",
+   "options": [
+    "Insure that they are violated by anyone.",
+    "Introduce new types of rights for their people.",
+    "Coordinate their use with social development.",
+    "Use any means to gain power and respect."
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-060",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "In democratic countries officials are expected to be non-partisan while performing their duties, this means?",
+   "options": [
+    "They should not be prejudiced in any way.",
+    "They should not be party members.",
+    "They should not belong to an ethnic group.",
+    "They should not belong to a religious group."
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-061",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following is an attribute of a person who is self- confident?",
+   "options": [
+    "Readiness to accept criticism.",
+    "Determination to help other people.",
+    "Reluctance to take on challenges.",
+    "Having personal role models."
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-062",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Ten countries are elected for a period of two years to serve in the Security Council taking into consideration their.",
+   "options": [
+    "Acceptance by other members.",
+    "Economic development.",
+    "Geographical location.",
+    "Willingness to serve."
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-063",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "For citizens to understand their rights and duties properly laws and rules should be",
+   "options": [
+    "Willingly agreed to by citizens.",
+    "Attractive enough in design.",
+    "Amended periodically.",
+    "clear, easy and well designed."
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-064",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "In Ethiopia it possible to get rid of many off the communicable diseases by:",
+   "options": [
+    "Teaching the people to keep personal hygiene.",
+    "Distribution medicines in the diseases prone areas.",
+    "Increasing the number of health professionals.",
+    "Building health centers and make them accessible. NotAnswered B. Changing the international ones to suit the conditions of the land.√ D. Making the international laws and norms part of the law of the land."
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-066",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following functions is exclusively given to the federal Government of Ethiopia by the constitution?",
+   "options": [
+    "Administration of secondary education.",
+    "Administration of taxes.",
+    "Establishing a police force.",
+    "Formulation of foreign policy."
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-068",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "During state of emergency the Ethiopian government could take action that could take that action that",
+   "options": [
+    "Dismantle all articles of the constitution.",
+    "Limit the democratic rights of citizens",
+    "Breakup the federal arrangement",
+    "Reinforce commitment for human rights."
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-069",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "What does wise saving mean?",
+   "options": [
+    "Saving money even before satisfying your basic needs.",
+    "Saving money after satisfying all your personal wants.",
+    "Saving money after satisfying your basic needs.",
+    "Saving money by reducing from your basic needs."
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-070",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Accountability of state requires a government to: NotAnswered",
+   "options": [
+    "Consult elected representatives before making any decision.",
+    "Settle its accounts and make them for auditing on time.",
+    "Take responsibility for all its decisions and functions.",
+    "Build modern and trust worthy financial system. A.Greediness and selfishness B. Poverty C.lack of self-confidence D. lack of civic education the imperial regime at different places? A. Participation of women as solders. B. The fact that all rebellions were attached to land questions. C. The fact that all rebellions were suppressed by military action suppressed by air force. D. The fact that all rebellions took place in northern Ethiopia."
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-072",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following was the common feature of the Ethiopian peasant rebellions that took place during the imperial regime at different places?",
+   "options": [
+    "Participation of women as solders.",
+    "The fact that all rebellions were attached to land questions.",
+    "The fact that all rebellions were suppressed by military action suppressed by air force.",
+    "The fact that all rebellions took place in northern Ethiopia."
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-073",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "How do we ensure equality between men and women in a democratic system? NotAnswered",
+   "options": [
+    "By assigning women to all key positions in the government.",
+    "By creating equal chance and opportunities for both men & women.",
+    "By increasing the number of women politicians.",
+    "By providing free chance of education for women."
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-074",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Articles 20/2 of the FDRE constitution provides for accused persons to be given the charges against them in order to",
+   "options": [
+    "Help them remember how and where the crime is done.",
+    "Prove that the legal system works in transparent manner.",
+    "Enable them gather evidence to prepare their defense.",
+    "Reinforce popular confidence in legal system of the nation."
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-075",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following African country is associated to a fairly recent phenomenon of genocide?",
+   "options": [
+    "Rwandav",
+    "Burundi",
+    "South Africa",
+    "democratic Republic of Congo"
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-076",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of thefollowing statements about the African continent is not correct",
+   "options": [
+    "It is the most utilized river in Ethiopia.",
+    "It is the bond that links Ethiopia, Egypt and Sudan.",
+    "It is the only cross boundary river in Ethiopia.",
+    "It is the only river that has never attracted the attention of the Europeans."
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-077",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "One of the following personalities is associated to the 1st written constitution of Ethiopia :",
+   "options": [
+    "BejronTeklehawaritTekeleamriam.",
+    "Dejazmach Kebede Tesema.",
+    "Ras Testa Damtew.",
+    "Ras Abebe Aragay."
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-079",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Ethiopian students like you come from different social, economic, cultural and linguistic backgrounds. Which of the following is the most essential virtue that you need to live in harmony in such a situation?",
+   "options": [
+    "Civility",
+    "tolerance",
+    "open mindedness",
+    "civic mindedness"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-080",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "WhoisthecommanderinchiefoftheFDREarmedforces?",
+   "options": [
+    "The president",
+    "The minister of defense",
+    "the prime minister",
+    "the chief of staff of the army"
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-081",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "What makes the governments of Nazi party of Germany, Fascist party of Italy and National party of South Africa similar?",
+   "options": [
+    "Rule by minority racial group.",
+    "Segregation of colored group.",
+    "Absence of rule of law.",
+    "Gender inequality and oppression."
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-082",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Thefight against corruption could bearfruit the government in power",
+   "options": [
+    "Pays high salaries for its official to deter them from taking bribe.",
+    "Manages to make all its officials honest and truthful.",
+    "Is fully committed to root out corrupt practices in the country."
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-083",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Read the following data carefully and answer the question that follows. CountryLiteracy rateInfant Mortality RateLifeExpectancyRateGDP/person(USD) A 44.6% 94.4% 45 Years 146.8 B 98% 5.6% 80 Years 4,000.00 From thetableaboveitcanbesafelyconcluded that",
+   "options": [
+    "Literacy rate has positive relation with infant mortality.",
+    "Literacy rate has positive relation with life expectancy.",
+    "Infant mortality has positive relation with life expectancy.",
+    "Infant mortality rate has positive relation with GDP growth."
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-084",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Identify the correct statement concerning HIV/AIDS from the given alternatives.",
+   "options": [
+    "HIV/AIDS has become a great obstacle against socio- economic development among societies.",
+    "The victims of HIV/AIDS can no longer contribute to the development endeavors of their respective nations.",
+    "Globalization and human mobility played their part in the expansion of HIV/AIDS.",
+    "HIV/AIDS is the only incurable disease."
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-085",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following statement is correct regarding the prevalence or rule of law?",
+   "options": [
+    "It forms a state dominated and ruled by judges.",
+    "It hinders the smooth functioning of courts.",
+    "It establishes rule by law court and judges.",
+    "It guarantees the safety and security of citizens."
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-086",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following is NOT among the moral values of Ethiopian societies?",
+   "options": [
+    "Supporting the poor.",
+    "Respect for elderly people.",
+    "Conflict resolution through indigenous mechanisms.",
+    "Ethnic based violence."
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-087",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following factors essentially necessitated the revision of 1931 constitution in 1955?",
+   "options": [
+    "The promulgation of Universal Declaration of Human Rights.",
+    "The federation of Eritrea with Ethiopia.",
+    "The outbreak of peasant rebellions.",
+    "The expansion of modern education."
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-088",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "What could be the essential base for Ethiopia's development endeavors?",
+   "options": [
+    "Better education and fostering social-cultural values.",
+    "The grand millennium Dam which is under constructions.",
+    "The expansion of global information centuries.",
+    "Opening new legal migration opportunities to citizens."
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-089",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following is INCORRECT?",
+   "options": [
+    "Ethiopia is the seat of ECOWAS.",
+    "Ethiopia is a founding member of OAU."
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-090",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "What could be one of the long-term result of the constitutional protection of free speech?",
+   "options": [
+    "Expansion of public radio.",
+    "More informed society.",
+    "growth of unbiased media",
+    "reliable election result"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-091",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Great scientist and thinkers of all times contributed great thing driven primarily of free speech?",
+   "options": [
+    "Attain self-fulfillment through knowledge.",
+    "Eradicate poverty and justice.",
+    "Transform their country and world.",
+    "Earn respects for their creations and thoughts."
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-093",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Ethnocentrism is a belief that one's own ethnic group is superior in everything to others. Therefore it",
+   "options": [
+    "Insures respect by other ethnic groups.",
+    "Demands the loyalty of other ethnic groups.",
+    "Deserve recognition by other ethnic groups",
+    "Hinders interaction with other ethnic groups."
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-094",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "If a government truly respects rule of law in any country then",
+   "options": [
+    "There will be a democratic constitution.",
+    "There is no need to hold periodic elections.",
+    "It is not necessary to have courts and prisons",
+    "Most certainly justice will prevail."
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-096",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Article 20/7 of the FDRE constitution stipulates that an accused person has a right to:",
+   "options": [
+    "Be tried in a court that uses language of the accused.",
+    "Request for assistance of an interpreter at government expense.<",
+    "Keep silent and refuse to give testimony against oneself.",
+    "Not to appear in court and not be accused of contempt of court."
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-097",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "The universal declaration of human rights incorporated in the FDRE constitution. This is significant because it:",
+   "options": [
+    "Guarantees full respect of the stated right for the people of Ethiopia.",
+    "Compel future governments to respect them for the people of Ethiopia.",
+    "Will serve as a standard for respect of human rights in the country.",
+    "Enable the UN to take action against a government that abuses them."
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2006-098",
+   "subject": "civics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Unlike previous times the nations, nationalities, and peoples of Ethiopia have the right to:",
+   "options": [
+    "Promote and the develop their language and culture.",
+    "Move and settle anywhere in the country.",
+    "Join the various ranks of the country's civil service.",
+    "Marry into and live together with other ethnic groups. 99. \"In theory, markets in free market economies are regulated by the relationship between demand & supply\". What does this statement imply? A. There could be other practical factors that regulate free market economy. B. Demand and supply exist only in the markets of free market economy. C.Others types of economies do not have a theory that regulates them. O D. Free market economy is healthy because Demand and Supply grow equally.<"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  }
+ ],
+ "flagged": [],
+ "stats": {
+  "questions": 94,
+  "items": 89,
+  "flagged": 0,
+  "grid": 100,
+  "conf": {
+   "grid+tick": 50,
+   "grid": 39,
+   "tick": 0
+  }
+ }
+}

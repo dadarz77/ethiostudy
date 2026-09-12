@@ -1,0 +1,1139 @@
+{
+ "items": [
+  {
+   "id": "natl-chemistry-2010-001",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Fats and oils are:",
+   "options": [
+    "Acids",
+    "Alcohols",
+    "Alkenes",
+    "Esters"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-002",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Thereactionbetween alcohols andacylchloridesproduces",
+   "options": [
+    "Ethers",
+    "Esters",
+    "Carboxylic acids",
+    "Aromatic salts"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-003",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which one of the following aqueous solutions will have the LOWEST freezing point?",
+   "options": [
+    "Aq.0.50m KF",
+    "Aq.0.60m glucose",
+    "Aq.0.24m Fel3",
+    "Pure H2"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-004",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "When a student draws a plausible Lewis structure for hydrazine molecule (NH4),how many lone pair of electrons are available?",
+   "options": [
+    "1",
+    "4",
+    "3",
+    "2"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-005",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Whoused the cathodeRay tube to discover the electron and determine its charge tomass ratio? NotAnswered",
+   "options": [
+    "RobertA.Millikan",
+    "James Chadwick",
+    "J.JThomson",
+    "Ernest Rutherford"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-006",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Compounds that contain the carboxyl (carbonyl and hydroxyl) group are said to be:",
+   "options": [
+    "Organic acids",
+    "Ketones",
+    "Aldehydes",
+    "Esters"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-007",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "The main ore of lead is called:",
+   "options": [
+    "Zinc blend",
+    "Galenav",
+    "Cinnabar",
+    "Chromite"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-008",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Duringnitrification,bacterialconvertinto",
+   "options": [
+    "N2,N2O in to nitrous oxide",
+    "NO3,NH4+or nitratesinto ammonium",
+    "N2 into nitrates",
+    "N2,nitrous oxide into nitrogen"
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-009",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which one of thefollowing metals exists in a free state?",
+   "options": [
+    "Na",
+    "Mg",
+    "Pt 01",
+    "Zn 10.A △Hcorresponds to an process. OA.Negative, endothermic OB.Positive,exothermic O C. Zero, exothermic D.Positive,endothermic"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-010",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "A △H corresponds to an process.",
+   "options": [
+    "Negative, endothermic",
+    "Positive,exothermic",
+    "Zero,exothermic",
+    "Positive, endothermic"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-011",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Whichof thefollowingisNOTboth aBronsted-Lowry acid and aBronsted-Lowrybase?",
+   "options": [
+    "HS- O1",
+    "OH",
+    "HCO3",
+    "HSO4"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-012",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Chlorine has an oxidationnumber of+5in:",
+   "options": [
+    "NaCIO3v",
+    "NaCIO2",
+    "NaCI",
+    "NaCIO4"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-013",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Whatisameasure of theclosenessofameasurementtoitstruevalue?",
+   "options": [
+    "Accuracy",
+    "Precision",
+    "Reproducibility",
+    "Usefulness"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-014",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "The monomer of neoprene is:",
+   "options": [
+    "Butadiene",
+    "Isoprene",
+    "Chloroprene",
+    "2-methyl-1,3-butadiene"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-015",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "What is the sum of 3.72x 108and 4.62x107to the correct significant figure?",
+   "options": [
+    "4.991 x 107",
+    "4.17x 108",
+    "4.172 x 108",
+    "4.99 x 107"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-017",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "When asodium chromateNazCrO4solution is acidified,it isconverted to:",
+   "options": [
+    "Cr20-2",
+    "Cr2O3",
+    "CrO3 O1",
+    "Cr(s)"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-018",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Nylons are:-",
+   "options": [
+    "Amides",
+    "Peptides",
+    "Polyesters",
+    "Polyamides"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-019",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Whichquantumnumberisused tobedeterminesubshells?",
+   "options": [
+    "Principal quantum number",
+    "Magnetic quantum number",
+    "Spin quantum number",
+    "Azimuthalquantumnumberv"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-020",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "The maximum kinetic energy of a photoelectron emitted from a metal is 1.03 x 10-19J when light that has a 656 nm wavelength shines on thesurface.What is thethresholdfrequencyfor this metal?",
+   "options": [
+    "4.57 x 1014s-1",
+    "3.02x 1014s-1",
+    "3.02 x 10-14s-1",
+    "4.57 x 10-14s-1"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-021",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "What is the maximum number of electrons in an atom that can have the principal quantum number n = 4?",
+   "options": [
+    "34",
+    "8",
+    "32",
+    "18"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-022",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of the following questions expresses de Broglie's hypothesis?",
+   "options": [
+    "入 =h/(mv)",
+    "△E=hc/",
+    "v=c/n",
+    "△E=c/"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-023",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "What skill is a scientist usingwhen he/she listens to thesounds that animalsmake?",
+   "options": [
+    "Drawingconclusions",
+    "Making a hypothesis",
+    "Interpreting data",
+    "Making observations"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-024",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Whichofthefollowingisfundamentallydifferentfromtheothers?",
+   "options": [
+    "Light waves",
+    "Radio waves",
+    "Sound wavesV",
+    "Microwaves"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-025",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "What is (are) the bond angle (s) in SF6?",
+   "options": [
+    "109.50",
+    "90°",
+    "900 and 109.50",
+    "1800"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-026",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "The number of resonance structures for COs-² are:",
+   "options": [
+    "9",
+    "2",
+    "3~",
+    "6"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-027",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "In the following equation, what type of hybridization change, if any occurs at the Xe atom? XeF2(s) + F2(g) → XeF4(s)",
+   "options": [
+    "sp²d to sp?d?",
+    "dsp2 to sp3",
+    "sp3 to sp²d",
+    "sp²d to sp3"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-028",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of the following compounds doesNOT contain an ionicbond?",
+   "options": [
+    "NaOH O1",
+    "HCIv",
+    "K2S",
+    "LiH"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-029",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of thefollowingstatements about oxygen andfluorine isNOTcorrect?",
+   "options": [
+    "Ohas a smaller atomic radius than F.",
+    "O has a smaller electron affinity than F.",
+    "O²- has a larger ionic radius than F-.",
+    "O and F have the same number of core electrons."
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-030",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Whatwillbethecharges on theionsformedwhensiliconreactswithnitrogen?",
+   "options": [
+    "Si2+, N2-",
+    "Si3+, N3-",
+    "Si4+, N2-",
+    "Si4+, N3-"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-031",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "The equilibrium constant for the ionization of HCN is 4.9 x 10-10 HCN = H+ + CN-K = 4.9 x 10-10 Whichofthefollowingstatementsistrueregardingthisequilibrium? (I)Thereactionis productfavoured. (I)Thereaction is reactantfavoured. (II) Equilibrium lies far to the right. (IV) Equilibrium lies far to the left.",
+   "options": [
+    "II and III",
+    "I and IV",
+    "I and III",
+    "II and IV mechanisms is consistentwith this rate equation? OA.H2NNO2=H++HNNO2fast equilibrium HNNO2→N2O+OH-slow H++OH→H2Ofast OB.H2NNO2+→H+=HNNO+2fast H3 NNO+2→N2O +H;O+ slow H3O+=H++H2Ofast equilibrium OC.HNN+2→N2O+H2O slow OD.H2NNO2→OH + NH+4 slow NH*4=NH +H+fast equilibrium H2O=H++ OH-fast equilibrium"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-033",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Giventheequilibrium constantvalues: N2(g) + 1/2 02 (g) = N20(g) Kc = 3.4 x 10-18 N2O4(g) = 2NO2(g) Kc = 4.6 x 10-3 1/2N2(g) + O2(g) = NO2(g) Kc = 4.1 x 10-9 Whatisthevalue ofKforthefollowingreaction? 2NO2+3O2(g)=2N2O4(g)",
+   "options": [
+    "1.2 ?x 10-6",
+    "2.4 x 10-6",
+    "1.2 x 10",
+    "4.8 x 106"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-034",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "WhichofthefollowingfactorsdoesNOTaffecttherateofachemicalreaction?",
+   "options": [
+    "Concentration",
+    "Nature of reactants",
+    "Temperature",
+    "Humidity"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-036",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "If a reaction is zero order in A,tripling the concentration of A will cause the reaction rate to:",
+   "options": [
+    "Increase by a factor of3",
+    "Remain constant",
+    "Increase by a factor of 27",
+    "Increase by a factor of 9"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-037",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "The phrase\"like dissolves like\"refers to the fact that:",
+   "options": [
+    "Polar solventsdissolvenonpolar solutes andviceversa",
+    "Solvents canonlydissolvesolutes of similarmolarmass",
+    "Polarsolventsdissolvepolarsolutesandnon-polarsolventsdissolvenonpolarsolutes",
+    "Gases can only dissolve other gases 38Anesterhasthestructuralformulashownbelow.Onhydrolysis,theesterwouldproduce: CHCHCHC OCHCH3 O A. Propanoic acid and propan -1 ol OB.Bunanoicacid andethanol C. Ethanoic acid and butan -1 -ol O D. Propanoic acid and ethanol"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-039",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "You are given a bottle of solid x and three aqueous solutions ofY,thefirst saturated the second unsaturated and the third supersaturated.Which of thefollowingis correct,if you add a small amount of thesolidsolutetoeachsolution?",
+   "options": [
+    "The solution n which the added solid solute dissolves is the saturated solution.",
+    "The solution is which the added solid solute remains undissolved is the unsaturated solution.",
+    "In all the three solution,saturated.Unsaturated and supersaturated the added solid solute will dissolve.",
+    "The supersaturated solution is unstable and addition of additional solute causes the excess solute to crystallize."
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-040",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Considerthefollowingequilibrium: 2CO(g) + 02(g) ≥ 2CO2(g)Keq = 4.0 x 10-10 What is the value of Keq for 2CO2(g) ≥ 2CO(g) + O2(g)?",
+   "options": [
+    "2.5 x109~",
+    "2.0 x 10-5",
+    "5.0 x 104",
+    "4.0 x 10-10"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-041",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "For a certain gas phase reaction 2A(g) = B(g) + C(g) △H = +45KJ/mol K = 4.5 x 10-2 Which of the following would be true if the temperature was increased from 25°C to 200°C? I. The value of k would be smaller. II.Theconcentration of A(g)wouldbe increased Ill.TheconcentrationofB(g)wouldincrease",
+   "options": [
+    "I",
+    "II",
+    "I and II",
+    "IⅢI"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-042",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of thefollowing compoundswouldbe themost soluble inH2O?",
+   "options": [
+    "Ethane",
+    "Pentane",
+    "Ethanoic acid",
+    "Octanoic acid 43.A 0.2M solution of aweak acid HA is1% ionized at 25°CKafor the acid is equal to: 0.01x0.01 A. 0.19 0.02x0.02 B. 0.18 0.002x0.002 C. 0.198 0.19 D. 0.01x0.01"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-044",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Whatspecies ofions arepresent in a 0.1Msolution of HCl andwhat will be theirequilibrium concentrations?",
+   "options": [
+    "[HO]+=0.1M; [OH] =10-13M,[CI] = 0.1M",
+    "[H;O]+=0.1M; [OH] =0.1M,[CI]-=0.1M",
+    "[HO]+ =0.1M; [OH] =0.01M, [CI] =0.1M",
+    "[H;O]+ = 10-13; [OH] = 0.1M, [CI]- = 0.1M"
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-046",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Commercial concentrated sulphuric acid (density = 1.831gcm-3) is 94.0% H2SO4 by mass. What is the normality of H2)",
+   "options": [
+    "16.8M",
+    "35.0N",
+    "28.2",
+    "40.4M 47. 2.3g of ethanol (CHCH2OH) is added to 500g of water. What is the molality of the resulting solution? O A.0.1m OB.0.01m O C.1.0m O D.10.0m ml ofwaterarerequiredtopreparethedilutesolution? O A. 2ml HNO3 and 498 ml water OB.10ml HNO3 and 490ml water OC.20mlHNO3 and 490ml water O D. 3.85mlHNO3 and 496.15ml water"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-049",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "During the electrolysis of CusO4(aq) using carbon electrodes, which of the following is the correct half reaction for the anode electrode?",
+   "options": [
+    "Cu2+(aq)+ 2e→ Cu(s)",
+    "2H2O(l) → O2(g)+ 4H+(aq) + 4e",
+    "SO4²-(g)+ O2(g) + 4H+(aq) →So4²-(aq) + 2H2O()",
+    "4OH-(aq)→2H2O(1)+O2(g)+4e"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-050",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "During the electrolysis of a concentrated aqueous solution of NaCl,what substance is formed at the cathode?",
+   "options": [
+    "Chlorine",
+    "Hydrogen",
+    "Oxygen",
+    "Sodium"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-051",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Ina voltaic cell,electronsflowfrom the to the",
+   "options": [
+    "Anode,cathode",
+    "Salt bridge, anode",
+    "Anode, salt bridge",
+    "Salt bridge, cathode"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-052",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "WhatisthePHofamixtureof15.0mlof0.126MNaOHand21.0MH2SO4?",
+   "options": [
+    "1.7",
+    "11.81",
+    "2.15",
+    "13.6"
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-053",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of the followingstatement is true? NotAnswered",
+   "options": [
+    "AdditionofNaNO2toasolutionofHNO2willdecreasethePH.",
+    "Addition of HCl to a solution of NaC2HsO2 will increase the PH.",
+    "Addition of KBr to a solution of HBr will increase thePH.",
+    "Addition of CHNHClto a solution of CHNH2will decrease thePH."
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-054",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "What is final temperature when 150.0ml of water at 90.0°C is added to 100.0ml of water at 30.0°C?",
+   "options": [
+    "66.0°C",
+    "45.0%C",
+    "60.0°C~",
+    "33.0°C"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-055",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Whichof thefollowing correctly lists electromagneticwaves in orderfrom shortest tolongestwavelength?",
+   "options": [
+    "Microwaves,ultraviolet,visible light,gamma rays",
+    "Gammarays,ultraviolet,infrared,microwaves",
+    "Radio waves,infrared,gamma rays,ultraviolet",
+    "Gamma rays, infrared,ultraviolet, microwaves"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-056",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "The relationship between Pico meter (pm) and nanometre (nm) is:",
+   "options": [
+    "1nm=1000pmV",
+    "1nm = 10pm",
+    "1pm=100nm",
+    "1pm=10nm"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-057",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Whatwould be thewavelength of aradiowave having a frequency of 3MHz?",
+   "options": [
+    "100nm",
+    "300m",
+    "100mV",
+    "300nm"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-058",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Theprocessofvulcanizationofrubbermakesit",
+   "options": [
+    "Moresolubleinsolvents",
+    "Soft",
+    "Less elastic",
+    "Hard"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-059",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of thefollowing is NOT the decomposition product of HNO3?",
+   "options": [
+    "NO2",
+    "02",
+    "N2O4V",
+    "H2"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-060",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "The determine the volume of an irregularly shaped glass vessel, the vessel is weighed empty (121.3g) and when filled with CCl4 (283.2g). What is thevolume capacity of the vessel,given that the density of CCl4 is 1.59g/cm3?",
+   "options": [
+    "76.29cm3",
+    "178.11cm²",
+    "101.82cm",
+    "257.42cm3"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-061",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "The diagrambelow shows the range of energies of collision of a collection of reactants at two temperatures,T and T2.Which of the following is true regarding T and T2? Fractional ofmolecules T2 E Kinetic energy",
+   "options": [
+    "T = T2, fraction of molecules at both temperatures are equal.",
+    "T2< T1,fraction of molecules at T2 is smaller.",
+    "T <T2, fraction of molecules at T is larger.",
+    "T< T2, fraction of molecules at T is smaller."
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-062",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "For the reaction CH14(g) → CoH(g) + 4H2(g), △p(H2)/△t was found to be 2.5 x 10-2 atm/s, where △p(H2) is change in the pressure of hydrogen.Determinep(HgHi4)/tinunitsof atm/sforthisreactionat thesametime.",
+   "options": [
+    "6.2 x 10-2",
+    "1.6 x 10-3",
+    "-6.2 x 10-3",
+    "2.5 x 10-2 compound remains after4710seconds? O A.1/8 O B.1/12 O C.1/6 O D. 1/3"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-063",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "The decomposition of a compound at 400°C is first order with a half - life of 1570 seconds what fraction of an initial amount of the compound remains after 4710seconds?",
+   "options": [
+    "1/8",
+    "1/12",
+    "1/6",
+    "1/3"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-064",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Given the following AFn species, BF3, BeF2, CF4, NF3, OF2. What is the correct order of F -A - F bond angles?",
+   "options": [
+    "OF2<BeF2<NF3<BF3<CF4",
+    "BeF2<OF2<NF3<BF3<CF4",
+    "CF44<NF3<BeF2<OF2",
+    "OF2<NF3<CF4<BF3<BeF2"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-065",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "From CO2, H2O, BeCl2 and N2O which have the same molecular geometry?",
+   "options": [
+    "CO2, H2O and N2",
+    "CO2, BeCl2 and N2",
+    "CO2 and BeCl2 only~",
+    "H2O and N2O only"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-067",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "A solution of NH4Cl made by dissolving 3.16g NH4Cl in 30.14g H2O has a density of 1.0272g cm-3. What is the mole fraction of NH4Cl?",
+   "options": [
+    "0.9659",
+    "0.21",
+    "0.65",
+    "0.0341"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-068",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of thefollowing is true regarding the solutionformation process?",
+   "options": [
+    "New coulombic attraction between the solute and solvent form in which the enthalpy change is exothermic (△H < 0)",
+    "Intermolecular forces between the solvent molecules must weaken in which the enthalpy change is exothermic (△H< 0)",
+    "Intermolecular forces between the solute particles must weaken in which the enthalpy change is exothermic (H< 0)",
+    "Covalentbondswithin thesolute and solventmoleculesmustbebroken"
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-069",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "What volume of 1.40M H2SO4 solution is needed to react exactly with 10.0g of aluminium according of the following reaction? 2AI(s)+2H2SO4(aq)→Al2(SO4)3(aq)+3H2(g)",
+   "options": [
+    "2.643ml",
+    "264.3ml",
+    "26.43ml",
+    "2643ml OA. The point at which the solid. Liquid and gaseous phases for a substance co-exist. OB. The triple point exists at a single temperature and is independent of pressure.√ OC.The system must be enclosed so that noVapour can escape O D. The triple point exists for a substance occurs at a specific temperature and pressure."
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-071",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Considerthefollowingequilibrium: Cl2(g)+ 2NO(g)≥ 2NOCI(g)Keq =5.0 At equilibrium, [Cl2 ] = 1.0M and [NO]= 2.0M. What is the [NOCl] at equilibrium?",
+   "options": [
+    "0.80M",
+    "0.89",
+    "10M",
+    "4.5M√ OA.Phenyl acetic acid O B. Toluic acid OC.Benzoic acid O D. Phthalic acid"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-072",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which acid is produced when toluene is subjected to KM,O4 oxidation?",
+   "options": [
+    "Phenyl acetic acid",
+    "Toluic acid",
+    "Benzoic acid",
+    "Phthalic acid"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-073",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of thefollowingstatementistrue?",
+   "options": [
+    "If the entropy of the system increases during a reversible process, the entropy change will also increase by the same amount.",
+    "If the entropy of the system increases during a reversible process,the entropy change of the surroundings will remain the same",
+    "If the entropy of the system increases during a reversible process, the entropy change of the surroundings will decrease by the same amount",
+    "If the entropy of the system decreases during a reversibleprocess,the entropy change of the surroundingswill also decreasesby the same amount 436KJ/mol,I-I=151KJ/mol,H-I=297KJ/mol O A.-7KJ√ O B.-290KJ C.+7KJ OD.+290KJ"
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-075",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Howlonghas a current of 3ampere tobe applied through asolution of silver nitrate tocoat a metal surfaceof 80cm²with 0.005cm thick layer?Density of silver =10.5gcm-3",
+   "options": [
+    "476s",
+    "1252s",
+    "683s",
+    "1028s"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-076",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of thefollowingis an organic acid?",
+   "options": [
+    "CHCH2OH",
+    "CH3CH3",
+    "CH2 = CH2",
+    "CHCO2H"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-077",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "What is the freezing point of a 0.1m solution of NaCl (in °C)? KT = 1.860C/m and the freezing point of pure water is (°C)",
+   "options": [
+    "-0.186",
+    "-0.372",
+    "-1.86",
+    "-0.093"
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-078",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "During a titrationwhatvolume of 0.500MKOH isnecessary to completely neutralize10.0ml of 2.00M CH3COOH?",
+   "options": [
+    "10.0ml",
+    "40.0ml",
+    "25.0ml",
+    "20.0ml"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-079",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Whatis the standard cellpotential of the oxidation of ammonia,givenbelow? 4NH+3O2→2N2+6H2O△G°=-1356KJ",
+   "options": [
+    "7.02V",
+    "3.51V 0",
+    "1.17V",
+    "14.04V"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2010-080",
+   "subject": "chemistry",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Two electrolytic cells were placed in series,one ofAgNO and the other of CuSO4.If 1.273gAg is deposited,how much Cu was deposited,howmuchCuwasdeposited atthesametime? NotAnswered",
+   "options": [
+    "0.374",
+    "0.0118",
+    "0.748",
+    "0.954 Your Answers you have scored O out of 0 Answer Key 1.D 11.B 21.C 31.D 41.D 51.A 61.A 71.D 2.B 12.A 22.A 32.A 42.C 52.A 62.C 72.C 3.C 13.A 23.D 33.C 43.C 53.A 63.A 73.A 4.D 14.C 24.C 34.D 44.A 54.C 64.D 74.A 5.C 15.B 25.B 35.C 45.C 55.B 65.C 75.B 6.A 16.B 26.C 36.B 46.B 56.A 66.B 76.D 7.B 17.A 27.A 37.C 47.A 57.C 67.D 77.A 8.C 18.D 28.B 38.B 48.D 58.D 68.A 78.B 9.C 19.D 29.A 39.D 49.D 59.C 69.B 79.C 10.D 20.B 30.D 40.A 50.B 60.C 70.B 80.A 2019CamaraEducationEthiopia.EthiopianGeneralSecondaryEducationCertificateandUniversityEntranceExaminations"
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  }
+ ],
+ "flagged": [
+  {
+   "n": 16,
+   "grid": "B",
+   "tick": "C",
+   "q": "Which of thefollowingis a natural polymer? NotAnswered"
+  },
+  {
+   "n": 45,
+   "grid": "A",
+   "tick": "D",
+   "q": "A solution in which prop ionic acid is 0.94% ionized has a PH of 2.85. What is t"
+  },
+  {
+   "n": 66,
+   "grid": "B",
+   "tick": "D",
+   "q": "How many electrons are present in the o2p molecular orbital of N2+?"
+  }
+ ],
+ "stats": {
+  "questions": 72,
+  "items": 69,
+  "flagged": 3,
+  "grid": 80,
+  "conf": {
+   "grid+tick": 17,
+   "grid": 52,
+   "tick": 0
+  }
+ }
+}

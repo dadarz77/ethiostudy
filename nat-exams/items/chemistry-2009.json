@@ -1,0 +1,1129 @@
+{
+ "items": [
+  {
+   "id": "natl-chemistry-2009-001",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of thefollowing covalentbondsis the mostpolar?",
+   "options": [
+    "H-F",
+    "H-C",
+    "H-H",
+    "H-N"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-002",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "The force that hold different atoms or ions together are called?",
+   "options": [
+    "Electric forces",
+    "Physical bonds",
+    "Chemical bond",
+    "Atomicforces"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-003",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Howmanyelectronsaresharedbetween two atomsina doublebond?",
+   "options": [
+    "2",
+    "3",
+    "4",
+    "6"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-004",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of the following is the correct Lewis structure for oxygen atom?",
+   "options": [
+    "Three lone-pairs of valence electrons",
+    "One lone- pair of valence electrons and one bonding site.",
+    "Twolone-pairsofvalence electrons and onebonding site.",
+    "Two lone-pairs of valence electrons and two bonding sites."
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-005",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "What is the chemical formula of the compound formed by aluminium (ll) and sulphate ion, SO4²- ?",
+   "options": [
+    "AISO4",
+    "Al,SO4",
+    "Al2(SO4)3",
+    "AI(SO4)3"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-006",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of thefollowingis themostreasonablevalence-bondstructure of thenirocyl chloride(NOCl)? :O-N-C1",
+   "options": [
+    "O O=N-C1",
+    ": O-N=Cl S ： : O=N CI"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-007",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "What is the ground state electronic configuration of Cu2+?",
+   "options": [
+    "[Ar] 4st 3d8",
+    "[Ar] 4s² 3d7",
+    "[Ar] 4s1 3d10",
+    "[Ar] 3d9"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-008",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of thefollowingisthe correct orderfor electronsfillingin orbitals?",
+   "options": [
+    "3s, 3p,4s, 3d",
+    "2p,3s, 3p, 3d",
+    "3p, 4s, 3d, 5s",
+    "4s,3d, 4p, 4d"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-009",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "The normal human eye responds to visible light of wavelength ranging from about 390nm to 710nm. What is the frequency range of the human eye?",
+   "options": [
+    "7.7 x 1014s-1 to 4.2 x 1014 s-1",
+    "4.2 x 1014s-1 to 7.7 x 1014 s-1",
+    "1.3 x 10-15s-1 to 2.4 x 10-15s-1",
+    "2.4 x 10-15s-1 to 1.3 x 10-15s-1"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-010",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "How many different types of orbitals are there in the third energy level?",
+   "options": [
+    "2",
+    "3",
+    "6",
+    "7"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-011",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "The Heisenberg uncertainty principle states that",
+   "options": [
+    "Two atoms of the same element must have the same number of protons.",
+    "Notwoelectronsdinthesameatomcanhavethesamesetoffourquantumnumbers.",
+    "It is impossible to determine both position and momentum of an electron simultaneously.",
+    "Electrons of atoms in ground state enter energetically equivalent stet of orbitals singly before they pair any orbitals of the set."
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-012",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of thefollowing transitionswill haveminimumwavelength?",
+   "options": [
+    "n4→nl<",
+    "n2 →nl",
+    "n4 →n2",
+    "n3 → nl"
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-013",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "What is the energy associated with one photon of a microwave radiation having a frequency of 2.45 x 10°s-1?",
+   "options": [
+    "1.62x1024J",
+    "2.45 x 109J",
+    "2.45 x 10-9J",
+    "1.62x10-24J"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-014",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "What is the frequency of a radiation (in Hz) from an atom if its wavelength is 1.0 x 10-9nm?",
+   "options": [
+    "3.3 x 10-27",
+    "3.0 x 1017",
+    "3.0 x 108",
+    "3.0 x 1026~"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-015",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Whichof thefollowing particlewas discovered bythecathoderays experiment?",
+   "options": [
+    "Electronv",
+    "Neutron",
+    "Nucleus",
+    "Proton"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-016",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of the following is NOT a laboratory safety rule?",
+   "options": [
+    "You should tiebackloosehair.",
+    "You should never add acid to water.",
+    "Do not suck solution in the pipette by mouth.",
+    "When lighting a Bunsen Burner, you should light the match stick before turning on the gas."
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-017",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of the following are the correct steps of the Scientific Method? NotAnswered",
+   "options": [
+    "Observation-Hypothesis-Experimentation-Formulation of Laws-Theories.",
+    "Observation-Formulation of Laws-Experimentation-Hypothesis-Theories",
+    "Observation-Experimentation-Hypothesis-Formulation of Laws-Theories",
+    "Observation- Experimentation- Formulation of Laws- Hypothesis- Theoriesv"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-018",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of the following is the correct relationship between picometer (PM) and nanometer (nm)?",
+   "options": [
+    "1Pm=10nm",
+    "1pm=100nm",
+    "1nm=10pm",
+    "1nm=1000pm"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-019",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "How many significant figures has the sum of 2.453,4.6 and 8.14?",
+   "options": [
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-020",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which one of the followingmeasurements has the greatest number of significant figures?",
+   "options": [
+    "0.00046",
+    "0.0046",
+    "460",
+    "4.6 x 106"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-021",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of thefollowingmethods is used to convert oils into fats?",
+   "options": [
+    "Esterification reaction using strong bases like NaOH or KOH",
+    "Saponification reaction using strong bases like NaOH or KOH",
+    "Hydrolysis reaction in the presence of water and a catalyst",
+    "Hydrogenation reaction at high temperature and in the presence of a catalyst?"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-022",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "The solubility of compounds containing the carboxylic acid group can be increased by reaction with",
+   "options": [
+    "Sulphuric acid",
+    "Sodium hydroxide",
+    "Water",
+    "Benzoic acid"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-023",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "WhatistheIUPACnameforthefollowingmolecule? CH ——CHCH NH2 HO H",
+   "options": [
+    "- amino -α -hydroxybutyric acid",
+    "4 - amino - 2 -hydroxybutanoic acid",
+    "1 - amino - 3 -hydroxybutanoic acid",
+    "α - amino - -hydroxybutyric acid"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-024",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "What products will beformedwhen a carboxylic acidreactswith an alcohol?",
+   "options": [
+    "Ketone and water",
+    "Amide and water",
+    "Acid chlorideandwater",
+    "Easter and water"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-026",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Consider thefollowing reaction at equilibrium. 2CO2 (g) = 2CO (g) + O2 (g) △H = -514KJ WhatdoesLeChatelier's principlepredictwhen the temperatureforthereaction is increased?",
+   "options": [
+    "The value of the equilibrium constant will increase.",
+    "The value of the equilibrium constant will decrease.",
+    "The partial pressure of O2 (g) at equilibrium will increase.",
+    "The partial pressure of CO2 (g) at equilibrium will increase."
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-027",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "For one component system,when would the degree of freedom becomes one?",
+   "options": [
+    "When only one phase is present.",
+    "Whentwophasesarepresentatequilibrium.",
+    "When three phases are present at equilibrium.",
+    "At all times. Use the following equilibrium reaction for questions 29 2C (s)+O2(g)=2CO (g)△H<0"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-030",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Whichoneofthefollowingiscorrectwhen areactionreachesequilibrium?",
+   "options": [
+    "The reaction rate for the forward direction is decreased to zero.",
+    "The rate of the forward and reverse reaction becomes equal.",
+    "The rate of the reverse reaction is reached a maximum.",
+    "The amounts of reactants and products becomes equal."
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-031",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Apossible mechanism for the reaction,A+2B→AB2is Step:A+B→ABSlow Step:AB+B→→AB2Fast Overall:A+2B→→AB2 According to the mechanism,what will be the rate law?",
+   "options": [
+    "Rate=K[A][B]",
+    "Rate = K[B]2",
+    "Rate = K[A][B]2",
+    "Rate = K[A]"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-032",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Theinitial rate of a reaction A+B→products was measured for several different starting concentrations of A and B,with the following results. Exp [A] [B] Initial rateofformation of CM/s 1 0.04 0.04 9.6 x 10-6 2 0.08 0.04 1.92 x 10-5 3 0.02 0.02 9.6 x 10-6 What is the initial rate of reaction when [Alo = 0.12M and [Blo= 0.015M?",
+   "options": [
+    "0.006Ms-1",
+    "0.006M-2s-1",
+    "1.08 x 10-5Ms-l",
+    "1.08 x 10-4Ms-1"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-033",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Given the following data for the reaction: NH4+(aq) + NO2(aq) → N2(g) + 2H2O(l) Experiment [N4+] [N2] Rate 1 0.010M 0.020M 0.020M/s 2 0.015M 0.020M 0.03M/s 3 0.010M 0.010M 0.005M/s Whatwillbetheratelawforthegivenreaction?",
+   "options": [
+    "Rate = K[NH4+]INO2]",
+    "Rate = K[NH4+]²[NO2]",
+    "Rate = K[NH4+]²[NO2-]2",
+    "Rate = K[NH4+JINO2-]²"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-034",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Therate of a reactionincreases withincreasing the concentration of reactant molecules,because",
+   "options": [
+    "The averagekinetic energy of the molecules increases.",
+    "Thefrequencyof molecular collisionsincrease.",
+    "The order of the reaction increases",
+    "The activation energy increases."
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-036",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of thefollowing refer to a reaction that isNOTdependent ontheconcentration of a reactant? NotAnswered",
+   "options": [
+    "Second order reaction",
+    "First order reaction",
+    "Zeroorderreaction",
+    "Third order reaction"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-037",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "What is (are) theF-S-Fbond angle(s) in SF6?",
+   "options": [
+    "109.50",
+    "1200",
+    "90° and 120°",
+    "90° and 1800"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-039",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Whatkindofhybridorbitals areutilizedby thecarbonatominCF4molecules?",
+   "options": [
+    "Sp",
+    "Sp2",
+    "Sp3~",
+    "Sp?d"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-040",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Whichof thefollowingmoleculeisINCORRECTLYmatchedwiththeelectronicgeometryof thecentral atom?",
+   "options": [
+    "CF4. tetrahedral",
+    "H2O:tetrahedral",
+    "CF4: Pyramidal",
+    "BeBr2: linear 41.A 0.217g sample of HgOreacts with excess iodide ions according to the reaction: HgO + 4I +H2O →HgI4²-+ 2OH- Howmanyml, of 0.1M HCl is required toreach equilibrium point during the titration of the solution? NotAnswered A.1.0 O B.10√ O C.20 O D.50"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-043",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "To a50.0ml ofabuffersolution thatis 0.25M inHFand 0.10MinNaF,if5.0ml of0.050MNaOHis added,whatis thefinal PH of this buffer solution? Given the pKaHF=3.17",
+   "options": [
+    "2.77",
+    "2.8",
+    "2.74",
+    "3.17"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-044",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Thesuppressionof ionization of aweak acidoraweakbasebyaddingone of itsownions isknown as: NotAnswered",
+   "options": [
+    "Buffer effect",
+    "Ionization effect",
+    "Commonioneffectv",
+    "Associationeffect"
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-045",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Nitrous acid,HNO2is 0.37%ionized in3.0M solution.What is theKafor this acid? 3.0(0.0037)2",
+   "options": [
+    "99.63 (0.0037)2",
+    "89660 3.0(0.0037)2",
+    "0.9963 0.9963",
+    "(0.0037)2"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-046",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Among the following acids, which has the lowest PKa value?",
+   "options": [
+    "CHCH2COOH",
+    "HCOOH",
+    "(CH3)2CHCOOH",
+    "CHCOOH"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-047",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which one of thefollowingis aLewis acid?",
+   "options": [
+    "NH3",
+    "CCl4",
+    "AICl",
+    "LiCl"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-048",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of the following is the conjugate acid of the HSion?",
+   "options": [
+    "H2S-",
+    "S2",
+    "S-",
+    "H2S"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-050",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "When the molecular equation: CaCl2(aq) + Na2CO3(aq) → CaCO3(s) + 2NaCl(aq) Is written in terms of ionic equation,which one of thefollowingpairs will be the spectator ions?",
+   "options": [
+    "Na+and Cl",
+    "Ca2+ and Cl-",
+    "Na32- and Cl-",
+    "Ca2+ and CO32-"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-052",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "How many grams of methanol would have to be added to water to prepare 150ml of solution which is 2.0M methanol? C",
+   "options": [
+    "2.4",
+    "9.6",
+    "9.6 x 103",
+    "4.3 x 102"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-054",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "What will be the normality of a 2.3M sulphuric acid solution?",
+   "options": [
+    "0.23N",
+    "0.46N",
+    "2.3N",
+    "4.6N"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-055",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "The solubility of NaCl in water at 20°C is 36g in 100g of water. A solution that contains 18g of NaCl in 50g of water at 20°C is",
+   "options": [
+    "Saturated",
+    "Unsaturated",
+    "Supersaturated",
+    "Dilute"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-056",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of thefollowingwill increasetherate atwhich asoliddissolvesina liquid?",
+   "options": [
+    "Supersaturating the solution",
+    "Grinding thesolid into smallerpieces",
+    "Lowering the temperature of the solvent",
+    "Placing the solution in opaque container"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-057",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of the following pairs of substances are miscible?",
+   "options": [
+    "Water and gasoline",
+    "Water and oxygen",
+    "Water and salt",
+    "Water and ethanol"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-059",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Thechemicalmakeupof oilis esters ofglycerol withthree",
+   "options": [
+    "Identical saturated fatty acids.",
+    "Predominantly saturated fatty acids.",
+    "Predominantlyunsaturatedfatty acids.",
+    "Identical unsaturated fatty acids."
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-060",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of the following general class of organic molecules do triglycerides belong to?",
+   "options": [
+    "Ketones",
+    "Carboxylic acids",
+    "Esters",
+    "Ethers"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-061",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "What type of polymerization occurs when amino acids react to form peptides and proteins?",
+   "options": [
+    "Addition polymerization",
+    "Condensation polymerization",
+    "Substitution polymerization",
+    "Hydration polymerization"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-062",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of thefollowingis the most abundant polysaccharide?",
+   "options": [
+    "Amylose",
+    "Cellulosev",
+    "Starch",
+    "Sucrose"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-063",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Whatistheothernameforpolymethyl methacrylate(PMMA)?",
+   "options": [
+    "Perspex",
+    "Teflon",
+    "Bakelite",
+    "Nylon- 6"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-064",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Whatis the monomer of polyvinyl chloride (PvC)?",
+   "options": [
+    "Cloroethane",
+    "Ethylenedichloridev",
+    "Chloroform",
+    "Ethyl chloride"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-065",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "The second step in the production of sulphuric acid is given by the reaction: 2SO2(g)+O2(g)≤2S03(g) Which conditionswould increasetheyield of this reaction?",
+   "options": [
+    "High temperature and low pressure",
+    "Low temperature and high pressure?",
+    "High temperature and high pressure",
+    "Low temperature and low pressure"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-066",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of thefollowing reactions is used in the production of industrially important chemical?",
+   "options": [
+    "H2S2O7(l) +H2O()→2H2SO4(aq)",
+    "3NO3(g)+H2O(l)→2HNO3(aq) +NO2(g)",
+    "(NH4)2HPO4(S) + NH3(g) →NH4H2PO4(S)",
+    "2Cr(s) + Al2O3(s) → Cr2O3(s) + 2Al(s)"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-067",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which one of the following metal is used for galvanization of iron sheets?",
+   "options": [
+    "Nickel",
+    "Zinc",
+    "Chromium",
+    "Aluminium"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-068",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Inwhat way is the phosphorous cycle differsfrom the carbon and nitrogen cycle?",
+   "options": [
+    "Phosphorusismore abundant than carbon and nitrogen",
+    "Phosphorus is less important than carbon and nitrogen",
+    "Phosphorus, once used by an organism does not cycle back to the environment",
+    "The reservoirs for phosphorus exists in mineral form in rocks than in the atmosphere"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-069",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which one of thefollowingis needed forphotosynthesis? NotAnswered",
+   "options": [
+    "Carbondioxide",
+    "Nitrogen",
+    "Oxygen",
+    "Phosphorus"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-070",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Consider thereaction: =0 ()++ () () + ()+) What is the value of E when [Cu²+] is equal to 0.040M and [Fe²+] is equal to 0.40M?",
+   "options": [
+    "0.72V",
+    "0.75V",
+    "0.81V",
+    "0.84V"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-072",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Whatproduct(s)is/areformed duringtheelectrolysis ofa concentrated aqueous solution of sodiumchloride?",
+   "options": [
+    "Cl2(g)",
+    "Cl2(g) and H2(g)",
+    "NaOH(aq) and Cl2(g)",
+    "Cl2(g), H2(g) and NaOH(aq)"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-073",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "In the reaction: Pb+(s),PbO2+H2SO4(aq)→2PbSO4(s)+2H2O(l) Whichsubstancebehavesastheoxidizingagent?",
+   "options": [
+    "Pb",
+    "PbSO4",
+    "PbO2V",
+    "H2SO4"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-074",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "What mass of magnesium (Mg) is produced in the electrolysis of molten MgCl2, if a current of 7.50 x 102 A is passed through the molten salt for 1.o0 hour? NotAnswered",
+   "options": [
+    "3.4 x 10²g",
+    "9.92 x 102g",
+    "1.7 x 10²g",
+    "4.96 x 102g"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-075",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Devices inwhichoxidation-reductionreactionisinduced by an electriccurrent arecalled",
+   "options": [
+    "Galvanic cells",
+    "Electrolytic cells",
+    "Voltaic cells",
+    "Electromotive cells"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-076",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "In the following reaction: 3CI(aq) + 4CrO4²-(aq) + 23H+(aq) → 3HCIO2(aq) + 4Cr3+(aq) + 10H20(l) What is the behaviour CI (aq)?",
+   "options": [
+    "An acid",
+    "A base",
+    "An oxidizing agent",
+    "A reducing agent"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-077",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "The KP for the reaction: 2SO;(g) = 2SO2(g) + O2(g) is 0.26 at 1,000°C and 40.8 at 1,300°C, which of the following combinations of △H andS are most plausiblefor thereaction at these temperatures? △H △S",
+   "options": [
+    ">0",
+    ">0 >0",
+    "<0 >0",
+    "<0 0>"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-079",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "At what condition(s) is the equation,△H = △U + P△V, applicable?",
+   "options": [
+    "For constant pressure and temperature processes",
+    "Only for constant pressure processes",
+    "Only for constant temperature processes",
+    "Only for constant volume processes"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2009-080",
+   "subject": "chemistry",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "What is a thermodynamic system that exchanges both energy and matter with the surroundings?",
+   "options": [
+    "Adiabatic",
+    "Closed",
+    "Isolated",
+    "Open √ Use the following equilibrium reaction for questions 81 2C (s) + O2 (g)= 2CO (g) △H<0"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  }
+ ],
+ "flagged": [
+  {
+   "n": 35,
+   "grid": "C",
+   "tick": "D",
+   "q": "Considerthefollowingreactions: 2N2O5(g)→ 4NO2(g) +02(g) At a certain temperature"
+  },
+  {
+   "n": 38,
+   "grid": "C",
+   "tick": "D",
+   "q": "What is the bond order of a superoxide anion,with the chemical formula O2?"
+  },
+  {
+   "n": 42,
+   "grid": "A",
+   "tick": "D",
+   "q": "Whichstatement aboutindicators is alwayscorrect?"
+  },
+  {
+   "n": 49,
+   "grid": "A",
+   "tick": "C",
+   "q": "What will be the ration of theboilingpoint elevation of a 0.1M solution of sucro"
+  },
+  {
+   "n": 51,
+   "grid": "B",
+   "tick": "C",
+   "q": "If 0.454kg of nitroglycerin explodes according to the followingreaction: 2CH5(NO"
+  },
+  {
+   "n": 53,
+   "grid": "A",
+   "tick": "C",
+   "q": "A certain 500g toothpaste sample has 0.2g of fluoride. What is the concentration"
+  },
+  {
+   "n": 78,
+   "grid": "B",
+   "tick": "C",
+   "q": "Based on the followinginformation △H\"(KJ) H2(g)+1/2O2(g)→H20(l) -286 2Na(s) + 1/"
+  }
+ ],
+ "stats": {
+  "questions": 76,
+  "items": 67,
+  "flagged": 7,
+  "grid": 80,
+  "conf": {
+   "grid+tick": 9,
+   "grid": 58,
+   "tick": 0
+  }
+ }
+}

@@ -21,7 +21,13 @@ ANS_ROW = re.compile(r'^\s*(\d{1,3})\s*[\.\-–:]?\s*([A-D])\b')
 BANNER = re.compile(r'PAGE \d+|National|Exam|Subject|Time Allowed|Instructions|Not Answered|BOOKLET|SUBJECT\s*CODE|NUMBER\s*OF\s*ITEMS|TIME\s*ALLOWED|^\d+/\d+/\d+|^\d+/\d+$|euee\.epizy|Contents/exam', re.I)
 TICK_END = re.compile(r'(?:[√✓]|[a-z][vx<])$')
 
+# Greek letters rapidocr commonly misreads as CJK/fullwidth look-alikes.
+# The CJK block in the gauntlet test exists to catch stray Chinese OCR output;
+# 入/△ are legitimate lambda/delta misreads in physics/chem formula options.
+GLYPH_FIX = str.maketrans({'入': 'λ', '△': 'Δ', '∧': 'λ', '□': '', 'μ': 'μ'})
+
 def clean(s):
+    s = s.translate(GLYPH_FIX)
     s = re.sub(r'\s+', ' ', s).strip()
     # strip practice-site UI artifacts that appear INLINE in long OCR lines
     s = re.sub(r'\|?\s*Not Answered\s*', ' ', s)

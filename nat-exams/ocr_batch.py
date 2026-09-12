@@ -17,6 +17,9 @@ from rapidocr_onnxruntime import RapidOCR
 
 ocr = RapidOCR()
 
+def log(msg):
+    print(f'[{time.strftime("%H:%M:%S")}] {msg}', flush=True)
+
 # night-shift courtesy: never outrank the user's own apps
 try:
     import psutil
@@ -36,6 +39,22 @@ def rest_if_asked():
     if paused:
         log('resumed after rest break')
 
+def claim(name):
+    c = os.path.join(OCR_DIR, name + '.claim')
+    for _ in range(2):
+        try:
+            fd = os.open(c, os.O_CREAT | os.O_EXCL | os.O_WRONLY)
+            os.write(fd, str(os.getpid()).encode()); os.close(fd)
+            return True
+        except FileExistsError:
+            try:
+                if time.time() - os.path.getmtime(c) > 600:
+                    os.remove(c); continue
+            except OSError:
+                pass
+            return False
+    return False
+
 def log(msg):
     print(f'[{time.strftime("%H:%M:%S")}] {msg}', flush=True)
 
@@ -54,6 +73,10 @@ todo = [p for i, p in enumerate(todo) if i % nshards == shard]
 log(f'shard {shard}/{nshards}: {len(todo)} files to OCR, doing {min(len(todo), limit)} this run')
 
 for p in todo[:limit]:
+    if claim(p[:-4] + '.txt'):
+        pass
+    else:
+        continue  # another worker owns it
     t0 = time.time()
     name = p[:-4]
     out = os.path.join(OCR_DIR, name + '.txt')
@@ -62,6 +85,7 @@ for p in todo[:limit]:
         doc = pymupdf.open(os.path.join(PDF_DIR, p))
         lines = []
         for i, page in enumerate(doc):
+            rest_if_asked()
             pg_txt = []
             pix = page.get_pixmap(dpi=200)
             img = part + f'.p{i}.png'

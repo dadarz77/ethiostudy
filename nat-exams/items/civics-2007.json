@@ -1,0 +1,1489 @@
+{
+ "items": [
+  {
+   "id": "natl-civics-2007-001",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Who was the leader of the black civil rights' movement killed in April 1968 after addressing his last speech?",
+   "options": [
+    "Rose parks",
+    "Allan john",
+    "Mohandas Gandhi",
+    "Martin Luther king"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-002",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "What is meant by treating others the way you want to be treated as well as impartial treatment of people?",
+   "options": [
+    "Fairness",
+    "truthfulness",
+    "honest",
+    "courage"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-003",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "When did Ethiopiabecome the member of the League of Nations?",
+   "options": [
+    "1920",
+    "1921",
+    "1923",
+    "1925"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-004",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which African countries joined the League of Nations besides Ethiopia?",
+   "options": [
+    "Kenya and Tunisia",
+    "Liberia and South Africa",
+    "Algeria and Egypt",
+    "Ghana and Nigeria"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-005",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "When was the organization of African union (OAU) transformed into African union (UN)?",
+   "options": [
+    "2002",
+    "2004",
+    "2006",
+    "2009"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-006",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which right is different from the others?",
+   "options": [
+    "Right to life.",
+    "Right to liberty.",
+    "The right to the security of persons.",
+    "The right to assembly and demonstration."
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-007",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Why the Kyoto protocol is so significant?",
+   "options": [
+    "Because it is adopted to reduce greenhouse gas emissions.",
+    "Because it is main agenda on equitable use of international rives.",
+    "Because it is made to find solutions for refugees throughout the world."
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-008",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which of the following is peaceful way of settling disputes with the involvement of third party?",
+   "options": [
+    "Arbitration",
+    "Negotiation Q",
+    "mediation",
+    "Litigation"
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-009",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which one of the following can best define a democratic constitution?",
+   "options": [
+    "It gives ultimate power to the concerned people.",
+    "It establishes different social classes of given society.",
+    "It reflects the psychological and moral values of the society.",
+    "It is a legal law subjugated to some other laws of the country."
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-010",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which of the following attributes refers to a person who is ready to listen to others' views?",
+   "options": [
+    "Civility",
+    "Open mindedness",
+    "Honest",
+    "civic mindedness"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-011",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "It isunderscore thatthe chanceof thevulnerability ofwomentoHIV/AIDSistwenty times compared to men.What is the main reason for this problem?",
+   "options": [
+    "This is because women are exposed for abduction.",
+    "This is because women usually use sharp iron tools compared to men.",
+    "This is because women have easily vulnerable tissues during sexual intercourse.",
+    "This is because women are naturally weaker and easily exposed for any diseases."
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-012",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "What strategy devised to achieve the development of Ethiopia?",
+   "options": [
+    "The tourism sector must develop first and then the industrial sector.",
+    "Both the agricultural and the industrial sectors must develop together.",
+    "The agricultural sector must develop first followed by the industrial sector.",
+    "The industrial sector must develop first followed by the agricultural sector."
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-013",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "What form of democracy has recently been adopted by the Ethiopian government?",
+   "options": [
+    "Neo-liberalism",
+    "Social democracy",
+    "Liberal democracy",
+    "developmental democracy"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-014",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Where did Ethiopia play a role in peace keeping mission?",
+   "options": [
+    "Angola",
+    "Congo",
+    "North Korea",
+    "South Africa"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-015",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which of the following peoples' movement was the first to join the Tigray peoples' Liberation Front to create the Ethiopian peoples' Revolutionary Democratic front?",
+   "options": [
+    "The Oromo peoples' democratic movement.",
+    "The Ethiopian peoples' democratic movement. D. The Ethiopian democratic officers' revolutionary movement."
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-016",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Who used the crowned lion of Judah as the emblem of the Ethiopian flag during his reign?",
+   "options": [
+    "HileselassieIv",
+    "Menelik II",
+    "Tekle Giorgis",
+    "yohannes IV"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-017",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which of the following refers to a kind of a person who is unwilling to understand the qualities of other cultures andconsideringhisorher own culture as superior to others?NotAnswered",
+   "options": [
+    "Civic-minded",
+    "ethnocentric",
+    "tolerant",
+    "open minded"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-019",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which of the following is the best manifestation of corruption? NotAnswered",
+   "options": [
+    "Dowry",
+    "Cheap labor",
+    "nepotism",
+    "holiday banquet"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-020",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "What types of rights are exclusively reserved only to citizens in a state?",
+   "options": [
+    "Civil rights",
+    "Moral right",
+    "human rights",
+    "political rights"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-021",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "What kind of party system is currently followed by Ethiopia?",
+   "options": [
+    "Single party system",
+    "Two dominant party system",
+    "multi-party system",
+    "one dominant party"
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-022",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which of the following is correct about Ethiopian languages as stipulated in the constitution of the federal democratic republic of Ethiopia?",
+   "options": [
+    "Amharic shall be the state language of the country.",
+    "Amharic shall be the working language of member states.",
+    "Regional states can have their own respective working language.",
+    "All Ethiopian languages shall be recognized based on the size of their speakers."
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-023",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which of the following is correct about the current Ethiopian court system?",
+   "options": [
+    "The empowerment of judges who are directed by the law.",
+    "The existence of judiciary system that is controlled by the government.",
+    "The absence of recognition to traditional courts operating based on religious principles.",
+    "The absence of recognition to traditional courts operating based on unwritten laws."
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-024",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which of the following can best explain a legitimate government?",
+   "options": [
+    "It safeguards the rights of interest groups.",
+    "If fails to uphold transparency and accountability.",
+    "It canfunction beyond thelimit of the constitution.",
+    "It receives its mandate of governing from the people."
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-025",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Why is constitutionalism valued as a fundamental constitutional principle? Because it NotAnswered",
+   "options": [
+    "Makes citizens subservient to government.",
+    "Enables a government to exercise it will over the people.",
+    "Binds the government to act in accordance with the constitution.",
+    "Allows government toexercise extra-constructional authorities."
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-026",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which of the following is correct about the conduct and accountability of the Government as stipulated in Article 12 of the current Ethiopian constitution?",
+   "options": [
+    "The conduct of affairs of government shall be secretive.",
+    "The government shall defend the failure of public officials. O D. In case of loss of confidence, the people have the right to recall an elected representative. √ A.Thehead ofthe state. B.The council of ministers.",
+    "The president of the Supreme Court.",
+    "The house of people's representatives."
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-027",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which government body is responsible for appointing judges of the federal courts of Ethiopia?",
+   "options": [
+    "The head of the state.",
+    "The council of ministers.",
+    "The president of the Supreme Court.",
+    "The house of people's representatives."
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-028",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which one of the following is put in correct order of sequence regrading scientific methods of research?",
+   "options": [
+    "Data collection - hypothesis- Analysis- Evaluation of result -conclusion.",
+    "Analysis- Evaluation of result- Data collection- hypothesis- conclusion.",
+    "Hypothesis- Data collection- Analysis- Evaluation of result- conclusion.",
+    "Analysis-hypothesis-Data collection- conclusion-Evaluation of results."
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-029",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which of the following is correct about the millennium Goals of Ethiopia?",
+   "options": [
+    "Federating Ethiopia with Djibouti.",
+    "Finding solution for Sudan- south Sudan civil war.",
+    "Decreasing the death of mothers' and child on birth.",
+    "Making the horn of African free from any war and conflict."
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-030",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "What form of government best represents the commonness of extra-constitutional power by those who assume state power? NotAnswered",
+   "options": [
+    "Aristocracy",
+    "Democracy",
+    "Oligarchy",
+    "dictatorship"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-031",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which of the following statement can best describe the federal democratic republic of Ethiopia?",
+   "options": [
+    "Ordinary laws at the federal level are made by the parliament.",
+    "At the federal level the higher executive powers are given to parliament.",
+    "Ordinarylaws at the regionallevel aremadeby the stateAdministration.",
+    "At the regional level the state council is the highest organ of executive power."
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-033",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "What basic principle is underline in due process of law? NotAnswered",
+   "options": [
+    "An accused person has the right to be represented by a legal counsel.",
+    "An accused person can be considered guilty as soon as he/she comes under control.",
+    "Supporting unequal accessibility of court and tribunals to any person committee serious crime.",
+    "An accused person suspected for matters to national security has the right to a quick public trial."
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-034",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "How and when can the current Ethiopian constitution be amended?",
+   "options": [
+    "When two-thirds of the country's population votes to approve the proposed amendment.",
+    "When the prime minister and the president agree to approve the proposed amendment.",
+    "When the regional state Administration and state councils jointly approve proposed amendment by a majority vote.",
+    "When the house of peoples' representatives and the house of the federation in a joint sessions, approve a proposed amendment by a two thirds majority vote. A. Giving priority to patient who are elder. B.Assisting patients and keeping their secret. C. Insulting fellow physicians when they make error on job. D. Providing assistance to patients who prefer to commit suicide."
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-036",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which of the following is correct about ordinary Laws? NotAnswered",
+   "options": [
+    "They are above the constitution.",
+    "They are enacted through a proclamation.",
+    "They can contradict with the Constitution",
+    "They are made by a \"constituent assembly'"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-037",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "What is the objective of the Ethiopian foreign policy? NotAnswered",
+   "options": [
+    "promoting relation with states standing for religious fanatic",
+    "Respecting conventions which challenge Ethiopia's interest.",
+    "Establishing a geographically defined relation with some countries.",
+    "Creating economic and curtural ties with countries supporting Ethiopia's enemy"
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-038",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "What makes the presidential democratic system different from the parliamentary one?",
+   "options": [
+    "The president is elected from the winning party.",
+    "Once elected. The president has unlimited power.",
+    "Thepresident heads theexecutivebranchof thegovernment.",
+    "The check and balance between the three branch of government is weak in it."
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-039",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which of the following is correct about a federal state structure?",
+   "options": [
+    "It is conductive to too small stated.",
+    "It is suitable for multi-ethnic society.",
+    "It is characterized by centrally controlled power.",
+    "It is impossible to organize units based on natural boundaries."
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-040",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "What constitutional rights are given to the regional states of the FDRE? NotAnswered",
+   "options": [
+    "The right to have their own anthem as a symbol of their state.",
+    "The right to recruit and train their own defense force to keep security.",
+    "The right to formulate and establish their own external relations.",
+    "The power to control the supreme court of the central government."
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-041",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which of the following can best describe parliamentary structure of government?",
+   "options": [
+    "The head of government is the president.",
+    "The role of the head of government is ceremonial.",
+    "The prime minister is elected by popular vote of citizens.",
+    "The head of the government is responsible to the legislature.< NotAnswered A. It express that justice coming late unacceptable. B. It emphasizes the right to be tried without undue delay.√ C. The need to reject possible appeal time to a higher court. D. The need to disapprove the time spent before the trial begins."
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-042",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "What does the phrase 'justice delayed is justice denied' express?",
+   "options": [
+    "It express that justice coming late unacceptable.",
+    "It emphasizes the right to be tried without undue delay.",
+    "The need to reject possible appeal time to a higher court.",
+    "The need to disapprove the time spent before the trial begins"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-043",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "In democratic society a \"good citizenship is the active side of one's character\". Which of the following statement best reflects the message of the phrase in the quotation mark. NotAnswered",
+   "options": [
+    "One must apply the principles of citizenship in his or her conduct.",
+    "The character of good citizenship cannot be acquired through learning.",
+    "Theoretical knowledge is the science aspect of good citizenship.",
+    "Good citizenship is an art to be practiced through civic commitment."
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-044",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "What does state sovereignty imply?",
+   "options": [
+    "Superiorityof onestate over theother.",
+    "Non-interaction among sovereign states",
+    "Non-intervention in the domestic affairs of states.",
+    "Unquestionability of domestic rules and decisions."
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-045",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "What does habeas corpus refer to?",
+   "options": [
+    "An accused person has the right to quick public trail.",
+    "A person shall not be accused again for a single crime already treated.",
+    "A self - incriminating person has no burden to prove his or her innocence.",
+    "A person arrested by a police man has the right to know why he or she is arrested."
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-046",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which one of the following sentence is correct about co-operational and competition among nations?",
+   "options": [
+    "Co-operation cropes tensions resulting from competition for resource.",
+    "Countries co-operate to protect and preserve their natural and cultural heritage.",
+    "Co-operation between two nations lasts long when it is based on unequal benefits.",
+    "Countries co-operate for inequitable use of natural resources. Such as cross-boundary Rivers."
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-047",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which of the following is an expected duty of patriot citizen?",
+   "options": [
+    "Scarifying personal interest for the common good.",
+    "Giving access state's secret to neighboring countries.",
+    "Avoiding of criticizing government policies based on evidence.",
+    "Keep away from taking part in voluntary activities so as to save time."
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-048",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which of the following approaches has a direct role in preventing corruption?",
+   "options": [
+    "Ethical regulations.",
+    "Registration of properties of citizens.",
+    "Laws related to financial administration and auditing systems.",
+    "The emergence of groups interested in accumulating wealth at others expense."
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-049",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "What is correct regarding deliberate transmission of HIV/AIDS?",
+   "options": [
+    "It is considered as a suicide.",
+    "It can be taken as a serious crime of homicide.",
+    "It can be seen as part of the HIV/AIDS victims attempt to share his/her pain.",
+    "It can be seen as part of the HIV/AIDS patient's effort to exploit his/her rights and duties."
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-050",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "What is meant by morality? NotAnswered",
+   "options": [
+    "It is a way of behaving according to legal laws.",
+    "It is a system that tells a person to act against nature.",
+    "It is principle which are similar throughout the world.",
+    "It is a standard examining the rightness and wrongness of our acts."
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-051",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "WhatistheprincipleoftheconstitutionoftheFederaldemocraticrepublicofEthiopiainrelationto religion? NotAnswered",
+   "options": [
+    "There shall be state religion.",
+    "State and religion are inseparable.",
+    "All religions of the land are equal in status.",
+    "Government shall intervene in the affairs of religion."
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-052",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which of the following statement is correct about rule of law?",
+   "options": [
+    "Rule of law is natural law acquired by virtue of being human.",
+    "To practice rule of law, government must be the source of power.",
+    "The existence of constitutionalism guarantees the prevalence of rule of law.",
+    "The main major purpose of rule of law is to limit popular sovereignty. A. When a citizen criticizes against the government B. When a citizen propagates in support of an opposition party. C. When a citizen makes propaganda without the knowledge of the government. D. When a citizen makes a propaganda harming the honor and reputation of individuals.<"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-053",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "When does the Ethiopian government apply legal limitation on the right to freedom of expression?",
+   "options": [
+    "When a citizen criticizes against the government",
+    "When a citizen propagates in support of an opposition party.",
+    "When a citizen makes propaganda without the knowledge of the government.",
+    "When a citizen makes a propaganda harming the honor and reputation of individuals."
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-054",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "How can the concept of negotiation be best explained as a way of conflict resolution?",
+   "options": [
+    "It is a processing by a party or parties against another in a court of law.",
+    "It is a means of applying legal principles to a controversy for final solution.",
+    "Is a method of non-blinding dispute resolution involving a neutral third party?",
+    "It involves direct discussion between or among the parties to reach an agreement."
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-055",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which of the following is correct about the features of federal form of states? Such as Ethiopia?",
+   "options": [
+    "The power of the central government is indivisible.",
+    "The regional governments are supreme in their owns spheres.",
+    "The power of the regional government is given by the national government.",
+    "The existence of the local units depends on the willingness of the central government."
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-056",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "What is the purpose of learning civic education in academic institutions of Ethiopia?",
+   "options": [
+    "To forge activities participation to support the ruling party.",
+    "To produce a personality of passive consent in the action of others.",
+    "To effect the personality of just any kind of civic participation of a subject people.",
+    "To effect the personality of civic participation of informed and responsible citizen."
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-058",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "What does referendum refer to?",
+   "options": [
+    "A power referred to a government to give final decision on some problems.",
+    "The veto power given to the chief executive to decide on some political matters.",
+    "The direct participation of people in giving decision on some political matters.",
+    "The direct participation of peoples' representatives in the politics of a country."
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-059",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which specific right of any accused person is violated if the trial goes with an unintentional absence of the accused?",
+   "options": [
+    "The right to affair and public hearing.",
+    "The right to be tried without undue delay.",
+    "The right to a fair trial in his or her presence.",
+    "The right to have free assistance of an interpreter"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-060",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which of the following is the best recommendation for a person who for the first time made HIV/AIDs bloodtestandinformedthatheisnotvictim?",
+   "options": [
+    "To be sure he should be retested.",
+    "He should be abstained from having sex.",
+    "As he is sure that he is not victim he should marry a wife.",
+    "Since he is sure that he is not victim he should continue his past habits."
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-061",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "In which form of government is the removal of the chief executive through the process of Non-Vote of confidencepracticed?",
+   "options": [
+    "Presidential.",
+    "Parliamentary.",
+    "Semi- presidential",
+    "Quasi-presidential"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-062",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which of the following qualities is expected from a person to be a patriotic citizen?",
+   "options": [
+    "The personal should not be law abiding.",
+    "The person should not be loyal to his or her country.",
+    "The personal should work for his or her parochial interest.",
+    "The person should be self- evident and defend his or her constitutional rights?"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-063",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which of the following is correct about the personal qualities of a good leader?",
+   "options": [
+    "A one who falls pray to their own undoing.",
+    "A onewhois awareof howmuch he does notknow.",
+    "A one who has ability to influence others without logic.",
+    "A one who rationalizes unethical behavior based upon current needs."
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-064",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which of the following is INCORRECT about saving in relation to locally produced items? NotAnswered",
+   "options": [
+    "Wastage of a lot of inputs harms a development of country.",
+    "A voiding wastage during production is one means of saving money.",
+    "Buying locally produced items helps to save money when they are cheaper.",
+    "Wastage of inputs in the main cause for decreasing cost of production."
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-065",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which of the following does NOT develop the habit of saving among Individuals?",
+   "options": [
+    "The act of spending money wisely.",
+    "Balancing the needs and wants of individuals.",
+    "Thinking and planning about the fate of our feature.",
+    "The encouragement of extravagance behavior of individuals."
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-066",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "What is true about ethics?",
+   "options": [
+    "Ethics is the same as felling.",
+    "Ethics is the same as religion.",
+    "Ethics means strictly following the law.",
+    "Ethics is following and doing culturally accepted norms and practices."
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-067",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which of the following is correct about corruption?",
+   "options": [
+    "It reduces public confidence in the government.",
+    "All acts of corruption result in the payment of bribes.",
+    "Civil servants commit corruption in a more systematic way then government officials.",
+    "The fight against corruption can be successful through preventive actions than curative measures."
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-068",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which of the following statements is correct about group rights in the current Ethiopian context?",
+   "options": [
+    "They are not treated as universal rights.",
+    "They are made to eliminate rights belonging to an individual.",
+    "They are made to favor the disadvantaged groups at others expense.",
+    "They are made to facilitate the realization of discrimination among peoples of the state."
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-070",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which of the following is correct about the characteristics of undemocratic government?",
+   "options": [
+    "It believe in accountability to empower people",
+    "It does not give recognition to talented people.",
+    "It believes that government is the source of unquestionable power.",
+    "It believes that legitimate power resides in the people and government. A.Afforestation. B. Increasing price of oil. C. Increasing desertification. D. Growth arms race between nations."
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-072",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "What is the possible benefits that one can get from fulfilling his/her responsibility?",
+   "options": [
+    "The inability to exploit his/her rights",
+    "Lack of confidence and self-accomplishment.",
+    "The development of a sense of dependence upon others.",
+    "The achievement of being valued by the concerned society."
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-073",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which of the following is correct about citizens combating challenges of international magnitude that affect humanity?",
+   "options": [
+    "Being unaware of politics and current affairs.",
+    "Disinclination to work together in tacking problems.",
+    "Acquiring knowledge and the skills as per the global reality.",
+    "Unwilling to co-operate with the world to eliminate the problem."
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-074",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which of the following factors in responsible for promoting job satisfaction?",
+   "options": [
+    "Lack of interest in the work.",
+    "Career growth through short term training.",
+    "Long hours of work and low financial reward.",
+    "Insecurity of work and unhealthy working conditions."
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-075",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "In the context of economic globalization, what efforts have been made by the Ethiopian government to promote foreign direct investment?",
+   "options": [
+    "The provision ofland without lease.",
+    "To let investors remit part of their profit to their country.",
+    "The decline to give a tax holiday for foreign direct investors."
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-076",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which of the following is correct about drug use and trafficking?",
+   "options": [
+    "Drug users cannot stop taking drugs.",
+    "Drug users involve in robbery and theft.",
+    "Drug users are highly respected among their society.",
+    "Drug users are committed to fight illegal weapon trafficking."
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-077",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which of the following is correct about the Ethiopian flag?",
+   "options": [
+    "It is a recent fabrication.",
+    "It serves as symbol of unity.",
+    "It is purely colonial legacy.",
+    "It has insignificant historical value."
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-078",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "What is the role of the judiciary organ in the current Ethiopia context?",
+   "options": [
+    "Drafting the constitution when it is required.",
+    "Resorting justice whenever the law is violated.",
+    "Encouraging controversies in order to resolve them.",
+    "Defending biased court officials and self- centered lawyer."
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-079",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which of the following ideas refers to an attempt to exterminate a clan, family or people?",
+   "options": [
+    "Genocide",
+    "Drug trafficking",
+    "aggression",
+    "corruption"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-080",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which of the following is considered as criminal offence in relation to taxation?",
+   "options": [
+    "Having license for your shop.",
+    "Unwillingness to reveal the appropriate income.",
+    "An attomey in court for person committed a crime",
+    "Assisting custom officials in an effort to combat contraband trade."
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-081",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which of the following is an obligation of a citizen as per the constitution of the Federal Democracy Republic of Ethiopia?",
+   "options": [
+    "Valuating gender disparity.",
+    "Respecting the government as the source of power.",
+    "Respecting the constitution as the supreme law of the land.",
+    "Fighting for and upholding the inequality of group and individuals. A. To avoid tyrannical rule from the center. B. To suppress local initiatives and interest across the state. C. To accommodate all the centrifugal force within one nation.√ D. To look for ways of having greater weight against external force."
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-083",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which of the following ideas agrees with the principle of multiculturalism?",
+   "options": [
+    "It undermines peoples to promote their cultural distinctions.",
+    "It believes that the prevalence of diversity is an obstacle for unity.",
+    "It believes that no culture is superior or inferior to any other culture.",
+    "It underscores that the very purpose of politics is to affirm group indifferences."
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-084",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which of the following is correct about human rights?",
+   "options": [
+    "They are acquired after birth.",
+    "They are created and maintained by stated.",
+    "They are natural and enjoyed by all human kind.",
+    "They are exercised based on one's political achievement."
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-086",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which of the following is INCORRECT about the role played by governmental and non- governmental",
+   "options": [
+    "They raise awareness of the community.",
+    "They organize venue for expressing views.",
+    "They arranged and facilities discussions to identify local problems.",
+    "They arrange debates which promote unsubstantial judgment of policies."
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-087",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "What is the advantage of citizen's participation in making and evaluating public policies?",
+   "options": [
+    "It develops a sense of betrayal among citizens.",
+    "It promote suspicion between government and citizens.",
+    "It enables citizens to formulate and implement sustainable and effective polices.",
+    "It enables government to know the feeling and reactions of citizens."
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-088",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "What benefit can be gained from utilizing locally produced goods than the exported ones in a country?",
+   "options": [
+    "Promoting imbalance import-export trade.",
+    "Proper and efficient exploitation of resources.",
+    "Keeping country's domestic factories out of business."
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-089",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which of the following is correct about a good leader?",
+   "options": [
+    "He /she strive to attain personal gains.",
+    "He /she creates vision and inspire others to achieve goals.",
+    "He /she depends on threats and coercion to meet his/her goals.",
+    "He /she sets a plan to keep his/her position and struggle to achieve it."
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-090",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which one of the following can best describe the personal quality of a versatile leader?",
+   "options": [
+    "The quality of being flexible, resourceful and an all rounded one.",
+    "The quality of realizing what is achievable based on known facts.",
+    "The quality of inspiring others and committing to the objectives of the task.",
+    "The presence of good ability to set appropriate course of action through plan"
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-091",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which of the following goes with the notion of constitutional patriotism in the current Ethiopian context?",
+   "options": [
+    "Citizens' commitment to the state's development.",
+    "Citizens' commitment to conquer neighboring countries.",
+    "Citizens' indulgence to cultural and religious fundamentalism.",
+    "Citizens' determination to fight the virtue of tolerance in the state."
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-092",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "What is true about cultural relativism?",
+   "options": [
+    "Societal norms from the basis of morality.",
+    "Morality does not differ from culture to culture.",
+    "Themoralvalues of oneculturecanbejudged tobebetter than thatof the other.",
+    "There are university agreed moral principles by which we judge our action."
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-093",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which of the following contribute for creating favorable condition for corruption?",
+   "options": [
+    "The presence of measurement of corruption.",
+    "The emergence of rent-seeking political services.",
+    "The devotion of the government to apply harsh penalties.",
+    "Citizens' unreserved commitment for combating corrupted officials."
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-094",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "What is the consequence of corruption in country?",
+   "options": [
+    "It eliminates societal moral values.",
+    "It increases foreign direct investment.",
+    "It reduces expenditure for public services.",
+    "It reduces investment and the rate of growth."
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-095",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which of the following is the reason for adopting the principle of equality for the current Ethiopian society?",
+   "options": [
+    "To encourage gender discrepancy",
+    "To eradicate citizens' economic inequality",
+    "To enable the society to have a similar culture.",
+    "To develop the different cultures of the country"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-096",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "What can be a consequence of economic dependency of developing nations?",
+   "options": [
+    "The development of self-sustained economy of developing.",
+    "The increment of the stagnation of the economies of developed nations.",
+    "The emerging of balanced economic relationship between the developed and developing nations.",
+    "The occurrence of technological and financial penetration by the developed nations at the expense of the developing ones."
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-097",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which of the following is an attribute of patriotism?",
+   "options": [
+    "Developing rent-seeking behavior.",
+    "Playing the role of whistle blowers.",
+    "Recognizing and accepting cultural indifferences.",
+    "Respecting heritage on the basis of ethno-centrism."
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-098",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which of the following statements agree with the principle of fairness?",
+   "options": [
+    "Everybody should benefit according to his/her age.",
+    "It is unfair to consider ageism when sharing benefits.",
+    "Benefits should bedistributed asperburdens discharged.",
+    "Benefits should be shared regardless ones, responsibilities."
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-099",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "What can be an outcome of fair distribution of benefits and burdens among citizens of a state?",
+   "options": [
+    "The cultivation of sense of'weness' among citizens.",
+    "The elimination of economically and socially stratified groups.",
+    "The development of citizen's subordination to the government."
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2007-100",
+   "subject": "civics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which of the following is an indicator of poverty in a country?",
+   "options": [
+    "Low illiteracy rate.",
+    "Low infant mortality rate.",
+    "Very low population size. OI",
+    "Low average expectancy. Your Answers you have scored O out of 0 Answer Key 1.D 11.C 21.C 31.D 41.D 51.C 61.B 71.D 81.C 91.A 2.A 12.C 22.B 32.B 42.B 52.C 62.D 72.D 82.C 92.D 3.C 13.D 23.A 33.C 43.D 53.D 63.D 73.C 83.C 93.B 4.B 14.B 24.D 34.D 44.D 54.D 64.D 74.C 84.C 94.A 5.B 15.B 25.C 35.B 45.A 55.B 65.D 75.A 85.B 95.D 6.D 16.A 26.D 36.B 46.B 56.D 66.D 76.B 86.D 96.D 7.B 17.B 27.D 37.A 47.A 57.D 67.D 77.B 87.C 97.B 8.C 18.C 28.A 38.C 48.A 58.C 68.B 78.B 88.A 98.C 9.A 19.C 29.C 39.B 49.B 59.B 69.D 79.A 89.B 99.A 10.B 20.D 30.D 40.A 50.D 60.A 70.C 80.B 90.A 100.A ? 2019CamaraEducationEthiopia.EthiopianGeneral SecondaryEducationCertificate and UniversityEntranceExaminations"
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  }
+ ],
+ "flagged": [
+  {
+   "n": 57,
+   "grid": "D",
+   "tick": "B",
+   "q": "Which the following powers and functions belongs to the regional governments of "
+  }
+ ],
+ "stats": {
+  "questions": 94,
+  "items": 92,
+  "flagged": 1,
+  "grid": 100,
+  "conf": {
+   "grid+tick": 54,
+   "grid": 38,
+   "tick": 0
+  }
+ }
+}

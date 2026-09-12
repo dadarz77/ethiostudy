@@ -1,0 +1,1235 @@
+{
+ "items": [
+  {
+   "id": "natl-chemistry-2006-001",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following is NOT a conjugate acid-base pair?",
+   "options": [
+    "HNO3/NO'3",
+    "H2SO4/HSO4",
+    "NH3/NH 2",
+    "H3O+/OH-"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-002",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Whichofthefollowingis correct?",
+   "options": [
+    "1L=1dm3",
+    "1L=10dm3",
+    "10L=1dm3",
+    "1L=1m3"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-003",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Commercially, liquid vegetable oils are converted to solid fats such as margarine by:",
+   "options": [
+    "Hydrogenation",
+    "Hydration",
+    "Saponification",
+    "Oxidation"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-004",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "What is the chemical name for Aspirin?",
+   "options": [
+    "Acetyl salicylic acid",
+    "Salicylic acid",
+    "Methyl salicylate",
+    "Sodium salicylate"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-005",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following statement(s) is (are) true of an ideal liquid-liquid solution? I. It obeys PV = nRT II1. It obeys Raoult's law IlI.Solute-solute,solvent-solvent,andsolute-solventinteractions arevery similar. IV.Solute-solute,solvent-solvent,andsolute-solventinteractionsarequitedifferent.",
+   "options": [
+    "I, II and III",
+    "I, II and IV",
+    "II and III",
+    "II and IV"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-006",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "The unitcell in a certainlattice consists of a cubeformedby ananion ateachcorner,ananionin the center, and a cation at the center ofeachface.Howmany cations andhowmany anions does the unit cell have?",
+   "options": [
+    "5anionsand6cations",
+    "5 anions and3 cations",
+    "2 anions and3 cations",
+    "3 anions and 4 cations"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-007",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "In a reaction, A + B → product, the rate is doubled when the concentration of B is doubled, and the rate increases by a factor of 8 when the concentrations of both the reactants (A and B) are doubled, the rate law for thereaction canbewritten as:",
+   "options": [
+    "Rate = K[A][B]",
+    "Rate = K[A][B]2",
+    "Rate = K[A]²[B]",
+    "Rate = K[A]²[B]2"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-008",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Answer the following question using the phase diagram below. At which point can only the solid and liquid phases coexist? 8 Pressure 6 Temperature",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-009",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which electron transition in a hydrogen atom releases the largest energy?",
+   "options": [
+    "n=2→?n=1",
+    "n=4→n=2",
+    "n=6→n=3",
+    "n=7→n=6"
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-010",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "The simplest formula for a compound containing Mn4+ and O²- is",
+   "options": [
+    "Mn",
+    "MnO2",
+    "Mn204",
+    "Mn4O2"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-011",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "What is the ratio of the energy of a photon of 300 nm wavelength radiation to that of 600 nm radiation?",
+   "options": [
+    "1:2",
+    "1:1",
+    "2:1",
+    "3:1"
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-012",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which one of the following chemicals is used to disinfect water?",
+   "options": [
+    "Fluorine",
+    "Nitrogen",
+    "Oxygen",
+    "Chlorinev"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-013",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "During the titration of a known volume of a strong acid with a strong base, there is",
+   "options": [
+    "A steadyincreaseinPH",
+    "A sharp increase in PH around the end point",
+    "A steady decrease in PH",
+    "A sharp decrease in PH around the end point"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-014",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Asolutionwith aPH of 7.5wouldbe described as:",
+   "options": [
+    "Very basic",
+    "Slightly baseV",
+    "Slightly acidic",
+    "Very acidic"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-015",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "The electrolysis of moltenNaClis an industrial process.What does the electrolysis produce?",
+   "options": [
+    "Na and Cl2v",
+    "H2 and O2",
+    "Nat and Cl-",
+    "NaOH and Cl2"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-016",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Butane burns in oxygen according to the equation below. 2C4H1o(g) + 13O2(g) → 8CO2(g) + 10H20(l). If 11.6g of butane is burned in 11.6 g of oxygen, which is the limiting reagent?",
+   "options": [
+    "Butane",
+    "Oxygenv",
+    "Neither",
+    "Both oxygen and butane"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-017",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "A beaker filled to the 100mL mark with salt (the salt has a mass of 100g) and another beaker to the 100mL mark with water (the water has a mass of 1oog) are mixed together in a bigger beaker until the salt is completely dissolved. What will be the mass of the solution?",
+   "options": [
+    "It will be much more than 200g",
+    "It will be much smaller than 200g",
+    "It will be exactly 200g",
+    "It will be slightly more than 200g"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-018",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which one of the following is NOT an intensive property?",
+   "options": [
+    "Mass",
+    "Temperature",
+    "Colour",
+    "Density"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-019",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following is natural polymer?",
+   "options": [
+    "Nylon",
+    "PVC",
+    "Cotton",
+    "Dacron"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-020",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following metals forms a volatile compound during the extraction process? NotAnswered",
+   "options": [
+    "Fe",
+    "Co",
+    "Niv",
+    "Cu"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-021",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which one of the following atoms in its ground state has the greatest number of unpaired electrons?",
+   "options": [
+    "13A1",
+    "14Si",
+    "15PV",
+    "16S"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-022",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which statement is true about chemical reactions at equilibrium?",
+   "options": [
+    "A forward and backward reactions proceed at equal rates",
+    "?The forward and backward reactions have stopped",
+    "?The concentrations of the reactants and products are equal",
+    "?The forward reaction is exothermic"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-023",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Whichcompoundcontainsbothcovalentandionicbonds?",
+   "options": [
+    "Sodium carbonate, Na2CO3",
+    "Magnesium bromide, MgBr2",
+    "Dichloromethane, CH2Cl2",
+    "Ethanoic acid, CHCOOH"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-024",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which set of quantum numbers (n, I, m, ms) is not possible?",
+   "options": [
+    "1,0, 0, 1/2",
+    "1, 1, 0, 1/2",
+    "1, 0, 0, -1/2",
+    "2,1,-1,1/2"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-025",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following particles contains more electrons than neutrons? 1. 1H I1. 1735CI III. 3919 K+",
+   "options": [
+    "I onlyv",
+    "II only",
+    "I and HI only",
+    "II and IMI only"
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-026",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "WhichmoleculeoriondoesNOThaveatetrahedralshape?",
+   "options": [
+    "?XeF4V",
+    "SiCl4",
+    "BF4",
+    "NH4+"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-027",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Why are metals soft and malleable?",
+   "options": [
+    "Because they are very shiny.",
+    "Because they experience electrostatic repulsion",
+    "Because ofthe presence of mobileelectrons.",
+    "?Because the metal cations can slip over each other fairly easily."
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-028",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "In which region of the Periodic Table would the element with the electronic structure below be located? 1s²2s22p°3s²3p3d104s²4p°4d°5s2",
+   "options": [
+    "Group 6",
+    "Noble gases",
+    "S block",
+    "D blockv"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-029",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Whichfactorswillinfluencetherateofthereactionshownbelow? NO2(g) + CO(g) ≥ NO(g) + CO2(g) I. The number of collisions per second II. The energy of the collisions IM. The geometry with which the molecules collide",
+   "options": [
+    "I only",
+    "II only",
+    "I and II only",
+    "I, II and IIIv"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-030",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "How many π bonds are present in CO2?",
+   "options": [
+    "One",
+    "twov",
+    "three",
+    "four"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-031",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which pair of monomers forms polyesters?",
+   "options": [
+    "Difunctional alcohol, difunctional organic acid",
+    "?Difunctional alcohol, difunctional amino acid",
+    "Ethylene, ethylene",
+    "Amino acid, amino acid"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-033",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which compound is a carboxylic acid?",
+   "options": [
+    "CHCOOH",
+    "(CH;CO)20",
+    "(CH)2CHO0CH",
+    "?(CH3)2"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-034",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "The mechanism of a reaction is shown below. HOOH+I →HOI+ OH- (slow) HOI + I →I2 + OH- (fast) 2OH-+ 2HO+→ 4H2O (fast) What is the rate lawbased on this mechanism?",
+   "options": [
+    "?Rate =k[HOOH] [I-]",
+    "?Rate = k[HOOH]² [1]",
+    "?Rate = k[HOOH] [1-]²",
+    "?Rate = k[HOOH]"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-035",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "What is the equilibrium constant expression for the following reaction? 2Hg (g) + O2 (g) 2HgO (s)",
+   "options": [
+    "?K = 1/(Hg]2/([O2])",
+    "?K = [Hg]²[O2]",
+    "K = [HgO]2/([Hg]²[O2])",
+    "K = [2HgO]/([2Hg][O2])"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-037",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which compound is an ester?",
+   "options": [
+    "?CH3COOH",
+    "?CH3OC2H5",
+    "C2H5CH",
+    "?HCOOCH3V"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-038",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "If a solute dissolves in an endothermic process,",
+   "options": [
+    "Hbonds must exist between solvent and solute.",
+    "?Strong ion-dipole forces must exist in the solution.",
+    "The entropy of the solution must be greater than that of its pure components.",
+    "?The solute must be a gas."
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-039",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "A solution is made by dissolving 250.0g of potassium chromate crystals (K2CrO4, molar mass, 194.2g) in 1.00kg of water. What will be the freezing point of the solution? (Kf for water is 1.86°cm-').",
+   "options": [
+    "?-2.40°C",
+    "?-7.180C",
+    "-5.730℃",
+    "?-1.86C"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-040",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "How many moles of sodium hydroxide are present in 2.5L of 0.5M aqueous solution?",
+   "options": [
+    "0.2",
+    "0.5",
+    "1.25",
+    "12.5"
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-041",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which species CANNOT act as a Lewis acid?",
+   "options": [
+    "NH3",
+    "BF3",
+    "Fe2+",
+    "AICl3"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-042",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following statements is true?",
+   "options": [
+    "?A universal indicator is a mixture of indicators that will give a different colour for a different PH.<",
+    "Phenolphthalein is a universal indicator.",
+    "A universal indicator can only be used in either strongly acidic or basic solution.",
+    "?The colour of a universal indicator is red in a weak acid."
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-043",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Three acids,HA,HB,HC have the following Kavalues. Ka(HA) = 1 x 10-5 Ka(HB) = 2 x 10-5 Ka(HC) = 1 x 10-6 What is the correct order of increasing acid strength (weakest first)?",
+   "options": [
+    "?HA,HB, HC",
+    "?HC,HB,HA",
+    "?HC,HA,HB",
+    "?HB,HA,HC"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-044",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "If thesolute-solventinteractions aregreater thanthesolute-solute andsolvent-solventinteractions,what willbethetotalvapourpressureof thesolution?",
+   "options": [
+    "?Greater than that calculated fromRaoult's law",
+    "?Less than that calculatedfromRaoult'slaw",
+    "?The same as calculatedfromRaoult'slaw",
+    "?Raoult's law cannot be applied for suchinteractions."
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-045",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following procedures will produces will produce a buffered solution? I. Equal volumes of 0.5M NaOH and 1M HCl solutions are mixed. I1. Equal volumes of 0.5M NaOH and 1MCHCOOH solutions are mixed. IIl. Equal volumes of 1M NaCH3CO2 and 1M CH3COOH solutions are mixed. IV. Equal volumes of 1.oM NaOH and 1M HCl solutions are mixed.",
+   "options": [
+    "1",
+    "IIIv",
+    "I and II",
+    "II and III"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-046",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "For which conversion is an oxidizing agent required?",
+   "options": [
+    "2H+ (aq)→H2 (g)",
+    "2Br (aq) →→Br2 (aq)",
+    "SO3 (g) → SO42-(aq)",
+    "MnO2 (s) → Mn2+ (aq)"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-047",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "What volume of 0.500M NaOH is required to neutralize 25.0 mL of 1.2 MH2SO4? (Assume complete ionization of the acid). NotAnswered",
+   "options": [
+    "60mL",
+    "90mL",
+    "100mL",
+    "120mL"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-049",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "The oxidation numbers of nitrogen in NH3, HNO3 and NO2 are respectively.",
+   "options": [
+    "?-3,-5, +4",
+    "+3, +5, +4",
+    "-3, +5, -4",
+    "-3,+5,+4"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-050",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which statement about the following reaction is correct? 2FeS (s) + 3CO2 (g) → Fe2O3 (s) + 3CO (g) △H°=+26.6kJ",
+   "options": [
+    "?26.6kJ of energy are released for every mole of Fe reacted.",
+    "26.6kJ of energy are absorbed for every mole of Fe reacted.",
+    "?53.2kJ of energy are released for every mole of Fe reacted.",
+    "13.3kJ of energy are absorbed for every mole of Fe reacted."
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-051",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following metals is extracted by thermal reduction process?",
+   "options": [
+    "Cuv",
+    "Fe",
+    "A1",
+    "Mg"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-052",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "The two standard electrode potentials involved in the nickel cadmium rechargeable cell are given below. Calculate the ?Go in kJ of the cells. NiO2 (s) + 2H2S (l) + 2e→Ni(OH)2 (s) + 2OH- E= +0.49V Cd(OH)2 (s) + 2e → Cd(s) + 2OH (aq)E0 = -0.76V",
+   "options": [
+    "-184",
+    "-153",
+    "-241",
+    "-206"
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-053",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following is a synthetic rubber produced from caprolactam (CPL)?",
+   "options": [
+    "Nylon 6, 10",
+    "?Terylene",
+    "?Teflon",
+    "Nylon6"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-054",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "WhichofthefollowingreactionisNOTaredoxreaction?",
+   "options": [
+    "Ag+ (aq) + Cl- (aq) →AgCl (s)v",
+    "2Na (s) + Cl2 (g) → 2NaCl (s)",
+    "Mg (s) + 2HC1 (aq) → MgCl2 (aq) + H2 (g)",
+    "Cu2+ (aq) + Zn (s) → Cu (s) + Zn2+ (aq)"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-055",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "The half-reaction for formation of magnesium metal upon electrolysis of molten MgCl2 is: Mg2+ + 2e\" → Mg What is the mass of magnesium formed upon passage of a current of 60.0A for a period of 2.00 x 103s?",
+   "options": [
+    "5.0g",
+    "10.0g",
+    "15.1gv",
+    "30.2g"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-056",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "An aqueous solution is 70% nitric acid (HNO3) by mass. What is the concentration of HNO; expressed in molality?",
+   "options": [
+    "0.559m",
+    "8.62m",
+    "11.1m",
+    "37.0mV"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-057",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following is a natural polymer?",
+   "options": [
+    "?Polythene",
+    "Polysaccharides",
+    "?Nylon",
+    "Terylene"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-058",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "What is the ionization energy of an iron atom if it requires a radiation of 276nm to completely remove its outer most electron in the gaseous state? (Plank's constant, h=6.626 x 10-34Js, speed of light, c = 3 x 10*ms-1)",
+   "options": [
+    "7.21 x 10-19J",
+    "7.21 x 10-19kJ",
+    "7.21 x 1019J",
+    "7.21 x 1019kJ"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-059",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the electron configurations describes the ground state electron configuration of Cl?",
+   "options": [
+    "1s22s²2p63s²3p6",
+    "?1s22s2p63s1",
+    "1s22s22p3p1",
+    "1s22s22p63s23px23pyl"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-060",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "When 0.68 is divided by 14.364, the actual answer is 0.0473405. What will be the correct answer?",
+   "options": [
+    "0.05",
+    "0.047",
+    "0.0473",
+    "0.04734"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-063",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Based on molecular orbital theory, the bond orders of H2, H2 and H2 are , respectively.",
+   "options": [
+    "1, 0, and 0",
+    "1, 1/2,and 0",
+    "1, 0, and 1/2",
+    "1,1/2,and 1/2"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-064",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "How many 3d electrons are present in the ground state of chromium atom?",
+   "options": [
+    "4",
+    "5",
+    "6",
+    "10"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-065",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "When the following substances are arranged in order of increasing melting point (lowest melting point first), the correct order is:",
+   "options": [
+    "CH3CH2CH3, CHCOCH33CH2CH2OH",
+    "CH3CH2CH3, CH3CH2CH2OH, CH3COCH3",
+    "CH,COCH3, CH3CH2CH2OH, CH,CH2CH3",
+    "CH3CH2CH2OH, CH,CH2CH3, CHCOCH3"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-066",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "The half-life for the first order decomposition of nitromethane, CHNO2, at 500k is 650 seconds. If the initial concentration of CHNO2 is 0.500M, what will its concentration be (M) after 1300 seconds have elapsed?",
+   "options": [
+    "0.125",
+    "0.140",
+    "0.250",
+    "0.425"
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-067",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "In a zero-order reaction for every 10° rise of temperature, the rate is doubled. If the temperature is increased from 10°C to 100°C, the rate of the reaction will become",
+   "options": [
+    "64 times",
+    "128 times",
+    "256 times",
+    "512 times"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-068",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following mathematical relationships between K, K and K2 is correct? CO2 (g) +H2 (g) ≥ CO (g) +H2O (g) K Fe (s) + CO2 (g) ≥ FeO (s) + CO (g) K1 Fe (s) + H2O (g) ≥ FeO (s) + H2 (g) K2",
+   "options": [
+    "K = K + K2",
+    "K = K x K2",
+    "K =K / K2",
+    "K = K2 / K1"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-069",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following gives the correct order of decreasing acidity of carboxylic acids?",
+   "options": [
+    "Cl;CCOOH, Cl2CHCOOH, FCH2COOH, CH,COOH",
+    "FCH2COOH, CH,COOH, Cl2CHCOOH, C1CCOOHV",
+    "CH,COOH, FCH2COOH, Cl2CHCOOH, C1,CCOOH",
+    "CI2CHCOOH, CH3COOH,FCH2COOH, Cl;CCOOH"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-070",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "The value of K, for the following equilibrium reaction is 4.0 at a temperature of 373k. CHCOOH +C2H5OH =CHCOOC2H5+H2O What mass of ethyl ester (CH3COOC2Hs) would be present in the equilibrium mixture if 15g of acetic acid and 11.5 g of ethanol were mixed and equilibrium was established at this temperature?",
+   "options": [
+    "5.2g",
+    "10.1g",
+    "12.6g",
+    "22gV"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-071",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which one of the following is true about an open system?",
+   "options": [
+    "A system that exchanges both energy and matter with its surroundings.",
+    "A system that cannot exchange both matter and energy with its surroundings.",
+    "A system that only exchanges matter with its surroundings",
+    "A system that only exchanges energy with its surroundings"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-072",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following statements is true about the percent ionization of a weak acid?",
+   "options": [
+    "It decreases with increasing concentration",
+    "It increases with decreasing concentration",
+    "It increases with increasing concentration",
+    "It decreaseswith decreasing concentration"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-073",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "What is the value of △H for the reaction S(s) → S(g)? S(s) +O2(g) → SO2(f) △H=-395kJ S(g) + O2(g)→ SO2(g) △H=-6185kJ",
+   "options": [
+    "-1013kJ",
+    "-223kJ",
+    "+223kJ",
+    "+1013kJ"
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-074",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of these compounds is the ester formed from the reaction of acetic acid and 1-Propanol? CHCO A OCH2CH2",
+   "options": [
+    "CHCH2COH OCH2CH2",
+    "CHCH2CH2OCH2 OCH2CH2",
+    "CHCOCH2CH2CH"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-075",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "A lab instructor is preparing 5.0 liters of a 0.10M Pb(NO3)2 (molecular mass 331) solution. What is the mass required?",
+   "options": [
+    "?165.5g of Pb(NO3)2 and add 5.0kg of H2",
+    "165.5g of Pb(NO3)2 and add H2O until the solution has a volume of 5.0 liters.",
+    "?33.1g of Pb(NO3)2 and add H2O until the solution has a volume of 5.0 liters.",
+    "33.1g of Pb(NO3)2 and add 5.0 liters of H2O."
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-076",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following is NOT a characteristic of the electrolytic cell containing aqueous solution of NaCl used in the manufacture of sodium hydroxide?",
+   "options": [
+    "The sodium hydroxide solution is produced in the electrolytic cell.",
+    "?TheelectrolytemustbeadilutesolutionofNaCl",
+    "Hydrogen is produced at the cathode.",
+    "The production of chlorine gas occurs at the anode"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-077",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "The kinetic data are for the reaction: A+B→C From these datawhat are the orders of thereactionwithrespect toA and B? [A] [B] initial rate (moldm-3 sec-) 0.1 0.1 1x10-5 0.1 0.2 4x10-5 0.2 0.1 1x10-5",
+   "options": [
+    "Order of A =1 order of B =0",
+    "?OrderofA=0 order ofB=2",
+    "Order ofA=0 order ofB=4",
+    "Order of A = 1 order of B = 2"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-078",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following metals has the highest electrical and thermal conductivities of any metal?",
+   "options": [
+    "Ag",
+    "Cu",
+    "Ni",
+    "Co"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-079",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following is a linear polymer?",
+   "options": [
+    "?High density polyethene (HDPE)",
+    "?Low density polyethene (LDPE)",
+    "Bakelite",
+    "Vulcanized rubber"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-chemistry-2006-080",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following is the most important source for the extraction of iron?",
+   "options": [
+    "Hematitev",
+    "Bauxite",
+    "Chalcopyrite",
+    "?Sphalerite Your Answers you havescored O out of o Answer Key 1.D 11.C 21.C 31.A 41.A 51.A 61.C 71.A 2.A 12.D 22.A 32.B 42.A 52.C 62.A 72.B 3.A 13.B 23.A 33.A 43.C 53.D 63.D 73.C 4.A 14.B 24.B 34.A 44.B 54.A 64.B 74.D 5.C 15.A 25.A 35.A 45.B 55.C 65.A 75.B 6.A 16.B 26.A 36.B 46.B 56.D 66.A 76.B 7.C 17.C 27.D 37.D 47.D 57.B 67.D 77.B 8.D 18.A 28.D 38.B 48.D 58.A 68.C 78.A 9.A 19.C 29.D 39.A 49.D 59.A 69.B 79.B 10.B 20.C 30.B 40.C 50.D 60.B 70.D 80.A 2019CamaraEducationEthiopia.EthiopianGeneral SecondaryEducationCertificate and UniversityEntranceExaminations"
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  }
+ ],
+ "flagged": [
+  {
+   "n": 36,
+   "grid": "A",
+   "tick": "C",
+   "q": "A triacylglycerol that is solid at room temperature is called:"
+  },
+  {
+   "n": 48,
+   "grid": "A",
+   "tick": "D",
+   "q": "A gas is confined to a cylinder under constant atmospheric pressure. When the ga"
+  },
+  {
+   "n": 62,
+   "grid": "A",
+   "tick": "?",
+   "q": "Which of the following molecules or ions will exhibit delocalized bonding? NO2, ",
+   "why": "duplicate options"
+  }
+ ],
+ "stats": {
+  "questions": 78,
+  "items": 75,
+  "flagged": 3,
+  "grid": 80,
+  "conf": {
+   "grid+tick": 21,
+   "grid": 54,
+   "tick": 0
+  }
+ }
+}
