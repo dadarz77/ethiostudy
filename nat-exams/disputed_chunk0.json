@@ -1,0 +1,170 @@
+[
+ {
+  "id": "natl-biology-2007-076",
+  "subject": "biology",
+  "year": 2007,
+  "n": 76,
+  "q": "The T-lymphocyte cells of AIDS patients are destroyed by:",
+  "options": [
+   "Multiplication of HIV inside the cell",
+   "Infection of opportunistic organisms",
+   "The immune system of the host organism itself",
+   "The CD4 receptors on the cell surface in habiting activity? A) Entry of the virus in to the host B) Conversion of viral RNA to DNA. C) Integration of viral DNA intohost DNA. D) Assembly of viral parts in to whole virusv"
+  ],
+  "option_letters": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "grid": "C",
+  "tick": "D"
+ },
+ {
+  "id": "natl-chemistry-2006-048",
+  "subject": "chemistry",
+  "year": 2006,
+  "n": 48,
+  "q": "A gas is confined to a cylinder under constant atmospheric pressure. When the gas undergoes a particular chemical reaction, it releases 135kJ of heat to its surroundings and does 63kJ of P-V work on its surroundings. WhatarethevaluesofΔHandΔEfortheprocess?",
+  "options": [
+   "ΔH=135kJ,ΔE=63kJ",
+   "ΔH=-135kJ,ΔE=-63kJ",
+   "ΔH=135kJ,ΔE=198kJ",
+   "ΔH=-135kJ,ΔE=-198kJ"
+  ],
+  "option_letters": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "grid": "A",
+  "tick": "D"
+ },
+ {
+  "id": "natl-chemistry-2009-038",
+  "subject": "chemistry",
+  "year": 2009,
+  "n": 38,
+  "q": "What is the bond order of a superoxide anion,with the chemical formula O2?",
+  "options": [
+   "3",
+   "2.5",
+   "2",
+   "1.5"
+  ],
+  "option_letters": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "grid": "C",
+  "tick": "D"
+ },
+ {
+  "id": "natl-chemistry-2009-051",
+  "subject": "chemistry",
+  "year": 2009,
+  "n": 51,
+  "q": "If 0.454kg of nitroglycerin explodes according to the followingreaction: 2CH5(NO2)3→6CO2+3N2+5H2 What is the total volume of gases in dm? produced at STP?",
+  "options": [
+   "44.8",
+   "163",
+   "397.7",
+   "650"
+  ],
+  "option_letters": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "grid": "B",
+  "tick": "C"
+ },
+ {
+  "id": "natl-chemistry-2010-016",
+  "subject": "chemistry",
+  "year": 2010,
+  "n": 16,
+  "q": "Which of thefollowingis a natural polymer? NotAnswered",
+  "options": [
+   "PVC",
+   "RubberV",
+   "Perspex",
+   "Teflon"
+  ],
+  "option_letters": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "grid": "B",
+  "tick": "C"
+ },
+ {
+  "id": "natl-civics-2005-002",
+  "subject": "civics",
+  "year": 2005,
+  "n": 2,
+  "q": "A state where religion and state are separate is called",
+  "options": [
+   "Erastian",
+   "Theocratic",
+   "Secular",
+   "Neutral"
+  ],
+  "option_letters": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "grid": "A",
+  "tick": "C"
+ },
+ {
+  "id": "natl-civics-2005-070",
+  "subject": "civics",
+  "year": 2005,
+  "n": 70,
+  "q": "A lawful gathering of people to protest ,support or create awareness on a certain issue implies ;",
+  "options": [
+   "Civic campaign",
+   "Peaceful demonstration",
+   "Popular participation",
+   "Political freedom"
+  ],
+  "option_letters": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "grid": "A",
+  "tick": "B"
+ },
+ {
+  "id": "natl-civics-2010-081",
+  "subject": "civics",
+  "year": 2010,
+  "n": 81,
+  "q": "A democratic system is considered as essential in countries like Ethiopia. What is the major reason?",
+  "options": [
+   "Democracy provides a favorable atmosphere for development of agricultural led industrialization.",
+   "Democracy has a strong foundation in the history of political developments in the country.",
+   "Democracy creates a suitable condition to manage the relationship among diverse cultural groups.",
+   "Democracy is the best way of developing a federal system with strong centralized government. 82. \"Human rights and freedoms, emanating from the nature of mankind, are aviolable and inalienable\" (Article 10 FDRE's Constitution). Which of the following is true based on the above statement? B. Human rights and freedom are rigts that are not subject to being given or taken away from human beings. C. The origin of human rights and freedoms is strongly associated with that determination of demoratic governments. D. Democratic governments and human rights commisions are authorized to grant human rights and freedoms."
+  ],
+  "option_letters": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "grid": "A",
+  "tick": "C"
+ }
+]

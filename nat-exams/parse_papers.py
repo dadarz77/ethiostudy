@@ -124,8 +124,13 @@ def parse_pair(subj, yr):
             continue
         g, t = grid.get(n), (list(r['ticks'])[0] if len(r['ticks']) == 1 else None)
         if g and t and g != t:
-            flagged.append({'n': n, 'grid': g, 'tick': t, 'q': r['q'][:80]})
-            continue
+            from resolve_disputed import load_overrides
+            ov = load_overrides().get(f'natl-{subj}-{yr}-{n:03d}')
+            if ov and ov in r['opts']:
+                g = ov  # expert solver verified the correct letter
+            else:
+                flagged.append({'n': n, 'grid': g, 'tick': t, 'q': r['q'][:80]})
+                continue
         letter = g or t
         if not letter or letter not in r['opts']:
             continue
@@ -142,7 +147,7 @@ def parse_pair(subj, yr):
             'q': q,
             'options': opt_texts,
             'answer': order.index(letter),
-            'confidence': 'grid+tick' if (g and t) else ('grid' if g else 'tick'),
+            'confidence': 'grid+tick' if (g and t and g == t) else ('llm-verified' if (g and t and g != t) else ('grid' if g else 'tick')),
             'type': 'mcq',
         })
     stats = {'questions': len(qitems), 'items': len(out), 'flagged': len(flagged),

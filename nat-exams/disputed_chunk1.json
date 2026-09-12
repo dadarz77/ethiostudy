@@ -1,0 +1,145 @@
+[
+ {
+  "id": "natl-biology-2009-002",
+  "subject": "biology",
+  "year": 2009,
+  "n": 2,
+  "q": "Which of the following substance can be used over and over again in an enzyme catalyzed reaction?",
+  "options": [
+   "Enzyme -substrate complex",
+   "Substrate",
+   "Enzyme",
+   "Reaction product"
+  ],
+  "option_letters": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "grid": "C",
+  "tick": "A"
+ },
+ {
+  "id": "natl-chemistry-2007-033",
+  "subject": "chemistry",
+  "year": 2007,
+  "n": 33,
+  "q": "A lipid is any substance of biochemical origin that is",
+  "options": [
+   "Soluble in both water and non-polar solvents.",
+   "Insoluble in both water and non-polar solvents.",
+   "Soluble in water but insoluble in non-polar solvents.",
+   "Solubleinnon-polarsolvents and insolubleinwater."
+  ],
+  "option_letters": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "grid": "A",
+  "tick": "D"
+ },
+ {
+  "id": "natl-chemistry-2009-042",
+  "subject": "chemistry",
+  "year": 2009,
+  "n": 42,
+  "q": "Whichstatement aboutindicators is alwayscorrect?",
+  "options": [
+   "The mid-point of thePH rage of an indicator is 7.0",
+   "The PH rage is greater with higher PKa values.",
+   "Thecolourredindicates an acidicsolution.",
+   "ThePKa values of the indicator is within its PH range."
+  ],
+  "option_letters": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "grid": "A",
+  "tick": "D"
+ },
+ {
+  "id": "natl-chemistry-2009-053",
+  "subject": "chemistry",
+  "year": 2009,
+  "n": 53,
+  "q": "A certain 500g toothpaste sample has 0.2g of fluoride. What is the concentration of the fluoride in ppm?",
+  "options": [
+   "200",
+   "250",
+   "400",
+   "1000"
+  ],
+  "option_letters": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "grid": "A",
+  "tick": "C"
+ },
+ {
+  "id": "natl-chemistry-2010-045",
+  "subject": "chemistry",
+  "year": 2010,
+  "n": 45,
+  "q": "A solution in which prop ionic acid is 0.94% ionized has a PH of 2.85. What is the value of the acid ionization constant (Ka) for prop ionic acid?",
+  "options": [
+   "4.2 x 10-4",
+   "1.3 x 10-5",
+   "8.7x 10-5",
+   "6.8 x 10-4 OA.16.8M OH B.35.0N√ OC.28.2 OD.40.4M 47. 2.3g of ethanol (CHCHOH) is added to 500g of water.What is the molality of the resulting solution? OA.0.1m √ B.0.01m O C.1.0m O D.10.0m ml of waterarerequired toprepare the dilute solution? NotAnswered OA.2ml HNO3and 498 ml water OB.10mlHNO3 and 490mlwater OC. 20ml HNO3 and 490ml water OD.3.85mlHNO3and 496.15mlwaterV A. Cu2+(aq) + 2e→ Cu(s) ○B.2H2O(1)→O2(g)+ 4H+(aq)+ 4e C. SO4²-(g) + O2(g) + 4H+(aq)→So4²-(aq) + 2H2O(l) D.4OH(aq)→2H2O(1)+O2(g)+4e"
+  ],
+  "option_letters": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "grid": "A",
+  "tick": "D"
+ },
+ {
+  "id": "natl-civics-2005-012",
+  "subject": "civics",
+  "year": 2005,
+  "n": 12,
+  "q": "Which of the following is morally wrong according to the Ethiopian culture?",
+  "options": [
+   "Respect for elders C. Helping the needy",
+   "Breaking promises D. Participating in social affairs"
+  ],
+  "option_letters": [
+   "A",
+   "B"
+  ],
+  "grid": "B",
+  "tick": "A"
+ },
+ {
+  "id": "natl-civics-2009-018",
+  "subject": "civics",
+  "year": 2009,
+  "n": 18,
+  "q": "A policy designed to remedy past discrimination against women , the disabled and minorities is termed as:",
+  "options": [
+   "Civil right movement.",
+   "Reverse discrimination.",
+   "Affirmative action.",
+   "Zero tolerance."
+  ],
+  "option_letters": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "grid": "A",
+  "tick": "C"
+ }
+]
