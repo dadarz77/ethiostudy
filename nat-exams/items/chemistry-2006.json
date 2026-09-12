@@ -737,6 +737,22 @@
    "type": "mcq"
   },
   {
+   "id": "natl-chemistry-2006-048",
+   "subject": "chemistry",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "A gas is confined to a cylinder under constant atmospheric pressure. When the gas undergoes a particular chemical reaction, it releases 135kJ of heat to its surroundings and does 63kJ of P-V work on its surroundings. WhatarethevaluesofΔHandΔEfortheprocess?",
+   "options": [
+    "ΔH=135kJ,ΔE=63kJ",
+    "ΔH=-135kJ,ΔE=-63kJ",
+    "ΔH=135kJ,ΔE=198kJ",
+    "ΔH=-135kJ,ΔE=-198kJ"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
    "id": "natl-chemistry-2006-049",
    "subject": "chemistry",
    "year": 2006,
@@ -1218,12 +1234,6 @@
  ],
  "flagged": [
   {
-   "n": 48,
-   "grid": "A",
-   "tick": "D",
-   "q": "A gas is confined to a cylinder under constant atmospheric pressure. When the ga"
-  },
-  {
    "n": 62,
    "grid": "A",
    "tick": "?",
@@ -1233,11 +1243,11 @@
  ],
  "stats": {
   "questions": 78,
-  "items": 76,
-  "flagged": 2,
+  "items": 77,
+  "flagged": 1,
   "grid": 80,
   "conf": {
-   "grid+tick": 21,
+   "grid+tick": 22,
    "grid": 54,
    "tick": 0
   }

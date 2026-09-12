@@ -82,5 +82,40 @@
   "confidence": "high",
   "resolved_by": "solver-crew-2",
   "reasoning": "Rule-of-law government wins confidence and acceptance of the people."
+ },
+ {
+  "id": "natl-chemistry-2006-048",
+  "letter": "D",
+  "confidence": "high",
+  "resolved_by": "solver-crew-3",
+  "reasoning": "At constant pressure heat released gives ΔH=-135 kJ, and ΔE = q + w = -135 - 63 = -198 kJ, confirming the tick over the grid."
+ },
+ {
+  "id": "natl-chemistry-2009-038",
+  "letter": "D",
+  "confidence": "high",
+  "resolved_by": "solver-crew-3",
+  "reasoning": "Superoxide O2⁻ has 13 valence electrons (bonding 8, antibonding 5), giving bond order (8-5)/2 = 1.5, confirming the tick."
+ },
+ {
+  "id": "natl-chemistry-2010-016",
+  "letter": "B",
+  "confidence": "high",
+  "resolved_by": "solver-crew-3",
+  "reasoning": "Natural rubber (polyisoprene) is the only natural polymer among PVC, Perspex (PMMA) and Teflon (PTFE), all synthetic; the grid is correct and the tick misaligned (the stray 'V' in 'RubberV' is the misplaced check)."
+ },
+ {
+  "id": "natl-civics-2005-002",
+  "letter": "C",
+  "confidence": "high",
+  "resolved_by": "solver-crew-3",
+  "reasoning": "A state separating religion from state governance is by definition secular; Erastian means state supremacy over church, not separation, so the tick beats the grid."
+ },
+ {
+  "id": "natl-civics-2005-070",
+  "letter": "B",
+  "confidence": "high",
+  "resolved_by": "solver-crew-3",
+  "reasoning": "A lawful public gathering to protest, support, or raise awareness is the textbook definition of a peaceful demonstration, confirming the tick."
  }
 ]

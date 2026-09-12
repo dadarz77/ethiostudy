@@ -813,6 +813,22 @@
    "type": "mcq"
   },
   {
+   "id": "natl-civics-2009-057",
+   "subject": "civics",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Of the following is statements one is correct about promise .which one is it?",
+   "options": [
+    "Keeping or breaking one?s promise has a consequence.",
+    "Promise are frequently kept and broken by poor people.",
+    "The immediate effect of breaking promise is far worse than its long term consequence.",
+    "It is natural for politicians to break promises made during the election campaign after taking office."
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
    "id": "natl-civics-2009-058",
    "subject": "civics",
    "year": 2009,
@@ -907,6 +923,22 @@
    "type": "mcq"
   },
   {
+   "id": "natl-civics-2009-064",
+   "subject": "civics",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of the following is correct about Ethiopia history in an international perspective?",
+   "options": [
+    "Ethiopia was the only independent African country who was member of League of Nations.",
+    "The only African leader who joined Emperor Hail Selassie I and formed OAU in 1963 was seko u Toure of Guinea.",
+    "Ethiopia is the only African country which successfully defended its independence by defeating the Italian colonial power at the battle of Adwa. ss s n s a d s d n o sno its membership to League of Nations. understanding currently? OA. The ownership of nuclear arsenal by many less responsible countries of the world. O B. The increasing strength and dominance of UN as compared to its member states sovereignty. O C. The threats posed by environmental crises and the need for global concentrated interventions.",
+    "Lack of professional and capable national military force in many of the developing countries of the world to keep peace."
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
    "id": "natl-civics-2009-065",
    "subject": "civics",
    "year": 2009,
@@ -952,6 +984,22 @@
    ],
    "answer": 0,
    "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2009-069",
+   "subject": "civics",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of the following is correct about information and knowledge?",
+   "options": [
+    "Knowledge is information in the form facts.",
+    "Information is acquired while knowledge is obtained.",
+    "Information is obtained while knowledge is acquired.",
+    "Statics on grades of students used as data for research is knowledge."
+   ],
+   "answer": 0,
+   "confidence": "grid",
    "type": "mcq"
   },
   {
@@ -1078,6 +1126,22 @@
     "Financial dependence of women, men is a natural phenomenon. A. Remain exporters of agricultural products.√ B. Depend on cheaper imported commodities. C. Devise policy to drive out domestic industries. D. Aspire self-sufficiency in the basic necessities."
    ],
    "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2009-078",
+   "subject": "civics",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "One way of tacking the negative impact of globalization in Ethiopia is to,",
+   "options": [
+    "Remain exporters of agricultural products",
+    "Depend on cheaper imported commodities.",
+    "Devise policy to drive out domestic industries.",
+    "Aspire self-sufficiency in the basic necessities."
+   ],
+   "answer": 0,
    "confidence": "grid",
    "type": "mcq"
   },
@@ -1336,6 +1400,22 @@
    "type": "mcq"
   },
   {
+   "id": "natl-civics-2009-098",
+   "subject": "civics",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which one of the following is best practice to promote unity in diversity?",
+   "options": [
+    "Considering that others way of life is good, right and superior tone's own.",
+    "Economic development to the level of USA or china is a prerequisite to create a political space within which unity in diversity flourishes.",
+    "Ethnocentric individual is a person who is less arrogant and more open - minded in relation to other societies and cultures.",
+    "Experiences of USA, china and India show that it is possible to achieve rapid economic development in Ethiopia despite multitude of diversities."
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
    "id": "natl-civics-2009-099",
    "subject": "civics",
    "year": 2009,
@@ -1377,13 +1457,13 @@
   }
  ],
  "stats": {
-  "questions": 90,
-  "items": 86,
+  "questions": 95,
+  "items": 91,
   "flagged": 1,
   "grid": 100,
   "conf": {
    "grid+tick": 51,
-   "grid": 35,
+   "grid": 40,
    "tick": 0
   }
  }

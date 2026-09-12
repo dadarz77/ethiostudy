@@ -368,6 +368,22 @@
    "type": "mcq"
   },
   {
+   "id": "natl-civics-2010-025",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of the following is correct about power and authority in relation to government?",
+   "options": [
+    "Their application within the appropriate limit makes them legitimate.",
+    "They always reflect the undemocratic nature of government.",
+    "Undemocratic governments lack legitimate constitution and authority.",
+    "Democratic governments upheld untimely the rule of men."
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
    "id": "natl-civics-2010-027",
    "subject": "civics",
    "year": 2010,
@@ -525,6 +541,22 @@
    ],
    "answer": 2,
    "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-041",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of the following is correct about civic participation in countries like Ethiopia?",
+   "options": [
+    "Similar political stands are expected from citizens of the nation.",
+    "Citizens engage in policy making through public meeting.",
+    "Developing alternative ideas is discouraged by security forces.",
+    "Civic societies are not allowed to propose suitable solutions."
+   ],
+   "answer": 1,
+   "confidence": "grid",
    "type": "mcq"
   },
   {
@@ -813,6 +845,22 @@
    ],
    "answer": 0,
    "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-063",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of the following rebellions in imperial Ethiopia was caused due to extreme greediness of the army stationed among the peasants?",
+   "options": [
+    "The bale peasant's rebellion.",
+    "The Gojam peasant's rebellion.",
+    "The first woyane movement.",
+    "The Jarso peasant's rebellion."
+   ],
+   "answer": 2,
+   "confidence": "grid",
    "type": "mcq"
   },
   {
@@ -1291,13 +1339,13 @@
   }
  ],
  "stats": {
-  "questions": 87,
-  "items": 80,
+  "questions": 90,
+  "items": 83,
   "flagged": 2,
   "grid": 100,
   "conf": {
    "grid+tick": 44,
-   "grid": 36,
+   "grid": 39,
    "tick": 0
   }
  }

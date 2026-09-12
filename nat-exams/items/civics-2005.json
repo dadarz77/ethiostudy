@@ -15,6 +15,22 @@
    "type": "mcq"
   },
   {
+   "id": "natl-civics-2005-002",
+   "subject": "civics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "A state where religion and state are separate is called",
+   "options": [
+    "Erastian",
+    "Theocratic",
+    "Secular",
+    "Neutral"
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
    "id": "natl-civics-2005-003",
    "subject": "civics",
    "year": 2005,
@@ -1005,6 +1021,22 @@
    "type": "mcq"
   },
   {
+   "id": "natl-civics-2005-070",
+   "subject": "civics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "A lawful gathering of people to protest ,support or create awareness on a certain issue implies ;",
+   "options": [
+    "Civic campaign",
+    "Peaceful demonstration",
+    "Popular participation",
+    "Political freedom"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
    "id": "natl-civics-2005-071",
    "subject": "civics",
    "year": 2005,
@@ -1470,31 +1502,19 @@
  ],
  "flagged": [
   {
-   "n": 2,
-   "grid": "A",
-   "tick": "C",
-   "q": "A state where religion and state are separate is called"
-  },
-  {
    "n": 12,
    "grid": "B",
    "tick": "A",
    "q": "Which of the following is morally wrong according to the Ethiopian culture?"
-  },
-  {
-   "n": 70,
-   "grid": "A",
-   "tick": "B",
-   "q": "A lawful gathering of people to protest ,support or create awareness on a certai"
   }
  ],
  "stats": {
   "questions": 95,
-  "items": 92,
-  "flagged": 3,
+  "items": 94,
+  "flagged": 1,
   "grid": 100,
   "conf": {
-   "grid+tick": 42,
+   "grid+tick": 44,
    "grid": 50,
    "tick": 0
   }
