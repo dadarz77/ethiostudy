@@ -745,3 +745,25 @@ tr:hover td { background: color-mix(in srgb, var(--card-2) 60%, transparent); }
 .summary-card p { line-height: 1.75; margin: 0 0 .7em; }
 .summary-card b { color: #34d399; }
 @media (max-width: 700px) { .prose { max-width: none; } }
+
+/* ---------- National exam question navigator ---------- */
+.q-nav {
+  position: sticky; top: 54px; z-index: 30;
+  display: flex; flex-wrap: wrap; gap: 6px;
+  margin-top: 14px; padding: 10px 12px;
+  background: color-mix(in srgb, var(--card) 88%, transparent);
+  backdrop-filter: blur(8px);
+  border: 1px solid var(--border); border-radius: 14px;
+  max-height: 96px; overflow-y: auto;
+}
+.q-dot {
+  width: 30px; height: 30px; flex: 0 0 auto;
+  display: grid; place-items: center;
+  font: 700 .72rem var(--font-display); font-variant-numeric: tabular-nums;
+  color: var(--fg-2); background: var(--bg-2);
+  border: 1px solid var(--border); border-radius: 9px; cursor: pointer;
+  transition: border-color .15s ease, background .15s ease, transform .1s ease;
+}
+.q-dot:hover { border-color: var(--accent); transform: translateY(-1px); }
+.q-dot.answered { background: color-mix(in srgb, var(--accent) 22%, var(--bg-2)); border-color: var(--accent); color: var(--fg); }
+@media (max-width: 768px) { .q-nav { max-height: 72px; top: 48px; } .q-dot { width: 27px; height: 27px; } }

@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { useAppStore } from '../store/useAppStore';
 import NAT_ITEMS from '../data/nat-exams.json';
 import { gradeQuiz, type QuizQuestion, type QuizResult } from '../lib/quiz';
@@ -35,7 +35,21 @@ function toQuiz(list: NatItem[]): QuizQuestion[] {
 }
 function shuffle<T>(arr: T[]): T[] { const a = arr.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
 
-type Run = { title: string; icon: string; qs: QuizQuestion[]; yearOf: number[]; subjectOf: string[]; seconds: number };
+interface Run { title: string; icon: string; qs: QuizQuestion[]; yearOf: number[]; subjectOf: string[]; seconds: number; startedAt: number; answers?: unknown[] }
+
+/* ── Refresh-proof session persistence ──
+   The whole run (questions + answers + clock anchor) survives F5/closure. */
+export const RUN_KEY = 'ethiostudy_natl_run';
+export const RES_KEY = 'ethiostudy_natl_res';
+export function loadRun(): Run | null {
+  try {
+    const r = JSON.parse(localStorage.getItem(RUN_KEY) || 'null');
+    return r && Array.isArray(r.qs) && r.qs.length ? r as Run : null;
+  } catch { return null; }
+}
+export function saveRun(r: Run | null) { try { r ? localStorage.setItem(RUN_KEY, JSON.stringify(r)) : localStorage.removeItem(RUN_KEY); } catch { /* quota */ } }
+export function saveRes(v: unknown | null) { try { v ? localStorage.setItem(RES_KEY, JSON.stringify(v)) : localStorage.removeItem(RES_KEY); } catch { /* quota */ } }
+export function clearSession() { saveRun(null); saveRes(null); }
 
 export default function National() {
   const logQuiz = useAppStore(s => s.logQuiz);
@@ -43,10 +57,23 @@ export default function National() {
   const [years, setYears] = useState<Set<number>>(new Set());
   const [len, setLen] = useState(30);
   const [timed, setTimed] = useState(true);
-  const [run, setRun] = useState<Run | null>(null);
-  const [answers, setAnswers] = useState<unknown[]>([]);
-  const [result, setResult] = useState<QuizResult | null>(null);
-  const [left, setLeft] = useState(0);
+  const [run, setRunRaw] = useState<Run | null>(() => loadRun());
+  const setRun = (r: Run | null) => { setRunRaw(r); saveRun(r); };
+  const [answers, setAnswersRaw] = useState<unknown[]>(() => { const r = loadRun(); return r && r.answers?.length === r.qs.length ? r.answers : (r?.qs ?? []).map(() => undefined); });
+  const setAnswers = (updater: unknown[] | ((prev: unknown[]) => unknown[])) => setAnswersRaw(prev => {
+    const n = typeof updater === 'function' ? (updater as (p: unknown[]) => unknown[])(prev) : updater;
+    try { const r = loadRun(); if (r) saveRun({ ...r, answers: n }); } catch { /* ignore */ }
+    return n;
+  });
+  const [result, setResultRaw] = useState<QuizResult | null>(null);
+  const resultRef = useRef<QuizResult | null>(null);
+  resultRef.current = result;
+  const submittedRef = useRef(!!resultRef.current);
+  const setResult = (r: QuizResult | null) => {
+    setResultRaw(r);
+    saveRes(r ? { correct: r.correct, total: r.total, pct: r.pct, grade: r.grade, feedback: r.feedback, perQ: r.perQ.map(x => x.correct) } : null);
+  };
+  const [left, setLeft] = useState(() => { const r = loadRun(); return r && r.seconds > 0 ? Math.max(0, r.seconds - Math.floor((Date.now() - r.startedAt) / 1000)) : 0; });
 
   const bySubject = useMemo(() => {
     const m: Record<string, { count: number; years: number[] }> = {};
@@ -64,13 +91,12 @@ export default function National() {
 
   const start = (pool: NatItem[], title: string, icon: string, n: number, minutes: number) => {
     const picked = shuffle(pool).slice(0, n);
-    setRun({ title, icon, qs: toQuiz(picked), yearOf: picked.map(p => p.year), subjectOf: picked.map(p => p.subject), seconds: minutes * 60 });
-    setAnswers(new Array(picked.length));
+    const fresh: Run = { title, icon, qs: toQuiz(picked), yearOf: picked.map(p => p.year), subjectOf: picked.map(p => p.subject), seconds: minutes * 60, startedAt: Date.now() };
+    submittedRef.current = false;
+    setRun(fresh);
+    setAnswers(new Array(picked.length).fill(undefined));
     setResult(null);
     setLeft(minutes * 60);
-    if (minutes > 0) {
-      const iv = setInterval(() => setLeft(s => { if (s <= 1) { clearInterval(iv); return 0; } return s - 1; }), 1000);
-    }
   };
 
   const startSubject = () => {
@@ -86,8 +112,10 @@ export default function National() {
     start(pool, 'EUEE mixed mock', '🇪🇹', pool.length, 60);
   };
 
-  const submit = () => {
-    if (!run) return;
+  const submit = (auto = false) => {
+    void auto;
+    if (!run || submittedRef.current) return;   // one graded submission per run — expiry/restore can't double-fire
+    submittedRef.current = true;
     const r = gradeQuiz(run.qs, answers);
     setResult(r);
     // Feed the flagship feature into the same progress/streak engine as curriculum quizzes.
@@ -96,6 +124,35 @@ export default function National() {
     }
   };
   const answered = answers.filter(a => a !== undefined && a !== null && a !== '').length;
+
+  /* restore a persisted result after refresh: rebuild QuizResult against the run's questions */
+  useEffect(() => {
+    if (!run || resultRef.current) return;
+    try {
+      const saved = JSON.parse(localStorage.getItem(RES_KEY) || 'null');
+      if (saved && Array.isArray(saved.perQ) && saved.perQ.length === run.qs.length) {
+        submittedRef.current = true;
+        setResultRaw({ ...saved, perQ: run.qs.map((q, i) => ({ q, correct: !!saved.perQ[i] })) });
+      }
+    } catch { /* corrupt snapshot — start clean */ }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [run]);
+
+  /* real-clock countdown: survives throttling, resumes correctly after refresh,
+     cleans up on unmount, and auto-submits exactly once via the latest closure. */
+  const submitRef = useRef(submit);
+  submitRef.current = submit;
+  useEffect(() => {
+    if (!run || run.seconds === 0 || result) return;
+    const tick = () => {
+      const rem = run.seconds - Math.floor((Date.now() - run.startedAt) / 1000);
+      setLeft(Math.max(0, rem));
+      if (rem <= 0) submitRef.current(true);
+    };
+    tick();
+    const iv = setInterval(tick, 1000);
+    return () => clearInterval(iv);
+  }, [run, result]);
 
   /* ── LANDING ── */
   if (!run && !setupSubj) return (
@@ -171,11 +228,10 @@ export default function National() {
     );
   }
 
+
   /* ── RUNNING / RESULTS ── */
   if (!run) return null;
   const effLeft = run.seconds === 0 ? 0 : left;
-  const auto = run.seconds > 0 && left === 0 && !result;
-  if (auto && !result) setTimeout(submit, 0);
 
   return (
     <>
@@ -188,14 +244,26 @@ export default function National() {
           {run.seconds > 0 && <div className="progress mt-2"><div style={{ width: (effLeft / run.seconds) * 100 + '%' }} /></div>}
           <div className="progress mt-2"><div style={{ width: (answered / run.qs.length) * 100 + '%' }} /></div>
           <div className="tiny muted mt-2">{answered}/{run.qs.length} answered</div>
+          <nav className="q-nav" aria-label="Question navigator">
+            {run.qs.map((_, i) => {
+              const done = answers[i] !== undefined && answers[i] !== null && answers[i] !== '';
+              return (
+                <button key={i} className={'q-dot' + (done ? ' answered' : '')} title={'Question ' + (i + 1) + (done ? ' (answered)' : ' (unanswered)')}
+                  aria-label={'Go to question ' + (i + 1)} aria-current={!done ? 'true' : undefined}
+                  onClick={() => document.getElementById('natl-q-' + i)?.scrollIntoView({ behavior: 'smooth', block: 'center' })}>{i + 1}</button>
+              );
+            })}
+          </nav>
           <div className="mt-4">
             {run.qs.map((q, i) => (
-              <QuestionCard key={i} q={q} index={i} answer={answers[i]}
-                onAnswer={a => setAnswers(prev => { const n = [...prev]; n[i] = a; return n; })} />
+              <div key={i} id={'natl-q-' + i} style={{ scrollMarginTop: 70 }}>
+                <QuestionCard q={q} index={i} answer={answers[i]}
+                  onAnswer={a => setAnswers(prev => { const n = [...prev]; n[i] = a; return n; })} />
+              </div>
             ))}
           </div>
           <div className="row mt-4" style={{ justifyContent: 'center' }}>
-            <button className="btn btn-primary btn-lg" onClick={submit}>{answered < run.qs.length ? `Submit with ${run.qs.length - answered} unanswered` : 'Submit exam ✓'}</button>
+            <button className="btn btn-primary btn-lg" onClick={() => submit()}>{answered < run.qs.length ? `Submit with ${run.qs.length - answered} unanswered` : 'Submit exam ✓'}</button>
           </div>
         </>
       ) : (
@@ -238,7 +306,7 @@ export default function National() {
               </>
             )}
             <div className="row mt-3" style={{ justifyContent: 'center' }}>
-              <button className="btn" onClick={() => { setRun(null); setResult(null); }}>🇪🇹 Another exam</button>
+              <button className="btn" onClick={() => { clearSession(); submittedRef.current = false; setRunRaw(null); setResultRaw(null); }}>🇪🇹 Another exam</button>
             </div>
           </div>
           {result.perQ.map((pq, i) => <QuestionCard key={i} q={pq.q} index={i} answer={answers[i]} result={pq} />)}
