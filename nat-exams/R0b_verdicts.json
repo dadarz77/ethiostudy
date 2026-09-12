@@ -1,6 +1,0 @@
-[
-  {"id": "natl-english-2007-004", "letter": "D", "option_index": 3, "answer_text": "Please report immediately to the police.", "reasoning": "Only grammatically correct rearrangement is the polite imperative; grid D confirmed.", "confidence": "high", "question_garbled": false},
-  {"id": "natl-english-2008-077", "letter": "A", "option_index": 0, "answer_text": "No doubt! She has her seat confirmed.", "reasoning": "Fitting response to arrival-confirmation question; tick D is OCR-contaminated from another question's options, grid A prevails.", "confidence": "medium", "question_garbled": false},
-  {"id": "natl-english-2009-042", "letter": "D", "option_index": 3, "answer_text": "Delay", "reasoning": "'Put off' means postpone/delay; tick D over grid 'Extend'.", "confidence": "high", "question_garbled": false},
-  {"id": "natl-english-2010-100", "letter": "C", "option_index": 2, "answer_text": "The language I wanted to learn was Arabic, not French.", "reasoning": "Only option with correct capitalization throughout; D lowercases wrongly, stray tick is OCR bleed, grid C prevails.", "confidence": "high", "question_garbled": false}
-]
