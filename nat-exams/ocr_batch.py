@@ -74,6 +74,13 @@ def claim(name):
             return False
     return False
 
+def touch_claim(name):
+    """Refresh claim mtime each page so long files (>10min) aren't 'stolen'."""
+    try:
+        os.utime(os.path.join(OCR_DIR, name + '.claim'))
+    except OSError:
+        pass
+
 def log(msg):
     print(f'[{time.strftime("%H:%M:%S")}] {msg}', flush=True)
 
@@ -105,6 +112,7 @@ for p in todo[:limit]:
         lines = []
         for i, page in enumerate(doc):
             rest_if_asked()
+            touch_claim(name)
             pg_txt = []
             pix = page.get_pixmap(dpi=200)
             img = part + f'.p{i}.png'
