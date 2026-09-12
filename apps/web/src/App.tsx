@@ -1,5 +1,5 @@
-import { useEffect, Suspense } from 'react';
-import { NavLink, Route, Routes, useNavigate } from 'react-router-dom';
+import { useEffect, useRef, useState, Suspense } from 'react';
+import { NavLink, Route, Routes, useNavigate, useLocation } from 'react-router-dom';
 import { useAppStore } from './store/useAppStore';
 import { tr } from './lib/i18n';
 import ParticleField from './components/ParticleField';
@@ -38,17 +38,41 @@ export default function App() {
   const setSetting = useAppStore(s => s.setSetting);
   const streak = useAppStore(s => s.streak);
   const navigate = useNavigate();
+  const location = useLocation();
+  const [navOpen, setNavOpen] = useState(false);
+  const sidebarRef = useRef<HTMLElement | null>(null);
+  const menuBtnRef = useRef<HTMLButtonElement | null>(null);
 
   useEffect(() => {
     document.documentElement.lang = lang === 'am' ? 'am' : 'en';
     document.documentElement.dataset.theme = theme;
   }, [lang, theme]);
 
+  // close drawer on route change; Esc closes + restores focus; basic focus trap
+  useEffect(() => { setNavOpen(false); }, [location.pathname]);
+  useEffect(() => {
+    if (!navOpen) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') { setNavOpen(false); menuBtnRef.current?.focus(); }
+      if (e.key === 'Tab' && sidebarRef.current) {
+        const f = sidebarRef.current.querySelectorAll<HTMLElement>('a[href], button:not([disabled])');
+        if (!f.length) return;
+        const first = f[0], last = f[f.length - 1];
+        if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+        else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+      }
+    };
+    document.addEventListener('keydown', onKey);
+    sidebarRef.current?.querySelector<HTMLElement>('a[href], button')?.focus();
+    return () => document.removeEventListener('keydown', onKey);
+  }, [navOpen]);
+
   return (
     <>
       <ParticleField />
       <div id="app">
-        <aside className="sidebar">
+        <aside className={'sidebar' + (navOpen ? ' open' : '')} id="sidebar" ref={sidebarRef} aria-label="Main navigation">
+          <button className="icon-btn sidebar-close" aria-label="Close menu" onClick={() => setNavOpen(false)}>✕</button>
           <div className="sidebar-brand">
             <div className="brand-mark">🎓</div>
             <div className="brand-text">
@@ -75,9 +99,12 @@ export default function App() {
             <div className="sidebar-time">{new Date().toLocaleDateString(undefined, { weekday: 'short', month: 'short', day: 'numeric' })}</div>
           </div>
         </aside>
+        {navOpen && <div className="nav-scrim" aria-hidden="true" onClick={() => setNavOpen(false)} />}
 
         <div className="main-wrap">
           <header className="topbar">
+            <button className="icon-btn menu-toggle" aria-label="Open menu" aria-expanded={navOpen} aria-controls="sidebar"
+              ref={menuBtnRef} onClick={() => setNavOpen(true)}>☰</button>
             <SearchBox />
             <button className="icon-btn theme-toggle" aria-label="Toggle theme"
               onClick={() => setSetting('theme', theme === 'dark' ? 'light' : 'dark')}>
