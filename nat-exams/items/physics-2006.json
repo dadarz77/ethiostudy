@@ -49,6 +49,22 @@
    "type": "mcq"
   },
   {
+   "id": "natl-physics-2006-004",
+   "subject": "physics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "A transverse sinusoidal wave is traveling on a string. Which statement is correct about a point on the string?",
+   "options": [
+    "The point moves in the same direction as the wave.",
+    "The point moves in simple harmonic motion with a different frequency than that of the wave.",
+    "The point moves in simple harmonic motion with the same angular frequency as the wave.",
+    "The point moves in uniform circular motion with a different angular speed than the wave."
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
    "id": "natl-physics-2006-005",
    "subject": "physics",
    "year": 2006,
@@ -78,6 +94,22 @@
    ],
    "answer": 1,
    "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2006-007",
+   "subject": "physics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "A capacitor made of parallel plates is charged by connecting it to a battery. The distance between the plates is much less than the surface area of each plate.After fully charged if the plates are disconnected from the battery and then pulled apart a little, what will happen to the total stored energy, the electric field, and the potential difference between the plates?",
+   "options": [
+    "The electric field between the plates increase. ）1",
+    "The potential difference between the plates remain the same.",
+    "The total energy stored in the capacitor increase.",
+    "The electric field, the potential difference and the stored energy remain the same. A) The centripetal acceleration is constant if the particle?s speed is constant. O C) The centripetal acceleration is always in the direction perpendicular to the velocity vector of the particle.√ OD) The acceleration is always perpendicular to the velocity vector of the particle."
+   ],
+   "answer": 2,
+   "confidence": "llm-verified",
    "type": "mcq"
   },
   {
@@ -188,6 +220,22 @@
    ],
    "answer": 2,
    "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2006-016",
+   "subject": "physics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "A garden hose has and inside diameter of 16cm. the hose can fill a 10 litter bucket in 20 seconds. If the diameterofthenozzleisreducedto8cm",
+   "options": [
+    "Water exists with a speed twice the speed inside the hose.",
+    "A 10 litter bucked can be filled in 10 seconds.",
+    "A 20 litter bucket can be filled in 40 seconds.",
+    "Water exists with a speed half the speed inside the hose."
+   ],
+   "answer": 2,
+   "confidence": "llm-verified",
    "type": "mcq"
   },
   {
@@ -669,33 +717,14 @@
    "type": "mcq"
   }
  ],
- "flagged": [
-  {
-   "n": 4,
-   "grid": "A",
-   "tick": "C",
-   "q": "A transverse sinusoidal wave is traveling on a string. Which statement is correc"
-  },
-  {
-   "n": 7,
-   "grid": "A",
-   "tick": "B",
-   "q": "A capacitor made of parallel plates is charged by connecting it to a battery. Th"
-  },
-  {
-   "n": 16,
-   "grid": "A",
-   "tick": "B",
-   "q": "A garden hose has and inside diameter of 16cm. the hose can fill a 10 litter buc"
-  }
- ],
+ "flagged": [],
  "stats": {
   "questions": 46,
-  "items": 42,
-  "flagged": 3,
+  "items": 45,
+  "flagged": 0,
   "grid": 50,
   "conf": {
-   "grid+tick": 11,
+   "grid+tick": 12,
    "grid": 31,
    "tick": 0
   }

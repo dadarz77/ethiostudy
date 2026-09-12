@@ -145,6 +145,22 @@
    "type": "mcq"
   },
   {
+   "id": "natl-physics-2008-011",
+   "subject": "physics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "A uniform 6m long and 6ooN beam, rest on two supports as shown. The forces exerted on the beam by the right support B is closes to: 2m NotAnswered B",
+   "options": [
+    "75N",
+    "240N",
+    "400N",
+    "320N"
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
    "id": "natl-physics-2008-012",
    "subject": "physics",
    "year": 2008,
@@ -158,6 +174,22 @@
    ],
    "answer": 0,
    "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2008-013",
+   "subject": "physics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "A large mass (A and a small mass (B) are pushing one another apart, as shown in the figure below. The A B 5kg 2kg m V=20- -to theright 5",
+   "options": [
+    "-20m/s",
+    "8m/s",
+    "20m/s",
+    "-8m/sv"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
    "type": "mcq"
   },
   {
@@ -190,6 +222,22 @@
    ],
    "answer": 3,
    "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2008-016",
+   "subject": "physics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "A net external non zero force acts on a particle that is moving along a straight line which one of the following statements is correct?",
+   "options": [
+    "The velocity, but not the kinetic energy of the particle is changing.",
+    "Both the velocity and kinetic energy of the particle are changing.",
+    "The kinetic energy but not the velocity of the particle is changing.",
+    "The momentum is conserved."
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
    "type": "mcq"
   },
   {
@@ -333,6 +381,22 @@
    "type": "mcq"
   },
   {
+   "id": "natl-physics-2008-026",
+   "subject": "physics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "A metal ball has a diameter that is slightly greater than the diameter of a hole that has been cut in to a metal plate. The coefficient of linear expansion for the metal from which the ball is made is greater than that for the metal of the plate. Which one of the following procedures can be used to make the ball pass through the hole?",
+   "options": [
+    "raise the temperatures of the ball and the plate by the same amount.",
+    "heat the ball and cool the plate.",
+    "lower the temperatures of the ball and the plate by the same amount.",
+    "there is no way of passing the ball through the hole."
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
    "id": "natl-physics-2008-027",
    "subject": "physics",
    "year": 2008,
@@ -377,6 +441,22 @@
     "The third law of thermodynamics."
    ],
    "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2008-030",
+   "subject": "physics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "A device for transforming heat energy to mechanical energy is referred to as NotAnswered",
+   "options": [
+    "transformer",
+    "Refrigerant",
+    "generator",
+    "enginev"
+   ],
+   "answer": 3,
    "confidence": "grid+tick",
    "type": "mcq"
   },
@@ -442,6 +522,22 @@
    ],
    "answer": 1,
    "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2008-035",
+   "subject": "physics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "A wavelength is",
+   "options": [
+    "A line that represents the direction of propagation of light.",
+    "The minimum distance between two points that are in phase.",
+    "The locus of all points of a travelling wave that are in phase.",
+    "The number of waves crossing a given plane in a unit time."
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
    "type": "mcq"
   },
   {
@@ -653,6 +749,22 @@
    "type": "mcq"
   },
   {
+   "id": "natl-physics-2008-049",
+   "subject": "physics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "A common unit of energy in atomic physics is",
+   "options": [
+    "Plank?s constant",
+    "Electron voltv",
+    "De Broglie wavelength",
+    "Uncertaintyprinciple"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
    "id": "natl-physics-2008-050",
    "subject": "physics",
    "year": 2008,
@@ -676,57 +788,15 @@
    "tick": "?",
    "q": "A man is standing on a spring scale in an elevator. When the elevator is at rest",
    "why": "duplicate options"
-  },
-  {
-   "n": 11,
-   "grid": "A",
-   "tick": "C",
-   "q": "A uniform 6m long and 6ooN beam, rest on two supports as shown. The forces exert"
-  },
-  {
-   "n": 13,
-   "grid": "A",
-   "tick": "D",
-   "q": "A large mass (A and a small mass (B) are pushing one another apart, as shown in "
-  },
-  {
-   "n": 16,
-   "grid": "A",
-   "tick": "B",
-   "q": "A net external non zero force acts on a particle that is moving along a straight"
-  },
-  {
-   "n": 26,
-   "grid": "A",
-   "tick": "C",
-   "q": "A metal ball has a diameter that is slightly greater than the diameter of a hole"
-  },
-  {
-   "n": 30,
-   "grid": "A",
-   "tick": "D",
-   "q": "A device for transforming heat energy to mechanical energy is referred to as Not"
-  },
-  {
-   "n": 35,
-   "grid": "A",
-   "tick": "B",
-   "q": "A wavelength is"
-  },
-  {
-   "n": 49,
-   "grid": "A",
-   "tick": "B",
-   "q": "A common unit of energy in atomic physics is"
   }
  ],
  "stats": {
   "questions": 50,
-  "items": 42,
-  "flagged": 8,
+  "items": 49,
+  "flagged": 1,
   "grid": 50,
   "conf": {
-   "grid+tick": 15,
+   "grid+tick": 22,
    "grid": 27,
    "tick": 0
   }

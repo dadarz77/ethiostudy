@@ -319,6 +319,22 @@
    "type": "mcq"
   },
   {
+   "id": "natl-physics-2007-021",
+   "subject": "physics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "A uniform bar of length 2.0m and mass 30.0kg is supported by two massless ropes which are attached to a fixed horizontal bar, as shown in figure. What are the tensions in each rope when a 7ooN weight is suspended at d =0.50m from the left end of the bar? T2 bar Weight",
+   "options": [
+    "T = 675N and T2 = 325N",
+    "T1=325N and T2=675N",
+    "T = 500N and T2 = 500N",
+    "T = 5255N and T2 = 175N"
+   ],
+   "answer": 0,
+   "confidence": "llm-verified",
+   "type": "mcq"
+  },
+  {
    "id": "natl-physics-2007-022",
    "subject": "physics",
    "year": 2007,
@@ -752,12 +768,6 @@
  ],
  "flagged": [
   {
-   "n": 21,
-   "grid": "A",
-   "tick": "B",
-   "q": "A uniform bar of length 2.0m and mass 30.0kg is supported by two massless ropes "
-  },
-  {
    "n": 33,
    "grid": "A",
    "tick": "C",
@@ -766,8 +776,8 @@
  ],
  "stats": {
   "questions": 50,
-  "items": 47,
-  "flagged": 2,
+  "items": 48,
+  "flagged": 1,
   "grid": 50,
   "conf": {
    "grid+tick": 9,

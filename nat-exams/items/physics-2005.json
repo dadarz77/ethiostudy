@@ -257,6 +257,22 @@
    "type": "mcq"
   },
   {
+   "id": "natl-physics-2005-018",
+   "subject": "physics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "A woman driving a 2000 kg car along a level road at 30m/s takes her foot off the gas to see how far her car will roll before it slows to a stop. She discovers that it takes 150m.What is the average force of friction acting on the car?",
+   "options": [
+    "9000N",
+    "6000N",
+    "3000N",
+    "400N"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
    "id": "natl-physics-2005-019",
    "subject": "physics",
    "year": 2005,
@@ -350,6 +366,22 @@
    ],
    "answer": 0,
    "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2005-027",
+   "subject": "physics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "A rectangular loop carrying a current is situated near a long straight wire such that the wire is parallel to one of its sides of the loop and it is in a plane of the loop. If a steady current is established in the wire as shown in figure below, the loop will",
+   "options": [
+    "Remain stationary.",
+    "Move toward the wire.",
+    "Move away from the wire.",
+    "Rotate about an axis parallel to the wire."
+   ],
+   "answer": 1,
+   "confidence": "llm-verified",
    "type": "mcq"
   },
   {
@@ -670,27 +702,14 @@
    "type": "mcq"
   }
  ],
- "flagged": [
-  {
-   "n": 18,
-   "grid": "A",
-   "tick": "B",
-   "q": "A woman driving a 2000 kg car along a level road at 30m/s takes her foot off the"
-  },
-  {
-   "n": 27,
-   "grid": "A",
-   "tick": "D",
-   "q": "A rectangular loop carrying a current is situated near a long straight wire such"
-  }
- ],
+ "flagged": [],
  "stats": {
   "questions": 45,
-  "items": 42,
-  "flagged": 2,
+  "items": 44,
+  "flagged": 0,
   "grid": 50,
   "conf": {
-   "grid+tick": 5,
+   "grid+tick": 6,
    "grid": 37,
    "tick": 0
   }
