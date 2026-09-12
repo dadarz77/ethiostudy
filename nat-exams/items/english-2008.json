@@ -1137,6 +1137,22 @@
    "type": "mcq"
   },
   {
+   "id": "natl-english-2008-077",
+   "subject": "english",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "Kuku: Are you she is arriving this weekend? Eleni:",
+   "options": [
+    "No doubt!Shehasher seat confirmed.",
+    "The weekend is going to be rainy.",
+    "I think she is taking a plane to change at Dubai.",
+    "They have prepared a lot of things to welcome her. Teacher: A.How many units have we done? C. Your result last time was so good. D. I am not sure yet, but you might."
+   ],
+   "answer": 0,
+   "confidence": "llm-verified",
+   "type": "mcq"
+  },
+  {
    "id": "natl-english-2008-079",
    "subject": "english",
    "year": 2008,
@@ -1729,18 +1745,11 @@
    "type": "mcq"
   }
  ],
- "flagged": [
-  {
-   "n": 77,
-   "grid": "A",
-   "tick": "D",
-   "q": "Kuku: Are you she is arriving this weekend? Eleni:"
-  }
- ],
+ "flagged": [],
  "stats": {
   "questions": 109,
-  "items": 108,
-  "flagged": 1,
+  "items": 109,
+  "flagged": 0,
   "grid": 120,
   "conf": {
    "grid+tick": 34,

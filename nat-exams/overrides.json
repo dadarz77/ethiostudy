@@ -264,5 +264,33 @@
   "confidence": "low",
   "resolved_by": "crew-R1",
   "reasoning": "Minimizing S = 2πr² + 2000/r gives 4πr = 2000/r², i.e. r = ∛(500/π) and h = 1000/(πr²) = 2r = 2∛(500/π), matching option A's pattern; option B's leaked '50' fragment (r = ∛(50/π)) does not satisfy V = πr²h = 1000 with h = 2r."
+ },
+ {
+  "id": "natl-english-2007-004",
+  "letter": "D",
+  "confidence": "high",
+  "resolved_by": "crew-R0b",
+  "reasoning": "Only grammatically correct rearrangement is the polite imperative; grid D confirmed."
+ },
+ {
+  "id": "natl-english-2008-077",
+  "letter": "A",
+  "confidence": "medium",
+  "resolved_by": "crew-R0b",
+  "reasoning": "Fitting response to arrival-confirmation question; tick D is OCR-contaminated from another question's options, grid A prevails."
+ },
+ {
+  "id": "natl-english-2009-042",
+  "letter": "D",
+  "confidence": "high",
+  "resolved_by": "crew-R0b",
+  "reasoning": "'Put off' means postpone/delay; tick D over grid 'Extend'."
+ },
+ {
+  "id": "natl-english-2010-100",
+  "letter": "C",
+  "confidence": "high",
+  "resolved_by": "crew-R0b",
+  "reasoning": "Only option with correct capitalization throughout; D lowercases wrongly, stray tick is OCR bleed, grid C prevails."
  }
 ]

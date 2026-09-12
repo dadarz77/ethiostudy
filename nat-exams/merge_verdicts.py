@@ -1,7 +1,9 @@
 import json, sys
 src, tag = sys.argv[1], (sys.argv[2] if len(sys.argv)>2 else 'solver-crew')
 raw = open(src, encoding='utf-8').read()
-arr = json.loads(raw[raw.find('[{'):raw.rfind('}]')+2])
+s = raw.find('[')
+e = raw.rfind(']')
+arr = json.loads(raw[s:e+1])
 ov = json.load(open('overrides.json', encoding='utf-8'))
 have = {v['id'] for v in ov}
 added = held = 0

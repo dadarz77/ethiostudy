@@ -1650,8 +1650,9 @@
   {
    "n": 100,
    "grid": "C",
-   "tick": "D",
-   "q": "Which one of the following sentences has correct capitalizations? NotAnswered"
+   "tick": "?",
+   "q": "Which one of the following sentences has correct capitalizations? NotAnswered",
+   "why": "duplicate options"
   },
   {
    "n": 113,
