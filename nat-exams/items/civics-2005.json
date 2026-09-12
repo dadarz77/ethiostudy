@@ -175,6 +175,20 @@
    "type": "mcq"
   },
   {
+   "id": "natl-civics-2005-012",
+   "subject": "civics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Which of the following is morally wrong according to the Ethiopian culture?",
+   "options": [
+    "Respect for elders C. Helping the needy",
+    "Breaking promises D. Participating in social affairs"
+   ],
+   "answer": 1,
+   "confidence": "llm-verified",
+   "type": "mcq"
+  },
+  {
    "id": "natl-civics-2005-013",
    "subject": "civics",
    "year": 2005,
@@ -1500,18 +1514,11 @@
    "type": "mcq"
   }
  ],
- "flagged": [
-  {
-   "n": 12,
-   "grid": "B",
-   "tick": "A",
-   "q": "Which of the following is morally wrong according to the Ethiopian culture?"
-  }
- ],
+ "flagged": [],
  "stats": {
   "questions": 95,
-  "items": 94,
-  "flagged": 1,
+  "items": 95,
+  "flagged": 0,
   "grid": 100,
   "conf": {
    "grid+tick": 44,

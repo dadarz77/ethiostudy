@@ -117,5 +117,19 @@
   "confidence": "high",
   "resolved_by": "solver-crew-3",
   "reasoning": "A lawful public gathering to protest, support, or raise awareness is the textbook definition of a peaceful demonstration, confirming the tick."
+ },
+ {
+  "id": "natl-civics-2005-012",
+  "letter": "B",
+  "confidence": "high",
+  "resolved_by": "solver-crew-4",
+  "reasoning": "Breaking promises is the morally wrong option; Ethiopian cultural values prize keeping one's word."
+ },
+ {
+  "id": "natl-civics-2009-042",
+  "letter": "B",
+  "confidence": "high",
+  "resolved_by": "solver-crew-4",
+  "reasoning": "Anti-corruption requires broad public participation; the D tick belongs to the embedded next question."
  }
 ]

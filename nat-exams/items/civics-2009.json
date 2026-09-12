@@ -622,6 +622,22 @@
    "type": "mcq"
   },
   {
+   "id": "natl-civics-2009-042",
+   "subject": "civics",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of the following is the best way of fighting against corruption?",
+   "options": [
+    "Leaving the issue to government bodies such as the ethics and Anti-corruption commission.",
+    "Mobilizing the public and other stakeholders to have active and full participation in combating corruption.<",
+    "Fighting corruption particularly focusing on low and middle levels of government bureaucracy. 43. \"Protection against double jeopardy \"is one of the principles of due process of law. Which of the following is the purpose of this principle? A. Ensuring equal accessibility of court to defendants from different religious and racial background. B. Upholding the right of an accused person to quick public trial under normal circumstances. C. Protecting the right of the defendant to be represented by a council having legal knowledge",
+    "Safeguarding an accused person from being charged and convicted again for the same criminal offence."
+   ],
+   "answer": 1,
+   "confidence": "llm-verified",
+   "type": "mcq"
+  },
+  {
    "id": "natl-civics-2009-044",
    "subject": "civics",
    "year": 2009,
@@ -1448,18 +1464,11 @@
    "type": "mcq"
   }
  ],
- "flagged": [
-  {
-   "n": 42,
-   "grid": "B",
-   "tick": "D",
-   "q": "Which of the following is the best way of fighting against corruption?"
-  }
- ],
+ "flagged": [],
  "stats": {
   "questions": 95,
-  "items": 91,
-  "flagged": 1,
+  "items": 92,
+  "flagged": 0,
   "grid": 100,
   "conf": {
    "grid+tick": 51,
