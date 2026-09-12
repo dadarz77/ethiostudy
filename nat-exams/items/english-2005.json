@@ -1,0 +1,646 @@
+{
+ "items": [
+  {
+   "id": "natl-english-2005-003",
+   "subject": "english",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Him you like son like we and your seeing laugh.",
+   "options": [
+    "_You like your son and we likeseeing laugh them.",
+    "You laugh like seeing your son and we like him.",
+    "We like him laugh and your son like seeing him.",
+    "We like seeing him laugh like you your son."
+   ],
+   "answer": 3,
+   "confidence": "tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2005-005",
+   "subject": "english",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "World I the sail to around want. NotAnswered",
+   "options": [
+    "_Tosail around theworldI want.",
+    "I want around the world to sail.",
+    "I want to sail around the world.",
+    "Around the world I want to sail. SECTION TWO: -PARAGRAPH COHERENCE (6-12) DIRECTIONS: - When put in the correct order, sentences a-e in each of the questions from 6-12 make up a complete paragraph. From the alternatives A-D give in each case, choose the letter that contains the correct order of the sentences."
+   ],
+   "answer": 2,
+   "confidence": "tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2005-007",
+   "subject": "english",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "A. I'm not very patient with people. b. I am also good at mending things. c. I don't really want to work with lots of people. d. I help my neighbours when something is broken e. I am not good at languages but I'm good at science. NotAnswered",
+   "options": [
+    "acdbev",
+    "ebdac",
+    "dbaec",
+    "bdcae"
+   ],
+   "answer": 0,
+   "confidence": "tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2005-015",
+   "subject": "english",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "As implied in paragraph 2, what is the criticism directed to elementary teachers?",
+   "options": [
+    "They are teaching too little.",
+    "They are not giving enough homework.",
+    "They teach children a familiar story.",
+    "They do not assign interesting work to children."
+   ],
+   "answer": 0,
+   "confidence": "tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2005-016",
+   "subject": "english",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "One major issue the author mentioned about the parents and grandparents of today's children is that they:",
+   "options": [
+    "Had no fear or failure at school.",
+    "Were not given home work to do after school",
+    "Had time for out of school interest and hobbies",
+    "Did not realize that after school play enhanced learning."
+   ],
+   "answer": 3,
+   "confidence": "tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2005-017",
+   "subject": "english",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Which of the following words did the author use in paragraph 2 to refer to the development of their determined attitude through afterschool 1 play?",
+   "options": [
+    "Literacy",
+    "Perseverance",
+    "Imagination",
+    "Risk-taking"
+   ],
+   "answer": 2,
+   "confidence": "tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2005-018",
+   "subject": "english",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "The authorherchildhood experienceto:",
+   "options": [
+    "Show that she had good friends to play with.",
+    "Describe how she spent her after school hours.",
+    "Show how, through play, they were learning.",
+    "Tell us that she used a type writer to do her homework."
+   ],
+   "answer": 2,
+   "confidence": "tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2005-023",
+   "subject": "english",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "According to paragraph 7, which one is the recourse parents are reported to have?",
+   "options": [
+    "Enacting homework limits.",
+    "Meeting with principals and teachers.",
+    "Protesting against children?s overload",
+    "Allowing their children to learn through play"
+   ],
+   "answer": 2,
+   "confidence": "tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2005-026",
+   "subject": "english",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "The idea is ... (paragraph 3) what does the word idea refer to?",
+   "options": [
+    "Special projects",
+    "Too much homework",
+    "purpose of homework",
+    "Amy purpose for the e-mail SECTIONFOUR:VOCABULARY(25-57) DIRECTIONS: Questions 27-46 are incomplete sentences. There are four alternative words/phrase, A-D, given below each question. Choose that one that best completes each sentence."
+   ],
+   "answer": 1,
+   "confidence": "tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2005-030",
+   "subject": "english",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Linda her request for a vacation to her boss.",
+   "options": [
+    "Emitted",
+    "permitted",
+    "submitted",
+    "omitted"
+   ],
+   "answer": 2,
+   "confidence": "tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2005-031",
+   "subject": "english",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Lensa, who is always worried about her weight, eats like a/an",
+   "options": [
+    "Birdv",
+    "ant",
+    "pig",
+    "elephant"
+   ],
+   "answer": 0,
+   "confidence": "tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2005-033",
+   "subject": "english",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Many people have a/an about flying and won?t travel by plane.",
+   "options": [
+    "Hysteria",
+    "nostalgia",
+    "phobia",
+    "accident"
+   ],
+   "answer": 2,
+   "confidence": "tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2005-034",
+   "subject": "english",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Laptop computer are they allow work to be done in many different locations.",
+   "options": [
+    "Potable",
+    "durable",
+    "portable",
+    "sizable"
+   ],
+   "answer": 2,
+   "confidence": "tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2005-035",
+   "subject": "english",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Thesepeople seem tobe . They need additional protein and vitamins.",
+   "options": [
+    "Hungry",
+    "malnourished",
+    "Starving",
+    "impoverished"
+   ],
+   "answer": 1,
+   "confidence": "tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2005-038",
+   "subject": "english",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "This time round, we?ll need to send out the police in clothes to catch thecriminals is.",
+   "options": [
+    "simple",
+    "plaine",
+    "casual",
+    "uniform"
+   ],
+   "answer": 2,
+   "confidence": "tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2005-044",
+   "subject": "english",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "This year?s beauty is very stiff. It is difficult to predict the winner.",
+   "options": [
+    "rivalry",
+    "contention",
+    "contest",
+    "competition"
+   ],
+   "answer": 3,
+   "confidence": "tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2005-051",
+   "subject": "english",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Have you seen his handwriting? It was so illegible everyone wondered what it meant.",
+   "options": [
+    "ugly",
+    "invisible",
+    "untidy",
+    "unreadable"
+   ],
+   "answer": 2,
+   "confidence": "tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2005-053",
+   "subject": "english",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Stop shouting! I am trying to get a grasp of what is happening.",
+   "options": [
+    "observe",
+    "absorb",
+    "report",
+    "understand"
+   ],
+   "answer": 3,
+   "confidence": "tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2005-055",
+   "subject": "english",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "That was a concert where Teddy Afro stole the show but to many it wasn?t surprising.",
+   "options": [
+    "Sang others? songs.",
+    "Cheated the audience.",
+    "Got attention and praise.",
+    "Took advantage undeservedly."
+   ],
+   "answer": 2,
+   "confidence": "tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2005-061",
+   "subject": "english",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Talent islike a plant that needs .Watered, and pruned.",
+   "options": [
+    "feeding",
+    "to feed O pooy ( O D) to be fedv"
+   ],
+   "answer": 1,
+   "confidence": "tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2005-075",
+   "subject": "english",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Ifeel that loves me from the group, so I have to join another one.",
+   "options": [
+    "everyone",
+    "someone",
+    "anyone",
+    "no onev"
+   ],
+   "answer": 3,
+   "confidence": "tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2005-076",
+   "subject": "english",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Whatever the discussion is about,no one pays attention to my suggestion.",
+   "options": [
+    "never",
+    "forever",
+    "ever Q",
+    "yetv"
+   ],
+   "answer": 3,
+   "confidence": "tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2005-078",
+   "subject": "english",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "She came just to say hello. She was so kind. NotAnswered",
+   "options": [
+    "by",
+    "on",
+    "in",
+    "for"
+   ],
+   "answer": 2,
+   "confidence": "tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2005-080",
+   "subject": "english",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "They started early get there before noon.",
+   "options": [
+    "so asto",
+    "because to",
+    "so that",
+    "so that to"
+   ],
+   "answer": 0,
+   "confidence": "tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2005-081",
+   "subject": "english",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Application are accepted only if you submit them no than theend of this month.Thatis the deadline.",
+   "options": [
+    "later",
+    "faster",
+    "after",
+    "sooner"
+   ],
+   "answer": 0,
+   "confidence": "tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2005-083",
+   "subject": "english",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Iwaswithherfordinner.She the car which they claim disappeared around 7 pm.",
+   "options": [
+    "won't have stolen",
+    "would have stolen",
+    "couldn't steal",
+    "can probably steal"
+   ],
+   "answer": 2,
+   "confidence": "tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2005-086",
+   "subject": "english",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Tola: Let's go out for a drink. Bereket:",
+   "options": [
+    "who else is coming?",
+    "Why do you like drinks?",
+    "Drinks are means of socializing.",
+    "I would rather like going to the theatre."
+   ],
+   "answer": 3,
+   "confidence": "tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2005-088",
+   "subject": "english",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Brother: life is getting more and more expensive here. Shall we leave for another place? Sister:",
+   "options": [
+    "how much do you earn now?",
+    "I guess it is the same everywhere.",
+    "How much do you need for your food?",
+    "True! Everybody is complaining these days."
+   ],
+   "answer": 1,
+   "confidence": "tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2005-091",
+   "subject": "english",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Belay: everybody should contribute. This is for the good of the community. Kiros:",
+   "options": [
+    "I can't agree more.",
+    "Can everybody offer it?",
+    "Health centres are important.",
+    "Each of us is to pay birr 5,000"
+   ],
+   "answer": 0,
+   "confidence": "tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2005-093",
+   "subject": "english",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Kuku: Lili:Delicious! The cook must be great.",
+   "options": [
+    "Was the cook so good?",
+    "Did you enjoy the dinner?",
+    "What was the dinner like?",
+    "What does the dinner like?"
+   ],
+   "answer": 1,
+   "confidence": "tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2005-094",
+   "subject": "english",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Teacher: what are your favourite things to do at weekends? Student:",
+   "options": [
+    "I like sight _ seeing.",
+    "I don't quite like shopping.",
+    "I'm going swimming this weekend.",
+    "I'm not doing anything this weekend."
+   ],
+   "answer": 0,
+   "confidence": "tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2005-097",
+   "subject": "english",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Lilu: Hi Beza. It?s me. Beza:Hello, Lilu! Where all day?",
+   "options": [
+    "were you",
+    "are you",
+    "have you beenv",
+    "had you been"
+   ],
+   "answer": 2,
+   "confidence": "tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2005-098",
+   "subject": "english",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Teacher: How do you like your younger sister? Student:",
+   "options": [
+    "she's a smart girl.",
+    "She's my favourite.",
+    "She's still at school.",
+    "She's not old enough for marriage."
+   ],
+   "answer": 1,
+   "confidence": "tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2005-102",
+   "subject": "english",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Passenger 1: Excuse me; I think those seats facing the front are ours. Passenger 2:",
+   "options": [
+    "Oh, I'm sorry. We know they were reserved.",
+    "Oh, what a shame! I like seats facing the front.",
+    "I'm afraid the seats are not comfortable enough.",
+    "Oh,I'm sorry.We did not know theywerereserved."
+   ],
+   "answer": 3,
+   "confidence": "tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2005-106",
+   "subject": "english",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Once up on a time there was an emperor who loved to spend his money on expensive things. This is most likely an introductory part of a writing that is:",
+   "options": [
+    "narrative",
+    "Descriptive",
+    "expository",
+    "argumentative"
+   ],
+   "answer": 0,
+   "confidence": "tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2005-107",
+   "subject": "english",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "According to government records, the number of men working or lookingfor work fell to a record low in the early part of 2012. But I don't think this reflects the realities of everyday life. This is most likely the introductory part of a writing that is:",
+   "options": [
+    "narrative",
+    "argumentative",
+    "expository",
+    "description"
+   ],
+   "answer": 2,
+   "confidence": "tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2005-108",
+   "subject": "english",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Walk along the road in front of the post office until you come to the football field. Behind the football field there is a street with a vegetable market. There is a cafe opposite the vegetable market. I'm living in the villa located just next to the market. This is most likely taken from a piece of writing that is: NotAnswered",
+   "options": [
+    "descriptive",
+    "expository",
+    "narrative",
+    "argumentative"
+   ],
+   "answer": 0,
+   "confidence": "tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2005-111",
+   "subject": "english",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "One of the reservations that people have about this one is that it has radioactive elements in it. Very important is, however, if it has these elements in the amount that could be harmful to the user. Personally, I say this cannot be ?. This is taken from a piece of writing that is most likely: NotAnswered",
+   "options": [
+    "descriptive",
+    "argumentative",
+    "narrative",
+    "expository"
+   ],
+   "answer": 0,
+   "confidence": "tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2005-113",
+   "subject": "english",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Which one of the following is most likely an instruction on how to operate a camera?",
+   "options": [
+    "Use flashlight only in daylight.",
+    "Remove battery when not in use.",
+    "Do not give your camera to anyone.",
+    "Keep cameras out of reach of children. s"
+   ],
+   "answer": 0,
+   "confidence": "tick",
+   "type": "mcq"
+  }
+ ],
+ "flagged": [
+  {
+   "n": 112,
+   "grid": "?",
+   "tick": "?",
+   "q": "Which one of the following sentences has correct punctuations?",
+   "why": "duplicate options"
+  }
+ ],
+ "stats": {
+  "questions": 115,
+  "items": 39,
+  "flagged": 1,
+  "grid": 4,
+  "conf": {
+   "grid+tick": 0,
+   "grid": 0,
+   "tick": 39
+  }
+ }
+}
