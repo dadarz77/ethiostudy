@@ -1,0 +1,1304 @@
+{
+ "items": [
+  {
+   "id": "natl-civics-2010-001",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of the following is the best indicator for job satisfaction? NotAnswered",
+   "options": [
+    "Material gain without effective performance.",
+    "Spending more time in towns by a farmer.",
+    "Saving a patient's life by a medical doctor.",
+    "Doing one job for a long time for a worker."
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-002",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of the following statement is correct concerning the difference between a constitution and other laws?",
+   "options": [
+    "Ordinary laws in no way contradict a constitution.",
+    "Both are considered as supreme laws of a country.",
+    "The procedure of making them is quite similar.",
+    "Constitution is normally drawn up by a parliament."
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-003",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "What is significance of knowledge to human being?",
+   "options": [
+    "It allows them destroy nature around them.",
+    "It encourages them disregard religious teachings",
+    "It enables them make objective judgement.",
+    "It make them realize the power of nature on them."
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-004",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of the following is correct about equality among people of Ethiopia?",
+   "options": [
+    "Equality means getting special treatment because of political views.",
+    "Equality among peoples is a key to ensuring peace and development.",
+    "Economic inequality among human beings is a natural phenomenon.",
+    "It is difficult to accomplish cultural equalities by restorative justice."
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-005",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "What does the absence of rule of law in a given country imply? NotAnswered",
+   "options": [
+    "The presence of stability",
+    "Thepredominanceofjustice",
+    "The existence of social order.",
+    "The prevalence of anarchy."
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-006",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "What does the separation of state and religion make Ethiopia?",
+   "options": [
+    "a secular state",
+    "a federal state",
+    "a democratic state",
+    "a unitary state"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-007",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of the following citizen's obligation does support government to expand social services?",
+   "options": [
+    "Appreciationgroupdifferences.",
+    "Participating in political debates peacefully.",
+    "Paying fair taxes from earnings.",
+    "Resolving conflict"
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-008",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of the following refers to a crime that involves the examination of ethnic, religious or other corporate groups?",
+   "options": [
+    "Fascism",
+    "Racism",
+    "Homicide",
+    "Genocide"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-009",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "People have a tendency of considering their cultural values superior to the values superior to the values of othercultures.Whatdoesthistendencyindicate?",
+   "options": [
+    "Afro centrism",
+    "Ethnocentrism",
+    "euro centrism",
+    "multiculturalism"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-010",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "What does the phrase \"unity in diversity\"refer to in the current Ethiopian context?",
+   "options": [
+    "Maintaining unity without negating diversity of cultural.",
+    "Placing more emphasis on cultural and linguistic diversity.",
+    "Maintain unity of the country using every possible means.",
+    "Establishing unified and centralized state system."
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-011",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of the following is a political system practiced in the present Ethiopia?",
+   "options": [
+    "Presidential system.",
+    "Hybrid of different system.",
+    "Parliamentary system.",
+    "Presidential and parliamentary."
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-012",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of the following statement is correct about civic societies?",
+   "options": [
+    "They are often static dealing with specific issue for long period.",
+    "They prefer members to be wealthy to get sufficient fund.",
+    "They focus only on political issue and democratic elections.",
+    "They are dynamic and changing based on the need of the society."
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-013",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of the following refers to the rules and standards governing the behavior of a person or members of a profession?",
+   "options": [
+    "Civics",
+    "Morality",
+    "ethics",
+    "rule of law"
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-014",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of the following is the name of the corruption in which Richard Nixon, the 37th president of America was involved?",
+   "options": [
+    "TheWatergate scandal.",
+    "The white house scandal.",
+    "The Monica scandal.",
+    "The Washington scandal."
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-015",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of the following is not needed if governments and the governed respect rule of law? NotAnswered",
+   "options": [
+    "Conducting periodic elections.",
+    "Ensuring the role of the judiciary organ of the government.",
+    "Worrying about the violation of individual and group rights."
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-016",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of the following is true about wisdom?",
+   "options": [
+    "Relying on data gathered from a single source.",
+    "Arguing firmly to undermine the respect of others.",
+    "Using knowledge effectively for a given purpose.",
+    "Drawing generalization from a few observation."
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-017",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of the following is a traditional saving institution run by a group people that contribute equal amount of money every week or month?",
+   "options": [
+    "Equb",
+    "Bank",
+    "Iddir",
+    "Mahiber"
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-018",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of the following personalities is associated with ethical standards of the medical profession?",
+   "options": [
+    "Aristotle",
+    "Hippocrates",
+    "Socrates",
+    "Herodotus"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-019",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of thefollowingiscorrect aboutindiversity?",
+   "options": [
+    "Ethnocentrism has good implications for fostering unity among different cultural groups.",
+    "Countries such as India maintain their unity as they have home genes language and culture.",
+    "Diversity does not stop countries from achieving rapid economic development.",
+    "Countries such as USA emerged as a world power by eliminating and ethnic diversity."
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-020",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of the following best represents unlimited governments?",
+   "options": [
+    "Theprevalenceof authoritarianism.",
+    "The application of free and fair election.",
+    "The freedom of opposition parties.",
+    "The suppression of absolute power."
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-022",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "A process through which a country officially recognizes certain international principles as valuable and includes them in country's legal system is termed as,",
+   "options": [
+    "Internalization",
+    "Domestication",
+    "globalization",
+    "localization"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-023",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of the following term refers to an unscientific stories that people would like to tell and believe?",
+   "options": [
+    "Myth.",
+    "Culture.",
+    "Traditions.",
+    "Faith."
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-024",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of the following is the most respectable and legal way to earn high income?",
+   "options": [
+    "Joining ruling party as a member.",
+    "Migration to urban areas.",
+    "Migration to Europe or USA.",
+    "Working hard. √ A. Their application within the appropriate limit makes them legitimate.√ B. They always reflect the undemocratic nature of government. C. Undemocratic governments lack legitimate constitution and authority. D. Democratic governments upheld untimely the rule of men."
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-027",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of the following is correct about Equp as a traditional saving institution?",
+   "options": [
+    "Its working are related more to banks than insurances.",
+    "It is liberal in that members can leave it all will.",
+    "Its members are entirely exercising the act of saving.",
+    "It is forced saving due to regular and fixed contribution."
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-028",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of the following statement is true about standard of living in Ethiopia?",
+   "options": [
+    "Most people work hard enough and get good income.",
+    "Nearly half of the people are below the absolute poverty line.",
+    "Hard work necessarily brings enormous rewards to all.",
+    "Production of goods and services satisfy the need of people."
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-029",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of the following statement is correct about responsibility for protecting environment?",
+   "options": [
+    "Each and every individual has role to play.",
+    "It much be left to the ministry of environment.",
+    "Much is expected. from developing countries.",
+    "Clearing wild forest is a major component."
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-030",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "What do you understand by voluntary organizations? They are,",
+   "options": [
+    "Exactly similar to any other purely social grouping",
+    "Dependent on government and public authorities.",
+    "Interested in providing service to individual benefits.",
+    "Non-profit making entities aiming at a common good."
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-031",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of the following statement is correct about the relations between Egypt and Ethiopia concerning Nile river? NotAnswered",
+   "options": [
+    "Egypt can benefit by understanding afforestation in Ethiopia.",
+    "It has served as a source of cooperation in the past.",
+    "Ethiopia took part in the Nile agreements during colonial period.",
+    "Water management program on the Nile will not affect Ethiopia."
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-033",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of the following is correct about morality?",
+   "options": [
+    "It is the study of ethics and behavior.",
+    "It analyzes our essential duties and rights.",
+    "It allows individuals to act as they wish.",
+    "It tells us how we should act behave."
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-034",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which one of the following is correct about group rights? They , NotAnswered",
+   "options": [
+    "Are meant to facilitate the realization of equality.",
+    "Are universal and included all human rights.",
+    "Upheld rights of person as an individual.",
+    "Regard women as second-class citizen everywhere."
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-037",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of the following is a preventive approach tofight against corruption?",
+   "options": [
+    "Investigation corruption cases.",
+    "Formulating anti-corruption laws.",
+    "Briningcorrupt officials tojustice.",
+    "Punishing corrupt individuals."
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-038",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which is the intention of the principles of external relations, according to the FDRE'S constitution?",
+   "options": [
+    "Enhancing relations with other states based on the principle of mutual respect.",
+    "Developing a military that might dominate the political- economy of Africa.",
+    "Promoting a close door policy to protect Ethiopia from external influences.",
+    "Protecting national interest at the expenses of other countries and partners. 39. \"Any propaganda for war as well as the public expression of opinion intended to injure human dignity shall be prohibited by law.\" This statement is quoted from the FDRE's constitution. What does it indicate? A. Citizens have the right to express their option without any limitation. B. Freedom of expression does not involve obligations and legal restrictions. C. Opinion expression in public places is prohibited to protect the rights others. D. The law puts restrictions on freedom of expression to protect public's safety."
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-040",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of the following is a customary particle that violates the rights of children and girls?",
+   "options": [
+    "Preforming farming activates.",
+    "The spread of HIV/AIDS.",
+    "Forced and early marriage.",
+    "Bearing and nurturing children."
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-042",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of the following is a decision based on moral sensitivity?",
+   "options": [
+    "A medical practitioner divulging the status of AIDS patient.",
+    "Telling lies that may lead to the break-up of a marriage.",
+    "Using harsh words on students who perform very low in class.",
+    "Increasing prices by a merchant with reasonable justifications."
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-043",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "HIV/AIDS is considered as a global pandemic. What does this statement mean?",
+   "options": [
+    "HIV/AIDS is a contagious disease equally affecting all regions of the world.",
+    "HIV/AIDS is similar to other diseases such as tuberculosis, typhoid and malaria.",
+    "HIV/AIDS is no more considered as an epidemic disease in the developing world.",
+    "HIV/AIDS affected human beings across regions and countries of the world."
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-044",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of the following is a good example of giving priority to the collective good?",
+   "options": [
+    "Soldiers dying to protect the sovereignty of their country.",
+    "Students working hard to get excellent grades in their courses.",
+    "Business men trying their best to maximize their profits.",
+    "Employee performing well to get promotion and better salaries."
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-045",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of the following become a famous human rights activates after suffering discrimination in South Africa?",
+   "options": [
+    "Martin Luther King",
+    "Rose Parks",
+    "Mohandas Gandhi",
+    "Luther King Senior"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-046",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of the following is the meaning of traditional patriotism?",
+   "options": [
+    "Acting ethically and responsibly to uphold constitutional values.",
+    "Fighting against enemies to defend theboundaries of one's country.",
+    "Standing for the principles of democracy and human rights.",
+    "Participating strongly in community development activities."
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-047",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of the following political parties emerged from the Ethiopia people's Revolutionary party?",
+   "options": [
+    "Tigrean people's Liberation Front.",
+    "Oromo people democratic organization.",
+    "Ethiopian people's revolutionary Democratic Front.",
+    "Ethiopian people democratic Movement.<"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-048",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of the following is true about equality? It is,",
+   "options": [
+    "Giving priority to people based on their loyalty to certain political ideologies.",
+    "Providing equal payment for all employees regardless of their educational status, skill and experiences.",
+    "Providing equal opportunities for all regardless of gender, ethnic and religious differences.",
+    "Opening up top managerial positions for citizens regardless of their credentials and work experiences."
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-049",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "One of the factors that enhance active community participation is a versatile leader. What are the major qualities of aversatileleader?",
+   "options": [
+    "Flexibility and all-rounded personality.",
+    "Charismatic, attractive, and charming.",
+    "Ability to develop and enact a realistic plan.",
+    "Enthusiasm and ability of inspiring others."
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-050",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "What is the contribution of knowledge to enhance the development of democracy? NotAnswered",
+   "options": [
+    "Knowledge serves no purpose in the development of political systems.",
+    "Education has a very limited role in fostering political participation of citizens.",
+    "Knowledge helps citizens to make informed decisions in their political participation.",
+    "Critical investigation is an essential means of generating scientific finding."
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-052",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Howdomodernbanksfacilitateinvestment? NotAnswered",
+   "options": [
+    "They are institutions of forced saving and accumulation of wealth.",
+    "They encourage saving while discouraging borrowing money to start businesses.",
+    "They motivate individuals and institutions to use traditional saving mechanisms.",
+    "They encourage the accumulation of capital that could be used for investment."
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-053",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "What is the benefit of using locally produced goods for national development?",
+   "options": [
+    "It provides local manufacturing industries with wider market opportunities.",
+    "It benefits local industries to sell their products without competition.",
+    "It encourage foreign direct investment run by western business companies.",
+    "It makes the country independent of the pressure of developed countries."
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-054",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of the following is true about globalization? NotAnswered",
+   "options": [
+    "It has the same impact on developing and developed countries.",
+    "It has little impact on cultural identities in developing countries.",
+    "It opens up the world for more interaction and interdependence.",
+    "It has very limited influence on the current development of Ethiopia."
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-055",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of the following is true about globalization?",
+   "options": [
+    "In election campaigns there is nothing wrong to see political parties making false promises.",
+    "The immediate effect of breaking promise is far worse than its long term consequence.",
+    "Breaking promise results in breaking the bond of trust among individuals and groups.",
+    "The culture of keeping promise has deteriorated through time and the current youth has becomes less trust worthy. A. Gender equality which was achieved in2015. B.Availability of rich natural resources indifferent forms.√ C.Elimination of infant mortality in 2015. D. Availability of world class universities in significant numbers."
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-057",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of the following is among the major practices that can jeopardize unity in diversity? NotAnswered",
+   "options": [
+    "Failing to display mutual respect among different ethnic, linguistic and cultural groups.",
+    "Promoting education in the mother tongue of children.",
+    "Joining opposition political party as a member.",
+    "Promoting the use of widely spoken languages as official working languages in the regions."
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-058",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of the following refers to a limited government?",
+   "options": [
+    "Courts ignore rule of law whenever they deem it necessary.",
+    "It is landlocked without access to the sea.",
+    "Certain group of people are entitled to hold political power.",
+    "Its power is restricted constitutionally."
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-059",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "What does the principle of the supremacy of the FDRE constitution entail?",
+   "options": [
+    "Elected official shall be accountable to their electorate.",
+    "All other laws in the country have to conform to the constitution.",
+    "Human and democratic rights of the citizen shall be respected.",
+    "Elected officials shall be given power by the citizens of the country."
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-060",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of the following is true about theories of truth?",
+   "options": [
+    "The scientific theory of truth assumes that is measured by its usefulness.",
+    "The pragmatic theory of truth assumes that truth depends on objective facts.",
+    "The relative theory of truth assumes that thereis no absolute truth.",
+    "The relative theory and pragmatism have a similar assumption about truth. manifestationsof thecountry's. A. Strength in military power. B. Fulfillment of membership obligation to ICAD. C. Dependence on foreign aid."
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-062",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of the following refers to an organ of government that intervened in the 2017 Kenyan election and decided a second round run - off election between Uhuru Kenyatta and Raila Odinga? NotAnswered",
+   "options": [
+    "The judiciary branch of government.",
+    "The executivebranch of government.",
+    "The legislative branch of government.",
+    "The house of people's representatives. stationed among the peasants? A. The bale peasant's rebellion. ）B. The Gojam peasant's rebellion. O C. The first woyane movement.√ D. The Jarso peasant's rebellion."
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-064",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "What is the mechanism through which responsible citizens can influence the political decisions of government officials?",
+   "options": [
+    "Removal from the positions",
+    "Giving money as bribe",
+    "intimidation using force",
+    "demonstration"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-065",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Whatisthebestmechanism tobeconsideredindevelopingthehabitofsaving?",
+   "options": [
+    "Avoiding leisure expenditure at all.",
+    "Avoiding extravagance and living within ones means.",
+    "Refraining from helping the poor and needy.",
+    "Increasing salary of workers annually. A. Avoiding wastage of time and material in the work place to reduce production costs.√ B. Refraining from criticizing the weaknesses of co-workers to maintain harmonious relationship. C. Staying home during working hours when there is no good relationship with co-workers. D. Respecting the organization's dress code during all occasions to build the image of the organization."
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-067",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of the following is true about the workings of the court?",
+   "options": [
+    "Impartial courts discriminate on certain grounds.",
+    "Courts have the mandate to promulgate new laws.",
+    "Independent courts guarantee human right protection.",
+    "Stereotyping helps the court to make fair judgment."
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-068",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "As a responsible citizen what would be your reaction if someone claimed to have the key to the National",
+   "options": [
+    "Fight corruption by quickly alerting the concerned bodies.",
+    "Inform my friends and relatives to benefit from the opportunity.",
+    "Refuse to buy the key but keep the information secret."
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-069",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of the following is correct about the method of research that one chooses to collect data?",
+   "options": [
+    "Method of data collection should depend on the nature of the research intended.",
+    "Quantitative methods of data collection are more dependable than qualitative methods.",
+    "Qualitative methods of data collection are more dependable than quantitative methods.",
+    "Method of data collection should depend on the level of education of the respondents."
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-070",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of the following statements is correct about the characteristics of remembers? Members are committed to,",
+   "options": [
+    "Expand their market share for the goods they produce.",
+    "Achieve maximum profit from their investment.",
+    "Get support of voters during election.",
+    "Share common goals."
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-071",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of the following factors must be taken into account before planning saving?",
+   "options": [
+    "The availability of modern saving institutions.",
+    "The availability of goods one needs to consume in the market.",
+    "Level of income and limiting interest accordingly.",
+    "Assessment of viable investment opportunities."
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-072",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of the following statement is correct about job satisfaction?",
+   "options": [
+    "People who are interested in team work are more satisfied than those who prefer to work alone.",
+    "A working environment where social interaction is strong contributes to enhancing job satisfaction.",
+    "Of all other factors the maximum satisfaction in a job depends on the amount of payment. ）",
+    "A job that benefits the individual more than the society promotes better job satisfaction."
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-073",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of the following is correct statement about the positive impact of globalization to developing nations? It,",
+   "options": [
+    "Makes life hard through cheap products.",
+    "Helps to drive out traditional local industries.",
+    "Transfers knowledge and advanced technology.",
+    "Affects life through direct foreign investment."
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-074",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of the following is correct about the HIV/AIDS pandemic? NotAnswered",
+   "options": [
+    "The disease isSensitive towards colour.",
+    "Low living condition heightens vulnerability.",
+    "Developed countries are immune from it.",
+    "Victims are most likely to die of heart attacks."
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-075",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of the following best explains tax evasion?",
+   "options": [
+    "Honesty in reporting the exact amount of income.",
+    "Avoidance of tax by changing a business venture",
+    "Light offense constituting minor legal punishment.",
+    "Fraud with the intention of avoiding tax illegally"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-078",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of the following is a consequence of dependency for a nation?",
+   "options": [
+    "It exports more goods to developed nations and get profits.",
+    "It enjoys fair economic relations with wealthy nations.",
+    "It protects itself from capitalist penetrations.",
+    "It imports absolete goods from wealthy nations.√ 79. \"The fight against corruption requires active participation of the public and the commitment of O A. Corruption cannot be effectively controlled without the participation of the people and public institutions.√ B. Through their continuous efforts, individual citizens can eradicate corruption from public institutions. C. Corruption can be eliminated through the dedication of government officials and institutions. D. Corruption remains a wide-spread social evil because no one is fighting against the problem"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-080",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of the following is true about the relationship between the FDRE's constitution and constitutions of regional states? NotAnswered",
+   "options": [
+    "The federal constitution allows regional states to sign treaties with other African states.",
+    "Like the federal constitution, constitutions of regional states have applicability throughout the country",
+    "The federal and regional constitutions must have similar preambles, chapters, articles and sub-articles.",
+    "The provosions of constitutions of Regional States hall not contradict the fundamental principles of the FederalConstitution."
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-083",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of the following best describes knowledge? NotAnswered",
+   "options": [
+    "Knowledge is a general understanding of nature and ideas.",
+    "Hypothesis is knowledge acquired through scientific research.",
+    "Knowledge is understanding or learning about the unknown.",
+    "Knowlegde is obtained while information is acquired."
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-084",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of the following is correct about microeconomics? NotAnswered",
+   "options": [
+    "It is concerned with overall economy.",
+    "It studies the growth of a specific country.",
+    "It focuses on Gross Domestic Product (GDP).",
+    "It deals with the determination of prices."
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-085",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of the following shows the difference betweenknowledge and myth?",
+   "options": [
+    "Myth is the product of scientific discovery while knowledge is gained through critical reading.",
+    "Myths are bliefs that cannot be proven to be tru while knowledge is the product of scientific facts.",
+    "Myth is no more important in African societies while knowledge is essential to enhance social development"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-086",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "According to the principle of the capitalist free market economic system, economic agents such as producers and consumers have the freedom of descision making. What does this mean?",
+   "options": [
+    "Manufacturer and consumers interact based on the principle of free market economy.",
+    "Manufacturing industries are completely free from governement rules and regulations.",
+    "Governement institutions fix market prices to protect the wellbeing of consumers.",
+    "Producers are under strict control of government agents and public financial institutions."
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-087",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of the following is the major reason for the dependency of poor countries on developed countries?",
+   "options": [
+    "Developing countries equally benefit from their relationship with developed countries.",
+    "Developed countries penetrate poor countries' economies through their financial and technological superiority.",
+    "Developing countries lack interest to have a balanced trade relationship with developed countries.",
+    "Developed countries genuinely support developing countries to emerge as industrial powers."
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-088",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Some poor countries take protective practices to reduce their dependence on developed countries. Which NotAnswered",
+   "options": [
+    "Terminating trade relationships with developed countries.",
+    "Stopping the import of manufactured goods from industrialized countries.",
+    "Suppopring domestic industries to produce manufactured goods.<"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-089",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "What is the major assumption of agricultural development led industrialization?",
+   "options": [
+    "Industrialization is a precondition for the development of the agricultural sector.",
+    "Industrial development shall achieved to accelarate industrial development",
+    "Enhancing agricultural development is essential to accelerate industrial development.√ C",
+    "Industrialization must produce the initial capital to the development of the agricultural sector. A.thedivision ofgovernmentintothreebranchesguaratees theprevalanceofalimitedgovernment. C. The three branches of government check the power of each other in every forms of government."
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-091",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Since the outbreak of conflict in South Sudan in 2013, IGAD uder chairmanship of Ethiopia is working hard to achieve peaceful settlement of dispute. Which of the following refers to this role of IGAD under the chairmanship of Ethiopia?",
+   "options": [
+    "Negotiation",
+    "Litigation",
+    "Arbitration",
+    "Mediation"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-092",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of the following is the basic function of diplomacy?",
+   "options": [
+    "Formulating foreign policy of the country.",
+    "Gathering and conveying information relevant to the country.",
+    "Lobbying the Diaspora to support the government on power. A. A police officer who is leading a community police office in a woreda B. Secondary school student who is active members in the school environmental protection club .√ C. Grade 12 student who is commited to read to pass university entrance examination. D. A teacher who is commited to prepare simplified reading notes for students on the subject he/she is teaching."
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-094",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which if the following is correct about decision making?",
+   "options": [
+    "Decisions may be made based on facts, opinions and feelings.",
+    "Any decision requires absolute certainity on all possible alternatives.",
+    "It is better not to maje any decisions than thinking high risks.",
+    "Best decision making involves flexibility to change the decision at any point."
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-095",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which one of thefollowingis a correctstatement aboutpatriotism?",
+   "options": [
+    "In the modern practice of defending a country in which technology plays a big role, patriotism is no more important.",
+    "The sense of ethichs limits citizens'commitment tosacrifice their lives to the nation.",
+    "The traditional meaning of patriotism is irrelevant in any form for the current generation.",
+    "To be patriot means having a deep concern to community and a country"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-096",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Democratic rights are different from human rights in that democratic rights are,",
+   "options": [
+    "Neither given to individuals, nor should be denied.",
+    "granted by democratic constitutions.",
+    "respected by all nations of the world in a uniform manner.",
+    "Fully enjoyed in developed countries of the world."
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-097",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of the following events signify Ethiopian history from international perspective?",
+   "options": [
+    "The Ethiopian student's movement and the downfall of Emperor Haileselassie in 1974.",
+    "Ethiopia's joining the Leagua of Nation in 1923 as a member alongside Liberia and South Africa from the Africancontinent",
+    "The establishment of Minilik II school in 1908.",
+    "The discovery of the fossil of lucy in Hadar area of Afar and its significance in locating Ethiopia as orign of humankind."
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-098",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "The participation of Prime Minister Hailemariam Desalegn in the monthly community-based Addis Ababa city cleaning activity in 2017 can signify which of the following personal quality expected from a leader?",
+   "options": [
+    "Versatility",
+    "Being Realistic",
+    "Good Communicator",
+    "Being Motivator"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-099",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "What is the major reason for those whoo consider affirmative actions as unjust?",
+   "options": [
+    "Affirmative action itself promotes reverse discrimination by favoring a group.",
+    "Affirmative action's never achieved their abjectives correcting the past injustice.",
+    "Affirmative action threatens the vested interest of men in the society.",
+    "Affirmative action's can lead countries to civil rights movements and civil wars."
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-civics-2010-100",
+   "subject": "civics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "HIV/AIDS is a global problem that requires global action because it is a,",
+   "options": [
+    "communicable disease that transmites through inhaling air carrying the virus.",
+    "responsibility of UN agencies to deal with such disease that transmit through body fluids.",
+    "disease that affects humans irrespective of age, color, race, religion or occupation.√ ）1",
+    "a danger that brought a number of organizations across the world in support of victims. Your Answers you have scored O out of 0 Answer Key 1.A 11.C 21.D 31.B 41.B 51.A 61.D 71.C 81.C 91.A 2.A 12.D 22.A 32.C 42.D 52.D 62.A 72.B 82.B 92.C 3.C 13.C 23.A 33.D 43.D 53.A 63.C 73.C 83.A 93.B 4.B 14.A 24.D 34.B 44.A 54.C 64.D 74.B 84.D 94.B 5.D 15.D 25.A 35.C 45.C 55.C 65.B 75.D 85.C 95.D 6.A 16.C 26.C 36.D 46.B 56.B 66.A 76.A 86.A 96.D 7.C 17.C 27.B 37.B 47.D 57.A 67.C 77.C 87.C 97.B 8.D 18.B 28.B 38.A 48.C 58.D 68.B 78.D 88.D 98.D 9.B 19.C 29.A 39.D 49.A 59.B 69.A 79.A 89.C 99.B 10.A 20.A 30.D 40.C 50.C 60.C 70.D 80.D 90.C 100.C @ 2019 Camara Education Ethiopia.Ethiopian General Secondary Education Certificate and University Entrance Examinations"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  }
+ ],
+ "flagged": [
+  {
+   "n": 76,
+   "grid": "A",
+   "tick": "C",
+   "q": "Which one of the following is a correct statement about Ethiopia's policy of for"
+  },
+  {
+   "n": 81,
+   "grid": "A",
+   "tick": "C",
+   "q": "A democratic system is considered as essential in countries like Ethiopia. What "
+  }
+ ],
+ "stats": {
+  "questions": 87,
+  "items": 80,
+  "flagged": 2,
+  "grid": 100,
+  "conf": {
+   "grid+tick": 44,
+   "grid": 36,
+   "tick": 0
+  }
+ }
+}

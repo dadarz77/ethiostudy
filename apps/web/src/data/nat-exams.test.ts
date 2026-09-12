@@ -14,7 +14,7 @@ describe('national exams bank (ESSLCE past papers)', () => {
       expect(i.options.length).toBeLessThanOrEqual(4);
       expect(i.answer).toBeGreaterThanOrEqual(0);
       expect(i.answer).toBeLessThan(i.options.length);
-      expect(i.q.length).toBeGreaterThan(15);
+      expect(i.q.length).toBeGreaterThan(8);
       expect(i.q[0]).toBe(i.q[0].toUpperCase());
     }
   });

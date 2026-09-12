@@ -387,7 +387,7 @@
    "subject": "chemistry",
    "year": 2009,
    "yearCal": "EC",
-   "q": "Consider thefollowing reaction at equilibrium. 2CO2 (g) = 2CO (g) + O2 (g) △H = -514KJ WhatdoesLeChatelier's principlepredictwhen the temperatureforthereaction is increased?",
+   "q": "Consider thefollowing reaction at equilibrium. 2CO2 (g) = 2CO (g) + O2 (g) ΔH = -514KJ WhatdoesLeChatelier's principlepredictwhen the temperatureforthereaction is increased?",
    "options": [
     "The value of the equilibrium constant will increase.",
     "The value of the equilibrium constant will decrease.",
@@ -408,7 +408,7 @@
     "When only one phase is present.",
     "Whentwophasesarepresentatequilibrium.",
     "When three phases are present at equilibrium.",
-    "At all times. Use the following equilibrium reaction for questions 29 2C (s)+O2(g)=2CO (g)△H<0"
+    "At all times. Use the following equilibrium reaction for questions 29 2C (s)+O2(g)=2CO (g)ΔH<0"
    ],
    "answer": 1,
    "confidence": "grid",
@@ -1027,7 +1027,7 @@
    "subject": "chemistry",
    "year": 2009,
    "yearCal": "EC",
-   "q": "The KP for the reaction: 2SO;(g) = 2SO2(g) + O2(g) is 0.26 at 1,000°C and 40.8 at 1,300°C, which of the following combinations of △H andS are most plausiblefor thereaction at these temperatures? △H △S",
+   "q": "The KP for the reaction: 2SO;(g) = 2SO2(g) + O2(g) is 0.26 at 1,000°C and 40.8 at 1,300°C, which of the following combinations of ΔH andS are most plausiblefor thereaction at these temperatures? ΔH ΔS",
    "options": [
     ">0",
     ">0 >0",
@@ -1043,7 +1043,7 @@
    "subject": "chemistry",
    "year": 2009,
    "yearCal": "EC",
-   "q": "At what condition(s) is the equation,△H = △U + P△V, applicable?",
+   "q": "At what condition(s) is the equation,ΔH = ΔU + PΔV, applicable?",
    "options": [
     "For constant pressure and temperature processes",
     "Only for constant pressure processes",
@@ -1064,7 +1064,7 @@
     "Adiabatic",
     "Closed",
     "Isolated",
-    "Open √ Use the following equilibrium reaction for questions 81 2C (s) + O2 (g)= 2CO (g) △H<0"
+    "Open √ Use the following equilibrium reaction for questions 81 2C (s) + O2 (g)= 2CO (g) ΔH<0"
    ],
    "answer": 3,
    "confidence": "grid",
@@ -1112,7 +1112,7 @@
    "n": 78,
    "grid": "B",
    "tick": "C",
-   "q": "Based on the followinginformation △H\"(KJ) H2(g)+1/2O2(g)→H20(l) -286 2Na(s) + 1/"
+   "q": "Based on the followinginformation ΔH\"(KJ) H2(g)+1/2O2(g)→H20(l) -286 2Na(s) + 1/"
   }
  ],
  "stats": {

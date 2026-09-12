@@ -741,7 +741,7 @@
    "subject": "chemistry",
    "year": 2006,
    "yearCal": "EC",
-   "q": "Which statement about the following reaction is correct? 2FeS (s) + 3CO2 (g) → Fe2O3 (s) + 3CO (g) △H°=+26.6kJ",
+   "q": "Which statement about the following reaction is correct? 2FeS (s) + 3CO2 (g) → Fe2O3 (s) + 3CO (g) ΔH°=+26.6kJ",
    "options": [
     "?26.6kJ of energy are released for every mole of Fe reacted.",
     "26.6kJ of energy are absorbed for every mole of Fe reacted.",
@@ -1077,7 +1077,7 @@
    "subject": "chemistry",
    "year": 2006,
    "yearCal": "EC",
-   "q": "What is the value of △H for the reaction S(s) → S(g)? S(s) +O2(g) → SO2(f) △H=-395kJ S(g) + O2(g)→ SO2(g) △H=-6185kJ",
+   "q": "What is the value of ΔH for the reaction S(s) → S(g)? S(s) +O2(g) → SO2(f) ΔH=-395kJ S(g) + O2(g)→ SO2(g) ΔH=-6185kJ",
    "options": [
     "-1013kJ",
     "-223kJ",

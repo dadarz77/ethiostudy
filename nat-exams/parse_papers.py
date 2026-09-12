@@ -31,7 +31,9 @@ def clean(s):
     s = re.sub(r'\s+', ' ', s).strip()
     # strip practice-site UI artifacts that appear INLINE in long OCR lines
     s = re.sub(r'\|?\s*Not Answered\s*', ' ', s)
-    s = re.sub(r'euee\.epizy\.com/\S*', ' ', s)
+    s = re.sub(r'euee\.epizy\.com[/\S]*', ' ', s)
+    s = re.sub(r'[\u3000-\u30ff\u4e00-\u9fff]', '', s)  # stray CJK OCR garbage
+    s = re.sub(r'[△△]', 'Δ', s)  # OCR confusables for Greek delta
     s = re.sub(r'\d{1,2}/\d{1,2}/\d{2},?\s*\d{1,2}:\d{2}\s*[AP]M', ' ', s)
     # strip OCR radio/tick artifacts at EDGES only when not part of a word:
     # leading "O " counts as artifact only if next token starts uppercase w/o rest-of-word (radio glyph), rare — skip leading strip.

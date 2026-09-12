@@ -138,7 +138,7 @@
     "Na",
     "Mg",
     "Pt 01",
-    "Zn 10.A △Hcorresponds to an process. OA.Negative, endothermic OB.Positive,exothermic O C. Zero, exothermic D.Positive,endothermic"
+    "Zn 10.A ΔHcorresponds to an process. OA.Negative, endothermic OB.Positive,exothermic O C. Zero, exothermic D.Positive,endothermic"
    ],
    "answer": 2,
    "confidence": "grid",
@@ -149,7 +149,7 @@
    "subject": "chemistry",
    "year": 2010,
    "yearCal": "EC",
-   "q": "A △H corresponds to an process.",
+   "q": "A ΔH corresponds to an process.",
    "options": [
     "Negative, endothermic",
     "Positive,exothermic",
@@ -327,10 +327,10 @@
    "yearCal": "EC",
    "q": "Which of the following questions expresses de Broglie's hypothesis?",
    "options": [
-    "入 =h/(mv)",
-    "△E=hc/",
+    "λ =h/(mv)",
+    "ΔE=hc/",
     "v=c/n",
-    "△E=c/"
+    "ΔE=c/"
    ],
    "answer": 0,
    "confidence": "grid",
@@ -581,7 +581,7 @@
    "subject": "chemistry",
    "year": 2010,
    "yearCal": "EC",
-   "q": "For a certain gas phase reaction 2A(g) = B(g) + C(g) △H = +45KJ/mol K = 4.5 x 10-2 Which of the following would be true if the temperature was increased from 25°C to 200°C? I. The value of k would be smaller. II.Theconcentration of A(g)wouldbe increased Ill.TheconcentrationofB(g)wouldincrease",
+   "q": "For a certain gas phase reaction 2A(g) = B(g) + C(g) ΔH = +45KJ/mol K = 4.5 x 10-2 Which of the following would be true if the temperature was increased from 25°C to 200°C? I. The value of k would be smaller. II.Theconcentration of A(g)wouldbe increased Ill.TheconcentrationofB(g)wouldincrease",
    "options": [
     "I",
     "II",
@@ -853,7 +853,7 @@
    "subject": "chemistry",
    "year": 2010,
    "yearCal": "EC",
-   "q": "For the reaction CH14(g) → CoH(g) + 4H2(g), △p(H2)/△t was found to be 2.5 x 10-2 atm/s, where △p(H2) is change in the pressure of hydrogen.Determinep(HgHi4)/tinunitsof atm/sforthisreactionat thesametime.",
+   "q": "For the reaction CH14(g) → CoH(g) + 4H2(g), Δp(H2)/Δt was found to be 2.5 x 10-2 atm/s, where Δp(H2) is change in the pressure of hydrogen.Determinep(HgHi4)/tinunitsof atm/sforthisreactionat thesametime.",
    "options": [
     "6.2 x 10-2",
     "1.6 x 10-3",
@@ -935,8 +935,8 @@
    "yearCal": "EC",
    "q": "Which of thefollowing is true regarding the solutionformation process?",
    "options": [
-    "New coulombic attraction between the solute and solvent form in which the enthalpy change is exothermic (△H < 0)",
-    "Intermolecular forces between the solvent molecules must weaken in which the enthalpy change is exothermic (△H< 0)",
+    "New coulombic attraction between the solute and solvent form in which the enthalpy change is exothermic (ΔH < 0)",
+    "Intermolecular forces between the solvent molecules must weaken in which the enthalpy change is exothermic (ΔH< 0)",
     "Intermolecular forces between the solute particles must weaken in which the enthalpy change is exothermic (H< 0)",
     "Covalentbondswithin thesolute and solventmoleculesmustbebroken"
    ],
@@ -1077,7 +1077,7 @@
    "subject": "chemistry",
    "year": 2010,
    "yearCal": "EC",
-   "q": "Whatis the standard cellpotential of the oxidation of ammonia,givenbelow? 4NH+3O2→2N2+6H2O△G°=-1356KJ",
+   "q": "Whatis the standard cellpotential of the oxidation of ammonia,givenbelow? 4NH+3O2→2N2+6H2OΔG°=-1356KJ",
    "options": [
     "7.02V",
     "3.51V 0",

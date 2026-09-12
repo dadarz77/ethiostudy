@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "id": "natl-chemistry-2008-001",
+   "subject": "chemistry",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "A drug decomposes by zero-order kinetics with a rate constant of 2mgmL-1 month-1. If the initial concentration is 100mgmL-1, how long will it take for the drug to decompose by 10%?",
+   "options": [
+    "2 months",
+    "3 months",
+    "5 months",
+    "4 months"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
    "id": "natl-chemistry-2008-002",
    "subject": "chemistry",
    "year": 2008,
@@ -836,10 +852,10 @@
    "subject": "chemistry",
    "year": 2008,
    "yearCal": "EC",
-   "q": "Which of thefollowing expressions is correctfor therate of reactiongivenbelow? 5Br(aq)+BrO'3+6H+(aq)→3Br2(aq)+3H2O (l) NotAnswered [Br] 5[△H]",
+   "q": "Which of thefollowing expressions is correctfor therate of reactiongivenbelow? 5Br(aq)+BrO'3+6H+(aq)→3Br2(aq)+3H2O (l) NotAnswered [Br] 5[ΔH]",
    "options": [
-    "△t △t △[Br] △H",
-    "△t △t △[Br] = 6/5 △H C △t △t △[Br] △H D △t △t"
+    "Δt Δt Δ[Br] ΔH",
+    "Δt Δt Δ[Br] = 6/5 ΔH C Δt Δt Δ[Br] ΔH D Δt Δt"
    ],
    "answer": 1,
    "confidence": "grid",
@@ -916,10 +932,10 @@
    "yearCal": "EC",
    "q": "Sodium acetate spontaneously crystallizes out of a supersaturated solution on standing.Which of the following is true for the thermodynamicquantitiesofthissystemforsuchaprocess?",
    "options": [
-    "△S<0,△H<0",
-    "△G<0,△H>0",
-    "△S >0,△G<0",
-    "△S >O,△H>0"
+    "ΔS<0,ΔH<0",
+    "ΔG<0,ΔH>0",
+    "ΔS >0,ΔG<0",
+    "ΔS >O,ΔH>0"
    ],
    "answer": 0,
    "confidence": "grid",
@@ -932,9 +948,9 @@
    "yearCal": "EC",
    "q": "In which of the following systems will the position of equilibrium shift to the left upon an increase in pressure, but to the rightupon anincrease intemperature? 0<HV()OH+()OO()H+()O'V",
    "options": [
-    "C2H4 (g)+H2O (g) C2H5OH (g),△H<0.",
-    "C2H6 (g) ≥ C2H4 (g) + H2 (g), △H > 0.",
-    "2SO2 (g)+O2(g)≥ 2SO3(g),△H>0."
+    "C2H4 (g)+H2O (g) C2H5OH (g),ΔH<0.",
+    "C2H6 (g) ≥ C2H4 (g) + H2 (g), ΔH > 0.",
+    "2SO2 (g)+O2(g)≥ 2SO3(g),ΔH>0."
    ],
    "answer": 1,
    "confidence": "grid",
@@ -945,7 +961,7 @@
    "subject": "chemistry",
    "year": 2008,
    "yearCal": "EC",
-   "q": "Thehydrogen used in theHaberprocessismadeby thefollowingreaction CH4 (g) +H2O (g) CO (g)+ 3H2(g),△H° = +206KJ Whichofthefollowingsetsofconditionswill favourtheformationofH2?",
+   "q": "Thehydrogen used in theHaberprocessismadeby thefollowingreaction CH4 (g) +H2O (g) CO (g)+ 3H2(g),ΔH° = +206KJ Whichofthefollowingsetsofconditionswill favourtheformationofH2?",
    "options": [
     "Low pressure and high temperature.",
     "Low pressure and low temperature.",
@@ -979,10 +995,10 @@
    "yearCal": "EC",
    "q": "Whichoneof thefollowingstatementsbestdescribesthestandardenthalpyofformationofanyelement?",
    "options": [
-    "The value of △Hf° (element) depends on temperature.",
-    "Thevalue of △Hf°(element)is zerofor any element in the standard sate.",
-    "The value of △Hf(element) is zero only for elements in the solid state.",
-    "The value of △Hf°(element) is zero only at absolute zero temperature."
+    "The value of ΔHf° (element) depends on temperature.",
+    "Thevalue of ΔHf°(element)is zerofor any element in the standard sate.",
+    "The value of ΔHf(element) is zero only for elements in the solid state.",
+    "The value of ΔHf°(element) is zero only at absolute zero temperature."
    ],
    "answer": 1,
    "confidence": "grid+tick",
@@ -1041,7 +1057,7 @@
    "subject": "chemistry",
    "year": 2008,
    "yearCal": "EC",
-   "q": "Consider the following graph,which relates to the equilibrium system: CH;COOH (aq) + H2O ≥ CH;COO(aq) + H;O+(aq),△H< 0 Which of the following actions caused the change in the concentration of [H3O+ (aq)]l at time t? L [Hg0 ta)] t Time",
+   "q": "Consider the following graph,which relates to the equilibrium system: CH;COOH (aq) + H2O ≥ CH;COO(aq) + H;O+(aq),ΔH< 0 Which of the following actions caused the change in the concentration of [H3O+ (aq)]l at time t? L [Hg0 ta)] t Time",
    "options": [
     "Addition of CHCOO- (aq)",
     "Addition of HCl",
@@ -1133,6 +1149,22 @@
    "type": "mcq"
   },
   {
+   "id": "natl-chemistry-2008-077",
+   "subject": "chemistry",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "The standard cell potential (E°) for the reaction below is 1.10v. What is the cell potential for this reaction when [Cu2+] = 1 x 10-5Mand [Zn²+]= 1M? Zn (s) + Cu2+ (aq) → Zn2+ (aq) + Cu (s)",
+   "options": [
+    "1.1",
+    "0.95",
+    "1.2",
+    "1.35"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
    "id": "natl-chemistry-2008-078",
    "subject": "chemistry",
    "year": 2008,
@@ -1183,13 +1215,13 @@
  ],
  "flagged": [],
  "stats": {
-  "questions": 74,
-  "items": 74,
+  "questions": 76,
+  "items": 76,
   "flagged": 0,
   "grid": 79,
   "conf": {
    "grid+tick": 25,
-   "grid": 49,
+   "grid": 51,
    "tick": 0
   }
  }

@@ -293,7 +293,7 @@
    "subject": "chemistry",
    "year": 2007,
    "yearCal": "EC",
-   "q": "The enthalpy of combustion of solid carbon to form carbon dioxide is 393.5kJ/mol carbon and the enthalpy of combustion of carbon monoxide to form carbon dioxide is -283.3kJ/mol CO. what will be the enthalpy change. △H for the reaction? 2C (s) + 02 (g) → 2C0 (g)",
+   "q": "The enthalpy of combustion of solid carbon to form carbon dioxide is 393.5kJ/mol carbon and the enthalpy of combustion of carbon monoxide to form carbon dioxide is -283.3kJ/mol CO. what will be the enthalpy change. ΔH for the reaction? 2C (s) + 02 (g) → 2C0 (g)",
    "options": [
     "-503.7kJ/mol",
     "-220.8kJ/mol",
@@ -405,7 +405,7 @@
    "subject": "chemistry",
    "year": 2007,
    "yearCal": "EC",
-   "q": "For the gas phase reaction N2 + O2 = 2NO △H = +180KJmol-1 the value of K changes with the",
+   "q": "For the gas phase reaction N2 + O2 = 2NO ΔH = +180KJmol-1 the value of K changes with the",
    "options": [
     "Change in pressure",
     "Introduction of N",
@@ -437,7 +437,7 @@
    "subject": "chemistry",
    "year": 2007,
    "yearCal": "EC",
-   "q": "Thedecompositionofnitrosylchloridewasstudiedas 2NOCl (g) = 2NO (g) + Cl2 (g) The following data were obtained where Rate=-△[NOCl]/△t [NOCllo (molecules/cm?) Initial Rate (molecules/cm?.s) 3.0 x 1016 5.98 x 104 2.0 x 1016 2.66 x 104 1.0 x 1016 6.64 x 103 4.0 x 1016 1.66 x 105 What is the rate law in the above decomposition?",
+   "q": "Thedecompositionofnitrosylchloridewasstudiedas 2NOCl (g) = 2NO (g) + Cl2 (g) The following data were obtained where Rate=-Δ[NOCl]/Δt [NOCllo (molecules/cm?) Initial Rate (molecules/cm?.s) 3.0 x 1016 5.98 x 104 2.0 x 1016 2.66 x 104 1.0 x 1016 6.64 x 103 4.0 x 1016 1.66 x 105 What is the rate law in the above decomposition?",
    "options": [
     "r = k[NOCI]²",
     "r= K[NOCI]",
@@ -1114,7 +1114,7 @@
     "VX",
     "V2X",
     "V3Xv",
-    "VX2 77.△Hforsolid toliquid transitionsfor compound Ais2.73Kcal/molandfor compoundBis 3.0Kcal/mol.The melting point for compound A is 0°C and the melting point for compound B is 30°C. the entropy changes △SA andSp at the two transition temperatures are related as O A.△SA ?= △SB O B. △SA <△SB O C. △SB ?<△SaV OD. △SA = 300△SA/273"
+    "VX2 77.ΔHforsolid toliquid transitionsfor compound Ais2.73Kcal/molandfor compoundBis 3.0Kcal/mol.The melting point for compound A is 0°C and the melting point for compound B is 30°C. the entropy changes ΔSA andSp at the two transition temperatures are related as O A.ΔSA ?= ΔSB O B. ΔSA <ΔSB O C. ΔSB ?<ΔSaV OD. ΔSA = 300ΔSA/273"
    ],
    "answer": 0,
    "confidence": "grid",

@@ -407,10 +407,10 @@
    "yearCal": "EC",
    "q": "What is the valid rate expression for the following reaction? 2NO + 2H2 → N2 + 2H2",
    "options": [
-    "1/2 ?(△[H2])/△t",
-    "-1/2 (△[H2 O])/△t",
-    "-1/2 (△[NO])/△tV",
-    "(△[N2])/△t"
+    "1/2 ?(Δ[H2])/Δt",
+    "-1/2 (Δ[H2 O])/Δt",
+    "-1/2 (Δ[NO])/ΔtV",
+    "(Δ[N2])/Δt"
    ],
    "answer": 2,
    "confidence": "grid",
@@ -661,7 +661,7 @@
    "subject": "chemistry",
    "year": 2005,
    "yearCal": "EC",
-   "q": "How many kilo joules of heat are absorbed when 20 g of NaCl(s) is decomposed in to Na(s) and Cl2(g) at constant pressure according to thefollowingreaction? 2Na(s) + Cl2(g) → 2NaCI(s) ）△H=-821.8kl",
+   "q": "How many kilo joules of heat are absorbed when 20 g of NaCl(s) is decomposed in to Na(s) and Cl2(g) at constant pressure according to thefollowingreaction? 2Na(s) + Cl2(g) → 2NaCI(s) ）ΔH=-821.8kl",
    "options": [
     "-281.0",
     "-140.5",
@@ -1157,7 +1157,7 @@
    "subject": "chemistry",
    "year": 2005,
    "yearCal": "EC",
-   "q": "Which of the following reactions is expected to have negative value of entropy change (△s)? (D0°H9 + (3)O09 ← ()09 + (s)9H9 H",
+   "q": "Which of the following reactions is expected to have negative value of entropy change (Δs)? (D0°H9 + (3)O09 ← ()09 + (s)9H9 H",
    "options": [
     "CaCO3(s) → CaO(s) + CO2(g)",
     "N2O4(g) + CI(g) → 2NOC1(g) + O2(g)",
