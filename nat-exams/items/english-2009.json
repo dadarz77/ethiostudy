@@ -1,0 +1,1763 @@
+{
+ "items": [
+  {
+   "id": "natl-english-2009-001",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "You I you say to for did want for all us thank. NotAnswered",
+   "options": [
+    "I want to say thank you for all you did for us.",
+    "you want to say I thank you for all did for us.",
+    "I did want you for all for us to say thank you.",
+    "you say I want to thank you for all did for us."
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-002",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "The work for she twenty- two she company to when was started.",
+   "options": [
+    "She for the company started to work when she was twenty two.",
+    "She when was twenty- two she started to work for the company.",
+    "She started to work for the company when she was twenty -two.",
+    "When she started to work for the company, she was twenty-two."
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-003",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "In my hospital sister a works.",
+   "options": [
+    "My hospital works in a sister.",
+    "My sister in a hospital works.",
+    "My sister works in a hospital.",
+    "In a hospital works my sister."
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-004",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Any to don't us seem more understand they.",
+   "options": [
+    "To understand us they don't seem any more.",
+    "They don't seem to understand us any more.",
+    "Any more they don't seem to understand us.",
+    "They seem to don't understand us any more. Section Two:-Paragraph Coherence (5-7) the alternative A-Dgivenin eachcase,choose theletter that contains the correct order of the sentences."
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-005",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "A.All of us are prone to the same fundamental human principles that cause these cases of scientific denial. b. Because it is not ignorance. c. But if we really want to change how they think, we need to take an honest look at what is driving those beliefs. d. It is easy to dismiss people who believe things that are factually incorrect. e. It is psychology. f. Research hasproven that humans are distinctly uncomfortable with events or phenomena without clear cause, and when we do not know something, we tend to fill in the gaps ourselves.",
+   "options": [
+    "adbfce",
+    "baefdc",
+    "febacd",
+    "dcbeaf"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-006",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "A. Hundreds of millions of people can recognize a Coke bottle by its shape. b. And the famous Coca- Cola logo is the most famous logo in the world. c. Do you know the most recognizable object in the world? d. Unlike any other famous commercial logos. It has not changed in 1o0 years. e. The Coca- Cola bottle is the most recognized object in the world.",
+   "options": [
+    "dbace",
+    "ceabd",
+    "cdbea",
+    "eacdb"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-007",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "A. the country with highest life expectancy is Japan. b. hence, nuns and philosophers often lived to great ages. c.historically, women died in childbirth and men in wars. d. now, childbearing is less risky and there are fewer wars. e.there the average age for men is 76 and for women is 72",
+   "options": [
+    "aecdb",
+    "cbdae",
+    "cdabe",
+    "acdbe Section Three:-reading Comprehension (8-25) Direction: - Read the following passages carefully and answer the questions 8 - 25 according to the information threrein. Each question has four choices, A -D. Choose the best alternative. PassageI"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-008",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of the following has the potential to turn millions into environmental refugees?",
+   "options": [
+    "allowing unchecked growth of human population",
+    "conserving soil,water and forests",
+    "changing the patterns of production and consumption",
+    "enabling the poor nations to slow down population growth."
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-009",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "From the following sentences, identify one potential consequence if population growth continues at the current rate.",
+   "options": [
+    "There will be a large number of new supplies of food and energy.",
+    "Humankind will be able to reduce the burden placed on the earth.",
+    "Humankind will exterminate the species and ruin the ecosystem.",
+    "There will be no collision between rising demand and diminishing resources."
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-010",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "What does they as used in ... the world in which they survived.. (Paragraph 2) refer to? NotAnswered",
+   "options": [
+    "millions who will become environmental refugees",
+    "today's young people",
+    "our great - grand - children",
+    "great-grand-children of today's young peoplev"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-011",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Whose principal effect is implied in ... the principal effect came to be ... (Paragraph 5)?",
+   "options": [
+    "the increase in appetite for fish",
+    "the rise in quantities of encouraged fishing",
+    "the falling demand for fish",
+    "the mismatch between demand and supply"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-012",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of the following statements is true according to the information in paragraph 3? NotAnswered",
+   "options": [
+    "human population will not exceed 8 billion by 2050.",
+    "the time needed to respond to the rising environmental threats has now become short before.",
+    "making the world a better place for living requires more strenuous efforts now than ever before.",
+    "the world looks better if zero population growth is achieved through environmental catastrophe."
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-013",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which one of the following is not an example of rising threats to the environment?",
+   "options": [
+    "cutting human propagation in half",
+    "exterminating species and the ecosystem",
+    "stripping nutrients from the soil.",
+    "creating mismatches between production and consumption."
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-014",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of the following words is close in meaning to soak up as used in paragraph 1?",
+   "options": [
+    "stop",
+    "accelerate",
+    "absorb",
+    "extend"
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-015",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "What does this in the statement? This is no longer true (Paragraph 3) refer to?",
+   "options": [
+    "finding new frontiers and empty lands",
+    "finding exploding population",
+    "achieving zero population growth",
+    "gripping threats with environment"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-016",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Form the words given below, which one shows the author's dissatisfaction with human activity, as used in Paragraph 1?",
+   "options": [
+    "expansion",
+    "devastation",
+    "soak up",
+    "preventV"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-017",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which word from the given alternatives can be the best substitute for demise as used in ... hasten the",
+   "options": [
+    "propagation",
+    "population",
+    "dampening",
+    "death"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-018",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of the following words is close in meaning to doomsayers, as used in ... humanity had confounded doomsayers... (Paragraph 4)?",
+   "options": [
+    "people who predict disaster",
+    "environmentalists wholived in the 1970s.",
+    "people who cause price rises that lead to Scarcity.",
+    "people who find new supplies of food and energy."
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-019",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "From the words given below, identify the one close in meaning to collision , as used in paragraph 6",
+   "options": [
+    "coercion",
+    "influence",
+    "reaction",
+    "conflict Passage II when a company invests in a country, it asks: dowehave the rightpeople with the right capabilities?This makes people think of new facilities, new jobs. Too often they forget the importance of developing new skills. Most educational systems - in both developed and poorer markets are unprepared for the future skills challenge brought on by digitalization. As a business, we could throw up our hands and do nothing. But as optimists, we should instead double down on being part of the solution. Focusing on training and 'up skilling' when the shovels go in the ground after an initial investment can lead to even more jobs over time. In established facilities workers displaced by technology can learn to operate robots and become comfortable with automation. Business can develop work study programs based on company tailored study programs based on company tailored curricula or provide essential machines to universities or vocational programs so that students can learn to use them. I know this is possible - not because I am optimist but because I see it happening. In this light, the goals of private companies and the public are the same: a business supports those whose jobs are impacted by technology. It betters the training of those in developing markets. It creates loyal relationships talent and pipeline of resilient workers with flexible skills - ones that it and other companies will demand.More jobs are created.And everybody wins. Source: JohnRice,Vice Chairman of GE,TIMEDDecember12,2016 20. \". and everybody wins,\" (the last paragraph, the last sentence) implies that A.Businesses will face the challenges. B.Both workers and businesses will satisfy their needs.√ C. The public will be the beneficiary. D. Businesses will establish high quality institutions of training."
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-021",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "One of following is an instance of a recommended industry university partnership.",
+   "options": [
+    "Companies prepare their own study programs based on their own needs.",
+    "Universities generate modules of training for companies.",
+    "Workers get trainings during their day offs.",
+    "Companies give universities machines that their students canlearn to use."
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-022",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "When is it proper, according to the passage, to focus on training and up skilling?",
+   "options": [
+    "As soon as we start the business",
+    "When we decide to introduce digitalization.",
+    "After all arrangements for the establishment of the company have been made.",
+    "Before we secure the money for investment."
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-023",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "One of the following is NOT a mutual goal between private companies and the public regarding the tasks ofthebusiness.",
+   "options": [
+    "Providing employment to all citizens.",
+    "Supporting those whose jobs are affected by technology.",
+    "Enhancing the training of those in developing markets.",
+    "Pipelining resilient workers with flexible skills. OA.Facilities and skilled personnel B. Preparation for future skills challenge C. Digitalization ）D. Optimism"
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-025",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which one of the following titles best suits the above passage?",
+   "options": [
+    "Industry Education Partnership",
+    "TheValidity of Education",
+    "Businesses as Models of Education",
+    "Building Workforces Business Need"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-026",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "People who live on an island in a sea will most probably need to theirwater.Otherwisethey cannot drink it.",
+   "options": [
+    "Filter",
+    "Desalinate",
+    "Detoxify",
+    "Denitrify"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-027",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "I don't like people who beat around the bush. I want them to",
+   "options": [
+    "Stop blaming others for their own mistakes",
+    "Come to an agreement",
+    "Stop avoiding the issueV",
+    "Look for the hidden point 28. Your shoes or youwill trip over and fall down. OA.Embrace O B. Lace up C. Brace D. Bump into"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-029",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Asmistakeis to erasersois constitution to",
+   "options": [
+    "Revolution",
+    "Draft",
+    "Concise",
+    "Amendment"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-030",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "I understand it is taking them years to the shock of their son's death. I really pity them.",
+   "options": [
+    "Get over",
+    "Put over",
+    "Go over",
+    "Get down"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-031",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "For reasons unknown to us it is now the third month he stopped paying his contributions. So, we can now",
+   "options": [
+    "Erase out",
+    "Cancel out",
+    "Rub out",
+    "Write out"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-032",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "The carpenter accidentally hit his thumb with a hammer and in pain.",
+   "options": [
+    "Whispered",
+    "Whistled",
+    "Wincedv",
+    "Wiped"
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-033",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "It is assumedthatfreepeople are to infringements of their rights.",
+   "options": [
+    "Inimical",
+    "Imitative",
+    "Innocuous",
+    "Fragile"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-034",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Many of my friends were in heated argument about which team would win the game last night; in fact, i was and simply enjoyed watching the game.",
+   "options": [
+    "Discouraged",
+    "Unwise",
+    "unfair",
+    "IndifferentV"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-035",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "After waiting for two hours, mom grew with my sister and decided to call her.",
+   "options": [
+    "Irresponsible",
+    "Unfriendly",
+    "unkind",
+    "Impatient B.Substitution (36-42) Directions: - questions 36 - 42 each has an underlined word or phrase. There are four alternatives A - D given after each sentence. Choose one word or phrase that, if substituted for the underlined word or phrase."
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-036",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "I didn't ring off until he said he didn't love me. Once i heard that, i forced myself to completely erase him out of my mind.",
+   "options": [
+    "Hang up",
+    "Hold on",
+    "Ring up",
+    "Shut down"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-037",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "It is believed that with experience my sister will be proficient at the task. NotAnswered",
+   "options": [
+    "Adapt",
+    "Adopt",
+    "Adept",
+    "Novice"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-038",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Old shanty parts of Addis Ababa are pulled down and new modern high rising buildings are erected.",
+   "options": [
+    "Repaired",
+    "Demolishedv",
+    "replaced",
+    "Extracted"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-039",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Heavy shellings in several cities of Syria have turned buildings into rubbles. It would obviously take a lot ofresourcetoreconstructthem",
+   "options": [
+    "Debris",
+    "Rubbish",
+    "Desert",
+    "Wilderness"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-040",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "My sister is such a little nuisance; she often like to ask too many silly questions.",
+   "options": [
+    "Annoying",
+    "Sad",
+    "Exciting",
+    "Stupid"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-041",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "The teacher asked us tohand in the homework thisFriday.",
+   "options": [
+    "Transmit",
+    "Transfer",
+    "Admit",
+    "Submit"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-044",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Many children often enjoy listening to such an story of adventure.",
+   "options": [
+    "Excited",
+    "Exciting",
+    "excitement",
+    "Amusement"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-045",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Doctors help you unless you tell them what's worng.",
+   "options": [
+    "Can't",
+    "Couldn't",
+    "Shouldn't",
+    "Mustn't"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-046",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "I found the news from the doctors ; they said mom is in a good condition today.",
+   "options": [
+    "Initiating",
+    "Entertaining",
+    "Encouraging",
+    "Exciting"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-047",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Had there been no trace of evidence for his involvement in the death of the old lady in the neighborghood, the police soserious aboutkeepinghimincustody.",
+   "options": [
+    "Won't have been",
+    "Would have been",
+    "Wouldn't have been",
+    "Was not going to be"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-048",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Don't say anything like that to me; again!",
+   "options": [
+    "Forever",
+    "Whatever",
+    "NeverV",
+    "Ever 49. O A. Very slow B.Too slow C. So slow D.As slow"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-050",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "I don't understand why he suspected us. From among us would want hismoney.",
+   "options": [
+    "No onev",
+    "Anyone",
+    "No anyone",
+    "Not someone"
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-051",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "If the media reported that nobody died in the crash, then of them should be alive. You don't have to cry.",
+   "options": [
+    "Either",
+    "Neither",
+    "Both",
+    "None"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-052",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Classes begin only after you registration.",
+   "options": [
+    "Completed",
+    "Complete",
+    "Will complete",
+    "Had completed"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-053",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Nextweekthistime,I",
+   "options": [
+    "I am finishing",
+    "Have finished",
+    "Will finish",
+    "Will have finished 54. You come around, i see you making troubles. That is really intolerable. A.Always B.Sometimes C.All time D. Every timev"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-055",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "None of the furniture we bought last week yet.",
+   "options": [
+    "Has arrived",
+    "Arrived",
+    "Have arrived",
+    "Will have arrived"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-056",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Didyouknowthat Mary andBedlu married nextweek?",
+   "options": [
+    "Are going to getv",
+    "Will be getting",
+    "Will get",
+    "Get"
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-057",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Experts agree that neither sex is more intelligent than the other: their brains are",
+   "options": [
+    "Also different",
+    "Just the same",
+    "Just different",
+    "Also the samev"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-058",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "If anything goes wrong with this plan you held responsible.",
+   "options": [
+    "Would be",
+    "Would have been",
+    "Will bev",
+    "Will have been"
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-059",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "It ishard toimaginewhatlifewaslike therewerenocomputersormobilephones.",
+   "options": [
+    "While",
+    "Whenv",
+    "Where",
+    "During"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-060",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "I'm delighted you in such a good health.",
+   "options": [
+    "I see",
+    "Seeing",
+    "To seev",
+    "For i see"
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-061",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "I just heard on the radio that the company is selling goods at a big discount. I go and check if there is anything i might need.",
+   "options": [
+    "Will",
+    "Would",
+    "may",
+    "am going to"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-062",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "She seems to be so much spoiled.She is rude everyone. Q",
+   "options": [
+    "To",
+    "On",
+    "At",
+    "With 63. Are so fallible as those who are sure they are always right. O A. Many B. None √ C.Some D. Several"
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-064",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Zeritu worked really hard medicine.",
+   "options": [
+    "So as to",
+    "Because of",
+    "So that",
+    "In order to"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-065",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Jorgo has a very old mum can hardly do anything. He take care of her as he is her only son.",
+   "options": [
+    "May",
+    "Must",
+    "Shall",
+    "Ought to"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-066",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "According to a recent survey, young drivers are likely to have an accident.",
+   "options": [
+    "The worse",
+    "The more",
+    "The worst",
+    "The mostv"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-067",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "I'm not good at mathematics, but I any problem with my English.",
+   "options": [
+    "Had never have",
+    "Have never had",
+    "Never have",
+    "Had never had"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-068",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "I'm sure you a good time staying here with me this coming summer.",
+   "options": [
+    "Will have",
+    "Should have",
+    "Have",
+    "Will be having?"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-070",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "I was passing whenisawhertalklikesomeonemad.Idon'tthinksheisstableand alright.",
+   "options": [
+    "By",
+    "Along",
+    "To",
+    "On"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-071",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "I have now been admitted to the university of Mello and i am expected to be there in August. The semester half way there by the time the academic year beings here.",
+   "options": [
+    "Will be",
+    "Would be",
+    "Will have beenv",
+    "Would have been 72. A. Not a wordv B. Nothing word C. None a word D. Not word Section Six:-communicativeActivities(73-107) Direction:- Questions 73 - 107 are presented in a form of dialogue. The part said by one of the speakers is given, and a blank space is left for the other. For each of the blank spaces, four alternative answers, A-D are given.Choose the one that is most appropriate to complete the dialogue."
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-073",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Student:WewenttoSoderefortheweekend. Teacher",
+   "options": [
+    "You went where",
+    "When did you go",
+    "Where did you go",
+    "What forv"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-074",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Lensa: Lilu loves pizza. She could eat the whole thing herself. Lojo:",
+   "options": [
+    "That's why she is gaining weight",
+    "That is why she's cutting down on junk food.",
+    "That is why she's very nice.",
+    "That's why she gets along with her friends very well."
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-075",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Teacher: You haven't submitted your assignment have you? Student:",
+   "options": [
+    "Yes, I haven't I'm sorry teacher.",
+    "No, I have. I gave you in the morning.",
+    "When? I didn't know.",
+    "No i haven'tv"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-076",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Abraham: You should really apologize to your parents. Tizazu:",
+   "options": [
+    "Why?I don't carewhat they think!",
+    "Mistakes are inevitable.",
+    "It was a crowded classroom.",
+    "Yes, my parents apologized."
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-077",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Mother: Get out her way. You:-what's chasing her?",
+   "options": [
+    "She's doing her homework.",
+    "She's in a hurry.",
+    "She has been reading all morning.",
+    "She has a terrible headache."
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-078",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Dessalegn: Chaltu: Yes, you are.",
+   "options": [
+    "I'm genuine, aren't I?",
+    "I'm working to help you, amn't i?",
+    "There are a number of solutions, aren't there?",
+    "You are trying to help me, aren't you?"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-079",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Shashe: Tollossa: How do you do?",
+   "options": [
+    "How are you?",
+    "How do you do?",
+    "Can i speak to you?",
+    "Who are you?"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-080",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Nurse: Patient: Do i have to ? OF",
+   "options": [
+    "Sleep well. I wish you good dreams.",
+    "How do you feel now?",
+    "Don't disturb, please, be quiet.",
+    "Have you taken your medicine?"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-081",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Teacher: Beka is one of the most intelligent and gentle students we have. Isn't he? Director:",
+   "options": [
+    "I know his dad, Ato Borguda.",
+    "Intelligence is a quality we need.",
+    "He also a good footballer, isn't he?",
+    "He went to Nazareth last week, i was told."
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-082",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Abel: she still doesn't want to give me the camera back. You:",
+   "options": [
+    "Cameras are very expensive.The cost a fortune.",
+    "What kind of camera does she like? Like this one?",
+    "So disappointing! After all she knows it is not hers.",
+    "She has two very sophisticated cameras,doesn't she?"
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-083",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Son: books are a thing of the past. The future is in online publications. Father:",
+   "options": [
+    "that's utterly rubbish.",
+    "I don't like online publications.",
+    "Children watch toomuch TV these days.",
+    "Wedon'tlike toread on the screen."
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-084",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Husband: Wife: love means never having to say you're sorry.",
+   "options": [
+    "You never learn to make apologies",
+    "I don't accept your apologies.",
+    "You know i love you.",
+    "I kept you waiting for so long."
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-085",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Alemu: can you play the violin? Zewdu:",
+   "options": [
+    "Yes, i can play.",
+    "No, i wish i could.",
+    "Can you?",
+    "Musical instruments are usually"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-086",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "You: i always have trouble with my English. What do you advise me to do? Friend:",
+   "options": [
+    "I wish i could help. Q",
+    "You shouldn't bother about it.",
+    "Have you thought about seeing a doctor?"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-087",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Bontu: Chaltu: Sorry, i am not going to the post office.",
+   "options": [
+    "What are you going to do after class?",
+    "Do you go to the post office every day?",
+    "Could you mail these letters for me, please?",
+    "Would you perhaps go to the post office today?"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-088",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Adugna: They asked us to submit the documents on time. What else is there? Kiros",
+   "options": [
+    "What do they do with documents?",
+    "How much time did they give us to do that?",
+    "They also want us to pay the whole amount now.",
+    "They come up with new requirements every year."
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-089",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Mekbib: Excuse me, can you lend me a pencil? Zeritu:",
+   "options": [
+    "Here you are.",
+    "I've a pen.",
+    "Can you borrow?",
+    "Which one?"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-090",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Gennet: Yuk! How disgusting! Lilly:",
+   "options": [
+    "Let me have a look. I'll try to fix it.",
+    "Of course, help yourself.",
+    "Isn't your drink very nice?",
+    "I'm glad you like it."
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-091",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Receptionist: Guest: do you have a room with double bed, please?",
+   "options": [
+    "Why are you here, Madam?",
+    "What can i do for you, madam?",
+    "Are you looking for someone, madam?",
+    "Do you want to pass a night here, madam?"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-092",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Ali: Can i make an appointment to see the doctor? Sori:",
+   "options": [
+    "The doctor is available any time.",
+    "No, you can't make.",
+    "What's wrong?",
+    "Yes, you can make."
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-093",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Friend: Globalization is just another way for rich countries to exploit poor countries. You:",
+   "options": [
+    "You may be right, but i see it that way.",
+    "Rich countries help the poor ones in many ways.",
+    "Do you remember the beginning of globalization?",
+    "You may be right, but i don't see it that away."
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-094",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Smoker: I think somkers deserve the right to smoke in public. Non-Smoker:",
+   "options": [
+    "no, I'm not sure about that.",
+    "I'd say that is not always the case.",
+    "I'd say the exact opposite.",
+    "yes, I'm sure about that."
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-095",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Leto: where is the nearest cash point? Bereket:",
+   "options": [
+    "do you want to change money or cash a traveller's cheque?",
+    "as a matter of fact, we don't have the nearest cash point around?",
+    "walk down the street and it is on your left before the traffic light.",
+    "takebus number 48fromhere and thenI actuallydon't know afterthat."
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-096",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "You: I lost another opportunity again. Friend:",
+   "options": [
+    "good luck",
+    "I don't care",
+    "hard luck",
+    "take it easy"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-097",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Tutu: Oh, one lasting thing: Solan and I are getting married. Dimberu:",
+   "options": [
+    "congratulations! When is the happy day?",
+    "of course! Solan'll make a good husband.",
+    "yes, but in my opinion, isn't Solan much younger?",
+    "I'd say Sunday is the best day for the wedding."
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-098",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Policeman: You have seen her killing the man. Haven;t you? Ujulu:",
+   "options": [
+    "what was the man doing then?",
+    "killing the man? Unbelievable!",
+    "who is she? Hasn't she gone away?",
+    "I was, in fact, somewhere in the scene."
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-099",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Nuru: I didn't like their food.The taste was so odd. Bancho:",
+   "options": [
+    "what was the injera make of?",
+    "did they have a party or what?",
+    "it was too much. We couldn't finish it.",
+    "even the look was somewhat unattractive."
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-100",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Tourist: Officer: My advice is that you hire a four-whee- drive.",
+   "options": [
+    "should we take a bus to get to the site, sir?",
+    "is the road to the area somewhat bumpy, sir?",
+    "can we find a four -wheel- drive to the site, sir?",
+    "which one is cheaper, a bus or a four -wheel-drive, sir?"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-101",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Nana: We have to leave early morning. Otherwise, It will be congested. Gutiye:",
+   "options": [
+    "which car are you going to drive?",
+    "hwo long does it take us to get there?",
+    "how many vehicles use the road per day?",
+    "good idea! Wake me up at 5 o'clock, please."
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-102",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Mother: it's hot inside. Daughter: Sure, where is the key?",
+   "options": [
+    "will you open the window?",
+    "shall I open the window?",
+    "open the window.",
+    "may I shut the door? Mother: A. I know she is very good. B. so disappointing! Are you sure? C. it should be very difficult, I suppose."
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-104",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Passenger 1: the weather looks nice, doesn't it? Passenger 2:",
+   "options": [
+    "yeah, but too unpredictable.",
+    "it is too hot this time of the year.",
+    "it is like Bahir Dar, where we are going.",
+    "would it be the same in Bahir Dar also?"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-105",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Eldana: it is time we left. It is going to rain later. Friend: i_don 't want to get my hair wet.",
+   "options": [
+    "I couldn't agree more.",
+    "should we really go?",
+    "what do you tell me?",
+    "we've been here for long."
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-106",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Hanna: Kedija: Kind of, I soppose.",
+   "options": [
+    "where is your boyfriend?",
+    "here comes your boyfriend.",
+    "do you love your boyfriend?",
+    "what does your boyfriend do for living?"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-107",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Teacher: how much string does it take to reach the moon? Student:",
+   "options": [
+    "never ending piece.",
+    "countless pieces.",
+    "one hundred million pieces.",
+    "just one, but a very long piece. Section Seven: Writing (108 - 120) Directions: Questions 108 -120 are related to different types of writing. Read each of them very carefully and choose the best answer from the four alternative answers, A-D given."
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-108",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which one of the following sentences has correct punctiuation?",
+   "options": [
+    "we said, \"Don't push us around;\" however, that didn't mean anything to them.",
+    "we said, \"Don't push us around\"; however, that didn't mean anything to them.",
+    "we said, \" don't push us around\"; however, that didn't mean anything to them.",
+    "we said, \" Don't push us around,\" however, that didn't mean anything to them."
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-109",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which one of the following sentences is most likely taken from a narrative piece of writing?",
+   "options": [
+    "everybody ordered a meal and started waiting.",
+    "the food in the restaurant was popular for its taste.",
+    "of all things, I liked the picture hanging from the center.",
+    "the meals weren't as such expensive compared to other places."
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-110",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which one of the following sentences is correctly punctuated?",
+   "options": [
+    "send me Ketema, the headmaster, Jira, the unit leader; and Desta, the guard.",
+    "send me Ketema; the headmaster; Jira; the unit leader, and Desta; the guard.",
+    "send me; Ketema, the headmaster; Jira, the unit leader; and Desta, the guard.",
+    "send me Ketema- the headmaster, Jira - the unit leader, and Desta- the guard."
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-111",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "We interviewing 10 managers of different branches in the city to see if what they think about the problem conformswiththeinformationwesecured from the customers.Whichsection ofa studyhave theabovelines beentakenfrom?",
+   "options": [
+    "objective",
+    "methodology",
+    "introduction",
+    "data analysis"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-112",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "We met at the back of the building and started looking for a quiet place where we could sit down and enjoy the presence of one another. The area was a bit dark and we were sure no noel would come there in the mid of the night. We found a corner to sit and these lines are taken from a piece of writing that is most likely:",
+   "options": [
+    "descriptive",
+    "argumentative",
+    "narrative",
+    "expository"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-113",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "New situations always made me nervous.Which sentences is like to come next?",
+   "options": [
+    "after a couple of minutes the teacher came over.",
+    "my first swimming lesson was no exception.",
+    "I stood timidly by the side of the changing room.",
+    "I changed into my bathing suit."
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-115",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which sentence is appropriately punctuated to avoid any ambiguity in meaning?",
+   "options": [
+    "the doctor's wife said her friend is not well.",
+    "thedoctors'wifesaid,herfriend isnotwell.",
+    "the doctor's wife, said her friend is not well.",
+    "the doctors' wife said, her friend is not well."
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-116",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which one of the following sentences is most likely taken from a descriptive writing?",
+   "options": [
+    "unlike what they thought, we managed to get there early morning.",
+    "the whole area was wet and smoggy making driving extremely difficult.",
+    "In fact, it is good to start early morning if you want to drive long distance.",
+    "at 9 o'clock, some of the people started appearing form different directions."
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-117",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "She made me remember Mona Lisa. Her smiles and beauty were indescribable and as she came straight looking into my eyes, all I could do was stand dumbfounded. She got closer and closer and her eyes shone unbearably brighter, this is taken from a piece of writing that is most likely:",
+   "options": [
+    "expository",
+    "argumentative",
+    "narrative",
+    "descriptive"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-118",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "In conclusion, students from the rural areas seem to have spent a significant portion of their time helping their parents whereas those from the urban centers hardly did anything of that kind.What is the most likely research topic from which the preceding lines were taken?",
+   "options": [
+    "residential area as a factor affecting the assistance students give to parents",
+    "a survey of responsibilities of students from rural and urban areas inn helping their parents?",
+    "students from the rural an urban centuries; how much time do they spend helping parents?"
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-119",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "When I looked up from the foot of the hill, I saw someone who was making almost to the tip and I know it was Tesfay. In no later than five minutes he stood on the top and started shouting down to those of us crawling up . This is taken from a piece of writing that is most likely:",
+   "options": [
+    "narrative",
+    "argumentative",
+    "descriptive",
+    "expository"
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-english-2009-120",
+   "subject": "english",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "I have a proven track record of responsibility, integrity and commitment to company objectives.\" This is mostlikelytakenfrom.",
+   "options": [
+    "a letter of application",
+    "an informalletter",
+    "a business letter",
+    "a letter of enquiry Your Answers you have scored O out of 0 Answer Key 1.A 11.D 21.A 31.C 41.D 51.C 61.A 71.C 81.C 91.B 101.D 111.D 2.C 12.C 22.A 32.C 42.C 52.B 62.A 72.A 82.C 92.A 102.A 112.A 3.C 13.A 23.A 33.C 43.D 53.D 63.B 73.D 83.D 93.D 103.B 113.B 4.B 14.C 24.B 34.D 44.B 54.D 64.C 74.A 84.A 94.C 104.A 114.C 5.D 15.A 25.D 35.D 45.A 55.A 65.B 75.D 85.B 95.C 105.A 115.A 6.B 16.D 26.B 36.A 46.C 56.A 66.D 76.A 86.A 96.D 106.C 116.B 7.A 17.D 27.C 37.C 47.C 57.D 67.B 77.B 87.C 97.A 107.B 117.D 8.A 18.A 28.B 38.B 48.C 58.C 68.D 78.A 88.C 98.D 108.D 118.D 9.C 19.D 29.D 39.A 49.C 59.B 69.B 79.B 89.A 99.D 109.A 119.A 10.D 20.B 30.A 40.A 50.A 60.C 70.A 80.D 90.C 100.D 110.D 120.A 2019CamaraEducationEthiopia.EthiopianGeneral SecondaryEducationCertificate and UniversityEntranceExaminations"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  }
+ ],
+ "flagged": [
+  {
+   "n": 42,
+   "grid": "C",
+   "tick": "D",
+   "q": "We are going to put off our vacation until next year."
+  },
+  {
+   "n": 69,
+   "grid": "B",
+   "tick": "?",
+   "q": "I was very sad to hear that your mother",
+   "why": "duplicate options"
+  },
+  {
+   "n": 114,
+   "grid": "C",
+   "tick": "?",
+   "q": "Which one of the following sentences has correct capitalizations?",
+   "why": "duplicate options"
+  }
+ ],
+ "stats": {
+  "questions": 111,
+  "items": 108,
+  "flagged": 3,
+  "grid": 120,
+  "conf": {
+   "grid+tick": 35,
+   "grid": 73,
+   "tick": 0
+  }
+ }
+}

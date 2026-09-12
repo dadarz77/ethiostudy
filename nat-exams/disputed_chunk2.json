@@ -1,15 +1,15 @@
 [
  {
-  "id": "natl-chemistry-2006-036",
-  "subject": "chemistry",
-  "year": 2006,
-  "n": 36,
-  "q": "A triacylglycerol that is solid at room temperature is called:",
+  "id": "natl-civics-2010-081",
+  "subject": "civics",
+  "year": 2010,
+  "n": 81,
+  "q": "A democratic system is considered as essential in countries like Ethiopia. What is the major reason?",
   "options": [
-   "?Lecithin",
-   "?Fat",
-   "?Wax",
-   "?Oil"
+   "Democracy provides a favorable atmosphere for development of agricultural led industrialization.",
+   "Democracy has a strong foundation in the history of political developments in the country.",
+   "Democracy creates a suitable condition to manage the relationship among diverse cultural groups.",
+   "Democracy is the best way of developing a federal system with strong centralized government. 82. \"Human rights and freedoms, emanating from the nature of mankind, are aviolable and inalienable\" (Article 10 FDRE's Constitution). Which of the following is true based on the above statement? B. Human rights and freedom are rigts that are not subject to being given or taken away from human beings. C. The origin of human rights and freedoms is strongly associated with that determination of demoratic governments. D. Democratic governments and human rights commisions are authorized to grant human rights and freedoms."
   ],
   "option_letters": [
    "A",
@@ -21,16 +21,16 @@
   "tick": "C"
  },
  {
-  "id": "natl-chemistry-2009-035",
-  "subject": "chemistry",
+  "id": "natl-english-2009-042",
+  "subject": "english",
   "year": 2009,
-  "n": 35,
-  "q": "Considerthefollowingreactions: 2N2O5(g)→ 4NO2(g) +02(g) At a certain temperature, the rate of decomposition of N2Os(g) is 2.5 x 10°mol/s. What will be the rate of formation of NO2?",
+  "n": 42,
+  "q": "We are going to put off our vacation until next year.",
   "options": [
-   "1.0x 10-5mol/s",
-   "2.5 x10-6mol/s",
-   "1.3 x 10-6mol/s",
-   "5.0x10-6mol/sv"
+   "Cancel",
+   "Enjoy",
+   "Extend",
+   "Delay Section Five:-Grammar (43 -72) Directions:- Questions 43 -73 are incomplete sentences. There are four alternative words or phrases, A- D, given below each question.Choose the word/ phrase the best completes the sentence.43. You look like a gentleman nor speak like one. A.Never B.Ever C.Either D. Neither"
   ],
   "option_letters": [
    "A",
@@ -42,79 +42,16 @@
   "tick": "D"
  },
  {
-  "id": "natl-chemistry-2009-049",
-  "subject": "chemistry",
-  "year": 2009,
-  "n": 49,
-  "q": "What will be the ration of theboilingpoint elevation of a 0.1M solution of sucrose,sodium sulphate and potassium bromide?",
-  "options": [
-   "1:3 :1",
-   "1:1: 2",
-   "1:3 :2",
-   "1:2:2"
-  ],
-  "option_letters": [
-   "A",
-   "B",
-   "C",
-   "D"
-  ],
-  "grid": "A",
-  "tick": "C"
- },
- {
-  "id": "natl-chemistry-2009-078",
-  "subject": "chemistry",
-  "year": 2009,
-  "n": 78,
-  "q": "Based on the followinginformation ΔH\"(KJ) H2(g)+1/2O2(g)→H20(l) -286 2Na(s) + 1/2O2(g) →Na2O(s) 414 Na(s) +1/2O2(g) +1/2H2(g)→ NaOH(s) -425 Whatwill be thestandard enthalpychangesfor thereaction? Na2O(s)+H2O(l)→ 2NaOH(s)? NotAnswered",
-  "options": [
-   "-978KJ",
-   "-722KJ",
-   "-150KJ",
-   "+275KJ"
-  ],
-  "option_letters": [
-   "A",
-   "B",
-   "C",
-   "D"
-  ],
-  "grid": "B",
-  "tick": "C"
- },
- {
-  "id": "natl-chemistry-2010-066",
-  "subject": "chemistry",
-  "year": 2010,
-  "n": 66,
-  "q": "How many electrons are present in the o2p molecular orbital of N2+?",
-  "options": [
-   "2",
-   "1v",
-   "3",
-   "4 OA.0.9659 O B.0.21 OC.0.65 OD.0.0341"
-  ],
-  "option_letters": [
-   "A",
-   "B",
-   "C",
-   "D"
-  ],
-  "grid": "B",
-  "tick": "D"
- },
- {
-  "id": "natl-civics-2005-055",
-  "subject": "civics",
+  "id": "natl-mathematics-2005-052",
+  "subject": "mathematics",
   "year": 2005,
-  "n": 55,
-  "q": "A government that respects the rule of law in its functions will be able to:",
+  "n": 52,
+  "q": "Which one of the following is equal to sec(n/2 -x) sin? x + cos2x?",
   "options": [
-   "Stay in power whatever it does to the people",
-   "Win the confidence and acceptance of the people",
-   "Exercise supreme and absolute power over the people",
-   "Conceal any type of human right abuse of citizens"
+   "2cosx",
+   "2sinx",
+   "cos2x",
+   "sin2x"
   ],
   "option_letters": [
    "A",
@@ -122,28 +59,7 @@
    "C",
    "D"
   ],
-  "grid": "A",
+  "grid": "C",
   "tick": "B"
- },
- {
-  "id": "natl-civics-2009-042",
-  "subject": "civics",
-  "year": 2009,
-  "n": 42,
-  "q": "Which of the following is the best way of fighting against corruption?",
-  "options": [
-   "Leaving the issue to government bodies such as the ethics and Anti-corruption commission.",
-   "Mobilizing the public and other stakeholders to have active and full participation in combating corruption.<",
-   "Fighting corruption particularly focusing on low and middle levels of government bureaucracy. 43. \"Protection against double jeopardy \"is one of the principles of due process of law. Which of the following is the purpose of this principle? A. Ensuring equal accessibility of court to defendants from different religious and racial background. B. Upholding the right of an accused person to quick public trial under normal circumstances. C. Protecting the right of the defendant to be represented by a council having legal knowledge",
-   "Safeguarding an accused person from being charged and convicted again for the same criminal offence."
-  ],
-  "option_letters": [
-   "A",
-   "B",
-   "C",
-   "D"
-  ],
-  "grid": "B",
-  "tick": "D"
  }
 ]

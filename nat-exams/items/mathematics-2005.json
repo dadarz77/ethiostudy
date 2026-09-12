@@ -1,0 +1,807 @@
+{
+ "items": [
+  {
+   "id": "natl-mathematics-2005-001",
+   "subject": "mathematics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "If {an} is a sequence such that a = 2, and an+1= an + 4 for all n ≥ 1, then an is equal to :",
+   "options": [
+    "2460",
+    "2458",
+    "2450",
+    "2442 f(2+h)-f(2)"
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2005-002",
+   "subject": "mathematics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "If f(x) = x² + 2lnx, then h→0 h",
+   "options": [
+    "5",
+    "4",
+    "2",
+    "0"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2005-003",
+   "subject": "mathematics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "If f(x) =e2x + x - 3 cosx, then what is f'(x)?",
+   "options": [
+    "e2x + 1 - 3 sin(x)",
+    "e2x + 1 + 3 sin(x)",
+    "4e2x - 3 cos(x)",
+    "4e2x + 3 cos(x)"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2005-004",
+   "subject": "mathematics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Which one of the following intervals does f(x) = x4 + 4x increase? NotAnswered",
+   "options": [
+    "(-∞0, -1]",
+    "(-∞0, 0]",
+    "[-1, 8)<",
+    "(-0,0) 25i"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2005-005",
+   "subject": "mathematics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Which one of the following is the simplest form of 3+4i",
+   "options": [
+    "5?5i",
+    "5 + 5i",
+    "1 + 3i",
+    "13iv"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2005-006",
+   "subject": "mathematics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "If Z = cos (π /10) + isin (π/10), then what is the value of Z5?",
+   "options": [
+    "π/2+π/2i",
+    "1/2 + 1/2i Q",
+    "iv",
+    "1+i"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2005-010",
+   "subject": "mathematics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "What is the 50th term of the sequence 3, 10, 17, 24, 31,?",
+   "options": [
+    "310",
+    "346",
+    "510",
+    "531"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2005-011",
+   "subject": "mathematics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "For real members x and y, which one of the following statements is true?",
+   "options": [
+    "(Vx)(3y)(x² +y + 1=0)",
+    "(3x)(vy)(x² + y + 1 = 0)",
+    "(3y)(x)(x² + y + 1 = 0)",
+    "(vy)(x)(x² + y + 1 = 0)"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2005-012",
+   "subject": "mathematics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Which one of the following functions has NO vertical asymptote?",
+   "options": [
+    "f(x)= ln(x+1) x²+1",
+    "f(x) x3+8 x²-9",
+    "f(x) x-3",
+    "f(x)=x-1 x2-x"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2005-013",
+   "subject": "mathematics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Let p, q and r be propositions such that p=(r V -q) is false. Then, which one of the following propositions is true?",
+   "options": [
+    "p=>r",
+    "-r>qv",
+    "-q>q",
+    "qr"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2005-014",
+   "subject": "mathematics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "If f(x) then which one of the following is equal to f-(x)for 0<x<1?",
+   "options": [
+    "ln(1 -x) - In(x)",
+    "e-x + 1",
+    "ln(1/x+1)",
+    "1/e-x + 1"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2005-015",
+   "subject": "mathematics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "If x2 - 6x + y2 + k = 0 is equation of a circle with radius 2, then what is the value of k?",
+   "options": [
+    "13",
+    "5",
+    "4",
+    "-4"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2005-016",
+   "subject": "mathematics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "If a line with angle of inclination of 3 π/4 passes through (0, 1), which one of the following is the equation of the line?",
+   "options": [
+    "y= -x + 1v OF",
+    "y=x + 1",
+    "y= -x - 1",
+    "y=x - 1"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2005-017",
+   "subject": "mathematics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "If g(x)=x f(x)-√f(x) and f(2) = f'(2)=4,then whichof the following is equal to g²（2)？",
+   "options": [
+    "11v",
+    "8",
+    "2",
+    "0 2n+1"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2005-018",
+   "subject": "mathematics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "What is the sum of the series 5n-1 72=",
+   "options": [
+    "40",
+    "20",
+    "10",
+    "8"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2005-020",
+   "subject": "mathematics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Among students who took a quiz, 15 students scored 6, 20 students scored 7, 10 students scored 8 and 5 studentsscored1o.Whatis theaveragescoreofthestudents? NotAnswered",
+   "options": [
+    "7.8",
+    "7.5",
+    "7.2~",
+    "7.0"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2005-021",
+   "subject": "mathematics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "A parabola with focus (3, -1) has directrix y = 3. Which one of the following is the equation of the parabola?",
+   "options": [
+    "(x - 3)2 = -4(y + 1)",
+    "(x - 3)²= -8(y - 1)",
+    "(x - 3)² = 4(y + 1)",
+    "(x - 3)² = 8(y - 1)"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2005-022",
+   "subject": "mathematics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "How many four digit even numbers can be formed from 1, 2, 3, 4 and 5 if the numbers start with 3?",
+   "options": [
+    "40",
+    "50~",
+    "100",
+    "120"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2005-023",
+   "subject": "mathematics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "A satellite moves along a hyperbolic curve whose horizontal transverse axis is 24 km and an asymptote y = 5/12 x + 2.Then,what is the eccentricity of the hyperbola?",
+   "options": [
+    "5/13",
+    "12/13",
+    "13/12v",
+    "15/3 2"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2005-025",
+   "subject": "mathematics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "At which valeu(s) of x does f(x) = 0.25 x4 -2x2 have a local maximum?",
+   "options": [
+    "x = 4",
+    "x=0",
+    "x = -2 and x = 2",
+    "x = 0 and x = 2"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2005-026",
+   "subject": "mathematics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "In the set of complex numbers, which one of the following is the solution set of Z3 - iZ2 + 2Z = 0?",
+   "options": [
+    "{0}",
+    "{0, -i}",
+    "{0, -i, 2i}",
+    "{0,i, -2i}"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2005-027",
+   "subject": "mathematics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "The population of certain country is currently 80 million with growth rate of 2% per year. Given: (0.02)9 =5.12x 10-16 (1.02)=1.19 (0.02)10=1.024x10-17 (1.02)10=1.22 which one of the following is the best approximation of the population after 10 years?",
+   "options": [
+    "81.9 million",
+    "86.8 million",
+    "95.2 million",
+    "97.6 million"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2005-028",
+   "subject": "mathematics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "The volume V of a melting ice cube after t seconds is V= 2000 - 40t + 0.2t2 (in cm?). How fast is the volume changing when t=40 seconds? NotAnswered",
+   "options": [
+    "24 cm3/sec",
+    "15cm3/sec",
+    "-15 cm?/sec",
+    "-24cm3/sec 1-n-3n²"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2005-029",
+   "subject": "mathematics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Whichoneof thefollowingis equal tolim n→00 6n²+1",
+   "options": [
+    "1/6",
+    "-1/2",
+    "-1/6",
+    "-0 =1- 2x-2 xx2-2x 3x-2 A) {1,-2} B) {1,2} C) {-1} D){1} （3x+k,ifx<0"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2005-031",
+   "subject": "mathematics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Letf（x)= iffiscontinuousatx=O,thenwhatisthevalueofk?",
+   "options": [
+    "6",
+    "5",
+    "2",
+    "0"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2005-032",
+   "subject": "mathematics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Which one of the following is equal to J(1+ x)3x dx?",
+   "options": [
+    "(1 + x)3x -3x + c",
+    "(1 +x)3x+ (log3 e)3x + c",
+    "(1 + x)3* log3 e - (log3 e )²3x + cv",
+    "(1 + x)3x 1og3 e - 3x (log3 e) + c"
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2005-033",
+   "subject": "mathematics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "A committee consisting of 3 students is to be selected from 10 candidates among which 4 are girls. What is the probability that at least one girl is selected?",
+   "options": [
+    "5/6~",
+    "2/3",
+    "1/3",
+    "1/6"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2005-034",
+   "subject": "mathematics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "A group of six students take their seats at random in a round table for a discussion. What is the probability that two specific students do NOT sit together?",
+   "options": [
+    "3/5",
+    "2/3",
+    "2/5",
+    "1/3"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2005-035",
+   "subject": "mathematics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Given f(x) = In(x-1) and g(x) = /1 - 2x, which one of the following is the domain of f o g?",
+   "options": [
+    "{x E R: x >1}",
+    "{x ∈R:x≤1/2}",
+    "{x ∈ R: x<0}",
+    "{x ∈R:x>1/2}"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2005-036",
+   "subject": "mathematics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "The mark that students scored in an examination is grouped in class intervals as shown in the following table. Class Interval (Mark)Number of Students 55 -64 8 65 - 74 12 75 -84 20 85 -94 6 95 -100 4 Whatisthemedianof themark?",
+   "options": [
+    "25.0",
+    "75.5",
+    "77.0~",
+    "79.5"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2005-037",
+   "subject": "mathematics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "A box seen below is to have a square base, an open top and volume of 32 cubic units. If x is the length of each side of its base and y is its height, how many units should x and y be in order to make the box with the smallestamountofmaterial? Open-top",
+   "options": [
+    "x = 4, y =2v",
+    "x= 2,y= 8",
+    "x= v8 , y=4",
+    "x = v2, y = 16"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2005-038",
+   "subject": "mathematics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Which one of the following is equal to J 1 dx x²+x",
+   "options": [
+    "In|x2 + x|+ c",
+    "2ln|x + 1|+ ln|x|+ c",
+    "In|xl- ln|x +1|+ cv",
+    "ln|x|+ ln|x + 1|+ c"
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2005-039",
+   "subject": "mathematics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Consider the following argument: If he does not love her, she will not marry him. Helovesher.Therefore,shewill marryhim.? If p? he loves her and q ? she will marry him, which one of the following is the correct representation of the argument and its validty?",
+   "options": [
+    "-p = -q, p F q: valid argument O uounse peau :b - d b_ = d (a C) p ≥ q, p F q; valid argument D) p = q, p F q; valid argument π 40 What is the value of f 2x cosx dx? A)π-2",
+    "π/2+1",
+    "π+2",
+    "π/2-1"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2005-042",
+   "subject": "mathematics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Which one of the following is the equation of the line tangent to the graph of f(x) = 1/(x+1) + cosx at (0,f(o))?",
+   "options": [
+    "x + y = 1",
+    "x -y= -2",
+    "x+y=2",
+    "x+ 4y= 2"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2005-043",
+   "subject": "mathematics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Which one of the following is equal to lim x→1x²-1",
+   "options": [
+    "8",
+    "0",
+    "-1/4",
+    "1/4~ 1-x x→11- 2 A) 1 O B) 0 C) -1/2√ D) Doesnt exist dx x A)1n|x|+e+c 2 B)(lnx)²+x+c C)1n|x|+e²x+c 1 D) +lnx)²+c 42 ax+y+z=1"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2005-047",
+   "subject": "mathematics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Suppose f is differentiable on (-o,oo) and the graph of its derivative is as shown below. Which one of the following is true about f ? f（x）",
+   "options": [
+    "fis decreasing on (-o, -1)u[1, ∞o)",
+    "fhas a local minimum at x = -2",
+    "fis concave down on [0, ∞)",
+    "fis concave up on (-1, 1)"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2005-048",
+   "subject": "mathematics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Which one of the following is true about the derivative of f(x) =x/xl?",
+   "options": [
+    "fis not differentiable at x = 0",
+    "f'(x) = 2 |xl, for every x E (-oo, ∞o)",
+    "f' (x) = 2x, for every x ∈ (-oo, ∞)",
+    "f'(x) = |x|+ x, for every x ?(-∞o, ∞o)"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2005-049",
+   "subject": "mathematics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "What is the area of the region between the graphs of y = x² and y = -x + 2, where 0 ≤ x≤ 2 ?",
+   "options": [
+    "3",
+    "2",
+    "3/2",
+    "2/3"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2005-050",
+   "subject": "mathematics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "For what value of b does the parabola p(x) = ax² + x + b pass through the points (-1, 5) and (2, -1)?",
+   "options": [
+    "9~",
+    "3",
+    "-3",
+    "-15"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2005-051",
+   "subject": "mathematics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Iff(x)=2 then which one of the following is the amplitude and period of f, 2 respectively?",
+   "options": [
+    "1/2 and 4",
+    "-1/2 and 4",
+    "2 and πV",
+    "1/2 and π"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2005-054",
+   "subject": "mathematics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "What is the solution of cos2 x + 0.5 sin2x=1 in the interval [0, 2π)?",
+   "options": [
+    "{0,π/4,π,5π/4}",
+    "{0,π/4, 3π/4,π}",
+    "{0,π}",
+    "{0, π/4,π}"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2005-055",
+   "subject": "mathematics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Ifu=（-3,x)and =（x,y-2)are vectors,whatisthe value of y so that u+=3u-？ 2",
+   "options": [
+    "2/3",
+    "-10/3~",
+    "-4",
+    "-22/3"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2005-056",
+   "subject": "mathematics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Which one of the following points is closer to the sphere x2 + y2 + z² - 2x + 6z + 9 = 0 ? NotAnswered",
+   "options": [
+    "(1, 0, 0)",
+    "(0, 0, 0)",
+    "(0, -1, 0)",
+    "(0, 0, -1)v"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2005-057",
+   "subject": "mathematics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Which one of the following describes the principle of Mathematical Induction on a set of natural numbers?",
+   "options": [
+    "if an assertion is true for a natural number n, then it is true for n + 1.",
+    "if an assertion is true for 1 and it is true for n = 1, then it is true for some n.",
+    "if an assertion holds for n = 20 and for an n ≥ 20, then it is true for n implies true for n + 1.",
+    "if an assertion is true for n = 1 and is true for n = k, whenever is true for n = k + 1.v"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2005-058",
+   "subject": "mathematics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "What is thecot(arc sinx) if0<x<1?",
+   "options": [
+    "x √1-x2",
+    "²√1-x²",
+    "√1-x²",
+    "√x 1"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2005-061",
+   "subject": "mathematics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Suppose the following statements are the premises of an argument. He was lazy or he did not like the classroom. Which one of the following can be a conclusion that makes the argument valid?",
+   "options": [
+    "He did like the classroom.",
+    "He did not like the classroom.",
+    "If he was not lazy, he did like the classroom.",
+    "He was not lazy and he did like the classroom."
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2005-063",
+   "subject": "mathematics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Leta=2i+（x-1）j+kand=-j+ykbevectors.Ifa.=0and|lal=3 whichoneofthefollowingisapossiblevalueofy?",
+   "options": [
+    "-4",
+    "-1",
+    "3",
+    "4"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2005-064",
+   "subject": "mathematics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "If Ais perpendicular to B,what is the cosine of the angle between A and A-B? A-B",
+   "options": [
+    "A",
+    "IA-B IA-B D) IIA-B"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  }
+ ],
+ "flagged": [
+  {
+   "n": 7,
+   "grid": "D",
+   "tick": "B",
+   "q": "What is the value of | x| + 2x if x≤0 ?"
+  },
+  {
+   "n": 41,
+   "grid": "A",
+   "tick": "D",
+   "q": "A box contains 5 white, 6 red and 4 black balls of all identical size. If 3 ball"
+  },
+  {
+   "n": 52,
+   "grid": "C",
+   "tick": "B",
+   "q": "Which one of the following is equal to sec(n/2 -x) sin? x + cos2x?"
+  },
+  {
+   "n": 60,
+   "grid": "A",
+   "tick": "D",
+   "q": "A line given by a vector equation r(t)=(0, 3) + t(1, 1) is tangent to a circle a"
+  }
+ ],
+ "stats": {
+  "questions": 53,
+  "items": 48,
+  "flagged": 4,
+  "grid": 65,
+  "conf": {
+   "grid+tick": 5,
+   "grid": 43,
+   "tick": 0
+  }
+ }
+}

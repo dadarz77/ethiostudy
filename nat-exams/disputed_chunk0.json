@@ -21,16 +21,16 @@
   "tick": "D"
  },
  {
-  "id": "natl-chemistry-2006-048",
-  "subject": "chemistry",
-  "year": 2006,
-  "n": 48,
-  "q": "A gas is confined to a cylinder under constant atmospheric pressure. When the gas undergoes a particular chemical reaction, it releases 135kJ of heat to its surroundings and does 63kJ of P-V work on its surroundings. WhatarethevaluesofΔHandΔEfortheprocess?",
+  "id": "natl-english-2007-004",
+  "subject": "english",
+  "year": 2007,
+  "n": 4,
+  "q": "Immediately the police report to please",
   "options": [
-   "ΔH=135kJ,ΔE=63kJ",
-   "ΔH=-135kJ,ΔE=-63kJ",
-   "ΔH=135kJ,ΔE=198kJ",
-   "ΔH=-135kJ,ΔE=-198kJ"
+   "immediately report please to the police.",
+   "Please to the police report immediately.",
+   "Immediately please report to the police.",
+   "Please report immediately to the police."
   ],
   "option_letters": [
    "A",
@@ -42,16 +42,16 @@
   "tick": "D"
  },
  {
-  "id": "natl-chemistry-2009-038",
-  "subject": "chemistry",
-  "year": 2009,
-  "n": 38,
-  "q": "What is the bond order of a superoxide anion,with the chemical formula O2?",
+  "id": "natl-english-2010-100",
+  "subject": "english",
+  "year": 2010,
+  "n": 100,
+  "q": "Which one of the following sentences has correct capitalizations? NotAnswered",
   "options": [
-   "3",
-   "2.5",
-   "2",
-   "1.5"
+   "The language I wanted to learn was arabic, not French.",
+   "The language I wanted to learn was arabic, not french.",
+   "The language I wanted to learn was Arabic, not French.",
+   "the language I wanted to learn was Arabic, not french. 101. \"in the meantime, it is necessary to find other ways of disciplining drug offenders.\" The abovelinewas takenfrom therecommendationsection of asurvey ondrugconviction.Which of the following is true about the recommendation? OA.it is a recommendation forwarded until better actions can be taken. B. this is the major point recommended in the study C. it is one of the two recommendations in the study. D. this is recommended to take place immediately. 102. \"Of late, drugs have changed American people practice.\" The above line was taken from the introduction section of a study carried out on drug offenders in America which of the following sentences should come next to the quoted sentence? OA. nations with different penal prctices have experienced different crime rates. B. people were rightly fearful of what cocaine was doing to their children when they demanded action. C. it needs to be pointed out that there are no easy prison solutions to drug convictions. O D. In 1987, for example, only about 8 percent of state prison inmates were serving time on drug convictions. 103. \"You may not need to write your name.\" where do you find this statement in a survey study? A. it is a reminder written in questionnaire covering letter. B.it can be one of the items in the questionnaire. C. it is taken form respondents personal information.√ D. it is taken form a 'thank you' letter written to respondents. 104. \"Dressed purposely to confuse her friends in the first week of school, Samrawit wears clothes she would normally never wear. With her new haircut, she really looks like a completely different person.\" These sentences are taken form a piece of writing that is most likely A. argumentative O B. expository C. description D. narrative"
   ],
   "option_letters": [
    "A",
@@ -63,58 +63,16 @@
   "tick": "D"
  },
  {
-  "id": "natl-chemistry-2009-051",
-  "subject": "chemistry",
-  "year": 2009,
-  "n": 51,
-  "q": "If 0.454kg of nitroglycerin explodes according to the followingreaction: 2CH5(NO2)3→6CO2+3N2+5H2 What is the total volume of gases in dm? produced at STP?",
-  "options": [
-   "44.8",
-   "163",
-   "397.7",
-   "650"
-  ],
-  "option_letters": [
-   "A",
-   "B",
-   "C",
-   "D"
-  ],
-  "grid": "B",
-  "tick": "C"
- },
- {
-  "id": "natl-chemistry-2010-016",
-  "subject": "chemistry",
-  "year": 2010,
-  "n": 16,
-  "q": "Which of thefollowingis a natural polymer? NotAnswered",
-  "options": [
-   "PVC",
-   "RubberV",
-   "Perspex",
-   "Teflon"
-  ],
-  "option_letters": [
-   "A",
-   "B",
-   "C",
-   "D"
-  ],
-  "grid": "B",
-  "tick": "C"
- },
- {
-  "id": "natl-civics-2005-002",
-  "subject": "civics",
+  "id": "natl-mathematics-2005-060",
+  "subject": "mathematics",
   "year": 2005,
-  "n": 2,
-  "q": "A state where religion and state are separate is called",
+  "n": 60,
+  "q": "A line given by a vector equation r(t)=(0, 3) + t(1, 1) is tangent to a circle at point (0,3). If the radius of the circle is ?2 which one of the following is the center of the circle? NotAnswered",
   "options": [
-   "Erastian",
-   "Theocratic",
-   "Secular",
-   "Neutral"
+   "(1,4)",
+   "(1,-4)",
+   "(-1,2)",
+   "(1,2)"
   ],
   "option_letters": [
    "A",
@@ -123,48 +81,6 @@
    "D"
   ],
   "grid": "A",
-  "tick": "C"
- },
- {
-  "id": "natl-civics-2005-070",
-  "subject": "civics",
-  "year": 2005,
-  "n": 70,
-  "q": "A lawful gathering of people to protest ,support or create awareness on a certain issue implies ;",
-  "options": [
-   "Civic campaign",
-   "Peaceful demonstration",
-   "Popular participation",
-   "Political freedom"
-  ],
-  "option_letters": [
-   "A",
-   "B",
-   "C",
-   "D"
-  ],
-  "grid": "A",
-  "tick": "B"
- },
- {
-  "id": "natl-civics-2010-081",
-  "subject": "civics",
-  "year": 2010,
-  "n": 81,
-  "q": "A democratic system is considered as essential in countries like Ethiopia. What is the major reason?",
-  "options": [
-   "Democracy provides a favorable atmosphere for development of agricultural led industrialization.",
-   "Democracy has a strong foundation in the history of political developments in the country.",
-   "Democracy creates a suitable condition to manage the relationship among diverse cultural groups.",
-   "Democracy is the best way of developing a federal system with strong centralized government. 82. \"Human rights and freedoms, emanating from the nature of mankind, are aviolable and inalienable\" (Article 10 FDRE's Constitution). Which of the following is true based on the above statement? B. Human rights and freedom are rigts that are not subject to being given or taken away from human beings. C. The origin of human rights and freedoms is strongly associated with that determination of demoratic governments. D. Democratic governments and human rights commisions are authorized to grant human rights and freedoms."
-  ],
-  "option_letters": [
-   "A",
-   "B",
-   "C",
-   "D"
-  ],
-  "grid": "A",
-  "tick": "C"
+  "tick": "D"
  }
 ]
