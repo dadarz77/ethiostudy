@@ -675,8 +675,8 @@ tr:hover td { background: color-mix(in srgb, var(--card-2) 60%, transparent); }
   .subject-card-grid { grid-template-columns:repeat(2,1fr); }
 }
 @media (max-width: 768px) {
-  .sidebar { transform: translateX(-100%); width: min(310px, 85vw); }
-  .sidebar.open { transform: translateX(0); box-shadow: var(--shadow-lg); }
+  .sidebar { transform: translateX(-100%); width: min(310px, 85vw); visibility: hidden; transition: transform var(--tr), visibility var(--tr); }
+  .sidebar.open { transform: translateX(0); box-shadow: var(--shadow-lg); visibility: visible; }
   .main-wrap { margin-left: 0; }
   .menu-toggle { display: inline-flex; }
   .sidebar-close { display: inline-flex; }
@@ -822,3 +822,26 @@ tr:hover td { background: color-mix(in srgb, var(--card-2) 60%, transparent); }
 
 .streak-nudge { border-color: rgba(249,115,22,.5); color: #f97316; background: rgba(249,115,22,.08); font-weight: 700; }
 .streak-nudge:hover { border-color: #f97316; background: rgba(249,115,22,.14); }
+
+/* ---------- Keyboard hint ---------- */
+.kbd-hint { color: var(--fg-2); opacity: .75; }
+.kbd-hint b { background: var(--card-2); border: 1px solid var(--border); border-radius: 5px; padding: 0 5px; font-family: var(--font-body); font-size: .72rem; }
+
+/* ---------- Submit guard (#9) ---------- */
+.submit-guard { display: flex; flex-direction: column; align-items: center; gap: 6px; padding: 14px 22px; border: 1.5px dashed var(--danger); border-radius: var(--radius); background: rgba(239,68,68,.07); }
+
+/* ---------- Paper view (#7) ---------- */
+.paper-q { display: flex; gap: 12px; padding: 16px 18px; margin-bottom: 10px; }
+.paper-q-num { font-weight: 800; color: var(--accent); min-width: 26px; text-align: right; }
+.paper-opts { margin: 8px 0 0; padding-left: 20px; display: flex; flex-direction: column; gap: 3px; }
+.paper-key summary::-webkit-details-marker { display: none; }
+.key-grid { display: flex; flex-wrap: wrap; gap: 4px 14px; margin-top: 6px; }
+.key-cell { font-variant-numeric: tabular-nums; font-size: .86rem; }
+.key-cell b { color: var(--accent); }
+
+.btn-danger { border-color: color-mix(in srgb, var(--danger) 55%, var(--border)); color: var(--danger); }
+.btn-danger:hover { border-color: var(--danger); background: rgba(239,68,68,.1); }
+
+.nav-scrim { position: fixed; inset: 0; z-index: 45; background: rgba(2,6,17,.6); backdrop-filter: blur(2px); }
+.sidebar-close { position: absolute; top: 12px; right: 10px; z-index: 5; }
+@media (min-width: 769px) { .nav-scrim { display: none; } }

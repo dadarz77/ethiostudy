@@ -92,6 +92,28 @@ export function saveRun(r: Run | null) { try { r ? localStorage.setItem(RUN_KEY,
 export function saveRes(v: unknown | null) { try { v ? localStorage.setItem(RES_KEY, JSON.stringify(v)) : localStorage.removeItem(RES_KEY); } catch { /* quota */ } }
 export function clearSession() { saveRun(null); saveRes(null); }
 
+/* Keyboard answering (UWorld-style): 1-9 answers the question currently in the
+   viewport middle band, j/k (or arrows) jump between questions, f flags it.
+   Disabled while typing in inputs. Pure-ish hook so the exam stays mouse-only fine. */
+function useCurrentQuestion(active: boolean, count: number) {
+  const curRef = useRef(0);
+  useEffect(() => {
+    if (!active) return;
+    const obs = new IntersectionObserver(entries => {
+      for (const en of entries) if (en.isIntersecting) {
+        const idx = parseInt((en.target as HTMLElement).id.replace('natl-q-', ''), 10);
+        if (!Number.isNaN(idx)) curRef.current = idx;
+      }
+    }, { rootMargin: '-40% 0px -40% 0px' });
+    for (let i = 0; i < count; i++) {
+      const el = document.getElementById('natl-q-' + i);
+      if (el) obs.observe(el);
+    }
+    return () => obs.disconnect();
+  }, [active, count]);
+  return curRef;
+}
+
 export default function National() {
   const logQuiz = useAppStore(s => s.logQuiz);
   const [setupSubj, setSetupSubj] = useState<string | null>(null);
@@ -99,6 +121,7 @@ export default function National() {
   const [len, setLen] = useState(30);
   const [timed, setTimed] = useState(true);
   const [run, setRunRaw] = useState<Run | null>(() => loadRun());
+  const [paperView, setPaperView] = useState<{ title: string; items: NatItem[] } | null>(null);
   const setRun = (r: Run | null) => { setRunRaw(r); saveRun(r); };
   const [answers, setAnswersRaw] = useState<unknown[]>(() => { const r = loadRun(); return r && r.answers?.length === r.qs.length ? r.answers : (r?.qs ?? []).map(() => undefined); });
   const setAnswers = (updater: unknown[] | ((prev: unknown[]) => unknown[])) => setAnswersRaw(prev => {
@@ -120,6 +143,7 @@ export default function National() {
   const [bank, setBankRaw] = useState<Record<string, BankEntry>>(() => loadBank());
   const setBank = (b: Record<string, BankEntry>) => { setBankRaw(b); saveBank(b); };
   const [flags, setFlagsRaw] = useState<Set<number>>(() => new Set(loadRun()?.flags ?? []));
+  const [confirmSubmit, setConfirmSubmit] = useState(false);
   const setFlags = (updater: Set<number> | ((prev: Set<number>) => Set<number>)) => setFlagsRaw(prev => {
     const n = typeof updater === 'function' ? (updater as (p: Set<number>) => Set<number>)(prev) : updater;
     try { const r = loadRun(); if (r) saveRun({ ...r, flags: [...n] }); } catch { /* ignore */ }
@@ -149,6 +173,7 @@ export default function National() {
     setFlags(new Set());
     setResult(null);
     setLeft(minutes * 60);
+    setConfirmSubmit(false);
   };
   /* Practice the exact questions missed in the finished run (#5 wrong-only). */
   const practiceMistakes = (fromFlagged = false) => {
@@ -199,6 +224,34 @@ export default function National() {
     requestAnimationFrame(() => setTimeout(() => scoreCardRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' }), 60));
   };
   const answered = answers.filter(a => a !== undefined && a !== null && a !== '').length;
+  /* ── keyboard answering (#8) ── */
+  const curRef = useCurrentQuestion(!!run && !result, run?.qs.length ?? 0);
+  const jumpTo = (i: number) => document.getElementById('natl-q-' + i)?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  useEffect(() => {
+    if (!run || result) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.metaKey || e.ctrlKey || e.altKey) return;
+      const t = e.target as HTMLElement | null;
+      if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' || t.isContentEditable)) return;
+      const k = e.key.toLowerCase();
+      const i = curRef.current;
+      if (/^[1-9]$/.test(k)) {
+        const q = run.qs[i] as unknown as NatItem;
+        const oi = parseInt(k, 10) - 1;
+        if (q && oi < (q.options?.length ?? 0)) {
+          e.preventDefault();
+          setAnswers(prev => { const n = [...prev]; n[i] = oi; return n; });
+        }
+        return;
+      }
+      if (k === 'j' || e.key === 'ArrowDown') { e.preventDefault(); jumpTo(Math.min(i + 1, run.qs.length - 1)); return; }
+      if (k === 'k' || e.key === 'ArrowUp') { e.preventDefault(); jumpTo(Math.max(i - 1, 0)); return; }
+      if (k === 'f') { e.preventDefault(); setFlags(prev => { const n = new Set(prev); n.has(i) ? n.delete(i) : n.add(i); return n; }); return; }
+    };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [!!run, !!result, run?.qs.length]);
 
   /* restore a persisted result after refresh: rebuild QuizResult against the run's questions */
   useEffect(() => {
@@ -230,7 +283,7 @@ export default function National() {
   }, [run, result]);
 
   /* ── LANDING ── */
-  if (!run && !setupSubj) return (
+  if (!run && !setupSubj && !paperView) return (
     <>
       <section className="page-hero">
         <div className="eyebrow">🇪🇹 The Real Thing</div>
@@ -280,7 +333,7 @@ export default function National() {
   );
 
   /* ── SUBJECT SETUP ── */
-  if (!run && setupSubj) {
+  if (!run && setupSubj && !paperView) {
     const s = SUBJECTS[setupSubj];
     return (
       <>
@@ -308,12 +361,55 @@ export default function National() {
         </div>
         <div className="row mt-4" style={{ justifyContent: 'space-between' }}>
           <button className="btn" onClick={() => setSetupSubj(null)}>← Back</button>
-          <button className="btn btn-primary btn-lg" disabled={filtered.length === 0} onClick={startSubject}>▶ Start practice ({Math.min(len, filtered.length)} Qs)</button>
+          <div className="row" style={{ gap: 8 }}>
+            <button className="btn" disabled={filtered.length === 0} onClick={() => setPaperView({ title: `${s.title} — papers ${subjYears[0]}–${subjYears[subjYears.length - 1]} E.C.`, items: filtered })}>📖 Read as paper</button>
+            <button className="btn btn-primary btn-lg" disabled={filtered.length === 0} onClick={startSubject}>▶ Start practice ({Math.min(len, filtered.length)} Qs)</button>
+          </div>
         </div>
       </>
     );
   }
 
+
+  /* ── PAPER VIEW (#7): read the actual exam as it was printed, answer key hidden ── */
+  if (paperView) {
+    const groups: Record<number, NatItem[]> = {};
+    for (const it of paperView.items) (groups[it.year] ??= []).push(it);
+    return (
+      <>
+        <div className="breadcrumb mt-3"><a href="#/">Dashboard</a> / <a href="#/national">National Exams</a> / <span>📖 Paper view</span></div>
+        <section className="page-hero"><h1>📖 {paperView.title}</h1><p>Read it exactly like the printed exam. The answer key stays hidden until you say so — test yourself first, then check.</p></section>
+        <div className="row mt-2" style={{ justifyContent: 'space-between' }}>
+          <button className="btn" onClick={() => setPaperView(null)}>← Back to setup</button>
+          <button className="btn" onClick={() => { start(paperView.items, 'Full paper (all years)', '📖', paperView.items.length, 0); setPaperView(null); }}>▶ Turn this selection into a timed exam</button>
+        </div>
+        {Object.keys(groups).map(Number).sort().map(y => (
+          <div key={y} className="paper-section">
+            <h2 className="section-title mt-5">🇪🇹 {y} E.C. — {groups[y].length} questions</h2>
+            {groups[y].map((it, i) => (
+              <div key={it.id} className="paper-q card">
+                <div className="paper-q-num">{i + 1}.</div>
+                <div style={{ flex: 1 }}>
+                  <div>{it.q}</div>
+                  <ol type="A" className="paper-opts">{it.options.map((o, oi) => <li key={oi}>{o}</li>)}</ol>
+                </div>
+              </div>
+            ))}
+          </div>
+        ))}
+        <details className="card mt-5 paper-key">
+          <summary style={{ cursor: 'pointer', fontWeight: 800, fontSize: '1.05rem' }}>🔑 Answer key — tap to reveal (all {paperView.items.length} questions)</summary>
+          {Object.keys(groups).map(Number).sort().map(y => (
+            <div key={y} className="mt-3">
+              <b>{y} E.C.</b>
+              <div className="key-grid">{groups[y].map((it, i) => <span key={it.id} className="key-cell">{i + 1} · <b>{String.fromCharCode(65 + it.answer)}</b></span>)}</div>
+            </div>
+          ))}
+          <p className="tiny muted mt-3">Letters map to options A–E. Explanations live in practice mode — run it as an exam above to see the why.</p>
+        </details>
+      </>
+    );
+  }
 
   /* ── RUNNING / RESULTS ── */
   if (!run) return null;
@@ -331,7 +427,8 @@ export default function National() {
           </div>
           {run.seconds > 0 && <div className="progress mt-2"><div style={{ width: (effLeft / run.seconds) * 100 + '%' }} /></div>}
           <div className="progress mt-2"><div style={{ width: (answered / run.qs.length) * 100 + '%' }} /></div>
-          <div className="tiny muted mt-2" aria-live="polite">{answered}/{run.qs.length} answered{effLeft <= 60 && run.seconds > 0 && <span className="timer-urgent-text"> · ⚠️ under a minute — start wrapping up</span>}</div>
+          <div className="tiny kbd-hint mt-2">⌨️ <b>1–5</b> answer · <b>J/K</b> next/prev · <b>F</b> flag</div>
+          <div className="tiny muted" aria-live="polite">{answered}/{run.qs.length} answered{effLeft <= 60 && run.seconds > 0 && <span className="timer-urgent-text"> · ⚠️ under a minute — start wrapping up</span>}</div>
           <nav className="q-nav" aria-label="Question navigator">
             {run.qs.map((_, i) => {
               const done = answers[i] !== undefined && answers[i] !== null && answers[i] !== '';
@@ -355,7 +452,19 @@ export default function National() {
           <div className="row mt-4" style={{ justifyContent: 'center', flexDirection: 'column', alignItems: 'center', gap: 8 }}>
             {answered === run.qs.length && <div className="tiny" style={{ color: 'var(--success)' }} aria-live="polite">✨ All {run.qs.length} answered — you're ready to submit</div>}
             {flags.size > 0 && <div className="tiny muted">⚑ {flags.size} flagged for review</div>}
-            <button className="btn btn-primary btn-lg" onClick={() => submit()}>{answered < run.qs.length ? `Submit with ${run.qs.length - answered} unanswered` : 'Submit exam ✓'}</button>
+            {answered < run.qs.length && !confirmSubmit ? (
+              <button className="btn btn-lg" onClick={() => setConfirmSubmit(true)}>Submit exam</button>
+            ) : answered < run.qs.length ? (
+              <div className="submit-guard" role="alert">
+                <div className="tiny" style={{ fontWeight: 700 }}>⚠️ {run.qs.length - answered} question{run.qs.length - answered > 1 ? 's' : ''} still unanswered:</div>
+                <div className="row mt-2" style={{ justifyContent: 'center', gap: 8 }}>
+                  <button className="btn" onClick={() => { const first = answers.findIndex(a => a === undefined || a === null || a === ''); if (first >= 0) jumpTo(first); setConfirmSubmit(false); }}>← Go back to them</button>
+                  <button className="btn btn-danger btn-primary" onClick={() => submit()}>Submit anyway ({answered}/{run.qs.length} answered)</button>
+                </div>
+              </div>
+            ) : (
+              <button className="btn btn-primary btn-lg" onClick={() => submit()}>Submit exam ✓</button>
+            )}
           </div>
         </>
       ) : (
