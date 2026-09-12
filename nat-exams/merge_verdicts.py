@@ -7,7 +7,7 @@ have = {v['id'] for v in ov}
 added = held = 0
 for v in arr:
     if v['id'] in have: continue
-    ok = v.get('letter') in 'ABCD' and not v.get('question_garbled')
+    ok = (v.get('letter') or '') in 'ABCD' and not v.get('question_garbled')
     if ok:
         ov.append({'id': v['id'], 'letter': v['letter'],
             'confidence': v.get('confidence'), 'resolved_by': tag,

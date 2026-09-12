@@ -529,6 +529,22 @@
    "type": "mcq"
   },
   {
+   "id": "natl-mathematics-2005-041",
+   "subject": "mathematics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "A box contains 5 white, 6 red and 4 black balls of all identical size. If 3 balls are randomly taken out of the box after the other, what is the probability that the first ball is white and both the second and third balls are red?",
+   "options": [
+    "2/15",
+    "3/15",
+    "4/75",
+    "5/91"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
    "id": "natl-mathematics-2005-042",
    "subject": "mathematics",
    "year": 2005,
@@ -641,6 +657,22 @@
    "type": "mcq"
   },
   {
+   "id": "natl-mathematics-2005-052",
+   "subject": "mathematics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Which one of the following is equal to sec(n/2 -x) sin? x + cos2x?",
+   "options": [
+    "2cosx",
+    "2sinx",
+    "cos2x",
+    "sin2x"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
    "id": "natl-mathematics-2005-054",
    "subject": "mathematics",
    "year": 2005,
@@ -721,6 +753,22 @@
    "type": "mcq"
   },
   {
+   "id": "natl-mathematics-2005-060",
+   "subject": "mathematics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "A line given by a vector equation r(t)=(0, 3) + t(1, 1) is tangent to a circle at point (0,3). If the radius of the circle is ?2 which one of the following is the center of the circle? NotAnswered",
+   "options": [
+    "(1,4)",
+    "(1,-4)",
+    "(-1,2)",
+    "(1,2)"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
    "id": "natl-mathematics-2005-061",
    "subject": "mathematics",
    "year": 2005,
@@ -773,33 +821,15 @@
    "grid": "D",
    "tick": "B",
    "q": "What is the value of | x| + 2x if x≤0 ?"
-  },
-  {
-   "n": 41,
-   "grid": "A",
-   "tick": "D",
-   "q": "A box contains 5 white, 6 red and 4 black balls of all identical size. If 3 ball"
-  },
-  {
-   "n": 52,
-   "grid": "C",
-   "tick": "B",
-   "q": "Which one of the following is equal to sec(n/2 -x) sin? x + cos2x?"
-  },
-  {
-   "n": 60,
-   "grid": "A",
-   "tick": "D",
-   "q": "A line given by a vector equation r(t)=(0, 3) + t(1, 1) is tangent to a circle a"
   }
  ],
  "stats": {
   "questions": 53,
-  "items": 48,
-  "flagged": 4,
+  "items": 51,
+  "flagged": 1,
   "grid": 65,
   "conf": {
-   "grid+tick": 5,
+   "grid+tick": 8,
    "grid": 43,
    "tick": 0
   }

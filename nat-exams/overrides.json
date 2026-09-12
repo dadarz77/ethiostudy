@@ -222,5 +222,47 @@
   "confidence": "high",
   "resolved_by": "crew-R2",
   "reasoning": "Moments about the left end (g≈10): T₂ = (300·1 + 700·0.5)/2 = 325 N and T₁ = 1000 − 325 = 675 N, confirming the grid over the tick."
+ },
+ {
+  "id": "natl-mathematics-2005-041",
+  "letter": "D",
+  "confidence": "high",
+  "resolved_by": "crew-R1",
+  "reasoning": "P = (5/15)(6/14)(5/13) = 150/2730 = 5/91 for white then two reds drawn successively without replacement."
+ },
+ {
+  "id": "natl-mathematics-2005-052",
+  "letter": "B",
+  "confidence": "low",
+  "resolved_by": "crew-R1",
+  "reasoning": "sec(π/2−x) = csc x, so csc x·sin x − cos2x = 1 − cos2x = 2sin²x, matching the ticked option B (OCR likely dropped the square); grid C is inconsistent with any clean reading of the stem."
+ },
+ {
+  "id": "natl-mathematics-2005-060",
+  "letter": "D",
+  "confidence": "high",
+  "resolved_by": "crew-R1",
+  "reasoning": "Center must lie on the perpendicular to direction (1,1) at (0,3) at distance √2: (0,3)±(1,−1) gives (1,2) or (−1,4), and only (1,2) is an option; (1,4) has radius vector (1,1) parallel to the tangent, impossible."
+ },
+ {
+  "id": "natl-mathematics-2007-021",
+  "letter": "C",
+  "confidence": "medium",
+  "resolved_by": "crew-R1",
+  "reasoning": "Monotonicity of the integral gives ∫₋₂² f dx ≥ 3·(2−(−2)) = 12, which is necessarily true, while the other garbled options assert equalities from strict inequalities which are false."
+ },
+ {
+  "id": "natl-mathematics-2007-046",
+  "letter": "D",
+  "confidence": "high",
+  "resolved_by": "crew-R1",
+  "reasoning": "N=200: Q1 at 50th item in class 15–25 gives 15+(50−22)/40·10 = 22; P75 at 150th item in class 35–45 gives 35+(150−130)/50·10 = 39."
+ },
+ {
+  "id": "natl-mathematics-2008-027",
+  "letter": "A",
+  "confidence": "low",
+  "resolved_by": "crew-R1",
+  "reasoning": "Minimizing S = 2πr² + 2000/r gives 4πr = 2000/r², i.e. r = ∛(500/π) and h = 1000/(πr²) = 2r = 2∛(500/π), matching option A's pattern; option B's leaked '50' fragment (r = ∛(50/π)) does not satisfy V = πr²h = 1000 with h = 2r."
  }
 ]

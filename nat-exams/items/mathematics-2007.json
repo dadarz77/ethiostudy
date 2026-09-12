@@ -271,6 +271,22 @@
    "type": "mcq"
   },
   {
+   "id": "natl-mathematics-2007-021",
+   "subject": "mathematics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "If f and g are continuous on R and a, b e R, which one of the following is necessarily true?",
+   "options": [
+    "iff(xdx=g(xdxhnf(x)g（xforllx[a]",
+    "if(xg(xforllx[bfx）dx=g（xdx",
+    "if(x)≥3 forallxE[2,2],then,f(x)dx≥> 12",
+    "J²f(x)dx = Sf(x)dx ax+by=2"
+   ],
+   "answer": 2,
+   "confidence": "llm-verified",
+   "type": "mcq"
+  },
+  {
    "id": "natl-mathematics-2007-022",
    "subject": "mathematics",
    "year": 2007,
@@ -604,6 +620,22 @@
    "type": "mcq"
   },
   {
+   "id": "natl-mathematics-2007-046",
+   "subject": "mathematics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "A measurement is grouped in to five class intervals with the following frequency distribution. Class Intervals 5-15 15-25 25-35 35-45 45-55 Frequency 22 40 68 50 20 What are the first quartile Q1 & the 75th percentile P 7s of the measurement?",
+   "options": [
+    "Q1 = 20,P75= 40",
+    "Q1 = 22, P75= 40",
+    "Q1= 20, P75= 39",
+    "Q1= 22, P5= 39"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
    "id": "natl-mathematics-2007-047",
    "subject": "mathematics",
    "year": 2007,
@@ -892,27 +924,14 @@
    "type": "mcq"
   }
  ],
- "flagged": [
-  {
-   "n": 21,
-   "grid": "C",
-   "tick": "B",
-   "q": "If f and g are continuous on R and a, b e R, which one of the following is neces"
-  },
-  {
-   "n": 46,
-   "grid": "A",
-   "tick": "D",
-   "q": "A measurement is grouped in to five class intervals with the following frequency"
-  }
- ],
+ "flagged": [],
  "stats": {
   "questions": 62,
-  "items": 56,
-  "flagged": 2,
+  "items": 58,
+  "flagged": 0,
   "grid": 65,
   "conf": {
-   "grid+tick": 7,
+   "grid+tick": 8,
    "grid": 49,
    "tick": 0
   }
