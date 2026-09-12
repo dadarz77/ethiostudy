@@ -1,16 +1,22 @@
 import { useAppStore } from '../store/useAppStore';
 import { TYPE_LABELS, type QuizQuestion } from '../lib/quiz';
 import { Chip } from './ui';
+import type { Bookmark } from '../store/useAppStore';
 
 /* One quiz question card — exact port of v1's renderQuestion():
    .quiz-q card, lettered options, correct/incorrect callout after submit. */
-export function QuestionCard({ q, index, answer, onAnswer, result }: {
+export function QuestionCard({ q, index, answer, onAnswer, result, bookmark }: {
   q: QuizQuestion;
   index: number;
   answer: unknown;
   onAnswer?: (a: unknown) => void;
   result?: { correct: boolean };
+  /* when provided, the head shows a working 🔖 toggle that saves this record */
+  bookmark?: Omit<Bookmark, 'at'>;
 }) {
+  const bookmarks = useAppStore(s => s.bookmarks);
+  const toggleBookmark = useAppStore(s => s.toggleBookmark);
+  const marked = !!(bookmark && bookmarks.some(b => b.id === bookmark.id));
   const submitted = !!result;
   const setAnswer = (a: unknown) => onAnswer?.(a);
 
@@ -71,6 +77,14 @@ export function QuestionCard({ q, index, answer, onAnswer, result }: {
         <Chip text={`Q${index + 1}`} />
         <Chip text={TYPE_LABELS[q.type]} />
         <Chip text={diff >= 4 ? 'Hard' : diff >= 3 ? 'Medium' : 'Easy'} cls={diff >= 4 ? 'chip-diff-hard' : diff >= 3 ? 'chip-diff-medium' : 'chip-diff-easy'} />
+        {bookmark && (
+          <button type="button" className={'q-bookmark' + (marked ? ' is-on' : '')} aria-pressed={marked}
+            aria-label={marked ? 'Remove from bookmarks' : 'Bookmark this question'}
+            title={marked ? 'Saved — tap to remove' : 'Save for later'}
+            onClick={() => toggleBookmark(bookmark)}>
+            {marked ? '🔖' : '🏷️'}
+          </button>
+        )}
       </div>
       <div className="quiz-q-text">{q.q}</div>
       <div className="mt-2">{body}</div>

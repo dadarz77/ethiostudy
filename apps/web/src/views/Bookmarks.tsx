@@ -21,7 +21,9 @@ export default function Bookmarks() {
               <div key={b.id} className="card card-hover curriculum-card topic-path-card">
                 <div className="spread">
                   <button style={{ textAlign: 'left', background: 'none', border: 0, cursor: 'pointer', color: 'inherit' }}
-                    onClick={() => t && navigate('/topic/' + b.topicId)}>
+                    onClick={() => b.kind === 'question'
+                      ? navigate(b.topicId.startsWith('natl:') ? '/national' : '/topic/' + b.topicId)
+                      : t && navigate('/topic/' + b.topicId)}>
                     <div style={{ fontWeight: 700 }}>{b.kind === 'formula' ? '🧮' : b.kind === 'question' ? '❓' : '📖'} {b.label}</div>
                     <div className="tiny muted mt-2">{b.sub ?? t?._subjectTitle ?? ''} · saved {new Date(b.at).toLocaleDateString()}</div>
                   </button>

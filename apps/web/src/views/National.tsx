@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { useAppStore } from '../store/useAppStore';
+import { useAppStore, type Bookmark } from '../store/useAppStore';
 import NAT_ITEMS from '../data/nat-exams.json';
 import { gradeQuiz, type QuizQuestion, type QuizResult } from '../lib/quiz';
 import { QuestionCard } from '../components/QuestionCard';
@@ -28,6 +28,16 @@ export function bySubjectGroups(subjectOf: string[], perQ: { correct: boolean }[
     e.n++; if (p.correct) e.c++;
   });
   return g;
+}
+
+function bm(q: QuizQuestion): Omit<Bookmark, 'at'> {
+  const it = q as unknown as NatItem;
+  const subj = SUBJECTS[it.subject]?.title ?? it.subject;
+  return {
+    id: it.id, kind: 'question', topicId: 'natl:' + it.subject,
+    label: it.q.length > 90 ? it.q.slice(0, 90) + '…' : it.q,
+    sub: subj + ' · ' + it.year + ' E.C.',
+  };
 }
 
 function toQuiz(list: NatItem[]): QuizQuestion[] {
@@ -258,7 +268,7 @@ export default function National() {
             {run.qs.map((q, i) => (
               <div key={i} id={'natl-q-' + i} style={{ scrollMarginTop: 70 }}>
                 <QuestionCard q={q} index={i} answer={answers[i]}
-                  onAnswer={a => setAnswers(prev => { const n = [...prev]; n[i] = a; return n; })} />
+                  onAnswer={a => setAnswers(prev => { const n = [...prev]; n[i] = a; return n; })} bookmark={bm(q)} />
               </div>
             ))}
           </div>
@@ -309,7 +319,7 @@ export default function National() {
               <button className="btn" onClick={() => { clearSession(); submittedRef.current = false; setRunRaw(null); setResultRaw(null); }}>🇪🇹 Another exam</button>
             </div>
           </div>
-          {result.perQ.map((pq, i) => <QuestionCard key={i} q={pq.q} index={i} answer={answers[i]} result={pq} />)}
+          {result.perQ.map((pq, i) => <QuestionCard key={i} q={pq.q} index={i} answer={answers[i]} result={pq} bookmark={bm(pq.q)} />)}
         </>
       )}
     </>
