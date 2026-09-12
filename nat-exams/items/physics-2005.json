@@ -1,0 +1,698 @@
+{
+ "items": [
+  {
+   "id": "natl-physics-2005-001",
+   "subject": "physics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Which of the following is correct about the meaning of Photon?",
+   "options": [
+    "quantum of matter",
+    "positively charged particle",
+    "negatively charged particle",
+    "quantum of lightv"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2005-002",
+   "subject": "physics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Consider a series RC circuit for which R = 1.0MQ C = 5μ F and ε = 30V. What is the time constant of the circuit and the maximum charge on the capacitor after the switch is closed respectively?",
+   "options": [
+    "5 seconds, 150 ΩC",
+    "7 seconds,155 Ω C",
+    "10 seconds, 160 ΩC",
+    "9 seconds, 135 Mc"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2005-003",
+   "subject": "physics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "What is the direction with which a fish must push the water with its fins in order to propel eastward?",
+   "options": [
+    "eastward",
+    "upward",
+    "westward",
+    "downward"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2005-004",
+   "subject": "physics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Suppose two molecules of different mass are kept at the same temperature.Which one of the following statements is NOT true?",
+   "options": [
+    "both remain at rest",
+    "both move with the same speed",
+    "the lighter molecule moves faster",
+    "theheaviermoleculemovesfaster"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2005-005",
+   "subject": "physics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "One person drops a ball from the top of a building while another person at the bottom observes its motion. The two people disagree on which of the following?",
+   "options": [
+    "The value of the total energy of the ball.",
+    "The change in potential energy of the ball.",
+    "The value of the gravitational potential energy of the ball earth system.",
+    "The kinetic energy of the ball at some point in its motion if one of them is walking."
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2005-006",
+   "subject": "physics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Two non-zero vectors A and B are related by A = cB where c is a scalar. If the two vectors have opposite directions, then one of the following is true about c?",
+   "options": [
+    "c is a positive number",
+    "c is a negative number",
+    "c = 1",
+    "c= 0"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2005-007",
+   "subject": "physics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "On which of the following does the induced emf in a coil NOT depend when a magnet is inserted into it?",
+   "options": [
+    "resistance of the coil",
+    "number of turns ofthe coil",
+    "speed approach of the magnet",
+    "magnetic moment of the magnet"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2005-008",
+   "subject": "physics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "A wave have a speed of 50m/s and a wavelength of 25,000m.What is the frequency of the wave?",
+   "options": [
+    "2.0 x 10-3HZ",
+    "5.0 x 10-2HZ",
+    "6.0 x 10'HZ",
+    "1.8 x 10°HZ"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2005-009",
+   "subject": "physics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "An oscillating system is used to create a succession of wave on a water surface. The rate of wave generation is one every 0.33 seconds. What is the period of these wave?",
+   "options": [
+    "0.3 seconds",
+    "1.0 seconds",
+    "2.0 seconds",
+    "3.0 seconds"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2005-010",
+   "subject": "physics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "A vector that represents the position of an object in relation to another object is called",
+   "options": [
+    "unit vectors",
+    "position vectors",
+    "coplanar vectors",
+    "collinear vectors"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2005-011",
+   "subject": "physics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "In a reversible thermodynamic process, the system",
+   "options": [
+    "is always close to equilibrium states",
+    "might never be close to any equilibrium states",
+    "is close to equilibrium states only at the beginning and end",
+    "is close to equilibrium states throughout, except at the beginning and end"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2005-012",
+   "subject": "physics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Points A and B are each a distance d from each of two equal and opposite charge as shown below. What will be the work required tomove a negative charge q from A toB? d",
+   "options": [
+    "zerov qQ",
+    "4πEod2 qQ",
+    "4ntEod qQ",
+    "4πE(4d²)"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2005-013",
+   "subject": "physics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "An air-filled parallel plate capacitor has a capacitance of 1Pf. The plate separation is then doubled and a wax dielectric is inserted, completely filling the space between the plates.As a result, the capacitance becomes 2 Pf. What is the dielectric constant of the wax?",
+   "options": [
+    "8.0",
+    "4.0",
+    "2.0",
+    "0.5"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2005-014",
+   "subject": "physics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "A step-up transformer is used to",
+   "options": [
+    "increase the power",
+    "decrease the power",
+    "increase the voltage",
+    "decrease the voltage 15. A 220-V power line is protected by a 15-A fuse. What is the maximum number of 220V, 500W light bulbs that can be operated at full brightnessfrom this line? A)2 O B)4 Q C) 6 D)8"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2005-016",
+   "subject": "physics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "LfA=8i+j-2kandB=57-3j+k,thenwhatisthevalueofBxA？",
+   "options": [
+    "3+4j-3k",
+    "-3i-4j+3k",
+    "-57-18j-29k",
+    "5t+18j+29k"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2005-017",
+   "subject": "physics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "The coordinate of a particle in meters is given by X(t) = 25t 3t’, where the time t is in seconds. At what value of t will the particle become momentarily at rest?",
+   "options": [
+    "2.78s",
+    "1.67sv",
+    "0.6s",
+    "0.36s"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2005-019",
+   "subject": "physics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "The radius of the wheel shown below is 0.75m.What is its moment of inertia? 3kg 3kg 3kg",
+   "options": [
+    "2.25kgm2",
+    "3.38kgm2",
+    "6.75kgm²",
+    "9.00kgm2"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2005-020",
+   "subject": "physics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "An ordinary refrigerator is turned on and its door is open in a thermally insulated kitchen. What is the temperatureoftheroom?",
+   "options": [
+    "increases according to the first law of thermodynamics",
+    "decreases according to the first law of thermodynamics",
+    "remains constant according to the first law of thermodynamics",
+    "remains constant according to the second law of thermodynamics"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2005-021",
+   "subject": "physics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "The length of an aluminium rod at a temperature of 20°c is 3m. What will be the ratio of change in the length of the rod to its original length if its temperature is raised to 120°c? the coeficient of linear expansion of aluminiumis3.31x10-5/K",
+   "options": [
+    "23%",
+    "3.2%",
+    "3%",
+    "0.23%"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2005-022",
+   "subject": "physics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "A very large open tank is full of oil whose density is 8ookg/m. if the absolute pressure at the bottom of the tank is 1.81 x 105 Pa, then what is the depth of the oil? (Note that atmospheric pressure is 1.01 x 105Pa)",
+   "options": [
+    "100.0m",
+    "75.0m",
+    "10.0mV",
+    "9.5m 23. A 1.5kg particle moves in the xy-plane with velocity v = (4.27 — 3.6J) what is its angular momentum when the position vector is =(1.5 7 + 2.2 J)m ? A)-22kkgm² B)14.6kkgm² C)-14.6kkgm² D)22kkgm² 24. A 2kg object experiences two concurrent forces of 100N at 30° above the positive x-axis and 80N at 60° above the negative x-axis.What is the magnitude of acceleration of the object? A) 68m/s2 B) 64 m/s2~ C)48 m/s2 O D) 46 m/s2"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2005-025",
+   "subject": "physics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "A driver moving at a constant speed of 20m/s sees an accident up ahead and hits the brakes. If the car decelerates at a constant rate of -5 m/s² , how far does the car go before it comes to a stop?",
+   "options": [
+    "120m",
+    "100m",
+    "40m",
+    "20m"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2005-026",
+   "subject": "physics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "The energy spectrum emitted by a black body at different temperature is as shown in figure below. Which of the following statements is NOT correct about theblack body energy spectrum?",
+   "options": [
+    "T<T2<T3<T4V",
+    ">2>>4",
+    "black body radiate energy over the entire electromagnetic spectrum",
+    "the wavelength corresponding to the maximum intensity increases with temperature"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2005-028",
+   "subject": "physics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Which devices uses the principle of electromagnetic induction for its operation?",
+   "options": [
+    "AC generator",
+    "moving coil meter",
+    "cathode ray tube",
+    "light emitting diode"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2005-029",
+   "subject": "physics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "An electron enters a region of uniform electric field of 5 x 103N/C. what is the force on the electron?",
+   "options": [
+    "8 x 10-22N",
+    "5.3 x 10-22N",
+    "8 x 10-16N~",
+    "1.88 x 1022N"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2005-030",
+   "subject": "physics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "In the circuit shown below, what is the potential difference between points B and D? BM 60 120. 120 D 60",
+   "options": [
+    "1V",
+    "2V",
+    "3V",
+    "4V"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2005-031",
+   "subject": "physics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "The planet Jupiter is about 318 times as massive as earth, yet on its surface you would weigh only about 2.4 times your weight on earth. Why is this happened?",
+   "options": [
+    "Your mass is 132.5 times less on Jupiter.",
+    "You are 132.5 times more weightless there.",
+    "Jupiter is significantly farther from the sun.",
+    "Jupiters radius is about 11.5 times the earths radius."
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2005-032",
+   "subject": "physics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "A uniform ball of radius r and mass m starts from rest and rolls down a frictionless inline of height h.when the ball reaches the ground, how fast is it going? 10",
+   "options": [
+    "gh  9",
+    "10 10 6"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2005-033",
+   "subject": "physics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "A ladder of length 3m and mass 20 kg leans against a smooth, vertical wall so that the angle between the wall and the ladder is 30°. What are the magnitudes of the normal forces at the contact point on the wall (Nw) and at the contact point on the ground?",
+   "options": [
+    "Nw = 0 N, Ng = 200N",
+    "Nw= 200 N,Ng= 0N",
+    "Nw = 57.7 N, Ng = 200N",
+    "Nw = 200 N, Ng= 57.7N"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2005-034",
+   "subject": "physics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "A container resting on the floor of an elevator contains an incompressible fluid of density p. When the elevator has anupward acceleration of magnitudeathen what will be thepressure differencebetween two points in the fluid separated by a vertical distanceΔh?",
+   "options": [
+    "paΔh",
+    "p(g + a)Δh",
+    "pgΔh",
+    "pgaΔh"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2005-035",
+   "subject": "physics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "If two particles have equal momenta, then which one of the following statements is TRUE about their kinetic energies?",
+   "options": [
+    "Their kinetic energies are always equal. ）1",
+    "Their kinetic energies are never equal.",
+    "Their kinetic energies are equal when their masses are the same.",
+    "Their kinetic energies are equal when the speed of one of the particle is half the speed of the other and their masses arethesame."
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2005-036",
+   "subject": "physics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "In Youngs double slit experiment both the separation between the slits and the distance between the slits and the screen are halved then, what is the fridge width?",
+   "options": [
+    "halved",
+    "unchangedv",
+    "zero",
+    "doubled"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2005-037",
+   "subject": "physics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "What is the capacitance of a capacitor that should be connected with 2 other capacitors having capacitance 24 of 4F and 8F all in series to produce an effective capacitance of uF? 11",
+   "options": [
+    "12 μF",
+    "10 μF",
+    "8μF",
+    "4 μF"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2005-039",
+   "subject": "physics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "An alternating current is represented by I(t) = 10.0 Asin (1o0?t). What are the amplitude and frequency of the alternating current?",
+   "options": [
+    "100A,75Hz",
+    "10.0A,100Hz",
+    "10.0A, 50Hz",
+    "5.0A,25Hz"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2005-040",
+   "subject": "physics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "A seriesRLCcircuit has a resistance of 45Q and animpedance of 75Q.What averagepower is delivered to this circuit when AVrms = 210V?",
+   "options": [
+    "573w",
+    "353w",
+    "255.4w",
+    "237.6w reflects most strongly red light at 640nm and reflects no blue light at 512nm. How thick is the oil film? A)640nm√ O B) 612nm O C) 548nm O D) 512nm"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2005-041",
+   "subject": "physics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "A thin film of oil (n=1.25) is located on a smooth wet floor. When viewed perpendicular to the floor, the film reflects most strongly red light at 640nm and reflects no blue light at 512nm. How thick is the oil film?",
+   "options": [
+    "640nm",
+    "612nm",
+    "548nm",
+    "512nm"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2005-042",
+   "subject": "physics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Which one of the following changes to parallel plate capacitor would not increase energy stored in the capacitor at afixedvoltage acrosstheplates?",
+   "options": [
+    "increasing the area of the plates",
+    "increasing the dielectric constant",
+    "decreasing the charges on the pates",
+    "increasingthedistancebetweentheplates 220Vlightbulbincreases? NotAnswered A) 38% O B) 36% O C) 19% O D) 18%"
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2005-044",
+   "subject": "physics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "A wire carries a steady current of 2.4A. A straight section of the wire is 0.75 m long and lies along the x- axis within a uniform magnetic field B =1.6T along the +z axis.If the current is in the +x direction.What is the magnetic force on the section of the wire? NotAnswered",
+   "options": [
+    "2.88j N",
+    "1.62i N",
+    "(-1.62j) N",
+    "(-2.88k) N"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2005-045",
+   "subject": "physics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "If all the three resistors in the circuit shown in the figure have equal resistance , and the current flowing intoresistorB is4A,thenwhat isthe currentflowing intoresistor G? B D E",
+   "options": [
+    "16A",
+    "8Av",
+    "2A",
+    "1A"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2005-046",
+   "subject": "physics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Refraction of a wave doesNOT involve change in its NotAnswered",
+   "options": [
+    "speed",
+    "wavelength",
+    "frequency",
+    "speed and wavelength"
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2005-048",
+   "subject": "physics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "Water flows through a fire hose of diameter 6.35cm at a rate of 0.012m?/s. the fire hose ends in a nozzle of inner diameter 2.20cm.What is the speed with which thewater exits the nozzle?",
+   "options": [
+    "63.2m/s",
+    "46.8m/s",
+    "31.6m/s 23.4 m/s"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2005-049",
+   "subject": "physics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "A bullet of mass 10gm, moving horizontally, strikes and embeds itself in a box of mass 1kg suspended from a light string as shown in the figure below. If the composite mass rises to a height, h=0.45m, then what is the speed ofthebulletbeforecollision? h=0.45m",
+   "options": [
+    "303m/s",
+    "300m/s",
+    "90.9m/s",
+    "90m/s"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2005-050",
+   "subject": "physics",
+   "year": 2005,
+   "yearCal": "EC",
+   "q": "A rocket moving in free space has a speed of 3 x 10?m/s relative to the earth. Its engines are turned on and fuel is ejected in a direction opposite the rockets motion at a speed of 5 x 10? m/s relative to the rocket. What is the speed of the rocket relative to the earth once the rockets mass is reduced to half its mass before ignition?",
+   "options": [
+    "7 x 10?m/s",
+    "5 x 10?m/s",
+    "4 x 103m/s",
+    "2 x 10?m/sv Your Answers you have scored O out of o Answer Key 1.D 11.A 21.D 31.D 41.A 2.A 12.A 22.C 32.A 42.C 3.C 13.B 23.A 33.C 43.C 4.C 14.C 24.B 34.B 44.D 5.D 15.C 25.C 35.C 45.B 6.B 16.D 26.A 36.B 46.C 7.A 17.B 27.D 37.A 47.C 8.A 18.B 28.A 38.D 48.C 9.D 19.C 29.C 39.C 49.A 10.A 20.D 30.B 40.D 50.D @2019CamaraEducationEthiopia.EthiopianGeneralSecondaryEducationCertificateandUniversityEntranceExaminations"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  }
+ ],
+ "flagged": [
+  {
+   "n": 18,
+   "grid": "A",
+   "tick": "B",
+   "q": "A woman driving a 2000 kg car along a level road at 30m/s takes her foot off the"
+  },
+  {
+   "n": 27,
+   "grid": "A",
+   "tick": "D",
+   "q": "A rectangular loop carrying a current is situated near a long straight wire such"
+  }
+ ],
+ "stats": {
+  "questions": 45,
+  "items": 42,
+  "flagged": 2,
+  "grid": 50,
+  "conf": {
+   "grid+tick": 5,
+   "grid": 37,
+   "tick": 0
+  }
+ }
+}

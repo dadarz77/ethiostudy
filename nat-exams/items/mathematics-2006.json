@@ -1,0 +1,914 @@
+{
+ "items": [
+  {
+   "id": "natl-mathematics-2006-001",
+   "subject": "mathematics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "A water tank is a circular cylinder with base radius 2m and height 3m. If the tank is empty and water is pumped into it at rate of 2m?/min, how long does it take for the tank to be full?",
+   "options": [
+    "1.5 min",
+    "3/2πmin Q",
+    "6πV",
+    "12 min /2 0 -1"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2006-003",
+   "subject": "mathematics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which one of the following represents a geometric sequence?",
+   "options": [
+    "3,1,1/3,1/9, 1/27,?",
+    "1/2, -1/3, 1/4, -1/5, 1/6,?",
+    "1,3,6, 10, 15,?",
+    "-3,6,-9,12,-15,? {（n-1)（2n+1））∞"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2006-004",
+   "subject": "mathematics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Thesequence converges to: 1-n2 )n=1",
+   "options": [
+    "-00",
+    "-2",
+    "0",
+    "1"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2006-005",
+   "subject": "mathematics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "If F(x) is an ant derivative of f(x)= 1- 2/x² and F(1) = 0, then F(2) is equal to:",
+   "options": [
+    "0~",
+    "1/2",
+    "-1/2",
+    "3"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2006-007",
+   "subject": "mathematics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "What is the distance from the origin to the line that passes through (1, 0) and (0, 1)?",
+   "options": [
+    "1/2 √2",
+    "1",
+    "1/2",
+    "√2"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2006-008",
+   "subject": "mathematics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "If the list of a measurement is 10, α, 5, a,5, 10, 20, 15,20,5 with mean a then α in terms of a is equal to:",
+   "options": [
+    "10a-90",
+    "9a-90",
+    "5a-90",
+    "5a-45"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2006-009",
+   "subject": "mathematics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "The total cost (in Birr) of producing x iron sheets per day is C(x) = 1,000 + 100x - 0.5x2, 0 ≤ x ≤ 100. What is the marginal (rate of change of) cost at a production level of 80 iron sheets?",
+   "options": [
+    "8.5",
+    "20",
+    "1,800",
+    "5,800"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2006-010",
+   "subject": "mathematics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "If z = x + yi is a complex number, then |zl² + (z - z)² = 1 is equivalent to which one of the following equations?",
+   "options": [
+    "x² - y2 = 1v",
+    "x2 - 3iy2 = 1",
+    "x² - y2 = 2",
+    "2x² - y2 = 1"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2006-011",
+   "subject": "mathematics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "The following is the frequency distribution of a grouped data. ClassIntervalsFrequency (f) 3-7 2 8-12 2 13-17 10 18-22 6 What is the mean andstandard deviation of the distribution,respectively?",
+   "options": [
+    "15,2√5",
+    "15, 7.5",
+    "12.5, 5√2",
+    "12.5, √15"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2006-012",
+   "subject": "mathematics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "If (p V q) > (- r ^ r) is true, then which one of the following is necessarily true?",
+   "options": [
+    "(p vr)>q",
+    "-pΔr",
+    "-p>r",
+    "-p Vrv (2n+5n 10n A) 0.325 O B)1 O C) 5/4 O D) 37/9"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2006-014",
+   "subject": "mathematics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Iff(x）= x+1 andf（a)=5thenf（2a)isequalto: x-1",
+   "options": [
+    "2~",
+    "4",
+    "6",
+    "8"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2006-016",
+   "subject": "mathematics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "What is the equation of the directrix for the parabola whose equation is y² + 8x + 6y + 25 = 0 ?",
+   "options": [
+    "y=3",
+    "x=2",
+    "x= 0",
+    "x = 4 (（f（x)-g(x)）（g（x))）"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2006-017",
+   "subject": "mathematics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Given that lim f（x)=5and lim g（x)=11,what is the value of lim x→3 x→3 g（x）²-f（x）2 x-3",
+   "options": [
+    "-66/96",
+    "-1/16~",
+    "0",
+    "doesnotexist x2"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2006-018",
+   "subject": "mathematics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "If f(x) 1+xg（x) f at 2)?",
+   "options": [
+    "-8",
+    "-8/9",
+    "4/3",
+    "8/9 16i"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2006-019",
+   "subject": "mathematics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "If w= + (1 -- 3i)² and z= |w| + w. , which one of the following is the simplest form of z? 1+i",
+   "options": [
+    "√2 + 2i",
+    "2+2i",
+    "4 - 2i",
+    "2 - 2iv /0 1 2"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2006-020",
+   "subject": "mathematics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "IfM = and ATM = 21, where A is a 3 x 3 matrix and 1is the identity matrix of order 3, then 3 -1 0 5 2 what is det(A)?",
+   "options": [
+    "0.2",
+    "4/17",
+    "0.8~",
+    "1/17"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2006-021",
+   "subject": "mathematics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "If distinct codes ( words of eight letters are formed by rearranging the letters in the word'ABBEBAYE', howmany of the codes begin withB or Y?",
+   "options": [
+    "840",
+    "630",
+    "1680",
+    "420 x-y+z=1"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2006-022",
+   "subject": "mathematics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Whatshouldbethevalueof ksothatthesystemof equation -x+5y-4z=1hasasolution? （2x+2y-z=k NotAnswered",
+   "options": [
+    "0",
+    "1",
+    "-4",
+    "4v sinx 0>xf! a"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2006-023",
+   "subject": "mathematics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Let f(x)= x-1x｜ iffis continuous at x=O,thenwhat is thevalue of a? e-x+cosx,ifx≥0",
+   "options": [
+    "4",
+    "2",
+    "1/2",
+    "-4"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2006-024",
+   "subject": "mathematics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "What is the area of the region between the graphs of y = -x² + 2 and y=|x], where -1 ≤x ≤ 2?",
+   "options": [
+    "11/6",
+    "25/6",
+    "7/3",
+    "11/3"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2006-025",
+   "subject": "mathematics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "What is the derivative of f(x) = +π dt sint+1 cosx",
+   "options": [
+    "sin（x²+π）+1 2x",
+    "sin（x²+π）+1 2xcox sin（x²+π）+1 r2x dt D) sint+1"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2006-026",
+   "subject": "mathematics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "If two lines y=x and y= x - 4 are tangent to a circle at (2, 2) and (4, 0), respectively, then what is the equation of the circle?",
+   "options": [
+    "(x - 2)² + y2 = 4",
+    "(x - 4)2 + (y - 2)2= 4",
+    "(x - 3)² + (y - 1)² =2v",
+    "(x - 1)² + (y + 1)² =10"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2006-027",
+   "subject": "mathematics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which one of the following is the set of all critical numbers of f(x) =x3 - [4x - 1| ? 3",
+   "options": [
+    "{1/4, 2}",
+    "{-2, 1/4,2}",
+    "{-2,2}",
+    "{1/4} x-sinx"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2006-028",
+   "subject": "mathematics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which one of thefollowingis equal to dx? secx",
+   "options": [
+    "π-3 2",
+    "π-1 2 3-π 2 D) πT+3 2"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2006-029",
+   "subject": "mathematics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which one of the following is true?",
+   "options": [
+    "a polynomial can have infinitely many vertical asymptotes",
+    "the graph of a rational function can never cross its horizontal asymptote. 3x-1",
+    "the graph of f(x)= x-1 has no horizontal asymptote.",
+    "the graph of f has novertical asymptote."
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2006-031",
+   "subject": "mathematics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "If Qi, Di and Pi are respectively the ith ?quartile, decile and percentile of a data arranged in an increasing order, thenwhich one of thefollowing is necessarily true?",
+   "options": [
+    "Q2 Q1+Q3 2",
+    "D3 > P25V",
+    "P25 > Q1",
+    "Q2= mean of the data"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2006-032",
+   "subject": "mathematics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "If ,what is the slope of the tangent line to the graph of f at x=2?",
+   "options": [
+    "-4",
+    "2",
+    "18",
+    "17"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2006-033",
+   "subject": "mathematics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "If f(x) =e²x sinx, then f'(x) is equal to",
+   "options": [
+    "3e2x sinx - 4e2x cosx",
+    "4e2x sinx + 2e2x cosx",
+    "e2x (3sinx + 4cosx)",
+    "e2x (4sinx - 3sinx)"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2006-034",
+   "subject": "mathematics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "If the equation (x - 2)² - (y - 2)² =1 represents a hyperbola, which one of the following represents equation of an asymptote to the hyperbola?",
+   "options": [
+    "y =4 - xv",
+    "x+y= 1",
+    "x=2 -y",
+    "x + 2y = 3"
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2006-035",
+   "subject": "mathematics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "What is the sum of the series Zn=1(-1)n3-2n ?",
+   "options": [
+    "-1/8",
+    "-0.13",
+    "-0.1",
+    "1/8"
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2006-036",
+   "subject": "mathematics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the equations below is represented by the following parabola?",
+   "options": [
+    "y=x2+2",
+    "y=(2x-1)2",
+    "y=2(x-1)²",
+    "y=(2x+1)2"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2006-037",
+   "subject": "mathematics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "A company produced 25,000 bulbs and randomly tested 2% of the product. Among the tested bulbs, if 40 a bulb produced by the company had none of the defects?",
+   "options": [
+    "0.95",
+    "0.80",
+    "0.85~",
+    "0.20"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2006-039",
+   "subject": "mathematics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Suppose AX=b, where A is a 3 x 3 matrix, b=(b1, b2, b3)T and X= (x, y, z)T. Which one of the following is necessarily true about this system of linear equations?",
+   "options": [
+    "The system has a solution only when det(A)≠0.",
+    "the Cramer?s rule is suitable to solve the system if two rows of A are identical",
+    "if det(A)≠0 and the second column of A is a multiple of b, then x =",
+    "if b = 0, then x=(O, O, o)T is the only solution of the system. zxp A) -6sin(3x2) B) cos(6x) -6sin(3x2) C) 6 cos(3x2) + 36x2sin(3x2) O ）D) x²cos(3x²) + 6sin(3x²)"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2006-041",
+   "subject": "mathematics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "If S is a set with 10 elements and A S, what is the probability that A has 3 or more elements?",
+   "options": [
+    "7/10",
+    "8/11",
+    "121/128",
+    "7/128"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2006-042",
+   "subject": "mathematics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Ifan= (n+3） ,then thelimit of the sequence{anJn=1isequal to: 22+1",
+   "options": [
+    "1",
+    "1/2 e",
+    "e2~",
+    "+8"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2006-043",
+   "subject": "mathematics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which one of the following is equal tolim x→00 （x+2）",
+   "options": [
+    "e6~",
+    "e-3",
+    "e-3/2",
+    "e-6"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2006-044",
+   "subject": "mathematics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "If a box with square base open top is made from 1,200cm² material, what is the largest volume of the box in cm? ?",
+   "options": [
+    "4000",
+    "8000",
+    "15,000",
+    "3000"
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2006-045",
+   "subject": "mathematics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which one of the following is true about the graph of f(x) = x-x2",
+   "options": [
+    "x = 0 and x = 1 are its vertical asymptotes.",
+    "y = 1 is tis horizontal asymptote",
+    "y = x - 1 is its oblique asymptote",
+    "it is almost the same as the horizontal line y = -1 as x → ±o"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2006-046",
+   "subject": "mathematics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which one of the following is a valid logical argument?",
+   "options": [
+    "p=q,qp",
+    "p→q, p→q Fq",
+    "-p^q,q=rHrv",
+    "-p,p Vq,r >q r"
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2006-047",
+   "subject": "mathematics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Suppose that equal squares are cut from each of the four corners of a square cardboard whose sides are 72 centimetres long. [see the figure below.] The resulting flaps are then folded up to form a box without a top. How long should be each of the four squares that has to be cut off to maximize the volume of the box?",
+   "options": [
+    "6cm",
+    "12cmv",
+    "15cm",
+    "24cm"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2006-048",
+   "subject": "mathematics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "What is the area of the region between the graph of f(x) = -x2 + 4x - 3 and the x axis from x = 0 to x = 3?",
+   "options": [
+    "-2/3",
+    "2/3",
+    "4/3",
+    "8/3~ dx? NotAnswered (x+1)2 A)ln（x+1)++c x+1 B)(x+ 1)²+c x+1 C)(x + 1)² - +C x+1 xln(x+1) D) +C x+1"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2006-050",
+   "subject": "mathematics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "If F(x)=f(2x + 2) g(1 - x²), with f(2)= -3, f(2) = 4, g(1)= -5, and g(1) = -5, then what is the actual value of F'(0)?",
+   "options": [
+    "-40",
+    "-20",
+    "0",
+    "19"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2006-051",
+   "subject": "mathematics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Suppose that an airplane is descending at a speed of 50 miles per hour at an angle of 30°below the",
+   "options": [
+    "25√3, 25~",
+    "-25, 50√3",
+    "25,-25√3",
+    "-25√3, -25"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2006-052",
+   "subject": "mathematics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "If a point (2, 5) is reflected under a line to the point(-3, 1), what is the line of reflection?",
+   "options": [
+    "2x + 3y= 7",
+    "x + 3y= 7",
+    "8y + 10x= 19",
+    "2x+3y+5=0"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2006-053",
+   "subject": "mathematics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Let the equation x² + 2x + y2 = 8 represents a circle. Then which one of the following lines cut the circle at exactly two points?",
+   "options": [
+    "4x + 3y + 19 = 0",
+    "3x+4y+14=0~",
+    "2y=5x + 43",
+    "2x =y - 50"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2006-054",
+   "subject": "mathematics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Suppose A =2t-j+2k and B is a vector in space such that B=A.B ifu is the unit vector in the direction of B,then|A+uiis equal to",
+   "options": [
+    "16~",
+    "12",
+    "10",
+    "14"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2006-055",
+   "subject": "mathematics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "If A= (-2, 3), B= (3, 1) and C is any other point on the plane, then which one of the following is the coordinate form of AC -BC ?",
+   "options": [
+    "(-5, 2)",
+    "(5, -2)",
+    "(1, 4)",
+    "(-1, -4)"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2006-056",
+   "subject": "mathematics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "What is the equation of a line that passes through the point (-1, -2) and parallel to the vector (1, -1)?",
+   "options": [
+    "2x - y= 1",
+    "x+y-1=0",
+    "x-2y= 3",
+    "y-2x+ 1=0"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2006-057",
+   "subject": "mathematics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Suppose P and Q are point in space such that the midpoint of PQ is on the negative z-axis and the distance between P and Q is 6. If P=(2, -1, 0), then what is the coordinate of Q?",
+   "options": [
+    "(-2, 1, 4)",
+    "(2, -1, 6)",
+    "(2, -1, -6)",
+    "(-2, 1, -4)"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2006-058",
+   "subject": "mathematics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which one of the following is equivalent to = [(Vx)(p(x) = Q(x))] ? NotAnswered (（x)bL=(x)d-)（xA)(v",
+   "options": [
+    "(3x)(-p(x)→q(x)",
+    "(3x)(-p（x)Aq(（x)",
+    "(3x)(p（x)-q(x))"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2006-059",
+   "subject": "mathematics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "An observer on level ground is at a distance 10~3 m form a building. The angles of elevation to the bottom of the windows on the second and third floors are 30° and 60°, respectively. What is the distance h between the bottomsofthewindows? [you may use the values: sin30° = cos60° = 1/2 and sin60° = cos30° = √3/2]",
+   "options": [
+    "15m",
+    "20mv",
+    "15√3 m",
+    "32m"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2006-060",
+   "subject": "mathematics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "The following is an assertion of a person and his proof. ?For any natural numbers n, n! < 10\". Proof: Step 1 let n=1 Since 1! = 1 and 101 = 10, it is true that 1! < 101 step 2 let n=2, Since 2! = 2 and 102 = 100, it is true that 2! < 102 step 3 let n=3, Since 3! = 6 and 103 = 1000, it is true that 2! 102 step 4 continuing in this manner , we can see that whenever k! < 10k is true, then (k + 1)! < 1ok+1 is also true. Therefore, by induction, n! < 1o\" for all natural numbers.? Which one of the following is true about the proof?",
+   "options": [
+    "The proof is correct by the principle of mathematical induction, though Step 2 and Step 3 can be omitted.",
+    "The proof is correct by the principle of mathematical induction; through Step 2 and Step 3 are necessary since they provide additional information.",
+    "The proof is invalid because Step 4 did not justify the desired induction step.",
+    "The proof follows the technique of a proof by exhaustion. ) s n n + o ) = ( x) yo y s 9 (0, 1) following by the reflection about the line y = 2x? O A)y = 2x + 3 O B) y= 2x - 3 O C)y= 2x + 6 O D)y = 2x -5"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2006-061",
+   "subject": "mathematics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "What is the image of the line given by (x, y) = (-1, 0) + t(3, 6), t E R, under the transition that takes (1, 0) to (0,1)followingby thereflection abouttheliney=2x?",
+   "options": [
+    "y = 2x + 3",
+    "y= 2x - 3",
+    "y= 2x + 6",
+    "y=2x-5v"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2006-062",
+   "subject": "mathematics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "If 0 = 2 arctan (1/2), then which one of the following is equal to sec(0)?",
+   "options": [
+    "35/3",
+    "4/5",
+    "5/3",
+    "5/4"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2006-063",
+   "subject": "mathematics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "If a translation T takes the circle x2 + y2 - 2x + 6y + 3 = 0 into the circle whose equation is (x + 2) + (y - 4)2 = 7, then what is the image of the origin under T?",
+   "options": [
+    "(-3, 7)~",
+    "(1, 2)",
+    "(1, -3)",
+    "(-2, 4) and the circle (x - 2)² + (y - 1)² = 5? A) L is tangent to the circle at (0, 2) B) L is tangent to the circle at some point P, where P ≠ (O, 2). C) L intersects the circle at two distinct points.√ D)the distancebetweenL and thecentre of thecircleisgreater than≠5"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2006-065",
+   "subject": "mathematics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Suppose A =3t-4j andBis a vector in the xy-plane such that the angle between A and Bis,if u is the unit vector in the direction of B,then A.(A-2u) is equal to:",
+   "options": [
+    "20",
+    "5",
+    "15",
+    "30 Your Answers you have scored O out of 0 Answer Key 1.C 11.A 21.A 31.B 41.C 51.A 61.D 2.D 12.D 22.D 32.D 42.C 52.C 62.C 3.A 13.C 23.A 33.C 43.A 53.B 63.A 4.B 14.A 24.B 34.A 44.A 54.A 64.C 5.A 15.A 25.B 35.C 45.D 55.B 65.A 6.C 16.C 26.C 36.C 46.C 56.B 7.A 17.B 27.A 37.C 47.B 57.D 8.D 18.A 28.A 38.B 48.D 58.D 9.B 19.D 29.D 39.C 49.D 59.B 10.A 20.C 30.B 40.C 50.B 60.A @ 2019 Camara Education Ethiopia.Ethiopian General Secondary Education Certificate and University Entrance Examinations"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  }
+ ],
+ "flagged": [
+  {
+   "n": 30,
+   "grid": "B",
+   "tick": "A",
+   "q": "The simplified form of the derivative of f(x) = 1+sinx is cOSX"
+  }
+ ],
+ "stats": {
+  "questions": 60,
+  "items": 56,
+  "flagged": 1,
+  "grid": 65,
+  "conf": {
+   "grid+tick": 5,
+   "grid": 51,
+   "tick": 0
+  }
+ }
+}

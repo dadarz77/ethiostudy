@@ -1,0 +1,699 @@
+{
+ "items": [
+  {
+   "id": "natl-physics-2010-002",
+   "subject": "physics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "A race car is moving at a constant speed of 35m/s . A security car was moving at a speed of 5m/s as the race car passes by it and was accelerating at constant rate of 5 m/s2. What was the speed of the security car when it took over the race car ? NotAnswered",
+   "options": [
+    "35m/s",
+    "60m/s",
+    "5m/s",
+    "65m/s"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2010-003",
+   "subject": "physics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "A car start moving from rest and its motion on a straight line is shown in the figure below. What is the averagevelocityofthecarwithinthefirst6seconds? 12 10 6,10 2,6 2 4 t(s)",
+   "options": [
+    "5.67m/sv",
+    "1.67 m/s",
+    "5 m/s",
+    "6 m/s"
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2010-004",
+   "subject": "physics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which one of the following statements is correct regarding the motion in a plane?",
+   "options": [
+    "When a body moves in a horizontal circle, its velocity is constant",
+    "When a body moves in a vertical circle, its speed is constant",
+    "The centripetal force for a body moving in either vertical or horizontal circle is toward the center",
+    "In projectile motion the horizontal component of the motion is uniformly accelerated motion."
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2010-005",
+   "subject": "physics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "A bullet is fired at an angel of 30° above the horizontal. If air resistance is neglected, what should be the bullet?shorizontalacceleration a and vertical acceleration (ay) when it reaches its maximum height?",
+   "options": [
+    "Bothaandayare zero",
+    "ais10m/sdownward,andayiszero",
+    "Both aandayare10m/s²downward",
+    "aiszero,andayis10m/sdownward."
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2010-006",
+   "subject": "physics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Two students A and B, with masses ma and mg respectively, stand on a wheeled trolleys as shown in the figurebelow.If studentA haslarger mass and pushes studentB,thenwhat canbe said about their accelerations?",
+   "options": [
+    "The acceleration of student Bis less than that of student A.",
+    "Bothboyswillbe accelerated bythesamemagnitudebutinoppositedirections.",
+    "The acceleration of student A isless than that of student B.",
+    "There would be no acceleration because the forcec are equal and opposite."
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2010-007",
+   "subject": "physics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of the following statement is correct about errors in measurement?",
+   "options": [
+    "Experimental error is the same as mistake",
+    "Errors make measured values same as accepted value",
+    "Errors occur in every scientific investigation",
+    "Errors can be avoid by using modern measurement instruments."
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2010-008",
+   "subject": "physics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "What can be conclude when the number of significant figures increases?",
+   "options": [
+    "True reading increases",
+    "Precision increases",
+    "Uncertainity increases",
+    "Accuracy increases"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2010-009",
+   "subject": "physics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Two forcesF=（8t+3J)Nand F=（4t+6J)Nareactingon anobject.What is themagnitudeanddirectionoftheresultantforce?",
+   "options": [
+    "225 N,1430",
+    "5 N,-370",
+    "5 N, 1430",
+    "15 N,37°"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2010-011",
+   "subject": "physics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "A body that is released from the top of a tall building reaches the ground after six seconds. What is the ratio of the kinetic energy acquired by it at the end of the first three seconds to the increment in the kinetic energy during the next three seconds?",
+   "options": [
+    "3/2",
+    "1",
+    "1/3~",
+    "2"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2010-012",
+   "subject": "physics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "A boy pushes a block over 12m distance within 6 seconds. The force applied by the boy varies as shown in the diagram below.What is the average power loss by the boy? F(N) [3,4) (9,4) x(m) 3 6 12 b",
+   "options": [
+    "4 w",
+    "8w",
+    "7w",
+    "6w"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2010-013",
+   "subject": "physics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "A thin rod when rotated about an axis at the end of the rod has a moment of inertia 1/3ML2. The rod has a mass of 1.5kg and length of 1.0 m. if the rod initially at rest gains a rotational kinetic energy of 10oo.0 J, at whatspeeddoesitrotate?",
+   "options": [
+    "10√5rad/s",
+    "20√10rad/s 10 rod/s 18.8 rod/s"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2010-014",
+   "subject": "physics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "A ring a solid cylinder and a solid sphere, all having the same mass and the same radius, are held at the top of an inclined plane as shown in the figure below. If the objects roll with out sliping and the coefficient of static friction between each object and the plane is 0.3, which one of the following shows the order in which they will get to the bottom of the inclined plane? sphere Solid cylinder ring 20°",
+   "options": [
+    "Allwill reach thebottom at the same time",
+    "Ring, solid cylinder, sphere",
+    "Solid cylinder, sphere, ring",
+    "Sphere, solid cylinder, ring"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2010-015",
+   "subject": "physics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "If in a given rotational system of a body the angular momentum is increased with time, which one of the following statement is not correct? NotAnswered",
+   "options": [
+    "The radius of rotation may increase",
+    "There is no torque exerted on the system",
+    "The moment of inertia may increase",
+    "There is a torque exerted on the system"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2010-016",
+   "subject": "physics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of the following is a correct statement about the first condition of equilibrium?",
+   "options": [
+    "The sum of all torques must be zero",
+    "Clockwisemoments shouldbalance counter clockwisemoments",
+    "The net force on an object must be zero",
+    "The torque produced by a force should be perpendicular to the force."
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2010-017",
+   "subject": "physics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "For a constant force F, if the impulse imparted to the system is large, then what can you conclude about the collision?",
+   "options": [
+    "Linear momentum is conserved",
+    "The contact or impact time is largev",
+    "Kinetic energy is conserved",
+    "The change in velocity is small"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2010-018",
+   "subject": "physics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "An open trolley is rolling on a level surface without frictional loss through a vertical downpour of rain, as shown in the figure below. As the trolley rolls, an appreciable amount of rainwater accumulates in the cart. What will be the speed of the cart?",
+   "options": [
+    "It increases because of conservation of mechanical energy",
+    "It decreases because of conservation of mechanical energy",
+    "It remains the same because the raindrops are falling perpendicular to the direction of the carts motion",
+    "Itdecreasesbecauseofconservationofmomentum"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2010-019",
+   "subject": "physics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "A satellite moves at a constant speed in a circular orbit about the center of the earth at an altitude half the radius of the earth above its surface. If g is the gravitational acceleration at the surface of the earth and R its radius,then what is the speed of the satellite?",
+   "options": [
+    "√2gR",
+    "√gR",
+    "√3gR/2",
+    "√2gR/3"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2010-020",
+   "subject": "physics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "An object of mass 1kg moving with a speed of 2m/s was acted on by a force that produces an acceleration of 2m/s². What is the change in kinetic energy of the object if the force is exerted on the object for 2seconds in itsdirection ofmotion?",
+   "options": [
+    "1J",
+    "16 J",
+    "8J",
+    "4 J"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2010-021",
+   "subject": "physics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "In thefigurebelow,whatis thespeed ofwater asitleavesA2? A1=4cm² A2=12cm V1=0.9m/s V2",
+   "options": [
+    "0.9 m/s",
+    "0.3 m/sv",
+    "3.3 m/s",
+    "3.6 m/s"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2010-022",
+   "subject": "physics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "An electricimmersion water heater is rated at 4o0w.howlong will it take toheat one kilogram of water from 10 to 30 ? (the specific heat of water is 4.2 J/g k.)",
+   "options": [
+    "45 min",
+    "1 min",
+    "15 min",
+    "3.5minv"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2010-023",
+   "subject": "physics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "If the internal energy of the system decreases, then what can be concluded about the heat and the work done?",
+   "options": [
+    "Heat is removed from the system and work is done by the system",
+    "Heat is added to the system and work is done by the system",
+    "Heat is removed from the system and work is done on the system",
+    "Heatis added to thesystem andworkisdoneonthesystem"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2010-024",
+   "subject": "physics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "If a thermodynamic system undergoes a process in which its internal energy increased by 40o J while doing 2oo J of work on its surrounding, then what is the energy absorbed in or extracted from it in the form of heat?",
+   "options": [
+    "-600 J",
+    "-200 J",
+    "200 J",
+    "600J"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2010-025",
+   "subject": "physics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of the following statement is not correct?",
+   "options": [
+    "A system can absorb heat from a hot reservoir and can convert it entirely in to workout additional changes in the system and its surroundings.",
+    "The spontaneous transfer of energy from a cooler body to hotter body is quite possible.",
+    "No process is possible in which there is an overall decrease in the entropy of the universe.",
+    "The complete conversion of energy from hot source in to work is not possible."
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2010-026",
+   "subject": "physics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "A heat engine operating between 100°C and 700°C has efficiency equal to 40 % of the maximum theoretical efficiency. How much energy does this engine extract from the hot reservoir in order to do 5oo0 J ofmechanicalwork?",
+   "options": [
+    "20259.32J",
+    "81.0 J",
+    "810.4 J",
+    "20.3 J"
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2010-030",
+   "subject": "physics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "An object with a mass of 150 kg and a volume of 0.75 m? is floating in a liquid of density 0.8 g/cm3. What percentage of the objects volume will be submerged below the surface of the fluid?",
+   "options": [
+    "100 %",
+    "50 %",
+    "75 %",
+    "25 %"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2010-031",
+   "subject": "physics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Why is an interference pattern not observed between the lights produced from a pair of car headlights?",
+   "options": [
+    "The light sources are not collimated.",
+    "Interference is observed only in laboratory conditions",
+    "The light sources are not coherentV",
+    "The spread of light as it travels out of the source"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2010-032",
+   "subject": "physics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Suppose that three point charges are placed along a straight line and electrostatic force exerted on the middlechargeiszero.Whatcanweconcludeaboutthecharges?",
+   "options": [
+    "The signs of the three charges should be the same",
+    "The charges at the ends must have the same signv",
+    "The middle charge should be placed at the center between the two charges",
+    "The charge at the middle and at the left end should have the same sign"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2010-033",
+   "subject": "physics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Two parallel plates are kept at 3 V and 5 V as shown in the diagram below. If an electron is released at O, thenwhichwaywill theelectronmove? +5V P +3V",
+   "options": [
+    "TowardsB",
+    "Towards A",
+    "Remains at",
+    "Parallel to the plates"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2010-034",
+   "subject": "physics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "A capacitor of 12 μF capacitance can fully charged after it is connected between a potential difference of 9 V. how much external energy is used in charging the capacitor?",
+   "options": [
+    "1.0 x 10-3 J",
+    "54 x 10-4 J",
+    "9.72 x 10-4 J",
+    "4.86 x 10-4 J"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2010-035",
+   "subject": "physics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "A copper wire of cross sectional area 2 mm2 carrying a current of 1.5 A. if the drift velocity of the electron is 0.oo028 m/s, what is the number of charge carriers (free electrons) per unit volume in the copper wire?",
+   "options": [
+    "1.5 x 1025/m3",
+    "1.88 x 1028/m3",
+    "1.5 x 1032/m3",
+    "1.67 x 1032/m3"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2010-036",
+   "subject": "physics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of the following statement is correct?",
+   "options": [
+    "Galvanometer can be converted to voltmeter of different scale by connecting low valued resistance in parallel",
+    "Low valued internal resistance increases accuracy of voltmeter",
+    "High valued internal resistance increases accuracy of ammeter",
+    "Galvanometer can be converted to ammeter of different scale by connecting variety of low value shunt resistance in parallel."
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2010-037",
+   "subject": "physics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "What makes the oscillatory motion a simple harmonic motion?",
+   "options": [
+    "The acceleration of the motion is directly proportional to the velocity",
+    "The acceleration of the motion is directly proportional in magnitude but opposite in direction to the displacement",
+    "The velocity of the motion is directly proportional to the displacement",
+    "The velocity of the motion is inversely proportional to the displacement"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2010-038",
+   "subject": "physics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "The two end fixed string of length 0.5m has a mass per unit length 2 g/m. if the tension in the string is 80 N, what is the second harmonic frequency?",
+   "options": [
+    "400HzV",
+    "200 Hz",
+    "100√2Hz",
+    "600 Hz"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2010-041",
+   "subject": "physics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "A magnetic field of strength 5 x 10-5 T passes through an area of 20 cm? that is an angel of 60° to the magnetic field. What is the magnetic flux?",
+   "options": [
+    "0Wb",
+    "5 x 10-8 Wb",
+    "2.5 x 10-8 Wb",
+    "8.7 x 10-8 Wb"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2010-042",
+   "subject": "physics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "An inductor has a self inductance of 12 mH. The current in the circuit decreases at a rate of 2.0 A/s. what is the magnitude of the induced electromotive force?",
+   "options": [
+    "2.4πV",
+    "1.2π V",
+    "1.2 x 10-2",
+    "2.4 x 10-2"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2010-043",
+   "subject": "physics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which of the following is correct about the characteristics of current and voltage in A.C circuits?",
+   "options": [
+    "If the current leads the voltage, its capacitive reactance is greater than the inductive reactance",
+    "If the current is in phase with the voltage, the circuit is inductive",
+    "If the current leads the voltage, it is inductive circuit",
+    "If the current lags the voltage, the circuit is capacitive"
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2010-044",
+   "subject": "physics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "An RLC circuit is designed to have a resistance of 400 ?, capacitive reactance of 350 ? and inductive reactance of 50 ?. The circuit is connected to an alternative voltage source of effective (rms) valve 50 v and frequency of 50 Hz. What is the average output power?",
+   "options": [
+    "62.5W",
+    "4.0 W",
+    "400 W",
+    "40 W"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2010-046",
+   "subject": "physics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "In Rutherford experiment, a beam of positively charged alpha particles was projected in to a thin piece of a gold foil. One of the observation of this experiment is that some charged particles deflected through a large angel (10° to 90° ) are those concentrated in one place. What conclusion can be drawn from this observation? NotAnswered",
+   "options": [
+    "Most of the mass and all positive charge is in tiny central nucleus",
+    "Most of the atom is empty space",
+    "All the atom is positive charge",
+    "All the atom is negative charge"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2010-047",
+   "subject": "physics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "In the circuit shown below, each resistor has a value of 3 ?. What is the value of the current through R4? 6V R1 R2 R4 R3 3 9V R5",
+   "options": [
+    "0.75A",
+    "1.0A",
+    "0.625A",
+    "0.125 A"
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2010-048",
+   "subject": "physics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Suppose you obtain a piece of iron from your laboratory shelf. How can you experimentally determine, for",
+   "options": [
+    "If it attracts another magnet",
+    "If it diverges a charged electroscope",
+    "If it repels another magnet",
+    "There is no single and sureway to determine its magnetizationv"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2010-049",
+   "subject": "physics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "If a charged particle enters in to a uniform magnetic field perpendicular to its direction, then what will happen?",
+   "options": [
+    "It moves in an elliptical path",
+    "The radius of its path is proportional to the magnetic field strength",
+    "The charged particle will not be affected by magnetic field",
+    "The period of the motion is inversely related to the magnetic field strength<"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2010-050",
+   "subject": "physics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Two parallel wires each carrying 5 A current in the same direction are separated by 2.5cm. what is the magnitude of the force per unit length acting on the wires? Is the force attractive or repulsive?",
+   "options": [
+    "2 x 10-4N/m, attractiveV",
+    "4 x 10-6N/m, repulsive",
+    "8 x 10-5N/m, repulsive",
+    "5 x 10-6N/m, attractive Your Answers you have scored O out of o Answer Key 1.A 11.C 21.B 31.C 41.B 2.D 12.D 22.D 32.B 42.D 3.A 13.B 23.C 33.A 43.A 4.C 14.D 24.D 34.A 44.B 5.D 15.B 25.A 35.B 45. 6.C 16.C 26.A 36.D 46.A 7.D 17.B 27.A 37.B 47.C 8.D 18.D 28.D 38.A 48.D 9.D 19.A 29.C 39.B 49.D 10.D 20.B 30.D 40.D 50.A @ 2019Camara EducationEthiopia.EthiopianGeneral SecondaryEducationCertificate and UniversityEntranceExaminations"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  }
+ ],
+ "flagged": [
+  {
+   "n": 29,
+   "grid": "A",
+   "tick": "C",
+   "q": "A beaker with water resting on a scale weighs 40 N. a block suspended on a hangi"
+  },
+  {
+   "n": 39,
+   "grid": "B",
+   "tick": "D",
+   "q": "Which one of the following is not the use of Doppler effect?"
+  }
+ ],
+ "stats": {
+  "questions": 45,
+  "items": 42,
+  "flagged": 2,
+  "grid": 49,
+  "conf": {
+   "grid+tick": 18,
+   "grid": 24,
+   "tick": 0
+  }
+ }
+}

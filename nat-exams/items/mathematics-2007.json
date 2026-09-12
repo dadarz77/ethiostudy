@@ -1,0 +1,920 @@
+{
+ "items": [
+  {
+   "id": "natl-mathematics-2007-001",
+   "subject": "mathematics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which one of the following is the equation of an ellipse with centre at (1, 4), vertices at (10, 4) and (1, 2) is :",
+   "options": [
+    "4(x-1)2 + 81(y - 4)2= 324",
+    "(x-1)2 + 9(y - 4)2=4",
+    "9(x - 1)² + 4(y - 4)² = 1",
+    "2(x - 1)2 + 9(y - 4)2 = 4"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2007-002",
+   "subject": "mathematics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "What is the maximum value of f(x)=2x2 - x4 - 4 on [0, 2]?",
+   "options": [
+    "-3",
+    "3",
+    "-4",
+    "12"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2007-004",
+   "subject": "mathematics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Let f(x)=2x(x2 + 1)4, then which of the following is an anti- derivative of f(x)?",
+   "options": [
+    "2x/5 (x2 + 1)5 + c",
+    "2/5 (x2 + 1)5 + c",
+    "x/5 (x2 + 1)5 + 1",
+    "1/5 (x2 + 1)5 - 1v"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2007-005",
+   "subject": "mathematics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which one of the following is an arithmetic sequence?",
+   "options": [
+    "3,5,7,9,11,?",
+    "3,6,12,24,28,",
+    "-3,6,-9,12,-15,",
+    "1,3,6,10,15,21,"
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2007-007",
+   "subject": "mathematics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Let f(x)= if fis continuous at x=O , then what is the value of a? le2x-2,x≥0",
+   "options": [
+    "1/2",
+    "2",
+    "-1/2",
+    "-2"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2007-008",
+   "subject": "mathematics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "The Ozone level (in ppb- parts per billion) on a sunny day in metropolitan area is given by formula p(t)= 80 + 12t t² where t is time in hours and t = 0 corresponds to 9A.M. what is the rate of increase of Ozone level after 3-hrs(i.e.at12 A.M)?",
+   "options": [
+    "6 ppb",
+    "12 ppb",
+    "107 ppb",
+    "113 ppb"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2007-009",
+   "subject": "mathematics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Whichof thefollowingfunctions isoneto onecorrespondence?",
+   "options": [
+    "f: R → R, f(x)=tanx, were R' is domain of f",
+    "g: R → R, g(x)=2x",
+    "h:[-∞0, ∞0) → [0, 00) : h(x) = x2",
+    "r:[0, 0) → [0, ∞0): r(x) = x + 5<"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2007-010",
+   "subject": "mathematics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Different codes, each of which consisting of five characters, are to be generated in such a way that the first two characters are any of the English capital letters (A to Z) and the remaining three are any of the digits (0, 1, 2,,9). How many distinct codes can be generated ?",
+   "options": [
+    "468,000",
+    "260 Q",
+    "676,000",
+    "26! X 10!"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2007-011",
+   "subject": "mathematics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Acertain meeting hall has 20rows of seats.There are 20 seats inthe first row,22seats inthe second row, 24 seats in the third row, and so on.How many seats are there on the last (2oth) row of the hall?",
+   "options": [
+    "46",
+    "58",
+    "76",
+    "5240"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2007-012",
+   "subject": "mathematics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Two perpendicular lines I, and l2 are intersecting at (-1, 2). If the angle of inclination of l, is 45°, then what is the equation of l2?",
+   "options": [
+    "y= -x + 3",
+    "y= x + 3",
+    "y= -x + 1v",
+    "y=x+ 1"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2007-013",
+   "subject": "mathematics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "What is the area of the region between the graph of y= sinx and x-axis where 0≤ x ≤ 2π?",
+   "options": [
+    "4",
+    "4π",
+    "2 O1",
+    "2π"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2007-014",
+   "subject": "mathematics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "The following is the set of data representing the average mark of students: 91, 89, 93, 91, 87, 94, 92, 85, 91, 90, 96, 93, 89. Then which one of the following statements is true about the data?",
+   "options": [
+    "the median is 90.5",
+    "the upper quartile is 92",
+    "the range of marks is 11",
+    "the mean is 91.5"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2007-015",
+   "subject": "mathematics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "If f(x) = In(Vx2 + 1) , which of the following is equal to f (x)?",
+   "options": [
+    "x²+1",
+    "x x²+1 2x Vx²+1 2x D) x²+1 3+i:"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2007-016",
+   "subject": "mathematics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Ifz= is agivencomplexnumber,then what is the conjugate z,ofz？ -2 1+E-",
+   "options": [
+    "z= 2+1 i-3",
+    "z= 2-1",
+    "z=-6-2i",
+    "z=-1-i"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2007-017",
+   "subject": "mathematics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "What is the principal argument of (5 + 5i)ll?",
+   "options": [
+    "π/2",
+    "2π/3",
+    "π/4",
+    "3π/4 6-x"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2007-018",
+   "subject": "mathematics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which one of the following is equal to lim - x→93-√x",
+   "options": [
+    "6",
+    "-3",
+    "-6v",
+    "8"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2007-020",
+   "subject": "mathematics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "An object is moving along the parabola y= V2x in xy-plane. At what point on its path does the object become closest to the point (2, 0)?",
+   "options": [
+    "(3, V6)v",
+    "(1, 1)",
+    "(1, V2)",
+    "(2,2)"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2007-022",
+   "subject": "mathematics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Consider the following system of equations: x+3y+2z=0 ifthedeterminantofthe （2x+y+z=0 coefficient matrix is 2, then what is the solution set of the system?",
+   "options": [
+    "{(1, 3, -5)}",
+    "{(1/a, 1/b, 0)}",
+    "{(-2, -6, 10)} ODθ [1-3x²,forx≤1"
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2007-023",
+   "subject": "mathematics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "For what values of a and b is the function f(x) = is differentiable atx=1? ax+b,forx>1",
+   "options": [
+    "a=6,b=0",
+    "a=-3,b= 1",
+    "a= 0,b = -2",
+    "a = -6, b = 4v lnx+x"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2007-024",
+   "subject": "mathematics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which one of the following is equal to",
+   "options": [
+    "-n²x+e*（x²-1)+c",
+    "²ln²x+e*（x-1)+c 2 lnx+e*（x-1）+c D)nx+e*（x²-1)+c"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2007-025",
+   "subject": "mathematics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "What is the focus of the parabola y² + 4y + 8x = 4?",
+   "options": [
+    "(1, -2)",
+    "(-1, -2)",
+    "(3, -2)",
+    "(-3, -2)"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2007-026",
+   "subject": "mathematics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "A city has two daily newspapers, X and Y. the following information was obtained from the survey of 100 residents of the city: 35 people subscribe to X, 60 people subscribe to Y and 20 subscribe to both newspapers. Thenhow many of the people in the survey do not subscribe to either of the newspapers?",
+   "options": [
+    "5",
+    "25~",
+    "40",
+    "55"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2007-027",
+   "subject": "mathematics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which one of the following is necessarily true?",
+   "options": [
+    "if f?(x) = 0 for all x in the interval I, then f(x)= 0 for all x in I.",
+    "if f(x) = x² sin x + 5, then there is c E (0, π) such that f(c) = 0",
+    "f(x) = ex is increasing on (-oo, ∞o)",
+    "f(c) = 0, then f attains its maximum or minimum value at x = c dt"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2007-029",
+   "subject": "mathematics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "If p(x)= 3x² and q(x) =x² + x, then what is the solution set of 3q(x) X q(x",
+   "options": [
+    "{-1, 2}",
+    "{2}",
+    "{-3,2}",
+    "{-3} u+3i 2+vi"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2007-030",
+   "subject": "mathematics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "What are the values of u and v that satisfy the equation: 4-2i 20",
+   "options": [
+    "u=2, v=3",
+    "u=-6, v=10",
+    "u=2, v=16v",
+    "u=-4, v=6"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2007-031",
+   "subject": "mathematics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "What is the sum of all multiples of 3 between 20 and 200?",
+   "options": [
+    "7,227",
+    "6,570~",
+    "6,150",
+    "5,166 2x"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2007-032",
+   "subject": "mathematics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "The invers of the function defined by g(x)= is equal to: 2+x",
+   "options": [
+    "g²（x)=- 2x x-3",
+    "g-(x)=- 3x x-2",
+    "g-（x)= x+3 2x",
+    "g（x)= x+2 3x /0 X 0"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2007-033",
+   "subject": "mathematics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "If A=1 -1 and A-= 1 0 ,thenwhat are the value of x and y? (20-1/ 0 y",
+   "options": [
+    "x = 3, y = -2",
+    "x = 2/3, y = 1/3",
+    "x=-3,y= 2",
+    "x= 1/3,y = 2/3v . xx)) +x =( 1=( =()=( A) 19 O B) 0 O C) -20 D)-40"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2007-035",
+   "subject": "mathematics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "A ladder 6m long rests against a vertical wall. If the bottom of the ladder slides away from the wall at a rate (speed) of 0.5 m/s, how fast the angle between the top of ladder and the wall changing when the angle is π/4rad?",
+   "options": [
+    "√2/2 rad/sec",
+    "√2/12 rad/sec",
+    "√2/6 rad/sec",
+    "√2/3 rad/sec"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2007-036",
+   "subject": "mathematics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Thevalue(s) of xwhere thegraphof thefunctiony crosses its horizontal asymptote is (are):",
+   "options": [
+    "x= -2",
+    "x= -1 and x=1",
+    "x= 0",
+    "x= -V2 and x= +V2 /3-28）"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2007-037",
+   "subject": "mathematics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "IfA=067 then det(ATA) is equal to : 10 4",
+   "options": [
+    "12",
+    "36~",
+    "30",
+    "15"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2007-038",
+   "subject": "mathematics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Suppose that the first 3 letters (A, B, and C) and number digits are to be used to form car plates in a small town. How many different plates can be formed in total that contains 1, 2 or 3 letters and then followed by 3 digits?",
+   "options": [
+    "3,000",
+    "27,000",
+    "39,000",
+    "100,000"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2007-039",
+   "subject": "mathematics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "A ball is thrown vertically from ground up to a height of 16m. Each time it drops h meters, it rebounds 0.80h m. noting that the ball travels every height of h twice, what is the total vertical distance travelled by the ballbeforeitcomestorest?",
+   "options": [
+    "40m",
+    "80m",
+    "160m",
+    "320m"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2007-040",
+   "subject": "mathematics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Suppose that a function f has a property that f(x + y)= f(x)f(y) for all x and y and that f(o) = 2, f(0)= 1. Then which one of the following represents the formula for the derivative f(x)?",
+   "options": [
+    "f(x)= 2f?(x) + 1",
+    "f？(x)=f(x)+2f(x)",
+    "f(x)=f(x)+ 2",
+    "no such function"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2007-041",
+   "subject": "mathematics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which one of the following is true about a conic section represented by the equation 22 =1？ k k-9",
+   "options": [
+    "it is a circle whose center is at origin for some k E R.",
+    "it is an ellipse whose major axis is vertical when k > 9.",
+    "it is a hyperbola whose foci are at (-3, 0) & (3, 0) when 0 < k < 9.",
+    "it is a hyperbola whose foci are at (-3k, 0) & (3k, 0) when 0 < k < 9."
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2007-042",
+   "subject": "mathematics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Whichof thefollowingisNOT atautology?",
+   "options": [
+    "[p v(q≥r)] =[p>(q=r]",
+    "p v(q≥-q)",
+    "p≥[(p=q) vq]",
+    "[p=(q ^-r)] =[p≥(-q Vr)] x+y-z=1"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2007-043",
+   "subject": "mathematics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Whatisthesolutionofthesystem x+2y-3z=1？ (2x+3y-4z=2",
+   "options": [
+    "{(0, 2, 1)}",
+    "{(1 -k, 2k, k)I k E }",
+    "{(2k + 1, -k, k) I k ∈ R}",
+    "α (3-22x，ifx<0.5"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2007-044",
+   "subject": "mathematics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Let : 2x-5 , if c is a zero of f , that is , f(c) =0, then which one of the following intervals must ifx≥0.5 x+1 contain c?",
+   "options": [
+    "(-∞0, 0]",
+    "[0, 1]",
+    "[1, 2]",
+    "[2, 3]"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2007-047",
+   "subject": "mathematics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "The number of shoes s that a factory can produce per day is a function of the number of hours t it operates: s(t)=40tfor 0≤t≤12 the daily cost c, in Birr, to manufacture s shoes is given by the function c(s)= 0.1s2 + 90s + 800 If the factory operates for 10 hours, what is the cost it incurs in producing as much shoes it can with in this time?",
+   "options": [
+    "Birr 400",
+    "Birr 1,600",
+    "Birr 52,800",
+    "Birr 124,600"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2007-048",
+   "subject": "mathematics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Three persons P1, P2 and P3 are firing at a target independently and have a probability 0.7, 0.5 and 0.4, respectively, of hitting the target.What is the probability that at least one of them hits the target?",
+   "options": [
+    "0.95",
+    "0.85",
+    "0.91",
+    "0.99 3x"
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2007-049",
+   "subject": "mathematics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which one of the following is equal tolim x→003x+2",
+   "options": [
+    "e²",
+    "e-3",
+    "e-2",
+    "e3"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2007-050",
+   "subject": "mathematics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "The total cost (in Birr) of producing x radio sets per day is given by the expression 0.25 x2 + 35x + 25 and the price per set at which they may be sold id given by 50 -(0.5)x. What should be the daily output to obtain a maximumtotalprofit?",
+   "options": [
+    "50 sets per day",
+    "23 sets per day",
+    "10 sets per day",
+    "no such case?"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2007-051",
+   "subject": "mathematics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "A company manufactures x computer sets per month. The monthly marginal profit (in Birr) is given by: p(x) = 165 - 0.1x, for 0 ≤ x ≤ 400 The company is currently manufacturing 10 sets of computer per month, but is planning to increase production. What is the total change in the monthly profit if the monthly production increasedto60sets?",
+   "options": [
+    "Birr 50",
+    "Birr 1,865",
+    "Birr 8,075",
+    "Birr 18,635"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2007-052",
+   "subject": "mathematics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "If angle 0 is an acute angle of a right triangle, what is the length of the side adjacent to 0, given the hypotenusehas 6units lengthand sec0=10/3?",
+   "options": [
+    "1.8 unitsv",
+    "2 units",
+    "18 units",
+    "20 units"
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2007-053",
+   "subject": "mathematics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "If A= (1,-2), B= (-3,2) and is a position vector such that 2v + AB = 0,then ? is equal to",
+   "options": [
+    "(2, 0)",
+    "(-1, 0)",
+    "(-2, 2)",
+    "(2,-2)"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2007-054",
+   "subject": "mathematics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "If each of the compound propositions P v Q , P = R and -R is true, then which one of the following is True?",
+   "options": [
+    "P",
+    "Q~",
+    "Q=P",
+    "P^-R"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2007-055",
+   "subject": "mathematics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "If A=4i-3jand u is aunit vector such thatA+ui=27,then the cosineofthe anglebetweenAandiisequalto",
+   "options": [
+    "0.1v",
+    "0.2",
+    "0.3",
+    "0.4"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2007-056",
+   "subject": "mathematics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "What is the possible value of x that solves the equation: sin-' x + cos π",
+   "options": [
+    "π/3",
+    "3/5",
+    "5π/2",
+    "4/5~"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2007-057",
+   "subject": "mathematics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "If P= (3, α - 1, a + 2) and Q= (2a + 1, 3, 3α) are points in space, what should be the value(s) of α so that the distance between the two points is 6?",
+   "options": [
+    "α=1,orα=5 4+2√7 4-2√7",
+    "α= ,ora= 3 3",
+    "α=-1,or α = 3",
+    "α=-3,orα=2"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2007-058",
+   "subject": "mathematics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "If (-1, 2, 2) and (1, 0, -2) are end points of a diameter of a sphere, then which one of the following is true about the sphere?",
+   "options": [
+    "(0,1,0) is a point on the sphere",
+    "the equation of the sphere is x2 + (y-1)2 + z2 = 6",
+    "the equation of the sphere is x2 + (y-2)2 + z2 = 6",
+    "the radius of the sphere is 6"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2007-059",
+   "subject": "mathematics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Suppose that the equation x2 + y2 + z² + 2x + 8z = 6(y + 1), represents a sphere. Where is the point (1, -1, 4) located relativeto thesphere?",
+   "options": [
+    "inside the sphere",
+    "on the sphere",
+    "at the center of the sphere",
+    "outside the sphere"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2007-061",
+   "subject": "mathematics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "What is the image of the ellipse (x - 1)2 + 4y2 = 1 under the transiation that takes (1, 1) to (0, 2) followed, by the reflection through the x-axis?",
+   "options": [
+    "x2 + 4(y - 1)2 =1",
+    "4x2 + (y - 1)² = 1",
+    "x2 + 4(y + 1)2 =1",
+    "4x² + (y + 1)2² =1"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2007-062",
+   "subject": "mathematics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "What is the amplitude and period, respectively, of the graph of f(x) = -6 sinx cosx ?",
+   "options": [
+    "3,πV",
+    "6,π",
+    "3, π/2",
+    "6,2 π"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2007-063",
+   "subject": "mathematics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "What is the work done (in joule) when a force of 50 Newton is used to pull a cart 20 meters along path if the force is at an angle of 60°? [Remember that:Work=(Force)x(distancetravelled)]",
+   "options": [
+    "360",
+    "500~",
+    "760",
+    "1500 √2"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2007-064",
+   "subject": "mathematics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Suppose L is the line through the center of the sphere x² + y2 + (z - 2)² = 9 and the line intersects the sphere at (1, 2, 4). What is the cosine of the angle between L and positive z-axis?",
+   "options": [
+    "2/3v",
+    "1/3",
+    "3/5",
+    "4/5"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2007-065",
+   "subject": "mathematics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Consider the formula for a natural number n E N: 2+4+8++2n=2n+1+1 To proof this formula a person has used the following argument. Assume the formula is true for n=k, for some k E N. Then the person has shown that the formula is also true for n=k + 1. And then, the person has concluded that, by the Principle of Mathematical induction, the formula is true for all natural numbers n E N. which one of the following statements is true about the above argument?",
+   "options": [
+    "theformulaholdstrue thoughit doesnotworkfor n=1",
+    "since the left-had-side is an even number and the right had side an odd number, the Principle of Mathematicall Induction is False.",
+    "this is one example where the Principle of Mathematical Induction fails to work.",
+    "the above formula does not work for all natural numbers n E N√ Your Answers you have scored O out of 0 Answer Key 1.A 11.B 21.C 31.B 41.C 51.C 61.C 2.B 12.C 22.A 32.B 42.C 52.A 62.A 3.C 13.A 23.D 33.D 43.B 53.D 63.B 4.D 14.C 24.B 34.D 44.D 54.B 64.A 5.A 15.B 25.B 35.B 45.D 55.A 65.D 6.C 16.A 26.B 36.B 46.D 56.D 7.C 17.D 27.C 37.B 47.C 57.B 8.A 18.C 28.A 38.C 48.C 58.B 9.D 19.B 29.B 39.C 49.A 59.D 10.C 20.A 30.C 40.D 50.D 60.A 2019CamaraEducationEthiopia.EthiopianGeneral SecondaryEducationCertificate and UniversityEntranceExaminations"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  }
+ ],
+ "flagged": [
+  {
+   "n": 21,
+   "grid": "C",
+   "tick": "B",
+   "q": "If f and g are continuous on R and a, b e R, which one of the following is neces"
+  },
+  {
+   "n": 46,
+   "grid": "A",
+   "tick": "D",
+   "q": "A measurement is grouped in to five class intervals with the following frequency"
+  }
+ ],
+ "stats": {
+  "questions": 62,
+  "items": 56,
+  "flagged": 2,
+  "grid": 65,
+  "conf": {
+   "grid+tick": 7,
+   "grid": 49,
+   "tick": 0
+  }
+ }
+}

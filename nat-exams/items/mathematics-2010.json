@@ -1,0 +1,783 @@
+{
+ "items": [
+  {
+   "id": "natl-mathematics-2010-001",
+   "subject": "mathematics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which one of the following is true about signum, absolute value and greatest integer functions?",
+   "options": [
+    "sgn(x) = ± I x I, for all x E R.",
+    "I X I = Xsgn(x), for all x E R.",
+    "sgn(x)≤I x I, for all x ≤ 0.",
+    "sgn(x)≤ I x I, for all x ≥ 0"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2010-002",
+   "subject": "mathematics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "What is the equation of the line that passes through (1, 1) and is parallel to the line 3y - x = 1?",
+   "options": [
+    "3x -y = 2",
+    "x + 3y = 4",
+    "3y-x+ 2=0",
+    "x-3y+2=0"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2010-003",
+   "subject": "mathematics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which one of the following is an equation of the circle whose end points of a diameter are (0, -2) and (2, 2)?",
+   "options": [
+    "x² + y2 - 2x - 4 = 0",
+    "x2 + y2 = 4",
+    "(x - 1)² + y2 = 4",
+    "x² + y2 - 2y - 4 =0 [(1)²(1+}"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2010-004",
+   "subject": "mathematics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "What are the greatest lower bound and least upper bound of the sequence respectively?",
+   "options": [
+    "-2 and 2",
+    "-2 and 3/2",
+    "-3/2 and 2",
+    "-2 and -3/2"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2010-005",
+   "subject": "mathematics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "What is the maximum value of the function f(x)= x4 - 2x² on [-2, 1] ?",
+   "options": [
+    "8",
+    "12",
+    "24",
+    "40"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2010-007",
+   "subject": "mathematics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Let A and B be two events. Suppose that the probability that neither event occurs is 3/8. What is the probability that atleast one of the event occur?",
+   "options": [
+    "5/8~",
+    "1/4",
+    "1/8",
+    "3/4 n=2（n-1 17 A 20 21 B. 20 19 20 23 D. 20"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2010-009",
+   "subject": "mathematics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which one of the following is a convergent sequence? (-1)n (B+ si(n) n {1-3n",
+   "options": [
+    "271 [1+2n",
+    "{ 3 limf(x)"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2010-010",
+   "subject": "mathematics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "If a function f is differentiable at a, then what is the value of",
+   "options": [
+    "f'(a)",
+    "f(a)",
+    "f'(a) - f(a)",
+    "0 11. 1f f(x)=ex-1+ 3x² - and (1)=5, what is f(x) ? X A) f(x)=e(x-1)+x33-lnx+3? B) f(x)=e(x-1)-x3+Inx+5? (C)f（x)=ex-1+3x²-+5 X (D)f(x)=ex-1+ 3x² x2"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2010-012",
+   "subject": "mathematics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "If A is a square matrix of order 3 and det(A)=5, then what is the value of det(A.adj(A)) ?",
+   "options": [
+    "3",
+    "5",
+    "25",
+    "125"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2010-013",
+   "subject": "mathematics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "A salesman sold items x1, X2 and x3, with different rates of commissions as shown in the table below. Sales of Unit Months Total Commission (in Birr) X1 X2 X3 February 90 100 20 800 March 130 50 40 900 April 60 100 30 850 What are the rates of commission on items x1, X2 and x3, respectively.",
+   "options": [
+    "4,2 and 11",
+    "4, 11 and 2",
+    "2,4 and 11",
+    "11, 2 and 4 2z"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2010-014",
+   "subject": "mathematics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "If z = -3 + 4i and w= 1 + 2i, then what is the value of + W? M",
+   "options": [
+    "2 + 3i",
+    "3+2iv",
+    "3+ 5i",
+    "3 - 2i"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2010-015",
+   "subject": "mathematics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "The population of a certain city is increasing at a rate of 3% per year. If the population was 100,000 in 2010 E.C., then what will be the population in 2020 E.C? (180 1=01(1) 09:01 = (1) 1 =01(01) 081= (0) :041))",
+   "options": [
+    "130,000",
+    "134,000",
+    "1,060,000",
+    "1,378,000"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2010-016",
+   "subject": "mathematics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "What is the slope of the tangent line to the graph of f(x)= 3ex + sinx + 2 at the point (0, 5)?",
+   "options": [
+    "2",
+    "3",
+    "4~",
+    "5 2x+4"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2010-017",
+   "subject": "mathematics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "What is the value of fJ1x（x+2) dx",
+   "options": [
+    "2",
+    "In2",
+    "In3",
+    "ln4 - ln3"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2010-018",
+   "subject": "mathematics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "What is the area of the region enclosed by the graph of y²= x + 1 and y2 = -x + 1?",
+   "options": [
+    "8/3 sq.units",
+    "4/3 sq. units",
+    "3/8 sq. units",
+    "3/4 sq. units x²+x+1"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2010-020",
+   "subject": "mathematics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "What is the area of the triangle (in sq. units) formed by the lines joining the vertex of the parabola x2 = -36ytotheendpoints of thelatus rectum?",
+   "options": [
+    "126",
+    "162",
+    "216",
+    "261"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2010-021",
+   "subject": "mathematics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "The time needed to type a sample of 8 business letters in an office is 7, 8, 6, 8, 9, 7, 5, 6 minutes. What are the mean andthestandarddeviation(s)ofthedatainminute?",
+   "options": [
+    "x=7,s=V2",
+    "x=7,s=V1.5",
+    "x=8,s=√2",
+    "x=8.s=V15"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2010-023",
+   "subject": "mathematics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Let z . Then what is the value of z ? 1+i",
+   "options": [
+    "i",
+    "-1v",
+    "-i",
+    "1-i *+2, then what i the vlue o lim,(f (x) + g(x)? x3-4x X x→-2 A) -9/8 B) -7/8~ C) 9/8 O D)8"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2010-025",
+   "subject": "mathematics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "What is the value of lim sin 1 x→0x2",
+   "options": [
+    "1/4v",
+    "1/2",
+    "2",
+    "4"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2010-026",
+   "subject": "mathematics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which one of the following is NOT true about the function f(x)= 3x4 - 4x3?",
+   "options": [
+    "(O, O) is point of inflection of f.",
+    "0 and 1 are critical numbers of f.",
+    "f is decreasing on (-oo, 1) and increasing on (1,o).",
+    "fis concave upward on (0, 2/3) and concave downward on (-oo, 0) and on (2/3, ∞o)"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2010-027",
+   "subject": "mathematics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Whatisthe value of x√1 —x² dx?",
+   "options": [
+    "V1-x²+c",
+    "(1 - x2)32+cv ()(1 - x2)3/2+c (D)-2x√1-x²+c 9evx"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2010-030",
+   "subject": "mathematics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Suppose the following are the premises of an argument. He is healthy and he is not angry. He is angry or he is plan fails. His plan does not fail if he does not travel abroad. Given that the premises are true, which one of the following can be a conclusion that makes the argument valid?",
+   "options": [
+    "He travels abroad.",
+    "His plan fails and he is angry.",
+    "His plan does not fail.",
+    "His plans fails and he does not travel abroad."
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2010-031",
+   "subject": "mathematics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "The age distribution of students in a certain class is given below: Age 10 - 1415-1920 - 2425- 29 No.ofStudents2 10 6 7 Whatisthemodalvalueofthedistribution?",
+   "options": [
+    "17.38",
+    "17.83",
+    "18.37",
+    "18.73"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2010-032",
+   "subject": "mathematics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Let A={1, 2, 3, 4, 5, 6, 7}, B={7, 8, 9} and C={8, 9, 10}. If one of the number is deleted randomly from each of these sets, what is the probability that all the three deleted numbers are even or are multiples of 3?",
+   "options": [
+    "1/9",
+    "2/21",
+    "8/63~",
+    "4/5"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2010-033",
+   "subject": "mathematics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Let A be a 33 matrix and|A|= -2.Then what is the value of |adj(A)/? NotAnswered",
+   "options": [
+    "4v",
+    "-2",
+    "-1/2",
+    "-8"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2010-034",
+   "subject": "mathematics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "If the sum of the first three consecutive terms of an arithmetic progression {An, with A, > 0 for all n, is 9 andthesum of theirsquaresis35,thenwhatis the sumsnof thefirstnterms?",
+   "options": [
+    "n² + 1 O1",
+    "n² - 1",
+    "2n² + 1",
+    "n²<"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2010-035",
+   "subject": "mathematics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Let {an} be a sequence with a1 = a1, a2 = f(a1) = f(a), a3 = f(a2 ) = f(f(a)), , an+1 = f(an), where f is a lim an = 5. continuous function. n→00",
+   "options": [
+    "5n",
+    "5~",
+    "5n-1",
+    "1"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2010-036",
+   "subject": "mathematics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "If f(x)=1/3 x3 + cx² + ax + 5 has a local minimum value at x = 1, then which one of the following is true aboutthepossiblevalueofaandc?",
+   "options": [
+    "a=3,c= -2",
+    "a=-2c-1,c<-1",
+    "a=-2c-1,c>-1",
+    "a = -2c - 1, c any real number. f（lnx+x²e-x)dx?"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2010-038",
+   "subject": "mathematics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Let f(x) . Then what is the range of f(x)? x-2",
+   "options": [
+    "R\\{2}",
+    "R",
+    "R\\{-113}",
+    "R{3}< 2x3+2x²+3x"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2010-039",
+   "subject": "mathematics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Which one of the following is true about the graph of f (x) x²+x",
+   "options": [
+    "The graph has y-intercept at (0, 3).",
+    "The vertical asymptote of the graph is only x = -1 and its oblique asymptote is y = 2x.",
+    "The graph has at least one x-intercept.",
+    "The vertical asymptotes of the graph are at x = 0 and x = -1 but it has no horizontal asymptote."
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2010-040",
+   "subject": "mathematics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "A private college has 1000 students. 60% of these students are males. 45% of these students pay their payment by credit card including 175 females. What is the probability that the student is a male or a credit card user?",
+   "options": [
+    "0.675~",
+    "0.225",
+    "0.775",
+    "0.325"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2010-041",
+   "subject": "mathematics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "If z = (1 + 3i)(1 + i), then which one of the following is the polar representation of z?",
+   "options": [
+    "z= 2√2 (cos(105°) +i sin(105°)",
+    "z = 2√2 (cos(150) + isin(15°)) ((0s01)us! + (0s01)s00) = z (5 D) z = 4(cos(75°) + i sin(75°)) En=13m4-n?"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2010-042",
+   "subject": "mathematics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "What is the sum of the series",
+   "options": [
+    "8",
+    "3/6",
+    "4",
+    "3 d1og2V6x？"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2010-044",
+   "subject": "mathematics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Let f(x) = In(xVx). Then what is f '(x) equal to?",
+   "options": [
+    "2x/3",
+    "√x/2",
+    "3/2x",
+    "2/xVx"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2010-045",
+   "subject": "mathematics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "What is the maximum possible area of a rectangle in square units with diagonal of length 16 units?",
+   "options": [
+    "128",
+    "64",
+    "48",
+    "256"
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2010-047",
+   "subject": "mathematics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "What are the values of a and b so that the function f(x) = 3ax + b,1 ≤ x < 2 is continuous everywhere? 3x,x≥2",
+   "options": [
+    "a=4,b=2",
+    "a=4,b = -2v",
+    "a= -4,b = -2",
+    "a= -4,b = 2"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2010-048",
+   "subject": "mathematics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "A cylindrical tank whose inner diameter is 2m contains 4π m? oil. If the oil discharged from the tank at the rate of (2π/3) m?/min, then how long (in min) does it take for the tank to be empty?",
+   "options": [
+    "4/3",
+    "4",
+    "6v",
+    "12"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2010-050",
+   "subject": "mathematics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "The variance of20 observation is 5. If each observation is multiplied by 2,then what is thevariance of the resultingobservations?",
+   "options": [
+    "5",
+    "10",
+    "40",
+    "20"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2010-051",
+   "subject": "mathematics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "If f(x) = klnx + esinx and f \"(π) = -1, then what is the value of k?",
+   "options": [
+    "π",
+    "2π²~",
+    "π2",
+    "2π"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2010-055",
+   "subject": "mathematics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "If, in ΔABC,AB = 3, BC = 4 and m(B)= 60°, then what are the length of AC and the cosine of A, respectively? x-2 _y-3 A -1 2 6",
+   "options": [
+    "13 and /13",
+    "13 and √13",
+    "V13 and -6 5√13"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2010-056",
+   "subject": "mathematics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Let P(n) be an open proposition on the set of natural numbers (N). Which one of the following is a correct application of the principle of mathematical induction?",
+   "options": [
+    "If P(1) is true for n = l; and if both P(n) and P(n+1) are true for certain n E N, then P(n) is true for all n E N.",
+    "If P(10) is true; and if p(n) is true implies that p(n+1) is true, then p(n) is true for all n E N.",
+    "If p(10) is true; and assuming p(n) is true for any n > 10 if it follows that p(n+1) is true, then p(n) is true for all n≥10",
+    "If p(1) is true; and p(n) = p(n+1) is true for any n E N, then p(n) is true for all n?N.<"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2010-057",
+   "subject": "mathematics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "If the image of the line 2x - 3y = 7 under a translation is 2x - 3y = 0, which one of the following is a translationvector of thetranslationline?",
+   "options": [
+    "U = (-2, 1)",
+    "U =(1, -2)",
+    "U = (-1, 2)",
+    "U = (2, -1)"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2010-058",
+   "subject": "mathematics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Let P = (1, α, α) and Q=(α - 1, 1, 1) be two points in space and the distance between P and Q is 3. Then whatis thevalue(s) of a?",
+   "options": [
+    "α=-3,α= 1?3",
+    "&alpha =1,α = -9",
+    "α=-1,α =9",
+    "α =3,α = -1/3"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2010-059",
+   "subject": "mathematics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "What is the image of the circle x2 + y2 - 4x - 6y + 12 = 0 when it is reflected with respect to the line y = -x?",
+   "options": [
+    "(x - 2)² + (y - 3)² = 1",
+    "(x + 3)² + (y + 2)² = 1",
+    "(x + 2)² + (y + 3)² = 1",
+    "(x - 3)² + (y - 2)² = 1"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2010-062",
+   "subject": "mathematics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Let I be the line given by the vector equation (x, y)=(-2, 1)+2(1,1), 2eR, which one of the following is the equation of the image of 1 after being translated by the vector u=(2, -1) followed by a rotation through 450 about the origin?",
+   "options": [
+    "y = -2v2",
+    "y=√2",
+    "y= v2",
+    "x=0"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2010-063",
+   "subject": "mathematics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "What is the period (p) and the range o (x) = 5 sin x + 2+ 3?",
+   "options": [
+    "P = 6π, range =[-5, 5]",
+    "P = 6π, range = [-2, 8] 2nt Cp ,range=[-5,5] 3 ）p=π，range=[-2,8]"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2010-064",
+   "subject": "mathematics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "LetA=（a,2,5),fora>0,beapointonthespherex²+y²+z²-6z=0andCbethe centerofthesphere.IfP(k,2,4)isapointinspacesuchthatPAisperpendicularto CA,whatisthecosineoftheanglebetweenPAandPC? 5",
+   "options": [
+    "√35 L A. 5— A. √35 √35 o-u O A) 14",
+    "10",
+    "4",
+    "18 Submit 2019CamaraEducationEthiopia.EthiopianGeneralSecondaryEducationCertificateandUniversityEntranceExaminations"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2010-065",
+   "subject": "mathematics",
+   "year": 2010,
+   "yearCal": "EC",
+   "q": "Whatistevau o lim[23+ 5(] n→00",
+   "options": [
+    "14~",
+    "10",
+    "4",
+    "18 Your Answers you have scored O out of O Answer Key 1.A 11.A 21.B 31.B 41.A 51.B 61.A 2.D 12.D 22.D 32.C 42.D 52.C 62.D 3.A 13.C 23.B 33.A 43.D 53.A 63.B 4.B 14.B 24.B 34.D 44.C 54.D 64.C 5.A 15.B 25.A 35.B 45.A 55.B 65.A 6.D 16.C 26.D 36.D 46.D 56.D 7.A 17.C 27.B 37.A 47.B 57.A 8.C 18.A 28.C 38.D 48.C 58.D 9.D 19.B 29.D 39.B 49.A 59.B 10.B 20.B 30.A 40.A 50.D 60.C @ 2019 Camara Education Ethiopia.Ethiopian General Secondary Education Certificate and University Entrance Examinations"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  }
+ ],
+ "flagged": [
+  {
+   "n": 52,
+   "grid": "C",
+   "tick": "?",
+   "q": "If 0 is the fourth quadrant angel and sec 0 = √2 then what is csc0 equals to? 1",
+   "why": "duplicate options"
+  }
+ ],
+ "stats": {
+  "questions": 54,
+  "items": 48,
+  "flagged": 1,
+  "grid": 65,
+  "conf": {
+   "grid+tick": 6,
+   "grid": 42,
+   "tick": 0
+  }
+ }
+}

@@ -1,0 +1,734 @@
+{
+ "items": [
+  {
+   "id": "natl-physics-2008-002",
+   "subject": "physics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "What is the necessary and sufficient condition for conservation of linear momentum?",
+   "options": [
+    "The presence of more linear than non linear forces in the system.",
+    "Net force on the system is zero.",
+    "The presence of only non-linear forces.",
+    "Internalforcesexceed externalforces."
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2008-003",
+   "subject": "physics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "Which statement is wrong about units and dimensions?",
+   "options": [
+    "Two quantities can have the same units but different dimensions.",
+    "Two quantities can have the same dimensions but different units.",
+    "It is always possible to add two numbers that have the same units.<",
+    "There are quantities that have no units and dimension."
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2008-004",
+   "subject": "physics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "An airplane flies at speed of 720.0 km/hr at 37° North of west direction. How far does the plane travel to the west in 1 hour?",
+   "options": [
+    "432km",
+    "720km",
+    "576km",
+    "504km FA,FBand Fc"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2008-005",
+   "subject": "physics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "Abrehet (A), Bekele(B) and Chaltu(C) are pulling a box horizontally with forces respectively as shown below, which statement is correct if the box is in equilibrium? B",
+   "options": [
+    "FA=FBXFC",
+    "-FA=FBXFC",
+    "FA=FB.FC",
+    "FA=FB-FC"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2008-006",
+   "subject": "physics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "Determine the torque in Nm due to a force F =(2i 3j + 4k)N acting at point r=(3i + 2j + 3k)m about the origin?",
+   "options": [
+    "6i ?6j+12K",
+    "-6i + 6j + 12k",
+    "17i -6j 13kv",
+    "-17i+ 6j + 13k"
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2008-007",
+   "subject": "physics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "An airplane travelled from Addis Ababa to Mekele, 780km in 45minutes. What was it average speed?",
+   "options": [
+    "0.28m/s",
+    "1040km/hrv",
+    "17.3m/min",
+    "585km/hr"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2008-008",
+   "subject": "physics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "An example of a body moving with constant speed but still accelerating is",
+   "options": [
+    "a body moving on a straight road.",
+    "a body moving on a straight railway track",
+    "a body moving in a circular path",
+    "a body falling in a viscous fluid."
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2008-009",
+   "subject": "physics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "A student moves along the boundary of a square field of side 10m in 40sec. if he starts from one end of the cornersof thesquarewhatwillbethemagnitude of thedisplacement of thestudentattheend of2minutes and 20secondsfromhis initialposition?",
+   "options": [
+    "10m",
+    "10√2m",
+    "40m",
+    "30m"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2008-010",
+   "subject": "physics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "The graph below illustrates the position and time for a cat that runs to catch a rat and then returns with it. The cat caught the rat after 2 seconds. What was the cats average speed as it returned with rate? (u)uopsod Timefel",
+   "options": [
+    "its average return speed was 2m/s.",
+    "its average return speed was 4m/s.",
+    "its average return speed was 0.7m/s.",
+    "it average return speed was 0.9m/s."
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2008-012",
+   "subject": "physics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "A rod PQ is attached at P to a vertical wall, as shown in the figure below. The length of the rod is 1.8m. The weight W of the rod acts at 0.60m from P. the rod is kept horizontal and in equilibriums by a wire attached to Q and to the wall at R. The wire provides a force F on the rod of 50N at 30° to the horizontal. By taking momentsaboutP determinetheweightWof therod. R wire NotAnswered rod 30° 1.2m 0.6m W",
+   "options": [
+    "130N",
+    "150N Q",
+    "75N~",
+    "50N"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2008-014",
+   "subject": "physics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "Find the distance of the center of mass of the system shown in the diagram from point A. The rod is mass less 3k 3k 3k 2k D 3m 3m 1m",
+   "options": [
+    "3.73m",
+    "2.09m",
+    "2.45m",
+    "5.86m"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2008-015",
+   "subject": "physics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "The area under a force versus distance graph represents",
+   "options": [
+    "acceleration",
+    "the change in energyl",
+    "the change in momentum",
+    "work done"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2008-017",
+   "subject": "physics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "Whichstatementiscorrect aboutconservative and dissipativeforce?",
+   "options": [
+    "The work done by conservative forces is path dependent.",
+    "The work done along a closed path by non-conservative forces is non zero."
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2008-018",
+   "subject": "physics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "The rotational analogue of mass is",
+   "options": [
+    "momentofinertia",
+    "torque",
+    "angular momentum",
+    "angular acceleration"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2008-019",
+   "subject": "physics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "A fly wheel is rotating with an angular velocity of 2.0rad/s acted by an acceleration of 1/z rad/s2. How long will ittaketocompletethreerevolutions?",
+   "options": [
+    "0.5πsec",
+    "πsec D) 2πsecv O D) 2πsec2"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2008-020",
+   "subject": "physics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "If the impulse of a rotating disc is non zero what can you conclude?",
+   "options": [
+    "The change in linear momentum is zero.",
+    "The torque acting on object is constant.",
+    "Impulse of the disc equals its moment of inertia.",
+    "The change in angular momentum is non zero."
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2008-021",
+   "subject": "physics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "The number of joules of heat energy required to raise the temperature of a body by 1k is",
+   "options": [
+    "heat capacity",
+    "specific heat capacity",
+    "expansion coefficient",
+    "calorific value"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2008-022",
+   "subject": "physics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "A simple pendulum is made using a long thin metal wire. What happens to the period of the pendulum when the temperature drops?",
+   "options": [
+    "increase",
+    "remain the same",
+    "decreaseV",
+    "period of oscillation has random dependence on temperature."
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2008-023",
+   "subject": "physics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "Pressure at the bottom of a liquid column is independent of:",
+   "options": [
+    "shape of the column",
+    "the density of the fluid",
+    "the depth of the point",
+    "the acceleration due to gravity."
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2008-024",
+   "subject": "physics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "The definition of Youngs modulus is given by",
+   "options": [
+    "force per unit areav",
+    "ratio of strain to stress",
+    "ratio of stress to strain",
+    "force per unit elongation"
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2008-025",
+   "subject": "physics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "A water pipe has a diameter of 5.0cm in the in let side and 1.5cm in the out let side. Water flows at 0.50m3 per minute at the in let paint. What is the speed of the water at the out let point?",
+   "options": [
+    "46.99m/s",
+    "13.33m/s",
+    "74.1m/s",
+    "148.1m/s"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2008-027",
+   "subject": "physics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "A billiard ball of radius 4cm is falling through a liquid of viscosity 0.985 at a velocity of 2.5m/s the drag forceontheball is",
+   "options": [
+    "0.591πN",
+    "0.118πN",
+    "1.82πN",
+    "0.059πN"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2008-028",
+   "subject": "physics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "Which one of the following statements is correct?",
+   "options": [
+    "Elastic materials retain their shape after deformation.",
+    "Plastic materials can recover the original size or shape after being distorted.",
+    "Plastic materials change their shape by pressure.",
+    "Elastic materials cannot recover the original size or shape after being distorted."
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2008-029",
+   "subject": "physics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "Two bodies that are separately in thermal equilibrium with their body must be in thermal equilibrium witheachother.Thisstatementisstatementof",
+   "options": [
+    "The first law of thermodaynamics.",
+    "The zeroth law of thermodynamics.",
+    "The second law of thermodynamics.",
+    "The third law of thermodynamics."
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2008-031",
+   "subject": "physics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "Three resistors connected in series have individual voltages labelled,Av1, Av2 and Av, respectively. Which of the following expresses the value of the voltage Avr taken over the three resistors together?",
+   "options": [
+    "Δ=v+v2+v",
+    "Δv=v=v2=v3",
+    "ΔvT Δv1 Δv2",
+    "ΔvT Δv2 Δv"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2008-032",
+   "subject": "physics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "Which instrument should ideally have zero resistance?",
+   "options": [
+    "Wheatstone bridge",
+    "Oscilloscope",
+    "voltmeter",
+    "Ammeter"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2008-033",
+   "subject": "physics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "What fundamental frequency can a string vibrate at if it is 30cm long and the velocity of traveling waves along the string is 120m/s?",
+   "options": [
+    "400Hz",
+    "600Hz",
+    "800Hz",
+    "200Hzv"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2008-034",
+   "subject": "physics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "The hearing curve shown below indicates the vibration of the threshold of hearing with frequency. The ear is most sensitive at thepointindicated by 35 111111 IID 30 25  20 I 15  11111 1111 1111 10 0 1 1 \"NUB! -5 TIT TITIm -10 1 HHII 101 102 103 104 105",
+   "options": [
+    "A",
+    "C~",
+    "B",
+    "D"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2008-036",
+   "subject": "physics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "The viewed in white light soup bubbles show color because of",
+   "options": [
+    "interference",
+    "dispersion",
+    "scattering",
+    "diffraction"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2008-037",
+   "subject": "physics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "In the sketch below, which best describes the location of the negative charges (electrons) when a negatively charged rod is brought near but not touching the conducting sphere?",
+   "options": [
+    "C",
+    "D",
+    "A",
+    "B"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2008-038",
+   "subject": "physics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "Whatisthepotential(V)atadistanceof10mfromachargeof+5.oC?",
+   "options": [
+    "?4.45 x 109v",
+    "-0.5V",
+    "+4.45 x 109v",
+    "+0.5V"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2008-039",
+   "subject": "physics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "A positive charge of 1.0 x 10-4C is on the negatively charged plate of a parallel plate capacitor as shown below. If the potential(V) on the top plate is +10,000V and that of the bottom plate is -10,00oV, how much work (w) is required to move the charge from the bottoms to the top plate? ++++++++ +q",
+   "options": [
+    "2.0J",
+    "1.0J",
+    "zero",
+    "2.0 x 104"
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2008-040",
+   "subject": "physics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "Which of the following statements is NOT correct about galvanometer?",
+   "options": [
+    "it is used to measure small amount of current.",
+    "it has infinite resistance",
+    "it can be used to measure voltage if shunted with large load in series.",
+    "its working principle is the same as that of the electric motor."
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2008-041",
+   "subject": "physics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "The activity of a radioactive source falls to one sixteenth of its original value in 32 minutes. What is the half-life in minutes of this decay process?",
+   "options": [
+    "2min",
+    "8min",
+    "4min",
+    "16min"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2008-042",
+   "subject": "physics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "Which statements is Not correct about emission from radioactive isotopes?",
+   "options": [
+    "Alpha particles are positively charged and less penetrating than beta and gamma.",
+    "Beta particles are negatively charged and more penetrating than alpha particles.",
+    "Alpha emissions are least influenced by magnetic field.",
+    "the most penetrating emissions are gamma particles."
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2008-043",
+   "subject": "physics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "The torque experienced by a current carrying loop, in an external, magnetic field is:",
+   "options": [
+    "Independent of the number of turns of the loop.",
+    "Independent of the current in the loop.",
+    "Dependent on the orientation of the loop.",
+    "Dependent on magnetic field generated according to Lenzs law."
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2008-044",
+   "subject": "physics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "Two long wires of the same length and cross sectional area carry the same amount of current. Which one of the following statements is correct about the magnetic field and the magnetic forces on the wires?",
+   "options": [
+    "The magnetic field is zero at the midpoint between the wires when the currents are in the same direction.",
+    "The force is attractive between the wires when they carry current in opposite direction.",
+    "The magnetic fields between the wires reinforce each other when the currents are in the same direction.",
+    "The magnetic field due to one is proportional to the current through the other wire."
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2008-045",
+   "subject": "physics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "Self-inductance is a quantity that describes",
+   "options": [
+    "The number of turns in a circuit.",
+    "The induction of tan electric field by an AC current in alone coil.",
+    "The induction of ta magnetic field by an AC current in alone coil.",
+    "The steady state current in a coil."
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2008-046",
+   "subject": "physics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "Which conversion process forms the bases for thefunction of an electric generator?",
+   "options": [
+    "Alternating current to direct.",
+    "Mechanical energy to electrical.",
+    "Electrical energy to mechanical.",
+    "Low voltage to high voltage or vice versa."
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2008-047",
+   "subject": "physics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "What is the change in magnetic flux in a coil of area 5m2 as its orientation relative to the perpendicular of uniform 3.0T magnetic field changes from 45° to 90°? NotAnswered",
+   "options": [
+    "oWb",
+    "-11Wbv",
+    "7.5Wb",
+    "11Wb"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2008-048",
+   "subject": "physics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "A simple transformer is illustrated in the figure below, why is it that the core is laminated? Primary Secondary core Input Load Jresistor Laminated iron core",
+   "options": [
+    "To increase the induced current in the primary coil.",
+    "To increase the induced current in the secondary coil.",
+    "To avoid heat exchange between the primary and secondary coils.",
+    "To reduce the loss in power in the core due to eddy currents."
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2008-050",
+   "subject": "physics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "In photo electric effect, the energy of photoelectrons is proportional to the",
+   "options": [
+    "Frequency of lightv",
+    "Intensity of light",
+    "Speed of light",
+    "Absorbanceofthemetal Your Answers you have scored O out of 0 Answer Key 1.A 11.C 21.A 31.A 41.C 2.B 12.C 22.C 32.C 42.C 3.C 13.D 23.A 33.D 43.C 4.C 14.A 24.A 34.B 44.A 5.B 15.D 25.A 35.B 45.C 6.C 16.B 26.C 36.B 46.B 7.B 17.B 27.A 37.D 47.B 8.C 18.A 28.A 38.C 48.C 9.B 19.C 29.B 39.A 49.B 10.D 20.D 30.D 40.C 50.A ? 2019CamaraEducationEthiopia.EthiopianGeneral SecondaryEducationCertificate and UniversityEntranceExaminations"
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  }
+ ],
+ "flagged": [
+  {
+   "n": 1,
+   "grid": "A",
+   "tick": "?",
+   "q": "A man is standing on a spring scale in an elevator. When the elevator is at rest",
+   "why": "duplicate options"
+  },
+  {
+   "n": 11,
+   "grid": "A",
+   "tick": "C",
+   "q": "A uniform 6m long and 6ooN beam, rest on two supports as shown. The forces exert"
+  },
+  {
+   "n": 13,
+   "grid": "A",
+   "tick": "D",
+   "q": "A large mass (A and a small mass (B) are pushing one another apart, as shown in "
+  },
+  {
+   "n": 16,
+   "grid": "A",
+   "tick": "B",
+   "q": "A net external non zero force acts on a particle that is moving along a straight"
+  },
+  {
+   "n": 26,
+   "grid": "A",
+   "tick": "C",
+   "q": "A metal ball has a diameter that is slightly greater than the diameter of a hole"
+  },
+  {
+   "n": 30,
+   "grid": "A",
+   "tick": "D",
+   "q": "A device for transforming heat energy to mechanical energy is referred to as Not"
+  },
+  {
+   "n": 35,
+   "grid": "A",
+   "tick": "B",
+   "q": "A wavelength is"
+  },
+  {
+   "n": 49,
+   "grid": "A",
+   "tick": "B",
+   "q": "A common unit of energy in atomic physics is"
+  }
+ ],
+ "stats": {
+  "questions": 50,
+  "items": 42,
+  "flagged": 8,
+  "grid": 50,
+  "conf": {
+   "grid+tick": 15,
+   "grid": 27,
+   "tick": 0
+  }
+ }
+}

@@ -1,0 +1,836 @@
+{
+ "items": [
+  {
+   "id": "natl-mathematics-2008-001",
+   "subject": "mathematics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "Which one of the following is a one to one correspondence function from A=[0, 1] to B=[1, 2]?",
+   "options": [
+    "f(x) =",
+    "f(x)= 1/3x3 + 1",
+    "f(x)= 2x + 1",
+    "f(x) =x² + 1v"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2008-002",
+   "subject": "mathematics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "Whatisthesolutionsetof- 3x2 1+",
+   "options": [
+    "{-1, 1/3}",
+    "{1/3}",
+    "{3, -1/3}",
+    "{-1/3}"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2008-003",
+   "subject": "mathematics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "Suppose x ? , where Q(x) is a quadratic function. Which one of the following is 1 1+ x2 necessarily true about the graph of f.",
+   "options": [
+    "x = 0, x = 1 and x = -1 are vertical asymptotes of graph of f.",
+    "the graph of f doesn't intersect with its horizontal asymptote.",
+    "the vertical asymptotes of the graph of f is only x = -1",
+    "the vertical asymptotes of graph of f are x = land x = -1 if Q(x) = 2x2."
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2008-004",
+   "subject": "mathematics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "Which one of the following is equation of a circle whose center is on y-axis and radius is 3?",
+   "options": [
+    "x² + y2 + 6y = 0",
+    "(x-2)2 + y2 = 9",
+    "x² + (y-2)2 = 9",
+    "x2 -2x + y2= 8"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2008-005",
+   "subject": "mathematics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "The planet Mercury's orbit around the sun is an ellipse with eccentricity 0.206, length of the major axis 1.16 x 10* km and the sun at one focus. What is the max distance from Mercury to the sun?",
+   "options": [
+    "6.99 x 108 km",
+    "6.99 x 107 km",
+    "9.66 x 107 km",
+    "9.66 x 108 km"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2008-006",
+   "subject": "mathematics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "The graph of a hyperbola and the lines of its asymptotes are given as shown in the following figure. Which one of the following is an equation of the hyperbola? y=x+1 y=-x+1",
+   "options": [
+    "y2 - 2y - x² = 0",
+    "y2 - 3y -x² = 0",
+    "x² - (y-1)2 = 1",
+    "(x-1)² - y² = 1"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2008-007",
+   "subject": "mathematics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "If the truth value of a proposition p is False, then which one of the following compound proposition has a truthvalueTrue?",
+   "options": [
+    "-p ^p",
+    "-p>p",
+    "-(-p V p)",
+    "p = -p"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2008-008",
+   "subject": "mathematics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "What is the contrapositive of \"If x E N, then x is integer and x > 0.\"?",
+   "options": [
+    "if x is not integer or x < O, then x E N",
+    "if x is integer or x > 0, then x E N",
+    "if x is not integer or x ≤ 0, then x N",
+    "if x N, then x is not integer and x ≤"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2008-009",
+   "subject": "mathematics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "Which one of the following compound propositions is a tautology?",
+   "options": [
+    "(q v -q) =p",
+    "p =(p V-q)",
+    "p v (q ^ -q)",
+    "p >(q^ -q)"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2008-010",
+   "subject": "mathematics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "The following is sample frequency distribution of data with variable x. X 3 5 6 7 Frequency 2 5 2 1 What are themean(x)and variance(82)of the data?",
+   "options": [
+    "x= 5,8²=0.7",
+    "x=6,8²=1.4",
+    "x=6,8²=0.7",
+    "x=5,8²=1.4~"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2008-011",
+   "subject": "mathematics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "Aboxcontains10items ofwhich3aredefective.If2items arerandomly taken outof thebox,whatis the probability thatboth items are not defective?",
+   "options": [
+    "7/10",
+    "4/7",
+    "7/15~",
+    "49/100"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2008-012",
+   "subject": "mathematics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "Items produced by accompany are subjected to two kinds of defects D1 and D2. Out of the total product, 5%have the defect D1,10%have defect D2,and 2%have both defects.What is the probability that a randomly selected item has neither defect D1 nor defect D2?",
+   "options": [
+    "0.13",
+    "0.5",
+    "0.98",
+    "0.87√ 2"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2008-015",
+   "subject": "mathematics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "In set of complex numbers, what is the solution set of x2 + 4x + 5 = 0?",
+   "options": [
+    "{0}",
+    "{1 -2i, 1 + 2i}",
+    "{2 -i, 2 +i}",
+    "{-2 -i,-2 +i}"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2008-016",
+   "subject": "mathematics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "If z = (1 + i)10, then which one of the following is equal to z?",
+   "options": [
+    "1 + 32i",
+    "32iv",
+    "10i",
+    "1+10i"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2008-017",
+   "subject": "mathematics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "If is an arithmetic sequence such that its 1st term A1 = -5 and its 5th term A5 = 15, then its 11th AnSn=1 term Ai1 is equal to:",
+   "options": [
+    "40",
+    "50",
+    "45~",
+    "55"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2008-018",
+   "subject": "mathematics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "Whatisthesum of allmultiplesof4 that arebetween30and301?",
+   "options": [
+    "12,882",
+    "11,288",
+    "6,288",
+    "6,882 xex-1x1"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2008-019",
+   "subject": "mathematics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "The left hand side limit lim is equal to: x-0-",
+   "options": [
+    "0",
+    "2",
+    "1",
+    "does not exist"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2008-020",
+   "subject": "mathematics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "Which one of the following is equal to lim 2x+tanx 0-x xsecx",
+   "options": [
+    "2",
+    "0",
+    "1",
+    "3√ x+"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2008-021",
+   "subject": "mathematics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "Which one of the following is true about the horizontal asymptote(s) of the graph of y=",
+   "options": [
+    "y = 2 is the only horizontal asymptote of the graph.",
+    "y = 1 & y = -1 are the horizontal asymptote of the graph.",
+    "y = 2 & y = -2 are the horizontal asymptote of the graph.",
+    "y = 1 is the only horizontal asymptote of the graph. f（x)-f（1)"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2008-022",
+   "subject": "mathematics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "If f(x) = 2x² - 3x, then lim is equal to: NotAnswered x-1 x-1",
+   "options": [
+    "1",
+    "-1",
+    "7~ ○D8 x+π"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2008-023",
+   "subject": "mathematics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "If f -XSO3 ,then f'(o) is equal to: x²+2",
+   "options": [
+    "3-π/2",
+    "3/2",
+    "7/4",
+    "5/2√ NotAnswered X 2x x²-5"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2008-025",
+   "subject": "mathematics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "Let f be twice differentiable function on R. which one of the following is necessarily true?",
+   "options": [
+    "if f(c) =O, at some c E R, then f has relative extreme at x = c.",
+    "if f(x) is increasing, then graph of y= f(x) is concave upward.",
+    "if f(x) = 0 for all x E R, then f(x) =0 for all x E R",
+    "if f(x) is increasing, then f\"(x) = O for all x E R"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2008-026",
+   "subject": "mathematics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "Suppose f(x) is differentiable on (-oo, o) and the graph of its derivative, y= f(x) is as shown in the following figure. y=f\"(x)",
+   "options": [
+    "f(x) is increasing on (-∞o, 0) U (2, ∞)",
+    "f(x) has a local extreme value at x = 2",
+    "f(x) has a local minimum value at x = -2",
+    "f(x) has a local maximum value at x = 0"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2008-029",
+   "subject": "mathematics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "Which one of the following is equal to dx?",
+   "options": [
+    "1/x2 Inx + x sinx - cosx +c",
+    "1/3 (lnx)3 + x sinx - cosx + c ）",
+    "1/3 (lnx)3 + x sinx + cosx + c",
+    "1/x2 Inx + x sinx + cosx + c (x², 0≤x≤2"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2008-030",
+   "subject": "mathematics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "The volume of the solid generated when the region bounded between graph of y = and 4,2≤x≤3 x-axis is rotated about the x-axis:",
+   "options": [
+    "32π/5",
+    "112π/5~",
+    "112π/3",
+    "64π/5"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2008-031",
+   "subject": "mathematics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "If f: A B and g: B —→ C are functions, then which one of the following is true about the composition function?",
+   "options": [
+    "domain of g°f domain of f",
+    "range of g o f Ω range of g",
+    "domain of g of domain of f",
+    "range of g o f range of f"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2008-032",
+   "subject": "mathematics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "If the point (3, -2) is on the graph of y = f(x), then which point is on the graph of y = f -1(x)?",
+   "options": [
+    "(1/3,-2)",
+    "(3, -1)",
+    "(-2,3)",
+    "(3, -1/2)"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2008-033",
+   "subject": "mathematics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "The equation of the line that passes through (2,-1) and perpendicular to the line 3x + 4y = 6 is:",
+   "options": [
+    "-4x + 3y = 5",
+    "4x -3y= 5",
+    "4x + 3y = 11",
+    "-4x + 3y = -11 2-4i"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2008-034",
+   "subject": "mathematics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "IfZ= then themodusoftheconjgatfis 1+i",
+   "options": [
+    "√10",
+    "3√2",
+    "2√3",
+    "2√2"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2008-035",
+   "subject": "mathematics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "The nth term of the sequence: 1, -4, 9, -16... is:",
+   "options": [
+    "an = (-2)n",
+    "an = (-1)\"n2",
+    "an = (-1)2\"n2",
+    "an = (-1)n-1n² 1x|+2"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2008-036",
+   "subject": "mathematics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "Which one of the following is true about the horizontal asymptote(s) of the graph of y = X",
+   "options": [
+    "y = 2 is the only horizontal asymptote of the graph.",
+    "y = 1 and y = -1 are the horizontal asymptotes of the graph.",
+    "y = 2 and y = -2 are the horizontal asymptote of the graph.",
+    "y = 1 is the only horizontal asymptote of the graph."
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2008-037",
+   "subject": "mathematics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "For any n x n square matrix A, which of the following is true?",
+   "options": [
+    "Det (A) = - det (AT), where AT is the transpose of A",
+    "If k is a scalar, then det (kA)=kn det (A)",
+    "If B is a matrix obtained from A by interchanging of two rows of A, then det (B) = det (A)",
+    "If A is invertible, then det (A) = det (A(-1) x-3y-2z=6"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2008-038",
+   "subject": "mathematics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "The solution of the system of linear equation of 2x-4y-3z=8is: （-3x+6y+8z=-5",
+   "options": [
+    "x =-1,y =-3, z=-2",
+    "x=-1,y=-3,z=2",
+    "x=1,y=-3,z=2v",
+    "x=1,y=3,z=-2"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2008-040",
+   "subject": "mathematics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "In how many more ways can 4 people be arranged in a row than if they were arranged in a circle?",
+   "options": [
+    "1",
+    "6",
+    "18",
+    "12"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2008-042",
+   "subject": "mathematics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "Which of the following is true about the function f defined by f(x)=x² + e2x ?",
+   "options": [
+    "fisdecreasingforx=0",
+    "fis increasing for x = 0",
+    "f has a relative minimum x = 0",
+    "f has a relative maximum at x = 0 (x+1)e（x²+2x）dx"
+   ],
+   "answer": 3,
+   "confidence": "tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2008-044",
+   "subject": "mathematics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "J（x+ 1)2 dx=",
+   "options": [
+    "21/2",
+    "14/3",
+    "7",
+    "16/3 （x+1,forx<0"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2008-045",
+   "subject": "mathematics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "Given f（x)= f（x)dx= 2 T 1",
+   "options": [
+    "2 π",
+    "1/2",
+    "-1/2"
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2008-046",
+   "subject": "mathematics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "The sum of 7 Ln=0",
+   "options": [
+    "0",
+    "15~",
+    "10/3",
+    "5"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2008-048",
+   "subject": "mathematics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "Which one of the following is true about the function given by the formula f（x)= x （0,x=0",
+   "options": [
+    "fis continuous except at x = 0",
+    "f has an infinite discontinuity at x = 0",
+    "fis continuous everywhereV",
+    "f has x = O as a vertical asymptote"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2008-049",
+   "subject": "mathematics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "Lim xsinis equal to :? 1 x→co X",
+   "options": [
+    "0",
+    "1v",
+    "8",
+    "-1 d 50. (lne2x) is equal to :? dx 2 B"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2008-051",
+   "subject": "mathematics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "If f(x)= 2 + | x -3 | for all x, then the value of the derivative f'(x) at x = 3",
+   "options": [
+    "-1",
+    "Does not exist",
+    "1",
+    "2"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2008-052",
+   "subject": "mathematics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "The graph of y = 5x4 - x has a point of inflection at:",
+   "options": [
+    "(3, 162) only",
+    "(4, 256) only",
+    "(0, 0) only",
+    "(0, 0) and (3, 162)"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2008-053",
+   "subject": "mathematics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "Let the angle betweenV=-2i-j+ 2k and PQ be 60°,where PandQ are points in space.If V.PQ=2,then what is the distance between Pand Q?",
+   "options": [
+    "3/4",
+    "4/5",
+    "4/3~",
+    "5/4"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2008-056",
+   "subject": "mathematics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "The image of a figure with vertices A(1, 2), B(3, 6), C(-1, 2), and D(-2, -2) after reflection across the x-axis is:",
+   "options": [
+    "A'(1, -2), B'(-3, -6), C'(1, -2), and D'(2, 2)",
+    "A'(-1, 2), B'(-3, 6), C'(1, -2), and D'(2, -2)",
+    "A'(1, 2), B'(3, -6), C'(-1, -2), and D' (-2, 2)",
+    "A'(1, -2), B'(3, 6), C'(-1, 2), and D'(-2, -2) following is equal to 3V NotAnswered A6AB B.-6AB C. 12AB D.-12AB"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2008-058",
+   "subject": "mathematics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "FisaunitvectointhedirectionfAan|=4,heAisequal",
+   "options": [
+    "4",
+    "1/2",
+    "2"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2008-060",
+   "subject": "mathematics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "If cot(0) = 2, then which of the following is equal to csc(0)?",
+   "options": [
+    "√5~",
+    "2/√5",
+    "1/N5",
+    "1/2"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2008-061",
+   "subject": "mathematics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "What is the amplitude and period, respectively, of the graph of f(x)= 4sin (x/3) cos(x/3)?",
+   "options": [
+    "4, π/3",
+    "2,3πV",
+    "2,2π/3",
+    "4,3π"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2008-062",
+   "subject": "mathematics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "Aboat on aseasailedfromitsstation towardNorthwithconstantspeed of80km/h.Anotherboatfromthe same station sailed 60° NE (North East) with constant speed of 100km/h. If the two boats started sailing at the same time, what is the straight distance between them after they have sailed for just 30 minutes?",
+   "options": [
+    "10 42km",
+    "90km",
+    "10 √41 km",
+    "10 √21kmv 2k"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2008-063",
+   "subject": "mathematics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "What is the value k, for which the two vectors k andv areperpendicular?",
+   "options": [
+    "4",
+    "-4v",
+    "3",
+    "-3"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2008-064",
+   "subject": "mathematics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "If one of the end point of the line segment is (3, 2, -4) and the mid-point is (4, 1, -2), then the coordinate of the other end point is:",
+   "options": [
+    "(5, 0, 0)",
+    "(2, 0, 5)",
+    "(5, 1, 2)",
+    "(3, 1, 0)"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-mathematics-2008-065",
+   "subject": "mathematics",
+   "year": 2008,
+   "yearCal": "EC",
+   "q": "Whatisthevalueofarcsin",
+   "options": [
+    "π/4",
+    "π/2",
+    "-π/4",
+    "-nπ/2 Your Answers you have scored O out of o Answer Key 1.D 11.C 21.B 31.A 41. 51.B 61.B 2.B 12.D 22.C 32.C 42. 52.A 62.D 3.D 13.B 23.D 33.D 43.C 53.C 63.B 4.C 14.A 24.A 34.A 44.B 54.C 64.A 5.B 15.D 25.B 35.D 45.D 55.A 65.C 6.A 16.B 26.C 36.B 46.B 56.C 7.D 17.C 27.D 37.B 47.B 57.B 8.D 18.B 28.B 38.C 48.C 58.B 9.B 19.B 29.C 39.D 49.B 59.B 10.D 20.D 30.B 40.C 50.D 60.A"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  }
+ ],
+ "flagged": [
+  {
+   "n": 27,
+   "grid": "A",
+   "tick": "B",
+   "q": "A closed cylindrical can is to be made to hold 10o0 cm3 of oil. What are the dim"
+  }
+ ],
+ "stats": {
+  "questions": 54,
+  "items": 51,
+  "flagged": 1,
+  "grid": 63,
+  "conf": {
+   "grid+tick": 5,
+   "grid": 45,
+   "tick": 1
+  }
+ }
+}

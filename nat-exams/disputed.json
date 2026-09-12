@@ -603,5 +603,459 @@
   ],
   "grid": "A",
   "tick": "D"
+ },
+ {
+  "id": "natl-mathematics-2006-030",
+  "subject": "mathematics",
+  "year": 2006,
+  "n": 30,
+  "q": "The simplified form of the derivative of f(x) = 1+sinx is cOSX",
+  "options": [
+   "secx + tanx 1+sinx",
+   "cos2x 1 1+tanx D) cOSX sin2x"
+  ],
+  "option_letters": [
+   "A",
+   "B"
+  ],
+  "grid": "B",
+  "tick": "A"
+ },
+ {
+  "id": "natl-mathematics-2007-021",
+  "subject": "mathematics",
+  "year": 2007,
+  "n": 21,
+  "q": "If f and g are continuous on R and a, b e R, which one of the following is necessarily true?",
+  "options": [
+   "iff(xdx=g(xdxhnf(x)g（xforllx[a]",
+   "if(xg(xforllx[bfx）dx=g（xdx",
+   "if(x)≥3 forallxE[2,2],then,f(x)dx≥> 12",
+   "J²f(x)dx = Sf(x)dx ax+by=2"
+  ],
+  "option_letters": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "grid": "C",
+  "tick": "B"
+ },
+ {
+  "id": "natl-mathematics-2007-046",
+  "subject": "mathematics",
+  "year": 2007,
+  "n": 46,
+  "q": "A measurement is grouped in to five class intervals with the following frequency distribution. Class Intervals 5-15 15-25 25-35 35-45 45-55 Frequency 22 40 68 50 20 What are the first quartile Q1 & the 75th percentile P 7s of the measurement?",
+  "options": [
+   "Q1 = 20,P75= 40",
+   "Q1 = 22, P75= 40",
+   "Q1= 20, P75= 39",
+   "Q1= 22, P5= 39"
+  ],
+  "option_letters": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "grid": "A",
+  "tick": "D"
+ },
+ {
+  "id": "natl-mathematics-2008-027",
+  "subject": "mathematics",
+  "year": 2008,
+  "n": 27,
+  "q": "A closed cylindrical can is to be made to hold 10o0 cm3 of oil. What are the dimensions (radius r and height h) that will minimize the total surface area of the can? 3V50 50",
+  "options": [
+   "r h=2 π √500 √500",
+   "r= h=2 T E 50 3 50 3 500 500 D） T )/2+c （x²-1)3/2 B 3 E 3-1）3/2 2 1)3/2+c (lnx）²+x²cosx"
+  ],
+  "option_letters": [
+   "A",
+   "B"
+  ],
+  "grid": "A",
+  "tick": "B"
+ },
+ {
+  "id": "natl-physics-2005-018",
+  "subject": "physics",
+  "year": 2005,
+  "n": 18,
+  "q": "A woman driving a 2000 kg car along a level road at 30m/s takes her foot off the gas to see how far her car will roll before it slows to a stop. She discovers that it takes 150m.What is the average force of friction acting on the car?",
+  "options": [
+   "9000N",
+   "6000N",
+   "3000N",
+   "400N"
+  ],
+  "option_letters": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "grid": "A",
+  "tick": "B"
+ },
+ {
+  "id": "natl-physics-2005-027",
+  "subject": "physics",
+  "year": 2005,
+  "n": 27,
+  "q": "A rectangular loop carrying a current is situated near a long straight wire such that the wire is parallel to one of its sides of the loop and it is in a plane of the loop. If a steady current is established in the wire as shown in figure below, the loop will",
+  "options": [
+   "Remain stationary.",
+   "Move toward the wire.",
+   "Move away from the wire.",
+   "Rotate about an axis parallel to the wire."
+  ],
+  "option_letters": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "grid": "A",
+  "tick": "D"
+ },
+ {
+  "id": "natl-physics-2006-004",
+  "subject": "physics",
+  "year": 2006,
+  "n": 4,
+  "q": "A transverse sinusoidal wave is traveling on a string. Which statement is correct about a point on the string?",
+  "options": [
+   "The point moves in the same direction as the wave.",
+   "The point moves in simple harmonic motion with a different frequency than that of the wave.",
+   "The point moves in simple harmonic motion with the same angular frequency as the wave.",
+   "The point moves in uniform circular motion with a different angular speed than the wave."
+  ],
+  "option_letters": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "grid": "A",
+  "tick": "C"
+ },
+ {
+  "id": "natl-physics-2006-007",
+  "subject": "physics",
+  "year": 2006,
+  "n": 7,
+  "q": "A capacitor made of parallel plates is charged by connecting it to a battery. The distance between the plates is much less than the surface area of each plate.After fully charged if the plates are disconnected from the battery and then pulled apart a little, what will happen to the total stored energy, the electric field, and the potential difference between the plates?",
+  "options": [
+   "The electric field between the plates increase. ）1",
+   "The potential difference between the plates remain the same.",
+   "The total energy stored in the capacitor increase.",
+   "The electric field, the potential difference and the stored energy remain the same. A) The centripetal acceleration is constant if the particle?s speed is constant. O C) The centripetal acceleration is always in the direction perpendicular to the velocity vector of the particle.√ OD) The acceleration is always perpendicular to the velocity vector of the particle."
+  ],
+  "option_letters": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "grid": "A",
+  "tick": "B"
+ },
+ {
+  "id": "natl-physics-2006-016",
+  "subject": "physics",
+  "year": 2006,
+  "n": 16,
+  "q": "A garden hose has and inside diameter of 16cm. the hose can fill a 10 litter bucket in 20 seconds. If the diameterofthenozzleisreducedto8cm",
+  "options": [
+   "Water exists with a speed twice the speed inside the hose.",
+   "A 10 litter bucked can be filled in 10 seconds.",
+   "A 20 litter bucket can be filled in 40 seconds.",
+   "Water exists with a speed half the speed inside the hose."
+  ],
+  "option_letters": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "grid": "A",
+  "tick": "B"
+ },
+ {
+  "id": "natl-physics-2007-021",
+  "subject": "physics",
+  "year": 2007,
+  "n": 21,
+  "q": "A uniform bar of length 2.0m and mass 30.0kg is supported by two massless ropes which are attached to a fixed horizontal bar, as shown in figure. What are the tensions in each rope when a 7ooN weight is suspended at d =0.50m from the left end of the bar? T2 bar Weight",
+  "options": [
+   "T = 675N and T2 = 325N",
+   "T1=325N and T2=675N",
+   "T = 500N and T2 = 500N",
+   "T = 5255N and T2 = 175N"
+  ],
+  "option_letters": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "grid": "A",
+  "tick": "B"
+ },
+ {
+  "id": "natl-physics-2007-033",
+  "subject": "physics",
+  "year": 2007,
+  "n": 33,
+  "q": "A given minimum point (trough) of a sinusoidal wave is traveling 480 cm long a rope in 12s. If the",
+  "options": [
+   "25m",
+   "15m",
+   "0.25mv",
+   "0.15m"
+  ],
+  "option_letters": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "grid": "A",
+  "tick": "C"
+ },
+ {
+  "id": "natl-physics-2008-011",
+  "subject": "physics",
+  "year": 2008,
+  "n": 11,
+  "q": "A uniform 6m long and 6ooN beam, rest on two supports as shown. The forces exerted on the beam by the right support B is closes to: 2m NotAnswered B",
+  "options": [
+   "75N",
+   "240N",
+   "400N",
+   "320N"
+  ],
+  "option_letters": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "grid": "A",
+  "tick": "C"
+ },
+ {
+  "id": "natl-physics-2008-013",
+  "subject": "physics",
+  "year": 2008,
+  "n": 13,
+  "q": "A large mass (A and a small mass (B) are pushing one another apart, as shown in the figure below. The A B 5kg 2kg m V=20- -to theright 5",
+  "options": [
+   "-20m/s",
+   "8m/s",
+   "20m/s",
+   "-8m/sv"
+  ],
+  "option_letters": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "grid": "A",
+  "tick": "D"
+ },
+ {
+  "id": "natl-physics-2008-016",
+  "subject": "physics",
+  "year": 2008,
+  "n": 16,
+  "q": "A net external non zero force acts on a particle that is moving along a straight line which one of the following statements is correct?",
+  "options": [
+   "The velocity, but not the kinetic energy of the particle is changing.",
+   "Both the velocity and kinetic energy of the particle are changing.",
+   "The kinetic energy but not the velocity of the particle is changing.",
+   "The momentum is conserved."
+  ],
+  "option_letters": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "grid": "A",
+  "tick": "B"
+ },
+ {
+  "id": "natl-physics-2008-026",
+  "subject": "physics",
+  "year": 2008,
+  "n": 26,
+  "q": "A metal ball has a diameter that is slightly greater than the diameter of a hole that has been cut in to a metal plate. The coefficient of linear expansion for the metal from which the ball is made is greater than that for the metal of the plate. Which one of the following procedures can be used to make the ball pass through the hole?",
+  "options": [
+   "raise the temperatures of the ball and the plate by the same amount.",
+   "heat the ball and cool the plate.",
+   "lower the temperatures of the ball and the plate by the same amount.",
+   "there is no way of passing the ball through the hole."
+  ],
+  "option_letters": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "grid": "A",
+  "tick": "C"
+ },
+ {
+  "id": "natl-physics-2008-030",
+  "subject": "physics",
+  "year": 2008,
+  "n": 30,
+  "q": "A device for transforming heat energy to mechanical energy is referred to as NotAnswered",
+  "options": [
+   "transformer",
+   "Refrigerant",
+   "generator",
+   "enginev"
+  ],
+  "option_letters": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "grid": "A",
+  "tick": "D"
+ },
+ {
+  "id": "natl-physics-2008-035",
+  "subject": "physics",
+  "year": 2008,
+  "n": 35,
+  "q": "A wavelength is",
+  "options": [
+   "A line that represents the direction of propagation of light.",
+   "The minimum distance between two points that are in phase.",
+   "The locus of all points of a travelling wave that are in phase.",
+   "The number of waves crossing a given plane in a unit time."
+  ],
+  "option_letters": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "grid": "A",
+  "tick": "B"
+ },
+ {
+  "id": "natl-physics-2008-049",
+  "subject": "physics",
+  "year": 2008,
+  "n": 49,
+  "q": "A common unit of energy in atomic physics is",
+  "options": [
+   "Plank?s constant",
+   "Electron voltv",
+   "De Broglie wavelength",
+   "Uncertaintyprinciple"
+  ],
+  "option_letters": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "grid": "A",
+  "tick": "B"
+ },
+ {
+  "id": "natl-physics-2009-003",
+  "subject": "physics",
+  "year": 2009,
+  "n": 3,
+  "q": "A uranium atom initially at rest has a mass of 2 units and spontaneously disintegrated into two fragments. One of the fragments has a mass of 0.8 units and moves at a speed of 24m/s as shown in figure below. What is the speed of the second fragments? M=2units.u=0 m2,v 300 530 m=0.8units,v=24m/s",
+  "options": [
+   "25.6m/s",
+   "21.3m/s",
+   "16m/sv",
+   "14.8m/s 4. A 1kg object explodes and breaks up into three pieces. One piece has a mass of 400g and has a velocity of (15i + 10j)m/s. a second piece has a mass of 250g and has a velocity of (25i 10j)m/s. What is the velocity of the third piece? OA.(-4.3i+ 35j)m/s O B. (-35i 4.3j)m/s C. (35i 4.3j)m/s ）D. (-35i 4.3j)m/s"
+  ],
+  "option_letters": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "grid": "A",
+  "tick": "C"
+ },
+ {
+  "id": "natl-physics-2009-011",
+  "subject": "physics",
+  "year": 2009,
+  "n": 11,
+  "q": "A block of mass m_10kg placed on a frictionless incline plane connected to mass m2=15kg using a string of negligible mass passing over a pulley of moment of inertia I=0.25kgm² and radius R=10cm as shown in the diagram. What is the torque on the pulley? mi m2",
+  "options": [
+   "2.5Nm",
+   "4Nm",
+   "5Nm",
+   "12Nmv"
+  ],
+  "option_letters": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "grid": "A",
+  "tick": "D"
+ },
+ {
+  "id": "natl-physics-2010-029",
+  "subject": "physics",
+  "year": 2010,
+  "n": 29,
+  "q": "A beaker with water resting on a scale weighs 40 N. a block suspended on a hanging spring weighs 20 N. thespringscalereads15 Nwhen ablock isfullysubmergedin thewater.Whatis thereading of a scale on which the beaker with water rests, while the block is submerged in the water after detached from the hanging spring?",
+  "options": [
+   "25 N",
+   "60 N",
+   "55N",
+   "45 N"
+  ],
+  "option_letters": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "grid": "A",
+  "tick": "C"
+ },
+ {
+  "id": "natl-physics-2010-039",
+  "subject": "physics",
+  "year": 2010,
+  "n": 39,
+  "q": "Which one of the following is not the use of Doppler effect?",
+  "options": [
+   "Astronomy",
+   "Energy transmission",
+   "Radar",
+   "Bloodflowmeasurement 40. A 632.8 nm laser light produces an interference pattern on a screen of 4.0 m from a pair of slits. The slit space is equal to 0.2 mm. calculate the fridge width. A.15.3 cm B.25.3 mm C.6.33 mm D.12.7mmv"
+  ],
+  "option_letters": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "grid": "B",
+  "tick": "D"
  }
 ]

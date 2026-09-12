@@ -1,0 +1,730 @@
+{
+ "items": [
+  {
+   "id": "natl-physics-2009-001",
+   "subject": "physics",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "The range of cannon-ball fired horizontally from a laboratory table is equal to 8/3 times the height of the table. What is the direction of velocity vector of the projectile as it strikes the ground?",
+   "options": [
+    "45°from the horizontal",
+    "53°from the horizontal",
+    "60° from the horizontal",
+    "37°from the horizontal"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2009-002",
+   "subject": "physics",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Galileo carried out athought experiment on motion. The line between A and B represents a surface and thecenterof theballisplaced atA.whatwouldhappenineachofthethreesituationsshowninthefigure below,withoutfrictionwhentheball is released? B B Batoo a C",
+   "options": [
+    "The ball would never reach point B in all instances.",
+    "The ball would reach B in all instances even if point B keeps on receding to infinity in (c).",
+    "The ball would reach point B in (a) and (b) and not in (c).",
+    "The ball would reach point B only in (a)."
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2009-005",
+   "subject": "physics",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of the following statements is not correct?",
+   "options": [
+    "Dynamic equilibrium is an equilibrium in which a body is moving at steady velocity without net force or torque acting on it.",
+    "Static equilibrium is an equilibrium in which a body is at rest without net force or torque acting on it.",
+    "Couples are set of forces with a resultant torque but no net force.",
+    "The necessary and sufficient condition for equilibrium of a rigid body is to have the sum of all torques acting on it is zero."
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2009-006",
+   "subject": "physics",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "A spring with a spring constant of 300N/m is stretched 20cm in 2 seconds. What is the power applied to stretch the spring?",
+   "options": [
+    "3W",
+    "6W",
+    "30KW",
+    "60KW 7. A 50KW machine is used to lift heavy objects to the top of a building under construction. If this machine is replace with a new machine of 1ooKW power, then which of the following statements is not true about the new machine? OA.The newmachinecan raise objectswith the same mass at twicethe speed ofthe old machine. B. The new machine can raise objects with twice as much mass at the same speed as the old machine. C.The new machine takes twice as much time to do the same work as the old machine.√ D. The new machine can do twice as much work in the same time as the old machine."
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2009-008",
+   "subject": "physics",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of the following is correct about a work done for dissipative force?",
+   "options": [
+    "Path dependent",
+    "The same as the loss in kinetic energy.",
+    "The same as the gain in potential energy.",
+    "The same as the potential energy stored in spring."
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2009-009",
+   "subject": "physics",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "A disk of radius R with uniform distribution of mass M rotates about an axis perpendicular to its plane at the rim with angular speed o the moment of inertia of the disc about the axis through the center is1/2MR?2. What is the kinetic energy of the disk?",
+   "options": [
+    "1/4MR202",
+    "1/3MR202",
+    "1/2MR202",
+    "4/4MR202"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2009-010",
+   "subject": "physics",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "A pulley is rotating at a frequency of 20rev/min. a motor speeds up the wheel so that 30s later the frequency of the motion is 60rev/min. How far a point on the pool 0.30m from its center will has travelled during that period?",
+   "options": [
+    "125.7m",
+    "0.13m",
+    "37.68m",
+    "4.2m"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2009-012",
+   "subject": "physics",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of the following statements is correct about the first condition of equilibrium?",
+   "options": [
+    "The net force on an object must be zero.",
+    "The sum of all torques must be zero.",
+    "Clockwise moments should balance counter clockwise moments.",
+    "The torque produced by a force should be perpendicular to theforce. 13. A 4m long uniform board of mass 10kg hinged on the ground at one end is hanging by a string at the other end. A block of mass 8kg is placed at 1m from the hinge on the ground as shown in the diagram below. What is the tension in the string? 1m 600 O A.10N O B.50N C.70N√ D.110N"
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2009-014",
+   "subject": "physics",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of the following refers to the definition of strain as a ratio?",
+   "options": [
+    "Extension to the original length.",
+    "Force applied to area of the object normal to the force.",
+    "Stress to Young modulus.",
+    "Tensile to applied force."
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2009-015",
+   "subject": "physics",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of the following is the application of Pascals law?",
+   "options": [
+    "Hydraulic brake in vehicles.",
+    "Siphon to remove fluids.",
+    "Working of submarines.",
+    "Sucking of liquid into a syringe."
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2009-016",
+   "subject": "physics",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "A large (very large in height and cross-section) water open at the top has a small hole through its side near the bottom.To what height should the water be filled, to double the speed of water that flow out of the hole when itwasfilled to aheighth?",
+   "options": [
+    "h",
+    "2hv",
+    "3h",
+    "4h"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2009-017",
+   "subject": "physics",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "If a precision of surveyor measured a distance of 5o0meters /between twopoints in avillage/using a meter thathascentimetredivisiononit,thenwhatisthemeasurementresult?",
+   "options": [
+    "500m",
+    "500.0m",
+    "500.00mV",
+    "500.000m"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2009-018",
+   "subject": "physics",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "From the figures given below, which one of them shows precise but not accurate measurements? T represents the truevalue. Number ofreadings",
+   "options": [
+    "T Reading Number of readings",
+    "T Reading Number of readings T Reading D T Reading"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2009-019",
+   "subject": "physics",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "If vectorPis 6m in the x-direction andvectorqis 8m in the y-direction.Then whatisthevalueofthevectorp+q?",
+   "options": [
+    "10m at 53°from x-direction.",
+    "√136mat450fromx-direction",
+    "10m at 37° from x-direction.",
+    "√136mat30°fromx-direction."
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2009-020",
+   "subject": "physics",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Given vectorsA=√3t+jandB=√3t-j.What is the smaller anglebetween the vectors?",
+   "options": [
+    "60°~",
+    "530",
+    "45°",
+    "30°"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2009-021",
+   "subject": "physics",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "LfA=x+3and B=2y+3\",then whatis the value of |A×B|？ S S S",
+   "options": [
+    "√10m S",
+    "√13m S",
+    "7m S",
+    "√130m S"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2009-022",
+   "subject": "physics",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "A cricketer throws a ball vertically upwards with initial speed of 20m/s. How long is it in the air before it returnstothecricketer?shands?",
+   "options": [
+    "2s",
+    "10s",
+    "1.5s",
+    "4s"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2009-024",
+   "subject": "physics",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "A fun making boy swings a blinking ball tied to the end of a string in a vertical circle. If the radius of the circle is 0.5m, then what should be the minimum speed of the ball at the bottom of the circle to make a completecircularmotion atthetop?",
+   "options": [
+    "5m/sv",
+    "√5m/s",
+    "√15m/s",
+    "2√5m/s"
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2009-025",
+   "subject": "physics",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "The activity of radioactive substance reduces from 2000Bq to 1000Bq in 10° seconds. What is the decay constant?",
+   "options": [
+    "6.93 x 105, decay/s",
+    "6.93 x 10-7, decay/s",
+    "2.00 x 106 , decay/s",
+    "5.00 x 10-7 , decay/s"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2009-026",
+   "subject": "physics",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of the following phenomena clearly demonstrates the particle nature of light?",
+   "options": [
+    "Refraction of light by prism.",
+    "The photoelectric effect.",
+    "Diffraction of light by double slit.",
+    "Dispersion of white light."
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2009-027",
+   "subject": "physics",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of the following statements is correct?",
+   "options": [
+    "Irreversible process is a process that can be reversed through finite change in the system.",
+    "Complete conversion of energy from a hot source into work is possible.",
+    "There are processes in which there is an overall decrease in entropy.",
+    "Entropy is a measure of the amount of disorder."
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2009-028",
+   "subject": "physics",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "A certain heat engine draws 500cal/s from a water bath at 27°C and rejects 400 calories to a reservoir at a lower temperature. What is the efficiency of this engine?",
+   "options": [
+    "80%",
+    "75%",
+    "25%",
+    "20%"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2009-029",
+   "subject": "physics",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Three metals are in contact and in thermal equilibrium. The metals have different specific heat capacity. What can be concluded about the temperature of the metals?",
+   "options": [
+    "Since they have different specific heat capacity, they must have different temperature at thermal equilibrium.",
+    "They must have the same temperature at thermal equilibrium.",
+    "They must have different internal energy.",
+    "They must have different kinetic energy."
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2009-030",
+   "subject": "physics",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Metal A has a coefficient of linear expansion that is three times the coefficient of linear expansion of metal",
+   "options": [
+    "How does their coefficient of areal expansion, Y, compare? O A) YA=2YB O ）B) YA=3YB",
+    "YA=4YB",
+    "YA=6YB"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2009-031",
+   "subject": "physics",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "On an unknown scale x, the ice point temperature is 50°x and the steam-point temperature is 200°x. If the temperature is 60°C, then what is the reading in °x? NotAnswered",
+   "options": [
+    "90°x",
+    "140°xv",
+    "15°x",
+    "333°x"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2009-032",
+   "subject": "physics",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "A block of mass 5kg hanging at the end of spring scale is totally submerged in a breaker of water. The beaker is large enough to avoid overflow of water. If the density of the block is 2.5 x 10?kg/m?, then what is the reading of the scale?",
+   "options": [
+    "3kg",
+    "2kg",
+    "1kg",
+    "okg"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2009-033",
+   "subject": "physics",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "An electric generator has a coil of 400 turns and cross-sectional area 5m2 rotating at angular frequency in eachsecond?",
+   "options": [
+    "209.6V",
+    "104.8V",
+    "200V",
+    "182.4V"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2009-034",
+   "subject": "physics",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "The primary coil of a transformer is connected to a battery, a resistor, and a switch. The secondary coil is connectedtoanammeter.Whatdoestheammetershowwhentheswitchisthrownclosed?",
+   "options": [
+    "Zero current as transformer is not working on DC.",
+    "A nonzero current for a short instant.",
+    "A steady current.",
+    "emf will be induced but not current."
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2009-035",
+   "subject": "physics",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Whichofthefollowingstatementis correct?",
+   "options": [
+    "The direction of induced e.m.f is in such a direction as to reinforce the change produces it.",
+    "Self-inductance of a coil is e.m.f divided by a magnitude of rate change of current with time.",
+    "The induced e.m.f in a coil is inversely proportional to its number of turns.",
+    "Self-inductance of a coil is inversely proportional to the cross sectional area of the coil."
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2009-036",
+   "subject": "physics",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "The induced electromotive force in a current carrying coil placed in a magnetic field does not depend on which of the following? NotAnswered",
+   "options": [
+    "The speed at which the oil moves if the relative motion does not result in changing the magnetic flux.<",
+    "The change of magnetic flux density.",
+    "The length of the coil that is moving in a direction perpendicular to that of the magnetic field.",
+    "The area of the coil outside the field."
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2009-037",
+   "subject": "physics",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "A positively charged particle of charge q=3.2 x10-19C is moving parallel to x-axis with speed 1000m/s in a magneticfield of o.5Tparalleltoy-axis asshown inthediagrambelow.What isthemagneticforce on the charge? Z B V X",
+   "options": [
+    "8.0 x 10-16N in ? ve Z",
+    "3.2 x 10-16N in ve",
+    "8.0 x 10-17N in + ve",
+    "1.6 x 10-16N in + ve Z"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2009-038",
+   "subject": "physics",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Achargedparticlemovesperpendicularto auniformmagneticfield.Whichstatementiscorrectabout the motion of theparticle?",
+   "options": [
+    "Both kinetic energy and linear momentum of the particle change.",
+    "The kinetic energy of the particle change but not its linear momentum.",
+    "The linear momentum of the particle changes but not its kinetic energy.",
+    "Both the energy and momentum do not change."
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2009-039",
+   "subject": "physics",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of the following is not correct about magnetic field? NotAnswered",
+   "options": [
+    "Magnetic field lines are closed.",
+    "Magnetic monopoles exist.",
+    "The closer the field lines are, the storage the magnetic field.",
+    "Magnetic field is produced by moving charge."
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2009-040",
+   "subject": "physics",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Whichofthefollowingisnotcorrectaboutthecircuitshownbelow? E RL",
+   "options": [
+    "VoltageacrossRLis E r+RL",
+    "CurrentflowingthroughRLis 3 r+RL",
+    "Currentflowingthroughris r+RL RL",
+    "PowerdropinRLis 2 (r+R)"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2009-041",
+   "subject": "physics",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "A galvanometer of full-scale deflection 10mA is to be converted into a 0 10.0A ammeter. If its coil has a resistanceof1ooQ,thenwhatvalueofshuntresistancemustbefitted?",
+   "options": [
+    "0.1Q",
+    "10Q",
+    "9.99Q",
+    "0.999Q"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2009-042",
+   "subject": "physics",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "If a cell supplies a current of 0.9A when connected to a 2Q resistor and a current of 0.3A, then what will be theinternalresistanceofthecellwhenconnectedtoa7Qresistor?",
+   "options": [
+    "2Q",
+    "1.2Q",
+    "1Q",
+    "0.5Q"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2009-043",
+   "subject": "physics",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "The capacitance of a parallel plate capacitor is 10. If the distance between the plates is halved, keeping all other quantities constant, then what is the new capacitance of the capacitor?",
+   "options": [
+    "0.2μF",
+    "5μF",
+    "10μF",
+    "20μF"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2009-044",
+   "subject": "physics",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Two positive charges of magnitude 2.4 x 10-9C and 1.6 x 10-9C are separated in air by a distance of 2.0cm. How much electrostatic potential is produced by the two charges at midway between them?",
+   "options": [
+    "3.6KV",
+    "0.72 KV",
+    "2.16 KV",
+    "1.44 KV"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2009-045",
+   "subject": "physics",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "A charge of q1 = -10.0 x 10-9C, q2 = +10.0 x 10-9C and q3 = -2.5 x 10-8C are placed on x-y plane as shown in the figure below. What is the electric force on qs by q1 and q2? q2(0,6) [4,3 q3 x[inm q1 (0.0)",
+   "options": [
+    "1.08 x 10-7N in + ve y directionv",
+    "9.00 x 10-7N in - ve y direction",
+    "1.42 x 10-7N in + ve x direction",
+    "1.42 x 10-7N in - ve x direction"
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2009-046",
+   "subject": "physics",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "In a Youngs experiment, there are two slits, rather than one. What do you think the reason?",
+   "options": [
+    "To increase the intensity.",
+    "One slit is for frequency the other for wavelength.",
+    "To create a path length difference.√ ）",
+    "One slit is for electric fields and the other is for magnetic fields."
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2009-047",
+   "subject": "physics",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "A light of wavelength 590nm is incident normally on a grating with spacing 1.67 x 10-6m. How many orders of diffractionmaximacanbe obtained(including thezero order)?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2009-048",
+   "subject": "physics",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of the following statements is correct?",
+   "options": [
+    "Interference is not superposition of waves.",
+    "Constructive interference results in decrease in the intensity.",
+    "Destructive interference results in an increases in the intensity.",
+    "Path difference which is integer multiple of wavelength results in constructive interference."
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2009-049",
+   "subject": "physics",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which of the following is not correct about a simple harmonic oscillator?",
+   "options": [
+    "Total mechanical energy is conserved.",
+    "The acceleration is directly proportional to and opposite in direction to displacement",
+    "Theperiodofsmalloscillationofapendulumwithstringlengthl,abob massmattached toitsendisT=2π",
+    "The frequency of an oscillating mass attached to a massless spring is independence of the spring constant."
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2009-050",
+   "subject": "physics",
+   "year": 2009,
+   "yearCal": "EC",
+   "q": "Which one of the following indicates the wavelength of a travelling wave?",
+   "options": [
+    "The distance between an adjacent trough and a peak.",
+    "The amplitude of the wave.",
+    "The distance between a node and antinodes.",
+    "The distance between two adjacent points which are in phase.√ Your Answers you have scored O out of 0 Answer Key 1.D 11.D 21.C 31.B 41.A 2.B 12.A 22.D 32.A 42.D 3.C 13.C 23.B 33.A 43.D 4.B 14.A 24.A 34.A 44.A 5.D 15.A 25.B 35.B 45.A 6.A 16.B 26.B 36.A 46.C 7.C 17.C 27.D 37.D 47.C 8.A 18.A 28.D 38.C 48.D 9.D 19.A 29.B 39.B 49.D 10.C 20.A 30.B 40.C 50.D @ 2019Camara EducationEthiopia.EthiopianGeneral SecondaryEducationCertificate and UniversityEntranceExaminations"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  }
+ ],
+ "flagged": [
+  {
+   "n": 3,
+   "grid": "A",
+   "tick": "C",
+   "q": "A uranium atom initially at rest has a mass of 2 units and spontaneously disinte"
+  },
+  {
+   "n": 11,
+   "grid": "A",
+   "tick": "D",
+   "q": "A block of mass m_10kg placed on a frictionless incline plane connected to mass "
+  }
+ ],
+ "stats": {
+  "questions": 46,
+  "items": 44,
+  "flagged": 2,
+  "grid": 50,
+  "conf": {
+   "grid+tick": 17,
+   "grid": 27,
+   "tick": 0
+  }
+ }
+}

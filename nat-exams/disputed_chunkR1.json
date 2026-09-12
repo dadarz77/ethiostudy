@@ -1,0 +1,141 @@
+[
+ {
+  "id": "natl-mathematics-2005-041",
+  "subject": "mathematics",
+  "year": 2005,
+  "n": 41,
+  "q": "A box contains 5 white, 6 red and 4 black balls of all identical size. If 3 balls are randomly taken out of the box after the other, what is the probability that the first ball is white and both the second and third balls are red?",
+  "options": [
+   "2/15",
+   "3/15",
+   "4/75",
+   "5/91"
+  ],
+  "option_letters": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "grid": "A",
+  "tick": "D"
+ },
+ {
+  "id": "natl-mathematics-2005-052",
+  "subject": "mathematics",
+  "year": 2005,
+  "n": 52,
+  "q": "Which one of the following is equal to sec(n/2 -x) sin? x + cos2x?",
+  "options": [
+   "2cosx",
+   "2sinx",
+   "cos2x",
+   "sin2x"
+  ],
+  "option_letters": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "grid": "C",
+  "tick": "B"
+ },
+ {
+  "id": "natl-mathematics-2005-060",
+  "subject": "mathematics",
+  "year": 2005,
+  "n": 60,
+  "q": "A line given by a vector equation r(t)=(0, 3) + t(1, 1) is tangent to a circle at point (0,3). If the radius of the circle is ?2 which one of the following is the center of the circle? NotAnswered",
+  "options": [
+   "(1,4)",
+   "(1,-4)",
+   "(-1,2)",
+   "(1,2)"
+  ],
+  "option_letters": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "grid": "A",
+  "tick": "D"
+ },
+ {
+  "id": "natl-mathematics-2006-030",
+  "subject": "mathematics",
+  "year": 2006,
+  "n": 30,
+  "q": "The simplified form of the derivative of f(x) = 1+sinx is cOSX",
+  "options": [
+   "secx + tanx 1+sinx",
+   "cos2x 1 1+tanx D) cOSX sin2x"
+  ],
+  "option_letters": [
+   "A",
+   "B"
+  ],
+  "grid": "B",
+  "tick": "A"
+ },
+ {
+  "id": "natl-mathematics-2007-021",
+  "subject": "mathematics",
+  "year": 2007,
+  "n": 21,
+  "q": "If f and g are continuous on R and a, b e R, which one of the following is necessarily true?",
+  "options": [
+   "iff(xdx=g(xdxhnf(x)g（xforllx[a]",
+   "if(xg(xforllx[bfx）dx=g（xdx",
+   "if(x)≥3 forallxE[2,2],then,f(x)dx≥> 12",
+   "J²f(x)dx = Sf(x)dx ax+by=2"
+  ],
+  "option_letters": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "grid": "C",
+  "tick": "B"
+ },
+ {
+  "id": "natl-mathematics-2007-046",
+  "subject": "mathematics",
+  "year": 2007,
+  "n": 46,
+  "q": "A measurement is grouped in to five class intervals with the following frequency distribution. Class Intervals 5-15 15-25 25-35 35-45 45-55 Frequency 22 40 68 50 20 What are the first quartile Q1 & the 75th percentile P 7s of the measurement?",
+  "options": [
+   "Q1 = 20,P75= 40",
+   "Q1 = 22, P75= 40",
+   "Q1= 20, P75= 39",
+   "Q1= 22, P5= 39"
+  ],
+  "option_letters": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "grid": "A",
+  "tick": "D"
+ },
+ {
+  "id": "natl-mathematics-2008-027",
+  "subject": "mathematics",
+  "year": 2008,
+  "n": 27,
+  "q": "A closed cylindrical can is to be made to hold 10o0 cm3 of oil. What are the dimensions (radius r and height h) that will minimize the total surface area of the can? 3V50 50",
+  "options": [
+   "r h=2 π √500 √500",
+   "r= h=2 T E 50 3 50 3 500 500 D） T )/2+c （x²-1)3/2 B 3 E 3-1）3/2 2 1)3/2+c (lnx）²+x²cosx"
+  ],
+  "option_letters": [
+   "A",
+   "B"
+  ],
+  "grid": "A",
+  "tick": "B"
+ }
+]

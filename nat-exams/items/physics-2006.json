@@ -1,0 +1,703 @@
+{
+ "items": [
+  {
+   "id": "natl-physics-2006-001",
+   "subject": "physics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "The distance between two point charges is doubled. What will happen to the force of interaction between the charges?",
+   "options": [
+    "The force will be doubled.",
+    "The force will be reduced by half.",
+    "The forcewill be reduced by a factor of.",
+    "The force will not be affected."
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2006-002",
+   "subject": "physics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "What does the slope of a velocity time graph represent?",
+   "options": [
+    "distance",
+    "acceleration‘",
+    "displacement",
+    "speed"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2006-003",
+   "subject": "physics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Moving 2.5 x 10-6 coulomb of charge from point A to point B in an electric field requires 6.3 x 10-4 joule of NotAnswered",
+   "options": [
+    "4.0 x 10-3v",
+    "2.5 x 10-2v~",
+    "1.6 x 10-19v",
+    "1.0 x 10-14v"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2006-005",
+   "subject": "physics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Two none zero vectors D and E have precisely equal magnitudes. For the magnitude of D + E to be 3 times larger than the magnitude of D - E, what must be the angle between D and E?",
+   "options": [
+    "30°",
+    "370",
+    "530",
+    "60°"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2006-006",
+   "subject": "physics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which statement is correct about the pressure under a fluid in a container?",
+   "options": [
+    "It depends on the volume of the fluid.",
+    "It depends on the density of the fluid.",
+    "It depends on the shape of the container.",
+    "It is independent of the depth of the fluid."
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2006-008",
+   "subject": "physics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which one of the following statements is true about the motion of a particle in a circular path?",
+   "options": [
+    "The centripetal acceleration is constant if the particle?s speed is constant.",
+    "The tangential acceleration can be perpendicular to the velocity vector of the particle.",
+    "The centripetal acceleration is always in the direction perpendicular to the velocity vector of the particle.",
+    "The acceleration is always perpendicular to the velocity vector of the particle."
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2006-009",
+   "subject": "physics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Two rectangular loops of wire lie in the plane of this paper as shown in the figure below, if the current I in the outerloopis counterclockwise andincreaseswith time,which one of thefollowingstatements is correct about the currentinduced in theinnerloop?",
+   "options": [
+    "A current is induced in the inner loop in the clockwise direction.",
+    "A current is induced in the inner loop in the counter wise direction. samedirectionofthemagneticfield that theouter loopproducesin thissamearea. D) It is zero."
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2006-011",
+   "subject": "physics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Two projectiles are fired from ground level at equal speed but different angles. One is fired at an angle of 30 degrees and the other at 60 degrees. The projectile to hit the ground first will be the one fired at (neglect air resistance)",
+   "options": [
+    "60 degrees",
+    "30 degrees",
+    "both hit at the same time",
+    "cannot be determined from the given condition."
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2006-012",
+   "subject": "physics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "A planet of mass m is circling a star in an elliptical orbital as shown below. Its velocity at point A is 60,000m/s and r, = 8ra what is its velocity at point B? B rh NotAnswered Q",
+   "options": [
+    "7,500m/sv",
+    "8,571m/s",
+    "60,000m/s",
+    "788,000m/s"
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2006-013",
+   "subject": "physics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Asmallradioreceiverusesabatterythatdeliversaconstantcurrentof25mAfor3hours.Calculatethe total charge delivered by thebattery. NotAnswered",
+   "options": [
+    "1080000C",
+    "270000",
+    "540C",
+    "270C"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2006-014",
+   "subject": "physics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "A cup of coffee at a temperature of 80°C is placed on table in a 20°C room. What happens to the thermal energy and molecular motion of the coffeewhen it is left on the table?",
+   "options": [
+    "The thermal energy decreases and the molecules move more slowly.",
+    "The thermal energy increases and the molecules move more slowly.",
+    "The thermal energy decreases and the molecules move faster.",
+    "The thermal energy increases and the molecules move faster."
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2006-015",
+   "subject": "physics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Thevector2i+j+kisperpendiculartot+4j+ifisequalto",
+   "options": [
+    "-2",
+    "-1",
+    "2",
+    "3"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2006-017",
+   "subject": "physics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "A mass suspended from the end of a spring vibrates up and down 20 times in 36s. What are the frequency andperiod of thevibration?",
+   "options": [
+    "0.55Hz,1.8S",
+    "0.67Hz,1.5S",
+    "0.0012Hz,864S",
+    "864Hz,0.0012S"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2006-018",
+   "subject": "physics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Determine the total impedance for the circuit shown below 40 27mH380μ 110v",
+   "options": [
+    "OQ",
+    "4Ω",
+    "27Q",
+    "31Q"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2006-019",
+   "subject": "physics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "A hoop of mass M and radius R is at rest at the top of an incline plane of height h. the hoop rolls down the plane without slipping. When the hoop reaches bottom, its angular momentum about its center of mass is:",
+   "options": [
+    "Mgh",
+    "MR/2gh gh",
+    "MR 2",
+    "MR√gh"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2006-020",
+   "subject": "physics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "What is the resistance of a copper cable if it has a cross sectional area of 1cm² and a length of 2km? The resistivity of copper is 2 x 10-8Qm.",
+   "options": [
+    "0.0004Q",
+    "0.004Q",
+    "0.04Q",
+    "0.4Ω"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2006-021",
+   "subject": "physics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "When a load of 500kg is hanging from a steel wire of length 3m and cross sectional area 0.20cm?, the wire stretches beyond its no load length. If the Youngs modulus for the wire made of steel is Y = 2x 1oll Pa, what is the change in length of the wire beyond its no load length?",
+   "options": [
+    "3.75mm",
+    "2.75mm",
+    "1.75mm",
+    "0.75"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2006-022",
+   "subject": "physics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "As shown in Figure below, two blocks are connected by a string of negligible mass passing over a pulley of radius r = 0.2m and moment of inertia I. The block on the frictionless incline is moving with a constant acceleration a = 2.0m/s² up along the incline. What is the moment of inertia of the pulley? m2 20kg 1skg 370",
+   "options": [
+    "0.8kgm2",
+    "1.25kgm2",
+    "4kgm2",
+    "40kgm2 What force is required to hold it completely submerged under water? NotAnswered A)0.68Ndownward B) 0.68N upward D)1.13N downward ）D) 1.13N upward"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2006-023",
+   "subject": "physics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "A table tennis ball which is spherical in shape has a diameter of 6 cm and average density of 0.400 g/cm?.",
+   "options": [
+    "0.68N downward",
+    "0.68N upward O D) 1.13N downward O D) 1.13N upward"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2006-024",
+   "subject": "physics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "A viewing screen is separated from a double slit by 4.80m. The distance between the two slits is 0.030mm. Monochromatic light is directed toward the double slit and forms and interference pattern on the screen. The firstdarkfringe is4.50cmfrom thecenterline on the screen.What is thewavelength of the light?",
+   "options": [
+    "1250nm",
+    "7200nmV",
+    "2500nm",
+    "5625nm"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2006-025",
+   "subject": "physics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "A horizontal pipe of 10cm in diameter has a smooth reduction to a pipe of 5cm in diameter. If the pressure of the water in the larger pipe is 8okPa and the pressure in the smaller pipe is 6kPa, at what rate does the waterflow through the smaller pipe?",
+   "options": [
+    "1.63m/s",
+    "6.53m/s",
+    "13.6m/s",
+    "42.67m/s over a frictionless pulley. They sit on a steel surface as shown in figure below , where 0 = 53°. The coefficient of kineticfrictionbetween the steelsurface andeachblock in O.3.if theblocksarereleased fromrestwhatis the tension T in the string? m m Steel A) 29.40N O B)17.25N O C) 12.25N O D) 8.60N"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2006-027",
+   "subject": "physics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "An object of mass 3kg hangs from three light inextensible wires as shown in figure below. Two of the wires make angles 01 = 53° and 02 = 37 °with the horizontal. If the system is in equilibrium, what will be the tensionsTand T2inthewires? 0 T",
+   "options": [
+    "T1 = 18N and T2 = 24N",
+    "T =T2 = 18N",
+    "T= T2= 24N",
+    "T1 = 24N and T2 = 18N"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2006-028",
+   "subject": "physics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "An object of mass m is hung from a spring and set into oscillation. The frequency of the oscillation is measured and recorded as f. if the object of mass m is replaced with an object of mass m is replaced with an object of mass 2m and set into oscillation, what will be the frequency of the motion? NotAnswered",
+   "options": [
+    "f/√2",
+    "f",
+    "(V2)f",
+    "2f"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2006-029",
+   "subject": "physics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "A placekicker must kick a football from a point which is at a distance of 36.0 m from the goal. When kicked, the ball leaves the ground with a speed of 20.0m/s at an angle of 370 to the horizontal. If the ball hits the crossbar of the goal at a height h and bounces back what will be the height of the crossbar?",
+   "options": [
+    "2.45m",
+    "2.85~",
+    "3.00m",
+    "3.15m"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2006-030",
+   "subject": "physics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "A body moving with constant acceleration covers the distance between two points 60m apart in 5s. Its velocity as it passes the second point is 15m/s. what is the acceleration?",
+   "options": [
+    "3m/s2",
+    "2.4m/s2",
+    "1.8m/s2",
+    "1.2m/s2←"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2006-031",
+   "subject": "physics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Which of the following combinations of properties would be most desirable for a heat sink in a machine?",
+   "options": [
+    "high specific heat and low conductivity.",
+    "low heat specific heat and low conductivity.",
+    "high specific heat and high conductivity.",
+    "low specific heat and low conductivity. thetransformerhas1ooturns,whatvoltage appears across the secondary? A) 24.0V O1 B) 12.0V O C) 6.00V O D) 3.00V"
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2006-033",
+   "subject": "physics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "The change in entropy is zero for:",
+   "options": [
+    "reversible isobaric processes.",
+    "reversible adiabaticprocesses.",
+    "reversible isothermal processes.",
+    "reversible processes during which no work is done."
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2006-034",
+   "subject": "physics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Two particles with masses 2m and 3m are moving toward each other along the x axis with the same initial speed v. Particle 2m is traveling to the left, and particle 3m is traveling to the right. They undergo an elation glancing collision such that particle 2m is moving in the negative y direction after the collision. What are the x componentof thefinalvelocityof particle3m and thekineticenergy ofparticle2m,respectively?",
+   "options": [
+    "0.33v and 0.7mV2",
+    "0.33v and 1.41mV2",
+    "0.67v and 0.71mV2",
+    "0.67v and 1.4mV2"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2006-035",
+   "subject": "physics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Two separate coherent sources produce waves whose wavelengths are 0.10m. which statement is correct about points that are 3.2m away from one source?",
+   "options": [
+    "constructiveinterferenceoccurs if thepoints are3.omfrom the other source",
+    "constructive interference occurs if thepoints are 3.05mfrom the other source.",
+    "constructiveinterference occurs if thepoints are2.95mfrom the other source.",
+    "destructiveinterference occursif thepoints are3.2mfrom theothersource. the normal to the plane of the coil makes an angle 37° with the direction of the field. When the magnetic field is increased uniformly from 200 mT to 600mT in 4.00s, an emf of magnitude 160.0 mv is induced in the coil. What is the total length of the wire in the coil? ）A)100m O B)200m O C) 300m D)400mV"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2006-036",
+   "subject": "physics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "A coil formed by wrapping 50 turns of wire in the shape of a square is positioned in a magnetic field so that the normal to the plane of the coil makes an angle 37°with the direction of the field. When the magnetic field What is the total length of the wire in the coil?",
+   "options": [
+    "100m",
+    "200m",
+    "300m",
+    "400m"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2006-038",
+   "subject": "physics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Two positive charges of magnitude q are each a distance d from the origin A of a coordinate system as shown below. The magnitude of the electric field is minimum at point Y B C X 3d",
+   "options": [
+    "AV",
+    "B",
+    "C",
+    "D"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2006-039",
+   "subject": "physics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "If the terminals of a battery with zero internal resistance are connected across two identical resistors in series, the total power delivered by the battery is 8 W. if the same is connected across the same resistors in parallel, what is the total power delivered by the battery?",
+   "options": [
+    "2W",
+    "4W",
+    "16W",
+    "32W"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2006-040",
+   "subject": "physics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Wire B has twice the length and twice the radius wire A. Both wires are made from the same material. If wireAhas aresistanceR,whatistheresistance ofwireB?",
+   "options": [
+    "4R",
+    "2R",
+    "R/2v",
+    "R/4"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2006-041",
+   "subject": "physics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "The sound levelat a distance of 4.00m from a source is 120dB.Atwhat distance is the sound level 100dB?",
+   "options": [
+    "0.40m",
+    "4.80m",
+    "40mV",
+    "48m"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2006-042",
+   "subject": "physics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "An ideal gas is at a temperature of 30ok. if we wish to double the root mean square (rms) speed of the molecules of the gas, to what value must we raise its temperature?",
+   "options": [
+    "450K",
+    "600k",
+    "800k",
+    "1200k"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2006-043",
+   "subject": "physics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Suppose that the index of refraction of a soap bubble film is 1.25, what is the minimum thickness of the soap-bubblefilm that results in constructive interference in the reflected light if the film is illuminated with light whose wavelength in free space is = 600nm?",
+   "options": [
+    "120nm",
+    "150nm",
+    "300nm",
+    "450nm"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2006-044",
+   "subject": "physics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "A wire carries a steady current of 2.4A. A straight section of the wire is 0.75m long and lies in xy-plane along the x-axis within a uniform magnetic field, B=1.6kT. If the current is in the positive x direction, what is themagneticforceonthesectionofwire?",
+   "options": [
+    "2.88N, in the negative y direction.",
+    "2.88N, in the positive y direction.",
+    "3.84N, in the negative y direction.",
+    "3.84N, in the positive y direction."
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2006-045",
+   "subject": "physics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "Two different capacitors of capacitance C1 = 2μF and C2 = 3μF are connected in series across a 120V supply line. The charged capacitors are disconnected from the line and from each other, and reconnected with terminals of like sign together. What will be the final charges on C1 and C2 respectively?",
+   "options": [
+    "57.63μC and 86.4μC",
+    "115.2μC and 127.8μC",
+    "144μC across each",
+    "288μC across each"
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2006-046",
+   "subject": "physics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "A glass flask whose volume is exactly 1,000cm? at 0°C is totally filled with 1000cm? of mercury at this temperature. When flask and mercury are heated to 100°C, 15.2cm? of mercury overflow. If the coefficient of volume expansion of mercury is 1.82 x 10-4 per Celsius degree, what should be the coefficient of volume expansion of theglass?",
+   "options": [
+    "1.52 x 10-4/Co",
+    "1.82 x 10-4/Co",
+    "3.00 x 10-4/C°",
+    "1.00 x 10-5/Co"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2006-047",
+   "subject": "physics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "A heat engine is being designed to have a Carnot efficiency of 65.0% when operating between two energy reservoirs. If the temperature of the cold reservoir is 20.o°C, what must be the temperature of the hot reservoir?",
+   "options": [
+    "570C~",
+    "3100C",
+    "5640C",
+    "8070C"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2006-048",
+   "subject": "physics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "In Figure given below, the current in the 16Q resistor is 280 24V AALAA!A 120 MU WW 160",
+   "options": [
+    "0.64A",
+    "0.15A",
+    "0.49A",
+    "1.28A 49. A 10.0m uniform ladder weighing 200N rests against a frictionless wall. The ladder makes 53° angles with the horizontal, if the ladder is just on the verge of slipping when a 60o.0N firefighter is 6.00m along the ladder from the bottom, what is the coefficient of static friction between the ladder and ground? NotAnswered A) 0.3240 O B) 0.4313√ C) 0.5750 O D) 0.7667"
+   ],
+   "answer": 2,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2006-050",
+   "subject": "physics",
+   "year": 2006,
+   "yearCal": "EC",
+   "q": "A block of mass 1.6kg is attached to a horizontal spring that has a force constant of 2ooN/m. The spring is compressed 2.0cm and is then released from rest. At what speed will the block pass through the equilibrium position if a constant friction force of 1o.oN retards its motion from the moment it is released? NotAnswered",
+   "options": [
+    "75m/s",
+    "50m/s",
+    "70m/s",
+    "55m/s Your Answers you havescored O out of o Answer Key 1.C 11.B 21.A 31.A 41.C 2.B 12.A 22.A 32.B 42.D 3.B 13.D 23.A 33.C 43.D 4.C 14.A 24.B 34.B 44.B 5.D 15.C 25.C 35.A 45.A 6.B 16.B 26.B 36.D 46.C 7.B 17.A 27.D 37.B 47.A 8.C 18.B 28.A 38.A 48.C 9.A 19.D 29.B 39.D 49.B 10.A 20.D 30.D 40.C 50.D 2019CamaraEducationEthiopia.EthiopianGeneral SecondaryEducationCertificate and UniversityEntranceExaminations"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  }
+ ],
+ "flagged": [
+  {
+   "n": 4,
+   "grid": "A",
+   "tick": "C",
+   "q": "A transverse sinusoidal wave is traveling on a string. Which statement is correc"
+  },
+  {
+   "n": 7,
+   "grid": "A",
+   "tick": "B",
+   "q": "A capacitor made of parallel plates is charged by connecting it to a battery. Th"
+  },
+  {
+   "n": 16,
+   "grid": "A",
+   "tick": "B",
+   "q": "A garden hose has and inside diameter of 16cm. the hose can fill a 10 litter buc"
+  }
+ ],
+ "stats": {
+  "questions": 46,
+  "items": 42,
+  "flagged": 3,
+  "grid": 50,
+  "conf": {
+   "grid+tick": 11,
+   "grid": 31,
+   "tick": 0
+  }
+ }
+}

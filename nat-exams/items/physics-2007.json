@@ -1,0 +1,778 @@
+{
+ "items": [
+  {
+   "id": "natl-physics-2007-001",
+   "subject": "physics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which one of the following experimental errors can be reduced by taking repeated measurements?",
+   "options": [
+    "parallel errors",
+    "systematic",
+    "random errors",
+    "zeros errors"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2007-002",
+   "subject": "physics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "A teacher gave a student a book whose thickness is 4.30cm and instructed him to measure the thickness of the book with vernier Calliper. The student took four measurements with average value of 4.33cm each and a standard deviation of 0.o4, respectively. Which one of the following is the uncertainty in the accuracy of the student?smeasurement?",
+   "options": [
+    "0.03cm",
+    "0.04cmV",
+    "0.035cm",
+    "0.30cm"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2007-003",
+   "subject": "physics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "What is the angle between vectors A= (ai+a√3j) units and B=(a√3i+aj)units?",
+   "options": [
+    "90°",
+    "60°",
+    "370",
+    "30°~"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2007-004",
+   "subject": "physics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "The magnitude of two vectors A and B are 12 units and 5 units, respectively. Which of the following is NOT the possiblevalue for the magnitude of the resultantvector A+B ?",
+   "options": [
+    "60units",
+    "17units",
+    "13units",
+    "7units"
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2007-005",
+   "subject": "physics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "What is the vector product A x B of two vectors A = 7i + 4j 8k and B = 3i 2j + 5k",
+   "options": [
+    "36i+ 11j ? 2k",
+    "4i+59j26kv",
+    "-4i + 59j + 26K",
+    "-36i11j + 2k"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2007-006",
+   "subject": "physics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which of the following statement is correct ?",
+   "options": [
+    "An object moving toward the east cannot have an acceleration toward the west.",
+    "If the average velocity of an object is zero in some time interval, the average speed of the object for that time interval is also zero",
+    "The velocity time graph of an object moving with constant acceleration is parallel to the time axis.",
+    "An object having zero velocity can have acceleration different from zero."
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2007-007",
+   "subject": "physics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "A car travels along a straight line at a constant speed of 20m/s for a distance d and then another distance d in the same direction at a constant speed of 36 km/hr. what is the average speed for the entire trip?",
+   "options": [
+    "23km/hr",
+    "48km/hr",
+    "54km/hr",
+    "60km/hr"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2007-008",
+   "subject": "physics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "If a long distance jumper athlete leaves the ground at an angle of 37° above the horizontal surface at a speed of 10.0m/s, how far does he jump in the horizontal direction?",
+   "options": [
+    "4.8m",
+    "6m Q",
+    "9.6m",
+    "9m/s"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2007-009",
+   "subject": "physics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Women is rotating a bucket of water in a vertical circle of radius 0.9m. The mass of bucket and water is 5kg. What is thebuckets minimum speed at the top of circle if no water is to spill out?",
+   "options": [
+    "0",
+    "1m/s",
+    "3m/sv",
+    "9m/s"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2007-010",
+   "subject": "physics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "A force of magnitude 20N is applied to a block of mass 2kg that lies on a rough, horizontal surface as shown infigurebelow.Thecoefficient of kineticfrictionbetween thebock and surface is O.4.What is the magnitudeoftheaccelerationoftheblock? F 53°c(1,4) Block",
+   "options": [
+    "10m/s2",
+    "5.2m/s2",
+    "4m/s2",
+    "2.8m/s2"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2007-011",
+   "subject": "physics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "A hard ball moving on a horizontal frictionless surface with a speed of 5m/s in the positive x direction strikes a stationaryhard ball of the same mass.After the collision,the first ball moveswith a speed of 4m/s along a direction that makes an angle of 0.37°with its initial direction of motion.What is the struck ball?s speed and the smallest angle between its direction of motion and the positive x axis after the collision?",
+   "options": [
+    "3m/sand53.0°",
+    "3m/s and 37.0°",
+    "4m/s and 53.00",
+    "4m/s and 37.0°"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2007-012",
+   "subject": "physics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "A man standing on frictionless surface continuously fired 120 bullets horizontally in 1min using a machine gun. If each bullet has a mass of 10g and leaves the muzzle of the gun with a speed of 800m/s, what is the averageforce exerted by thegun on theman?",
+   "options": [
+    "8N",
+    "16N O N096 ( O D) 16000N"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2007-013",
+   "subject": "physics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "A highway curve is banked (inclined) in such a way that a car traveling at a speed of 13.5m/s can round the curve without skidding, in the absence of friction. If the banking angle is 300, what is the radius of the curve?",
+   "options": [
+    "10.5m",
+    "21.0m",
+    "31.7mV",
+    "36.7m"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2007-014",
+   "subject": "physics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "A car of mass 1500 kg is travelling at a uniform velocity of 30m/s due east. The driver applies the brakes to slow down the car to a velocity of 10m/s due east. What is the work done in slowing down the car?",
+   "options": [
+    "15KJ",
+    "300KJ",
+    "600KJ",
+    "750KJ"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2007-015",
+   "subject": "physics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which one of the following statements is true about a spring mass system oscillation on a horizontal frictionless surface?",
+   "options": [
+    "The kinetic and potential energies are equal at all times.",
+    "The kinetic and potential energies are both constant.",
+    "The maximum potential energies is achieved when the mass passes through its equilibrium position.",
+    "The maximum kinetic energy and maximum potential energy are equal."
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2007-016",
+   "subject": "physics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "A block of mass 10kg is pulled up a rough inclined plane with a force of 1ooN parallel to the inclined plane. The inclined plane makes an angle of 370 with the horizontal. At the instant when the force is applied the block has a speed of 1.5m/s. if the coefficient of kinetic friction is 0.40, and the block is pulled up 5m, what is the changein thekinetic energy of the block?",
+   "options": [
+    "20J",
+    "30J",
+    "40J",
+    "45.5J"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2007-017",
+   "subject": "physics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "The particles shown in figure below are connected by rectangular rigid nods of negligible mass. The origin of the xy plane is the center of the rectangle. The system rotates in the xy plane about the z axis with an angular speed of 6.oorad/s. what is the rotational kinetic energy of the system? 2kg 3kg kg 4m",
+   "options": [
+    "2574J",
+    "2340J",
+    "1287J",
+    "1170J"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2007-018",
+   "subject": "physics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Two blocks are connected by a string of negligible mass passing over a pulley of radius r = 0.2 m and moment of inertia I as shown on figure below. The block on the horizontal frictionless surface is moving with a constant acceleration = 2.0m/s2. If the pulley axis is frictionless, the string is inextensible and does not slip on pulley,what should be the moment of inertial of thepulley? T T2 3 kg",
+   "options": [
+    "0.40kgm²",
+    "0.80kgm2",
+    "0.6 kgm2",
+    "0.2 kgm2"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2007-019",
+   "subject": "physics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "An object with a mass of m = 3.okg is attached to the free end of a light string wrapped around a pulley of radius R = 0.50m and moment of inertia I = 0.75kgm². The pulley if free to rotate in a vertical plane about a fixed frictionless axis passing through its cernter as shown in figure. The suspended object is released from rest at 3.60m above the floor. What is the angular momentum of the pulley at the time when the object strikes the floor? M=3",
+   "options": [
+    "4.5kgm2/s",
+    "9.0kgm2/s",
+    "12.3kgm2/s",
+    "18kgm2/s"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2007-020",
+   "subject": "physics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which one of the following statements is not correct about a particle that is in equilibrium?",
+   "options": [
+    "It can have a velocity different from zero. OH",
+    "Its velocity can be equal to zero.",
+    "It can be under the action of more than one force.",
+    "It can have an acceleration different from zero."
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2007-022",
+   "subject": "physics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which one of thefollowinglawsbest describes thebehaviour of elasticmaterials?",
+   "options": [
+    "GayLussae?slaw",
+    "Hook?s law",
+    "Newtons second law",
+    "Newtons law of gravitation"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2007-023",
+   "subject": "physics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Two solid spheres made of gold and silver having equal masses are suspended by strings and fully submerged in a tank of water. Given that the density of gold is greater than that if silver, which one of the followingstatement istrue?",
+   "options": [
+    "The buoyant force on each sphere is the same.",
+    "The volume of water displaced by the gold sphere is larger than that of the silver sphere.",
+    "The tension in the string supporting each sphere is the same.",
+    "The buoyant force on the silver sphere is greater than that on the gold sphere."
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2007-024",
+   "subject": "physics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "The cross section areas of the small and large pistons of a hydraulic lift shown in figure are 4.0cm² and 0.02m², respectively. What is the magnitude of the force that must be applied to the small piston to lift a weight w = 15,000N placed on the larger piston?",
+   "options": [
+    "3x 102N",
+    "2x 104N",
+    "3 x 10§N",
+    "3 x 106N"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2007-025",
+   "subject": "physics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "An incompressible fluid flows through a horizontal pipe whose diameter varies along its length. The sum of the kinetic energy per unit volume and pressure of the fluid at different section of the pipe would",
+   "options": [
+    "depend on the length of the pipe.",
+    "Increase as the pipe diameter increases.",
+    "Increase as the pipe diameter decreases.",
+    "Remain the same as the pipe diameter changes."
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2007-026",
+   "subject": "physics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "The amount of heat required to raise the temperature of an object of mass m = 1Kg by 1 Kelvin is known as",
+   "options": [
+    "specific heat capacity",
+    "heat capacity",
+    "expansion coefficient",
+    "internal energy"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2007-027",
+   "subject": "physics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "A given weight of gas has a temperature of 27°C and volume V. Keeping the pressure constant, the volume is increased to 3V by varying the temperature. What is fine temperature of the gas?",
+   "options": [
+    "81°℃~",
+    "546°℃",
+    "627℃",
+    "900°℃"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2007-028",
+   "subject": "physics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "The first law of thermodynamics takes the form dU = dW. This equation is valid fi the process is.",
+   "options": [
+    "isobaric",
+    "isochoric",
+    "isothermal",
+    "adiabatic"
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2007-029",
+   "subject": "physics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "An ideal gas undergoes an isothermal process starting with a pressure of 2 x 105 pa and a volume of 6cm3. Which one of the following might be the pressure and volume of the final state?",
+   "options": [
+    "4 x 10pa and 4cm3",
+    "4 x 10pa and 3cm3",
+    "5 x 10pa and 3 cm3",
+    "10^pa and 10cm3"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2007-030",
+   "subject": "physics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which one of the following is NOT correct?",
+   "options": [
+    "The entropy of the universe increases in all natural processes.",
+    "No heat energy operating in a cycle can absorb energy from a reservoir and use it entirely to do work.",
+    "When a system undergoes a change in state, the change in its internal energy is the difference between the energy transferred to it by heat and the work done on it.",
+    "The entropy of an isolated system reaches its maximum value when the system is in equilibrium state."
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2007-031",
+   "subject": "physics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "The position of a particle moving with simple harmonic motion is given by an expression x =A cos (ot + Φ), where A is the amplitude of the oscillatioin, t is time, o is angular frequency, and Φ is the phase constant. If Φ = /2 , what will be the sign of the particle?s position and velocity at t=7T/8, were T is the period of oscillation?",
+   "options": [
+    "The position is positive, and the velocity is negative.",
+    "The position and velocity are both positive.",
+    "The position and velocity are both negative.",
+    "The position is negative and the velocity is positive."
+   ],
+   "answer": 0,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2007-032",
+   "subject": "physics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "If a long rope of uniform linear density is hung from a ceiling and waves are sent up the rope from its",
+   "options": [
+    "The speed decreases as the waves ascend.",
+    "The speed increases as the waves ascend.",
+    "The waves ascend with a uniform speed. OI",
+    "The speed of the waves is larger around the middle of the rope than around the beginning and end."
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2007-034",
+   "subject": "physics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "A wave traveling from a medium of index of refraction n1 toward a medium of index of refraction n2 undergoes partly transmission and partly reflection. If n2 is greater than n1 which one of the following statementsisnotcorrect?",
+   "options": [
+    "The speed of the wave in the medium with reflective index n is smaller than with n2",
+    "The incident and the reflected waves are in phase.",
+    "The angle of reflection is the same as the angle of incidence.",
+    "The reflection angle is less than the incidence angle"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2007-035",
+   "subject": "physics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "In Youngs double slit experiment interference pattern which one of the following activities move the successive bright fringes farther apart?",
+   "options": [
+    "Decreasing the wave length of the light.",
+    "Decreasing the distance between the viewing screen and the double slit.",
+    "Increasing the slit spacing.",
+    "Decreasing the slit spacing."
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2007-037",
+   "subject": "physics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "In a certain region of space, a uniform electric field is directed in the positive x direction. If a particle with negative charge is carried from x = 20cm to x = 60cm, what can we conclude about the electric potential and the electric potential energy of the charge-field system? NotAnswered",
+   "options": [
+    "The electric potential at x = 20cm is larger than that at x = 60cm.",
+    "The electric potential at x = 20cm is the same as that at x = 60cm.",
+    "The electric potential energy decrease.",
+    "The electric potential energy increase."
+   ],
+   "answer": 3,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2007-038",
+   "subject": "physics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "A parallel plate capacitor has a capacitance of 10μF. If the distance between the plates is doubled, keeping all other quantities constant, what is the new capacitance of the capacitor?",
+   "options": [
+    "0.2 μF",
+    "5 μF",
+    "10 μF",
+    "20 μF"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2007-039",
+   "subject": "physics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "If several resistors are connected in parallel, the equivalent resistance is",
+   "options": [
+    "is equal to the average resistances of the group.",
+    "less than any of the resistances in the group.",
+    "equal to the sum of the resistances in the group."
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2007-040",
+   "subject": "physics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "In aluminium and copper wires with circular cross sections have equal length and equal resistance, then theratioof theradius of aluminium tothatof coppershouldbethesame as that of the",
+   "options": [
+    "ratio of the resistivity of aluminium to copper",
+    "ratio of the resistivity of copper to aluminium",
+    "square root of the ratio of the resistivity of aluminium to copper",
+    "square root of the ratio of the resistivity of copper to aluminium"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2007-041",
+   "subject": "physics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "In the circuit shown below, what is the potential difference between point b and a? 160 120 P 12V",
+   "options": [
+    "19.2V",
+    "24.0V",
+    "13.0V~",
+    "12.0V"
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2007-042",
+   "subject": "physics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which of the following statements is correct about the effect and formation of field? NotAnswered",
+   "options": [
+    "A magnetic field exerts a nonzero force on a stationary charge object.",
+    "A magnetic field exerts a nonzero force on a conducting wire placed in the field.",
+    "A uniform magnetic field can be created at all points around a long current carrying wire.",
+    "A magnetic field can be created in the space surrounding any charged object that is in motion."
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2007-043",
+   "subject": "physics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "An electron moving at a speed of 1.5 x 10'm/s enters a region of uniform magnetic field of magnitude 2 x 10-3T, direction perpendicular to the field. The path followed by the electron is circular. What is the radius of thecircularpath?",
+   "options": [
+    "0.43cm",
+    "4.3cmv",
+    "43cm",
+    "430cm"
+   ],
+   "answer": 1,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2007-044",
+   "subject": "physics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "If a wire carrying current in the plane of this paper toward the top of the page experiences a magnetic force toward the right edge of the page, what will be the direction of the magnetic field causing this force?",
+   "options": [
+    "In the plane pf the page and toward the left edge.",
+    "In the plane pf the page and toward the bottom edge.",
+    "Perpendicularanddirectedoutoftheplaneofthepage.",
+    "Perpendicular and directed in to the plane of the page."
+   ],
+   "answer": 2,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2007-045",
+   "subject": "physics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "A square flat loop of wire is placed in a uniform magnetic field that is in the y direction. The magnetic flux through the loopis a maximum if theplane of theloopis in the",
+   "options": [
+    "xy plane",
+    "xz planev",
+    "yz plane",
+    "inclined 45° with respect to the xy plane"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2007-046",
+   "subject": "physics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which one of the following actions increases the magnetic energy density in the interior of a very long current carrying solenoid?",
+   "options": [
+    "Increasing the number of turns per unit length of the solenoid.",
+    "Increasing the cross section area of the solenoid.",
+    "Increasing the length of the solenoid keeping the number of turns per unit length fixed.",
+    "Decreasing the cross section area of the solenoid."
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2007-047",
+   "subject": "physics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Figure below shows a rectangular loop of wire of width L and resistance R. one end of the loop is in a uniform magnetic field of strength B directed perpendicular in to the plane of the page, the loop is pulled to the right at a constant speed v. what are the magnitude and direction of the induced current in the loop? X XXXXXXXX X XXKXXXXX X XXAXXXXX X XXXXXXXX",
+   "options": [
+    "I=BLvR and clockwise",
+    "I=BLv/R and clockwisev",
+    "I=BLvR and counter clockwise ）",
+    "I=BLv/R and counter clockwise"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2007-048",
+   "subject": "physics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "A series RLC circuit has a total impedance of 75.0Q. If the resistance is R = 45.0Q and the average power delivered to the circuit is P = 352.8 W, what is the root mean square value of the ac voltage source?",
+   "options": [
+    "83V",
+    "116V",
+    "210V",
+    "297V"
+   ],
+   "answer": 0,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2007-049",
+   "subject": "physics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "Which of the following phenomena most clearly demonstrates the wave nature of electrons?",
+   "options": [
+    "The photoelectric effect",
+    "Blackbody radiation",
+    "The Compton effect",
+    "Diffractionofelectronsby crystals"
+   ],
+   "answer": 3,
+   "confidence": "grid",
+   "type": "mcq"
+  },
+  {
+   "id": "natl-physics-2007-050",
+   "subject": "physics",
+   "year": 2007,
+   "yearCal": "EC",
+   "q": "When the radioactive element 144Nd6o decays to 140Cess, which one of the following particles is emitted?",
+   "options": [
+    "A beta particle",
+    "An alpha particlev",
+    "a proton",
+    "a gamma ray Your Answers you have scored O out of o Answer Key 1.C 11.A 21.B 31.A 41.C 2.B 12.A 22.B 32.A 42.B 3.D 13.C 23.D 33.C 43.B 4.A 14.C 24.A 34.A 44.C 5.B 15.D 25.D 35.C 45.B 6.D 16.C 26.A 36.A 46.A 7.B 17.B 27.A 37.D 47.B 8.C 18.A 28.D 38.B 48.C 9.C 19.B 29.B 39.C 49.D 10.B 20.D 30.B 40.C 50.B 2019CamaraEducationEthiopia.EthiopianGeneralSecondaryEducationCertificateandUniversityEntranceExaminations"
+   ],
+   "answer": 1,
+   "confidence": "grid+tick",
+   "type": "mcq"
+  }
+ ],
+ "flagged": [
+  {
+   "n": 21,
+   "grid": "A",
+   "tick": "B",
+   "q": "A uniform bar of length 2.0m and mass 30.0kg is supported by two massless ropes "
+  },
+  {
+   "n": 33,
+   "grid": "A",
+   "tick": "C",
+   "q": "A given minimum point (trough) of a sinusoidal wave is traveling 480 cm long a r"
+  }
+ ],
+ "stats": {
+  "questions": 50,
+  "items": 47,
+  "flagged": 2,
+  "grid": 50,
+  "conf": {
+   "grid+tick": 9,
+   "grid": 38,
+   "tick": 0
+  }
+ }
+}

@@ -131,5 +131,96 @@
   "confidence": "high",
   "resolved_by": "solver-crew-4",
   "reasoning": "Anti-corruption requires broad public participation; the D tick belongs to the embedded next question."
+ },
+ {
+  "id": "natl-physics-2008-011",
+  "letter": "C",
+  "confidence": "medium",
+  "resolved_by": "solver-crew-R3",
+  "reasoning": "With supports inset such that the 2m offset places B closer to the end (e.g. A at 0/A-B 4m or 1m-4m geometry), moments about A give the right support roughly 600N·(2/3)≈400N, matching the tick; 75N is impossible for a 600N beam in this layout."
+ },
+ {
+  "id": "natl-physics-2008-013",
+  "letter": "D",
+  "confidence": "high",
+  "resolved_by": "solver-crew-R3",
+  "reasoning": "Conservation of momentum for two masses pushed apart from rest: 2kg moving at 20 m/s right gives the 5kg mass v = -(2×20)/5 = -8 m/s."
+ },
+ {
+  "id": "natl-physics-2008-016",
+  "letter": "B",
+  "confidence": "high",
+  "resolved_by": "solver-crew-R3",
+  "reasoning": "A net force on a straight-line-moving particle accelerates it, changing velocity and therefore speed and kinetic energy; momentum is not conserved under a net external force."
+ },
+ {
+  "id": "natl-physics-2008-026",
+  "letter": "C",
+  "confidence": "high",
+  "resolved_by": "solver-crew-R3",
+  "reasoning": "Cooling both shrinks the ball more than the hole since the ball's metal has the larger expansion coefficient, opening a clearance; heating would widen the gap the wrong way."
+ },
+ {
+  "id": "natl-physics-2008-030",
+  "letter": "D",
+  "confidence": "high",
+  "resolved_by": "solver-crew-R3",
+  "reasoning": "A heat engine is by definition a device transforming heat energy into mechanical energy."
+ },
+ {
+  "id": "natl-physics-2008-035",
+  "letter": "B",
+  "confidence": "high",
+  "resolved_by": "solver-crew-R3",
+  "reasoning": "Wavelength is the shortest distance between adjacent points in phase; option C defines a wavefront, D frequency, A a ray."
+ },
+ {
+  "id": "natl-physics-2008-049",
+  "letter": "B",
+  "confidence": "high",
+  "resolved_by": "solver-crew-R3",
+  "reasoning": "The electron volt (eV) is the standard energy unit in atomic physics; the other options are a constant, a wavelength, and a principle, none of which are energy units."
+ },
+ {
+  "id": "natl-physics-2005-018",
+  "letter": "B",
+  "confidence": "high",
+  "resolved_by": "crew-R2",
+  "reasoning": "Work-energy: F = mv²/(2d) = 2000·900/(2·150) = 6000 N, matching the tick not the grid."
+ },
+ {
+  "id": "natl-physics-2005-027",
+  "letter": "B",
+  "confidence": "medium",
+  "resolved_by": "crew-R2",
+  "reasoning": "Classic configuration: the loop side nearest the wire carries current in the same sense, so the stronger attractive force exceeds the far-side repulsion and the loop translates toward the wire."
+ },
+ {
+  "id": "natl-physics-2006-004",
+  "letter": "C",
+  "confidence": "high",
+  "resolved_by": "crew-R2",
+  "reasoning": "Every string element oscillates transversely in SHM at the wave's own angular frequency; the tick is right, the grid wrong."
+ },
+ {
+  "id": "natl-physics-2006-007",
+  "letter": "C",
+  "confidence": "high",
+  "resolved_by": "crew-R2",
+  "reasoning": "Disconnected battery means Q constant: E field unchanged, V = Qd/(εA) rises, and U = Q²/2C increases as plates are pulled apart — neither grid A nor tick B is physically correct."
+ },
+ {
+  "id": "natl-physics-2006-016",
+  "letter": "C",
+  "confidence": "medium",
+  "resolved_by": "crew-R2",
+  "reasoning": "Volume flow rate is set by the hose (0.5 L/s) and is unchanged by the nozzle per continuity, so 20 L takes 40 s; exit speed would be 4× (not 2×), so neither grid A nor tick B holds."
+ },
+ {
+  "id": "natl-physics-2007-021",
+  "letter": "A",
+  "confidence": "high",
+  "resolved_by": "crew-R2",
+  "reasoning": "Moments about the left end (g≈10): T₂ = (300·1 + 700·0.5)/2 = 325 N and T₁ = 1000 − 325 = 675 N, confirming the grid over the tick."
  }
 ]
