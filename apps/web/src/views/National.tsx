@@ -45,7 +45,38 @@ function toQuiz(list: NatItem[]): QuizQuestion[] {
 }
 function shuffle<T>(arr: T[]): T[] { const a = arr.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
 
-interface Run { title: string; icon: string; qs: QuizQuestion[]; yearOf: number[]; subjectOf: string[]; seconds: number; startedAt: number; answers?: unknown[] }
+interface Run { title: string; icon: string; qs: QuizQuestion[]; yearOf: number[]; subjectOf: string[]; seconds: number; startedAt: number; answers?: unknown[]; flags?: number[] }
+
+/* ── Mistakes Bank ──
+   Persistent per-question record of every national-exam question the student
+   has gotten wrong, with a miss count. Surfaces a "practice my mistakes" pool
+   so retrieval practice concentrates on weak spots (spacing/testing effect). */
+export const BANK_KEY = 'ethiostudy_natl_bank';
+export interface BankEntry { id: string; misses: number; lastAt: number }
+export function loadBank(): Record<string, BankEntry> {
+  try {
+    const r = JSON.parse(localStorage.getItem(BANK_KEY) || '{}');
+    return r && typeof r === 'object' ? r as Record<string, BankEntry> : {};
+  } catch { return {}; }
+}
+export function saveBank(b: Record<string, BankEntry>) { try { localStorage.setItem(BANK_KEY, JSON.stringify(b)); } catch { /* quota */ } }
+/* Pure: fold a graded run's misses into the bank (bump counts). Returns the new bank. Unit-tested. */
+export function applyMisses(bank: Record<string, BankEntry>, items: { id: string }[], perCorrect: boolean[], now: number): Record<string, BankEntry> {
+  const next: Record<string, BankEntry> = { ...bank };
+  items.forEach((it, i) => {
+    if (perCorrect[i]) return;
+    const e = next[it.id];
+    next[it.id] = e ? { ...e, misses: e.misses + 1, lastAt: now } : { id: it.id, misses: 1, lastAt: now };
+  });
+  return next;
+}
+/* Pure: entries ordered most-missed first, then most-recent. Unit-tested. */
+export function bankRanked(bank: Record<string, BankEntry>): NatItem[] {
+  const ids = Object.keys(bank).sort((a, b) => bank[b].misses - bank[a].misses || bank[b].lastAt - bank[a].lastAt);
+  const byId: Record<string, NatItem> = {};
+  for (const it of ITEMS) byId[it.id] = it;
+  return ids.filter(id => byId[id]).map(id => byId[id]);
+}
 
 /* ── Refresh-proof session persistence ──
    The whole run (questions + answers + clock anchor) survives F5/closure. */
@@ -76,6 +107,8 @@ export default function National() {
     return n;
   });
   const [result, setResultRaw] = useState<QuizResult | null>(null);
+  const [streakExtended, setStreakExtended] = useState(false);
+  const scoreCardRef = useRef<HTMLDivElement | null>(null);
   const resultRef = useRef<QuizResult | null>(null);
   resultRef.current = result;
   const submittedRef = useRef(!!resultRef.current);
@@ -84,6 +117,14 @@ export default function National() {
     saveRes(r ? { correct: r.correct, total: r.total, pct: r.pct, grade: r.grade, feedback: r.feedback, perQ: r.perQ.map(x => x.correct) } : null);
   };
   const [left, setLeft] = useState(() => { const r = loadRun(); return r && r.seconds > 0 ? Math.max(0, r.seconds - Math.floor((Date.now() - r.startedAt) / 1000)) : 0; });
+  const [bank, setBankRaw] = useState<Record<string, BankEntry>>(() => loadBank());
+  const setBank = (b: Record<string, BankEntry>) => { setBankRaw(b); saveBank(b); };
+  const [flags, setFlagsRaw] = useState<Set<number>>(() => new Set(loadRun()?.flags ?? []));
+  const setFlags = (updater: Set<number> | ((prev: Set<number>) => Set<number>)) => setFlagsRaw(prev => {
+    const n = typeof updater === 'function' ? (updater as (p: Set<number>) => Set<number>)(prev) : updater;
+    try { const r = loadRun(); if (r) saveRun({ ...r, flags: [...n] }); } catch { /* ignore */ }
+    return n;
+  });
 
   const bySubject = useMemo(() => {
     const m: Record<string, { count: number; years: number[] }> = {};
@@ -105,8 +146,24 @@ export default function National() {
     submittedRef.current = false;
     setRun(fresh);
     setAnswers(new Array(picked.length).fill(undefined));
+    setFlags(new Set());
     setResult(null);
     setLeft(minutes * 60);
+  };
+  /* Practice the exact questions missed in the finished run (#5 wrong-only). */
+  const practiceMistakes = (fromFlagged = false) => {
+    if (!run || !result) return;
+    const idxs = result.perQ.map((pq, i) => (fromFlagged ? (flags.has(i) ? pq.index : -1) : (pq.correct ? -1 : pq.index))).filter(i => i >= 0);
+    const picked = idxs.map(i => run.qs[i] as unknown as NatItem);
+    const title = fromFlagged ? 'Flagged for review' : 'My mistakes';
+    start(picked, title, fromFlagged ? '⚑' : '🎯', picked.length, 0);
+  };
+  /* Start from the mistakes bank pool (most-missed first). */
+  const practiceBank = () => {
+    const pool = bankRanked(bank);
+    if (!pool.length) return;
+    const n = Math.min(len, pool.length);
+    start(pool.slice(0, n), 'Mistakes Bank drill', '🥅', n, 0);
   };
 
   const startSubject = () => {
@@ -128,10 +185,18 @@ export default function National() {
     submittedRef.current = true;
     const r = gradeQuiz(run.qs, answers);
     setResult(r);
+    // Bank every miss for "practice my mistakes" drills (only on a fresh submit —
+    // restored/flagged re-grades must not double-count).
+    if (!auto) setBank(applyMisses(loadBank(), run.qs as unknown as { id: string }[], r.perQ.map(x => x.correct), Date.now()));
     // Feed the flagship feature into the same progress/streak engine as curriculum quizzes.
+    const before = useAppStore.getState().streak.current;
     for (const [subj, { c, n }] of Object.entries(bySubjectGroups(run.subjectOf, r.perQ))) {
       if (n > 0) logQuiz('natl:' + subj, c, n, Math.round((c / n) * 100));
     }
+    const after = useAppStore.getState().streak.current;
+    setStreakExtended(after > before);
+    // NN/g: scroll the outcome into view — the student shouldn't have to hunt for it
+    requestAnimationFrame(() => setTimeout(() => scoreCardRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' }), 60));
   };
   const answered = answers.filter(a => a !== undefined && a !== null && a !== '').length;
 
@@ -181,6 +246,17 @@ export default function National() {
           <div style={{ fontSize: '2rem' }}>▶️</div>
         </div>
       </div>
+      {(() => { const ranked = bankRanked(bank); const n = Math.min(len, ranked.length); return n > 0 && (
+        <div className="card mt-4 bank-card" style={{ cursor: 'pointer' }} onClick={practiceBank}>
+          <div className="spread">
+            <div>
+              <div style={{ fontWeight: 800, fontSize: '1.15rem' }}>🥅 Mistakes Bank — {ranked.length} question{ranked.length > 1 ? 's' : ''} you've missed</div>
+              <div className="tiny muted">Re-drill your weak spots, most-missed first · {n} questions (untimed). Backed by the testing effect: retrieval practice on what you got wrong is the strongest memory workout there is.</div>
+            </div>
+            <div style={{ fontSize: '2rem' }}>🎯</div>
+          </div>
+        </div>
+      ); })()}
       <h2 className="section-title mt-5">📚 Practice by subject</h2>
       <div className="grid grid-2">
         {Object.entries(SUBJECTS).filter(([k]) => bySubject[k]).map(([k, s]) => (
@@ -249,16 +325,19 @@ export default function National() {
         <>
           <div className="spread mt-3">
             <div className="breadcrumb" style={{ margin: 0 }}><span>{run.icon} {run.title}</span></div>
-            {run.seconds > 0 && <Chip text={`${Math.floor(effLeft / 60)}:${String(effLeft % 60).padStart(2, '0')}`} cls={effLeft < 120 ? 'chip-diff-hard' : 'chip-subject'} />}
+            {run.seconds > 0 && (
+              <Chip text={`${Math.floor(effLeft / 60)}:${String(effLeft % 60).padStart(2, '0')}`} cls={effLeft <= 60 ? 'chip-diff-hard timer-urgent' : effLeft < 120 ? 'chip-diff-hard' : 'chip-subject'} />
+            )}
           </div>
           {run.seconds > 0 && <div className="progress mt-2"><div style={{ width: (effLeft / run.seconds) * 100 + '%' }} /></div>}
           <div className="progress mt-2"><div style={{ width: (answered / run.qs.length) * 100 + '%' }} /></div>
-          <div className="tiny muted mt-2">{answered}/{run.qs.length} answered</div>
+          <div className="tiny muted mt-2" aria-live="polite">{answered}/{run.qs.length} answered{effLeft <= 60 && run.seconds > 0 && <span className="timer-urgent-text"> · ⚠️ under a minute — start wrapping up</span>}</div>
           <nav className="q-nav" aria-label="Question navigator">
             {run.qs.map((_, i) => {
               const done = answers[i] !== undefined && answers[i] !== null && answers[i] !== '';
+              const flg = flags.has(i);
               return (
-                <button key={i} className={'q-dot' + (done ? ' answered' : '')} title={'Question ' + (i + 1) + (done ? ' (answered)' : ' (unanswered)')}
+                <button key={i} className={'q-dot' + (done ? ' answered' : '') + (flg ? ' flagged' : '')} title={'Question ' + (i + 1) + (done ? ' (answered)' : ' (unanswered)') + (flg ? ' · flagged ⚑' : '')}
                   aria-label={'Go to question ' + (i + 1)} aria-current={!done ? 'true' : undefined}
                   onClick={() => document.getElementById('natl-q-' + i)?.scrollIntoView({ behavior: 'smooth', block: 'center' })}>{i + 1}</button>
               );
@@ -268,17 +347,21 @@ export default function National() {
             {run.qs.map((q, i) => (
               <div key={i} id={'natl-q-' + i} style={{ scrollMarginTop: 70 }}>
                 <QuestionCard q={q} index={i} answer={answers[i]}
-                  onAnswer={a => setAnswers(prev => { const n = [...prev]; n[i] = a; return n; })} bookmark={bm(q)} />
+                  onAnswer={a => setAnswers(prev => { const n = [...prev]; n[i] = a; return n; })} bookmark={bm(q)}
+                  flag={{ on: flags.has(i), onToggle: () => setFlags(prev => { const n = new Set(prev); n.has(i) ? n.delete(i) : n.add(i); return n; }) }} />
               </div>
             ))}
           </div>
-          <div className="row mt-4" style={{ justifyContent: 'center' }}>
+          <div className="row mt-4" style={{ justifyContent: 'center', flexDirection: 'column', alignItems: 'center', gap: 8 }}>
+            {answered === run.qs.length && <div className="tiny" style={{ color: 'var(--success)' }} aria-live="polite">✨ All {run.qs.length} answered — you're ready to submit</div>}
+            {flags.size > 0 && <div className="tiny muted">⚑ {flags.size} flagged for review</div>}
             <button className="btn btn-primary btn-lg" onClick={() => submit()}>{answered < run.qs.length ? `Submit with ${run.qs.length - answered} unanswered` : 'Submit exam ✓'}</button>
           </div>
         </>
       ) : (
         <>
-          <div className="card mt-4" style={{ textAlign: 'center' }}>
+          <div className="card mt-4" ref={scoreCardRef} style={{ textAlign: 'center', scrollMarginTop: 70 }}>
+            {streakExtended && <div className="streak-moment" aria-live="polite">🔥 Streak extended — you showed up today!</div>}
             <h2 style={{ color: result.pct >= 70 ? 'var(--success)' : 'var(--danger)' }}>{result.grade.emoji} {result.pct}% — {result.grade.label}</h2>
             <p className="muted">{run.title} · {result.correct}/{result.total} correct</p>
             <ScoreRing pct={result.pct} />
@@ -315,11 +398,21 @@ export default function National() {
                 })}
               </>
             )}
-            <div className="row mt-3" style={{ justifyContent: 'center' }}>
-              <button className="btn" onClick={() => { clearSession(); submittedRef.current = false; setRunRaw(null); setResultRaw(null); }}>🇪🇹 Another exam</button>
-            </div>
+            {(() => {
+              const nWrong = result.perQ.filter(p => !p.correct).length;
+              const nFlag = flags.size;
+              return (
+                <div className="row mt-3" style={{ justifyContent: 'center', flexWrap: 'wrap' }}>
+                  {nWrong > 0 && <button className="btn btn-primary" onClick={() => practiceMistakes(false)}>🎯 Practice my mistakes ({nWrong})</button>}
+                  {nWrong === 0 && <div className="tiny" style={{ color: 'var(--success)' }}>💯 Flawless — nothing to re-drill!</div>}
+                  {nFlag > 0 && <button className="btn" onClick={() => practiceMistakes(true)}>⚑ Retake flagged ({nFlag})</button>}
+                  <button className="btn" onClick={() => { clearSession(); submittedRef.current = false; setRunRaw(null); setResultRaw(null); setFlags(new Set()); }}>🇪🇹 Another exam</button>
+                </div>
+              );
+            })()}
           </div>
-          {result.perQ.map((pq, i) => <QuestionCard key={i} q={pq.q} index={i} answer={answers[i]} result={pq} bookmark={bm(pq.q)} />)}
+          {result.perQ.map((pq, i) => <QuestionCard key={i} q={pq.q} index={i} answer={answers[i]} result={pq} bookmark={bm(pq.q)}
+            flag={{ on: flags.has(i), onToggle: () => setFlags(prev => { const n = new Set(prev); n.has(i) ? n.delete(i) : n.add(i); return n; }) }} />)}
         </>
       )}
     </>

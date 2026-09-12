@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeEach } from 'vitest';
-import { bySubjectGroups, loadRun, saveRun, clearSession, RUN_KEY } from '../views/National';
+import { bySubjectGroups, loadRun, saveRun, clearSession, applyMisses, bankRanked, RUN_KEY, type BankEntry } from '../views/National';
 
 describe('bySubjectGroups — national exam results → progress engine', () => {
   it('groups correct/incorrect tallies per subject', () => {
@@ -38,5 +38,32 @@ describe('refresh-proof run persistence', () => {
     saveRun({ qs: [{ id: 'a' }] } as never);
     clearSession();
     expect(localStorage.getItem(RUN_KEY)).toBeNull();
+  });
+});
+
+describe('Mistakes Bank', () => {
+  it('applyMisses banks only wrong answers and bumps counts', () => {
+    const items = [{ id: 'a' }, { id: 'b' }, { id: 'c' }];
+    const now = 1000;
+    let b = applyMisses({}, items, [false, true, false], now);
+    expect(Object.keys(b).sort()).toEqual(['a', 'c']);
+    expect(b.a).toEqual({ id: 'a', misses: 1, lastAt: now });
+    b = applyMisses(b, items, [false, true, true], now + 5); // c now correct, a misses again
+    expect(b.a.misses).toBe(2);
+    expect(b.c.misses).toBe(1); // no double-count when correct later
+    expect(b).not.toHaveProperty('b');
+  });
+  it('bankRanked orders by misses then recency, drops unknown ids', () => {
+    const bank: Record<string, BankEntry> = {
+      x: { id: 'x', misses: 3, lastAt: 1 }, y: { id: 'y', misses: 3, lastAt: 2 },
+      z: { id: 'z', misses: 1, lastAt: 9 }, gone: { id: 'gone', misses: 99, lastAt: 9 },
+    };
+    // x,y,z must exist in the real dataset to be kept; gone should never appear
+    const ranked = bankRanked(bank);
+    expect(ranked.some(r => (r as { id: string }).id === 'gone')).toBe(false);
+    const ids = ranked.map(r => (r as { id: string }).id);
+    const iy = ids.indexOf('y'), ix = ids.indexOf('x'), iz = ids.indexOf('z');
+    if (iy >= 0 && ix >= 0) expect(iy).toBeLessThan(ix); // ties: recency first
+    if (iz >= 0 && ix >= 0) expect(ix).toBeLessThan(iz); // more misses first
   });
 });

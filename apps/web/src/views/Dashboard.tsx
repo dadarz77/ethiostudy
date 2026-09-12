@@ -1,5 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import { useAppStore } from '../store/useAppStore';
+import { todayStr } from '../lib/scoring';
 import { topicById, subjectsFor, fmtTime, CURRICULUM, type Grade } from '../lib/curriculum';
 import { statsFor } from '../lib/scoring';
 import { tr } from '../lib/i18n';
@@ -38,6 +39,11 @@ export default function Dashboard() {
           <div className="orbit-caption">{overall.avgMastery || 0}%<small>mastery</small></div>
         </div>
       </section>
+      {s.streak.lastDate !== todayStr() && s.streak.current > 0 && (
+        <button className="btn streak-nudge mt-3" style={{ width: '100%' }} onClick={() => navigate('/national')} aria-live="polite">
+          🛡️ Keep your 🔥 {s.streak.current}-day streak alive — one exam today does it →
+        </button>
+      )}
 
       <section className="subject-deck" aria-label={tr('explore', lang)}>
         <div className="section-heading">

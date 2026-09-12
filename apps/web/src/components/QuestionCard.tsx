@@ -5,7 +5,7 @@ import type { Bookmark } from '../store/useAppStore';
 
 /* One quiz question card — exact port of v1's renderQuestion():
    .quiz-q card, lettered options, correct/incorrect callout after submit. */
-export function QuestionCard({ q, index, answer, onAnswer, result, bookmark }: {
+export function QuestionCard({ q, index, answer, onAnswer, result, bookmark, flag }: {
   q: QuizQuestion;
   index: number;
   answer: unknown;
@@ -13,6 +13,8 @@ export function QuestionCard({ q, index, answer, onAnswer, result, bookmark }: {
   result?: { correct: boolean };
   /* when provided, the head shows a working 🔖 toggle that saves this record */
   bookmark?: Omit<Bookmark, 'at'>;
+  /* when provided, the head shows a ⚑ flag-for-review toggle (exam-local) */
+  flag?: { on: boolean; onToggle: () => void };
 }) {
   const bookmarks = useAppStore(s => s.bookmarks);
   const toggleBookmark = useAppStore(s => s.toggleBookmark);
@@ -31,7 +33,7 @@ export function QuestionCard({ q, index, answer, onAnswer, result, bookmark }: {
         else if (answer === oi) cls += ' incorrect';
       }
       return (
-        <div key={oi} className={cls}>
+        <div key={oi} className={cls} onClick={() => { if (!submitted) setAnswer(oi); }}>
           <span className="opt-letter">{String.fromCharCode(65 + oi)}.</span>
           <label style={{ cursor: 'pointer', flex: 1 }}>
             <input type="radio" name={'q' + index} checked={answer === oi} disabled={submitted} onChange={() => setAnswer(oi)} />
@@ -47,7 +49,7 @@ export function QuestionCard({ q, index, answer, onAnswer, result, bookmark }: {
       if (submitted && tf === (q.answer === true ? 'T' : 'F')) cls += ' correct';
       else if (submitted && picked === tf) cls += ' incorrect';
       return (
-        <div key={tf} className={cls}>
+        <div key={tf} className={cls} onClick={() => { if (!submitted) setAnswer(tf === 'T'); }}>
           <span className="opt-letter">{tf}</span>
           <label style={{ cursor: 'pointer', flex: 1 }}>
             <input type="radio" name={'q' + index} checked={picked === tf} disabled={submitted}
@@ -77,14 +79,24 @@ export function QuestionCard({ q, index, answer, onAnswer, result, bookmark }: {
         <Chip text={`Q${index + 1}`} />
         <Chip text={TYPE_LABELS[q.type]} />
         <Chip text={diff >= 4 ? 'Hard' : diff >= 3 ? 'Medium' : 'Easy'} cls={diff >= 4 ? 'chip-diff-hard' : diff >= 3 ? 'chip-diff-medium' : 'chip-diff-easy'} />
-        {bookmark && (
-          <button type="button" className={'q-bookmark' + (marked ? ' is-on' : '')} aria-pressed={marked}
-            aria-label={marked ? 'Remove from bookmarks' : 'Bookmark this question'}
-            title={marked ? 'Saved — tap to remove' : 'Save for later'}
-            onClick={() => toggleBookmark(bookmark)}>
-            {marked ? '🔖' : '🏷️'}
-          </button>
-        )}
+        {(bookmark || flag) && <span className="q-head-actions">
+          {flag && (
+            <button type="button" className={'q-flag' + (flag.on ? ' is-on' : '')} aria-pressed={flag.on}
+              aria-label={flag.on ? 'Remove review flag' : 'Flag this question for review'}
+              title={flag.on ? 'Flagged for review — tap to clear' : 'Flag for review'}
+              onClick={flag.onToggle}>
+              ⚑
+            </button>
+          )}
+          {bookmark && (
+            <button type="button" className={'q-bookmark' + (marked ? ' is-on' : '')} aria-pressed={marked}
+              aria-label={marked ? 'Remove from bookmarks' : 'Bookmark this question'}
+              title={marked ? 'Saved — tap to remove' : 'Save for later'}
+              onClick={() => toggleBookmark(bookmark)}>
+              {marked ? '🔖' : '🏷️'}
+            </button>
+          )}
+        </span>}
       </div>
       <div className="quiz-q-text">{q.q}</div>
       <div className="mt-2">{body}</div>
