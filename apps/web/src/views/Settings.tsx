@@ -58,6 +58,16 @@ export default function Settings() {
         </div>
       </div>
 
+      <div className="card">
+        <div className="spread">
+          <div><h3 style={{ margin: 0 }}>🎬 Motion</h3><p className="tiny muted" style={{ margin: '4px 0 0' }}>Low power freezes background animations — saves battery on phones.</p></div>
+          <div className="seg-group">
+            <button className={'btn' + ((settings.motion ?? 'full') === 'full' ? ' btn-primary' : '')} onClick={() => setSetting('motion', 'full')}>✨ Full</button>
+            <button className={'btn' + ((settings.motion ?? 'full') === 'low' ? ' btn-primary' : '')} onClick={() => setSetting('motion', 'low')}>🪫 Low power</button>
+          </div>
+        </div>
+      </div>
+
       <div className="card" style={{ borderColor: 'rgba(251,113,133,.35)' }}>
         <h3>⚠️ Danger zone</h3>
         <p className="tiny muted">This clears all study history, scores, bookmarks and notes. This cannot be undone.</p>

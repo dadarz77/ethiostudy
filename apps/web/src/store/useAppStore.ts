@@ -20,7 +20,7 @@ export interface HistoryEntry {
 }
 export interface Settings {
   theme: 'dark' | 'light'; grade: '9' | '10' | '11' | '12'; language: 'en' | 'am';
-  sound: boolean; quizLen: number; examLen: number;
+  sound: boolean; quizLen: number; examLen: number; motion: 'full' | 'low';
 }
 
 export interface PersistedState {
@@ -49,7 +49,7 @@ export interface AppStore extends PersistedState {
 }
 
 export const defaults = (): PersistedState => ({
-  settings: { theme: 'dark', grade: '10', language: 'en', sound: true, quizLen: 10, examLen: 10 },
+  settings: { theme: 'dark', grade: '10', language: 'en', sound: true, quizLen: 10, examLen: 10, motion: 'full' },
   progress: {},
   bookmarks: [],
   notes: {},

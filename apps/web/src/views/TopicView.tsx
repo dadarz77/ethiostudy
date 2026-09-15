@@ -46,6 +46,7 @@ export default function TopicView() {
 
   const [timerSec, setTimerSec] = useState(0);
   const [timerRun, setTimerRun] = useState(false);
+  const [timerOpen, setTimerOpen] = useState(false);
   const [timerTarget, setTimerTarget] = useState(25 * 60);
   useEffect(() => {
     if (!timerRun) return;
@@ -113,24 +114,40 @@ export default function TopicView() {
         </div>
       </section>
 
-      <div className="card timer-card mt-4">
-        <div className="spread">
-          <h3 style={{ margin: 0 }}>⏱️ Study Timer</h3>
-          <span className="tiny muted">Topic: {topic.title}</span>
-        </div>
-        <div className="timer-display" style={{ fontVariantNumeric: 'tabular-nums' }}>{mm}:{ss}</div>
-        <div className="timer-presets">
-          {[10, 15, 25, 45, 60].map(m => (
-            <button key={m} className={'timer-preset' + (timerTarget === m * 60 ? ' active' : '')} onClick={() => setTimerTarget(m * 60)}>{m} min</button>
-          ))}
-        </div>
-        <div className="timer-controls">
-          <button className="btn btn-primary" onClick={() => setTimerRun(true)}>▶ Start</button>
-          <button className="btn" onClick={() => setTimerRun(r => !r)}>⏸ Pause / Resume</button>
-          <button className="btn" onClick={() => { setTimerRun(false); setTimerSec(0); }}>↺ Reset</button>
-          <button className="btn btn-danger" onClick={() => { logStudy(tid, timerSec); setTimerRun(false); setTimerSec(0); }}>✅ Finish Session</button>
-        </div>
-        <div className="tiny muted mt-3">Pick a time or use the default 25 minutes, then press Start. Your study time is tracked automatically.</div>
+      <div className={'card timer-card mt-4' + (timerOpen ? '' : ' timer-collapsed')}>
+        {timerOpen ? (
+          <>
+            <div className="spread">
+              <h3 style={{ margin: 0 }}>⏱️ Study Timer</h3>
+              <button className="btn btn-ghost btn-sm" onClick={() => setTimerOpen(false)} title="Collapse">✕ Collapse</button>
+            </div>
+            <div className="timer-display" style={{ fontVariantNumeric: 'tabular-nums' }}>{mm}:{ss}</div>
+            <div className="timer-presets">
+              {[10, 15, 25, 45, 60].map(m => (
+                <button key={m} className={'timer-preset' + (timerTarget === m * 60 ? ' active' : '')} onClick={() => setTimerTarget(m * 60)}>{m} min</button>
+              ))}
+            </div>
+            <div className="timer-controls">
+              <button className="btn btn-primary" onClick={() => setTimerRun(true)}>▶ Start</button>
+              <button className="btn" onClick={() => setTimerRun(r => !r)}>⏸ Pause / Resume</button>
+              <button className="btn" onClick={() => { setTimerRun(false); setTimerSec(0); }}>↺ Reset</button>
+              <button className="btn btn-danger" onClick={() => { logStudy(tid, timerSec); setTimerRun(false); setTimerSec(0); setTimerOpen(false); }}>✅ Finish Session</button>
+            </div>
+            <div className="tiny muted mt-3">Pick a time or use the default 25 minutes, then press Start. Your study time is tracked automatically.</div>
+          </>
+        ) : (
+          <div className="timer-badge">
+            <span className="timer-badge-ico">⏱</span><span className={'timer-badge-time' + (timerRun ? '' : ' paused')} style={{ fontVariantNumeric: 'tabular-nums' }}>{mm}:{ss}</span>
+            <span className="tiny muted hide-sm">{topic.title}</span>
+            <div className="timer-badge-actions">
+              {timerRun
+                ? <button className="btn btn-sm" onClick={() => setTimerRun(false)}>⏸</button>
+                : <button className="btn btn-primary btn-sm" onClick={() => setTimerRun(true)}>{timerSec ? '▶ Resume' : '▶ Start'}</button>}
+              {timerSec > 0 && <button className="btn btn-danger btn-sm" onClick={() => { logStudy(tid, timerSec); setTimerRun(false); setTimerSec(0); }}>✅ Finish</button>}
+              <button className="btn btn-ghost btn-sm" onClick={() => setTimerOpen(true)} title="Timer options">⚙︎</button>
+            </div>
+          </div>
+        )}
       </div>
 
       <div className="tabs mt-4">

@@ -12,7 +12,8 @@ export default function Bookmarks() {
     <>
       <h1>🔖 Bookmarks</h1>
       {bookmarks.length === 0 ? (
-        <div className="mt-4"><EmptyState icon="🔖" title="Nothing saved yet" sub="Tap 🔖 on any topic to save it here." /></div>
+        <div className="mt-4"><EmptyState icon="🔖" title="Nothing saved yet" sub="Tap 🔖 on any topic to save it here."
+          action={{ label: 'Explore Topics to Bookmark →', onClick: () => navigate('/browse') }} /></div>
       ) : (
         <div className="grid mt-4">
           {bookmarks.map(b => {

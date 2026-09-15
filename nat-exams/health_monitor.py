@@ -14,6 +14,14 @@ STATE = os.path.join(HERE, 'health_state.json')
 LOG = os.path.join(HERE, 'health.log')
 PY = sys.executable
 
+# --- DEAD WORK GUARD ---------------------------------------------------
+# OCR is complete (ALL_DONE.flag present + bank built). This watchdog's only
+# job was keeping the OCR crew alive; it must never respawn it again. Bail
+# before importing psutil or doing any CPU/RAM work.
+if os.path.exists(os.path.join(HERE, 'ALL_DONE.flag')):
+    # keep the process fully silent; nothing to monitor
+    sys.exit(0)
+
 import psutil
 
 def log(msg):

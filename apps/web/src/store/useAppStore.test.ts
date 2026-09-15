@@ -23,7 +23,7 @@ describe('migrateV1 (legacy js/state.js blobs)', () => {
       weakMap: { y: 2 },
     };
     const m = migrateV1(legacy);
-    expect(m.settings).toEqual(legacy.settings);
+    expect(m.settings).toEqual({ ...legacy.settings, motion: 'full' });
     expect(m.progress['g11-mathematics-um1-t1'].bestScore).toBe(90);
     expect(m.streak).toEqual({ current: 7, best: 12, lastDate: '2026-09-06' });
     expect(m.totalStudySec).toBe(3600);

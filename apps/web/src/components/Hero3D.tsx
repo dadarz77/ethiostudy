@@ -1,5 +1,6 @@
 import { useEffect, useRef } from 'react';
 import * as THREE from 'three';
+import { useAppStore } from '../store/useAppStore';
 
 /* Three.js hero scene: a glowing study-planet with orbiting knowledge moons,
    particle starfield, and mouse parallax. Replaces the CSS orbit scene on
@@ -104,11 +105,16 @@ export default function Hero3D() {
     const ro = new ResizeObserver(resize);
     ro.observe(mount);
 
-    /* ---- animate ---- */
+    /* ---- animate: rAF loop only runs while hero is on-screen, tab visible,
+       and motion is full (Settings → Motion = low power freezes it on a calm
+       static pose). Saves GPU/battery on low-spec devices. ---- */
     let raf = 0;
+    let inView = true;
     const clock = new THREE.Clock();
-    const animate = () => {
-      raf = requestAnimationFrame(animate);
+    const calm = () => (useAppStore.getState().settings.motion ?? 'full') === 'low'
+      || window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
+    const frame = () => {
+      raf = requestAnimationFrame(frame);
       const t = clock.getElapsedTime();
       planet.rotation.y = t * 0.18;
       shell.rotation.y = -t * 0.1;
@@ -128,10 +134,30 @@ export default function Hero3D() {
       camera.lookAt(0, 0, 0);
       renderer.render(scene, camera);
     };
-    animate();
+    const start = () => { if (!raf && inView && !document.hidden && !calm()) raf = requestAnimationFrame(frame); };
+    const stop = () => { if (raf) { cancelAnimationFrame(raf); raf = 0; } };
+    const pause = () => { stop(); renderer.render(scene, camera); }; // hold last frame, no idle churn
+
+    renderer.render(scene, camera); // always show the planet, even before/without animation
+    start();
+
+    const io = new IntersectionObserver(([e]) => {
+      inView = e.isIntersecting;
+      inView ? start() : stop();
+    }, { threshold: 0.05 });
+    io.observe(mount);
+    const onVis = () => { document.hidden ? stop() : start(); };
+    const unsubMotion = useAppStore.subscribe((s, prev) => {
+      if (s.settings.motion === prev.settings.motion) return;
+      calm() ? pause() : start();
+    });
+    document.addEventListener('visibilitychange', onVis);
 
     return () => {
-      cancelAnimationFrame(raf);
+      stop();
+      io.disconnect();
+      unsubMotion();
+      document.removeEventListener('visibilitychange', onVis);
       window.removeEventListener('mousemove', onMove);
       ro.disconnect();
       renderer.dispose();

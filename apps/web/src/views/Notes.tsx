@@ -20,7 +20,7 @@ export default function Notes() {
       <h1>📒 Notes</h1>
       <div className="card mt-4">
         <h3>🗒 Quick note (general)</h3>
-        <textarea className="note-editor" value={draft} rows={2}
+        <textarea id="generalNote" className="note-editor" value={draft} rows={2}
           placeholder="Jot something down… (Ctrl+Enter to save)"
           onChange={e => setDraft(e.target.value)}
           onKeyDown={e => {
@@ -29,7 +29,8 @@ export default function Notes() {
         <button className="btn btn-primary mt-3" onClick={() => { if (draft.trim()) { addNote('general', draft.trim()); setDraft(''); } }}>💾 Save Note</button>
       </div>
 
-      {topics.length === 0 && <div className="mt-4"><EmptyState icon="📒" title="No notes yet" sub="Add topic notes from a topic's Notes tab." /></div>}
+      {topics.length === 0 && <div className="mt-4"><EmptyState icon="📒" title="No notes yet" sub="Add topic notes from a topic's Notes tab, or capture a thought right above."
+        action={{ label: '✍️ Write a note', onClick: () => { const el = document.getElementById('generalNote') as HTMLTextAreaElement | null; el?.scrollIntoView({ block: 'center' }); el?.focus(); } }} /></div>}
 
       {topics.map(tid => {
         const list = notes[tid] ?? NO_ARR;

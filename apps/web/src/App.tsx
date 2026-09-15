@@ -35,6 +35,7 @@ const NAV = [
 export default function App() {
   const lang = useAppStore(s => s.settings.language);
   const theme = useAppStore(s => s.settings.theme);
+  const motion = useAppStore(s => s.settings.motion ?? 'full');
   const setSetting = useAppStore(s => s.setSetting);
   const streak = useAppStore(s => s.streak);
   const navigate = useNavigate();
@@ -46,7 +47,8 @@ export default function App() {
   useEffect(() => {
     document.documentElement.lang = lang === 'am' ? 'am' : 'en';
     document.documentElement.dataset.theme = theme;
-  }, [lang, theme]);
+    document.documentElement.dataset.motion = motion;
+  }, [lang, theme, motion]);
 
   // close drawer on route change; Esc closes + restores focus; basic focus trap
   useEffect(() => { setNavOpen(false); }, [location.pathname]);
@@ -106,6 +108,10 @@ export default function App() {
             <button className="icon-btn menu-toggle" aria-label="Open menu" aria-expanded={navOpen} aria-controls="sidebar"
               ref={menuBtnRef} onClick={() => setNavOpen(true)}>☰</button>
             <SearchBox />
+            <button className="icon-btn lang-pill" aria-label="Switch language" title={lang === 'en' ? 'Switch to Amharic' : 'Switch to English'}
+              onClick={() => setSetting('language', lang === 'en' ? 'am' : 'en')}>
+              {lang === 'en' ? 'EN' : 'አማ'}
+            </button>
             <button className="icon-btn theme-toggle" aria-label="Toggle theme"
               onClick={() => setSetting('theme', theme === 'dark' ? 'light' : 'dark')}>
               {theme === 'dark' ? '🌙' : '☀️'}

@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import { useAppStore } from '../store/useAppStore';
 
 /* Shared UI primitives — exact ports of js/components.js so the premium
    design system (cards, chips, orbit hero, 3D tilt) is actually used. */
@@ -31,12 +32,13 @@ export function StatCard({ num, label, ico }: { num: React.ReactNode; label: str
   );
 }
 
-export function EmptyState({ icon, title, sub }: { icon: string; title: string; sub?: string }) {
+export function EmptyState({ icon, title, sub, action }: { icon: string; title: string; sub?: string; action?: { label: string; onClick: () => void } }) {
   return (
     <div className="empty-state">
       <div className="big">{icon}</div>
       <h3>{title}</h3>
       {sub && <p className="muted">{sub}</p>}
+      {action && <button className="btn btn-primary mt-3" onClick={action.onClick}>{action.label}</button>}
     </div>
   );
 }
@@ -61,8 +63,9 @@ export function ScoreRing({ pct }: { pct: number }) {
 export function useOrbitTilt() {
   useEffect(() => {
     const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const lowMotion = () => (useAppStore.getState().settings.motion ?? 'full') === 'low';
     const move = (e: PointerEvent) => {
-      if (reduced) return;
+      if (reduced || lowMotion()) return;
       const card = (e.target as HTMLElement).closest?.('.subject-orbit-card') as HTMLElement | null;
       if (!card) return;
       const box = card.getBoundingClientRect();
