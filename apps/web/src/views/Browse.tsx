@@ -1,4 +1,4 @@
-import { useNavigate, useSearchParams } from 'react-router-dom';
+import { useNavigate, useSearchParams, Link } from 'react-router-dom';
 import { useAppStore } from '../store/useAppStore';
 import { CURRICULUM, subjectsFor, subject as subjectOf, type Grade } from '../lib/curriculum';
 import { statsFor } from '../lib/scoring';
@@ -69,7 +69,7 @@ export default function Browse() {
         return (
           <>
             <div className="breadcrumb mt-3">
-              <a href="#/">Dashboard</a> / <span>{subj.icon} {subj.title}</span>
+              <Link to="/">Dashboard</Link> / <span>{subj.icon} {subj.title}</span>
             </div>
             <div className="grid mt-4">
               {subj.units.map((u, i) => {
@@ -97,7 +97,7 @@ export default function Browse() {
         return (
           <>
             <div className="breadcrumb mt-3">
-              <a href="#/">Dashboard</a> / <a href={'#/browse?grade=' + grade + '&subject=' + subjKey}>{subj.title}</a> / <span>Unit {ui}</span>
+              <Link to="/">Dashboard</Link> / <Link to={'/browse?grade=' + grade + '&subject=' + subjKey}>{subj.title}</Link> / <span>Unit {ui}</span>
             </div>
             <h1 className="mt-2">{unit.title}</h1>
             <div className="grid mt-4">

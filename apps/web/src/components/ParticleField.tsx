@@ -78,7 +78,11 @@ export default function ParticleField() {
     };
     const unsub = useAppStore.subscribe((s, prev) => {
       if (s.settings.motion === prev.settings.motion) return;
-      motionLow() ? stop() : start();
+      if (motionLow()) {
+        stop();
+      } else {
+        start();
+      }
     });
     window.addEventListener('resize', resize);
     document.addEventListener('visibilitychange', onVis);

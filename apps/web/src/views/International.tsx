@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
+import { Link } from 'react-router-dom';
 import { useAppStore } from '../store/useAppStore';
 import { ALL_TOPICS, lessonFor, loadAllLessons } from '../lib/curriculum';
 import { areaPools, sampleProportional, INTL_EXAMS, type IntlExam } from '../data/intl-maps';
@@ -119,7 +120,7 @@ export default function International() {
       {/* ── SETUP: areas + length + timing ── */}
       {setup && !exam && pools && (
         <>
-          <div className="breadcrumb mt-3"><a href="#/">Dashboard</a> / <a href="#/international">International</a> / <span>{setup.icon} {setup.title}</span></div>
+          <div className="breadcrumb mt-3"><Link to="/">Dashboard</Link> / <Link to="/international">International</Link> / <span>{setup.icon} {setup.title}</span></div>
           <section className="page-hero">
             <h1>{setup.brandLabel} · {setup.title}</h1>
             <p>{setup.blurb}</p>

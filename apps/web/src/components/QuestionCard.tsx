@@ -4,7 +4,8 @@ import { Chip } from './ui';
 import type { Bookmark } from '../store/useAppStore';
 
 /* One quiz question card — exact port of v1's renderQuestion():
-   .quiz-q card, lettered options, correct/incorrect callout after submit. */
+   .quiz-q card, lettered options, correct/incorrect callout after submit.
+   Accessible WAI-ARIA radiogroup semantics with full keyboard navigation. */
 export function QuestionCard({ q, index, answer, onAnswer, result, bookmark, flag }: {
   q: QuizQuestion;
   index: number;
@@ -25,45 +26,67 @@ export function QuestionCard({ q, index, answer, onAnswer, result, bookmark, fla
   let body: React.ReactNode;
   if (q.type === 'mcq' || q.type === 'ordering') {
     const opts = q.options ?? [];
-    body = opts.map((o, oi) => {
-      let cls = 'option';
-      if (submitted) {
-        const correctIdx = Array.isArray(q.answer) ? Number(q.answer[0]) : Number(q.answer);
-        if (oi === correctIdx) cls += ' correct';
-        else if (answer === oi) cls += ' incorrect';
-      }
-      return (
-        <div key={oi} className={cls} onClick={() => { if (!submitted) setAnswer(oi); }}>
-          <span className="opt-letter">{String.fromCharCode(65 + oi)}.</span>
-          <label style={{ cursor: 'pointer', flex: 1 }}>
-            <input type="radio" name={'q' + index} checked={answer === oi} disabled={submitted} onChange={() => setAnswer(oi)} />
-            <span style={{ marginLeft: 8 }}>{o}</span>
-          </label>
-        </div>
-      );
-    });
+    body = (
+      <div role="radiogroup" aria-label={`Choices for Question ${index + 1}`} className="options-group">
+        {opts.map((o, oi) => {
+          let cls = 'option';
+          if (submitted) {
+            const correctIdx = Array.isArray(q.answer) ? Number(q.answer[0]) : Number(q.answer);
+            if (oi === correctIdx) cls += ' correct';
+            else if (answer === oi) cls += ' incorrect';
+          }
+          return (
+            <label key={oi} className={cls} style={{ cursor: submitted ? 'default' : 'pointer' }}>
+              <input
+                type="radio"
+                name={'q' + index}
+                checked={answer === oi}
+                disabled={submitted}
+                onChange={() => setAnswer(oi)}
+              />
+              <span className="opt-letter" aria-hidden="true">{String.fromCharCode(65 + oi)}.</span>
+              <span style={{ marginLeft: 8, flex: 1 }}>{o}</span>
+            </label>
+          );
+        })}
+      </div>
+    );
   } else if (q.type === 'tf') {
-    body = ['T', 'F'].map(tf => {
-      let cls = 'option';
-      const picked = answer === true ? 'T' : answer === false ? 'F' : null;
-      if (submitted && tf === (q.answer === true ? 'T' : 'F')) cls += ' correct';
-      else if (submitted && picked === tf) cls += ' incorrect';
-      return (
-        <div key={tf} className={cls} onClick={() => { if (!submitted) setAnswer(tf === 'T'); }}>
-          <span className="opt-letter">{tf}</span>
-          <label style={{ cursor: 'pointer', flex: 1 }}>
-            <input type="radio" name={'q' + index} checked={picked === tf} disabled={submitted}
-              onChange={() => setAnswer(tf === 'T')} />
-            <span style={{ marginLeft: 8 }}>{tf === 'T' ? 'True' : 'False'}</span>
-          </label>
-        </div>
-      );
-    });
+    body = (
+      <div role="radiogroup" aria-label={`True or False for Question ${index + 1}`} className="options-group">
+        {['T', 'F'].map(tf => {
+          let cls = 'option';
+          const picked = answer === true ? 'T' : answer === false ? 'F' : null;
+          if (submitted && tf === (q.answer === true ? 'T' : 'F')) cls += ' correct';
+          else if (submitted && picked === tf) cls += ' incorrect';
+          return (
+            <label key={tf} className={cls} style={{ cursor: submitted ? 'default' : 'pointer' }}>
+              <input
+                type="radio"
+                name={'q' + index}
+                checked={picked === tf}
+                disabled={submitted}
+                onChange={() => setAnswer(tf === 'T')}
+              />
+              <span className="opt-letter" aria-hidden="true">{tf}</span>
+              <span style={{ marginLeft: 8, flex: 1 }}>{tf === 'T' ? 'True' : 'False'}</span>
+            </label>
+          );
+        })}
+      </div>
+    );
   } else {
     body = (
-      <input className="note-editor" style={{ minHeight: 52 }} type="text"
-        placeholder="Type your answer…" value={typeof answer === 'string' ? answer : ''} disabled={submitted}
-        onChange={e => setAnswer(e.target.value)} />
+      <input
+        className="note-editor"
+        style={{ minHeight: 52 }}
+        type="text"
+        aria-label={`Your answer for question ${index + 1}`}
+        placeholder="Type your answer…"
+        value={typeof answer === 'string' ? answer : ''}
+        disabled={submitted}
+        onChange={e => setAnswer(e.target.value)}
+      />
     );
   }
 
@@ -109,9 +132,4 @@ export function QuestionCard({ q, index, answer, onAnswer, result, bookmark, fla
       )}
     </div>
   );
-}
-
-/* Bookmark button helper used by views */
-export function useBookmarkToggle() {
-  return useAppStore(s => s.toggleBookmark);
 }

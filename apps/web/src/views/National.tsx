@@ -1,96 +1,18 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { useAppStore, type Bookmark } from '../store/useAppStore';
-import NAT_ITEMS from '../data/nat-exams.json';
-import { gradeQuiz, type QuizQuestion, type QuizResult } from '../lib/quiz';
+import { Link } from 'react-router-dom';
+import { useAppStore } from '../store/useAppStore';
+import {
+  loadNatItems, getCachedNatItems, SUBJECTS, bySubjectGroups, bm, toQuiz, shuffle,
+  type NatItem, type Run, type BankEntry,
+  loadBank, saveBank, applyMisses, bankRanked,
+  loadRun, saveRun, saveRes, clearSession, RES_KEY,
+} from '../lib/national';
+import { gradeQuiz, type QuizResult } from '../lib/quiz';
 import { QuestionCard } from '../components/QuestionCard';
 import { ScoreRing, Chip } from '../components/ui';
+import { fireConfetti, playChime } from '../lib/celebrate';
 
 /* National Exams — real ESSLCE/EUEE past papers (OCR'd, dual-key verified). */
-
-type NatItem = { id: string; subject: string; year: number; q: string; options: string[]; answer: number; type: 'mcq'; explanation: string };
-const ITEMS = NAT_ITEMS as NatItem[];
-
-const SUBJECTS: Record<string, { title: string; icon: string }> = {
-  biology: { title: 'Biology', icon: '🧬' },
-  chemistry: { title: 'Chemistry', icon: '🧪' },
-  physics: { title: 'Physics', icon: '🧲' },
-  mathematics: { title: 'Mathematics', icon: '📐' },
-  civics: { title: 'Civics', icon: '🏛️' },
-  english: { title: 'English', icon: '🇬🇧' },
-};
-
-/* Group a graded run by subject so each national-exam score logs to the
-   student's progress under a virtual `natl:<subject>` topic id. Pure — unit-tested. */
-export function bySubjectGroups(subjectOf: string[], perQ: { correct: boolean }[]) {
-  const g: Record<string, { c: number; n: number }> = {};
-  perQ.forEach((p, i) => {
-    const e = (g[subjectOf[i]] ??= { c: 0, n: 0 });
-    e.n++; if (p.correct) e.c++;
-  });
-  return g;
-}
-
-function bm(q: QuizQuestion): Omit<Bookmark, 'at'> {
-  const it = q as unknown as NatItem;
-  const subj = SUBJECTS[it.subject]?.title ?? it.subject;
-  return {
-    id: it.id, kind: 'question', topicId: 'natl:' + it.subject,
-    label: it.q.length > 90 ? it.q.slice(0, 90) + '…' : it.q,
-    sub: subj + ' · ' + it.year + ' E.C.',
-  };
-}
-
-function toQuiz(list: NatItem[]): QuizQuestion[] {
-  return list.map((it, i) => ({ ...it, _qi: i }) as unknown as QuizQuestion);
-}
-function shuffle<T>(arr: T[]): T[] { const a = arr.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
-
-interface Run { title: string; icon: string; qs: QuizQuestion[]; yearOf: number[]; subjectOf: string[]; seconds: number; startedAt: number; answers?: unknown[]; flags?: number[] }
-
-/* ── Mistakes Bank ──
-   Persistent per-question record of every national-exam question the student
-   has gotten wrong, with a miss count. Surfaces a "practice my mistakes" pool
-   so retrieval practice concentrates on weak spots (spacing/testing effect). */
-export const BANK_KEY = 'ethiostudy_natl_bank';
-export interface BankEntry { id: string; misses: number; lastAt: number }
-export function loadBank(): Record<string, BankEntry> {
-  try {
-    const r = JSON.parse(localStorage.getItem(BANK_KEY) || '{}');
-    return r && typeof r === 'object' ? r as Record<string, BankEntry> : {};
-  } catch { return {}; }
-}
-export function saveBank(b: Record<string, BankEntry>) { try { localStorage.setItem(BANK_KEY, JSON.stringify(b)); } catch { /* quota */ } }
-/* Pure: fold a graded run's misses into the bank (bump counts). Returns the new bank. Unit-tested. */
-export function applyMisses(bank: Record<string, BankEntry>, items: { id: string }[], perCorrect: boolean[], now: number): Record<string, BankEntry> {
-  const next: Record<string, BankEntry> = { ...bank };
-  items.forEach((it, i) => {
-    if (perCorrect[i]) return;
-    const e = next[it.id];
-    next[it.id] = e ? { ...e, misses: e.misses + 1, lastAt: now } : { id: it.id, misses: 1, lastAt: now };
-  });
-  return next;
-}
-/* Pure: entries ordered most-missed first, then most-recent. Unit-tested. */
-export function bankRanked(bank: Record<string, BankEntry>): NatItem[] {
-  const ids = Object.keys(bank).sort((a, b) => bank[b].misses - bank[a].misses || bank[b].lastAt - bank[a].lastAt);
-  const byId: Record<string, NatItem> = {};
-  for (const it of ITEMS) byId[it.id] = it;
-  return ids.filter(id => byId[id]).map(id => byId[id]);
-}
-
-/* ── Refresh-proof session persistence ──
-   The whole run (questions + answers + clock anchor) survives F5/closure. */
-export const RUN_KEY = 'ethiostudy_natl_run';
-export const RES_KEY = 'ethiostudy_natl_res';
-export function loadRun(): Run | null {
-  try {
-    const r = JSON.parse(localStorage.getItem(RUN_KEY) || 'null');
-    return r && Array.isArray(r.qs) && r.qs.length ? r as Run : null;
-  } catch { return null; }
-}
-export function saveRun(r: Run | null) { try { r ? localStorage.setItem(RUN_KEY, JSON.stringify(r)) : localStorage.removeItem(RUN_KEY); } catch { /* quota */ } }
-export function saveRes(v: unknown | null) { try { v ? localStorage.setItem(RES_KEY, JSON.stringify(v)) : localStorage.removeItem(RES_KEY); } catch { /* quota */ } }
-export function clearSession() { saveRun(null); saveRes(null); }
 
 /* Keyboard answering (UWorld-style): 1-9 answers the question currently in the
    viewport middle band, j/k (or arrows) jump between questions, f flags it.
@@ -116,6 +38,26 @@ function useCurrentQuestion(active: boolean, count: number) {
 
 export default function National() {
   const logQuiz = useAppStore(s => s.logQuiz);
+  const [items, setItems] = useState<NatItem[]>(() => getCachedNatItems());
+  const [loading, setLoading] = useState(() => items.length === 0);
+
+  useEffect(() => {
+    if (items.length > 0) return;
+    let active = true;
+    loadNatItems().then(data => {
+      if (active) {
+        setItems(data);
+        setLoading(false);
+      }
+    }).catch(err => {
+      if (active) {
+        console.error('Failed to load national exams', err);
+        setLoading(false);
+      }
+    });
+    return () => { active = false; };
+  }, [items.length]);
+
   const [setupSubj, setSetupSubj] = useState<string | null>(null);
   const [years, setYears] = useState<Set<number>>(new Set());
   const [len, setLen] = useState(30);
@@ -144,6 +86,7 @@ export default function National() {
   const setBank = (b: Record<string, BankEntry>) => { setBankRaw(b); saveBank(b); };
   const [flags, setFlagsRaw] = useState<Set<number>>(() => new Set(loadRun()?.flags ?? []));
   const [confirmSubmit, setConfirmSubmit] = useState(false);
+  const [reviewFilter, setReviewFilter] = useState<'all' | 'missed' | 'flagged'>('all');
   const setFlags = (updater: Set<number> | ((prev: Set<number>) => Set<number>)) => setFlagsRaw(prev => {
     const n = typeof updater === 'function' ? (updater as (p: Set<number>) => Set<number>)(prev) : updater;
     try { const r = loadRun(); if (r) saveRun({ ...r, flags: [...n] }); } catch { /* ignore */ }
@@ -152,15 +95,15 @@ export default function National() {
 
   const bySubject = useMemo(() => {
     const m: Record<string, { count: number; years: number[] }> = {};
-    for (const it of ITEMS) {
+    for (const it of items) {
       const e = (m[it.subject] ??= { count: 0, years: [] });
       e.count++;
       if (!e.years.includes(it.year)) e.years.push(it.year);
     }
     return m;
-  }, []);
+  }, [items]);
 
-  const subjPool = setupSubj ? ITEMS.filter(i => i.subject === setupSubj) : [];
+  const subjPool = setupSubj ? items.filter(i => i.subject === setupSubj) : [];
   const subjYears = setupSubj ? [...new Set(subjPool.map(i => i.year))].sort() : [];
   const filtered = setupSubj ? subjPool.filter(i => years.size === 0 || years.has(i.year)) : [];
 
@@ -185,7 +128,7 @@ export default function National() {
   };
   /* Start from the mistakes bank pool (most-missed first). */
   const practiceBank = () => {
-    const pool = bankRanked(bank);
+    const pool = bankRanked(bank, items);
     if (!pool.length) return;
     const n = Math.min(len, pool.length);
     start(pool.slice(0, n), 'Mistakes Bank drill', '🥅', n, 0);
@@ -200,7 +143,7 @@ export default function National() {
     // EUEE natural-science flavor: even mix across every available subject
     const per = Math.max(5, Math.floor(60 / Math.max(1, Object.keys(bySubject).length)));
     const pool: NatItem[] = [];
-    for (const s of Object.keys(bySubject)) pool.push(...shuffle(ITEMS.filter(i => i.subject === s)).slice(0, per));
+    for (const s of Object.keys(bySubject)) pool.push(...shuffle(items.filter(i => i.subject === s)).slice(0, per));
     start(pool, 'EUEE mixed mock', '🇪🇹', pool.length, 60);
   };
 
@@ -220,6 +163,10 @@ export default function National() {
     }
     const after = useAppStore.getState().streak.current;
     setStreakExtended(after > before);
+    if (r.pct >= 70 || after > before) {
+      fireConfetti();
+      playChime('success');
+    }
     // NN/g: scroll the outcome into view — the student shouldn't have to hunt for it
     requestAnimationFrame(() => setTimeout(() => scoreCardRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' }), 60));
   };
@@ -246,7 +193,15 @@ export default function National() {
       }
       if (k === 'j' || e.key === 'ArrowDown') { e.preventDefault(); jumpTo(Math.min(i + 1, run.qs.length - 1)); return; }
       if (k === 'k' || e.key === 'ArrowUp') { e.preventDefault(); jumpTo(Math.max(i - 1, 0)); return; }
-      if (k === 'f') { e.preventDefault(); setFlags(prev => { const n = new Set(prev); n.has(i) ? n.delete(i) : n.add(i); return n; }); return; }
+      if (k === 'f') {
+        e.preventDefault();
+        setFlags(prev => {
+          const n = new Set(prev);
+          if (n.has(i)) { n.delete(i); } else { n.add(i); }
+          return n;
+        });
+        return;
+      }
     };
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
@@ -282,13 +237,24 @@ export default function National() {
     return () => clearInterval(iv);
   }, [run, result]);
 
+  /* ── LOADING ── */
+  if (loading && !run) {
+    return (
+      <div className="card mt-4" style={{ textAlign: 'center', padding: '48px 24px' }}>
+        <div style={{ fontSize: '2.5rem', marginBottom: 12 }}>🇪🇹 ⏳</div>
+        <h2>Loading National Exams…</h2>
+        <p className="tiny muted mt-2">Loading official ESSLCE past papers archive</p>
+      </div>
+    );
+  }
+
   /* ── LANDING ── */
   if (!run && !setupSubj && !paperView) return (
     <>
       <section className="page-hero">
         <div className="eyebrow">🇪🇹 The Real Thing</div>
         <h1>National Exams — Past Papers</h1>
-        <p>The actual ESSLCE Grade 12 university entrance papers, {Object.values(bySubject).reduce((n, s) => n + s.years.length, 0) > 0 && <>years {Math.min(...ITEMS.map(i => i.year))}–{Math.max(...ITEMS.map(i => i.year))} E.C. — </>}OCR'd from the official PDFs and answer-key verified twice.</p>
+        <p>The actual ESSLCE Grade 12 university entrance papers, {items.length > 0 && <>years {Math.min(...items.map(i => i.year))}–{Math.max(...items.map(i => i.year))} E.C. — </>}OCR'd from the official PDFs and answer-key verified twice.</p>
       </section>
       <div className="card mt-4" style={{ cursor: 'pointer' }} onClick={startEUEE}>
         <div className="spread">
@@ -299,7 +265,7 @@ export default function National() {
           <div style={{ fontSize: '2rem' }}>▶️</div>
         </div>
       </div>
-      {(() => { const ranked = bankRanked(bank); const n = Math.min(len, ranked.length); return n > 0 && (
+      {(() => { const ranked = bankRanked(bank, items); const n = Math.min(len, ranked.length); return n > 0 && (
         <div className="card mt-4 bank-card" style={{ cursor: 'pointer' }} onClick={practiceBank}>
           <div className="spread">
             <div>
@@ -337,14 +303,14 @@ export default function National() {
     const s = SUBJECTS[setupSubj];
     return (
       <>
-        <div className="breadcrumb mt-3"><a href="#/">Dashboard</a> / <a href="#/national">National Exams</a> / <span>{s.icon} {s.title}</span></div>
+        <div className="breadcrumb mt-3"><Link to="/">Dashboard</Link> / <Link to="/national">National Exams</Link> / <span>{s.icon} {s.title}</span></div>
         <section className="page-hero"><h1>{s.icon} {s.title} past papers</h1><p>{subjPool.length.toLocaleString()} questions from the real national exams.</p></section>
         <div className="card mt-4">
           <h3>🗂️ Exam years (E.C.)</h3>
           <div className="row" style={{ gap: 8 }}>
             <button className={'btn btn-sm ' + (years.size === 0 ? 'btn-primary' : '')} onClick={() => setYears(new Set())}>All years</button>
             {subjYears.map(y => (
-              <button key={y} className={'btn btn-sm ' + (years.has(y) ? 'btn-primary' : '')} onClick={() => setYears(p => { const n = new Set(p); n.has(y) ? n.delete(y) : n.add(y); return n; })}>{y}</button>
+              <button key={y} className={'btn btn-sm ' + (years.has(y) ? 'btn-primary' : '')} onClick={() => setYears(p => { const n = new Set(p); if (n.has(y)) { n.delete(y); } else { n.add(y); } return n; })}>{y}</button>
             ))}
           </div>
           <p className="tiny muted mt-2">{filtered.length.toLocaleString()} questions in selection.</p>
@@ -377,7 +343,7 @@ export default function National() {
     for (const it of paperView.items) (groups[it.year] ??= []).push(it);
     return (
       <>
-        <div className="breadcrumb mt-3"><a href="#/">Dashboard</a> / <a href="#/national">National Exams</a> / <span>📖 Paper view</span></div>
+        <div className="breadcrumb mt-3"><Link to="/">Dashboard</Link> / <Link to="/national">National Exams</Link> / <span>📖 Paper view</span></div>
         <section className="page-hero"><h1>📖 {paperView.title}</h1><p>Read it exactly like the printed exam. The answer key stays hidden until you say so — test yourself first, then check.</p></section>
         <div className="row mt-2" style={{ justifyContent: 'space-between' }}>
           <button className="btn" onClick={() => setPaperView(null)}>← Back to setup</button>
@@ -445,7 +411,7 @@ export default function National() {
               <div key={i} id={'natl-q-' + i} style={{ scrollMarginTop: 70 }}>
                 <QuestionCard q={q} index={i} answer={answers[i]}
                   onAnswer={a => setAnswers(prev => { const n = [...prev]; n[i] = a; return n; })} bookmark={bm(q)}
-                  flag={{ on: flags.has(i), onToggle: () => setFlags(prev => { const n = new Set(prev); n.has(i) ? n.delete(i) : n.add(i); return n; }) }} />
+                  flag={{ on: flags.has(i), onToggle: () => setFlags(prev => { const n = new Set(prev); if (n.has(i)) { n.delete(i); } else { n.add(i); } return n; }) }} />
               </div>
             ))}
           </div>
@@ -519,9 +485,52 @@ export default function National() {
                 </div>
               );
             })()}
+            <div className="review-filters mt-4" style={{ borderTop: '1px solid var(--border)', paddingTop: 14 }}>
+              <span className="tiny muted" style={{ display: 'block', marginBottom: 8, textAlign: 'center' }}>Filter Question Review:</span>
+              <div className="row" style={{ justifyContent: 'center', gap: 8, flexWrap: 'wrap' }}>
+                <button
+                  className={`btn btn-sm ${reviewFilter === 'all' ? 'btn-primary' : ''}`}
+                  onClick={() => setReviewFilter('all')}
+                >
+                  All Questions ({result.total})
+                </button>
+                <button
+                  className={`btn btn-sm ${reviewFilter === 'missed' ? 'btn-primary' : ''}`}
+                  onClick={() => setReviewFilter('missed')}
+                >
+                  ❌ Missed Only ({result.total - result.correct})
+                </button>
+                <button
+                  className={`btn btn-sm ${reviewFilter === 'flagged' ? 'btn-primary' : ''}`}
+                  onClick={() => setReviewFilter('flagged')}
+                >
+                  🚩 Flagged ({flags.size})
+                </button>
+              </div>
+            </div>
           </div>
-          {result.perQ.map((pq, i) => <QuestionCard key={i} q={pq.q} index={i} answer={answers[i]} result={pq} bookmark={bm(pq.q)}
-            flag={{ on: flags.has(i), onToggle: () => setFlags(prev => { const n = new Set(prev); n.has(i) ? n.delete(i) : n.add(i); return n; }) }} />)}
+          {result.perQ.map((pq, i) => {
+            if (reviewFilter === 'missed' && pq.correct) return null;
+            if (reviewFilter === 'flagged' && !flags.has(i)) return null;
+            return (
+              <QuestionCard
+                key={i}
+                q={pq.q}
+                index={i}
+                answer={answers[i]}
+                result={pq}
+                bookmark={bm(pq.q)}
+                flag={{
+                  on: flags.has(i),
+                  onToggle: () => setFlags(prev => {
+                    const n = new Set(prev);
+                    if (n.has(i)) { n.delete(i); } else { n.add(i); }
+                    return n;
+                  }),
+                }}
+              />
+            );
+          })}
         </>
       )}
     </>

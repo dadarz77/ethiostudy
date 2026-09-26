@@ -34,5 +34,13 @@ export default defineConfig({
     environment: 'jsdom',
     setupFiles: [],
     include: ['src/**/*.test.{ts,tsx}'],
+    // Use forked child processes instead of worker_threads. On Windows,
+    // worker_threads share the V8 heap and time-out when multiple tests
+    // simultaneously load the large JSON fixtures (nat-exams, curriculum…).
+    pool: 'forks',
+    // Modules are read-only in tests, so sharing the module cache
+    // across files within the same fork is safe and cuts cold-start time.
+    isolate: false,
+    maxWorkers: 1,
   },
 });

@@ -15,8 +15,11 @@ export default function Practice() {
   const [selSubject, setSelSubject] = useState('all');
   const [selUnit, setSelUnit] = useState('all');
   const [selMode, setSelMode] = useState<'smart' | 'random'>('smart');
+  const [picking, setPicking] = useState(false);
+  const [pickError, setPickError] = useState<string | null>(null);
 
-  const pick = () => {
+  const pick = async () => {
+    setPickError(null);
     let pool = Object.values(ALL_TOPICS).filter(t =>
       t._grade === selGrade &&
       (selSubject === 'all' || t._subject === selSubject) &&
@@ -28,7 +31,19 @@ export default function Practice() {
     }
     if (!pool.length) return;
     const t = pool[Math.floor(Math.random() * pool.length)];
-    loadLesson(t._id).then(l => { if (l) navigate('/topic/' + t._id); });
+    setPicking(true);
+    try {
+      const l = await loadLesson(t._id);
+      if (l) {
+        navigate('/topic/' + t._id);
+      } else {
+        setPickError(`Lesson content for "${t.title}" isn't available yet — try another topic.`);
+      }
+    } catch {
+      setPickError('Failed to load lesson. Check your connection and try again.');
+    } finally {
+      setPicking(false);
+    }
   };
 
   const subj = selSubject !== 'all' ? subjectsFor(selGrade).find(x => x.key === selSubject) : null;
@@ -39,7 +54,14 @@ export default function Practice() {
         <span className="picker-dice">🎲</span>
         <h1 style={{ fontSize: '2rem' }}>Random Topic Picker</h1>
         <p className="muted">Pick a smart topic tailored to what you need — or go fully random.</p>
-        <button className="picker-btn mt-4" onClick={pick}>🎲 PICK A TOPIC</button>
+        <button className="picker-btn mt-4" onClick={pick} disabled={picking}>
+          {picking ? '⏳ Loading…' : '🎲 PICK A TOPIC'}
+        </button>
+        {pickError && (
+          <div role="alert" className="tiny mt-3" style={{ color: 'var(--danger)', background: 'color-mix(in srgb, var(--danger) 12%, transparent)', padding: '8px 12px', borderRadius: 8, maxWidth: 420 }}>
+            ⚠️ {pickError}
+          </div>
+        )}
       </div>
 
       <div className="filter-box mt-4">

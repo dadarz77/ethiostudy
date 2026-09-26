@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeEach } from 'vitest';
-import { bySubjectGroups, loadRun, saveRun, clearSession, applyMisses, bankRanked, RUN_KEY, type BankEntry } from '../views/National';
+import { bySubjectGroups, loadRun, saveRun, clearSession, applyMisses, bankRanked, RUN_KEY, type BankEntry } from '../lib/national';
 
 describe('bySubjectGroups — national exam results → progress engine', () => {
   it('groups correct/incorrect tallies per subject', () => {
@@ -58,12 +58,16 @@ describe('Mistakes Bank', () => {
       x: { id: 'x', misses: 3, lastAt: 1 }, y: { id: 'y', misses: 3, lastAt: 2 },
       z: { id: 'z', misses: 1, lastAt: 9 }, gone: { id: 'gone', misses: 99, lastAt: 9 },
     };
-    // x,y,z must exist in the real dataset to be kept; gone should never appear
-    const ranked = bankRanked(bank);
-    expect(ranked.some(r => (r as { id: string }).id === 'gone')).toBe(false);
-    const ids = ranked.map(r => (r as { id: string }).id);
+    const mockItems = [
+      { id: 'x', subject: 'biology', year: 2010, q: 'Q1', options: ['A'], answer: 0, type: 'mcq' as const, explanation: '' },
+      { id: 'y', subject: 'biology', year: 2010, q: 'Q2', options: ['A'], answer: 0, type: 'mcq' as const, explanation: '' },
+      { id: 'z', subject: 'biology', year: 2010, q: 'Q3', options: ['A'], answer: 0, type: 'mcq' as const, explanation: '' },
+    ];
+    const ranked = bankRanked(bank, mockItems);
+    expect(ranked.some(r => r.id === 'gone')).toBe(false);
+    const ids = ranked.map(r => r.id);
     const iy = ids.indexOf('y'), ix = ids.indexOf('x'), iz = ids.indexOf('z');
-    if (iy >= 0 && ix >= 0) expect(iy).toBeLessThan(ix); // ties: recency first
-    if (iz >= 0 && ix >= 0) expect(ix).toBeLessThan(iz); // more misses first
+    expect(iy).toBeLessThan(ix); // ties: recency first
+    expect(ix).toBeLessThan(iz); // more misses first
   });
 });

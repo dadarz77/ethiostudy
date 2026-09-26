@@ -43,6 +43,20 @@ export function topicById(tid: string): Topic | undefined {
   return ALL_TOPICS[tid];
 }
 
+export function getAdjacentTopics(tid: string): { prev: Topic | null; next: Topic | null } {
+  const current = ALL_TOPICS[tid];
+  if (!current) return { prev: null, next: null };
+  const subj = cur[current._grade]?.[current._subject];
+  if (!subj) return { prev: null, next: null };
+  const list = subj.units.flatMap(u => u.topics);
+  const idx = list.findIndex(t => t._id === tid);
+  if (idx === -1) return { prev: null, next: null };
+  return {
+    prev: idx > 0 ? list[idx - 1] : null,
+    next: idx < list.length - 1 ? list[idx + 1] : null,
+  };
+}
+
 /* ---- lessons: lazy per-unit chunks (Phase 5: 3MB of JSON stays out of the main bundle) ---- */
 const unitLoaders = import.meta.glob(
   ['../data/lessons/*.json', '!../data/lessons/*.test.json'], // negative pattern keeps test fixtures out of the bundle

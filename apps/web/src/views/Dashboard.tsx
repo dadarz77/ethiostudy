@@ -4,9 +4,20 @@ import { todayStr } from '../lib/scoring';
 import { topicById, subjectsFor, fmtTime, CURRICULUM, type Grade } from '../lib/curriculum';
 import { statsFor } from '../lib/scoring';
 import { tr } from '../lib/i18n';
-import { StatCard, ProgressBar, EmptyState, useOrbitTilt } from '../components/ui';
-import { lazy, Suspense } from 'react';
-const Hero3D = lazy(() => import('../components/Hero3D'));
+import { StatCard, ProgressBar, EmptyState } from '../components/ui';
+import { useOrbitTilt } from '../lib/useOrbitTilt';
+
+function HeroPlanet() {
+  return (
+    <>
+      <div className="orbit-star">✦</div>
+      <div className="orbit-ring ring-one" />
+      <div className="orbit-ring ring-two" />
+      <div className="orbit-planet"><span /></div>
+      <div className="orbit-moon" />
+    </>
+  );
+}
 
 export default function Dashboard() {
   const navigate = useNavigate();
@@ -35,7 +46,7 @@ export default function Dashboard() {
           {nextAction}
         </div>
         <div className="orbit-scene" aria-hidden="true">
-          <Suspense fallback={null}><Hero3D /></Suspense>
+          <HeroPlanet />
           <div className="orbit-caption">{overall.avgMastery || 0}%<small>mastery</small></div>
         </div>
       </section>

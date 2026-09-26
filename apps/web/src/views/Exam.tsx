@@ -1,9 +1,12 @@
 import { useMemo, useState } from 'react';
+import { Link } from 'react-router-dom';
+import { Flag } from 'lucide-react';
 import { useAppStore } from '../store/useAppStore';
 import { CURRICULUM, lessonFor, loadAllLessons, subjectsFor, type Grade } from '../lib/curriculum';
 import { gradeQuiz, type QuizQuestion, type QuizResult } from '../lib/quiz';
 import { QuestionCard } from '../components/QuestionCard';
 import { ScoreRing, Chip } from '../components/ui';
+import { fireConfetti, playChime } from '../lib/celebrate';
 
 /** Exam Prep — sample N questions across a whole subject, grade at the end */
 export default function Exam() {
@@ -15,6 +18,15 @@ export default function Exam() {
   const [answers, setAnswers] = useState<unknown[]>([]);
   const [result, setResult] = useState<QuizResult | null>(null);
   const [busy, setBusy] = useState(false);
+  const [flags, setFlags] = useState<Set<number>>(new Set());
+  const [reviewFilter, setReviewFilter] = useState<'all' | 'missed' | 'flagged'>('all');
+
+  const toggleFlag = (i: number) => setFlags(prev => {
+    const next = new Set(prev);
+    if (next.has(i)) next.delete(i);
+    else next.add(i);
+    return next;
+  });
 
   const subjects = useMemo(() => subjectsFor(grade as Grade), [grade]);
   const [setupKey, setSetupKey] = useState<string | null>(null); // subject being configured (unit picker)
@@ -44,7 +56,11 @@ export default function Exam() {
 
   const toggleUnit = (i: number) => setSelUnits(prev => {
     const n = new Set(prev);
-    n.has(i) ? n.delete(i) : n.add(i);
+    if (n.has(i)) {
+      n.delete(i);
+    } else {
+      n.add(i);
+    }
     return n;
   });
 
@@ -67,6 +83,8 @@ export default function Exam() {
     setSetupKey(null);
     setAnswers([]);
     setResult(null);
+    setFlags(new Set());
+    setReviewFilter('all');
     setBusy(false);
   };
 
@@ -74,6 +92,10 @@ export default function Exam() {
     if (!exam) return;
     const r = gradeQuiz(exam.qs, answers);
     setResult(r);
+    if (r.pct >= 70) {
+      fireConfetti();
+      playChime('success');
+    }
     const perTopic = new Map<string, { c: number; n: number }>();
     r.perQ.forEach((p, i) => {
       const tid = exam.topicOf[i];
@@ -122,7 +144,7 @@ export default function Exam() {
 
       {!exam && setupKey && setupSubj && (
         <>
-          <div className="breadcrumb mt-3"><a href="#/">Dashboard</a> / <a href="#/exam">Exam Prep</a> / <span>{setupSubj.icon} {setupSubj.title}</span></div>
+          <div className="breadcrumb mt-3"><Link to="/">Dashboard</Link> / <Link to="/exam">Exam Prep</Link> / <span>{setupSubj.icon} {setupSubj.title}</span></div>
           <section className="page-hero">
             <h1>🎯 Build your {setupSubj.title} exam</h1>
             <p>Pick the units to draw questions from, then choose how long the exam should be.</p>
@@ -178,16 +200,55 @@ export default function Exam() {
 
       {exam && !result && (
         <>
-          <div className="breadcrumb mt-3"><a href="#/">Dashboard</a> / <span>Exam · {exam.subject}</span></div>
+          <div className="breadcrumb mt-3"><Link to="/">Dashboard</Link> / <span>Exam · {exam.subject}</span></div>
           <div className="spread mt-3">
             <h1 style={{ margin: 0 }}>Practice Exam</h1>
             <Chip text={`${answered}/${exam.qs.length} answered`} cls={answered === exam.qs.length ? 'chip-diff-easy' : 'chip-diff-medium'} />
           </div>
           <div className="progress mt-3"><div style={{ width: (answered / exam.qs.length) * 100 + '%' }} /></div>
+
+          <div className="exam-palette card mt-3">
+            <div className="spread" style={{ marginBottom: 8 }}>
+              <span className="tiny muted"><b>Question Palette</b> · tap number to jump</span>
+              <span className="tiny muted">{answered}/{exam.qs.length} answered{flags.size > 0 ? ` · 🚩 ${flags.size} flagged` : ''}</span>
+            </div>
+            <div className="exam-palette-grid">
+              {exam.qs.map((_, i) => {
+                const isAns = answers[i] !== undefined && answers[i] !== null && answers[i] !== '';
+                const isFlag = flags.has(i);
+                return (
+                  <button
+                    key={i}
+                    type="button"
+                    className={`palette-dot ${isAns ? 'answered' : ''} ${isFlag ? 'flagged' : ''}`}
+                    onClick={() => {
+                      document.getElementById(`exam-q-${i}`)?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    }}
+                    title={`Question ${i + 1}${isFlag ? ' (Flagged)' : ''}${isAns ? ' (Answered)' : ''}`}
+                  >
+                    {i + 1}
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+
           <div className="mt-4">
             {exam.qs.map((q, i) => (
-              <QuestionCard key={i} q={q} index={i} answer={answers[i]}
-                onAnswer={a => setAnswers(prev => { const n = [...prev]; n[i] = a; return n; })} />
+              <div key={i} id={`exam-q-${i}`} className="exam-q-wrapper">
+                <div className="exam-q-flag-bar">
+                  <button
+                    type="button"
+                    className={`btn btn-sm ${flags.has(i) ? 'btn-primary' : 'btn-ghost'}`}
+                    onClick={() => toggleFlag(i)}
+                    title="Flag for review"
+                  >
+                    <Flag size={13} /> {flags.has(i) ? 'Flagged for Review' : 'Flag Question'}
+                  </button>
+                </div>
+                <QuestionCard q={q} index={i} answer={answers[i]}
+                  onAnswer={a => setAnswers(prev => { const n = [...prev]; n[i] = a; return n; })} />
+              </div>
             ))}
           </div>
           <div className="row mt-4" style={{ justifyContent: 'center' }}>
@@ -212,8 +273,44 @@ export default function Exam() {
               <button className="btn" onClick={() => { setExam(null); setResult(null); openSetup(exam.key, exam.units); }}>⚙️ Change units</button>
               <button className="btn btn-primary" onClick={() => start(exam.key, exam.units, exam.length)}>🔁 Retake</button>
             </div>
+            <div className="review-filters mt-4" style={{ borderTop: '1px solid var(--border)', paddingTop: 16 }}>
+              <span className="tiny muted" style={{ display: 'block', marginBottom: 8 }}>Filter Question Review:</span>
+              <div className="row" style={{ justifyContent: 'center', gap: 8, flexWrap: 'wrap' }}>
+                <button
+                  className={`btn btn-sm ${reviewFilter === 'all' ? 'btn-primary' : ''}`}
+                  onClick={() => setReviewFilter('all')}
+                >
+                  All Questions ({result.total})
+                </button>
+                <button
+                  className={`btn btn-sm ${reviewFilter === 'missed' ? 'btn-primary' : ''}`}
+                  onClick={() => setReviewFilter('missed')}
+                >
+                  ❌ Missed Only ({result.total - result.correct})
+                </button>
+                <button
+                  className={`btn btn-sm ${reviewFilter === 'flagged' ? 'btn-primary' : ''}`}
+                  onClick={() => setReviewFilter('flagged')}
+                >
+                  🚩 Flagged ({flags.size})
+                </button>
+              </div>
+            </div>
           </div>
-          {result.perQ.map((pq, i) => <QuestionCard key={i} q={pq.q} index={i} answer={answers[i]} result={pq} />)}
+          {result.perQ.map((pq, i) => {
+            if (reviewFilter === 'missed' && pq.correct) return null;
+            if (reviewFilter === 'flagged' && !flags.has(i)) return null;
+            return (
+              <div key={i} id={`exam-q-${i}`} className="exam-q-wrapper">
+                {flags.has(i) && (
+                  <div className="flagged-badge">
+                    <Flag size={13} /> Flagged during exam
+                  </div>
+                )}
+                <QuestionCard q={pq.q} index={i} answer={answers[i]} result={pq} />
+              </div>
+            );
+          })}
         </>
       )}
     </>

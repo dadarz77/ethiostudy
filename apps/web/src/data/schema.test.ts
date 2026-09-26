@@ -35,7 +35,7 @@ describe('content integrity', () => {
     expect(errors).toEqual([]);
     // 380 total topics; all four G12 subjects authored (math 23, physics 29, chemistry 21, biology 28).
     expect(topics).toBe(380);
-  });
+  }, 30000);
 
   it('curriculum.json validates and covers all four grades', () => {
     const cur = CurriculumSchema.parse(JSON.parse(readFileSync(join(DATA, 'curriculum.json'), 'utf8')));

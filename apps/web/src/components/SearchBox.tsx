@@ -1,11 +1,11 @@
 import { useEffect, useMemo, useRef, useState, type KeyboardEvent as RKeyboardEvent } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { ALL_TOPICS, loadAllLessons, lessonFor } from '../lib/curriculum';
+import { ALL_TOPICS } from '../lib/curriculum';
 
-/* Global search — matches title, subject, unit, subtopics, and lesson key
-   terms; lessons load lazily. Full keyboard support: ↓/↑ traverse the results
-   list, Enter opens the highlighted one, Esc closes. Matches are <mark>
-   highlighted and the list is a proper listbox with aria-activedescendant. */
+/* Global search — matches title, subject, unit, and subtopics instantly across
+   the full Grade 9–12 curriculum without network overhead. Full keyboard support:
+   ↓/↑ traverse the results list, Enter opens the highlighted one, Esc closes.
+   Matches are <mark> highlighted and the list is an accessible ARIA 1.2 listbox. */
 
 function Hi({ text, q }: { text: string; q: string }) {
   const i = text.toLowerCase().indexOf(q.toLowerCase());
@@ -18,23 +18,22 @@ export default function SearchBox() {
   const [q, setQ] = useState('');
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState(-1);
-  const [lessonsReady, setLessonsReady] = useState(false);
   const boxRef = useRef<HTMLDivElement>(null);
   const listRef = useRef<HTMLDivElement>(null);
 
-  useEffect(() => { loadAllLessons().then(() => setLessonsReady(true)); }, []);
-
   const hay = useMemo(() => Object.values(ALL_TOPICS).map(t => ({
-    t, s: [t.title, t._subjectTitle, t._unitTitle,
+    t,
+    s: [
+      t.title,
+      t._subjectTitle,
+      t._unitTitle,
       ...(Array.isArray(t.subtopics) ? t.subtopics.map(String) : []),
-      ...(lessonFor(t._id)?.keyTerms ?? []).map(k => k.term + ' ' + k.def),
     ].join(' ').toLowerCase(),
-  })), [lessonsReady]);
+  })), []);
 
   const results = q.trim().length < 2 ? [] :
     hay.filter(h => h.s.includes(q.toLowerCase())).slice(0, 12).map(h => h.t);
 
-  useEffect(() => { setActive(-1); }, [q]);
   useEffect(() => {
     if (active >= 0) listRef.current?.children[active]?.scrollIntoView({ block: 'nearest' });
   }, [active]);
@@ -65,27 +64,34 @@ export default function SearchBox() {
     <div className="searchbox" ref={boxRef}>
       <input
         value={q}
-        onChange={e => { setQ(e.target.value); setOpen(true); }}
+        onChange={e => {
+          setQ(e.target.value);
+          setActive(-1);
+          setOpen(true);
+        }}
         onFocus={() => setOpen(true)}
         onKeyDown={onKey}
         placeholder="Search topics, formulas…" aria-label="Search"
         role="combobox" aria-expanded={open && results.length > 0} aria-controls="searchResults"
+        aria-autocomplete="list"
         aria-activedescendant={active >= 0 ? `sr-${active}` : undefined}
         autoComplete="off"
       />
       {open && q.trim().length >= 2 && (
-        <div className="search-panel" id="searchResults" ref={listRef} role="listbox">
+        <div className="search-panel" id="searchResults" ref={listRef} role="listbox" aria-label="Search results">
           {results.length === 0 && <div className="search-result muted">No results for "<b>{q}</b>"</div>}
           {results.map((r, i) => (
             <div key={r._id} id={`sr-${i}`} role="option" aria-selected={i === active}
               className={'search-result' + (i === active ? ' sr-active' : '')}
               onMouseEnter={() => setActive(i)} onClick={() => go(r._id)}>
-              <span style={{ fontSize: '1.3rem' }}>{r._subjectIcon}</span>
+              <span style={{ fontSize: '1.3rem' }} aria-hidden="true">{r._subjectIcon}</span>
               <div>
                 <div className="sr-title"><Hi text={r.title} q={q} /></div>
                 <div className="sr-path">{r._subjectTitle} · Grade {r._grade} · <Hi text={r._unitTitle} q={q} /></div>
               </div>
-              <span style={{ marginLeft: 'auto' }}>{'★'.repeat(Number(r.difficulty) || 1)}</span>
+              <span style={{ marginLeft: 'auto' }} aria-label={`Difficulty ${r.difficulty ?? 1} of 5`}>
+                {'★'.repeat(Number(r.difficulty) || 1)}
+              </span>
             </div>
           ))}
         </div>
