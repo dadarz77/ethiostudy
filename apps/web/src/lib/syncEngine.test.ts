@@ -87,4 +87,62 @@ describe('syncEngine — mergeProgress', () => {
     expect(merged.streak?.current).toBe(5);
     expect(merged.streak?.best).toBe(12);
   });
+
+  it('ignores __proto__/constructor keys in cloud notes (regression: TypeError + prototype pollution)', () => {
+    // A malicious/accidental cloud payload can carry an own enumerable
+    // '__proto__' key. Before the fix, mergedNotes['__proto__'] resolved to
+    // Object.prototype and .map threw; assigning the key polluted prototypes.
+    const local = defaults();
+
+    const cloud = JSON.parse(`{
+      "notes": {
+        "__proto__": [{ "text": "evil", "at": 1 }],
+        "constructor": [{ "text": "evil2", "at": 1 }],
+        "prototype": [{ "text": "evil3", "at": 1 }]
+      }
+    }`) as Partial<PersistedState>;
+
+    const merged = mergeProgress(local, cloud);
+
+    // No throw (this test would previously crash), and the unsafe keys are dropped
+    expect(Object.keys(merged.notes ?? {})).not.toContain('__proto__');
+    expect(Object.keys(merged.notes ?? {})).not.toContain('constructor');
+    expect(Object.keys(merged.notes ?? {})).not.toContain('prototype');
+
+    // Prototypes not polluted
+    expect((merged as unknown as Record<string, unknown>).polluted).toBeUndefined();
+    expect(({} as Record<string, unknown>).polluted).toBeUndefined();
+  });
+
+  it('ignores __proto__ key in cloud progress', () => {
+    const local = defaults();
+
+    const cloud = JSON.parse(`{
+      "progress": {
+        "__proto__": { "mastery": 999 }
+      }
+    }`) as Partial<PersistedState>;
+
+    const merged = mergeProgress(local, cloud);
+    expect(Object.keys(merged.progress ?? {})).not.toContain('__proto__');
+    expect(({} as Record<string, unknown>).mastery).toBeUndefined();
+  });
+
+  it('merges real notes alongside a __proto__ payload and keeps them', () => {
+    const local = defaults();
+    local.notes = {
+      t1: [{ text: 'local note', at: 100 }],
+    };
+
+    const cloud = JSON.parse(`{
+      "notes": {
+        "__proto__": [{ "text": "evil", "at": 1 }],
+        "t2": [{ "text": "cloud note", "at": 200 }]
+      }
+    }`) as Partial<PersistedState>;
+
+    const merged = mergeProgress(local, cloud);
+    expect(merged.notes!['t1'].map(n => n.text)).toEqual(['local note']);
+    expect(merged.notes!['t2'].map(n => n.text)).toEqual(['cloud note']);
+  });
 });

@@ -16,9 +16,12 @@ create table if not exists public.profiles (
 -- Enable Row Level Security (RLS)
 alter table public.profiles enable row level security;
 
--- Everyone can read student profiles (needed for leaderboards)
-create policy "Public profiles are viewable by everyone"
+-- Authenticated users can read student profiles (needed for leaderboards).
+-- NOT granted to anon: the anon key ships in the static bundle, so anon
+-- access would let anyone dump the full student roster (PII of minors).
+create policy "Profiles are viewable by authenticated users"
   on public.profiles for select
+  to authenticated
   using (true);
 
 -- Students can insert/update their own profile only
@@ -77,7 +80,8 @@ select
   ), 0)::int as "masteredCount"
 from public.profiles p
 left join public.student_progress sp on p.id = sp.user_id
-order by streak desc, "masteredCount" desc;
+order by streak desc, "masteredCount" desc
+LIMIT 100; -- server-side cap: a client .limit() is advisory and bypassable
 
--- Grant select permission on the view
-grant select on public.leaderboard_view to anon, authenticated;
+-- Grant select permission on the view (authenticated only — see profiles policy)
+grant select on public.leaderboard_view to authenticated;

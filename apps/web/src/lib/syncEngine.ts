@@ -10,10 +10,15 @@ let isSyncing = false;
  * Takes the highest scores/streaks and avoids losing any locally studied topics.
  */
 export function mergeProgress(local: PersistedState, cloud: Partial<PersistedState>): Partial<PersistedState> {
+  // Keys that must never be written onto a plain object: assigning them
+  // triggers the __proto__ setter (prototype pollution) or shadows builtins.
+  const UNSAFE_KEYS = new Set(['__proto__', 'constructor', 'prototype']);
+
   const mergedProgress = { ...local.progress };
 
   if (cloud.progress) {
     for (const [tid, cloudItem] of Object.entries(cloud.progress)) {
+      if (UNSAFE_KEYS.has(tid)) continue;
       const localItem = mergedProgress[tid];
       if (!localItem) {
         mergedProgress[tid] = cloudItem;
@@ -41,7 +46,8 @@ export function mergeProgress(local: PersistedState, cloud: Partial<PersistedSta
   const mergedNotes: Record<string, typeof local.notes[string]> = { ...local.notes };
   if (cloud.notes) {
     for (const [tid, cNotes] of Object.entries(cloud.notes)) {
-      const lNotes = mergedNotes[tid] ?? [];
+      if (UNSAFE_KEYS.has(tid)) continue;
+      const lNotes = Array.isArray(mergedNotes[tid]) ? mergedNotes[tid] : [];
       const noteTexts = new Set(lNotes.map(n => n.text));
       const combined = [...lNotes];
       cNotes.forEach(n => {

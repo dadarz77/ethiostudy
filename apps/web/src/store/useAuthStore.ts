@@ -242,12 +242,15 @@ export const useAuthStore = create<AuthState>((set, get) => ({
     localStorage.setItem(LOCAL_USER_KEY, JSON.stringify(updated));
 
     if (supabase && isSupabaseConfigured) {
+      // Clamp/validate before persisting to the public leaderboard surface.
+      const fullName = (updated.fullName ?? '').trim().slice(0, 60);
+      const avatarUrl = /^https:\/\//.test(updated.avatarUrl ?? '') ? updated.avatarUrl : null;
       const { error } = await supabase.from('profiles').upsert({
         id: user.id,
-        full_name: updated.fullName,
+        full_name: fullName,
         grade: updated.grade,
         school_name: updated.schoolName ?? null,
-        avatar_url: updated.avatarUrl ?? null,
+        avatar_url: avatarUrl,
         updated_at: updated.updatedAt,
       });
       if (error) return { error: error.message };
