@@ -4,3 +4,5 @@ dist/
 .hermes/
 apps/web/node_modules/
 apps/web/dist/
+apps/web/shots/
+apps/web/test-results/
