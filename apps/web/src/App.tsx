@@ -32,6 +32,7 @@ import { BottomNav } from './components/BottomNav';
 import { OfflineIndicator } from './components/OfflineIndicator';
 import { FormulaSheetModal } from './components/FormulaSheetModal';
 import { AuthModal } from './components/AuthModal';
+import { ErrorBoundary } from './components/ErrorBoundary';
 
 const ParticleField = lazy(() => import('./components/ParticleField'));
 
@@ -50,19 +51,39 @@ const Notes = lazy(() => import('./views/Notes'));
 const Settings = lazy(() => import('./views/Settings'));
 const NotFound = lazy(() => import('./views/NotFound'));
 
-const NAV = [
-  { to: '/', key: 'dashboard', icon: LayoutDashboard, end: true },
-  { to: '/browse', key: 'browse', icon: BookOpen },
-  { to: '/practice', key: 'practice', icon: Sparkles },
-  { to: '/exam', key: 'exam', icon: FileCheck2 },
-  { to: '/national', key: 'national', icon: GraduationCap },
-  { to: '/international', key: 'international', icon: Globe },
-  { to: '/leaderboard', key: 'leaderboard', icon: Trophy },
-  { to: '/progress', key: 'progress', icon: TrendingUp },
-  { to: '/profile', key: 'profile', icon: User },
-  { to: '/bookmarks', key: 'bookmarks', icon: Bookmark },
-  { to: '/notes', key: 'notes', icon: NotebookPen },
-  { to: '/settings', key: 'settings', icon: SettingsIcon },
+const NAV_GROUPS = [
+  {
+    label: 'Study',
+    items: [
+      { to: '/', key: 'dashboard', icon: LayoutDashboard, end: true },
+      { to: '/browse', key: 'browse', icon: BookOpen },
+      { to: '/practice', key: 'practice', icon: Sparkles },
+    ],
+  },
+  {
+    label: 'Exams',
+    items: [
+      { to: '/exam', key: 'exam', icon: FileCheck2 },
+      { to: '/national', key: 'national', icon: GraduationCap },
+      { to: '/international', key: 'international', icon: Globe },
+    ],
+  },
+  {
+    label: 'Track',
+    items: [
+      { to: '/leaderboard', key: 'leaderboard', icon: Trophy },
+      { to: '/progress', key: 'progress', icon: TrendingUp },
+    ],
+  },
+  {
+    label: 'Me',
+    items: [
+      { to: '/profile', key: 'profile', icon: User },
+      { to: '/bookmarks', key: 'bookmarks', icon: Bookmark },
+      { to: '/notes', key: 'notes', icon: NotebookPen },
+      { to: '/settings', key: 'settings', icon: SettingsIcon },
+    ],
+  },
 ];
 
 export default function App() {
@@ -144,16 +165,21 @@ export default function App() {
           </button>
 
           <nav className="nav" onClick={() => setNavOpen(false)}>
-            {NAV.map(n => {
-              const Icon = n.icon;
-              return (
-                <NavLink key={n.to} to={n.to} end={n.end}
-                  className={({ isActive }) => 'nav-item' + (isActive ? ' active' : '')}>
-                  <Icon size={18} className="nav-ico" />
-                  <span>{tr(n.key, lang)}</span>
-                </NavLink>
-              );
-            })}
+            {NAV_GROUPS.map(group => (
+              <div key={group.label} className="nav-group">
+                <div className="nav-group-label">{group.label}</div>
+                {group.items.map(n => {
+                  const Icon = n.icon;
+                  return (
+                    <NavLink key={n.to} to={n.to} end={n.end}
+                      className={({ isActive }) => 'nav-item' + (isActive ? ' active' : '')}>
+                      <Icon size={18} className="nav-ico" />
+                      <span>{tr(n.key, lang)}</span>
+                    </NavLink>
+                  );
+                })}
+              </div>
+            ))}
           </nav>
 
           <div className="sidebar-foot">
@@ -218,24 +244,26 @@ export default function App() {
           </header>
 
           <main className="view" id="view" tabIndex={-1}>
-            <Suspense fallback={<div className="card" style={{ textAlign: 'center', padding: 48 }}><div className="orbit-star" style={{ position: 'static', display: 'inline-block' }}>✦</div><p className="muted mt-3">Loading view…</p></div>}>
-            <Routes>
-              <Route path="/" element={<Dashboard />} />
-              <Route path="/browse" element={<Browse />} />
-              <Route path="/topic/:tid" element={<TopicView />} />
-              <Route path="/practice" element={<Practice />} />
-              <Route path="/exam" element={<Exam />} />
-              <Route path="/national" element={<National />} />
-              <Route path="/international" element={<International />} />
-              <Route path="/leaderboard" element={<Leaderboard />} />
-              <Route path="/profile" element={<Profile />} />
-              <Route path="/progress" element={<Progress />} />
-              <Route path="/bookmarks" element={<Bookmarks />} />
-              <Route path="/notes" element={<Notes />} />
-              <Route path="/settings" element={<Settings />} />
-              <Route path="*" element={<NotFound />} />
-            </Routes>
-            </Suspense>
+            <ErrorBoundary>
+              <Suspense fallback={<div className="card" style={{ textAlign: 'center', padding: 48 }}><div className="orbit-star" style={{ position: 'static', display: 'inline-block' }}>✦</div><p className="muted mt-3">Loading view…</p></div>}>
+              <Routes>
+                <Route path="/" element={<Dashboard />} />
+                <Route path="/browse" element={<Browse />} />
+                <Route path="/topic/:tid" element={<TopicView />} />
+                <Route path="/practice" element={<Practice />} />
+                <Route path="/exam" element={<Exam />} />
+                <Route path="/national" element={<National />} />
+                <Route path="/international" element={<International />} />
+                <Route path="/leaderboard" element={<Leaderboard />} />
+                <Route path="/profile" element={<Profile />} />
+                <Route path="/progress" element={<Progress />} />
+                <Route path="/bookmarks" element={<Bookmarks />} />
+                <Route path="/notes" element={<Notes />} />
+                <Route path="/settings" element={<Settings />} />
+                <Route path="*" element={<NotFound />} />
+              </Routes>
+              </Suspense>
+            </ErrorBoundary>
           </main>
         </div>
       </div>

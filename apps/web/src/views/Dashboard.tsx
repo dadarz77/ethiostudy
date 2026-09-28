@@ -21,11 +21,18 @@ function HeroPlanet() {
 
 export default function Dashboard() {
   const navigate = useNavigate();
-  const s = useAppStore();
-  const lang = s.settings.language;
-  const grade = s.settings.grade;
-  const overall = statsFor(CURRICULUM as never, s.progress, { grade });
-  const recent = s.history.slice(0, 6);
+
+  // Selective subscriptions — Dashboard only re-renders when these specific slices change
+  const lang     = useAppStore(s => s.settings.language);
+  const grade    = useAppStore(s => s.settings.grade);
+  const progress = useAppStore(s => s.progress);
+  const history  = useAppStore(s => s.history);
+  const streak   = useAppStore(s => s.streak);
+  const setSetting = useAppStore(s => s.setSetting);
+  const totalStudySec = useAppStore(s => s.totalStudySec);
+
+  const overall = statsFor(CURRICULUM as never, progress, { grade });
+  const recent = history.slice(0, 6);
   const recentTopic = recent.map(h => topicById(h.topicId)).find(Boolean);
   useOrbitTilt();
 
@@ -33,6 +40,8 @@ export default function Dashboard() {
   const nextAction = recentTopic
     ? <button className="orbit-action" onClick={() => navigate('/topic/' + recentTopic._id)}><span>{tr('continue', lang)}</span><b>{recentTopic.title}</b><i>→</i></button>
     : <button className="orbit-action" onClick={() => navigate('/practice')}><span>{tr('continue', lang)}</span><b>{tr('start', lang)}</b><i>→</i></button>;
+
+  const isNewUser = recent.length === 0 && totalStudySec === 0;
 
   return (
     <>
@@ -50,10 +59,37 @@ export default function Dashboard() {
           <div className="orbit-caption">{overall.avgMastery || 0}%<small>mastery</small></div>
         </div>
       </section>
-      {s.streak.lastDate !== todayStr() && s.streak.current > 0 && (
+      {streak.lastDate !== todayStr() && streak.current > 0 && (
         <button className="btn streak-nudge mt-3" style={{ width: '100%' }} onClick={() => navigate('/national')} aria-live="polite">
-          🛡️ Keep your 🔥 {s.streak.current}-day streak alive — one exam today does it →
+          🛡️ Keep your 🔥 {streak.current}-day streak alive — one exam today does it →
         </button>
+      )}
+
+      {/* ── Zero-state onboarding card for brand-new users ── */}
+      {isNewUser && (
+        <div className="card mt-4" style={{ background: 'var(--grad-main)', borderRadius: 'var(--radius-lg)', padding: '28px 24px', textAlign: 'center' }}>
+          <div style={{ fontSize: '2.5rem', marginBottom: 8 }}>🎓</div>
+          <h2 style={{ color: '#fff', margin: '0 0 8px', fontFamily: 'var(--font-display)' }}>Welcome to EthioStudy!</h2>
+          <p style={{ color: 'rgba(255,255,255,.85)', margin: '0 0 20px', maxWidth: 400, marginInline: 'auto' }}>
+            {lang === 'am'
+              ? 'የGrade ትምህርቶችዎን ለማጥናት ጀምር — ርዕስ ምረጥ ወይም ያለፈ ፈተና ለምን.'
+              : 'Your Grade 9–12 study companion is ready. Pick a topic to start your first lesson, or practise with real national exam questions.'}
+          </p>
+          <div style={{ display: 'flex', gap: 12, justifyContent: 'center', flexWrap: 'wrap' }}>
+            <button className="btn" style={{ background: 'rgba(255,255,255,.2)', color: '#fff', border: '1.5px solid rgba(255,255,255,.35)' }}
+              onClick={() => navigate('/practice')}>
+              🎲 Pick a Topic
+            </button>
+            <button className="btn" style={{ background: 'rgba(255,255,255,.2)', color: '#fff', border: '1.5px solid rgba(255,255,255,.35)' }}
+              onClick={() => navigate('/national')}>
+              📝 National Exams
+            </button>
+            <button className="btn" style={{ background: 'rgba(255,255,255,.2)', color: '#fff', border: '1.5px solid rgba(255,255,255,.35)' }}
+              onClick={() => navigate('/browse')}>
+              📚 Browse Curriculum
+            </button>
+          </div>
+        </div>
       )}
 
       <section className="subject-deck" aria-label={tr('explore', lang)}>
@@ -62,14 +98,14 @@ export default function Dashboard() {
           <div className="row" style={{ gap: 8 }}>
             {Object.keys(CURRICULUM).sort((a, b) => Number(a) - Number(b)).map(g => (
               <button key={g} className={'btn btn-sm ' + (g === grade ? 'btn-primary' : '')}
-                onClick={() => s.setSetting('grade', g as Grade)}>G{g}</button>
+                onClick={() => setSetting('grade', g as Grade)}>G{g}</button>
             ))}
             <button className="text-action" onClick={() => navigate('/browse')}>{lang === 'am' ? 'ሁሉንም ይመልከቱ' : 'View curriculum'} <span>→</span></button>
           </div>
         </div>
         <div className="subject-card-grid">
           {subjectsFor(grade as Grade).map(({ key, s: subj }, index) => {
-            const st = statsFor(CURRICULUM as never, s.progress, { grade, subjectKey: key });
+            const st = statsFor(CURRICULUM as never, progress, { grade, subjectKey: key });
             return (
               <button key={key} className={'subject-orbit-card subject-' + key} style={{ ['--card-index' as string]: index }}
                 onClick={() => navigate('/browse?subject=' + key)}>
@@ -112,7 +148,7 @@ export default function Dashboard() {
       <h2 className="section-title">📈 {lang === 'am' ? 'በትምህርት ዓይነት እድገት' : 'Progress by Subject'} — Grade {grade}</h2>
       <div className="card">
         {subjectsFor(grade as Grade).map(({ key, s: subj }, i) => {
-          const st = statsFor(CURRICULUM as never, s.progress, { grade, subjectKey: key });
+          const st = statsFor(CURRICULUM as never, progress, { grade, subjectKey: key });
           return (
             <div key={key} style={{ margin: i === 0 ? 0 : '18px 0 0' }}>
               <div className="spread" style={{ marginBottom: 6 }}>

@@ -220,6 +220,11 @@ input, select, textarea { font-family: inherit; font-size: 1rem; color: var(--fg
 .btn-big-pick .dice { font-size: 1.5rem; display: inline-block; transition: transform .4s cubic-bezier(.34,1.56,.64,1); }
 .btn-big-pick:hover .dice { transform: rotate(90deg) scale(1.1); }
 .nav { display: flex; flex-direction: column; gap: 3px; flex: 1; overflow-y: auto; }
+.nav-group { display: flex; flex-direction: column; gap: 2px; margin-bottom: 10px; }
+.nav-group-label {
+  font-size: .68rem; font-weight: 700; text-transform: uppercase;
+  letter-spacing: .9px; color: var(--fg-3); padding: 6px 14px 4px;
+}
 .nav-item {
   display: flex; align-items: center; gap: 13px;
   background: none; border: none; color: var(--fg-2);

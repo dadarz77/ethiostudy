@@ -6,18 +6,6 @@ import { useAppStore } from '../store/useAppStore';
 import { supabase, isSupabaseConfigured } from '../lib/supabase';
 import type { LeaderboardEntry } from '../types/auth';
 
-const PREVIEW_LEADERBOARD: LeaderboardEntry[] = [
-  { userId: 'p1', name: 'Yared Tadesse', grade: '12', schoolName: 'Menelik II Secondary School', streak: 24, masteredCount: 142, totalStudySec: 84200 },
-  { userId: 'p2', name: 'Selamawit Bekele', grade: '12', schoolName: 'Bole Secondary School', streak: 21, masteredCount: 135, totalStudySec: 76500 },
-  { userId: 'p3', name: 'Dawit Hailu', grade: '11', schoolName: 'St. Joseph School', streak: 19, masteredCount: 128, totalStudySec: 69400 },
-  { userId: 'p4', name: 'Hirut Girma', grade: '11', schoolName: 'Nazareth School', streak: 18, masteredCount: 120, totalStudySec: 64100 },
-  { userId: 'p5', name: 'Kidus Solomon', grade: '10', schoolName: 'Cathedral School', streak: 16, masteredCount: 115, totalStudySec: 58200 },
-  { userId: 'p6', name: 'Bethlehem Alemu', grade: '10', schoolName: 'Sandford School', streak: 15, masteredCount: 104, totalStudySec: 51000 },
-  { userId: 'p7', name: 'Natnael Mesfin', grade: '9', schoolName: 'Hillside School', streak: 14, masteredCount: 98, totalStudySec: 46200 },
-  { userId: 'p8', name: 'Mekdes Worku', grade: '9', schoolName: 'Fountain of Knowledge', streak: 12, masteredCount: 92, totalStudySec: 41800 },
-  { userId: 'p9', name: 'Abel Tesfaye', grade: '12', schoolName: 'Black Lion Secondary', streak: 11, masteredCount: 88, totalStudySec: 39500 },
-  { userId: 'p10', name: 'Rahel Desta', grade: '11', schoolName: 'Gibson Youth Academy', streak: 10, masteredCount: 84, totalStudySec: 37000 },
-];
 
 export default function LeaderboardView() {
   const { user } = useAuthStore();
@@ -27,7 +15,8 @@ export default function LeaderboardView() {
 
   const [gradeFilter, setGradeFilter] = useState<'all' | '9' | '10' | '11' | '12'>('all');
   const [metric, setMetric] = useState<'streak' | 'mastery'>('streak');
-  const [boardData, setBoardData] = useState<LeaderboardEntry[]>(PREVIEW_LEADERBOARD);
+  const [boardData, setBoardData] = useState<LeaderboardEntry[]>([]);
+  const [boardLoading, setBoardLoading] = useState(isSupabaseConfigured);
 
   // Compute student's own stats
   const studentMastered = useMemo(
@@ -43,9 +32,11 @@ export default function LeaderboardView() {
         .select('*')
         .limit(50)
         .then(({ data, error }) => {
-          if (alive && !error && data && data.length > 0) {
+          if (!alive) return;
+          if (!error && data && data.length > 0) {
             setBoardData(data as LeaderboardEntry[]);
           }
+          setBoardLoading(false);
         });
     }
     return () => { alive = false; };
@@ -93,6 +84,8 @@ export default function LeaderboardView() {
   const remaining = sortedList.slice(3);
   const myRankEntry = sortedList.find(e => e.userId === (user?.id ?? 'current-user'));
 
+  const hasRealData = boardData.length > 0;
+
   return (
     <div className="leaderboard-container">
       {/* Breadcrumb */}
@@ -109,7 +102,7 @@ export default function LeaderboardView() {
               Celebrate consistent study habits and mastery across Ethiopian students.
             </p>
           </div>
-          {myRankEntry && (
+          {hasRealData && myRankEntry && (
             <div className="my-rank-badge">
               <span className="tiny muted">Your Rank</span>
               <span className="my-rank-num">#{myRankEntry.rank}</span>
@@ -118,6 +111,7 @@ export default function LeaderboardView() {
         </div>
 
         {/* Controls: Grade Filter & Metric Toggle */}
+        {hasRealData && (
         <div className="leaderboard-controls mt-4">
           <div className="grade-pill-group" role="tablist" aria-label="Grade filter">
             <button
@@ -152,10 +146,33 @@ export default function LeaderboardView() {
             </button>
           </div>
         </div>
+        )}
+
+        {/* Empty / Loading state inside the banner card */}
+        {!hasRealData && (
+          <div style={{ textAlign: 'center', padding: '32px 16px 8px' }}>
+            {boardLoading
+              ? <p className="muted">Loading leaderboard…</p>
+              : (
+                <>
+                  <div style={{ fontSize: '2.5rem', marginBottom: 8 }}>🏆</div>
+                  <h3 style={{ margin: '0 0 8px' }}>Be the first on the board!</h3>
+                  <p className="muted" style={{ margin: '0 0 16px', maxWidth: 360, marginInline: 'auto' }}>
+                    The leaderboard fills up as students study and complete quizzes.
+                    Sign in, keep your streak alive, and claim the top spot.
+                  </p>
+                  {!isSupabaseConfigured && (
+                    <p className="tiny muted">⚠️ Cloud sync is not configured — leaderboard requires an account.</p>
+                  )}
+                </>
+              )
+            }
+          </div>
+        )}
       </div>
 
-      {/* Top 3 Podium */}
-      {top3.length >= 3 && (
+      {/* Top 3 Podium — only when real data exists */}
+      {hasRealData && top3.length >= 3 && (
         <div className="podium-grid mt-4">
           {/* 2nd Place */}
           <div className="podium-card second card">
@@ -196,57 +213,59 @@ export default function LeaderboardView() {
         </div>
       )}
 
-      {/* Ranks 4+ Table */}
-      <div className="card leaderboard-table-card mt-4">
-        <table className="leaderboard-table">
-          <thead>
-            <tr>
-              <th style={{ width: 60, textAlign: 'center' }}>Rank</th>
-              <th>Student</th>
-              <th>Grade</th>
-              <th className="hide-sm">School</th>
-              <th style={{ textAlign: 'right' }}>
-                {metric === 'streak' ? 'Streak' : 'Mastered'}
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            {remaining.map(entry => {
-              const isMe = entry.userId === (user?.id ?? 'current-user');
-              return (
-                <tr key={entry.userId} className={isMe ? 'my-row' : ''}>
-                  <td style={{ textAlign: 'center', fontWeight: 700 }}>
-                    <span className="rank-circle">{entry.rank}</span>
-                  </td>
-                  <td>
-                    <div className="student-cell">
-                      <div className="student-avatar-mini">
-                        <User size={13} />
+      {/* Ranks 4+ Table — only when real data exists */}
+      {hasRealData && (
+        <div className="card leaderboard-table-card mt-4">
+          <table className="leaderboard-table">
+            <thead>
+              <tr>
+                <th style={{ width: 60, textAlign: 'center' }}>Rank</th>
+                <th>Student</th>
+                <th>Grade</th>
+                <th className="hide-sm">School</th>
+                <th style={{ textAlign: 'right' }}>
+                  {metric === 'streak' ? 'Streak' : 'Mastered'}
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              {remaining.map(entry => {
+                const isMe = entry.userId === (user?.id ?? 'current-user');
+                return (
+                  <tr key={entry.userId} className={isMe ? 'my-row' : ''}>
+                    <td style={{ textAlign: 'center', fontWeight: 700 }}>
+                      <span className="rank-circle">{entry.rank}</span>
+                    </td>
+                    <td>
+                      <div className="student-cell">
+                        <div className="student-avatar-mini">
+                          <User size={13} />
+                        </div>
+                        <div>
+                          <span className="student-name">{entry.name} {isMe && <span className="you-pill">You</span>}</span>
+                        </div>
                       </div>
-                      <div>
-                        <span className="student-name">{entry.name} {isMe && <span className="you-pill">You</span>}</span>
-                      </div>
-                    </div>
-                  </td>
-                  <td>
-                    <span className="grade-badge">Grade {entry.grade}</span>
-                  </td>
-                  <td className="hide-sm">
-                    <span className="school-text">{entry.schoolName ? <><Building2 size={12} /> {entry.schoolName}</> : '—'}</span>
-                  </td>
-                  <td style={{ textAlign: 'right', fontWeight: 700 }}>
-                    {metric === 'streak' ? (
-                      <span className="score-badge flame">🔥 {entry.streak}d</span>
-                    ) : (
-                      <span className="score-badge trophy"><Trophy size={13} /> {entry.masteredCount}</span>
-                    )}
-                  </td>
-                </tr>
-              );
-            })}
-          </tbody>
-        </table>
-      </div>
+                    </td>
+                    <td>
+                      <span className="grade-badge">Grade {entry.grade}</span>
+                    </td>
+                    <td className="hide-sm">
+                      <span className="school-text">{entry.schoolName ? <><Building2 size={12} /> {entry.schoolName}</> : '—'}</span>
+                    </td>
+                    <td style={{ textAlign: 'right', fontWeight: 700 }}>
+                      {metric === 'streak' ? (
+                        <span className="score-badge flame">🔥 {entry.streak}d</span>
+                      ) : (
+                        <span className="score-badge trophy"><Trophy size={13} /> {entry.masteredCount}</span>
+                      )}
+                    </td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
+        </div>
+      )}
     </div>
   );
 }

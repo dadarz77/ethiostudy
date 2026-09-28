@@ -30,7 +30,8 @@ export function mergeProgress(local: PersistedState, cloud: Partial<PersistedSta
           attempts: Math.max(localItem.attempts ?? 0, cloudItem.attempts ?? 0),
           totalQ: Math.max(localItem.totalQ ?? 0, cloudItem.totalQ ?? 0),
           correct: Math.max(localItem.correct ?? 0, cloudItem.correct ?? 0),
-          quizScores: Array.from(new Set([...(localItem.quizScores ?? []), ...(cloudItem.quizScores ?? [])])),
+          // Keep all scores (not Set-deduplicated — identical scores are valid repeat attempts)
+          quizScores: [...(localItem.quizScores ?? []), ...(cloudItem.quizScores ?? [])].slice(-30),
         };
       }
     }

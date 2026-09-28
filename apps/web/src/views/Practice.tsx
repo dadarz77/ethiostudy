@@ -8,9 +8,12 @@ import { Chip } from '../components/ui';
 /* Practice — v1's picker-hero + mode cards + filter-box, all real classes. */
 export default function Practice() {
   const navigate = useNavigate();
-  const s = useAppStore();
-  const grade = s.settings.grade;
-  const progress = s.progress;
+
+  // Selective subscriptions — only re-render when relevant slices change
+  const grade    = useAppStore(s => s.settings.grade);
+  const progress = useAppStore(s => s.progress);
+  const weakMap  = useAppStore(s => s.weakMap);
+
   const [selGrade, setSelGrade] = useState<Grade>(grade as Grade);
   const [selSubject, setSelSubject] = useState('all');
   const [selUnit, setSelUnit] = useState('all');
@@ -25,7 +28,7 @@ export default function Practice() {
       (selSubject === 'all' || t._subject === selSubject) &&
       (selUnit === 'all' || t._unit === selUnit));
     if (selMode === 'smart') {
-      const weak = new Set(weakTopicIds(CURRICULUM as never, progress, s.weakMap, selGrade, selSubject === 'all' ? null : selSubject, 50).map(w => w.tid));
+      const weak = new Set(weakTopicIds(CURRICULUM as never, progress, weakMap, selGrade, selSubject === 'all' ? null : selSubject, 50).map(w => w.tid));
       const weakPool = pool.filter(t => weak.has(t._id));
       if (weakPool.length) pool = weakPool;
     }
@@ -116,7 +119,7 @@ export default function Practice() {
       </div>
 
       {(() => {
-        const weak = weakTopicIds(CURRICULUM as never, progress, s.weakMap, selGrade, null, 5)
+        const weak = weakTopicIds(CURRICULUM as never, progress, weakMap, selGrade, null, 5)
           .map(w => ALL_TOPICS[w.tid]).filter(Boolean);
         if (!weak.length) return null;
         return (

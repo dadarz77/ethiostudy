@@ -20,7 +20,7 @@ export function OfflineIndicator() {
   return (
     <div
       className={`offline-pill ${online ? 'is-online' : 'is-offline'}`}
-      title={online ? 'Connected · All lessons & exams cached offline' : 'Offline Mode · All 52 lessons & exams work without internet'}
+      title={online ? 'Connected · All lessons & exams cached offline' : 'Offline Mode · All curriculum lessons & exams work without internet'}
       role="status"
       aria-live="polite"
     >

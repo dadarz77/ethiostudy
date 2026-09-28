@@ -156,7 +156,7 @@ export default function TopicView() {
     if (!quiz) return;
     const r = gradeQuiz(quiz, answers);
     setResult(r);
-    logQuiz(tid, r.correct, r.total, r.pct, r.wrong.length ? [tid] : []);
+    logQuiz(tid, r.correct, r.total, r.pct, r.wrong.map(w => `${tid}:q${w.q._qi}`));
     if (r.pct >= 70) { fireConfetti(); playChime('success'); }
   };
 
@@ -236,7 +236,7 @@ export default function TopicView() {
               <button className="btn btn-primary" onClick={() => setTimerRun(true)}>▶ Start</button>
               <button className="btn" onClick={() => setTimerRun(r => !r)}>⏸ Pause / Resume</button>
               <button className="btn" onClick={() => { setTimerRun(false); setTimerSec(0); }}>↺ Reset</button>
-              <button className="btn btn-danger" onClick={() => { logStudy(tid, timerSec); setTimerRun(false); setTimerSec(0); setTimerOpen(false); }}>✅ Finish Session</button>
+              <button className="btn btn-danger" onClick={() => { logStudy(tid, timerSec); startRef.current = Date.now(); setTimerRun(false); setTimerSec(0); setTimerOpen(false); }}>✅ Finish Session</button>
             </div>
             <div className="tiny muted mt-3">Pick a time or use the default 25 minutes, then press Start. Your study time is tracked automatically.</div>
           </>
