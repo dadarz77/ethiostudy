@@ -81,17 +81,23 @@ describe('authored intl bank', () => {
     }
   });
 
-  it('mcq answers in range; calc answers numeric; only mcq/calc types', () => {
+  it('mcq answers in range; text types have a string answer; only mcq/calc/short/tf types', () => {
     for (const x of authItems) {
-      expect(['mcq', 'calc']).toContain(x.type);
-      if (x.type === 'mcq') {
+      expect(['mcq', 'calc', 'short', 'tf', 'ordering']).toContain(x.type);
+      if (x.type === 'mcq' || x.type === 'ordering') {
         const opts = x.options as string[];
         expect(Array.isArray(opts) && opts.length >= 2 && opts.length <= 5).toBe(true);
         expect(Number.isInteger(x.answer) && (x.answer as number) >= 0 && (x.answer as number) < opts.length).toBe(true);
-      } else {
+      } else if (x.type === 'tf') {
+        expect(x.answer === true || x.answer === false).toBe(true);
+      } else if (x.type === 'calc') {
         expect(x.options === undefined).toBe(true);
         const a = x.answer;
         expect(typeof a === 'number' || /^-?\d[\d.eE+-]*$/.test(String(a).trim()), 'calc answer: ' + String(a)).toBe(true);
+      } else {
+        // short: a text answer (possibly pipe-separated alternatives), no options
+        expect(x.options === undefined).toBe(true);
+        expect(typeof x.answer === 'string' && (x.answer as string).length > 0).toBe(true);
       }
     }
   });

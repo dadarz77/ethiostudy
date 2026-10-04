@@ -18,10 +18,10 @@ export interface IntlArea {
 
 export interface IntlExam {
   id: string;
-  brand: 'igcse' | 'sat';
+  brand: 'igcse' | 'sat' | 'ielts' | 'toefl' | 'alevel';
   brandLabel: string;        // e.g. "Cambridge IGCSE®"
   title: string;             // e.g. "Biology (0610)"
-  subject: string;           // mathematics | biology | chemistry | physics
+  subject: string;           // mathematics | biology | chemistry | physics | esl | fle | reading_writing
   icon: string;
   color: string;             // css var name suffix
   areas: IntlArea[];
@@ -35,6 +35,9 @@ const g = (grade: '9' | '10' | '11' | '12', subject: string, ...units: string[])
 
 const IGCSE_DISC = 'Unofficial practice. EthioStudy is not affiliated with or endorsed by Cambridge Assessment. Questions are drawn from the Ethiopian curriculum bank plus CC-BY sources (OpenStax Physics 2e, adapted), mapped to published IGCSE syllabus areas.';
 const SAT_DISC = 'Unofficial practice. EthioStudy is not affiliated with or endorsed by the College Board®. SAT® is a registered trademark of the College Board.';
+const IELTS_DISC = 'Unofficial practice. EthioStudy is not affiliated with or endorsed by IELTS®, the British Council, IDP or Cambridge Assessment English. IELTS® is jointly owned by these partners. Original practice items in IELTS format only.';
+const TOEFL_DISC = 'Unofficial practice. EthioStudy is not affiliated with or endorsed by ETS®. TOEFL® and TOEFL iBT® are registered trademarks of Educational Testing Service. Original practice items in TOEFL format only.';
+const ALEVEL_DISC = 'Unofficial practice. EthioStudy is not affiliated with or endorsed by Cambridge Assessment. Original practice items mapped to published Cambridge International AS & A Level syllabus areas.';
 
 export const INTL_EXAMS: IntlExam[] = [
   // ─────────────────────────── Cambridge IGCSE ───────────────────────────
@@ -98,6 +101,83 @@ export const INTL_EXAMS: IntlExam[] = [
       { id: 'probstat', name: 'Probability & Statistics', units: [...g('9', 'mathematics', 'm9'), ...g('11', 'mathematics', 'm7', 'm8'), ...g('12', 'mathematics', 'm3', 'm5')] },
     ],
   },
+  {
+    id: 'igcse-esl', brand: 'igcse', brandLabel: 'Cambridge IGCSE®', subject: 'esl',
+    title: 'English as a Second Language (0511)', icon: '📖', color: 'gold',
+    defaults: { count: 24, minutes: 35 },
+    blurb: 'The four 0511 skills — reading, writing, listening and speaking — as auto-marked language practice.',
+    disclaimer: IGCSE_DISC,
+    areas: [
+      { id: 'read-explicit', name: 'Reading: facts, skimming & scanning', units: [] },
+      { id: 'read-implied', name: 'Reading: implied meaning & attitude', units: [] },
+      { id: 'write-grammar', name: 'Writing: grammar, vocabulary & register', units: [] },
+      { id: 'write-cohesion', name: 'Writing: linking devices & text types', units: [] },
+      { id: 'listen', name: 'Listening: gist, detail & speaker attitude', units: [] },
+      { id: 'speak', name: 'Speaking: discourse markers & interaction', units: [] },
+    ],
+  },
+  {
+    id: 'igcse-fle', brand: 'igcse', brandLabel: 'Cambridge IGCSE®', subject: 'fle',
+    title: 'First Language English (0522)', icon: '✒️', color: 'violet',
+    defaults: { count: 24, minutes: 35 },
+    blurb: 'First Language English skills — comprehension, inference, language analysis and writing accuracy.',
+    disclaimer: IGCSE_DISC,
+    areas: [
+      { id: 'explicit', name: 'R1 Explicit meanings', units: [] },
+      { id: 'implied', name: 'R2 Implicit meanings & attitudes', units: [] },
+      { id: 'effects', name: 'R4 How writers achieve effects', units: [] },
+      { id: 'summary', name: 'R5 Selecting & summarising', units: [] },
+      { id: 'write-craft', name: 'W1–W4 Composition craft', units: [] },
+      { id: 'conventions', name: 'W5 Spelling, punctuation & grammar', units: [] },
+    ],
+  },  // ─────────────────────────── IELTS Academic ───────────────────────────
+  {
+    id: 'ielts-academic', brand: 'ielts', brandLabel: 'IELTS Academic®', subject: 'ielts',
+    title: 'Academic (Reading)', icon: '🌍', color: 'cyan',
+    defaults: { count: 24, minutes: 35 },
+    blurb: 'Academic Reading — comprehension, inference, matching and completion tasks across real expository passages.',
+    disclaimer: IELTS_DISC,
+    areas: [
+      { id: 'mcq', name: 'Multiple choice (single & multiple answer)', units: [] },
+      { id: 'tfng', name: 'True / False / Not Given', units: [] },
+      { id: 'matching', name: 'Matching headings & information', units: [] },
+      { id: 'completion', name: 'Sentence, summary & note completion', units: [] },
+      { id: 'short', name: 'Short answer questions', units: [] },
+      { id: 'vocab', name: 'Diagram/table label & vocabulary in context', units: [] },
+    ],
+  },
+  // ─────────────────────────── TOEFL iBT ───────────────────────────
+  {
+    id: 'toefl-ibt', brand: 'toefl', brandLabel: 'TOEFL iBT®', subject: 'toefl',
+    title: 'iBT (2026 format)', icon: '🎓', color: 'pink',
+    defaults: { count: 24, minutes: 35 },
+    blurb: 'Reading for academic meaning, listening comprehension, and grammar in context — the auto-gradeable sections.',
+    disclaimer: TOEFL_DISC,
+    areas: [
+      { id: 'reading-main', name: 'Reading: main idea & purpose', units: [] },
+      { id: 'reading-detail', name: 'Reading: detail & inference', units: [] },
+      { id: 'reading-vocab', name: 'Reading: vocabulary in context', units: [] },
+      { id: 'listening', name: 'Listening: conversations & lectures', units: [] },
+      { id: 'grammar', name: 'Writing: sentence construction & grammar', units: [] },
+    ],
+  },
+  // ─────────────────────────── Cambridge AS & A Level ───────────────────────────
+  {
+    id: 'alevel-english', brand: 'alevel', brandLabel: 'Cambridge AS & A Level®', subject: 'alevel',
+    title: 'English Language (9093)', icon: '📰', color: 'amber',
+    defaults: { count: 24, minutes: 35 },
+    blurb: 'Advanced English Language — close textual analysis, language change, and written style beyond IGCSE.',
+    disclaimer: ALEVEL_DISC,
+    areas: [
+      { id: 'analysis', name: 'Textual analysis: language & structure', units: [] },
+      { id: 'inference', name: 'Inference, attitude & subtext', units: [] },
+      { id: 'comparison', name: 'Comparing texts & genres', units: [] },
+      { id: 'change', name: 'Language change over time', units: [] },
+      { id: 'craft', name: 'Writing craft: register & audience', units: [] },
+      { id: 'conventions', name: 'Grammar, spelling & punctuation', units: [] },
+    ],
+  },
+
   // ─────────────────────────── Digital SAT — Math ───────────────────────────
   {
     id: 'sat-math', brand: 'sat', brandLabel: 'Digital SAT®', subject: 'mathematics',

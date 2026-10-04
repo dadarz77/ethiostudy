@@ -14,9 +14,9 @@ for (const [g, subs] of Object.entries(CURRICULUM as Record<string, Record<strin
 const topics = Object.values(ALL_TOPICS as unknown as Record<string, { _id: string; _grade: string; _subject: string; _unit: string }>);
 
 describe('intl exam blueprints', () => {
-  it('has the six shipped exams', () => {
+  it('has the eleven shipped exams', () => {
     expect(INTL_EXAMS.map(e => e.id).sort()).toEqual(
-      ['igcse-biology', 'igcse-chemistry', 'igcse-math', 'igcse-physics', 'sat-math', 'sat-reading']);
+      ['alevel-english', 'igcse-biology', 'igcse-chemistry', 'igcse-esl', 'igcse-fle', 'igcse-math', 'igcse-physics', 'ielts-academic', 'sat-math', 'sat-reading', 'toefl-ibt'].sort());
   });
 
   it('every unit reference is a real grade|subject|unit', () => {
@@ -57,6 +57,41 @@ describe('intl exam blueprints', () => {
     expect(total).toBeGreaterThan(100); // chemistry pool is ~414
     // every pooled item carries a resolvable topic id
     for (const s of slices) for (const p of s.pool) expect(p.tid).toBeTruthy();
+  });
+
+  it('Cambridge IGCSE English exams (0511 ESL, 0522 FLE) have a deep authored bank', async () => {
+    await loadAllLessons();
+    const AUTH = (await import('./authored-intl.json')).default as {
+      id: string; examId: string; areaId: string; type: string;
+      q: string; options?: string[]; answer: number | string; difficulty: number;
+    }[];
+    for (const id of ['igcse-esl', 'igcse-fle'] as const) {
+      const exam = INTL_EXAMS.find(e => e.id === id)!;
+      const items = AUTH.filter(a => a.examId === id);
+      // every area has a bank of at least 4 items
+      for (const a of exam.areas) {
+        const n = items.filter(i => i.areaId === a.id).length;
+        expect(n, id + '/' + a.id + ' needs >= 4 authored items').toBeGreaterThanOrEqual(4);
+      }
+      // items are schema-shaped: valid type, in-range mcq index, difficulty 1-3
+      for (const i of items) {
+        expect(['mcq', 'short', 'tf', 'ordering']).toContain(i.type);
+        expect(i.difficulty).toBeGreaterThanOrEqual(1);
+        expect(i.difficulty).toBeLessThanOrEqual(3);
+        if (i.type === 'mcq') {
+          expect(i.options!.length).toBeGreaterThanOrEqual(4);
+          expect(Number(i.answer)).toBeGreaterThanOrEqual(0);
+          expect(Number(i.answer)).toBeLessThan(i.options!.length);
+        }
+      }
+      // ids unique
+      expect(new Set(items.map(i => i.id)).size).toBe(items.length);
+      // pools are live and non-empty
+      const slices = areaPools(exam, () => null, {});
+      for (const s of slices) expect(s.pool.length).toBeGreaterThan(0);
+      const total = slices.reduce((n, s) => n + s.pool.length, 0);
+      expect(total).toBeGreaterThanOrEqual(36);
+    }
   });
 
   it('OpenStax CC-BY items enrich IGCSE Physics pools and are valid calc questions', async () => {

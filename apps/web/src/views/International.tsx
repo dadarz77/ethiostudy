@@ -113,7 +113,17 @@ export default function International() {
             {INTL_EXAMS.filter(e => e.brand === 'sat').map(e => <Card key={e.id} e={e} onOpen={openSetup} busy={busy} />)}
           </div>
 
-          <p className="tiny muted mt-4">⚖️ Unofficial practice tools. EthioStudy is not affiliated with or endorsed by Cambridge Assessment or the College Board. Exam names are trademarks of their respective owners; content areas are published syllabus outlines. Questions come from our curriculum bank plus openly-licensed sources — IGCSE Physics includes numeric problems adapted from <a href="https://openstax.org/details/books/physics" target="_blank" rel="noreferrer">OpenStax Physics 2e</a> (CC BY 4.0).</p>
+          <h2 className="section-title mt-5">🌍 English for Study Abroad</h2>
+          <div className="grid grid-2">
+            {INTL_EXAMS.filter(e => e.brand === 'ielts' || e.brand === 'toefl').map(e => <Card key={e.id} e={e} onOpen={openSetup} busy={busy} />)}
+          </div>
+
+          <h2 className="section-title mt-5">🎓 Cambridge AS &amp; A Level®</h2>
+          <div className="grid grid-2">
+            {INTL_EXAMS.filter(e => e.brand === 'alevel').map(e => <Card key={e.id} e={e} onOpen={openSetup} busy={busy} />)}
+          </div>
+
+          <p className="tiny muted mt-4">⚖️ Unofficial practice tools. EthioStudy is not affiliated with or endorsed by Cambridge Assessment, the College Board, IELTS partners or ETS. Exam names are trademarks of their respective owners; content areas are published syllabus outlines. Questions come from our curriculum bank plus openly-licensed sources — IGCSE Physics includes numeric problems adapted from <a href="https://openstax.org/details/books/physics" target="_blank" rel="noreferrer">OpenStax Physics 2e</a> (CC BY 4.0).</p>
         </>
       )}
 
@@ -124,6 +134,7 @@ export default function International() {
           <section className="page-hero">
             <h1>{setup.brandLabel} · {setup.title}</h1>
             <p>{setup.blurb}</p>
+            <p className="tiny muted mt-1">⚖️ {setup.disclaimer}</p>
           </section>
 
           <div className="card mt-4">
