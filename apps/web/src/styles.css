@@ -257,7 +257,7 @@ input, select, textarea { font-family: inherit; font-size: 1rem; color: var(--fg
 }
 .menu-toggle { display: none; }
 .searchbox {
-  flex: 1; max-width: 560px; display: flex; align-items: center; gap: 10px;
+  flex: 1; max-width: 560px; min-width: 0; display: flex; align-items: center; gap: 10px;
   background: var(--card); border: 1px solid var(--border);
   border-radius: 14px; padding: 10px 16px;
   transition: all var(--tr);
@@ -757,7 +757,9 @@ tr:hover td { background: color-mix(in srgb, var(--card-2) 60%, transparent); }
   .lesson-title { font-size: 1.7rem; }
   .timer-display { font-size: 3.4rem; }
   .keyterm { grid-template-columns: 1fr; }
-  .topbar { padding: 0 var(--space-3); }
+  .topbar { padding: 0 var(--space-3); gap: var(--space-2); }
+  .searchbox { max-width: 100%; flex-shrink: 1; padding: 8px 12px; gap: 8px; }
+  .searchbox input { font-size: 0.9rem; }
   .toast-container { right: 12px; left: 12px; bottom: 12px; }
   .hero-banner h1 { font-size: 1.6rem; }
   .orbit-hero { min-height:350px; padding:25px; align-items:flex-start; }
@@ -772,6 +774,9 @@ tr:hover td { background: color-mix(in srgb, var(--card-2) 60%, transparent); }
   .subject-card-grid { grid-template-columns:1fr; }
   .orbit-copy { max-width:100%; }.orbit-scene { opacity:.28; width:88%; right:-28%; bottom:-12%; }
   .section-heading { align-items:flex-start; flex-direction:column; }.orbit-action { width:100%; }.language-toggle { min-width:57px; padding:0 7px; }
+  .topbar { gap: 6px; padding: 0 8px; }
+  .icon-btn { width: 40px; height: 40px; min-width: 40px; min-height: 40px; }
+  .searchbox { padding: 6px 10px; }
 }
 
 /* ---------- Reduced motion ---------- */
