@@ -57,7 +57,7 @@ The civics question drove most of the research. Findings, with sources:
 
 1. **Source of truth = `data/*.js` + the converter.** Restore the authoring pipeline; generated JSON is a build artifact again.
 2. **Social subjects = History, Geography, Economics for grades 9–12**, all upgraded to full spec-v2 parity.
-3. **Citizenship Education = grades 9–10 only.** This follows the actual new-curriculum structure (G11–12 have no citizenship book). The existing `nat-exams` civics bank stays available as exam practice, but no G11–12 civics lessons are authored, because they would not correspond to a real course.
+3. **Citizenship Education = grades 9–10 only (confirmed).** This follows the actual new-curriculum structure (G11–12 have no citizenship book). The existing `nat-exams` civics bank stays available as exam practice, but no G11–12 civics lessons are authored, because they would not correspond to a real course.
 4. **UI grouping = Science vs Social Sciences** (not a flat list, not a stream filter).
 5. **Civics subject key = `civics`** (aligns with the `nat-exams` key), unit ids `c1..c8`, content files `content-g{9|10}-civics-u{n}.js` (follows the `-chem-` abbreviated-file precedent).
 
@@ -113,6 +113,6 @@ Total authoring ≈ **99 social units + 16 civics units ≈ 115 units / ~540 les
 - **Source fidelity**: re-authoring from textbooks can drift from the official syllabus; each unit is pinned to a named textbook + unit.
 - **Civics G11–12**: if the user wants them regardless of the new-curriculum structure, they must be sourced from the old "Civics and Ethical Education" books and flagged as legacy.
 
-## Open decision
+## Resolved decision
 
-Civics is authored for **grades 9–10** (curriculum-faithful). Confirm, or extend to G11–12 using the legacy Civics and Ethical Education textbooks.
+Civics is scoped to **grades 9–10 only** (curriculum-faithful). Confirmed by the user on 2026-10-17; G11–12 civics will not be authored.
