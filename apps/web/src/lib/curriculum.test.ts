@@ -6,8 +6,8 @@ import { ALL_TOPICS, topicById, lessonFor, loadLesson, loadAllLessons, subjectsF
 const allTids = Object.keys(ALL_TOPICS);
 
 /* Subjects that ship curriculum structure before their lessons are authored.
-   Citizenship Education is added in Phase 1 as structure; lessons follow. */
-const STAGED_SUBJECTS = new Set<string>(['civics']);
+   Empty: every subject now has authored lessons. Kept generic for future staging. */
+const STAGED_SUBJECTS = new Set<string>([]);
 const subjectOf = (t: string) => t.split('-')[1];
 
 describe('curriculum wiring', () => {

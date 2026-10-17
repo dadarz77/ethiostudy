@@ -1,0 +1,359 @@
+/* Content: Grade 10 Citizenship Education - Unit 6: Human Rights (3 topics)
+   Source: MoE Citizenship Education Grade 10 Student Textbook, Unit 6. */
+window.Lessons = window.Lessons || {};
+
+Lessons["g10-civics-uc6-t1"] = {
+  overview: "Human rights are the fundamental entitlements that belong to every person simply because they are human. This lesson defines human rights, explains their basic features, classifies them into three generations, and shows how the FDRE Constitution protects them.",
+  objectives: [
+    "Define human rights and explain their link to human dignity",
+    "Identify the basic features of human rights",
+    "Explain the three generations of human rights",
+    "Describe how the FDRE Constitution protects human rights",
+    "Apply the vocabulary of human rights to real situations"
+  ],
+  simple: "Human rights are the basic entitlements that belong to every person simply because he or she is human. They come from human dignity and worth, and they apply to everyone everywhere without discrimination. Human rights give people the minimum standards for a life worth living: freedom of expression, safety, food, housing and education. Their main features are universalism, eternality, inalienability, indivisibility and interdependence, inviolability and irrevocability. They are classified into three generations: civil and political rights, economic, social and cultural rights, and collective rights such as development and self-determination. In Ethiopia the FDRE Constitution declares that these rights are inviolable and inalienable.",
+  detailed: "<p><b>What human rights are.</b> Human rights are basic to humanity and apply to all people everywhere. The notion of human rights means that fundamental entitlements belong to every member of the human race. They are privileges that a person can claim simply because he or she is a human being, without any discrimination based on condition. Understanding human rights is part of our individual status as human beings and of our collective status as members of the global community of humankind. Different scholars in the field agree that human rights derive from fundamental human dignity and worth. Article 2 of the Universal Declaration of Human Rights (UDHR) stipulates that human rights belong to every human being without distinction of political or other opinion, so the only criterion a person must fulfil in order to enjoy these rights is being human.</p><p><b>What human rights do for us.</b> Human rights provide the minimum standards indispensable for people to live a life worth living. They allow people to live the life they deserve, the life they aspire to live, and to live with dignity and equality. Human rights give people full control of their lives and the freedom to choose how they live, how they express themselves, and what kind of government they want to support. They also guarantee people the means necessary to satisfy their basic needs, such as food, housing and education, so that they can take full advantage of all opportunities.</p><p><b>The basic features.</b> Human rights possess salient features that distinguish them from other variants of right, such as democratic rights. <b>Universalism</b> means that they apply equally to all people everywhere in the world, with no time limit, and without distinction of race or ethnic background, colour, sex, disability, language, religion, political or other opinion, national or social origin, birth or other status. Universality is not synonymous with uniformity, so it does not threaten the rich diversity of individuals or of different cultures. Human rights serve as minimum standards applying to all human beings, and each state and society is free to define and apply higher and more specific standards. <b>Eternality</b> means that the only time individuals stop enjoying their human rights is at the time of natural death; otherwise these rights are in principle eternal. <b>Inalienability</b> means that you cannot lose them, because they are linked to the very fact of human existence and are inherent to all human beings. In particular circumstances some, though not all, may be suspended or restricted: if someone is found guilty of a crime his or her liberty can be taken away, or in times of national emergency a government may publicly declare this and derogate from some rights, for example by imposing a curfew that restricts freedom of movement.</p><p><b>More features.</b> Human rights are <b>indivisible and interdependent</b>, which means that different human rights are intrinsically connected and cannot be viewed in isolation from each other. The enjoyment of one right depends on the enjoyment of many other rights, and no single right is more important than the rest, so one set of rights cannot be enjoyed fully without the other. For example, making progress in civil and political rights makes it easier to exercise economic, social and cultural rights, and violating economic, social and cultural rights can negatively affect many other rights. <b>Inviolability</b> means that human rights by their very nature are expected not to be violated or even restricted by anyone; in some countries where democracy is well consolidated, this inviolability extends even to times of crisis or emergency. Human rights are also <b>irrevocable</b>: they cannot be taken away by any power or authority, because they originate with the social nature of man and belong to a person simply because he is a human being. In this way human rights have similarities to moral rights.</p><p><b>First and second generations.</b> The first tier or generation consists of civil and political rights, which derive primarily from 17th and 18th century political theories associated with the English, American and French revolutions: think of life, liberty and the pursuit of happiness. This approach favours limiting government by placing restrictions on state action. Articles 2 to 21 of the UDHR include freedom from discrimination, freedom from slavery, freedom from torture and from cruel, inhuman or degrading treatment and punishment, freedom from arbitrary arrest and detention, the right to a fair and public trial, freedom of thought, conscience and religion, freedom of opinion and expression, and the right to participate in government through free elections. The second generation broadens the primarily political focus of earlier views to include economic, social and cultural rights, and originated primarily in the socialist traditions of Marx and Lenin. According to this view, rights are conceived more in positive than in negative terms and encourage the intervention of the state. Articles 22 to 27 of the UDHR include the right to social security, the right to work, the right to a standard of living adequate for the health and well-being of self and family, and the right to education.</p><p><b>Third generation rights.</b> The third generation of rights is the product of the rise and decline of the nation-state in the last half of the twentieth century. These rights have been championed by the Third World and remain somewhat controversial and debated. The specific rights include the right to political, economic, social and cultural self-determination, the right to economic and social development, and the right to participate in and benefit from the common heritage of mankind.</p><p><b>Human rights under the FDRE Constitution.</b> One of the distinguishing features of the FDRE Constitution is the emphasis it gives to internationally recognised human rights norms. Article 10 states that human rights and freedoms, emanating from the nature of mankind, are inviolable and inalienable. About one third of the provisions of the Constitution are devoted to human rights and democratic rights. Chapter Three clearly lists the rights and divides them into two categories: Articles 13 to 44 cover Fundamental Rights and Freedoms in general, Articles 14 to 28 are named Human Rights, and Articles 29 to 44 are dubbed Democratic Rights. The human rights listed include the right to life, the right to security of person, the right to liberty, the rights of persons held in custody and of convicted prisoners, the rights of a person arrested, prohibition against inhuman treatment, the rights of a person accused, non-retroactivity of criminal law, the right to honour and reputation, prohibition of double jeopardy, the right to equality, freedom of religion, belief and opinion, the right to privacy, and crimes against humanity.</p>",
+  keyTerms: [
+    { term: "Human rights", def: "The fundamental entitlements that belong to every member of the human race simply because he or she is a human being, without discrimination." },
+    { term: "Human dignity", def: "The worth and value of every person, from which human rights are said to derive." },
+    { term: "Universalism", def: "The feature that human rights apply equally to all people everywhere in the world with no time limit." },
+    { term: "Eternality", def: "The feature that human rights are in principle eternal and stop only at natural death." },
+    { term: "Inalienability", def: "The feature that human rights cannot be lost, because they are linked to the very fact of human existence." },
+    { term: "Indivisible and interdependent", def: "The feature that human rights are intrinsically connected, so the enjoyment of one right depends on the enjoyment of many others." },
+    { term: "Inviolability", def: "The feature that human rights are by their nature not to be violated or even restricted by anyone." },
+    { term: "Irrevocable", def: "The feature that human rights cannot be taken away by any power or authority, since they belong to a person simply because he or she is human." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "A hospital refuses to treat a patient because of his ethnic background. Analyse this using the features of human rights.",
+      given: "The patient is a human being and health care is linked to the right to a standard of living adequate for health and well-being.",
+      formula: "Principle: universalism means human rights apply to all people without distinction of race or ethnic background.",
+      substitution: "Refusing treatment because of ethnicity applies a distinction that universalism forbids.",
+      calculation: "The act fails the universality test, so it violates the patient's human rights.",
+      answer: "The refusal is a human rights violation, because human rights apply to everyone without distinction of ethnic background."
+    },
+    {
+      problem: "A court sentences a person convicted of a serious crime to imprisonment. Does this violate the feature of inalienability?",
+      given: "The person is found guilty and loses his liberty by lawful sentence.",
+      formula: "Principle: inalienability allows some, though not all, rights to be suspended or restricted in particular circumstances.",
+      substitution: "Liberty may be restricted when a person is found guilty of a crime.",
+      calculation: "Since the restriction is one of the specific exceptions the lesson recognises, it does not destroy the right itself.",
+      answer: "No. Inalienability permits particular restrictions, such as losing liberty after a criminal conviction, but the rights themselves are not lost."
+    },
+    {
+      problem: "A student argues that because Ethiopia is a developing country, the right to education can simply be ignored. Correct the argument using the classification of human rights.",
+      given: "Education is listed among economic, social and cultural rights in Articles 22 to 27 of the UDHR.",
+      formula: "Principle: human rights are indivisible and interdependent, and no single right is more important than the rest.",
+      substitution: "Ignoring education would damage a right that is connected to many others, such as the right to work.",
+      calculation: "Because the rights are interdependent, dropping one weakens the rest, so the argument fails.",
+      answer: "The argument is wrong: human rights are indivisible and interdependent, and the right to education cannot simply be set aside."
+    }
+  ],
+  commonMistakes: [
+    "Believing human rights are granted by a government and can be withdrawn when it chooses.",
+    "Thinking universality means that every culture must become the same; universality is not uniformity.",
+    "Assuming human rights are absolute, when particular circumstances allow some rights to be restricted.",
+    "Treating economic, social and cultural rights as less important than civil and political rights.",
+    "Confusing the three generations of rights and mixing civil rights with collective rights.",
+    "Thinking human rights belong only to citizens of a state rather than to every human being.",
+    "Believing a national emergency removes human rights completely instead of allowing limited derogation."
+  ],
+  applications: [
+    "Treating a classmate with a disability equally and including them in school activities.",
+    "Speaking up when someone is insulted because of their religion or ethnic background.",
+    "Using the right to education by attending school regularly and respecting others' right to learn.",
+    "Informing a person arrested of the reason for arrest, respecting their right of defence.",
+    "Refusing to take part in cruel or degrading treatment of a person in custody.",
+    "Supporting a community discussion where people freely express their opinions."
+  ],
+  summary: "Human rights are the fundamental entitlements of every person, derived from human dignity and guaranteed without discrimination. Their basic features are universalism, eternality, inalienability, indivisibility and interdependence, inviolability and irrevocability. They are classified into civil and political rights, economic, social and cultural rights, and third generation collective rights, and the FDRE Constitution declares them inviolable and inalienable.",
+  visuals: [
+    {
+      type: "tableVisual",
+      config: {
+        title: "Basic Features of Human Rights",
+        headers: ["Feature", "Meaning"],
+        rows: [
+          ["Universalism", "Apply equally to all people everywhere, with no time limit"],
+          ["Eternality", "Enjoyed until natural death; in principle eternal"],
+          ["Inalienability", "Cannot be lost; linked to human existence"],
+          ["Indivisible and interdependent", "Rights are connected and no right is more important"],
+          ["Inviolability", "Not to be violated or even restricted by anyone"],
+          ["Irrevocable", "Cannot be taken away by any power or authority"]
+        ]
+      }
+    },
+    {
+      type: "mindMap",
+      config: {
+        title: "Three Generations of Human Rights",
+        center: "Human Rights",
+        branches: [
+          { label: "First generation", items: ["Civil rights", "Political rights", "UDHR Articles 2-21"] },
+          { label: "Second generation", items: ["Economic rights", "Social rights", "Cultural rights", "UDHR Articles 22-27"] },
+          { label: "Third generation", items: ["Self-determination", "Development", "Common heritage"] }
+        ]
+      }
+    },
+    {
+      type: "comparison",
+      config: {
+        title: "Human Rights vs Democratic Rights (FDRE Constitution)",
+        left: { name: "Human Rights (Articles 14-28)", items: ["Right to life", "Right to liberty", "Right to equality", "Freedom of religion and belief", "Right to privacy"] },
+        right: { name: "Democratic Rights (Articles 29-44)", items: ["Rights of peoples", "Participation in government", "Free elections", "Freedom of expression and the press", "Rights of nations and nationalities"] }
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "Human rights are best defined as:", options: ["Privileges granted by a government to loyal citizens", "Fundamental entitlements that belong to every member of the human race", "Rights enjoyed only by adults who pay taxes", "Rules made by the United Nations for its members only"], answer: 1, difficulty: 1, explanation: "Human rights are fundamental entitlements belonging to every member of the human race because they are human." },
+    { type: "mcq", q: "According to the UDHR, the only criterion a person must fulfil to enjoy human rights is:", options: ["Being a citizen of a UN member state", "Being a human being", "Being over eighteen years old", "Paying taxes regularly"], answer: 1, difficulty: 1, explanation: "Article 2 of the UDHR says the only criterion is being human." },
+    { type: "mcq", q: "Which feature means human rights cannot be lost because they are linked to the very fact of human existence?", options: ["Universalism", "Eternality", "Inalienability", "Inviolability"], answer: 2, difficulty: 2, explanation: "Inalienability means the rights cannot be lost because they are linked to human existence." },
+    { type: "mcq", q: "First generation rights consist mainly of:", options: ["Economic, social and cultural rights", "Civil and political rights", "Rights to development and self-determination", "Rights of the state over its citizens"], answer: 1, difficulty: 2, explanation: "The first generation consists of civil and political rights linked to the English, American and French revolutions." },
+    { type: "tf", q: "Human rights apply equally to all people everywhere in the world and with no time limit.", answer: true, difficulty: 1, explanation: "This is the feature of universalism described in the lesson." },
+    { type: "tf", q: "The universality of human rights means that all cultures must become uniform.", answer: false, difficulty: 2, explanation: "The lesson states that universality is not synonymous with uniformity." },
+    { type: "short", q: "Name the 1948 declaration adopted by the UN General Assembly that sets out human rights.", answer: "Universal Declaration of Human Rights|UDHR", difficulty: 1, explanation: "This is the Universal Declaration of Human Rights." },
+    { type: "concept", q: "Give the feature that means human rights cannot be taken away by any power or authority because they belong to a person simply because he or she is human.", answer: "irrevocable|irrevocability", difficulty: 2, explanation: "The lesson defines this feature as irrevocable." },
+    { type: "concept", q: "Explain what it means that human rights are indivisible and interdependent.", answer: "they are intrinsically connected|one right depends on the enjoyment of many others|no right is more important than the rest", difficulty: 3, explanation: "Rights are connected, the enjoyment of one depends on others, and no right is more important than the rest." },
+    { type: "mcq", q: "Which of the following is a second generation right?", options: ["Freedom from slavery", "The right to education", "The right to a fair and public trial", "The right to political self-determination"], answer: 1, difficulty: 2, explanation: "The right to education appears in Articles 22 to 27, which cover economic, social and cultural rights." },
+    { type: "ordering", q: "Arrange the generations of human rights in the order in which they emerged.", options: ["Third generation (collective and developmental rights)", "First generation (civil and political rights)", "Second generation (economic, social and cultural rights)"], answer: 1, difficulty: 2, explanation: "The correct order is first generation, then second generation, then third generation." }
+  ]
+};
+
+Lessons["g10-civics-uc6-t2"] = {
+  overview: "Human rights are never only a gift: they create duties for citizens and clear obligations for the state. This lesson explains the obligations of citizens and the three state obligations to respect, to protect and to fulfill human rights.",
+  objectives: [
+    "Identify the obligations of citizens to realize human rights",
+    "Explain the duty to exercise rights with due regard for the rights of others",
+    "Describe the state obligation to respect human rights",
+    "Explain the obligations to protect and to fulfill human rights",
+    "Apply the three state obligations to education and disability scenarios"
+  ],
+  simple: "Human rights involve responsibility and duty towards other people and the community. Your obligation arises from the right you enjoy, so the rights the Ethiopian Constitution gives you also carry duties. Citizens must respect religious equality, gender equality, the rights of others and the national flag. The state also has a prime responsibility to protect, promote and implement all human rights. This duty has three parts: the obligation to respect, which means not interfering with rights; the obligation to protect, which means shielding people from abuse by others; and the obligation to fulfill, which means taking positive action, such as providing free and compulsory primary education so that rights can actually be realized.",
+  detailed: "<p><b>Rights bring duties.</b> Human rights involve responsibility and duty towards other people and the community. Individuals often have a responsibility to ensure that they exercise their rights with due regard for the rights of others. In other words, your obligation arises from the right you enjoy: the Ethiopian Constitution entitles you to use your rights and details the list of rights you enjoy, but with this come obligations you must fulfil. Rights and duties are therefore two sides of the same coin rather than opposites.</p><p><b>The obligations of citizens.</b> The lesson lists several obligations of citizens for the protection of human rights. These include respect for religious equality, respect for gender equality, respect for the rights of others, and respect for the national flag. Respect for religious equality means that no one should be treated differently or harmed because of their faith, and respect for gender equality means that women and men enjoy the same rights and dignity. Respecting the rights of others means using my own freedom in a way that leaves room for the freedom of my neighbour. Respect for the national flag expresses loyalty to the country and to the values that the flag represents.</p><p><b>Why citizens are obligated.</b> If each person used rights as a licence, the rights of others would quickly be destroyed. A person who exercises the right to free expression by spreading hatred damages the rights of those attacked. Because human rights are interdependent, every citizen who respects the rights of others strengthens the whole system of rights. This is why the activity of the lesson asks why we are obligated and how obligations should be executed properly: obligations must be carried out honestly and not simply claimed in words.</p><p><b>The prime duty of the state.</b> Each state has a prime responsibility and duty to protect, promote and implement all human rights and fundamental freedoms. This includes adopting the steps necessary to create all the conditions needed in the social, economic, political and other fields, together with the legal guarantees required to ensure those rights. The state is therefore the main duty bearer, while individual human beings are the rights holders.</p><p><b>Obligation to respect.</b> The obligation to respect states that parties must refrain from interfering with the enjoyment of the rights of persons. For example, states must not perform medical experiments on persons with disabilities without their consent, and must not exclude a person from school on the basis of a disability. In this obligation the state is asked mainly to keep out of the way and not to obstruct the enjoyment of a right.</p><p><b>Obligation to protect.</b> The obligation to protect requires states to protect individuals against abuses by non-state actors, foreign state agents, or state agents acting outside of their official capacity. The obligation entails both a preventative and a remedial dimension. A state is thus obliged to enact legislation protecting human rights, to take action to protect individuals when it is aware, or could have been aware, of threats to their human rights, and to ensure access to impartial legal remedies when human rights violations are alleged. The right to education can again serve as an example: the right of children to education must be protected by the state from interference and indoctrination by third parties, including parents and the family, teachers and the school, religions, sects, clans and business firms. States enjoy a margin of discretion with respect to the obligation to protect.</p><p><b>Obligation to fulfill.</b> According to the obligation to fulfill, states are required to take positive action to ensure that human rights can be realized. The extent of the obligation varies according to the right concerned and the state's available resources, but in general states should create the legal, institutional and procedural conditions that rights holders need in order to realize and enjoy their rights in full. In respect of the right to education, for instance, states must provide ways and means for free and compulsory primary education for all, free secondary education, higher education, vocational training, adult education, and the elimination of illiteracy. Such steps include setting up enough public schools and hiring and remunerating an adequate number of teachers.</p>",
+  keyTerms: [
+    { term: "Obligation", def: "Something a person must do because of the demands of a promise, a contract or a legal duty." },
+    { term: "Citizens' obligation", def: "The duties of citizens arising from the rights they enjoy, such as respect for religious equality, gender equality, the rights of others and the national flag." },
+    { term: "Duty bearer", def: "The party, mainly the state, that is responsible for respecting, protecting and fulfilling human rights." },
+    { term: "Obligation to respect", def: "The duty of the state to refrain from interfering with the enjoyment of people's rights." },
+    { term: "Obligation to protect", def: "The duty of the state to protect individuals against abuses by non-state actors and other agents, with both a preventative and a remedial dimension." },
+    { term: "Obligation to fulfill", def: "The duty of the state to take positive action, creating legal, institutional and procedural conditions so that rights can be realized." },
+    { term: "Margin of discretion", def: "The measure of freedom the state enjoys in deciding how to carry out the obligation to protect." },
+    { term: "Impartial legal remedy", def: "A fair and neutral process, such as a court, through which a person can seek justice when a right is violated." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "A school refuses to admit a child because she uses a wheelchair. Which state obligation is not being met?",
+      given: "The child is excluded from school on the basis of a disability, and the right to education is at stake.",
+      formula: "Principle: under the obligation to respect, states must not exclude a person from school on the basis of a disability.",
+      substitution: "Excluding the child for her disability is direct interference with her enjoyment of the right to education.",
+      calculation: "Because the state is obstructing rather than simply failing to provide, the obligation to respect is breached.",
+      answer: "The obligation to respect is not met; the state must not interfere with the right to education on the basis of disability."
+    },
+    {
+      problem: "A private businessman threatens teachers and pressures a school to teach only his own political opinions. How does the state obligation to protect apply?",
+      given: "A third party, a business firm, is interfering with the education of children.",
+      formula: "Principle: the obligation to protect requires the state to shield individuals from abuses by non-state actors.",
+      substitution: "The education of children must be protected from interference and indoctrination by third parties, including business firms.",
+      calculation: "Because the abuse comes from a non-state actor, the state must act preventatively and provide a remedy if the abuse continues.",
+      answer: "The state must prevent the interference by the businessman and provide impartial legal remedies, satisfying the obligation to protect."
+    },
+    {
+      problem: "In a rural woreda there is no primary school within walking distance, so many children stay at home. Which obligation is relevant, and what should the state do?",
+      given: "Children cannot enjoy the right to education because no school and no teachers are available.",
+      formula: "Principle: the obligation to fulfill requires positive action, creating the legal, institutional and procedural conditions for rights to be realized.",
+      substitution: "Building public schools and hiring and paying teachers are positive steps needed for free and compulsory primary education.",
+      calculation: "Because nothing prevents the right except missing provision, the state must act positively within its available resources.",
+      answer: "The obligation to fulfill applies; the state should set up schools and provide adequate teachers so that the children can exercise the right to education."
+    }
+  ],
+  commonMistakes: [
+    "Believing that rights can be claimed without any corresponding duty to others.",
+    "Thinking that only the state has obligations and citizens have none.",
+    "Confusing the obligation to respect, which means not interfering, with the obligation to fulfill, which means providing.",
+    "Assuming the obligation to protect only concerns the actions of state officials.",
+    "Ignoring the remedial side of the obligation to protect, so that victims have no impartial legal remedy.",
+    "Believing the obligation to fulfill is unlimited, when its extent depends on the right and the state's available resources.",
+    "Treating respect for gender or religious equality as a personal choice rather than a civic obligation."
+  ],
+  applications: [
+    "Respecting the rights of classmates of a different religion or ethnic group at school.",
+    "Preventing a friend from bullying a student with a disability instead of staying silent.",
+    "Reporting to the police a threat against a neighbour, so that the state can protect them.",
+    "Encouraging girls in your kebele to stay in school, supporting gender equality.",
+    "Writing to the woreda education office when children in your area have no classroom.",
+    "Standing and respecting the national flag during a school ceremony as a civic duty."
+  ],
+  summary: "Human rights create duties for citizens and obligations for the state. Citizens must respect religious equality, gender equality, the rights of others and the national flag, because their obligation arises from the rights they enjoy. The state has the prime duty to protect, promote and implement human rights through three obligations: to respect (not to interfere), to protect (to shield people from abuse by others) and to fulfill (to take positive action so that rights can be realized).",
+  visuals: [
+    {
+      type: "steps",
+      config: {
+        title: "The Three State Obligations",
+        steps: [
+          { label: "Obligation to respect", detail: "The state must not interfere with the enjoyment of rights, for example by excluding a student with a disability." },
+          { label: "Obligation to protect", detail: "The state must shield people from abuses by non-state actors and other agents, preventatively and remedially." },
+          { label: "Obligation to fulfill", detail: "The state must take positive action, creating legal, institutional and procedural conditions so rights can be realized." }
+        ]
+      }
+    },
+    {
+      type: "flowChart",
+      config: {
+        title: "Realizing the Right to Education",
+        nodes: [
+          { label: "The right", detail: "Children hold the right to education." },
+          { label: "Respect", detail: "The state does not exclude or obstruct learners." },
+          { label: "Protect", detail: "The state stops third parties who interfere or indoctrinate." },
+          { label: "Fulfill", detail: "The state builds schools and pays teachers." },
+          { label: "Enjoyment", detail: "Children actually learn and complete school." }
+        ]
+      }
+    },
+    {
+      type: "qa",
+      config: {
+        title: "Exam Quick-Check",
+        pairs: [
+          { q: "Name two obligations of citizens listed in the lesson.", a: "Any two of: respect for religious equality, respect for gender equality, respect for the rights of others, respect for the national flag." },
+          { q: "Which obligation means the state must not interfere with rights?", a: "The obligation to respect." },
+          { q: "Whom does the obligation to protect shield people from?", a: "Abuses by non-state actors, foreign state agents, or state agents acting outside their official capacity." },
+          { q: "What must the state provide for the right to education under the obligation to fulfill?", a: "Free and compulsory primary education, free secondary education, higher education, vocational and adult education, and literacy programmes." }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "According to the lesson, a person's obligation arises from:", options: ["The taxes they pay", "The right they enjoy", "The school they attend", "The region where they live"], answer: 1, difficulty: 1, explanation: "The lesson states that your obligation arises from the right you enjoy." },
+    { type: "mcq", q: "Which of the following is listed as an obligation of citizens for protecting human rights?", options: ["Respect for religious equality", "Respect for gender equality", "Respect for the national flag", "All of the above"], answer: 3, difficulty: 1, explanation: "The lesson lists respect for religious equality, gender equality, the rights of others and the national flag." },
+    { type: "tf", q: "Human rights involve responsibility and duty towards other people and the community.", answer: true, difficulty: 1, explanation: "This is stated at the start of the lesson." },
+    { type: "mcq", q: "The obligation that requires the state to refrain from interfering with the enjoyment of rights is the obligation to:", options: ["respect", "protect", "fulfill", "punish"], answer: 0, difficulty: 2, explanation: "The obligation to respect means the state must not interfere with the enjoyment of rights." },
+    { type: "mcq", q: "Which obligation requires states to protect individuals against abuses by non-state actors and foreign state agents?", options: ["The obligation to respect", "The obligation to protect", "The obligation to fulfill", "The obligation to tax"], answer: 1, difficulty: 2, explanation: "The obligation to protect concerns abuses by non-state actors, foreign state agents, or state agents acting outside official capacity." },
+    { type: "tf", q: "The obligation to protect entails both a preventative and a remedial dimension.", answer: true, difficulty: 2, explanation: "The lesson states that the obligation to protect has both dimensions." },
+    { type: "concept", q: "Give the state obligation that requires positive action so that human rights can be realized, including providing free and compulsory primary education.", answer: "obligation to fulfill|fulfill|obligation to fulfil", difficulty: 2, explanation: "The obligation to fulfill requires positive action to ensure rights can be realized." },
+    { type: "short", q: "Name one obligation of citizens mentioned in the lesson.", answer: "respect for religious equality|respect for gender equality|respect for the rights of others|respect for the national flag", difficulty: 1, explanation: "Any of the four citizen obligations listed in the lesson." },
+    { type: "concept", q: "Explain why the state must be aware of possible threats in order to meet the obligation to protect.", answer: "because the obligation to protect includes a preventative dimension|the state must act when it is aware or could have been aware of threats", difficulty: 3, explanation: "The preventative dimension obliges the state to act when it is aware, or could have been aware, of threats to human rights." },
+    { type: "mcq", q: "Under the obligation to fulfill, states should create which conditions that rights holders need?", options: ["Only military conditions", "Legal, institutional and procedural conditions", "Only conditions chosen by foreign states", "Conditions that limit all rights"], answer: 1, difficulty: 2, explanation: "States should create the legal, institutional and procedural conditions needed to realize rights in full." },
+    { type: "ordering", q: "Arrange the three state obligations in the order in which the lesson presents them.", options: ["Obligation to protect", "Obligation to respect", "Obligation to fulfill"], answer: 1, difficulty: 2, explanation: "The lesson presents respect first, then protect, then fulfill." }
+  ]
+};
+
+Lessons["g10-civics-uc6-t3"] = {
+  overview: "Rights need instruments that state them and institutions that enforce them. This lesson surveys the UDHR, the core international covenants, regional mechanisms, and the Ethiopian instruments founded on the FDRE Constitution and its human rights institutions.",
+  objectives: [
+    "Describe the Universal Declaration of Human Rights and its status",
+    "List the major international human rights conventions",
+    "Explain the purpose of regional human rights mechanisms",
+    "Describe the FDRE Constitution as the foundation of rights in Ethiopia",
+    "Name the national institutions that protect human rights in Ethiopia"
+  ],
+  simple: "Human rights are protected by instruments: legal documents and institutions that state and enforce them. The Universal Declaration of Human Rights was adopted by the UN General Assembly on 10 December 1948. It is not legally binding, but it defines human rights and fundamental freedoms and has been a foundation for later treaties. More than ten core international conventions followed, including the two 1966 Covenants on civil and political rights and on economic, social and cultural rights. Regional systems cover Africa, the Americas and Europe. In Ethiopia the foundation is the FDRE Constitution, ratified in 1994, which makes human rights inviolable and inalienable and requires institutions such as the Ethiopian Human Rights Commission, the office of the ombudsman and an independent judiciary.",
+  detailed: "<p><b>Why instruments matter.</b> Human rights are listed in different legal documents such as national constitutions and international conventions. A declaration or treaty names the right, and an institution such as a court or a commission makes sure the duty bearer respects it. Without instruments, a right is only an aspiration, because no one can point to a text or a body that requires the duty to be performed.</p><p><b>The Universal Declaration of Human Rights.</b> The Universal Declaration of Human Rights was adopted by resolution of the UN General Assembly on December 10, 1948. Although it is not a legally binding instrument, the Declaration was adopted for the purpose of defining the human rights and fundamental freedoms referenced in Article 55(c) of the UN Charter, which all UN member states are obligated to observe and respect. The Declaration has proven to be enduring and influential. Many UN member states have incorporated the principles set forth in the Declaration in their national constitutions, and these principles also provide a foundation for many of the core human rights treaties subsequently drafted under the auspices of the UN, as well as for regional treaties and national laws enacted to safeguard human rights.</p><p><b>International human rights conventions.</b> Besides the UN Charter and the UDHR, the UN presently has more than ten core treaty-based human rights instruments. These include the Convention on the Prevention and Punishment of the Crime of Genocide (1948), the Convention Relating to the Status of Refugees (1951), the Slavery Convention (1926, amended by a Protocol in 1953), the International Covenant on Civil and Political Rights (1966), the International Covenant on Economic, Social and Cultural Rights (1966), the Convention against Torture and Other Cruel, Inhuman or Degrading Treatment or Punishment (CAT), the International Convention on the Elimination of All Forms of Racial Discrimination (ICERD), the Convention on the Elimination of All Forms of Discrimination against Women (CEDAW), the Convention on the Rights of the Child (CRC), and the International Convention on the Protection of the Rights of All Migrant Workers and Members of their Families.</p><p><b>Regional mechanisms.</b> In addition to the international human rights regime functioning under the UN umbrella, there are regional human rights systems which cover three parts of the world: Africa, the Americas and Europe. The international and regional systems share the same aim, namely to make sure that state actors fulfil their obligations in promoting, protecting, providing and fulfilling human rights. Regional systems can respond to the particular history and culture of their regions, which is why they exist alongside the global system.</p><p><b>The Ethiopian foundation.</b> The foundation of the observance of human rights in Ethiopia is the FDRE Constitution, which was ratified in 1994. The Constitution is the supreme law of the land and the source and basis of legality of all other laws. The FDRE Constitution classifies human rights as one of its five fundamental principles and declares that human rights and freedoms, emanating from the nature of mankind, are inviolable and inalienable, and that the human rights of citizens and peoples are respected.</p><p><b>International law in the Ethiopian system.</b> The FDRE Constitution has established national human rights instruments by recognising most of the human rights entitlements acknowledged by the core international and regional human rights instruments. Further, Article 9(4) and Article 13 of the Constitution state that international agreements ratified by Ethiopia are an integral part of the law of the land, and that the fundamental rights and freedoms specified in the Constitution are to be interpreted in a manner conforming to the principles of the UDHR, the International Covenants on Human Rights and other international instruments adopted by Ethiopia. Ethiopian law therefore does not stand apart from the international system; it is tied to it.</p><p><b>National human rights institutions.</b> The Constitution has required the establishment of human rights and democratic institutions, including the national human rights commission, the general attorney office and the office of the ombudsman, together with an independent judiciary or courts equipped with the needed resources. The Ethiopian Human Rights Commission works to promote and protect human rights, the office of the ombudsman investigates maladministration that harms citizens, and the courts decide cases and provide remedies. Together these bodies turn the promises of the Constitution and the international instruments into protection that a citizen can actually use.</p>",
+  keyTerms: [
+    { term: "Universal Declaration of Human Rights (UDHR)", def: "The declaration adopted by the UN General Assembly on December 10, 1948, which defines human rights and fundamental freedoms; it is influential but not legally binding." },
+    { term: "Convention", def: "An agreement between states covering particular matters, especially one less formal than a treaty." },
+    { term: "Ratification", def: "The formal act by which a state accepts an international agreement and becomes bound by it." },
+    { term: "International Covenant on Civil and Political Rights (ICCPR)", def: "The 1966 treaty protecting civil and political rights such as life, liberty, fair trial and expression." },
+    { term: "International Covenant on Economic, Social and Cultural Rights (ICESCR)", def: "The 1966 treaty protecting economic, social and cultural rights such as work, social security and education." },
+    { term: "Regional human rights system", def: "A human rights mechanism covering a part of the world, such as Africa, the Americas or Europe." },
+    { term: "Ethiopian Human Rights Commission", def: "The national institution established to promote and protect human rights in Ethiopia." },
+    { term: "Office of the Ombudsman", def: "The national institution that investigates maladministration harming citizens and seeks remedies." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "A student says the UDHR cannot matter because it is not legally binding. Evaluate this claim using the lesson.",
+      given: "The Declaration was adopted on December 10, 1948 and is not a legally binding instrument.",
+      formula: "Principle: the UDHR defines human rights and fundamental freedoms referenced in Article 55(c) of the UN Charter, which member states must observe and respect.",
+      substitution: "Many states have incorporated its principles into their constitutions, and it is the foundation of later treaties.",
+      calculation: "Because its principles became binding through constitutions and treaties, its influence does not depend on binding force alone.",
+      answer: "The claim is weak. Although the UDHR is not legally binding, it is enduring and influential and forms the foundation of binding constitutions and treaties."
+    },
+    {
+      problem: "Ethiopia ratifies an international human rights covenant. Must an Ethiopian court apply it? Explain.",
+      given: "Article 9(4) of the FDRE Constitution deals with international agreements ratified by Ethiopia.",
+      formula: "Principle: international agreements ratified by Ethiopia are an integral part of the law of the land.",
+      substitution: "A ratified covenant therefore becomes part of Ethiopian law and guides interpretation under Article 13.",
+      calculation: "Since the agreement is part of the law of the land, the court can apply it and must interpret constitutional rights consistently with it.",
+      answer: "Yes. Ratified agreements are an integral part of the law of the land, and rights must be interpreted in conformity with the UDHR and the International Covenants."
+    },
+    {
+      problem: "A citizen's pension is delayed for two years with no explanation. Which national instrument can help, and how?",
+      given: "The problem is caused by maladministration in a public office, not by a criminal act.",
+      formula: "Principle: the Constitution requires human rights institutions including the office of the ombudsman and the courts.",
+      substitution: "Investigating maladministration that harms citizens is the task of the ombudsman, while the courts give binding remedies.",
+      calculation: "Because the harm comes from poor administration, the ombudsman can investigate, and the courts can order the payment if necessary.",
+      answer: "The office of the ombudsman can investigate the maladministration, and the courts can provide a binding legal remedy."
+    }
+  ],
+  commonMistakes: [
+    "Believing the UDHR is a legally binding treaty that directly binds every state.",
+    "Thinking the UDHR was adopted in 1950 rather than December 10, 1948.",
+    "Assuming international human rights law has nothing to do with Ethiopian law.",
+    "Confusing a convention with a declaration and treating them as having identical legal force.",
+    "Forgetting that regional human rights systems exist alongside the UN system.",
+    "Believing the FDRE Constitution is not the supreme law of the land.",
+    "Thinking courts are unnecessary once a human rights commission has been established."
+  ],
+  applications: [
+    "Celebrating Human Rights Day on December 10 and discussing the UDHR at school.",
+    "Reporting maladministration in a kebele office to the office of the ombudsman.",
+    "Asking the Ethiopian Human Rights Commission for help when a right is violated.",
+    "Supporting a campaign against child labour in line with the Convention on the Rights of the Child.",
+    "Taking part in a school club that teaches girls and boys about CEDAW and gender equality.",
+    "Using the courts to seek a remedy when an arrested person is denied a fair hearing."
+  ],
+  summary: "Human rights are protected by instruments and institutions. The UDHR, adopted on December 10, 1948, defines human rights though it is not legally binding, and more than ten core UN conventions followed, including the two 1966 Covenants, with regional systems covering Africa, the Americas and Europe. In Ethiopia the foundation is the FDRE Constitution, ratified in 1994, which makes ratified agreements part of the law of the land and requires institutions such as the Ethiopian Human Rights Commission, the office of the ombudsman and an independent judiciary.",
+  visuals: [
+    {
+      type: "timeline",
+      config: {
+        title: "Milestones in Human Rights Instruments",
+        events: [
+          { year: "1926", label: "Slavery Convention", detail: "Adopted and later amended by a Protocol in 1953." },
+          { year: "1948", label: "Genocide Convention and UDHR", detail: "The UDHR is adopted on December 10." },
+          { year: "1951", label: "Refugee Convention", detail: "Protects the status of refugees." },
+          { year: "1966", label: "Two International Covenants", detail: "Civil and political rights; economic, social and cultural rights." },
+          { year: "1994", label: "FDRE Constitution ratified", detail: "The supreme law of Ethiopia and foundation of rights observance." }
+        ]
+      }
+    },
+    {
+      type: "tableVisual",
+      config: {
+        title: "Core International Instruments",
+        headers: ["Instrument", "Focus"],
+        rows: [
+          ["UDHR (1948)", "Defines human rights and fundamental freedoms"],
+          ["ICCPR (1966)", "Civil and political rights"],
+          ["ICESCR (1966)", "Economic, social and cultural rights"],
+          ["CAT", "Prevents torture and degrading treatment"],
+          ["CEDAW", "Ends discrimination against women"],
+          ["CRC", "Protects the rights of the child"]
+        ]
+      }
+    },
+    {
+      type: "comparison",
+      config: {
+        title: "International vs Regional Mechanisms",
+        left: { name: "International (UN)", items: ["Global in scope", "UDHR and core conventions", "Open to all UN member states", "Reflects Article 55(c) of the Charter"] },
+        right: { name: "Regional", items: ["Covers Africa, the Americas and Europe", "Reflects regional history and culture", "Aims to make states fulfil their obligations", "Works alongside the UN system"] }
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "The Universal Declaration of Human Rights was adopted by the UN General Assembly on:", options: ["December 10, 1948", "December 10, 1950", "January 1, 1948", "December 10, 1966"], answer: 0, difficulty: 1, explanation: "The UDHR was adopted on December 10, 1948." },
+    { type: "tf", q: "The UDHR is a legally binding treaty that directly binds every state.", answer: false, difficulty: 2, explanation: "The UDHR is not a legally binding instrument, although it is highly influential." },
+    { type: "mcq", q: "Which article of the UN Charter refers to the human rights and fundamental freedoms that the UDHR was adopted to define?", options: ["Article 1", "Article 55(c)", "Article 13", "Article 10"], answer: 1, difficulty: 2, explanation: "The Declaration defined the rights referenced in Article 55(c) of the UN Charter." },
+    { type: "mcq", q: "Which of the following is a core international human rights instrument?", options: ["The Kyoto Protocol", "The Convention on the Rights of the Child", "A bilateral trade agreement", "A school code of conduct"], answer: 1, difficulty: 1, explanation: "The CRC is one of the core UN human rights instruments." },
+    { type: "short", q: "In which year was the FDRE Constitution ratified?", answer: "1994", difficulty: 1, explanation: "The FDRE Constitution was ratified in 1994." },
+    { type: "concept", q: "Give the article of the FDRE Constitution which states that human rights and freedoms, emanating from the nature of mankind, are inviolable and inalienable.", answer: "Article 10|10", difficulty: 2, explanation: "Article 10 articulates that human rights are inviolable and inalienable." },
+    { type: "mcq", q: "According to Articles 9(4) and 13 of the FDRE Constitution, international agreements ratified by Ethiopia are:", options: ["Only advisory opinions", "An integral part of the law of the land", "Applied only during emergencies", "Ignored by the courts"], answer: 1, difficulty: 2, explanation: "Ratified agreements are an integral part of the law of the land and guide interpretation of rights." },
+    { type: "concept", q: "Name the national institution established to promote and protect human rights in Ethiopia.", answer: "Ethiopian Human Rights Commission|national human rights commission|Human Rights Commission", difficulty: 2, explanation: "The Ethiopian Human Rights Commission is the national human rights institution." },
+    { type: "tf", q: "Regional human rights systems cover Africa, the Americas and Europe.", answer: true, difficulty: 1, explanation: "The regional human rights systems cover Africa, the Americas and Europe." },
+    { type: "concept", q: "Explain why the UDHR can be called a common standard even though it is not legally binding.", answer: "it defines human rights and fundamental freedoms|many states incorporated its principles into their constitutions|it is the foundation of later treaties", difficulty: 3, explanation: "The UDHR defines human rights and fundamental freedoms and became the foundation of constitutions and later treaties." },
+    { type: "ordering", q: "Arrange these instruments in the order in which they were adopted.", options: ["The International Covenants (1966)", "The Slavery Convention (1926)", "The Convention Relating to the Status of Refugees (1951)", "The Universal Declaration of Human Rights (1948)"], answer: 1, difficulty: 2, explanation: "The order is Slavery Convention 1926, UDHR 1948, Refugee Convention 1951, International Covenants 1966." }
+  ]
+};

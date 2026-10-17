@@ -11,8 +11,8 @@ const DATA = join(__dirname);
 const unitFiles = readdirSync(DIR).filter(f => f.endsWith('.json') && !f.endsWith('.test.json'));
 
 /* Subjects that ship curriculum structure before their lessons are authored.
-   Citizenship Education is added in Phase 1 as structure; lessons follow. */
-const STAGED_SUBJECTS = new Set<string>(['civics']);
+   Empty: every subject now has authored lessons. Kept generic for future staging. */
+const STAGED_SUBJECTS = new Set<string>([]);
 const subjectOf = (tid: string) => tid.split('-')[1];
 const unitOf = (tid: string) => tid.replace(/-t\d+$/, '');
 

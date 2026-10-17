@@ -1,0 +1,765 @@
+/* Content: Grade 10 Citizenship Education - Unit 1: Democracy and Democratization (6 topics)
+   Source: MoE Citizenship Education Grade 10 Student Textbook, Unit 1. */
+window.Lessons = window.Lessons || {};
+
+Lessons["g10-civics-uc1-t1"] = {
+  overview: "Democracy means rule by the people, and democratization is the long journey a country takes from authoritarian rule towards a more democratic political system. This lesson explains both ideas and why neither can be defined once and for all.",
+  objectives: [
+    "Explain why democracy has no single absolute definition",
+    "Trace the Greek origin of the word democracy from demos and kratos",
+    "State the dictionary definition of democracy",
+    "Define democratization as a long-term political process",
+    "Give examples of transitions that count as democratization"
+  ],
+  simple: "Democracy comes from two Greek words, demos meaning the people and kratos meaning rule. So democracy means rule by the people, either directly or through representatives they elect. There is no absolute definition of democracy, because the term is elastic: it expands and contracts with time, place and circumstances. Democracy carries the principles of equality, individual freedom and opportunity for ordinary people, and decisions are reached through compromise and bargaining. Democratization is different in kind: it is the complex, long-term, dynamic and open-ended process of moving a country towards a more democratic system. It may be a shift from authoritarian rule to full democracy, or only part of the way to semi-democracy. It takes time, rules and many actors, not a single election.",
+  detailed: "<p><b>No absolute definition.</b> There is no absolute definition of democracy. The term is elastic and expands and contracts according to the time, place and circumstances of its use. It is used to cover a wide range of political systems, some of which are old and experienced while others are relatively new and inexperienced.</p><p><b>The Greek origin.</b> The word democracy was derived from two Greek words: <i>demos</i>, meaning the people or common people, and <i>kratos</i>, meaning rule, that is the legitimate power to rule. Together they carry the idea of rule by the people or government by the people.</p><p><b>The dictionary definition.</b> The dictionary definition of the term entails that democracy is a state of government in which people hold the ruling power either directly or indirectly through their elected representatives. In a direct democracy citizens decide matters themselves; in an indirect or representative democracy they choose the people who decide for them.</p><p><b>The values inside the definition.</b> Democracy embraces the principles of equality, individual freedom and opportunity for the common people, as those who actually wield political power. The definition also entails that state power involves compromise and bargaining in the decision-making process of a democratic system, so no single voice simply dictates the outcome.</p><p><b>What democratization means.</b> Democratization is a complex, long-term, dynamic and open-ended process. It consists of progress towards a more rule-based, more consensual and more participatory type of politics. Defined in a more elaborate manner, it is the political process that moves the political system of a given country into democracy.</p><p><b>Transitions that count.</b> Democratization is the transition to a more democratic political regime, including substantive political changes moving in a democratic direction. It may be a transition from an authoritarian regime to a full democracy, from an authoritarian political system to a semi-democracy, or from a semi-authoritarian political system to a democratic political system. In short, it is the transition to a more democratic system of government.</p>",
+  keyTerms: [
+    { term: "Democracy", def: "A state of government in which the people hold the ruling power either directly or indirectly through their elected representatives; from the Greek demos (people) and kratos (rule)." },
+    { term: "Demos", def: "Greek word meaning the people or the common people." },
+    { term: "Kratos", def: "Greek word meaning rule, that is the legitimate power to rule." },
+    { term: "Democratization", def: "The complex, long-term, dynamic and open-ended process of moving the political system of a country into democracy." },
+    { term: "Authoritarian", def: "A political system characterized by the rejection of political plurality, the use of strong central power to preserve the political status quo, and reductions in the rule of law, separation of powers and democratic voting." },
+    { term: "Semi-democracy", def: "A political system that has moved part of the way from authoritarian rule but does not yet meet the full standards of democracy." },
+    { term: "Representative democracy", def: "A form of democracy in which citizens hold ruling power indirectly through representatives they elect." },
+    { term: "Compromise and bargaining", def: "The give and take through which decisions are reached in the decision-making process of a democratic system." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "A student argues that because Britain, India and Ethiopia all call themselves democratic, the word must have one fixed meaning. Analyse this claim.",
+      given: "Democracy is applied to political systems that differ in age, structure and experience.",
+      formula: "Principle: the term democracy is elastic and expands and contracts with time, place and circumstances.",
+      substitution: "The same label is used both for old and experienced systems and for relatively new and inexperienced ones.",
+      calculation: "Because the label covers a wide range of political systems, it cannot carry one absolute definition.",
+      answer: "The claim is wrong. There is no absolute definition; the meaning of democracy varies with time, place and circumstance."
+    },
+    {
+      problem: "Country X holds an election, after which the winning party jails its opponents and ignores court orders. Does holding the election make Country X a democracy?",
+      given: "An election takes place, but pluralism, the rule of law and individual freedoms are then suppressed.",
+      formula: "Principle: democracy embraces equality, individual freedom and opportunity, and means rule by the people directly or indirectly.",
+      substitution: "Jailing opponents and ignoring the courts removes equality and freedom and ends real rule by the people.",
+      calculation: "An election alone cannot satisfy the definition, so the country remains authoritarian rather than democratic.",
+      answer: "No. An election without freedom, equality and the rule of law is not democracy."
+    },
+    {
+      problem: "Country Y moves from a one-party authoritarian system to a system with competing parties, a freer press and regular elections. Name the process and classify the transition.",
+      given: "A country shifts from authoritarian rule towards competitive and participatory politics.",
+      formula: "Principle: democratization is the transition to a more democratic political regime, including substantive changes in a democratic direction.",
+      substitution: "Competing parties, a freer press and regular elections are substantive changes moving in a democratic direction.",
+      calculation: "The change matches a transition from an authoritarian system towards full democracy.",
+      answer: "The process is democratization, here a transition from authoritarian rule towards democracy."
+    },
+    {
+      problem: "A minister says democracy simply means that the majority gets whatever it wants. Which parts of the textbook definition are missed?",
+      given: "Only majority rule is mentioned; nothing is said about rights, equality or bargaining.",
+      formula: "Principle: democracy embraces equality, individual freedom and opportunity, and state power involves compromise and bargaining.",
+      substitution: "Deciding by majority alone ignores equality, individual freedom and the bargaining that democratic decisions require.",
+      calculation: "The statement is incomplete because it drops equality, individual freedom, opportunity and compromise.",
+      answer: "The definition also requires equality, individual freedom, opportunity and compromise, not majority rule alone."
+    }
+  ],
+  commonMistakes: [
+    "Believing democracy has one fixed, absolute definition that fits every country.",
+    "Thinking an election alone is enough to make a country democratic.",
+    "Confusing democracy, a form of government, with democratization, the process of reaching it.",
+    "Assuming that democratization can be completed overnight.",
+    "Forgetting that kratos means legitimate power to rule, not the mere use of force.",
+    "Treating compromise and bargaining as a weakness instead of a normal part of democratic decision making.",
+    "Believing a government is automatically democratic whenever it has the rule of law, even if it denies equality."
+  ],
+  applications: [
+    "Explaining to a family member why an election result alone does not make a country democratic.",
+    "Taking part in a class debate and accepting the decision of the majority while defending minority views.",
+    "Following news about political reform in Ethiopia and asking whether the change moves in a democratic direction.",
+    "Serving as a class representative chosen by a free and fair vote of classmates.",
+    "Joining a school club where decisions are made by discussion and compromise rather than by one person.",
+    "Judging leaders by whether they respect equality and individual freedom, not only by their speeches."
+  ],
+  summary: "There is no absolute definition of democracy: the word comes from demos (people) and kratos (rule) and means rule by the people, directly or through elected representatives, carrying the values of equality, individual freedom and opportunity. Democratization is the complex, long-term, dynamic and open-ended process of moving a country towards a more democratic system, whether from authoritarian rule to full democracy or only part of the way to semi-democracy.",
+  visuals: [
+    {
+      type: "comparison",
+      config: {
+        title: "Democracy vs Democratization",
+        left: { name: "Democracy", items: ["A form of government", "Rule by the people", "Direct or through representatives", "Judged by its values"] },
+        right: { name: "Democratization", items: ["A process of change", "Long-term and open-ended", "Moves towards democracy", "Judged by its direction"] }
+      }
+    },
+    {
+      type: "steps",
+      config: {
+        title: "From Authoritarian Rule Towards Democracy",
+        steps: [
+          { label: "Authoritarian rule", detail: "Pluralism is rejected and power is centralised." },
+          { label: "Semi-authoritarian system", detail: "Some openings appear but competition stays limited." },
+          { label: "Semi-democracy", detail: "Free elections and rights exist only in part." },
+          { label: "Full democracy", detail: "Real competition, equality under the law and freedoms." }
+        ]
+      }
+    },
+    {
+      type: "mindMap",
+      config: {
+        title: "What the Word Democracy Carries",
+        center: "Democracy",
+        branches: [
+          { label: "Origin", items: ["demos = people", "kratos = rule"] },
+          { label: "Meaning", items: ["Rule by the people", "Direct or indirect", "Through representatives"] },
+          { label: "Values", items: ["Equality", "Individual freedom", "Opportunity"] },
+          { label: "Style", items: ["Compromise", "Bargaining"] }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "The word democracy was derived from two Greek words meaning:", options: ["people and rule", "law and order", "power and wealth", "city and state"], answer: 0, difficulty: 1, explanation: "Demos means the people and kratos means rule." },
+    { type: "mcq", q: "Which statement best reflects the textbook position on defining democracy?", options: ["There is one absolute definition", "The term is elastic and changes with time, place and circumstance", "Only the dictionary definition counts", "Democracy means majority rule alone"], answer: 1, difficulty: 2, explanation: "The textbook says there is no absolute definition and the term is elastic." },
+    { type: "tf", q: "There is no absolute definition of democracy.", answer: true, difficulty: 1, explanation: "The lesson states clearly that there is no absolute definition." },
+    { type: "mcq", q: "The dictionary definition says that people hold ruling power:", options: ["only directly", "only indirectly", "either directly or indirectly through elected representatives", "only through the army"], answer: 2, difficulty: 2, explanation: "People hold the ruling power either directly or indirectly through elected representatives." },
+    { type: "short", q: "Name the two Greek words from which democracy is derived.", answer: "demos and kratos|demo and kratos", difficulty: 1, explanation: "Democracy comes from demos (people) and kratos (rule)." },
+    { type: "concept", q: "Give the term for the complex, long-term, dynamic and open-ended process of moving a political system into democracy.", answer: "democratization", difficulty: 2, explanation: "This is the definition of democratization." },
+    { type: "mcq", q: "Which of the following is an example of democratization?", options: ["A transition from authoritarian rule to a full democracy", "A government jailing its opponents", "One party banning all others", "Cancelling elections indefinitely"], answer: 0, difficulty: 2, explanation: "Democratization is a transition towards a more democratic regime." },
+    { type: "tf", q: "A transition from a semi-authoritarian political system to a democratic political system is a form of democratization.", answer: true, difficulty: 2, explanation: "The lesson lists this as one of the transitions that count as democratization." },
+    { type: "concept", q: "Explain in one sentence why state power in a democracy involves compromise and bargaining.", answer: "different interests must be balanced|decisions need agreement among differing views", difficulty: 3, explanation: "Many groups hold different interests, so democratic decisions require give and take." },
+    { type: "ordering", q: "Arrange these regimes from least democratic to most democratic.", options: ["Semi-democracy", "Authoritarian regime", "Full democracy", "Semi-authoritarian system"], answer: 1, difficulty: 2, explanation: "The order runs from authoritarian regime through semi-authoritarian system and semi-democracy to full democracy." },
+    { type: "mcq", q: "Democratization is best described as:", options: ["the study of elections", "the transition to a more democratic system of government", "a single election day", "a form of monarchy"], answer: 1, difficulty: 1, explanation: "Democratization is the transition to a more democratic system of government." }
+  ]
+};
+
+Lessons["g10-civics-uc1-t2"] = {
+  overview: "Democratization is built by many hands: political parties, civil society, interest groups and the media each push a country towards more participatory and rule-based politics. This lesson defines those actors and explains the special work each one does.",
+  objectives: [
+    "Define democratization as a transition in political regime",
+    "Explain why political parties are vectors of democracy",
+    "Describe the role of civil society organizations",
+    "Explain how interest groups bridge citizens and government",
+    "State why a free and independent media matters for democracy"
+  ],
+  simple: "Democratization is the transition to a more democratic political regime, and it does not happen overnight. It needs time and many actors. Political parties are vectors of democracy: they are the instruments through which power is attained by free, fair and transparent elections, and they also work out alternative programmes for government. Civil society organizations are non-governmental associations that raise consciousness, defend the legitimate interests of groups and protect individual and collective rights; their efficiency depends on how autonomous and institutionalized they are. Interest groups are autonomous bodies that try to influence government policy and act as transmission belts between people and government. The media, which reaches large numbers at once, gives citizens political training and builds democratic culture, but only if it is free, independent and well resourced.",
+  detailed: "<p><b>What democratization means.</b> Democratization is a complex, long-term, dynamic and open-ended process and the transition to a more democratic political regime, including substantive political changes moving in a democratic direction. It may run from an authoritarian regime to full democracy, from an authoritarian political system to a semi-democracy, or from a semi-authoritarian political system to a democratic political system. The glossary calls it a change in political regime within a sovereign state from non-democracy to democracy.</p><p><b>Actors are essential.</b> Democracy is a process which is not an overnight programme. It needs not only time but also different actors who involve themselves in building democracy and democratic culture. Political parties, civil societies, interest groups and the media are among the most important of these actors.</p><p><b>Political parties.</b> Political parties are vectors of democracy and are essential to its functioning and durability. They are not only the instruments through which power is attained by means of free, fair and transparent elections; they are also the settings for working out practical ideas and proposals which may constitute alternative programmes to the government.</p><p><b>Civil society.</b> Like political parties, non-governmental associations and organizations are valuable vectors of democracy. They differ from political parties only in their final goal, but they all contribute to consciousness raising, to the defence of the legitimate interests of groups of individuals, and to the protection of individual and collective rights and freedoms. The efficiency of the work of civil society depends on the extent to which such associations are autonomous or institutionalized. Civil society is understood as the third sector of society, distinct from government and business, and including the family and the private sphere.</p><p><b>Interest groups.</b> Interest groups are organizations or groups of people which are autonomous from government or political parties and whose objective is to influence government. In democracies we find several interest groups attempting to promote and influence the policies of government. They are regarded as essential transmission belts between people and government, and they bridge the gap between the citizen and government by helping people interact with a government that is often remote and difficult for an individual to influence. Through interest groups, citizens communicate their wants on policy goals to government leaders.</p><p><b>The media.</b> Freedom of the media is essential in a democracy. Media refers to an institution and to the methods of communication which can reach a large number of people at the same time, and it includes newspapers, television, radio, books, posters, magazines and cinema. The media plays a role in the political training of citizens and in building democratic culture, but to perform those functions it must be free and independent and must have sufficient material and human resources to deal with all the important problems of society. The importance of the mass media in a country is not dependent on the number of newspapers or private radio and television stations but on the quality of the information provided to the public.</p><p><b>Citizens act directly too.</b> Protesting, which is a strong complaint expressing disagreement, disapproval or opposition, is one way in which people make their views heard, and freedom of association allows them to organize around shared concerns. Together with parties, civil society, interest groups and the media, these actions keep democratization moving forward.</p>",
+  keyTerms: [
+    { term: "Democratization", def: "A change in political regime within a sovereign state from non-democracy to democracy; a long-term process of moving towards more rule-based, consensual and participatory politics." },
+    { term: "Political party", def: "An organized group of individuals who share the same political ideologies, beliefs and interests and who seek to win elections and control state power and the machinery of government; a vector of democracy." },
+    { term: "Civil society", def: "Non-governmental associations and organizations, the third sector of society distinct from government and business, that raise consciousness, defend legitimate group interests and protect individual and collective rights and freedoms." },
+    { term: "Interest group", def: "An organization or group of people, autonomous from government or political parties, whose objective is to influence government policy on the basis of a common interest or concern; also called a pressure group." },
+    { term: "Pressure group", def: "An organized body of people seeking to influence government policy and to promote the interests of its members; another name for an interest group." },
+    { term: "Media", def: "An institution and the methods of communication which can reach large numbers of people at the same time, such as newspapers, television, radio, books, posters, magazines and cinema." },
+    { term: "Vector of democracy", def: "A carrier or driver of democracy, such as political parties, civil society organizations and interest groups." },
+    { term: "Protesting", def: "A strong complaint expressing disagreement, disapproval or opposition." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "A new political party wins an election in a country that has no civil society organizations and only a state-owned press. Using the actors of democratization, explain the weakness.",
+      given: "Only one type of actor is strongly present; civil society and an independent media are missing.",
+      formula: "Principle: democratization is not an overnight programme and needs several actors, including parties, civil society, interest groups and a free media.",
+      substitution: "With parties present but civil society and independent media absent, the actor base is thin.",
+      calculation: "Because democratization depends on many actors working over time, a single actor cannot carry it alone.",
+      answer: "The country lacks civil society, interest groups and independent media, so its democratization remains fragile."
+    },
+    {
+      problem: "A farmers' cooperative writes to the Ministry of Agriculture asking for a change in the fertiliser subsidy rule. Which actor is this and what role is it playing?",
+      given: "An autonomous group of farmers tries to influence government policy on a shared interest.",
+      formula: "Principle: interest groups are essential transmission belts between people and government.",
+      substitution: "The cooperative speaks for its members to an official body.",
+      calculation: "Speaking for members to government matches the definition and role of an interest group.",
+      answer: "It is an interest group acting as a transmission belt between citizens and government."
+    },
+    {
+      problem: "A radio station is funded by the ruling party and reports only good news about it. Judge this against the textbook view of the media.",
+      given: "The outlet is not independent and does not give balanced information to the public.",
+      formula: "Principle: to build democratic culture the media must be free and independent and must provide quality information to the public.",
+      substitution: "Dependence on one party and one-sided reporting fail that standard.",
+      calculation: "The station cannot perform the political training of citizens or build democratic culture, so it weakens democracy.",
+      answer: "It fails the standard: a media that is not free and independent cannot build democratic culture."
+    },
+    {
+      problem: "Two parties disagree strongly about the national budget and finally reach a shared plan. Explain how this supports democratization.",
+      given: "Competing parties hold different programmes and must agree on one budget.",
+      formula: "Principle: parties work out practical ideas and alternative programmes, and democratic state power involves compromise and bargaining.",
+      substitution: "Negotiating the budget turns open disagreement into a shared decision.",
+      calculation: "Bargaining produces a workable policy and keeps political competition peaceful and rule based.",
+      answer: "Bargaining between parties converts conflict into peaceful, rule-based decisions."
+    }
+  ],
+  commonMistakes: [
+    "Believing that democratization can be completed overnight.",
+    "Thinking one election or one party is enough to complete democratization.",
+    "Confusing interest groups with political parties: interest groups influence policy but do not seek to govern.",
+    "Assuming civil society is effective no matter how dependent it is on government.",
+    "Judging the media by the number of outlets rather than by the quality of information it provides.",
+    "Believing an interest group serves only its own members and never the wider public.",
+    "Treating a political party as a private club rather than an instrument for winning power in free and fair elections."
+  ],
+  applications: [
+    "Forming a student council group with a clear programme and campaigning for votes fairly.",
+    "Taking part in a school environmental club that writes to the kebele about a waste problem.",
+    "Using a community radio station or school notice board to share balanced and accurate information.",
+    "Signing a peaceful petition about a broken water pump instead of damaging property.",
+    "Attending a public meeting and asking officials questions on behalf of your community.",
+    "Supporting an idir or women's association that defends the interests of its members."
+  ],
+  summary: "Democratization is the long-term transition of a country towards a more democratic political regime, and it requires many actors working over time. Political parties win power through free and fair elections and build alternative programmes, civil society raises consciousness and defends rights, interest groups act as transmission belts linking citizens to government, and a free, independent and well-resourced media trains citizens and builds democratic culture.",
+  visuals: [
+    {
+      type: "mindMap",
+      config: {
+        title: "Actors of the Democratization Process",
+        center: "Actors",
+        branches: [
+          { label: "Political parties", items: ["Vectors of democracy", "Win elections", "Offer alternative programmes"] },
+          { label: "Civil society", items: ["Raise consciousness", "Defend rights", "Must be autonomous"] },
+          { label: "Interest groups", items: ["Influence policy", "Bridge citizens and state", "Act as watchdogs"] },
+          { label: "Media", items: ["Political training", "Build democratic culture", "Must be free and independent"] }
+        ]
+      }
+    },
+    {
+      type: "tableVisual",
+      config: {
+        title: "Actor, Main Role, Example",
+        headers: ["Actor", "Main role", "Example"],
+        rows: [
+          ["Political party", "Contest elections and govern", "A party campaigning on a manifesto"],
+          ["Civil society", "Raise awareness and defend rights", "A women's association"],
+          ["Interest group", "Influence policy for members", "A farmers' cooperative"],
+          ["Media", "Inform and educate citizens", "A community radio station"]
+        ]
+      }
+    },
+    {
+      type: "steps",
+      config: {
+        title: "How an Interest Group Reaches Government",
+        steps: [
+          { label: "Members meet", detail: "People with a shared concern organize themselves." },
+          { label: "Form a group", detail: "The group stays autonomous from government and parties." },
+          { label: "Agree demands", detail: "Members state the policy change they want." },
+          { label: "Contact officials", detail: "The group communicates the wants of citizens to leaders." },
+          { label: "Follow up", detail: "The group keeps acting as a watchdog over the policy." }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "Political parties are described in the lesson as:", options: ["vectors of democracy", "enemies of democracy", "only social clubs", "units of the army"], answer: 0, difficulty: 1, explanation: "The textbook calls political parties vectors of democracy." },
+    { type: "tf", q: "Political parties are essential to the functioning and durability of democracy.", answer: true, difficulty: 1, explanation: "The lesson states that parties are essential to the functioning and durability of democracy." },
+    { type: "mcq", q: "The main difference between political parties and civil society organizations is that:", options: ["civil society cannot exist in a democracy", "they differ in their final goal", "parties are illegal in democracies", "civil society seeks to win elections"], answer: 1, difficulty: 2, explanation: "Like parties they are vectors of democracy, but they differ from parties in their final goal." },
+    { type: "short", q: "Give the other name used in the lesson for an interest group.", answer: "pressure group", difficulty: 1, explanation: "A pressure group is also called an interest group." },
+    { type: "mcq", q: "Interest groups are called transmission belts because they:", options: ["replace the government", "bridge the gap between citizens and government", "collect taxes", "run elections"], answer: 1, difficulty: 2, explanation: "Interest groups bridge the gap between the citizen and government." },
+    { type: "concept", q: "Give the name of the third sector of society that is distinct from government and business.", answer: "civil society", difficulty: 2, explanation: "Civil society is understood as the third sector of society." },
+    { type: "mcq", q: "The importance of the mass media in a country depends on:", options: ["the number of newspapers", "the number of private radio stations", "the quality of the information provided to the public", "the size of the buildings"], answer: 2, difficulty: 3, explanation: "The textbook says importance depends on the quality of information, not on the number of outlets." },
+    { type: "tf", q: "The media can build democratic culture only when it is free, independent and well resourced.", answer: true, difficulty: 2, explanation: "To perform its functions the media must be free, independent and sufficiently resourced." },
+    { type: "mcq", q: "Which of the following is an interest group rather than a political party?", options: ["A party that contests national elections", "A traders' association that lobbies for lower tariffs", "A ministry of trade", "A court of law"], answer: 1, difficulty: 2, explanation: "An association that seeks to influence policy without seeking to govern is an interest group." },
+    { type: "concept", q: "Explain in one sentence why the efficiency of civil society depends on its autonomy.", answer: "dependent groups cannot freely defend rights|autonomy lets them act independently of government", difficulty: 3, explanation: "The efficiency of civil society depends on the extent to which associations are autonomous or institutionalized." },
+    { type: "ordering", q: "Arrange the steps by which an interest group influences policy.", options: ["Contact officials with the demand", "Members with a shared concern organize", "Keep watch over the policy", "State the policy change wanted"], answer: 1, difficulty: 2, explanation: "The order is: members organize, state demands, contact officials, then keep watch over the policy." }
+  ]
+};
+
+Lessons["g10-civics-uc1-t3"] = {
+  overview: "Democracy survives only where its institutions are strong. This lesson defines democratic institutions, explains why equality under the law is their test, and describes the functions of electoral commissions, political parties and pressure groups.",
+  objectives: [
+    "Define democratic institutions and explain why they matter",
+    "Explain why equality under the law is the test of a democratic institution",
+    "List the functions of an independent national electoral commission",
+    "Describe the functions of political parties",
+    "Explain the functions of pressure groups as watchdogs"
+  ],
+  simple: "Democratic institutions are the bodies that make democracy work. They must serve the entire population with equality under the law. Autocratic and oligarchic governments might have the rule of law but do not qualify for democracy because they fail to ensure equality for everyone. When institutions are strong they are respected, hard to manipulate and enable the honest to survive. The main institutions are the independent national electoral commission, political parties and pressure groups. The electoral commission organizes and supervises elections: it registers voters and parties, delimits constituencies, fixes election dates, provides officers and materials, secures polling stations and educates the electorate. Political parties contest elections and run government, unite people across ethnic and religious groups, educate the public and keep the party in power accountable. Pressure groups, also called interest groups, advise government and act as watchdogs over public policies.",
+  detailed: "<p><b>Why democratic institutions matter.</b> Democratic institutions are important to develop and protect democracy. These institutions must serve the entire population of a country with equality under the law.</p><p><b>The test of equality.</b> Autocratic and oligarchic governments might have the rule of law but do not qualify for democracy because they fail to fully ensure equality under the law. If democratic institutions are strong, they are respected and it becomes difficult to manipulate them. They enable the honest to survive.</p><p><b>What democratic institutions are.</b> Democratic institutions are institutions that facilitate and promote the operations of democracy; they are the institutions that make democracy work. Among them are the independent national electoral commission, political parties and pressure groups. The independent national electoral commission is a corporate body charged with the responsibility of organizing, conducting and supervising elections into electoral offices in the country.</p><p><b>Functions of the electoral commission.</b> The commission conducts elections; conducts referendums and plebiscites; registers voters; delimits constituencies, that is divides the country into constituencies; registers political parties and monitors the organization and operation of political parties and campaigns; provides electoral officers and materials; fixes the date of election; provides security at the polling stations; and educates the electorate.</p><p><b>Functions of political parties.</b> Parties serve as a forum for national unity and mutual understanding, which is possible because they bring together people from different ethnic and religious groups. They educate members and the general public, serve as machinery for recruitment or appointment, act as a link between the people and the government, ensure political stability, allow the harmonization of sectional and diversified interests, provide social amenities and infrastructure, help to sensitize the electorate on crucial national issues, governmental policies and programmes, and ensure that the party in power is accountable to the electorate through constructive criticism.</p><p><b>Functions of pressure groups.</b> A pressure group is an organized body of people seeking to influence government policy and to promote the interests of its members, and it is also called an interest group. It offers useful pieces of advice and suggestions, helps to promote economic stability, provides and promotes certain general welfare services to the public, educates members and the public on national issues and fundamental human rights, acts as a link between the people and the government, acts as a watchdog over public policies, supports candidates and political parties to win elections, and acts as a manpower bank from which government can draw experts to serve.</p><p><b>Strong institutions protect honesty.</b> When institutions are respected they cannot easily be manipulated, so a citizen or an official who follows the rules is protected while the dishonest find it harder to succeed. Institutionalizing democracy therefore means building rules, bodies and habits that outlast any single leader.</p>",
+  keyTerms: [
+    { term: "Democratic institution", def: "An institution that facilitates and promotes the operations of democracy; one of the bodies that make democracy work." },
+    { term: "Independent national electoral commission", def: "A corporate body charged with the responsibility of organizing, conducting and supervising elections into electoral offices in the country." },
+    { term: "Political party", def: "An organized group of individuals who share the same political ideologies, beliefs and interests and who seek to win elections and control state power and the machinery of government." },
+    { term: "Pressure group", def: "An organized body of people seeking to influence government policy and to promote the interests of its members; also called an interest group." },
+    { term: "Equality under the law", def: "The requirement that institutions serve the entire population of a country and treat all citizens equally before the law." },
+    { term: "Delimitation of constituency", def: "The division of the country into constituencies for electoral purposes, a function of the electoral commission." },
+    { term: "Referendum and plebiscite", def: "Direct votes of the people on a question, organized and conducted by the electoral commission." },
+    { term: "Watchdog", def: "A body that monitors public policies and holds government to account, a role played by pressure groups." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "A country holds elections run by an office whose head is appointed by and answers to the ruling party. Analyse this using the idea of a democratic institution.",
+      given: "The body that organizes elections is not independent of one political party.",
+      formula: "Principle: an independent national electoral commission organizes, conducts and supervises elections into electoral offices in the country.",
+      substitution: "An office under one party cannot supervise that party's elections impartially.",
+      calculation: "Without independence the commission cannot guarantee equality under the law, so the institution fails the democratic test.",
+      answer: "The electoral body is not independent and therefore is not a proper democratic institution."
+    },
+    {
+      problem: "An election is delayed, polling stations receive no materials and many voters are not registered. Which institution failed and which functions were missed?",
+      given: "Three separate duties of the electoral commission were not performed.",
+      formula: "Principle: the commission registers voters, fixes the date of election and provides electoral officers and materials.",
+      substitution: "No register, no fixed date and no materials are each a missing function.",
+      calculation: "All three failures belong to the electoral commission, so it did not make democracy work.",
+      answer: "The independent national electoral commission failed: it must register voters, fix dates and supply materials."
+    },
+    {
+      problem: "Two ethnic groups in one district distrust each other. A new party recruits members from both and campaigns on shared development. Which function of parties is shown?",
+      given: "A party brings together people from different ethnic and religious groups.",
+      formula: "Principle: parties serve as a forum for national unity and mutual understanding.",
+      substitution: "Membership across ethnic lines and a common programme match that function.",
+      calculation: "The party is building mutual understanding, so it strengthens democracy.",
+      answer: "The party is performing its function as a forum for national unity and mutual understanding."
+    },
+    {
+      problem: "A government announces a new education policy. A teachers' association studies it and publishes a critical review. Which institution is acting and in what role?",
+      given: "An organized body of members comments publicly on government policy.",
+      formula: "Principle: pressure groups act as a watchdog over public policies and offer useful advice and suggestions.",
+      substitution: "Reviewing and criticizing the policy is monitoring public policy.",
+      calculation: "The association both protects its members' interests and holds policy to account.",
+      answer: "It is a pressure group acting as a watchdog and offering advice on public policy."
+    }
+  ],
+  commonMistakes: [
+    "Believing any government with the rule of law is democratic, even when it denies equality under the law.",
+    "Thinking an electoral commission can be fair while it is controlled by the ruling party.",
+    "Confusing the roles of political parties and pressure groups.",
+    "Assuming that election day is the whole work of the electoral commission.",
+    "Thinking parties exist only to win elections and not also to educate, unite and hold power accountable.",
+    "Believing weak institutions can be ignored because individual leaders happen to be trustworthy.",
+    "Forgetting that a pressure group may serve the wider public, not only its own members."
+  ],
+  applications: [
+    "Insisting that a school council election be run by an independent committee rather than by the candidates.",
+    "Checking the voters' register or reminding family members to register before an election.",
+    "Attending a candidate debate and asking about education and health policies.",
+    "Supporting a community association that comments on a proposed kebele regulation.",
+    "Reading a party manifesto and judging whether it unites people or divides them.",
+    "Reporting the improper use of public property during an election campaign to the proper body."
+  ],
+  summary: "Democratic institutions are the bodies that make democracy work, and they must serve the whole population with equality under the law; a government may have the rule of law and still fail that test. The main institutions are the independent national electoral commission, which organizes and supervises elections, political parties, which contest power, unite people and hold government accountable, and pressure groups, which influence policy and act as watchdogs over public policy. Strong institutions are respected, hard to manipulate and protect honest citizens.",
+  visuals: [
+    {
+      type: "tableVisual",
+      config: {
+        title: "Democratic Institutions and Their Functions",
+        headers: ["Institution", "Main functions"],
+        rows: [
+          ["Independent national electoral commission", "Conducts elections, registers voters and parties, delimits constituencies, educates the electorate"],
+          ["Political parties", "Contest elections, unite people, educate the public, hold power accountable"],
+          ["Pressure groups", "Influence policy, advise government, act as watchdogs over public policy"]
+        ]
+      }
+    },
+    {
+      type: "steps",
+      config: {
+        title: "Election Tasks of the Electoral Commission",
+        steps: [
+          { label: "Register voters", detail: "Build a list of those entitled to vote." },
+          { label: "Register parties", detail: "Register parties and monitor their organization and campaigns." },
+          { label: "Delimit constituencies", detail: "Divide the country into constituencies." },
+          { label: "Fix the date", detail: "Set the date on which the election is held." },
+          { label: "Provide officers and materials", detail: "Supply staff, ballots and equipment to polling stations." },
+          { label: "Educate the electorate", detail: "Teach voters how and why to take part." }
+        ]
+      }
+    },
+    {
+      type: "mindMap",
+      config: {
+        title: "What Makes an Institution Democratic",
+        center: "Democratic institution",
+        branches: [
+          { label: "Equality under the law", items: ["Serves the whole population", "No privileged group"] },
+          { label: "Respect", items: ["Strong rules are respected", "Hard to manipulate"] },
+          { label: "Protection", items: ["Enables the honest to survive"] },
+          { label: "Functions", items: ["Elections", "Representation", "Policy influence"] }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "Democratic institutions are important because they:", options: ["make democracy work", "replace the constitution", "remove the need for elections", "serve only the ruling party"], answer: 0, difficulty: 1, explanation: "Democratic institutions are the institutions that make democracy work." },
+    { type: "tf", q: "Autocratic and oligarchic governments might have the rule of law but do not qualify as democracies.", answer: true, difficulty: 1, explanation: "They fail to fully ensure equality under the law." },
+    { type: "mcq", q: "Which of the following is NOT a function of the independent national electoral commission?", options: ["Registering voters", "Delimiting constituencies", "Fixing the date of election", "Making foreign policy"], answer: 3, difficulty: 2, explanation: "Foreign policy is a government function, not a function of the electoral commission." },
+    { type: "short", q: "Name the body charged with organizing, conducting and supervising elections in a country.", answer: "independent national electoral commission|INEC", difficulty: 1, explanation: "This is the independent national electoral commission." },
+    { type: "mcq", q: "Which body registers political parties and monitors their campaigns?", options: ["The political parties themselves", "The independent national electoral commission", "Pressure groups", "The media"], answer: 1, difficulty: 2, explanation: "Registering parties and monitoring their organization and campaigns is a function of the electoral commission." },
+    { type: "concept", q: "Give the other name for a pressure group.", answer: "interest group", difficulty: 2, explanation: "A pressure group is also called an interest group." },
+    { type: "mcq", q: "A pressure group that examines public policies and reports on them is acting as:", options: ["a watchdog", "a court", "an electoral commission", "a political party"], answer: 0, difficulty: 2, explanation: "Acting as a watchdog over public policies is a listed function of pressure groups." },
+    { type: "tf", q: "Strong democratic institutions are difficult to manipulate and enable the honest to survive.", answer: true, difficulty: 2, explanation: "The lesson says strong institutions are respected, hard to manipulate and enable the honest to survive." },
+    { type: "mcq", q: "Which statement best explains why a one-party system is not a principle of a democratic system?", options: ["It reduces political competition and accountability", "It always holds elections", "It educates the public", "It recruits members"], answer: 0, difficulty: 3, explanation: "Democracy requires competition and accountability, which a one-party system removes." },
+    { type: "concept", q: "Explain in one sentence why equality under the law is the test that separates democratic from autocratic institutions.", answer: "autocracies may follow law but deny equality|democracy requires serving all equally", difficulty: 3, explanation: "Autocratic and oligarchic governments may have the rule of law but fail to ensure equality for all." },
+    { type: "ordering", q: "Arrange these electoral tasks in the correct order.", options: ["Provide electoral officers and materials", "Educate the electorate", "Fix the date of election", "Conduct the election"], answer: 1, difficulty: 2, explanation: "The electorate is educated first, then the date is fixed, then officers and materials are provided, and finally the election is conducted." }
+  ]
+};
+
+Lessons["g10-civics-uc1-t4"] = {
+  overview: "Social transformation reshapes how people live, from the economy and culture to the way we think, and democracy is one of its strongest drivers. This lesson defines social transformation and explains five ways it is manifested: social change, civic engagement, civic dialogue, social capital and community development.",
+  objectives: [
+    "Define social transformation and distinguish its individual and societal senses",
+    "Describe social change and explain why it starts with the individual",
+    "Explain civic engagement and its defining characteristic",
+    "Describe civic dialogue and the value of suspending judgment",
+    "Explain social capital and community development"
+  ],
+  simple: "Social transformation is the process by which an individual alters the social status ascribed by his or her parents into a status that he or she achieves personally. It also means large-scale social change, such as cultural reform. The first sense applies to an individual and the second to the social system. Social transformation restructures all aspects of life: from culture to social relations, from politics to economy, from the way we think to the way we live. For most of human history the pace of change was very slow. Democracy speeds it up through social change, civic engagement, civic dialogue, social capital and community development. Each of these grows out of citizens who participate, talk, trust and organize.",
+  detailed: "<p><b>Two meanings of social transformation.</b> Social transformation is the process by which an individual alters the socially ascribed social status of his or her parents into a socially achieved status for himself or herself, which is called status transformation. Another definition refers to large-scale social change, as in cultural reforms or transformations, which is called societal transformation. The first applies to an individual, while the second applies to the social system.</p><p><b>The breadth of transformation.</b> Social transformation is also the restructuring of all aspects of life: from culture to social relations, from politics to economy, from the way we think to the way we live. Through time, societies have transformed from small associations of individuals tied together by instinct, need and fear, to small communities tied together by circumstances, kinship, traditions and religious beliefs, to nations tied together by history, politics, ideology, culture and laws.</p><p><b>A slow historical pace.</b> For most of human history the pace of change was very slow; no transformations in life conditions could be felt for several generations. Democracy can play a significant role in social transformation, and the process may be manifested in the ways described below.</p><p><b>Social change.</b> Social change encompasses a range of typical social and civic outcomes, from increased awareness and understanding, to attitudinal change, increased civic participation and the building of public will, to policy change that corrects injustice. It acknowledges that social change must start with the individual.</p><p><b>Civic engagement and civic dialogue.</b> Civic engagement refers to the many ways in which people participate in civic, community and political life and, by doing so, express their engaged citizenship. It ranges from proactively becoming better informed to participating in public dialogue on issues, from volunteering to voting and from community organizing to political advocacy. Its defining characteristic is commitment to participate in and contribute to the improvement of one's community, neighbourhood and nation, and it may be either a measure or a means of social change. Civic dialogue is dialogue in which people explore matters of civic importance and consider the dimensions of a civic or social issue, policy or decision of consequence to their lives, communities and society. It is a form of civic engagement and is sometimes considered an important end in itself: two or more parties with differing viewpoints work toward common understanding in an open-ended, most often face-to-face format, multiple and possibly conflicting perspectives are included rather than promoting a single point of view, empathy and understanding are promoted, assumptions are brought out into the open, and suspension of judgment is encouraged in order to foster understanding and break down obstacles.</p><p><b>Social capital and community development.</b> Social capital is the collective value of all social networks, that is who people know, and the inclinations to do things for each other that arise from these networks; the specific benefits that flow from them include trust, reciprocity, information and cooperation. Bonding networks connect people who are similar and sustain particularized in-group reciprocity, while bridging networks connect individuals who are diverse and sustain generalized reciprocity. Community development considers the economic, social and physical dimensions of a community. Agencies often focus on ensuring low and mixed-income housing, job training or workforce development, commercial real estate development and small business start-up, and broader definitions also aim to advance youth development, health, recreation, human services and cultural goals. Community development seeks to empower individuals and groups of people by providing them with the skills and resources they need to effect change in their own communities.</p>",
+  keyTerms: [
+    { term: "Social transformation", def: "The process by which an individual alters the socially ascribed social status of his or her parents into an achieved status, and also large-scale social change affecting the social system." },
+    { term: "Status transformation", def: "The individual sense of social transformation, in which a person moves from an ascribed status to a status he or she achieves." },
+    { term: "Societal transformation", def: "The system sense of social transformation: large-scale social change such as cultural reforms." },
+    { term: "Social change", def: "A range of social and civic outcomes, from increased awareness and attitudinal change to civic participation and policy change that corrects injustice." },
+    { term: "Civic engagement", def: "The many ways in which people participate in civic, community and political life and thereby express their engaged citizenship." },
+    { term: "Civic dialogue", def: "Dialogue in which people explore matters of civic importance, with differing viewpoints working toward common understanding." },
+    { term: "Social capital", def: "The collective value of all social networks and the inclinations to do things for each other that arise from those networks." },
+    { term: "Community development", def: "Work that considers the economic, social and physical dimensions of a community and empowers people with the skills and resources to change it." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "Amina's parents are poor farmers with no formal education. She completes university, becomes an engineer and changes the standing of her family. Which sense of social transformation is this?",
+      given: "An individual moves from an ascribed status towards an achieved one.",
+      formula: "Principle: status transformation is the individual sense of social transformation.",
+      substitution: "Amina's own education changed her social position rather than the structure of the whole society.",
+      calculation: "The change happened to one person, so it is status transformation.",
+      answer: "Status transformation, the individual sense of social transformation."
+    },
+    {
+      problem: "A town begins a monthly public meeting where residents and officials discuss a water shortage. Which dimensions of transformation are at work?",
+      given: "Citizens explore a matter of civic importance and work toward common understanding.",
+      formula: "Principle: civic dialogue is a form of civic engagement in which differing viewpoints seek common understanding.",
+      substitution: "The monthly meeting includes different views and aims at shared solutions.",
+      calculation: "The meeting matches civic dialogue and civic engagement and may lead on to policy change.",
+      answer: "Civic dialogue, a form of civic engagement, with social change as a possible outcome."
+    },
+    {
+      problem: "Neighbours who know and trust one another finish a school fence in one season, while a nearby kebele with no such networks fails to finish the same work. Explain using social capital.",
+      given: "One community has dense networks built on trust and reciprocity; the other does not.",
+      formula: "Principle: social capital is the collective value of social networks and produces trust, reciprocity, information and cooperation.",
+      substitution: "The first kebele draws on trust and mutual help; the second has no such reserves.",
+      calculation: "Because social capital lowers the cost of cooperation, the community with networks completes the work.",
+      answer: "The first kebele benefits from social capital, while the second lacks it and therefore cooperates poorly."
+    },
+    {
+      problem: "A district builds low-cost housing and offers job training and small business loans. Which dimension of transformation is this and what is its purpose?",
+      given: "The economic, social and physical dimensions of a community are addressed together.",
+      formula: "Principle: community development empowers individuals and groups with the skills and resources to effect change in their own communities.",
+      substitution: "Housing, training and credit give residents both resources and skills.",
+      calculation: "The programme matches the goals of community development agencies and aims at empowerment.",
+      answer: "Community development, which empowers residents to change their own community."
+    }
+  ],
+  commonMistakes: [
+    "Confusing the individual sense of social transformation with the societal sense.",
+    "Thinking social transformation happens only through government policy.",
+    "Believing civic engagement means voting only and nothing else.",
+    "Treating civic dialogue as a debate that must produce a winner.",
+    "Assuming social capital is money rather than networks of trust and mutual help.",
+    "Thinking community development is only about buildings and not about skills and empowerment.",
+    "Expecting transformation to be quick, ignoring how slow change was for most of human history."
+  ],
+  applications: [
+    "Attending a kebele meeting and speaking about a local problem.",
+    "Joining a youth volunteer group that cleans and plants trees in the neighbourhood.",
+    "Taking part in a face-to-face dialogue between students and school management.",
+    "Using an idir or iqub network to help a family that is in difficulty.",
+    "Voting in school and national elections as an act of civic engagement.",
+    "Teaching a family member to read or supporting a community job-training programme."
+  ],
+  summary: "Social transformation is both the change of an individual from an inherited status to an achieved one and large-scale change in the whole social system, and it reshapes culture, politics, the economy and daily life. Democracy supports it through social change that starts with the individual, civic engagement, civic dialogue in which differing views seek common understanding, social capital built on trust and networks, and community development that empowers people with skills and resources.",
+  visuals: [
+    {
+      type: "mindMap",
+      config: {
+        title: "How Democracy Drives Social Transformation",
+        center: "Democracy",
+        branches: [
+          { label: "Social change", items: ["Awareness", "Attitude change", "Policy reform"] },
+          { label: "Civic engagement", items: ["Volunteering", "Voting", "Advocacy"] },
+          { label: "Civic dialogue", items: ["Common understanding", "Empathy", "Suspended judgment"] },
+          { label: "Social capital", items: ["Trust", "Reciprocity", "Cooperation"] },
+          { label: "Community development", items: ["Housing", "Job training", "Small business"] }
+        ]
+      }
+    },
+    {
+      type: "comparison",
+      config: {
+        title: "Bonding vs Bridging Networks",
+        left: { name: "Bonding networks", items: ["Connect similar people", "Sustain in-group reciprocity", "Strengthen close ties"] },
+        right: { name: "Bridging networks", items: ["Connect diverse people", "Sustain generalized reciprocity", "Link across groups"] }
+      }
+    },
+    {
+      type: "flowChart",
+      config: {
+        title: "From an Individual Act to Community Change",
+        nodes: [
+          { label: "Individual acts", detail: "One person becomes aware and changes" },
+          { label: "Civic engagement", detail: "Others join and participate" },
+          { label: "Civic dialogue", detail: "Differing views seek common understanding" },
+          { label: "Social capital", detail: "Trust and reciprocity grow" },
+          { label: "Policy and community change", detail: "Injustice is corrected and communities develop" }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "Social transformation is the process by which an individual alters:", options: ["the socially ascribed status of his or her parents into an achieved status", "the weather of a country", "the constitution", "the language of a nation"], answer: 0, difficulty: 1, explanation: "This is the definition of status transformation given in the lesson." },
+    { type: "tf", q: "The individual sense of social transformation applies to a person, while the societal sense applies to the social system.", answer: true, difficulty: 1, explanation: "The first applies to an individual and the second to the social system." },
+    { type: "mcq", q: "Which of the following is NOT one of the ways the lesson says transformation is manifested?", options: ["Social change", "Civic engagement", "Community development", "Military conscription"], answer: 3, difficulty: 2, explanation: "The listed ways are social change, civic engagement, civic dialogue, social capital and community development." },
+    { type: "short", q: "Give the term for the collective value of all social networks and the inclination to do things for each other.", answer: "social capital", difficulty: 1, explanation: "This is the definition of social capital." },
+    { type: "mcq", q: "The defining characteristic of active civic engagement is:", options: ["paying taxes", "commitment to participate in and contribute to the improvement of one's community and nation", "holding public office", "belonging to a political party"], answer: 1, difficulty: 2, explanation: "Civic engagement is defined by commitment to participate and contribute to improvement." },
+    { type: "concept", q: "Give the term for dialogue in which people explore matters of civic importance and differing viewpoints work toward common understanding.", answer: "civic dialogue", difficulty: 2, explanation: "This is the definition of civic dialogue." },
+    { type: "mcq", q: "In civic dialogue, participants are encouraged to:", options: ["promote a single point of view", "suspend judgment and bring assumptions into the open", "avoid meeting face to face", "win the argument at any cost"], answer: 1, difficulty: 2, explanation: "Suspension of judgment and bringing assumptions into the open are encouraged in civic dialogue." },
+    { type: "tf", q: "Social change must start with the individual.", answer: true, difficulty: 2, explanation: "The lesson states that acknowledging this, social change must start with the individual." },
+    { type: "mcq", q: "Bonding networks connect people who are similar and sustain:", options: ["generalized reciprocity", "particularized in-group reciprocity", "economic inequality", "political competition"], answer: 1, difficulty: 3, explanation: "Bonding networks sustain particularized in-group reciprocity." },
+    { type: "concept", q: "Explain in one sentence how social capital helps a community finish a shared project.", answer: "trust and reciprocity make cooperation easier|networks reduce the cost of working together", difficulty: 3, explanation: "Networks produce trust, reciprocity, information and cooperation, which make joint work easier." },
+    { type: "short", q: "Name one focus of community development agencies mentioned in the lesson.", answer: "job training|workforce development|housing|small business start-up|youth development|health|recreation", difficulty: 2, explanation: "Agencies focus on housing, job training, commercial development, small business start-up and other community goals." }
+  ]
+};
+
+Lessons["g10-civics-uc1-t5"] = {
+  overview: "Three core values sit at the centre of democracy: liberty or freedom, justice and equality. This lesson unpacks each one into its personal, political and economic, or distributive, corrective and procedural, meanings.",
+  objectives: [
+    "Identify liberty, justice and equality as the three core democratic values",
+    "Distinguish personal, political and economic freedom",
+    "Explain distributive, corrective and procedural justice",
+    "Distinguish political, social and economic equality",
+    "Apply democratic values to judge a real situation"
+  ],
+  simple: "Three core values are central to democracy: liberty or freedom, justice and equality. Liberty has three sides. Personal freedom means no arbitrary arrest or detention and no unreasonable searches of homes and property. Political freedom means people may take part in elections without arrest, harassment or electoral corruption such as buying votes, intimidation and the obstruction of voters. Economic freedom means citizens may acquire, use, transfer and dispose of private property without unreasonable government interference, seek and change employment at will, and join lawful labour unions or businesses. Justice means fairness in three senses: distributive justice shares benefits and burdens by agreed standards of fairness, corrective justice gives a proportional response to correct wrongs and injuries, and procedural justice requires impartial and open procedures. Equality means equal political rights (one person, one vote, one value), no social hierarchy or discrimination, and equal and fair access to national resources and services.",
+  detailed: "<p><b>Three core values.</b> There are three core values that are central in the discussion of the concept of democracy: the values of liberty or freedom, justice and equality. Each one can be broken into three related ideas, and together they set the standard by which democratic life is judged.</p><p><b>Liberty and personal freedom.</b> Liberty includes personal freedom, which means that individuals should be free from arbitrary arrest and detention and that their homes and property should be secured from unreasonable searches and seizures.</p><p><b>Political freedom.</b> Political freedom implies that the people of a nation have the right to participate freely in the political process, such as elections, without being subject to arbitrary arrest and harassment or to electoral corruption such as buying votes, intimidation and the obstruction of voters.</p><p><b>Economic freedom.</b> Economic freedom means that citizens should have the right to acquire, use, transfer and dispose of private property without unreasonable governmental interference. It also means the right to seek employment wherever one pleases, to change employment at will and to engage in any lawful labour unions or business corporations.</p><p><b>Justice.</b> Justice is understood in three general senses of fairness. Distributive justice is the sense of distributing benefits and burdens in society via agreed upon standards of fairness. Corrective justice is the sense that a proportional response should be in place to correct wrongs and injuries. Procedural justice is the idea that the procedures used for gathering information and making decisions should be guided by such principles as impartiality and the openness of proceedings.</p><p><b>Equality.</b> Three notions of equality are of particular significance. Political equality implies that all people who attain the status of adulthood have equal political rights, in short one person, one vote, one value. Social equality implies that there should be no social hierarchy at the individual and collective level and no discrimination whatsoever. Economic equality implies that all the people of a country deserve equal and fair access to national resources and services.</p>",
+  keyTerms: [
+    { term: "Liberty", def: "The democratic value of freedom, covering personal freedom from arbitrary arrest and unreasonable searches, political freedom to participate, and economic freedom to own property and work." },
+    { term: "Justice", def: "The democratic value of fairness, understood in distributive, corrective and procedural senses." },
+    { term: "Equality", def: "The democratic value that people are the same in political, social and economic terms: equal political rights, no social hierarchy or discrimination, and fair access to national resources and services." },
+    { term: "Political freedom", def: "The right of the people to participate freely in the political process, such as elections, without arrest, harassment or electoral corruption." },
+    { term: "Economic freedom", def: "The right to acquire, use, transfer and dispose of private property without unreasonable governmental interference, and to seek and change employment at will." },
+    { term: "Distributive justice", def: "Distributing benefits and burdens in society via agreed upon standards of fairness." },
+    { term: "Corrective justice", def: "The sense that a proportional response should be in place to correct wrongs and injuries." },
+    { term: "Procedural justice", def: "The idea that procedures for gathering information and making decisions should be guided by impartiality and the openness of proceedings." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "Police arrest a citizen and search his house at night with no warrant because a neighbour made an accusation. Which democratic value is violated and which kind of freedom?",
+      given: "There is no lawful justification for either the arrest or the search.",
+      formula: "Principle: personal freedom means freedom from arbitrary arrest and detention and security of home and property from unreasonable searches and seizures.",
+      substitution: "An arrest without lawful ground and a search without authority satisfy neither condition.",
+      calculation: "The action fails the personal freedom test of liberty.",
+      answer: "Personal freedom within the value of liberty is violated; arrest and search require lawful grounds."
+    },
+    {
+      problem: "A candidate hands out money and bus tickets to voters on election day. Which value is attacked and what is the harm?",
+      given: "Votes are being bought and voters are being moved or pressured.",
+      formula: "Principle: political freedom means free participation in elections without electoral corruption such as buying votes, intimidation and the obstruction of voters.",
+      substitution: "Paying for votes and transporting voters corrupt the vote.",
+      calculation: "Buying votes attacks political freedom and damages equality, because money replaces the equal value of each vote.",
+      answer: "Political freedom is attacked and political equality is undermined, since one person should mean one vote and one value."
+    },
+    {
+      problem: "A court hears both sides openly and applies a rule that returns stolen property to its owner and punishes the thief proportionally. Which senses of justice are present?",
+      given: "The procedure is open and impartial, and the remedy matches the wrong.",
+      formula: "Principle: procedural justice requires impartial and open procedures, and corrective justice requires a proportional response to wrongs.",
+      substitution: "Open hearings satisfy procedural justice; the proportional penalty and the return of property satisfy corrective justice.",
+      calculation: "Both senses are present, and the outcome also follows agreed standards of fairness.",
+      answer: "Procedural justice and corrective justice are both present."
+    },
+    {
+      problem: "A wealthy region receives most national health funding while a poor region receives very little. Analyse this with the values of equality and distributive justice.",
+      given: "Benefits are distributed unequally and without an agreed standard of fairness.",
+      formula: "Principle: distributive justice distributes benefits and burdens by agreed standards of fairness, and economic equality requires equal and fair access to national resources and services.",
+      substitution: "Concentrating funds in the rich region fails both standards.",
+      calculation: "The distribution is therefore unjust as well as unequal.",
+      answer: "Both distributive justice and economic equality are violated; funds should follow fair, agreed standards."
+    }
+  ],
+  commonMistakes: [
+    "Believing freedom means doing anything one likes, with no regard for others or for the law.",
+    "Confusing political freedom with the freedom to buy votes or intimidate voters.",
+    "Treating equality as sameness of income instead of equal rights and fair access.",
+    "Thinking justice means only punishing wrongdoers while ignoring fair procedures.",
+    "Assuming distributive justice gives everyone exactly the same regardless of agreed standards.",
+    "Believing economic freedom allows anyone to break environmental or labour laws.",
+    "Forgetting that social equality forbids discrimination at both the individual and the collective level."
+  ],
+  applications: [
+    "Refusing to accept money or gifts offered in exchange for your vote.",
+    "Insisting that all students are marked by the same standard, without favouritism.",
+    "Speaking up when a classmate is excluded because of ethnicity, religion or disability.",
+    "Asking your woreda how health or school funds were distributed among kebeles.",
+    "Supporting a lawful labour union or business association that protects workers' rights.",
+    "Reporting an unlawful arrest or an unreasonable search to the proper authority."
+  ],
+  summary: "Liberty, justice and equality are the three core values of democracy. Liberty covers personal freedom from arbitrary arrest and unreasonable searches, political freedom to take part in elections without corruption or intimidation, and economic freedom to own property, work and associate lawfully. Justice means distributive, corrective and procedural fairness, and equality means equal political rights, no social hierarchy or discrimination, and equal and fair access to national resources and services.",
+  visuals: [
+    {
+      type: "mindMap",
+      config: {
+        title: "Three Core Democratic Values",
+        center: "Democratic values",
+        branches: [
+          { label: "Liberty", items: ["Personal freedom", "Political freedom", "Economic freedom"] },
+          { label: "Justice", items: ["Distributive", "Corrective", "Procedural"] },
+          { label: "Equality", items: ["Political", "Social", "Economic"] }
+        ]
+      }
+    },
+    {
+      type: "tableVisual",
+      config: {
+        title: "Justice and Equality Explained",
+        headers: ["Value", "Meaning", "Example"],
+        rows: [
+          ["Distributive justice", "Benefits and burdens shared by agreed standards", "Fair allocation of school budgets"],
+          ["Corrective justice", "Proportional response to wrongs and injuries", "Returning stolen property and punishing the thief"],
+          ["Procedural justice", "Impartial and open procedures", "Public court hearings"],
+          ["Political equality", "One person, one vote, one value", "Every adult vote counts the same"]
+        ]
+      }
+    },
+    {
+      type: "comparison",
+      config: {
+        title: "Political vs Economic Freedom",
+        left: { name: "Political freedom", items: ["Participate in elections", "No arrest or harassment for voting", "No vote buying or intimidation"] },
+        right: { name: "Economic freedom", items: ["Acquire and dispose of property", "Seek and change employment", "Form lawful unions or businesses"] }
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "The three core values central to democracy are:", options: ["liberty, justice and equality", "wealth, power and fame", "security, order and obedience", "tradition, religion and family"], answer: 0, difficulty: 1, explanation: "The three core values are liberty or freedom, justice and equality." },
+    { type: "tf", q: "Personal freedom means individuals should be free from arbitrary arrest and detention.", answer: true, difficulty: 1, explanation: "Personal freedom includes freedom from arbitrary arrest and detention." },
+    { type: "mcq", q: "Which of the following is an example of electoral corruption that violates political freedom?", options: ["Registering voters", "Buying votes", "Educating the electorate", "Holding a secret ballot"], answer: 1, difficulty: 2, explanation: "Buying votes is listed as electoral corruption against political freedom." },
+    { type: "mcq", q: "Distributive justice is about:", options: ["punishing wrongdoers proportionally", "impartial and open procedures", "distributing benefits and burdens in society by agreed standards of fairness", "national defence"], answer: 2, difficulty: 2, explanation: "Distributive justice distributes benefits and burdens by agreed standards of fairness." },
+    { type: "short", q: "Give the sense of justice that requires impartial and open procedures for gathering information and making decisions.", answer: "procedural justice", difficulty: 1, explanation: "This is procedural justice." },
+    { type: "concept", q: "Give the notion of equality that means one person, one vote, one value.", answer: "political equality", difficulty: 2, explanation: "Political equality means equal political rights, one person, one vote, one value." },
+    { type: "mcq", q: "Economic freedom in the lesson includes the right to:", options: ["acquire, use, transfer and dispose of private property", "ignore labour laws", "avoid all taxes", "refuse to work"], answer: 0, difficulty: 2, explanation: "Economic freedom covers acquiring, using, transferring and disposing of private property." },
+    { type: "concept", q: "Explain in one sentence why buying votes damages both political freedom and equality.", answer: "money replaces free choice and makes votes unequal|it corrupts free participation and the equal value of votes", difficulty: 3, explanation: "Vote buying is electoral corruption and it destroys the equal value of each vote." },
+    { type: "mcq", q: "Social equality implies that:", options: ["some classes are naturally superior", "there should be no social hierarchy and no discrimination whatsoever", "only adults are equal", "wealth decides social status"], answer: 1, difficulty: 2, explanation: "Social equality means no social hierarchy and no discrimination at individual or collective level." },
+    { type: "tf", q: "Corrective justice means that a proportional response should be in place to correct wrongs and injuries.", answer: true, difficulty: 2, explanation: "This is the textbook definition of corrective justice." },
+    { type: "mcq", q: "A court returns a stolen bicycle to its owner and fines the thief. This best illustrates:", options: ["distributive justice", "corrective justice", "economic freedom", "social capital"], answer: 1, difficulty: 3, explanation: "A proportional response to a wrong is corrective justice." }
+  ]
+};
+
+Lessons["g10-civics-uc1-t6"] = {
+  overview: "Democracy has three aspects, the social, the economic and the political, and a country is fully democratic only when all three are present. This lesson explains what each aspect requires and why democracy is described as a social balance.",
+  objectives: [
+    "Name the three aspects of democracy",
+    "Explain the social aspect and the removal of discrimination",
+    "Describe the economic aspect and the just distribution of wealth",
+    "List the political rights that make up the political aspect",
+    "Explain why democracy is described as a social balance of interests"
+  ],
+  simple: "Democracy has three aspects: social, economic and political. The social aspect means the removal of any discrimination based on class, caste, creed, colour, sex, ethnicity or race; all people, rich or poor, are socially equal and should be treated as equals. The economic aspect means the equitable and just distribution of wealth and resources in society and the abolition of glaring disparities or polarization based on wealth. Economic democracy recognizes the right to work, leisure, fair wages and the unrestricted right to the enjoyment of life. The political aspect provides political rights: the right to vote, to contest during elections, to hold public office, to move, to think and to associate, the right to freedom of conscience and the right to speak. To use these rights, citizens must have freedom of speech, association and publication. Democracy is therefore a social balance, and the dominant ideas of its purpose at any time represent the balance of interests.",
+  detailed: "<p><b>Three aspects.</b> Democracy has three aspects: the social, the economic and the political. They are not alternatives, because a country with free elections but deep social discrimination or extreme wealth polarization is democratic only in part.</p><p><b>Social aspect.</b> By the social aspect of democracy is meant the removal of any discrimination on the basis of class, caste, creed, colour, sex, ethnicity or race. All men and women, rich or poor, regardless of any class or caste prejudices, are socially equal and should be treated as equals.</p><p><b>Economic aspect.</b> By the economic aspect of democracy is meant the equitable and just distribution of wealth and resources in society and the abolition of glaring disparities or polarization on the basis of wealth. Economic democracy recognizes the right to work, leisure, fair wages and the unrestricted right to the enjoyment of life.</p><p><b>Political aspect.</b> The political aspect of democracy signifies the provision of political rights, namely the right to vote, the right to contest during elections, the right to hold public office, the right to movement, thought and association, the right to freedom of conscience and the right to speak.</p><p><b>Freedoms that make rights usable.</b> In order to enable citizens to exercise these and other political rights effectively and persistently, citizens have to be assured freedom of speech, association and publication. Rights written on paper are of little use if speaking about public affairs, joining with others or publishing criticism is punished.</p><p><b>Democracy as a social balance.</b> Democracy is, therefore, a social balance, and the dominant ideas of the purpose of democracy at any particular time represent the balance of interests. As the interests of social groups change, the emphasis of democratic politics changes with them, which is why democracy is a living and continually negotiated system.</p>",
+  keyTerms: [
+    { term: "Social aspect of democracy", def: "The removal of any discrimination on the basis of class, caste, creed, colour, sex, ethnicity or race, so that all people are treated as equals." },
+    { term: "Economic aspect of democracy", def: "The equitable and just distribution of wealth and resources in society and the abolition of glaring disparities or polarization based on wealth." },
+    { term: "Political aspect of democracy", def: "The provision of political rights such as voting, contesting elections, holding public office, movement, thought, association, conscience and speech." },
+    { term: "Economic democracy", def: "The recognition of the right to work, leisure, fair wages and the unrestricted right to the enjoyment of life." },
+    { term: "Freedom of speech, association and publication", def: "The basic freedoms citizens must have in order to exercise their political rights effectively and persistently." },
+    { term: "Social balance", def: "A description of democracy: the dominant ideas of its purpose at any time represent the balance of interests." },
+    { term: "Polarization", def: "The division of a society into sharply separated groups on the basis of wealth, which economic democracy seeks to abolish." },
+    { term: "Political rights", def: "The rights to vote, to contest elections, to hold public office, to move, to think, to associate, to freedom of conscience and to speak." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "In one country women are not allowed to join a political party, although elections are otherwise free. Which aspect of democracy is missing?",
+      given: "Legal political competition exists, but exclusion by sex blocks participation.",
+      formula: "Principle: the social aspect of democracy requires the removal of discrimination based on class, caste, creed, colour, sex, ethnicity or race.",
+      substitution: "Excluding women from political parties is discrimination on the basis of sex.",
+      calculation: "The social aspect is therefore absent even though elections take place.",
+      answer: "The social aspect of democracy is missing; discrimination by sex must be removed."
+    },
+    {
+      problem: "A country has universal suffrage and open elections, but the richest ten percent own most of the wealth and many workers earn below a living wage. Assess it.",
+      given: "The political aspect is present while the economic aspect is weak.",
+      formula: "Principle: the economic aspect requires equitable and just distribution of wealth and recognizes the right to work and to fair wages.",
+      substitution: "Extreme concentration of wealth and unfair wages contradict those requirements.",
+      calculation: "Political rights alone do not produce economic democracy, so the country is democratic only in part.",
+      answer: "The economic aspect is missing; just distribution and fair wages are required as well."
+    },
+    {
+      problem: "Citizens are allowed to vote, but a journalist is jailed for publishing an article about public spending. Which part of the political aspect is violated?",
+      given: "A political right exists on paper, but the freedom that makes it usable is denied.",
+      formula: "Principle: to exercise political rights effectively, citizens must have freedom of speech, association and publication.",
+      substitution: "Jailing a journalist for publishing criticism attacks freedom of publication.",
+      calculation: "Without those freedoms the right to speak and the right to be informed is empty.",
+      answer: "Freedom of publication, which belongs to the political aspect, is violated."
+    },
+    {
+      problem: "A parliament balances the budget by increasing funding for schools and health while requiring larger contributions from the wealthiest citizens. Which aspects are served?",
+      given: "Resources are shifted towards public services and wealthier citizens contribute more.",
+      formula: "Principle: the economic aspect seeks equitable distribution of resources and the social aspect seeks equality among all people.",
+      substitution: "Funded schools and clinics widen access and reduce disparities.",
+      calculation: "The measure serves both the economic and the social aspects and reflects a balance of interests.",
+      answer: "It serves the economic and social aspects and expresses a democratic balance of interests."
+    }
+  ],
+  commonMistakes: [
+    "Thinking that free elections alone make a country fully democratic.",
+    "Confusing the social aspect, which bans discrimination, with the political aspect, which grants rights.",
+    "Believing economic democracy means only economic growth rather than just distribution and fair wages.",
+    "Assuming rights exist in practice even when speech, association and publication are punished.",
+    "Treating political rights as privileges for the educated, the wealthy or urban citizens.",
+    "Believing the balance of interests in a democracy is fixed forever.",
+    "Reducing the social aspect to politeness while discrimination continues in law or in practice."
+  ],
+  applications: [
+    "Supporting a school rule that allows every student to join any club regardless of background.",
+    "Encouraging women and girls in your community to take part in elections and public meetings.",
+    "Advocating fair wages and safe conditions for workers in your locality.",
+    "Writing an article or a letter to a newspaper about a public problem.",
+    "Joining a lawful association that campaigns for equal access to health and education.",
+    "Discussing a community budget and asking that poorer kebeles receive a fair share."
+  ],
+  summary: "Democracy has three aspects: the social aspect removes discrimination by class, caste, creed, colour, sex, ethnicity or race; the economic aspect requires the equitable and just distribution of wealth and resources and recognizes the right to work, leisure and fair wages; and the political aspect supplies the rights to vote, contest, hold office, move, think, associate, hold a conscience and speak, backed by freedom of speech, association and publication. Democracy is therefore a social balance, and the dominant ideas of its purpose at any time represent the balance of interests.",
+  visuals: [
+    {
+      type: "tableVisual",
+      config: {
+        title: "The Three Aspects of Democracy",
+        headers: ["Aspect", "What it means", "Key requirement"],
+        rows: [
+          ["Social", "Removal of discrimination", "Equal treatment regardless of class, caste, creed, colour, sex, ethnicity or race"],
+          ["Economic", "Just distribution of wealth and resources", "Right to work, leisure, fair wages and enjoyment of life"],
+          ["Political", "Provision of political rights", "Freedom of speech, association and publication"]
+        ]
+      }
+    },
+    {
+      type: "mindMap",
+      config: {
+        title: "What Each Aspect Requires",
+        center: "Aspects of democracy",
+        branches: [
+          { label: "Social", items: ["No discrimination", "Equality for all"] },
+          { label: "Economic", items: ["Just distribution", "Fair wages", "Right to work and leisure"] },
+          { label: "Political", items: ["Right to vote", "Right to contest", "Freedom of speech, association, publication"] }
+        ]
+      }
+    },
+    {
+      type: "qa",
+      config: {
+        title: "Aspects Quick-Check",
+        pairs: [
+          { q: "Which aspect removes discrimination based on sex or ethnicity?", a: "The social aspect." },
+          { q: "Which aspect requires fair wages and the right to work?", a: "The economic aspect." },
+          { q: "Which freedoms make political rights usable?", a: "Freedom of speech, association and publication." },
+          { q: "What does democracy represent when interests change?", a: "A social balance, that is the balance of interests." }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "The three aspects of democracy are:", options: ["social, economic and political", "legal, military and religious", "local, regional and global", "cultural, linguistic and ethnic"], answer: 0, difficulty: 1, explanation: "Democracy has social, economic and political aspects." },
+    { type: "tf", q: "The social aspect of democracy requires the removal of discrimination based on class, caste, creed, colour, sex, ethnicity or race.", answer: true, difficulty: 1, explanation: "This is exactly what the social aspect requires." },
+    { type: "mcq", q: "The economic aspect of democracy requires:", options: ["concentration of wealth", "equitable and just distribution of wealth and resources", "abolition of wages", "removal of the right to work"], answer: 1, difficulty: 2, explanation: "The economic aspect means equitable and just distribution of wealth and resources." },
+    { type: "short", q: "Which aspect of democracy provides the right to vote and the right to contest elections?", answer: "political aspect|the political aspect of democracy", difficulty: 1, explanation: "Political rights belong to the political aspect of democracy." },
+    { type: "mcq", q: "The right to work, leisure, fair wages and enjoyment of life belongs to:", options: ["economic democracy", "social democracy", "procedural justice", "social capital"], answer: 0, difficulty: 2, explanation: "Economic democracy recognizes these rights." },
+    { type: "concept", q: "Give the term used in the lesson to describe democracy as a balance of interests among social groups.", answer: "social balance", difficulty: 2, explanation: "Democracy is described as a social balance." },
+    { type: "mcq", q: "Which freedoms must citizens have in order to exercise political rights effectively?", options: ["freedom of speech, association and publication", "freedom from taxes", "freedom to ignore the law", "freedom from education"], answer: 0, difficulty: 2, explanation: "Citizens have to be assured freedom of speech, association and publication." },
+    { type: "tf", q: "A country with free elections but severe social discrimination is only partly democratic.", answer: true, difficulty: 2, explanation: "The social aspect of democracy requires the removal of discrimination." },
+    { type: "mcq", q: "Which situation best shows the absence of the economic aspect of democracy?", options: ["A free press publishes criticism", "A small group owns most wealth while many workers earn below a living wage", "Citizens vote in secret", "Women join political parties"], answer: 1, difficulty: 3, explanation: "Glaring disparities and polarization based on wealth contradict the economic aspect." },
+    { type: "concept", q: "Explain in one sentence why political rights without freedom of speech are ineffective.", answer: "citizens cannot use or defend their rights without speaking|rights on paper need free speech to be used", difficulty: 3, explanation: "Citizens must have freedom of speech, association and publication to use their political rights." },
+    { type: "short", q: "Name one form of discrimination that the social aspect of democracy removes.", answer: "class|caste|creed|colour|sex|ethnicity|race", difficulty: 2, explanation: "The social aspect removes discrimination based on class, caste, creed, colour, sex, ethnicity or race." }
+  ]
+};
+

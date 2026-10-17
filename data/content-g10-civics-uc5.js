@@ -1,0 +1,603 @@
+/* Content: Grade 10 Citizenship Education - Unit 5: Federalism in Ethiopia (5 topics)
+   Source: MoE Citizenship Education Grade 10 Student Textbook, Unit 5 (pages 102-125). */
+window.Lessons = window.Lessons || {};
+
+Lessons["g10-civics-uc5-t1"] = {
+  overview: "Federalism divides political power between a federal government and regional governments so that each level makes final decisions on some matters. This lesson defines federalism, explains devolution, and shows why coordination between the centre and the regions prevents a monopoly of power.",
+  objectives: [
+    "Define federalism and identify its two levels of government",
+    "Explain the meaning of devolution of power",
+    "Describe how power is coordinated between the federal government and the regions",
+    "Restate the scholar definitions of federalism in your own words",
+    "Explain how federal and regional governments worked together during the Lower Omo flood"
+  ],
+  simple: "Federalism is a system of government in which power is divided between a federal government and regional governments. Devolution, the principle behind federalism, transfers power to the regions that make up the federation. Under devolution neither the federal nor the regional government is supreme; power is coordinated between the centre and the regions. This arrangement helps to avoid a monopoly of power because no single body controls everything. Scholars describe federalism as a political organisation in which the activities of government are divided between regional and central governments so that each level makes final decisions on some matters. Federal and regional governments are therefore interdependent rather than mutually exclusive. When the Omo River flooded, the regional state could not cope alone, so the federal government, citizens and religious institutions helped together.",
+  detailed: "<p><b>What federalism is.</b> Federalism is a system of government where power is divided between federal and regional governments. The same territory is controlled by two levels of government: an overarching national government responsible for the broader governance of larger territorial areas, and smaller regional governments that govern issues of local concern. Federalism is one of several possible state structures, and it stands between a unitary state, where the centre holds the power, and a confederation, where the member states are clearly dominant.</p><p><b>Devolution and coordination.</b> Devolution is the principle of federalism that means transferring power to the region that constitutes the federation. The devolution of power makes neither the federal nor the regional governments supreme. Instead, power is coordinated between the centre and the region. This arrangement is one mechanism that helps to avoid a monopoly of power, because power is shared rather than concentrated in one hand.</p><p><b>How scholars define it.</b> Different scholars define federalism in different ways. One definition holds that federalism is a political organisation in which the activities of government are divided between regional governments and a central government in such a way that each kind of government has some activities on which it makes final decisions. Another describes it as the advocacy of multi-tiered government combining elements of shared rule and regional self-rule, in which neither the federal nor the constituent units are constitutionally subordinate to the other. A third calls it an institutional arrangement in which public authority is divided between state governments and a central government, each level makes final decisions on some issues, and a high federal court adjudicates disputes concerning federalism.</p><p><b>Shared rule and regional self-rule.</b> In a federation each level has sovereign powers that are derived from the constitution rather than from another level of government. Each is empowered to deal directly with its citizens in the exercise of its legislative, executive and taxing powers, and each is directly elected by its citizens. This combination of shared rule and regional self-rule is the heart of the federal idea: the desire to be united for some purposes and autonomous for others.</p><p><b>The Lower Omo case.</b> A few years ago heavy rain in the highland areas of the Lower Omo Basin made the Omo River overflow its banks. The floods destroyed villages and farm lands, many livestock died, and thousands of people were made homeless. Confronting such a challenge was beyond the capacity of the regional state alone, so the federal government stepped in to help the victims. Ethiopians from different backgrounds responded promptly, religious institutions provided help, and the regional governments mobilised and channelled resources to those affected.</p><p><b>Interdependence, not separation.</b> The Omo flood response showed the role that a coordinated effort of the federal and regional governments can play in solving problems, and it showed a spirit of unity and care for human beings in Ethiopia. It also showed that regional states are interdependent: they are not mutually exclusive units that ignore one another. Federalism divides power, but it also joins the levels of government in a single political community that must work together when a problem exceeds the capacity of one level.</p>",
+  keyTerms: [
+    { term: "Federalism", def: "A system of government in which power is divided between federal and regional governments so that each level makes final decisions on some matters." },
+    { term: "Devolution", def: "The principle of federalism that transfers power to the regions that constitute the federation." },
+    { term: "Shared rule", def: "The element of federalism in which the levels of government take part together in governing the whole country." },
+    { term: "Regional self-rule", def: "The element of federalism in which a regional government governs local matters for its own people." },
+    { term: "Unitary government", def: "A system of government in which a central authority holds the power and lower units are its creations." },
+    { term: "Confederation", def: "An arrangement in which the states are clearly dominant and the central government has no direct authority over the lives of citizens." },
+    { term: "Sovereign powers", def: "Constitutional powers held by a level of government in its own right, not derived from another level of government." },
+    { term: "Monopoly of power", def: "The concentration of all political power in a single hand, which federalism is designed to avoid." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "A regional state is struck by a drought that is too severe for its own budget. Explain, using the meaning of federalism, who should act and why.",
+      given: "The disaster exceeds the capacity of the regional state; the federal government has broader resources.",
+      formula: "Principle: in a federation power is divided but coordinated between the centre and the regions.",
+      substitution: "A problem beyond the capacity of one region requires coordinated action by both levels.",
+      calculation: "The regional government reports and channels local resources, while the federal government provides additional relief.",
+      answer: "Both levels act together; federalism coordinates the centre and the region instead of isolating them."
+    },
+    {
+      problem: "A citizen argues that because his region has its own government, the federal government has no right to deal with him at all. Is he correct?",
+      given: "The citizen lives in a regional state within a federation.",
+      formula: "Principle: in a federation each level is empowered to deal directly with its citizens in the exercise of its powers.",
+      substitution: "The federal constitution gives each level power to legislate, execute and tax.",
+      calculation: "Since both levels derive sovereign powers from the constitution, both may deal with the citizen on the matters assigned to them.",
+      answer: "No. Both levels deal directly with citizens within their constitutional powers."
+    },
+    {
+      problem: "Two neighbours argue about whether the devolution of power to the regions has made the federal government weak. Use the lesson to judge.",
+      given: "Devolution transfers power to the regions that make up the federation.",
+      formula: "Principle: devolution makes neither level supreme and coordinates power between them.",
+      substitution: "The federal government keeps the powers shared in common while regions handle local identity matters.",
+      calculation: "Power is redistributed rather than destroyed, so the federal level is not weakened but limited and coordinated.",
+      answer: "Devolution does not weaken the federation; it prevents a monopoly of power by coordinating the two levels."
+    }
+  ],
+  commonMistakes: [
+    "Thinking that federalism means the regions become completely independent countries.",
+    "Believing that in a federation one level of government is supreme over the other.",
+    "Confusing a federation with a unitary state in which only the centre holds power.",
+    "Assuming that regional governments and the federal government never work together.",
+    "Believing that devolution means the centre gives up all of its authority.",
+    "Forgetting that each level of government derives its powers from the constitution, not from the other level."
+  ],
+  applications: [
+    "Seeing both the federal government and your regional state fund the schools and health centres near you.",
+    "Noticing how federal and regional authorities cooperate when a flood or drought strikes your area.",
+    "Explaining to a friend why your regional state can pass its own laws on certain local matters.",
+    "Following news of a dispute between the centre and a region that is decided by the federal court.",
+    "Taking part in a kebele or woreda meeting, which shows power being exercised below the centre."
+  ],
+  summary: "Federalism is a system in which power is divided between a federal government and regional governments, with devolution transferring power to the regions. Neither level is supreme; power is coordinated to avoid a monopoly, and each level holds sovereign powers derived from the constitution and deals directly with citizens. The Lower Omo flood showed that the levels of government are interdependent and must cooperate when a problem exceeds the capacity of one region.",
+  visuals: [
+    {
+      type: "comparison",
+      config: {
+        title: "Federal System vs Unitary System",
+        left: { name: "Federal system", items: ["Two levels of government", "Power divided by the constitution", "Regions are not creations of the centre", "Local and national decisions"] },
+        right: { name: "Unitary system", items: ["One central authority", "Lower units are subordinate", "Units created by statute", "Centre may dissolve local units"] }
+      }
+    },
+    {
+      type: "steps",
+      config: {
+        title: "Coordinated Response to the Lower Omo Flood",
+        steps: [
+          { label: "Heavy rain", detail: "Rain in the highlands makes the Omo River overflow its banks." },
+          { label: "Flood damage", detail: "Villages and farm lands are flooded; livestock die and people lose their homes." },
+          { label: "Capacity exceeded", detail: "The regional state alone cannot confront the disaster." },
+          { label: "Federal help", detail: "The federal government steps in to help the victims." },
+          { label: "National effort", detail: "Citizens, religious institutions and regional governments mobilise resources together." }
+        ]
+      }
+    },
+    {
+      type: "mindMap",
+      config: {
+        title: "The Two Levels of Power",
+        center: "Federalism",
+        branches: [
+          { label: "Federal government", items: ["Shared common interests", "Legislative, executive, taxing powers"] },
+          { label: "Regional governments", items: ["Regional identity", "Local matters"] },
+          { label: "Coordination", items: ["Neither level supreme", "Joint action in disasters"] },
+          { label: "Goal", items: ["Avoid monopoly of power", "Unity with autonomy"] }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "Federalism is best defined as:", options: ["A system in which all power is held by the central government", "A system in which power is divided between federal and regional governments", "A system with no government at all", "A system in which regions have no powers"], answer: 1, difficulty: 1, explanation: "Federalism divides power between federal and regional governments." },
+    { type: "tf", q: "Under a federal arrangement neither the federal nor the regional governments is supreme.", answer: true, difficulty: 1, explanation: "Devolution makes neither level supreme; power is coordinated between them." },
+    { type: "short", q: "What is the name of the principle of federalism that transfers power to the regions that make up the federation?", answer: "devolution", difficulty: 1, explanation: "Devolution transfers power to the regions that constitute the federation." },
+    { type: "mcq", q: "The main reason for coordinating power between the centre and the regions is to:", options: ["increase taxes", "avoid a monopoly of power", "reduce the number of regions", "abolish the federal court"], answer: 1, difficulty: 2, explanation: "Coordinated power helps to avoid a monopoly of power." },
+    { type: "concept", q: "Give the term for the level of government that governs issues of local concern under a federation.", answer: "regional government|regional state|state government", difficulty: 2, explanation: "Smaller regional governments govern issues of local concern." },
+    { type: "mcq", q: "According to the scholar definitions, each level of government in a federation:", options: ["takes orders from the other level", "makes final decisions on some activities", "has no taxing power", "is created by the other level"], answer: 1, difficulty: 2, explanation: "Each kind of government has activities on which it makes final decisions." },
+    { type: "tf", q: "In a federation each level of government is directly elected by its citizens and can deal directly with them.", answer: true, difficulty: 2, explanation: "Each level is empowered to deal directly with its citizens and is directly elected by them." },
+    { type: "mcq", q: "In the Lower Omo case, the regional state could not cope with the flood alone. This shows that:", options: ["regional states are useless", "the two levels of government are interdependent", "floods never happen again", "the federal government owns all land"], answer: 1, difficulty: 2, explanation: "The case showed the interdependence of the regional states and the federal government." },
+    { type: "concept", q: "Explain in one sentence why the Lower Omo flood response involved both the federal and regional governments.", answer: "the disaster was beyond the capacity of the regional state|the challenge exceeded the capacity of one level", difficulty: 3, explanation: "Confronting the disaster was beyond the capacity of the regional state, so coordinated action was needed." },
+    { type: "ordering", q: "Arrange the steps of the Lower Omo story in the correct order.", options: ["The regional governments mobilise resources for the victims", "The federal and regional governments coordinate their effort", "Heavy rain makes the river overflow and the regional state cannot cope", "The federal government steps in to help the victims"], answer: 2, difficulty: 2, explanation: "The flood exceeds the regional capacity first, then the federal government helps and the wider coordinated effort follows." }
+  ]
+};
+
+Lessons["g10-civics-uc5-t2"] = {
+  overview: "Federations can be classified in different ways, most importantly as dual federalism, which separates the powers of the levels like the layers of a cake, and cooperative federalism, which mixes them like a marble cake. This lesson explains each type with its advantages and disadvantages.",
+  objectives: [
+    "Explain how federal systems divide power between the federal government and the states",
+    "Contrast a confederal arrangement with a federation",
+    "Define dual federalism and explain the layer cake image",
+    "Define cooperative federalism and explain the marble cake image",
+    "Compare the advantages and disadvantages of each type of federalism"
+  ],
+  simple: "Federal systems divide power between the federal government and the states. Laws made by the states usually apply only in their own region, while laws made by the federal legislature apply in all states. In a confederal arrangement the central government has no direct authority over the lives of citizens, but in a federation the federal government does have direct authority. Based on how federal governments execute their laws across the whole territory, federations are classified as dual federalism and cooperative federalism. Dual federalism, called layer cake federalism, clearly separates the powers of the two levels, so neither interferes with the other. Cooperative federalism, called marble cake federalism, lets the federal, state and local governments interact and work together to solve common problems. Each type has its own advantages and disadvantages.",
+  detailed: "<p><b>Dividing power in a federation.</b> Federal systems are usually known for dividing power between the federal government and the states. Laws that are made by the states or regions usually apply to the respective regions, whereas laws made by the federal legislature apply to all states. In con-federal arrangements the central government has no direct authority over the lives of citizens, but in federations the federal government does have direct authority over citizens by legislating rules and laws. The key issue is how federal governments execute their laws across the whole territory of their country, because the enforcement and coordination of such laws throughout the territory is an essential aspect of building one political and economic community.</p><p><b>Two ways of classifying federations.</b> Based on how federal governments execute their laws across the whole territory, federations can be classified as dual federalism and cooperative federalism. Federations also differ by how they came into being. In coming-together federalism, previously independent units decide to join and form a common federal government, as happened in the United States. In holding-together federalism, a country that already exists as one state restructures itself federally in order to hold its diverse groups together, which is the pattern of Ethiopia.</p><p><b>Dual federalism: the layer cake.</b> Dual federalism is a system that clearly divides government authority between state and national governments, and it is often called layer cake federalism. State governments have their own powers, where the central government could not intervene, and the reverse is also true. Earlier, state governments controlled almost all aspects of individual citizens, while the national government had authority over internal improvements, international relations and the regulation of those relations, and determining commercial aspects between the states. Different states have varying laws on divorce, marriage and speed limits, formed on the basis of each state's own requirements.</p><p><b>Advantages of dual federalism.</b> Dual federalism allows the protection of local jurisdictions from federal government overreach, and it prevents the federal government from having too much power in its hands. It also allows local laws to develop and reflect the requirements and wants of local constituents. For instance, a state that is less populated and less congested might assign a higher speed limit than others.</p><p><b>Disadvantages of dual federalism.</b> Dual federalism ensures that tension between the state and the federal government always stays at the brim, and this rising tension is not favourable for the development and well-being of the state and the country as a whole. The tension also leads to decreasing levels of cooperation between the federal and state governments, which reduces the efficiency of programmes that require full cooperation from both governing bodies. As the power in the hands of the states increases, the unity between the different states tends to decrease.</p><p><b>Cooperative federalism: the marble cake.</b> Cooperative federalism requires state and national governments to share power and collaborate on overlapping functions. An example is the federal government giving tax revenue to the states to fund interstate highways, while the states govern the construction and maintenance process in accordance with goals set by the national government. Also known as marble cake federalism, it is a concept in which federal, state and local governments interact cooperatively and collectively to solve common problems rather than making policies separately but more or less equally.</p><p><b>Advantages and disadvantages of cooperative federalism.</b> Under cooperative federalism the national and state governments work together to provide services efficiently, and it offers a more practical approach to intergovernmental relations as more complex problems arise that cannot be addressed at only one level of government. Both levels keep their own powers and responsibilities, which gives people a sense of participation and prevents either from gaining excessive power. States have an incentive to cooperate and can influence how programmes are implemented. The main disadvantage is a decrease in the powers of the states, because the federal government may intervene in policies once reserved to the states.</p>",
+  keyTerms: [
+    { term: "Dual federalism", def: "A system that clearly divides government authority between state and national governments, with neither level intervening in the other; also called layer cake federalism." },
+    { term: "Cooperative federalism", def: "A system that requires state and national governments to share power and collaborate on overlapping functions; also called marble cake federalism." },
+    { term: "Layer cake federalism", def: "Another name for dual federalism, suggesting clearly separated layers of authority that do not mix." },
+    { term: "Marble cake federalism", def: "Another name for cooperative federalism, suggesting powers that swirl and mix together." },
+    { term: "Con-federal arrangement", def: "An arrangement in which the central government has no direct authority over the lives of citizens and the states are clearly dominant." },
+    { term: "Coming-together federalism", def: "A federation formed when previously independent units join together to create a common central government." },
+    { term: "Holding-together federalism", def: "A federation formed when an existing state restructures itself to hold its diverse groups together within one country." },
+    { term: "Intergovernmental relations", def: "The working relationships between the federal government and the regional state governments." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "In a country, state laws on marriage and speed limits differ widely from state to state and the central government does not interfere. Which type of federalism is this?",
+      given: "Each state governs its own local matters; the centre keeps to common national matters.",
+      formula: "Principle: dual federalism clearly divides authority between state and national governments.",
+      substitution: "Separate layers of authority with no intervention match the layer cake image.",
+      calculation: "Because each level stays within its own sphere, the system is dual federalism.",
+      answer: "Dual federalism (layer cake federalism)."
+    },
+    {
+      problem: "The federal government gives tax revenue to the regions to build a national road, while the regions manage the construction according to national goals. Which type of federalism is this?",
+      given: "Funding comes from the centre; implementation is shared with the regions.",
+      formula: "Principle: cooperative federalism requires the levels of government to share power and collaborate on overlapping functions.",
+      substitution: "Overlapping funding and implementation match the marble cake image.",
+      calculation: "Shared and overlapping functions show cooperation rather than separation.",
+      answer: "Cooperative federalism (marble cake federalism)."
+    },
+    {
+      problem: "A federation was created when separate kingdoms agreed to join into one country, while another country restructured itself federally to keep many ethnic groups together. Name each pattern.",
+      given: "One federation is built by joining units; the other is built by restructuring an existing state.",
+      formula: "Principle: federations differ according to how they came into being.",
+      substitution: "Joining independent units is coming together; restructuring an existing state is holding together.",
+      calculation: "The first case matches coming-together federalism and the second matches holding-together federalism.",
+      answer: "The first is coming-together federalism; the second is holding-together federalism."
+    },
+    {
+      problem: "A critic says that dual federalism is always better than cooperative federalism because it protects the states. Evaluate this claim.",
+      given: "Dual federalism protects local jurisdictions but raises tension; cooperative federalism shares power but reduces state powers.",
+      formula: "Principle: every type of federalism has both advantages and disadvantages.",
+      substitution: "Dual protects states but weakens cooperation; cooperative solves shared problems but reduces state autonomy.",
+      calculation: "Since each type gains something and loses something, a blanket claim of superiority fails.",
+      answer: "The claim is too strong; the best type depends on the country and the problem to be solved."
+    }
+  ],
+  commonMistakes: [
+    "Believing that in a confederation the central government has direct authority over citizens.",
+    "Mixing up the images: calling dual federalism the marble cake and cooperative federalism the layer cake.",
+    "Thinking dual federalism means the two levels of government never disagree or compete.",
+    "Assuming cooperative federalism removes all powers from the states.",
+    "Confusing coming-together federalism with holding-together federalism.",
+    "Believing that federal laws apply only in one region while state laws apply everywhere."
+  ],
+  applications: [
+    "Noticing that regional laws in your state differ from those of other regions, which shows dual features.",
+    "Seeing federal and regional bodies share the funding and management of roads or schools.",
+    "Reading about how Ethiopia restructured itself federally to hold many ethnic groups together.",
+    "Discussing with classmates whether shared or separated powers suit Ethiopia better.",
+    "Following a court case in which a region challenges a national law."
+  ],
+  summary: "Federations divide power between the federal government and the states, and they can be classified in more than one way. Dual federalism separates the two levels like the layers of a cake and protects local jurisdiction, but it breeds tension and weakens unity. Cooperative federalism mixes them like a marble cake so that the levels share and collaborate on overlapping functions, though this reduces the powers of the states. Federations also differ by origin: some come together from independent units and others are held together by restructuring a single state.",
+  visuals: [
+    {
+      type: "comparison",
+      config: {
+        title: "Dual vs Cooperative Federalism",
+        left: { name: "Dual federalism", items: ["Layer cake image", "Powers clearly separated", "No intervention between levels", "Protects local jurisdiction", "Tension and less cooperation"] },
+        right: { name: "Cooperative federalism", items: ["Marble cake image", "Powers shared and overlapping", "Levels collaborate", "Solves complex shared problems", "Reduces state powers"] }
+      }
+    },
+    {
+      type: "tableVisual",
+      config: {
+        title: "Advantages and Disadvantages of Each Type",
+        headers: ["Type", "Advantages", "Disadvantages"],
+        rows: [
+          ["Dual federalism", "Protects local jurisdictions; local laws suit local needs", "Constant tension; less cooperation; weaker unity"],
+          ["Cooperative federalism", "Efficient shared services; practical for complex problems", "Decrease in the powers of the states; federal intervention"]
+        ]
+      }
+    },
+    {
+      type: "qa",
+      config: {
+        title: "Exam Quick-Check",
+        pairs: [
+          { q: "Which image describes dual federalism?", a: "The layer cake, because powers are clearly separated." },
+          { q: "Which image describes cooperative federalism?", a: "The marble cake, because powers swirl and mix together." },
+          { q: "In a confederation, who holds direct authority over citizens?", a: "The central government does not; the states are dominant." },
+          { q: "What is one advantage of cooperative federalism?", a: "National and state governments work together to provide services efficiently." },
+          { q: "What is one disadvantage of dual federalism?", a: "It keeps tension between the state and federal governments high." }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "Which statement describes dual federalism?", options: ["Powers are shared and overlapping", "Government authority is clearly divided between state and national governments", "There is no state government", "Only the central government has powers"], answer: 1, difficulty: 1, explanation: "Dual federalism clearly divides government authority between state and national governments." },
+    { type: "tf", q: "Cooperative federalism is also known as marble cake federalism.", answer: true, difficulty: 1, explanation: "Cooperative federalism is called marble cake federalism because powers mix together." },
+    { type: "short", q: "What other name is given to dual federalism?", answer: "layer cake federalism|layer cake", difficulty: 1, explanation: "Dual federalism is often called layer cake federalism." },
+    { type: "mcq", q: "In con-federal arrangements:", options: ["the central government has direct authority over citizens", "the central government has no direct authority over citizens' lives", "the states have no power at all", "there is no constitution"], answer: 1, difficulty: 2, explanation: "In con-federal arrangements the central government has no direct authority over citizens' lives." },
+    { type: "mcq", q: "Which is an advantage of dual federalism?", options: ["It increases tension between the levels", "It protects local jurisdictions from federal overreach", "It weakens the unity of the states", "It removes all local laws"], answer: 1, difficulty: 2, explanation: "Dual federalism protects local jurisdictions and prevents the federal government from holding too much power." },
+    { type: "concept", q: "Give the name of the classification in which an existing state restructures itself to hold its diverse groups together.", answer: "holding-together federalism|holding together federalism", difficulty: 2, explanation: "This is holding-together federalism, the pattern followed by Ethiopia." },
+    { type: "tf", q: "One disadvantage of cooperative federalism is a decrease in the powers of the states.", answer: true, difficulty: 2, explanation: "The federal government may intervene in policies once reserved to the states." },
+    { type: "concept", q: "Explain in one sentence how federal laws differ from state laws in a federation.", answer: "federal laws apply in all states while state laws apply only in their own region|federal laws apply to all states", difficulty: 2, explanation: "Laws made by the states apply to their own regions, while federal laws apply to all states." },
+    { type: "mcq", q: "The federal government giving tax revenue to the states to fund interstate highways, with the states managing construction, is an example of:", options: ["dual federalism", "cooperative federalism", "a unitary system", "a confederation"], answer: 1, difficulty: 2, explanation: "Shared funding and implementation are features of cooperative federalism." },
+    { type: "mcq", q: "A disadvantage of dual federalism is that:", options: ["local laws can never be made", "tension between the state and federal governments stays at the brim", "the federal government controls everything", "states have no powers"], answer: 1, difficulty: 3, explanation: "Dual federalism keeps tension between the two levels high, harming cooperation." },
+    { type: "ordering", q: "Arrange the levels of federal power from the most local to the widest community.", options: ["State government", "Local government", "Federal government"], answer: 1, difficulty: 2, explanation: "The order is local government, then state government, then the federal government." }
+  ]
+};
+
+Lessons["g10-civics-uc5-t3"] = {
+  overview: "Although federations differ from one another, they share a set of essential features: a constitutional division of power, a decentralised system of government, and a written and supreme federal constitution. This lesson identifies and explains those common features.",
+  objectives: [
+    "State the main features that federations share",
+    "Explain how political power is divided in a federation",
+    "Distinguish a decentralised system from a federal system",
+    "Explain why a federal constitution must be written and supreme",
+    "Describe the role of a rigid constitution and a special judiciary in a federation"
+  ],
+  simple: "There is difficulty in defining exactly what counts as a federation, because federations change over time and take different forms. Even so, they share common characteristics. The first is the division of power: legislative, executive, judicial and financial powers are constitutionally divided between the federal government and the states, based on the desire to be united for some purposes and autonomous for others. The second is a decentralised system of government, although in a true federation the division of power is constitutionally guaranteed and the states are not creations of the federal government. The third is a written and supreme federal constitution to which both levels must submit. Federations also need a rigid constitution, a special judiciary and separate governments with a bicameral legislature.",
+  detailed: "<p><b>The search for common features.</b> There is admittedly difficulty in defining what we mean by federations. Like many concepts and institutions, federations are in a process of change, and the ways they manifest themselves in different polities are far from the same. Nonetheless, many continue to speak and write about federations believing that they share certain common characteristics. By way of summary, the essential features characterising a federal state structure can be listed and explained.</p><p><b>Division of power.</b> No one contends the fact that federations are distinguished from other polities primarily by the fact that political power, commonly related to legislative, executive, judicial and financial functions, is constitutionally divided between the federal government and the states. This is indirectly based on the dual principle implicit in every federation: the desire to be united and to be autonomous. Federations share powerful motives to be united for certain purposes and deep-rooted motives for autonomous states for other purposes. The federal government is often empowered with those powers that are shared in common, and the states are empowered with those powers considered relevant for the expression of regional identity.</p><p><b>Decentralised system of government.</b> As opposed to confederations, in decentralised governments the units, often called local governments, are subordinate to the centre. However wide the powers they may exercise, the local governments are merely creations of the centre by a statute, and as a result they may be wiped out by the centre at any time. The arrangement presupposes the existence of a central authority that may delegate a portion of its authority to the local governments, but such delegation is subject to unilateral withdrawal, amendment or revocation by the centre. In some cases absorbing a local government may be politically unwise even when it is legally possible, but this does not change the theory that they are subject to unilateral revocation. In decentralised systems the emphasis is on self-rule rather than on shared rule.</p><p><b>The federal alternative to mere decentralisation.</b> In a federation, on the other hand, the division of power is constitutionally guaranteed and the states are not creations of the federal government. Both the federal government and the states derive their authority from the federal constitution, and as a result neither level can change the terms of the compact as enshrined in the constitution. This is the essential difference between a decentralised unitary state, where delegated power can be taken back, and a true federation, where power belongs to each level in its own right.</p><p><b>A written and supreme federal constitution.</b> A shared feature of federations is that the division of power between the federal government and the states is based on a written and supreme federal constitution to which both orders of government must submit. Federations originate from particular bargains struck at a particular time and designed to serve for generations, so written constitutions are necessary records of the terms of the bargain. The terms of the agreement that establish the federal government and the states, and that distribute powers between them, must be enshrined in a supreme federal constitution which is binding. This is a logical necessity: if the two levels are to remain autonomous within their own spheres, the authority of one should not depend on the other but must derive from something supreme to both.</p><p><b>Rigid constitution, special judiciary and separate governments.</b> The constitution of a federation should be more or less rigid, because a flexible constitution would allow the central government to curtail the autonomy of the federating states. Because disputes may arise between the centre and the units, or between one unit and another, a special judiciary with wide powers must be established to adjudicate them in the light of the constitution. This court acts as the custodian and guardian of the constitution and may declare any law, national or local, invalid if it is at variance with the constitution. In addition, both the centre and the units have their own separate governmental apparatus, and the Ethiopian constitution provides a bicameral legislature made up of the House of Peoples Representatives and the House of Federation.</p>",
+  keyTerms: [
+    { term: "Division of power", def: "The constitutional splitting of legislative, executive, judicial and financial power between the federal government and the states." },
+    { term: "Regional identity", def: "The collective characteristics of a people that the states are empowered to protect and express." },
+    { term: "Decentralised system", def: "A system in which local governments are subordinate to the centre and may be revoked by it." },
+    { term: "Unilateral revocation", def: "The power of the centre to take back delegated authority on its own decision alone." },
+    { term: "Supreme constitution", def: "The written constitution that binds both the federal government and the states and from which both derive their authority." },
+    { term: "Rigid constitution", def: "A constitution that is difficult or slow to change because of a detailed and lengthy amendment process." },
+    { term: "Special judiciary", def: "A court with wide powers that adjudicates constitutional disputes and acts as the guardian of the constitution." },
+    { term: "Bi-cameral legislature", def: "A legislature that comprises two houses, as in Ethiopia's House of Peoples Representatives and House of Federation." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "A region has broad powers but its local government was created by a statute of the centre and can be dissolved by the centre at any time. Is this a federation?",
+      given: "The unit exercises wide powers but is a creation of the centre.",
+      formula: "Principle: in a true federation the division of power is constitutionally guaranteed and the states are not creations of the federal government.",
+      substitution: "A unit that the centre may wipe out by legislation is a subordinate local government, not a federal state.",
+      calculation: "Because the unit is subject to unilateral revocation, it fails the federal test and the system is only decentralised.",
+      answer: "No. It is a decentralised system, not a federation."
+    },
+    {
+      problem: "A national law is passed that conflicts with the federal constitution. What does the special judiciary of a federation do?",
+      given: "A law is at variance with the supreme constitution.",
+      formula: "Principle: the special judiciary is the custodian and guardian of the constitution and may declare invalid any law at variance with it.",
+      substitution: "A conflicting law fails the test of conformity with the supreme constitution.",
+      calculation: "Applying the constitutional test, the law must be declared invalid, whether it is national or local.",
+      answer: "The court declares the law invalid because the constitution is the supreme law."
+    },
+    {
+      problem: "A federation may be amended by a simple majority of the central parliament whenever it wishes. Explain the problem using the features of federalism.",
+      given: "The constitution can be changed easily by the centre alone.",
+      formula: "Principle: the constitution of a federation should be more or less rigid, since a flexible one lets the centre curtail state autonomy.",
+      substitution: "An easily changed constitution lets the centre alter the division of power on its own.",
+      calculation: "Without rigidity the states lose constitutional protection, so the arrangement ceases to be a genuine federation.",
+      answer: "The constitution must be rigid enough to protect the states from the centre acting alone."
+    }
+  ],
+  commonMistakes: [
+    "Thinking that any decentralised system is automatically a federation.",
+    "Believing that a federal state derives its authority from the federal government rather than from the constitution.",
+    "Assuming the federal constitution can be changed by one level of government alone.",
+    "Forgetting that the constitution of a federation must be written, supreme and more or less rigid.",
+    "Thinking a special judiciary is optional and that constitutional disputes need no court.",
+    "Confusing self-rule with shared rule when describing a decentralised system."
+  ],
+  applications: [
+    "Using the FDRE constitution to see how federal, state and concurrent powers are listed.",
+    "Following a case where the House of Federation interprets the constitution and settles a dispute.",
+    "Comparing the powers of your regional state council with those of the federal parliament.",
+    "Discussing why the constitution must be amended through a special, difficult process.",
+    "Explaining to classmates why the same law cannot apply in every region in exactly the same way."
+  ],
+  summary: "Federations are difficult to define precisely because they keep changing, but they share essential features. Power is constitutionally divided between the federal government and the states, reflecting the desire to be united and autonomous at the same time. A federation differs from a merely decentralised system because its division of power is constitutionally guaranteed, and it rests on a written, supreme and more or less rigid constitution, a special judiciary to guard it, and separate governments including a bicameral legislature.",
+  visuals: [
+    {
+      type: "mindMap",
+      config: {
+        title: "Key Features of Federalism",
+        center: "Federal Features",
+        branches: [
+          { label: "Division of power", items: ["Legislative", "Executive", "Judicial", "Financial"] },
+          { label: "Constitutional guarantee", items: ["States are not creations of the centre", "Neither level can change the terms alone"] },
+          { label: "Written and supreme constitution", items: ["Records the bargain", "Binding on both levels"] },
+          { label: "Supporting institutions", items: ["Rigid constitution", "Special judiciary", "Separate governments"] }
+        ]
+      }
+    },
+    {
+      type: "comparison",
+      config: {
+        title: "Decentralised System vs Federation",
+        left: { name: "Decentralised system", items: ["Local units subordinate to the centre", "Created by statute", "May be abolished by the centre", "Emphasis on self-rule"] },
+        right: { name: "Federation", items: ["States are not created by the centre", "Division of power constitutionally guaranteed", "Neither level can revoke the terms", "Self-rule and shared rule"] }
+      }
+    },
+    {
+      type: "qa",
+      config: {
+        title: "Exam Quick-Check",
+        pairs: [
+          { q: "Why must a federal constitution be written?", a: "It records the terms of the bargain that established the federation." },
+          { q: "Why should a federal constitution be rigid?", a: "A flexible one would let the centre curtail the autonomy of the states." },
+          { q: "What does the special judiciary act as?", a: "The custodian and guardian of the constitution." },
+          { q: "Which powers are divided in a federation?", a: "Legislative, executive, judicial and financial powers." },
+          { q: "In a federation, from what source do both levels derive authority?", a: "The federal constitution." }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "Federations are distinguished from other polities primarily because political power is:", options: ["held by one central body", "constitutionally divided between the federal government and the states", "given to the courts only", "held by local governments only"], answer: 1, difficulty: 1, explanation: "Political power is constitutionally divided between the federal government and the states." },
+    { type: "tf", q: "In a federation the states are creations of the federal government.", answer: false, difficulty: 2, explanation: "In a federation the states are not creations of the federal government; both levels derive authority from the constitution." },
+    { type: "short", q: "Which branch of government adjudicates constitutional disputes in a federation?", answer: "the special judiciary|special judiciary|the courts", difficulty: 1, explanation: "A special judiciary with wide powers adjudicates constitutional disputes." },
+    { type: "mcq", q: "In a decentralised system of government, local governments:", options: ["are equal partners of the centre", "are subordinate to the centre and may be revoked by it", "derive power from the constitution in their own right", "cannot be abolished at all"], answer: 1, difficulty: 2, explanation: "Local governments in a decentralised system are subordinate to the centre and subject to unilateral revocation." },
+    { type: "mcq", q: "Which of the following is a key feature of federalism?", options: ["An unwritten and changeable constitution", "A written and supreme federal constitution", "A single house of parliament only", "The absence of any court"], answer: 1, difficulty: 1, explanation: "The division of power is based on a written and supreme federal constitution." },
+    { type: "concept", q: "Give the name for the principle that allows the centre to take back delegated authority on its own decision.", answer: "unilateral revocation|unilateral withdrawal", difficulty: 2, explanation: "Delegation in a decentralised system is subject to unilateral withdrawal or revocation by the centre." },
+    { type: "tf", q: "A constitution of a federation should be more or less rigid.", answer: true, difficulty: 2, explanation: "A rigid constitution protects the autonomy of the federating states from the centre." },
+    { type: "concept", q: "Explain in one sentence why the authority of each level of government must come from the constitution.", answer: "so that neither level depends on the other|the authority of one should not depend on the other", difficulty: 3, explanation: "If the two levels are to remain autonomous, the authority of one should not depend on the other." },
+    { type: "mcq", q: "The dual principle implicit in every federation is the desire to be:", options: ["wealthy and powerful", "united and autonomous", "large and centralised", "isolated and independent"], answer: 1, difficulty: 2, explanation: "The underlying notion is the desire to be united for some purposes and autonomous for others." },
+    { type: "mcq", q: "Which body may declare a national or local law invalid when it conflicts with the constitution?", options: ["The special judiciary", "The regional council", "The federal police", "A political party"], answer: 0, difficulty: 2, explanation: "The special judiciary is vested with power to declare any law at variance with the constitution invalid." },
+    { type: "ordering", q: "Arrange the creation of a federal bargain in the correct order.", options: ["Both levels are bound by the supreme constitution", "A written constitution records the terms of the bargain", "A bargain is struck between the union and the states"], answer: 2, difficulty: 2, explanation: "The bargain comes first, then it is written into a constitution that binds both levels." }
+  ]
+};
+
+Lessons["g10-civics-uc5-t4"] = {
+  overview: "Federalism has clear advantages, such as dividing power, protecting against tyranny and increasing citizen participation, and clear disadvantages, such as conflicts of authority, regionalism and inequalities between states. This lesson compares both sides.",
+  objectives: [
+    "List the main advantages of a federal form of government",
+    "Explain how federalism protects citizens against tyranny",
+    "List the main disadvantages of a federal form of government",
+    "Explain how federalism can produce inequalities between states",
+    "Evaluate a federal arrangement by weighing its advantages against its disadvantages"
+  ],
+  simple: "Federalism is a form of government that allows more than one central entity to have power. There is a federal government above all others, and smaller localised governments that take control of local and regional issues, so that services can better suit the needs of each area. Its advantages include the division of powers, separate governments, a written constitution, a rigid constitution, a special judiciary, a better understanding of local issues, increased citizen participation, protection against tyranny, and greater efficiency. Its disadvantages include conflict of authority between the levels, regionalism replacing patriotism, a lack of accountability, inequalities between states, and the blockage of national policies by states. Every country must weigh these gains and losses.",
+  detailed: "<p><b>What federalism offers.</b> Federalism is a form of government that allows for more than one central entity to have power. This means that there is a federal government which is above all others, and smaller, more localised forms of government that take control of local and regional issues. The idea behind this is to be able to better suit the needs of each area of the country, although some issues certainly arise.</p><p><b>Advantages of structure.</b> In a federal government the powers of administration are divided between the centre and the units, and the constitution may either state what powers the federal authority shall have and leave the remainder to the units, or state what powers the units shall have and leave the remainder to the federal authority. Both the centre and the units have their own separate sets of governmental apparatus, so each has separate legislatures and separate executives. A federal government must also have a written constitution, because a federation is a political partnership of various states and therefore needs a written agreement.</p><p><b>Advantages of a rigid constitution and a special judiciary.</b> The constitution of a federation should be more or less rigid, because it is regarded as a sacred agreement and a flexible constitution would let the central government curtail the autonomy of the federating states. In a federation constitutional disputes may arise between the centre and the units, or between one unit and another, and all such disputes must be adjudicated in the light of the constitution. For this purpose a special judiciary with wide powers must be established to act as the custodian and guardian of the constitution, with power to declare any national or local law invalid if it is at variance with the constitution. The constitution is thus the supreme law in a federation, to which both the centre and the states must adhere.</p><p><b>Advantages for better government.</b> The central government has no true way to understand what issues, demands and changes are needed in every area of the country, and this is why federalism is such a great advantage: the smaller branches of local government are right in the middle of local society and are better suited to deal with problems at the grass roots. Because a dual level of government exists, federalism also increases the level of citizen participation in government decision making at the grass roots.</p><p><b>Advantages of protection and efficiency.</b> One of the most important points of federalism is that dividing power between the national government and the state governments, and spreading national power among three branches that check and balance each other, serves as a deterrent to tyranny and runaway power. Federalism is also more efficient: when some powers are dispersed among the states, states can solve their own problems in the way that works best for them. Trying to have a national solution to every problem, sometimes called the cookie-cutter method of law and policy making, ends up with solutions that are more effective in some states and less effective in others.</p><p><b>Disadvantages of federalism.</b> The biggest problem with two bodies of government in power is the power struggle, because both the central and the state governments intend to assert their power over the other, which at times causes conflict, and a long-term conflict can even create hurdles in national development and prosperity. Federalism promotes smaller levels of government and therefore smaller levels of pride, and it can put one region against another and take away from the patriotic feeling that should be present all over the country. Because responsibility is shared, it becomes easy for one sector to release its responsibility to the other, producing a lack of accountability when something goes wrong. Federalism also allows regional inequalities, for example when education, taxes, health care or welfare are state matters, some states spend far more per capita than others. Finally, states can fight against certain national laws by challenging them in court, by failing to enforce them, or by deliberately obstructing their enforcement.</p>",
+  keyTerms: [
+    { term: "Division of powers", def: "The distribution of the powers of administration between the centre and the units in a federal government." },
+    { term: "Separate government", def: "The principle that both the centre and the units have their own governmental apparatus, including their own legislatures and executives." },
+    { term: "Rigid constitution", def: "A constitution that is more or less difficult to change, protecting the federation from easy interference by the centre." },
+    { term: "Special judiciary", def: "A court that adjudicates constitutional disputes and acts as the custodian and guardian of the constitution." },
+    { term: "Tyranny", def: "The harsh or unjust exercise of unchecked power, against which the division of power protects citizens." },
+    { term: "Regionalism", def: "Excessive loyalty to one's own region, which can weaken patriotism and set one region against another." },
+    { term: "Lack of accountability", def: "The situation in which levels of government blame each other instead of taking responsibility." },
+    { term: "Regional inequality", def: "Differences between states in services such as education, health care, taxes and welfare." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "A single party controls the national government and wants to write all laws without any check. Using the advantages of federalism, explain how a federal structure responds.",
+      given: "One body of government seeks unchecked control of all law making.",
+      formula: "Principle: dividing power between the national and state governments and among three branches deters tyranny and runaway power.",
+      substitution: "In a federation, national power is spread among three branches that check and balance each other, and the states keep their own powers.",
+      calculation: "Applying the federal structure, no single body can capture all power, so tyranny is prevented.",
+      answer: "Federalism protects against tyranny by dividing and balancing power."
+    },
+    {
+      problem: "Region A spends far more per student on education than Region B because education is a regional matter. Which disadvantage does this show, and how could it be reduced?",
+      given: "Education funding is a state or regional responsibility and differs greatly between regions.",
+      formula: "Principle: federalism allows regional inequalities in services such as education.",
+      substitution: "Unequal per capita spending on a shared public service produces a disparity.",
+      calculation: "The difference matches the disadvantage of inequalities between states, which can be reduced by federal equalisation support.",
+      answer: "It shows inequalities between states; federal transfers or shared standards can reduce the gap."
+    },
+    {
+      problem: "A regional government refuses to enforce a national law it dislikes. Identify the disadvantage illustrated and a lawful remedy.",
+      given: "A region obstructs the enforcement of a valid national law.",
+      formula: "Principle: a disadvantage of federalism is the blockage of national policies by states.",
+      substitution: "Deliberate non-enforcement of a national law is exactly the described obstacle.",
+      calculation: "Because the constitution is supreme, the dispute should go to the special judiciary rather than to open obstruction.",
+      answer: "It shows the blockage of national policies; the dispute should be decided by the constitutional court."
+    },
+    {
+      problem: "A citizen asks whether federalism is good or bad. Using the lesson, give a balanced answer.",
+      given: "Federalism has nine advantages and several disadvantages.",
+      formula: "Principle: federalism both protects and divides, and both efficiency and inequality can result.",
+      substitution: "Protection against tyranny, participation and efficiency are weighed against conflict, regionalism, weak accountability and inequality.",
+      calculation: "Since real gains and real costs both exist, judgement must depend on how well a country manages them.",
+      answer: "It is neither simply good nor simply bad; its value depends on how well the gains outweigh the costs."
+    }
+  ],
+  commonMistakes: [
+    "Listing only the advantages and ignoring the disadvantages of federalism.",
+    "Thinking that federalism guarantees equal services in every region automatically.",
+    "Believing that shared responsibility always increases accountability, when it can weaken it.",
+    "Assuming regionalism and patriotism always support each other.",
+    "Forgetting that the special judiciary guards the constitution rather than the government of the day.",
+    "Thinking the cookie-cutter method of national policies works equally well in every area."
+  ],
+  applications: [
+    "Supporting local development plans in your woreda that respond to local needs rather than uniform national plans.",
+    "Taking part in local elections and community meetings, which federalism encourages.",
+    "Noticing differences in services between regions and asking why equalisation is needed.",
+    "Trusting courts rather than force when a region and the centre disagree about a law.",
+    "Appreciating that power is checked and balanced so that no single body rules alone."
+  ],
+  summary: "Federalism allows more than one centre of power so that government can suit local needs. Its advantages include the division of powers, separate governments, a written and rigid constitution, a special judiciary, a better understanding of local issues, more citizen participation, protection against tyranny and greater efficiency. Its disadvantages include conflict of authority, regionalism over patriotism, lack of accountability, inequalities between states and the blockage of national policies by states.",
+  visuals: [
+    {
+      type: "comparison",
+      config: {
+        title: "Advantages vs Disadvantages of Federalism",
+        left: { name: "Advantages", items: ["Division of powers", "Written and rigid constitution", "Special judiciary", "Local understanding and participation", "Protection against tyranny", "More efficiency"] },
+        right: { name: "Disadvantages", items: ["Conflict of authority", "Regionalism over patriotism", "Lack of accountability", "Inequalities between states", "Blockage of national policies"] }
+      }
+    },
+    {
+      type: "tableVisual",
+      config: {
+        title: "Each Advantage and Its Cost",
+        headers: ["Advantage", "Possible cost"],
+        rows: [
+          ["Division of powers", "Tension and a power struggle between the levels"],
+          ["Local laws suit local needs", "Inequalities between states"],
+          ["Increased citizen participation", "Stronger regionalism and weaker patriotism"],
+          ["Shared government", "Lack of accountability when things go wrong"],
+          ["States block national laws", "National policies may be obstructed"]
+        ]
+      }
+    },
+    {
+      type: "mindMap",
+      config: {
+        title: "Weighing Federalism",
+        center: "Federalism",
+        branches: [
+          { label: "Protects", items: ["Against tyranny", "Checks and balances", "Local autonomy"] },
+          { label: "Improves", items: ["Efficiency", "Participation", "Local understanding"] },
+          { label: "Risks", items: ["Power struggle", "Weaker accountability", "Regional inequality"] },
+          { label: "Requires", items: ["Written constitution", "Rigid rules", "Special judiciary"] }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "Which of the following is an advantage of federalism?", options: ["Conflict of authority", "Protection against tyranny", "Regionalism over patriotism", "Lack of accountability"], answer: 1, difficulty: 1, explanation: "Federalism divides power and spreads it among branches, which deters tyranny." },
+    { type: "tf", q: "A federal government must have a written constitution.", answer: true, difficulty: 1, explanation: "A federation is a political partnership and therefore needs a written agreement." },
+    { type: "short", q: "What must a federation establish to adjudicate constitutional disputes?", answer: "a special judiciary|special judiciary|court", difficulty: 1, explanation: "A special judiciary with wide powers is established to guard the constitution." },
+    { type: "mcq", q: "The cookie-cutter method of law and policy making is criticised because:", options: ["it is too expensive to write", "a national solution may be effective in some states and less effective in others", "it gives too much power to the states", "it requires a rigid constitution"], answer: 1, difficulty: 2, explanation: "Uniform national solutions suit some states and not others, which reduces efficiency." },
+    { type: "mcq", q: "Which is a disadvantage of federalism?", options: ["Increased citizen participation", "Inequalities between states", "Protection against tyranny", "A special judiciary"], answer: 1, difficulty: 1, explanation: "Federalism allows regional inequalities in services such as education, taxes and health care." },
+    { type: "concept", q: "Give the term for the situation in which each level of government blames the other instead of taking responsibility.", answer: "lack of accountability", difficulty: 2, explanation: "Shared responsibility can produce a lack of accountability." },
+    { type: "tf", q: "Under federalism, citizens can participate in decision making at the grass roots.", answer: true, difficulty: 1, explanation: "The dual level of government increases citizen participation at the grass roots." },
+    { type: "concept", q: "Explain in one sentence why a flexible constitution is dangerous in a federation.", answer: "it allows the central government to curtail the autonomy of the states|the centre could reduce state autonomy", difficulty: 3, explanation: "A flexible constitution allows the centre to reduce the autonomy of the federating states." },
+    { type: "mcq", q: "The biggest problem arising from having two bodies of government in power is:", options: ["too much efficiency", "the power struggle between them", "too little taxation", "the absence of a constitution"], answer: 1, difficulty: 2, explanation: "Both levels intend to assert their power over the other, which causes conflict." },
+    { type: "mcq", q: "The special judiciary in a federation should act as:", options: ["the head of the executive", "the custodian and guardian of the constitution", "a political party", "a regional council"], answer: 1, difficulty: 2, explanation: "It acts as the custodian and guardian of the constitution and may declare invalid conflicting laws." },
+    { type: "ordering", q: "Arrange these duties of a court in a federal dispute in the correct order.", options: ["Declare the law invalid if it conflicts with the constitution", "Receive a dispute between the centre and a unit", "Compare the disputed law with the constitution"], answer: 1, difficulty: 2, explanation: "The court first receives the dispute, then compares the law with the constitution, and only then decides." }
+  ]
+};
+
+Lessons["g10-civics-uc5-t5"] = {
+  overview: "Ethiopia adopted federalism mainly to reconcile its ethnic diversity with political unity after decades of a highly centralised state. This lesson explains the rationale, the features of Ethiopian federalism, and the challenges it still faces.",
+  objectives: [
+    "Explain why Ethiopia adopted a federal system",
+    "Describe how Ethiopian federalism accommodates diversity",
+    "State the constitutional division of federal, state and concurrent powers",
+    "Describe the structure of the Ethiopian federal legislature",
+    "Identify the challenges facing Ethiopian federalism"
+  ],
+  simple: "The rationale of federalism in contemporary Ethiopia is primarily the reconciliation of ethnic diversity with political unity. For almost a century Ethiopia was a highly centralised unitary state, despite the many multiethnic groups living within it. The idea of creating a centralised and unified state proved ineffective, and governments used to propagate the slogans of one nation, one government, one country, one language and one religion, which sidelined the virtues of diversity. Since 1995 Ethiopia has implemented a federal system, which the constitution adopted to accommodate the rights, needs, claims and demands of its diverse ethnic groups. The federal features include a constitutional division of powers and a bicameral legislature made up of the House of Peoples Representatives and the House of Federation. Federalism has brought both successes and challenges.",
+  detailed: "<p><b>Why Ethiopia adopted federalism.</b> The rationale of federalism in contemporary Ethiopia is primarily the reconciliation of ethnic diversity with political unity. In many ways the present federal system is the culmination of a long period of searching for a constitutional formula which can unite and contain the Ethiopian peoples. Ethiopia has been a country that, for almost a century, experienced a highly centralised unitary state structure, irrespective of the diverse multiethnic groups that exist within the state.</p><p><b>The failure of the centralised past.</b> The idea of creating a centralised and unified Ethiopian state proved to be ineffective. Any viable government structure must be marked by a considerable degree of decentralisation, and federalism could therefore offer a promising formula for a smooth and satisfactory process of unity. The introduction of a federal system was denied attention and recognition during past centuries, as most governments used to propagate the idea of one nation, one government, one country, one nation, one language and one religion. This completely sidelined the virtues of diversity.</p><p><b>Accommodating the interests of ethnic groups.</b> The existing federal arrangement, the Federal Democratic Republic of Ethiopia, is devised with the aim of accommodating the interests of distinct ethnic groups in Ethiopia. Federalism is one of the essential elements for accommodating the rights, needs, claims and demands emerging among diverse ethnic groups. The reason Ethiopia has recognised federalism as an essential mechanism in the current constitution is to accommodate its multi-faceted diversity. Ethiopia has been implementing federalism since 1995, with both a great deal of success and challenges.</p><p><b>Feature one: the constitutional division of power.</b> Federalism as a system of government has two levels of government within a state: the state governments and the federal government. The same applies to the Ethiopian federal structure, and in such states a distribution of power between the two levels is a necessary condition, without which the system itself loses its basic essence. The federal constitution regulates inter-government relations and explicitly lists the federal powers, the state powers and the concurrent powers, while leaving residual power to the state. Respect for and mutual non-intervention in each other's powers is also part of the constitution: Article 50(8) declares that federal and state powers are defined by the constitution, that the states shall respect the powers of the federal government, and that the federal government shall likewise respect the powers of the states. Both therefore have a constitutionally limited jurisdiction of power, with the restriction of crossing over into each other's affairs.</p><p><b>Feature two: the bi-cameral legislature.</b> In the case of Ethiopia the constitution provides two federal houses. The House of Peoples Representatives is the supreme political organ in the country, and the House of Federation is the upper house. Article 53(3) states that the highest authority of the federal government rests upon the House of Peoples Representatives, and Article 55 states its powers and functions, beginning with the power to legislate in all matters exhaustively enumerated to the federal government under Article 51. The House of Peoples Representatives, together with the House of Federation, can take appropriate measures on human rights violations that cannot be controlled by any regional state, and it may question the prime minister and other federal officials and, upon the request of one third of its members, discuss any matter pertaining to the power of the executive.</p><p><b>Feature two continued: the House of Federation.</b> The House of Federation is a representative organ whose members represent each nation, nationality and peoples, and it is made up of representatives of nations and nationalities for a tenure of five years. The constitution specifies how many representatives a nationality group shall have: each nationality is represented by at least one member, and larger ethnic groups receive more representation because the provision grants one additional representative for each one million additional population. These members can be elected either directly by the people or indirectly by the state council. The Ethiopian constitution empowers the House of Federation to interpret the constitution.</p><p><b>Challenges to Ethiopian federalism.</b> Federalism is becoming the basis of the political organisation of several states, including Ethiopia, Nigeria, India, Brazil, the United States, Canada, Australia and Germany, although its nature varies from one country to another. Among Ethiopia's peculiar features is the explicit acknowledgement of national self-determination and its firm position to institutionalise the principle, since the constitution defines the right of every group to constitute nations, nationalities and peoples and, rather than recognising only historically mobilised nationalities, prefers a straightforward grant of self-determination to all. One drawback of this approach is that some constituent units have not yet been able to evolve as viable regional governments: some do not seem to have acquired the status of a nation or nationality which the constitution ascribes to them, and have not been able to articulate regional interests worth constituting a federal unit. Lack of experience, skilled manpower and resources and historical marginalisation may have aggravated the problem, but the fact that there is more trouble in some constituent states that have not been historically mobilised calls for some sort of asymmetric federal system, at least in the short run, with the powers of the federal government being extensive in relation to such states.</p>",
+  keyTerms: [
+    { term: "Diversity", def: "The combination of our differences that shape our view of the world, our perspective and our approach." },
+    { term: "Federal Democratic Republic of Ethiopia", def: "The official federal arrangement established in 1995 to accommodate Ethiopia's distinct ethnic groups." },
+    { term: "Concurrent powers", def: "Powers that the federal government and the states may exercise together, as listed in the constitution." },
+    { term: "Residual power", def: "Power left to the states after the federal and concurrent powers have been enumerated." },
+    { term: "Inter-government relations", def: "The constitutional relationship and working contact between the federal government and the regional states." },
+    { term: "House of Peoples Representatives", def: "The supreme political organ and first federal house, which legislates on all federal matters under Article 51 and holds the highest authority of the federal government." },
+    { term: "House of Federation", def: "The upper house, composed of representatives of nations, nationalities and peoples, which also has the power to interpret the constitution." },
+    { term: "Asymmetric federal system", def: "A federal arrangement in which the powers given to the federal government are more extensive in relation to weaker or less developed constituent states." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "Ethiopia was a highly centralised state for nearly a century but contains many multiethnic groups. Explain why this combination pushed the country towards federalism.",
+      given: "A centralised unitary structure existed alongside deep ethnic diversity.",
+      formula: "Principle: the rationale of Ethiopian federalism is the reconciliation of ethnic diversity with political unity.",
+      substitution: "Centralised rule proved ineffective and sidelined the virtues of diversity.",
+      calculation: "Since unity could not be secured by centralisation alone, a federal formula was adopted to unite and contain the peoples.",
+      answer: "Federalism was adopted because centralisation failed to accommodate diversity while preserving unity."
+    },
+    {
+      problem: "A regional state wants to know which powers belong to it. Using the constitution, explain how the powers are arranged.",
+      given: "The federal constitution lists federal powers, state powers and concurrent powers.",
+      formula: "Principle: Article 50(8) states that federal and state powers are defined by the constitution and each level must respect the other.",
+      substitution: "Enumerated federal powers stay with the centre; enumerated and residual powers stay with the states; concurrent powers are shared.",
+      calculation: "Applying the listing, the state may exercise the state and concurrent powers and the residual power left to it, without crossing into federal affairs.",
+      answer: "The state holds the listed state powers, shared concurrent powers and residual powers, and must respect federal powers."
+    },
+    {
+      problem: "A nationality group with a small population claims at least one seat in the House of Federation. Is the claim supported by the constitution?",
+      given: "House of Federation seats are allocated among nations, nationalities and peoples.",
+      formula: "Principle: each nationality is represented by at least one member, and each additional one million population adds one more representative.",
+      substitution: "The minimum guarantee of one member applies to every nationality regardless of size, while larger groups gain extra seats.",
+      calculation: "Applying the rule, the small nationality is guaranteed at least one seat and the large group receives more.",
+      answer: "Yes. Every nationality is represented by at least one member, and larger groups receive additional representatives."
+    },
+    {
+      problem: "A constituent state lacks skilled manpower and resources and has not been historically mobilised. What type of federal arrangement does the textbook suggest for such states?",
+      given: "Some constituent units have not evolved as viable regional governments.",
+      formula: "Principle: such states call for some sort of asymmetric federal system, at least in the short run.",
+      substitution: "In relation to weak constituent states, the powers of the federal government need to be extensive compared to those of the regions.",
+      calculation: "Applying this reasoning, the federal government should carry more of the burden in those states temporarily.",
+      answer: "An asymmetric federal arrangement, with more extensive federal powers for the weaker states in the short run."
+    }
+  ],
+  commonMistakes: [
+    "Thinking Ethiopia was always a federal state, when it was centralised for almost a century.",
+    "Believing that federalism in Ethiopia exists to divide the country rather than to unite it in diversity.",
+    "Confusing the House of Peoples Representatives with the House of Federation.",
+    "Assuming that all regional states have equal capacity to serve as viable federal units.",
+    "Thinking that one nation, one language slogans protected diversity, when they sidelined it.",
+    "Forgetting that the constitution itself acknowledges national self-determination."
+  ],
+  applications: [
+    "Reading the FDRE constitution to see where federal, state and concurrent powers are listed.",
+    "Following the House of Federation when it interprets the constitution or settles a dispute.",
+    "Taking part in regional and local elections that federal restructuring made possible.",
+    "Discussing with classmates how Ethiopian federalism seeks both unity and ethnic self-rule.",
+    "Noticing how federal equalisation support helps weaker regional states build capacity."
+  ],
+  summary: "Ethiopia adopted federalism to reconcile ethnic diversity with political unity after almost a century of a highly centralised unitary state that sidelined diversity. Since 1995 the Federal Democratic Republic of Ethiopia has listed federal, state and concurrent powers in its constitution, left residual power to the states, and built a bicameral legislature with the House of Peoples Representatives and the House of Federation, which represents every nation, nationality and peoples. Federalism has brought successes but still faces challenges, including constituent states that have not yet become viable regional governments, which calls for asymmetric federal arrangements in the short run.",
+  visuals: [
+    {
+      type: "mindMap",
+      config: {
+        title: "Ethiopian Federalism",
+        center: "FDRE Federalism",
+        branches: [
+          { label: "Rationale", items: ["Reconcile diversity with unity", "Replace centralisation"] },
+          { label: "Division of power", items: ["Federal powers", "State powers", "Concurrent powers", "Residual to states"] },
+          { label: "Legislature", items: ["House of Peoples Representatives", "House of Federation"] },
+          { label: "Challenges", items: ["Weak constituent states", "Capacity and resources"] }
+        ]
+      }
+    },
+    {
+      type: "tableVisual",
+      config: {
+        title: "The Two Federal Houses",
+        headers: ["House", "Who it represents", "Main role"],
+        rows: [
+          ["House of Peoples Representatives", "The people of Ethiopia as citizens", "Supreme political organ; legislates on federal matters and questions officials"],
+          ["House of Federation", "Nations, nationalities and peoples", "Represents groups and interprets the constitution"]
+        ]
+      }
+    },
+    {
+      type: "qa",
+      config: {
+        title: "Exam Quick-Check",
+        pairs: [
+          { q: "Since which year has Ethiopia implemented federalism?", a: "Since 1995." },
+          { q: "What is the main rationale of Ethiopian federalism?", a: "Reconciling ethnic diversity with political unity." },
+          { q: "Which house interprets the constitution?", a: "The House of Federation." },
+          { q: "How many members is each nationality guaranteed at least?", a: "At least one member." },
+          { q: "What type of arrangement is suggested for weak constituent states?", a: "An asymmetric federal system, at least in the short run." }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "The main rationale of federalism in contemporary Ethiopia is:", options: ["increasing the size of the army", "reconciling ethnic diversity with political unity", "abolishing regional governments", "keeping one official language only"], answer: 1, difficulty: 1, explanation: "The rationale is primarily the reconciliation of ethnic diversity with political unity." },
+    { type: "tf", q: "Before federalism, Ethiopia experienced a highly centralised unitary state structure for almost a century.", answer: true, difficulty: 1, explanation: "For almost a century Ethiopia had a highly centralised unitary state structure." },
+    { type: "short", q: "In which year did Ethiopia begin implementing its federal system?", answer: "1995", difficulty: 1, explanation: "Ethiopia has been implementing federalism since 1995." },
+    { type: "mcq", q: "The slogan of one nation, one language and one religion had the effect of:", options: ["strengthening diversity", "sidelining the virtues of diversity", "creating a federation", "increasing regional powers"], answer: 1, difficulty: 2, explanation: "This propaganda completely sidelined the virtues of diversity." },
+    { type: "mcq", q: "According to Article 50(8) of the FDRE constitution:", options: ["states may ignore federal powers", "the states and the federal government must respect each other's powers", "only the federal government has powers", "regions may cross into federal affairs"], answer: 1, difficulty: 2, explanation: "The states shall respect federal powers and the federal government shall respect state powers." },
+    { type: "concept", q: "Name the upper house of the Ethiopian federal legislature.", answer: "House of Federation|the house of the federation", difficulty: 1, explanation: "The House of Federation is the upper house." },
+    { type: "tf", q: "Each nationality in Ethiopia is represented in the House of Federation by at least one member.", answer: true, difficulty: 2, explanation: "Each nationality is represented at least by one member, with more for larger groups." },
+    { type: "concept", q: "Explain in one sentence why some weak constituent states call for an asymmetric federal system.", answer: "they have not yet evolved as viable regional governments|weak capacity requires more extensive federal powers", difficulty: 3, explanation: "Some states lack experience, manpower and resources, so federal powers need to be more extensive in relation to them." },
+    { type: "mcq", q: "Which power is given to the House of Federation in the Ethiopian constitution?", options: ["Commanding the army", "Interpreting the constitution", "Collecting all taxes", "Appointing regional governors"], answer: 1, difficulty: 2, explanation: "The Ethiopian constitution empowers the House of Federation to interpret the constitution." },
+    { type: "mcq", q: "Which of the following countries is named in the lesson as a state that implements federalism?", options: ["France", "India", "Japan", "Egypt"], answer: 1, difficulty: 2, explanation: "India is listed with Ethiopia, Nigeria, Brazil, the United States, Canada, Australia and Germany." },
+    { type: "ordering", q: "Arrange these Ethiopian federal features from the widest national organ to the group-based house.", options: ["House of Federation", "House of Peoples Representatives"], answer: 1, difficulty: 2, explanation: "The House of Peoples Representatives is the supreme political organ; the House of Federation follows as the upper, group-based house." }
+  ]
+};

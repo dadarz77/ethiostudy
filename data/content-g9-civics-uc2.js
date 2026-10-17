@@ -1,0 +1,758 @@
+/* Content: Grade 9 Citizenship Education - Unit 2: The Culture of Using Digital Technology (6 topics)
+   Source: MoE Citizenship Education Grade 9 Student Textbook, Unit 2. */
+window.Lessons = window.Lessons || {};
+
+Lessons["g9-civics-uc2-t1"] = {
+  overview: "Digital technology is the use of computers, tablets, mobile phones and the digital and social media reached through them on the internet. This lesson defines the concept and shows how deeply daily life in Ethiopia now depends on it.",
+  objectives: [
+    "Explain the concept of digital technology",
+    "Identify common examples of digital technologies",
+    "Describe the need for digital technology in daily life activities",
+    "Trace the origin of digital technology to the mid-20th century",
+    "Recognise how digital technology supports communication, learning and finance in Ethiopia"
+  ],
+  simple: "Digital technology means using computers, tablets, mobile phones and the digital and social media that are reached through those devices on the internet. It also includes newer communication technologies that strongly affect political, economic, social and cultural life. Digital technology moves information and data quickly from one part of the world to another, and between individuals, through mobile applications, social media platforms and digital marketing websites. It began in the mid-20th century and is now the most significant modern technology in both developed and developing countries, including Ethiopia. Common examples are computers, smartwatches, ATMs, digital cameras, automated vehicles, drones, Bitcoin and GPS. In Ethiopia, fast communication, money transfer, banking and access to education are now impossible without it.",
+  detailed: "<p><b>What digital technology is.</b> Digital technology refers to the use of computers, tablets, mobile phones and the digital and social media that are accessed on those devices through the internet. The concept may also involve new communication technologies that can have significant effects on the political, economic, social and cultural life of societies. The textbook defines it more broadly as a type of technology used to transfer information and to move data quickly, including all electronic tools, automatic systems, technological devices and resources that generate, process or store information.</p><p><b>How it moves information.</b> Digital technology plays a significant role in transferring information and data quickly from one section of the world to another and among individuals as well. This happens through mobile applications, social media platforms and digital marketing websites. Because huge amounts of information can be compressed onto small storage devices, it can be preserved and transported easily.</p><p><b>An age of dependence.</b> Today we live in the age of digital technology, in which our life heavily relies on different types of technologies. Technology touches every aspect of our life, making it easier, better and life changing. Through social networks and social media platforms there is now high interconnection between individuals and global societies, and many people use electronic devices such as computers and mobile phones in their daily life.</p><p><b>Where it came from.</b> Digital technology was started in the mid-20th century. It has now become the most significant modern technology, not only in developed countries but also in developing countries including Ethiopia. Its use and application are crucially important in day to day life, especially for communication speed, learning opportunities, social relations and money exchange in the finance sector.</p><p><b>Common examples.</b> The most common digital technologies used today include the computer, smartwatch, Automated Teller Machine (ATM), digital camera, automated vehicles, drone, Bitcoin and GPS. These are everyday tools rather than distant inventions; a student in Addis Ababa and a shopkeeper in Hawassa may both use several of them before noon.</p><p><b>Digital technology in Ethiopia.</b> In contemporary Ethiopia, easy and fast communication among individuals, money transfer, banking and access to education are impossible without digital technology. As digital citizens our individual life is highly dependent on modern digital media technologies. This may involve using a mobile phone to communicate with family members, using online services through the internet, and transferring money through mobile banking at any time. These technologies make life easier and better by saving the time and physical contact needed to get different kinds of services.</p>",
+  keyTerms: [
+    { term: "Digital technology", def: "A type of technology used to transfer information and to move data quickly, including electronic tools, automatic systems, devices and resources that generate, process or store information." },
+    { term: "Digital media", def: "Platform sites or spaces of multidirectional, instantaneous communication that operate using encoded machine-readable data formats." },
+    { term: "Digital world", def: "The emerging human world dominated by the use of technology in modern life, driven and transformed by digitized information and communication technologies." },
+    { term: "Social media", def: "A computer-based technology that facilitates the sharing of ideas, thoughts and information by building virtual networks and communities." },
+    { term: "Social network", def: "A type of social media that helps users exchange thoughts, ideas and content, often with people who share tastes and interests." },
+    { term: "Digital citizen", def: "A person who lives and takes part in daily life through modern digital media technologies such as mobile phones and the internet." },
+    { term: "Mobile banking", def: "A digital service that allows money transfer and banking transactions at any time using a mobile phone." },
+    { term: "Information and communication technology", def: "The field of electronic devices and systems, such as computers and the internet, used to create, store and share information." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "A rural student says there is no need for digital technology in her daily life. Use the concept of digital technology to assess this claim.",
+      given: "Digital technology includes computers, mobile phones, tablets and the digital and social media reached through the internet.",
+      formula: "Rule: digital technology is the whole range of electronic tools and systems that generate, process, store and transfer information.",
+      substitution: "Even in rural areas, mobile phones are used for communication, mobile banking and market information.",
+      calculation: "Since the definition covers cheap mobile devices and not only computers, the claim does not hold.",
+      answer: "The claim is not correct; digital technology, especially the mobile phone, is already part of rural daily life."
+    },
+    {
+      problem: "Ato Bekele sends money to his mother in Gondar from Addis Ababa at nine in the evening without travelling. Which use of digital technology does this show?",
+      given: "The transfer happens at any time and without physical contact.",
+      formula: "Principle: digital technology supports money exchange in the finance sector and saves time and physical contact.",
+      substitution: "Mobile banking transfers money between distant places almost instantly.",
+      calculation: "The service matches the described functions of money transfer and banking through digital technology.",
+      answer: "It shows money exchange through mobile banking, one of the key uses of digital technology."
+    },
+    {
+      problem: "A school wants to show that communication speed matters for its results. Use the concept of digital technology to explain.",
+      given: "Email and social media platforms move information instantly across the world.",
+      formula: "Rule: digital technology transfers information and data quickly from one section of the world to another.",
+      substitution: "Teachers and students can share materials and results in seconds instead of days.",
+      calculation: "Faster exchange of information improves access to learning opportunities, so the claim holds.",
+      answer: "Digital technology improves communication speed and with it access to learning."
+    },
+    {
+      problem: "A citizen argues that digital technology is limited to the internet. Correct the misunderstanding.",
+      given: "The textbook includes all electronic tools, automatic systems, devices and resources that generate, process or store information.",
+      formula: "Rule: digital technologies are ever present and are not limited to the internet or modern communication technologies.",
+      substitution: "An ATM, a digital camera and a GPS device are digital technologies that work beyond browsing the internet.",
+      calculation: "Applying the broad definition, the narrower claim fails.",
+      answer: "Digital technology is much broader than the internet; it includes many devices and systems used daily."
+    }
+  ],
+  commonMistakes: [
+    "Thinking digital technology means only the internet or only social media.",
+    "Believing digital technology is useful only in developed countries and not in Ethiopia.",
+    "Assuming a smartwatch or an ATM is not digital technology because it is not a desktop computer.",
+    "Treating digital technology as something that started recently rather than in the mid-20th century.",
+    "Ignoring the political, economic, social and cultural effects of new communication technologies.",
+    "Believing digital technology saves only money and not time and physical effort."
+  ],
+  applications: [
+    "Sending money to family in your home town through mobile banking.",
+    "Using a mobile phone to call and check on parents living in a rural kebele.",
+    "Using GPS on a phone to find a health centre in an unfamiliar town.",
+    "Withdrawing cash from an ATM in Addis Ababa instead of queueing inside a bank.",
+    "Using an online service to register for a national examination or a training course.",
+    "Using a digital camera to record a community event for a local school project."
+  ],
+  summary: "Digital technology is the use of computers, tablets, mobile phones and the digital and social media reached through them, together with all electronic tools and systems that generate, process, store and transfer information. It began in the mid-20th century and is now the most significant modern technology in developed and developing countries alike, including Ethiopia. It supports communication speed, learning opportunities, social relations and money exchange, and makes daily life easier by saving time and physical contact.",
+  visuals: [
+    {
+      type: "mindMap",
+      config: {
+        title: "Modern Digital Technologies",
+        center: "Digital Technology",
+        branches: [
+          { label: "Devices", items: ["Computer", "Tablet", "Mobile phone", "Smartwatch"] },
+          { label: "Finance", items: ["ATM", "Bitcoin", "Mobile banking"] },
+          { label: "Place and travel", items: ["Automated vehicles", "Drone", "GPS"] },
+          { label: "Media", items: ["Digital camera", "Social media", "Email"] },
+          { label: "Daily uses", items: ["Communication", "Learning", "Money exchange"] }
+        ]
+      }
+    },
+    {
+      type: "comparison",
+      config: {
+        title: "Digital Technology vs Older Methods",
+        left: { name: "Digital technology", items: ["Computers and mobile phones", "Instant data transfer", "Online services", "Mobile banking"] },
+        right: { name: "Older methods", items: ["Postal letters", "Physical visits", "Queueing at a counter", "Slow delivery"] }
+      }
+    },
+    {
+      type: "tableVisual",
+      config: {
+        title: "Digital Technology Around Us",
+        headers: ["Tool", "What it does", "Where we meet it"],
+        rows: [
+          ["Mobile phone", "Calls, messages and apps", "Home and school"],
+          ["ATM", "Withdraws and deposits cash", "Banks and towns"],
+          ["GPS", "Finds routes and places", "Travel"],
+          ["Digital camera", "Captures images", "Events and tourism"]
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "Digital technology refers to the use of computers, tablets, mobile phones and:", options: ["postal letters", "digital and social media accessed through the internet", "printed newspapers only", "landline telephones only"], answer: 1, difficulty: 1, explanation: "Digital technology covers computers, tablets, mobile phones and the digital and social media reached through them." },
+    { type: "tf", q: "Digital technology was started in the mid-20th century.", answer: true, difficulty: 1, explanation: "The lesson states that digital technology was started in the mid-20th century." },
+    { type: "mcq", q: "Which of the following is NOT listed as a modern digital technology in the lesson?", options: ["Smartwatch", "Drone", "Bitcoin", "Postal service"], answer: 3, difficulty: 1, explanation: "The postal service is not a digital technology; the lesson lists computers, smartwatches, ATMs, digital cameras, automated vehicles, drones, Bitcoin and GPS." },
+    { type: "short", q: "Name any one common digital technology listed in the lesson.", answer: "computer|smartwatch|atm|digital camera|automated vehicle|drone|bitcoin|gps|mobile phone|tablet", difficulty: 1, explanation: "The lesson lists computers, smartwatches, ATMs, digital cameras, automated vehicles, drones, Bitcoin and GPS." },
+    { type: "concept", q: "Explain why fast communication, money transfer and banking are impossible in contemporary Ethiopia without digital technology.", answer: "digital technology enables quick transfer of information and money|these services depend on digital devices and the internet", difficulty: 2, explanation: "The lesson states that easy and fast communication among individuals, money transfer, banking and access to education are impossible without digital technology." },
+    { type: "mcq", q: "The lesson says digital technology is crucially important in day to day life, especially for:", options: ["fashion shows only", "communication speed, learning opportunities, social relations and money exchange", "farming only", "sports only"], answer: 1, difficulty: 2, explanation: "These four areas are named as the especially important uses in daily life." },
+    { type: "tf", q: "Digital technologies are limited to the internet and modern communication technologies.", answer: false, difficulty: 2, explanation: "The lesson says digital technologies are ever present and are not limited to the internet or modern communication technologies." },
+    { type: "mcq", q: "As described in the lesson, a digital citizen is a person who:", options: ["holds a foreign passport", "depends on modern digital media technologies in daily life", "lives only in a city", "never uses a mobile phone"], answer: 1, difficulty: 2, explanation: "The lesson says that as digital citizens our individual life is highly dependent on modern digital media technologies." },
+    { type: "ordering", q: "Arrange the sensible sequence for using digital technology for a chosen need.", options: ["Identify the need or service you want", "Check the benefits and possible challenges", "Use the device for the chosen purpose", "Use it efficiently and ethically"], answer: 0, difficulty: 2, explanation: "First identify the need, then weigh benefits and challenges, then use the device for that purpose, and finally use it efficiently and ethically." },
+    { type: "concept", q: "Give the term for any form of media that uses electronic devices for its distribution.", answer: "digital media", difficulty: 2, explanation: "Digital media is any form of media that uses electronic devices for distribution." },
+    { type: "mcq", q: "Which statement best explains why digital technology is described as life changing?", options: ["Because it replaces all human work", "Because it touches every aspect of life and makes it easier and better", "Because it removes the need for education", "Because it is used only by governments"], answer: 1, difficulty: 3, explanation: "The lesson says technology touches every aspect of our life, making it easier, better and life changing." }
+  ]
+};
+
+Lessons["g9-civics-uc2-t2"] = {
+  overview: "Culture and technology are two equal forces that shape how we see the world. This lesson explains their interdependence, how digital media can promote Ethiopian culture, and how careless use can damage it.",
+  objectives: [
+    "Describe the relationship between culture and digital technology",
+    "Explain why culture and technology are interdependent",
+    "Examine the positive effects of digital technology on society's cultures",
+    "Examine the negative effects of digital technology on society's cultures",
+    "Demonstrate the responsible use of social media to promote Ethiopian culture"
+  ],
+  simple: "Culture and technology are two equal forces that greatly influence our attitudes, beliefs, behaviours and our understanding of good and bad. Society's cultures are the bases of human civilization and technological advancement, so cultural values and modern technologies are interdependent. When a new technology enters a society, the culture reacts either positively or negatively. Communication technologies let us share ideas and feelings, and through them culture is learned, transmitted and preserved. Digital platforms such as YouTube, Facebook, Twitter, Telegram and IMO can promote language, dress, food, arts, tourism sites and holidays to the world. But when used against our norms and moral values, digital technology can cause cultural diffusion and destroy indigenous values, for example by damaging family relationships.",
+  detailed: "<p><b>Two equal forces.</b> Culture and technology are the major factors that can shape our world outlooks. They are two equal forces that greatly influence our attitudes, beliefs, behaviours and our understanding of good and bad in different ways. Society's cultures are the bases of human civilization and technological advancement, which means that the cultural values of society and modern technologies are very interdependent.</p><p><b>How culture reacts.</b> When new technologies are introduced into a society, the culture reacts in either a positive or a negative way. Cultural development and digital technologies are directly interlinked in terms of making one's culture accessible to others. The essential way to live in societies and to maintain one's culture is to communicate, through which cultural elements are shared.</p><p><b>Culture is learned and preserved through communication.</b> Communication technologies are used to share ideas and feelings, and it is through them that culture is learned, transmitted and preserved. This enables us to promote our own cultural values and also to know the cultures of other societies. It is therefore difficult to promote and preserve one's own culture effectively without communication media in this digital world.</p><p><b>Promoting Ethiopian culture.</b> Digital technologies are very crucial in highlighting the bright aspects of our country to the rest of the world. Ethiopia is a country of multicultural societies where different nations and nationalities have been living together for a long period of time, so all of them need to promote and preserve their cultures through different means. In this digital age it is important to use digital communication technologies such as YouTube, Facebook, Twitter, Telegram and IMO in a responsible and ethical way. We can promote the untold facts of our culture, such as language, way of life, cultural dressing, cultural food, arts, historical tourism sites and holiday celebrations, to other societies and across the world.</p><p><b>When use goes wrong.</b> Digital technologies do not have only positive impacts on one's own culture. They have serious negative impacts if they are not used appropriately and in a responsible manner. Using such technologies in a way deviated from our norms or moral values and principles can lead to cultural diffusion and the destruction of the indigenous values and norms of a particular society. For example, the unit shows that inappropriate use of digital technology can affect family relationships when both husband and wife are too busy using social media at their meal and ignore their child.</p><p><b>The rule for a digital culture.</b> Our digital culture must be in line with the existing moral, social and cultural values of the society in the contemporary digital age. The use and application of digital technology and media in day to day life must therefore be balanced with the values that hold families and communities together.</p>",
+  keyTerms: [
+    { term: "Culture", def: "The shared way of life of a society, including its language, values, beliefs, customs, dress, food and arts." },
+    { term: "Digital culture", def: "The whole lifestyle and habits created by the innovations of the technological age, in which technology takes more place in daily life and shapes how we interact, behave, think and communicate." },
+    { term: "Cultural diffusion", def: "The spreading or mixing of cultural elements between societies, which can weaken the indigenous values and norms of a particular society when it results from careless use of media." },
+    { term: "Indigenous values and norms", def: "The original moral and social standards of a particular society, which may be damaged by inappropriate use of digital technology." },
+    { term: "Interdependence", def: "The condition in which two things rely on and affect each other, as cultural values and modern technologies do." },
+    { term: "Social media platform", def: "An online service such as YouTube, Facebook, Twitter, Telegram or IMO used to share ideas, images and content." },
+    { term: "Multicultural society", def: "A society made up of many nations, nationalities and cultures living together, such as Ethiopia." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "A young Ethiopian posts a video of a traditional coffee ceremony and viewers abroad ask about it. Analyse this using the relation between culture and digital technology.",
+      given: "The post shares a cultural practice with a global audience.",
+      formula: "Principle: communication technologies let culture be learned, transmitted and preserved, and can promote one's own culture.",
+      substitution: "The video carries a cultural element, the coffee ceremony, to societies that did not know it.",
+      calculation: "Sharing culture ethically promotes cultural values and teaches others, so the effect is positive.",
+      answer: "A positive effect: digital media promotes and preserves Ethiopian culture across the world."
+    },
+    {
+      problem: "At dinner, both parents keep scrolling through social media and ignore their child. Interpret this example from the unit.",
+      given: "The use of digital technology is inappropriate within family time.",
+      formula: "Principle: use of digital media must be in line with the moral, social and cultural values of society.",
+      substitution: "Careless use replaces attention to family with attention to a screen.",
+      calculation: "Because the behaviour deviates from family values, it damages relationships, which is a negative cultural effect.",
+      answer: "It is a negative effect of digital media on family relationships, showing why use must follow cultural values."
+    },
+    {
+      problem: "A group spreads foreign trends online while mocking local dress and language. Using the lesson, judge the effect.",
+      given: "The content rejects indigenous values and norms.",
+      formula: "Rule: use of digital technology deviated from our norms and moral values can cause cultural diffusion and the destruction of indigenous values.",
+      substitution: "Mocking local dress and language weakens those cultural elements.",
+      calculation: "The trend matches the description of cultural destruction rather than cultural promotion.",
+      answer: "A negative effect: it destroys indigenous values instead of promoting them."
+    },
+    {
+      problem: "A regional culture bureau wants to promote historical tourism sites. Suggest a responsible digital method.",
+      given: "Ethiopia has many historical tourism sites and a multicultural heritage.",
+      formula: "Principle: use digital platforms responsibly and ethically to promote the untold facts of our culture.",
+      substitution: "Photos, short videos and accurate information can be shared on social media platforms.",
+      calculation: "This follows the code of responsible use while reaching the rest of the world.",
+      answer: "Use social media and other digital platforms responsibly to share accurate content about the sites and their culture."
+    }
+  ],
+  commonMistakes: [
+    "Believing culture and technology are unrelated rather than interdependent.",
+    "Assuming that all effects of digital media on culture are negative.",
+    "Thinking that only experts can promote a culture, not ordinary social media users.",
+    "Sharing content that mocks local language, dress or food as if it were harmless.",
+    "Letting social media replace attention to family members at meals and gatherings.",
+    "Assuming that anything posted online must be accepted simply because it is modern.",
+    "Believing culture can be preserved without any form of communication media."
+  ],
+  applications: [
+    "Posting a short video of a Timkat, Meskel or Ashenda celebration with an accurate explanation.",
+    "Writing a post that teaches a word from your mother tongue to other Ethiopians.",
+    "Sharing photos of Ethiopian cultural dress and food with correct names and descriptions.",
+    "Creating an online page that promotes a historical site such as Lalibela or Aksum to visitors.",
+    "Ignoring and reporting content that mocks the language or customs of another Ethiopian community.",
+    "Keeping family mealtimes free of phones so social media does not damage relationships."
+  ],
+  summary: "Culture and technology are two equal forces that shape our attitudes, beliefs and behaviour, and the cultural values of society and modern technologies are interdependent. Communication media allow culture to be learned, transmitted and preserved, and digital platforms can promote Ethiopian language, dress, food, arts, tourism sites and holidays to the world. Yet when digital technology is used against our norms and moral values it causes cultural diffusion and destroys indigenous values, so our digital culture must stay in line with existing moral, social and cultural values.",
+  visuals: [
+    {
+      type: "comparison",
+      config: {
+        title: "Positive vs Negative Effects of Digital Media on Culture",
+        left: { name: "Positive effects", items: ["Promotes language and arts", "Preserves traditions", "Teaches other societies", "Highlights tourism sites"] },
+        right: { name: "Negative effects", items: ["Cultural diffusion", "Destruction of indigenous values", "Damaged family relationships", "Loss of local identity"] }
+      }
+    },
+    {
+      type: "mindMap",
+      config: {
+        title: "What Digital Media Can Promote",
+        center: "Ethiopian Culture",
+        branches: [
+          { label: "Language", items: ["Mother tongues", "Oral sayings"] },
+          { label: "Way of life", items: ["Dress", "Food", "Ceremonies"] },
+          { label: "Arts", items: ["Music", "Dance", "Craft"] },
+          { label: "Heritage", items: ["History", "Tourism sites"] },
+          { label: "Celebrations", items: ["Holidays", "Festivals"] }
+        ]
+      }
+    },
+    {
+      type: "tableVisual",
+      config: {
+        title: "Culture and Digital Technology",
+        headers: ["Area", "With responsible use", "With irresponsible use"],
+        rows: [
+          ["Language", "Taught to others", "Mocked and lost"],
+          ["Dress and food", "Shared proudly", "Treated as backward"],
+          ["Family", "Kept connected", "Ignored at mealtimes"],
+          ["Traditions", "Recorded and preserved", "Replaced by foreign trends"]
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "According to the lesson, culture and technology are:", options: ["completely unrelated", "two equal forces that influence each other", "the same thing", "separate fields with no contact"], answer: 1, difficulty: 1, explanation: "The lesson says they are two equal forces that greatly influence our attitudes, beliefs and behaviour." },
+    { type: "tf", q: "Society's cultures are the bases of human civilization and technological advancement.", answer: true, difficulty: 1, explanation: "This statement is taken directly from the lesson." },
+    { type: "mcq", q: "Which of the following is a positive effect of digital media on culture?", options: ["Cultural diffusion", "Destruction of indigenous values", "Promoting one's language and arts to others", "Ignoring family members"], answer: 2, difficulty: 1, explanation: "Digital media can promote and preserve one's own cultural values and teach them to other societies." },
+    { type: "short", q: "Name any one digital communication technology mentioned for promoting culture.", answer: "youtube|facebook|twitter|telegram|imo", difficulty: 1, explanation: "The lesson names YouTube, Facebook, Twitter, Telegram and IMO." },
+    { type: "tf", q: "Digital technology has only positive impacts on one's own culture.", answer: false, difficulty: 2, explanation: "The lesson says it also has serious negative impacts if it is not used appropriately and responsibly." },
+    { type: "concept", q: "Explain what the lesson means by cultural diffusion.", answer: "the spreading or mixing of cultural elements|the loss or weakening of indigenous values and norms", difficulty: 2, explanation: "Use deviated from our norms can lead to cultural diffusion and the destruction of indigenous values." },
+    { type: "mcq", q: "The essential way to maintain one's culture in this digital world is:", options: ["to avoid all technology", "to communicate through communication media", "to move abroad", "to ban social media"], answer: 1, difficulty: 2, explanation: "The lesson says the essential way to live in societies and maintain culture is to communicate, through which cultural elements are shared." },
+    { type: "concept", q: "Explain how inappropriate use of digital technology can affect family relationships.", answer: "family members ignore each other while using social media|parents busy on social media at the meal and ignore the child", difficulty: 2, explanation: "The unit shows both husband and wife too busy on social media at their meal and ignoring their child." },
+    { type: "mcq", q: "Ethiopia is described in the lesson as a country of:", options: ["one single culture", "multicultural societies of many nations and nationalities", "no traditions", "only urban culture"], answer: 1, difficulty: 2, explanation: "The lesson says Ethiopia is a country of multicultural societies where different nations and nationalities have lived together." },
+    { type: "ordering", q: "Arrange the process by which a culture becomes known to other societies through digital media.", options: ["A person shares the cultural element using digital media", "Others learn about the culture", "The cultural element becomes known to other societies", "The cultural element is valued and preserved"], answer: 0, difficulty: 2, explanation: "The share comes first, then others learn, then the culture becomes known more widely, and finally it is valued and preserved." },
+    { type: "concept", q: "Give the rule stated in the lesson about how digital culture must relate to society's values.", answer: "it must be in line with the existing moral, social and cultural values", difficulty: 3, explanation: "The lesson says our digital culture must be in line with the existing moral, social and cultural values of the society." }
+  ]
+};
+
+Lessons["g9-civics-uc2-t3"] = {
+  overview: "Digital technology is used for the right purpose to make work efficient and effective. This lesson explains its four major purposes: social connection, communication speed, online learning and digital marketing.",
+  objectives: [
+    "Explain the major purposes of using digital technology",
+    "Describe how digital technology supports social connection",
+    "Explain how digital technology increases communication speed",
+    "Describe the online learning opportunities created by digital technology",
+    "Exhibit the benefits of digital marketing in the twenty-first century"
+  ],
+  simple: "Digital technologies are now part of our daily life, and many of us use laptops, tablets, mobile phones and the internet to get services easily, quickly and at low cost. Using digital technology for the right purpose helps us do our work more efficiently and effectively. The major purposes in the twenty-first century are social connection, communication speed, online learning opportunities and digital marketing. Social connection lets families, friends and remote workers communicate by words, video calls and media exchange. Communication speed lets huge amounts of data be compressed and moved instantly anywhere. Online learning gives access to courses, books and journals without going to a learning centre. Digital marketing promotes a business online through websites, applications and social media, so customers can buy even when the shop is closed.",
+  detailed: "<p><b>Digital technology as part of daily life.</b> Now-a-days digital technologies are part of our daily life activities. Many of us use digital technology such as laptops, tablets, mobile phones and the internet to get different services easily, quickly and cost effectively. Using digital technology for the right purpose helps us undertake our work more efficiently and effectively.</p><p><b>Social connection.</b> Information is an indispensable factor in all aspects of our life. Connecting families, relatives and members of society at all levels is crucial for a healthy social life. Digital technology has simplified the process of socialization by enabling people to communicate with families, friends and team workers even when working remotely. This has made it possible to communicate through words, video such as video calls and virtual conferences, and exchanged media. Without digital devices and information communication technology, leading life is becoming very difficult these days.</p><p><b>Communication speed.</b> Digital technology helps a large amount of information to be compressed on small storage devices that can be transported. The speed of the internet is constantly improving, enabling us to transfer tons of information instantly and to access data virtually anywhere in the world. It also improves the speed of transmission and has ultimately transformed the way people communicate, work and learn. Communication through digital technology lets global communities conduct speedy communication and information exchange in a fraction of a microsecond, which makes life on this earth better. For instance, without email it is very difficult for individuals and organizations to communicate between senders and receivers.</p><p><b>Online learning opportunities.</b> In modern society people use digital media daily and seamlessly, and educators need to consider the integration of digital media today and for the future. By having access to the internet we can now reach different information within seconds just by searching online. Digital technology has made it possible for everyone to have access to things like online courses, training, books, journals, publications and other important information. The facilities of online education and the availability of interactive media have made the process of learning interesting, so learners can get an education without going to a learning centre.</p><p><b>Digital marketing.</b> Digital marketing is another essential purpose of using digital media in business activities. It is the promotion of a business using online resources and tools such as websites, micro-sites, mobile applications and social media platforms. Using online selling, businesses allow customers to buy whenever they want, even when the shop doors are closed. Selling online typically helps reduce processing times internally, enabling the business to focus staff elsewhere, and gives customers access through whatever means they prefer: a mobile device, a desktop computer, a phone call or social media.</p><p><b>Why the purpose matters.</b> In today's world technology serves a variety of purposes and means different things to different people, and the importance of digital technology has become integral in daily lives. As a result, without the use and application of digital technology, life in this digital world is difficult. To make our day to day life easier we must therefore use digital technology effectively and efficiently.</p>",
+  keyTerms: [
+    { term: "Digital marketing", def: "The promotion of a business using online resources and tools such as websites, micro-sites, mobile applications and social media platforms." },
+    { term: "Social connection", def: "The use of digital technology to link families, relatives, friends and team workers, including through words, video calls and media exchange." },
+    { term: "Communication speed", def: "The rapid transmission of information and data made possible by constantly improving internet and digital networks." },
+    { term: "Online learning", def: "Education delivered through the internet, giving access to courses, training, books, journals and publications without going to a learning centre." },
+    { term: "E-commerce", def: "The buying and selling of goods and services using mobile phones, tablets or other digital devices." },
+    { term: "Socialization", def: "The process of interacting with others and building social relationships, which digital technology has simplified." },
+    { term: "Data compression", def: "The storing of large amounts of information on small devices so that it can be preserved and transported easily." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "Megarsa Tullu, a farmer in the rural village of Dimtu, uses his mobile phone to learn market prices and inform other farmers. Which purpose of digital technology does this show?",
+      given: "A farmer uses a mobile application to obtain and share market information in a rural area.",
+      formula: "Principle: digital technology is used for social connection and for fast access to information.",
+      substitution: "The phone links him with markets and with other farmers far away.",
+      calculation: "Access to information and connection with others through a mobile device matches the purpose of social connection.",
+      answer: "It shows social connection and information sharing through digital technology, even in a rural area."
+    },
+    {
+      problem: "A student in a small town cannot travel to a city but wants to study a computer course. How can digital technology serve the purpose of learning here?",
+      given: "The student has internet access but no nearby learning centre.",
+      formula: "Rule: online learning gives access to education without going to a learning centre.",
+      substitution: "Courses, books and journals can be reached online through interactive media.",
+      calculation: "Because the purpose of online learning is exactly this, the student can study remotely.",
+      answer: "The student can take the course online, one of the main purposes of digital technology."
+    },
+    {
+      problem: "A small shop in Merkato wants more customers while its doors are closed at night. Apply the purpose of digital marketing.",
+      given: "The shop trades in a fixed place and during limited hours.",
+      formula: "Principle: digital marketing allows customers to buy whenever they want, even when the shop doors are closed.",
+      substitution: "An online page and a social media account would display and sell the goods at any hour.",
+      calculation: "Selling online reduces processing times and widens access, so the purpose is served.",
+      answer: "The shop should use digital marketing such as a website or a social media page for online selling."
+    },
+    {
+      problem: "A health office must send a report to a regional bureau six hundred kilometres away before morning. Which purpose does digital technology serve?",
+      given: "Large information must move a long distance very quickly.",
+      formula: "Rule: digital technology increases communication speed and moves data instantly over long distances.",
+      substitution: "Email or a messaging application can transmit the report in seconds.",
+      calculation: "The quick, low-cost transmission matches the purpose of communication speed.",
+      answer: "It serves communication speed, which lets information travel long distances almost instantly."
+    }
+  ],
+  commonMistakes: [
+    "Using digital technology without a clear purpose and still expecting efficiency.",
+    "Believing social media is only for entertainment and not for social connection and work.",
+    "Assuming online learning is only for people who live in cities.",
+    "Thinking digital marketing means only advertising and not selling or serving customers.",
+    "Ignoring email and messaging as slow, when their speed is the very reason they are used.",
+    "Forgetting that the same platform can serve a good purpose or a harmful one depending on its use."
+  ],
+  applications: [
+    "Using a video call to join a family meeting when you cannot travel home.",
+    "Joining an online class or watching an educational video to prepare for examinations.",
+    "Reading online journals and publications for a school research project.",
+    "A family shop posting its products on social media so customers can order at night.",
+    "Using email to send a school report to an education office in another region.",
+    "Checking current market prices for coffee or teff on a mobile application before selling a harvest."
+  ],
+  summary: "Digital technology is part of daily life and is used to get services easily, quickly and at low cost. Its major purposes in the twenty-first century are social connection, communication speed, online learning opportunities and digital marketing. Social connection links families, friends and remote workers; communication speed moves large amounts of data instantly across the world; online learning opens courses, books and journals without a learning centre; and digital marketing lets businesses reach and sell to customers at any time.",
+  visuals: [
+    {
+      type: "mindMap",
+      config: {
+        title: "Major Purposes of Digital Technology",
+        center: "Digital Technology",
+        branches: [
+          { label: "Social connection", items: ["Family", "Friends", "Remote work"] },
+          { label: "Communication speed", items: ["Email", "Instant data", "Global reach"] },
+          { label: "Online learning", items: ["Courses", "Books", "Training"] },
+          { label: "Digital marketing", items: ["Websites", "Applications", "Social media"] }
+        ]
+      }
+    },
+    {
+      type: "steps",
+      config: {
+        title: "Using Digital Technology for the Right Purpose",
+        steps: [
+          { label: "Identify the need", detail: "Decide what service or goal you really need." },
+          { label: "Choose the tool", detail: "Pick the device or platform suited to that purpose." },
+          { label: "Check benefits and risks", detail: "Weigh the advantages and the possible harm." },
+          { label: "Use it efficiently", detail: "Work with the tool so the task becomes faster and easier." },
+          { label: "Review the result", detail: "Ask whether the purpose was achieved well." }
+        ]
+      }
+    },
+    {
+      type: "tableVisual",
+      config: {
+        title: "Purposes in Daily Life",
+        headers: ["Purpose", "Example", "Benefit"],
+        rows: [
+          ["Social connection", "Video calls with family", "Strong relationships"],
+          ["Communication speed", "Email and messaging", "Time saved"],
+          ["Online learning", "Online courses", "Access without travel"],
+          ["Digital marketing", "Online selling", "Customers at any hour"]
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "Which of the following is NOT a major purpose of digital technology in the lesson?", options: ["Social connection", "Communication speed", "Online learning", "Causing cultural diffusion"], answer: 3, difficulty: 1, explanation: "The four purposes are social connection, communication speed, online learning and digital marketing." },
+    { type: "tf", q: "Without the use and application of digital technology, life in this digital world is difficult.", answer: true, difficulty: 1, explanation: "This statement is taken directly from the lesson." },
+    { type: "mcq", q: "Digital marketing is:", options: ["the promotion of a business using online resources and tools", "a type of computer hardware", "a form of online learning", "a mobile phone brand"], answer: 0, difficulty: 1, explanation: "Digital marketing is the promotion of a business using online resources and tools." },
+    { type: "short", q: "Name any one tool used in digital marketing according to the lesson.", answer: "websites|micro-sites|mobile application|social media platforms", difficulty: 1, explanation: "The lesson names websites, micro-sites, mobile applications and social media platforms." },
+    { type: "concept", q: "Explain how digital technology simplified socialization.", answer: "it enables people to communicate with family, friends and team workers even remotely|it links people who are apart", difficulty: 2, explanation: "Digital technology simplified socialization by enabling communication with families, friends and team workers when working remotely." },
+    { type: "mcq", q: "According to the lesson, digital technology has made it possible for everyone to access:", options: ["only games", "online courses, training, books, journals and publications", "only music", "only newspapers"], answer: 1, difficulty: 2, explanation: "The lesson lists online courses, training, books, journals and publications." },
+    { type: "mcq", q: "In the case study, Megarsa Tullu used his mobile phone mainly to:", options: ["play games", "get market prices and inform other farmers", "watch films", "take photographs"], answer: 1, difficulty: 2, explanation: "He got updated market prices and informed other farmers, and kept informed about the country." },
+    { type: "tf", q: "Online selling forces customers to buy only when the shop doors are open.", answer: false, difficulty: 2, explanation: "Online selling allows customers to buy whenever they want, even when the shop doors are closed." },
+    { type: "concept", q: "Explain why email is important for individuals and organizations.", answer: "it enables communication between senders and receivers|fast written communication", difficulty: 2, explanation: "Without email it is very difficult for individuals and organizations to communicate between senders and receivers." },
+    { type: "ordering", q: "Arrange the steps of using digital technology for the right purpose in a sensible order.", options: ["Identify the need", "Choose the tool", "Use it efficiently", "Review the result"], answer: 0, difficulty: 2, explanation: "First identify the need, then choose the tool, then use it efficiently, and finally review the result." },
+    { type: "mcq", q: "Which statement best summarises the lesson's view of technology's importance?", options: ["Technology is an optional luxury", "The importance of digital technology has become integral in daily lives", "Technology matters only for business", "Technology is used only in developed countries"], answer: 1, difficulty: 3, explanation: "The lesson says the importance of digital technology has become integral in daily lives." }
+  ]
+};
+
+Lessons["g9-civics-uc2-t4"] = {
+  overview: "Using the right digital technology for the right purpose must be governed by ethical codes of conduct. This lesson presents the rules that guide responsible use of digital media.",
+  objectives: [
+    "Identify ethical codes of conduct for using digital technology",
+    "Explain the importance of ethical codes of conduct in digital media use",
+    "Describe the objective of using digital media responsibly",
+    "Apply the codes of conduct to real online situations",
+    "Demonstrate self-control against addictive use of digital media"
+  ],
+  simple: "Using the right digital technology for the right purpose efficiently and effectively is a burning issue in the current digital world. Using digital media in our day to day life must be governed by a set of ethical codes of conduct. This involves stating the objective of using digital media and properly identifying its advantages and disadvantages before we begin. The information on social media is broad and uncensored, so ethics and rules of conduct are needed for effective and efficient use. The codes include using digital media for good things such as solving community problems, learning from the information you receive, ignoring content that provokes political, religious or sexual violence, treating others as you want to be treated, respecting privacy and confidentiality, avoiding fake news and defamation, acknowledging mistakes, and avoiding addiction.",
+  detailed: "<p><b>Why codes of conduct are needed.</b> Using the right digital technology for the right purpose efficiently and effectively is the burning issue in the current digital world. Using digital media in our day to day life must be governed by a set of ethical codes of conduct. This involves the objective of using digital media and the proper identification of their advantages and disadvantages while using them. Therefore, before using the available social media and other digital technologies, we have to identify their benefits and potential challenges to our daily life.</p><p><b>Social media is broad and uncensored.</b> The information and contents of social media are broad and uncensored, so there must be ethics and a code of conduct to be followed for effective and efficient utilization. Each social media platform serves a purpose that is unique, and our social media use strategy, content and ethics must be adapted accordingly. The codes are general rules and policies that are consistent with the high standard of ethics we uphold and that emphasize the value we place on trust and on treating all members of our community with respect.</p><p><b>Use it for good.</b> The first group of codes concerns purpose. We should use digital media for good things, such as solving community problems through awareness creation on important issues. We should also use the information we get from digital media as an input to improve our knowledge, experiences and skills needed to improve our life. In this way digital technology becomes a tool for personal and community development rather than a source of harm.</p><p><b>Respect and protect others.</b> A second group of codes concerns how we treat other people. We should ignore contents that provoke political, religious and sexual violence, and treat others as we want to be treated. We must respect privacy and maintain confidentiality. We should avoid remarks that may constitute defamation and avoid posts that degrade individual dignity. When we are wrong, we should acknowledge and correct our mistakes promptly.</p><p><b>Truthfulness online.</b> A third group concerns truth. We must avoid posting, sharing and following fake news, and we should fight fake news using digital media by exposing the facts. Because unverified content spreads quickly, checking before sharing is itself an ethical duty and a service to the community.</p><p><b>Guard your time and relationships.</b> A fourth group concerns self-control. We should avoid spending much more time on digital media unnecessarily, and we should use digital media in a way that cannot affect relationships among families and friends. Digital media must not be used in a way that affects our study and working times, and each of us should free ourselves from being addicted to its use.</p><p><b>Why it matters.</b> Using the right digital technology for the right purpose effectively is a challenging issue in the current digital world, and the rules for the proper use of these technologies have a direct effect on our behaviour. The current use and application of digital technologies therefore needs the proper identification of their benefits and potential challenges for the effective utilization of digital media.</p>",
+  keyTerms: [
+    { term: "Code of conduct", def: "A set of general rules and policies that guide how people should behave, here while using digital technology." },
+    { term: "Digital etiquette", def: "Polite and respectful behaviour expected when communicating through digital media." },
+    { term: "Fake news", def: "Fabricated reports, images or videos shared to spread misinformation, which is information that is factually incorrect." },
+    { term: "Defamation", def: "A remark or post that damages the good name and reputation of another person." },
+    { term: "Confidentiality", def: "Keeping private information private and not sharing it without permission." },
+    { term: "Dignity", def: "The worth and respect owed to every person, which online posts must not degrade." },
+    { term: "Misinformation", def: "Information that is factually incorrect and spread online, often through fake news." },
+    { term: "Digital addiction", def: "The harmful habit of spending far too much time on digital media, from which users are advised to free themselves." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "A classmate forwards a shocking story about a government office without checking whether it is true. Using the codes of conduct, assess this act.",
+      given: "The story is unverified and may be fabricated.",
+      formula: "Rule: avoid posting, sharing and following fake news, and fight it by exposing the facts.",
+      substitution: "Forwarding an unverified story helps spread misinformation.",
+      calculation: "The act fails the truthfulness code, so it is unethical and should be corrected.",
+      answer: "Unethical. The story should not be shared, and its facts should be checked and corrected."
+    },
+    {
+      problem: "A student sees a post that insults the religion of a community. What should she do according to the codes of conduct?",
+      given: "The content provokes religious offence toward a community.",
+      formula: "Rule: ignore contents provoking political, religious and sexual violence and treat others as you want to be treated.",
+      substitution: "Engaging with or reposting the content would spread the offence.",
+      calculation: "The code requires ignoring and refusing to amplify such content.",
+      answer: "Ignore it and do not share it, and report it to the platform where possible."
+    },
+    {
+      problem: "A club wants to use social media for community service. Show how the purpose code applies.",
+      given: "The club has access to popular platforms and a community problem to solve.",
+      formula: "Rule: use digital media for good things such as solving community problems through awareness creation.",
+      substitution: "A careful awareness campaign could inform the community about the problem.",
+      calculation: "The campaign matches the purpose code, so it is proper use.",
+      answer: "Run an honest awareness campaign that informs the community about the issue."
+    },
+    {
+      problem: "A student spends four hours nightly on social media and her marks fall. Apply the relevant codes.",
+      given: "Study time is being lost to unnecessary use of digital media.",
+      formula: "Rule: do not use digital media in a way that affects study and working times, and avoid unnecessary time and addiction.",
+      substitution: "Four hours daily replaces the time meant for revision.",
+      calculation: "The behaviour violates the time and anti-addiction codes, so it must change.",
+      answer: "Reduce the use to a sensible limit so study time is protected."
+    }
+  ],
+  commonMistakes: [
+    "Believing that content on social media is always checked and therefore true.",
+    "Sharing a post before verifying the facts simply because it looks important.",
+    "Thinking politeness and respect are needed offline but not online.",
+    "Posting private information about others without their permission.",
+    "Never admitting a mistake once it has been posted.",
+    "Assuming that time spent online has no effect on study, work or family life.",
+    "Treating codes of conduct as optional suggestions rather than rules."
+  ],
+  applications: [
+    "Verifying a news item with a trusted source before posting it in a class group.",
+    "Ignoring and reporting posts that provoke religious or ethnic hatred.",
+    "Asking permission before posting a photo that includes another person.",
+    "Correcting and apologising for a mistaken post on your social media account.",
+    "Setting a daily time limit on social media so study hours are protected.",
+    "Using a school social media page to share information about a community clean-up."
+  ],
+  summary: "Using the right digital technology for the right purpose must be governed by a set of ethical codes of conduct, because social media content is broad and uncensored. The codes require using digital media for good ends such as solving community problems and self-improvement, respecting others and their privacy, refusing to provoke political, religious or sexual violence, avoiding fake news and defamation while exposing the facts, acknowledging mistakes promptly, and guarding our time, studies, work and family relationships against addiction.",
+  visuals: [
+    {
+      type: "mindMap",
+      config: {
+        title: "Codes of Conduct for Digital Media",
+        center: "Digital Codes of Conduct",
+        branches: [
+          { label: "Purpose", items: ["Solve community problems", "Improve knowledge and skills"] },
+          { label: "Respect", items: ["Treat others well", "Respect privacy", "No defamation"] },
+          { label: "Truth", items: ["Avoid fake news", "Expose the facts", "Correct mistakes"] },
+          { label: "Self-control", items: ["Do not overuse", "Protect study and work", "Avoid addiction"] }
+        ]
+      }
+    },
+    {
+      type: "steps",
+      config: {
+        title: "Before You Post",
+        steps: [
+          { label: "Check the facts", detail: "Confirm the information with a trusted source." },
+          { label: "Check the harm", detail: "Ask whether it invades privacy or degrades dignity." },
+          { label: "Check respect", detail: "Treat others as you want to be treated." },
+          { label: "Check the purpose", detail: "Use the platform for something good and useful." },
+          { label: "Post or discard", detail: "Share only if it passes all the checks." }
+        ]
+      }
+    },
+    {
+      type: "qa",
+      config: {
+        title: "Digital Conduct Quick-Check",
+        pairs: [
+          { q: "What should you do with content that provokes religious violence?", a: "Ignore it and do not share it." },
+          { q: "How should fake news be answered?", a: "Fight it by exposing the facts." },
+          { q: "What should you do after making a mistake online?", a: "Acknowledge and correct it promptly." },
+          { q: "Why should use of digital media be limited?", a: "To protect study, work, relationships and health from addiction." }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "Using digital media in our day to day life must be governed by:", options: ["the highest bidder", "a set of ethical codes of conduct", "only the government", "random personal choice"], answer: 1, difficulty: 1, explanation: "The lesson says use of digital media must be governed by a set of ethical codes of conduct." },
+    { type: "tf", q: "The information and contents of social media are broad and uncensored.", answer: true, difficulty: 1, explanation: "This is the reason the lesson gives for needing ethics and a code of conduct." },
+    { type: "mcq", q: "According to the codes, digital media should be used to:", options: ["spread fake news", "solve community problems through awareness creation", "insult other users", "waste time"], answer: 1, difficulty: 1, explanation: "One code is to use digital media for good things such as solving community problems through awareness creation." },
+    { type: "short", q: "Complete the code: treat others as you want to be ______.", answer: "treated", difficulty: 1, explanation: "The code says treat others as you want to be treated." },
+    { type: "mcq", q: "Which of the following is a code of conduct for using digital media?", options: ["Post and follow fake news", "Respect privacy and maintain confidentiality", "Degrade individual dignity", "Spend all free time online"], answer: 1, difficulty: 2, explanation: "Respecting privacy and maintaining confidentiality is one of the listed codes." },
+    { type: "tf", q: "Each social media platform serves a unique purpose, so our use strategy and ethics must be adapted accordingly.", answer: true, difficulty: 2, explanation: "The lesson states that each platform serves a unique purpose and our strategy, content and ethics must be adapted." },
+    { type: "concept", q: "Explain what a user should do after posting something that turns out to be wrong.", answer: "acknowledge and correct the mistake promptly", difficulty: 2, explanation: "One code is to acknowledge and correct mistakes promptly." },
+    { type: "mcq", q: "Which behaviour shows respect for privacy?", options: ["Sharing a friend's private photo without permission", "Keeping private information private", "Posting someone's phone number publicly", "Reading a friend's messages aloud"], answer: 1, difficulty: 2, explanation: "Respecting privacy and maintaining confidentiality means keeping private information private." },
+    { type: "concept", q: "Explain one reason why ethical codes are necessary for social media.", answer: "the content is broad and uncensored|not all information is true|to use it effectively and efficiently", difficulty: 2, explanation: "Social media content is broad and uncensored, so ethics and a code of conduct are needed for effective and efficient use." },
+    { type: "ordering", q: "Arrange the checks before posting content online in the correct order.", options: ["Check the facts", "Check the harm", "Check respect and purpose", "Post only if all checks pass"], answer: 0, difficulty: 2, explanation: "First check the facts, then the harm, then respect and purpose, and post only if all checks pass." },
+    { type: "short", q: "Give the term for a remark or post that damages another person's reputation.", answer: "defamation", difficulty: 3, explanation: "The codes say to avoid remarks that may constitute defamation." }
+  ]
+};
+
+Lessons["g9-civics-uc2-t5"] = {
+  overview: "Communication transfers and exchanges messages, and digital media has become the key strategy for making it effective. This lesson explains what effective communication is and how digital tools improve it.",
+  objectives: [
+    "Define communication and the effectiveness of communication",
+    "Evaluate the role of digital media in effective communication",
+    "Explain how cellular and satellite technology increased communication speed",
+    "Describe how computers and mobile phones improve communication and commerce",
+    "Analyse the case study of Megarsa Tullu, a farmer using a mobile phone"
+  ],
+  simple: "Communication is one of the most important ways to transfer and exchange messages and information in our relations with others. It is the art and technique of informing and influencing individuals and a large audience about important issues by scientific and ethical methods. The effectiveness of communication determines success or failure in achieving individual and collective goals, and digital media has become the key strategy for it. Today organizations and individuals have some online presence through social media accounts, online networks, databases and email. Cellular and satellite technology increased communication speeds and made connection easier; the internet allows easy exchange of information over long distances; computers improved the storage and presentation of information; and mobile phones enabled e-commerce. The case of farmer Megarsa Tullu shows how a mobile phone brings market prices and national news to a rural village.",
+  detailed: "<p><b>What communication is.</b> Communication is one of the most important ways to transfer and exchange messages and information in our relations with others. It is the art and technique of informing and influencing individuals and the large audience about important issues in scientific and ethical methods. The effectiveness of communication determines the success and failure of individual and collective goal achievement.</p><p><b>Digital media as the key strategy.</b> Digital media has become the key strategy for effective communication. Today, organizations and individuals have some type of online or digital presence through social media accounts, online networks and databases, and emails, in order to communicate with the public. There are various digital technologies which make use of the fastest growing information communication technology that we use to make communication effective, and this has improved businesses and personal communication. Successful modern organizations also use digital media to their advantage and to achieve effective communication.</p><p><b>Cellular and satellite technology.</b> The contribution of digital media to effective communication has improved because cellular technology and satellite communication have increased communication speeds and made connection easier. A person can now reach someone across the country or abroad in seconds rather than through a slow chain of offices.</p><p><b>The internet and computers.</b> The internet has enabled easy exchange of information over long distances and access to a web page server in some far-off country. Computers have enabled better storage and presentation of information and have made the process of teaching easier and more effective. Together they change not only how quickly we send a message but also how well it is organised and understood.</p><p><b>Mobile phones and e-commerce.</b> Mobile phones have enabled e-commerce by giving customers the option to transact via their mobile phones or tablets and to perform specific tasks. This extends effective communication into buying and selling, so communication and commerce now work together.</p><p><b>Case study: Megarsa Tullu.</b> Megarsa Tullu is a farmer living in a small village called Dimtu in a rural area. Using his mobile cell phone, he easily gets information about the market prices of some agricultural products. He used to get updated information about the price of locally produced agricultural commodities and inform it to other farmers. In addition, he is a well-informed person about what is going on in the country as a whole by effectively using important applications on his mobile cell phone. His case shows that effective communication through digital media is not limited to cities or to educated professionals; it reaches farmers and strengthens the whole community.</p>",
+  keyTerms: [
+    { term: "Communication", def: "The art and technique of informing and influencing individuals and the large audience about important issues in scientific and ethical methods." },
+    { term: "Effective communication", def: "Communication that achieves its goal of informing and influencing, and so determines the success of individual and collective goals." },
+    { term: "Digital media", def: "Platform sites or spaces of multidirectional, instantaneous communication that use encoded machine-readable data formats, distributed through electronic devices." },
+    { term: "Information communication technology", def: "The field of electronic technologies, such as computers, the internet and mobile networks, used to create, store and share information." },
+    { term: "Cellular technology", def: "Mobile network technology that increased communication speeds and made connection easier." },
+    { term: "Satellite communication", def: "Communication that uses satellites in space to carry signals over very long distances." },
+    { term: "E-commerce", def: "The buying and selling of goods and services using mobile phones, tablets or other digital devices." },
+    { term: "Market information", def: "Updated data about the prices of agricultural or other products, which digital media can deliver quickly." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "A farmer in the rural village of Dimtu needs today's price for his crop before selling. Using the case study, show how digital media gives effective communication.",
+      given: "The farmer owns a mobile phone and needs timely market information.",
+      formula: "Principle: digital media enables easy exchange of information over long distances and quick access to market prices.",
+      substitution: "A market application or a message on the phone reports the current price.",
+      calculation: "The information reaches him within seconds, so the communication is effective and shapes his selling decision.",
+      answer: "He gets market prices on his mobile phone and can also inform other farmers, so digital media provides effective communication."
+    },
+    {
+      problem: "An organization sends an important notice by email to partners in three countries. Explain why this is effective communication.",
+      given: "The message must reach several distant receivers at once.",
+      formula: "Rule: the internet has enabled easy exchange of information over long distances and access to servers far away.",
+      substitution: "Email delivers the identical message instantly to every address.",
+      calculation: "Fast, wide and accurate delivery meets the goal of informing, so the communication is effective.",
+      answer: "Email makes the notice fast, wide-reaching and reliable, which is effective communication."
+    },
+    {
+      problem: "A trader sells goods through a mobile phone application while the shop is closed. Which digital media contribution does this show?",
+      given: "A customer transacts through a mobile device without visiting the shop.",
+      formula: "Principle: mobile phones have enabled e-commerce by giving customers the option to transact via their mobile phones or tablets.",
+      substitution: "The application carries the transaction on the phone.",
+      calculation: "The transaction matches the description of e-commerce through mobile phones.",
+      answer: "It shows e-commerce enabled by mobile phones, part of effective digital communication."
+    },
+    {
+      problem: "A teacher uses a computer to prepare slides that are clearer than handwriting on a board. Explain the contribution described in the lesson.",
+      given: "The teacher stores and presents information with a computer.",
+      formula: "Rule: computers have enabled better storage and presentation of information and made teaching easier and more effective.",
+      substitution: "The slides present the lesson in an organised and readable form.",
+      calculation: "Better presentation supports the goal of informing the audience, so the communication is more effective.",
+      answer: "It shows how computers improve the storage and presentation of information, making teaching more effective."
+    }
+  ],
+  commonMistakes: [
+    "Believing communication is only speaking, and not also exchanging messages, images and information.",
+    "Thinking digital media is useful for business only, not for teaching, farming or family life.",
+    "Assuming effective communication means only a large audience, ignoring whether the message is understood.",
+    "Ignoring the internet as a tool for reaching distant places.",
+    "Believing e-commerce is unrelated to communication.",
+    "Supposing that only urban or highly educated people benefit from digital media."
+  ],
+  applications: [
+    "Messaging or calling your family to share a market price you learned online.",
+    "A farmer checking crop prices on a mobile application before selling at market.",
+    "A teacher sharing lesson notes with students through an email group.",
+    "A small trader accepting mobile payment through a phone application.",
+    "A community group sending an announcement to members through a social media group page.",
+    "A student contacting a teacher about an assignment through a school online group."
+  ],
+  summary: "Communication is the art and technique of informing and influencing people about important issues, and its effectiveness decides the success of individual and collective goals. Digital media has become the key strategy for effective communication through social media accounts, online networks, databases and emails. Cellular and satellite technology increased the speed and ease of connection, the internet made long-distance exchange easy, computers improved the storage and presentation of information, and mobile phones enabled e-commerce. The case of farmer Megarsa Tullu shows how a mobile phone brings market prices and national news to a rural village.",
+  visuals: [
+    {
+      type: "steps",
+      config: {
+        title: "How Digital Media Makes Communication Effective",
+        steps: [
+          { label: "Signal", detail: "Cellular and satellite technology carry the message quickly." },
+          { label: "Network", detail: "The internet links distant people and web servers." },
+          { label: "Store and present", detail: "Computers hold and organise information clearly." },
+          { label: "Transact", detail: "Mobile phones allow e-commerce and specific tasks." },
+          { label: "Result", detail: "Fast, clear communication supports individual and collective goals." }
+        ]
+      }
+    },
+    {
+      type: "comparison",
+      config: {
+        title: "Communication Before and With Digital Media",
+        left: { name: "Older communication", items: ["Letters and physical visits", "Slow delivery", "Limited reach", "Hard to reach a large audience"] },
+        right: { name: "Digital media", items: ["Email and mobile calls", "Nearly instant", "Global reach", "Videos, voice and documents"] }
+      }
+    },
+    {
+      type: "mindMap",
+      config: {
+        title: "Contributions of Digital Media",
+        center: "Effective Communication",
+        branches: [
+          { label: "Cellular and satellite", items: ["Speed", "Easy connection"] },
+          { label: "Internet", items: ["Long distances", "Remote servers"] },
+          { label: "Computers", items: ["Storage", "Presentation", "Teaching"] },
+          { label: "Mobile phones", items: ["E-commerce", "Specific tasks", "Rural access"] }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "Communication is best described as:", options: ["only public speaking", "the art and technique of informing and influencing people about important issues", "the use of printed newspapers only", "a branch of mathematics"], answer: 1, difficulty: 1, explanation: "This is the definition given in the lesson." },
+    { type: "tf", q: "The effectiveness of communication determines the success or failure of individual and collective goal achievement.", answer: true, difficulty: 1, explanation: "This statement is taken directly from the lesson." },
+    { type: "mcq", q: "Digital media has become the key strategy for:", options: ["effective communication", "cutting trees", "playing sports", "raising animals"], answer: 0, difficulty: 1, explanation: "The lesson says digital media has become the key strategy for effective communication." },
+    { type: "short", q: "Name one contribution of computers to communication mentioned in the lesson.", answer: "better storage of information|better presentation of information|made teaching easier and more effective", difficulty: 1, explanation: "Computers enabled better storage and presentation of information and made teaching easier and more effective." },
+    { type: "concept", q: "Explain how mobile phones enabled e-commerce.", answer: "customers can transact via their mobile phones or tablets|they can perform specific tasks", difficulty: 2, explanation: "Mobile phones gave customers the option to transact via their phones or tablets and to perform specific tasks." },
+    { type: "mcq", q: "Which technology increased communication speeds and made connection easier?", options: ["Postal service", "Cellular technology and satellite communication", "Handwritten letters", "Printed books"], answer: 1, difficulty: 2, explanation: "Cellular technology and satellite communication increased communication speeds and made connection easier." },
+    { type: "concept", q: "In the case study, how did Megarsa Tullu use his mobile phone?", answer: "to get market prices and inform other farmers|to learn about what is going on in the country", difficulty: 2, explanation: "He got updated market prices, informed other farmers and kept informed about the country." },
+    { type: "mcq", q: "What did the internet enable according to the lesson?", options: ["Easy exchange of information over long distances", "The end of all teaching", "The removal of mobile phones", "The decline of computers"], answer: 0, difficulty: 2, explanation: "The internet enabled easy exchange of information over long distances and access to far-off web servers." },
+    { type: "tf", q: "Effective communication through digital media reaches rural farmers as well as city workers.", answer: true, difficulty: 2, explanation: "The case of Megarsa Tullu, a farmer in the rural village of Dimtu, shows this." },
+    { type: "ordering", q: "Arrange the elements of the lesson's explanation of digital media in the order given.", options: ["Cellular and satellite technology", "The internet", "Computers", "Mobile phones"], answer: 0, difficulty: 2, explanation: "The lesson lists them in this order: cellular and satellite technology, the internet, computers, then mobile phones." },
+    { type: "concept", q: "Explain in one sentence why communication matters for collective goals.", answer: "its effectiveness determines success or failure|without effective communication goals fail", difficulty: 3, explanation: "Effectiveness of communication determines the success and failure of individual and collective goal achievement." }
+  ]
+};
+
+Lessons["g9-civics-uc2-t6"] = {
+  overview: "Digital and social media are not used only for good; they also bring serious challenges. This lesson examines disregard for ethical values, fake news, and threats to privacy and security.",
+  objectives: [
+    "Identify the major challenges faced while using digital media technologies",
+    "Explain how disregard for ethical values harms digital communication",
+    "Describe the fabrication of fake news and its effects",
+    "Explain personal privacy and security risks in social media",
+    "Distinguish the advantages and disadvantages of social media for students"
+  ],
+  simple: "Using digital technologies and social media platforms is becoming challenging. Many of these challenges are related to social media because it is an internet-based platform. Social media such as Facebook has drawbacks like decreasing academic performance, negatively affecting performance in the workplace and causing problems in personal relationships. The main challenges are disregard for ethical values, fabrication of fake news, and personal privacy and security issues. Because the accuracy of information is not controlled, harmful and false content can spread widely and quickly. Fake news is used to manipulate public opinion for political or commercial gain, and privacy is hard to maintain because social media platforms are public. In the present day security issues have even become challenges to state national security.",
+  detailed: "<p><b>Why digital media is challenging.</b> Currently, using digital technologies and social media platforms is becoming challenging. Many of these challenges are related to social media because social media is an internet-based platform. Social media such as Facebook has many drawbacks, such as decreasing academic performance, negatively affecting performance in the workplace and causing problems in personal relationships. Digital technology and social media platforms may be used not only for better or good, but also for worse.</p><p><b>Disregard for ethical values.</b> Ethics in digital media involves the moral problem associated with the adoption of new communication technologies in daily activities. The major concern in the ethics of digital media is the effect of the information that is transmitted through these channels. The big challenge is that the accuracy of the information is not controlled, and at times it can cause various impacts on society. Therefore, to use social media effectively in our day to day life we have to use digital technology ethically and in an appropriate manner.</p><p><b>Fabrication of fake news.</b> In times of digital information exchange, fake news has become more of an online phenomenon that is difficult to control, and the sharing of fabricated news to shape public opinion has become a common phenomenon. Fake news can reach high levels of visibility in a short amount of time because it is easy to share via social media. It involves reports, images and videos that are shared to purposefully spread misinformation, that is, information that is factually incorrect. Fake news is mostly used to manipulate public opinion for political or commercial gain, to attract people to click through to linked websites and generate advertising income. Fake news and misinformation are therefore a common problem across all social media platforms.</p><p><b>Personal privacy and security issues.</b> The most challenging aspect of using social media is privacy and security, about which users are very much worried. It is very difficult to maintain privacy in social media since these are public platforms and anyone can easily access the personal information of others. As a result, protecting individual privacy and keeping information confidential is at risk in the age of digital technologies. For example, when an individual posts and uploads information about his or her private life on Facebook and YouTube, someone could share it publicly so that anyone can see it. In the present day, security issues have become challenges to state national security as well.</p><p><b>Weighing advantages against disadvantages.</b> The unit invites students to list the advantages and disadvantages of using social media for learning. On the advantage side, social media can help to prepare students for their learning. On the disadvantage side, the presence of social media can be distracting to students. Recognising both sides is the first step to using digital media responsibly.</p><p><b>Conclusion.</b> In the present day, digital technologies have become indispensable tools that give users quick and fast communication. However, using these digital devices and social media platforms is hindered by different challenges, and inappropriate use of social media may lead to ethical violations, of which disregard for ethical values is one. Understanding these challenges is what allows a citizen to use digital media for better and not for worse.</p>",
+  keyTerms: [
+    { term: "Disregard for ethical values", def: "A challenge of digital media in which the moral quality and the accuracy of transmitted information are not controlled." },
+    { term: "Fake news", def: "Fabricated reports, images and videos shared to spread misinformation, often to manipulate public opinion for political or commercial gain." },
+    { term: "Misinformation", def: "Information that is factually incorrect but is spread as if it were true." },
+    { term: "Privacy", def: "The right of a person to keep personal information out of public view, which is hard to maintain on public social media platforms." },
+    { term: "Security issue", def: "A risk that threatens the safety of personal data, and in the present day even the national security of a state." },
+    { term: "Academic performance", def: "The level of a student's learning results, which may decrease with the wrong use of social media." },
+    { term: "Manipulation of public opinion", def: "The deliberate use of fabricated news to shape what people believe, for political or commercial gain." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "A message claims that a certain medicine cures a disease, with no source, and it spreads quickly in a school group. Analyse the challenge.",
+      given: "The claim is unverified and easily shared on social media.",
+      formula: "Rule: fake news spreads misinformation, that is, information that is factually incorrect, and it can reach high visibility quickly.",
+      substitution: "The unverified claim travels through the group because sharing is easy.",
+      calculation: "The case matches the description of fake news and misinformation, which is one of the main challenges.",
+      answer: "It is fake news; the claim should not be shared and should be checked against trusted sources."
+    },
+    {
+      problem: "A student posts her home address and daily schedule publicly. Which challenge does she risk?",
+      given: "Personal information is posted on a public platform.",
+      formula: "Principle: privacy is difficult to maintain on public platforms where anyone can access personal information.",
+      substitution: "Anyone, including strangers, can read and copy the posted details.",
+      calculation: "The situation matches the privacy and security challenge, so the risk is real.",
+      answer: "She risks the personal privacy and security challenge of social media."
+    },
+    {
+      problem: "A student's marks fall because he studies while chatting online. Identify the challenge and a remedy.",
+      given: "Social media use is interfering with study time.",
+      formula: "Rule: social media has drawbacks such as decreasing academic performance.",
+      substitution: "Constant chatting divides attention from revision.",
+      calculation: "Because the drawback is documented, limiting online time protects performance.",
+      answer: "The challenge is decreased academic performance from social media use; he should set study hours free of social media."
+    },
+    {
+      problem: "A group spreads stories to make people angry at a rival political group before an election. Analyse this using the lesson.",
+      given: "Fabricated content is used to shape public opinion.",
+      formula: "Rule: fake news is mostly used to manipulate public opinion for political or commercial gain.",
+      substitution: "The stories are designed to anger people and change their beliefs.",
+      calculation: "The case is a clear example of manipulation through fake news.",
+      answer: "It is manipulation of public opinion through fake news, which harms society and should be resisted."
+    }
+  ],
+  commonMistakes: [
+    "Believing everything on social media because it appears popular or widely shared.",
+    "Assuming fake news is harmless because it is only an online phenomenon.",
+    "Thinking privacy settings make public platforms completely safe.",
+    "Supposing social media improves academic performance with no risk of distraction.",
+    "Treating digital media as always good and forgetting the challenges.",
+    "Sharing personal details such as your address or daily routine publicly.",
+    "Ignoring the workplace effects of social media and seeing it as only a personal matter."
+  ],
+  applications: [
+    "Checking a claim with a trusted news source before forwarding it to a family group.",
+    "Reviewing and tightening privacy settings on your social media accounts.",
+    "Reporting a fake message about a health remedy to the platform or a local health worker.",
+    "Keeping study hours free of phone notifications to protect academic performance.",
+    "Refusing to share unverified posts that could increase political or religious tension.",
+    "Not posting personal details such as your home address or daily schedule."
+  ],
+  summary: "Digital technology and social media are indispensable for quick communication, but they are also used for worse and not only for better, and they bring serious challenges. The main challenges are disregard for ethical values, because the accuracy of transmitted information is not controlled; the fabrication of fake news, which spreads misinformation quickly to manipulate public opinion for political or commercial gain; and personal privacy and security issues, since social media platforms are public and private information is easily accessed. Inappropriate use may even become a threat to state national security.",
+  visuals: [
+    {
+      type: "mindMap",
+      config: {
+        title: "Challenges of Using Digital Media",
+        center: "Challenges",
+        branches: [
+          { label: "Ethics", items: ["Accuracy not controlled", "Harmful content"] },
+          { label: "Fake news", items: ["Misinformation", "Manipulation", "Advertising income"] },
+          { label: "Privacy", items: ["Public platforms", "Data copied", "Shared without consent"] },
+          { label: "Security", items: ["Personal safety", "National security"] },
+          { label: "Study and work", items: ["Lower marks", "Weak performance", "Family problems"] }
+        ]
+      }
+    },
+    {
+      type: "comparison",
+      config: {
+        title: "Advantages vs Disadvantages for Students",
+        left: { name: "Advantages", items: ["Helps prepare for learning", "Fast access to information", "Connection with classmates", "Online courses and books"] },
+        right: { name: "Disadvantages", items: ["Distracting to students", "Decreased academic performance", "Fake news and misinformation", "Privacy and security risk"] }
+      }
+    },
+    {
+      type: "tableVisual",
+      config: {
+        title: "Three Main Challenges",
+        headers: ["Challenge", "How it appears", "What to do"],
+        rows: [
+          ["Disregard for ethical values", "Uncontrolled accuracy of content", "Use digital media ethically"],
+          ["Fake news", "Fabricated reports and videos", "Verify before sharing"],
+          ["Privacy and security", "Private data made public", "Protect and limit personal data"]
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "Many challenges of digital media are related to social media because:", options: ["social media is an internet-based platform", "social media is very old", "social media has no users", "social media is only for adults"], answer: 0, difficulty: 1, explanation: "The lesson says many challenges are related to social media because it is an internet-based platform." },
+    { type: "tf", q: "Social media has so many positive sides that it has no drawbacks.", answer: false, difficulty: 1, explanation: "The lesson lists drawbacks such as decreased academic performance, weaker workplace performance and personal relationship problems." },
+    { type: "mcq", q: "Which of the following is a drawback of social media named in the lesson?", options: ["Decreasing academic performance", "Increasing honesty", "Improving family time", "Removing all privacy risk"], answer: 0, difficulty: 1, explanation: "Decreasing academic performance is one of the named drawbacks." },
+    { type: "short", q: "Give the term for information that is factually incorrect and spread as though it were true.", answer: "misinformation", difficulty: 1, explanation: "Misinformation is information that is factually incorrect." },
+    { type: "concept", q: "Explain the challenge described as disregard for ethical values in digital media.", answer: "the accuracy of information is not controlled|the effect of transmitted information", difficulty: 2, explanation: "The big challenge is that the accuracy of the information is not controlled and it can cause various impacts on society." },
+    { type: "mcq", q: "Fake news is mostly used to:", options: ["help farmers find prices", "manipulate public opinion for political or commercial gain", "teach languages", "improve privacy"], answer: 1, difficulty: 2, explanation: "Fake news is mostly used to manipulate public opinion for political or commercial gain." },
+    { type: "tf", q: "It is easy to maintain privacy on social media because the platforms are private.", answer: false, difficulty: 2, explanation: "It is very difficult to maintain privacy because social media platforms are public and anyone can access personal information." },
+    { type: "concept", q: "Explain why privacy is difficult to maintain on social media.", answer: "social media are public platforms|anyone can easily access personal information", difficulty: 2, explanation: "Since social media are public platforms, anyone can easily access the personal information of others." },
+    { type: "mcq", q: "The most challenging aspect of using social media, according to the lesson, is:", options: ["font size", "privacy and security issues", "the colour of the screen", "message length"], answer: 1, difficulty: 2, explanation: "The lesson says the most challenging aspect is privacy and security issues." },
+    { type: "ordering", q: "Arrange the way fake news gains influence, as described in the lesson.", options: ["A fabricated report or video is created", "It is shared widely on social media in a short time", "It reaches high visibility", "It shapes or manipulates public opinion"], answer: 0, difficulty: 3, explanation: "Fabricated content is created, shared widely, reaches high visibility quickly, and then manipulates public opinion." },
+    { type: "mcq", q: "In the present day, security issues in digital media have become challenges to:", options: ["state national security", "only school timetables", "only fashion", "only sports"], answer: 0, difficulty: 3, explanation: "The lesson says security issues have become challenges to state national security." }
+  ]
+};

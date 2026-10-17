@@ -61,8 +61,8 @@ const lessonKeys = Object.keys(lessons);
 const orphans = lessonKeys.filter(k => !topicIndex[k]);
 // Staged rollouts: a grade or subject may ship curriculum structure before its lessons.
 //   - Grade 12 ships subject-by-subject (math/physics/chemistry first).
-//   - Civics (Citizenship Education) ships as structure first; lessons come next.
-const STAGED_SUBJECTS = new Set(['civics']);
+// Kept generic; empty subject set now that every subject has lessons.
+const STAGED_SUBJECTS = new Set();
 const isStaged = (tid) => {
   const t = topicIndex[tid];
   return t?._grade === '12' || STAGED_SUBJECTS.has(t?._subject);

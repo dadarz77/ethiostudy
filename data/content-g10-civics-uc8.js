@@ -1,0 +1,507 @@
+/* Content: Grade 10 Citizenship Education - Unit 8: Globalization and Global Issues (4 topics)
+   Source: MoE Citizenship Education Grade 10 Student Textbook, Unit 8. */
+window.Lessons = window.Lessons || {};
+
+Lessons["g10-civics-uc8-t1"] = {
+  overview: "Globalization is the growing web of connections that ties states, societies and people together across the world. This lesson defines globalization, explains how distant events have local consequences, and describes its political, economic, social and cultural dimensions.",
+  objectives: [
+    "Define globalization in your own words",
+    "Explain how distant events can affect local communities",
+    "Identify the four dimensions of globalization",
+    "Distinguish between economic and political globalization",
+    "Give examples of cultural and social globalization in Ethiopia"
+  ],
+  simple: "Globalization is the increasing connection and exchange between people, countries and societies around the world. It describes how events, decisions and activities in one part of the world can have serious effects on people in distant places. In economics it means national economies joining the world economy through trade, foreign investment, capital flows, migration and technology. Globalization has four main dimensions. Its political dimension is the growth of political ties and the spread of policies, ideologies and institutions between countries. Its economic dimension is the growing interdependence of world economies. Its social dimension is the sharing of ideas and information through the internet and social media. Its cultural dimension is the sharing of ideas, meanings and values across cultures. Together these make the world one connected system.",
+  detailed: "<p><b>What globalization means.</b> Globalization refers to the multiplicity of linkages and interconnections between the states and societies that make up the modern world system. It describes the process by which events, decisions and activities in one part of the world can come to have significant consequences for individuals and communities in quite distant parts of the globe. The glossary defines it as the speed-up of movements and exchange of people, goods, services, capital, technology or cultural practices all over the world.</p><p><b>Economic globalization.</b> Globalization is often used to refer only to economic globalization, that is, the integration of national economies into the international economy through trade, foreign direct investment, capital flows, migration and the spread of technology. Economic globalization refers to the increasing interdependence of world economies as a result of the growing scale of cross-border trade in commodities and services, the flow of international capital and the rapid spread of technologies. It reflects the continuing expansion and mutual integration of markets and the increased flow of money, goods and services across borders.</p><p><b>Political globalization.</b> The political dimension refers to the intensification and expansion of political interrelations across the globe for different purposes. It is characterized by the diffusion of political policies, ideologies, political culture and institutions across the countries of the world. In other words, governments do not only trade with one another; they also spread ideas about how countries should be governed.</p><p><b>Social globalization.</b> The social dimension refers to the sharing of ideas and information between and through different countries using the internet, social media and similar tools. It also refers to the impact of globalization on the life and work of people, their families and their societies. Concerns are often raised about its effect on employment, working conditions, income and social protection. It reaches security, culture and identity, inclusion or exclusion, and the cohesiveness of families and communities.</p><p><b>Cultural globalization.</b> The cultural dimension refers to the circulation and sharing of ideas, meanings and values across countries and cultures, with the effect of increasing social contacts. Globalization is not only the flow of money and commodities; it is also the process of becoming connected and integrated among people everywhere through culture. This is why a food, a song or a style of dress can travel from one country and become familiar in many others.</p><p><b>Dimensions work together.</b> The process of globalization is a combination of economic, social, cultural and political elements. A single event, such as a new trade agreement, can be economic, political and cultural at the same time because it changes markets, laws and everyday habits. Studying the dimensions separately helps us see how deeply our own lives in Ethiopia are connected to the rest of the world.</p>",
+  keyTerms: [
+    { term: "Globalization", def: "The speed-up of movements and exchange of people, goods, services, capital, technology or cultural practices all over the world." },
+    { term: "Interconnection", def: "The linkages that join states and societies into the modern world system, so that events in one place affect distant places." },
+    { term: "Economic globalization", def: "The increasing interdependence of world economies due to growing cross-border trade in goods and services, capital flows and the spread of technology." },
+    { term: "Political globalization", def: "The intensification and expansion of political interrelations across the globe, marked by the spread of policies, ideologies, political culture and institutions." },
+    { term: "Social globalization", def: "The sharing of ideas and information between and through different countries using the internet and social media, affecting life, work and society." },
+    { term: "Cultural globalization", def: "The integration and diffusion of ideas, values, meanings and cultures worldwide, which increases social contacts across cultures." },
+    { term: "Foreign direct investment", def: "Investment made by a company or person in one country into business interests located in another country." },
+    { term: "World system", def: "The network of states and societies whose economies, politics and cultures are linked together." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "Ethiopian coffee is grown in Ethiopia but drunk in many countries. Use the dimensions of globalization to explain this.",
+      given: "Coffee is said to originate in Ethiopia and is now consumed all over the world through commercial exchange.",
+      formula: "Principle: economic globalization integrates markets, while cultural globalization spreads products, habits and tastes across cultures.",
+      substitution: "Trade carries the coffee abroad (economic), and foreign consumers adopt it into their daily habits (cultural).",
+      calculation: "Because a single product crosses both a market and a culture, the coffee trade shows economic and cultural globalization at work together.",
+      answer: "Coffee shows economic globalization through world trade and cultural globalization through a shared global taste."
+    },
+    {
+      problem: "A drought in one continent raises bread prices in another country. Which idea of globalization does this illustrate?",
+      given: "An event in one part of the world has consequences in a distant part.",
+      formula: "Definition: globalization is the process by which events, decisions and activities in one part of the world have significant consequences for communities in distant parts.",
+      substitution: "The drought reduces supply, and world markets pass the effect on through higher prices.",
+      calculation: "Since the distant consequence follows from the local event through global markets, the case matches the definition exactly.",
+      answer: "It illustrates the core meaning of globalization: distant events have local consequences."
+    },
+    {
+      problem: "A student in Addis Ababa learns a new study method from a video made in another country and shares it with classmates. Which dimension is this?",
+      given: "Ideas and information are shared between countries using the internet and social media.",
+      formula: "Definition: social globalization is the sharing of ideas and information between and through different countries using the internet and social media.",
+      substitution: "The idea crosses a border through the internet and reaches learners in Ethiopia.",
+      calculation: "Because knowledge, not money or law, is moving across the border, this is social globalization.",
+      answer: "Social globalization, because ideas and information are shared across countries."
+    },
+    {
+      problem: "African countries agree to a joint policy on fighting terrorism, pushed by international partners. Which dimension does this show, and what risk does the textbook warn about?",
+      given: "Political policies and measures spread across countries, sometimes at the request of external powers.",
+      formula: "Principle: political globalization is the expansion of political interrelations and the diffusion of political policies and institutions across countries.",
+      substitution: "A shared security policy spreads from one set of states to others.",
+      calculation: "The spread of policy across states is political globalization, and the textbook warns it can pressure leaders to adopt measures opposed by their own people.",
+      answer: "Political globalization, with the risk of external pressure on developing countries."
+    }
+  ],
+  commonMistakes: [
+    "Thinking globalization means only trade and money, and ignoring its political, social and cultural sides.",
+    "Believing globalization is a single event rather than an ongoing process.",
+    "Assuming that only rich countries are connected to the rest of the world.",
+    "Confusing economic globalization with political globalization.",
+    "Thinking globalization began only with the internet, ignoring older trade and migration links.",
+    "Believing that globalization always reduces a country's independence.",
+    "Treating the four dimensions as completely separate, when in fact they usually overlap."
+  ],
+  applications: [
+    "Buying a mobile phone made abroad and using it to send money to relatives at home.",
+    "Watching foreign films and listening to foreign music on a local television station.",
+    "Selling Ethiopian coffee, teff and leather goods in markets outside Ethiopia.",
+    "Receiving money from a family member working abroad through a money transfer agent.",
+    "Learning new farming or health ideas from international organisations and adapting them locally.",
+    "Following world news on social media and discussing it in a civics class."
+  ],
+  summary: "Globalization is the growing web of linkages between states and societies, in which events in one part of the world affect distant communities. It is often described as economic globalization, the integration of national economies through trade, investment, capital flows, migration and technology, but it also has political, social and cultural dimensions. Together these dimensions connect markets, governments, ideas and cultures across the globe.",
+  visuals: [
+    {
+      type: "mindMap",
+      config: {
+        title: "Four Dimensions of Globalization",
+        center: "Globalization",
+        branches: [
+          { label: "Political", items: ["Political interrelations", "Policies and ideologies", "Institutions spread"] },
+          { label: "Economic", items: ["Cross-border trade", "Capital flows", "Technology spread"] },
+          { label: "Social", items: ["Ideas and information", "Internet and media", "Work and family life"] },
+          { label: "Cultural", items: ["Ideas and values", "Shared customs", "Identity"] }
+        ]
+      }
+    },
+    {
+      type: "comparison",
+      config: {
+        title: "Economic vs Political Globalization",
+        left: { name: "Economic", items: ["Integration of economies", "Trade in goods and services", "Flow of capital", "Spread of technology"] },
+        right: { name: "Political", items: ["Political interrelations", "Spread of policies and ideologies", "Diffusion of institutions", "Shared political culture"] }
+      }
+    },
+    {
+      type: "qa",
+      config: {
+        title: "Quick Check: Globalization",
+        pairs: [
+          { q: "What is globalization?", a: "The growing linkages and interconnections between states and societies everywhere." },
+          { q: "Which dimension involves trade and capital?", a: "The economic dimension." },
+          { q: "Which dimension uses the internet and social media?", a: "The social dimension." },
+          { q: "Give one Ethiopian example of cultural globalization.", a: "Coffee, which originated in Ethiopia, is now consumed worldwide." }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "Globalization refers to:", options: ["the closing of national borders", "the linkages and interconnections between states and societies", "military alliances only", "the traditions of a single country"], answer: 1, difficulty: 1, explanation: "Globalization is the multiplicity of linkages and interconnections between the states and societies of the modern world system." },
+    { type: "mcq", q: "The integration of national economies through trade, investment, capital flows, migration and technology is called:", options: ["social globalization", "economic globalization", "cultural globalization", "political globalization"], answer: 1, difficulty: 1, explanation: "This is the definition of economic globalization." },
+    { type: "tf", q: "Globalization explains how events in one part of the world can have consequences in distant parts.", answer: true, difficulty: 1, explanation: "Globalization describes how events and decisions in one place affect communities far away." },
+    { type: "mcq", q: "The spread of political policies, ideologies and institutions across countries describes:", options: ["the economic dimension", "the cultural dimension", "the political dimension", "the social dimension"], answer: 2, difficulty: 2, explanation: "Political globalization is the diffusion of policies, ideologies, political culture and institutions across countries." },
+    { type: "mcq", q: "Sharing ideas and information through the internet and social media is the:", options: ["social dimension", "political dimension", "economic dimension", "financial dimension"], answer: 0, difficulty: 2, explanation: "The social dimension covers the sharing of ideas and information between countries using the internet and social media." },
+    { type: "short", q: "Name the four dimensions of globalization.", answer: "political|economic|social|cultural", difficulty: 2, explanation: "Globalization combines political, economic, social and cultural dimensions." },
+    { type: "concept", q: "Explain what is meant by cultural globalization.", answer: "sharing of ideas, meanings and values across cultures|integration and diffusion of cultures worldwide", difficulty: 2, explanation: "Cultural globalization is the circulation of ideas, values, meanings and cultures across countries." },
+    { type: "mcq", q: "Which example best shows cultural globalization?", options: ["a local tax law", "Ethiopian coffee drunk around the world", "a village council meeting", "a national election"], answer: 1, difficulty: 2, explanation: "Coffee originating in Ethiopia and consumed worldwide shows the spread of a product and taste across cultures." },
+    { type: "tf", q: "Economic globalization is the only dimension of globalization.", answer: false, difficulty: 1, explanation: "Globalization also has political, social and cultural dimensions." },
+    { type: "concept", q: "Give the term for the increasing interdependence of world economies.", answer: "economic globalization", difficulty: 1, explanation: "Economic globalization is the increasing interdependence of world economies." }
+  ]
+};
+
+Lessons["g10-civics-uc8-t2"] = {
+  overview: "Globalization can be an opportunity or a threat depending on how well governments manage it. This lesson sets out its economic, political, social, cultural and financial advantages and its cultural, political, economic and social disadvantages.",
+  objectives: [
+    "Explain why the effects of globalization depend on good management",
+    "List the economic, political, social, cultural and financial advantages of globalization",
+    "Describe the disadvantages of globalization",
+    "Distinguish between advantages and disadvantages using examples",
+    "Assess how globalization affects a developing country such as Ethiopia"
+  ],
+  simple: "Globalization has both advantages and disadvantages, and which one dominates depends on how governments manage it. When countries manage it well they gain from more trade, faster growth, new technology and a global market. Politically, people learn about rights and democratic principles elsewhere, and human rights treaties spread. Socially, education, healthcare and information improve, and technology makes life easier. Culturally, people share customs and food, such as Ethiopian coffee becoming a world product. Financially, money can move easily, even from relatives abroad. The disadvantages are serious too. Cultures and languages disappear, authoritarian rule can be strengthened, income inequality widens, jobs become insecure, diseases spread faster, and the environment is damaged through pollution and global warming.",
+  detailed: "<p><b>Opportunity or threat?</b> Globalization has both advantages and disadvantages, or positive and negative effects. Whether it helps or harms a country depends on the way its government manages it. If countries manage globalization effectively to seize the opportunities, it will have positive effects; if not, it will have negative effects. The same force that brings new markets can also bring new risks.</p><p><b>Economic and financial advantages.</b> Globalization has led to a sharp increase in trade and economic exchange, and this acceleration has produced strong global economic growth and rapid industrial development. It creates a global common market based on the freedom of exchange of goods and capital, and increased trade to larger markets brings greater revenues and domestic growth. Advances in transportation, information and communications have produced huge leaps in productivity. Globalization also simplifies financial regulations, removes mediators and breaks down barriers between the world financial centres, making it easier to receive money from relatives abroad through agents such as money gram.</p><p><b>Political advantages.</b> One major political advantage is that globalization makes information available about how other countries are governed and what freedoms and rights their people enjoy. It creates universal awareness by defining accepted principles of democratic governance such as good governance, transparency and accountability. Participation in international treaties helps protect human rights and expands standards such as copyright laws, patent rights and world trade agreements. Political integration also encourages deeper cooperation on security and spreads common human values such as peace, justice, equality, freedom, democracy and free election.</p><p><b>Social and cultural advantages.</b> Globalization has brought quantitative and qualitative changes in social development by spreading material and spiritual values, and it has made education more market oriented so that labour can move to find work. Ideas, knowledge and beliefs spread, access to information grows through mass media and the internet, and healthcare, education and ecological practices improve. Cheap technologies such as the internet, cell phones and computers make communication easy. Culturally, migration, expatriation and travel increase contact between people, customs and habits are shared, mass media produce multiculturalism, and products such as coffee, originally from Ethiopia, become globally consumed.</p><p><b>Cultural and political disadvantages.</b> The same cultural exchange has homogenized the cultures of the world, so some cultures, languages and traditional practices are disappearing. Imported cultures can replace local ones through hybridization or even assimilation, and westernized or Americanized music and films spread widely. In many African countries young people prefer western fast foods and clothing, mix English with local languages and give foreign names to their children. Politically, globalization has often pressured developing countries to adopt policies opposite to the feelings of their own people, which can strengthen authoritarian rule, and the global traffic in weapons gives conflicts new characteristics.</p><p><b>Economic and social disadvantages.</b> Economic growth driven by globalization is not without costs. It creates income inequalities and disproportionate wealth, benefits some countries and companies far more than others, and reinforces the dependence of developing economies on a few primary goods. This accentuates poverty, drives brain-drain from poor countries and can reduce the growth of indigenous technologies. Socially, globalization brings personal insecurity as criminals use open capital markets, new technology and cheap transport for illicit trade in drugs, women and weapons. It brings job and income insecurity through flexible labour policies, health insecurity as travel spreads diseases such as HIV/AIDS and Covid-19, and environmental insecurity through greenhouse emissions, global warming, deforestation and plastic pollution.</p>",
+  keyTerms: [
+    { term: "Global common market", def: "A world market based on the freedom of exchange of goods and capital, created by economic globalization." },
+    { term: "Multiculturalism", def: "The coexistence and sharing of many cultures, encouraged by the globalization of mass media." },
+    { term: "Homogenization of culture", def: "The process by which different cultures become more alike, causing some local cultures and languages to disappear." },
+    { term: "Brain-drain", def: "The movement of skilled and educated people from poorer countries to richer ones, which weakens the poorer country." },
+    { term: "Financial globalization", def: "The simplification of financial regulations and the removal of barriers between the world financial centres, which eases the flow of capital." },
+    { term: "Social insecurity", def: "The loss of safety in personal life, health, jobs and income caused by the negative side of globalization." },
+    { term: "Environmental insecurity", def: "Damage to the natural world, such as greenhouse emissions, deforestation and plastic pollution, linked to global economic growth." },
+    { term: "Income inequality", def: "The unequal distribution of wealth and income between and within countries, which economic globalization widens." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "A factory in Ethiopia switches to machines that replace many workers, using capital-intensive methods learned from abroad. Use the disadvantages of globalization to explain this.",
+      given: "Globalization spreads technology and capital-intensive production instead of labour-intensive methods.",
+      formula: "Principle: globalization can distort patterns of production in developing countries by using capital-intensive methods, which increases unemployment and poverty.",
+      substitution: "Machines replace workers, so fewer people are employed.",
+      calculation: "Because the new method is capital-intensive, employment falls, matching the warning about unemployment and poverty.",
+      answer: "This is an economic disadvantage of globalization: capital-intensive production raises unemployment."
+    },
+    {
+      problem: "Students in a town prefer foreign fast food and foreign names and mix English with their own language. Which disadvantage does this illustrate?",
+      given: "Imported culture replaces local food, names and language.",
+      formula: "Principle: cultural globalization can homogenize cultures and lead to the loss of local practices, languages and identities.",
+      substitution: "Local food, names and language give way to imported habits.",
+      calculation: "Because local culture is being replaced by foreign culture, this is cultural loss or cultural insecurity.",
+      answer: "Cultural loss: the local culture is being replaced by imported habits."
+    },
+    {
+      problem: "A family in a rural kebele receives money from a relative working abroad quickly and cheaply. Which advantage of globalization does this show?",
+      given: "Globalization simplifies financial regulations and breaks down barriers between financial centres.",
+      formula: "Principle: financial globalization makes the exchange of capital easier, for example receiving money from relatives abroad through agents.",
+      substitution: "The transfer crosses borders easily through a money transfer agent.",
+      calculation: "Because the flow of money across borders has become simple, this matches the financial advantage in the textbook.",
+      answer: "A financial advantage of globalization: easier transfer of money across borders."
+    },
+    {
+      problem: "A country opens its markets fully without protecting local producers or culture. Predict the outcome using both advantages and disadvantages.",
+      given: "Openness brings trade and technology but also competition and cultural pressure.",
+      formula: "Principle: the effects of globalization depend on how well a government manages it.",
+      substitution: "Without management, gains from trade may be outweighed by inequality, job loss and cultural erosion.",
+      calculation: "The same openness produces both effects, so the balance depends on policy and not on globalization alone.",
+      answer: "Mixed results: gains in trade are offset by losses, showing that globalization must be managed."
+    }
+  ],
+  commonMistakes: [
+    "Thinking globalization always benefits every country equally.",
+    "Believing globalization is either all good or all bad, instead of depending on management.",
+    "Ignoring cultural loss because trade and money seem more important.",
+    "Assuming new technology always creates more jobs than it destroys.",
+    "Treating brain-drain as harmless for a developing country.",
+    "Believing that only poor countries suffer from the disadvantages of globalization.",
+    "Confusing a country's wealth with its ability to manage globalization."
+  ],
+  applications: [
+    "Receiving money sent by a relative working abroad using a money transfer agent.",
+    "Buying imported clothing and food while also supporting local producers and designs.",
+    "Using the internet to learn new skills while keeping up local languages and traditions.",
+    "Welcoming foreign investment that creates jobs while insisting on fair wages and safe work.",
+    "Following international news about human rights and holding leaders accountable.",
+    "Reducing plastic waste in your town, since global trade increases garbage."
+  ],
+  summary: "Globalization brings advantages such as faster trade and growth, better access to information and rights, improved social services, cultural exchange and easier money transfers. It also brings disadvantages such as cultural loss, pressure on developing countries, wider inequality, brain-drain, job insecurity, faster spread of disease and environmental damage. Whether globalization helps or harms a country depends on how well its government manages it.",
+  visuals: [
+    {
+      type: "comparison",
+      config: {
+        title: "Advantages vs Disadvantages of Globalization",
+        left: { name: "Advantages", items: ["More trade and growth", "New technology", "Knowledge of rights", "Cultural exchange", "Easier money transfer"] },
+        right: { name: "Disadvantages", items: ["Cultural loss", "Authoritarian pressure", "Wider inequality", "Job insecurity", "Spread of disease", "Environmental damage"] }
+      }
+    },
+    {
+      type: "mindMap",
+      config: {
+        title: "Areas Globalization Touches",
+        center: "Globalization",
+        branches: [
+          { label: "Economic", items: ["Trade", "Investment", "Jobs"] },
+          { label: "Political", items: ["Policies", "Rights", "Security"] },
+          { label: "Social", items: ["Education", "Health", "Information"] },
+          { label: "Cultural", items: ["Customs", "Language", "Identity"] },
+          { label: "Environmental", items: ["Emissions", "Deforestation", "Waste"] }
+        ]
+      }
+    },
+    {
+      type: "tableVisual",
+      config: {
+        title: "Globalization: Gains and Losses",
+        headers: ["Area", "Advantage", "Disadvantage"],
+        rows: [
+          ["Economic", "More trade and growth", "Wider income inequality"],
+          ["Political", "Learning about rights", "External pressure on leaders"],
+          ["Social", "Better information and health", "Insecure jobs and incomes"],
+          ["Cultural", "Sharing of customs", "Loss of local cultures"],
+          ["Financial", "Easy money transfers", "Illicit money flows"]
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "According to the lesson, whether globalization helps or harms a country depends mainly on:", options: ["the size of the country", "how its government manages it", "the number of its people", "its distance from the sea"], answer: 1, difficulty: 1, explanation: "The advantage or disadvantage of globalization depends on the way governments manage it." },
+    { type: "mcq", q: "Which is an economic advantage of globalization?", options: ["loss of local languages", "a sharp increase in trade and economic growth", "the spread of authoritarian rule", "insecure jobs"], answer: 1, difficulty: 1, explanation: "Globalization led to a sharp increase in trade and economic exchange and strong global economic growth." },
+    { type: "tf", q: "Globalization can help protect human rights through international treaties.", answer: true, difficulty: 2, explanation: "Participation in international treaties helps protect human rights at international and regional level." },
+    { type: "mcq", q: "Receiving money from a relative abroad through a money transfer agent is an example of:", options: ["a financial advantage", "cultural loss", "environmental insecurity", "job insecurity"], answer: 0, difficulty: 2, explanation: "Financial globalization eases the flow of capital, including remittances from relatives abroad." },
+    { type: "mcq", q: "The negative impact in which criminals use open markets and new technology for illegal trade is called:", options: ["personal insecurity", "job insecurity", "health insecurity", "cultural exchange"], answer: 0, difficulty: 3, explanation: "Personal insecurity arises as criminals use deregulated markets, technology and cheap transport for illicit trade." },
+    { type: "short", q: "Give one disadvantage of globalization for a developing country.", answer: "income inequality|brain-drain|cultural loss|job insecurity|environmental damage", difficulty: 2, explanation: "Any listed disadvantage such as wider inequality, brain-drain or cultural loss is correct." },
+    { type: "concept", q: "Explain what is meant by the homogenization of culture.", answer: "cultures becoming more alike|losing differences|imported culture replaces local culture", difficulty: 2, explanation: "Cultural exchange has made cultures more alike, so some local cultures and languages disappear." },
+    { type: "mcq", q: "The movement of educated people from poor to rich countries is called:", options: ["migration", "brain-drain", "urbanization", "multiculturalism"], answer: 1, difficulty: 2, explanation: "Economic stagnation triggers a substantial brain-drain from poor countries." },
+    { type: "tf", q: "Globalization has no effect on the environment.", answer: false, difficulty: 1, explanation: "Globalization contributes to greenhouse emissions, global warming, deforestation and plastic pollution." },
+    { type: "concept", q: "Explain why good management matters for globalization.", answer: "it decides whether effects are positive or negative|management turns opportunities into benefits", difficulty: 2, explanation: "If countries manage globalization well they gain its advantages; if not, they suffer its disadvantages." }
+  ]
+};
+
+Lessons["g10-civics-uc8-t3"] = {
+  overview: "Globalization cannot be ignored, so countries fight its negative impacts by strengthening what is local and cooperating with neighbours. This lesson explains indigenous knowledge, community development, social protection, regional cooperation and innovation funds.",
+  objectives: [
+    "Explain why the costs of globalization cannot be ignored",
+    "Describe how promoting indigenous knowledge helps developing countries",
+    "Explain the roles of community development and social protection",
+    "Describe regional cooperation as a way of fighting negative impacts",
+    "Explain how an innovation fund supports developing countries"
+  ],
+  simple: "Ignoring the costs of globalization is not possible, so the only way forward is to manage its forces better at national and international levels. Countries use several methods. First, they promote indigenous knowledge by teaching local creativity in agriculture, medicine, technology and food preparation, so young people value their own traditions. Second, they value community development, because local people know best what their community needs and take ownership of projects. Third, they promote indigenous social welfare and protection programmes, such as school feeding, cash transfers, savings and insurance, to reduce dependence on foreign aid. Fourth, they build regional cooperation with neighbouring countries to solve shared problems. Fifth, they provide an innovation fund that rewards research useful to developing countries.",
+  detailed: "<p><b>Why the negative impacts must be fought.</b> Despite the benefits brought by globalization, a number of factors have increased uncertainty, risks, complexity and volatility. Ignoring the very real costs of globalization is not possible or defensible. Instead, better management of the forces of globalization, at the national and international levels, is the only way to build a better future for all communities of the world. Countries have therefore adopted different ways of fighting the negative impacts.</p><p><b>Promoting indigenous knowledge.</b> Through globalization, western knowledge is produced and diffused to other parts of the world and treated as the legitimate source of all knowledge, and many developing countries copy western education systems without considering their own ways of life, socio-economic structures and political culture. A solution is to give greater attention to spreading indigenous knowledge through the education system. Indigenous knowledge means the indigenous expression of creativity passed down across generations in areas such as agriculture, healthcare, technology, food preparation, conservation and the management of natural resources. Teaching it helps young people value their own creative efforts and traditional practices instead of depending entirely on ideas from outside.</p><p><b>Valuing community development.</b> Recognizing the community as one of the pillars of successful development is the most important instrument for developing countries to reduce the influence of western initiative programmes, which often lack local responsibility and ownership. In communities, people work together, often with help from government and non-governmental organizations. Much important collective action happens at the local level; for example, irrigation channels are maintained by the community, which ensures water is shared fairly among villages. Such schemes succeed because people take responsibility for one another and ensure each pays what is due. Villagers know better than anyone else what will make a difference to their lives, so projects with local participation do much better than programmes designed outside the community.</p><p><b>Promoting indigenous social welfare and protection.</b> Social safety net schemes, community organizations and other government and community supported welfare protections reduce dependence on external aid, which often comes with excessive conditions. Social protection can be protective, giving basic transfers such as public employment schemes and school feeding to stop vulnerable groups from starving; preventive, helping people avoid destitution and keep their dignity through contributory social security, savings and insurance and universal child allowances; or promotional, boosting incomes and capabilities through livelihood-promoting interventions. In Ethiopia, traditional, religious and community-based support mechanisms have long been the first line of defence against personal and community risks.</p><p><b>Regional cooperation.</b> Global issues can be approached by groups of nations that have comparable economic status and compatible social and cultural patterns. Regionalism intensifies political or economic cooperation among states and other actors in a particular geographic region. It is important to sustain cooperation, formal or informal, among governments, non-governmental organizations or the private sector in three or more countries for mutual gains. Regional cooperation lets states, regional institutions and societal organizations share fundamental values and norms and join a growing network of economic, cultural, scientific, diplomatic, political and military interactions. Its rationale is to foster transformation and stimulate productive capacity through investment and trade.</p><p><b>Providing an innovation fund.</b> A more effective measure is a fund that directly encourages innovations of benefit to developing countries. In a prize system, researchers are rewarded for the value of their innovations, which moves incentives in the right direction. Those who make really important discoveries, such as tackling diseases with no known cure, or who research widespread and socially costly diseases, would receive big rewards. Not only developing countries would benefit, because citizens of developed countries would also gain from improved knowledge. Such measures help developing countries reduce the cost of importing technological products.</p>",
+  keyTerms: [
+    { term: "Indigenous knowledge", def: "Indigenous expression of creativity passed down across generations in areas such as agriculture, healthcare, technology, food preparation, conservation and natural resource management." },
+    { term: "Community development", def: "Development in which people work together, often with government and non-governmental help, and take ownership of planning and execution." },
+    { term: "Social protection", def: "Government and community supported welfare programmes that reduce vulnerability and dependence on external aid." },
+    { term: "Protective measures", def: "Basic transfers such as public employment schemes and school feeding that stop vulnerable groups from starving." },
+    { term: "Preventive measures", def: "Measures such as contributory social security, savings, insurance and child allowances that stop people from falling into destitution." },
+    { term: "Promote measures", def: "Interventions that boost real incomes and capabilities to support and improve livelihoods." },
+    { term: "Regional cooperation", def: "Sustained cooperation, formal or informal, among governments, organizations or the private sector in three or more countries for mutual gains." },
+    { term: "Innovation fund", def: "A fund or prize system that rewards researchers for innovations that benefit developing countries." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "A poor kebele starts a school feeding programme so that children from hungry families can stay in class. Which type of social protection measure is this?",
+      given: "Basic transfers are provided to stop vulnerable groups from starving.",
+      formula: "Principle: protective measures are basic transfers such as public employment schemes, school feeding and regular cash transfers.",
+      substitution: "Free meals are a basic transfer that stops children from going hungry.",
+      calculation: "Because the measure gives immediate basic support to a vulnerable group, it is a protective measure.",
+      answer: "It is a protective social protection measure."
+    },
+    {
+      problem: "Villagers maintain their own irrigation channels and share water fairly. Use the value of community development to explain why this works.",
+      given: "Local people plan and take responsibility for a shared resource.",
+      formula: "Principle: community development works because local people know best what their community needs and take ownership of projects.",
+      substitution: "The villagers manage the channels themselves and share water fairly among villages.",
+      calculation: "Because they own the project and know their own needs, it succeeds better than a plan designed outside the community.",
+      answer: "Community development: local ownership and responsibility make the project succeed."
+    },
+    {
+      problem: "A government joins other countries to set up a prize that rewards a cure for a widespread disease. Which way of fighting the negative impacts is this?",
+      given: "Research is rewarded for the value of innovations that benefit developing countries.",
+      formula: "Principle: an innovation fund uses a prize system to reward researchers for useful innovations.",
+      substitution: "The prize goes to research on a socially costly disease.",
+      calculation: "Because the reward targets an innovation of value to developing countries, it is an innovation fund.",
+      answer: "An innovation fund that uses a prize system."
+    },
+    {
+      problem: "Four neighbouring countries sign a trade and security agreement to solve shared problems. Which mechanism is this and why does it help?",
+      given: "States with comparable status and compatible cultures cooperate for mutual gain.",
+      formula: "Principle: regional cooperation is sustained cooperation among three or more countries for mutual gains.",
+      substitution: "The four states share values, norms and economic interests.",
+      calculation: "Because three or more countries sustain cooperation for shared gains, it matches the definition of regional cooperation.",
+      answer: "Regional cooperation, which helps states solve common problems together."
+    }
+  ],
+  commonMistakes: [
+    "Thinking the negative impacts of globalization should simply be ignored.",
+    "Believing western knowledge is the only legitimate kind of knowledge.",
+    "Assuming outside projects work better than local ones that communities own.",
+    "Treating social protection as charity rather than a way to reduce vulnerability.",
+    "Confusing protective, preventive and promotional measures.",
+    "Believing a single country can solve global problems entirely alone.",
+    "Confusing an innovation fund with ordinary foreign aid."
+  ],
+  applications: [
+    "Learning traditional farming, medicine or food-preparation skills alongside modern subjects.",
+    "Joining a community work group to clean, repair or build something local, such as an irrigation channel or a school fence.",
+    "Supporting traditional mutual-help groups such as idir, iqub and debo in your area.",
+    "Supporting a school feeding or cash transfer programme for vulnerable families.",
+    "Participating in a regional youth or trade programme with neighbouring countries.",
+    "Encouraging local research and inventions instead of only buying foreign technology."
+  ],
+  summary: "Because the costs of globalization cannot be ignored, countries fight its negative impacts by managing its forces better. They promote indigenous knowledge in education, value community-owned development, provide social protection programmes, build regional cooperation among neighbouring states, and set up innovation funds that reward useful research. These measures strengthen what is local while keeping the benefits of global connection.",
+  visuals: [
+    {
+      type: "steps",
+      config: {
+        title: "Five Ways to Fight the Negative Impacts",
+        steps: [
+          { label: "Promote indigenous knowledge", detail: "Teach local creativity and traditions in the education system." },
+          { label: "Value community development", detail: "Let local people plan and own their own projects." },
+          { label: "Provide social protection", detail: "Use protective, preventive and promotional welfare measures." },
+          { label: "Build regional cooperation", detail: "Work with neighbouring countries on shared problems." },
+          { label: "Create an innovation fund", detail: "Reward research that benefits developing countries." }
+        ]
+      }
+    },
+    {
+      type: "comparison",
+      config: {
+        title: "Protective vs Preventive Social Protection",
+        left: { name: "Protective", items: ["Stops starvation", "Basic transfers", "Public employment", "School feeding"] },
+        right: { name: "Preventive", items: ["Prevents destitution", "Keeps dignity", "Savings and insurance", "Child allowances"] }
+      }
+    },
+    {
+      type: "tableVisual",
+      config: {
+        title: "Types of Social Protection Measures",
+        headers: ["Type", "Purpose", "Examples"],
+        rows: [
+          ["Protective", "Stop vulnerable groups from starving", "School feeding, cash transfers"],
+          ["Preventive", "Prevent destitution and keep dignity", "Savings, insurance, child allowances"],
+          ["Promote", "Boost incomes and capabilities", "Livelihood-promoting interventions"]
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "Ignoring the very real costs of globalization is described as:", options: ["the best policy", "not possible or defensible", "a legal duty", "a form of regionalism"], answer: 1, difficulty: 1, explanation: "The textbook states that ignoring the real costs of globalization is not possible and defensible." },
+    { type: "mcq", q: "Teaching local creativity in agriculture, medicine and food preparation is a way of:", options: ["promoting indigenous knowledge", "increasing foreign aid", "spreading western education", "reducing regional cooperation"], answer: 0, difficulty: 1, explanation: "This is promoting indigenous knowledge through the education system." },
+    { type: "tf", q: "Community development works because local people know best what their community needs.", answer: true, difficulty: 1, explanation: "Local people know better than anyone else what will make a difference to their lives." },
+    { type: "mcq", q: "School feeding and public employment schemes are examples of:", options: ["preventive measures", "protective measures", "promote measures", "regional cooperation"], answer: 1, difficulty: 2, explanation: "Protective measures are basic transfers that stop vulnerable groups from starving, such as school feeding." },
+    { type: "mcq", q: "Sustained cooperation among three or more countries for mutual gains is called:", options: ["brain-drain", "regional cooperation", "homogenization", "urbanization"], answer: 1, difficulty: 1, explanation: "This is the definition of regional cooperation in the lesson." },
+    { type: "concept", q: "Explain the role of an innovation fund.", answer: "rewards research useful to developing countries|encourages innovations of benefit to developing countries", difficulty: 2, explanation: "An innovation fund encourages innovations of benefit to developing countries through a prize system." },
+    { type: "short", q: "Name one traditional Ethiopian mutual-help group named in the lesson.", answer: "idir|iqub|debo", difficulty: 1, explanation: "Traditional and community-based support mechanisms are the first line of defence in Ethiopia." },
+    { type: "mcq", q: "Which measure prevents people from falling into destitution?", options: ["protective", "preventive", "promote", "none of these"], answer: 1, difficulty: 3, explanation: "Preventive measures stop people from falling into destitution through savings, insurance and child allowances." },
+    { type: "ordering", q: "Arrange the five ways of fighting the negative impacts of globalization in the order given in the lesson.", options: ["Provide an innovation fund", "Promote indigenous knowledge", "Build regional cooperation", "Value community development"], answer: 1, difficulty: 3, explanation: "The order is: indigenous knowledge, community development, social protection, regional cooperation, innovation fund." },
+    { type: "concept", q: "Explain why promoting indigenous knowledge is important for young people.", answer: "helps them value their own traditions|value their own creative efforts", difficulty: 2, explanation: "It helps the young value their own creative efforts and traditional practices rather than depending only on foreign ideas." }
+  ]
+};
+
+Lessons["g10-civics-uc8-t4"] = {
+  overview: "Some problems reach beyond any single country and threaten the whole world. This lesson defines global issues, gives criteria for identifying them, and explains major issues such as climate change, poverty, population growth, unemployment, disease and terrorism.",
+  objectives: [
+    "Define a global issue and give examples",
+    "List the criteria for identifying global issues",
+    "Explain the causes and effects of climate change",
+    "Describe poverty, population growth and unemployment as global issues",
+    "Explain why disease and terrorism are global security problems"
+  ],
+  simple: "Global issues are issues that arise when two or more states cannot agree on how to solve a problem, or any major trend or development that can seriously affect the whole globe. Such issues harm the global community and environment. They range from small problems to catastrophic risks that threaten the entire human race, such as nuclear proliferation. We can identify global issues by their extent or scope, their urgency or intensity, and their centrality or location. The major contemporary issues include climate change and global warming, poverty and inequality, population explosion, unemployment, disease such as HIV/AIDS and Covid-19, and terrorism. These problems cross national borders and affect all countries.",
+  detailed: "<p><b>What a global issue is.</b> Global issues are issues that arise when two or more states cannot agree on how to solve a problem. The term also means any major trend, shock or development that has the potential to impact the globe seriously. A global issue is any issue that adversely affects the global community and the environment. Global issues range in severity from minor issues that affect everyone to global catastrophic risks that threaten the existence of the entire human race. The problem can be as extremely global as nuclear proliferation, or it can be a more localized problem such as a disagreement between two countries over a common boundary.</p><p><b>Criteria for identifying global issues.</b> Several commonly used criteria help us judge whether an issue is global. The extent or scope of the issue means that, to be called global, it must affect large parts of the globe and peoples, or not be confined to a specific area. The urgency or intensity of an issue is its seriousness and the attention given to it by all countries and peoples. The centrality or location of an issue is partly a matter of geography, since the closer an issue is to powerful states the greater the attention and significance it receives; it also expresses how sensitive an issue is and how it links to other vital interests.</p><p><b>Climate change.</b> Climate change and environmental degradation are among the greatest challenges facing humanity. Economic growth and technological innovation have increased global wealth but also caused serious degradation of natural resources. Greenhouse emissions, overexploitation of resources, soil erosion and overfishing have reduced food production. The world experiences acid rain, forest destruction, decreasing biodiversity, desertification, contamination of oceans and destruction of the ozone layer, but the biggest problem is global warming. Global warming raises sea levels, increases droughts, submerges towns in islands and coastal areas, reduces agriculture and fishing, causes severe storms, floods and heat waves, and spreads infectious diseases. Its main human causes are massive industrialization, rapid population growth and rapid urbanization.</p><p><b>Poverty, inequality and population.</b> Poverty is one of the worst problems the world faces. The poorest countries are often hungry, have less access to education, regularly have no light at night and suffer poorer health. Widespread poverty is accompanied by wide inequality, and the income gap between poor and rich countries and within countries has widened. Deep deprivation weakens the ability of states to fight terrorism, organized crime, armed conflict and disease, and poverty has become a breeding ground for terrorists. The world population is also increasing at an alarming rate, putting pressure on land, water, air, security and health, leading to over-exploitation of resources, pollution and migration.</p><p><b>Unemployment and disease.</b> Unemployment is the state in which people are looking for jobs but cannot find them, and it is one of the biggest issues facing the international community. It locks people in poverty, perpetuates inequality and threatens social stability, since high youth unemployment can cause conflict and unrest. Its consequences include crime, drug trafficking, family breakdown, domestic violence and migration in search of better opportunities. Disease is another global issue: growth in travel and migration has helped spread diseases such as HIV/AIDS and Covid-19. HIV/AIDS and Covid-19 first emerged in America and China respectively, but the epidemics spread rapidly to new locations and affected people all over the world.</p><p><b>Terrorism.</b> Terrorism is difficult to define because it is inherently political, and many people lack a precise definition of the concept. The term is defined as the use of violence against non-combatants, civilians or other persons normally considered illegitimate targets of military action, for the purpose of attracting attention for a political cause, forcing those who are aloof from the struggle to join it, or intimidating opponents into concessions. It is a global security problem characterized by violence in the form of hostage-taking, bombing, hijacking and other indiscriminate attacks on civilian targets. It threatens the security of all countries of the world.</p>",
+  keyTerms: [
+    { term: "Global issue", def: "Any issue or problem that adversely affects the global community and the environment, or a major trend that can seriously impact the globe." },
+    { term: "Climate change", def: "A change in the average conditions of temperature and rainfall over a long period of time." },
+    { term: "Global warming", def: "The gradual heating of the earth surface, oceans and atmosphere caused by human activity, mainly the burning of fossil fuels." },
+    { term: "Population explosion", def: "The rapid increase in the number of people in a particular species." },
+    { term: "Unemployment", def: "The state when people are looking for jobs but cannot find them." },
+    { term: "Terrorism", def: "The unlawful use of violence against civilians or property to intimidate or coerce the civilian population." },
+    { term: "Weapons proliferation", def: "A rapid and prolonged increase in the development, purchase and inventory of weapons." },
+    { term: "Poverty and inequality", def: "Deep deprivation and the unequal distribution of income and wealth that weaken states and cross national borders." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "A country that produces very little greenhouse gas still suffers floods, droughts and rising sea levels. Using the criteria for global issues, explain why climate change is a global issue.",
+      given: "Emissions come mainly from industrial countries, but the effects are felt everywhere.",
+      formula: "Criterion: extent or scope means the issue affects large parts of the globe and peoples, not a specific area.",
+      substitution: "The effects cross borders and harm countries that did little to cause the problem.",
+      calculation: "Because its effects are not confined to one area and affect many peoples, climate change meets the scope criterion.",
+      answer: "Climate change is global because its effects cover large parts of the globe."
+    },
+    {
+      problem: "Poverty in one region is blamed for terrorism, crime and disease in neighbouring regions. Explain why poverty is now treated as a global issue rather than a local one.",
+      given: "Deep deprivation weakens states and its effects cross national boundaries.",
+      formula: "Principle: poverty and inequality and the associated outcomes can no longer be contained within national boundaries.",
+      substitution: "Weak states cannot control crime, conflict or disease, which then spread to neighbours.",
+      calculation: "Because the consequences spill over borders and threaten global stability, poverty is a global issue.",
+      answer: "Poverty is global because its consequences cross borders and threaten stability everywhere."
+    },
+    {
+      problem: "A group attacks civilians in one country to force another government to make concessions. Explain why this is a global security problem.",
+      given: "Violence against civilians is used to attract attention and intimidate opponents.",
+      formula: "Definition: terrorism is the use of violence against non-combatants for a political cause, and it is a global security problem.",
+      substitution: "The attack targets civilians and aims to influence government policy.",
+      calculation: "Because it uses violence against civilians for political ends and threatens many countries, it is both terrorism and a global issue.",
+      answer: "It is terrorism, a global security problem because it threatens the security of all countries."
+    },
+    {
+      problem: "Two neighbouring countries argue over a small boundary line. Is this a global issue? Use the criteria to decide.",
+      given: "The disagreement is localized but may attract outside attention.",
+      formula: "Criteria: extent or scope, urgency or intensity, and centrality or location.",
+      substitution: "The issue is confined to one area, yet it may be sensitive and linked to wider interests.",
+      calculation: "By scope it is mainly local, but by centrality and its links to powerful states it can become global if others take it up.",
+      answer: "Mainly local, but it can become a global issue if it is sensitive and attracts the attention of powerful states."
+    }
+  ],
+  commonMistakes: [
+    "Thinking any problem in one country is automatically a global issue.",
+    "Believing only extremely serious problems can be global, ignoring smaller shared issues.",
+    "Confusing climate change with global warming, when warming is the biggest part of climate change.",
+    "Assuming terrorism has a single agreed definition, when it is disputed and political.",
+    "Believing unemployment is only a personal problem and not a cause of conflict.",
+    "Treating poverty as a purely local matter even though its effects cross borders.",
+    "Ignoring that population growth adds pressure to land, water and health."
+  ],
+  applications: [
+    "Planting trees and saving water to reduce the effects of climate change in your area.",
+    "Supporting families in poverty through community groups or school feeding programmes.",
+    "Taking part in family planning education so that population growth is manageable.",
+    "Learning skills and creating work instead of waiting for jobs, to reduce unemployment.",
+    "Following public health advice to slow the spread of diseases such as Covid-19.",
+    "Reporting suspicious violent plans to the police and refusing to spread extremist messages."
+  ],
+  summary: "Global issues are problems that adversely affect the global community and environment, ranging from minor shared concerns to catastrophic risks. They can be identified by their extent or scope, their urgency or intensity, and their centrality or location. The major contemporary global issues include climate change and global warming, poverty and inequality, population explosion, unemployment, disease such as HIV/AIDS and Covid-19, and terrorism, all of which cross national borders and threaten world security.",
+  visuals: [
+    {
+      type: "mindMap",
+      config: {
+        title: "Major Global Issues",
+        center: "Global Issues",
+        branches: [
+          { label: "Climate change", items: ["Global warming", "Pollution", "Deforestation"] },
+          { label: "Poverty", items: ["Inequality", "Deprivation", "Vicious cycle"] },
+          { label: "Population", items: ["Rapid growth", "Resource pressure", "Migration"] },
+          { label: "Unemployment", items: ["Poverty", "Unrest", "Exclusion"] },
+          { label: "Disease", items: ["HIV/AIDS", "Covid-19", "Travel spread"] },
+          { label: "Terrorism", items: ["Violence on civilians", "Political aims", "Global security"] }
+        ]
+      }
+    },
+    {
+      type: "flowChart",
+      config: {
+        title: "From Human Causes to Climate Effects",
+        steps: [
+          "Massive industrialization burns fuel",
+          "Rapid population growth uses more land",
+          "Rapid urbanization adds waste and traffic",
+          "Greenhouse gases build in the atmosphere",
+          "Global warming and rising sea levels",
+          "Droughts, floods, lost crops, new diseases"
+        ]
+      }
+    },
+    {
+      type: "qa",
+      config: {
+        title: "Quick Check: Global Issues",
+        pairs: [
+          { q: "What is a global issue?", a: "A problem that adversely affects the global community and environment." },
+          { q: "Which criteria identify a global issue?", a: "Extent or scope, urgency or intensity, and centrality or location." },
+          { q: "What is the biggest problem of climate change?", a: "Global warming." },
+          { q: "Why is terrorism a global issue?", a: "It threatens the security of all countries of the world." }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "A global issue is best described as:", options: ["a small local quarrel", "any issue that adversely affects the global community and environment", "a private family matter", "a school rule"], answer: 1, difficulty: 1, explanation: "A global issue is any issue that adversely affects the global community and environment." },
+    { type: "mcq", q: "Which of the following is a criterion for identifying a global issue?", options: ["the wealth of one person", "the extent or scope of the issue", "the weather of one town", "the age of a leader"], answer: 1, difficulty: 1, explanation: "The criteria are extent or scope, urgency or intensity, and centrality or location." },
+    { type: "tf", q: "Global issues can range from minor shared problems to catastrophic risks threatening the whole human race.", answer: true, difficulty: 1, explanation: "Global issues vary from minor issues that affect everyone to global catastrophic risks." },
+    { type: "mcq", q: "The biggest problem caused by climate change is:", options: ["acid rain", "global warming", "soil erosion", "overfishing"], answer: 1, difficulty: 2, explanation: "Although many problems exist, the biggest problem of climate change is global warming." },
+    { type: "mcq", q: "Which is a main human cause of climate change?", options: ["planting trees", "massive industrialization", "saving water", "using public transport"], answer: 1, difficulty: 2, explanation: "Massive industrialization, rapid population growth and rapid urbanization are named as human causes." },
+    { type: "concept", q: "Explain why poverty is considered a global issue.", answer: "its effects cross borders|weakens states and threatens stability|can no longer be contained within national boundaries", difficulty: 3, explanation: "Poverty and its outcomes can no longer be contained within national boundaries and threaten global stability." },
+    { type: "mcq", q: "The state in which people are looking for jobs but cannot find them is called:", options: ["unemployment", "migration", "urbanization", "inflation"], answer: 0, difficulty: 1, explanation: "This is the definition of unemployment given in the lesson." },
+    { type: "tf", q: "Growth in travel and migration has helped spread diseases such as HIV/AIDS and Covid-19.", answer: true, difficulty: 2, explanation: "Travel and migration helped spread these diseases to new locations around the world." },
+    { type: "concept", q: "Define terrorism as given in the lesson.", answer: "unlawful use of violence against civilians to intimidate or coerce|use of violence against non-combatants for a political cause", difficulty: 3, explanation: "Terrorism is the use of violence against civilians or non-combatants for political aims." },
+    { type: "short", q: "Name two major global issues discussed in the lesson.", answer: "climate change|poverty|population explosion|unemployment|disease|terrorism", difficulty: 2, explanation: "The lesson covers climate change, poverty, population, unemployment, disease and terrorism." },
+    { type: "mcq", q: "Why is terrorism a global agenda?", options: ["it devastates developed countries only", "it creates uncertainty in developing countries only", "it threatens the security of all countries of the world", "it is easy to define"], answer: 2, difficulty: 2, explanation: "Terrorism threatens the security of all countries of the world, which makes it a global agenda." }
+  ]
+};

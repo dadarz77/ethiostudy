@@ -1,0 +1,764 @@
+/* Content: Grade 10 Citizenship Education - Unit 3: Understanding Good Governance (6 topics)
+   Source: MoE Citizenship Education Grade 10 Student Textbook, Unit 3. */
+window.Lessons = window.Lessons || {};
+
+Lessons["g10-civics-uc3-t1"] = {
+  overview: "Good governance is the way public institutions decide common concerns and manage public resources for the benefit of all citizens. This lesson defines governance and good governance and explains why the concept matters.",
+  objectives: [
+    "Define governance and good governance",
+    "Explain the common definitions of good governance",
+    "Describe how good governance measures public institutions",
+    "Explain how governance lets citizens exercise rights and meet obligations",
+    "Relate good governance to the control of one's own development"
+  ],
+  simple: "Good governance is the way a country is run: the institutions, processes and practices through which common concerns are decided and regulated. It measures how well public institutions conduct public affairs and manage public resources. Where governance is good, public services are efficient, the judicial system is reliable and the administration answers to the public. Governance itself means the way rules, norms and actions are structured, sustained, regulated and held accountable. Good governance also exists when citizens can express their interests, use their legal rights, meet their obligations and settle their differences peacefully. Finally, it happens when society encourages people to take greater control of their own development without harming the rights of others. Good governance therefore belongs to both leaders and citizens.",
+  detailed: "<p><b>What governance means.</b> Governance is the way rules, norms and actions are structured, sustained and regulated, and the way those in charge are held accountable. Good governance is therefore the process of decision making and the process by which decisions are implemented. It is not only about who holds power, but about how power is used, for whom, and with what result.</p><p><b>Four common definitions.</b> The textbook gives several commonly agreed definitions. First, good governance refers to all the processes of governing: the institutions, processes and practices through which common concerns are decided upon and regulated. Second, it is a way of measuring how public institutions conduct public affairs and manage public resources in a better way, at which a public service is efficient, a judicial system is reliable and an administration is accountable to its public.</p><p><b>Mechanisms for citizens.</b> A third definition says that good governance comprises the existence of effective mechanisms, processes and institutions through which citizens articulate their interests, exercise their legal rights, meet their obligations and mediate their differences. Here the focus moves from rulers to citizens: good governance is judged by whether ordinary people have real channels to speak, to claim rights and to settle disputes without violence.</p><p><b>Control of one's own development.</b> A fourth definition says that good governance occurs when societal norms and practices empower and encourage people to take increasingly greater control over their own development in a manner that does not impinge upon the accepted rights of others. This links good governance with <i>self-reliance</i>: citizens are not passive objects of development but active subjects who shape their own lives.</p><p><b>Why the definitions matter.</b> These definitions show that good governance is broader than government. Government is only one actor. Elections, courts, the civil service, the media, businesses, civil society and ordinary citizens all take part in governance. A country can hold elections and still lack good governance if officials are unaccountable or public money is wasted.</p><p><b>Why it matters to you.</b> Good governance decides whether a clinic has medicine, whether a school has books, whether a road reaches your kebele and whether a complaint is heard. When citizens understand the concept, they can judge their leaders not by speeches but by results, and they can demand the accountability and transparency that good governance requires.</p>",
+  keyTerms: [
+    { term: "Governance", def: "The way rules, norms and actions are structured, sustained and regulated and held accountable." },
+    { term: "Good governance", def: "The process of decision making and the process by which decisions are implemented, so that services are efficient, courts reliable and administration accountable." },
+    { term: "Public institution", def: "An office or body that conducts public affairs and manages public resources on behalf of citizens." },
+    { term: "Accountability", def: "The duty of elected and appointed officials to answer for the decisions and acts they undertake." },
+    { term: "Transparency", def: "The free availability of information to the public about government rules, decisions and their enforcement." },
+    { term: "Efficiency", def: "Producing results that meet society's needs while making the best use of available resources." },
+    { term: "Mediate", def: "To help opposing sides settle their differences peacefully rather than by force." },
+    { term: "Self-reliance", def: "The condition in which people take greater control over their own development without harming the rights of others." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "A woreda office publishes its budget, answers citizen complaints and completes a road on time. Using the definitions, explain why this counts as good governance.",
+      given: "The office shares information, replies to the public and delivers a service within the plan.",
+      formula: "Definition: good governance is a way of measuring how public institutions conduct public affairs and manage public resources in a better way, efficiently and accountably.",
+      substitution: "The office is efficient (the road was completed), accountable (complaints answered) and transparent (the budget was published).",
+      calculation: "All the marks of the definition are met, so the conduct of the office counts as good governance.",
+      answer: "It is good governance: the institution is efficient, accountable and transparent in managing public resources."
+    },
+    {
+      problem: "In a town, citizens may vote but public money is stolen and no official is ever questioned. Does the town enjoy good governance?",
+      given: "Elections are held, but accountability and honest use of resources are missing.",
+      formula: "Definition: good governance exists only when public resources are managed in a better way and the administration is accountable to the public.",
+      substitution: "Voting alone does not make officials answerable for stolen funds.",
+      calculation: "Because accountability and sound management fail, the test of good governance fails even though elections occur.",
+      answer: "No. Elections alone are not enough; without accountability good governance is absent."
+    },
+    {
+      problem: "A kebele lets residents present their needs at a public meeting and refer a land dispute to a fair committee. Which definition does this fit?",
+      given: "Citizens express interests, use their rights and settle differences through a committee.",
+      formula: "Definition: good governance comprises effective mechanisms through which citizens articulate interests, exercise rights, meet obligations and mediate differences.",
+      substitution: "The public meeting and the committee are exactly such mechanisms.",
+      calculation: "The definition of citizen-facing mechanisms is satisfied.",
+      answer: "It fits the definition about mechanisms through which citizens articulate interests and mediate differences."
+    },
+    {
+      problem: "A youth group in a village designs its own irrigation project and asks the local government only for technical support. Explain how this shows good governance.",
+      given: "The community takes the lead in planning its own development.",
+      formula: "Definition: good governance occurs when societal norms and practices empower people to take greater control over their own development without harming the rights of others.",
+      substitution: "The youth group takes control of its development while respecting the rights of others.",
+      calculation: "The condition of empowerment for self-directed development is met.",
+      answer: "It shows the empowerment definition: people take greater control of their own development within the rights of others."
+    }
+  ],
+  commonMistakes: [
+    "Thinking good governance means government alone, when courts, media, business, civil society and citizens also take part.",
+    "Believing a country has good governance simply because it holds regular elections.",
+    "Assuming good governance is only about money and not about rights, courts and participation.",
+    "Confusing governance with government; governance is the way power is exercised, while government is only one actor.",
+    "Treating good governance as a task for leaders alone and ignoring the role of citizens.",
+    "Judging leaders by their speeches rather than by efficient services and accountability.",
+    "Thinking development is only for outsiders and institutions, not something citizens direct."
+  ],
+  applications: [
+    "Attending a public budget hearing in your woreda and asking how school funds are spent.",
+    "Using a suggestion box at the kebele office to report a service problem.",
+    "Checking whether a local office opens on time and serves people within a reasonable time.",
+    "Discussing with classmates how a school committee could be made more accountable.",
+    "Reading a public notice about a local project instead of relying on rumour.",
+    "Joining a community meeting where citizens present their needs to local leaders."
+  ],
+  summary: "Governance is the way rules, norms and actions are structured, sustained and held accountable, while good governance is the process of making and implementing decisions for the public good. The common definitions describe it as the institutions and practices that regulate common concerns, a measure of efficient service and accountable administration, mechanisms through which citizens claim rights and settle differences, and the empowerment of people to direct their own development. Good governance therefore involves leaders and citizens together.",
+  visuals: [
+    {
+      type: "mindMap",
+      config: {
+        title: "Four Common Definitions of Good Governance",
+        center: "Good governance",
+        branches: [
+          { label: "Processes of governing", items: ["Institutions", "Practices", "Common concerns"] },
+          { label: "Measure of institutions", items: ["Efficient service", "Reliable courts", "Accountable"] },
+          { label: "Mechanisms for citizens", items: ["Articulate interests", "Exercise rights", "Mediate differences"] },
+          { label: "Control of development", items: ["Empower people", "Self-reliance", "Respect rights"] }
+        ]
+      }
+    },
+    {
+      type: "comparison",
+      config: {
+        title: "Governance vs Government",
+        left: { name: "Governance", items: ["The way rules are structured", "Includes many actors", "Focuses on how power is used", "Measured by results for citizens"] },
+        right: { name: "Government", items: ["One set of institutions", "Elected and appointed officials", "Holds formal authority", "Only one actor in governance"] }
+      }
+    },
+    {
+      type: "steps",
+      config: {
+        title: "Judging Good Governance in an Office",
+        steps: [
+          { label: "Check efficiency", detail: "Are services delivered while using resources well?" },
+          { label: "Check reliability", detail: "Do courts and offices follow fair procedures?" },
+          { label: "Check accountability", detail: "Can officials explain their decisions to the public?" },
+          { label: "Check citizen voice", detail: "Can people raise concerns and settle disputes peacefully?" }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "Governance is best defined as:", options: ["The law-making body only", "The way rules, norms and actions are structured, sustained, regulated and held accountable", "The army and police", "A single political party"], answer: 1, difficulty: 1, explanation: "This is the definition given in the textbook glossary." },
+    { type: "mcq", q: "According to one definition, good governance is a way of measuring how public institutions:", options: ["Collect taxes", "Conduct public affairs and manage public resources in a better way", "Win elections", "Build armies"], answer: 1, difficulty: 1, explanation: "Good governance measures how public institutions manage public affairs and resources, so services are efficient and administration accountable." },
+    { type: "tf", q: "Good governance happens only when citizens can take greater control of their own development without harming the rights of others.", answer: true, difficulty: 2, explanation: "This is one of the commonly agreed definitions of good governance." },
+    { type: "mcq", q: "Which definition stresses that citizens articulate their interests, exercise their rights, meet their obligations and mediate their differences?", options: ["The process of governing", "The measure of institutions", "The mechanisms through which citizens act", "The control of parties"], answer: 2, difficulty: 2, explanation: "It is the definition about effective mechanisms, processes and institutions for citizens." },
+    { type: "short", q: "Which single word names the way rules, norms and actions are structured, sustained, regulated and held accountable?", answer: "governance", difficulty: 1, explanation: "That word is governance." },
+    { type: "tf", q: "A country enjoys good governance simply because it holds regular elections.", answer: false, difficulty: 2, explanation: "Elections alone are not enough; accountability and honest management are also required." },
+    { type: "concept", q: "Give the term for the institutions and processes through which common concerns are decided upon and regulated.", answer: "good governance|governance", difficulty: 1, explanation: "That term is good governance." },
+    { type: "mcq", q: "In the lesson, good governance requires an administration that is:", options: ["Secretive", "Accountable to its public", "Permanent", "Controlled by one family"], answer: 1, difficulty: 1, explanation: "Good governance means a public service is efficient, a judicial system reliable and an administration accountable to its public." },
+    { type: "concept", q: "Explain in one sentence why good governance is broader than government.", answer: "many actors take part|courts, media, civil society, business and citizens also take part", difficulty: 3, explanation: "Government is only one actor; many institutions and citizens share in governance." },
+    { type: "ordering", q: "Arrange the steps for judging a local office in the correct order.", options: ["Check citizen voice", "Check efficiency", "Check accountability", "Check reliability"], answer: 1, difficulty: 2, explanation: "The order is efficiency, reliability, accountability and citizen voice." },
+    { type: "short", q: "Name one group, other than government officials, that takes part in governance.", answer: "citizens|courts|media|civil society|business", difficulty: 2, explanation: "Courts, media, civil society, business and citizens all take part in governance." }
+  ]
+};
+
+Lessons["g10-civics-uc3-t2"] = {
+  overview: "Good governance rests on a set of interrelated elements, including accountability, participation, rule of law, transparency, equity, responsiveness, consensus orientation, and effectiveness and efficiency. This lesson explains each element.",
+  objectives: [
+    "List the main elements of good governance",
+    "Define accountability, participation, transparency and rule of law",
+    "Explain equity, inclusiveness and responsiveness",
+    "Describe consensus orientation and effectiveness",
+    "Show how the elements depend on one another in practice"
+  ],
+  simple: "Good governance has several elements that all institutions try to follow. Accountability means officials answer for their decisions. Participation means citizens take part in decision making. Rule of law means fair laws are enforced impartially against everyone, backed by independent courts and honest police. Transparency means information about rules and decisions is freely available to the public. Equity and inclusiveness mean all groups, especially the vulnerable, have a stake and a chance to improve their well-being. Responsiveness means institutions serve all stakeholders within a reasonable time. Consensus orientation means mediating different interests to reach the best interest of society. Effectiveness and efficiency mean producing needed results while using resources, and the environment, well. These elements are interrelated: if one fails, the others suffer.",
+  detailed: "<p><b>The elements are related.</b> Elements of good governance may vary with the nature and functions of institutions, but the following are commonly practised by all institutions and organizations as they pursue their purposes. The textbook stresses that the elements are interrelated: the effectiveness of one depends on the others, and a problem in any indicator eventually compromises the rest. For example, accountability cannot be effective unless there is transparency and openness in the work being done.</p><p><b>Accountability and participation.</b> <b>Accountability</b> requires elected and appointed officials to be answerable for the decisions and acts they undertake. Officials must decide and act according to the will and wishes of the people, not for themselves; for government to be accountable, the people must know what is happening in the country. <b>Participation</b> refers to the involvement of citizens in decision making. Every citizen has a role, and people should express their concerns about policies that affect them without fear or discrimination.</p><p><b>Rule of law.</b> Good governance requires legal frameworks that are fair and enforced impartially. Everyone must obey the law and be held accountable when they violate it. Impartial enforcement requires an independent judiciary and an impartial and incorruptible police force, so that no powerful person stands above the law.</p><p><b>Transparency.</b> Transparency refers to the availability of information to the general public and clarity about government rules, regulations and decisions. Those who will be affected by a decision should be able to know and reach that information freely. Transparency in decision making and policy implementation reduces uncertainty and helps inhibit corruption among public officials.</p><p><b>Equity and inclusiveness.</b> A society's well-being depends on ensuring that all its members feel they have a stake and do not feel excluded from the mainstream. This requires all groups, particularly the most vulnerable, to have opportunities to improve or maintain their well-being. Inclusiveness asks who is left out, not only who is served.</p><p><b>Responsiveness, consensus and effectiveness.</b> <b>Responsiveness</b> requires institutions and processes to try to serve all stakeholders within a reasonable time frame; by being responsive, government and non-government institutions gain legitimacy and wider acceptance. <b>Consensus orientation</b> means mediating differing interests to reach broader consensus on the best interests of society and, where possible, on policies and procedures. <b>Effectiveness and efficiency</b> mean that processes and institutions produce results that meet the needs of society while making the best use of resources, including the sustainable use of natural resources and protection of the environment.</p>",
+  keyTerms: [
+    { term: "Accountability", def: "A principle requiring elected and appointed officials to be answerable for the decisions and acts they undertake." },
+    { term: "Participation", def: "The involvement of citizens in the process of decision making." },
+    { term: "Rule of law", def: "The requirement that legal frameworks be fair and enforced impartially, so that everyone obeys the law and is held accountable." },
+    { term: "Transparency", def: "The free availability of information to the public and clarity about government rules, regulations and decisions." },
+    { term: "Equity and inclusiveness", def: "Ensuring all groups, especially the most vulnerable, feel they have a stake and can improve or maintain their well-being." },
+    { term: "Responsiveness", def: "The duty of institutions and processes to serve all stakeholders within a reasonable time frame." },
+    { term: "Consensus orientation", def: "Mediating differing interests to reach broader consensus on the best interests of society." },
+    { term: "Effectiveness and efficiency", def: "Producing results that meet society's needs while making the best and most sustainable use of resources." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "Mr. Alemu publishes vacancy announcements and the annual budget, answers questions and treats all people impartially. Which elements of good governance does he demonstrate?",
+      given: "He gives information to the public, publicizes the budget and treats people equally.",
+      formula: "Elements: transparency gives free information; accountability means open to the public; equity means impartial treatment.",
+      substitution: "Publishing the budget is transparency; equal treatment is equity; being accessible and answerable to all is accountability.",
+      calculation: "More than one element is present, and they support one another because the elements are interrelated.",
+      answer: "Transparency, equity and accountability, supported by responsiveness."
+    },
+    {
+      problem: "A court frees a rich businessman for a crime that sends a poor man to jail. Which element of good governance is broken?",
+      given: "The same offence receives different treatment depending on wealth.",
+      formula: "Element: the rule of law requires fair laws enforced impartially and equality of all citizens before the law.",
+      substitution: "Unequal treatment shows the law is not applied impartially.",
+      calculation: "Because application differs by wealth, impartiality fails and the rule of law is broken.",
+      answer: "The rule of law is broken because the law was not enforced impartially."
+    },
+    {
+      problem: "A health office keeps citizens waiting for weeks for a simple document. Identify the missing element and its likely cost.",
+      given: "The office delays service beyond a reasonable time.",
+      formula: "Element: responsiveness requires serving all stakeholders within a reasonable time frame.",
+      substitution: "Weeks of waiting is not a reasonable time frame.",
+      calculation: "The office fails responsiveness, which weakens its legitimacy and wider acceptance.",
+      answer: "Responsiveness is missing; the delay damages public trust and legitimacy."
+    },
+    {
+      problem: "A woreda plans a market and asks women, traders, elders and youth for their views before deciding. Which elements are shown?",
+      given: "Diverse groups are consulted before the decision is taken.",
+      formula: "Elements: participation and consensus orientation, together with inclusiveness.",
+      substitution: "Consulting citizens is participation; mediating their differing interests is consensus orientation; including all groups is inclusiveness.",
+      calculation: "The process meets all three elements at once.",
+      answer: "Participation, consensus orientation and inclusiveness."
+    }
+  ],
+  commonMistakes: [
+    "Treating the elements of good governance as separate, when they are interrelated.",
+    "Thinking accountability means only punishment, not answering to the public.",
+    "Believing participation means only voting, not taking part in decisions.",
+    "Assuming the rule of law protects only the powerful or applies only to ordinary people.",
+    "Confusing transparency with giving away secrets, instead of giving the public clear information.",
+    "Reading inclusiveness as charity, rather than equal opportunity for the vulnerable.",
+    "Believing responsiveness means doing quick favours for friends and relatives."
+  ],
+  applications: [
+    "Asking a woreda office to publish its annual budget and the timetable for its services.",
+    "Taking part in a school or kebele meeting where policies affecting youth are discussed.",
+    "Reporting a police station that treats people unequally to the relevant authority.",
+    "Checking whether a local health centre posts waiting times and rules for patients.",
+    "Inviting a classmate with a disability to join a school committee so decisions include them.",
+    "Using a suggestion box to ask an office to answer citizen questions within a reasonable time."
+  ],
+  summary: "The elements of good governance include accountability, participation, rule of law, transparency, equity and inclusiveness, responsiveness, consensus orientation, and effectiveness and efficiency. They are practised by both government and non-government institutions and are closely interrelated, so weakness in one undermines the others. Remember that accountability depends on transparency, and that serving all stakeholders within a reasonable time builds legitimacy.",
+  visuals: [
+    {
+      type: "mindMap",
+      config: {
+        title: "Elements of Good Governance",
+        center: "Good governance",
+        branches: [
+          { label: "Accountability", items: ["Answerable officials", "Will of the people"] },
+          { label: "Participation", items: ["Citizens decide", "No fear or bias"] },
+          { label: "Rule of law", items: ["Fair laws", "Impartial courts"] },
+          { label: "Transparency", items: ["Free information", "Reduces corruption"] },
+          { label: "Equity and inclusion", items: ["Vulnerable included", "Equal opportunity"] },
+          { label: "Responsiveness", items: ["Reasonable time", "Gains legitimacy"] },
+          { label: "Consensus", items: ["Mediate interests", "Broader agreement"] },
+          { label: "Effectiveness", items: ["Needed results", "Wise use of resources"] }
+        ]
+      }
+    },
+    {
+      type: "tableVisual",
+      config: {
+        title: "Element, Meaning and Daily Test",
+        headers: ["Element", "Meaning", "Daily test"],
+        rows: [
+          ["Accountability", "Officials answer for decisions", "Can the public question them?"],
+          ["Participation", "Citizens join decision making", "Are people heard?"],
+          ["Rule of law", "Laws fair and enforced impartially", "Is everyone equal before it?"],
+          ["Transparency", "Information freely available", "Is the budget public?"],
+          ["Responsiveness", "Serve within reasonable time", "How long do citizens wait?"]
+        ]
+      }
+    },
+    {
+      type: "steps",
+      config: {
+        title: "Testing an Office Against the Elements",
+        steps: [
+          { label: "Accountability", detail: "Are officials answerable to the public?" },
+          { label: "Transparency", detail: "Is information easy to find and understand?" },
+          { label: "Participation", detail: "Can citizens influence the decisions taken?" },
+          { label: "Responsiveness", detail: "Do services arrive within a reasonable time?" },
+          { label: "Equity", detail: "Are the vulnerable included fairly?" }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "Which principle requires elected and appointed officials to be answerable for the decisions and acts they undertake?", options: ["Transparency", "Accountability", "Participation", "Efficiency"], answer: 1, difficulty: 1, explanation: "Accountability makes officials answerable for their decisions and acts." },
+    { type: "mcq", q: "The involvement of citizens in the process of decision making is called:", options: ["Accountability", "Rule of law", "Participation", "Effectiveness"], answer: 2, difficulty: 1, explanation: "Participation is the involvement of citizens in decision making." },
+    { type: "tf", q: "All the elements of good governance are interrelated.", answer: true, difficulty: 1, explanation: "The textbook says the effectiveness of one element depends on the others." },
+    { type: "mcq", q: "Which element means that institutions and processes try to serve all stakeholders within a reasonable time frame?", options: ["Inclusiveness", "Responsiveness", "Rule of law", "Consensus orientation"], answer: 1, difficulty: 2, explanation: "This is the definition of responsiveness." },
+    { type: "mcq", q: "Impartial enforcement of the law requires:", options: ["A strong ruling party", "An independent judiciary and an incorruptible police force", "More public holidays", "Higher taxes"], answer: 1, difficulty: 2, explanation: "Impartial implementation of laws requires an independent judiciary and an impartial, incorruptible police force." },
+    { type: "short", q: "Name the element that means the free availability of information to the general public.", answer: "transparency", difficulty: 1, explanation: "That element is transparency." },
+    { type: "concept", q: "Which element requires all groups, especially the most vulnerable, to have opportunities to improve their well-being?", answer: "equity and inclusiveness|inclusiveness|equity", difficulty: 2, explanation: "This is equity and inclusiveness." },
+    { type: "tf", q: "Accountability can be effective even when there is no transparency.", answer: false, difficulty: 3, explanation: "The textbook says accountability cannot be effective unless there is transparency and openness." },
+    { type: "concept", q: "Explain in one sentence how transparency helps fight corruption.", answer: "it reduces uncertainty and inhibits corruption|information freely available stops hidden deals", difficulty: 3, explanation: "Transparency reduces uncertainty and can help inhibit corruption among public officials." },
+    { type: "ordering", q: "Arrange these actions of a well-governed office in a logical order.", options: ["Serve stakeholders within a reasonable time", "Publish rules and information", "Hold officials answerable for decisions", "Invite citizens into decision making"], answer: 1, difficulty: 2, explanation: "The order is: publish information, invite citizens, hold officials answerable, serve within a reasonable time." },
+    { type: "short", q: "Name one element of good governance that covers the sustainable use of natural resources and protection of the environment.", answer: "effectiveness and efficiency|effectiveness|efficiency", difficulty: 2, explanation: "Efficiency in good governance covers sustainable use of natural resources and protection of the environment." }
+  ]
+};
+
+Lessons["g10-civics-uc3-t3"] = {
+  overview: "Good governance drives economic and social development, strengthens cohesion, promotes peace, ensures social justice, improves government performance and protects human rights. This lesson explains each role.",
+  objectives: [
+    "Explain how good governance promotes economic development",
+    "Describe how it improves social development",
+    "Show how it strengthens social cohesion and unity",
+    "Explain how it promotes peace and social justice",
+    "Describe how it enhances government performance and protects human rights"
+  ],
+  simple: "An explicit commitment to good governance plays many roles. It promotes economic development by ensuring the rule of law, improving efficiency and accountability, allocating resources better and allowing communities access to institutions and markets. It improves social development by raising living standards, food, health, education and the ability to take part in public affairs. It strengthens social cohesion and unity by making sure all people have a stake and the poorest voices are heard. It promotes peace by giving citizens pathways to raise their concerns. It ensures social justice through impartial courts, and it enhances government performance by raising capacity, efficiency and effectiveness. Finally, good governance is essential for respect of human rights.",
+  detailed: "<p><b>Promoting economic development.</b> Good governance is the most important factor in promoting economic development. It addresses economic problems by ensuring the rule of law, improving the efficiency and accountability of the public and private sectors, allocating and distributing resources better, allowing communities access to government institutions and markets, and increasing growth so that development outcomes are redistributed to the whole population. It promotes inclusive growth through effective implementation of government policies, impartial institutions, protection of property rights and equitable enforcement of the law. It also calls for decentralized development and administration, so that citizens are not just objects of development but subjects who take responsibility for their lives.</p><p><b>Improving social development.</b> Development does not involve only an increase in income or economic growth; it also includes sustainable improvements in the living standards and social well-being of society. Good governance ensures a better today and a brighter future for citizens and generates interest among the people. It brings positive change in the quality and span of life through access to better living conditions, the ability to feed, clothe and shelter oneself from more income, longer life through health and medical facilities and better sanitation, the ability to read, write and understand through education, and the ability to participate meaningfully in public affairs.</p><p><b>Strengthening social cohesion and unity.</b> Good governance ensures that people at large have a stake in the affairs of the state and do not feel excluded. It makes social and economic priorities rest on broad consensus, so the voices of the poorest and most vulnerable are heard when development resources are allocated. It mediates diverse opinions to build consensus on what is practical, beneficial and in the larger interest. Social cohesion and unity are served by promoting democratic principles, popular participation, human rights and the rule of law.</p><p><b>Promoting peace.</b> Good governance is a key instrument for peace because it gives citizens pathways to feel that their issues and interests are represented in decision-making structures. It allows diverse social, political and economic groups to engage in decisions, receive benefits and resources equitably, voice concerns and grievances, and have their rights and security protected. When the governance system is not participatory, accountable and transparent, some groups feel excluded, and that in turn contributes to instability.</p><p><b>Ensuring social justice.</b> Good governance encourages judicial flexibility and creativity and opens legal systems to new justice claims and to the values of political and social minorities. Social justice means creating an environment in which every individual gets unreserved and unhindered opportunity for development. Access to justice rests on the basic principle that people should be able to rely on the correct application of the law, and impartial enforcement of the rule of law lets courts, police and civil services treat people equally.</p><p><b>Enhancing performance and human rights.</b> Good governance seeks to improve the capacity of the state and to increase the efficiency and effectiveness of government performance; accountability, transparency and responsiveness on the part of government and its officials are the hallmark of good governance in any society. Nurturing good governance is also essential to respect for human rights. Without the rule of law, courts and other institutions, the enforcement and respect of human rights would be impossible. Transparent, responsible, accountable and participatory governance is a prerequisite for enduring respect for human dignity.</p>",
+  keyTerms: [
+    { term: "Economic development", def: "Growth in a country's production and income that improves the well-being of the whole population." },
+    { term: "Inclusive growth", def: "Growth whose benefits are shared fairly through effective policies and impartial institutions." },
+    { term: "Decentralized development", def: "Development and administration carried out closer to the people so citizens take part in their own affairs." },
+    { term: "Social development", def: "Sustainable improvement in living standards and social well-being, not only an increase in income." },
+    { term: "Social cohesion", def: "The strength of relationships and the sense of solidarity among the members of a community." },
+    { term: "Social justice", def: "The equal and fair distribution of wealth, opportunities and privileges within a society." },
+    { term: "Human rights", def: "The basic rights and dignity owed to every person, which good governance helps to protect." },
+    { term: "Legitimacy", def: "The accepted right of an institution to govern, which fairness and responsiveness help to build." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "A region builds a road and a market after consulting citizens, then spends the new income on schools. Explain the role of good governance shown.",
+      given: "Citizens are consulted and the benefits of growth are shared.",
+      formula: "Role: good governance promotes economic development through better allocation of resources and inclusive growth.",
+      substitution: "Consulting citizens is participation and decentralization; spending growth on schools is redistribution.",
+      calculation: "Resources are allocated better and the benefits are redistributed, which matches the economic development role.",
+      answer: "It promotes economic development and inclusive growth by sharing benefits fairly."
+    },
+    {
+      problem: "Two neighbouring communities have a long dispute. A woreda sets up a fair committee that hears both sides and their grievances. Which role of good governance is this?",
+      given: "Diverse groups can raise concerns and have their rights protected through a fair process.",
+      formula: "Role: good governance promotes peace by giving citizens pathways to have issues represented and grievances heard.",
+      substitution: "The fair committee is a pathway for voice rather than for violence.",
+      calculation: "Providing equal channels for grievances satisfies the peace role.",
+      answer: "It promotes peace by giving both communities a fair way to voice their concerns."
+    },
+    {
+      problem: "A court applies the law equally to a poor farmer and a rich trader. Which role of good governance is achieved?",
+      given: "Both parties receive the correct and equal application of the law.",
+      formula: "Role: good governance ensures social justice through impartial enforcement of the rule of law.",
+      substitution: "Equal treatment by the court is impartial enforcement.",
+      calculation: "Equal access to justice matches the social justice role.",
+      answer: "It ensures social justice through impartial application of the law."
+    },
+    {
+      problem: "In a drought year a government delays relief and ignores the voices of the affected people. Which roles are missing?",
+      given: "Relief is late and the affected people are not heard.",
+      formula: "Roles: good governance improves social development, strengthens cohesion and requires responsiveness.",
+      substitution: "Late relief breaks responsiveness and social development; ignored voices break cohesion and peace.",
+      calculation: "The failures match the opposite of several roles at once.",
+      answer: "Social development, cohesion and peace are undermined, and responsiveness is missing."
+    }
+  ],
+  commonMistakes: [
+    "Equating development only with income and ignoring health, education and well-being.",
+    "Thinking good governance helps only the economy, not peace or human rights.",
+    "Believing citizens should merely receive development as objects, not shape it.",
+    "Assuming stability can be kept by force rather than by participation and fairness.",
+    "Treating social justice as treating everyone the same while ignoring the vulnerable.",
+    "Confusing decentralization with weakening the state.",
+    "Ignoring the voices of the poorest when development resources are allocated."
+  ],
+  applications: [
+    "Taking part in a woreda budget hearing to direct funds to a village school.",
+    "Supporting a local peace committee that hears both sides of a dispute.",
+    "Encouraging a kebele to publish how it distributes development resources.",
+    "Reporting a clinic that denies service so that social development reaches everyone.",
+    "Joining a youth group that proposes a shared water project to local leaders.",
+    "Standing up for a classmate whose rights are ignored by a school rule."
+  ],
+  summary: "Good governance plays a central role in development and peace. It promotes economic development through the rule of law, efficiency, better allocation of resources and inclusive growth; it improves social development in health, food, shelter and education; and it strengthens social cohesion and unity. It also promotes peace by giving all groups a voice, ensures social justice through impartial courts, enhances government performance and protects human rights. In short, good governance lets citizens be subjects of their own development rather than objects.",
+  visuals: [
+    {
+      type: "mindMap",
+      config: {
+        title: "Roles of Good Governance",
+        center: "Good governance",
+        branches: [
+          { label: "Economic development", items: ["Rule of law", "Inclusive growth", "Decentralization"] },
+          { label: "Social development", items: ["Health", "Education", "Living standards"] },
+          { label: "Cohesion and unity", items: ["All have a stake", "Poorest heard", "Consensus"] },
+          { label: "Peace", items: ["Representation", "Grievance channels", "Equity"] },
+          { label: "Social justice", items: ["Impartial courts", "Access to justice", "Minority values"] },
+          { label: "Performance and rights", items: ["Capacity", "Accountability", "Human dignity"] }
+        ]
+      }
+    },
+    {
+      type: "flowChart",
+      config: {
+        title: "From Good Governance to Development",
+        steps: ["Fair laws and accountable institutions", "Efficient public and private sectors", "Better allocation and distribution of resources", "Inclusive growth reaches all groups", "Better health, education and living standards", "A dignified life and lasting stability"]
+      }
+    },
+    {
+      type: "comparison",
+      config: {
+        title: "Growth Only vs Development as Well-being",
+        left: { name: "Growth only", items: ["Focus on income", "May leave groups out", "Ignores rights", "Short-lived gains"] },
+        right: { name: "Well-being", items: ["Health, food, shelter", "Education for all", "Rights respected", "Lasting and shared"] }
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "Which of the following is a role of good governance in economic development?", options: ["Ignoring property rights", "Ensuring the rule of law and better allocation of resources", "Concentrating wealth in one group", "Reducing citizen participation"], answer: 1, difficulty: 1, explanation: "Good governance ensures the rule of law, efficiency and better allocation and distribution of resources." },
+    { type: "tf", q: "Development means only an increase in income or economic growth.", answer: false, difficulty: 1, explanation: "It also includes sustainable improvements in living standards and social well-being." },
+    { type: "mcq", q: "Good governance strengthens social cohesion mainly by:", options: ["Keeping power with one group", "Ensuring people have a stake and the poorest voices are heard", "Building more prisons", "Ending elections"], answer: 1, difficulty: 2, explanation: "Cohesion comes from broad consensus and hearing the poorest and most vulnerable." },
+    { type: "mcq", q: "How does good governance promote peace?", options: ["By using force against opponents", "By giving groups pathways to have issues represented and grievances heard", "By banning political groups", "By ignoring conflict"], answer: 1, difficulty: 2, explanation: "Peace comes from participation, representation and equitable benefits." },
+    { type: "short", q: "Name the role of good governance that gives every individual an unreserved and unhindered opportunity for development.", answer: "social justice", difficulty: 1, explanation: "This is social justice." },
+    { type: "concept", q: "Which role of good governance improves the capacity of the state and increases the efficiency of government performance?", answer: "enhancing government performance|government performance", difficulty: 2, explanation: "This is enhancing government performance." },
+    { type: "tf", q: "Transparent, responsible, accountable and participatory governance is a prerequisite for lasting respect for human dignity.", answer: true, difficulty: 2, explanation: "The textbook states this directly in the section on human rights." },
+    { type: "concept", q: "Explain in one sentence how decentralization supports economic development.", answer: "it lets society participate in its own affairs|citizens become subjects not objects of development", difficulty: 3, explanation: "Decentralized development ensures society's participation, so citizens are subjects, not objects, of development." },
+    { type: "mcq", q: "When a governance system is not participatory, accountable and transparent, some groups feel excluded, which contributes to:", options: ["Stability", "Instability", "Growth", "Justice"], answer: 1, difficulty: 2, explanation: "Excluded groups contribute to instability." },
+    { type: "short", q: "Which role of good governance protects the values of political and social minorities through judicial flexibility?", answer: "social justice|ensuring social justice", difficulty: 2, explanation: "Good governance ensures social justice and opens legal systems to new justice claims." },
+    { type: "mcq", q: "Good governance treats citizens as:", options: ["Objects of development", "Subjects who take responsibility for their lives", "Unpaid workers", "Instruments of the state"], answer: 1, difficulty: 2, explanation: "Decentralized governance means citizens are subjects who take responsibility for their own development." }
+  ]
+};
+
+Lessons["g10-civics-uc3-t4"] = {
+  overview: "Developing countries face many obstacles to good governance, including poverty, corruption, weak and unresponsive institutions and inefficient use of resources. This lesson examines those challenges.",
+  objectives: [
+    "Identify the main challenges to good governance",
+    "Explain how poverty blocks rights and participation",
+    "Describe the many ways corruption damages institutions and development",
+    "Recognise weak institutions, unaccountable officials and dependent courts",
+    "Relate these challenges to your own locality"
+  ],
+  simple: "People in developing countries face many governance challenges. Their government institutions are not effective and responsive, officials are unaccountable, courts are not independent and resources are not used efficiently. Two major challenges are poverty and corruption. Poverty blocks good governance because poor people worry about getting a meal, not about participating in decisions; extreme poverty brings exclusion, isolation and shame. Corruption damages democratic institutions and public services and distorts the economy, causing budget deficits, inflation and lost purchasing power. It undermines confidence in public institutions, deepens a sense of injustice, facilitates electoral fraud and violence, and lowers trust between citizens. Facing these challenges, citizens must demand accountable, transparent and responsive government.",
+  detailed: "<p><b>Weak institutions in developing countries.</b> People in developing countries now face many governance challenges. Their government institutions are not effective and responsive, officials are unaccountable, courts are not independent, and resources are not efficiently utilized. These weaknesses do not stand alone; a court that is not independent cannot check unaccountable officials, and officials who are unaccountable can waste resources with little consequence.</p><p><b>Poverty as a challenge.</b> Good governance cannot be realized in a condition where people are poor, because poverty does not provide a fertile ground for the promotion of rights and participation. When people are starved, they are concerned about where they can get a meal and do not worry about their participation in the decision-making process. Extreme poverty results in exclusion, isolation and loneliness and worsens a sense of stigma and shame, which creates a feeling of not being able to join in the society or play any part in it.</p><p><b>Why poverty blocks voice.</b> Effective governance is difficult to attain when those people affected by poverty have trouble getting their voices heard and their interests taken into account by service providers and decision makers. Because citizens are unable to attain full and effective enjoyment of all fundamental rights, good governance cannot be achieved. Poverty and weak governance reinforce each other: bad governance keeps people poor, and poverty keeps people from demanding better governance.</p><p><b>Corruption damages institutions.</b> Rampant corruption imperils the stability of democratic institutions by making them inefficient and ineffective in delivering public services. It is considered a failure of institutions, in particular those in charge of investigation, prosecution and enforcement. Corruption damages the development process in many ways.</p><p><b>Three ways corruption harms development.</b> First, it distorts economic systems by creating a consistent budget deficit, which leads to persistent inflation that reduces the real purchasing power of consumers. Second, it undermines social confidence in the capacity of public institutions to fulfil their obligations to the people, and it reinforces existing power relationships that are themselves part of the development problem. Third, highly visible corruption accentuates the sense of injustice and grievance linked to poverty, unemployment and economic hardship.</p><p><b>Corruption and politics.</b> Corruption has also been a major challenge to the successful implementation of economic reforms. The entrenchment of political corruption and clientelism as the principal means of economic advancement aggravates conflicts, by raising the premium on control of the state and making politics a more desperate, zero-sum struggle for economic opportunity. The weakness of the rule of law makes it easier for leaders to mobilize violence at the grassroots to win power, and it also facilitates electoral fraud and violence. In the end, citizens have low levels of trust in one another and in the future.</p>",
+  keyTerms: [
+    { term: "Challenge of governance", def: "An obstacle, such as poverty or corruption, that prevents institutions from being effective and responsive." },
+    { term: "Poverty", def: "A condition of serious material deprivation that blocks rights, participation and voice." },
+    { term: "Corruption", def: "The misuse of public office or power for private gain, and a failure of institutions." },
+    { term: "Clientelism", def: "A system in which political support is traded for jobs, money or favours." },
+    { term: "Zero-sum struggle", def: "A contest in which one side's gain is seen as the other side's loss, making politics desperate." },
+    { term: "Unaccountable official", def: "An office holder who does not answer to the public for decisions and acts." },
+    { term: "Judicial independence", def: "The freedom of courts to decide cases fairly without pressure from other powers." },
+    { term: "Economic reform", def: "Policy changes meant to improve an economy, which corruption can block." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "In a district, hungry families do not attend public meetings about a new tax. Explain the challenge shown.",
+      given: "Poverty makes people focus on survival rather than participation.",
+      formula: "Challenge: poverty does not provide fertile ground for the promotion of rights and participation.",
+      substitution: "Families worried about a meal cannot give time to decision making.",
+      calculation: "Their absence shows poverty blocking participation, which then blocks good governance.",
+      answer: "Poverty is the challenge: it stops citizens from taking part in decisions."
+    },
+    {
+      problem: "An office collects a bribe to speed up a licence and the government runs a constant budget deficit with rising prices. Which challenge and which damage are shown?",
+      given: "Bribery occurs and the budget stays in deficit with rising prices.",
+      formula: "Challenge: corruption; damage: it distorts economic systems and creates a persistent budget deficit and inflation.",
+      substitution: "The bribe is corrupt practice; the deficit and inflation follow from distorted economics.",
+      calculation: "The case matches corruption causing economic distortion.",
+      answer: "Corruption, which distorts the economy and reduces the real purchasing power of consumers."
+    },
+    {
+      problem: "An official ignores complaints and no court will hear the case. Name two governance challenges.",
+      given: "An unaccountable official and a court that does not act independently.",
+      formula: "Challenges: officials who are unaccountable and courts that are not independent.",
+      substitution: "The ignored complaint shows lack of accountability; the silent court shows a weak judiciary.",
+      calculation: "Both are listed challenges of developing-country governance.",
+      answer: "Unaccountable officials and courts that are not independent."
+    },
+    {
+      problem: "A candidate uses violence and fraud to win, and neighbours no longer trust one another. Which challenge is at work?",
+      given: "Fraud, violence and low trust in an election.",
+      formula: "Challenge: corruption and a weak rule of law facilitate electoral fraud and violence and lower trust.",
+      substitution: "Fraud and violence are signs of a corrupted political process.",
+      calculation: "The pattern matches corruption deepening conflict and distrust.",
+      answer: "Corruption and a weak rule of law, which lower trust among citizens."
+    }
+  ],
+  commonMistakes: [
+    "Thinking poverty and governance are unrelated, when poverty blocks participation.",
+    "Treating corruption as a small personal sin rather than an institutional failure.",
+    "Believing corruption mainly helps the economy by moving money faster.",
+    "Assuming courts are automatically independent as soon as a law is passed.",
+    "Blaming only foreign causes and ignoring unaccountable local officials.",
+    "Thinking elections alone end corruption and clientelism.",
+    "Confusing poverty with laziness rather than a barrier to rights."
+  ],
+  applications: [
+    "Reporting an official who demands money for a service you are entitled to receive.",
+    "Attending a kebele meeting even when it is inconvenient so poor voices are counted.",
+    "Discussing in class how inflation makes life harder for families in your town.",
+    "Refusing to give or accept a gift that is meant to influence a decision.",
+    "Encouraging a school to publish how it spends funds so mismanagement is harder.",
+    "Explaining a public notice to a neighbour who cannot read it, so they can take part."
+  ],
+  summary: "Developing countries face serious challenges to good governance: institutions that are not effective or responsive, unaccountable officials, courts that are not independent and resources that are not used efficiently. Poverty is a central challenge because it stops people from claiming rights and taking part in decisions. Corruption is another, damaging institutions, distorting the economy, deepening injustice and lowering trust. These challenges reinforce one another, so progress against one demands progress against the others.",
+  visuals: [
+    {
+      type: "mindMap",
+      config: {
+        title: "Challenges for Good Governance",
+        center: "Challenges",
+        branches: [
+          { label: "Poverty", items: ["Survival first", "Exclusion", "Silenced voice"] },
+          { label: "Corruption", items: ["Weak institutions", "Budget deficit", "Distrust"] },
+          { label: "Weak institutions", items: ["Not responsive", "Poor services", "Wasted resources"] },
+          { label: "Unaccountable officials", items: ["No answer to public", "Self-interest"] },
+          { label: "Dependent courts", items: ["No independent check", "Unfair outcomes"] }
+        ]
+      }
+    },
+    {
+      type: "flowChart",
+      config: {
+        title: "How Corruption Damages Development",
+        steps: ["Corrupt deals distort the economy", "A constant budget deficit appears", "Persistent inflation cuts purchasing power", "Confidence in institutions falls", "The sense of injustice grows", "Conflict and distrust increase"]
+      }
+    },
+    {
+      type: "comparison",
+      config: {
+        title: "Poverty vs Corruption as Challenges",
+        left: { name: "Poverty", items: ["Blocks participation", "Silences the poor", "Causes exclusion and shame", "Rooted in deprivation"] },
+        right: { name: "Corruption", items: ["Weakens institutions", "Distorts the economy", "Fuels injustice", "Rooted in abuse of power"] }
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "Which of the following is listed as a governance challenge in developing countries?", options: ["Independent courts", "Unaccountable officials", "Efficient use of resources", "Responsive institutions"], answer: 1, difficulty: 1, explanation: "The textbook lists officials who are unaccountable as a challenge." },
+    { type: "tf", q: "Poverty provides fertile ground for the promotion of rights and participation.", answer: false, difficulty: 2, explanation: "The textbook says poverty does not provide fertile ground for rights and participation." },
+    { type: "mcq", q: "One way corruption damages the economy is by:", options: ["Raising real purchasing power", "Creating a consistent budget deficit and persistent inflation", "Increasing trust", "Protecting consumers"], answer: 1, difficulty: 2, explanation: "Corruption distorts the economy, causing a budget deficit and persistent inflation." },
+    { type: "short", q: "Name the misuse of public office or power for private gain.", answer: "corruption", difficulty: 1, explanation: "That is corruption." },
+    { type: "concept", q: "Give the term for a system in which political support is traded for jobs, money or favours.", answer: "clientelism", difficulty: 3, explanation: "This system is called clientelism." },
+    { type: "tf", q: "Corruption makes democratic institutions more efficient in delivering public services.", answer: false, difficulty: 1, explanation: "Corruption makes democratic institutions inefficient and ineffective in delivering public services." },
+    { type: "mcq", q: "Weakness of the rule of law makes it easier for leaders to:", options: ["Deliver services on time", "Mobilize violence at the grassroots and commit electoral fraud", "Protect citizens' rights", "Strengthen courts"], answer: 1, difficulty: 2, explanation: "Weak rule of law makes it easier to mobilize violence and facilitates electoral fraud and violence." },
+    { type: "concept", q: "Explain in one sentence why poverty and bad governance reinforce each other.", answer: "bad governance keeps people poor and poverty stops them demanding better governance", difficulty: 3, explanation: "Each condition feeds the other: poverty blocks voice, and weak governance keeps people poor." },
+    { type: "mcq", q: "Corruption is considered a failure of institutions, especially those in charge of:", options: ["Health and education", "Investigation, prosecution and enforcement", "Culture and sport", "Roads and bridges"], answer: 1, difficulty: 2, explanation: "Corruption is a failure of institutions, particularly those in charge of investigation, prosecution and enforcement." },
+    { type: "short", q: "Which governance challenge describes courts that decide cases under pressure instead of fairly?", answer: "courts that are not independent|dependent courts|weak judiciary", difficulty: 2, explanation: "Courts that are not independent are a listed challenge." },
+    { type: "concept", q: "Name the challenge that results in exclusion, isolation and loneliness for very poor people.", answer: "poverty|extreme poverty", difficulty: 1, explanation: "Extreme poverty results in exclusion, isolation and loneliness." }
+  ]
+};
+
+Lessons["g10-civics-uc3-t5"] = {
+  overview: "When good governance is absent, countries suffer political instability, a weak rule of law, injustice, secrecy, disempowerment, poor services and administrative disorder. This lesson explains each impact.",
+  objectives: [
+    "List the impacts of a lack of good governance",
+    "Explain how political instability and a weak rule of law arise",
+    "Describe how injustice and lack of transparency affect citizens",
+    "Explain disempowerment and inefficient service delivery",
+    "Identify administrative irregularities caused by poor governance"
+  ],
+  simple: "When good governance fails, several impacts follow. Governments that make decisions only for those in power, without public participation, experience political instability. The rule of law cannot hold, so leaders are tempted to manipulate laws on security, property and life. Injustice grows when essential resources are not distributed fairly and people do not receive the share promised by government. Transparency disappears because there is no information about how government works until some disgrace appears. People lose empowerment because they have no chance to voice their needs, either because government does not consult them or because they are unaware of policies. Service delivery becomes inefficient, and government offices that do not follow proper rules create administrative irregularities and poor record keeping.",
+  detailed: "<p><b>Political instability.</b> The failure of good governance creates political instability. Governments that implement public decisions, policies and laws driven by the intention and interest of some groups and those in power, without the participation and interests of the public, always experience political instability. Where people feel excluded from decisions, they withdraw their consent, and the state loses legitimacy.</p><p><b>Inability of the rule of law.</b> The concept of good governance is undoubtedly linked with the rights of citizens to life, liberty, property and the pursuit of happiness, and those rights can be secured only through the rule of law. The rule of law ensures the operation of power and stands against the arbitrariness of absolute rule. When the political structure of a country becomes weak, every political leader is tempted to manipulate laws and to break the law relating to security, property, life and money. This is why a weak state cannot guarantee anyone's rights.</p><p><b>Inability to secure justice.</b> Injustice comes from the lack of proper distribution of essential resources and from people not getting their fair share of the deliverables promised by the government. Justice is not only about courts; it is also about whether resources, services and opportunities reach those to whom they were promised.</p><p><b>Lack of transparency.</b> Where governance fails, government practices can never be properly questioned, because there is no information about how government performs its work until some disgrace comes up. Without transparency, citizens cannot judge whether decisions are lawful, so bad decisions stay hidden and officials escape scrutiny.</p><p><b>Lack of empowerment.</b> The common people do not get a chance to voice their needs while policies are formulated. This could be due to a lack of desire on the part of governments to know public opinion or to make timely consultation, or due to a lack of awareness among the public about the policies being implemented. Both causes leave ordinary people powerless.</p><p><b>Inefficient service delivery and administrative irregularities.</b> Lack of good governance results in inefficiency in service provision, and in some cases no service at all. For example, failure in the education and health sectors results not only in a lack of standards, information, incentives and accountability but also in corruption, so resources are used for private gain. Unresponsive and irresponsible health professionals may sell medications and medical equipment allotted for public clinics, and in the judicial system lack of good governance results in the delay of service delivery. Administrative irregularities add to the problem: when government offices do not work in accordance with requirements, there will not be proper management of data.</p>",
+  keyTerms: [
+    { term: "Political instability", def: "A condition of frequent, disruptive political change, caused by decisions taken without public participation." },
+    { term: "Rule of law", def: "The mechanism and norm that supports the equality of all citizens before the law and prevents the arbitrary use of power." },
+    { term: "Injustice", def: "The condition that arises when essential resources and promised benefits are not distributed fairly." },
+    { term: "Transparency", def: "The availability of information that lets the public question and understand the work of government." },
+    { term: "Empowerment", def: "The ability of people to voice their needs and influence the policies that affect them." },
+    { term: "Service delivery", def: "The provision of public services such as health, education and justice to citizens." },
+    { term: "Administrative irregularity", def: "A failure of offices to work according to the required rules, producing poor records and disorder." },
+    { term: "Arbitrary use of power", def: "Acting on personal will rather than by law, which the rule of law is meant to prevent." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "A government passes a tax law supported by only one group and ignores protests from others. Predict the impact.",
+      given: "A policy is made without public participation and the interests of other groups are ignored.",
+      formula: "Impact: decisions driven by some groups without public participation produce political instability.",
+      substitution: "Ignoring protests and excluding groups withdraws consent from the state.",
+      calculation: "The pattern matches the political instability impact.",
+      answer: "Political instability, because decisions were made without public participation."
+    },
+    {
+      problem: "Basic goods do not reach some villages although the budget promised them. Which impact is shown?",
+      given: "Essential resources are not distributed and promised deliverables are not received.",
+      formula: "Impact: inability to secure justice arises from poor distribution and missing fair shares.",
+      substitution: "Villages receiving none of the promised goods is a failure of fair distribution.",
+      calculation: "The case matches the injustice impact.",
+      answer: "Inability to secure justice, because resources and promises did not reach the people."
+    },
+    {
+      problem: "A clinic's allotted medicine is sold by staff and patients wait months for a court date. Identify the impacts.",
+      given: "Public medicines are diverted and judicial service is delayed.",
+      formula: "Impact: inefficient service delivery, in which resources are used for private gain and services are delayed.",
+      substitution: "Selling public medicine is private gain; a delayed court is slow service.",
+      calculation: "Both match the inefficient service delivery impact.",
+      answer: "Inefficient service delivery, caused by corruption and weak accountability."
+    },
+    {
+      problem: "Citizens first learn that a dam project failed only when it collapses, and no office can explain its records. Which impacts appear?",
+      given: "No information until disaster, and poor management of data.",
+      formula: "Impacts: lack of transparency and administrative irregularities.",
+      substitution: "Information arriving only at disgrace is a transparency failure; missing records are an administrative irregularity.",
+      calculation: "Both impacts are present together.",
+      answer: "Lack of transparency and administrative irregularities."
+    }
+  ],
+  commonMistakes: [
+    "Thinking the rule of law matters only for courts and not for security, property and life.",
+    "Believing justice is only about court decisions, not the fair distribution of resources.",
+    "Assuming silence about government work means everything is fine.",
+    "Blaming citizens alone for lack of empowerment and ignoring the duty of governments to consult.",
+    "Treating slow service as a minor inconvenience rather than a governance failure.",
+    "Confusing administrative disorder with a technical problem that cannot harm rights.",
+    "Believing political instability can come only from outside the country."
+  ],
+  applications: [
+    "Attending a public consultation on a new local tax so decisions include residents.",
+    "Asking a woreda court why a case is delayed and reporting the delay.",
+    "Following how a school building budget was spent instead of waiting for a scandal.",
+    "Telling neighbours about a new health policy so they can voice their needs.",
+    "Reporting staff who sell public clinic medicines for private gain.",
+    "Requesting that a kebele keep proper records of land and service decisions."
+  ],
+  summary: "When good governance is missing, countries face political instability, inability of the rule of law, inability to secure justice, lack of transparency, lack of empowerment, inefficient service delivery and administrative irregularities. These impacts are connected: decisions made without participation weaken the law, unfair distribution deepens injustice, and secrecy hides official failure. In the end, poor governance harms ordinary citizens most.",
+  visuals: [
+    {
+      type: "mindMap",
+      config: {
+        title: "Impacts of Lack of Good Governance",
+        center: "No good governance",
+        branches: [
+          { label: "Political instability", items: ["Decisions without people", "Lost legitimacy"] },
+          { label: "Weak rule of law", items: ["Laws manipulated", "Rights unsecured"] },
+          { label: "Injustice", items: ["Unfair distribution", "Broken promises"] },
+          { label: "No transparency", items: ["Hidden work", "No scrutiny"] },
+          { label: "No empowerment", items: ["No voice", "Unaware public"] },
+          { label: "Poor services", items: ["Delays", "Public goods sold"] },
+          { label: "Administrative disorder", items: ["Poor data", "Broken rules"] }
+        ]
+      }
+    },
+    {
+      type: "flowChart",
+      config: {
+        title: "From Bad Decisions to Instability",
+        steps: ["Policies made for some groups only", "Public participation is ignored", "People lose trust and consent", "The rule of law is manipulated", "Rights and services fail", "Political instability follows"]
+      }
+    },
+    {
+      type: "tableVisual",
+      config: {
+        title: "Impact, Sign and Example",
+        headers: ["Impact", "Sign", "Example"],
+        rows: [
+          ["Political instability", "Excluded groups withdraw consent", "Leaders ignore protests"],
+          ["Weak rule of law", "Laws manipulated", "Leaders break security laws"],
+          ["Injustice", "Unfair distribution", "Promised goods never arrive"],
+          ["Poor service", "Delays and diversion", "Clinic medicines sold"],
+          ["Administrative disorder", "No proper records", "Data not managed"]
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "Governments that make decisions for those in power, without public participation, always experience:", options: ["Economic boom", "Political instability", "Perfect justice", "Strong courts"], answer: 1, difficulty: 1, explanation: "The textbook says such governments always experience political instability." },
+    { type: "mcq", q: "The rule of law is important because it ensures the operation of power and stands against:", options: ["Public participation", "The arbitrariness of absolute rule", "Fair courts", "Transparency"], answer: 1, difficulty: 2, explanation: "The rule of law stands against the arbitrariness of absolute rule." },
+    { type: "tf", q: "Injustice can come from a lack of proper distribution of essential resources.", answer: true, difficulty: 2, explanation: "The lesson says injustice comes from poor distribution and from missing a fair share." },
+    { type: "concept", q: "Give the impact that occurs when people have no chance to voice their needs while policies are formulated.", answer: "lack of empowerment|disempowerment", difficulty: 2, explanation: "This is lack of empowerment." },
+    { type: "short", q: "Name the system that supports the equality of all citizens before the law and prevents arbitrary power.", answer: "rule of law", difficulty: 1, explanation: "That system is the rule of law." },
+    { type: "mcq", q: "Selling medicines allotted for public clinics is an example of:", options: ["Efficient service delivery", "Inefficient service delivery caused by corruption", "Transparency", "Empowerment"], answer: 1, difficulty: 2, explanation: "It is a case of inefficient service delivery caused by corruption and weak accountability." },
+    { type: "concept", q: "Give the impact when government offices do not work according to the required rules and data is not managed properly.", answer: "administrative irregularities|administrative irregularity", difficulty: 2, explanation: "This is administrative irregularities." },
+    { type: "tf", q: "Citizens can easily question government practices when there is no information about how government works.", answer: false, difficulty: 2, explanation: "Without information, government practices cannot be properly questioned." },
+    { type: "mcq", q: "When the political structure of a country becomes weak, every political leader is tempted to:", options: ["Strengthen the courts", "Manipulate laws and break laws on security, property and life", "Publish more information", "Empower citizens"], answer: 1, difficulty: 3, explanation: "A weak political structure tempts leaders to manipulate and break laws." },
+    { type: "short", q: "In which two sectors does the lesson say failure of good governance causes lack of standards and corruption?", answer: "education and health|health and education", difficulty: 2, explanation: "The lesson names the education and health sectors." },
+    { type: "concept", q: "Explain in one sentence why lack of transparency hides official failure.", answer: "there is no information about how government works until disgrace appears", difficulty: 3, explanation: "With no information, failures stay hidden until some disgrace surfaces." }
+  ]
+};
+
+Lessons["g10-civics-uc3-t6"] = {
+  overview: "Corruption is the misuse of public office or power for private gain, and it takes forms such as bribery, embezzlement, fraud, nepotism and extortion. This lesson explains corruption and the ways Ethiopia and other countries fight it.",
+  objectives: [
+    "Define corruption and explain where it flourishes",
+    "Name and describe the main forms of corruption",
+    "Explain how corruption harms society and development",
+    "Describe ways of fighting corruption, including awareness, participation and the civil service",
+    "Explain the roles of the media and an independent judiciary"
+  ],
+  simple: "Corruption is the misuse of public office or power for one's own private gain, and it also means the impairment of integrity and moral principles. It is more common where administration lacks independence and professionalism, where the legal framework and enforcement are weak, where institutions are weak and officials are not accountable or transparent, and where administrative procedures are unpredictable and bureaucratic. Corruption takes forms such as bribery, embezzlement, fraud, nepotism and extortion. It erodes trust, weakens democracy, hampers economic development and worsens inequality, poverty and instability. Countries fight it by creating public awareness, encouraging citizen participation, strengthening the civil service, supporting free and independent media, and strengthening an independent and professional judicial system.",
+  detailed: "<p><b>What corruption is.</b> Corruption is defined as the misuse of public office or power for one's own private gain or benefit. It is also the impairment of integrity, virtue or moral principles, and the term applies to unethical behaviour at all levels of society's power structure. It erodes trust, weakens democracy, hampers economic development and further exacerbates inequality, poverty, social division and instability.</p><p><b>Where corruption flourishes.</b> Corruption is more common in an environment where the administration lacks independence and professionalism, where the legal framework is weak and enforcement mechanisms are weak, where institutions are weak and officials lack accountability and transparency, and where administrative procedures are unpredictable and bureaucratic complexities are high. Each of these conditions removes a check that would otherwise stop corrupt behaviour.</p><p><b>Forms of corruption.</b> Corruption may take several forms. <b>Bribery</b> is the direct or indirect offer or provision of undue payment, gift or other advantage to an official in violation of his or her legal duties in order to obtain an undue favour. <b>Embezzlement</b> is the theft or misappropriation of public resources by public officials. <b>Fraud</b> is a crime that involves some kind of trickery, swindle or deceit, for example teaching with a licence obtained on false grounds. <b>Nepotism</b> is a form of favouritism in which an office holder with the right to make appointments prefers to nominate his or her own relatives. <b>Extortion</b> is the extraction of money or other resources from somebody by the use of coercion, violence or other threats to use force.</p><p><b>Creating public awareness.</b> Fighting the negative impacts of corruption is becoming a broad political, economic and social goal of countries around the world. One key mechanism is creating public awareness: educating the public about the risks and damaging consequences of corruption through media, awareness campaigns, training and workshops. Awareness enables everyone to know what is allowed and what is not allowed in the execution of the duties of government officials, and helps the public know their rights and defend their interests. It also contributes to shaping societal attitudes about how corruption affects well-being and the country in general.</p><p><b>Citizen participation and civil service reform.</b> Citizen participation plays a key role because it facilitates accountability and transparency. Pathways that give citizens relevant tools to engage help to identify problems, prioritize needs, monitor government commitments and find solutions; they build social trust and consensus and let citizens report corrupt activities. A participatory budget hearing, for example, lets citizens take part in deciding how expenditure is allocated. Strengthening the civil service also helps, through the depoliticization and professionalization of officials and employees, through greater accountability and transparency of civil service administrations, and through simplifying administrative procedures so that coordination improves, duplication of duties is avoided and unjustified administrative discretion is reduced.</p><p><b>Media and the judiciary.</b> A free and independent media with professional investigative capacity can raise public awareness about the causes, consequences and remedies of corruption and foster a culture of integrity, inform and educate people about its effects, detect, investigate and expose incidents of corruption, and enhance accountability by disseminating information about government, administrative and business activities. Strengthening the judicial system matters as well: reliable, independent and effective judicial systems make sure that laws and regulations are actually enforced. One way the judiciary contributes is by showing its independence in the dispensation of justice, for which purpose judges and other investigating authorities must be professionals.</p>",
+  keyTerms: [
+    { term: "Corruption", def: "The misuse of public office or power for one's own private gain, or the impairment of integrity and moral principles." },
+    { term: "Bribery", def: "The direct or indirect offer or provision of undue payment, gift or advantage to an official in violation of legal duties." },
+    { term: "Embezzlement", def: "The theft or misappropriation of public resources by public officials." },
+    { term: "Fraud", def: "A crime involving trickery, swindle or deceit, such as teaching with a licence obtained on false grounds." },
+    { term: "Nepotism", def: "Favouritism in which an office holder with appointment power prefers to nominate his or her own relatives." },
+    { term: "Extortion", def: "The extraction of money or resources from somebody by coercion, violence or threats to use force." },
+    { term: "Civil service", def: "The core permanent administrative body of government that carries out government work and delivers public services." },
+    { term: "Depoliticization", def: "Removing political favour from the appointment and work of civil servants so that they act professionally." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "An officer demands 500 birr to issue a permit that is legally free. Name the form of corruption.",
+      given: "Money is extracted by pressure for a service that should be free.",
+      formula: "Definition: extortion is the extraction of money or resources by coercion, violence or threats to use force.",
+      substitution: "The officer uses the power of the office to force payment.",
+      calculation: "This matches extortion; if a gift were offered voluntarily for an undue favour it would be bribery.",
+      answer: "Extortion, because money was extracted by pressure from a person seeking a service."
+    },
+    {
+      problem: "A manager hires her three cousins although better-qualified people applied. Name and explain the form of corruption.",
+      given: "An office holder with appointment power prefers her own relatives.",
+      formula: "Definition: nepotism is favouritism in which an appointment holder prefers his or her own relatives.",
+      substitution: "The manager's relatives are preferred over qualified applicants.",
+      calculation: "The case exactly matches the definition of nepotism.",
+      answer: "Nepotism, since relatives were favoured in appointments."
+    },
+    {
+      problem: "A textbook budget is diverted and officials keep the money. Which form is used and how does it harm development?",
+      given: "Public funds meant for textbooks are taken by officials.",
+      formula: "Definition: embezzlement is the theft or misappropriation of public resources, and corruption weakens institutions and distorts the economy.",
+      substitution: "Taking the textbook money is misappropriation of public resources.",
+      calculation: "The form is embezzlement, and the harm includes lost services and weaker trust in institutions.",
+      answer: "Embezzlement, which removes resources meant for schools and weakens public confidence."
+    },
+    {
+      problem: "A woreda holds a public budget hearing and a radio station exposes a corrupt contract. Which anti-corruption mechanisms are used?",
+      given: "Citizens take part in budget decisions and the media investigate.",
+      formula: "Mechanisms: citizen participation facilitates accountability and transparency, and free and independent media detect and expose corruption.",
+      substitution: "The hearing is citizen participation; the radio report is media exposure.",
+      calculation: "The case uses two of the listed anti-corruption mechanisms.",
+      answer: "Citizen participation and a free, independent media exposing corruption."
+    }
+  ],
+  commonMistakes: [
+    "Thinking corruption happens only at the top, not at all levels of the power structure.",
+    "Believing small gifts to officials are harmless and not corruption.",
+    "Confusing bribery with embezzlement; one is an offered payment for favours, the other is the theft of public resources.",
+    "Using a quick bribe instead of reporting the demand.",
+    "Thinking nepotism is acceptable because relatives can be trusted.",
+    "Believing free media and independent courts are obstacles rather than anti-corruption tools.",
+    "Assuming awareness campaigns alone can end corruption without accountability and enforcement."
+  ],
+  applications: [
+    "Refusing to pay a bribe for a licence and reporting the demand to the responsible body.",
+    "Attending a public budget hearing to see how the woreda allocates funds.",
+    "Writing to a newspaper or radio station about a corrupt local contract.",
+    "Encouraging a school to advertise vacant posts publicly instead of hiring relatives.",
+    "Reporting an office that sells public equipment through an official complaint channel.",
+    "Teaching family members what is allowed and what is not allowed when dealing with officials."
+  ],
+  summary: "Corruption is the misuse of public office or power for private gain, and it flourishes where institutions are weak, laws poorly enforced and administration unprofessional. It appears as bribery, embezzlement, fraud, nepotism and extortion, and it erodes trust, weakens democracy and harms development. Countries fight it by creating public awareness, encouraging citizen participation, strengthening the civil service, supporting free and independent media and building an independent, professional judiciary. Ultimately corruption is fought by both institutions and citizens.",
+  visuals: [
+    {
+      type: "mindMap",
+      config: {
+        title: "Forms of Corruption",
+        center: "Corruption",
+        branches: [
+          { label: "Bribery", items: ["Undue payment", "For a favour"] },
+          { label: "Embezzlement", items: ["Theft of public funds", "Misappropriation"] },
+          { label: "Fraud", items: ["Trickery", "False licence"] },
+          { label: "Nepotism", items: ["Favouritism", "Relatives hired"] },
+          { label: "Extortion", items: ["Coercion", "Threats for money"] }
+        ]
+      }
+    },
+    {
+      type: "steps",
+      config: {
+        title: "Ways of Fighting Corruption",
+        steps: [
+          { label: "Create awareness", detail: "Educate the public about the costs of corruption." },
+          { label: "Involve citizens", detail: "Give tools to monitor, report and decide together." },
+          { label: "Strengthen the civil service", detail: "Professional, accountable and simpler procedures." },
+          { label: "Support free media", detail: "Investigate and expose incidents of corruption." },
+          { label: "Strengthen the judiciary", detail: "Independent, professional enforcement of the law." }
+        ]
+      }
+    },
+    {
+      type: "tableVisual",
+      config: {
+        title: "Corruption Form and Example",
+        headers: ["Form", "Meaning", "Example"],
+        rows: [
+          ["Bribery", "Undue payment for a favour", "Paying to win a contract"],
+          ["Embezzlement", "Theft of public resources", "Keeping textbook funds"],
+          ["Fraud", "Trickery or deceit", "Teaching with a false licence"],
+          ["Nepotism", "Favouritism to relatives", "Hiring cousins over merit"],
+          ["Extortion", "Money taken by force or threat", "Demanding cash for a free permit"]
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "Corruption is defined as:", options: ["The honest use of public office", "The misuse of public office or power for private gain", "A form of taxation", "A type of election"], answer: 1, difficulty: 1, explanation: "Corruption is the misuse of public office or power for one's own private gain." },
+    { type: "mcq", q: "A form of favouritism in which an office holder with the right to make appointments prefers to nominate his or her own relatives is called:", options: ["Embezzlement", "Fraud", "Nepotism", "Bribery"], answer: 2, difficulty: 1, explanation: "This is the definition of nepotism." },
+    { type: "mcq", q: "The direct or indirect offer of an undue payment or advantage to an official in violation of legal duties is:", options: ["Extortion", "Bribery", "Fraud", "Nepotism"], answer: 1, difficulty: 2, explanation: "This is the definition of bribery." },
+    { type: "mcq", q: "Which form is the theft or misappropriation of public resources by public officials?", options: ["Embezzlement", "Extortion", "Nepotism", "Fraud"], answer: 0, difficulty: 2, explanation: "Embezzlement is the theft or misappropriation of public resources." },
+    { type: "short", q: "Name the form of corruption that involves extracting money by coercion or threats of force.", answer: "extortion", difficulty: 1, explanation: "This is extortion." },
+    { type: "tf", q: "Corruption is more common where institutions are weak and officials are not accountable or transparent.", answer: true, difficulty: 2, explanation: "The lesson lists these conditions as where corruption is more common." },
+    { type: "concept", q: "Give the mechanism of fighting corruption that uses media, campaigns, training and workshops to inform the public.", answer: "creating public awareness|public awareness", difficulty: 1, explanation: "This mechanism is creating public awareness." },
+    { type: "concept", q: "Which anti-corruption measure involves depoliticization and professionalization of officials and simplification of procedures?", answer: "strengthening the civil service|civil service reform", difficulty: 3, explanation: "This is strengthening the civil service." },
+    { type: "mcq", q: "A free and independent media fights corruption by:", options: ["Hiding cases", "Detecting and exposing incidents of corruption", "Replacing the courts", "Collecting taxes"], answer: 1, difficulty: 2, explanation: "Media detect, investigate and expose corruption and enhance accountability." },
+    { type: "tf", q: "An independent judicial system is not needed to make sure laws against corruption are enforced.", answer: false, difficulty: 2, explanation: "Reliable, independent and effective judicial systems make sure laws and regulations are actually enforced." },
+    { type: "concept", q: "Explain in one sentence why citizen participation helps fight corruption.", answer: "it facilitates accountability and transparency and lets citizens report corrupt activities", difficulty: 3, explanation: "Participation facilitates accountability and transparency and gives citizens a way to report corruption." }
+  ]
+};
+
