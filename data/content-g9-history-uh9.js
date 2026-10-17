@@ -1,14 +1,636 @@
-/* Content: g9-history-uh9 — migrated from generated JSON (Phase 0 pipeline restore).
-   Content upgrade to spec v2 happens per unit in later phases. */
+/* Content: Grade 9 History - Unit 9: The Age of Revolutions, 1750s to 1815 (5 topics)
+   Source: MoE History Grade 9 Student Textbook, Unit 9. */
 window.Lessons = window.Lessons || {};
 
-Lessons["g9-history-uh9-t1"] = {"overview":"<b>Industrial Capitalism in Europe</b> sits inside <b>The Age of Revolutions, 1750s to 1815</b>. The age of revolutions opens Unit 9 of Grade 9 History in the Ethiopian (FDRE Ministry of Education) curriculum. First, it studies industrial capitalism and its effects across Europe. Then it explains the French Revolution of 1789 and the fall of the old order. Next, it follows the Napoleonic era in Europe from 1799 to 1815. Also, it covers the American War of Independence and the birth of the United States. Finally, it looks at the Congress of Vienna and the new balance of power. Students will also learn how the age of revolutions still shapes politics today.","objectives":["Describe the causes and effects of the Industrial Revolution.","Explain the causes and course of the French Revolution.","Analyse the reforms and conquests of the Napoleonic era.","Discuss the American War of Independence and its wider influence.","Evaluate the aims and results of the Congress of Vienna."],"simple":"<b>Industrial Capitalism in Europe in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, the shift from handwork to machines, factories, and railways.</li> <li>Then the new classes of bourgeoisie and proletariat within the wider age of revolutions.</li></ul>","detailed":"<p><b>Industrial Capitalism in Europe — the essentials.</b> First, the shift from handwork to machines, factories, and railways. Then the new classes of bourgeoisie and proletariat within the wider age of revolutions.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Describe the causes and effects of the Industrial Revolution.</li><li>Explain the causes and course of the French Revolution.</li><li>Analyse the reforms and conquests of the Napoleonic era.</li><li>Discuss the American War of Independence and its wider influence.</li><li>Evaluate the aims and results of the Congress of Vienna.</li></ul>","keyTerms":[{"term":"First","def":"First, the shift from handwork to machines, factories, and railways."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing industrial capitalism in europe with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Reading the news: events in this topic map onto modern Ethiopian civic debates","Answering the \"give an example\" questions that close every ESSLCE history paper"],"summary":"Industrial Capitalism in Europe: First, the shift from handwork to machines, factories, and railways. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"Industrial Capitalism in Europe\" is correct according to the MoE curriculum?","options":["First, the shift from handwork to machines, factories, and railways.","Industrial Capitalism in Europe is not mentioned in the MoE curriculum for this unit","Industrial Capitalism in Europe happened in a different century than this topic covers","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, the shift from handwork to machines, factories, and railways. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"Industrial Capitalism in Europe\"?","options":["Then the new classes of bourgeoisie and proletariat within the wider age of revolutions.","Industrial Capitalism in Europe was reversed by the very process this topic describes","Industrial Capitalism in Europe is not mentioned in the MoE curriculum for this unit","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Then the new classes of bourgeoisie and proletariat within the wider age of revolutions."},{"type":"tf","q":"True or false: First, the shift from handwork to machines, factories, and railways.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover industrial capitalism in europe.","answer":false,"difficulty":1,"explanation":"Industrial Capitalism in Europe is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Describe the causes and effects of the Industrial Revolution.","difficulty":2,"altAnswers":["Explain the causes and course of the French Revolution.","Analyse the reforms and conquests of the Napoleonic era."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why industrial capitalism in europe matters.","answer":"Industrial Capitalism in Europe is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of industrial capitalism in europe in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to industrial capitalism in europe, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
+Lessons["g9-history-uh9-t1"] = {
+  overview: "The Industrial Revolution replaced hand production with machines and factories, first in Great Britain in the late 1700s. This lesson explains how industrial capitalism consolidated in Europe and what its political, economic and social effects were.",
+  objectives: [
+    "Identify the factors that led to the consolidation of capitalism in Modern Europe",
+    "Explain why the Industrial Revolution began in Great Britain",
+    "Describe the main political effects of the Industrial Revolution",
+    "Describe the economic and social consequences of the Industrial Revolution",
+    "Assess both the positive and negative effects of industrial capitalism"
+  ],
+  simple: "The Industrial Revolution began in Great Britain in the late 1700s and spread across the world. It changed manufacturing from hand production to machines and factories, and making cloth moved from homes to large factories. Britain had plenty of coal and iron to power and build the machines. The rise of industrial capitalism produced large accumulations of capital used to finance production. Society changed deeply: cities grew and two new classes appeared, the bourgeoisie who owned the factories, and the proletariat who sold their labour for low wages. Railways lowered transport costs and opened new markets, and Britain became the world's workshop. The revolution also brought pollution, poor sanitation, disease, low wages and child labour.",
+  detailed: "<p><b>The Industrial Revolution begins.</b> The Industrial Revolution began in Great Britain in the late 1700s and slowly spread across the globe. It consisted of new manufacturing processes in Europe and the United States between the 18th and the 19th centuries. Before it, the economic needs of society were met by farming and the production of simple handmade articles.</p><p><b>From handwork to machines.</b> Manufacturing changed from mainly hand production to the use of machinery. Making cloth moved from homes to large factories, and Britain had plenty of coal and iron, which powered and built the machines. This transition from old modes of production to new technologically driven production brought drastic changes in the European way of life.</p><p><b>The rise of industrial capitalism.</b> Capitalism had emerged in the 16th to 17th centuries in Northwestern Europe, especially in Great Britain. Industrial capitalism is a mode of production consisting of large, centrally controlled accumulations of capital that are used to finance the production of commodities. Technology was one of the biggest factors contributing to its rise.</p><p><b>Characteristics of capitalism.</b> Its features include capital accumulation, competitive markets, a price system, private property and the recognition of property rights, voluntary exchange and wage labour. New technologies such as the telephone, the typewriter and electricity helped business. The ethos of industrial capitalism challenged mercantilist doctrines, and by the mid-19th century Britain had fully embraced a laissez-faire economy. By the 19th century Britain was seen, and saw herself, as the world's workshop.</p><p><b>Railways and trade.</b> Steam engine technology underpinned steam-powered locomotive engines and the development of railways in the early 19th century. Railways made possible the integration of vast continental spaces politically, culturally and economically. The British began to build railways in India in the 1850s, and the first transcontinental railroad opened in North America in 1869. Transport costs of raw materials and finished products fell, new sources of supply became accessible and new markets opened.</p><p><b>Political and social effects.</b> Politically, industrialisation increased the power of the industries that later became monopolies, the mechanization of labour displaced thousands of labourers, and the rise of industrial capitalism went hand in hand with strikes and other labour protests. Socially, cities grew and two new social classes emerged: the bourgeoisie, who owned the factory, the machine, its raw materials and the finished goods, and the proletariat, who sold their labour for money wages, were poorly paid under strict work discipline and faced unemployment. Children represented a cheap supply of labour.</p><p><b>Economic effects and costs.</b> Economically, the Industrial Revolution transformed agriculture and handicrafts into large-scale industry, mechanized manufacturing and the factory system, resulting in an increase in wealth, the production of goods and the standard of living. People gained access to healthier diets, better housing, better education and cheaper goods. Yet it also brought environmental degradation, poor sanitation, the spread of diseases, pollution, poor working conditions and low wages, and child labour.</p>",
+  keyTerms: [
+    { term: "Industrial Revolution", def: "New manufacturing processes in Europe and the United States between the 18th and 19th centuries, when production changed from handwork to machinery." },
+    { term: "Capitalism", def: "An economic system that emerged in the 16th to 17th centuries in Northwestern Europe, especially Great Britain, based on capital, markets and private property." },
+    { term: "Industrial capitalism", def: "A mode of production consisting of large, centrally controlled accumulations of capital used to finance the production of commodities." },
+    { term: "Bourgeoisie", def: "The class that owned the factory, the machine, its raw materials and the finished goods." },
+    { term: "Proletariat", def: "The class that sold its labour for money wages, was poorly paid under strict work discipline and faced unemployment." },
+    { term: "Laissez-faire", def: "An economic policy of free markets with little government interference, fully embraced by Britain by the mid-19th century." },
+    { term: "Steam locomotive", def: "A railway engine powered by steam engine technology, which helped integrate continental spaces in the early 19th century." },
+    { term: "Mercantilism", def: "An earlier doctrine of trade barriers and protective monopolies that the ethos of industrial capitalism began to challenge." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "Why did the Industrial Revolution begin in Great Britain rather than elsewhere?",
+      given: "Great Britain had plenty of coal and iron, and making cloth moved from homes to large factories there in the late 1700s.",
+      formula: "Cause and effect: a revolution in production needs motive power (coal), machinery (iron) and a market for goods.",
+      substitution: "Coal powered the machines, iron built them, and the cloth trade supplied the market.",
+      calculation: "The presence of coal and iron together with an existing cloth industry let Britain mechanise production earlier and faster than its neighbours.",
+      answer: "Britain led because it combined rich coal and iron deposits with a large cloth industry and factory investment."
+    },
+    {
+      problem: "Explain how the Industrial Revolution changed the social structure of Europe.",
+      given: "Cities grew and two new classes appeared: the bourgeoisie, who owned the factories, machines and goods, and the proletariat, who sold their labour for wages.",
+      formula: "Social change: a new mode of production creates new classes defined by their relation to production.",
+      substitution: "Owners of capital formed one class; wage labourers formed another.",
+      calculation: "Because the bourgeoisie controlled capital while proletarians worked for low wages under strict discipline, class differences widened.",
+      answer: "A two-class industrial society emerged, with the bourgeoisie owning capital and the proletariat selling labour."
+    },
+    {
+      problem: "Assess whether the Industrial Revolution improved the standard of living.",
+      given: "It increased wealth, production, healthier diets, better housing and education, but also brought pollution, poor sanitation, disease, low wages and child labour.",
+      formula: "Historical judgment: weigh gains against costs and note who received each.",
+      substitution: "Gains in output and consumption sat beside heavy social and environmental costs.",
+      calculation: "Overall wealth rose, yet workers bore pollution, disease and low pay, so the benefit was unevenly shared.",
+      answer: "Living standards rose overall, but the gains were uneven and came with serious social and environmental costs."
+    },
+    {
+      problem: "Using the concept of capitalism, explain the changes in trade after the Industrial Revolution.",
+      given: "Capitalism rests on large accumulations of capital used to finance production, with competitive markets, private property, voluntary exchange and wage labour.",
+      formula: "Capitalism: capital accumulation, competitive markets, a price system, private property, voluntary exchange and wage labour.",
+      substitution: "Railways cut transport costs, opened new supply sources and new markets, and Britain embraced laissez-faire.",
+      calculation: "Falling transport costs and free-market policies let capital move and grow faster, so by the 19th century Britain was the world's workshop.",
+      answer: "Capitalism expanded through free markets, railways and laissez-faire, making Britain the world's workshop."
+    }
+  ],
+  commonMistakes: [
+    "Thinking the Industrial Revolution began in France or the United States rather than in Great Britain.",
+    "Confusing capitalism, which emerged in the 16th to 17th centuries, with the Industrial Revolution of the late 1700s.",
+    "Believing the Industrial Revolution had only positive effects.",
+    "Mixing up the bourgeoisie, who owned capital, with the proletariat, who sold their labour.",
+    "Assuming railways were built in Britain alone; the British also began railways in India in the 1850s, and the first transcontinental railroad opened in North America in 1869.",
+    "Forgetting that mechanization displaced thousands of labourers and led to strikes and labour protests.",
+    "Treating child labour as a fair arrangement rather than a serious social cost."
+  ],
+  applications: [
+    "Comparing the growth of Ethiopian cities such as Addis Ababa with the urban growth caused by industrialisation in Europe.",
+    "Explaining how mechanisation raised output but also caused unemployment, as when machines displaced craftspeople.",
+    "Discussing how a country can attract industry while still protecting workers and the environment.",
+    "Using railways in Ethiopia as a case study of how transport lowers the cost of moving goods and raw materials.",
+    "Debating whether cheap labour in a factory is acceptable, using the textbook's list of negative effects.",
+    "Recognising that new technologies such as the telephone and electricity changed how work and business were done."
+  ],
+  summary: "The Industrial Revolution began in Great Britain in the late 1700s and spread new manufacturing processes based on machines and factories. It consolidated industrial capitalism, built on capital accumulation, competitive markets, private property, voluntary exchange and wage labour, and it divided society into the bourgeoisie and the proletariat while railways linked distant markets. Its gains in wealth and living standards were real, but they came with pollution, poor sanitation, disease, low wages and child labour.",
+  visuals: [
+    {
+      type: "steps",
+      config: {
+        title: "How Industrial Capitalism Works",
+        steps: [
+          { label: "Capital accumulation", detail: "Large, centrally controlled sums of capital are gathered." },
+          { label: "Competitive markets", detail: "Firms compete in a market with a price system." },
+          { label: "Private property", detail: "Property rights over factories and machines are recognised." },
+          { label: "Voluntary exchange", detail: "Goods and labour are exchanged freely." },
+          { label: "Wage labour", detail: "Workers sell their labour to owners for money wages." }
+        ]
+      }
+    },
+    {
+      type: "comparison",
+      config: {
+        title: "Positive vs Negative Effects",
+        left: { name: "Gains", items: ["More wealth and production", "Higher standard of living", "Better diets, housing and education", "Cheaper goods"] },
+        right: { name: "Costs", items: ["Environmental degradation", "Poor sanitation and disease", "Pollution and low wages", "Child labour"] }
+      }
+    },
+    {
+      type: "mindMap",
+      config: {
+        title: "Effects of Industrialisation",
+        center: "Industrial Revolution",
+        branches: [
+          { label: "Political", items: ["Rise of monopolies", "Displaced labourers", "Strikes and protests"] },
+          { label: "Economic", items: ["Large-scale industry", "Factory system", "New markets"] },
+          { label: "Social", items: ["Growth of cities", "Bourgeoisie", "Proletariat"] },
+          { label: "Transport", items: ["Steam locomotives", "Railways", "Lower transport costs"] }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "In which country did the Industrial Revolution begin in the late 1700s?", options: ["France", "Great Britain", "The United States", "Germany"], answer: 1, difficulty: 1, explanation: "The Industrial Revolution began in Great Britain in the late 1700s." },
+    { type: "mcq", q: "Industrial capitalism is best described as:", options: ["farming for the family", "a mode of production based on large, centrally controlled accumulations of capital used to finance production", "trade by barter", "government ownership of factories"], answer: 1, difficulty: 1, explanation: "Industrial capitalism consists of large, centrally controlled accumulations of capital used to finance production of commodities." },
+    { type: "mcq", q: "Which two resources did Britain have in plenty to power and build its factories?", options: ["Coal and iron", "Gold and silver", "Oil and gas", "Cotton and silk"], answer: 0, difficulty: 1, explanation: "Britain had plenty of coal and iron, which powered and built machines for the factories." },
+    { type: "mcq", q: "Which class owned the factories, machines, raw materials and finished goods?", options: ["The proletariat", "The bourgeoisie", "The peasants", "The clergy"], answer: 1, difficulty: 2, explanation: "The bourgeoisie owned the factory, machine, raw materials and finished goods, while the proletariat sold their labour for wages." },
+    { type: "mcq", q: "By the mid-19th century Britain had fully embraced which economic policy?", options: ["Mercantilism", "Laissez-faire", "Socialism", "Feudalism"], answer: 1, difficulty: 2, explanation: "By the mid-19th century Britain had fully embraced the laissez-faire economy." },
+    { type: "tf", q: "The Industrial Revolution increased wealth and the standard of living but also brought pollution, poor sanitation and child labour.", answer: true, difficulty: 2, explanation: "The textbook lists both the positive effects such as higher living standards and the negative effects such as pollution and child labour." },
+    { type: "short", q: "Give one new technology that helped business during the Industrial Revolution.", answer: "telephone|typewriter|electricity", difficulty: 1, explanation: "The telephone, the typewriter and electricity were new technologies that helped business." },
+    { type: "concept", q: "Name the two new social classes that emerged during the Industrial Revolution.", answer: "bourgeoisie and proletariat", difficulty: 1, explanation: "The bourgeoisie owned the means of production; the proletariat sold their labour for wages." },
+    { type: "tf", q: "In North America the first transcontinental railroad opened in 1869.", answer: true, difficulty: 1, explanation: "The first transcontinental railroad opened in North America in 1869." },
+    { type: "concept", q: "Explain why the mechanization of labour caused social unrest in the 19th century.", answer: "it displaced thousands of labourers|workers lost jobs and protested|it went with strikes and labour protests", difficulty: 3, explanation: "The mechanization of labour displaced thousands of labourers and went hand in hand with strikes and other labour protests." },
+    { type: "ordering", q: "Arrange these Industrial Revolution developments in the order given by the textbook.", options: ["Railways integrate continental spaces", "Making cloth moves to large factories", "Britain becomes the world's workshop", "Capitalism emerges in the 16th to 17th centuries"], answer: 3, difficulty: 3, explanation: "Capitalism emerged first in the 16th to 17th centuries, then cloth moved to factories, then Britain became the world's workshop, and railways followed in the early 19th century." }
+  ]
+};
 
-Lessons["g9-history-uh9-t2"] = {"overview":"<b>French Revolution</b> sits inside <b>The Age of Revolutions, 1750s to 1815</b>. The age of revolutions opens Unit 9 of Grade 9 History in the Ethiopian (FDRE Ministry of Education) curriculum. First, it studies industrial capitalism and its effects across Europe. Then it explains the French Revolution of 1789 and the fall of the old order. Next, it follows the Napoleonic era in Europe from 1799 to 1815. Also, it covers the American War of Independence and the birth of the United States. Finally, it looks at the Congress of Vienna and the new balance of power. Students will also learn how the age of revolutions still shapes politics today.","objectives":["Describe the causes and effects of the Industrial Revolution.","Explain the causes and course of the French Revolution.","Analyse the reforms and conquests of the Napoleonic era.","Discuss the American War of Independence and its wider influence.","Evaluate the aims and results of the Congress of Vienna."],"simple":"<b>French Revolution in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>The three estates, the storming of the Bastille, and the fall of the monarchy.</li> <li>Next, the Jacobins, the Reign of Terror, and new ideas of liberty and equality.</li></ul>","detailed":"<p><b>French Revolution — the essentials.</b> The three estates, the storming of the Bastille, and the fall of the monarchy. Next, the Jacobins, the Reign of Terror, and new ideas of liberty and equality.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Describe the causes and effects of the Industrial Revolution.</li><li>Explain the causes and course of the French Revolution.</li><li>Analyse the reforms and conquests of the Napoleonic era.</li><li>Discuss the American War of Independence and its wider influence.</li><li>Evaluate the aims and results of the Congress of Vienna.</li></ul>","keyTerms":[{"term":"The three estates","def":"The three estates, the storming of the Bastille, and the fall of the monarchy."},{"term":"Next","def":"Next, the Jacobins, the Reign of Terror, and new ideas of liberty and equality."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing french revolution with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Reading the news: events in this topic map onto modern Ethiopian civic debates","Answering the \"give an example\" questions that close every ESSLCE history paper"],"summary":"French Revolution: The three estates, the storming of the Bastille, and the fall of the monarchy. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"French Revolution\" is correct according to the MoE curriculum?","options":["The three estates, the storming of the Bastille, and the fall of the monarchy.","French Revolution is not mentioned in the MoE curriculum for this unit","French Revolution happened in a different century than this topic covers","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: The three estates, the storming of the Bastille, and the fall of the monarchy. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"French Revolution\"?","options":["Next, the Jacobins, the Reign of Terror, and new ideas of liberty and equality.","French Revolution was reversed by the very process this topic describes","French Revolution is not mentioned in the MoE curriculum for this unit","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Next, the Jacobins, the Reign of Terror, and new ideas of liberty and equality."},{"type":"tf","q":"True or false: The three estates, the storming of the Bastille, and the fall of the monarchy.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover french revolution.","answer":false,"difficulty":1,"explanation":"French Revolution is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Describe the causes and effects of the Industrial Revolution.","difficulty":2,"altAnswers":["Explain the causes and course of the French Revolution.","Analyse the reforms and conquests of the Napoleonic era."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why french revolution matters.","answer":"French Revolution is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of french revolution in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to french revolution, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
+Lessons["g9-history-uh9-t2"] = {
+  overview: "The French Revolution was a period of major social upheaval that began in 1787 and ended in 1799. This lesson follows its causes, its course through the Estates General, the Bastille, the republic and the Reign of Terror, and its lasting consequences.",
+  objectives: [
+    "Explain the political, economic and social causes of the French Revolution",
+    "Describe the structure of French society before 1789 in terms of the three Estates",
+    "Trace the course of the Revolution from the Estates General to the Directory",
+    "Identify the main revolutionary groups and their leaders",
+    "Assess the consequences of the French Revolution for France and the wider world"
+  ],
+  simple: "The French Revolution was a period of major social upheaval that began in 1787 and ended in 1799. Before it, France was a feudal nation divided into three Estates: the clergy and royal family, the nobility, and the largest group, the Third Estate of peasants and bourgeoisie who paid heavy taxes. On May 5, 1789 King Louis XVI called the Estates General, and on July 14, 1789 revolutionaries stormed the Bastille prison. The National Assembly abolished feudal privileges, declared the rights of man and wrote a constitution in 1791. A republic was proclaimed in 1792 and Louis XVI was executed in 1793. The Jacobins then led a Reign of Terror under Robespierre until 1794, before the Directory took power.",
+  detailed: "<p><b>France before the Revolution.</b> The French Revolution was a period of major social upheaval that began in 1787 and ended in 1799, lasting ten years. Before the 18th century France was a feudal nation whose society was highly oppressed, and this feudal oppression created a revolutionary situation in the late eighteenth century.</p><p><b>The three Estates.</b> French society was divided into three Estates. The First Estate included the royal family and the clergy; the Second Estate consisted of the French nobility; and the Third Estate, the largest section of French society, was made up of peasants and the bourgeoisie. The first two Estates owned vast lands, held special socio-economic and political privileges and were free from government taxation, while the Third Estate owned little land, enjoyed no social, economic or political rights and paid heavy taxes.</p><p><b>Why the Revolution broke out.</b> There were three main reasons. The French monarchy was bankrupt and the autocratic kings were inefficient; the French philosophers stimulated society against feudal oppression and its injustices; and the French people were influenced more than any other society in Europe by the English bourgeois Revolution and the American War of Independence. The Estates General had not met since 1614, for one hundred and seventy-five years, and France remained an absolute monarchy.</p><p><b>From the Estates General to the Bastille.</b> On May 5, 1789 King Louis XVI, facing financial bankruptcy, called the Estates General, and at once the French people had an opportunity to express their discontent. Conflict broke out between the Estates because the Third Estate tried to control the Assembly. On June 17, 1789 the Estates General was transformed into the National Assembly, also called the constituent Assembly, and on July 14, 1789 the revolutionaries stormed the royal castle and prison of the Bastille, leaving Louis XVI helpless. In June 1791 he and his family tried to escape in disguise but were recognised at Varenis and brought back, an episode remembered as the Varnis crisis.</p><p><b>The reforms of 1789 to 1791.</b> The greatest political achievements of the Revolution were made between 1789 and 1791. In the August Days of 1789 the old feudal privileges were abolished; in August 1789 the National Assembly declared the rights of man and of all citizens; and a constitution written in 1791 established a limited monarchy instead of an autocracy. Voting was given only to active citizens who paid taxes, not to passive citizens who could not meet the financial qualifications. The Assembly also passed a law against the Catholic Church, confiscating church lands and suppressing monasteries.</p><p><b>Republic, terror and the Directory.</b> In April 1792 France declared war on Austria and Prussia, and the French army defeated the enemy at the Battle of Valmy on September 20, 1792; two days later France was proclaimed a republic. Louis XVI was tried in December 1792, found guilty and executed on January 21, 1793. The Jacobins, named after St. Jacob Church in southern France, defeated the Girondists and formed a revolutionary dictatorship in June 1793, adopting a new constitution on June 24, 1793 and instituting the Reign of Terror under Robespierre, who was himself guillotined in July 1794. Power then passed to the Directory, a board of five men, which ended with the rise of Napoleon.</p><p><b>Results and impact.</b> The Revolution destroyed the old feudal order in France and opened the way for the growth of industrial capitalism, though its final leadership passed to the bourgeoisie rather than to the poor peasants and lower classes who fought it. Its impact was felt far beyond France: it lessened the importance of religion, gave rise to modern nationalism, spread liberalism and ignited the Age of Revolutions.</p>",
+  keyTerms: [
+    { term: "Estates General", def: "The gathering of the three Estates of France, which had not met since 1614 and was called by Louis XVI on May 5, 1789." },
+    { term: "Third Estate", def: "The largest section of French society, made up of peasants and the bourgeoisie, which owned little land, had no rights and paid heavy taxes." },
+    { term: "Bastille", def: "The royal castle and prison stormed by revolutionaries on July 14, 1789, marking the outbreak of the Revolution." },
+    { term: "National Assembly", def: "The body formed on June 17, 1789 when the Estates General was transformed; also called the constituent Assembly." },
+    { term: "Girondists", def: "The revolutionary group representing the big and middle bourgeoisie, named after the province they came from, and forming the extreme right wing." },
+    { term: "Jacobins", def: "The left-wing revolutionary group named after St. Jacob Church, which formed a revolutionary dictatorship in June 1793." },
+    { term: "Reign of Terror", def: "The period of harsh repression instituted by the Jacobins against counter-revolutionaries, reaching its highest stage under Robespierre." },
+    { term: "Directory", def: "The board of five men to whom the authority of the French republic passed in 1794." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "Which two classes were privileged in France before the Revolution, and why did the Third Estate resent them?",
+      given: "The First Estate was the royal family and clergy; the Second Estate was the nobility; the Third Estate was the peasants and bourgeoisie.",
+      formula: "Cause and effect: privilege without taxation alongside heavy taxation on the poor creates revolutionary tension.",
+      substitution: "The First and Second Estates owned vast lands and paid no taxes; the Third Estate owned little land, had no rights and paid heavy taxes.",
+      calculation: "The unfair sharing of land, privilege and taxation explains the resentment of the Third Estate.",
+      answer: "The privileged classes were the clergy and the nobility; their tax-free privileges caused the resentment of the Third Estate."
+    },
+    {
+      problem: "Did the Estates General of May 5, 1789 cause the French Revolution, or was it only the trigger?",
+      given: "The Estates General had not met since 1614, and Louis XVI called it in 1789 only because the monarchy was bankrupt.",
+      formula: "Distinguish long-term causes from immediate triggers.",
+      substitution: "Long-term causes are the bankrupt absolute monarchy, feudal injustice and the ideas of the philosophers; the immediate trigger is the meeting of the Estates General and the storming of the Bastille.",
+      calculation: "The bankruptcy and oppression built up over decades, while the calling of the Estates General released the conflict.",
+      answer: "The Estates General was the trigger, not the cause; the causes were feudal injustice, a bankrupt monarchy and new ideas."
+    },
+    {
+      problem: "Explain why the Reign of Terror weakened the Jacobins rather than securing the Revolution.",
+      given: "The Jacobins instituted the Reign of Terror, executed their opponents, and Robespierre and his followers were guillotined in July 1794.",
+      formula: "Political legitimacy: a government that rules by fear loses the support of the people.",
+      substitution: "The Jacobins used the guillotine against opponents, including the Girondists, and harshly suppressed their critics.",
+      calculation: "As the terror widened, the Jacobins gradually lost support, and their leaders were themselves executed.",
+      answer: "Because terror turned the people against them, the Jacobins lost support and fell in July 1794."
+    },
+    {
+      problem: "What did the French Revolution achieve for the bourgeoisie rather than for the poor?",
+      given: "The forces of the Revolution were the poor peasants and other lower sections, but its final leadership came into the hands of the bourgeoisie.",
+      formula: "Assess who benefits: compare the classes that fought with the class that gained power.",
+      substitution: "Feudal privileges were abolished and the capitalist system developed, but political rights were not extended to the broad mass.",
+      calculation: "The Revolution served the growth of the bourgeoisie while leaving the working people politically excluded.",
+      answer: "It destroyed feudalism and opened the way for capitalism, benefiting the bourgeoisie more than the poor."
+    }
+  ],
+  commonMistakes: [
+    "Thinking the French Revolution lasted many decades; it lasted ten years, from 1787 to 1799.",
+    "Believing the Third Estate was small; it was the largest section of French society.",
+    "Confusing the Bastille, stormed on July 14, 1789, with the Estates General, which met on May 5, 1789.",
+    "Assuming all French citizens gained the vote in 1791; only active citizens who paid taxes could vote, not passive citizens.",
+    "Confusing the Girondists, who represented the big and middle bourgeoisie, with the Jacobins, who led the left wing.",
+    "Thinking the Reign of Terror strengthened the Jacobins permanently; it led to their fall in July 1794.",
+    "Believing the poor gained political rights; the final leadership passed to the bourgeoisie."
+  ],
+  applications: [
+    "Comparing the unfair tax burden of the French Third Estate with the principle that all citizens should pay tax fairly in Ethiopia today.",
+    "Discussing how people can express discontent through debate, petition and peaceful protest rather than violence.",
+    "Recognising that ideas from books and public debate can spark political change, as the French philosophers did.",
+    "Debating whether a revolution that helps one class but not the poor is a full success.",
+    "Explaining how the ideals of liberty and equality later influenced anti-colonial movements, including in Africa.",
+    "Using the Estates General as an example of why rulers should listen to their people before a crisis."
+  ],
+  summary: "The French Revolution lasted from 1787 to 1799 and destroyed the old feudal order in France. It was caused by a bankrupt monarchy, feudal injustice and the ideas of the philosophers and the American Revolution, and it moved through the Estates General, the storming of the Bastille, a constitution, a republic, the execution of Louis XVI, the Jacobin Reign of Terror and the Directory. Its echoes, in modern nationalism, liberalism and the Age of Revolutions, transformed the world.",
+  visuals: [
+    {
+      type: "comparison",
+      config: {
+        title: "Privileged vs Unprivileged France",
+        left: { name: "First and Second Estates", items: ["Royal family and clergy", "Nobility", "Owned vast lands", "Paid no taxes"] },
+        right: { name: "Third Estate", items: ["Peasants and bourgeoisie", "Largest section", "Owned little land", "Paid heavy taxes"] }
+      }
+    },
+    {
+      type: "steps",
+      config: {
+        title: "Course of the French Revolution",
+        steps: [
+          { label: "May 5, 1789", detail: "Louis XVI calls the Estates General." },
+          { label: "June 17, 1789", detail: "The Estates General becomes the National Assembly." },
+          { label: "July 14, 1789", detail: "Revolutionaries storm the Bastille." },
+          { label: "1791", detail: "A constitution establishes a limited monarchy." },
+          { label: "September 1792", detail: "France is proclaimed a republic after Valmy." },
+          { label: "1793 to 1799", detail: "Louis XVI executed; Jacobin terror; then the Directory." }
+        ]
+      }
+    },
+    {
+      type: "tableVisual",
+      config: {
+        title: "Key Events and Results",
+        headers: ["Date", "Event", "Result"],
+        rows: [
+          ["May 5, 1789", "Estates General meets", "Conflict between the Estates"],
+          ["July 14, 1789", "Storming of the Bastille", "Louis XVI left helpless"],
+          ["August 1789", "Rights of man declared", "Feudal privileges abolished"],
+          ["September 1792", "Battle of Valmy", "Republic proclaimed"],
+          ["January 21, 1793", "Louis XVI executed", "Monarchy ended"],
+          ["July 1794", "Robespierre guillotined", "End of the Reign of Terror"]
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "The French Revolution began in which year and lasted how long?", options: ["1787, ten years", "1789, five years", "1799, twenty years", "1750, fifty years"], answer: 0, difficulty: 1, explanation: "The Revolution began in 1787 and ended in 1799, lasting ten years." },
+    { type: "mcq", q: "The two privileged classes in France before the revolution were:", options: ["nobility and peasants", "nobility and bourgeoisie", "nobility and clergy", "clergy and bourgeoisie"], answer: 2, difficulty: 2, explanation: "The First Estate was the clergy and the Second Estate was the nobility; both held privileges and paid no taxes." },
+    { type: "mcq", q: "The action which marked the outbreak of the French Revolution in 1789 was carried out by the:", options: ["French bourgeoisie", "poor people in Paris", "peasantry", "merchants of Paris"], answer: 1, difficulty: 2, explanation: "The immediate action came from the poor of Paris, who found it difficult to overcome the high price of bread." },
+    { type: "mcq", q: "What was the fundamental cause of the French Revolution of 1789?", options: ["The American war of Independence", "Food shortage caused by poor harvest", "The Enlightenment", "Injustices under the old feudal order"], answer: 3, difficulty: 3, explanation: "The fundamental cause was the injustice of the old feudal order; the other factors were contributing or immediate causes." },
+    { type: "mcq", q: "The Estates General was transformed into the National Assembly on:", options: ["May 5, 1789", "June 17, 1789", "July 14, 1789", "September 20, 1792"], answer: 1, difficulty: 2, explanation: "On June 17, 1789 the Estates General was transformed into the National Assembly." },
+    { type: "tf", q: "Louis XVI was executed on January 21, 1793.", answer: true, difficulty: 1, explanation: "Louis XVI was found guilty and executed on January 21, 1793." },
+    { type: "short", q: "Name the prison that revolutionaries stormed on July 14, 1789.", answer: "the Bastille|Bastille", difficulty: 1, explanation: "The revolutionaries stormed the royal castle and prison of the Bastille." },
+    { type: "concept", q: "Give the name of the Jacobin leader who headed the Reign of Terror.", answer: "Robespierre", difficulty: 1, explanation: "The Reign of Terror reached its highest stage when Robespierre took over the Jacobin leadership." },
+    { type: "mcq", q: "Which group represented the big and middle bourgeoisie during the Revolution?", options: ["The Jacobins", "The Girondists", "The Directory", "The clergy"], answer: 1, difficulty: 2, explanation: "The Girondists represented the big and middle bourgeoisie and formed the extreme right political wing." },
+    { type: "tf", q: "The Girondists were the left wing of the Revolution.", answer: false, difficulty: 2, explanation: "The Girondists represented the extreme right political wing; the Jacobins led the left wing." },
+    { type: "concept", q: "Explain one way the French Revolution affected the world beyond France.", answer: "rise of modern nationalism|spread of liberalism|lessened importance of religion|ignited the age of revolutions", difficulty: 3, explanation: "Its repercussions included lessening the importance of religion, the rise of modern nationalism, the spread of liberalism and igniting the Age of Revolutions." }
+  ]
+};
 
-Lessons["g9-history-uh9-t3"] = {"overview":"<b>Napoleonic Era</b> sits inside <b>The Age of Revolutions, 1750s to 1815</b>. The age of revolutions opens Unit 9 of Grade 9 History in the Ethiopian (FDRE Ministry of Education) curriculum. First, it studies industrial capitalism and its effects across Europe. Then it explains the French Revolution of 1789 and the fall of the old order. Next, it follows the Napoleonic era in Europe from 1799 to 1815. Also, it covers the American War of Independence and the birth of the United States. Finally, it looks at the Congress of Vienna and the new balance of power. Students will also learn how the age of revolutions still shapes politics today.","objectives":["Describe the causes and effects of the Industrial Revolution.","Explain the causes and course of the French Revolution.","Analyse the reforms and conquests of the Napoleonic era.","Discuss the American War of Independence and its wider influence.","Evaluate the aims and results of the Congress of Vienna."],"simple":"<b>Napoleonic Era in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>Napoleon’s reforms, the Napoleonic Code, and his European empire.</li> <li>Also his defeat in Russia and at the Battle of Waterloo in 1815.</li></ul>","detailed":"<p><b>Napoleonic Era — the essentials.</b> Napoleon’s reforms, the Napoleonic Code, and his European empire. Also his defeat in Russia and at the Battle of Waterloo in 1815.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Describe the causes and effects of the Industrial Revolution.</li><li>Explain the causes and course of the French Revolution.</li><li>Analyse the reforms and conquests of the Napoleonic era.</li><li>Discuss the American War of Independence and its wider influence.</li><li>Evaluate the aims and results of the Congress of Vienna.</li></ul>","keyTerms":[{"term":"Napoleon’s reforms","def":"Napoleon’s reforms, the Napoleonic Code, and his European empire."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing napoleonic era with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Reading the news: events in this topic map onto modern Ethiopian civic debates","Answering the \"give an example\" questions that close every ESSLCE history paper"],"summary":"Napoleonic Era: Napoleon’s reforms, the Napoleonic Code, and his European empire. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"Napoleonic Era\" is correct according to the MoE curriculum?","options":["Napoleon’s reforms, the Napoleonic Code, and his European empire.","Napoleonic Era is not mentioned in the MoE curriculum for this unit","Napoleonic Era happened in a different century than this topic covers","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: Napoleon’s reforms, the Napoleonic Code, and his European empire. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"Napoleonic Era\"?","options":["Also his defeat in Russia and at the Battle of Waterloo in 1815.","Napoleonic Era was reversed by the very process this topic describes","Napoleonic Era is not mentioned in the MoE curriculum for this unit","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Also his defeat in Russia and at the Battle of Waterloo in 1815."},{"type":"tf","q":"True or false: Napoleon’s reforms, the Napoleonic Code, and his European empire.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover napoleonic era.","answer":false,"difficulty":1,"explanation":"Napoleonic Era is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Describe the causes and effects of the Industrial Revolution.","difficulty":2,"altAnswers":["Explain the causes and course of the French Revolution.","Analyse the reforms and conquests of the Napoleonic era."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why napoleonic era matters.","answer":"Napoleonic Era is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of napoleonic era in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to napoleonic era, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
+Lessons["g9-history-uh9-t3"] = {
+  overview: "The Napoleonic Era ran from 1799 to 1815, when Napoleon Bonaparte rose from French general to emperor. This lesson examines his reforms and conquests, the resistance they provoked, and his final defeat.",
+  objectives: [
+    "Explain how Napoleon Bonaparte rose from general to Emperor of France",
+    "Describe the major reforms introduced by Napoleon Bonaparte",
+    "Explain how the Napoleonic Code spread the ideals of the French Revolution",
+    "Identify the forces that resisted and destroyed the Napoleonic Empire",
+    "State the contribution of the Napoleonic era to contemporary society"
+  ],
+  simple: "The Napoleonic Era lasted from 1799 to 1815. Napoleon Bonaparte was born in 1769 on Corsica, became an officer in the French army, and called himself the son of the revolution. He took power by a coup d'etat in 1799, ruled as First Consul, and made himself Emperor on 2 December 1804. His Napoleonic Code of 1804 guaranteed civil equality regardless of birth, wealth or rank, and he reformed banks, education and administration. He built a Grand Army of 600,000 by 1812 and conquered much of Europe. After defeats in Spain, Russia and at Leipzig, he abdicated in 1814 and was exiled to Elba. He returned in 1815 but was finally beaten at Waterloo.",
+  detailed: "<p><b>Who Napoleon was.</b> The period of the rule of Napoleon in France and Europe is known as the Napoleonic Era (1799-1815). Napoleon Bonaparte was born in 1769 on the Mediterranean island of Corsica, and at the age of twenty-six he became an officer in the French army. He was a supporter and friend of the French Revolution and called himself the son of the revolution, and since 1795 he became famous as a defender of the revolution against the reactionary forces of the European monarchical states.</p><p><b>From general to emperor.</b> Napoleon commanded the French army that won victory over Austria in Italy in 1796, and from 1798 to 1799 he was in Egypt, managing a short-lived conquest. On his return he was given a warm national welcome and took over government power by a coup d'etat in 1799. He ruled as First Consul, and from 1802 as Consul for Life, before making himself Emperor of France on 2 December 1804.</p><p><b>Reforms at home.</b> Napoleon introduced the Napoleonic Code of Laws in 1804, which guaranteed civil equality to all persons regardless of birth, wealth and rank. Employment and promotion in government offices were based on ability, a Legion of Honour was introduced in 1802, and the collection of revenues from the departments became efficient. He established the National Bank of France in 1800 and carried out public works such as roads, bridges, monuments and palaces. In 1801 he settled differences with the Church by an agreement with the Roman Catholic Pope, who accepted the confiscation of Church properties while Napoleon promised to pay the salaries of the clergy. State secondary schools and universities were opened, and the Church was allowed to keep its schools.</p><p><b>Conquests and ideas.</b> Between 1805 and 1808 Napoleon built a large European Empire. In 1808 it included Belgium, Spain, Holland, Switzerland, Italy, the Southern and Western German states on the Rhine, Poland and France, while Russia, Prussia, Denmark and Norway were his allies. His troops spread the democratic ideals of the French Revolution, attacked old reactionary, conservative and feudal orders, and took to Europe the ideas of liberty, equality, individualism and secularism. They made reforms such as religious toleration, the abolition of serfdom and civil equality, and planted the ideas of equality and the rule of law.</p><p><b>Resistance and the Continental System.</b> The first resistance came from Britain. Napoleon's plan to conquer Britain failed when the British navy under Admiral Horatio Nelson defeated the allied French and Spanish naval forces at the Battle of Trafalgar in 1805. Napoleon then imposed a blockade on British trade with mainland Europe, known as the Continental System, which was in force from 1806 to 1810 but failed to force Britain into submission. National resistance also appeared within the conquered territories because the French looted and economically exploited them; in Spain a nationalist revolt took place between 1808 and 1812, and with British help Spain became free in 1812. Prussia and other German states strengthened themselves between 1807 and 1813, and Austria declared war on France in 1809.</p><p><b>The Russian disaster and final defeat.</b> In Russia Napoleon met the strongest resistance. In 1812 he began the campaign to conquer Russia with a giant army of 600,000 soldiers, while the Russians mobilized 400,000 troops and chose the strategy of withdrawal and scorched-earth tactics rather than a major battle. Hunger, cold and disease defeated the French Army, and the Russian winter was unbearable. Napoleon occupied Moscow on September 14, 1812, found it burned down and left five weeks later. At the Battle of Leipzig in Northern Germany, also known as the Battle of the Nations, the coalition forces of Russia, Britain, Sweden, Prussia and Austria defeated his retreating troops. The coalition occupied Paris and forced Napoleon to abdicate on March 31, 1814, exiling him to the island of Elba and putting King Louis XVIII on the throne. Napoleon escaped and returned to France on March 20, 1815, ruling for one hundred more days, until the English commander Arthur Wellesley, the Duke of Wellington, and the Prussian general Blucher defeated him at the Battle of Waterloo in Belgium on June 18, 1815. He was exiled to the island of St. Helena in the southern Atlantic Ocean, where he died in 1821.</p>",
+  keyTerms: [
+    { term: "Napoleonic Era", def: "The period of the rule of Napoleon in France and Europe, from 1799 to 1815." },
+    { term: "Napoleonic Code", def: "The uniform code of laws completed in 1804 that guaranteed civil equality to all persons regardless of birth, wealth and rank." },
+    { term: "Grand Army", def: "Napoleon's army of horsemen and foot soldiers, numbering 600,000 troops by 1812." },
+    { term: "Continental System", def: "Napoleon's blockade on British trade with mainland Europe, in force from 1806 to 1810, which failed to force Britain into submission." },
+    { term: "Battle of Trafalgar", def: "The sea battle of 1805 in which Admiral Horatio Nelson defeated the allied French and Spanish naval forces." },
+    { term: "Battle of Leipzig", def: "The 1813 Battle of the Nations in Northern Germany, where the coalition defeated Napoleon's retreating troops." },
+    { term: "Battle of Waterloo", def: "The battle of June 18, 1815 in Belgium where Wellington and Blucher defeated Napoleon for the last time." },
+    { term: "Abdication", def: "The act of giving up the throne, which the coalition forced on Napoleon on March 31, 1814." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "Explain how the Napoleonic Code carried forward one of the main ideas of the French Revolution.",
+      given: "The Code of 1804 guaranteed civil equality to all persons regardless of birth, wealth and rank.",
+      formula: "Continuity: a new ruler may preserve the key ideas of a revolution while rejecting its democracy.",
+      substitution: "The Revolution demanded equality; the Code wrote civil equality into law.",
+      calculation: "Because the Code made equality before the law apply to everyone, it preserved a revolutionary principle.",
+      answer: "The Code preserved the revolutionary principle of civil equality, though Napoleon ruled as a dictator."
+    },
+    {
+      problem: "Why did the Russian campaign of 1812 become the beginning of the end of the Napoleonic Empire?",
+      given: "Napoleon attacked Russia with 600,000 troops against 400,000 Russians who used withdrawal and scorched-earth tactics, and the Russian winter.",
+      formula: "Cause and effect: an army cut off from supplies and exposed to a harsh winter collapses.",
+      substitution: "The Russians avoided a major battle, destroyed resources and let hunger, cold and disease work.",
+      calculation: "Without supplies and shelter, the Grand Army was destroyed, breaking Napoleon's power.",
+      answer: "The Russian strategy and winter destroyed the Grand Army and turned the tide against Napoleon."
+    },
+    {
+      problem: "Was the Continental System a success? Give evidence.",
+      given: "Napoleon imposed a blockade on British trade with mainland Europe, and it was in force from 1806 to 1810.",
+      formula: "Judge a policy by whether it achieved its stated aim.",
+      substitution: "The aim was to force Britain into submission; the result was that it failed to do so.",
+      calculation: "Because British resistance remained strong and the blockade did not force submission, the policy failed.",
+      answer: "No. The Continental System failed to force Britain into submission."
+    },
+    {
+      problem: "Compare the resistance to Napoleon in Spain and in Russia.",
+      given: "Spain revolted between 1808 and 1812 and became free with British help in 1812; Russia resisted in 1812 using withdrawal and scorched earth.",
+      formula: "Comparison: identify the method and the outcome in each case.",
+      substitution: "Spain used a nationalist revolt with a foreign ally; Russia used distance, terrain, climate and scorched earth.",
+      calculation: "Both were nationalist resistances, but Russia's strategy and winter destroyed the Grand Army.",
+      answer: "Both were national resistances; Russia's was the most decisive because it destroyed the Grand Army."
+    }
+  ],
+  commonMistakes: [
+    "Moving Napoleon's death forward; he died in exile on St. Helena in 1821, not at Waterloo.",
+    "Confusing Elba, where he was first exiled in 1814, with St. Helena, where he died.",
+    "Thinking the Napoleonic Code destroyed civil equality; it guaranteed equality before the law regardless of birth, wealth and rank.",
+    "Believing Napoleon was born in France; he was born on the island of Corsica in 1769.",
+    "Treating the Continental System as a success; it failed to force Britain into submission.",
+    "Confusing the Battle of Trafalgar (1805, at sea) with Waterloo (1815, in Belgium).",
+    "Forgetting that Napoleon's rule kept some fruits of the Revolution but denied political democracy to the people."
+  ],
+  applications: [
+    "Explaining how a single legal code, like the Napoleonic Code, can make the law the same for all citizens.",
+    "Debating whether a leader can keep useful reforms while denying people political freedom.",
+    "Studying how overreach in a foreign war, as in Russia, can destroy even a powerful empire.",
+    "Recognising that imposing an economic blockade can fail when the target country resists.",
+    "Comparing Napoleon's centralised administration with how a modern state organises its provinces.",
+    "Learning that nationalism can unite a people against a foreign conqueror."
+  ],
+  summary: "The Napoleonic Era ran from 1799 to 1815, when Napoleon Bonaparte rose from general to Emperor of France. His Napoleonic Code of 1804 guaranteed civil equality, and his reforms reorganised law, finance, education and the Church, while his armies spread revolutionary ideas across Europe. His empire fell after resistance in Spain and Russia and defeats at Leipzig in 1813 and Waterloo in 1815, after which he was exiled to St. Helena, where he died in 1821.",
+  visuals: [
+    {
+      type: "comparison",
+      config: {
+        title: "Napoleon: Reforms vs Dictatorship",
+        left: { name: "Reforms", items: ["Napoleonic Code of 1804", "Civil equality", "National Bank of France", "Education expanded"] },
+        right: { name: "Dictatorship", items: ["Imperial dictator", "Press censorship", "Police and army control", "No political democracy"] }
+      }
+    },
+    {
+      type: "steps",
+      config: {
+        title: "Rise and Fall of Napoleon",
+        steps: [
+          { label: "1796", detail: "Commands the French army to victory over Austria in Italy." },
+          { label: "1799", detail: "Takes power by a coup d'etat as First Consul." },
+          { label: "1804", detail: "Makes himself Emperor and issues the Napoleonic Code." },
+          { label: "1805 to 1808", detail: "Builds a large European Empire but loses at Trafalgar." },
+          { label: "1812", detail: "Invades Russia; the Grand Army is destroyed." },
+          { label: "1815", detail: "Returns, then is defeated at Waterloo and exiled to St. Helena." }
+        ]
+      }
+    },
+    {
+      type: "mindMap",
+      config: {
+        title: "Napoleon's Reforms",
+        center: "Napoleonic Reforms",
+        branches: [
+          { label: "Law", items: ["Napoleonic Code 1804", "Civil equality", "Rule of law"] },
+          { label: "Finance", items: ["National Bank 1800", "Efficient taxes"] },
+          { label: "Church", items: ["Pope agreement 1801", "Clergy salaries paid"] },
+          { label: "Education", items: ["State secondary schools", "Universities opened"] },
+          { label: "Administration", items: ["Centralised rule", "Promotion by ability"] }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "The Napoleonic Era covers the years:", options: ["1789-1799", "1799-1815", "1775-1783", "1814-1815"], answer: 1, difficulty: 1, explanation: "The period of Napoleon's rule in France and Europe is known as the Napoleonic Era, 1799 to 1815." },
+    { type: "mcq", q: "The battle that marked Napoleon's final defeat was:", options: ["Leipzig", "Jena", "Waterloo", "Trafalgar"], answer: 2, difficulty: 1, explanation: "Napoleon was finally defeated at the Battle of Waterloo on June 18, 1815." },
+    { type: "mcq", q: "Napoleon Bonaparte met the strongest and most challenging resistance of all in:", options: ["Prussia", "Austria", "Russia", "Egypt"], answer: 2, difficulty: 2, explanation: "In Russia Napoleon met the strongest and most successful resistance, and the 1812 campaign became the beginning of the end." },
+    { type: "mcq", q: "In which year was the Napoleonic Code completed, guaranteeing civil equality regardless of birth, wealth and rank?", options: ["1799", "1802", "1804", "1812"], answer: 2, difficulty: 2, explanation: "The Napoleonic Code of Laws was introduced in 1804." },
+    { type: "mcq", q: "Napoleon made himself Emperor of France on:", options: ["2 December 1804", "January 21, 1793", "June 18, 1815", "March 31, 1814"], answer: 0, difficulty: 2, explanation: "Napoleon made himself Emperor of France on 2 December 1804." },
+    { type: "tf", q: "Napoleon's rule allowed full political democracy to the French people.", answer: false, difficulty: 2, explanation: "His rule kept the fruits of the Revolution such as civil equality, but it did not allow political democracy to the people." },
+    { type: "short", q: "Name the island where Napoleon was first exiled in 1814.", answer: "Elba", difficulty: 1, explanation: "After his abdication in 1814 Napoleon was exiled to the island of Elba." },
+    { type: "concept", q: "Give the term for the blockade Napoleon imposed on British trade with mainland Europe from 1806 to 1810.", answer: "the Continental System|Continental System", difficulty: 1, explanation: "Napoleon imposed a blockade on British trade known as the Continental System." },
+    { type: "mcq", q: "Napoleon built a Grand Army of about how many troops by 1812?", options: ["6,000", "60,000", "600,000", "6,000,000"], answer: 2, difficulty: 1, explanation: "Napoleon built a Grand Army that had 600,000 troops by 1812." },
+    { type: "concept", q: "Explain why the campaign to conquer Russia became the beginning of the end of the Napoleonic Empire.", answer: "hunger cold and disease destroyed the Grand Army|the Russian winter and scorched earth destroyed his army", difficulty: 3, explanation: "The Russian strategy of withdrawal and scorched earth, together with the winter, and hunger, cold and disease, destroyed the Grand Army." },
+    { type: "tf", q: "Napoleon died in exile on the island of St. Helena in 1821.", answer: true, difficulty: 1, explanation: "He was exiled to St. Helena in the southern Atlantic Ocean, where he stayed until his death in 1821." }
+  ]
+};
 
-Lessons["g9-history-uh9-t4"] = {"overview":"<b>American War of Independence</b> sits inside <b>The Age of Revolutions, 1750s to 1815</b>. The age of revolutions opens Unit 9 of Grade 9 History in the Ethiopian (FDRE Ministry of Education) curriculum. First, it studies industrial capitalism and its effects across Europe. Then it explains the French Revolution of 1789 and the fall of the old order. Next, it follows the Napoleonic era in Europe from 1799 to 1815. Also, it covers the American War of Independence and the birth of the United States. Finally, it looks at the Congress of Vienna and the new balance of power. Students will also learn how the age of revolutions still shapes politics today.","objectives":["Describe the causes and effects of the Industrial Revolution.","Explain the causes and course of the French Revolution.","Analyse the reforms and conquests of the Napoleonic era.","Discuss the American War of Independence and its wider influence.","Evaluate the aims and results of the Congress of Vienna."],"simple":"<b>American War of Independence in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>The thirteen colonies, the Declaration of Independence, and the new United States.</li></ul>","detailed":"<p><b>American War of Independence — the essentials.</b> The thirteen colonies, the Declaration of Independence, and the new United States.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Describe the causes and effects of the Industrial Revolution.</li><li>Explain the causes and course of the French Revolution.</li><li>Analyse the reforms and conquests of the Napoleonic era.</li><li>Discuss the American War of Independence and its wider influence.</li><li>Evaluate the aims and results of the Congress of Vienna.</li></ul>","keyTerms":[{"term":"The thirteen colonies","def":"The thirteen colonies, the Declaration of Independence, and the new United States."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing american war of independence with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Reading the news: events in this topic map onto modern Ethiopian civic debates","Answering the \"give an example\" questions that close every ESSLCE history paper"],"summary":"American War of Independence: The thirteen colonies, the Declaration of Independence, and the new United States. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"American War of Independence\" is correct according to the MoE curriculum?","options":["The thirteen colonies, the Declaration of Independence, and the new United States.","American War of Independence is not mentioned in the MoE curriculum for this unit","American War of Independence happened in a different century than this topic covers","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: The thirteen colonies, the Declaration of Independence, and the new United States. The other options make claims the curriculum does not make."},{"type":"tf","q":"True or false: The thirteen colonies, the Declaration of Independence, and the new United States.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover american war of independence.","answer":false,"difficulty":1,"explanation":"American War of Independence is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Describe the causes and effects of the Industrial Revolution.","difficulty":2,"altAnswers":["Explain the causes and course of the French Revolution.","Analyse the reforms and conquests of the Napoleonic era."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why american war of independence matters.","answer":"American War of Independence is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of american war of independence in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to american war of independence, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
+Lessons["g9-history-uh9-t4"] = {
+  overview: "The American War of Independence, fought between 1775 and 1783, saw thirteen British colonies in North America win independence and form the United States of America. This lesson traces its causes, course and worldwide consequences.",
+  objectives: [
+    "Explain the causes of the American War of Independence",
+    "Describe the course of the war from the Continental Congress to independence",
+    "Explain how the Constitution of 1787 limited government power",
+    "Assess the consequences of the war for America and the wider world",
+    "Recognise the limits of the revolution, especially regarding slavery and the Red Indians"
+  ],
+  simple: "The American War of Independence, also called the American Revolution, was fought between 1775 and 1783. Thirteen of Great Britain's North American colonies threw off British rule to establish the United States of America. Between 1607 and 1682 the British had established these thirteen colonies. When Britain imposed heavy taxes, the colonists gathered in Philadelphia at the First Continental Congress and cut off imports. On May 10, 1775 the Congress set up the Army of the United Colonies under George Washington. In 1776 Thomas Jefferson drafted the Declaration of Independence. Britain accepted defeat in 1783, and the constitution was signed on September 17, 1787.",
+  detailed: "<p><b>What the war was.</b> The American Revolution, also called the U.S. War of Independence, was the insurrection fought between 1775 and 1783 in which thirteen of Great Britain's North American colonies threw off British rule to establish the sovereign United States of America. The struggle of these European settlers, the thirteen colonists, against British colonial rule was coined in world history as the American War of Independence.</p><p><b>The colonies are founded.</b> Since Columbus's discovery of the New World in 1492, people from Europe began to inhabit it in search of a better life. These people gradually developed a settled life as colonists and claimed colonial territories, and among Europeans the British succeeded in establishing thirteen colonies in North America between 1607 and 1682.</p><p><b>Taxation and the Continental Congress.</b> As the British began to impose heavy taxation, the thirteen colonists gathered at Philadelphia in the First Continental Congress and adopted a non-importation, non-consumption agreement, which virtually cut off imports from Britain. They met again in Philadelphia on May 10, 1775, and the Congress set up the Army of the United Colonies with Colonel George Washington as Commander-in-Chief.</p><p><b>Independence declared.</b> The fighting started in the largest cities and trading ports. In 1776 representatives from the thirteen colonies met in Philadelphia to declare themselves independent, and Thomas Jefferson drafted a document called the Declaration of Independence, dated July 14, 1776. It justified the act of rebellion, announced the birth of a new nation called the USA, and set forth the philosophy of human freedom, which later became a dynamic force in the rest of the western world. In 1783 the British government accepted defeat.</p><p><b>A constitutional government.</b> The founders of the United States admired the Romans and their belief in limiting government power. When it came time to draw up a government plan, the founding fathers wrote a constitution that balanced the powers of government among three branches and included a provision that made the Constitution the supreme law of the land, so that elected leaders would not place themselves above the law. The majority of delegates signed the constitution on September 17, 1787, which laid the ground for peaceful power transfer, though in 1788 a gulf was created between federalists and anti-federalists before the anti-federalists joined the federalists to ratify it on June 25.</p><p><b>Consequences.</b> The war of independence brought about the liberation of the American people from British rule and created independent American nations, which finally formed the United States of America. It highly influenced many countries such as France and the Latin American states, and it was one of the immediate causes for the outbreak of the French Revolution in 1789, while Latin American countries began to raise arms against their colonial masters Spain and Portugal. Elections were held for the Presidency of the new federal government, and George Washington became the first President of the USA.</p><p><b>Limits of the revolution.</b> The American War of Independence did not abolish slavery, and it did not consider the Red Indians as citizens. Nevertheless, it was an essential step towards creating the United States of America, which has shown a more rapid industrial development since then.</p>",
+  keyTerms: [
+    { term: "American War of Independence", def: "The insurrection fought between 1775 and 1783 through which thirteen British colonies in North America threw off British rule." },
+    { term: "Thirteen colonies", def: "The British colonies established in North America between 1607 and 1682, which became the United States of America." },
+    { term: "First Continental Congress", def: "The gathering of the thirteen colonists at Philadelphia, which adopted a non-importation, non-consumption agreement against British goods." },
+    { term: "Declaration of Independence", def: "The document drafted by Thomas Jefferson and dated July 14, 1776, which justified the rebellion and announced the birth of the USA." },
+    { term: "Army of the United Colonies", def: "The army set up by the Congress on May 10, 1775, with Colonel George Washington as Commander-in-Chief." },
+    { term: "Federalists", def: "Supporters of the new constitution who, with the anti-federalists, ratified it on June 25 after a period of division in 1788." },
+    { term: "Anti-federalists", def: "Opponents of the constitution in 1788 who later joined the federalists to ratify it." },
+    { term: "Constitution of 1787", def: "The document adopted on September 17, 1787 that balanced power among three branches and became the supreme law of the land." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "Why did the heavy British taxation lead the colonists to organise, and what did they do?",
+      given: "Britain imposed heavy taxation and the thirteen colonists met at the First Continental Congress in Philadelphia.",
+      formula: "Cause and effect: economic grievance produces political organisation.",
+      substitution: "The colonists adopted a non-importation, non-consumption agreement cutting off imports from Britain.",
+      calculation: "Because they refused British goods, the colonists turned a tax protest into economic resistance.",
+      answer: "Heavy British taxation led to the First Continental Congress and a boycott of British imports."
+    },
+    {
+      problem: "How did the American constitution ensure that leaders would not place themselves above the law?",
+      given: "The Constitution balanced power among three branches and made the Constitution the supreme law of the land, adopted on September 17, 1787.",
+      formula: "Separation of powers: dividing authority prevents any one leader from ruling unchecked.",
+      substitution: "Three branches share power, and all of them are bound by the supreme law.",
+      calculation: "Since no branch held all the power and all were under the law, leaders could not stand above it.",
+      answer: "By separating power among three branches under a supreme constitution."
+    },
+    {
+      problem: "The American War of Independence is called an immediate cause of the French Revolution. Explain the connection.",
+      given: "The French people were highly influenced by the English bourgeois Revolution and the American War of Independence.",
+      formula: "Diffusion of ideas: revolution in one country can inspire revolution in another.",
+      substitution: "The American Declaration of Independence set out a philosophy of human freedom and announced a new nation.",
+      calculation: "French society, already oppressed by feudalism, was encouraged by the American example to demand change in 1789.",
+      answer: "The American example inspired the French to challenge their own feudal oppression."
+    },
+    {
+      problem: "To what extent did the American War of Independence extend rights to everyone?",
+      given: "It liberated the colonists and created the USA, but it did not abolish slavery and did not treat the Red Indians as citizens.",
+      formula: "Evaluate by comparing the stated ideals with the actual outcome.",
+      substitution: "Freedom was won for the colonists, yet slaves and Native Americans were excluded.",
+      calculation: "The revolution's ideals of human freedom were not applied to all people, so its rights were limited.",
+      answer: "Only partly; it left slavery in place and excluded the Red Indians from citizenship."
+    }
+  ],
+  commonMistakes: [
+    "Thinking the Declaration of Independence ended the war; fighting continued until 1783.",
+    "Confusing the Declaration of Independence of 1776 with the Constitution of 1787.",
+    "Believing the war abolished slavery; it did not.",
+    "Assuming the Red Indians became citizens; they were not considered as citizens.",
+    "Thinking the British established the thirteen colonies immediately; they did so between 1607 and 1682.",
+    "Confusing the First Continental Congress with the later Congress of May 10, 1775 that set up the army.",
+    "Forgetting that the war influenced France and Latin America and helped cause the French Revolution of 1789."
+  ],
+  applications: [
+    "Understanding why a constitution that puts the law above leaders protects peaceful transfer of power.",
+    "Debating why a revolution that proclaimed freedom still allowed slavery.",
+    "Seeing how the American example encouraged later anti-colonial struggles in Latin America and beyond.",
+    "Recognising that heavy taxation without representation can provoke resistance.",
+    "Using the balance of three branches of government as a model when discussing how power should be limited.",
+    "Noting that a country's founding ideals may take a long time to be applied to everyone."
+  ],
+  summary: "The American War of Independence was fought from 1775 to 1783, when thirteen British colonies in North America won independence and formed the United States of America. The colonists resisted heavy taxation through the First Continental Congress, set up an army under George Washington, and issued the Declaration of Independence drafted by Thomas Jefferson in 1776. The Constitution of 1787 placed the law above leaders, but the revolution did not end slavery or grant citizenship to the Red Indians.",
+  visuals: [
+    {
+      type: "steps",
+      config: {
+        title: "Road to American Independence",
+        steps: [
+          { label: "1607 to 1682", detail: "Britain establishes thirteen colonies in North America." },
+          { label: "First Continental Congress", detail: "Colonists at Philadelphia boycott British imports." },
+          { label: "May 10, 1775", detail: "Congress sets up the army under George Washington." },
+          { label: "July 14, 1776", detail: "Declaration of Independence drafted by Thomas Jefferson." },
+          { label: "1783", detail: "Britain accepts defeat." },
+          { label: "September 17, 1787", detail: "The Constitution is signed." }
+        ]
+      }
+    },
+    {
+      type: "comparison",
+      config: {
+        title: "Ideals vs Reality",
+        left: { name: "Stated ideals", items: ["Human freedom", "Limiting government power", "Three balanced branches", "Supreme law of the land"] },
+        right: { name: "Limited reality", items: ["Slavery not abolished", "Red Indians not citizens", "Rights for colonists only", "Power transfer still contested"] }
+      }
+    },
+    {
+      type: "tableVisual",
+      config: {
+        title: "Key Documents and Dates",
+        headers: ["Date", "Document or event", "Importance"],
+        rows: [
+          ["July 14, 1776", "Declaration of Independence", "Announced the birth of the USA"],
+          ["1783", "British accept defeat", "Independence secured"],
+          ["September 17, 1787", "Constitution signed", "Law placed above leaders"],
+          ["1788", "Federalist and anti-federalist split", "Debate over ratification"],
+          ["June 25", "Ratification", "Anti-federalists join federalists"]
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "The American War of Independence was fought between:", options: ["1607 and 1682", "1775 and 1783", "1787 and 1789", "1861 and 1865"], answer: 1, difficulty: 1, explanation: "The war was fought between 1775 and 1783." },
+    { type: "mcq", q: "Which country ruled the thirteen North American colonies before the war?", options: ["France", "Spain", "Great Britain", "Portugal"], answer: 2, difficulty: 1, explanation: "The thirteen colonies were colonies of Great Britain." },
+    { type: "mcq", q: "Which of the following was NOT an effect of the American War of Independence?", options: ["It liberated the American people from British rule", "It influenced the French and Latin Americans", "It abolished slavery", "It created the USA"], answer: 2, difficulty: 2, explanation: "The war did not abolish slavery; it was an essential step towards creating the USA but left slavery in place." },
+    { type: "mcq", q: "Who drafted the Declaration of Independence in 1776?", options: ["George Washington", "Thomas Jefferson", "Benjamin Franklin", "John Adams"], answer: 1, difficulty: 1, explanation: "Thomas Jefferson drafted the Declaration of Independence." },
+    { type: "mcq", q: "The Constitution of the United States was signed on:", options: ["July 14, 1776", "May 10, 1775", "September 17, 1787", "March 9, 1814"], answer: 2, difficulty: 2, explanation: "The majority of delegates signed the constitution on September 17, 1787." },
+    { type: "tf", q: "The American War of Independence abolished slavery and made the Red Indians citizens.", answer: false, difficulty: 2, explanation: "The war did not abolish slavery and did not consider the Red Indians as citizens." },
+    { type: "short", q: "Name the Commander-in-Chief of the Army of the United Colonies appointed in 1775.", answer: "George Washington", difficulty: 1, explanation: "The Congress appointed Colonel George Washington as Commander-in-Chief on May 10, 1775." },
+    { type: "concept", q: "Give the name of the first congress of the thirteen colonists, held at Philadelphia.", answer: "First Continental Congress|Continental Congress", difficulty: 1, explanation: "The thirteen colonists gathered at Philadelphia in the First Continental Congress." },
+    { type: "mcq", q: "In which city did representatives of the thirteen colonies meet to declare independence?", options: ["Boston", "New York", "Philadelphia", "Washington"], answer: 2, difficulty: 2, explanation: "In 1776 representatives from the thirteen colonies met in Philadelphia to declare independence." },
+    { type: "concept", q: "Explain how the American War of Independence influenced the French Revolution.", answer: "it was one of the immediate causes|it inspired the French against feudal oppression", difficulty: 3, explanation: "It was one of the immediate causes for the French Revolution outbreak in 1789, alongside the Enlightenment." },
+    { type: "tf", q: "The Constitution made itself the supreme law of the land so that leaders would not stand above the law.", answer: true, difficulty: 2, explanation: "The founding fathers included a provision making the Constitution the supreme law of the land." }
+  ]
+};
 
-Lessons["g9-history-uh9-t5"] = {"overview":"<b>The Congress of Vienna</b> sits inside <b>The Age of Revolutions, 1750s to 1815</b>. The age of revolutions opens Unit 9 of Grade 9 History in the Ethiopian (FDRE Ministry of Education) curriculum. First, it studies industrial capitalism and its effects across Europe. Then it explains the French Revolution of 1789 and the fall of the old order. Next, it follows the Napoleonic era in Europe from 1799 to 1815. Also, it covers the American War of Independence and the birth of the United States. Finally, it looks at the Congress of Vienna and the new balance of power. Students will also learn how the age of revolutions still shapes politics today.","objectives":["Describe the causes and effects of the Industrial Revolution.","Explain the causes and course of the French Revolution.","Analyse the reforms and conquests of the Napoleonic era.","Discuss the American War of Independence and its wider influence.","Evaluate the aims and results of the Congress of Vienna."],"simple":"<b>The Congress of Vienna in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>Finally, the 1815 settlement that redrew Europe and sought a balance of power.</li></ul>","detailed":"<p><b>The Congress of Vienna — the essentials.</b> Finally, the 1815 settlement that redrew Europe and sought a balance of power.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Describe the causes and effects of the Industrial Revolution.</li><li>Explain the causes and course of the French Revolution.</li><li>Analyse the reforms and conquests of the Napoleonic era.</li><li>Discuss the American War of Independence and its wider influence.</li><li>Evaluate the aims and results of the Congress of Vienna.</li></ul>","keyTerms":[{"term":"Finally","def":"Finally, the 1815 settlement that redrew Europe and sought a balance of power."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing the congress of vienna with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Reading the news: events in this topic map onto modern Ethiopian civic debates","Answering the \"give an example\" questions that close every ESSLCE history paper"],"summary":"The Congress of Vienna: Finally, the 1815 settlement that redrew Europe and sought a balance of power. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"The Congress of Vienna\" is correct according to the MoE curriculum?","options":["Finally, the 1815 settlement that redrew Europe and sought a balance of power.","The Congress of Vienna is not mentioned in the MoE curriculum for this unit","The Congress of Vienna happened in a different century than this topic covers","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: Finally, the 1815 settlement that redrew Europe and sought a balance of power. The other options make claims the curriculum does not make."},{"type":"tf","q":"True or false: Finally, the 1815 settlement that redrew Europe and sought a balance of power.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover the congress of vienna.","answer":false,"difficulty":1,"explanation":"The Congress of Vienna is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Describe the causes and effects of the Industrial Revolution.","difficulty":2,"altAnswers":["Explain the causes and course of the French Revolution.","Analyse the reforms and conquests of the Napoleonic era."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why the congress of vienna matters.","answer":"The Congress of Vienna is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of the congress of vienna in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to the congress of vienna, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
-
+Lessons["g9-history-uh9-t5"] = {
+  overview: "The Congress of Vienna met from September 1814 and signed its Final Act on June 9, 1815, to build a lasting peace for Europe after the Napoleonic Wars. This lesson examines who attended, what they decided, and the consequences of the settlement.",
+  objectives: [
+    "State the aims of the Congress of Vienna",
+    "Identify the four leading powers and the chief delegates at Vienna",
+    "Describe the main territorial agreements reached by the Congress",
+    "Explain the principle of the balance of power secured at Vienna",
+    "Assess the strengths and weaknesses of the settlement of 1815"
+  ],
+  simple: "The Congress of Vienna began in September 1814, five months after Napoleon's first abdication, and completed its Final Act in June 1815. Its aim was to provide a long-term peace plan for Europe by settling the issues left by the French Revolutionary and Napoleonic Wars. The four powers, Austria, Prussia, Russia and Great Britain, had already allied against Napoleon by the Treaty of Chaumont in March 1814. Delegates such as Metternich of Austria, Tsar Alexander I of Russia and Castlereagh of Britain redrew the map of Europe. The Final Act, signed on June 9, 1815, established a balance of power that kept peace for over forty years.",
+  detailed: "<p><b>Aims of the Congress.</b> The Congress of Vienna began in September 1814, five months after Napoleon's first abdication, and completed its Final Act in June 1815, shortly before the Waterloo campaign and Napoleon's final defeat. The settlement was the most comprehensive treaty Europe had ever seen. Its objective was to provide a long-term peace plan for Europe by settling the critical issues arising from the French Revolutionary Wars and the Napoleonic Wars, so that virtually every state in Europe had a delegation in Vienna.</p><p><b>The four powers.</b> Austria, Prussia, Russia and Great Britain, the powers chiefly instrumental in the overthrow of Napoleon, had concluded a special alliance among themselves by the Treaty of Chaumont on March 9, 1814, a month before Napoleon's first abdication. The subsequent peace treaties with France, signed on May 30 by the four together with Sweden and Portugal and on July 20 by Spain, stipulated that all former belligerents should send plenipotentiaries to a congress in Vienna, though the four still intended to reserve the real decision-making.</p><p><b>The statesmen.</b> All of Europe sent its most important statesmen. Klemen (Metternich), principal minister of Austria, represented his emperor, Francis II; Tsar Alexander I of Russia directed his diplomacy; King Frederick William III of Prussia had Karl, Prince von Hardenberg, as his principal minister; and Great Britain was represented by its foreign minister, Viscount Castlereagh, later replaced by the Duke of Wellington and then Lord Clancarty. The restored Louis XVIII of France sent Charles-Maurice de Talleyrand, while Spain, Portugal and Sweden sent men of only moderate ability. Friedrich Gentz assisted Metternich with protocol and the secretarial organisation, and the busy social life of the congress was itself one cause of the long delay in producing a result.</p><p><b>Points of friction.</b> The major disputes occurred over the disposition of Poland and Saxony, the conflicting claims of Sweden, Denmark and Russia, and the adjustment of the borders of the German states. In general, Russia and Prussia were opposed by Austria, France and England, which on January 3, 1815 even concluded a secret treaty of defensive alliance.</p><p><b>Territorial settlements.</b> In return for acquiring Poland, Alexander gave Galicia back to Austria and gave Thorn and the region around it to Prussia, while Krakow was made a free town. Prussia received two-fifths of Saxony and was compensated with extensive additions in Westphalia and on the left bank of the Rhine, which Castlereagh insisted on so that Prussia could guard the Rhine region against France and support the new Kingdom of the Netherlands, made up of the former United Provinces and Belgium. Austria was compensated with Lombardy and Venice. A loose German confederation was drawn up as a triumph for Metternich, Denmark lost Norway to Sweden but gained Lauenburg, and Switzerland was given a new constitution. In Italy, Piedmont absorbed Genoa, the Papal States were restored to the pope, and Naples went to the Sicilian Bourbons.</p><p><b>The Final Act and its consequences.</b> The Final Act of the Congress of Vienna comprised all the agreements in one great instrument and was signed on June 9, 1815 by the eight, except Spain, which refused as a protest against the Italian settlement; all the other powers subsequently acceded to it. As a result, the political boundaries laid down by the Congress lasted, except for one or two changes, for more than forty years, and the statesmen had successfully worked out the principle of a balance of power. However, the idea of nationality had been almost entirely ignored, and territories had been bartered about without much reference to the wishes of their inhabitants. Until the even greater settlement at Versailles after World War I, historians condemned the statesmen of Vienna, though it was later realised how difficult their task was and that they had secured for Europe a period of peace. Because they failed to give international relations any organ by which their work could adapt to the new forces of the 19th century, the settlement was ultimately doomed to destruction.</p>",
+  keyTerms: [
+    { term: "Congress of Vienna", def: "The great European settlement that began in September 1814 to provide a long-term peace plan after the French Revolutionary and Napoleonic Wars." },
+    { term: "Final Act", def: "The instrument comprising all the agreements of the Congress, signed on June 9, 1815 by the eight powers." },
+    { term: "Treaty of Chaumont", def: "The special alliance concluded on March 9, 1814 by Austria, Prussia, Russia and Great Britain against Napoleon." },
+    { term: "Balance of power", def: "The principle worked out at Vienna that no single state should be strong enough to dominate the others." },
+    { term: "Plenipotentiaries", def: "The representatives with full authority whom all former belligerents were required to send to the congress in Vienna." },
+    { term: "Kingdom of the Netherlands", def: "The new kingdom formed from the former United Provinces and Belgium, which Prussia was to support by guarding the Rhine." },
+    { term: "German confederation", def: "The loose confederation outlined for Germany at Vienna, described as a triumph for Metternich." },
+    { term: "Nationality", def: "The sense of belonging to a nation; the idea that the Congress of Vienna almost entirely ignored." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "What was the main objective of the Congress of Vienna?",
+      given: "The Congress met from September 1814 to June 1815, after the French Revolutionary and Napoleonic Wars.",
+      formula: "Aim and outcome: identify what the statesmen tried to achieve.",
+      substitution: "They sought a long-term peace plan by settling the critical issues arising from those wars.",
+      calculation: "Because they wanted lasting peace and a balance of power, they redrew borders and restored order in Europe.",
+      answer: "To provide a long-term peace plan for Europe after the revolutionary and Napoleonic Wars."
+    },
+    {
+      problem: "Why did the four powers sign the Treaty of Chaumont before the Congress met?",
+      given: "Austria, Prussia, Russia and Great Britain signed the Treaty of Chaumont on March 9, 1814, a month before Napoleon's first abdication.",
+      formula: "Alliance and interest: great powers make private agreements to protect their influence.",
+      substitution: "The four had overthrown Napoleon and intended to reserve the real decision-making for themselves.",
+      calculation: "By allying first, the four ensured the congress would largely follow their terms, even though many states attended.",
+      answer: "To secure their alliance and keep the real decision-making in their own hands."
+    },
+    {
+      problem: "Explain the principle of the balance of power achieved at Vienna.",
+      given: "The Congress surrounded France with stronger neighbours and shared territories such as Poland, Saxony and the Rhineland.",
+      formula: "Balance of power: no single state should be strong enough to dominate the others.",
+      substitution: "Prussia was given the Rhineland to guard against France, and Austria gained Lombardy and Venice.",
+      calculation: "By distributing territory so that no state could dominate, the statesmen aimed to prevent a repeat of Napoleonic expansion.",
+      answer: "They distributed power so no state could dominate, giving Europe peace for over forty years."
+    },
+    {
+      problem: "Why did historians criticise the Congress of Vienna, and what is the modern view?",
+      given: "It ignored the idea of nationality and bartered territories without regard to their inhabitants, but it secured for Europe a period of peace.",
+      formula: "Historical judgment changes when the context and the alternatives are understood.",
+      substitution: "Early historians condemned the settlement; later historians saw how difficult the task had been.",
+      calculation: "Weighing the peace it secured against the rights it ignored gives a mixed judgment.",
+      answer: "They condemned it for ignoring nationality, but later historians valued the peace it secured for Europe."
+    }
+  ],
+  commonMistakes: [
+    "Confusing the start of the Congress in September 1814 with the signing of the Final Act on June 9, 1815.",
+    "Thinking all states had an equal say; the four powers reserved the real decision-making.",
+    "Believing the Congress protected nationality; it almost entirely ignored it.",
+    "Confusing the Treaty of Chaumont of March 9, 1814 with the Final Act of June 9, 1815.",
+    "Assuming Spain signed the Final Act; Spain refused as a protest against the Italian settlement.",
+    "Believing the settlement collapsed immediately; its boundaries lasted, apart from one or two changes, for more than forty years.",
+    "Mixing up Castlereagh of Great Britain with Metternich of Austria."
+  ],
+  applications: [
+    "Debating whether a peace settlement should respect the wishes of the people whose land is exchanged.",
+    "Recognising the danger of ignoring nationality when borders are redrawn.",
+    "Understanding how a balance of power aims to prevent any single state from dominating others.",
+    "Comparing the Congress of Vienna with the later settlement at Versailles after World War I.",
+    "Noting that great powers may make private agreements that smaller states cannot influence.",
+    "Seeing that a settlement without institutions to adapt it may not last."
+  ],
+  summary: "The Congress of Vienna met from September 1814 and signed its Final Act on June 9, 1815, to build a lasting peace for Europe after the Napoleonic Wars. Led by the four powers Austria, Prussia, Russia and Great Britain, it redrew borders and worked out a balance of power that kept Europe peaceful for over forty years. It nevertheless ignored nationality and created no institution to adapt the settlement to the new forces of the 19th century.",
+  visuals: [
+    {
+      type: "tableVisual",
+      config: {
+        title: "Territorial Settlements at Vienna",
+        headers: ["State or region", "Settlement", "Purpose"],
+        rows: [
+          ["Prussia", "Two-fifths of Saxony and the Rhineland", "Guard against France"],
+          ["Austria", "Lombardy and Venice", "Compensation"],
+          ["Poland", "Galicia to Austria; Thorn to Prussia; Krakow free", "Reward allies"],
+          ["Netherlands", "Former United Provinces and Belgium", "New buffer kingdom"],
+          ["Germany", "Loose confederation", "Triumph for Metternich"]
+        ]
+      }
+    },
+    {
+      type: "comparison",
+      config: {
+        title: "Achievements vs Criticisms",
+        left: { name: "Achievements", items: ["Long-term peace plan", "Balance of power", "Borders lasted 40 years", "Period of peace secured"] },
+        right: { name: "Criticisms", items: ["Nationality ignored", "Territories bartered", "Inhabitants not consulted", "No institution to adapt it"] }
+      }
+    },
+    {
+      type: "qa",
+      config: {
+        title: "Exam Quick-Check",
+        pairs: [
+          { q: "When did the Congress begin and when was the Final Act signed?", a: "It began in September 1814 and the Final Act was signed on June 9, 1815." },
+          { q: "Which four powers led the Congress?", a: "Austria, Prussia, Russia and Great Britain." },
+          { q: "What was the Congress's main objective?", a: "To provide a long-term peace plan for Europe after the wars." },
+          { q: "What principle did the statesmen work out?", a: "The principle of a balance of power." },
+          { q: "What did the Congress ignore?", a: "The idea of nationality." }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "The Congress of Vienna began in:", options: ["September 1814", "June 1815", "March 1814", "January 1815"], answer: 0, difficulty: 1, explanation: "The Congress of Vienna began in September 1814, five months after Napoleon's first abdication." },
+    { type: "mcq", q: "The Final Act of the Congress of Vienna was signed on:", options: ["March 9, 1814", "May 30, 1814", "June 9, 1815", "June 18, 1815"], answer: 2, difficulty: 2, explanation: "The Final Act was signed on June 9, 1815." },
+    { type: "mcq", q: "Which four powers were chiefly instrumental in the overthrow of Napoleon?", options: ["Austria, Prussia, Russia and Great Britain", "Spain, Portugal, Sweden and France", "Britain, Spain, Italy and Holland", "Russia, Poland, Denmark and Norway"], answer: 0, difficulty: 1, explanation: "Austria, Prussia, Russia and Great Britain concluded the Treaty of Chaumont and led the settlement." },
+    { type: "mcq", q: "The objective of the Congress of Vienna was to:", options: ["punish all of Europe", "provide a long-term peace plan for Europe by settling critical issues from the wars", "restore Napoleon", "abolish all monarchies"], answer: 1, difficulty: 2, explanation: "Its objective was to provide a long-term peace plan for Europe by settling critical issues arising from the wars." },
+    { type: "mcq", q: "The Treaty of Chaumont, an alliance of the four powers, was concluded on:", options: ["March 9, 1814", "September 1814", "June 9, 1815", "January 3, 1815"], answer: 0, difficulty: 3, explanation: "The four powers concluded the Treaty of Chaumont on March 9, 1814." },
+    { type: "tf", q: "The Congress of Vienna respected the idea of nationality when it redrew the map of Europe.", answer: false, difficulty: 2, explanation: "The idea of nationality was almost entirely ignored, and territories were bartered without much reference to the wishes of their inhabitants." },
+    { type: "short", q: "Name the Austrian principal minister who represented Emperor Francis II at Vienna.", answer: "Metternich|Klemen|Klemens", difficulty: 2, explanation: "Klemen (Metternich), principal minister of Austria, represented his emperor, Francis II." },
+    { type: "concept", q: "Give the principle the statesmen successfully worked out to keep the great powers in check.", answer: "balance of power", difficulty: 1, explanation: "The statesmen successfully worked out the principle of a balance of power." },
+    { type: "mcq", q: "Which country refused to sign the Final Act as a protest against the Italian settlement?", options: ["Spain", "France", "Sweden", "Portugal"], answer: 0, difficulty: 3, explanation: "Spain refused to sign the Final Act as a protest against the Italian settlement." },
+    { type: "tf", q: "The political boundaries laid down by the Congress of Vienna lasted, except for one or two changes, for more than 40 years.", answer: true, difficulty: 2, explanation: "The boundaries lasted, except for one or two changes, for more than 40 years." },
+    { type: "concept", q: "Explain why the statesmen of Vienna were criticised by later historians and partly defended.", answer: "they ignored nationality|they secured a period of peace for Europe", difficulty: 3, explanation: "They were criticised for ignoring nationality and bartering territories, but later historians realised how difficult their task was and that they secured for Europe a period of peace." }
+  ]
+};

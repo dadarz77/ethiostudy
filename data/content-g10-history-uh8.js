@@ -1,12 +1,500 @@
-/* Content: g10-history-uh8 — migrated from generated JSON (Phase 0 pipeline restore).
-   Content upgrade to spec v2 happens per unit in later phases. */
+/* Content: Grade 10 History - Unit 8: Post-1991 Developments in Ethiopia (4 topics)
+   Source: MoE History Grade 10 Student Textbook, Unit 8, pp. 203-218. */
 window.Lessons = window.Lessons || {};
 
-Lessons["g10-history-uh8-t1"] = {"overview":"<b>The 1991 Transitional Charter and the Formation of TGE</b> sits inside <b>Post-1991 Developments in Ethiopia</b>. Transitional government and federal reform followed 1991 in Ethiopia, the focus of Unit 8 of Grade 10 History in the Ethiopian (FDRE Ministry of Education) curriculum. First, it explains the 1991 Transitional Charter and the Transitional Government of Ethiopia. Then it sets out the 1995 constitution and the Federal Democratic Republic of Ethiopia. Next, it traces the hydro-politics of the Nile (Abay) basin. Also it covers the Grand Ethiopian Renaissance Dam and the Nile agreements. Finally, it looks at development and the challenges of democratization. Students will also learn how federalism applies to real-life situations, such as shared rivers and regional rights today.","objectives":["Describe the 1991 Transitional Charter and the Transitional Government.","Explain the main features of the 1995 FDRE constitution.","Distinguish the nine regional states of the Ethiopian federation.","Trace the hydro-politics of the Nile and the major agreements.","Assess the aims of the Grand Ethiopian Renaissance Dam."],"simple":"<b>The 1991 Transitional Charter and the Formation of TGE in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, the EPRDF, the fall of the Derg, and the London Conference of 1991.</li> <li>The Transitional Government of Ethiopia and its 87-member Council of Representatives.</li> <li>Also the 14 self-governing regions and the road toward a federal system.</li></ul>","detailed":"<p><b>The 1991 Transitional Charter and the Formation of TGE — the essentials.</b> First, the EPRDF, the fall of the Derg, and the London Conference of 1991. The Transitional Government of Ethiopia and its 87-member Council of Representatives. Also the 14 self-governing regions and the road toward a federal system.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Describe the 1991 Transitional Charter and the Transitional Government.</li><li>Explain the main features of the 1995 FDRE constitution.</li><li>Distinguish the nine regional states of the Ethiopian federation.</li><li>Trace the hydro-politics of the Nile and the major agreements.</li><li>Assess the aims of the Grand Ethiopian Renaissance Dam.</li></ul>","keyTerms":[{"term":"First","def":"First, the EPRDF, the fall of the Derg, and the London Conference of 1991."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing the 1991 transitional charter and the formation of tge with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Reading the news: events in this topic map onto modern Ethiopian civic debates","Answering the \"give an example\" questions that close every ESSLCE history paper"],"summary":"The 1991 Transitional Charter and the Formation of TGE: First, the EPRDF, the fall of the Derg, and the London Conference of 1991. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"The 1991 Transitional Charter and the Formation of TGE\" is correct according to the MoE curriculum?","options":["First, the EPRDF, the fall of the Derg, and the London Conference of 1991.","The 1991 Transitional Charter and the Formation of TGE is not mentioned in the MoE curriculum for this unit","The 1991 Transitional Charter and the Formation of TGE happened in a different century than this topic covers","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, the EPRDF, the fall of the Derg, and the London Conference of 1991. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"The 1991 Transitional Charter and the Formation of TGE\"?","options":["The Transitional Government of Ethiopia and its 87-member Council of Representatives.","The 1991 Transitional Charter and the Formation of TGE was reversed by the very process this topic describes","The 1991 Transitional Charter and the Formation of TGE is not mentioned in the MoE curriculum for this unit","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: The Transitional Government of Ethiopia and its 87-member Council of Representatives."},{"type":"tf","q":"True or false: First, the EPRDF, the fall of the Derg, and the London Conference of 1991.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover the 1991 transitional charter and the formation of tge.","answer":false,"difficulty":1,"explanation":"The 1991 Transitional Charter and the Formation of TGE is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Describe the 1991 Transitional Charter and the Transitional Government.","difficulty":2,"altAnswers":["Explain the main features of the 1995 FDRE constitution.","Distinguish the nine regional states of the Ethiopian federation."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why the 1991 transitional charter and the formation of tge matters.","answer":"The 1991 Transitional Charter and the Formation of TGE is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of the 1991 transitional charter and the formation of tge in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to the 1991 transitional charter and the formation of tge, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
+Lessons["g10-history-uh8-t1"] = {
+  overview: "In 1991 the EPRDF coalition toppled the Derg and set up the Transitional Government of Ethiopia under a National Charter. This lesson traces the London Conference, the July 1991 conference in Addis Ababa, and the Charter that created 14 self-governing regions.",
+  objectives: [
+    "Identify the ethno-nationalist coalition that toppled the Derg regime in 1991",
+    "Describe the purpose and outcome of the May 1991 London Conference",
+    "Explain the main issues settled by the July 1991 Transitional Conference",
+    "List the institutions and key figures of the Transitional Government of Ethiopia",
+    "Explain how the Transitional Charter laid the foundation for Ethiopian federalism"
+  ],
+  simple: "In 1991 a long civil war ended when the EPRDF, a coalition of ethno-nationalist forces led by the TPLF, toppled the Marxist Derg regime. The United States sponsored a conference in London in May 1991, but it was overtaken when the insurgents occupied Addis Ababa on May 28, 1991. A national conference then met in Addis Ababa in the first week of July 1991, chaired by Meles Zenawi. It accepted a referendum on Eritrean independence, in which the EPLF offered Assab as a free port, and agreed to reorganise Ethiopia as an ethnic-based federation. A National Charter acted as a transitional constitution. It created an 87-member Council of Representatives and 14 self-governing regions. The Council elected Meles Zenawi as president of Ethiopia.",
+  detailed: "<p><b>The fall of the Derg.</b> In 1991, following the end of the decades-long civil war, Ethiopia began a new chapter in its contemporary political history. The Marxist military junta was toppled by a coalition of ethno-nationalist forces, the Ethiopian People's Revolutionary Front (EPRDF), dominated by the Tigray People's Liberation Front (TPLF). Its other members were the Ethiopian Peoples' Democratic Movement (EPDM) and the Oromo People's Democratic Organization (OPDO), while the Southern Ethiopian People's Democratic Movement (SEPDM) joined the coalition in 1992.</p><p><b>The May 1991 London Conference.</b> The London Conference of May 1991 was sponsored by the United States of America and attended by the Ethiopian government headed by Tesfaye Dinka, the EPLF under Isaias Afwerki, the EPRDF under TPLF leader Meles Zenawi, and the OLF under its deputy secretary-general, Lencho Letta. The United States Assistant Secretary for African Affairs, Herman Cohen, served as mediator. The meeting was supposed to explore ways of setting up a transitional government in Addis Ababa, but it was soon overtaken by events on the ground: Addis Ababa was occupied by the insurgents on May 28, 1991, and talks with government representatives broke down almost immediately.</p><p><b>The July 1991 national conference.</b> The Eritrean and Tigray rebel leadership then planned the next step with Herman Cohen, and a national conference was convened two months later in Addis Ababa. The Ethiopian Democratic and Peaceful Transitional Conference met in the first week of July 1991 and was chaired by Meles Zenawi, and seats were allocated according to the size of the ethnic group each group represented. The nationality issue figured prominently and there was a heated discussion on secession. The de facto acceptance of Eritrean secession, through a referendum limited to Eritreans, passed with only one vote against and four abstentions, and the EPLF offered Assab for Ethiopia's use as a free port. Reorganising the Ethiopian state as a federation on an ethnic basis, giving nationalities the right to administer their affairs within their own defined territory, was passed with a minimum of reflection.</p><p><b>The National Charter and the new institutions.</b> The new government included an 87-member Council of Representatives and a National Charter that functioned as a transitional constitution. Thirty-two political groups were represented in the Council, but EPRDF-allied groups held 32 of the 87 seats. The TGE included a 17-member, ethnically mixed Council of Ministers, and the OLF held four ministerial positions. The Council of Representatives elected Meles Zenawi as chairman of the Council of Representatives and president of Ethiopia.</p><p><b>Instability during the transitional period.</b> Despite the participation of various political and ethnic groups in the TGE, violent clashes occurred throughout many parts of Ethiopia. This instability resulted mainly from the dominance of the EPRDF and its allies in the TGE. Nearly a year after the formation of the TGE, the OLF withdrew from the government, and in March 1993 the TGE expelled members of the Southern Ethiopia Peoples' Democratic Coalition. Even so, President Meles pledged to oversee the formation of multiparty democracy, and in June 1994 there were elections for a 547-member Constituent Assembly that adopted the constitution of the Federal Democratic Republic of Ethiopia.</p><p><b>From Charter to federation.</b> The Transitional Charter also established 14 self-governing regions of nations, nationalities and peoples. Thus from 1991 to 1995 Ethiopia was gradually evolving into a federal system of government. The Charter period served as the bridge between the unitary Derg state and the federal republic proclaimed in 1995, and it fixed the ethnic principle that the later constitution would turn into nine regional states.</p>",
+  keyTerms: [
+    { term: "EPRDF", def: "The Ethiopian People's Revolutionary Front, a coalition of ethno-nationalist forces dominated by the TPLF, which toppled the Derg regime in 1991." },
+    { term: "TPLF", def: "The Tigray People's Liberation Front, the dominant member of the EPRDF coalition under its leader Meles Zenawi." },
+    { term: "Transitional Government of Ethiopia (TGE)", def: "The interim government formed in 1991 under the National Charter, which governed Ethiopia until the FDRE was established." },
+    { term: "National Charter", def: "The document that functioned as a transitional constitution and set up the TGE and its institutions." },
+    { term: "Council of Representatives", def: "The 87-member transitional legislature in which 32 political groups were represented." },
+    { term: "London Conference", def: "The May 1991 meeting sponsored by the United States to explore a transitional government in Addis Ababa." },
+    { term: "Self-governing regions", def: "The 14 regional units of nations, nationalities and peoples created by the Transitional Charter." },
+    { term: "Constituent Assembly", def: "The 547-member body elected in June 1994 that adopted the FDRE constitution." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "Which groups took part in the May 1991 London Conference, and what was the role of the United States?",
+      given: "The Ethiopian government was headed by Tesfaye Dinka; the EPLF by Isaias Afwerki; the EPRDF by Meles Zenawi; the OLF by Lencho Letta.",
+      formula: "Concept: a mediated peace conference brings the warring parties and outside sponsors to one table.",
+      substitution: "Listing the parties shows a government side facing three insurgent organisations, with the United States acting as sponsor and mediator.",
+      calculation: "Herman Cohen, the United States Assistant Secretary for African Affairs, mediated, so the United States shaped the agenda without being a party to the war.",
+      answer: "The Ethiopian government, the EPLF, the EPRDF and the OLF attended; the United States sponsored the meeting and Herman Cohen mediated."
+    },
+    {
+      problem: "Why did the July 1991 conference accept an ethnic-based federation and the Eritrean referendum so quickly?",
+      given: "The Eritrean referendum passed with one vote against and four abstentions, and the ethnic federation passed with a minimum of reflection.",
+      formula: "Concept: decisions taken under the pressure of a recent military victory reflect the balance of power more than long debate.",
+      substitution: "The EPRDF dominated the conference after occupying Addis Ababa, and the EPLF controlled Eritrea on the ground.",
+      calculation: "Because the strongest forces on the ground supported both measures, few delegates were in a position to resist them.",
+      answer: "The measures passed easily because the EPRDF and its allies held the military advantage at the time of the conference."
+    },
+    {
+      problem: "Using the institutions of the TGE, explain why the years 1991 to 1995 are called a transitional period.",
+      given: "The TGE had a National Charter instead of a permanent constitution, an 87-member Council of Representatives and 14 self-governing regions.",
+      formula: "Concept: a period is transitional when its institutions are temporary and are designed to lead to a permanent system.",
+      substitution: "The Charter was temporary, the regions were self-governing rather than constituent states, and no permanent constitution yet existed.",
+      calculation: "Because the arrangements were provisional and led to the Constituent Assembly of June 1994 and the 1995 constitution, the period is transitional.",
+      answer: "The institutions were temporary arrangements that carried Ethiopia from the Derg state to the federal republic of 1995."
+    }
+  ],
+  commonMistakes: [
+    "Confusing the May 1991 London Conference with the July 1991 national conference in Addis Ababa.",
+    "Believing the London Conference completed its work, when it was overtaken by the fall of Addis Ababa on May 28, 1991.",
+    "Thinking the EPRDF was a single party, when it was a coalition of several organisations.",
+    "Treating the National Charter as a permanent constitution, when it only functioned as a transitional one.",
+    "Naming Meles Zenawi as the first president of the FDRE; he led the TGE, while Negaso Gidada was the first FDRE president.",
+    "Assuming the OLF stayed in the government, when it withdrew about a year after the TGE was formed.",
+    "Believing the independence referendum applied to all Ethiopians, when it was limited to Eritreans."
+  ],
+  applications: [
+    "Reading a 1991 news report and separating what happened at the London Conference from what happened on the ground in Addis Ababa.",
+    "Debating whether allocating conference seats by the size of each ethnic group is a fair way to organise a national meeting.",
+    "Explaining to a classmate why the EPLF's offer of Assab as a free port mattered to landlocked Ethiopia.",
+    "Locating the areas of the 14 self-governing regions on a map and comparing them with the present regions.",
+    "Comparing the National Charter with a modern constitution and listing the features it did not contain."
+  ],
+  summary: "In 1991 the EPRDF coalition toppled the Derg, and after a United States-sponsored London Conference was overtaken by the occupation of Addis Ababa on May 28, 1991, a national conference met in Addis Ababa in July. Chaired by Meles Zenawi, it accepted an Eritrean referendum, received the offer of Assab as a free port, and reorganised the state on an ethnic federal basis. The National Charter, an 87-member Council of Representatives, a 17-member Council of Ministers and 14 self-governing regions formed the Transitional Government of Ethiopia, which guided the country toward federalism between 1991 and 1995.",
+  visuals: [
+    {
+      type: "timeline",
+      config: {
+        title: "From the London Conference to the Constituent Assembly",
+        events: [
+          { year: "May 1991", text: "United States-sponsored London Conference meets with the government, EPLF, EPRDF and OLF." },
+          { year: "28 May 1991", text: "Insurgents occupy Addis Ababa and talks break down." },
+          { year: "July 1991", text: "National conference in Addis Ababa adopts the National Charter and forms the TGE." },
+          { year: "1992", text: "SEPDM joins the EPRDF coalition." },
+          { year: "March 1993", text: "The TGE expels members of the Southern Ethiopia Peoples' Democratic Coalition." },
+          { year: "June 1994", text: "A 547-member Constituent Assembly is elected and adopts the FDRE constitution." }
+        ]
+      }
+    },
+    {
+      type: "steps",
+      config: {
+        title: "How the TGE Was Formed",
+        steps: [
+          { label: "War ends", detail: "The EPRDF and its allies defeat the Derg and occupy Addis Ababa on May 28, 1991." },
+          { label: "London talks", detail: "A United States-sponsored conference fails to settle a transitional plan." },
+          { label: "National conference", detail: "Delegates meet in Addis Ababa in the first week of July 1991 under Meles Zenawi." },
+          { label: "Charter adopted", detail: "The National Charter serves as a transitional constitution." },
+          { label: "Institutions created", detail: "An 87-member Council of Representatives and 14 self-governing regions are set up." }
+        ]
+      }
+    },
+    {
+      type: "tableVisual",
+      config: {
+        title: "Institutions of the TGE",
+        headers: ["Institution", "Size or feature", "Role"],
+        rows: [
+          ["Council of Representatives", "87 members, 32 political groups", "Transitional legislature; elected Meles Zenawi as president"],
+          ["Council of Ministers", "17 members, ethnically mixed", "Day-to-day executive work; OLF held four posts"],
+          ["National Charter", "One document", "Functioned as a transitional constitution"],
+          ["Self-governing regions", "14 regions", "Basis of the later ethnic federal system"]
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "Which coalition toppled the Derg regime in 1991?", options: ["EPLF", "EPRDF", "OLF", "CUD"], answer: 1, difficulty: 1, explanation: "The EPRDF, a coalition of ethno-nationalist forces dominated by the TPLF, toppled the Derg." },
+    { type: "mcq", q: "The May 1991 London Conference was sponsored by:", options: ["Great Britain", "the United States of America", "the USSR", "France"], answer: 1, difficulty: 1, explanation: "The London Conference was sponsored by the United States of America." },
+    { type: "tf", q: "The London Conference of 1991 failed because the insurgents occupied Addis Ababa on May 28, 1991.", answer: true, difficulty: 2, explanation: "The conference was overtaken by events when the insurgents occupied Addis Ababa on May 28, 1991." },
+    { type: "short", q: "Who chaired the Ethiopian Democratic and Peaceful Transitional Conference of July 1991?", answer: "Meles Zenawi", difficulty: 1, explanation: "Meles Zenawi chaired the July 1991 conference in Addis Ababa." },
+    { type: "mcq", q: "How many members did the Council of Representatives of the TGE have?", options: ["17", "32", "87", "547"], answer: 2, difficulty: 2, explanation: "The new government included an 87-member Council of Representatives." },
+    { type: "concept", q: "Give the name of the document that functioned as the transitional constitution of Ethiopia in 1991.", answer: "National Charter|Transitional Charter", difficulty: 1, explanation: "The National Charter functioned as a transitional constitution." },
+    { type: "mcq", q: "How many self-governing regions were established by the Transitional Charter?", options: ["9", "11", "14", "32"], answer: 2, difficulty: 2, explanation: "The Charter established 14 self-governing regions of nations, nationalities and peoples." },
+    { type: "tf", q: "The OLF remained a member of the government throughout the whole transitional period.", answer: false, difficulty: 2, explanation: "Nearly a year after the formation of the TGE, the OLF withdrew from the government." },
+    { type: "ordering", q: "Arrange these events of the transition in the correct order.", options: ["Elections for the Constituent Assembly", "The London Conference in May 1991", "The occupation of Addis Ababa on May 28, 1991", "The July 1991 national conference adopts the Charter"], answer: 1, difficulty: 3, explanation: "The order is: London Conference, occupation of Addis Ababa, July conference and Charter, then the 1994 Constituent Assembly." },
+    { type: "concept", q: "Explain in one sentence why the years 1991 to 1995 are called a transitional period in Ethiopia.", answer: "temporary institutions led to the 1995 constitution|the Charter was a transitional constitution", difficulty: 3, explanation: "The National Charter and the TGE were temporary arrangements that led to the permanent 1995 constitution." },
+    { type: "mcq", q: "Which country offered Assab for Ethiopia's use as a free port?", options: ["Sudan", "Djibouti", "Eritrea through the EPLF", "Kenya"], answer: 2, difficulty: 3, explanation: "The EPLF offered Assab for the use of Ethiopia as a free port." }
+  ]
+};
 
-Lessons["g10-history-uh8-t2"] = {"overview":"<b>The 1995 Constitution and the Formation of the FDRE</b> sits inside <b>Post-1991 Developments in Ethiopia</b>. Transitional government and federal reform followed 1991 in Ethiopia, the focus of Unit 8 of Grade 10 History in the Ethiopian (FDRE Ministry of Education) curriculum. First, it explains the 1991 Transitional Charter and the Transitional Government of Ethiopia. Then it sets out the 1995 constitution and the Federal Democratic Republic of Ethiopia. Next, it traces the hydro-politics of the Nile (Abay) basin. Also it covers the Grand Ethiopian Renaissance Dam and the Nile agreements. Finally, it looks at development and the challenges of democratization. Students will also learn how federalism applies to real-life situations, such as shared rivers and regional rights today.","objectives":["Describe the 1991 Transitional Charter and the Transitional Government.","Explain the main features of the 1995 FDRE constitution.","Distinguish the nine regional states of the Ethiopian federation.","Trace the hydro-politics of the Nile and the major agreements.","Assess the aims of the Grand Ethiopian Renaissance Dam."],"simple":"<b>The 1995 Constitution and the Formation of the FDRE in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>Then the 1995 constitution and the Federal Democratic Republic of Ethiopia.</li> <li>Nine regional states, two city administrations, and the right to self-determination.</li> <li>Also the House of Peoples’ Representatives and the House of Federation.</li></ul>","detailed":"<p><b>The 1995 Constitution and the Formation of the FDRE — the essentials.</b> Then the 1995 constitution and the Federal Democratic Republic of Ethiopia. Nine regional states, two city administrations, and the right to self-determination. Also the House of Peoples’ Representatives and the House of Federation.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Describe the 1991 Transitional Charter and the Transitional Government.</li><li>Explain the main features of the 1995 FDRE constitution.</li><li>Distinguish the nine regional states of the Ethiopian federation.</li><li>Trace the hydro-politics of the Nile and the major agreements.</li><li>Assess the aims of the Grand Ethiopian Renaissance Dam.</li></ul>","keyTerms":[{"term":"Nine regional states","def":"Nine regional states, two city administrations, and the right to self-determination."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing the 1995 constitution and the formation of the fdre with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Reading the news: events in this topic map onto modern Ethiopian civic debates","Answering the \"give an example\" questions that close every ESSLCE history paper"],"summary":"The 1995 Constitution and the Formation of the FDRE: Then the 1995 constitution and the Federal Democratic Republic of Ethiopia. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"The 1995 Constitution and the Formation of the FDRE\" is correct according to the MoE curriculum?","options":["Then the 1995 constitution and the Federal Democratic Republic of Ethiopia.","The 1995 Constitution and the Formation of the FDRE is not mentioned in the MoE curriculum for this unit","The 1995 Constitution and the Formation of the FDRE happened in a different century than this topic covers","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: Then the 1995 constitution and the Federal Democratic Republic of Ethiopia. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"The 1995 Constitution and the Formation of the FDRE\"?","options":["Nine regional states, two city administrations, and the right to self-determination.","The 1995 Constitution and the Formation of the FDRE was reversed by the very process this topic describes","The 1995 Constitution and the Formation of the FDRE is not mentioned in the MoE curriculum for this unit","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Nine regional states, two city administrations, and the right to self-determination."},{"type":"tf","q":"True or false: Then the 1995 constitution and the Federal Democratic Republic of Ethiopia.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover the 1995 constitution and the formation of the fdre.","answer":false,"difficulty":1,"explanation":"The 1995 Constitution and the Formation of the FDRE is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Describe the 1991 Transitional Charter and the Transitional Government.","difficulty":2,"altAnswers":["Explain the main features of the 1995 FDRE constitution.","Distinguish the nine regional states of the Ethiopian federation."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why the 1995 constitution and the formation of the fdre matters.","answer":"The 1995 Constitution and the Formation of the FDRE is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of the 1995 constitution and the formation of the fdre in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to the 1995 constitution and the formation of the fdre, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
+Lessons["g10-history-uh8-t2"] = {
+  overview: "The 1995 constitution turned Ethiopia into the Federal Democratic Republic of Ethiopia, a federation of nine regional states and two city administrations. This lesson examines its 106 articles, its bill of rights, its two parliamentary houses and the challenges of ethnic federalism.",
+  objectives: [
+    "Describe the structure and main principles of the 1995 FDRE Constitution",
+    "Name the nine regional states and the two city administrations of the federation",
+    "Explain the powers of the House of Peoples' Representatives and the House of Federation",
+    "Explain Article 39 on self-determination and secession",
+    "Assess the challenges that Ethiopian federalism has posed"
+  ],
+  simple: "The 1995 constitution created the Federal Democratic Republic of Ethiopia as a federation of a multi-ethnic nation. It is a compact document of 106 articles in eleven chapters. Its principles include rule of law, self-determination, popular sovereignty, equality, constitutional supremacy, secularism and accountable government. Rights are listed in 31 articles, from Articles 13 to 44, and Article 39 grants nations, nationalities and peoples the right to self-determination and even to secede. Parliament has two houses: the House of Peoples' Representatives, elected every five years, and the House of Federation, which interprets the constitution under Article 62. The federation has nine states plus Addis Ababa and Dire Dawa. Amharic is the federal working language, and the aim is unity in diversity.",
+  detailed: "<p><b>The making of the 1995 constitution.</b> The 1995 constitution established the country as a federation of the multi-ethnic nation and identified nine states as the sub-national entities that constitute the Ethiopian federation. Many commentators describe it as ethnic or ethnical federalism, perhaps because of the ethno-linguistic basis of state formation. It is a compact document with a notable degree of clarity and simplicity, containing 106 articles in eleven chapters.</p><p><b>The basic principles.</b> Principles of rule of law, self-determination, popular or ethnic sovereignty, inter-ethnic and inter-religious equality, and gender equality are high in the list of priorities. The constitution also stipulates constitutional supremacy, respect for fundamental rights and freedoms, secularism, and the accountability and transparency of government as its basic principles.</p><p><b>Human rights and group rights.</b> The principle of the sanctity of human rights and freedoms is elaborated by the incorporation of a host of rights in 31 articles, from Articles 13 to 44. Classical civil liberties as well as economic and socio-cultural rights are recognised, and the rights to peace, development and environment are granted constitutional recognition. Group or collective rights are stressed: the right of ethno-national communities to self-determination, politically, culturally and economically. Such communities may promote their cultures, develop their languages, preserve their identity and history, enjoy a full measure of self-governance, and even secede from the Ethiopian polity under Article 39.</p><p><b>The parliamentary system.</b> The federal constitution established a parliamentary system of government with the House of Peoples' Representatives (HPR) as the supreme political organ in the country. The HPR is a legislature whose members are elected for a term of five years, and it enjoys the decisional, control and representative powers of legislatures elsewhere. The upper house, called the House of Federation (HoF), is a representative body whose members are representatives of each nation, nationality and people. Its main task is constitutional interpretation under Article 62. The constitution also recognised an independent judiciary with the Federal Supreme Court at the top of a three-tier judicial hierarchy, although the ultimate power to interpret the constitution is explicitly given to the HoF.</p><p><b>The nine states and their diversity.</b> The federal constitution makes contemporary Ethiopia a composite of nine states and two city administrations, Addis Ababa and Dire Dawa. The nine states are Tigray, Afar, Amhara, Oromia, Somali, Benishangul-Gumuz, the Southern Nations Nationalities and Peoples' State, Gambella and Harari. Although the states have an ethnic configuration, none of them is homogeneous. The SNNPRS, with around 56 different groups, is so diverse that one is prompted to think of a federation within a federation, while Benishangul-Gumuz and Gambella each contain four to five ethnic groups. Tigray is a composite of the dominant Tigray, the Erob and the Kunama, and the Amhara state includes the Agaw, the Oromo and other minorities.</p><p><b>Size, language and the unity-in-diversity aim.</b> Oromia accounts for one-third of the country's total landmass, whereas Harari is by far the smallest at only 340 square kilometres, which shows the asymmetric nature of the federation. Together the Oromos and Amharas constitute around 70 per cent of the population. Amharic was chosen as the working language at the federal level although all languages are declared equal, and states choose their own working languages: Tigrigna in Tigray, Afaan Oromo in Oromia, Somali in Somali, and Harari, Afaan Oromo and Amharic in Harari, while Afar chose Amharic until its own script developed. The constitutional objective of the federal structure is the creation of unity in diversity.</p><p><b>Challenges of Ethiopian federalism.</b> The major challenges include the threat of secession and internal fragmentation, managing extreme inter-state imbalances, state-building in the economically impoverished and historically underserved states, power-sharing in executive offices, the choice of capital cities at both federal and state level, the quest for more than one working language at the federal level, and the promotion of a uniform human rights standard in the face of an intensely pluralised legal system.</p>",
+  keyTerms: [
+    { term: "Federal Democratic Republic of Ethiopia (FDRE)", def: "The federal state established by the 1995 constitution, made up of nine regional states and two city administrations." },
+    { term: "House of Peoples' Representatives (HPR)", def: "The supreme federal legislature, whose members are elected for a term of five years." },
+    { term: "House of Federation (HoF)", def: "The upper house representing each nation, nationality and people, whose main task is constitutional interpretation under Article 62." },
+    { term: "Article 39", def: "The article granting ethno-national communities self-determination, including the right to secede." },
+    { term: "Ethnic federalism", def: "A federation whose constituent units are formed on an ethno-linguistic basis, as in Ethiopia." },
+    { term: "Constitutional supremacy", def: "The principle that the constitution is the highest law and all other laws and actions must conform to it." },
+    { term: "Secularism", def: "The principle that the state is separate from religion and treats all religions equally." },
+    { term: "Unity in diversity", def: "The stated objective of the federal structure: ethnic groups protect their rights while cooperating as one country." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "Which organ of the FDRE has the final power to interpret the constitution, and why is that arrangement debated?",
+      given: "The Federal Supreme Court heads a three-tier judiciary, but Article 62 gives constitutional interpretation to the House of Federation.",
+      formula: "Concept: in a federal system, the power to interpret the constitution decides who guards the constitutional order.",
+      substitution: "Comparing the judiciary with the HoF shows that the courts decide justiciable cases while the ultimate interpretive power rests with a political body.",
+      calculation: "Because a political organ, not a court, holds the final word, observers question whether judicial independence can fully protect constitutional rights.",
+      answer: "The House of Federation holds that power under Article 62, which is contested because it places final interpretation in a political rather than a judicial body."
+    },
+    {
+      problem: "The 1995 constitution is often called an ethnic federal document. What evidence supports that description?",
+      given: "The nine states were formed on an ethno-linguistic basis and Article 39 grants nations, nationalities and peoples self-determination and secession.",
+      formula: "Concept: a federation is ethnic when territory and group rights are defined by ethnicity and language.",
+      substitution: "The state boundaries, group rights and secession clause all rest on ethno-national identity.",
+      calculation: "Since both the units and the rights are defined ethnically, the description is supported by the constitutional text.",
+      answer: "The ethno-linguistic basis of the states and the group rights of Article 39 support calling it ethnic federalism."
+    },
+    {
+      problem: "Using the composition of the states, judge whether the Ethiopian federation is ethnically homogeneous.",
+      given: "The SNNPRS has around 56 groups, Benishangul-Gumuz and Gambella have four to five each, and Tigray includes the Tigray, Erob and Kunama.",
+      formula: "Concept: homogeneity means a single dominant group throughout a unit; heterogeneity means many groups together.",
+      substitution: "Every named example contains several groups rather than one.",
+      calculation: "Because even the states seen as homogeneous contain minorities, no state is truly homogeneous.",
+      answer: "No. Although the states are ethnically configured, none of them is homogeneous."
+    },
+    {
+      problem: "The federation is described as asymmetric. What does the size of Oromia and Harari show?",
+      given: "Oromia accounts for one-third of the landmass while Harari is only 340 square kilometres.",
+      formula: "Concept: an asymmetric federation has member units of very unequal size and resources.",
+      substitution: "The gap between one-third of the country and 340 square kilometres is enormous.",
+      calculation: "Such a wide gap in size, population and resources shows unequal units and creates the challenge of managing inter-state imbalances.",
+      answer: "It shows a strongly asymmetric federation, which makes inter-state imbalance a major challenge."
+    }
+  ],
+  commonMistakes: [
+    "Confusing the nine regional states of the 1995 constitution with the 14 self-governing regions of the 1991 Charter.",
+    "Naming Harar and Jimma as the two city administrations; they are Addis Ababa and Dire Dawa.",
+    "Saying the FDRE constitution has thirteen chapters, when it has eleven.",
+    "Thinking the House of Federation passes ordinary laws, when its main task is constitutional interpretation.",
+    "Believing the Federal Supreme Court holds the ultimate power to interpret the constitution, which belongs to the HoF.",
+    "Assuming the regional states are ethnically homogeneous, when none of them is.",
+    "Naming Meles Zenawi as the first president of the FDRE instead of Negaso Gidada."
+  ],
+  applications: [
+    "Checking your own region against the textbook list of nine states and naming the working language it chose.",
+    "Debating in class whether Article 39, with its right to secede, strengthens or weakens Ethiopian unity.",
+    "Comparing the powers of the House of Peoples' Representatives and the House of Federation on a chart.",
+    "Collecting examples of ethnic diversity in one region and showing why it is not homogeneous.",
+    "Explaining why Amharic was chosen as the federal working language while all languages are declared equal."
+  ],
+  summary: "The 1995 constitution established the FDRE as a federation of nine regional states and two city administrations, Addis Ababa and Dire Dawa. Its 106 articles in eleven chapters enshrine rule of law, self-determination, equality, constitutional supremacy and secularism, and its 31 articles of rights include Article 39, which grants ethno-national communities self-determination and the right to secede. Parliament consists of the House of Peoples' Representatives, elected every five years, and the House of Federation, which interprets the constitution. The federation is asymmetric in size, and it faces challenges from secession threats and inter-state imbalance to power-sharing and working-language questions.",
+  visuals: [
+    {
+      type: "tableVisual",
+      config: {
+        title: "The Nine Regional States and Their Working Languages",
+        headers: ["State", "Working language chosen"],
+        rows: [
+          ["Tigray", "Tigrigna"],
+          ["Oromia", "Afaan Oromo"],
+          ["Somali", "Somali"],
+          ["Harari", "Harari, Afaan Oromo and Amharic"],
+          ["Afar", "Amharic until Afar script developed"],
+          ["Benishangul-Gumuz, Gambella, SNNPRS", "Amharic, seen as neutral among many groups"],
+          ["Amhara", "Amharic (federal working language)"]
+        ]
+      }
+    },
+    {
+      type: "comparison",
+      config: {
+        title: "House of Peoples' Representatives vs House of Federation",
+        left: { name: "House of Peoples' Representatives", items: ["Supreme political organ", "Members elected for five years", "Legislative, control and representative powers", "Lower house of parliament"] },
+        right: { name: "House of Federation", items: ["Upper house of parliament", "Represents each nation, nationality and people", "Main task is constitutional interpretation", "Acts under Article 62"] }
+      }
+    },
+    {
+      type: "mindMap",
+      config: {
+        title: "Challenges of Ethiopian Federalism",
+        center: "Challenges",
+        branches: [
+          { label: "Unity", items: ["Threat of secession", "Internal fragmentation"] },
+          { label: "Balance", items: ["Extreme inter-state imbalance", "Impoverished states"] },
+          { label: "Power", items: ["Power-sharing in executive offices", "Choice of capital cities"] },
+          { label: "Language", items: ["More than one federal working language"] },
+          { label: "Rights", items: ["Uniform human rights standard", "Pluralised legal system"] }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "How many articles does the 1995 FDRE Constitution contain?", options: ["39", "62", "106", "547"], answer: 2, difficulty: 2, explanation: "It is a document of 106 articles contained in eleven chapters." },
+    { type: "tf", q: "The two city administrations of the FDRE are Addis Ababa and Dire Dawa.", answer: true, difficulty: 1, explanation: "Ethiopia is a composite of nine states and two city administrations, Addis Ababa and Dire Dawa." },
+    { type: "mcq", q: "Which article of the 1995 constitution deals with the right to self-determination and secession?", options: ["Article 13", "Article 39", "Article 44", "Article 62"], answer: 1, difficulty: 2, explanation: "Article 39 grants ethno-national communities self-determination, including the right to secede." },
+    { type: "short", q: "Which house of parliament has constitutional interpretation as its main task?", answer: "House of Federation|HoF", difficulty: 1, explanation: "The main task of the House of Federation is constitutional interpretation under Article 62." },
+    { type: "mcq", q: "The largest regional state of the FDRE, accounting for about one-third of the landmass, is:", options: ["SNNPRS", "Afar", "Oromia", "Amhara"], answer: 2, difficulty: 1, explanation: "Oromia State accounts for one-third of the country's total landmass." },
+    { type: "concept", q: "Give the term used to describe a federation whose constituent units are formed on an ethno-linguistic basis.", answer: "ethnic federalism|ethnical federalism", difficulty: 2, explanation: "Commentators call Ethiopia's arrangement ethnic or ethnical federalism." },
+    { type: "tf", q: "The constitution states that Ethiopia has thirteen chapters.", answer: false, difficulty: 2, explanation: "The constitution has 106 articles in eleven chapters, not thirteen." },
+    { type: "mcq", q: "Which is the smallest regional state by area?", options: ["Gambella", "Harari", "Dire Dawa", "Tigray"], answer: 1, difficulty: 2, explanation: "Harari State is by far the smallest at only 340 square kilometres." },
+    { type: "concept", q: "Name any three of the nine regional states of the FDRE.", answer: "Tigray|Afar|Amhara|Oromia|Somali|Benishangul-Gumuz|SNNPRS|Gambella|Harari", difficulty: 1, explanation: "The nine states are Tigray, Afar, Amhara, Oromia, Somali, Benishangul-Gumuz, SNNPRS, Gambella and Harari." },
+    { type: "mcq", q: "Which statement best describes the ethnic composition of the nine states?", options: ["Each state contains only one ethnic group", "No state is homogeneous", "Only SNNPRS is diverse", "All states have exactly two groups"], answer: 1, difficulty: 3, explanation: "Although the states have an ethnic configuration, none of them is homogeneous." },
+    { type: "concept", q: "Explain in one sentence the constitutional objective of the Ethiopian federal structure.", answer: "unity in diversity|protect ethnic rights and cooperate", difficulty: 3, explanation: "The objective is the creation of unity in diversity, protecting group rights within one cooperating country." }
+  ]
+};
 
-Lessons["g10-history-uh8-t3"] = {"overview":"<b>Hydro-Political History of the Nile (Abay) Basin</b> sits inside <b>Post-1991 Developments in Ethiopia</b>. Transitional government and federal reform followed 1991 in Ethiopia, the focus of Unit 8 of Grade 10 History in the Ethiopian (FDRE Ministry of Education) curriculum. First, it explains the 1991 Transitional Charter and the Transitional Government of Ethiopia. Then it sets out the 1995 constitution and the Federal Democratic Republic of Ethiopia. Next, it traces the hydro-politics of the Nile (Abay) basin. Also it covers the Grand Ethiopian Renaissance Dam and the Nile agreements. Finally, it looks at development and the challenges of democratization. Students will also learn how federalism applies to real-life situations, such as shared rivers and regional rights today.","objectives":["Describe the 1991 Transitional Charter and the Transitional Government.","Explain the main features of the 1995 FDRE constitution.","Distinguish the nine regional states of the Ethiopian federation.","Trace the hydro-politics of the Nile and the major agreements.","Assess the aims of the Grand Ethiopian Renaissance Dam."],"simple":"<b>Hydro-Political History of the Nile (Abay) Basin in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>Next, the Nile, its tributaries, and the eleven riparian countries.</li> <li>The 1929 and 1959 agreements that favoured Egypt and Sudan.</li> <li>Also the Nile Basin Initiative and the Grand Ethiopian Renaissance Dam.</li></ul>","detailed":"<p><b>Hydro-Political History of the Nile (Abay) Basin — the essentials.</b> Next, the Nile, its tributaries, and the eleven riparian countries. The 1929 and 1959 agreements that favoured Egypt and Sudan. Also the Nile Basin Initiative and the Grand Ethiopian Renaissance Dam.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Describe the 1991 Transitional Charter and the Transitional Government.</li><li>Explain the main features of the 1995 FDRE constitution.</li><li>Distinguish the nine regional states of the Ethiopian federation.</li><li>Trace the hydro-politics of the Nile and the major agreements.</li><li>Assess the aims of the Grand Ethiopian Renaissance Dam.</li></ul>","keyTerms":[{"term":"Next","def":"Next, the Nile, its tributaries, and the eleven riparian countries."},{"term":"The 1929 and 1959 agreements that favoured Egypt and Sudan","def":"The 1929 and 1959 agreements that favoured Egypt and Sudan."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing hydro-political history of the nile (abay) basin with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Reading the news: events in this topic map onto modern Ethiopian civic debates","Answering the \"give an example\" questions that close every ESSLCE history paper"],"summary":"Hydro-Political History of the Nile (Abay) Basin: Next, the Nile, its tributaries, and the eleven riparian countries. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"Hydro-Political History of the Nile (Abay) Basin\" is correct according to the MoE curriculum?","options":["Next, the Nile, its tributaries, and the eleven riparian countries.","Hydro-Political History of the Nile (Abay) Basin is not mentioned in the MoE curriculum for this unit","Hydro-Political History of the Nile (Abay) Basin happened in a different century than this topic covers","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: Next, the Nile, its tributaries, and the eleven riparian countries. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"Hydro-Political History of the Nile (Abay) Basin\"?","options":["The 1929 and 1959 agreements that favoured Egypt and Sudan.","Hydro-Political History of the Nile (Abay) Basin was reversed by the very process this topic describes","Hydro-Political History of the Nile (Abay) Basin is not mentioned in the MoE curriculum for this unit","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: The 1929 and 1959 agreements that favoured Egypt and Sudan."},{"type":"tf","q":"True or false: Next, the Nile, its tributaries, and the eleven riparian countries.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover hydro-political history of the nile (abay) basin.","answer":false,"difficulty":1,"explanation":"Hydro-Political History of the Nile (Abay) Basin is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Describe the 1991 Transitional Charter and the Transitional Government.","difficulty":2,"altAnswers":["Explain the main features of the 1995 FDRE constitution.","Distinguish the nine regional states of the Ethiopian federation."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why hydro-political history of the nile (abay) basin matters.","answer":"Hydro-Political History of the Nile (Abay) Basin is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of hydro-political history of the nile (abay) basin in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to hydro-political history of the nile (abay) basin, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
+Lessons["g10-history-uh8-t3"] = {
+  overview: "The Nile, the world's longest river, is fed mainly by the Blue Nile and the Tekeze from the Ethiopian highlands, yet the 1929 and 1959 agreements gave its waters to Egypt and Sudan. This lesson traces the basin's hydro-politics from those agreements to the Nile Basin Initiative and the GERD.",
+  objectives: [
+    "Identify the three major tributaries of the Nile and the Nile riparian states",
+    "Explain the terms of the 1929 and 1959 Nile water agreements",
+    "Describe the Cooperative Framework Agreement and explain its limits",
+    "Explain the purpose of the Nile Basin Initiative of 1999",
+    "Assess why the Grand Ethiopian Renaissance Dam caused a decade-long dispute"
+  ],
+  simple: "The Nile is the world's longest river, flowing about 6825 kilometres south to north. It has three major tributaries: the Blue Nile (Abay) and the Tekeze (Atbara), which rise in Ethiopia, and the White Nile. Eleven countries are riparian states. The Blue Nile starts in Western Gojjam, joins the White Nile at Khartoum, and contributes about 86 per cent of the Nile's annual volume, yet Ethiopia used less than 1 per cent of it until recent times while Egypt used more than all others together. The 1929 Agreement gave Egypt a veto over Nile projects, and the 1959 Agreement gave Egypt 55.5 and Sudan 18.5 billion cubic metres a year, ignoring Ethiopia. The Nile Basin Initiative of 1999 created a forum for dialogue, and the GERD, begun in April 2011, became the focus of dispute.",
+  detailed: "<p><b>The river and its tributaries.</b> The Nile is the world's longest river, flowing south to north for about 6825 kilometres and crossing over 35 degrees of latitude. It traverses countries with climates ranging from mountainous highlands like Ethiopia to barren deserts like Egypt. The Nile has three major tributaries: the Blue Nile (Abay) and the Tekeze (Atbara), which flow from the highlands of Ethiopia, and the White Nile, whose headstreams flow into Lake Victoria. It traverses eleven countries in Africa, namely Burundi, the Democratic Republic of Congo, Egypt, Eritrea, Ethiopia, Kenya, Rwanda, Sudan, Tanzania, Uganda and South Sudan, which are known as the Nile riparian countries.</p><p><b>The Ethiopian tributaries.</b> The Blue Nile originates in the highlands of Western Gojjam from a kebele named Sekela, 100 kilometres south of Lake Tana. From its source to Lake Tana it bears the name Gilgel Abay, meaning smaller Abay, and it is fed by many smaller tributaries; it joins the White Nile in Khartoum and contributes about 86 per cent of the annual volume of water to the Nile. The Tekeze River originates from the Siemen Mountains, north-east of Lake Tana, and flows to Sudan bordering Ethiopia and Eritrea. After entering Sudan around Gallabat it bears the name Atbara and flows to Lekahshim al-Gibran Dam, passing through a valley 290 kilometres north of Khartoum; from January to June its size decreases greatly and it disappears in the deserts of Sudan before reaching the Nile.</p><p><b>Unequal use of the water.</b> From time immemorial until the present, the most extensive user of the Nile water has been Egypt, which has utilised more water than all other riparian states altogether. Better utilisation in Egypt follows from the necessity that life and settled agriculture there depend on the river, so life and farming are completely confined to the Nile valley and its Delta. On the contrary, although Ethiopia contributes about 86 per cent of the water of the Nile and its catchment areas occupy more than 60 per cent of the total area of the country, it utilised less than 1 per cent of the Nile up until recent times.</p><p><b>The 1929 and 1959 agreements.</b> The agreements signed in the twentieth century, both during and after the colonial period, reserved the whole waters of the Nile for the lower riparian countries of Egypt and, to some extent, Sudan. The first important agreement was the 1929 Agreement between Great Britain, on behalf of the Sudan, and Egypt. It gave Egypt the right to veto any project on the Nile that could adversely affect its interests, but it could not have any binding effect since it did not include any of the upper riparian states. Sudan challenged the agreement soon after independence, arguing that it was no longer valid because it had been signed without consulting Sudan and had discriminated against it by granting only 4 billion cubic metres of water. Egypt and Sudan then signed the 1959 Agreement after three consecutive years, from 1956 to 1958, of deadlock and a no-peace no-war relationship along their common boundaries. The 1959 Agreement granted Egypt 55.5 billion cubic metres per annum while Sudan's share increased to 18.5 billion cubic metres, and it was a watershed in the hydro-political history of the Nile valley because it strengthened a monopoly on the waters by Egypt and Sudan, ignoring the natural and legal rights of the other co-basin countries, including Ethiopia.</p><p><b>The Cooperative Framework Agreement.</b> Following the coming of the EPRDF to power, attempts were made to resolve differences in the use of the Nile waters between Ethiopia and Egypt. An agreement known as the Cooperative Framework Agreement (CFA) was signed between the two countries, Ethiopia represented by Meles Zenawi and Egypt by Hosni Mubarak. It was an agreement for general cooperation in the utilisation of the Nile waters corresponding to international law, but it was only a talk to further talk on the Nile water question and can neither be considered a treaty or an agreement nor even a Memorandum of Understanding. It mentioned neither the 1959 Agreement nor the principle of fair and equitable utilisation of the Nile waters that Ethiopia has all along been calling for; instead it mentioned the no harm principle that protects the interests of Egypt. Even then, President Meles Zenawi reiterated that the status quo concerning the Nile cannot be maintained indefinitely.</p><p><b>The Nile Basin Initiative.</b> The most important agreement signed so far is known as the Nile Basin Initiative (NBI). It was a plan signed between the Nile riparian states, represented by their ministers of water development, in Dar es Salaam in Tanzania. For the first time in the basin's history an all-inclusive basin-wide institution was established on 22 February 1999 to provide a forum for consultation and coordination among the basin states for the sustainable management and development of the shared Nile Basin water and related resources for win-win benefits.</p><p><b>The Grand Ethiopian Renaissance Dam.</b> Because the agreements signed so far did not recognise the interests of the upper riparian states, some Nile riparian countries have asserted their development ambitions on the river over the last two decades and pushed for a new agreement to enshrine equitable rights and harmonious use of the water. One such country is Ethiopia, which embarked on the construction of the Grand Ethiopian Renaissance Dam (GERD) in the Benishangul-Gumuz region on the Abay River. Construction started in April 2011 and is a central part of Ethiopia's ambitions for economic prosperity; it is largely self-financed and will have a capacity of 74 billion cubic metres when completed, enough to provide abundant cheap energy for national and regional development. More than half of Ethiopia's 110 million people do not have access to electricity while demand is increasing by 30 per cent annually. The dispute between downstream Egypt and Sudan and upstream Ethiopia escalated when Ethiopia unilaterally commenced construction in 2011, and negotiations stretched over a decade and ended in a political deadlock.</p>",
+  keyTerms: [
+    { term: "Nile riparian states", def: "The eleven countries traversed by the Nile: Burundi, DRC, Egypt, Eritrea, Ethiopia, Kenya, Rwanda, Sudan, Tanzania, Uganda and South Sudan." },
+    { term: "Blue Nile (Abay)", def: "The Ethiopian tributary that rises in Western Gojjam near Sekela, joins the White Nile at Khartoum and contributes about 86 per cent of the Nile's annual volume." },
+    { term: "Tekeze (Atbara)", def: "The Ethiopian tributary that rises in the Siemen Mountains and is called the Atbara after entering Sudan near Gallabat." },
+    { term: "1929 Agreement", def: "The agreement between Great Britain and Egypt that gave Egypt a veto over Nile projects, but which bound no upper riparian state." },
+    { term: "1959 Agreement", def: "The Egypt-Sudan agreement granting Egypt 55.5 and Sudan 18.5 billion cubic metres per annum, ignoring the other riparian states." },
+    { term: "Nile Basin Initiative (NBI)", def: "The all-inclusive basin-wide institution established on 22 February 1999 in Dar es Salaam as a forum for consultation and coordination." },
+    { term: "Grand Ethiopian Renaissance Dam (GERD)", def: "The dam begun in April 2011 on the Abay River in Benishangul-Gumuz, designed to hold 74 billion cubic metres when completed." },
+    { term: "No harm principle", def: "The principle mentioned in the CFA that protects the interests of the downstream state, Egypt, rather than requiring fair and equitable use." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "Why did the 1929 Agreement fail to settle the Nile question, and how did the 1959 Agreement change the position?",
+      given: "The 1929 Agreement was signed by Great Britain and Egypt; the 1959 Agreement was signed by Egypt and Sudan.",
+      formula: "Concept: an agreement is binding on the parties that sign it, and it lacks authority over non-signatories.",
+      substitution: "Since no upper riparian state signed in 1929, the veto it gave Egypt could not bind Ethiopia or Sudan; by 1959 Sudan was a party and obtained 18.5 billion cubic metres.",
+      calculation: "The 1929 arrangement bound only its signatories, while the 1959 deal divided the whole flow between Egypt and Sudan and excluded the other co-basin states.",
+      answer: "The 1929 Agreement was not binding on upper riparian states; the 1959 Agreement replaced it with a monopoly shared by Egypt and Sudan only."
+    },
+    {
+      problem: "Ethiopia contributes about 86 per cent of the Nile's annual flow. What does this fact show about the fairness of the twentieth-century agreements?",
+      given: "Ethiopia's catchment areas occupy more than 60 per cent of the country, yet it used less than 1 per cent of the Nile until recent times.",
+      formula: "Concept: fair and equitable utilisation matches benefits to a state's contribution and needs.",
+      substitution: "Comparing an 86 per cent contribution with less than 1 per cent use exposes a large imbalance.",
+      calculation: "Because Egypt and Sudan divided the whole flow while the main contributor used almost none of it, the agreements were not equitable.",
+      answer: "They were unfair to Ethiopia, which contributed most of the water but was allowed to use almost none of it."
+    },
+    {
+      problem: "The CFA is described as neither a treaty nor an agreement nor a memorandum. What does this tell you about Nile diplomacy?",
+      given: "The CFA mentioned neither the 1959 Agreement nor fair and equitable utilisation, and instead mentioned the no harm principle.",
+      formula: "Concept: the legal form of a document determines how far its promises can be enforced.",
+      substitution: "A document that is only a talk to further talk and that avoids the central disputed principles cannot settle the dispute.",
+      calculation: "Since it avoided both the offending 1959 Agreement and the principle Ethiopia wanted, it left the status quo intact, which is why Meles warned the status quo could not last indefinitely.",
+      answer: "It was a weak, non-binding step that postponed the real question of equitable use rather than settling it."
+    },
+    {
+      problem: "How did the Nile Basin Initiative differ from the earlier agreements?",
+      given: "The NBI was signed by the riparian states through their ministers of water development in Dar es Salaam on 22 February 1999.",
+      formula: "Concept: an all-inclusive institution differs from a bilateral agreement because all affected states take part.",
+      substitution: "The earlier deals involved two lower riparian states, while the NBI brought the basin states together for consultation.",
+      calculation: "Because every basin state participated for the first time, the NBI created a forum for cooperation and win-win benefits rather than imposing an allocation.",
+      answer: "The NBI was the first all-inclusive basin-wide institution, a forum for consultation rather than a water-sharing pact between two states."
+    }
+  ],
+  commonMistakes: [
+    "Treating the Abay as the whole Nile instead of the tributary that joins the White Nile at Khartoum.",
+    "Believing the 1929 Agreement bound Ethiopia, when no upper riparian state signed it.",
+    "Confusing the 1929 Agreement, which gave Egypt a veto, with the 1959 Agreement, which fixed the shares of Egypt and Sudan.",
+    "Thinking Ethiopia uses a large share of the Nile, when it used less than 1 per cent until recent times.",
+    "Calling the CFA a binding treaty, when it was only a talk to further talk.",
+    "Placing the GERD on the White Nile instead of the Blue Nile (Abay) in Benishangul-Gumuz.",
+    "Believing the NBI allocates water, when it is a forum for consultation and coordination."
+  ],
+  applications: [
+    "Tracing the Blue Nile and Tekeze on a map from their sources to Khartoum and the Atbara valley.",
+    "Debating whether the 1959 shares of 55.5 and 18.5 billion cubic metres are still fair today.",
+    "Explaining why the Nile Basin Initiative was an advance over earlier bilateral agreements.",
+    "Discussing how the GERD could supply electricity to households that still lack power in Ethiopia.",
+    "Judging a newspaper claim about the Nile by checking it against the 1929, 1959 and 1999 documents."
+  ],
+  summary: "The Nile, about 6825 kilometres long and shared by eleven riparian states, receives roughly 86 per cent of its water from Ethiopia through the Blue Nile (Abay) and the Tekeze (Atbara), yet Egypt has long used more of it than everyone else combined. The 1929 Agreement gave Egypt a veto but bound no upper riparian state, and the 1959 Agreement reserved 55.5 billion cubic metres for Egypt and 18.5 for Sudan while ignoring Ethiopia. The Cooperative Framework Agreement between Meles Zenawi and Hosni Mubarak was not binding, the Nile Basin Initiative of 22 February 1999 created the first all-inclusive basin forum, and the GERD begun in April 2011 became the centre of a decade-long dispute that ended in deadlock.",
+  visuals: [
+    {
+      type: "timeline",
+      config: {
+        title: "Key Moments in Nile Hydro-Politics",
+        events: [
+          { year: "1929", text: "Agreement between Great Britain and Egypt gives Egypt a veto over Nile projects." },
+          { year: "1959", text: "Egypt and Sudan agree on 55.5 and 18.5 billion cubic metres per annum." },
+          { year: "22 February 1999", text: "The Nile Basin Initiative is established at Dar es Salaam as an all-inclusive forum." },
+          { year: "April 2011", text: "Construction of the GERD begins on the Abay River in Benishangul-Gumuz." },
+          { year: "After 2011", text: "Negotiations between Ethiopia, Sudan and Egypt stretch over a decade into deadlock." }
+        ]
+      }
+    },
+    {
+      type: "comparison",
+      config: {
+        title: "Upper and Lower Riparian Positions",
+        left: { name: "Ethiopia (upper riparian)", items: ["Contributes about 86 per cent of the flow", "Catchment is over 60 per cent of the country", "Used less than 1 per cent until recent times", "Calls for fair and equitable utilisation"] },
+        right: { name: "Egypt (lower riparian)", items: ["Longest and largest user of the water", "Life and farming confined to the valley and Delta", "Protected by the no harm principle", "Held a veto under the 1929 Agreement"] }
+      }
+    },
+    {
+      type: "tableVisual",
+      config: {
+        title: "Nile Water Agreements Compared",
+        headers: ["Document", "Parties", "Main content"],
+        rows: [
+          ["1929 Agreement", "Great Britain for Sudan and Egypt", "Egypt may veto projects that harm its interests"],
+          ["1959 Agreement", "Egypt and Sudan", "Egypt 55.5 and Sudan 18.5 billion cubic metres per year"],
+          ["CFA", "Ethiopia under Meles and Egypt under Mubarak", "General cooperation talk mentioning only the no harm principle"],
+          ["NBI, 1999", "All Nile riparian states", "A basin-wide forum for consultation and win-win benefits"]
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "Approximately how long is the Nile River?", options: ["1,299 km", "3,400 km", "6,825 km", "10,500 km"], answer: 2, difficulty: 1, explanation: "The Nile flows for about 6825 kilometres, the longest river in the world." },
+    { type: "mcq", q: "Which tributary contributes about 86 per cent of the annual volume of the Nile?", options: ["The White Nile", "The Tekeze", "The Blue Nile (Abay)", "The Atbara"], answer: 2, difficulty: 2, explanation: "The Blue Nile contributes about 86 per cent of the annual volume of water to the Nile." },
+    { type: "tf", q: "The Tekeze River is known as the Atbara after it enters Sudan near Gallabat.", answer: true, difficulty: 2, explanation: "After entering Sudan around Gallabat, Tekeze bears the name Atbara." },
+    { type: "short", q: "Where does the Blue Nile join the White Nile?", answer: "Khartoum", difficulty: 1, explanation: "The Blue Nile joins the White Nile in Khartoum." },
+    { type: "mcq", q: "Under the 1959 Agreement, Egypt was granted how much water per annum?", options: ["4 billion cubic metres", "18.5 billion cubic metres", "55.5 billion cubic metres", "74 billion cubic metres"], answer: 2, difficulty: 2, explanation: "The 1959 Agreement granted Egypt 55.5 billion cubic metres per annum." },
+    { type: "concept", q: "Give the name of the all-inclusive basin-wide institution established on 22 February 1999.", answer: "Nile Basin Initiative|NBI", difficulty: 1, explanation: "The Nile Basin Initiative was established on 22 February 1999 at Dar es Salaam." },
+    { type: "tf", q: "The 1929 Agreement had a binding effect on Ethiopia because Ethiopia was a signatory.", answer: false, difficulty: 2, explanation: "The 1929 Agreement did not include any upper riparian state, so it was not binding on Ethiopia." },
+    { type: "mcq", q: "The GERD is being constructed on which river and in which region?", options: ["Tekeze in Tigray", "Abay in Benishangul-Gumuz", "White Nile in Gambella", "Atbara in Amhara"], answer: 1, difficulty: 2, explanation: "Ethiopia started the GERD on the Abay River in the Benishangul-Gumuz region in April 2011." },
+    { type: "concept", q: "Name any four of the eleven Nile riparian states.", answer: "Burundi|DR Congo|Egypt|Eritrea|Ethiopia|Kenya|Rwanda|Sudan|Tanzania|Uganda|South Sudan", difficulty: 2, explanation: "The eleven riparian states are Burundi, DRC, Egypt, Eritrea, Ethiopia, Kenya, Rwanda, Sudan, Tanzania, Uganda and South Sudan." },
+    { type: "ordering", q: "Arrange these Nile events in the correct chronological order.", options: ["Construction of the GERD begins", "The 1929 Agreement is signed", "The Nile Basin Initiative is established", "The 1959 Agreement is signed"], answer: 1, difficulty: 3, explanation: "The order is 1929 Agreement, 1959 Agreement, NBI in 1999, and the GERD from 2011." },
+    { type: "mcq", q: "Why is the Nile Basin Initiative considered different from the earlier agreements?", options: ["It gave Egypt a veto", "It was the first all-inclusive basin-wide institution", "It divided the water between two states", "It cancelled the 1959 Agreement"], answer: 1, difficulty: 3, explanation: "For the first time an all-inclusive basin-wide institution was established for consultation and coordination." }
+  ]
+};
 
-Lessons["g10-history-uh8-t4"] = {"overview":"<b>Development Issues and Challenges of the Democratization Process in Ethiopia</b> sits inside <b>Post-1991 Developments in Ethiopia</b>. Transitional government and federal reform followed 1991 in Ethiopia, the focus of Unit 8 of Grade 10 History in the Ethiopian (FDRE Ministry of Education) curriculum. First, it explains the 1991 Transitional Charter and the Transitional Government of Ethiopia. Then it sets out the 1995 constitution and the Federal Democratic Republic of Ethiopia. Next, it traces the hydro-politics of the Nile (Abay) basin. Also it covers the Grand Ethiopian Renaissance Dam and the Nile agreements. Finally, it looks at development and the challenges of democratization. Students will also learn how federalism applies to real-life situations, such as shared rivers and regional rights today.","objectives":["Describe the 1991 Transitional Charter and the Transitional Government.","Explain the main features of the 1995 FDRE constitution.","Distinguish the nine regional states of the Ethiopian federation.","Trace the hydro-politics of the Nile and the major agreements.","Assess the aims of the Grand Ethiopian Renaissance Dam."],"simple":"<b>Development Issues and Challenges of the Democratization Process in Ethiopia in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>Finally, the free-market shift and the agriculture-led development strategy.</li> <li>Steady economic growth set against continuing poverty and food insecurity.</li> <li>Also the five elections from 1995 to 2015 and the strains of democratization.</li></ul>","detailed":"<p><b>Development Issues and Challenges of the Democratization Process in Ethiopia — the essentials.</b> Finally, the free-market shift and the agriculture-led development strategy. Steady economic growth set against continuing poverty and food insecurity. Also the five elections from 1995 to 2015 and the strains of democratization.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Describe the 1991 Transitional Charter and the Transitional Government.</li><li>Explain the main features of the 1995 FDRE constitution.</li><li>Distinguish the nine regional states of the Ethiopian federation.</li><li>Trace the hydro-politics of the Nile and the major agreements.</li><li>Assess the aims of the Grand Ethiopian Renaissance Dam.</li></ul>","keyTerms":[{"term":"Finally","def":"Finally, the free-market shift and the agriculture-led development strategy."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing development issues and challenges of the democratization process in ethiopia with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Reading the news: events in this topic map onto modern Ethiopian civic debates","Answering the \"give an example\" questions that close every ESSLCE history paper"],"summary":"Development Issues and Challenges of the Democratization Process in Ethiopia: Finally, the free-market shift and the agriculture-led development strategy. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"Development Issues and Challenges of the Democratization Process in Ethiopia\" is correct according to the MoE curriculum?","options":["Finally, the free-market shift and the agriculture-led development strategy.","Development Issues and Challenges of the Democratization Process in Ethiopia is not mentioned in the MoE curriculum for this unit","Development Issues and Challenges of the Democratization Process in Ethiopia happened in a different century than this topic covers","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: Finally, the free-market shift and the agriculture-led development strategy. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"Development Issues and Challenges of the Democratization Process in Ethiopia\"?","options":["Steady economic growth set against continuing poverty and food insecurity.","Development Issues and Challenges of the Democratization Process in Ethiopia was reversed by the very process this topic describes","Development Issues and Challenges of the Democratization Process in Ethiopia is not mentioned in the MoE curriculum for this unit","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Steady economic growth set against continuing poverty and food insecurity."},{"type":"tf","q":"True or false: Finally, the free-market shift and the agriculture-led development strategy.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover development issues and challenges of the democratization process in ethiopia.","answer":false,"difficulty":1,"explanation":"Development Issues and Challenges of the Democratization Process in Ethiopia is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Describe the 1991 Transitional Charter and the Transitional Government.","difficulty":2,"altAnswers":["Explain the main features of the 1995 FDRE constitution.","Distinguish the nine regional states of the Ethiopian federation."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why development issues and challenges of the democratization process in ethiopia matters.","answer":"Development Issues and Challenges of the Democratization Process in Ethiopia is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of development issues and challenges of the democratization process in ethiopia in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to development issues and challenges of the democratization process in ethiopia, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
-
+Lessons["g10-history-uh8-t4"] = {
+  overview: "After 1992 the Transitional Government adopted a free-market economy and an agriculture-led industrialisation strategy, and growth rose sharply, yet poverty and contested elections strained democratization. This lesson examines economic reform and the political challenges of the FDRE era.",
+  objectives: [
+    "Describe the economic reforms adopted by the TGE after 1992",
+    "Explain the Agricultural-led Development of Industrialization strategy",
+    "Interpret Ethiopia's growth rates from 1981 to 2015",
+    "Identify the development problems that persisted despite growth",
+    "Analyse the challenges of democratization from 1995 to 2015"
+  ],
+  simple: "Despite its proud history and vast resources, Ethiopia remains one of the poorest countries in the world. In 1992, immediately after assuming power, the Transitional Government adopted a free-market economic model, a clear departure from the socialist model of the previous regime. It introduced the Agricultural-led Development of Industrialization strategy, hoping that higher farm productivity would create the demand that industrial growth needs. Growth rose from 0.5 per cent a year in 1981 to 1991, to 5.1 per cent in 1992 to 2004, and to about 10.9 per cent in 2005 to 2015, and the road network grew from 18,000 to over 120,000 kilometres. Yet about 25 million people still live below the poverty line and millions depend on food aid. Five elections between 1995 and 2015 were marred by boycotts, violence and imprisoned opposition leaders.",
+  detailed: "<p><b>A change of economic direction.</b> Despite its proud history and vast natural resources, Ethiopia remains one of the poorest countries in the world. In 1992, immediately after assuming power, the new Transitional Government of Ethiopia adopted a free-market economic model as the guiding principle, a clear departure from the socialist economic model pursued under the previous regime for over a decade.</p><p><b>The ALDI strategy.</b> Several reform measures were introduced that aimed to improve the conditions of the war-ravaged economy. Among them, the Agricultural-led Development of Industrialization (ALDI) strategy was adopted to try to industrialise the predominantly agrarian economy of the country. The rationale was that by improving the productivity of the agricultural sector, transformation to an industrialised economy could be achieved. The reasoning was that inducing a surplus in the agricultural sector would stimulate consumerism and create the foundational demand for industrial growth.</p><p><b>Growth and infrastructure.</b> The country's economy grew steadily from a baseline of 0.5 per cent per annum from 1981 to 1991, to 5.1 per cent per annum from 1992 to 2004, and to impressive levels of around 10.9 per cent per annum from 2005 to 2015. These growth rates are some of the fastest in the world for a non-oil-producing country. Ethiopia also made significant improvements to its internal infrastructure and in its ability to attract foreign investment. Two good examples are the expansion of the nation's road network and the construction of the Grand Ethiopian Renaissance Dam. The road network grew from 18,000 kilometres in 1991 to over 120,000 kilometres, a significant increase over 25 years.</p><p><b>Development problems that remained.</b> Despite the steady growth of the 1990s, the rapid sustained growth between 2004-05 and 2015, and a concurrent improvement in socio-economic conditions, the country remains one of the poorest in the world. About 25 million people, around a quarter of the population, still live below the poverty line, on less than 1.25 dollars. Every year, before and after the economic boom of 2005, between 5 and 18 million Ethiopians have had to depend on food aid, and levels of food insecurity massively increased in 2015 when one of the country's worst droughts occurred. Moreover, the infrastructure development and economic growth registered are characterised by a lack of fair distribution among the regional states and the concentration of wealth among the few rich.</p><p><b>A contested constitution.</b> The FDRE constitution itself is still contested for its content and how it came about. It is seen more as a formalisation of the EPRDF's political program than the supposed document of supreme importance that would mark a fresh political start based on lofty ideals. The period from the promulgation of the constitution to the present day has unfortunately been marred by recurrent political upheavals, particularly in the aftermath of certain political events such as elections.</p><p><b>Rights and freedoms curtailed.</b> The constitution, supposed to protect the rights of citizens, was grossly violated by the government. There were outbreaks of ethnic-based clashes in different parts of the country instigated by groups affiliated with the governing bodies, together with the imprisonment of leaders of the opposition and human rights activists. Though there was some attempt to allow a degree of freedom of expression, it was severely curtailed.</p><p><b>The five elections and the 2005 turning point.</b> The path of the five regional and national elections held in 1995, 2000, 2005, 2010 and 2015 reveals the country's uncomfortable political road. The ruling party, though it expressly declared its commitment to the establishment of multi-party democracy, prevented the appearance or existence of a strong opposition party, and those who survived were targets of harassment at election times. As a result, the first two elections were largely boycotted by the opposition, thereby undermining the legitimacy of the political process and of the EPRDF as a ruling party, and the EPRDF won them without facing many serious challenges. In the third election of 2005 the opposition forces regrouped and seriously participated. The initial optimism, which most observers saw as a genuine multiparty exercise, was soon replaced by disappointment as the ruling EPRDF and the major opposition alliances, the Coalition for Unity and Democracy (CUD) and the Union of Ethiopian Democratic Forces (UEDF), declared themselves the winners before all the votes had even been counted. The opposition did make significant gains in the country's urban areas and some regions, namely Oromia, Amhara and the Southern Nations and Nationalities, winning up to 173 out of the 547 seats. In the capital, Addis Ababa, the opposition won all the federal parliamentary seats as well as those of the city administration council. The controversy sparked violent protests that claimed the lives of more than 200 protesters. Members of the CUD coalition refused to take up their seats in parliament, and consequently its leaders ended up in jail, while journalists and some civil society leaders were imprisoned alongside the CUD leaders.</p>",
+  keyTerms: [
+    { term: "Free-market economy", def: "An economic model guided by market forces and private enterprise, adopted by the TGE in 1992 in place of the socialist model." },
+    { term: "Agricultural-led Development of Industrialization (ALDI)", def: "The strategy of raising farm productivity so that agricultural surplus creates demand and funds the growth of industry." },
+    { term: "Poverty line", def: "The income level below which a person is counted as poor; in the textbook it is living on less than 1.25 dollars a day." },
+    { term: "Food insecurity", def: "The condition in which people cannot reliably obtain enough food, which worsened in the drought of 2015." },
+    { term: "Multi-party democracy", def: "A political system in which more than one party competes openly for power, which the ruling party declared it supported." },
+    { term: "CUD", def: "The Coalition for Unity and Democracy, one of the major opposition alliances in the 2005 election." },
+    { term: "UEDF", def: "The Union of Ethiopian Democratic Forces, the other major opposition alliance that contested the 2005 election." },
+    { term: "Legitimacy", def: "The accepted right of a government or process to rule, which the textbook says was undermined by opposition boycotts." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "Explain the economic logic of the ALDI strategy using the idea of demand.",
+      given: "Ethiopia's economy was predominantly agrarian and war-ravaged when the TGE took power in 1992.",
+      formula: "Concept: in agriculture-led industrialisation, farm surplus creates the demand that industry needs to grow.",
+      substitution: "If farmers become more productive they earn more and buy more goods, and the state can invest the surplus.",
+      calculation: "Higher farm productivity therefore stimulates consumerism, which creates the foundational demand for industrial growth and moves the economy from agrarian to industrial.",
+      answer: "ALDI aims to industrialise by first raising farm productivity, which produces the surplus and demand that industry requires."
+    },
+    {
+      problem: "Ethiopia grew at about 10.9 per cent a year from 2005 to 2015 yet remains one of the poorest countries. How can both be true?",
+      given: "About 25 million people live below the poverty line, between 5 and 18 million depend on food aid, and growth was concentrated among the few rich.",
+      formula: "Concept: growth is the change in total output, whereas development also requires fair distribution and basic welfare.",
+      substitution: "Rapid growth in total output can coexist with poverty when the benefits are unevenly shared across regions and people.",
+      calculation: "Because the growth lacked fair distribution among regional states and was concentrated among the few rich, high rates did not remove mass poverty.",
+      answer: "Both are true because growth measured in totals is not the same as development shared fairly among all citizens."
+    },
+    {
+      problem: "Using the 2005 election, explain how an election can both advance and damage democratization.",
+      given: "The opposition won up to 173 of 547 seats and all Addis Ababa federal seats, but protests killed more than 200 people and CUD leaders were jailed.",
+      formula: "Concept: elections advance democracy when competition and participation are genuine, and damage it when results are rejected or repressed.",
+      substitution: "The gains showed real competition, while the violence and imprisonments showed the limits of that competition.",
+      calculation: "The election advanced pluralism by giving the opposition real seats, but the dispute, deaths and detentions undermined the legitimacy of the process.",
+      answer: "The 2005 election showed both sides: genuine opposition gains, and repression that set democratization back."
+    },
+    {
+      problem: "Why does the textbook say the FDRE constitution is still contested?",
+      given: "It is seen more as a formalisation of the EPRDF's political program than a fresh start, and the period after its promulgation was marred by political upheaval after elections.",
+      formula: "Concept: a constitution is legitimate when it is widely accepted as the supreme law made by and for all.",
+      substitution: "If one party's program is seen in the document and rights are violated, the wider acceptance it needs is weakened.",
+      calculation: "Because its content and origin are disputed and the rights it guarantees were grossly violated, the constitution continues to be contested.",
+      answer: "It is contested because its content and origin are disputed and the rights it promised were repeatedly violated after 1995."
+    }
+  ],
+  commonMistakes: [
+    "Thinking the TGE kept the socialist economy, when it adopted a free-market model in 1992.",
+    "Believing ALDI began with industry, when it began by raising agricultural productivity.",
+    "Confusing the growth rate of 5.1 per cent in 1992 to 2004 with the 10.9 per cent of 2005 to 2015.",
+    "Assuming rapid growth ended poverty, when about 25 million people still lived below the poverty line.",
+    "Thinking the 2005 election was fully won by the opposition, when it won up to 173 of 547 seats.",
+    "Forgetting that the first two elections were largely boycotted by the opposition.",
+    "Treating food aid as a thing of the past, when 5 to 18 million people depended on it every year."
+  ],
+  applications: [
+    "Comparing the growth rates of 1981 to 1991, 1992 to 2004 and 2005 to 2015 in a simple table.",
+    "Debating whether the road network growth from 18,000 to over 120,000 kilometres changed life in your area.",
+    "Discussing how to share development fairly among regional states.",
+    "Analysing a news report on the 2005 election and identifying the claims of each side.",
+    "Explaining why free and peaceful elections matter for the legitimacy of a government."
+  ],
+  summary: "After taking power in 1992 the Transitional Government abandoned the socialist model and adopted a free-market economy guided by the Agricultural-led Development of Industrialization strategy. Growth climbed from 0.5 per cent a year in 1981 to 1991, to 5.1 per cent in 1992 to 2004 and around 10.9 per cent in 2005 to 2015, and the road network grew from 18,000 to over 120,000 kilometres, yet about 25 million people stayed below the poverty line and millions depended on food aid. The FDRE constitution remained contested, and the five elections of 1995, 2000, 2005, 2010 and 2015 were marked by boycotts, harassment, violence in 2005 in which more than 200 protesters died, and the imprisonment of opposition and civil society leaders.",
+  visuals: [
+    {
+      type: "tableVisual",
+      config: {
+        title: "Ethiopia's Growth Rates by Period",
+        headers: ["Period", "Annual growth", "Note"],
+        rows: [
+          ["1981 to 1991", "0.5 per cent", "Baseline under the previous regime"],
+          ["1992 to 2004", "5.1 per cent", "Free-market reforms and ALDI adopted"],
+          ["2005 to 2015", "about 10.9 per cent", "Among the fastest rates for a non-oil-producing country"]
+        ]
+      }
+    },
+    {
+      type: "timeline",
+      config: {
+        title: "Five Elections and the Democratization Record",
+        events: [
+          { year: "1995", text: "First election; largely boycotted by the opposition." },
+          { year: "2000", text: "Second election; the EPRDF wins without serious challenge." },
+          { year: "2005", text: "Third election; the opposition wins up to 173 of 547 seats, protests kill more than 200, CUD leaders are jailed." },
+          { year: "2010", text: "Fourth election; harassment of opponents continues." },
+          { year: "2015", text: "Fifth election; a severe drought also raises food insecurity." }
+        ]
+      }
+    },
+    {
+      type: "comparison",
+      config: {
+        title: "Economic Growth vs Social Reality",
+        left: { name: "Growth achieved", items: ["5.1 per cent a year in 1992 to 2004", "About 10.9 per cent a year in 2005 to 2015", "Roads from 18,000 to over 120,000 km", "GERD begun in 2011 with foreign investment"] },
+        right: { name: "Problems remaining", items: ["25 million people below the poverty line", "5 to 18 million on food aid yearly", "Food insecurity worsened in the 2015 drought", "Wealth concentrated among the few rich"] }
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "What economic model did the TGE adopt in 1992?", options: ["A socialist command economy", "A free-market economic model", "A subsistence barter economy", "A colonial trading system"], answer: 1, difficulty: 1, explanation: "In 1992 the TGE adopted a free-market economic model, departing from the previous socialist model." },
+    { type: "mcq", q: "The ALDI strategy aimed to industrialise Ethiopia by first:", options: ["building heavy industry", "raising agricultural productivity", "increasing imports", "raising taxes on farmers"], answer: 1, difficulty: 2, explanation: "ALDI sought to improve agricultural productivity so that surplus would stimulate consumerism and create demand for industry." },
+    { type: "tf", q: "Ethiopia's economy grew by around 10.9 per cent per annum from 2005 to 2015.", answer: true, difficulty: 2, explanation: "Growth reached about 10.9 per cent per annum from 2005 to 2015, among the fastest for a non-oil-producing country." },
+    { type: "short", q: "By how much did Ethiopia's road network grow between 1991 and recent times?", answer: "18,000 km to over 120,000 km|from 18000 to over 120000", difficulty: 1, explanation: "The road network grew from 18,000 km in 1991 to over 120,000 km." },
+    { type: "tf", q: "Rapid economic growth meant that poverty was completely eliminated in Ethiopia.", answer: false, difficulty: 2, explanation: "About 25 million people, around a quarter of the population, still lived below the poverty line." },
+    { type: "concept", q: "Name the region and river associated with the major infrastructure project mentioned alongside road expansion.", answer: "GERD on the Abay in Benishangul-Gumuz|Grand Ethiopian Renaissance Dam", difficulty: 2, explanation: "The textbook names the GERD, built on the Abay in Benishangul-Gumuz, as an example of infrastructure development." },
+    { type: "mcq", q: "Which two major opposition alliances took part in the 2005 election?", options: ["EPRDF and TPLF", "CUD and UEDF", "OLF and EPLF", "SEPDM and OPDO"], answer: 1, difficulty: 2, explanation: "The major opposition alliances were the Coalition for Unity and Democracy and the Union of Ethiopian Democratic Forces." },
+    { type: "mcq", q: "In the 2005 election the opposition won up to how many of the 547 seats?", options: ["32", "87", "173", "547"], answer: 2, difficulty: 2, explanation: "The opposition won up to 173 out of the 547 seats of the House of Peoples' Representatives." },
+    { type: "ordering", q: "Arrange these elections in the correct chronological order.", options: ["The 2010 election", "The 1995 election", "The 2005 election", "The 2000 election"], answer: 1, difficulty: 2, explanation: "The order is 1995, 2000, 2005 and 2010." },
+    { type: "tf", q: "Following the 2005 election, the opposition parties won all the federal parliamentary seats in Addis Ababa.", answer: true, difficulty: 3, explanation: "In the capital the opposition won all the federal parliamentary seats and those of the city administration council." },
+    { type: "concept", q: "Explain in one sentence why the first two elections weakened the legitimacy of the political process.", answer: "opposition boycott|largely boycotted by the opposition", difficulty: 3, explanation: "The first two elections were largely boycotted by the opposition, which undermined the legitimacy of the process and of the ruling party." }
+  ]
+};

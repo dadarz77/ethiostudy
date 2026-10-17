@@ -1,12 +1,475 @@
-/* Content: g10-history-uh9 — migrated from generated JSON (Phase 0 pipeline restore).
-   Content upgrade to spec v2 happens per unit in later phases. */
+/* Content: Grade 10 History - Unit 9: Indigenous Knowledge and Heritages of Ethiopia (4 topics)
+   Source: MoE History Grade 10 Student Textbook, Unit 9. */
 window.Lessons = window.Lessons || {};
 
-Lessons["g10-history-uh9-t1"] = {"overview":"<b>Indigenous Knowledge</b> sits inside <b>Indigenous Knowledge and Heritages of Ethiopia</b>. Indigenous knowledge and heritage define this final unit of Grade 10 History in the Ethiopian (FDRE Ministry of Education) curriculum. First, it explains indigenous knowledge, its role in development, and its main features. Then it presents indigenous conflict resolution, from the Afar Mada’a and Dagu to the Oromo Jaarsummaa. Next, it covers the Siinqee, the Gumaa, the Amhara Shimgelina, and the Sidama Luwa. Also it explains the meaning and values of heritage. Finally, it lists Ethiopia’s natural, tangible, and intangible heritages. Students will also learn how indigenous knowledge applies to real-life situations, such as justice and unity in communities today.","objectives":["Explain indigenous knowledge and its role in development.","Describe the main features of indigenous knowledge.","Compare the indigenous conflict resolution systems of Ethiopia.","Distinguish tangible from intangible heritage.","Evaluate the effectiveness of indigenous conflict resolution."],"simple":"<b>Indigenous Knowledge in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, indigenous knowledge as local wisdom passed down by oral tradition.</li> <li>Its role in agriculture, health, food security, and resource management.</li> <li>Also its features: simple, practical, and rooted in local language and culture.</li></ul>","detailed":"<p><b>Indigenous Knowledge — the essentials.</b> First, indigenous knowledge as local wisdom passed down by oral tradition. Its role in agriculture, health, food security, and resource management. Also its features: simple, practical, and rooted in local language and culture.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Explain indigenous knowledge and its role in development.</li><li>Describe the main features of indigenous knowledge.</li><li>Compare the indigenous conflict resolution systems of Ethiopia.</li><li>Distinguish tangible from intangible heritage.</li><li>Evaluate the effectiveness of indigenous conflict resolution.</li></ul>","keyTerms":[{"term":"First","def":"First, indigenous knowledge as local wisdom passed down by oral tradition."},{"term":"Its role in agriculture","def":"Its role in agriculture, health, food security, and resource management."},{"term":"Also its features: simple","def":"Also its features: simple, practical, and rooted in local language and culture."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing indigenous knowledge with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Reading the news: events in this topic map onto modern Ethiopian civic debates","Answering the \"give an example\" questions that close every ESSLCE history paper"],"summary":"Indigenous Knowledge: First, indigenous knowledge as local wisdom passed down by oral tradition. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"Indigenous Knowledge\" is correct according to the MoE curriculum?","options":["First, indigenous knowledge as local wisdom passed down by oral tradition.","Indigenous Knowledge is not mentioned in the MoE curriculum for this unit","Indigenous Knowledge happened in a different century than this topic covers","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, indigenous knowledge as local wisdom passed down by oral tradition. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"Indigenous Knowledge\"?","options":["Its role in agriculture, health, food security, and resource management.","Indigenous Knowledge was reversed by the very process this topic describes","Indigenous Knowledge is not mentioned in the MoE curriculum for this unit","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Its role in agriculture, health, food security, and resource management."},{"type":"tf","q":"True or false: First, indigenous knowledge as local wisdom passed down by oral tradition.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover indigenous knowledge.","answer":false,"difficulty":1,"explanation":"Indigenous Knowledge is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Explain indigenous knowledge and its role in development.","difficulty":2,"altAnswers":["Describe the main features of indigenous knowledge.","Compare the indigenous conflict resolution systems of Ethiopia."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why indigenous knowledge matters.","answer":"Indigenous Knowledge is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of indigenous knowledge in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to indigenous knowledge, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
+Lessons["g10-history-uh9-t1"] = {
+  overview: "Indigenous knowledge is the local knowledge that Ethiopian communities have used for generations to earn a living and to organise their social, economic and spiritual lives. This lesson defines it, lists the forms it takes, and explains its characteristics and its role in the country's development.",
+  objectives: [
+    "Define indigenous knowledge and explain why it is called local knowledge",
+    "List the main forms in which indigenous knowledge appears",
+    "Explain the characteristics of indigenous knowledge",
+    "Assess the role of indigenous knowledge in overall development",
+    "Give concrete examples of indigenous knowledge from Ethiopian communities"
+  ],
+  simple: "Indigenous knowledge is the knowledge that helps a society decide which activities fit its way of life. It is the knowledge local people use to earn a living in their own setting, so it is often called local knowledge. It is passed from generation to generation by oral tradition and by practice. Indigenous knowledge shapes people's worldviews and guides their social, economic, political and spiritual survival. It appears as indigenous laws and rituals, local systems for classifying plants, animals, soils, water, air and weather, local counting and measuring methods, farming and crop systems, indigenous medicine and pest management. It is simple, practical and expressed in local languages. It gives local solutions, conserves resources and forms a basic and rich ground for modern development.",
+  detailed: "<p><b>What indigenous knowledge is.</b> Indigenous knowledge is the knowledge that assists society in making judgments regarding activities that are compatible with their way of life. It is the knowledge that locals utilise to earn a living in a certain setting, and it is often known as local knowledge. It is what indigenous people have passed down from generation to generation through oral tradition and practice. It shapes people's worldviews and gives guidance for their social, economic, political and spiritual survival.</p><p><b>The forms it takes.</b> Indigenous knowledge can take many forms. These include indigenous laws and rituals; local classification and quantification systems for plants, animals, soils, water, air and weather; indigenous methods of counting and quantifying; and learning systems such as indigenous educational methods, indigenous agricultural farming and crop systems, indigenous medicine and pest management systems.</p><p><b>Its role in overall development.</b> Indigenous knowledge provides problem-solving strategies for local communities and represents an important component of global knowledge on development issues. Learning from it improves understanding of local conditions, because indigenous people can provide valuable input about the local environment and how to manage natural resources effectively. Indigenous knowledge systems and technologies have been proven to be socially desired, economically viable and sustainable, posing little danger to rural farmers and producers and, most importantly, conserving resources. Learning from indigenous knowledge improves understanding of agriculture, healthcare, food security, education and natural resource management, and preserving it contributes to cultural and political self-reliance.</p><p><b>Simple and practical.</b> Indigenous knowledge is simple and practical. It links the survival of every human being to the wholeness of nature and its elements that support life. It provides the concrete situations of communities regarding the environment and offers practical solutions to the problems of the people. It deals with simple but applied education, economics, politics, religion, sciences and technologies of indigenous societies, and it provides a basic and rich ground for the development of modern society.</p><p><b>Developed over a long period.</b> Indigenous knowledge developed over a long period. Its patterns are based upon local knowledge systems, and it is expressed in local languages. In many cases this knowledge has been passed from generation to generation orally, and some forms of it are expressed through stories, legends, folklore, rituals, songs and even laws.</p><p><b>Why it matters today.</b> Some people wrongly believe that only modern science counts as real knowledge. The textbook argues the opposite: indigenous knowledge is part of global knowledge on development, it conserves resources, and it is socially desired, economically viable and sustainable. Ethiopia's own development therefore depends partly on learning from, recording and preserving the knowledge of its farmers, healers and elders alongside modern science.</p>",
+  keyTerms: [
+    { term: "Indigenous knowledge", def: "The knowledge that assists society in making judgments about activities compatible with its way of life and that locals utilise to earn a living in a certain setting; also called local knowledge." },
+    { term: "Local knowledge", def: "Another name for indigenous knowledge, because it is generated and used by people in a particular locality and culture." },
+    { term: "Oral tradition", def: "The passing of knowledge, laws and stories from generation to generation by word of mouth and by practice rather than in writing." },
+    { term: "Indigenous medicine", def: "Local knowledge and practice that a community uses in healing; it is listed among the forms of indigenous knowledge." },
+    { term: "Pest management system", def: "An indigenous crop-protection practice named in the textbook among the forms of indigenous knowledge." },
+    { term: "Ritual", def: "A prescribed set of symbolic actions performed on religious or social occasions; one of the forms through which indigenous knowledge is expressed." },
+    { term: "Sustainable", def: "Able to continue over time without destroying the resources it depends on; the textbook says indigenous knowledge systems are socially desired, economically viable and sustainable." },
+    { term: "Worldview", def: "The overall way a people understand the world and their place in it; indigenous knowledge shapes people's worldviews." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "Using the textbook definition, explain why indigenous knowledge is called local knowledge and how it is transmitted.",
+      given: "Indigenous knowledge is the knowledge that assists society in making judgments about activities compatible with its way of life; it is the knowledge locals utilise to earn a living in a certain setting; it is passed down through oral tradition and practice.",
+      formula: "Historical framework: definition and transmission of indigenous knowledge.",
+      substitution: "The knowledge is tied to one particular place and people, and it is handed down by word of mouth and by practice rather than in written textbooks.",
+      calculation: "Because locals use it to live in a certain setting it is local knowledge; because it is handed down by speech and practice it travels through oral tradition.",
+      answer: "It is called local knowledge because locals use it in a particular setting, and it is transmitted from generation to generation through oral tradition and practice."
+    },
+    {
+      problem: "Identify the role of indigenous knowledge in the development of Ethiopian agriculture.",
+      given: "Indigenous knowledge systems and technologies are socially desired, economically viable and sustainable; they pose little danger to rural farmers and conserve resources; learning from them improves agriculture, healthcare, food security, education and natural resource management.",
+      formula: "Historical framework: the role of indigenous knowledge for overall development.",
+      substitution: "In farming this means local crop systems, local classification of soils, water and weather, and indigenous pest management.",
+      calculation: "These practices raise production while conserving resources and carrying little danger for farmers, so they support development that lasts.",
+      answer: "Indigenous knowledge supplies locally proven, low-risk, resource-conserving practices that improve farm production and food security."
+    },
+    {
+      problem: "A student claims that indigenous knowledge is unscientific and useless. Evaluate this claim using the textbook characteristics.",
+      given: "Characteristics: indigenous knowledge is simple and practical; it deals with applied education, economics, politics, religion, sciences and technologies of indigenous societies; it developed over a long period and is expressed through stories, legends, folklore, rituals, songs and laws.",
+      formula: "Historical framework: characteristics of indigenous knowledge.",
+      substitution: "Practical farming, healing, counting and weather methods are applied science and technology built up over a long period.",
+      calculation: "Since the knowledge is practical, applied and long-tested, the claim that it is useless contradicts the textbook; what it lacks is written form, not usefulness.",
+      answer: "The claim is false: indigenous knowledge is simple, practical and long-tested, and it provides basic and rich ground for modern development."
+    }
+  ],
+  commonMistakes: [
+    "Thinking indigenous knowledge is the same thing as superstition or ignorance.",
+    "Believing that only written, modern science counts as real knowledge.",
+    "Assuming indigenous knowledge belongs only to the past and has no role in development today.",
+    "Treating all indigenous knowledge as identical in every Ethiopian community.",
+    "Forgetting that indigenous knowledge is transmitted mainly by oral tradition and practice, not in books.",
+    "Ignoring the fact that indigenous technologies are sustainable and conserve natural resources."
+  ],
+  applications: [
+    "Recording the farming, weather and pest-control knowledge of elders in your kebele before it is lost.",
+    "Using local soil and water classification to plan a school garden or tree-planting project.",
+    "Asking traditional healers and health workers to explain the same illness so that both kinds of knowledge are understood.",
+    "Preserving local proverbs, songs and stories that carry community knowledge.",
+    "Combining indigenous crop systems with modern advice on a family farm.",
+    "Documenting the counting and measuring systems used in a local market."
+  ],
+  summary: "Indigenous knowledge, also called local knowledge, is the knowledge a society uses to judge which activities fit its way of life and to earn a living in its own setting. It is passed from generation to generation through oral tradition and practice, and it appears in laws, rituals, local classification and counting systems, farming, medicine and pest management. It is simple, practical, long-tested and expressed in local languages, and it supports overall development in agriculture, health, food security, education and natural resource management.",
+  visuals: [
+    {
+      type: "mindMap",
+      config: {
+        title: "Forms of Indigenous Knowledge",
+        center: "Indigenous Knowledge",
+        branches: [
+          { label: "Laws and rituals", items: ["Indigenous laws", "Rituals and ceremonies"] },
+          { label: "Local classification", items: ["Plants and animals", "Soils, water, air, weather"] },
+          { label: "Counting", items: ["Methods of counting", "Methods of quantifying"] },
+          { label: "Learning systems", items: ["Education", "Farming and crops", "Medicine and pest control"] }
+        ]
+      }
+    },
+    {
+      type: "steps",
+      config: {
+        title: "From Local Knowledge to Development",
+        steps: [
+          { label: "Notice the local problem", detail: "Identify the real problem of the community and its environment." },
+          { label: "Apply local knowledge", detail: "Use the knowledge locals utilise to earn a living in that setting." },
+          { label: "Test and adapt", detail: "Practise, share and improve the method over a long period." },
+          { label: "Conserve resources", detail: "Keep the practice sustainable so that resources are not destroyed." },
+          { label: "Pass it on", detail: "Transmit it to the next generation through oral tradition and practice." }
+        ]
+      }
+    },
+    {
+      type: "comparison",
+      config: {
+        title: "Indigenous Knowledge and Modern Science",
+        left: { name: "Indigenous knowledge", items: ["Developed over a long period", "Expressed in local languages", "Passed on orally and by practice", "Simple, practical and applied"] },
+        right: { name: "Modern science", items: ["Developed through formal research", "Expressed in universal languages", "Written and taught in schools", "Technical and specialised"] }
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "Indigenous knowledge is often known as:", options: ["modern science", "local knowledge", "world knowledge", "written knowledge"], answer: 1, difficulty: 1, explanation: "The textbook states that indigenous knowledge is often known as local knowledge." },
+    { type: "mcq", q: "Which of the following is NOT correct about indigenous knowledge?", options: ["It is transmitted orally from generation to generation", "It provides problem-solving strategies for local communities", "It is generated within a community in location and culture", "It is expressed in universal languages"], answer: 3, difficulty: 2, explanation: "Indigenous knowledge is expressed in local languages, not in universal languages." },
+    { type: "tf", q: "Indigenous knowledge is simple and practical.", answer: true, difficulty: 1, explanation: "The textbook begins its account of the characteristics by saying that indigenous knowledge is simple and practical." },
+    { type: "short", q: "Give the other term that is often used for indigenous knowledge.", answer: "local knowledge", difficulty: 1, explanation: "Indigenous knowledge is often known as local knowledge." },
+    { type: "concept", q: "Give the term for the knowledge that assists society in making judgments about activities compatible with its way of life.", answer: "indigenous knowledge|local knowledge", difficulty: 2, explanation: "That is the textbook definition of indigenous knowledge." },
+    { type: "mcq", q: "Indigenous knowledge provides a basic and rich ground for the development of:", options: ["modern society", "only rural areas", "foreign countries", "written law"], answer: 0, difficulty: 2, explanation: "It provides basic and rich ground for the development of modern society." },
+    { type: "tf", q: "Indigenous knowledge systems and technologies are socially desired, economically viable and sustainable.", answer: true, difficulty: 2, explanation: "The textbook says they have been proven to be socially desired, economically viable and sustainable." },
+    { type: "short", q: "Name the two main means through which indigenous knowledge is passed down.", answer: "oral tradition and practice|oral tradition|orally", difficulty: 1, explanation: "It is passed down through oral tradition and practice." },
+    { type: "concept", q: "Explain in one sentence how learning from indigenous knowledge helps development.", answer: "it improves understanding of local conditions|it improves agriculture, healthcare, food security, education and natural resource management", difficulty: 2, explanation: "Learning from it improves understanding of local conditions and of agriculture, healthcare, food security, education and natural resource management." },
+    { type: "mcq", q: "Which statement best explains why preserving indigenous knowledge matters for Ethiopia?", options: ["It replaces the need for modern science", "It contributes to cultural and political self-reliance and conserves resources", "It is only useful for tourism", "It proves that Ethiopia needs no foreign knowledge"], answer: 1, difficulty: 3, explanation: "Preserving indigenous knowledge contributes to cultural and political self-reliance and conserves resources." },
+    { type: "ordering", q: "Arrange the stages by which local knowledge turns into development.", options: ["Pass the knowledge to the next generation", "Use local knowledge to solve a local problem", "Conserve the resources it depends on", "Test and adapt the practice over time"], answer: 1, difficulty: 2, explanation: "The order is: use local knowledge on a local problem, test and adapt it, conserve resources, then pass it on." }
+  ]
+};
 
-Lessons["g10-history-uh9-t2"] = {"overview":"<b>Some Specific and Unique Knowledge Systems in Ethiopia</b> sits inside <b>Indigenous Knowledge and Heritages of Ethiopia</b>. Indigenous knowledge and heritage define this final unit of Grade 10 History in the Ethiopian (FDRE Ministry of Education) curriculum. First, it explains indigenous knowledge, its role in development, and its main features. Then it presents indigenous conflict resolution, from the Afar Mada’a and Dagu to the Oromo Jaarsummaa. Next, it covers the Siinqee, the Gumaa, the Amhara Shimgelina, and the Sidama Luwa. Also it explains the meaning and values of heritage. Finally, it lists Ethiopia’s natural, tangible, and intangible heritages. Students will also learn how indigenous knowledge applies to real-life situations, such as justice and unity in communities today.","objectives":["Explain indigenous knowledge and its role in development.","Describe the main features of indigenous knowledge.","Compare the indigenous conflict resolution systems of Ethiopia.","Distinguish tangible from intangible heritage.","Evaluate the effectiveness of indigenous conflict resolution."],"simple":"<b>Some Specific and Unique Knowledge Systems in Ethiopia in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>Then the Afar Mada’a for disputes and the Dagu system of sharing news.</li> <li>The Oromo Jaarsummaa, the Gumaa blood price, and the Siinqee for women’s rights.</li> <li>Also the Amhara Shimgelina, the Sidama Luwa, and the Seera of Kambata and Hadiya.</li></ul>","detailed":"<p><b>Some Specific and Unique Knowledge Systems in Ethiopia — the essentials.</b> Then the Afar Mada’a for disputes and the Dagu system of sharing news. The Oromo Jaarsummaa, the Gumaa blood price, and the Siinqee for women’s rights. Also the Amhara Shimgelina, the Sidama Luwa, and the Seera of Kambata and Hadiya.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Explain indigenous knowledge and its role in development.</li><li>Describe the main features of indigenous knowledge.</li><li>Compare the indigenous conflict resolution systems of Ethiopia.</li><li>Distinguish tangible from intangible heritage.</li><li>Evaluate the effectiveness of indigenous conflict resolution.</li></ul>","keyTerms":[{"term":"The Oromo Jaarsummaa","def":"The Oromo Jaarsummaa, the Gumaa blood price, and the Siinqee for women’s rights."},{"term":"Also the Amhara Shimgelina","def":"Also the Amhara Shimgelina, the Sidama Luwa, and the Seera of Kambata and Hadiya."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing some specific and unique knowledge systems in ethiopia with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Reading the news: events in this topic map onto modern Ethiopian civic debates","Answering the \"give an example\" questions that close every ESSLCE history paper"],"summary":"Some Specific and Unique Knowledge Systems in Ethiopia: Then the Afar Mada’a for disputes and the Dagu system of sharing news. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"Some Specific and Unique Knowledge Systems in Ethiopia\" is correct according to the MoE curriculum?","options":["Then the Afar Mada’a for disputes and the Dagu system of sharing news.","Some Specific and Unique Knowledge Systems in Ethiopia is not mentioned in the MoE curriculum for this unit","Some Specific and Unique Knowledge Systems in Ethiopia happened in a different century than this topic covers","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: Then the Afar Mada’a for disputes and the Dagu system of sharing news. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"Some Specific and Unique Knowledge Systems in Ethiopia\"?","options":["The Oromo Jaarsummaa, the Gumaa blood price, and the Siinqee for women’s rights.","Some Specific and Unique Knowledge Systems in Ethiopia was reversed by the very process this topic describes","Some Specific and Unique Knowledge Systems in Ethiopia is not mentioned in the MoE curriculum for this unit","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: The Oromo Jaarsummaa, the Gumaa blood price, and the Siinqee for women’s rights."},{"type":"tf","q":"True or false: Then the Afar Mada’a for disputes and the Dagu system of sharing news.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover some specific and unique knowledge systems in ethiopia.","answer":false,"difficulty":1,"explanation":"Some Specific and Unique Knowledge Systems in Ethiopia is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Explain indigenous knowledge and its role in development.","difficulty":2,"altAnswers":["Describe the main features of indigenous knowledge.","Compare the indigenous conflict resolution systems of Ethiopia."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why some specific and unique knowledge systems in ethiopia matters.","answer":"Some Specific and Unique Knowledge Systems in Ethiopia is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of some specific and unique knowledge systems in ethiopia in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to some specific and unique knowledge systems in ethiopia, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
+Lessons["g10-history-uh9-t2"] = {
+  overview: "Ethiopia has age-old, culturally deep-rooted systems of governance and dispute resolution that differ from region to region. This lesson examines the Mada'a and Dagu of the Afar, the Gadaa, jaarsummaa, gumaa and Siinqee of the Oromo, the Shimgelina of the Amhara, and the Luwa and Seera systems of other peoples.",
+  objectives: [
+    "Identify indigenous conflict resolution methods used in Ethiopia",
+    "Describe the Mada'a and Dagu systems of the Afar people",
+    "Explain the Gadaa system and the Oromo institutions of jaarsummaa, gumaa and Siinqee",
+    "Compare the Shimgelina of the Amhara with the jaarsummaa of the Oromo",
+    "Assess the roles of elders and of the Luwa and Seera systems in community life"
+  ],
+  simple: "In Ethiopia, indigenous knowledge appears as management strategies, decision-making procedures, dispute resolution practices, indigenous laws and rights. Indigenous conflict resolution is one of the most popular ways of settling disputes. It is informal and works through arbitration and mediation. Local leaders, chiefs, religious leaders, healers and elders lead the process because they know local customs, traditions and history. The aim is a solution based on the recognised customs and morality of the society, and it helps restore good relations between the parties. Examples include the Mada'a and Dagu of the Afar, the Gadaa, jaarsummaa, gumaa and Siinqee of the Oromo, the Shimgelina of the Amhara, and the Luwa and Seera systems of the Sidama, Kambata and Hadiya.",
+  detailed: "<p><b>Indigenous knowledge in practice and the role of elders.</b> Indigenous knowledge is manifested in numerous ways, such as management strategies, decision-making procedures, dispute resolution practices, indigenous laws and rights. In Ethiopia, indigenous conflict resolution is one of the most popular techniques of conflict settlement. It is an informal way of resolving conflicts, an old collection of techniques found in all communities, and it works through arbitration and mediation. Its main aim is to reach a solution based on the recognised customs and morality of the society, and it helps to restore a good relationship among the conflicting parties. Local leaders, chiefs, religious leaders, healers and elders lead the process, and they are respected for their extensive understanding of local customs, traditions, history and the relationships of the contending parties. Their expertise, their ability to understand symbols of reconciliation, their oratory abilities and their social capital enable them to negotiate a settlement.</p><p><b>Mada'a and Dagu of the Afar.</b> The Afar are a predominantly pastoral community who inhabit the northeastern part of Ethiopia. Their indigenous mechanism of conflict resolution is known as Mada'a, an unwritten law transmitted orally from generation to generation. Elders of the Mada'a, who do not represent members in disputes, are selected from different clans, and their decisions are effective because of the tradition of forgiveness, respect for elders and the transfer of resources as compensation. Because of their pastoral way of life the Afar also have a unique information exchange system called Dagu, an age-old system of information management that involves passing and receiving information or news about what two or more individuals have seen or heard. Dagu serves virtually all members of society equally, regardless of social status, and it carries news of newcomers, the conditions of water holes and grazing lands, missing camels and caravans, weddings and funerals, new alliances and betrayals, the latest battles and the condition of the trail ahead.</p><p><b>Gadaa and the Oromo institutions.</b> Gadaa is the indigenous democratic system of governance of the Oromo. In it the people are grouped and organised into five Gadaa classes that succeed each other every eight years in assuming economic, political, military and social responsibilities. The foundation of the system is rooted in the customary Oromo institutions of aadaa (custom or tradition), seera (laws), safuu, a moral category that prescribes what human actions and behaviours ought to be and is the Oromo concept of ethics, and heera (justice). These institutions form indigenous systems of knowledge, include the rules and regulations that determine access to natural resources, and serve as conflict-resolution institutions able to tackle the interlinked problems of environment, welfare and conflict.</p><p><b>Jaarsummaa, araara and gumaa.</b> In most Ethiopian traditions, community elders are key decision-makers and conflict mediators. The institution of araara is reconciliation, and the process of reconciliation between conflicting individuals or groups by a group of jaarsaas is jaarsummaa; jaarsa is the Oromo version of elder. The decision of the elders emphasises the need for cooperation and a win-win solution instead of unconstructive competition that produces a win-lose result. An Oromo proverb expresses this ideal: Akka Haroon hin gognee akka raachi hin dune, meaning for the lake not to dry, for the frogs not to die. Gumaa is the widely practised indigenous way of resolving conflicts relating to homicide or murder; it is the blood money paid to the slain person's family or the payment made to seriously injured individuals. Decisions in the gumaa system are made after close examination of data obtained from witnesses, the conflicting parties express repentance, and the system also has its own way of secretly investigating crimes committed against human life or property.</p><p><b>Siinqee of Oromo women.</b> Siinqee (Siiqee) is the instrument through which women's rights are duly respected among the Oromo. It is a stick (ulee) symbolising a socially sanctioned set of rights exercised by women, and it is a special stick that a woman who gets legally married receives on her wedding day. Siinqee is also an institution, a women's organisation that excludes men and has both religious and political functions. Women use it to protect their property rights, to assert control over sexuality and fertility, to protect their social rights and to maintain religious and moral authority. Whenever a woman's right has been violated, the women ululate to notify one another, every woman is obliged to respond, and they move to the place carrying their Siinqee and go to the Gada Council singing a song that announces the specific activities that led to the breach of their rights. There they are welcomed respectfully and invited to speak out, after which the person accused of wrongdoing is brought to justice.</p><p><b>Shimgelina of the Amhara.</b> Among the Amhara people the main indigenous conflict resolution mechanism is Shimgelina, which is comparable to the jaarsuumma of the Oromo. In it, five shimageles (elders) are appointed by the disputing parties themselves on the basis of their choice. They are recognised as solution makers because they have the power to make binding decisions and to impose solutions, and they can sanction social measures if one party fails to comply with the ruling or agreement. Shimegilena is preferable because of its accessibility, low cost and trust, and in most cases a priest of the local church serves as chairman to make the system more acceptable to society. The disputants take part in ceremonies celebrating the resolution, such as exchanging assets, prayers and sacrifice, jumping over rifles, drinking and eating jointly, and playing and dancing.</p><p><b>Sidama Luwa and Seera; Kambata and Hadiya Seera.</b> The Sidama Luwa system is an age-related institution performing ritual, cultural and political roles, administered by an age grade system in which each grade rotates every eight years. There are five rotating age grades: Darara, Fullassa, Hirobora, Wawassa and Mogissa. Its two objectives are the recruitment and training of able-bodied men for the defence of the nation and the development of potential elders who will replace the current elders (Cimeeyye). The Sidama Seera system is divided into two, the broad concept of Seera as a social constitution that governs Sidama social life on the basis of the moral code of halale, the ultimate truth, which provides the basis for distinguishing good from evil. In Kambata and Hadiya culture, Seera is the basis for political administration, social involvement and dispute resolution; it governs the interactions of people, clans and territorial groups, and its goals are peace, correction and reintegration, overseen by wise and patient village elders with wide-ranging knowledge of justice and peace.</p>",
+  keyTerms: [
+    { term: "Mada'a", def: "The indigenous conflict resolution mechanism of the predominantly pastoral Afar people of northeastern Ethiopia, an unwritten law transmitted orally from generation to generation." },
+    { term: "Dagu", def: "The age-old indigenous information exchange network of the Afar, which passes and receives news about what two or more individuals have seen or heard and serves all members equally." },
+    { term: "Gadaa", def: "The indigenous democratic system of governance of the Oromo, in which five Gadaa classes succeed each other every eight years in assuming economic, political, military and social responsibilities." },
+    { term: "Jaarsummaa", def: "The Oromo process of reconciliation between conflicting individuals or groups by a group of jaarsaas (elders), aimed at a win-win solution." },
+    { term: "Gumaa", def: "The widely practised indigenous way of resolving conflicts relating to homicide or murder; the blood money paid to the slain person's family or to seriously injured individuals." },
+    { term: "Siinqee", def: "A stick (ulee) and an institution of Oromo women that symbolises socially sanctioned rights and helps to protect women's rights and resolve conflicts." },
+    { term: "Shimgelina", def: "The main indigenous conflict resolution mechanism of the Amhara, in which five shimageles appointed by the disputing parties make binding decisions." },
+    { term: "Seera", def: "A code of behaviour or social constitution that governs community life, used by the Sidama on the basis of halale and by the Kambata and Hadiya as the basis of administration and dispute resolution." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "The Afar community needs to spread news about missing camels, water holes and grazing land across a wide desert. Which indigenous system does this, and why is it suited to a pastoral way of life?",
+      given: "The Afar are a predominantly pastoral community in the northeastern part of Ethiopia and their information exchange system is called Dagu.",
+      formula: "Historical framework: the function of an indigenous knowledge system within its environment.",
+      substitution: "Pastoralists move constantly, so they need fast, wide-reaching news about water, grazing land and animals.",
+      calculation: "Dagu is an age-old system of information management that passes and receives news about what two or more people have seen or heard, and it serves all members almost equally regardless of social status.",
+      answer: "Dagu, the Afar information exchange system, because it carries environmental and animal news to all members of a mobile pastoral society."
+    },
+    {
+      problem: "Compare jaarsummaa of the Oromo and Shimgelina of the Amhara as indigenous conflict resolution mechanisms.",
+      given: "Jaarsummaa is reconciliation by a group of jaarsaas (elders); Shimgelina uses five shimageles appointed by the disputing parties themselves, who can make binding decisions and sanction non-compliance, and a local priest often serves as chairman.",
+      formula: "Historical framework: comparison of indigenous dispute resolution through arbitration and mediation.",
+      substitution: "Both aim at a solution based on recognised customs and morality that restores good relations among the parties.",
+      calculation: "Both are informal and elder-led; Shimgelina stands out because five elders are chosen by the parties and have power to sanction, while jaarsummaa stands out for its ideal of a win-win outcome expressed in the proverb about the lake and the frogs.",
+      answer: "Both are elder-led, informal, mediation-based systems; Shimgelina adds five party-appointed elders with binding power, and jaarsummaa emphasises a win-win result."
+    },
+    {
+      problem: "A woman's right has been violated in an Oromo community. Explain how the Siinqee institution responds.",
+      given: "Siinqee is a stick and an institution of Oromo women symbolising socially sanctioned rights; when a right is violated women ululate to notify one another and go to the Gada Council.",
+      formula: "Historical framework: an indigenous institution designed to protect rights and build peace.",
+      substitution: "The violated right triggers a collective response by women, who carry their Siinqee to the council and announce the wrongdoing in song.",
+      calculation: "Every woman is obliged to respond, the accused person is brought to justice before the council and appropriate punitive measures are taken, so the institution protects women's rights and restores peace.",
+      answer: "Women unite, carry their Siinqee to the Gada Council, announce the wrongdoing and secure justice for the violated right."
+    }
+  ],
+  commonMistakes: [
+    "Thinking indigenous conflict resolution is exactly the same thing as a formal court of law.",
+    "Believing elders are chosen at random rather than for their knowledge, maturity and practical experience.",
+    "Assuming formal courts are always better, when the textbook notes that the indigenous system is free from corruption and politicisation.",
+    "Confusing the Gadaa system with the rule of one person rather than a rotating democratic system of five classes.",
+    "Treating Siinqee as only a wooden stick and not as an institution that protects women's rights and builds peace.",
+    "Mixing up the peoples: Mada'a and Dagu belong to the Afar, not to the Oromo or the Amhara.",
+    "Forgetting that these mechanisms aim to restore relationships, not only to punish."
+  ],
+  applications: [
+    "Taking a family or neighbourhood dispute to respected elders before going to court, where local custom allows.",
+    "Recording the conflict resolution practices of your local elders as part of a school history project.",
+    "Using the Oromo proverb about the lake and the frogs in a class debate as an argument for win-win solutions.",
+    "Supporting women's rights institutions such as Siinqee and similar community groups.",
+    "Comparing the eight-year rotation of the Gadaa system with modern election cycles in a class discussion.",
+    "Settling a quarrel between two students by mediation rather than by immediate punishment."
+  ],
+  summary: "Ethiopia's indigenous knowledge appears in governance and dispute resolution systems that are informal, elder-led and based on local custom. They include the Mada'a and Dagu of the Afar, the Gadaa, jaarsummaa, gumaa and Siinqee of the Oromo, the Shimgelina of the Amhara, and the Luwa and Seera systems of the Sidama, Kambata and Hadiya. They work through arbitration and mediation, aim at solutions based on recognised customs and morality, and try to restore good relations; unlike formal justice systems they are described as free from corruption and politicisation.",
+  visuals: [
+    {
+      type: "tableVisual",
+      config: {
+        title: "Indigenous Knowledge Systems in Ethiopia",
+        headers: ["System", "People", "Key feature"],
+        rows: [
+          ["Mada'a", "Afar", "Unwritten law of elders selected from different clans"],
+          ["Dagu", "Afar", "Information exchange network for news of the desert"],
+          ["Gadaa", "Oromo", "Five classes rotate every eight years"],
+          ["Jaarsummaa", "Oromo", "Reconciliation by elders for a win-win result"],
+          ["Gumaa", "Oromo", "Blood money in cases of homicide or murder"],
+          ["Siinqee", "Oromo", "Stick and institution protecting women's rights"],
+          ["Shimgelina", "Amhara", "Five elders appointed by the disputing parties"],
+          ["Luwa", "Sidama", "Age grades rotate every eight years"],
+          ["Seera", "Sidama, Kambata, Hadiya", "Code of behaviour and social constitution"]
+        ]
+      }
+    },
+    {
+      type: "flowChart",
+      config: {
+        title: "How an Indigenous Dispute Is Settled",
+        steps: ["A dispute arises between individuals or groups", "Respected elders and local authorities are invited", "Both sides are heard and customs are examined", "A solution based on recognised customs and morality is agreed", "Compensation or reconciliation restores the relationship"]
+      }
+    },
+    {
+      type: "qa",
+      config: {
+        title: "Exam Quick-Check",
+        pairs: [
+          { q: "Which people use Mada'a and Dagu?", a: "The predominantly pastoral Afar of northeastern Ethiopia." },
+          { q: "How often do Gadaa classes succeed each other?", a: "Every eight years; there are five Gadaa classes." },
+          { q: "What does jaarsummaa mean?", a: "The process of reconciliation by a group of jaarsaas (elders) among the Oromo." },
+          { q: "How many elders hear a case under Shimgelina?", a: "Five shimageles, appointed by the disputing parties themselves." },
+          { q: "What is the purpose of Dagu?", a: "To pass and receive information or news, serving all members almost equally." }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "Indigenous conflict resolution in Ethiopia is mainly described as:", options: ["a formal court procedure", "an informal way of resolving conflicts through arbitration and mediation", "a written national law", "a religious ritual only"], answer: 1, difficulty: 1, explanation: "It is an informal way of resolving conflicts, an old collection of techniques that works through arbitration and mediation." },
+    { type: "mcq", q: "The main aim of the indigenous dispute resolution mechanism is to:", options: ["punish the weaker party", "collect taxes", "reach a solution based on the recognised customs and morality of the society", "replace the formal courts"], answer: 2, difficulty: 2, explanation: "Its main aim is a solution based on the recognised customs and morality of the society, restoring good relations." },
+    { type: "short", q: "Which indigenous mechanism of the Afar is an unwritten law transmitted orally from generation to generation?", answer: "Mada'a|Madaa", difficulty: 1, explanation: "The Afar mechanism of conflict resolution is known as Mada'a." },
+    { type: "mcq", q: "The most important function of the Dagu of Afar is:", options: ["to settle conflicts among the community", "to strengthen economic support and aid", "to exchange information", "to perform annual festivals"], answer: 2, difficulty: 2, explanation: "Dagu is an age-old system of information management used to pass and receive news." },
+    { type: "concept", q: "Give the name of the indigenous democratic system of governance of the Oromo people, in which five classes succeed each other every eight years.", answer: "Gadaa|Gadda|Gada", difficulty: 2, explanation: "This is the Gadaa system." },
+    { type: "short", q: "What is the Oromo term for the process of reconciliation between conflicting individuals or groups by elders?", answer: "jaarsummaa|jarsummaa|jaarsumma", difficulty: 1, explanation: "Jaarsummaa is reconciliation by a group of jaarsaas (elders)." },
+    { type: "mcq", q: "Gumaa, among the Oromo, refers to:", options: ["an information exchange system", "blood money paid to the family of a slain person or to injured individuals", "an annual thanksgiving festival", "a women's ritual stick"], answer: 1, difficulty: 2, explanation: "Gumaa is the blood money paid to the slain person's family or the payment made to seriously injured individuals." },
+    { type: "mcq", q: "The institution through which women's rights are duly respected among the Oromo is:", options: ["Siinqee", "Bayito", "Dagu", "Ashenda"], answer: 0, difficulty: 2, explanation: "Siinqee (Siiqee) is the instrument through which women's rights are respected among the Oromo." },
+    { type: "tf", q: "Shimgelina uses five elders appointed by the disputing parties themselves.", answer: true, difficulty: 1, explanation: "In Shimgelina, five shimageles are appointed by the disputing parties themselves based on their choice." },
+    { type: "concept", q: "Name the moral code of the Sidama that provides the basis for distinguishing good from evil.", answer: "halale", difficulty: 3, explanation: "The Sidama moral code halale, the ultimate truth, distinguishes good from evil." },
+    { type: "ordering", q: "Arrange the steps of settling a dispute through the indigenous mechanism.", options: ["Agree a solution and restore the relationship", "A dispute arises between parties", "Elders are invited and hear both sides", "Customs and morality are examined"], answer: 1, difficulty: 2, explanation: "A dispute arises, elders are invited, customs are examined, then a solution restores the relationship." }
+  ]
+};
 
-Lessons["g10-history-uh9-t3"] = {"overview":"<b>Meaning and Values of Heritages</b> sits inside <b>Indigenous Knowledge and Heritages of Ethiopia</b>. Indigenous knowledge and heritage define this final unit of Grade 10 History in the Ethiopian (FDRE Ministry of Education) curriculum. First, it explains indigenous knowledge, its role in development, and its main features. Then it presents indigenous conflict resolution, from the Afar Mada’a and Dagu to the Oromo Jaarsummaa. Next, it covers the Siinqee, the Gumaa, the Amhara Shimgelina, and the Sidama Luwa. Also it explains the meaning and values of heritage. Finally, it lists Ethiopia’s natural, tangible, and intangible heritages. Students will also learn how indigenous knowledge applies to real-life situations, such as justice and unity in communities today.","objectives":["Explain indigenous knowledge and its role in development.","Describe the main features of indigenous knowledge.","Compare the indigenous conflict resolution systems of Ethiopia.","Distinguish tangible from intangible heritage.","Evaluate the effectiveness of indigenous conflict resolution."],"simple":"<b>Meaning and Values of Heritages in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>Next, heritage as what the past passes on for the future to keep.</li> <li>The historical, aesthetic, social, and economic values of heritage.</li></ul>","detailed":"<p><b>Meaning and Values of Heritages — the essentials.</b> Next, heritage as what the past passes on for the future to keep. The historical, aesthetic, social, and economic values of heritage.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Explain indigenous knowledge and its role in development.</li><li>Describe the main features of indigenous knowledge.</li><li>Compare the indigenous conflict resolution systems of Ethiopia.</li><li>Distinguish tangible from intangible heritage.</li><li>Evaluate the effectiveness of indigenous conflict resolution.</li></ul>","keyTerms":[{"term":"Next","def":"Next, heritage as what the past passes on for the future to keep."},{"term":"The historical","def":"The historical, aesthetic, social, and economic values of heritage."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing meaning and values of heritages with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Reading the news: events in this topic map onto modern Ethiopian civic debates","Answering the \"give an example\" questions that close every ESSLCE history paper"],"summary":"Meaning and Values of Heritages: Next, heritage as what the past passes on for the future to keep. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"Meaning and Values of Heritages\" is correct according to the MoE curriculum?","options":["Next, heritage as what the past passes on for the future to keep.","Meaning and Values of Heritages is not mentioned in the MoE curriculum for this unit","Meaning and Values of Heritages happened in a different century than this topic covers","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: Next, heritage as what the past passes on for the future to keep. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"Meaning and Values of Heritages\"?","options":["The historical, aesthetic, social, and economic values of heritage.","Meaning and Values of Heritages was reversed by the very process this topic describes","Meaning and Values of Heritages is not mentioned in the MoE curriculum for this unit","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: The historical, aesthetic, social, and economic values of heritage."},{"type":"tf","q":"True or false: Next, heritage as what the past passes on for the future to keep.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover meaning and values of heritages.","answer":false,"difficulty":1,"explanation":"Meaning and Values of Heritages is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Explain indigenous knowledge and its role in development.","difficulty":2,"altAnswers":["Describe the main features of indigenous knowledge.","Compare the indigenous conflict resolution systems of Ethiopia."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why meaning and values of heritages matters.","answer":"Meaning and Values of Heritages is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of meaning and values of heritages in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to meaning and values of heritages, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
+Lessons["g10-history-uh9-t3"] = {
+  overview: "Heritage is what the past has passed to us, what we value in the present and what we choose to preserve for the future generation. This lesson defines heritage, distinguishes physical heritage from heritage practices, and explains the values that people place on heritage.",
+  objectives: [
+    "Define heritage and explain what it can include",
+    "Distinguish physical heritage objects from heritage practices",
+    "Explain what heritage values are",
+    "List the classifications of heritage values",
+    "Explain why heritage gives Ethiopians a sense of identity"
+  ],
+  simple: "Heritage is something that can be passed from generation to generation, something that can be conserved or inherited and that has historic or cultural value. Our heritage is our inheritance: what the past has passed to us, what we value in the present and what we choose to preserve for the future generation. Heritage can be a physical object, such as a piece of property, a building or a place that can be owned and passed on. It also includes practices such as language, culture, popular song, literature and dress, which help us understand who we are. Heritage values are the meanings and values that individuals or groups give to heritage, including buildings, archaeological sites, landscapes and intangible traditions. These values may be historical, aesthetic, economic, social or scientific.",
+  detailed: "<p><b>What heritage means.</b> Heritage is something that can be passed from generation to generation, something that can be conserved or inherited, and something that has historic or cultural value. Our heritage is our inheritance: what the past has passed to us, what we value in the present and what we choose to preserve for the future generation. Heritage includes everything that people want to save, including material culture and nature; it is the full range of our inherited traditions, monuments, objects and culture.</p><p><b>Heritage as physical objects and places.</b> Heritage might be understood to be a physical object: a piece of property, a building or a place that can be owned and passed on to someone else. Our heritage includes those places with natural, indigenous or historic values that we have inherited and want to pass on to future generations.</p><p><b>Heritage practices.</b> Besides these physical objects and places, there are also a variety of heritage practices that are preserved or passed down from generation to generation. Language, culture, popular song, literature and dress, for example, are just as significant in helping us comprehend who we are as the physical artifacts and buildings that we are more accustomed to thinking of as heritage. The unit introduction notes that intangible heritages, which include songs, recipes, languages and dances, attest to who we are and how we identify ourselves.</p><p><b>Heritage values.</b> The term heritage values refers to the meanings and values that individuals or groups of people bestow on heritage, including buildings, archaeological sites, landscapes and intangible expressions of culture such as traditions. There are many classifications of values, including historical, aesthetic, economic, social, scientific and an array of other types.</p><p><b>Why heritage matters.</b> Heritage provides an important context for our perception of ourselves as Ethiopians, and it is part of the social glue that binds communities together and expresses identity. Because heritage is both inherited and chosen, each generation decides what to conserve and what to pass on. When a community loses its language, its songs or its buildings, it loses part of the evidence of who it is.</p><p><b>Studying heritage as historians.</b> Historians value heritage for the evidence it carries about the past. A building, an archaeological site, a manuscript or a ceremony can each be read as a source. The learning outcomes of this unit therefore ask students to differentiate tangible and intangible heritage and to respect others through exposure to a way of life different from their own.</p>",
+  keyTerms: [
+    { term: "Heritage", def: "Something that can be passed from generation to generation, can be conserved or inherited, and has historic or cultural value." },
+    { term: "Inheritance", def: "What the past has passed to us; heritage is described as our inheritance, what we value in the present and what we preserve for the future." },
+    { term: "Material culture", def: "The physical objects made and used by people; heritage includes everything people want to save, including material culture and nature." },
+    { term: "Heritage practices", def: "Practices such as language, culture, popular song, literature and dress that are preserved or passed down from generation to generation." },
+    { term: "Heritage values", def: "The meanings and values that individuals or groups of people bestow on heritage, including buildings, archaeological sites, landscapes and intangible expressions of culture." },
+    { term: "Historical value", def: "One of the classifications of heritage value listed in the textbook, alongside aesthetic, economic, social and scientific values." },
+    { term: "Identity", def: "A people's sense of who they are; heritage expresses identity and is part of the social glue that binds communities together." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "A kebele committee must decide what to conserve. Using the definition of heritage, explain why a war memorial, a folk song and a river gorge can all be called heritage.",
+      given: "Heritage is something that can be passed from generation to generation, can be conserved or inherited, and has historic or cultural value; it includes places with natural, indigenous or historic values and also intangible practices such as language, song and dress.",
+      formula: "Historical framework: the definition of heritage as inherited historic or cultural value.",
+      substitution: "The memorial carries historic value, the folk song is a heritage practice, and the gorge is a place with natural value.",
+      calculation: "All three can be passed on, conserved and valued for historic, cultural or natural reasons, which is exactly what the definition requires.",
+      answer: "All three are heritage, because heritage includes physical objects and places, practices, and natural sites with inherited value."
+    },
+    {
+      problem: "Two people disagree about an old building: one calls it valuable history, the other calls it only useful land. Which heritage values are in conflict?",
+      given: "Heritage values include historical, aesthetic, economic, social, scientific and other types, and heritage values are the meanings that individuals or groups bestow on heritage.",
+      formula: "Historical framework: classification of heritage values.",
+      substitution: "The first person appeals to historical and aesthetic value; the second appeals to economic value.",
+      calculation: "Both values are recognised classifications in the textbook, so the disagreement is not about truth but about which value is given priority.",
+      answer: "Historical and aesthetic value are being weighed against economic value, and the textbook recognises all of them."
+    },
+    {
+      problem: "Explain why heritage is described as the social glue of Ethiopian communities.",
+      given: "Heritage provides an important context for our perception of ourselves as Ethiopians; the unit says intangible heritage attests to who we are and how we identify ourselves.",
+      formula: "Historical framework: the relationship between heritage and identity.",
+      substitution: "Shared monuments, languages, songs and ceremonies give people common reference points.",
+      calculation: "Common reference points create a shared sense of belonging, and that belonging is what binds communities together.",
+      answer: "Because it gives Ethiopians a shared sense of identity and belonging, heritage works as the social glue that binds communities together."
+    }
+  ],
+  commonMistakes: [
+    "Thinking heritage is only buildings and old objects.",
+    "Forgetting that language, songs, dress, recipes and literature can also be heritage.",
+    "Assuming heritage values are fixed and the same for everyone, when values are meanings that people bestow on heritage.",
+    "Believing heritage has no value if it cannot be sold.",
+    "Confusing one classification of heritage value, such as aesthetic value, with another, such as economic value.",
+    "Treating heritage as only about the past and forgetting that it is also what we choose to preserve for the future."
+  ],
+  applications: [
+    "Interviewing elders about the songs, proverbs and recipes that your family wants to keep.",
+    "Listing heritage in your area by type: a building, a natural site and a festival.",
+    "Discussing in class which local heritage should be repaired first and why.",
+    "Writing about the historical, aesthetic, economic and social values of a local monument.",
+    "Learning and performing a local song or dance at a school heritage day.",
+    "Photographing and labelling local heritage sites for a school record."
+  ],
+  summary: "Heritage is what can be passed from generation to generation, conserved or inherited, and has historic or cultural value. It includes physical objects, buildings and places, but also practices such as language, culture, song, literature and dress. Heritage values are the meanings that people bestow on heritage and are classified as historical, aesthetic, economic, social, scientific and other types; because heritage expresses identity, it is part of the social glue that binds communities together.",
+  visuals: [
+    {
+      type: "mindMap",
+      config: {
+        title: "What Heritage Includes",
+        center: "Heritage",
+        branches: [
+          { label: "Physical objects", items: ["Property", "Buildings", "Places"] },
+          { label: "Practices", items: ["Language and culture", "Popular song", "Literature and dress"] },
+          { label: "Natural places", items: ["Landscapes", "Sites of natural value"] },
+          { label: "Values", items: ["Historical", "Aesthetic", "Economic, social, scientific"] }
+        ]
+      }
+    },
+    {
+      type: "comparison",
+      config: {
+        title: "Physical Heritage and Heritage Practices",
+        left: { name: "Physical heritage", items: ["Property and buildings", "Places that can be owned", "Archaeological sites", "Landscapes"] },
+        right: { name: "Heritage practices", items: ["Language and culture", "Popular song and literature", "Dress", "Traditions passed down"] }
+      }
+    },
+    {
+      type: "qa",
+      config: {
+        title: "Exam Quick-Check",
+        pairs: [
+          { q: "What is heritage?", a: "Something that can be passed from generation to generation, conserved or inherited, and has historic or cultural value." },
+          { q: "What are heritage values?", a: "The meanings and values that individuals or groups bestow on heritage, such as historical, aesthetic, economic, social and scientific values." },
+          { q: "Why does heritage matter for identity?", a: "It provides a context for our perception of ourselves as Ethiopians and is part of the social glue that binds communities together." },
+          { q: "Give one example of a heritage practice.", a: "Any of: language, culture, popular song, literature, dress." }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "Heritage is best defined as something that:", options: ["can be sold quickly for profit", "is passed from generation to generation and has historic or cultural value", "belongs only to the government", "was made in the last ten years"], answer: 1, difficulty: 1, explanation: "Heritage can be passed from generation to generation, can be conserved or inherited, and has historic or cultural value." },
+    { type: "tf", q: "Language, popular song, literature and dress can be heritage.", answer: true, difficulty: 1, explanation: "The textbook says these practices are just as significant as physical artifacts and buildings." },
+    { type: "short", q: "Give the term for the meanings and values that people bestow on heritage.", answer: "heritage values", difficulty: 1, explanation: "These are called heritage values." },
+    { type: "concept", q: "Name two classifications of heritage values given in the lesson.", answer: "historical|aesthetic|economic|social|scientific", difficulty: 2, explanation: "Classifications include historical, aesthetic, economic, social and scientific values." },
+    { type: "mcq", q: "Which of the following is NOT listed as a classification of heritage values?", options: ["Historical", "Aesthetic", "Scientific", "Weather"], answer: 3, difficulty: 2, explanation: "The listed classifications are historical, aesthetic, economic, social and scientific." },
+    { type: "mcq", q: "In the unit introduction, heritage is described as:", options: ["only a museum collection", "our inheritance: what the past passed to us and what we preserve for the future", "a modern invention", "a private business"], answer: 1, difficulty: 2, explanation: "Our heritage is our inheritance, what the past has passed to us and what we choose to preserve for the future generation." },
+    { type: "tf", q: "Heritage values are meanings that individuals or groups bestow on heritage.", answer: true, difficulty: 2, explanation: "The term heritage values refers to the meanings and values that individuals or groups bestow on heritage." },
+    { type: "short", q: "Heritage is described as part of the social glue that binds communities together and expresses what?", answer: "identity", difficulty: 1, explanation: "Heritage expresses identity and binds communities together." },
+    { type: "concept", q: "Explain in one sentence why heritage matters for Ethiopians.", answer: "it gives a context for our perception of ourselves|it expresses identity|it binds communities together", difficulty: 2, explanation: "It provides a context for our perception of ourselves as Ethiopians and binds communities together." },
+    { type: "mcq", q: "An old church, a folk song and a river gorge are all called heritage because:", options: ["they all belong to the state", "each can be passed on, conserved and valued for historic, cultural or natural reasons", "they all earn money", "they were all built by kings"], answer: 1, difficulty: 3, explanation: "Heritage includes physical objects, practices and places with inherited historic, cultural or natural value." }
+  ]
+};
 
-Lessons["g10-history-uh9-t4"] = {"overview":"<b>Types of Heritages</b> sits inside <b>Indigenous Knowledge and Heritages of Ethiopia</b>. Indigenous knowledge and heritage define this final unit of Grade 10 History in the Ethiopian (FDRE Ministry of Education) curriculum. First, it explains indigenous knowledge, its role in development, and its main features. Then it presents indigenous conflict resolution, from the Afar Mada’a and Dagu to the Oromo Jaarsummaa. Next, it covers the Siinqee, the Gumaa, the Amhara Shimgelina, and the Sidama Luwa. Also it explains the meaning and values of heritage. Finally, it lists Ethiopia’s natural, tangible, and intangible heritages. Students will also learn how indigenous knowledge applies to real-life situations, such as justice and unity in communities today.","objectives":["Explain indigenous knowledge and its role in development.","Describe the main features of indigenous knowledge.","Compare the indigenous conflict resolution systems of Ethiopia.","Distinguish tangible from intangible heritage.","Evaluate the effectiveness of indigenous conflict resolution."],"simple":"<b>Types of Heritages in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>Finally, the three types: natural, tangible, and intangible heritage.</li> <li>Tangible sites such as Aksum, Lalibela, Fasil Ghebbi, and Harar Jugol.</li> <li>Also intangible heritage such as Meskel, Gadaa, Fichee-Chambalaalla, and Timket.</li></ul>","detailed":"<p><b>Types of Heritages — the essentials.</b> Finally, the three types: natural, tangible, and intangible heritage. Tangible sites such as Aksum, Lalibela, Fasil Ghebbi, and Harar Jugol. Also intangible heritage such as Meskel, Gadaa, Fichee-Chambalaalla, and Timket.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Explain indigenous knowledge and its role in development.</li><li>Describe the main features of indigenous knowledge.</li><li>Compare the indigenous conflict resolution systems of Ethiopia.</li><li>Distinguish tangible from intangible heritage.</li><li>Evaluate the effectiveness of indigenous conflict resolution.</li></ul>","keyTerms":[{"term":"Finally","def":"Finally, the three types: natural, tangible, and intangible heritage."},{"term":"Tangible sites","def":"Tangible sites such as Aksum, Lalibela, Fasil Ghebbi, and Harar Jugol."},{"term":"intangible heritage","def":"Also intangible heritage such as Meskel, Gadaa, Fichee-Chambalaalla, and Timket."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing types of heritages with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Reading the news: events in this topic map onto modern Ethiopian civic debates","Answering the \"give an example\" questions that close every ESSLCE history paper"],"summary":"Types of Heritages: Finally, the three types: natural, tangible, and intangible heritage. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"Types of Heritages\" is correct according to the MoE curriculum?","options":["Finally, the three types: natural, tangible, and intangible heritage.","Types of Heritages is not mentioned in the MoE curriculum for this unit","Types of Heritages happened in a different century than this topic covers","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: Finally, the three types: natural, tangible, and intangible heritage. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"Types of Heritages\"?","options":["Tangible sites such as Aksum, Lalibela, Fasil Ghebbi, and Harar Jugol.","Types of Heritages was reversed by the very process this topic describes","Types of Heritages is not mentioned in the MoE curriculum for this unit","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Tangible sites such as Aksum, Lalibela, Fasil Ghebbi, and Harar Jugol."},{"type":"tf","q":"True or false: Finally, the three types: natural, tangible, and intangible heritage.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover types of heritages.","answer":false,"difficulty":1,"explanation":"Types of Heritages is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Explain indigenous knowledge and its role in development.","difficulty":2,"altAnswers":["Describe the main features of indigenous knowledge.","Compare the indigenous conflict resolution systems of Ethiopia."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why types of heritages matters.","answer":"Types of Heritages is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of types of heritages in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to types of heritages, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
-
+Lessons["g10-history-uh9-t4"] = {
+  overview: "Ethiopian heritage is divided into natural, tangible and intangible types, and many of the country's sites and traditions are registered by UNESCO. This lesson explains the three types and surveys Ethiopia's inscribed natural, tangible and intangible heritages.",
+  objectives: [
+    "Distinguish natural, tangible and intangible heritage",
+    "List the domains of intangible cultural heritage",
+    "Identify the Ethiopian heritages registered by UNESCO",
+    "Describe examples of Ethiopian monuments, temples, palaces, manuscripts and caves",
+    "Explain the historical value of sites such as Axum, Lalibela, Tiya and Harar Jugol"
+  ],
+  simple: "Heritage has three main types: natural, tangible and intangible. Natural heritage consists of outstanding physical, biological, geological and natural formations and sites, valued for science, conservation or natural beauty. Intangible heritage is made up of practices, representations, expressions, knowledge, skills, instruments, objects and artefacts, shown in oral traditions, performing arts, social practices, rituals and festivals, knowledge of nature, and indigenous handicrafts. Tangible heritage is the physical artifacts produced, maintained and transmitted from generation to generation, such as buildings, monuments, artistic creations and historic places. Ethiopia has many UNESCO-registered heritages, including the Stelae of Axum, the Rock-hewn Churches of Lalibela, Fasil Ghebbi, the Simien Mountains, the Lower Valleys of Awash and Omo, Tiya, Harar Jugol and the Konso cultural landscape.",
+  detailed: "<p><b>Three types of heritage.</b> There are different types of heritage: natural, tangible and intangible. Each type is preserved for future generations, and each can be found in Ethiopia. Festivals, for example, are classified under intangible heritage.</p><p><b>Natural heritage.</b> Natural heritage consists of physical and biological formations, or groups of such formations, that are of outstanding value from the aesthetic or scientific point of view; geological and physiographical formations and precisely delineated areas that constitute the habitat of threatened species of animals and plants of outstanding value from the point of view of science or conservation; and natural sites or precisely delineated natural areas of outstanding value from the point of view of science, conservation or natural beauty.</p><p><b>Intangible heritage.</b> Intangible heritage refers to those practices, representations, expressions, knowledge, skills, instruments, objects and artefacts. It is manifested in five domains: oral traditions and expressions, including language as a vehicle of the intangible cultural heritage; performing arts; social practices, rituals and festive events; knowledge and practices concerning nature and the universe; and indigenous handicrafts.</p><p><b>Tangible heritage.</b> Tangible heritage refers to physical artifacts produced, maintained and transmitted from generation to generation. It includes artistic creations, buildings and historic places, monuments and artifacts that are considered worthy of preservation for the future.</p><p><b>Ethiopian heritages registered by UNESCO.</b> The Stelae of Axum in Tigray symbolise the wealth and importance of the ancient Aksumite kingdom and were included in the List of World Heritage Sites in 1980. The Rock-hewn Churches of Lalibela in Amhara, eleven churches carved out of a single rock, were registered in 1978 and represent a unique artistic achievement in their execution, size and the boldness of their form. Fasil Ghebbi, the royal enclosure of King Fasiledes, stands in Gonder town. The Simien Mountains National Park in North Gondar is home to the Gelada baboon, the Simien fox and the Walia ibex and was one of the first sites included in the list in 1978. The Lower Valley of Awash, 300 km northeast of Addis Ababa in Afar Regional State, is a site of paleo-anthropological research listed in 1980. The Lower Valley of Omo in South Nations, Nationalities and Peoples Regional State was listed in 1980, and the discovery of many human and animal fossils and stone tools there has been of fundamental importance in the study of human evolution. Tiya, 90 km south of Addis Ababa in the Soddo Region, contains 36 monuments including 32 carved stelae covered with symbols and was listed in 1980. Harar Jugol is a fortified historic town 525 km from Addis Ababa whose wall was built during the time of Emir Nur Ibn Mujahid in the 16th century and which was registered in 2006. The Konso cultural landscape, an arid property of stone-walled terraces and fortified settlements in the Konso highlands, was inscribed in 2011.</p><p><b>Intangible heritages inscribed by UNESCO.</b> Mesqel Demera, the ceremony of the Finding of the True Cross, was inscribed on the UNESCO Representative List of the Intangible Cultural Heritage of Humanity in 2013. Gadaa, the indigenous democratic socio-political system of the Oromo people, was inscribed in 2016. Fichee-Chambalaalla, the Sidama New Year celebration and one of the most important Sidama holidays, was inscribed in 2015. Timket, the Ethiopian Epiphany that commemorates the baptism of Jesus in the Jordan River, is celebrated on 19 or 20 January and became Ethiopia's fourth entry on the UNESCO intangible cultural heritage lists in 2019. Ashenda, also called Ashendiye, Shadey or Solel, is the biggest and unique religious and cultural festival of Tigray and Amhara for girls and young women, and Irreecha, the annual Oromo thanksgiving celebrated at the beginning of Birra (spring) near water and trees, is held every September at Bishoftu Hora Harsadii and other Oromia cities.</p><p><b>Other tangible heritage: manuscripts, temples, mosques, palaces and caves.</b> Ethiopia is exceptional in sub-Saharan Africa because it has a written tradition in the Ge'ez language, and after the introduction of Christianity in the 4th century manuscripts flourished with the support of the state; there were special schools of calligraphy in Gondar and Shewa, a school for bookbinding, and writing materials such as goatskin parchment, black and red inks from plants and minerals and pens made from local reed or bamboo. Among temples, the Temple of Yeha, located in Yeha northeast of Adwa, is a tower built in the Sabaean style and dated by comparison with ancient structures in South Arabia to around 700 BC. Other well-known monuments include the old cathedral of St. Mary of Zion at Aksum, rock-hewn churches and monasteries; mosques such as the Mosque of Negash in Tigray and the Grand Anwar Mosque in Addis Ababa; palaces such as the Palace of King Fasilidas, the Grand Palace of Menilek, the Palace of Jimma Abba Jifar II, the Palace of Ras Ali and the palace of Kumsa Moreda; the Sof Omar caves, one of the most remarkable and extensive underground cave systems in the world, formed by the Weyb River as it changed its course through limestone foothills; and the Halala Keela wall of Dawuro, dry-stone defences bordered by the Omo and Gojeb Rivers, begun probably in the second half of the 16th century and completed in the second half of the 18th century during the reign of King Halala.</p>",
+  keyTerms: [
+    { term: "Natural heritage", def: "Outstanding physical, biological, geological and physiographical formations and natural sites or areas valued from the point of view of science, conservation or natural beauty." },
+    { term: "Tangible heritage", def: "Physical artifacts produced, maintained and transmitted from generation to generation, such as buildings, historic places, monuments and artifacts." },
+    { term: "Intangible heritage", def: "Practices, representations, expressions, knowledge, skills, instruments, objects and artefacts, shown in five domains including oral traditions, performing arts, rituals and indigenous handicrafts." },
+    { term: "World Heritage Site", def: "A site inscribed on the UNESCO list because of its outstanding value, such as the Stelae of Axum, listed in 1980." },
+    { term: "Oral traditions", def: "One domain of intangible heritage: spoken expressions, including language as a vehicle of the intangible cultural heritage." },
+    { term: "Performing arts", def: "One domain of intangible heritage, covering music, dance, drama and similar performances." },
+    { term: "Indigenous handicrafts", def: "One of the five domains of intangible heritage listed in the textbook, covering locally made crafts." },
+    { term: "Manuscript", def: "A hand-written book or document; Ethiopia has a written tradition in the Ge'ez language and many manuscripts written on goatskin parchment." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "Classify each of the following as natural, tangible or intangible heritage: the Simien Mountains National Park, the Stelae of Axum, and Fichee-Chambalaalla.",
+      given: "Natural heritage is outstanding natural formations and sites; tangible heritage is physical artifacts such as monuments; intangible heritage is practices, expressions and festive events.",
+      formula: "Historical framework: the three types of heritage.",
+      substitution: "The park is a natural site that shelters threatened species; the stelae are carved monuments; Fichee-Chambalaalla is a New Year celebration.",
+      calculation: "Each item matches one type exactly: natural for the park, tangible for the stelae, intangible for the festival.",
+      answer: "The Simien Mountains National Park is natural heritage, the Stelae of Axum are tangible heritage and Fichee-Chambalaalla is intangible heritage."
+    },
+    {
+      problem: "In which years were the Rock-hewn Churches of Lalibela, the Lower Valley of Awash and Harar Jugol registered by UNESCO, and what does the pattern show?",
+      given: "Lalibela was registered in 1978, the Lower Valley of Awash in 1980 and Harar Jugol in 2006.",
+      formula: "Historical framework: chronology of Ethiopia's World Heritage listings.",
+      substitution: "Place the dates in order on a timeline: 1978, then 1980, then 2006.",
+      calculation: "The first two listings fall close together at the end of the 1970s and the start of the 1980s, while Harar Jugol was added more than two decades later, so the pattern shows an early wave and later additions.",
+      answer: "1978, 1980 and 2006 respectively; Ethiopia's first wave of World Heritage registration came in 1978 to 1980 and later sites such as Harar Jugol were added in 2006."
+    },
+    {
+      problem: "Why is the Temple of Yeha important evidence for Ethiopian history?",
+      given: "The Temple of Yeha is located in Yeha, northeast of Adwa; it is a tower built in the Sabaean style and dated through comparison with ancient structures in South Arabia to around 700 BC.",
+      formula: "Historical framework: dating and style as evidence in history.",
+      substitution: "The building style links the tower to South Arabian architecture, and the comparison provides an approximate date.",
+      calculation: "A pre-Christian tower dated to about 700 BC shows connections between ancient Ethiopia and South Arabia, so the temple is evidence of long-distance cultural contact before Christianity.",
+      answer: "Because its Sabaean style, dated to around 700 BC, shows that ancient Ethiopia had cultural links with South Arabia long before Christianity."
+    }
+  ],
+  commonMistakes: [
+    "Calling a festival a tangible heritage; festivals are classified under intangible heritage.",
+    "Thinking natural heritage means only plants and animals, and not formations and sites valued for science, conservation or natural beauty.",
+    "Confusing tangible heritage, which is physical, with intangible heritage, which is expressed in practices, skills and expressions.",
+    "Mixing up the registration dates of Lalibela in 1978 and Harar Jugol in 2006.",
+    "Assuming that all Ethiopian heritage is registered by UNESCO, when only some sites and traditions are on the lists.",
+    "Forgetting that manuscripts and the Ge'ez written tradition are part of Ethiopia's tangible heritage."
+  ],
+  applications: [
+    "Making a class chart of local heritage sorted into natural, tangible and intangible.",
+    "Researching when each Ethiopian UNESCO site was inscribed and plotting the dates on a timeline.",
+    "Visiting a local monastery, mosque or palace and writing a description of its historical value.",
+    "Preparing a presentation on an intangible heritage such as Timket, Irreecha or Ashenda.",
+    "Photographing and describing a local natural site that deserves protection.",
+    "Writing to a local office to ask for better protection of a heritage site in your area."
+  ],
+  summary: "Heritage in Ethiopia falls into three types: natural, tangible and intangible. Natural heritage covers outstanding natural formations and sites; tangible heritage covers physical artifacts such as buildings, monuments and manuscripts; and intangible heritage covers practices, expressions, festivals and skills in five domains. Ethiopia has many UNESCO-registered heritages, from the Stelae of Axum and Lalibela, listed in 1980 and 1978, to Harar Jugol in 2006 and the Konso landscape in 2011, together with intangible entries such as Meskel in 2013, Fichee-Chambalaalla in 2015, Gadaa in 2016 and Timket in 2019.",
+  visuals: [
+    {
+      type: "tableVisual",
+      config: {
+        title: "Three Types of Heritage",
+        headers: ["Type", "What it is", "Examples"],
+        rows: [
+          ["Natural", "Outstanding natural formations and sites", "Simien Mountains, Lower Valley of Awash"],
+          ["Tangible", "Physical artifacts passed down through generations", "Stelae of Axum, Lalibela churches, manuscripts"],
+          ["Intangible", "Practices, expressions, skills and festivals", "Timket, Gadaa, Fichee-Chambalaalla"]
+        ]
+      }
+    },
+    {
+      type: "timeline",
+      config: {
+        title: "Ethiopia's UNESCO Inscriptions",
+        events: [
+          { year: "1978", text: "Rock-hewn Churches of Lalibela and the Simien Mountains National Park are listed as World Heritage Sites." },
+          { year: "1980", text: "The Stelae of Axum, the Lower Valley of Awash, the Lower Valley of Omo and Tiya are listed." },
+          { year: "2006", text: "Harar Jugol, the fortified historic town, is registered as a World Heritage Site." },
+          { year: "2011", text: "The Konso cultural landscape is inscribed on the World Heritage list." },
+          { year: "2013", text: "Mesqel Demera is inscribed on the UNESCO Representative List of the Intangible Cultural Heritage of Humanity." },
+          { year: "2015", text: "Fichee-Chambalaalla, the Sidama New Year celebration, is inscribed." },
+          { year: "2016", text: "The Gadaa system of the Oromo is inscribed." },
+          { year: "2019", text: "Timket, the Ethiopian Epiphany, becomes Ethiopia's fourth entry on the UNESCO intangible lists." }
+        ]
+      }
+    },
+    {
+      type: "mindMap",
+      config: {
+        title: "Heritages of Ethiopia",
+        center: "Ethiopian Heritage",
+        branches: [
+          { label: "World Heritage Sites", items: ["Stelae of Axum", "Rock-hewn Churches of Lalibela", "Fasil Ghebbi", "Simien Mountains", "Lower Valleys of Awash and Omo", "Tiya", "Harar Jugol", "Konso landscape"] },
+          { label: "Intangible heritage", items: ["Mesqel Demera", "Fichee-Chambalaalla", "Gadaa", "Timket", "Ashenda, Irreecha"] },
+          { label: "Other tangible heritage", items: ["Manuscripts in Ge'ez", "Temple of Yeha", "Mosques", "Palaces", "Sof Omar caves", "Halala Keela wall"] }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "Which of the following is an example of intangible heritage?", options: ["Stelae of Aksum", "Palace of Jimma Abba Jifar II", "Jugol of Harar", "Fiche-Chambalaalla"], answer: 3, difficulty: 1, explanation: "Fiche-Chambalaalla is a New Year celebration, so it is intangible heritage." },
+    { type: "mcq", q: "Tangible heritages include all of the following, except:", options: ["buildings", "handicrafts", "paintings", "songs"], answer: 3, difficulty: 1, explanation: "Songs are an expression rather than a physical artifact, so they are not tangible heritage." },
+    { type: "mcq", q: "The indigenous democratic socio-political system of the Oromo people is known as:", options: ["Siinqee", "Irreecha", "Gadaa", "Heera"], answer: 2, difficulty: 2, explanation: "Gadaa is the indigenous democratic socio-political system of the Oromo people." },
+    { type: "mcq", q: "Which one of the following has been inscribed on the representative list of the intangible cultural heritage of humanity by UNESCO?", options: ["Jugol of Harar", "Dagu", "Tiya", "Gadaa"], answer: 3, difficulty: 2, explanation: "Gadaa was inscribed on the representative list of the intangible cultural heritage of humanity in 2016." },
+    { type: "short", q: "In which year were the Rock-hewn Churches of Lalibela registered by UNESCO?", answer: "1978", difficulty: 1, explanation: "They were registered as a World Heritage Site in 1978." },
+    { type: "short", q: "How many churches are found at Lalibela?", answer: "eleven|11", difficulty: 1, explanation: "All eleven churches represent a unique artistic achievement." },
+    { type: "concept", q: "Name the type of heritage that refers to practices, representations, expressions, knowledge, skills, instruments, objects and artefacts.", answer: "intangible heritage", difficulty: 2, explanation: "That is the textbook definition of intangible heritage." },
+    { type: "mcq", q: "The Simien Mountains National Park is home to which rare animals?", options: ["Lion, elephant and giraffe", "Gelada baboon, Simien fox and Walia ibex", "Zebra, ostrich and antelope", "Hippo, crocodile and pelican"], answer: 1, difficulty: 2, explanation: "The park is home to the Gelada baboon, the Simien fox and the Walia ibex." },
+    { type: "mcq", q: "Tiya is found 90 km south of Addis Ababa and contains:", options: ["36 monuments, including 32 carved stelae", "11 rock-hewn churches", "a fortified wall of stone", "an underground cave system"], answer: 0, difficulty: 3, explanation: "The site contains 36 monuments, including 32 carved stelae covered with symbols." },
+    { type: "tf", q: "The wall of Harar Jugol was built during the time of Emir Nur Ibn Mujahid in the 16th century.", answer: true, difficulty: 2, explanation: "The wall (Jugol) was built during the time of Emir Nur Ibn Mujahid in the 16th century." },
+    { type: "concept", q: "In which year was the Gadaa system inscribed on the UNESCO Representative List of the Intangible Cultural Heritage of Humanity?", answer: "2016", difficulty: 2, explanation: "Gadaa was inscribed on the representative list of the intangible cultural heritage of humanity in 2016." }
+  ]
+};

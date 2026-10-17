@@ -1,12 +1,513 @@
-/* Content: g10-history-uh6 — migrated from generated JSON (Phase 0 pipeline restore).
-   Content upgrade to spec v2 happens per unit in later phases. */
+/* Content: Grade 10 History - Unit 6: Ethiopia: Internal Developments and External
+   Influences from 1941 to 1991 (4 topics). Source: MoE Grade 10 History Student
+   Textbook, Unit 6. */
 window.Lessons = window.Lessons || {};
 
-Lessons["g10-history-uh6-t1"] = {"overview":"<b>Major Administrative Reforms and Socio-Economic Conditions in the Post-Liberation Period</b> sits inside <b>Ethiopia: Internal Developments and External Influences from 1941 to 1991</b>. Ethiopian revolution and reform shaped the years from 1941 to 1991, the focus of Unit 6 of Grade 10 History in the Ethiopian (FDRE Ministry of Education) curriculum. First, it covers post-liberation reforms and British and American influence. Then it traces early opposition from peasants, the 1960 coup, and students. Next, it explains the Ethiopian revolution of 1974 and the fall of the monarchy. Also it follows the Derg, its reforms, and the Red Terror. Finally, it looks at the Ethio-Somalia war, the question of Eritrea, and the fall of the Derg. Students will also learn how popular movements apply to real-life situations, such as calls for land and justice today.","objectives":["Explain British and American influence in post-liberation Ethiopia.","Compare the land policies of the imperial and the Derg regimes.","Describe the early opposition movements against imperial rule.","Analyse the causes and results of the Ethiopian revolution of 1974.","Trace the Ethio-Somalia war and the question of Eritrea."],"simple":"<b>Major Administrative Reforms and Socio-Economic Conditions in the Post-Liberation Period in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, the British era and the Anglo-Ethiopian treaties of 1942 and 1944.</li> <li>The American era, the Point Four Agreement, and the Kagnew station.</li> <li>Also the 1955 constitution, the twelve provinces, and land tenure such as gult and rist.</li> <li>Development plans in trade, industry, education, and health.</li></ul>","detailed":"<p><b>Major Administrative Reforms and Socio-Economic Conditions in the Post-Liberation Period — the essentials.</b> First, the British era and the Anglo-Ethiopian treaties of 1942 and 1944. The American era, the Point Four Agreement, and the Kagnew station. Also the 1955 constitution, the twelve provinces, and land tenure such as gult and rist. Development plans in trade, industry, education, and health.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Explain British and American influence in post-liberation Ethiopia.</li><li>Compare the land policies of the imperial and the Derg regimes.</li><li>Describe the early opposition movements against imperial rule.</li><li>Analyse the causes and results of the Ethiopian revolution of 1974.</li><li>Trace the Ethio-Somalia war and the question of Eritrea.</li></ul>","keyTerms":[{"term":"First","def":"First, the British era and the Anglo-Ethiopian treaties of 1942 and 1944."},{"term":"The American era","def":"The American era, the Point Four Agreement, and the Kagnew station."},{"term":"Development plans in trade","def":"Development plans in trade, industry, education, and health."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing major administrative reforms and socio-economic conditions in the post-liberation period with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Reading the news: events in this topic map onto modern Ethiopian civic debates","Answering the \"give an example\" questions that close every ESSLCE history paper"],"summary":"Major Administrative Reforms and Socio-Economic Conditions in the Post-Liberation Period: First, the British era and the Anglo-Ethiopian treaties of 1942 and 1944. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"Major Administrative Reforms and Socio-Economic Conditions in the Post-Liberation Period\" is correct according to the MoE curriculum?","options":["First, the British era and the Anglo-Ethiopian treaties of 1942 and 1944.","Major Administrative Reforms and Socio-Economic Conditions in the Post-Liberation Period is not mentioned in the MoE curriculum for this unit","Major Administrative Reforms and Socio-Economic Conditions in the Post-Liberation Period happened in a different century than this topic covers","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, the British era and the Anglo-Ethiopian treaties of 1942 and 1944. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"Major Administrative Reforms and Socio-Economic Conditions in the Post-Liberation Period\"?","options":["The American era, the Point Four Agreement, and the Kagnew station.","Major Administrative Reforms and Socio-Economic Conditions in the Post-Liberation Period was reversed by the very process this topic describes","Major Administrative Reforms and Socio-Economic Conditions in the Post-Liberation Period is not mentioned in the MoE curriculum for this unit","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: The American era, the Point Four Agreement, and the Kagnew station."},{"type":"tf","q":"True or false: First, the British era and the Anglo-Ethiopian treaties of 1942 and 1944.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover major administrative reforms and socio-economic conditions in the post-liberation period.","answer":false,"difficulty":1,"explanation":"Major Administrative Reforms and Socio-Economic Conditions in the Post-Liberation Period is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Explain British and American influence in post-liberation Ethiopia.","difficulty":2,"altAnswers":["Compare the land policies of the imperial and the Derg regimes.","Describe the early opposition movements against imperial rule."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why major administrative reforms and socio-economic conditions in the post-liberation period matters.","answer":"Major Administrative Reforms and Socio-Economic Conditions in the Post-Liberation Period is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of major administrative reforms and socio-economic conditions in the post-liberation period in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to major administrative reforms and socio-economic conditions in the post-liberation period, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
+Lessons["g10-history-uh6-t1"] = {
+  overview: "After liberation in 1941 Ethiopia was formally independent but still dominated by Britain, then drawn into the American orbit. This lesson follows the administrative, constitutional, land and economic changes of the post-liberation period up to the eve of the 1974 revolution.",
+  objectives: [
+    "Examine the impact of British influence in the immediate post-liberation period",
+    "Evaluate the Anglo-Ethiopian treaties of 1942 and 1944",
+    "Describe the American era, the Point Four Agreement and the Kagnew station",
+    "Explain the 1942 administrative reorganisation and the 1955 Constitution",
+    "Compare land tenure, tenancy and socio-economic conditions under the imperial regime"
+  ],
+  simple: "Ethiopia regained its independence in 1941, but Britain controlled the army, finance, the railway and communications. The treaties of 31 January 1942 and December 1944 recognised Ethiopia as an independent state while keeping much of its sovereignty restricted; the Ogaden stayed British until 1954. In 1950 the United Nations decided, by Resolution 390V, that Eritrea would federate with Ethiopia, which happened in 1952. The United States then became the main partner through the Point Four Agreement of 1952 and the 1953 treaty that let it use the Kagnew station in Asmara. At home, Haile Selassie reorganised the country into twelve teqlaygezats in 1942 and issued a revised constitution in 1955 that strengthened his absolute power. Agriculture remained the backbone, but gult, rist, tenancy and land sales left most southern peasants poor.",
+  detailed: "<p><b>The British era.</b> On May 5, 1941, Haile Selassie returned to Addis Ababa after the Italians were defeated, but Ethiopia remained under British influence. The British military administration dictated internal and external affairs and controlled the most important government bodies: the police force, the army and finance. The British also set up the Occupied Enemy Territory Administration (OETA) over the Ogaden and Eritrea.</p><p><b>The two treaties.</b> The first agreement was signed on 31 January 1942. It recognised Ethiopia as an independent state, yet restricted its sovereignty: the Ethiopian army was to be trained by the British military mission, British advisors were assigned to each ministry, the British minister held privilege over other diplomats, British forces could use former Italian state property without payment, and they controlled the Haud, the reserved area along the British Somaliland boundary and the Ogaden. The high-power radio station, the telephone system and the railway stayed under British control, and the British East African Shilling became the official currency. The second Anglo-Ethiopian treaty was signed in December 1944. Britain promised to restore the Ogaden, allowed Ethiopia to use the Djibouti-Addis Ababa railway, lifted the British minister's privilege and agreed to train and modernise the army through the British Military Mission to Ethiopia (BMME). Even so, the Ogaden stayed under British control until 1954, and Eritrea remained under British administration from 1941 to 1952.</p><p><b>The question of Eritrea.</b> After the Second World War Ethiopia demanded that Eritrea be unified with it on historical and geographical grounds. Eritrean politics split into the Unionist Party, the single largest group, largely Orthodox Christian and Tigrigna speaking, which demanded union, and the Independence bloc, which opposed union and included the Muslim League, the Liberal Progressive Party and the Pro-Italian party of settlers, ex-askaris and people of mixed race. The four victorious powers, Britain, France, the Soviet Union and the United States, could not settle the issue and passed it to the United Nations in 1948. UN Resolution 390V, adopted on 2 December 1950, decided that Eritrea should be united with Ethiopia by a federation.</p><p><b>The American era.</b> Ethio-American ties began in 1903 with the first American mission led by Robert Skinner, and grew after the Second World War. The Point Four Agreement was signed on May 15, 1952, and the United States helped with locust management, agricultural and public health education, public administration training and scholarships. After Colonel Gamal Abdel Nassir's 1952 revolution in Egypt, the United States looked for a new regional partner. The Ethiopian-American Treaty of 1953 let the United States operate the Kagnew station, a communication facility in Asmara previously used by the Italians as Radio Marina and renamed after the Ethiopian battalion that fought in the Korean War of 1950-1953. In return the United States promised military assistance and set up the Military Assistance Advisory Group (MAAG). In the 1960s and 1970s relations declined because satellite communication reduced the value of Kagnew and students increasingly opposed American imperialism.</p><p><b>Administrative reform and the 1955 Constitution.</b> Haile Selassie worked to suppress regional nobilities and build a centralised state. In 1942 Ethiopia was reorganised into twelve teqlaygezats (governorate-generals), each subdivided into awrajas (sub-provinces), weredas (districts) and mikitil weredas (sub-districts). Each governor, the enderase, was appointed by the Emperor and ruled on his behalf. The Revised Constitution of 1955 strengthened the Emperor's absolute power: he remained head of the executive, the legislative and the judiciary. It did not introduce popular sovereignty, the rule of law, good governance or religion-state relations, and it centralised authority in the monarch rather than promoting the values of a culturally diverse people.</p><p><b>Agriculture, land tenure and tenancy.</b> Agriculture was the backbone of the economy and the basis of power. The indigenous tenure systems were Gult, the right to collect tributes (gibir) granted by the Emperor to the warrior class, local rulers and the church, and Rist, land owned on a lineage basis. The qalad land measurement, applied widely with the creation of Menilek's empire-state, facilitated taxation and promoted private ownership and land sales; measured land was graded as lem, lem-tef and tef, paying the highest to lowest tax. Its most important consequence was the spread of tenancy, or landlessness, especially in the southern half, where 50 to 65 percent of holdings were tenanted. This system, locally known as Chisegna, and the tribute-paying gebbar left most peasants in miserable poverty.</p><p><b>Trade, industry and social services.</b> After 1941 the economy was almost unchanged, though roads improved and a few small industries appeared. Coffee was the leading export, followed by skins and hides, then pulses and oilseeds. Imports shifted from pre-war textiles to machinery and chemicals from Italy, Japan and the United States. By the early 1950s the Emperor tried to move from a subsistence to an agro-industrial economy, and the National Economic Council was created in 1954/55. The First Five-Year Plan (1957-61) built transport and communication infrastructure, the Second (1962-67) began a twenty-year agro-industrial programme, and the Third (1968-73) promoted manufacturing and agricultural package programmes. A shortage of qualified personnel, funds and equipment limited all of them, and industry remained small scale in Asmara, Addis Ababa and Dire Dawa. The Ministry of Public Health was founded in 1947 and medical and health colleges in Addis Ababa and Gondar, but services were mostly urban and curative. The Ministry of Education and Fine Arts was established in 1942; education was British-influenced until the early 1950s, when the American system replaced it.</p>",
+  keyTerms: [
+    { term: "OETA", def: "The Occupied Enemy Territory Administration set up by Britain over the Ogaden and Eritrea after 1941." },
+    { term: "Treaty of 1942", def: "The first Anglo-Ethiopian agreement, signed 31 January 1942, which recognised Ethiopian independence but restricted its sovereignty." },
+    { term: "UN Resolution 390V", def: "The resolution adopted on 2 December 1950 deciding that Eritrea be united with Ethiopia by a federation." },
+    { term: "Point Four Agreement", def: "The 15 May 1952 American aid agreement that supported locust control, agricultural and public health education and administration training." },
+    { term: "Kagnew station", def: "A United States communication facility in Asmara, formerly Radio Marina, named after the Ethiopian battalion in the Korean War." },
+    { term: "Teqlaygezat", def: "A governorate-general, one of the twelve units into which Ethiopia was reorganised in 1942, headed by an enderase." },
+    { term: "Gult and Rist", def: "Indigenous land tenure systems: Gult was the right to collect tribute, and Rist was land owned on a lineage basis." },
+    { term: "Gebbar", def: "A tribute-paying peasant, the basis of the tenancy system known in the south as Chisegna." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "Did the Anglo-Ethiopian Treaty of 1942 make Ethiopia dependent?",
+      given: "The treaty recognised Ethiopia as an independent state but gave Britain control of the army, finance, the railway, the currency and the Ogaden.",
+      formula: "Historical concept: sovereignty means a state controls its own internal and external affairs.",
+      substitution: "If key state functions such as defence, money and communications are in foreign hands, formal recognition alone does not secure sovereignty.",
+      calculation: "Ethiopia was legally independent but practically restricted, so the treaty created dependence in practice.",
+      answer: "Yes. Ethiopia was recognised as independent, but the treaty seriously limited its sovereignty."
+    },
+    {
+      problem: "Which of the two treaties, 1942 or 1944, gave Ethiopia a greater margin of independence?",
+      given: "In 1944 Britain promised to restore the Ogaden, allowed use of the railway and lifted the privilege of the British minister.",
+      formula: "Historical concept: compare treaties by how many sovereign powers are returned to the state.",
+      substitution: "The 1944 treaty returned several controls that the 1942 treaty had removed.",
+      calculation: "Because more restrictions were lifted in 1944, it left Ethiopia with a wider margin of independence.",
+      answer: "The December 1944 treaty, though the Ogaden still remained British until 1954."
+    },
+    {
+      problem: "Explain how land measurement under the qalad system changed rural society in southern Ethiopia.",
+      given: "The qalad graded land as lem, lem-tef and tef for taxation and spread private ownership and land sales.",
+      formula: "Historical concept: cause and effect in land tenure, measuring land for tax encouraged private ownership.",
+      substitution: "Taxation and sale encouraged large holdings, which pushed poorer peasants into tenancy.",
+      calculation: "Tenancy reached 50 to 65 percent in the southern half, leaving most peasants landless and poor.",
+      answer: "The qalad system spread private tenure and tenancy, deepening rural poverty in the south."
+    },
+    {
+      problem: "Why did Ethiopia's five-year development plans fail to industrialise the country?",
+      given: "The plans ran from 1957 to 1973 but industry stayed small scale in Asmara, Addis Ababa and Dire Dawa.",
+      formula: "Historical concept: a development plan succeeds only if it has people, money and equipment.",
+      substitution: "The textbook states there was a shortage of qualified personnel, funds and equipment.",
+      calculation: "Without these inputs most projects failed, so the industrial base stayed weak.",
+      answer: "Lack of skilled personnel, funds and equipment prevented the plans from creating a strong industry."
+    }
+  ],
+  commonMistakes: [
+    "Believing Ethiopia was fully sovereign after 1941, when Britain still controlled the army, finance and communications.",
+    "Confusing the 1942 and 1944 treaties; only the 1944 treaty restored the Ogaden promise and lifted restrictions.",
+    "Thinking Eritrea was federated with Ethiopia immediately in 1941, when federation came in 1952 after UN Resolution 390V.",
+    "Mixing up the Point Four Agreement of 1952 with the military treaty of 1953 that created the Kagnew station.",
+    "Treating the 1955 Constitution as a step toward democracy, when it strengthened the Emperor's absolute power.",
+    "Assuming Gult and Rist mean the same thing; Gult is the right to collect tribute while Rist is lineage land.",
+    "Forgetting that the Ogaden remained under British control until 1954."
+  ],
+  applications: [
+    "Using the 1942 and 1944 treaties to discuss how a weak state can be legally independent yet economically dependent.",
+    "Debating the Unionist and Independence bloc positions on Eritrea to practise understanding rival historical viewpoints.",
+    "Comparing the 1931 and 1955 constitutions to judge how much power a constitution gives to one person.",
+    "Analysing land tenure and the Chisegna tenancy system to explain rural poverty before 1974.",
+    "Reading the export list of coffee, hides and oilseeds to discuss why an economy based on few exports is fragile.",
+    "Examining the Kagnew station agreement to discuss how foreign military bases shape a country's alliances."
+  ],
+  summary: "After liberation Britain dominated Ethiopia through the treaties of 1942 and 1944, and the Ogaden stayed British until 1954. The federation of Eritrea in 1952 was followed by growing American influence through the Point Four Agreement and the Kagnew station. At home the Emperor centralised power through twelve teqlaygezats and the 1955 Constitution, while agriculture, gult and rist tenure, tenancy and weak five-year plans left most peasants poor.",
+  visuals: [
+    {
+      type: "timeline",
+      config: {
+        title: "Post-Liberation Ethiopia, 1941-1955",
+        events: [
+          { year: "1941", text: "Haile Selassie returns on May 5; British OETA over Ogaden and Eritrea" },
+          { year: "1942", text: "Treaty of 31 January and twelve teqlaygezats created" },
+          { year: "1944", text: "Second Anglo-Ethiopian treaty in December" },
+          { year: "1950", text: "UN Resolution 390V of 2 December on federation" },
+          { year: "1952", text: "Point Four Agreement; Eritrea federates with Ethiopia" },
+          { year: "1953", text: "US treaty on the Kagnew station and MAAG" },
+          { year: "1955", text: "Revised Constitution strengthens the Emperor" }
+        ]
+      }
+    },
+    {
+      type: "comparison",
+      config: {
+        title: "Britain and the United States in Ethiopia",
+        left: { name: "British era", items: ["Controlled army, police, finance", "Treaties of 1942 and 1944", "Ogaden held until 1954", "British East African Shilling"] },
+        right: { name: "American era", items: ["Point Four Agreement 1952", "Kagnew station in Asmara", "MAAG military aid", "Influence in education"] }
+      }
+    },
+    {
+      type: "mindMap",
+      config: {
+        title: "Post-Liberation Changes",
+        center: "1941-1974",
+        branches: [
+          { label: "Administration", items: ["Twelve teqlaygezats", "Enderase governors", "1955 Constitution"] },
+          { label: "Land", items: ["Gult and Rist", "Qalad grading", "Chisegna tenancy"] },
+          { label: "Economy", items: ["Coffee exports", "Five-Year Plans", "Small industry"] },
+          { label: "Society", items: ["Health 1947", "Education 1942", "Urban services"] }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "The first Anglo-Ethiopian treaty was signed on:", options: ["31 January 1942", "5 May 1941", "2 December 1950", "15 May 1952"], answer: 0, difficulty: 1, explanation: "The first agreement between Ethiopia and Britain was signed on 31 January 1942." },
+    { type: "tf", q: "The Ogaden stayed under British control until 1954.", answer: true, difficulty: 1, explanation: "The textbook states the Ogaden stayed under the British until 1954." },
+    { type: "tf", q: "UN Resolution 390V supported the separation of Eritrea from Ethiopia.", answer: false, difficulty: 2, explanation: "Resolution 390V decided that Eritrea should be united with Ethiopia by a federation." },
+    { type: "mcq", q: "Which political group did NOT support the independence of Eritrea?", options: ["The Muslim League", "The Unionist Party", "The Liberal Progressive Party", "The Pro-Italian party"], answer: 1, difficulty: 2, explanation: "The Unionist Party demanded the unification of Eritrea with Ethiopia." },
+    { type: "mcq", q: "The Point Four Agreement of 1952 gave Ethiopia American help in:", options: ["building the railway", "locust management and public health education", "training the navy", "printing currency"], answer: 1, difficulty: 1, explanation: "It covered locust management, agricultural and public health education, administration training and scholarships." },
+    { type: "short", q: "Name the communication facility in Asmara that the United States operated under the 1953 treaty.", answer: "Kagnew station|Kagnew", difficulty: 1, explanation: "The Kagnew station was formerly the Italian Radio Marina." },
+    { type: "concept", q: "Give the term for the governorate-generals into which Ethiopia was reorganised in 1942.", answer: "teqlaygezat|teqlaygezats", difficulty: 1, explanation: "Ethiopia was reorganised into twelve teqlaygezats in 1942." },
+    { type: "mcq", q: "The leading export of Ethiopia in the post-liberation period was:", options: ["Gold", "Coffee", "Skins and hides", "Oilseeds"], answer: 1, difficulty: 1, explanation: "Coffee was the leading agricultural export, followed by skins and hides." },
+    { type: "concept", q: "Explain what Rist meant in the indigenous land tenure system.", answer: "land owned based on a lineage system|lineage land", difficulty: 2, explanation: "Rist refers to land owned based on a lineage system." },
+    { type: "ordering", q: "Arrange these events from earliest to latest.", options: ["Point Four Agreement", "Second Anglo-Ethiopian treaty", "Twelve teqlaygezats created", "UN Resolution 390V"], answer: 2, difficulty: 3, explanation: "The order is 1942, 1944, 1950, then 1952." },
+    { type: "short", q: "Which ministry was established in 1942 to modernise education?", answer: "Ministry of Education and Fine Arts", difficulty: 2, explanation: "The Ministry of Education and Fine Arts was established in 1942." }
+  ]
+};
 
-Lessons["g10-history-uh6-t2"] = {"overview":"<b>Early Opposition Movements Against the Imperial Rule</b> sits inside <b>Ethiopia: Internal Developments and External Influences from 1941 to 1991</b>. Ethiopian revolution and reform shaped the years from 1941 to 1991, the focus of Unit 6 of Grade 10 History in the Ethiopian (FDRE Ministry of Education) curriculum. First, it covers post-liberation reforms and British and American influence. Then it traces early opposition from peasants, the 1960 coup, and students. Next, it explains the Ethiopian revolution of 1974 and the fall of the monarchy. Also it follows the Derg, its reforms, and the Red Terror. Finally, it looks at the Ethio-Somalia war, the question of Eritrea, and the fall of the Derg. Students will also learn how popular movements apply to real-life situations, such as calls for land and justice today.","objectives":["Explain British and American influence in post-liberation Ethiopia.","Compare the land policies of the imperial and the Derg regimes.","Describe the early opposition movements against imperial rule.","Analyse the causes and results of the Ethiopian revolution of 1974.","Trace the Ethio-Somalia war and the question of Eritrea."],"simple":"<b>Early Opposition Movements Against the Imperial Rule in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>Then peasant revolts in Tigray, Bale, and Gojjam against heavy taxation.</li> <li>The 1960 coup led by the Neway brothers against the emperor.</li> <li>Also the student movement and its slogan, Land to the Tiller.</li></ul>","detailed":"<p><b>Early Opposition Movements Against the Imperial Rule — the essentials.</b> Then peasant revolts in Tigray, Bale, and Gojjam against heavy taxation. The 1960 coup led by the Neway brothers against the emperor. Also the student movement and its slogan, Land to the Tiller.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Explain British and American influence in post-liberation Ethiopia.</li><li>Compare the land policies of the imperial and the Derg regimes.</li><li>Describe the early opposition movements against imperial rule.</li><li>Analyse the causes and results of the Ethiopian revolution of 1974.</li><li>Trace the Ethio-Somalia war and the question of Eritrea.</li></ul>","keyTerms":[{"term":"Then peasant revolts in Tigray","def":"Then peasant revolts in Tigray, Bale, and Gojjam against heavy taxation."},{"term":"The 1960 coup led by the Neway brothers against the emperor","def":"The 1960 coup led by the Neway brothers against the emperor."},{"term":"Also the student movement and its slogan","def":"Also the student movement and its slogan, Land to the Tiller."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing early opposition movements against the imperial rule with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Reading the news: events in this topic map onto modern Ethiopian civic debates","Answering the \"give an example\" questions that close every ESSLCE history paper"],"summary":"Early Opposition Movements Against the Imperial Rule: Then peasant revolts in Tigray, Bale, and Gojjam against heavy taxation. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"Early Opposition Movements Against the Imperial Rule\" is correct according to the MoE curriculum?","options":["Then peasant revolts in Tigray, Bale, and Gojjam against heavy taxation.","Early Opposition Movements Against the Imperial Rule is not mentioned in the MoE curriculum for this unit","Early Opposition Movements Against the Imperial Rule happened in a different century than this topic covers","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: Then peasant revolts in Tigray, Bale, and Gojjam against heavy taxation. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"Early Opposition Movements Against the Imperial Rule\"?","options":["The 1960 coup led by the Neway brothers against the emperor.","Early Opposition Movements Against the Imperial Rule was reversed by the very process this topic describes","Early Opposition Movements Against the Imperial Rule is not mentioned in the MoE curriculum for this unit","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: The 1960 coup led by the Neway brothers against the emperor."},{"type":"tf","q":"True or false: Then peasant revolts in Tigray, Bale, and Gojjam against heavy taxation.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover early opposition movements against the imperial rule.","answer":false,"difficulty":1,"explanation":"Early Opposition Movements Against the Imperial Rule is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Explain British and American influence in post-liberation Ethiopia.","difficulty":2,"altAnswers":["Compare the land policies of the imperial and the Derg regimes.","Describe the early opposition movements against imperial rule."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why early opposition movements against the imperial rule matters.","answer":"Early Opposition Movements Against the Imperial Rule is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of early opposition movements against the imperial rule in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to early opposition movements against the imperial rule, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
+Lessons["g10-history-uh6-t2"] = {
+  overview: "Between 1943 and 1970 the imperial regime faced peasant revolts, an attempted coup and a radical student movement. This lesson explains the causes of each opposition and why none of them yet brought the monarchy down.",
+  objectives: [
+    "Explain the major causes of peasant revolts against the imperial regime",
+    "Describe the Woyyane, Bale and Gojjam uprisings and their outcomes",
+    "Analyse the causes and failure of the 1960 attempted coup",
+    "Evaluate the role of the Ethiopian student movement",
+    "Assess how early oppositions weakened imperial rule"
+  ],
+  simple: "Opposition to Haile Selassie began soon after his return from exile. The Woyyane revolt in Tigray in 1943 united semi-pastoralists, highland peasants and local lords and was crushed with the help of the British Royal Air Force. The Bale revolt, led by Waqo Gutu, lasted from 1963 to 1970 and grew out of land alienation, taxation and religious discrimination, with support from Somalia. Gojjam revolted in 1968 over the new agricultural income tax. In 1960 the brothers Mengistu and Germame Neway tried to overthrow the Emperor, but the coup failed for lack of army support. From the 1950s a student movement demanded land reform with the slogan Land to the Tiller, and the killing of Tilahun Gizaw in 1969 pushed students toward revolution.",
+  detailed: "<p><b>Peasant revolts begin.</b> The earliest noticeable revolt Haile Selassie faced after returning from exile took place in Tigray and is known as the Woyyane revolt. In 1943 three disgruntled social groups, semi-pastoralists, highland peasants and some local feudal lords, formed a united front against the regime, led by Bilata Haile Mariam Reda. The feudal lords wanted a greater share of regional power; the semi-pastoral communities of southern Tigray, especially the Raya and Azebo, feared that centralisation threatened their communal ideals of egalitarianism and justice; and the highland cultivators wanted to stop feudal exploitation and the excessive demands of state officials and the militia. This was the most serious internal threat Haile Selassie faced, and it was finally crushed by the imperial force in collaboration with the British Royal Air Force.</p><p><b>The Bale revolt.</b> The revolt in Bale started in the district of Elkere in 1963 and ended in 1970, spreading by 1964 to the districts of Wabe, Dallo and Ganalle. One of its leaders was Waqo Gutu. Land alienation, taxation, religious discrimination, ethnic hostility and corrupt administration sparked the uprising, and the arrival of Christian settlers into a mostly Muslim area intensified religious tensions. The new Republic of Somalia, which vowed to build a Greater Somalia, gave morale and material support. The uprising was finally quelled after its popular leaders, including Waqo, surrendered in March 1970, and the government assigned General Jagema Kello as governor of Bale.</p><p><b>The Gojjam and other uprisings.</b> The Gojjam peasants revolted several times because they resented the ill-treatment of patriots and heavy taxation. What finally triggered the Gojjam uprising of 1968 was the imperial government's attempt to introduce the 1967 agricultural income tax. When tax assessors were sent to Gojjam, the peasants refused to let them enter their land and resisted government agents; they petitioned the state, and when no positive response came they defied the state and rebelled. The government sent a combined force of local militia and armed police to the rebellious districts, especially Mota, Qolla Dega Damot and Bichena. Two other areas with significant peasant uprisings were Yejju in north-east Wallo and Gedeo in southern Sidamo, both of which began in land alienation and were crushed by government forces.</p><p><b>The coup of 1960.</b> The most serious challenge to Haile Selassie's administration in the post-liberation period was the attempted coup of 1960. It was organised by two brothers, Mengistu Neway, then commander of the Imperial Bodyguard, and Germame Neway, a civil servant and intellectual who bridged the pre-Italo-Ethiopian War intellectuals and the student radicals of the 1960s and 1970s. They were joined by the Chief of Security Colonel Warqenah Gabayahu, the Police Commissioner Brigadier General Tsege Dibu and a few educated radicals, and were supported by most of the Imperial Bodyguard. The coup makers proclaimed a new government on 14 December 1960, appointing the Emperor's son and heir, Asfawosen Haile Selassie, as a salaried constitutional monarch, Ras Emeru Haile Selassie as prime minister and General Mulugeta Buli as chief of staff. Confrontation in Addis Ababa lasted barely two days; the Emperor entered the city two days later and aborted the coup. General Tsige Dibu was killed in action, Germame and Colonel Workneh Gebeyehu committed suicide, and Mengestu was captured and sentenced to death. The main cause of failure was a lack of support from the army, together with poor organisation.</p><p><b>The Ethiopian student movement.</b> The student movement began with the expansion of secondary and higher education. Its nucleus was the University College of Addis Ababa, founded in 1950 and later named Haile Selassie I University. Students were displeased with the ruling monarchy, the feudal land structure and the poor quality of life of the people, and they demanded better education facilities, a free press and the right to form their union. Their activism was strengthened by Ethiopian student activism abroad, the attempted coup of 1960, the anti-imperialist and pro-socialist movement in some Western countries, and the presence of students from different African countries on Ethiopian scholarships. In the mid-1960s they raised the abolition of the feudal land tenure system, with the famous slogan Meret Learashu, meaning Land to the Tiller, and advocated Marxism-Leninism. On December 28, 1969, the president of the student union, Tilahun Gizaw, was shot by the security police while walking outside the Seddest kilo campus in the Afencho Ber area; his death was a transformative event that pushed more radical students toward revolution.</p>",
+  keyTerms: [
+    { term: "Woyyane revolt", def: "The 1943 revolt in Tigray, led by Bilata Haile Mariam Reda, the most serious internal threat Haile Selassie faced." },
+    { term: "Bale revolt", def: "The peasant uprising in Bale from 1963 to 1970, led partly by Waqo Gutu and sparked by land alienation and taxation." },
+    { term: "Coup d'etat", def: "A sudden, illegal seizure of power from a government, as attempted in Ethiopia in December 1960." },
+    { term: "Germame Neway", def: "The intellectual leader of the 1960 coup and brother of Mengistu Neway." },
+    { term: "Land to the Tiller", def: "The students' slogan Meret Learashu, demanding the abolition of the feudal land tenure system." },
+    { term: "Tilahun Gizaw", def: "The student union president shot by security police on 28 December 1969, whose death radicalised the movement." },
+    { term: "Agricultural income tax", def: "The 1967 tax whose introduction triggered the Gojjam uprising of 1968." },
+    { term: "University College of Addis Ababa", def: "Founded in 1950 and later named Haile Selassie I University, the nucleus of the student movement." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "Why did the Woyyane revolt of 1943 bring together such different social groups?",
+      given: "Semi-pastoralists, highland peasants and local feudal lords all opposed the centralising imperial state for different reasons.",
+      formula: "Historical concept: common opposition to one policy can unite groups with different interests.",
+      substitution: "Centralisation threatened the lords' share of power, the pastoralists' communal equality and the peasants' land and freedom from officials.",
+      calculation: "Because each group lost something to centralisation, they formed a united front against the regime.",
+      answer: "They shared one enemy, centralisation, even though their separate grievances differed."
+    },
+    {
+      problem: "Use the Bale revolt to explain how an internal grievance can attract foreign support.",
+      given: "The Bale revolt was sparked by land alienation, taxation and religious discrimination, and Somalia supported it.",
+      formula: "Historical concept: foreign states support internal rebels when the rebels' aims match their own interests.",
+      substitution: "Somalia's Greater Somalia policy made the Bale rebels useful to its regional ambitions.",
+      calculation: "Somalia supplied morale and material support, but the revolt still ended when its leaders surrendered in March 1970.",
+      answer: "Internal grievances gave Somalia a reason to intervene, yet external support did not save the revolt."
+    },
+    {
+      problem: "Why did the 1960 coup fail even though it was led by the commander of the Imperial Bodyguard?",
+      given: "The Neway brothers, the Chief of Security and most of the Imperial Bodyguard took part, but the coup collapsed in two days.",
+      formula: "Historical concept: a coup succeeds only if the wider armed forces accept it.",
+      substitution: "The army did not support the coup makers and their organisation was weak.",
+      calculation: "Without army backing the rebels could not hold the capital, so the Emperor's loyalists prevailed.",
+      answer: "The main cause was lack of support from the army, combined with poor organisation."
+    },
+    {
+      problem: "How did the death of Tilahun Gizaw change the student movement?",
+      given: "Tilahun Gizaw, the student union president, was shot by security police on 28 December 1969.",
+      formula: "Historical concept: repression can convert reformist protest into revolutionary commitment.",
+      substitution: "Students who had demanded reforms saw peaceful demands answered with bullets.",
+      calculation: "The killing removed a moderate leader and convinced more activists that revolution was necessary.",
+      answer: "It radicalised the movement and pushed more students toward revolution."
+    }
+  ],
+  commonMistakes: [
+    "Placing the Woyyane revolt after 1960; it happened in Tigray in 1943.",
+    "Saying the Bale revolt ended in 1963; it began then and ended with the surrender of leaders in March 1970.",
+    "Believing the 1960 coup overthrew the Emperor; it was abortive and he returned within two days.",
+    "Naming Mengistu Neway as the intellectual of the coup when that was his brother Germame.",
+    "Thinking the Gojjam uprising was caused by land alienation alone; its trigger was the 1967 agricultural income tax.",
+    "Confusing the students' demand for a free press and union with the later demand for land reform; both were raised.",
+    "Forgetting that the Bale revolt received support from Somalia."
+  ],
+  applications: [
+    "Comparing the Woyyane, Bale and Gojjam revolts to see the common causes of peasant anger: taxation and land.",
+    "Role-playing the 1960 coup debate to discuss why taking power requires the support of the army.",
+    "Discussing the slogan Land to the Tiller as an example of how a short phrase can carry a political programme.",
+    "Analysing why the killing of Tilahun Gizaw increased rather than silenced student protest.",
+    "Examining how religious discrimination worsened tension between Christian settlers and Muslim residents in Bale.",
+    "Researching a local grievance and writing a petition, as the Gojjam peasants did before rebelling."
+  ],
+  summary: "From 1943 the imperial regime faced repeated opposition. The Woyyane revolt and the Bale and Gojjam peasant uprisings grew out of taxation, land alienation and centralisation, while the 1960 coup of the Neway brothers failed for lack of army support. The student movement, founded on the University College of Addis Ababa, demanded land reform under the slogan Land to the Tiller, and the killing of Tilahun Gizaw in 1969 helped turn protest into revolution.",
+  visuals: [
+    {
+      type: "timeline",
+      config: {
+        title: "Early Opposition, 1943-1970",
+        events: [
+          { year: "1943", text: "Woyyane revolt in Tigray crushed with British air support" },
+          { year: "1960", text: "Attempted coup of the Neway brothers, 14 December" },
+          { year: "1963", text: "Bale revolt begins in the district of Elkere" },
+          { year: "1968", text: "Gojjam uprising over the agricultural income tax" },
+          { year: "1969", text: "Student leader Tilahun Gizaw shot on 28 December" },
+          { year: "1970", text: "Bale leaders, including Waqo Gutu, surrender in March" }
+        ]
+      }
+    },
+    {
+      type: "comparison",
+      config: {
+        title: "Two Challenges to the Emperor",
+        left: { name: "Peasant revolts", items: ["Rural grievances", "Taxation and land", "Led by local figures", "Crushed by force"] },
+        right: { name: "The 1960 coup", items: ["Elite and military", "Wanted new government", "Led by the Neway brothers", "Failed for lack of army support"] }
+      }
+    },
+    {
+      type: "mindMap",
+      config: {
+        title: "Causes of Peasant Revolts",
+        center: "Peasant anger",
+        branches: [
+          { label: "Taxation", items: ["Income tax 1967", "Gibir tribute", "Tax assessors"] },
+          { label: "Land", items: ["Alienation", "Tenancy", "Evictions"] },
+          { label: "Power", items: ["Centralisation", "State officials", "Local lords"] },
+          { label: "Religion", items: ["Discrimination", "Christian settlers", "Muslim areas"] }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "The earliest noticeable revolt Haile Selassie faced after returning from exile was:", options: ["the Bale revolt", "the Gojjam uprising", "the Woyyane revolt", "the Gedeo uprising"], answer: 2, difficulty: 1, explanation: "The Woyyane revolt took place in Tigray in 1943." },
+    { type: "short", q: "Who led the Woyyane revolt of 1943?", answer: "Bilata Haile Mariam Reda|Haile Mariam Reda", difficulty: 2, explanation: "The revolt was led by Bilata Haile Mariam Reda." },
+    { type: "tf", q: "The Bale revolt received support from the Republic of Somalia.", answer: true, difficulty: 1, explanation: "Somalia, pursuing Greater Somalia, gave morale and material support to the campaign." },
+    { type: "short", q: "Name one leader of the Bale uprising.", answer: "Waqo Gutu|Waqo", difficulty: 1, explanation: "Waqo Gutu was one of the leaders of the Bale uprising." },
+    { type: "concept", q: "Name the new tax whose introduction triggered the Gojjam uprising of 1968.", answer: "agricultural income tax|1967 agricultural income tax", difficulty: 2, explanation: "The 1967 agricultural income tax triggered the Gojjam uprising." },
+    { type: "mcq", q: "The 1960 coup d'etat was organised by:", options: ["Waqo Gutu and Jagema Kello", "Mengistu and Germame Neway", "Tilahun Gizaw and Haile Fida", "Aklilu Habtewold and Endalkachew"], answer: 1, difficulty: 1, explanation: "The coup was organised by the brothers Mengistu Neway and Germame Neway." },
+    { type: "concept", q: "Identify the intellectual leader of the 1960 coup d'etat.", answer: "Germame Neway|Germame", difficulty: 2, explanation: "Germame Neway was the civil servant and intellectual of the coup." },
+    { type: "mcq", q: "The main cause for the failure of the 1960 coup was:", options: ["British support for the Emperor", "lack of support from the army", "opposition from students", "division among the leaders"], answer: 1, difficulty: 2, explanation: "The coup failed chiefly because it lacked support from the army." },
+    { type: "mcq", q: "The famous slogan of the Ethiopian student movement was:", options: ["All things to the war front", "Down to American Imperialism", "Land to the Tiller", "Revolutionary motherland or death"], answer: 2, difficulty: 1, explanation: "The slogan was Meret Learashu, Land to the Tiller." },
+    { type: "concept", q: "Explain what happened to Tilahun Gizaw on 28 December 1969 and why it mattered.", answer: "he was shot by security police|his death pushed students toward revolution", difficulty: 2, explanation: "The student union president was shot by security police, radicalising the movement." },
+    { type: "ordering", q: "Arrange these events from earliest to latest.", options: ["Gojjam uprising", "Tilahun Gizaw shot", "Woyyane revolt", "The 1960 coup"], answer: 2, difficulty: 3, explanation: "The order is 1943, 1960, 1968, then 1969." }
+  ]
+};
 
-Lessons["g10-history-uh6-t3"] = {"overview":"<b>The Ethiopian Revolution and the Fall of the Monarchy</b> sits inside <b>Ethiopia: Internal Developments and External Influences from 1941 to 1991</b>. Ethiopian revolution and reform shaped the years from 1941 to 1991, the focus of Unit 6 of Grade 10 History in the Ethiopian (FDRE Ministry of Education) curriculum. First, it covers post-liberation reforms and British and American influence. Then it traces early opposition from peasants, the 1960 coup, and students. Next, it explains the Ethiopian revolution of 1974 and the fall of the monarchy. Also it follows the Derg, its reforms, and the Red Terror. Finally, it looks at the Ethio-Somalia war, the question of Eritrea, and the fall of the Derg. Students will also learn how popular movements apply to real-life situations, such as calls for land and justice today.","objectives":["Explain British and American influence in post-liberation Ethiopia.","Compare the land policies of the imperial and the Derg regimes.","Describe the early opposition movements against imperial rule.","Analyse the causes and results of the Ethiopian revolution of 1974.","Trace the Ethio-Somalia war and the question of Eritrea."],"simple":"<b>The Ethiopian Revolution and the Fall of the Monarchy in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>Next, the famine, strikes, and mutinies that opened the 1974 revolution.</li> <li>The Derg, the fall of Haile Selassie, and the nationalization of land.</li> <li>Also the Red Terror and the long civil war with liberation fronts.</li></ul>","detailed":"<p><b>The Ethiopian Revolution and the Fall of the Monarchy — the essentials.</b> Next, the famine, strikes, and mutinies that opened the 1974 revolution. The Derg, the fall of Haile Selassie, and the nationalization of land. Also the Red Terror and the long civil war with liberation fronts.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Explain British and American influence in post-liberation Ethiopia.</li><li>Compare the land policies of the imperial and the Derg regimes.</li><li>Describe the early opposition movements against imperial rule.</li><li>Analyse the causes and results of the Ethiopian revolution of 1974.</li><li>Trace the Ethio-Somalia war and the question of Eritrea.</li></ul>","keyTerms":[{"term":"Next","def":"Next, the famine, strikes, and mutinies that opened the 1974 revolution."},{"term":"The Derg","def":"The Derg, the fall of Haile Selassie, and the nationalization of land."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing the ethiopian revolution and the fall of the monarchy with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Reading the news: events in this topic map onto modern Ethiopian civic debates","Answering the \"give an example\" questions that close every ESSLCE history paper"],"summary":"The Ethiopian Revolution and the Fall of the Monarchy: Next, the famine, strikes, and mutinies that opened the 1974 revolution. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"The Ethiopian Revolution and the Fall of the Monarchy\" is correct according to the MoE curriculum?","options":["Next, the famine, strikes, and mutinies that opened the 1974 revolution.","The Ethiopian Revolution and the Fall of the Monarchy is not mentioned in the MoE curriculum for this unit","The Ethiopian Revolution and the Fall of the Monarchy happened in a different century than this topic covers","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: Next, the famine, strikes, and mutinies that opened the 1974 revolution. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"The Ethiopian Revolution and the Fall of the Monarchy\"?","options":["The Derg, the fall of Haile Selassie, and the nationalization of land.","The Ethiopian Revolution and the Fall of the Monarchy was reversed by the very process this topic describes","The Ethiopian Revolution and the Fall of the Monarchy is not mentioned in the MoE curriculum for this unit","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: The Derg, the fall of Haile Selassie, and the nationalization of land."},{"type":"tf","q":"True or false: Next, the famine, strikes, and mutinies that opened the 1974 revolution.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover the ethiopian revolution and the fall of the monarchy.","answer":false,"difficulty":1,"explanation":"The Ethiopian Revolution and the Fall of the Monarchy is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Explain British and American influence in post-liberation Ethiopia.","difficulty":2,"altAnswers":["Compare the land policies of the imperial and the Derg regimes.","Describe the early opposition movements against imperial rule."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why the ethiopian revolution and the fall of the monarchy matters.","answer":"The Ethiopian Revolution and the Fall of the Monarchy is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of the ethiopian revolution and the fall of the monarchy in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to the ethiopian revolution and the fall of the monarchy, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
+Lessons["g10-history-uh6-t3"] = {
+  overview: "In 1974 famine, inflation, strikes and army mutinies brought down the imperial regime and a military committee called the Derg seized power. This lesson follows the revolution, the fall of the monarchy and the radical reforms and repression that followed.",
+  objectives: [
+    "Describe the major developments of the 1974 revolution",
+    "Explain the deposition of Haile Selassie and the rise of the Derg",
+    "Outline the socio-economic and political reforms of the Derg",
+    "Assess the effects of the Red Terror and the civil war",
+    "List the fundamental causes for the fall of the Derg regime"
+  ],
+  simple: "By February 1974 Ethiopia was ripe for revolution. Famine, inflation and corrupt administration angered the people, and the Negelle army mutinied in January. On 18 February teachers opposed the Sector Review, taxi drivers struck against petrol prices and workers presented demands. The Derg, or Coordinating Committee of the Armed Forces, was set up on 28 June 1974 and on 12 September deposed Haile Selassie as a Provisional Military Administration Council. Its reforms included the Edget Behebret Zemecha literacy campaign, the nationalisation of banks and companies, the March 1975 Land Reform Proclamation and the nationalisation of urban land on 26 July 1975. Rival groups MEISON and the EPRP fought the regime, which answered with the Red Terror. In 1984 the Workers' Party of Ethiopia was formed and in 1987 it proclaimed the PDRE.",
+  detailed: "<p><b>The coming of the revolution.</b> The last two decades of Haile Selassie's reign saw growing opposition, which reached its peak in February 1974 as the country's social, economic and political situation worsened. From 1958 to 1974 almost all administrative regions were hit by famines of varying degrees, the most serious in Tigray in 1958/59 and in Wallo province in 1972/73. These famines killed and displaced tens of thousands, while the urban population suffered inflation and corrupt administration. Ethiopian students and a documentary film by the British journalist Jonathan Dimbleby made the devastating famine known to the international community.</p><p><b>The uprisings of 1974.</b> At the beginning of 1974 the first serious act along the road to revolution came from the army when the Negelle army mutinied in January, and forces in other provinces followed, demanding a pay increase and better working conditions. On 18 February 1974 the Ethiopian Teachers Association opposed the new educational reform programme known as the Sector Review, joined by students and some parents, and on the same day taxi drivers struck against a 50 percent rise in petrol prices. The Confederation of Ethiopian Labour Union (CELU) presented demands to Prime Minister Endalkachew Mekonen for new labour legislation, freedom of association, pension and wage increases, job security and free education, while the Muslim community demonstrated against discrimination. The Coordinating Committee of the Armed Forces (AFCC), commonly known as the Derg and composed of officers below the rank of major from the armed forces, police and territorial army, was set up in this period. The riots led to the resignation of Prime Minister Aklilu Habtewold, who was replaced on February 28, 1974, by Endalkatchew Mekonnen.</p><p><b>Deposition of the Emperor.</b> Ever since its establishment on 28 June 1974 the Derg acted as a de facto government. Its first move was to detain high-ranking officials of the imperial regime, including Prime Minister Endalkachew, after which Lij Mikael Emiru became prime minister, and it introduced the motto Ethiopia Tikdem. On 12 September 1974 the Derg deposed Haile Selassie and transformed itself into a Provisional Military Administration Council (PMAC). Lieutenant General Aman Mikael Andom became the first chairman, with Major Mengistu Haile Mariam and Major Atnafu Abate as first and second vice-chairmen. General Aman, a popular commander and hero of the first Ethio-Somalia war, clashed with the radical elements over the Eritrea question and was killed at his home while resisting arrest. On November 24, 1974, Brigadier General Teferi Benti became both Chairman and head of state, with Mengistu and Atnafu as his vice-chairmen.</p><p><b>Socio-economic reforms of the Derg.</b> The Derg introduced a series of radical measures. In December 1974 it launched the Development through Cooperation Campaign, or Edget Behebret Zemecha, and by late December about 60,000 campaigners were sent to the countryside to teach basic literacy and give peasants an orientation in socialism. In January 1975 it nationalised private banks and insurance companies, and private industrial and business companies were confiscated a month later. In March 1975 the Land Reform Proclamation nationalised all rural land and ended feudal relations in rural Ethiopia, providing for peasant associations on a Kebele basis whose primary task was to implement the proclamation and oversee the periodic redistribution of land. Urban land and extra houses were nationalised and made public property on 26 July 1975, and urban dwellers associations, the kebeles, were formed to administer housing and neighbourhood affairs.</p><p><b>Political conflict and the Red Terror.</b> After the old regime fell, the political role of the military and the strategies of the transition split the civilian groups, particularly the All Ethiopian Socialist Movement (AESM), or MEISON, led by Haile Fida, which gave critical support to the Derg, and the Ethiopian People Revolutionary Party (EPRP). The National Democratic Revolution programme, announced on 20 April 1976, envisaged a people's democratic republic under the leadership of the proletariat allied with the peasantry, and promised a working-class party. In 1976 and 1977 the EPRP intensified its armed struggle, and the Derg responded with the Red Terror, a bloody campaign against the EPRP and suspected individuals in which mass killing and torture became the order of the day, most intensely in Addis Ababa and the major provincial towns. Thousands of students, teachers, workers and ordinary people were imprisoned without charge, tortured and executed.</p><p><b>From the Red Terror to the PDRE.</b> By 1978 the Red Terror had more or less suppressed opposition in the cities, but separatist guerrilla movements in the central and northern highlands, particularly Tigray and Eritrea, continued a long civil war throughout the 1970s and 1980s. The Derg established the Workers' Party of Ethiopia (WPE) as a vanguard party in 1984, and its first task was to devise the new national constitution. In 1987 the People's Democratic Republic of Ethiopia (PDRE) was proclaimed and the constitution promulgated, making the country a unitary state of 24 administrative and 5 autonomous regions, namely Eritrea, Tigray, Asseb, Dire Dawa and the Ogaden. Real power rested on Mengistu, who was both president and general secretary of the WPE, and the power structure copied that of other communist countries, with the party given even more power than the government.</p>",
+  keyTerms: [
+    { term: "Derg", def: "The Coordinating Committee of the Armed Forces, formed on 28 June 1974 from officers below the rank of major, which became the de facto government." },
+    { term: "Sector Review", def: "The educational reform programme opposed by the Ethiopian Teachers Association on 18 February 1974." },
+    { term: "PMAC", def: "The Provisional Military Administration Council, into which the Derg transformed itself on 12 September 1974." },
+    { term: "Ethiopia Tikdem", def: "The motto or slogan adopted by the Derg in 1974." },
+    { term: "Edget Behebret Zemecha", def: "The Development through Cooperation Campaign launched in December 1974, sending about 60,000 campaigners to teach literacy and socialism." },
+    { term: "Land Reform Proclamation", def: "The March 1975 measure that nationalised all rural land and ended feudal relations in rural Ethiopia." },
+    { term: "Red Terror", def: "The Derg's ruthless campaign of killing and torture against the EPRP and suspected opponents, most intense in 1976-1978." },
+    { term: "PDRE", def: "The People's Democratic Republic of Ethiopia, proclaimed in 1987 as a unitary state of 24 administrative and 5 autonomous regions." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "Why is the Negelle army mutiny of January 1974 treated as the first serious act of the revolution?",
+      given: "After Negelle, armed forces in other provinces demanded pay increases and better working conditions.",
+      formula: "Historical concept: a revolution often begins when the state's own armed forces stop obeying it.",
+      substitution: "The army was the regime's main support, so its mutiny opened the way for wider protest.",
+      calculation: "Once soldiers joined the protest, the government could no longer rely on force, and the uprisings spread.",
+      answer: "Because it turned the regime's own instrument of power against it and started a chain of mutinies."
+    },
+    {
+      problem: "Explain how the Land Reform Proclamation of March 1975 changed rural Ethiopia.",
+      given: "It nationalised all rural land and ended feudal relations, and set up peasant associations to redistribute land.",
+      formula: "Historical concept: a land reform changes who controls the main means of production.",
+      substitution: "Ending feudal relations removed the landlord class that had collected tribute from peasants.",
+      calculation: "Land passed to peasant associations, so the old gult and tenancy system collapsed and peasants gained access to land.",
+      answer: "It ended feudal land relations and gave rural land to peasants through Kebele associations."
+    },
+    {
+      problem: "Why did the Derg's Red Terror weaken the regime in the long run?",
+      given: "Thousands of students, teachers, workers and ordinary people were imprisoned, tortured and executed, most intensely in the cities.",
+      formula: "Historical concept: repression can destroy an opponent yet also destroy the legitimacy of the state using it.",
+      substitution: "The Red Terror crushed the EPRP in the cities but created fear and hatred toward the Derg.",
+      calculation: "Although urban opposition was suppressed by 1978, armed movements in Tigray and Eritrea grew, and the regime lost popular support.",
+      answer: "It removed rivals in the short term but destroyed the regime's legitimacy and fuelled the civil war that later toppled it."
+    },
+    {
+      problem: "How did the 1987 constitution keep real power in the hands of one man?",
+      given: "The PDRE was proclaimed in 1987, and Mengistu was both president and general secretary of the WPE.",
+      formula: "Historical concept: judge a constitution by who actually holds power, not only by its text.",
+      substitution: "The party was given more power than the government, and the ruling party was dominated by the Derg.",
+      calculation: "Because the same leader controlled both the state and the party, real power remained with Mengistu.",
+      answer: "Power rested on Mengistu, who led both the state and the ruling party, as in other communist systems."
+    }
+  ],
+  commonMistakes: [
+    "Confusing the Derg's formation on 28 June 1974 with the deposition of Haile Selassie on 12 September 1974.",
+    "Thinking Prime Minister Endalkachew Mekonen led the coup; he was a prime minister replaced during the crisis.",
+    "Believing Aman Mikael Andom stayed chairman; he was replaced by Teferi Benti on 24 November 1974.",
+    "Saying the Edget Behebret Zemecha was a military campaign; it was a literacy and rural development campaign.",
+    "Mixing the political groups MEISON and the EPRP, which had opposing strategies toward the Derg.",
+    "Treating the Red Terror as resistance to the Derg, when it was the Derg's campaign against its opponents.",
+    "Assuming the 1987 PDRE gave real power to the people rather than to Mengistu and the party."
+  ],
+  applications: [
+    "Writing a short essay on the causes of the 1974 revolution, using famine, inflation and army mutinies as evidence.",
+    "Debating whether the nationalisation of rural land in 1975 was the Derg's most radical measure.",
+    "Comparing the imperial and Derg land policies to judge what changed for peasants.",
+    "Interviewing elders about the Edget Behebret Zemecha and reporting its merits and challenges.",
+    "Discussing why the Red Terror is remembered as a violation of human and democratic rights.",
+    "Tracing how the 1974 revolution still shapes land ownership and political life in Ethiopia today."
+  ],
+  summary: "The Ethiopian revolution peaked in February 1974 and, after army mutinies, strikes and demonstrations, the Derg deposed Haile Selassie on 12 September 1974. The Derg launched the Edget Behebret Zemecha, nationalised banks and companies, issued the March 1975 Land Reform Proclamation and nationalised urban land on 26 July 1975. Rival groups MEISON and the EPRP clashed with the regime, which answered with the Red Terror, formed the WPE in 1984 and proclaimed the PDRE in 1987 under Mengistu's personal power.",
+  visuals: [
+    {
+      type: "timeline",
+      config: {
+        title: "The 1974 Revolution and the Early Derg",
+        events: [
+          { year: "Jan 1974", text: "Negelle army mutiny begins the crisis" },
+          { year: "18 Feb 1974", text: "Teachers and taxi drivers protest; CELU demands" },
+          { year: "28 Jun 1974", text: "The Derg is established" },
+          { year: "12 Sep 1974", text: "Haile Selassie deposed; PMAC formed" },
+          { year: "Dec 1974", text: "Edget Behebret Zemecha launched" },
+          { year: "Mar 1975", text: "Land Reform Proclamation nationalises rural land" },
+          { year: "26 Jul 1975", text: "Urban land and extra houses nationalised" }
+        ]
+      }
+    },
+    {
+      type: "flowChart",
+      config: {
+        title: "From Protest to Derg Rule",
+        steps: [
+          "Famine, inflation and corruption",
+          "Army mutinies and strikes, early 1974",
+          "Prime Minister Aklilu resigns",
+          "Derg formed on 28 June 1974",
+          "Emperor deposed on 12 September 1974",
+          "PMAC and radical reforms"
+        ]
+      }
+    },
+    {
+      type: "comparison",
+      config: {
+        title: "Imperial and Derg Land Policies",
+        left: { name: "Imperial regime", items: ["Gult and Rist tenure", "Private land sales", "Chisegna tenancy", "Landlords collect tribute"] },
+        right: { name: "Derg regime", items: ["Rural land nationalised 1975", "Feudal relations ended", "Peasant associations", "Periodic redistribution"] }
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "In which month and year did the Derg depose Haile Selassie?", options: ["January 1974", "28 June 1974", "12 September 1974", "24 November 1974"], answer: 2, difficulty: 1, explanation: "The Derg deposed the Emperor on 12 September 1974." },
+    { type: "tf", q: "The Land Reform Proclamation of March 1975 nationalised all rural land in Ethiopia.", answer: true, difficulty: 1, explanation: "It nationalised all rural land and ended feudal relations in rural Ethiopia." },
+    { type: "short", q: "What was the motto or slogan introduced by the Derg?", answer: "Ethiopia Tikdem", difficulty: 1, explanation: "The Derg introduced the motto Ethiopia Tikdem." },
+    { type: "mcq", q: "The first chairman of the PMAC was:", options: ["Mengistu Haile Mariam", "Aman Mikael Andom", "Teferi Benti", "Atnafu Abate"], answer: 1, difficulty: 2, explanation: "Lieutenant General Aman Mikael Andom became the first chairman of the PMAC." },
+    { type: "concept", q: "Name the campaign launched in December 1974 to spread literacy and socialism in the countryside.", answer: "Edget Behebret Zemecha|Development through Cooperation Campaign", difficulty: 2, explanation: "The Development through Cooperation Campaign sent about 60,000 campaigners to rural areas." },
+    { type: "mcq", q: "Urban land and extra houses were nationalised on:", options: ["12 September 1974", "January 1975", "March 1975", "26 July 1975"], answer: 3, difficulty: 2, explanation: "Urban land and extra houses were nationalised on 26 July 1975." },
+    { type: "concept", q: "Give the name of the Derg's campaign of mass killing and torture against the EPRP and suspected individuals.", answer: "Red Terror|Red terror", difficulty: 1, explanation: "The campaign was known as the Red Terror." },
+    { type: "mcq", q: "Which political group gave critical support to the Derg?", options: ["The EPRP", "MEISON (AESM)", "The WPE", "The ELF"], answer: 1, difficulty: 3, explanation: "The All Ethiopian Socialist Movement, MEISON, led by Haile Fida, followed a strategy of critical support." },
+    { type: "tf", q: "The Workers' Party of Ethiopia was established as a vanguard party in 1984.", answer: true, difficulty: 1, explanation: "The Derg established the WPE in 1984." },
+    { type: "concept", q: "Name the state proclaimed in 1987 with a constitution under Mengistu.", answer: "PDRE|People's Democratic Republic of Ethiopia", difficulty: 2, explanation: "The PDRE was proclaimed in 1987." },
+    { type: "ordering", q: "Arrange these events from earliest to latest.", options: ["Land Reform Proclamation", "Emperor deposed", "Nationalisation of urban land", "Edget Behebret Zemecha"], answer: 1, difficulty: 3, explanation: "The order is 12 September 1974, December 1974, March 1975, then 26 July 1975." }
+  ]
+};
 
-Lessons["g10-history-uh6-t4"] = {"overview":"<b>The Ethio-Somalia War, the Question of Eritrea, and the Fall of the Derg</b> sits inside <b>Ethiopia: Internal Developments and External Influences from 1941 to 1991</b>. Ethiopian revolution and reform shaped the years from 1941 to 1991, the focus of Unit 6 of Grade 10 History in the Ethiopian (FDRE Ministry of Education) curriculum. First, it covers post-liberation reforms and British and American influence. Then it traces early opposition from peasants, the 1960 coup, and students. Next, it explains the Ethiopian revolution of 1974 and the fall of the monarchy. Also it follows the Derg, its reforms, and the Red Terror. Finally, it looks at the Ethio-Somalia war, the question of Eritrea, and the fall of the Derg. Students will also learn how popular movements apply to real-life situations, such as calls for land and justice today.","objectives":["Explain British and American influence in post-liberation Ethiopia.","Compare the land policies of the imperial and the Derg regimes.","Describe the early opposition movements against imperial rule.","Analyse the causes and results of the Ethiopian revolution of 1974.","Trace the Ethio-Somalia war and the question of Eritrea."],"simple":"<b>The Ethio-Somalia War, the Question of Eritrea, and the Fall of the Derg in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>Finally, the 1977 Ethio-Somalia war over the Ogaden region.</li> <li>The armed struggle in Eritrea and the fronts of the EPLF and TPLF.</li> <li>Also the 1984 famine and the fall of the Derg in 1991.</li></ul>","detailed":"<p><b>The Ethio-Somalia War, the Question of Eritrea, and the Fall of the Derg — the essentials.</b> Finally, the 1977 Ethio-Somalia war over the Ogaden region. The armed struggle in Eritrea and the fronts of the EPLF and TPLF. Also the 1984 famine and the fall of the Derg in 1991.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Explain British and American influence in post-liberation Ethiopia.</li><li>Compare the land policies of the imperial and the Derg regimes.</li><li>Describe the early opposition movements against imperial rule.</li><li>Analyse the causes and results of the Ethiopian revolution of 1974.</li><li>Trace the Ethio-Somalia war and the question of Eritrea.</li></ul>","keyTerms":[{"term":"Finally","def":"Finally, the 1977 Ethio-Somalia war over the Ogaden region."},{"term":"Also the 1984 famine and the fall of the Derg in 1991","def":"Also the 1984 famine and the fall of the Derg in 1991."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing the ethio-somalia war, the question of eritrea, and the fall of the derg with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Reading the news: events in this topic map onto modern Ethiopian civic debates","Answering the \"give an example\" questions that close every ESSLCE history paper"],"summary":"The Ethio-Somalia War, the Question of Eritrea, and the Fall of the Derg: Finally, the 1977 Ethio-Somalia war over the Ogaden region. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"The Ethio-Somalia War, the Question of Eritrea, and the Fall of the Derg\" is correct according to the MoE curriculum?","options":["Finally, the 1977 Ethio-Somalia war over the Ogaden region.","The Ethio-Somalia War, the Question of Eritrea, and the Fall of the Derg is not mentioned in the MoE curriculum for this unit","The Ethio-Somalia War, the Question of Eritrea, and the Fall of the Derg happened in a different century than this topic covers","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: Finally, the 1977 Ethio-Somalia war over the Ogaden region. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"The Ethio-Somalia War, the Question of Eritrea, and the Fall of the Derg\"?","options":["The armed struggle in Eritrea and the fronts of the EPLF and TPLF.","The Ethio-Somalia War, the Question of Eritrea, and the Fall of the Derg was reversed by the very process this topic describes","The Ethio-Somalia War, the Question of Eritrea, and the Fall of the Derg is not mentioned in the MoE curriculum for this unit","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: The armed struggle in Eritrea and the fronts of the EPLF and TPLF."},{"type":"tf","q":"True or false: Finally, the 1977 Ethio-Somalia war over the Ogaden region.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover the ethio-somalia war, the question of eritrea, and the fall of the derg.","answer":false,"difficulty":1,"explanation":"The Ethio-Somalia War, the Question of Eritrea, and the Fall of the Derg is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Explain British and American influence in post-liberation Ethiopia.","difficulty":2,"altAnswers":["Compare the land policies of the imperial and the Derg regimes.","Describe the early opposition movements against imperial rule."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why the ethio-somalia war, the question of eritrea, and the fall of the derg matters.","answer":"The Ethio-Somalia War, the Question of Eritrea, and the Fall of the Derg is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of the ethio-somalia war, the question of eritrea, and the fall of the derg in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to the ethio-somalia war, the question of eritrea, and the fall of the derg, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
-
+Lessons["g10-history-uh6-t4"] = {
+  overview: "From 1977 the Derg fought a war with Somalia over the Ogaden and a long armed struggle in Eritrea, while famine and insurgency eroded its power. This lesson explains the Ethio-Somalia war, the Eritrean question and the internal and external causes of the fall of the Derg in 1991.",
+  objectives: [
+    "Explain the causes and results of the 1977 Ethio-Somalia war",
+    "Describe the federation of Eritrea and the growth of its armed struggle",
+    "Assess the role of foreign powers in the region's wars",
+    "Identify the internal and external causes of the decline of the Derg",
+    "Trace the events that led to the fall of the Derg in 1991"
+  ],
+  simple: "Somalia, independent since 1960, claimed Somali-speaking territories under its five-pointed star, including the Ogaden, and in 1977 President Siad Barre invaded Ethiopia. Ethiopia was helped by the Soviet Union, Cuba and the Democratic Republic of Yemen, while Somalia got aid from the United States and the Arab world; the invasion was repulsed. In Eritrea, federation in 1952 was undermined by measures against the 1952 Federal Act, and armed movements grew, from the ELM in 1958 and the ELF in 1960 to the EPLF, or Shabia, in 1973. The 1982 Operation Red Star failed. The famine of 1984/5 and forced resettlement, collectivisation and villagisation weakened the regime, and in 1991 the EPLF and EPRDF brought the Derg to an end.",
+  detailed: "<p><b>Roots of the Ethio-Somalia war.</b> The Ogaden has been an area of conflict between Ethiopia and Somalia particularly since Somalia became independent in 1960, and the dispute briefly escalated into a border war in January 1964. The major reason for war was the political agitation of the new Republic of Somalia, committed to bringing all Somali-speaking territories under one five-pointed star on its flag: South Somalia, North Somalia, French Somaliland, now the Republic of Djibouti, the Ogaden region of Ethiopia, and the Northern Frontier District of Kenya. Following the peacemaking intervention of the OAU, both countries returned to where they started, with no change of boundaries.</p><p><b>The war of 1977.</b> In 1977 Ethiopia and Somalia again entered a serious conflict over the Ogaden. The war was initiated by President Siad Barre of Somalia, who pursued his irredentist policy of creating a Greater Somalia. Ethiopia was supported by the Soviet Union, Cuba and the Democratic Republic of Yemen, while Somalia received military aid and technical support from the United States and the Arab world. The full-scale invasion was repulsed by a bold counter-offensive of the Ethiopian people, and the Derg mobilised hundreds of thousands of militia. The war had far-reaching effects for both countries: in Somalia it brought a massive influx of refugees from the north, worsening land and property rights, while in Ethiopia the victory encouraged Mengistu's government to focus on fighting the northern opposition forces.</p><p><b>The question of Eritrea.</b> In 1941 Eritrea came under British control after the Italians were expelled, and the fate of the former colony became an international issue. The federation of Eritrea with Ethiopia in 1952 was the compromise recommended in 1950 by the United Nations General Assembly: Eritrea received legislative, executive and judicial power over its domestic affairs, while defence, foreign affairs, currency and finance, interstate commerce and communications became the responsibility of the Ethiopian government. The later introduction of measures contrary to the Federal Act of 1952 thoroughly undermined Eritrean autonomy and created discontent. That discontent led to the Eritrean Liberation Movement (ELM) in 1958, and in 1960 the rival Eritrean Liberation Front (ELF) was formed in Cairo, dedicated to armed resistance, though tensions existed within it. In 1973 the Eritrean People's Liberation Forces (EPLF), also known as Shabia, meaning popular in Arabic, was founded.</p><p><b>War on the northern front.</b> The year 1977 marked the peak of anti-Derg opposition, when external aggression from Somalia, offensives from internal armed groups such as the EDU and the EPRP, and internal power struggle brought the military government almost to the verge of collapse. After defeating the invading Somali forces in 1978, the Ethiopian military deployed from the eastern front to the northern front in Eritrea, forcing the Eritrean rebels to retreat to the Sahel. In 1982 the Derg announced a military campaign named Operation Red Star to solve the Eritrean problem once and for all, but despite initial victories the operation failed, with dissatisfaction among government forces and top commanders suspected of corruption and treason. The coordinated offensives of the EPLF and the TPLF greatly weakened the government forces and forced them to lose battle after battle.</p><p><b>The fall of the Derg.</b> Several factors brought the military regime down. The famine of 1984/5, preceded by drought and crop failure, forced the government to introduce forced mass resettlement from drought-affected regions of Tigray and Wallo to the south and south-west, which produced a massive internal displacement problem because of ineffective organisation. The forceful resettlement, collectivisation and villagisation programmes added to the economic and political crisis and contributed to the downfall of the regime. In the last years of the 1980s the EPLF joined with the TPLF forces that occupied most of northern Ethiopia. In the south, in areas such as Bale and Hararghe, the Oromo Liberation Front (OLF) and the Somali Abo Liberation Front (SALF) had been active since 1975, and the Western Somali Liberation Front (WSLF) was active in the Ogaden. In the second half of the 1980s Soviet Russia and other Eastern European countries, struggling with their own internal problems, gradually withdrew their economic and military assistance. In 1991 the EPLF and the EPRDF, the Ethiopian People's Revolutionary Democratic Front, launched highly successful operations in their areas and won the military victories that collapsed the regime; the EPRDF, a front of the TPLF, the EPDM, the OPDO and the EDORM, controlled Addis Ababa on May 28, 1991.</p>",
+  keyTerms: [
+    { term: "Greater Somalia", def: "Somalia's irredentist policy of uniting all Somali-speaking territories under the five points of its flag." },
+    { term: "Ogaden", def: "The Ethiopian region claimed by Somalia and the main territory fought over in the 1964 and 1977 wars." },
+    { term: "Federal Act of 1952", def: "The act establishing the federation of Eritrea with Ethiopia; later measures contrary to it undermined Eritrean autonomy." },
+    { term: "ELF", def: "The Eritrean Liberation Front, formed in Cairo in 1960 and dedicated to armed resistance." },
+    { term: "EPLF (Shabia)", def: "The Eritrean People's Liberation Forces, founded in 1973 and known as Shabia, meaning popular in Arabic." },
+    { term: "Operation Red Star", def: "The 1982 Derg military campaign to end the Eritrean problem, which failed despite initial victories." },
+    { term: "Villagisation", def: "A Derg programme of moving scattered rural families into villages, which along with resettlement weakened the regime." },
+    { term: "EPRDF", def: "The Ethiopian People's Revolutionary Democratic Front, whose forces with the EPLF entered Addis Ababa on 28 May 1991." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "Why did the OAU intervention in the 1964 border war leave the Ethiopia-Somalia dispute unsettled?",
+      given: "After the OAU peacemaking intervention both countries returned to their starting positions with no change of boundaries.",
+      formula: "Historical concept: a ceasefire that ignores the original cause does not remove the cause.",
+      substitution: "Somalia's claim to the Ogaden rested on its Greater Somalia policy, which the ceasefire did not address.",
+      calculation: "Because the boundary stayed the same and the claim remained, the dispute returned as a full war in 1977.",
+      answer: "The ceasefire changed no boundaries and settled no claim, so the conflict flared again in 1977."
+    },
+    {
+      problem: "How did the superpowers' involvement shape the 1977 war?",
+      given: "Ethiopia was supported by the Soviet Union, Cuba and the Democratic Republic of Yemen, and Somalia by the United States and the Arab world.",
+      formula: "Historical concept: regional wars in the Cold War were often fought with superpower backing.",
+      substitution: "Each side received arms and advisers from a different bloc.",
+      calculation: "Foreign aid sustained both armies, but Ethiopia's Soviet and Cuban support helped it repulse the invasion.",
+      answer: "The war became a Cold War proxy conflict, and Ethiopian forces with Soviet and Cuban help repulsed Somalia."
+    },
+    {
+      problem: "Explain how undermining the Federal Act of 1952 led to armed struggle in Eritrea.",
+      given: "Measures contrary to the 1952 Federal Act undermined Eritrean autonomy and created discontent, and the ELM was formed in 1958.",
+      formula: "Historical concept: breaking a political bargain can turn political grievance into armed resistance.",
+      substitution: "Eritreans saw their autonomy removed, so organisations such as the ELF turned to armed resistance.",
+      calculation: "The ELM of 1958 and the ELF of 1960 grew into the EPLF of 1973 and a long civil war.",
+      answer: "Attacks on the federation destroyed trust and led Eritreans to take up arms, from the ELM to the EPLF."
+    },
+    {
+      problem: "Sort the causes of the Derg's fall into internal and external factors.",
+      given: "The 1984/5 famine, resettlement and villagisation were internal, while the withdrawal of Soviet and Eastern European aid was external.",
+      formula: "Historical concept: classify causes by whether they arise inside the state or from outside it.",
+      substitution: "Famine and unpopular rural programmes weakened the regime from within; lost foreign aid removed its means of fighting.",
+      calculation: "Both together, with the EPLF, TPLF and EPRDF offensives of 1991, collapsed the regime.",
+      answer: "Internally, famine and resettlement, collectivisation and villagisation; externally, the loss of Soviet and Eastern bloc support."
+    }
+  ],
+  commonMistakes: [
+    "Believing Ethiopia and Somalia went to war only in 1977; a brief border war occurred in January 1964.",
+    "Thinking Somalia won the 1977 war, when its full-scale invasion was repulsed by an Ethiopian counter-offensive.",
+    "Mixing the fronts: the ELM came in 1958, the ELF in 1960 and the EPLF, or Shabia, in 1973.",
+    "Naming Operation Red Star as a success; it failed despite initial victories.",
+    "Treating the 1984/5 famine and resettlement as separate disasters, when the ineffective resettlement programme worsened the crisis.",
+    "Forgetting the role of the OLF, SALF and WSLF in the south and the Ogaden while discussing the northern fronts.",
+    "Saying the Derg fell only to internal rebels, ignoring the withdrawal of Soviet and Eastern European assistance."
+  ],
+  applications: [
+    "Debating whether the five-pointed star on the Somali flag gave Somalia a legal claim to the Ogaden.",
+    "Using a map of the Horn to locate the Ogaden and the two fronts of the 1977 war.",
+    "Comparing the federation of 1952 with later measures against it to explain the Eritrean armed struggle.",
+    "Analysing how Cold War alliances shifted, with Somalia gaining Arab and United States support and Ethiopia Soviet support.",
+    "Assessing whether the 1984/5 famine was mainly natural or mainly caused by government policy.",
+    "Writing a paragraph on how the collapse of Eastern bloc support affected the Derg's ability to fight in 1991."
+  ],
+  summary: "Moved by the Greater Somalia policy, President Siad Barre invaded the Ogaden in 1977, but Ethiopia, backed by the Soviet Union and Cuba, repulsed the attack and then turned to the northern front in Eritrea. Federation in 1952 had been undermined by measures against the Federal Act, and armed fronts grew from the ELM and ELF to the EPLF. The failed Operation Red Star, the famine of 1984/5, forced resettlement and the loss of Soviet aid weakened the Derg, and in 1991 the EPLF and EPRDF brought it down, with the EPRDF entering Addis Ababa on 28 May 1991.",
+  visuals: [
+    {
+      type: "timeline",
+      config: {
+        title: "War, Eritrea and the Fall of the Derg",
+        events: [
+          { year: "1958", text: "Eritrean Liberation Movement (ELM) formed" },
+          { year: "1960", text: "Eritrean Liberation Front (ELF) formed in Cairo" },
+          { year: "1964", text: "Brief Ethio-Somalia border war in January" },
+          { year: "1973", text: "EPLF, or Shabia, founded" },
+          { year: "1977", text: "Somalia invades the Ogaden; anti-Derg opposition peaks" },
+          { year: "1982", text: "Operation Red Star launched and fails" },
+          { year: "1984/5", text: "Famine and forced resettlement" },
+          { year: "1991", text: "EPLF and EPRDF victories; Addis Ababa falls on 28 May" }
+        ]
+      }
+    },
+    {
+      type: "comparison",
+      config: {
+        title: "The 1977 War: Two Sides",
+        left: { name: "Ethiopia", items: ["Soviet Union support", "Cuba and South Yemen", "Derg militia mobilised", "Repulsed the invasion"] },
+        right: { name: "Somalia", items: ["United States aid", "Arab world backing", "Siad Barre's Greater Somalia", "Invasion repelled"] }
+      }
+    },
+    {
+      type: "mindMap",
+      config: {
+        title: "Why the Derg Fell",
+        center: "Fall of the Derg",
+        branches: [
+          { label: "Famine", items: ["1984/5 drought", "Crop failure", "Deaths and displacement"] },
+          { label: "Rural policy", items: ["Resettlement", "Collectivisation", "Villagisation"] },
+          { label: "Armed fronts", items: ["EPLF and TPLF", "OLF and SALF", "EPRDF 1991"] },
+          { label: "Foreign aid", items: ["Soviet withdrawal", "Eastern bloc cuts"] }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "The major reason for the Ethiopia-Somalia war was:", options: ["a trade dispute", "Somalia's aim to create Greater Somalia", "a border treaty of 1950", "competition over the Nile"], answer: 1, difficulty: 1, explanation: "Somalia pursued an irredentist policy of uniting Somali-speaking territories." },
+    { type: "tf", q: "Ethiopia was supported in the 1977 war by the Soviet Union and Cuba.", answer: true, difficulty: 1, explanation: "Ethiopia was supported by the Soviet Union, Cuba and the Democratic Republic of Yemen." },
+    { type: "short", q: "Who was the President of Somalia who initiated the 1977 war?", answer: "Siad Barre|President Siad Barre", difficulty: 1, explanation: "President Siad Barre pursued the creation of Greater Somalia." },
+    { type: "concept", q: "Name the Eritrean organisation founded in 1973 and known as Shabia.", answer: "EPLF|Eritrean People's Liberation Forces|Eritrean People's Liberation Front", difficulty: 2, explanation: "The EPLF, known as Shabia, meaning popular in Arabic, was founded in 1973." },
+    { type: "mcq", q: "The federation of Eritrea with Ethiopia took place in:", options: ["1941", "1950", "1952", "1960"], answer: 2, difficulty: 2, explanation: "The federation recommended in 1950 was implemented in 1952." },
+    { type: "mcq", q: "Which of the following was NOT a responsibility of the Ethiopian government under the federation?", options: ["Defence", "Foreign affairs", "Currency and finance", "Eritrea's domestic legislation"], answer: 3, difficulty: 3, explanation: "Eritrea kept legislative, executive and judicial power over its domestic affairs." },
+    { type: "concept", q: "Give the name of the 1982 Derg military campaign in Eritrea that failed.", answer: "Operation Red Star|Red Star", difficulty: 2, explanation: "Operation Red Star was announced in 1982 and failed despite initial victories." },
+    { type: "tf", q: "The famine of 1984/5 and the forced resettlement programme contributed to the fall of the Derg.", answer: true, difficulty: 1, explanation: "Famine, resettlement, collectivisation and villagisation contributed to the regime's downfall." },
+    { type: "short", q: "On what date in 1991 did the EPRDF forces control Addis Ababa?", answer: "May 28, 1991|28 May 1991", difficulty: 2, explanation: "The EPRDF controlled Addis Ababa on May 28, 1991." },
+    { type: "mcq", q: "Which organisation was active in the Ogaden region during the 1975-1991 period?", options: ["The EPDM", "The WSLF", "The EDORM", "The OPDO"], answer: 1, difficulty: 3, explanation: "The Western Somali Liberation Front was active in the Ogaden." },
+    { type: "ordering", q: "Arrange these events from earliest to latest.", options: ["Operation Red Star", "EPLF founded", "Ethio-Somalia war", "Fall of the Derg"], answer: 1, difficulty: 3, explanation: "The order is 1973, 1977, 1982, then 1991." }
+  ]
+};

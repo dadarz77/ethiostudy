@@ -1,14 +1,638 @@
-/* Content: g10-history-uh7 — migrated from generated JSON (Phase 0 pipeline restore).
-   Content upgrade to spec v2 happens per unit in later phases. */
+/* Content: Grade 10 History - Unit 7: Africa Since 1960 (5 topics)
+   Source: MoE History Grade 10 Student Textbook, Unit 7, pages 170-194. */
 window.Lessons = window.Lessons || {};
 
-Lessons["g10-history-uh7-t1"] = {"overview":"<b>Rise of Independent States in Africa</b> sits inside <b>Africa Since 1960</b>. National liberation movements swept across Africa after 1960, the focus of Unit 7 of Grade 10 History in the Ethiopian (FDRE Ministry of Education) curriculum. First, it follows the rise of independent states in north, west, east, and southern Africa. Then it explains apartheid in South Africa and the struggle of the ANC. Next, it covers Pan-Africanism, the OAU, and the later African Union. Also it looks at the struggle for economic independence and regional communities. Finally, it examines major issues such as ethnic conflict, poverty, and population growth. Students will also learn how national liberation applies to real-life situations, such as unity and development in Africa today.","objectives":["Compare the forms of national liberation struggle across Africa.","Explain apartheid and the struggle that ended it in South Africa.","Describe Pan-Africanism and the work of the OAU.","Assess the successes and failures of African regional communities.","Analyse the major challenges facing independent African states."],"simple":"<b>Rise of Independent States in Africa in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, national liberation in North Africa, from Egypt and Libya to Algeria’s war.</li> <li>Independence in British and French West Africa, led by Nkrumah and others.</li> <li>Also East and Central Africa, including Kenya’s Mau Mau and the Congo crisis.</li> <li>Guerrilla wars against Portuguese and settler rule in southern Africa.</li></ul>","detailed":"<p><b>Rise of Independent States in Africa — the essentials.</b> First, national liberation in North Africa, from Egypt and Libya to Algeria’s war. Independence in British and French West Africa, led by Nkrumah and others. Also East and Central Africa, including Kenya’s Mau Mau and the Congo crisis. Guerrilla wars against Portuguese and settler rule in southern Africa.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Compare the forms of national liberation struggle across Africa.</li><li>Explain apartheid and the struggle that ended it in South Africa.</li><li>Describe Pan-Africanism and the work of the OAU.</li><li>Assess the successes and failures of African regional communities.</li><li>Analyse the major challenges facing independent African states.</li></ul>","keyTerms":[{"term":"First","def":"First, national liberation in North Africa, from Egypt and Libya to Algeria’s war."},{"term":"Independence in British and French West Africa","def":"Independence in British and French West Africa, led by Nkrumah and others."},{"term":"East and Central Africa","def":"Also East and Central Africa, including Kenya’s Mau Mau and the Congo crisis."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing rise of independent states in africa with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Reading the news: events in this topic map onto modern Ethiopian civic debates","Answering the \"give an example\" questions that close every ESSLCE history paper"],"summary":"Rise of Independent States in Africa: First, national liberation in North Africa, from Egypt and Libya to Algeria’s war. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"Rise of Independent States in Africa\" is correct according to the MoE curriculum?","options":["First, national liberation in North Africa, from Egypt and Libya to Algeria’s war.","Rise of Independent States in Africa is not mentioned in the MoE curriculum for this unit","Rise of Independent States in Africa happened in a different century than this topic covers","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, national liberation in North Africa, from Egypt and Libya to Algeria’s war. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"Rise of Independent States in Africa\"?","options":["Independence in British and French West Africa, led by Nkrumah and others.","Rise of Independent States in Africa was reversed by the very process this topic describes","Rise of Independent States in Africa is not mentioned in the MoE curriculum for this unit","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Independence in British and French West Africa, led by Nkrumah and others."},{"type":"tf","q":"True or false: First, national liberation in North Africa, from Egypt and Libya to Algeria’s war.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover rise of independent states in africa.","answer":false,"difficulty":1,"explanation":"Rise of Independent States in Africa is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Compare the forms of national liberation struggle across Africa.","difficulty":2,"altAnswers":["Explain apartheid and the struggle that ended it in South Africa.","Describe Pan-Africanism and the work of the OAU."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why rise of independent states in africa matters.","answer":"Rise of Independent States in Africa is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of rise of independent states in africa in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to rise of independent states in africa, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
-
-Lessons["g10-history-uh7-t2"] = {"overview":"<b>Apartheid in South Africa</b> sits inside <b>Africa Since 1960</b>. National liberation movements swept across Africa after 1960, the focus of Unit 7 of Grade 10 History in the Ethiopian (FDRE Ministry of Education) curriculum. First, it follows the rise of independent states in north, west, east, and southern Africa. Then it explains apartheid in South Africa and the struggle of the ANC. Next, it covers Pan-Africanism, the OAU, and the later African Union. Also it looks at the struggle for economic independence and regional communities. Finally, it examines major issues such as ethnic conflict, poverty, and population growth. Students will also learn how national liberation applies to real-life situations, such as unity and development in Africa today.","objectives":["Compare the forms of national liberation struggle across Africa.","Explain apartheid and the struggle that ended it in South Africa.","Describe Pan-Africanism and the work of the OAU.","Assess the successes and failures of African regional communities.","Analyse the major challenges facing independent African states."],"simple":"<b>Apartheid in South Africa in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>Then apartheid as the separate development and white domination of the majority.</li> <li>The ANC, the Sharpeville massacre, and the long struggle of Nelson Mandela.</li> <li>Also the end of apartheid and the first free election of 1994.</li></ul>","detailed":"<p><b>Apartheid in South Africa — the essentials.</b> Then apartheid as the separate development and white domination of the majority. The ANC, the Sharpeville massacre, and the long struggle of Nelson Mandela. Also the end of apartheid and the first free election of 1994.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Compare the forms of national liberation struggle across Africa.</li><li>Explain apartheid and the struggle that ended it in South Africa.</li><li>Describe Pan-Africanism and the work of the OAU.</li><li>Assess the successes and failures of African regional communities.</li><li>Analyse the major challenges facing independent African states.</li></ul>","keyTerms":[{"term":"The ANC","def":"The ANC, the Sharpeville massacre, and the long struggle of Nelson Mandela."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing apartheid in south africa with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Reading the news: events in this topic map onto modern Ethiopian civic debates","Answering the \"give an example\" questions that close every ESSLCE history paper"],"summary":"Apartheid in South Africa: Then apartheid as the separate development and white domination of the majority. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"Apartheid in South Africa\" is correct according to the MoE curriculum?","options":["Then apartheid as the separate development and white domination of the majority.","Apartheid in South Africa is not mentioned in the MoE curriculum for this unit","Apartheid in South Africa happened in a different century than this topic covers","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: Then apartheid as the separate development and white domination of the majority. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"Apartheid in South Africa\"?","options":["The ANC, the Sharpeville massacre, and the long struggle of Nelson Mandela.","Apartheid in South Africa was reversed by the very process this topic describes","Apartheid in South Africa is not mentioned in the MoE curriculum for this unit","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: The ANC, the Sharpeville massacre, and the long struggle of Nelson Mandela."},{"type":"tf","q":"True or false: Then apartheid as the separate development and white domination of the majority.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover apartheid in south africa.","answer":false,"difficulty":1,"explanation":"Apartheid in South Africa is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Compare the forms of national liberation struggle across Africa.","difficulty":2,"altAnswers":["Explain apartheid and the struggle that ended it in South Africa.","Describe Pan-Africanism and the work of the OAU."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why apartheid in south africa matters.","answer":"Apartheid in South Africa is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of apartheid in south africa in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to apartheid in south africa, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
-
-Lessons["g10-history-uh7-t3"] = {"overview":"<b>Pan-Africanism and the OAU</b> sits inside <b>Africa Since 1960</b>. National liberation movements swept across Africa after 1960, the focus of Unit 7 of Grade 10 History in the Ethiopian (FDRE Ministry of Education) curriculum. First, it follows the rise of independent states in north, west, east, and southern Africa. Then it explains apartheid in South Africa and the struggle of the ANC. Next, it covers Pan-Africanism, the OAU, and the later African Union. Also it looks at the struggle for economic independence and regional communities. Finally, it examines major issues such as ethnic conflict, poverty, and population growth. Students will also learn how national liberation applies to real-life situations, such as unity and development in Africa today.","objectives":["Compare the forms of national liberation struggle across Africa.","Explain apartheid and the struggle that ended it in South Africa.","Describe Pan-Africanism and the work of the OAU.","Assess the successes and failures of African regional communities.","Analyse the major challenges facing independent African states."],"simple":"<b>Pan-Africanism and the OAU in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>Next, Pan-Africanism and the founding of the OAU at Addis Ababa in 1963.</li> <li>The Casablanca and Monrovia groups and the organs of the OAU.</li> <li>Also its record on decolonization and its later replacement by the African Union.</li></ul>","detailed":"<p><b>Pan-Africanism and the OAU — the essentials.</b> Next, Pan-Africanism and the founding of the OAU at Addis Ababa in 1963. The Casablanca and Monrovia groups and the organs of the OAU. Also its record on decolonization and its later replacement by the African Union.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Compare the forms of national liberation struggle across Africa.</li><li>Explain apartheid and the struggle that ended it in South Africa.</li><li>Describe Pan-Africanism and the work of the OAU.</li><li>Assess the successes and failures of African regional communities.</li><li>Analyse the major challenges facing independent African states.</li></ul>","keyTerms":[{"term":"Next","def":"Next, Pan-Africanism and the founding of the OAU at Addis Ababa in 1963."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing pan-africanism and the oau with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Reading the news: events in this topic map onto modern Ethiopian civic debates","Answering the \"give an example\" questions that close every ESSLCE history paper"],"summary":"Pan-Africanism and the OAU: Next, Pan-Africanism and the founding of the OAU at Addis Ababa in 1963. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"Pan-Africanism and the OAU\" is correct according to the MoE curriculum?","options":["Next, Pan-Africanism and the founding of the OAU at Addis Ababa in 1963.","Pan-Africanism and the OAU is not mentioned in the MoE curriculum for this unit","Pan-Africanism and the OAU happened in a different century than this topic covers","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: Next, Pan-Africanism and the founding of the OAU at Addis Ababa in 1963. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"Pan-Africanism and the OAU\"?","options":["The Casablanca and Monrovia groups and the organs of the OAU.","Pan-Africanism and the OAU was reversed by the very process this topic describes","Pan-Africanism and the OAU is not mentioned in the MoE curriculum for this unit","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: The Casablanca and Monrovia groups and the organs of the OAU."},{"type":"tf","q":"True or false: Next, Pan-Africanism and the founding of the OAU at Addis Ababa in 1963.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover pan-africanism and the oau.","answer":false,"difficulty":1,"explanation":"Pan-Africanism and the OAU is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Compare the forms of national liberation struggle across Africa.","difficulty":2,"altAnswers":["Explain apartheid and the struggle that ended it in South Africa.","Describe Pan-Africanism and the work of the OAU."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why pan-africanism and the oau matters.","answer":"Pan-Africanism and the OAU is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of pan-africanism and the oau in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to pan-africanism and the oau, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
-
-Lessons["g10-history-uh7-t4"] = {"overview":"<b>Struggle for Economic Independence</b> sits inside <b>Africa Since 1960</b>. National liberation movements swept across Africa after 1960, the focus of Unit 7 of Grade 10 History in the Ethiopian (FDRE Ministry of Education) curriculum. First, it follows the rise of independent states in north, west, east, and southern Africa. Then it explains apartheid in South Africa and the struggle of the ANC. Next, it covers Pan-Africanism, the OAU, and the later African Union. Also it looks at the struggle for economic independence and regional communities. Finally, it examines major issues such as ethnic conflict, poverty, and population growth. Students will also learn how national liberation applies to real-life situations, such as unity and development in Africa today.","objectives":["Compare the forms of national liberation struggle across Africa.","Explain apartheid and the struggle that ended it in South Africa.","Describe Pan-Africanism and the work of the OAU.","Assess the successes and failures of African regional communities.","Analyse the major challenges facing independent African states."],"simple":"<b>Struggle for Economic Independence in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>The weak post-independence economy, debt, and falling raw material prices.</li> <li>Also regional communities such as COMESA, ECOWAS, IGAD, and SADC.</li></ul>","detailed":"<p><b>Struggle for Economic Independence — the essentials.</b> The weak post-independence economy, debt, and falling raw material prices. Also regional communities such as COMESA, ECOWAS, IGAD, and SADC.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Compare the forms of national liberation struggle across Africa.</li><li>Explain apartheid and the struggle that ended it in South Africa.</li><li>Describe Pan-Africanism and the work of the OAU.</li><li>Assess the successes and failures of African regional communities.</li><li>Analyse the major challenges facing independent African states.</li></ul>","keyTerms":[{"term":"The weak post-independence economy","def":"The weak post-independence economy, debt, and falling raw material prices."},{"term":"regional communities","def":"Also regional communities such as COMESA, ECOWAS, IGAD, and SADC."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing struggle for economic independence with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Reading the news: events in this topic map onto modern Ethiopian civic debates","Answering the \"give an example\" questions that close every ESSLCE history paper"],"summary":"Struggle for Economic Independence: The weak post-independence economy, debt, and falling raw material prices. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"Struggle for Economic Independence\" is correct according to the MoE curriculum?","options":["The weak post-independence economy, debt, and falling raw material prices.","Struggle for Economic Independence is not mentioned in the MoE curriculum for this unit","Struggle for Economic Independence happened in a different century than this topic covers","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: The weak post-independence economy, debt, and falling raw material prices. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"Struggle for Economic Independence\"?","options":["Also regional communities such as COMESA, ECOWAS, IGAD, and SADC.","Struggle for Economic Independence was reversed by the very process this topic describes","Struggle for Economic Independence is not mentioned in the MoE curriculum for this unit","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Also regional communities such as COMESA, ECOWAS, IGAD, and SADC."},{"type":"tf","q":"True or false: The weak post-independence economy, debt, and falling raw material prices.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover struggle for economic independence.","answer":false,"difficulty":1,"explanation":"Struggle for Economic Independence is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Compare the forms of national liberation struggle across Africa.","difficulty":2,"altAnswers":["Explain apartheid and the struggle that ended it in South Africa.","Describe Pan-Africanism and the work of the OAU."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why struggle for economic independence matters.","answer":"Struggle for Economic Independence is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of struggle for economic independence in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to struggle for economic independence, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
-
-Lessons["g10-history-uh7-t5"] = {"overview":"<b>Major Issues in Contemporary Africa</b> sits inside <b>Africa Since 1960</b>. National liberation movements swept across Africa after 1960, the focus of Unit 7 of Grade 10 History in the Ethiopian (FDRE Ministry of Education) curriculum. First, it follows the rise of independent states in north, west, east, and southern Africa. Then it explains apartheid in South Africa and the struggle of the ANC. Next, it covers Pan-Africanism, the OAU, and the later African Union. Also it looks at the struggle for economic independence and regional communities. Finally, it examines major issues such as ethnic conflict, poverty, and population growth. Students will also learn how national liberation applies to real-life situations, such as unity and development in Africa today.","objectives":["Compare the forms of national liberation struggle across Africa.","Explain apartheid and the struggle that ended it in South Africa.","Describe Pan-Africanism and the work of the OAU.","Assess the successes and failures of African regional communities.","Analyse the major challenges facing independent African states."],"simple":"<b>Major Issues in Contemporary Africa in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>Finally, ethnic conflict, from the Biafra war to the Rwandan genocide.</li> <li>Poverty, rapid population growth, war, disease, and climate stress.</li> <li>Also the democratic wave of the 1990s, the so-called second independence.</li></ul>","detailed":"<p><b>Major Issues in Contemporary Africa — the essentials.</b> Finally, ethnic conflict, from the Biafra war to the Rwandan genocide. Poverty, rapid population growth, war, disease, and climate stress. Also the democratic wave of the 1990s, the so-called second independence.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Compare the forms of national liberation struggle across Africa.</li><li>Explain apartheid and the struggle that ended it in South Africa.</li><li>Describe Pan-Africanism and the work of the OAU.</li><li>Assess the successes and failures of African regional communities.</li><li>Analyse the major challenges facing independent African states.</li></ul>","keyTerms":[{"term":"Finally","def":"Finally, ethnic conflict, from the Biafra war to the Rwandan genocide."},{"term":"Poverty","def":"Poverty, rapid population growth, war, disease, and climate stress."},{"term":"Also the democratic wave of the 1990s","def":"Also the democratic wave of the 1990s, the so-called second independence."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing major issues in contemporary africa with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Reading the news: events in this topic map onto modern Ethiopian civic debates","Answering the \"give an example\" questions that close every ESSLCE history paper"],"summary":"Major Issues in Contemporary Africa: Finally, ethnic conflict, from the Biafra war to the Rwandan genocide. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"Major Issues in Contemporary Africa\" is correct according to the MoE curriculum?","options":["Finally, ethnic conflict, from the Biafra war to the Rwandan genocide.","Major Issues in Contemporary Africa is not mentioned in the MoE curriculum for this unit","Major Issues in Contemporary Africa happened in a different century than this topic covers","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: Finally, ethnic conflict, from the Biafra war to the Rwandan genocide. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"Major Issues in Contemporary Africa\"?","options":["Poverty, rapid population growth, war, disease, and climate stress.","Major Issues in Contemporary Africa was reversed by the very process this topic describes","Major Issues in Contemporary Africa is not mentioned in the MoE curriculum for this unit","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Poverty, rapid population growth, war, disease, and climate stress."},{"type":"tf","q":"True or false: Finally, ethnic conflict, from the Biafra war to the Rwandan genocide.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover major issues in contemporary africa.","answer":false,"difficulty":1,"explanation":"Major Issues in Contemporary Africa is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Compare the forms of national liberation struggle across Africa.","difficulty":2,"altAnswers":["Explain apartheid and the struggle that ended it in South Africa.","Describe Pan-Africanism and the work of the OAU."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why major issues in contemporary africa matters.","answer":"Major Issues in Contemporary Africa is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of major issues in contemporary africa in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to major issues in contemporary africa, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
-
+Lessons["g10-history-uh7-t1"] = {
+  overview: "The year 1960 is called the Year of Africa because more than a dozen African countries won independence in that single year. This lesson follows the national liberation movements of North, West, East, Central and Southern Africa, with the dates, leaders and parties behind them.",
+  objectives: [
+    "Trace the national liberation movement of North Africa from Egypt to Algeria",
+    "Describe how British and French West Africa won their independence",
+    "Explain the routes to independence of East and Central Africa, including the Congo crisis",
+    "Identify the settler and Portuguese colonies that needed guerrilla war",
+    "Compare peaceful and armed paths to independence in Southern Africa"
+  ],
+  simple: "By 1960 much of Africa had thrown off European colonial rule. North Africa led the way: Egypt declared formal independence in 1922, Libya in 1951, Sudan in 1956, Morocco and Tunisia in 1956, and Algeria in 1962 after a bitter guerrilla war. In West Africa the Gold Coast became Ghana in 1957 under Kwame Nkrumah, Nigeria followed in 1960, and Guinea broke from France in 1958 under Sekou Toure. East and Central Africa saw Tanganyika in 1961 under Julius Nyerere, Uganda in 1962, Kenya in 1963 under Jomo Kenyatta, and the Belgian Congo in 1960. Portugal and the white settler regimes held out in the south, so Angola, Mozambique, Zimbabwe and Namibia won freedom later through long armed struggles. Kenya's Mau Mau revolt showed how settler land seizure provoked violence.",
+  detailed: "<p><b>The Year of Africa.</b> More than a dozen African countries gained independence in 1960, so the year is often called the Year of Africa. The first breakthrough came in North Africa, spearheaded by Egypt, which had been a protectorate of Great Britain from 1882. After the First World War a delegation of Egyptian nationalist activists led by Saad Zaghlul asked the British High Commissioner to end the protectorate over Egypt and Sudan. Demonstrations and strikes by students, the elite, civil servants, merchants, peasants, workers and religious leaders forced London to issue a unilateral declaration of Egyptian independence on 22 February 1922.</p><p><b>North Africa after Egypt.</b> The Kingdom of Libya achieved independence from Italy under a United Nations trusteeship on 24 December 1951. The Egyptian Revolution of 1952 overthrew King Farouk, and its co-leader Muhammad Naguib, together with Gamal Abdel Nasser, made Sudanese independence a priority. The Anglo-Egyptian Condominium over Sudan ended on 1 January 1956. French North Africa was shaken by the French military defeat in Indo-China in 1954. Morocco's National Front, led by Sultan Mohammed V, and the Riff and Atlas revolt of 1953 pushed France to a negotiated settlement, and Morocco was proclaimed independent on 2 March 1956. Tunisia also won independence in 1956 under Habib Bourguiba of the Neo-Destour Party.</p><p><b>The Algerian war.</b> Algeria was the hardest case because a relatively large number of white settlers lived there and were determined to prevent independence; they formed the Secret Armed Organization. The National Liberation Front of Algeria (FLN), led by Ahmed Ben Bella, waged a bitter guerrilla war from 1954 to 1962. A referendum followed and the people voted overwhelmingly for independence, which was proclaimed on 1 July 1962.</p><p><b>British West Africa.</b> British West Africa comprised the Gold Coast (now Ghana), Nigeria, the Gambia and Sierra Leone. The Gold Coast was the first British colony in sub-Saharan Africa to become independent. The struggle began under the United Gold Coast Convention (UGCC), but in 1949 Kwame Nkrumah left it to found the Convention People's Party (CPP), and the Gold Coast became independent in 1957 as Ghana. In Nigeria the parties were divided along ethnic and regional lines: the National Council of Nigeria and Cameroon in Igbo land, the Yoruba Action Group in Yoruba country and the Northern People's Congress in Fulbe-Hausa country. The parties agreed on 1960 only in 1959, and Nigeria became independent in 1960. Sierra Leone followed in 1961 and the Gambia in 1965.</p><p><b>French and Portuguese West Africa.</b> In 1958 President Charles De Gaulle held a referendum to defuse the nationalist struggles. French West and Equatorial Africa voted yes, but Guinea under Sekou Toure voted no, and the independent Republic of Guinea was proclaimed on 2 October 1958. In 1960 Cameroon, Togo, Madagascar, Dahomey, Niger, Upper Volta, Ivory Coast, Chad, Ubangi Shari, Congo, Gabon, Senegal, French Sudan and Mauritania became independent. Portugal treated its colonies as overseas provinces and held its empire by any means, so Guinea-Bissau and Cape Verde, Angola and Mozambique only overthrew Portuguese rule in 1973 and 1974 after violent, bloody and protracted wars.</p><p><b>East and Central Africa.</b> Tanganyika, a British trust territory, won independence in 1961 under the Tanganyika African National Union (TANU) led by Julius Nyerere. Zanzibar became independent in 1963, and in 1964 the two formed the federation of Tanzania. Uganda became independent in 1962 under the prime ministership of Milton Obote, leading a coalition of the royalist Kabaka Yekka movement and the Uganda Peoples' Congress. Kenya's road was rougher: peasants dispossessed of their land by white settlers rose in the Mau Mau revolt between 1952 and 1955, thousands were imprisoned including Jomo Kenyatta, but KANU won 67 per cent of the vote and Kenya became independent in 1963 with Kenyatta as first president. The Belgian Congo became independent on 30 June 1960 with Patrice Lumumba as prime minister and Joseph Kasavubu as president, but Katanga under Moise Tshombe and South Kasai seceded, and Lumumba was executed on 17 January 1961. Rwanda and Burundi, Belgian mandate territories, became independent by United Nations decision in 1962.</p><p><b>Southern Africa and settler rule.</b> Britain ruled Southern Rhodesia (Zimbabwe), Northern Rhodesia (Zambia), Nyasaland (Malawi), Bechuanaland (Botswana) and Basutoland (Lesotho), while Portugal held Angola and Mozambique. Zambia became independent on 24 October 1964 under Kenneth Kaunda of the United National Independence Party. Malawi became independent in 1964 under Hastings Kamuzu Banda, Basutoland (Lesotho) and Bechuanaland (Botswana) in 1966, Mauritius in 1968 and Seychelles in 1976. In Southern Rhodesia the white minority under Ian Smith declared unilateral independence in 1965, delaying majority rule until the guerrilla war of ZANU and ZAPU, led by Robert Mugabe and Joshua Nkomo, brought it in April 1980. South West Africa, held by South Africa, was fought for by SWAPO and became Namibia in 1990.</p>",
+  keyTerms: [
+    { term: "National liberation movement", def: "An organised political and military struggle by colonised peoples to win independence from colonial rule." },
+    { term: "Decolonization", def: "The process by which colonies gained political independence from European empires, especially after 1945." },
+    { term: "Guerrilla war", def: "Armed struggle fought by small mobile groups against a stronger regular army, as in Algeria from 1954 to 1962." },
+    { term: "Protectorate", def: "A territory controlled and protected by a stronger state, such as Egypt under Great Britain from 1882." },
+    { term: "Trusteeship", def: "A territory administered on behalf of the United Nations or the League of Nations, such as Libya and Ruanda-Urundi." },
+    { term: "Secession", def: "The attempt of a region to break away and form its own state, as Katanga and South Kasai did in the Congo." },
+    { term: "Unilateral Declaration of Independence", def: "The one-sided independence declared by Ian Smith's white minority government in Southern Rhodesia in 1965." },
+    { term: "Mau Mau", def: "The revolt of dispossessed Kenyan peasants against British settler rule between 1952 and 1955." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "Why was Algeria's struggle for independence longer and bloodier than Tunisia's?",
+      given: "In Algeria many white settlers organised in the Secret Armed Organization and the FLN led by Ahmed Ben Bella fought from 1954 to 1962. Tunisia won independence in 1956 under Habib Bourguiba and the Neo-Destour Party.",
+      formula: "Historical concept: settler colonialism. Where large numbers of European settlers took land, they resisted majority rule by force, so liberation usually took the form of a guerrilla war.",
+      substitution: "Algeria had a large settler population determined to prevent independence; Tunisia had a smaller settler presence and a negotiated path.",
+      calculation: "Because the settlers refused political change, France could not simply hand over power, so the FLN fought, and only a referendum secured independence in 1962.",
+      answer: "Algeria's large and hostile settler community turned decolonization into an eight-year guerrilla war, while Tunisia reached independence by negotiation in 1956."
+    },
+    {
+      problem: "Explain why the Gold Coast was the first British colony in sub-Saharan Africa to gain independence.",
+      given: "The struggle began under the United Gold Coast Convention; in 1949 Kwame Nkrumah left it to found the Convention People's Party and the colony became independent in 1957 as Ghana.",
+      formula: "Historical concept: mass nationalism. A colony gains independence early when a single party can mobilise support across the whole territory and press one consistent demand.",
+      substitution: "The CPP built nationwide support, unlike Nigeria where parties were split along ethnic and regional lines.",
+      calculation: "A unified party produced one clear demand and one agreed date, so the Gold Coast reached independence in 1957, three years before Nigeria in 1960.",
+      answer: "Nationwide organisation and a single mass party under Nkrumah allowed the Gold Coast to become independent in 1957 as Ghana."
+    },
+    {
+      problem: "Why did Portugal's African colonies win independence only in the mid-1970s?",
+      given: "Portugal regarded its colonies as overseas provinces of Portugal and maintained the policy of keeping its empire intact by any means. Guinea-Bissau and Cape Verde became free in 1973 and 1974, and Angola and Mozambique in the same period.",
+      formula: "Historical concept: colonial policy determines the form of decolonization.",
+      substitution: "Because Portugal refused to consider its colonies as separate territories, there was no legal or negotiated route to independence.",
+      calculation: "Without a negotiated route Africans had to fight, so the wars were violent and protracted, and success came only in the 1970s after Portuguese military and political collapse.",
+      answer: "Portugal's refusal to recognise colonies as colonies forced a long armed struggle, and independence came in 1973 and 1974."
+    },
+    {
+      problem: "Account for the failure of the Katanga secession in the Congo.",
+      given: "After Congo independence on 30 June 1960, Katanga under Moise Tshombe and South Kasai seceded. Lumumba was executed on 17 January 1961, and the secession ended in January 1963 with the assistance of United Nations forces.",
+      formula: "Historical concept: sovereignty and territorial integrity. New states and the international community usually oppose secession because it threatens the principle of keeping existing borders.",
+      substitution: "The Congo government and the United Nations both opposed the break-up, while Katanga depended on outside support.",
+      calculation: "Because the central government and United Nations forces upheld the existing borders, the secession could not survive.",
+      answer: "Katanga failed because the United Nations and the Congolese state defended territorial integrity and defeated the secession by force in January 1963."
+    }
+  ],
+  commonMistakes: [
+    "Believing that all African countries won independence in 1960, when the dates actually range from 1922 to 1990.",
+    "Assuming Egypt was freed in 1952, when the unilateral declaration of Egyptian independence was issued on 22 February 1922.",
+    "Forgetting that the Gold Coast took the name Ghana when it became independent in 1957.",
+    "Thinking Kenya's independence came easily, when Mau Mau fighters were suppressed and Jomo Kenyatta was imprisoned.",
+    "Believing Morocco and Tunisia were French colonies until 1962, when both became independent in 1956.",
+    "Forgetting that Portugal's African colonies became independent only in the mid-1970s.",
+    "Mixing up Patrice Lumumba, the prime minister, with Joseph Kasavubu, the president, of the Congo."
+  ],
+  applications: [
+    "Ethiopia was never colonised and is studied as a symbol of African independence; discuss what that means for the liberation movements.",
+    "Read a map of African independence dates and list the countries that became free in the single year 1960.",
+    "Debate in class whether armed struggle or negotiation was the better route to independence, using Algeria and Ghana as examples.",
+    "Research the life of a liberation leader such as Kwame Nkrumah or Ahmed Ben Bella and present a short report.",
+    "Compare colonial borders with present-day African borders and note where border conflicts arise today.",
+    "Build a class timeline of independence for each region of Africa using the dates in the textbook."
+  ],
+  summary: "African independence came in waves, beginning with Egypt in 1922 and reaching its height in 1960, the Year of Africa. Colonies with few European settlers, such as Ghana and Tanganyika, usually won freedom through peaceful nationalism, while settler and Portuguese colonies such as Algeria, Kenya, Zimbabwe and Namibia needed long guerrilla wars. Leaders like Nkrumah, Nyerere, Kenyatta and Lumumba gave the movements their organisation and their demands.",
+  visuals: [
+    {
+      type: "timeline",
+      config: {
+        title: "Independence Dates Across Africa",
+        events: [
+          { year: "1922", text: "Egypt declares independence on 22 February" },
+          { year: "1951", text: "Libya independent under a United Nations trusteeship" },
+          { year: "1956", text: "Sudan, Morocco and Tunisia become independent" },
+          { year: "1957", text: "The Gold Coast becomes Ghana under Nkrumah" },
+          { year: "1958", text: "Guinea breaks from France on 2 October" },
+          { year: "1960", text: "Year of Africa: Nigeria, the Congo and many others" },
+          { year: "1962", text: "Algeria on 1 July; Rwanda and Burundi" },
+          { year: "1963", text: "Kenya independent under Jomo Kenyatta" },
+          { year: "1964", text: "Zambia on 24 October and Malawi" },
+          { year: "1980", text: "Zimbabwe wins majority rule in April" },
+          { year: "1990", text: "Namibia becomes independent" }
+        ]
+      }
+    },
+    {
+      type: "comparison",
+      config: {
+        title: "Negotiated Path vs Armed Struggle",
+        left: { name: "Negotiated path", items: ["Gold Coast, 1957", "Nigeria, 1960", "Tanganyika, 1961", "Zambia, 1964"] },
+        right: { name: "Armed struggle", items: ["Algeria, 1954 to 1962", "Kenya, Mau Mau 1952 to 1955", "Guinea-Bissau and Mozambique, 1970s", "Zimbabwe and Namibia"] }
+      }
+    },
+    {
+      type: "tableVisual",
+      config: {
+        title: "Leaders and Parties by Region",
+        headers: ["Region", "Leader and party", "Independence"],
+        rows: [
+          ["North Africa", "Ahmed Ben Bella, FLN", "Algeria, 1962"],
+          ["West Africa", "Kwame Nkrumah, CPP", "Ghana, 1957"],
+          ["East Africa", "Julius Nyerere, TANU", "Tanganyika, 1961"],
+          ["Central Africa", "Patrice Lumumba, MNC", "Congo, 1960"],
+          ["Southern Africa", "Kenneth Kaunda, UNIP", "Zambia, 1964"]
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "The first British colony in sub-Saharan Africa to gain independence, in 1957, was:", options: ["Nigeria", "the Gold Coast", "Sierra Leone", "the Gambia"], answer: 1, difficulty: 1, explanation: "The Gold Coast became independent in 1957 and adopted the historic name Ghana." },
+    { type: "mcq", q: "Which North African country became independent after a guerrilla war of liberation?", options: ["Egypt", "Tunisia", "Algeria", "Libya"], answer: 2, difficulty: 2, explanation: "The FLN under Ahmed Ben Bella fought a guerrilla war from 1954 to 1962." },
+    { type: "tf", q: "The Anglo-Egyptian Condominium over Sudan ended on 1 January 1956.", answer: true, difficulty: 2, explanation: "Sudan became independent when the condominium duly ended on 1 January 1956." },
+    { type: "short", q: "Name the party founded by Kwame Nkrumah in 1949 after he left the UGCC.", answer: "convention people's party|cpp", difficulty: 1, explanation: "Nkrumah founded the Convention People's Party (CPP) in 1949." },
+    { type: "concept", q: "Explain why independence was more difficult to win in Kenya than in Tanganyika.", answer: "white settlers|land seizure|mau mau|kenyatta imprisoned", difficulty: 2, explanation: "Kenya had white settlers who took land, so the Mau Mau revolt was suppressed and Kenyatta imprisoned, while Tanganyika had no large settler community." },
+    { type: "mcq", q: "Which two areas seceded from the Congo shortly after independence?", options: ["Katanga and South Kasai", "Biafra and Cabinda", "Zanzibar and Pemba", "Ruanda and Urundi"], answer: 0, difficulty: 3, explanation: "Katanga under Moise Tshombe and South Kasai engaged in secessionist struggles." },
+    { type: "short", q: "Who led the National Liberation Front of Algeria?", answer: "ahmed ben bella|ben bella", difficulty: 1, explanation: "The FLN was led by Ahmed Ben Bella." },
+    { type: "tf", q: "Portugal considered its colonies to be overseas provinces of Portugal.", answer: true, difficulty: 1, explanation: "Portugal treated its colonies as overseas provinces and held its empire intact by any means." },
+    { type: "concept", q: "Why did Guinea become independent in 1958 while other French colonies waited until 1960?", answer: "voted no|rejected|sekou toure|referendum", difficulty: 2, explanation: "Guinea under Sekou Toure voted no in De Gaulle's 1958 referendum and was proclaimed independent on 2 October 1958." },
+    { type: "mcq", q: "Tanganyika and Zanzibar formed a federation in 1964 called:", options: ["Kenya", "Uganda", "Tanzania", "Malawi"], answer: 2, difficulty: 2, explanation: "The two independent states federated in 1964 as Tanzania." }
+  ]
+};
+Lessons["g10-history-uh7-t2"] = {
+  overview: "Apartheid was the state policy of separate development of the races and white domination of the black majority in South Africa. This lesson traces its laws, the ANC's long struggle, the Sharpeville massacre and the transition to democracy in 1994.",
+  objectives: [
+    "Define apartheid and explain the policy of the Afrikaner National Party",
+    "Describe the laws that removed the rights of black South Africans",
+    "Trace the ANC's struggle from passive resistance to armed repression",
+    "Explain the significance of the Sharpeville massacre of 21 March 1960",
+    "Assess the role of Nelson Mandela in ending apartheid and reconciling blacks and whites"
+  ],
+  simple: "South Africa was freed from British rule in 1910, and the African National Congress (ANC) was formed in 1912 to fight for the rights of black people. In 1948 the racist Afrikaner National Party came to power and introduced apartheid, which meant separate development of the races and white domination of the majority blacks by the minority whites. Apartheid denied all political rights to blacks and other non-whites and reserved 87 per cent of the land for whites. In 1952 the ANC led a campaign of passive resistance. On 21 March 1960 police fired on peaceful demonstrators at Sharpeville, killing 72 people and wounding 186. The world condemned the shooting and imposed sanctions. Nelson Mandela was jailed at Robben Island until 1990. Apartheid was abolished, one man, one vote was introduced, and in April 1994 Mandela was elected the first democratically elected president. He reconciled blacks and whites and left office in 1999, leaving a rich legacy of democratic government.",
+  detailed: "<p><b>The roots of apartheid.</b> South Africa was freed from British rule in 1910. Two years later, in 1912, the African National Congress (ANC) was formed to struggle for the rights of the black population, and it later crystallized its demands into the call for 'One man, one vote'. In 1948 a general election brought the Afrikaner National Party to power. It was a party made up of extreme racist groups and it promoted a policy of discrimination that came to be known as apartheid.</p><p><b>What apartheid meant.</b> Apartheid means the separate development of the races and the domination of the majority blacks by the minority whites. It denied all political rights to blacks and other non-whites. Under apartheid 87 per cent of all land in South Africa was reserved for whites. The racist National Party also cancelled the nominal rights the blacks used to have, passed several laws that deprived Africans of their political and human rights, and imposed rigid segregation in sports, recreational areas, schools, hospitals and buses.</p><p><b>Early resistance.</b> In reaction to these repressive acts, widespread demonstrations and riots were held many times. In 1952 the ANC, led by Albert Luthuli, Oliver Tambo, Nelson Mandela and Walter Sisulu, waged a campaign of passive resistance against the various discriminatory rules. The government, however, continued with its repressive policy.</p><p><b>The Sharpeville massacre.</b> On 21 March 1960 police fired on peaceful and unarmed demonstrators at Sharpeville. Seventy-two people were killed and some 186, including women and children, were wounded. The incident is remembered as the Sharpeville massacre. It aroused worldwide condemnation, and many nations enacted economic sanctions against the racist government of South Africa. In response the government arrested opposition leaders, including Nelson Mandela, and banned all-black political organizations as illegal. Mandela remained in jail at Robben Island until he was released in 1990.</p><p><b>The end of apartheid.</b> The struggle of the ANC finally bore fruit. Apartheid was abolished and 'one man, one vote' was introduced in South Africa. In April 1994 Mandela won the election and held office as the first democratically elected president of the Republic of South Africa. He was able to reconcile blacks and whites in peace. In 1999 he left the presidency to the next democratically elected president, who happened to be his second in command in the ANC. Mandela has left a rich legacy of democratic government in South Africa.</p>",
+  keyTerms: [
+    { term: "Apartheid", def: "The policy of separate development of the races and white domination of the majority blacks by the minority whites." },
+    { term: "African National Congress (ANC)", def: "The party formed in 1912 to struggle for the rights of the black population, which later demanded one man, one vote." },
+    { term: "Afrikaner National Party", def: "The party of extreme racist groups that came to power in 1948 and introduced apartheid." },
+    { term: "Passive resistance", def: "Non-violent refusal to obey unjust rules, used by the ANC in its 1952 campaign." },
+    { term: "Sharpeville massacre", def: "The killing of 72 unarmed demonstrators and the wounding of 186 by police on 21 March 1960." },
+    { term: "Robben Island", def: "The prison where Nelson Mandela was held until his release in 1990." },
+    { term: "Sanctions", def: "Economic and other penalties imposed by other nations to force a government to change its policy." },
+    { term: "One man, one vote", def: "The demand for universal adult suffrage, which ended white minority rule in South Africa." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "Use the figures in the textbook to explain how apartheid entrenched white domination.",
+      given: "Under apartheid 87 per cent of all land in South Africa was reserved for whites, who were a minority, and all political rights were denied to blacks and other non-whites.",
+      formula: "Historical concept: institutionalized racism, in which laws and not only attitudes distribute rights and resources unequally.",
+      substitution: "Reserving almost nine-tenths of the land for a minority transferred wealth and livelihood to whites and pushed blacks into crowded areas.",
+      calculation: "Because the discrimination was written into law and backed by the state, individual goodwill could not change it; only the removal of the laws could, which is what the ANC demanded with one man, one vote.",
+      answer: "A legal system that reserved 87 per cent of the land and all political rights for whites shows apartheid as institutionalized, state-enforced racism."
+    },
+    {
+      problem: "What made the Sharpeville massacre a turning point?",
+      given: "On 21 March 1960 police fired on peaceful and unarmed demonstrators at Sharpeville; 72 people were killed and 186, including women and children, were wounded.",
+      formula: "Historical concept: the turning point. An event is a turning point when it changes the scale of support or the response of outsiders.",
+      substitution: "The killing of peaceful protesters provoked worldwide condemnation and economic sanctions against South Africa.",
+      calculation: "Because the victims were unarmed, the government lost moral standing abroad, so sanctions and international pressure grew, while inside the country the opposition was banned and Mandela was jailed.",
+      answer: "Sharpeville turned world opinion against apartheid, brought sanctions, and hardened the government's repression until 1990."
+    },
+    {
+      problem: "Explain how the ANC's demands changed between 1912 and the 1950s.",
+      given: "The ANC was formed in 1912 to struggle for the rights of the black population; later it crystallized its demands into a call for one man, one vote. In 1952 it waged a campaign of passive resistance under Albert Luthuli, Oliver Tambo, Nelson Mandela and Walter Sisulu.",
+      formula: "Historical concept: the development of a nationalist programme from a demand for rights to a demand for power.",
+      substitution: "Early appeals asked for fair treatment within the existing system, while the later call for one man, one vote challenged the whole basis of white minority rule.",
+      calculation: "As the state passed more repressive laws, a limited rights programme became inadequate, so the ANC moved from asking for rights to demanding universal suffrage.",
+      answer: "The ANC moved from seeking rights for black people to demanding full majority rule through one man, one vote."
+    },
+    {
+      problem: "How did apartheid finally end, and what role did Nelson Mandela play?",
+      given: "Apartheid was abolished and one man, one vote introduced; Mandela, jailed at Robben Island, was released in 1990, won the April 1994 election as the first democratically elected president and reconciled blacks and whites; in 1999 he left office to his second in command in the ANC.",
+      formula: "Historical concept: negotiated transition. A divided society can move to democracy when the majority demands it and the old rulers accept a transfer of power.",
+      substitution: "Decades of protest, sanctions and pressure made apartheid unsustainable, and the settlement transferred power peacefully to the majority.",
+      calculation: "The ANC's struggle and international sanctions produced a free election in 1994, which Mandela won and then used for reconciliation rather than revenge.",
+      answer: "Apartheid ended through sustained protest, sanctions and negotiation, and Mandela led the 1994 transition to majority rule and reconciliation."
+    }
+  ],
+  commonMistakes: [
+    "Thinking apartheid began in 1960 with Sharpeville, when the Afrikaner National Party actually came to power in 1948.",
+    "Believing apartheid was only social separation, and ignoring that it removed political rights and reserved 87 per cent of the land for whites.",
+    "Confusing the Sharpeville massacre of 1960 with the Rwandan genocide of 1994.",
+    "Assuming Mandela was released and elected in the same year, when he was released in 1990 and elected in 1994.",
+    "Thinking the ANC was always banned, when it was formed in 1912 and banned only after Sharpeville.",
+    "Believing that one man, one vote already existed before 1994.",
+    "Forgetting that Mandela reconciled blacks and whites and left office peacefully in 1999."
+  ],
+  applications: [
+    "Discuss how a law can be unjust even when it is passed legally, using the apartheid land laws as your example.",
+    "Explain why other nations used economic sanctions against South Africa, and debate whether such pressure works.",
+    "Study Mandela's policy of reconciliation and relate it to resolving a conflict in your own community.",
+    "Compare the rigid segregation of apartheid with any form of discrimination you can observe in daily life.",
+    "Hold a class debate on whether peaceful protest or armed pressure did more to end apartheid.",
+    "Reflect on what the principle of one man, one vote means for democracy in Ethiopia today."
+  ],
+  summary: "Apartheid was a system of state-enforced racial separation introduced by the Afrikaner National Party in 1948, which denied political rights to blacks and reserved 87 per cent of the land for whites. The ANC fought it first through passive resistance and then, after the Sharpeville massacre of 21 March 1960, through decades of repression, imprisonment and international sanctions. Apartheid was abolished, one man, one vote was introduced, and in April 1994 Nelson Mandela became the first democratically elected president of South Africa.",
+  visuals: [
+    {
+      type: "timeline",
+      config: {
+        title: "From the ANC to Democracy",
+        events: [
+          { year: "1912", text: "The ANC is formed to fight for black rights" },
+          { year: "1948", text: "The Afrikaner National Party wins power and begins apartheid" },
+          { year: "1952", text: "The ANC launches a campaign of passive resistance" },
+          { year: "1960", text: "Sharpeville massacre on 21 March; the ANC is banned" },
+          { year: "1990", text: "Nelson Mandela is released from Robben Island" },
+          { year: "1994", text: "Mandela wins the first democratic election in April" },
+          { year: "1999", text: "Mandela leaves office and hands over power in peace" }
+        ]
+      }
+    },
+    {
+      type: "comparison",
+      config: {
+        title: "Apartheid vs Democratic South Africa",
+        left: { name: "Apartheid South Africa", items: ["Afrikaner National Party from 1948", "87 per cent of land reserved for whites", "No political rights for blacks", "Rigid segregation in schools and buses"] },
+        right: { name: "Democratic South Africa", items: ["One man, one vote", "Rights for all citizens", "ANC elected in April 1994", "Mandela reconciles blacks and whites"] }
+      }
+    },
+    {
+      type: "steps",
+      config: {
+        title: "The Struggle Against Apartheid",
+        steps: [
+          { label: "Organise", detail: "The ANC is formed in 1912 to defend black rights." },
+          { label: "Demand", detail: "The ANC calls for one man, one vote." },
+          { label: "Resist", detail: "Passive resistance from 1952 under Luthuli, Tambo, Mandela and Sisulu." },
+          { label: "Endure", detail: "Sharpeville, bans on black organizations and Mandela's years at Robben Island." },
+          { label: "Press", detail: "World condemnation and economic sanctions isolate the government." },
+          { label: "Vote", detail: "A free election in April 1994 brings majority rule and reconciliation." }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "The Afrikaner National Party came to power and began apartheid in:", options: ["1912", "1948", "1960", "1994"], answer: 1, difficulty: 1, explanation: "A general election in 1948 brought the Afrikaner National Party to power." },
+    { type: "mcq", q: "Under apartheid, what share of South Africa's land was reserved for whites?", options: ["50 per cent", "65 per cent", "87 per cent", "100 per cent"], answer: 2, difficulty: 2, explanation: "Eighty-seven per cent of all land in South Africa was reserved for whites." },
+    { type: "tf", q: "The ANC was formed in 1912, two years after South Africa was freed from British rule.", answer: true, difficulty: 1, explanation: "South Africa was freed from British rule in 1910 and the ANC was formed in 1912." },
+    { type: "short", q: "In which year was Nelson Mandela released from Robben Island?", answer: "1990", difficulty: 1, explanation: "Mandela was in jail at Robben Island until he was released in 1990." },
+    { type: "concept", q: "What was the Sharpeville massacre and why did it matter?", answer: "72 killed|186 wounded|21 march 1960|worldwide condemnation", difficulty: 2, explanation: "On 21 March 1960 police fired on unarmed demonstrators, killing 72 and wounding 186, which brought worldwide condemnation and sanctions." },
+    { type: "mcq", q: "The ANC's campaign of passive resistance in 1952 was led by all of the following EXCEPT:", options: ["Albert Luthuli", "Oliver Tambo", "Walter Sisulu", "Ian Smith"], answer: 3, difficulty: 2, explanation: "Ian Smith led the white minority in Southern Rhodesia, not the ANC." },
+    { type: "tf", q: "Apartheid denied all political rights to blacks and other non-whites.", answer: true, difficulty: 2, explanation: "Apartheid denied all political rights to blacks and other non-whites." },
+    { type: "mcq", q: "When Mandela left the presidency in 1999, power passed to:", options: ["a military council", "his second in command in the ANC", "the Afrikaner National Party", "a British governor"], answer: 1, difficulty: 3, explanation: "In 1999 Mandela left the presidency to the next democratically elected president, his second in command in the ANC." },
+    { type: "concept", q: "Explain what 'separate development of the races' meant in practice.", answer: "segregation|no political rights|land reserved for whites", difficulty: 2, explanation: "It meant rigid segregation in schools, hospitals, buses and other public places, no political rights for blacks, and 87 per cent of the land reserved for whites." },
+    { type: "short", q: "In which month and year did Nelson Mandela win the first democratic election?", answer: "april 1994|1994", difficulty: 1, explanation: "Mandela won the election in April 1994." }
+  ]
+};
+Lessons["g10-history-uh7-t3"] = {
+  overview: "Pan-Africanism is the idea that peoples of African descent share common interests and should be unified. This lesson follows that idea from the New World to the Fifth Pan-African Congress, and from the split between the Casablanca and Monrovia Groups to the founding of the OAU in Addis Ababa in 1963 and its replacement by the African Union in 2002.",
+  objectives: [
+    "Define Pan-Africanism and trace its origin to the New World",
+    "Explain the significance of the Fifth Pan-African Congress at Manchester in 1945",
+    "Compare the Casablanca Group and the Monrovia Group",
+    "Describe the founding, aims and organs of the OAU",
+    "Assess the successes and failures of the OAU and explain why the AU replaced it"
+  ],
+  simple: "Pan-Africanism is the idea that peoples of African descent have common interests and should be unified. It began in the New World in the eighteenth and nineteenth centuries as part of the black liberation struggle. At the Fifth Pan-African Congress at Manchester in October 1945, African delegates dominated and focused on liberating colonized Africa. Delegates such as Kwame Nkrumah and Jomo Kenyatta soon returned home to lead their peoples to independence. African leaders later split into the Casablanca Group, which wanted a strong political union, and the Monrovia Group, which wanted a loose confederation of sovereign states. Despite the division, 32 states met at Addis Ababa from 22 to 25 May 1963 and founded the Organization of African Unity. Its greatest success was decolonization, but its failures outweighed its successes, so the African Union was launched in Durban in July 2002.",
+  detailed: "<p><b>What Pan-Africanism is.</b> Pan-Africanism is the idea that peoples of African descent have common interests and should be unified. It originated in the New World in the eighteenth and nineteenth centuries as an integral part of the black liberation struggle against white domination and exploitation. For the first time in the history of the movement, African delegates dominated the Fifth Pan-African Congress at Manchester in October 1945, where the focus of discussion was the liberation of colonized Africa.</p><p><b>From idea to action.</b> Several delegates, such as Kwame Nkrumah and Jomo Kenyatta, soon left London for Africa and led their peoples into independence. The pace-setter of this period was Nkrumah, who also played a pivotal role in the formation of the short-lived and loose Union of African States, sometimes called the Ghana-Guinea-Mali Union. It was formed in 1958 by Ghana and Guinea as the Union of Independent African States, Mali joined in 1960, and it disbanded in 1963.</p><p><b>Two rival groups.</b> African leaders became divided into opposing camps over the future of integration. In 1961 Ghana, Guinea, Egypt, Mali, Morocco, Libya and the Algerian government-in-exile formed the Casablanca Group. The remaining former French colonies plus Nigeria, Ethiopia, Liberia and Sierra Leone formed the Monrovia Group. The Casablanca Group favoured a strong political union along the lines of Nkrumah's United States of Africa, built on centralized continental economic planning, a continental defence and security system and cultural restoration. The Monrovia Group favoured a loose confederation of independent sovereign African states that would promote voluntary participation and cooperation in cultural exchanges and economic interaction. The Brazzaville group of moderate Francophone states, such as Ivory Coast, Gabon, Niger, Senegal, Upper Volta and Mauritania, joined the Monrovia Group and formed its hard core. Ethiopia and Liberia, which were neutral towards the rivalry, played a pivotal role in bridging the gulf between the two blocs.</p><p><b>The founding of the OAU.</b> Despite this division, African states came together at Addis Ababa and established the Organization of African Unity in May 1963. Between 22 and 25 May 1963, delegates from 32 African countries convened in the Ethiopian capital of Addis Ababa. The main objectives of the OAU were to rid the continent of the remaining vestiges of colonization and apartheid, to promote unity and solidarity amongst the African states, to coordinate and intensify cooperation for development, to safeguard the sovereignty and territorial integrity of member states, and to promote international cooperation.</p><p><b>The principal institutions.</b> The Assembly of the Heads of State and Government was the supreme organ and met once a year in a different capital city, though it could also meet in extraordinary session. The Council of Ministers normally met twice a year or in special sessions; it was subordinate to the Assembly and its principal responsibility was preparing the Assembly's agenda. The General Secretariat was headed by a secretary-general appointed by the Assembly and was responsible for the administration of the OAU.</p><p><b>Successes and failures.</b> The OAU had a mixed record. Its greatest success was decolonization: it played a pivotal role in eradicating colonialism and white minority rule in Africa. Overall, however, the failures of the OAU outweighed its successes. Its major failing was its inability to bring peace, prosperity, security and stability to Africa. Its powers were too weak and its influence inadequate to deal with internal and external conflicts, poor governance, human rights abuses, poverty and underdevelopment. It was also considered incapable of meeting the challenges of globalization.</p><p><b>Reform and the African Union.</b> By the end of the twentieth century a comprehensive reform became imperative, and African leaders decided to launch a new organization, the African Union. The AU was officially launched in July 2002 in Durban, South Africa.</p>",
+  keyTerms: [
+    { term: "Pan-Africanism", def: "The idea that peoples of African descent have common interests and should be unified." },
+    { term: "Fifth Pan-African Congress", def: "The congress held at Manchester in October 1945, where African delegates dominated and focused on liberating colonized Africa." },
+    { term: "Casablanca Group", def: "The 1961 group of militant pan-Africanist states that favoured a strong political union along the lines of a United States of Africa." },
+    { term: "Monrovia Group", def: "The 1961 group of states that favoured a loose confederation of independent sovereign African states and voluntary cooperation." },
+    { term: "Organization of African Unity (OAU)", def: "The continental organization founded at Addis Ababa in May 1963 to end colonization, promote unity and safeguard sovereignty." },
+    { term: "Assembly of Heads of State and Government", def: "The supreme organ of the OAU, which met once a year in a different capital city." },
+    { term: "Council of Ministers", def: "The OAU organ subordinate to the Assembly, which met twice a year and prepared the Assembly's agenda." },
+    { term: "African Union (AU)", def: "The organization that replaced the OAU, officially launched in July 2002 in Durban, South Africa." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "Distinguish the two visions of African unity on the eve of the OAU.",
+      given: "In 1961 Ghana, Guinea, Egypt, Mali, Morocco, Libya and the Algerian government-in-exile formed the Casablanca Group, while the remaining former French colonies plus Nigeria, Ethiopia, Liberia and Sierra Leone formed the Monrovia Group.",
+      formula: "Historical concept: federalism versus confederation, that is, a single strong state against a league of sovereign states.",
+      substitution: "The Casablanca Group favoured a strong political union along Nkrumah's idea of a United States of Africa, and the Monrovia Group favoured a loose confederation with voluntary cooperation.",
+      calculation: "Because the two groups wanted different levels of integration, the compromise reached at Addis Ababa in May 1963 produced a loose organization of independent states rather than a single state.",
+      answer: "The Casablanca Group sought a strong political union and the Monrovia Group a loose confederation, and the OAU adopted the looser model."
+    },
+    {
+      problem: "Why did Ethiopia and Liberia matter in bridging the Casablanca and Monrovia Groups?",
+      given: "Ethiopia and Liberia were neutral towards the rivalry between the two groups and played a pivotal role in bridging the gulf between the rival blocs, and the OAU was founded in Addis Ababa.",
+      formula: "Historical concept: mediation by neutral states in international bargaining.",
+      substitution: "Because neither state belonged firmly to a bloc, both could talk to each side and host the founding meeting.",
+      calculation: "Their neutrality lowered suspicion between the camps, and locating the founding conference at Addis Ababa underlined that neutral role and made agreement possible.",
+      answer: "As neutral states, Ethiopia and Liberia mediated between the two blocs, which made the OAU's foundation at Addis Ababa possible."
+    },
+    {
+      problem: "Assess the record of the OAU using the judgement of the textbook.",
+      given: "Its greatest success was decolonization, and it played a pivotal role in eradicating colonialism and white minority rule. Its major failing was its inability to bring peace, prosperity, security and stability, and overall the failures outweighed the successes.",
+      formula: "Historical concept: evaluating an institution by measuring its stated aims against its actual results.",
+      substitution: "The aim of ending colonial rule was largely met, while the aims of peace, security and development were not.",
+      calculation: "Measuring results against aims shows one big success and several major failures, which is why comprehensive reform became imperative and the AU was launched in Durban in July 2002.",
+      answer: "The OAU succeeded on decolonization but failed on peace, prosperity and stability, so it was replaced by the African Union in 2002."
+    },
+    {
+      problem: "Explain the link between Pan-Africanism and the founding of the OAU.",
+      given: "Pan-Africanism holds that peoples of African descent have common interests and should be unified; it began in the New World in the eighteenth and nineteenth centuries, and African delegates dominated the Fifth Pan-African Congress at Manchester in October 1945.",
+      formula: "Historical concept: the translation of an ideology into an institution.",
+      substitution: "The Manchester Congress set the liberation of colonized Africa as its focus, and delegates such as Nkrumah and Kenyatta took the idea home and led their peoples to independence.",
+      calculation: "As territories became independent in the late 1950s and early 1960s, the shared Pan-African idea was given an institutional form, the OAU, in May 1963.",
+      answer: "The OAU was the institutional expression of Pan-Africanism once enough African states had won independence to act together."
+    }
+  ],
+  commonMistakes: [
+    "Thinking the OAU was created in 1963 as a strong union with a single army and currency, when it was a loose organization of sovereign states.",
+    "Confusing the OAU, founded in 1963 at Addis Ababa, with the African Union, launched in 2002 at Durban.",
+    "Believing the Casablanca and Monrovia Groups had the same aims, when one wanted a strong political union and the other a loose confederation.",
+    "Saying Pan-Africanism began in Africa, when the textbook places its origin in the New World in the eighteenth and nineteenth centuries.",
+    "Assuming the OAU succeeded in bringing peace and prosperity, when its failures outweighed its successes.",
+    "Forgetting that delegates from 32 African countries founded the OAU between 22 and 25 May 1963."
+  ],
+  applications: [
+    "Addis Ababa hosted the founding of the OAU in 1963; discuss why that matters for Ethiopia's place in Africa.",
+    "Debate in class the case for and against Nkrumah's idea of a United States of Africa.",
+    "Draw a chart of the OAU organs and explain how business moved from the Assembly through the Council of Ministers to the Secretariat.",
+    "Evaluate whether the African Union has improved on the OAU, using present-day examples.",
+    "Discuss how Pan-African solidarity can help African countries negotiate better prices and trade deals together.",
+    "Write a short speech in the voice of Kwame Nkrumah urging African leaders to unite."
+  ],
+  summary: "Pan-Africanism, the belief that peoples of African descent share common interests, grew from the New World into a movement whose Fifth Congress at Manchester in 1945 gave priority to liberating colonized Africa. After the Casablanca and Monrovia Groups split over how closely Africa should unite, 32 states founded the OAU at Addis Ababa in May 1963. The OAU's greatest success was decolonization, but it failed to bring peace, prosperity, security and stability, so it was replaced by the African Union, launched at Durban in July 2002.",
+  visuals: [
+    {
+      type: "flowChart",
+      config: {
+        title: "From Pan-Africanism to the African Union",
+        steps: [
+          "Pan-African idea in the New World",
+          "Fifth Pan-African Congress at Manchester, October 1945",
+          "Casablanca and Monrovia Groups divide, 1961",
+          "Leaders meet at Addis Ababa, 22 to 25 May 1963",
+          "The OAU is founded by 32 African states",
+          "The African Union is launched at Durban, July 2002"
+        ]
+      }
+    },
+    {
+      type: "comparison",
+      config: {
+        title: "Casablanca Group vs Monrovia Group",
+        left: { name: "Casablanca Group", items: ["Ghana, Guinea, Egypt, Mali, Morocco, Libya", "Nkrumah's United States of Africa", "A strong political union", "Central planning and continental defence"] },
+        right: { name: "Monrovia Group", items: ["Former French colonies, Nigeria, Ethiopia, Liberia, Sierra Leone", "Sovereign states", "A loose confederation", "Voluntary cooperation"] }
+      }
+    },
+    {
+      type: "mindMap",
+      config: {
+        title: "Organs and Aims of the OAU",
+        center: "OAU, 1963",
+        branches: [
+          { label: "Assembly", items: ["Heads of state and government", "Supreme organ", "Met once a year"] },
+          { label: "Council of Ministers", items: ["Met twice a year", "Prepared the agenda"] },
+          { label: "Secretariat", items: ["Secretary-general", "Ran the administration"] },
+          { label: "Aims", items: ["End colonization and apartheid", "Unity and solidarity", "Sovereignty and development"] }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "Pan-Africanism is best defined as the idea that:", options: ["peoples of African descent have common interests and should be unified", "African states should join the World Bank", "Africa needs a single colonial administration", "only West Africa should unite"], answer: 0, difficulty: 2, explanation: "Pan-Africanism is the idea that peoples of African descent have common interests and should be unified." },
+    { type: "short", q: "In which city and month of 1963 was the OAU founded?", answer: "addis ababa|may 1963|addis ababa, may 1963", difficulty: 1, explanation: "Delegates met at Addis Ababa between 22 and 25 May 1963 to establish the OAU." },
+    { type: "mcq", q: "How many independent African countries sent delegates to the founding conference of the OAU?", options: ["12", "22", "32", "53"], answer: 2, difficulty: 2, explanation: "Delegates from 32 African countries convened at Addis Ababa in May 1963." },
+    { type: "tf", q: "The Fifth Pan-African Congress met at Manchester in October 1945.", answer: true, difficulty: 1, explanation: "The Fifth Pan-African Congress was held at Manchester in October 1945, with African delegates dominating." },
+    { type: "concept", q: "State the main difference between the Casablanca Group and the Monrovia Group.", answer: "strong political union|loose confederation|voluntary cooperation", difficulty: 2, explanation: "Casablanca wanted a strong political union along Nkrumah's United States of Africa; Monrovia wanted a loose confederation of sovereign states." },
+    { type: "mcq", q: "Which of the following was NOT an objective of the OAU?", options: ["To rid Africa of colonization and apartheid", "To promote unity and solidarity", "To safeguard sovereignty and territorial integrity", "To create a single African currency in 1963"], answer: 3, difficulty: 2, explanation: "The objectives listed are decolonization, unity, development cooperation, sovereignty and international cooperation, not a single currency." },
+    { type: "short", q: "Name the OAU organ that met once a year in a different capital city.", answer: "assembly of heads of state and government|assembly", difficulty: 1, explanation: "The Assembly of the Heads of State and Government was the supreme organ and met once a year." },
+    { type: "tf", q: "The OAU fully succeeded in bringing peace, prosperity and stability to Africa.", answer: false, difficulty: 2, explanation: "Its major failing was its inability to bring peace, prosperity, security and stability." },
+    { type: "mcq", q: "The African Union replaced the OAU and was launched in July 2002 at:", options: ["Addis Ababa", "Cairo", "Durban", "Accra"], answer: 2, difficulty: 1, explanation: "The AU was officially launched in July 2002 in Durban, South Africa." },
+    { type: "concept", q: "Explain why a new organization, the African Union, was created to replace the OAU.", answer: "oau too weak|failures outweighed|globalization|peace and security", difficulty: 3, explanation: "The OAU's powers were too weak and its influence inadequate for conflict, poor governance, poverty and globalization, so comprehensive reform became imperative." },
+    { type: "ordering", q: "Which list arranges these events in correct chronological order, earliest first?", options: ["Manchester Congress, OAU founded, AU launched", "OAU founded, Manchester Congress, AU launched", "AU launched, OAU founded, Manchester Congress", "Manchester Congress, AU launched, OAU founded"], answer: 0, difficulty: 2, explanation: "Manchester was in 1945, the OAU was founded in 1963, and the AU was launched in 2002." }
+  ]
+};
+Lessons["g10-history-uh7-t4"] = {
+  overview: "Political independence did not bring economic independence. This lesson examines the features of Africa's post-independence economy, the problem of debt, drought and adverse terms of trade, and the Regional Economic Communities built to integrate African economies.",
+  objectives: [
+    "Identify the salient features of the post-independence economy of Africa",
+    "Explain how debt, drought and adverse terms of trade weakened African economies",
+    "Describe the role of the IMF and World Bank in African development",
+    "List the major Regional Economic Communities of Africa",
+    "Explain how regional integration is meant to lead to a continental African Economic Community"
+  ],
+  simple: "Africa achieved substantial economic growth from 1965 to 1974, but after that there was a downward trend. There was a modest recovery in the second half of the 1990s, but it was not enough to raise per capita incomes or reduce poverty, because growth barely kept pace with rapid population growth. Two principal factors hurt African development in the 1980s and 1990s: international debt and drought. At the root of the problem were adverse terms of trade, since Africa's raw material exports dropped in price ten or twenty times compared with manufactured imports. Running out of foreign exchange, governments turned to the IMF and World Bank, whose priorities reflected the interests of the capitalist west. To integrate their economies, African states created Regional Economic Communities such as COMESA, ECOWAS, IGAD and SADC, which are meant to build the wider African Economic Community established under the Abuja Treaty of 1991.",
+  detailed: "<p><b>Growth and decline.</b> Africa achieved substantial economic growth from 1965 to 1974, but there has been a downward trend after that. There was a modest recovery in the second half of the 1990s, but not enough to translate into meaningful increases in per capita incomes or a reduction in poverty. Gross domestic product growth has barely kept pace with the high rate of population growth, so achieving and maintaining reasonable real growth rates remains a major challenge for sub-Saharan Africa.</p><p><b>Debt and drought.</b> Two of the principal factors adversely affecting African development in the 1980s and 1990s were international debt and drought. At the root of the problem are the continuing adverse terms of trade. Since the 1960s, Africa's raw material exports have dropped in price ten or twenty times compared with manufactured imports. Running out of foreign exchange, governments had to turn to the IMF for emergency foreign exchange and for further loans to help pay the interest on loans that were already too large to pay off.</p><p><b>The lenders and their interests.</b> The trouble is that the IMF and its associate, the World Bank, are financed by the banks of the developed capitalist economies of Western Europe and the United States. Their priorities reflected the interests of the capitalist west, which still regarded Africa primarily as the source of raw materials for its developed industries. Borrowing therefore relieved the immediate shortage of foreign exchange but did not remove the underlying dependence.</p><p><b>Regional Economic Communities.</b> Regional Economic Communities are established in different regions of Africa. Their purpose is to facilitate regional economic integration between members of the individual regions and, through the wider African Economic Community, to promote eventual continental integration. The African Economic Community was established under the Abuja Treaty of 1991, while the 1980 Lagos Plan of Action for the Development of Africa and the Abuja Treaty both proposed the creation of the Regional Economic Communities as the basis for wider integration. The communities are increasingly involved in coordinating the interests of African Union member states in wider areas such as peace and security, development and governance.</p><p><b>The major communities.</b> The Common Market for Eastern and Southern Africa (COMESA) is a regional economic community with twenty-one member states stretching from Tunisia to Swaziland, formed in December 1994 to replace a Preferential Trade Area that had existed since 1981. The Economic Community of West African States (ECOWAS) includes Benin, Burkina Faso, Cape Verde, Cote d'Ivoire, Gambia, Ghana, Guinea, Guinea-Bissau, Liberia, Mali, Niger, Nigeria, Senegal, Sierra Leone and Togo. The Intergovernmental Authority on Development (IGAD) includes Ethiopia, Sudan, South Sudan, Eritrea, Kenya, Uganda and Djibouti. The Southern African Development Community (SADC) includes Angola, Botswana, Lesotho, Malawi, Mozambique, Swaziland, the United Republic of Tanzania, Zambia, Zimbabwe, South Africa and the Republic of Congo.</p>",
+  keyTerms: [
+    { term: "Terms of trade", def: "The relationship between the prices a country receives for its exports and the prices it pays for its imports." },
+    { term: "Foreign exchange", def: "Foreign currencies earned from exports and needed to pay for imports, loans and interest." },
+    { term: "Per capita income", def: "Average income per person, calculated by dividing total income by the population." },
+    { term: "Regional Economic Community (REC)", def: "A group of states in one region established to facilitate regional economic integration between its members." },
+    { term: "COMESA", def: "The Common Market for Eastern and Southern Africa, formed in December 1994 with twenty-one members from Tunisia to Swaziland." },
+    { term: "ECOWAS", def: "The Economic Community of West African States, uniting countries such as Benin, Ghana, Guinea, Nigeria, Senegal and Togo." },
+    { term: "IGAD", def: "The Intergovernmental Authority on Development, grouping Ethiopia, Sudan, South Sudan, Eritrea, Kenya, Uganda and Djibouti." },
+    { term: "Abuja Treaty", def: "The 1991 treaty under which the African Economic Community was established." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "Using the trade figures in the textbook, explain why African economies struggled after 1974.",
+      given: "Africa grew substantially from 1965 to 1974 with a downward trend afterwards, and since the 1960s Africa's raw material exports dropped in price ten or twenty times compared with manufactured imports.",
+      formula: "Historical concept: adverse terms of trade, the ratio between the price of what a country exports and the price of what it imports.",
+      substitution: "If raw material prices fall ten or twenty times relative to manufactured goods, the same exports buy far fewer imports.",
+      calculation: "Africa therefore earned less foreign exchange, ran into debt, and had to borrow from the IMF to pay interest, which kept the continent dependent and poor.",
+      answer: "Falling raw material prices relative to manufactured imports shrank Africa's earnings, deepened debt and blocked economic independence."
+    },
+    {
+      problem: "Why did African governments turn to the IMF and the World Bank, and why was this criticized?",
+      given: "Running out of foreign exchange, governments turned to the IMF for emergency foreign exchange and further loans. The IMF and the World Bank were financed by the banks of Western Europe and the United States, whose priorities reflected the interests of the capitalist west.",
+      formula: "Historical concept: neo-colonial dependency, in which formal independence does not end economic dependence.",
+      substitution: "A shortage of foreign exchange forced borrowing, and the lenders' priorities favoured the west's need for cheap raw materials.",
+      calculation: "Borrowing solved the immediate shortage but kept decisions about African economies in foreign hands, so the debt postponed rather than achieved economic independence.",
+      answer: "They borrowed to survive a foreign exchange crisis, but the western priorities of the lenders deepened dependence rather than ending it."
+    },
+    {
+      problem: "What is the purpose of the Regional Economic Communities and how do they connect to continental integration?",
+      given: "The communities aim to facilitate regional integration and, through the wider African Economic Community, to promote eventual continental integration. The 1980 Lagos Plan of Action and the Abuja Treaty of 1991 proposed them.",
+      formula: "Historical concept: integration by stages, moving from regional to continental level.",
+      substitution: "COMESA, ECOWAS, IGAD and SADC each integrate a region, and together they are meant to form the African Economic Community.",
+      calculation: "Because a single continental union was not yet practical, the plan begins with regional markets that can later be joined into one.",
+      answer: "The communities are building blocks that integrate individual regions first and are meant to lead to a continental African Economic Community."
+    },
+    {
+      problem: "Compare COMESA with IGAD using the membership lists in the textbook.",
+      given: "COMESA has twenty-one member states from Tunisia to Swaziland and was formed in December 1994, replacing a Preferential Trade Area that existed since 1981. IGAD members include Ethiopia, Sudan, South Sudan, Eritrea, Kenya, Uganda and Djibouti.",
+      formula: "Historical concept: comparing regional organizations by membership, size and purpose.",
+      substitution: "COMESA is very large and spans the eastern and southern parts of the continent, while IGAD is smaller and concentrated in the Horn of Africa.",
+      calculation: "A bigger membership widens the market but makes agreement harder, while a smaller group in a troubled region can focus on shared security and development problems.",
+      answer: "COMESA is the larger eastern and southern market, while IGAD is a smaller Horn of Africa group with a stronger focus on shared regional problems."
+    }
+  ],
+  commonMistakes: [
+    "Thinking political independence automatically brought economic independence.",
+    "Confusing the Lagos Plan of Action of 1980 with the Abuja Treaty of 1991.",
+    "Believing Africa's raw material exports rose in price, when they fell ten or twenty times relative to manufactured imports.",
+    "Mixing COMESA, which covers Eastern and Southern Africa, with ECOWAS, which covers West Africa.",
+    "Assuming the IMF and World Bank were neutral, when the textbook says their priorities reflected western interests.",
+    "Thinking the Regional Economic Communities replace the African Union, when they are building blocks for continental integration.",
+    "Forgetting that growth barely kept pace with population growth, so incomes per person did not rise."
+  ],
+  applications: [
+    "Explain how dependence on raw material exports still affects African economies today.",
+    "Investigate whether Ethiopia is a member of IGAD and describe what the organization does for the Horn of Africa.",
+    "Debate whether borrowing from the IMF and World Bank helped or harmed African development.",
+    "Compare the membership of COMESA and SADC and list the countries that belong to both.",
+    "Discuss how regional trade could help Ethiopian coffee, leather and other exports reach wider markets.",
+    "Interpret the phrase adverse terms of trade using a simple example of coffee sold and machinery bought."
+  ],
+  summary: "Africa's post-independence economy grew between 1965 and 1974 and then declined, weakened in the 1980s and 1990s by international debt and drought. At the root of the problem were adverse terms of trade, since raw material exports fell far in price compared with manufactured imports, forcing governments to borrow from the IMF and World Bank on terms that reflected western interests. To overcome this dependence, African states formed Regional Economic Communities such as COMESA, ECOWAS, IGAD and SADC, intended as building blocks for the continental African Economic Community established under the Abuja Treaty of 1991.",
+  visuals: [
+    {
+      type: "steps",
+      config: {
+        title: "How Debt and Drought Hit Africa",
+        steps: [
+          { label: "Export", detail: "Africa sells raw materials and buys manufactured goods." },
+          { label: "Prices fall", detail: "Raw material prices drop ten or twenty times relative to imports." },
+          { label: "Earn less", detail: "Foreign exchange from exports dries up." },
+          { label: "Borrow", detail: "Governments turn to the IMF and World Bank." },
+          { label: "Pay interest", detail: "New loans are used to pay interest on older loans." },
+          { label: "Stay dependent", detail: "Economic independence remains out of reach." }
+        ]
+      }
+    },
+    {
+      type: "comparison",
+      config: {
+        title: "Growth Years vs the Lost Years",
+        left: { name: "1965 to 1974", items: ["Substantial economic growth", "Rising output", "Optimism after independence"] },
+        right: { name: "1980s and 1990s", items: ["International debt", "Drought and famine", "The lost decade of the 1980s", "Small recovery in the late 1990s"] }
+      }
+    },
+    {
+      type: "tableVisual",
+      config: {
+        title: "Major Regional Economic Communities",
+        headers: ["Community", "Members given in the textbook", "Fact from the lesson"],
+        rows: [
+          ["COMESA", "21 states from Tunisia to Swaziland", "Formed in December 1994, replacing a Preferential Trade Area of 1981"],
+          ["ECOWAS", "Benin, Ghana, Guinea, Nigeria, Senegal, Togo and others", "West African economic community"],
+          ["IGAD", "Ethiopia, Sudan, South Sudan, Eritrea, Kenya, Uganda, Djibouti", "Horn of Africa community"],
+          ["SADC", "Angola, Botswana, Zambia, Zimbabwe, South Africa, Tanzania and others", "Southern African development community"]
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "Africa achieved substantial economic growth between:", options: ["1965 and 1974", "1975 and 1984", "1985 and 1994", "1995 and 2004"], answer: 0, difficulty: 1, explanation: "Africa grew substantially from 1965 to 1974, with a downward trend afterwards." },
+    { type: "mcq", q: "Two principal factors that adversely affected African development in the 1980s and 1990s were:", options: ["tourism and remittances", "international debt and drought", "oil and gold", "education and health"], answer: 1, difficulty: 2, explanation: "The textbook names international debt and drought as the two principal adverse factors." },
+    { type: "tf", q: "Since the 1960s, Africa's raw material exports have dropped in price ten or twenty times compared with manufactured imports.", answer: true, difficulty: 2, explanation: "This fall in export prices is the root of the adverse terms of trade." },
+    { type: "short", q: "Which regional economic community has twenty-one member states stretching from Tunisia to Swaziland?", answer: "comesa", difficulty: 1, explanation: "COMESA has twenty-one members from Tunisia to Swaziland." },
+    { type: "concept", q: "Explain the idea of adverse terms of trade.", answer: "export prices fall|raw materials cheap|imports expensive|less foreign exchange", difficulty: 2, explanation: "It means a country receives less for its exports while paying more for imports, so it earns less foreign exchange." },
+    { type: "mcq", q: "The African Economic Community was established under the:", options: ["Lagos Plan of Action of 1980", "Abuja Treaty of 1991", "Durban Declaration of 2002", "Manchester Congress of 1945"], answer: 1, difficulty: 2, explanation: "The African Economic Community was established under the Abuja Treaty of 1991." },
+    { type: "mcq", q: "Which of the following countries is a member of IGAD?", options: ["Ghana", "Ethiopia", "Nigeria", "Senegal"], answer: 1, difficulty: 2, explanation: "IGAD includes Ethiopia, Sudan, South Sudan, Eritrea, Kenya, Uganda and Djibouti." },
+    { type: "tf", q: "COMESA replaced a Preferential Trade Area that had existed since 1981.", answer: true, difficulty: 1, explanation: "COMESA was formed in December 1994, replacing a Preferential Trade Area existing since 1981." },
+    { type: "short", q: "In which year did COMESA replace the Preferential Trade Area?", answer: "1994", difficulty: 1, explanation: "COMESA was formed in December 1994." },
+    { type: "concept", q: "Why did African governments turn to the IMF and World Bank, and what criticism is made of those institutions?", answer: "foreign exchange|loans|interests of the west|raw materials", difficulty: 3, explanation: "They ran out of foreign exchange and borrowed to pay interest, but the lenders were financed by western banks whose priorities reflected western interests in African raw materials." },
+    { type: "mcq", q: "The purpose of the Regional Economic Communities is to:", options: ["collect taxes for the African Union", "facilitate regional integration and eventual continental integration", "build continental armies", "ban foreign trade with Asia"], answer: 1, difficulty: 3, explanation: "Their purpose is to facilitate regional economic integration and, through the wider African Economic Community, continental integration." }
+  ]
+};
+Lessons["g10-history-uh7-t5"] = {
+  overview: "Independent African states faced ethnic and border conflicts, poverty, disease and climate stress, and the 1980s became known as the lost decade. This lesson examines those major issues and the democratic reforms of the 1990s, often called Africa's second independence.",
+  objectives: [
+    "Identify the major challenges faced by post-independence African states",
+    "Explain how ethnic and border conflicts led to civil wars such as the Biafra War",
+    "Describe the causes and consequences of the Rwandan genocide of 1994",
+    "Explain the causes of poverty in Africa, including population growth, war, climate, disease and weak infrastructure",
+    "Assess the democratic reforms of the 1990s as Africa's second independence"
+  ],
+  simple: "Most African countries were products of colonialism and kept strong ties with their former colonial masters, a situation called the colonial hangover. They faced contested boundaries, ethnicity, corruption, nepotism and client-patron relations, and conflicts over colonial borders were frequent. Ethnic oppression bred civil wars, such as the Biafra War in Nigeria, which began shortly after independence, and the Rwandan genocide of April to July 1994, in which about 800,000 people, mostly Tutsi, were killed. Poverty had many causes: rapid population growth, war and crises, harsh climatic conditions, diseases such as AIDS, malaria and Ebola, and weak agricultural infrastructure. In 2013, of the world's 20 war-related conflicts, 11 were in sub-Saharan Africa. Yet there was hope: in the 1990s profound democratic reforms swept the continent, ending single-party dictatorships and military rule, and this was called the second independence. The 1980s had been the lost decade.",
+  detailed: "<p><b>The colonial hangover.</b> Most African countries, which were products of colonialism, have stronger ties with their former colonial masters. They are coming to terms with post-colonial challenges ranging from contested boundaries, ethnicity, corruption and nepotism to client-patron relations. The so-called colonial hangover is deeply embedded. France, for instance, has always maintained strong ties with its former colonies in sub-Saharan Africa, aimed at sustaining its neo-colonial grip on these countries.</p><p><b>Ethnic and border conflicts.</b> Most of the newly independent African countries share peoples who belong to the same ethnic groups, which has led some African states to try to redraw colonial boundaries following ethnic settlements. As a result, Africa has seen frequent border conflicts. Ethnic oppression and conflicts within African states have bred civil wars, and at the root of the ethnic conflicts have been political, economic and social injustices. The continent has been continually plagued by the effects of ethnic conflict, from the conflict between the southern Igbo and the northern Hausa in the Biafra War to the ethnic cleansings in Darfur and Rwanda.</p><p><b>The Biafra War.</b> The Biafra War, also known as the Nigerian Civil War, began shortly after Nigeria gained independence. During British rule the northern region of Nigeria was largely isolated from the southern and eastern regions, and the distribution of wealth was unequal, since the Igbo of the south-east had greater prosperity from palm oil and petroleum resources. Compared with the Hausa in the north and the Yoruba in the south-west, the south-eastern Igbo were geographically isolated, and because of their location, wealth and religion they were marginalized and labelled as outsiders. As a result of the 1966 military coup, Nigeria was thrown into a bloody civil war, and the Hausa-controlled government mobilized drastic measures to eliminate the Igbo population, which had chosen to secede and form the nation of Biafra.</p><p><b>The Rwandan genocide.</b> Rwanda has a long history of ethnic conflict. The most horrific display of violence occurred from April to July 1994 between two of Rwanda's ethnic groups, the Tutsi and the Hutu. The Rwandan Genocide, as it came to be known, was one of the bloodiest ethnic conflicts in history. The attempted extermination of the Tutsi by the Hutu people resulted in 800,000 deaths, the majority being Tutsi.</p><p><b>The causes of poverty.</b> Extreme poverty in Africa has many closely linked causes. Rapid population growth reduces per capita income growth and well-being, increases landlessness in densely populated areas, and harms child health and education. War and crises also deepen poverty: of the world's 20 war-related conflicts in 2013, 11 alone were fought on the African continent, all in sub-Saharan Africa, including the wars in Sudan and South Sudan, Somalia, Nigeria, Mali, the Democratic Republic of Congo and the Central African Republic. In crisis regions agricultural production usually comes to a standstill and many people flee and depend on outside help.</p><p><b>Climate, disease and infrastructure.</b> The African continent has suffered more and more from climate change, as devastating floods and extraordinary drought lead to crop failures, hunger crises and famine, particularly in East Africa and the Sahel region. Diseases such as AIDS, malaria and Ebola are both a cause and a result of poverty: a low level of education and inadequate medical care mean that diseases spread faster and cannot be treated, life expectancy falls and the number of orphans rises, and the loss of labour hits agriculture and food production. In many regions agriculture also lacks infrastructure and expertise such as roads, wells, irrigation systems, storage facilities and machinery, which makes local self-help so important in fighting poverty.</p><p><b>Glimmers of hope.</b> Despite negative impressions of Africa as the arena of dictators and despots, there are glimmers of hope and optimism. The past two decades have seen a steady expansion of the frontiers of liberal democracy in Africa. By the 1990s profound democratic reforms had swept across the whole continent, including South Africa, where the white-settler apartheid system collapsed in favour of multi-party democracy. From Algeria to the Democratic Republic of Congo and from Benin to Kenya, democratic reforms led to the collapse of decades of single-party dictatorships and military rule. Africa's democratic wave of the 1990s and 2000s has been termed the second independence, reminiscent of the anti-colonial struggles of the 1950s and 1960s. The problems of the newly independent states reached a climax in the 1980s, often known as the lost decade.</p>",
+  keyTerms: [
+    { term: "Colonial hangover", def: "The deeply embedded post-colonial ties and challenges that keep former colonies dependent on their former rulers." },
+    { term: "Ethnic conflict", def: "Conflict between ethnic groups, rooted in political, economic and social injustices." },
+    { term: "Biafra War", def: "The Nigerian Civil War, in which the south-eastern Igbo seceded and formed the nation of Biafra." },
+    { term: "Rwandan Genocide", def: "The attempted extermination of the Tutsi by the Hutu from April to July 1994, which killed 800,000 people." },
+    { term: "Genocide", def: "The deliberate attempt to destroy an ethnic group, as in Rwanda in 1994." },
+    { term: "Second independence", def: "The democratic wave of the 1990s and 2000s that ended single-party dictatorships and military rule in Africa." },
+    { term: "Lost decade", def: "The name often given to the 1980s, when Africa's problems of conflict, debt, drought and famine reached a climax." },
+    { term: "Neo-colonialism", def: "Continued foreign control of a formally independent country, for example through strong ties with the former colonial master." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "Analyse the causes of the Biafra War.",
+      given: "The northern region of Nigeria was largely isolated from the southern and eastern regions; wealth was unequal, and the south-eastern Igbo were prosperous from palm oil and petroleum but marginalized and labelled outsiders; the 1966 military coup was followed by measures to eliminate the Igbo, who seceded as Biafra.",
+      formula: "Historical concept: ethnicity combined with unequal development. Ethnic conflict becomes civil war when political power and economic wealth are distributed very unequally between groups.",
+      substitution: "Regional isolation and unequal wealth created resentment, a coup destroyed the political balance, and the Igbo were pushed out of the nation.",
+      calculation: "Because the Igbo were both resented and excluded, and because control of the state and oil wealth was at stake, the dispute turned into a full civil war.",
+      answer: "The Biafra War grew from ethnic division plus unequal wealth and political exclusion, sharpened by the 1966 military coup."
+    },
+    {
+      problem: "Explain why the Rwandan genocide of 1994 is described as one of the bloodiest ethnic conflicts in history.",
+      given: "The violence occurred from April to July 1994 between the Tutsi and the Hutu, and the attempted extermination of the Tutsi by the Hutu resulted in 800,000 deaths, the majority being Tutsi.",
+      formula: "Historical concept: genocide, the deliberate attempt to destroy an ethnic group.",
+      substitution: "The killing was aimed at an entire group, not at an army, and it produced 800,000 deaths in about three months.",
+      calculation: "Because the victims were civilians singled out by ethnicity and the death toll was so high in so short a time, the event meets the textbook's description of one of the bloodiest ethnic conflicts in history.",
+      answer: "It was a deliberate attempt to exterminate the Tutsi, killing about 800,000 people between April and July 1994."
+    },
+    {
+      problem: "Link rapid population growth to poverty in Africa.",
+      given: "Population growth is rapid despite prevention and education campaigns and developmental success cannot keep pace; it reduces per capita income growth, increases landlessness in densely populated areas, and harms child health and education.",
+      formula: "Historical concept: per capita income, which is total income divided by population.",
+      substitution: "If the economy grows but the population grows at least as fast, income per head barely changes and pressure on land rises.",
+      calculation: "The result is stagnant income per person, growing landlessness and poorer health and schooling, all of which increase poverty now and in the next generation.",
+      answer: "Fast population growth absorbs economic gains, reduces income per head and increases poverty, especially where land is scarce."
+    },
+    {
+      problem: "Explain what is meant by Africa's second independence.",
+      given: "By the 1990s profound democratic reforms had swept across the continent, including South Africa; from Algeria to the DRC and from Benin to Kenya, democratic reforms led to the collapse of decades of single-party dictatorships and military rule, and this wave was termed the second independence.",
+      formula: "Historical concept: political liberation in two stages, first from foreign rule and then from domestic authoritarian rule.",
+      substitution: "The first independence removed European colonial control, while the second removed single-party and military governments.",
+      calculation: "Because both waves ended a form of domination and expanded self-rule, the democratic reforms of the 1990s and 2000s are described as a second independence.",
+      answer: "The second independence was the democratic wave of the 1990s and 2000s that ended single-party and military rule across Africa."
+    }
+  ],
+  commonMistakes: [
+    "Believing the Rwandan genocide happened in the 1980s, when it took place from April to July 1994.",
+    "Confusing the Biafra War in Nigeria with the Congo crisis of the 1960s.",
+    "Thinking ethnic conflict is caused only by ancient hatred, when the textbook points to political, economic and social injustices.",
+    "Assuming Africa has only problems, when the 1990s democratic reforms are described as a second independence.",
+    "Confusing the lost decade of the 1980s with the growth years of 1965 to 1974.",
+    "Believing population growth raises income per person, when it reduces per capita income.",
+    "Forgetting that disease is both a cause and a result of poverty."
+  ],
+  applications: [
+    "Discuss how unequal development between regions can feed conflict, using the Biafra case as your example.",
+    "Debate what the world community should have learned from the Rwandan genocide of 1994.",
+    "Identify one environmental problem in your area and explain how it could increase poverty.",
+    "Explain how disease and poverty reinforce each other in your own community.",
+    "Assess the progress of democratic reform in Africa since the 1990s as a second independence.",
+    "Suggest how local self-help groups could improve agricultural infrastructure such as wells and storage in your woreda."
+  ],
+  summary: "Independent African states inherited colonial boundaries and weak economies, and faced ethnic and border conflicts, corruption and neo-colonial ties, all rooted in political, economic and social injustices. The Biafra War and the Rwandan genocide of 1994 showed the human cost, while poverty was driven by rapid population growth, war, climate stress, disease and weak agricultural infrastructure; the 1980s became the lost decade. Yet the democratic reforms of the 1990s and 2000s, which ended single-party and military rule across the continent, were called Africa's second independence.",
+  visuals: [
+    {
+      type: "mindMap",
+      config: {
+        title: "Major Issues in Contemporary Africa",
+        center: "Contemporary Africa",
+        branches: [
+          { label: "Conflict", items: ["Ethnic and border conflicts", "The Biafra War", "The Rwandan genocide of 1994"] },
+          { label: "Poverty", items: ["Rapid population growth", "War and crises", "Climate stress", "Disease"] },
+          { label: "Economy", items: ["Weak agricultural infrastructure", "Debt and dependency"] },
+          { label: "Hope", items: ["Democratic reforms of the 1990s", "The second independence"] }
+        ]
+      }
+    },
+    {
+      type: "tableVisual",
+      config: {
+        title: "Causes of Poverty in Africa",
+        headers: ["Cause", "How it increases poverty"],
+        rows: [
+          ["Rapid population growth", "Reduces income per head and increases landlessness"],
+          ["War and crises", "Stops farming, displaces people and increases dependence on aid"],
+          ["Climatic conditions", "Floods and drought cause crop failure, hunger and famine"],
+          ["Diseases", "AIDS, malaria and Ebola reduce labour and food production"],
+          ["Weak agricultural infrastructure", "Poor roads, wells, irrigation and storage keep yields low"]
+        ]
+      }
+    },
+    {
+      type: "qa",
+      config: {
+        title: "Contemporary Africa Quick-Check",
+        pairs: [
+          { q: "When did the Rwandan genocide take place?", a: "From April to July 1994, killing about 800,000 people, mostly Tutsi." },
+          { q: "What is the Biafra War also called?", a: "The Nigerian Civil War, fought shortly after Nigeria gained independence." },
+          { q: "Which two regions are most affected by floods and drought?", a: "East Africa and the Sahel region." },
+          { q: "What is meant by the second independence?", a: "The democratic reforms of the 1990s and 2000s that ended single-party and military rule." }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "The Rwandan genocide took place between:", options: ["April and July 1994", "January and March 1960", "October and December 1980", "May and August 2002"], answer: 0, difficulty: 1, explanation: "The violence occurred from April to July 1994 between the Tutsi and the Hutu." },
+    { type: "mcq", q: "Approximately how many people died in the Rwandan genocide?", options: ["8,000", "80,000", "800,000", "8 million"], answer: 2, difficulty: 2, explanation: "The attempted extermination of the Tutsi resulted in 800,000 deaths, the majority being Tutsi." },
+    { type: "mcq", q: "The Biafra War is also known as the:", options: ["Nigerian Civil War", "Congo Crisis", "Algerian War", "Mau Mau revolt"], answer: 0, difficulty: 2, explanation: "The Biafra War is also known as the Nigerian Civil War." },
+    { type: "tf", q: "Of the world's 20 war-related conflicts in 2013, 11 were fought in sub-Saharan Africa.", answer: true, difficulty: 2, explanation: "The textbook states that 11 of the world's 20 war-related conflicts in 2013 were fought in sub-Saharan Africa." },
+    { type: "concept", q: "Give two causes of poverty in Africa named in the lesson.", answer: "population growth|war and crises|climatic conditions|diseases|agricultural infrastructure", difficulty: 2, explanation: "The causes named are population growth, war and crises, climatic conditions, diseases and inadequate agricultural infrastructure." },
+    { type: "short", q: "Which two regions are particularly affected by climate change according to the lesson?", answer: "east africa and the sahel|sahel|east africa", difficulty: 1, explanation: "East Africa and the Sahel region are particularly affected." },
+    { type: "mcq", q: "Diseases such as AIDS, malaria and Ebola are described as:", options: ["only a cause of poverty", "both a cause and a result of poverty", "unrelated to poverty", "found only in North Africa"], answer: 1, difficulty: 2, explanation: "The textbook says these diseases are the cause but also the result of poverty in Africa." },
+    { type: "tf", q: "The 1980s in Africa are often called the lost decade.", answer: true, difficulty: 1, explanation: "The problems of the newly independent countries reached a climax in the 1980s, often known as the lost decade." },
+    { type: "concept", q: "What is meant by Africa's second independence?", answer: "democratic reforms|1990s|collapse of single-party rule|end of military rule", difficulty: 3, explanation: "It was the democratic wave of the 1990s and 2000s that ended single-party dictatorships and military rule." },
+    { type: "mcq", q: "According to the lesson, the root cause of ethnic conflicts in African states is:", options: ["foreign religion", "political, economic and social injustices", "climate change", "lack of oil"], answer: 1, difficulty: 2, explanation: "At the root of the ethnic conflicts have been political, economic and social injustices." },
+    { type: "ordering", q: "Which list arranges these events in correct chronological order, earliest first?", options: ["Biafra War, Rwandan genocide, the second independence", "Rwandan genocide, Biafra War, the second independence", "The second independence, Biafra War, Rwandan genocide", "Biafra War, the second independence, Rwandan genocide"], answer: 0, difficulty: 2, explanation: "The Biafra War followed Nigerian independence in 1960, the Rwandan genocide was in 1994, and the democratic wave is dated to the 1990s and 2000s." }
+  ]
+};
