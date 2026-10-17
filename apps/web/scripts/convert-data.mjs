@@ -55,22 +55,27 @@ if (!curriculum?.["9"] || !curriculum?.["10"] || !curriculum?.["11"] || !curricu
   console.error('CURRICULUM_ALL missing grades — check globals'); process.exit(1);
 }
 
-/* ---- invariants (same as the Sept 7 sweep) ---- */
+/* ---- invariants (derived — no hardcoded counts) ---- */
 const topicIds = Object.keys(topicIndex);
 const lessonKeys = Object.keys(lessons);
 const orphans = lessonKeys.filter(k => !topicIndex[k]);
-// Grade 12 is a staged rollout: map shipped, lessons authored subject-by-subject.
-// Missing-lesson invariant applies to every grade EXCEPT 12; G12 counts are reported.
-const missing = topicIds.filter(k => !lessons[k] && topicIndex[k]._grade !== '12');
-const g12NoLesson = topicIds.filter(k => topicIndex[k]._grade === '12' && !lessons[k]).length;
+// Staged rollouts: a grade or subject may ship curriculum structure before its lessons.
+//   - Grade 12 ships subject-by-subject (math/physics/chemistry first).
+//   - Civics (Citizenship Education) ships as structure first; lessons come next.
+const STAGED_SUBJECTS = new Set(['civics']);
+const isStaged = (tid) => {
+  const t = topicIndex[tid];
+  return t?._grade === '12' || STAGED_SUBJECTS.has(t?._subject);
+};
+const missing = topicIds.filter(k => !lessons[k] && !isStaged(k));
+const stagedNoLesson = topicIds.filter(k => !lessons[k] && isStaged(k)).length;
 console.log(`curriculum topics: ${topicIds.length}`);
 console.log(`lesson keys: ${lessonKeys.length}`);
 console.log(`ORPHAN keys (in content, not in curriculum): ${orphans.length}`);
-console.log(`TOPICS without lesson (excl. G12 staged): ${missing.length}`);
-console.log(`G12 topics awaiting lessons: ${g12NoLesson}`);
-const totalTopics = Object.keys(topicIndex).length;
-const authoredTarget = totalTopics - g12NoLesson;
-if (orphans.length || missing.length || topicIds.length !== 380 || authoredTarget !== lessonKeys.length) {
+console.log(`TOPICS without lesson (unstaged — must be 0): ${missing.length}`);
+console.log(`staged topics awaiting lessons: ${stagedNoLesson}`);
+const authoredTarget = topicIds.length - stagedNoLesson;
+if (orphans.length || missing.length || authoredTarget !== lessonKeys.length) {
   console.error('INVARIANT FAILED — aborting, nothing written.');
   process.exit(1);
 }

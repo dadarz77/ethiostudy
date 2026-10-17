@@ -207,6 +207,191 @@ window.CURRICULUM_G11 = {
   }
 };
 
+/* Social sciences — unit maps verified against official MoE textbooks (Oct 2026) */
+Object.assign(window.CURRICULUM_G11, {
+    history: {
+      id: "history", title: "History", icon: "📜", color: "#b45309",
+      units: [
+      { id: "h1", title: "History, Historiography, and Human Evolution", topics: [
+        { id: "h1-1", title: "History and Historiography", difficulty: "medium", subtopics: [] },
+        { id: "h1-2", title: "Origin of Human Beings", difficulty: "medium", subtopics: [] },
+        { id: "h1-3", title: "The Emergence of States", difficulty: "medium", subtopics: [] }
+      ]},
+      { id: "h2", title: "Major Spots of Ancient World Civilizations up to c.500 A.D", topics: [
+        { id: "h2-1", title: "Ancient Civilizations of Africa", difficulty: "medium", subtopics: [] },
+        { id: "h2-2", title: "Civilizations in Asia", difficulty: "medium", subtopics: [] },
+        { id: "h2-3", title: "Civilizations in Europe", difficulty: "medium", subtopics: [] },
+        { id: "h2-4", title: "Civilizations in Latin America", difficulty: "medium", subtopics: [] },
+        { id: "h2-5", title: "The Rise and Spread of Christianity", difficulty: "medium", subtopics: [] }
+      ]},
+      { id: "h3", title: "Peoples, States and Historical Processes in Ethiopia and the Horn to the End of the 13th Century", topics: [
+        { id: "h3-1", title: "Languages, Religions and Peoples of Ethiopia and the Horn", difficulty: "medium", subtopics: [] },
+        { id: "h3-2", title: "Pre-Aksumite States and their Geographical Setting", difficulty: "medium", subtopics: [] },
+        { id: "h3-3", title: "The Aksumite Kingdom", difficulty: "medium", subtopics: [] },
+        { id: "h3-4", title: "The Sultanate of Shewa", difficulty: "medium", subtopics: [] },
+        { id: "h3-5", title: "The Zagwe Dynasty", difficulty: "medium", subtopics: [] },
+        { id: "h3-6", title: "The Kingdom of Damot", difficulty: "medium", subtopics: [] },
+        { id: "h3-7", title: "The Bete-Israel (Ethiopian Jews)", difficulty: "medium", subtopics: [] }
+      ]},
+      { id: "h4", title: "The Middle Ages and Early Modern World, c.500 AD-1789", topics: [
+        { id: "h4-1", title: "The European Middle Ages", difficulty: "medium", subtopics: [] },
+        { id: "h4-2", title: "Main Features of the Middle Ages", difficulty: "medium", subtopics: [] },
+        { id: "h4-3", title: "The Middle Ages in Asia", difficulty: "medium", subtopics: [] },
+        { id: "h4-4", title: "Development of Early Capitalism", difficulty: "medium", subtopics: [] },
+        { id: "h4-5", title: "Age of Explorations and Inception of Globalization", difficulty: "medium", subtopics: [] },
+        { id: "h4-6", title: "The Renaissance", difficulty: "medium", subtopics: [] },
+        { id: "h4-7", title: "The Reformation", difficulty: "medium", subtopics: [] },
+        { id: "h4-8", title: "The Scientific Revolution and the Enlightenment", difficulty: "medium", subtopics: [] }
+      ]},
+      { id: "h5", title: "Peoples and States of Africa to 1500", topics: [
+        { id: "h5-1", title: "Ancient and Medieval African States", difficulty: "medium", subtopics: [] },
+        { id: "h5-2", title: "North Africa", difficulty: "medium", subtopics: [] },
+        { id: "h5-3", title: "The Spread of Islam to North Africa", difficulty: "medium", subtopics: [] },
+        { id: "h5-4", title: "States in West Africa", difficulty: "medium", subtopics: [] },
+        { id: "h5-5", title: "Central and Eastern Africa", difficulty: "medium", subtopics: [] },
+        { id: "h5-6", title: "Southern Africa", difficulty: "medium", subtopics: [] },
+        { id: "h5-7", title: "Relationships and Exchanges among Regions of Africa", difficulty: "medium", subtopics: [] }
+      ]},
+      { id: "h6", title: "Africa and the Outside World: 1500-1880s", topics: [
+        { id: "h6-1", title: "Medieval African States", difficulty: "medium", subtopics: [] },
+        { id: "h6-2", title: "Contacts of Africa with the Outside World", difficulty: "medium", subtopics: [] },
+        { id: "h6-3", title: "Slavery and Slave Trade in Africa", difficulty: "medium", subtopics: [] },
+        { id: "h6-4", title: "The Legitimate Trade", difficulty: "medium", subtopics: [] },
+        { id: "h6-5", title: "The White Settlement in South Africa", difficulty: "medium", subtopics: [] },
+        { id: "h6-6", title: "European Explorers and Missionaries", difficulty: "medium", subtopics: [] }
+      ]},
+      { id: "h7", title: "States, Principalities, Population Movements and Interactions in Ethiopia", topics: [
+        { id: "h7-1", title: "The Christian Kingdom under the Restored Solomonic Dynasty", difficulty: "medium", subtopics: [] },
+        { id: "h7-2", title: "The Expansion of Islam and the Muslim Sultanates", difficulty: "medium", subtopics: [] },
+        { id: "h7-3", title: "Western, Southern and Central States", difficulty: "medium", subtopics: [] },
+        { id: "h7-4", title: "The Christian Highland Kingdom and the Sultanate of Adal", difficulty: "medium", subtopics: [] },
+        { id: "h7-5", title: "Population Movements in the Ethiopian Region", difficulty: "medium", subtopics: [] }
+      ]},
+      { id: "h8", title: "Political, Social and Economic Processes in Ethiopia, mid-16th to mid-19th Century", topics: [
+        { id: "h8-1", title: "Peoples and States of Southern, Western and Eastern Ethiopia", difficulty: "medium", subtopics: [] },
+        { id: "h8-2", title: "Instability versus Consolidation in the Christian Highland Kingdom", difficulty: "medium", subtopics: [] },
+        { id: "h8-3", title: "The Gondarine Period", difficulty: "medium", subtopics: [] },
+        { id: "h8-4", title: "The Zemene Mesafint", difficulty: "medium", subtopics: [] },
+        { id: "h8-5", title: "The Kingdom of Shewa", difficulty: "medium", subtopics: [] },
+        { id: "h8-6", title: "European Travelers and Explorers in Ethiopia", difficulty: "medium", subtopics: [] }
+      ]},
+      { id: "h9", title: "The Age of Revolutions, 1789 to 1815", topics: [
+        { id: "h9-1", title: "The Industrial Revolution", difficulty: "medium", subtopics: [] },
+        { id: "h9-2", title: "The American War of Independence", difficulty: "medium", subtopics: [] },
+        { id: "h9-3", title: "The French Revolution", difficulty: "medium", subtopics: [] },
+        { id: "h9-4", title: "The Period of Napoleon Bonaparte", difficulty: "medium", subtopics: [] }
+      ]}
+      ]
+    },
+    geography: {
+      id: "geography", title: "Geography", icon: "🌍", color: "#0e7490",
+      units: [
+      { id: "g1", title: "Formation of the Continents", topics: [
+        { id: "g1-1", title: "Formation of Continents", difficulty: "medium", subtopics: [] },
+        { id: "g1-2", title: "The Geological Timescale", difficulty: "medium", subtopics: [] },
+        { id: "g1-3", title: "Distribution of the Continents and Oceans", difficulty: "medium", subtopics: [] },
+        { id: "g1-4", title: "Changing Position of Continents and Oceans", difficulty: "medium", subtopics: [] }
+      ]},
+      { id: "g2", title: "Climate Classification and Climate Regions of Our World", topics: [
+        { id: "g2-1", title: "Criteria for Climate Classification", difficulty: "medium", subtopics: [] },
+        { id: "g2-2", title: "Köppen&#8217;s Climate Classification", difficulty: "medium", subtopics: [] },
+        { id: "g2-3", title: "World Climatic Regions", difficulty: "medium", subtopics: [] },
+        { id: "g2-4", title: "Factors Influencing the World Climatic Regions", difficulty: "medium", subtopics: [] },
+        { id: "g2-5", title: "Local Climate Classification of Ethiopia", difficulty: "medium", subtopics: [] }
+      ]},
+      { id: "g3", title: "Natural Resources and Conflicts over Resources", topics: [
+        { id: "g3-1", title: "The Functions and Management of Land", difficulty: "medium", subtopics: [] },
+        { id: "g3-2", title: "Resources under Pressure", difficulty: "medium", subtopics: [] },
+        { id: "g3-3", title: "Land Resource Depletion and Degradation", difficulty: "medium", subtopics: [] },
+        { id: "g3-4", title: "Transboundary Rivers", difficulty: "medium", subtopics: [] },
+        { id: "g3-5", title: "Regional Cooperation for Sustainable Use of Shared Rivers", difficulty: "medium", subtopics: [] },
+        { id: "g3-6", title: "Potential and Actual Use of Water in Ethiopia, Egypt, and the Sudan", difficulty: "medium", subtopics: [] },
+        { id: "g3-7", title: "Conflicts over Resources", difficulty: "medium", subtopics: [] }
+      ]},
+      { id: "g4", title: "Global Population Dynamics and Challenges", topics: [
+        { id: "g4-1", title: "The Growth of World Population", difficulty: "medium", subtopics: [] },
+        { id: "g4-2", title: "Factors Responsible for Accelerated Population Growth", difficulty: "medium", subtopics: [] },
+        { id: "g4-3", title: "International Migration", difficulty: "medium", subtopics: [] },
+        { id: "g4-4", title: "Population Policies", difficulty: "medium", subtopics: [] }
+      ]},
+      { id: "g5", title: "Geography and Economic Development", topics: [
+        { id: "g5-1", title: "Effects of Geographic Location on Development", difficulty: "hard", subtopics: [] },
+        { id: "g5-2", title: "Climate Extremes and Poverty", difficulty: "medium", subtopics: [] },
+        { id: "g5-3", title: "Disadvantages of Landlocked Countries", difficulty: "medium", subtopics: [] },
+        { id: "g5-4", title: "Intraregional Trade in Africa", difficulty: "medium", subtopics: [] }
+      ]},
+      { id: "g6", title: "Major Global Environmental Changes", topics: [
+        { id: "g6-1", title: "Persistent Environmental Changes", difficulty: "medium", subtopics: [] },
+        { id: "g6-2", title: "Poverty-Environment Nexus", difficulty: "medium", subtopics: [] },
+        { id: "g6-3", title: "Environmental Degradation and Sustainable Development", difficulty: "medium", subtopics: [] }
+      ]},
+      { id: "g7", title: "Geographic Issues and Public Concerns", topics: [
+        { id: "g7-1", title: "Population-related Concerns of Our Contemporary World", difficulty: "medium", subtopics: [] },
+        { id: "g7-2", title: "Land Degradation and Desertification", difficulty: "medium", subtopics: [] },
+        { id: "g7-3", title: "Recurrent Droughts and Famines", difficulty: "medium", subtopics: [] },
+        { id: "g7-4", title: "Deforestation", difficulty: "medium", subtopics: [] },
+        { id: "g7-5", title: "The Worldwide Digital Divide", difficulty: "medium", subtopics: [] }
+      ]},
+      { id: "g8", title: "Geo-spatial Information and Data Processing", topics: [
+        { id: "g8-1", title: "Representation of Relief Features on Topographic Maps", difficulty: "medium", subtopics: [] },
+        { id: "g8-2", title: "Basic Concepts of Geographic Information System (GIS)", difficulty: "easy", subtopics: [] },
+        { id: "g8-3", title: "ArcMap and Main Tools", difficulty: "medium", subtopics: [] }
+      ]}
+      ]
+    },
+    economics: {
+      id: "economics", title: "Economics", icon: "📊", color: "#6d28d9",
+      units: [
+      { id: "e1", title: "Theory of Consumer Behavior and Demand", topics: [
+        { id: "e1-1", title: "Review of the Cardinal Utility Approach", difficulty: "medium", subtopics: [] },
+        { id: "e1-2", title: "The Ordinal Utility Theory and Preferences", difficulty: "medium", subtopics: [] },
+        { id: "e1-3", title: "The Budget Line", difficulty: "medium", subtopics: [] },
+        { id: "e1-4", title: "Optimum of the Consumer", difficulty: "medium", subtopics: [] }
+      ]},
+      { id: "e2", title: "Market Structure and the Decision of Firms", topics: [
+        { id: "e2-1", title: "Review of Market Structures", difficulty: "medium", subtopics: [] },
+        { id: "e2-2", title: "Perfect Competition Market", difficulty: "medium", subtopics: [] },
+        { id: "e2-3", title: "Pure Monopoly Market", difficulty: "medium", subtopics: [] },
+        { id: "e2-4", title: "Monopolistic Competition Market", difficulty: "medium", subtopics: [] },
+        { id: "e2-5", title: "Oligopoly Market", difficulty: "medium", subtopics: [] }
+      ]},
+      { id: "e3", title: "National Income Accounting", topics: [
+        { id: "e3-1", title: "Nature and Importance of National Income Accounting", difficulty: "medium", subtopics: [] },
+        { id: "e3-2", title: "Gross Domestic Product and Gross National Product", difficulty: "medium", subtopics: [] },
+        { id: "e3-3", title: "Approaches to Measuring National Income", difficulty: "medium", subtopics: [] },
+        { id: "e3-4", title: "3.4 &#038; 3.5 – GDP Problems, the Deflator, and the CPI", difficulty: "hard", subtopics: [] },
+        { id: "e3-5", title: "3.6 &#038; 3.7 – Other Measures and Income Distribution", difficulty: "medium", subtopics: [] }
+      ]},
+      { id: "e4", title: "Consumption, Saving and Investment", topics: [
+        { id: "e4-1", title: "Consumption", difficulty: "medium", subtopics: [] },
+        { id: "e4-2", title: "Saving", difficulty: "medium", subtopics: [] },
+        { id: "e4-3", title: "The Relationship between Saving and Consumption", difficulty: "medium", subtopics: [] },
+        { id: "e4-4", title: "Investment", difficulty: "medium", subtopics: [] }
+      ]},
+      { id: "e5", title: "Trade and Finance", topics: [
+        { id: "e5-1", title: "5.1 &#038; 5.2 – Domestic Trade and the Basis of International Trade", difficulty: "medium", subtopics: [] },
+        { id: "e5-2", title: "Basic Theories of International Trade", difficulty: "easy", subtopics: [] },
+        { id: "e5-3", title: "Balance of Payments", difficulty: "medium", subtopics: [] },
+        { id: "e5-4", title: "Trade Policies and Strategies", difficulty: "medium", subtopics: [] },
+        { id: "e5-5", title: "Exchange Rate Determination", difficulty: "medium", subtopics: [] },
+        { id: "e5-6", title: "Regional Integration and Globalization in Ethiopia", difficulty: "medium", subtopics: [] }
+      ]},
+      { id: "e6", title: "Economic Development", topics: [
+        { id: "e6-1", title: "Economic Growth and Economic Development", difficulty: "medium", subtopics: [] },
+        { id: "e6-2", title: "Measures of Productivity", difficulty: "medium", subtopics: [] },
+        { id: "e6-3", title: "Human Development Index (HDI)", difficulty: "medium", subtopics: [] },
+        { id: "e6-4", title: "6.4 &#038; 6.5 – Capability Approach and Sustainable Development", difficulty: "medium", subtopics: [] },
+        { id: "e6-5", title: "6.6 &#038; 6.7 – The MDGs and the SDGs", difficulty: "medium", subtopics: [] }
+      ]},
+      { id: "e7", title: "Main Sectors, Sectorial Policies and Strategies of Ethiopia", topics: [
+        { id: "e7-1", title: "7.1 to 7.3 – The Agricultural Sector", difficulty: "medium", subtopics: [] },
+        { id: "e7-2", title: "The Industrial Sector", difficulty: "medium", subtopics: [] },
+        { id: "e7-3", title: "The Service Sector", difficulty: "medium", subtopics: [] }
+      ]}
+      ]
+    }
+});
+
 /* Combined master index */
 window.CURRICULUM = {};
 window.CURRICULUM_ALL = { "10": CURRICULUM_G10, "11": CURRICULUM_G11 };

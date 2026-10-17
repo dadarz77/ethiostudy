@@ -167,3 +167,184 @@ window.CURRICULUM_G12 = {
     ]
   }
 };
+
+/* Social sciences — unit maps verified against official MoE textbooks (Oct 2026) */
+Object.assign(window.CURRICULUM_G12, {
+    history: {
+      id: "history", title: "History", icon: "📜", color: "#b45309",
+      units: [
+      { id: "h1", title: "Development of Capitalism and Nationalism from 1815 to 1914", topics: [
+        { id: "h1-1", title: "Development of Capitalism", difficulty: "medium", subtopics: [] },
+        { id: "h1-2", title: "The Industrial Revolution", difficulty: "medium", subtopics: [] },
+        { id: "h1-3", title: "Nationalism", difficulty: "medium", subtopics: [] },
+        { id: "h1-4", title: "Unification of Italy", difficulty: "medium", subtopics: [] },
+        { id: "h1-5", title: "Unification of Germany", difficulty: "medium", subtopics: [] },
+        { id: "h1-6", title: "The American Civil War", difficulty: "medium", subtopics: [] },
+        { id: "h1-7", title: "The Eastern Question", difficulty: "medium", subtopics: [] }
+      ]},
+      { id: "h2", title: "Africa and the Colonial Experience (1880s-1960s)", topics: [
+        { id: "h2-1", title: "The Era of \"Legitimate Trade\" and Colonial Empires", difficulty: "medium", subtopics: [] },
+        { id: "h2-2", title: "African Resistance against Colonial Expansion", difficulty: "medium", subtopics: [] },
+        { id: "h2-3", title: "Colonial Administration and the Colonial States", difficulty: "medium", subtopics: [] }
+      ]},
+      { id: "h3", title: "Social, Economic and Political Developments in Ethiopia, mid-19th C. to 1941", topics: [
+        { id: "h3-1", title: "Long Distance Trade and Peoples&#8217; Interaction in Ethiopia in the 19th Century", difficulty: "medium", subtopics: [] },
+        { id: "h3-2", title: "Power Rivalry and Consolidating Central Government, 1855-1913", difficulty: "medium", subtopics: [] },
+        { id: "h3-3", title: "Territorial Expansion and the Incorporation of Kingdoms", difficulty: "medium", subtopics: [] },
+        { id: "h3-4", title: "External Relations, Challenges and Threats", difficulty: "hard", subtopics: [] },
+        { id: "h3-5", title: "The Victory of Adwa", difficulty: "medium", subtopics: [] },
+        { id: "h3-6", title: "Power Struggle among Ruling Elites, 1906-1935", difficulty: "medium", subtopics: [] },
+        { id: "h3-7", title: "Italian Aggression and the Patriotic Resistance", difficulty: "medium", subtopics: [] }
+      ]},
+      { id: "h4", title: "Society and Politics in the Age of World Wars, 1914-1945", topics: [
+        { id: "h4-1", title: "World War I and Its Settlement", difficulty: "medium", subtopics: [] },
+        { id: "h4-2", title: "The Russian Revolution of 1917", difficulty: "medium", subtopics: [] },
+        { id: "h4-3", title: "The Interwar Period: Capitalist Economy, Fascism and Nazism", difficulty: "medium", subtopics: [] },
+        { id: "h4-4", title: "World War II", difficulty: "medium", subtopics: [] }
+      ]},
+      { id: "h5", title: "Global and Regional Developments Since 1945", topics: [
+        { id: "h5-1", title: "The Aftermath and Consequences of WW II", difficulty: "medium", subtopics: [] },
+        { id: "h5-2", title: "The United Nations Organization (the UN)", difficulty: "medium", subtopics: [] },
+        { id: "h5-3", title: "The Post-War Global Socio-Economic Recovery and Developments", difficulty: "medium", subtopics: [] },
+        { id: "h5-4", title: "The Cold War Realities: The Relation between the Capitalist and Communist Blocs", difficulty: "medium", subtopics: [] },
+        { id: "h5-5", title: "Situations in Asia during the Cold War", difficulty: "medium", subtopics: [] },
+        { id: "h5-6", title: "The Middle East", difficulty: "medium", subtopics: [] },
+        { id: "h5-7", title: "The Dissolution of the Communist Bloc and the Aftermath", difficulty: "medium", subtopics: [] }
+      ]},
+      { id: "h6", title: "Ethiopia: Internal Developments and External Influences from 1941 to 1991", topics: [
+        { id: "h6-1", title: "The Restoration of the Imperial Rule and External Influences", difficulty: "medium", subtopics: [] },
+        { id: "h6-2", title: "Socio-economic Conditions and Social Organizations", difficulty: "medium", subtopics: [] },
+        { id: "h6-3", title: "Consolidation of Autocracy and Oppositions to the Monarchy", difficulty: "medium", subtopics: [] },
+        { id: "h6-4", title: "The 1974 Revolution: The Downfall of the Emperor and the Rise of the Derg", difficulty: "medium", subtopics: [] },
+        { id: "h6-5", title: "Socio-economic and Political Reforms of the Military Regime", difficulty: "hard", subtopics: [] },
+        { id: "h6-6", title: "The Decline and Downfall of the Derg Regime: Internal and External Threats", difficulty: "medium", subtopics: [] }
+      ]},
+      { id: "h7", title: "Africa Since the 1960s", topics: [
+        { id: "h7-1", title: "The Road to Independence and the Rise of Independent States in Africa", difficulty: "medium", subtopics: [] },
+        { id: "h7-2", title: "Politics in Independent African States", difficulty: "medium", subtopics: [] },
+        { id: "h7-3", title: "Economy and Society in Independent Africa", difficulty: "medium", subtopics: [] },
+        { id: "h7-4", title: "The Cold War and Africa", difficulty: "medium", subtopics: [] },
+        { id: "h7-5", title: "Pan-Africanism, from Organization of African Unity to African Union", difficulty: "medium", subtopics: [] }
+      ]},
+      { id: "h8", title: "Post-1991 Developments in Ethiopia", topics: [
+        { id: "h8-1", title: "The Transitional Government of Ethiopia", difficulty: "medium", subtopics: [] },
+        { id: "h8-2", title: "Ethiopia after the 1995 Constitution", difficulty: "medium", subtopics: [] },
+        { id: "h8-3", title: "Socio-Economic Issues", difficulty: "medium", subtopics: [] },
+        { id: "h8-4", title: "The Role of Ethiopia in Peace Keeping", difficulty: "medium", subtopics: [] }
+      ]},
+      { id: "h9", title: "Indigenous Knowledge Systems and Heritages of Ethiopia", topics: [
+        { id: "h9-1", title: "Indigenous Knowledge: Definition and Unique Characteristic Features", difficulty: "easy", subtopics: [] },
+        { id: "h9-2", title: "Indigenous Knowledge and Development", difficulty: "medium", subtopics: [] }
+      ]}
+      ]
+    },
+    geography: {
+      id: "geography", title: "Geography", icon: "🌍", color: "#0e7490",
+      units: [
+      { id: "g1", title: "Major Geological Processes Associated with Plate Tectonics", topics: [
+        { id: "g1-1", title: "The Continental Drift Theory", difficulty: "medium", subtopics: [] },
+        { id: "g1-2", title: "Plate Tectonics Theory", difficulty: "medium", subtopics: [] },
+        { id: "g1-3", title: "Plate Movements and Plate Boundaries", difficulty: "medium", subtopics: [] },
+        { id: "g1-4", title: "Major Geological Processes", difficulty: "medium", subtopics: [] }
+      ]},
+      { id: "g2", title: "Climate Change", topics: [
+        { id: "g2-1", title: "Basic Concepts of Climate Change", difficulty: "easy", subtopics: [] },
+        { id: "g2-2", title: "Trends in Global Climate Change", difficulty: "medium", subtopics: [] },
+        { id: "g2-3", title: "Natural and Human Induced Climate Change", difficulty: "medium", subtopics: [] },
+        { id: "g2-4", title: "Consequences of Climate Change", difficulty: "medium", subtopics: [] },
+        { id: "g2-5", title: "Adaptation and Mitigation Strategies to Climate Change", difficulty: "medium", subtopics: [] },
+        { id: "g2-6", title: "International Conventions and Agreements on Climate Change", difficulty: "medium", subtopics: [] },
+        { id: "g2-7", title: "Pillars of Climate Resilient Green Economy of Ethiopia", difficulty: "medium", subtopics: [] }
+      ]},
+      { id: "g3", title: "Management of Conflict over Resources", topics: [
+        { id: "g3-1", title: "The Concept of Sustainable Development", difficulty: "easy", subtopics: [] },
+        { id: "g3-2", title: "Resource Use Policies and Related Conflicts", difficulty: "medium", subtopics: [] },
+        { id: "g3-3", title: "Governance of Natural Resources", difficulty: "medium", subtopics: [] },
+        { id: "g3-4", title: "Indigenous Conflict Resolution Practices", difficulty: "medium", subtopics: [] }
+      ]},
+      { id: "g4", title: "Population Policies, Programs and the Environment", topics: [
+        { id: "g4-1", title: "Theories on Population Growth and Development", difficulty: "medium", subtopics: [] },
+        { id: "g4-2", title: "Population Policies", difficulty: "medium", subtopics: [] },
+        { id: "g4-3", title: "Measures Taken to Curb the Growth Rate of Population", difficulty: "medium", subtopics: [] },
+        { id: "g4-4", title: "Relationship between Population and Socio-economic Development", difficulty: "medium", subtopics: [] },
+        { id: "g4-5", title: "Relationship between Population and Environmental Health", difficulty: "medium", subtopics: [] }
+      ]},
+      { id: "g5", title: "Challenges of Economic Development", topics: [
+        { id: "g5-1", title: "Multiple Faces of Poverty and Implication to Development", difficulty: "medium", subtopics: [] },
+        { id: "g5-2", title: "The Advantages and Limitations of Globalization", difficulty: "medium", subtopics: [] },
+        { id: "g5-3", title: "The Growing Imbalance between Regions and Countries", difficulty: "medium", subtopics: [] },
+        { id: "g5-4", title: "Corruption", difficulty: "medium", subtopics: [] },
+        { id: "g5-5", title: "Global Health Crises", difficulty: "medium", subtopics: [] }
+      ]},
+      { id: "g6", title: "Solutions to Environmental and Sustainability Problems", topics: [
+        { id: "g6-1", title: "Environmental Problems", difficulty: "hard", subtopics: [] },
+        { id: "g6-2", title: "The Challenge of Sustainability", difficulty: "medium", subtopics: [] },
+        { id: "g6-3", title: "Environmental Education", difficulty: "medium", subtopics: [] },
+        { id: "g6-4", title: "Environmental Movements", difficulty: "medium", subtopics: [] },
+        { id: "g6-5", title: "Environmentally Friendly Indigenous Practices", difficulty: "medium", subtopics: [] }
+      ]},
+      { id: "g7", title: "Contemporary Global Geographic Issues and Public Concerns", topics: [
+        { id: "g7-1", title: "Climate Change", difficulty: "medium", subtopics: [] },
+        { id: "g7-2", title: "Desertification", difficulty: "medium", subtopics: [] },
+        { id: "g7-3", title: "Drought", difficulty: "medium", subtopics: [] },
+        { id: "g7-4", title: "Famine", difficulty: "medium", subtopics: [] }
+      ]},
+      { id: "g8", title: "Geographical Enquiry and Map Making", topics: [
+        { id: "g8-1", title: "Fundamentals of Research in Geography", difficulty: "medium", subtopics: [] },
+        { id: "g8-2", title: "GIS Data and Map Making Using GIS", difficulty: "medium", subtopics: [] }
+      ]}
+      ]
+    },
+    economics: {
+      id: "economics", title: "Economics", icon: "📊", color: "#6d28d9",
+      units: [
+      { id: "e1", title: "Fundamental Concepts of Macroeconomics", topics: [
+        { id: "e1-1", title: "Definition and Focus Areas of Macroeconomics", difficulty: "easy", subtopics: [] },
+        { id: "e1-2", title: "Key Challenges in Macroeconomics", difficulty: "hard", subtopics: [] },
+        { id: "e1-3", title: "The Schools of Thought in Macroeconomic Analysis", difficulty: "hard", subtopics: [] }
+      ]},
+      { id: "e2", title: "Aggregate Demand and Aggregate Supply Analysis", topics: [
+        { id: "e2-1", title: "Aggregate Demand", difficulty: "medium", subtopics: [] },
+        { id: "e2-2", title: "Aggregate Supply", difficulty: "medium", subtopics: [] },
+        { id: "e2-3", title: "Equilibrium of Aggregate Demand and Aggregate Supply", difficulty: "medium", subtopics: [] }
+      ]},
+      { id: "e3", title: "Market Failure and Consumer Protection", topics: [
+        { id: "e3-1", title: "Market Failure", difficulty: "medium", subtopics: [] },
+        { id: "e3-2", title: "Public Goods", difficulty: "medium", subtopics: [] },
+        { id: "e3-3", title: "Externalities", difficulty: "medium", subtopics: [] },
+        { id: "e3-4", title: "Asymmetric Information", difficulty: "medium", subtopics: [] },
+        { id: "e3-5", title: "Consumer Protection", difficulty: "medium", subtopics: [] }
+      ]},
+      { id: "e4", title: "Macroeconomic Policy Instruments", topics: [
+        { id: "e4-1", title: "Definition and Types of Macroeconomic Policies", difficulty: "easy", subtopics: [] },
+        { id: "e4-2", title: "Fiscal Policy", difficulty: "hard", subtopics: [] },
+        { id: "e4-3", title: "Monetary Policy", difficulty: "hard", subtopics: [] },
+        { id: "e4-4", title: "Income Policy and Wage", difficulty: "hard", subtopics: [] },
+        { id: "e4-5", title: "Foreign Exchange Policies", difficulty: "medium", subtopics: [] }
+      ]},
+      { id: "e5", title: "Tax Theory and Practice", topics: [
+        { id: "e5-1", title: "Taxes: Definition, Principles, Objectives, and Classifications", difficulty: "easy", subtopics: [] },
+        { id: "e5-2", title: "Approaches to Tax Equity", difficulty: "medium", subtopics: [] },
+        { id: "e5-3", title: "5.3 &#038; 5.4 – Tax System and Accounting in Ethiopia", difficulty: "medium", subtopics: [] },
+        { id: "e5-4", title: "Problems Associated with Taxation in Ethiopia", difficulty: "hard", subtopics: [] }
+      ]},
+      { id: "e6", title: "Poverty and Inequality", topics: [
+        { id: "e6-1", title: "Concept of Poverty and Its Measurement", difficulty: "easy", subtopics: [] },
+        { id: "e6-2", title: "Concept of Inequality and Its Measurement", difficulty: "easy", subtopics: [] },
+        { id: "e6-3", title: "6.3 &#038; 6.4 – Global, Regional, and Gendered Poverty", difficulty: "medium", subtopics: [] },
+        { id: "e6-4", title: "6.5 &#038; 6.6 – Poverty and Inequality in Ethiopia", difficulty: "medium", subtopics: [] }
+      ]},
+      { id: "e7", title: "Macroeconomic Reforms in Ethiopia", topics: [
+        { id: "e7-1", title: "National Development Objectives and Strategies", difficulty: "medium", subtopics: [] },
+        { id: "e7-2", title: "Home-grown Economic Reforms", difficulty: "hard", subtopics: [] },
+        { id: "e7-3", title: "Fiscal Decentralization", difficulty: "medium", subtopics: [] }
+      ]},
+      { id: "e8", title: "Economy, Environment and Climate Change", topics: [
+        { id: "e8-1", title: "Economy and the Environment", difficulty: "medium", subtopics: [] },
+        { id: "e8-2", title: "Global Warming and Climate Change", difficulty: "medium", subtopics: [] },
+        { id: "e8-3", title: "Green Economy and Green Growth", difficulty: "medium", subtopics: [] },
+        { id: "e8-4", title: "Environment and Climate Change in Ethiopia", difficulty: "medium", subtopics: [] }
+      ]}
+      ]
+    }
+});

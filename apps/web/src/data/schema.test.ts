@@ -10,18 +10,25 @@ const DATA = join(__dirname);
 
 const unitFiles = readdirSync(DIR).filter(f => f.endsWith('.json') && !f.endsWith('.test.json'));
 
-/* Subjects that once shipped structure-only and are now fully authored.
-   Kept as an empty set so the "every topic has a lesson" guard stays strict. */
-const STAGED = new Set<string>([]);
+/* Subjects that ship curriculum structure before their lessons are authored.
+   Citizenship Education is added in Phase 1 as structure; lessons follow. */
+const STAGED_SUBJECTS = new Set<string>(['civics']);
 const subjectOf = (tid: string) => tid.split('-')[1];
+const unitOf = (tid: string) => tid.replace(/-t\d+$/, '');
+
+const rawTopics = JSON.parse(readFileSync(join(DATA, 'topics.json'), 'utf8')) as Record<string, unknown>;
+const allTopicIds = Object.keys(rawTopics);
+
+function lessonIds(): Set<string> {
+  const seen = new Set<string>();
+  for (const f of unitFiles) {
+    for (const tid of Object.keys(JSON.parse(readFileSync(join(DIR, f), 'utf8')))) seen.add(tid);
+  }
+  return seen;
+}
 
 describe('content integrity', () => {
-  it('has all 199 unit files (100 science + 99 social science)', () => {
-    expect(unitFiles.length).toBe(199);
-  });
-
   it('every lesson validates against LessonSchema', () => {
-    let topics = 0;
     const errors: string[] = [];
     for (const f of unitFiles) {
       const unit = JSON.parse(readFileSync(join(DIR, f), 'utf8'));
@@ -32,46 +39,36 @@ describe('content integrity', () => {
         continue;
       }
       for (const [tid, lesson] of Object.entries(parsed.data)) {
-        topics++;
         const r = LessonSchema.safeParse(lesson);
         if (!r.success) errors.push(`${f}/${tid}: ${r.error.issues[0].path.join('.')} — ${r.error.issues[0].message}`);
       }
     }
     expect(errors).toEqual([]);
-    // lesson files cover all 847 topics: 380 authored science + 467 authored
-    // social science (history/geography/economics, all four grades).
-    expect(topics).toBe(847);
   }, 30000);
 
-  it('curriculum.json validates and covers all four grades', () => {
+  it('curriculum.json and topics.json describe the same tree across all four grades', () => {
     const cur = CurriculumSchema.parse(JSON.parse(readFileSync(join(DATA, 'curriculum.json'), 'utf8')));
     expect(Object.keys(cur)).toEqual(expect.arrayContaining(['9', '10', '11', '12']));
-    const units = Object.values(cur).flatMap(g => Object.values(g)).reduce((s, subj) => s + subj.units.length, 0);
-    // 100 science units + 99 social-science units (history/geography/economics)
-    expect(units).toBe(199);
-  });
-
-  it('topics.json has 847 entries with _id matching keys', () => {
     const idx = TopicIndexSchema.parse(JSON.parse(readFileSync(join(DATA, 'topics.json'), 'utf8')));
-    expect(Object.keys(idx).length).toBe(847);
+    // Counts are derived, never hardcoded: the flat index must equal the tree.
+    const curriculumTopics = Object.values(cur)
+      .flatMap(g => Object.values(g))
+      .reduce((s, subj) => s + subj.units.reduce((n, u) => n + u.topics.length, 0), 0);
+    expect(Object.keys(idx).length).toBe(curriculumTopics);
     for (const [k, t] of Object.entries(idx)) expect(t._id).toBe(k);
   });
 
-  it('every topic has a lesson file entry (social science staged)', () => {
-    const idx = TopicIndexSchema.parse(JSON.parse(readFileSync(join(DATA, 'topics.json'), 'utf8')));
-    const seen = new Set<string>();
-    for (const f of unitFiles) {
-      for (const tid of Object.keys(JSON.parse(readFileSync(join(DIR, f), 'utf8')))) seen.add(tid);
-    }
-    for (const tid of Object.keys(idx)) {
-      // Staged-but-unauthored subjects are allowed to have no lesson file yet.
-      // Social science (history/geography/economics) was added in Phase 1 as
-      // curriculum structure; lessons arrive in the content phase.
-      if (STAGED.has(subjectOf(tid))) continue;
-      if (!tid.startsWith('g12-')) expect(seen.has(tid)).toBe(true);
-    }
-    // and every lesson entry must correspond to a real topic
-    for (const tid of seen) expect(idx[tid]).toBeTruthy();
+  it('unit files exactly cover the authored units', () => {
+    const authoredUnits = new Set([...lessonIds()].map(unitOf));
+    const fileUnits = new Set(unitFiles.map(f => f.replace(/\.json$/, '')));
+    expect(fileUnits).toEqual(authoredUnits);
+  });
+
+  it('every non-staged topic has a lesson; every lesson maps to a real topic', () => {
+    const seen = lessonIds();
+    const missing = allTopicIds.filter(t => !seen.has(t) && !STAGED_SUBJECTS.has(subjectOf(t)));
+    expect(missing).toEqual([]);
+    for (const tid of seen) expect(rawTopics[tid]).toBeTruthy();
   });
 });
 

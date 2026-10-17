@@ -167,3 +167,244 @@ window.CURRICULUM_G10 = {
     ]
   }
 };
+
+/* Social sciences + Citizenship Education — unit maps verified against official MoE textbooks (Oct 2026) */
+Object.assign(window.CURRICULUM_G10, {
+    history: {
+      id: "history", title: "History", icon: "📜", color: "#b45309",
+      units: [
+      { id: "h1", title: "Development of Capitalism and Nationalism 1815 to 1914", topics: [
+        { id: "h1-1", title: "Features of Capitalism", difficulty: "medium", subtopics: [] },
+        { id: "h1-2", title: "Features of Nationalism and Formation of Nation States", difficulty: "medium", subtopics: [] },
+        { id: "h1-3", title: "Unification Of Italy", difficulty: "medium", subtopics: [] },
+        { id: "h1-4", title: "Unification of Germany", difficulty: "medium", subtopics: [] },
+        { id: "h1-5", title: "The American Civil War", difficulty: "medium", subtopics: [] },
+        { id: "h1-6", title: "Nationalism and the \"Eastern Question\"", difficulty: "medium", subtopics: [] }
+      ]},
+      { id: "h2", title: "Africa and the Colonial Experience (1880s-1960s)", topics: [
+        { id: "h2-1", title: "General Background to Colonialism", difficulty: "medium", subtopics: [] },
+        { id: "h2-2", title: "The Motives of European Colonialism", difficulty: "medium", subtopics: [] },
+        { id: "h2-3", title: "Scramble for Africa and the Berlin Conference", difficulty: "medium", subtopics: [] },
+        { id: "h2-4", title: "Colonial Policies and Administration", difficulty: "medium", subtopics: [] },
+        { id: "h2-5", title: "Early African Resistance Movements Against Colonialism", difficulty: "medium", subtopics: [] },
+        { id: "h2-6", title: "Impacts of Colonial Rule on Africa", difficulty: "hard", subtopics: [] }
+      ]},
+      { id: "h3", title: "Social, Economic and Political Developments in Ethiopia from mid-19th c. to 1941", topics: [
+        { id: "h3-1", title: "Long Distance Trade in 19th Century and the Cottage Industry", difficulty: "medium", subtopics: [] },
+        { id: "h3-2", title: "The Making of Modern Ethiopian State 1855-1913", difficulty: "medium", subtopics: [] },
+        { id: "h3-3", title: "External Aggressions and the Unity of Ethiopian People in Defence of National Sovereignty, 1871-1896", difficulty: "medium", subtopics: [] },
+        { id: "h3-4", title: "The Inception of Power Struggle among the Ruling Elites 1906 to 1935", difficulty: "medium", subtopics: [] },
+        { id: "h3-5", title: "Fascist Italian Aggression and Patriotic Resistance", difficulty: "medium", subtopics: [] }
+      ]},
+      { id: "h4", title: "Society and Politics in the Age of World Wars 1914-1945", topics: [
+        { id: "h4-1", title: "The First World War: Causes, Course and the Consequence", difficulty: "medium", subtopics: [] },
+        { id: "h4-2", title: "The October 1917 Russian Revolution: Cause, Course and Results", difficulty: "medium", subtopics: [] },
+        { id: "h4-3", title: "The League of Nations", difficulty: "medium", subtopics: [] },
+        { id: "h4-4", title: "The Worldwide Economic Crisis", difficulty: "medium", subtopics: [] },
+        { id: "h4-5", title: "The Rise of Fascism in Italy, Nazism in Germany and Militarism in Japan", difficulty: "medium", subtopics: [] },
+        { id: "h4-6", title: "The Second World War: 1939-45", difficulty: "medium", subtopics: [] }
+      ]},
+      { id: "h5", title: "Global and Regional Developments Since 1945", topics: [
+        { id: "h5-1", title: "The United Nations Organization: Formation, Mission, Principles and Achievements", difficulty: "medium", subtopics: [] },
+        { id: "h5-2", title: "The Rise of the Superpowers and the Beginning of the Cold War", difficulty: "medium", subtopics: [] },
+        { id: "h5-3", title: "Situations in Asia During the Cold War: Japan, Korea, China, Vietnam", difficulty: "medium", subtopics: [] },
+        { id: "h5-4", title: "Non-Aligned Movement /NAM/", difficulty: "medium", subtopics: [] },
+        { id: "h5-5", title: "The Arab-Israeli Conflict", difficulty: "medium", subtopics: [] },
+        { id: "h5-6", title: "The Collapse of the Soviet Union", difficulty: "medium", subtopics: [] }
+      ]},
+      { id: "h6", title: "Ethiopia: Internal Developments and External Influences from 1941 to 1991", topics: [
+        { id: "h6-1", title: "Major Administrative Reforms and Socio-Economic Conditions in the Post-Liberation Period", difficulty: "hard", subtopics: [] },
+        { id: "h6-2", title: "Early Opposition Movements Against the Imperial Rule", difficulty: "medium", subtopics: [] },
+        { id: "h6-3", title: "The Ethiopian Revolution and the Fall of the Monarchy", difficulty: "medium", subtopics: [] },
+        { id: "h6-4", title: "The Ethio-Somalia War, the Question of Eritrea, and the Fall of the Derg", difficulty: "medium", subtopics: [] }
+      ]},
+      { id: "h7", title: "Africa Since 1960", topics: [
+        { id: "h7-1", title: "Rise of Independent States in Africa", difficulty: "medium", subtopics: [] },
+        { id: "h7-2", title: "Apartheid in South Africa", difficulty: "medium", subtopics: [] },
+        { id: "h7-3", title: "Pan-Africanism and the OAU", difficulty: "medium", subtopics: [] },
+        { id: "h7-4", title: "Struggle for Economic Independence", difficulty: "medium", subtopics: [] },
+        { id: "h7-5", title: "Major Issues in Contemporary Africa", difficulty: "medium", subtopics: [] }
+      ]},
+      { id: "h8", title: "Post-1991 Developments in Ethiopia", topics: [
+        { id: "h8-1", title: "The 1991 Transitional Charter and the Formation of TGE", difficulty: "medium", subtopics: [] },
+        { id: "h8-2", title: "The 1995 Constitution and the Formation of the FDRE", difficulty: "medium", subtopics: [] },
+        { id: "h8-3", title: "Hydro-Political History of the Nile (Abay) Basin", difficulty: "easy", subtopics: [] },
+        { id: "h8-4", title: "Development Issues and Challenges of the Democratization Process in Ethiopia", difficulty: "hard", subtopics: [] }
+      ]},
+      { id: "h9", title: "Indigenous Knowledge and Heritages of Ethiopia", topics: [
+        { id: "h9-1", title: "Indigenous Knowledge", difficulty: "medium", subtopics: [] },
+        { id: "h9-2", title: "Some Specific and Unique Knowledge Systems in Ethiopia", difficulty: "medium", subtopics: [] },
+        { id: "h9-3", title: "Meaning and Values of Heritages", difficulty: "easy", subtopics: [] },
+        { id: "h9-4", title: "Types of Heritages", difficulty: "medium", subtopics: [] }
+      ]}
+      ]
+    },
+    geography: {
+      id: "geography", title: "Geography", icon: "🌍", color: "#0e7490",
+      units: [
+      { id: "g1", title: "Landforms of Africa", topics: [
+        { id: "g1-1", title: "Overview of the World&#8217;s Major Landforms", difficulty: "easy", subtopics: [] },
+        { id: "g1-2", title: "Location and Related Features of Africa", difficulty: "medium", subtopics: [] },
+        { id: "g1-3", title: "Major Landforms of Africa", difficulty: "medium", subtopics: [] }
+      ]},
+      { id: "g2", title: "Climate of Africa", topics: [
+        { id: "g2-1", title: "Overview of World Climatic Regions and Types", difficulty: "easy", subtopics: [] },
+        { id: "g2-2", title: "Climate Types and Regions of Africa", difficulty: "medium", subtopics: [] },
+        { id: "g2-3", title: "Benefits of Climate for the Life of People in Africa", difficulty: "medium", subtopics: [] },
+        { id: "g2-4", title: "Climate Change and its Challenges to Africa&#8217;s Development Vision", difficulty: "hard", subtopics: [] }
+      ]},
+      { id: "g3", title: "Natural Resource Base of Africa", topics: [
+        { id: "g3-1", title: "Overview of Major Natural Resources of the World", difficulty: "easy", subtopics: [] },
+        { id: "g3-2", title: "Major Drainage and Water Resources in Africa", difficulty: "medium", subtopics: [] },
+        { id: "g3-3", title: "Main Types of Soils and Mineral Resources in Africa", difficulty: "medium", subtopics: [] },
+        { id: "g3-4", title: "Major Vegetation and Wildlife of Africa", difficulty: "medium", subtopics: [] }
+      ]},
+      { id: "g4", title: "Population of Africa", topics: [
+        { id: "g4-1", title: "Overview of World Population Growth and Size", difficulty: "easy", subtopics: [] },
+        { id: "g4-2", title: "Africa&#8217;s Major Demographic Trends", difficulty: "medium", subtopics: [] },
+        { id: "g4-3", title: "Population Structure", difficulty: "medium", subtopics: [] },
+        { id: "g4-4", title: "Distribution and Density of Africa&#8217;s Population", difficulty: "medium", subtopics: [] },
+        { id: "g4-5", title: "Urban and Rural Settlement Patterns in Africa", difficulty: "medium", subtopics: [] }
+      ]},
+      { id: "g5", title: "Major Economic and Cultural Activities of Africa", topics: [
+        { id: "g5-1", title: "Overview of Employment Structure in the World", difficulty: "easy", subtopics: [] },
+        { id: "g5-2", title: "Major Economic Activities in Africa", difficulty: "medium", subtopics: [] },
+        { id: "g5-3", title: "Possible Solutions to the Problem of Unemployment", difficulty: "medium", subtopics: [] },
+        { id: "g5-4", title: "Africa&#8217;s Agenda 2063 and Its Implications", difficulty: "medium", subtopics: [] },
+        { id: "g5-5", title: "Africa&#8217;s Agenda 2063 Vis-à-vis Sustainable Development Goals (SDGs)", difficulty: "medium", subtopics: [] },
+        { id: "g5-6", title: "Linguistic and Religious Diversity in Africa", difficulty: "medium", subtopics: [] }
+      ]},
+      { id: "g6", title: "Human-Natural Environment Interactions", topics: [
+        { id: "g6-1", title: "Overview of Global Population Change", difficulty: "easy", subtopics: [] },
+        { id: "g6-2", title: "Human-environment Relationship", difficulty: "medium", subtopics: [] },
+        { id: "g6-3", title: "Indigenous Knowledge in Conservation of Natural Resources in Africa", difficulty: "medium", subtopics: [] }
+      ]},
+      { id: "g7", title: "Geographic Issues and Public Concerns in Africa", topics: [
+        { id: "g7-1", title: "Unplanned Urbanization", difficulty: "medium", subtopics: [] },
+        { id: "g7-2", title: "Migration Factors and Impacts on Africa", difficulty: "hard", subtopics: [] },
+        { id: "g7-3", title: "Coastal Pollution in Africa", difficulty: "medium", subtopics: [] }
+      ]},
+      { id: "g8", title: "Geospatial Information and Data Processing", topics: [
+        { id: "g8-1", title: "Basic Concepts of Geospatial Information", difficulty: "easy", subtopics: [] },
+        { id: "g8-2", title: "Sources and Tools of Geographic Data", difficulty: "medium", subtopics: [] },
+        { id: "g8-3", title: "Geographic Data Representations", difficulty: "medium", subtopics: [] },
+        { id: "g8-4", title: "Advances in Mapmaking and the Birth of Geographic Information System", difficulty: "medium", subtopics: [] },
+        { id: "g8-5", title: "Making and Interpretation of Graphs, Charts and Diagrams", difficulty: "medium", subtopics: [] }
+      ]}
+      ]
+    },
+    economics: {
+      id: "economics", title: "Economics", icon: "📊", color: "#6d28d9",
+      units: [
+      { id: "e1", title: "Theory of Consumer Behaviour", topics: [
+        { id: "e1-1", title: "The Concept of Utility", difficulty: "easy", subtopics: [] },
+        { id: "e1-2", title: "The Cardinal Utility Theory", difficulty: "medium", subtopics: [] },
+        { id: "e1-3", title: "The Consumer Maximization Problem", difficulty: "medium", subtopics: [] },
+        { id: "e1-4", title: "Introduction to the Ordinal Utility Theory", difficulty: "easy", subtopics: [] }
+      ]},
+      { id: "e2", title: "Theories of Demand and Supply", topics: [
+        { id: "e2-1", title: "Theory of Demand", difficulty: "medium", subtopics: [] },
+        { id: "e2-2", title: "Theory of Supply", difficulty: "medium", subtopics: [] },
+        { id: "e2-3", title: "Market Equilibrium", difficulty: "medium", subtopics: [] },
+        { id: "e2-4", title: "Elasticities of Demand and Supply", difficulty: "medium", subtopics: [] }
+      ]},
+      { id: "e3", title: "Theories of Production and Cost", topics: [
+        { id: "e3-1", title: "Theory of Production", difficulty: "medium", subtopics: [] },
+        { id: "e3-2", title: "Theory of Cost", difficulty: "medium", subtopics: [] }
+      ]},
+      { id: "e4", title: "Market Structure", topics: [
+        { id: "e4-1", title: "Perfectly Competitive Markets", difficulty: "medium", subtopics: [] },
+        { id: "e4-2", title: "Pure Monopoly Market", difficulty: "medium", subtopics: [] },
+        { id: "e4-3", title: "Monopolistically Competitive Market", difficulty: "medium", subtopics: [] },
+        { id: "e4-4", title: "Oligopoly Market", difficulty: "medium", subtopics: [] }
+      ]},
+      { id: "e5", title: "Banking and Finance", topics: [
+        { id: "e5-1", title: "5.1 &#038; 5.2 – Financial Intermediaries and Financial Markets", difficulty: "medium", subtopics: [] },
+        { id: "e5-2", title: "Financial Institutions", difficulty: "medium", subtopics: [] },
+        { id: "e5-3", title: "Historical Development of Banks in Ethiopia", difficulty: "medium", subtopics: [] },
+        { id: "e5-4", title: "Micro-finance Institutions", difficulty: "medium", subtopics: [] },
+        { id: "e5-5", title: "5.6 &#038; 5.7 – Electronic Banking and Indigenous Financial Institutions", difficulty: "medium", subtopics: [] }
+      ]},
+      { id: "e6", title: "Economic Growth", topics: [
+        { id: "e6-1", title: "Review of Macroeconomic Variables", difficulty: "medium", subtopics: [] },
+        { id: "e6-2", title: "Definition and Measurement of Economic Growth", difficulty: "easy", subtopics: [] },
+        { id: "e6-3", title: "Sources of Economic Growth", difficulty: "medium", subtopics: [] },
+        { id: "e6-4", title: "The Weaknesses of Using GDP per Capita", difficulty: "medium", subtopics: [] },
+        { id: "e6-5", title: "The Business Cycle and Its Phases", difficulty: "medium", subtopics: [] }
+      ]},
+      { id: "e7", title: "The Ethiopian Economy", topics: [
+        { id: "e7-1", title: "Components of the Gross Domestic Product (GDP)", difficulty: "medium", subtopics: [] },
+        { id: "e7-2", title: "Real GDP versus Nominal GDP", difficulty: "medium", subtopics: [] },
+        { id: "e7-3", title: "The Agricultural Sector", difficulty: "medium", subtopics: [] },
+        { id: "e7-4", title: "The Industrial Sector", difficulty: "medium", subtopics: [] },
+        { id: "e7-5", title: "The Service Sector", difficulty: "medium", subtopics: [] },
+        { id: "e7-6", title: "Agriculture versus Industrial Development", difficulty: "medium", subtopics: [] }
+      ]},
+      { id: "e8", title: "Business Startups and Innovation", topics: [
+        { id: "e8-1", title: "Innovation", difficulty: "medium", subtopics: [] },
+        { id: "e8-2", title: "Business Startups", difficulty: "medium", subtopics: [] },
+        { id: "e8-3", title: "Types of Business Organizations", difficulty: "medium", subtopics: [] },
+        { id: "e8-4", title: "Business Feasibility Analysis", difficulty: "hard", subtopics: [] }
+      ]}
+      ]
+    },
+    civics: {
+      id: "civics", title: "Citizenship Education", icon: "🏛️", color: "#0d9488",
+      units: [
+      { id: "c1", title: "Democracy and Democratization", topics: [
+        { id: "c1-1", title: "The Concept of Democracy and Democratization", difficulty: "easy", subtopics: ["Definition of democracy","Democratization"] },
+        { id: "c1-2", title: "Definitions and Actors of the Democratization Process", difficulty: "medium", subtopics: ["State actors","Civil society"] },
+        { id: "c1-3", title: "Institutionalizing Democracy", difficulty: "medium", subtopics: ["Democratic institutions","Free elections"] },
+        { id: "c1-4", title: "The Role of Democracy for Social Development", difficulty: "medium", subtopics: ["Participation","Accountability"] },
+        { id: "c1-5", title: "Democratic Values", difficulty: "easy", subtopics: ["Freedom","Equality","Justice"] },
+        { id: "c1-6", title: "Aspects of Democracy", difficulty: "hard", subtopics: ["Political","Economic","Social aspects"] }
+      ]},
+      { id: "c2", title: "Citizens in the Digital Technology Age", topics: [
+        { id: "c2-1", title: "Implications of Digital Technology on Citizens", difficulty: "medium", subtopics: ["Access to information","Participation"] },
+        { id: "c2-2", title: "The Ethics of Using Digital Technology", difficulty: "medium", subtopics: ["Responsible behaviour","Respect online"] },
+        { id: "c2-3", title: "Opportunities of Digital Technology for Citizens", difficulty: "easy", subtopics: ["Education","Employment","Services"] },
+        { id: "c2-4", title: "Impacts of Unethical Use of Digital Technology", difficulty: "hard", subtopics: ["Fake news","Hate speech","Privacy loss"] }
+      ]},
+      { id: "c3", title: "Understanding Good Governance", topics: [
+        { id: "c3-1", title: "The Concept of Good Governance", difficulty: "easy", subtopics: ["Definition","Why it matters"] },
+        { id: "c3-2", title: "Elements of Good Governance", difficulty: "medium", subtopics: ["Transparency","Accountability","Participation","Rule of law"] },
+        { id: "c3-3", title: "The Role of Good Governance", difficulty: "medium", subtopics: ["Development","Service delivery"] },
+        { id: "c3-4", title: "Challenges for Good Governance", difficulty: "hard", subtopics: ["Corruption","Weak institutions"] },
+        { id: "c3-5", title: "Impacts of Lack of Good Governance", difficulty: "medium", subtopics: ["Poverty","Distrust"] },
+        { id: "c3-6", title: "Understanding and Fighting Corruption", difficulty: "hard", subtopics: ["Forms of corruption","Anti-corruption measures"] }
+      ]},
+      { id: "c4", title: "Peace and Indigenous Conflict Resolution", topics: [
+        { id: "c4-1", title: "The Concepts of Peace", difficulty: "easy", subtopics: ["Types of peace","Negative vs positive peace"] },
+        { id: "c4-2", title: "Impacts of the Absence of Peace", difficulty: "medium", subtopics: ["Displacement","Poverty","Instability"] },
+        { id: "c4-3", title: "The Notion of Peace Building", difficulty: "medium", subtopics: ["Defining peace building","Reconciliation"] },
+        { id: "c4-4", title: "Indigenous Conflict Resolution Mechanisms", difficulty: "medium", subtopics: ["Elders","Customary courts"] },
+        { id: "c4-5", title: "The Roles of Indigenous Social Institutions in Ensuring Sustainable Peace", difficulty: "hard", subtopics: ["Community dialogue","Restoration"] }
+      ]},
+      { id: "c5", title: "Federalism in Ethiopia", topics: [
+        { id: "c5-1", title: "The Meaning of Federalism", difficulty: "easy", subtopics: ["Definition","Shared rule"] },
+        { id: "c5-2", title: "Types of Federalism", difficulty: "medium", subtopics: ["Coming together","Holding together"] },
+        { id: "c5-3", title: "Key Features of Federalism", difficulty: "medium", subtopics: ["Division of power","Decentralisation","Supreme constitution"] },
+        { id: "c5-4", title: "Advantages and Disadvantages of Federalism", difficulty: "hard", subtopics: ["Advantages","Disadvantages"] },
+        { id: "c5-5", title: "The Roles of Federalism in Accommodating Diversity in Ethiopia", difficulty: "hard", subtopics: ["Features of Ethiopian federalism","Challenges"] }
+      ]},
+      { id: "c6", title: "Human Rights", topics: [
+        { id: "c6-1", title: "The Concept of Human Rights", difficulty: "easy", subtopics: ["Basic features","Classification"] },
+        { id: "c6-2", title: "Citizens and State Obligations in Realizing Human Rights", difficulty: "medium", subtopics: ["Citizens’ duties","State duties"] },
+        { id: "c6-3", title: "Instruments for the Protection of Human Rights", difficulty: "medium", subtopics: ["National","International"] }
+      ]},
+      { id: "c7", title: "Patriotism", topics: [
+        { id: "c7-1", title: "The Meaning of Patriotism", difficulty: "easy", subtopics: ["Definition","Love of country"] },
+        { id: "c7-2", title: "Types of Patriotism", difficulty: "medium", subtopics: ["Constitutional","Traditional","Icon","Symbolic"] },
+        { id: "c7-3", title: "The Bases of Patriotism", difficulty: "hard", subtopics: ["Equality","Tolerance","Loyalty","Sacrifice"] },
+        { id: "c7-4", title: "The Importance of Patriotism", difficulty: "medium", subtopics: ["National unity","Development"] },
+        { id: "c7-5", title: "Duties Expected of Patriots", difficulty: "medium", subtopics: ["Obeying law","Paying taxes","Defending the country"] }
+      ]},
+      { id: "c8", title: "Globalization and Global Issues", topics: [
+        { id: "c8-1", title: "The Meaning of Globalization", difficulty: "easy", subtopics: ["Definition","Dimensions"] },
+        { id: "c8-2", title: "Advantages and Disadvantages of Globalization", difficulty: "medium", subtopics: ["Advantages","Disadvantages"] },
+        { id: "c8-3", title: "Fighting the Negative Impacts of Globalization", difficulty: "medium", subtopics: ["Local production","Cultural protection"] },
+        { id: "c8-4", title: "Major Global Issues", difficulty: "hard", subtopics: ["Climate change","Terrorism","Migration","Poverty"] }
+      ]}
+      ]
+    }
+});
