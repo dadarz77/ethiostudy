@@ -188,7 +188,7 @@ Object.assign(window.CURRICULUM_G12, {
         { id: "h2-3", title: "Colonial Administration and the Colonial States", difficulty: "medium", subtopics: [] }
       ]},
       { id: "h3", title: "Social, Economic and Political Developments in Ethiopia, mid-19th C. to 1941", topics: [
-        { id: "h3-1", title: "Long Distance Trade and Peoples&#8217; Interaction in Ethiopia in the 19th Century", difficulty: "medium", subtopics: [] },
+        { id: "h3-1", title: "Long Distance Trade and Peoples' Interaction in Ethiopia in the 19th Century", difficulty: "medium", subtopics: [] },
         { id: "h3-2", title: "Power Rivalry and Consolidating Central Government, 1855-1913", difficulty: "medium", subtopics: [] },
         { id: "h3-3", title: "Territorial Expansion and the Incorporation of Kingdoms", difficulty: "medium", subtopics: [] },
         { id: "h3-4", title: "External Relations, Challenges and Threats", difficulty: "hard", subtopics: [] },

@@ -172,7 +172,7 @@ Object.assign(window.CURRICULUM_G9, {
         { id: "h5-4", title: "Equatorial, Central and Eastern Africa", difficulty: "medium", subtopics: [] },
         { id: "h5-5", title: "Southern Africa", difficulty: "medium", subtopics: [] },
         { id: "h5-6", title: "Trans-Saharan Trade", difficulty: "medium", subtopics: [] },
-        { id: "h5-7", title: "Textbook", difficulty: "medium", subtopics: [] }
+        { id: "h5-7", title: "Unit Review", difficulty: "medium", subtopics: [] }
       ]},
       { id: "h6", title: "Africa and the Outside World 1500-1880s", topics: [
         { id: "h6-1", title: "Contact with the Outside World", difficulty: "medium", subtopics: [] },
@@ -279,7 +279,7 @@ Object.assign(window.CURRICULUM_G9, {
         { id: "e2-1", title: "The Basic Economic Problems: Scarcity, Choice, and Opportunity Cost", difficulty: "easy", subtopics: [] },
         { id: "e2-2", title: "Central Problems of Economies", difficulty: "hard", subtopics: [] },
         { id: "e2-3", title: "Economic Systems", difficulty: "medium", subtopics: [] },
-        { id: "e2-4", title: "Textbook", difficulty: "medium", subtopics: [] }
+        { id: "e2-4", title: "Unit Review", difficulty: "medium", subtopics: [] }
       ]},
       { id: "e3", title: "Economic Resources and Markets", topics: [
         { id: "e3-1", title: "Types of Resources and Factor Payments", difficulty: "medium", subtopics: [] },
@@ -304,7 +304,7 @@ Object.assign(window.CURRICULUM_G9, {
         { id: "e6-3", title: "Functions of Money", difficulty: "medium", subtopics: [] },
         { id: "e6-4", title: "Demand and Supply of Money", difficulty: "medium", subtopics: [] },
         { id: "e6-5", title: "Money and Electronic Money", difficulty: "medium", subtopics: [] },
-        { id: "e6-6", title: "Textbook", difficulty: "medium", subtopics: [] }
+        { id: "e6-6", title: "Unit Review", difficulty: "medium", subtopics: [] }
       ]},
       { id: "e7", title: "Introduction to Macroeconomics", topics: [
         { id: "e7-1", title: "Definition of Macroeconomic Variables", difficulty: "easy", subtopics: [] },
