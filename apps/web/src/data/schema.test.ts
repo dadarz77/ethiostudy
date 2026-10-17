@@ -10,12 +10,17 @@ const DATA = join(__dirname);
 
 const unitFiles = readdirSync(DIR).filter(f => f.endsWith('.json') && !f.endsWith('.test.json'));
 
+/* Subjects that once shipped structure-only and are now fully authored.
+   Kept as an empty set so the "every topic has a lesson" guard stays strict. */
+const STAGED = new Set<string>([]);
+const subjectOf = (tid: string) => tid.split('-')[1];
+
 describe('content integrity', () => {
-  it('has all 100 unit files', () => {
-    expect(unitFiles.length).toBe(100);
+  it('has all 199 unit files (100 science + 99 social science)', () => {
+    expect(unitFiles.length).toBe(199);
   });
 
-  it('every lesson validates against LessonSchema (380 topics)', () => {
+  it('every lesson validates against LessonSchema', () => {
     let topics = 0;
     const errors: string[] = [];
     for (const f of unitFiles) {
@@ -33,30 +38,38 @@ describe('content integrity', () => {
       }
     }
     expect(errors).toEqual([]);
-    // 380 total topics; all four G12 subjects authored (math 23, physics 29, chemistry 21, biology 28).
-    expect(topics).toBe(380);
+    // lesson files cover all 847 topics: 380 authored science + 467 authored
+    // social science (history/geography/economics, all four grades).
+    expect(topics).toBe(847);
   }, 30000);
 
   it('curriculum.json validates and covers all four grades', () => {
     const cur = CurriculumSchema.parse(JSON.parse(readFileSync(join(DATA, 'curriculum.json'), 'utf8')));
     expect(Object.keys(cur)).toEqual(expect.arrayContaining(['9', '10', '11', '12']));
     const units = Object.values(cur).flatMap(g => Object.values(g)).reduce((s, subj) => s + subj.units.length, 0);
-    expect(units).toBe(100);
+    // 100 science units + 99 social-science units (history/geography/economics)
+    expect(units).toBe(199);
   });
 
-  it('topics.json has 380 entries with _id matching keys', () => {
+  it('topics.json has 847 entries with _id matching keys', () => {
     const idx = TopicIndexSchema.parse(JSON.parse(readFileSync(join(DATA, 'topics.json'), 'utf8')));
-    expect(Object.keys(idx).length).toBe(380);
+    expect(Object.keys(idx).length).toBe(847);
     for (const [k, t] of Object.entries(idx)) expect(t._id).toBe(k);
   });
 
-  it('every AUTHORED topic has a lesson file entry (G12 staged)', () => {
+  it('every topic has a lesson file entry (social science staged)', () => {
     const idx = TopicIndexSchema.parse(JSON.parse(readFileSync(join(DATA, 'topics.json'), 'utf8')));
     const seen = new Set<string>();
     for (const f of unitFiles) {
       for (const tid of Object.keys(JSON.parse(readFileSync(join(DIR, f), 'utf8')))) seen.add(tid);
     }
-    for (const tid of Object.keys(idx)) if (!tid.startsWith('g12-')) expect(seen.has(tid)).toBe(true);
+    for (const tid of Object.keys(idx)) {
+      // Staged-but-unauthored subjects are allowed to have no lesson file yet.
+      // Social science (history/geography/economics) was added in Phase 1 as
+      // curriculum structure; lessons arrive in the content phase.
+      if (STAGED.has(subjectOf(tid))) continue;
+      if (!tid.startsWith('g12-')) expect(seen.has(tid)).toBe(true);
+    }
     // and every lesson entry must correspond to a real topic
     for (const tid of seen) expect(idx[tid]).toBeTruthy();
   });

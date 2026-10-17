@@ -4,8 +4,8 @@ import { ALL_TOPICS, topicById, lessonFor, loadLesson, loadAllLessons, subjectsF
 const allTids = Object.keys(ALL_TOPICS);
 
 describe('curriculum wiring', () => {
-  it('380 topics indexed across all grades', () => {
-    expect(allTids.length).toBe(380);
+  it('847 topics indexed across all grades (380 science + 467 social)', () => {
+    expect(allTids.length).toBe(847);
     expect(subjectsFor('10').length).toBeGreaterThanOrEqual(4);
     expect(subjectsFor('11').length).toBeGreaterThanOrEqual(4);
   });
@@ -17,8 +17,13 @@ describe('curriculum wiring', () => {
 
   it('every AUTHORED topic resolves to a valid lesson with questions', async () => {
     await loadAllLessons();
+    // Social science (history/geography/economics) was once staged as curriculum
+    // structure only — all 467 topics are now fully authored, so the STAGED set
+    // is empty and every topic must resolve to a real lesson.
+    const STAGED = new Set<string>([]);
+    const isStaged = (t: string) => STAGED.has(t.split('-')[1]);
     // G12 ships as a staged rollout: math + physics fully authored; chem/bio land next.
-    const authored = allTids.filter(t => !t.startsWith('g12-') || /^g12-(mathematics|physics|chemistry)/.test(t));
+    const authored = allTids.filter(t => !isStaged(t) && (!t.startsWith('g12-') || /^g12-(mathematics|physics|chemistry)/.test(t)));
     const missing = authored.filter(t => !lessonFor(t));
     expect(missing).toEqual([]);
     const noQuiz = authored.filter(t => !(lessonFor(t)?.questions?.length));
