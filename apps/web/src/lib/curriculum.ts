@@ -36,6 +36,27 @@ export const ALL_TOPICS = topicsFlat as unknown as Record<string, Topic>;
 export function subjectsFor(grade: Grade): { key: string; s: Subject }[] {
   return Object.entries(cur[grade]).map(([key, s]) => ({ key, s }));
 }
+
+/* ---- Science vs Social Sciences grouping (Product decision: two labelled groups) ---- */
+export type SubjectGroup = 'science' | 'social';
+export const SUBJECT_GROUP: Record<string, SubjectGroup> = {
+  mathematics: 'science', biology: 'science', chemistry: 'science', physics: 'science',
+  history: 'social', geography: 'social', economics: 'social', civics: 'social',
+};
+export const GROUP_LABELS: Record<SubjectGroup, { en: string; am: string; icon: string }> = {
+  science: { en: 'Science', am: 'የተፈጥሮ ሳይንስ', icon: '🔬' },
+  social: { en: 'Social Sciences', am: 'የማህበራዊ ሳይንስ', icon: '🌏' },
+};
+export function subjectGroup(key: string): SubjectGroup {
+  return SUBJECT_GROUP[key] ?? 'science';
+}
+/** Subjects for a grade, grouped Science-first then Social, preserving curriculum order. */
+export function subjectsByGroup(grade: Grade): { group: SubjectGroup; label: typeof GROUP_LABELS[SubjectGroup]; subjects: { key: string; s: Subject }[] }[] {
+  const all = subjectsFor(grade);
+  return (['science', 'social'] as SubjectGroup[])
+    .map(group => ({ group, label: GROUP_LABELS[group], subjects: all.filter(x => subjectGroup(x.key) === group) }))
+    .filter(g => g.subjects.length > 0);
+}
 export function subject(grade: Grade, key: string): Subject | undefined {
   return cur[grade]?.[key];
 }

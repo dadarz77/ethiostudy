@@ -1,6 +1,6 @@
 import { useNavigate, useSearchParams, Link } from 'react-router-dom';
 import { useAppStore } from '../store/useAppStore';
-import { CURRICULUM, subjectsFor, subject as subjectOf, type Grade } from '../lib/curriculum';
+import { CURRICULUM, subjectsByGroup, subject as subjectOf, type Grade } from '../lib/curriculum';
 import { statsFor } from '../lib/scoring';
 import { Chip, DiffChip, ProgressBar, EmptyState } from '../components/ui';
 
@@ -14,7 +14,6 @@ export default function Browse() {
 
   const subjKey = params.get('subject');
   const unitId = params.get('unit');
-  const subjects = subjectsFor(grade as Grade);
 
   const go = (p: Record<string, string>) => {
     const q = new URLSearchParams(params);
@@ -43,23 +42,30 @@ export default function Browse() {
       </section>
 
       {!subjKey && (
-        <div className="grid grid-2 mt-4">
-          {subjects.map(({ key, s: subj }) => {
-            const st = statsFor(CURRICULUM as never, progress, { grade, subjectKey: key });
-            return (
-              <button key={key} className={'card card-hover curriculum-card subject-' + key} onClick={() => go({ subject: key })}>
-                <div className="spread">
-                  <div style={{ fontSize: '2rem' }}>{subj.icon}</div>
-                  <div style={{ textAlign: 'right' }}>
-                    <div style={{ fontWeight: 800, fontSize: '1.2rem' }}>{subj.title}</div>
-                    <div className="tiny">{st.studied}/{st.total} topics · {st.pct}%</div>
-                  </div>
-                </div>
-                <div className="mt-3"><ProgressBar pct={st.pct} /></div>
-                <div className="tiny mt-3 muted">{subj.units.length} units</div>
-              </button>
-            );
-          })}
+        <div className="subject-groups mt-4">
+          {subjectsByGroup(grade as Grade).map(({ group, label, subjects: gsubjects }) => (
+            <div key={group} className="subject-group">
+              <h3 className="subject-group-title"><span aria-hidden="true">{label.icon}</span> {label.en}</h3>
+              <div className="grid grid-2">
+                {gsubjects.map(({ key, s: subj }) => {
+                  const st = statsFor(CURRICULUM as never, progress, { grade, subjectKey: key });
+                  return (
+                    <button key={key} className={'card card-hover curriculum-card subject-' + key} onClick={() => go({ subject: key })}>
+                      <div className="spread">
+                        <div style={{ fontSize: '2rem' }}>{subj.icon}</div>
+                        <div style={{ textAlign: 'right' }}>
+                          <div style={{ fontWeight: 800, fontSize: '1.2rem' }}>{subj.title}</div>
+                          <div className="tiny">{st.studied}/{st.total} topics · {st.pct}%</div>
+                        </div>
+                      </div>
+                      <div className="mt-3"><ProgressBar pct={st.pct} /></div>
+                      <div className="tiny mt-3 muted">{subj.units.length} units</div>
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          ))}
         </div>
       )}
 

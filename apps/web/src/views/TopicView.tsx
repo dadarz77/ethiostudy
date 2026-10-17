@@ -28,6 +28,10 @@ const SUBJECT_DATA: Record<string, { accent: string; glow: string; label: string
   chemistry:     { accent: '#fb7185', glow: 'rgba(251,113,133,.15)', label: 'chem'    },
   biology:       { accent: '#4ade80', glow: 'rgba(74,222,128,.14)',  label: 'bio'     },
   reading_writing:{ accent: '#a78bfa', glow: 'rgba(167,139,250,.14)', label: 'reading' },
+  history:       { accent: '#d97706', glow: 'rgba(217,119,6,.15)',   label: 'history' },
+  geography:     { accent: '#0891b2', glow: 'rgba(8,145,178,.15)',   label: 'geography' },
+  economics:     { accent: '#7c3aed', glow: 'rgba(124,58,237,.15)',  label: 'economics' },
+  civics:        { accent: '#14b8a6', glow: 'rgba(20,184,166,.15)',  label: 'civics' },
 };
 
 /* ─── TOC section config ───────────────────────────────────────── */

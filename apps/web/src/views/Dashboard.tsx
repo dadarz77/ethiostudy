@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 import { useAppStore } from '../store/useAppStore';
 import { todayStr } from '../lib/scoring';
-import { topicById, subjectsFor, fmtTime, CURRICULUM, type Grade } from '../lib/curriculum';
+import { topicById, subjectsFor, subjectsByGroup, fmtTime, CURRICULUM, type Grade } from '../lib/curriculum';
 import { statsFor } from '../lib/scoring';
 import { tr } from '../lib/i18n';
 import { StatCard, ProgressBar, EmptyState } from '../components/ui';
@@ -103,23 +103,30 @@ export default function Dashboard() {
             <button className="text-action" onClick={() => navigate('/browse')}>{lang === 'am' ? 'ሁሉንም ይመልከቱ' : 'View curriculum'} <span>→</span></button>
           </div>
         </div>
-        <div className="subject-card-grid">
-          {subjectsFor(grade as Grade).map(({ key, s: subj }, index) => {
-            const st = statsFor(CURRICULUM as never, progress, { grade, subjectKey: key });
-            return (
-              <button key={key} className={'subject-orbit-card subject-' + key} style={{ ['--card-index' as string]: index }}
-                onClick={() => navigate('/browse?subject=' + key)}>
-                <span className="card-orbit" />
-                <span className="subject-icon">{subj.icon}</span>
-                <span className="subject-card-content">
-                  <b>{subj.title}</b>
-                  <small>{st.studied}/{st.total} {lang === 'am' ? 'ርዕሶች' : 'topics explored'}</small>
-                  <span className="subject-progress"><i style={{ width: st.pct + '%' }} /></span>
-                </span>
-                <span className="card-arrow">↗</span>
-              </button>
-            );
-          })}
+        <div className="subject-groups">
+          {subjectsByGroup(grade as Grade).map(({ group, label, subjects }) => (
+            <div key={group} className="subject-group">
+              <h3 className="subject-group-title"><span aria-hidden="true">{label.icon}</span> {lang === 'am' ? label.am : label.en}</h3>
+              <div className="subject-card-grid">
+                {subjects.map(({ key, s: subj }, index) => {
+                  const st = statsFor(CURRICULUM as never, progress, { grade, subjectKey: key });
+                  return (
+                    <button key={key} className={'subject-orbit-card subject-' + key} style={{ ['--card-index' as string]: index }}
+                      onClick={() => navigate('/browse?subject=' + key)}>
+                      <span className="card-orbit" />
+                      <span className="subject-icon">{subj.icon}</span>
+                      <span className="subject-card-content">
+                        <b>{subj.title}</b>
+                        <small>{st.studied}/{st.total} {lang === 'am' ? 'ርዕሶች' : 'topics explored'}</small>
+                        <span className="subject-progress"><i style={{ width: st.pct + '%' }} /></span>
+                      </span>
+                      <span className="card-arrow">↗</span>
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          ))}
         </div>
       </section>
 
