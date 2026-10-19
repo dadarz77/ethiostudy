@@ -1,14 +1,605 @@
-/* Content: g9-geography-ug2 — migrated from generated JSON (Phase 0 pipeline restore).
-   Content upgrade to spec v2 happens per unit in later phases. */
+/* Content: Grade 9 Geography - Unit 2: Climate of Ethiopia (5 topics)
+   Source: MoE Geography Grade 9 Student Textbook, Unit 2. */
 window.Lessons = window.Lessons || {};
 
-Lessons["g9-geography-ug2-t1"] = {"overview":"<b>Meaning of Weather and Climate</b> sits inside <b>Climate of Ethiopia</b>. Climate of Ethiopia is the subject of Unit 2 of Grade 9 Geography in the Ethiopian (FDRE Ministry of Education) curriculum. First, the unit separates weather from climate and lists the elements that describe the atmosphere. Then it explains the controls, mainly latitude and altitude, that steer the climate of Ethiopia from lowland heat to highland cold. Next, it maps the five agro-climatic zones and the rainfall regions before Unit 3: Natural Resource Base of Ethiopia builds on this physical setting. Students will also learn how the climate of Ethiopia applies to real-life situations such as farming seasons, clothing, and water supply.","objectives":["Explain the difference between weather and the climate of Ethiopia.","Identify the elements of weather and distinguish them from their controls.","Analyze how latitude and altitude shape temperature and rainfall.","Compare the five agro-climatic zones and the main rainfall regions.","Describe the instruments that measure each climatic element."],"simple":"<b>Meaning of Weather and Climate in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, weather as the short-term state of the atmosphere over hours and days.</li> <li>Then climate as the average pattern of weather over a long period.</li> <li>Also the key contrast between a passing condition and a lasting trend.</li></ul>","detailed":"<p><b>Meaning of Weather and Climate — the essentials.</b> First, weather as the short-term state of the atmosphere over hours and days. Then climate as the average pattern of weather over a long period. Also the key contrast between a passing condition and a lasting trend.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Explain the difference between weather and the climate of Ethiopia.</li><li>Identify the elements of weather and distinguish them from their controls.</li><li>Analyze how latitude and altitude shape temperature and rainfall.</li><li>Compare the five agro-climatic zones and the main rainfall regions.</li><li>Describe the instruments that measure each climatic element.</li></ul>","keyTerms":[{"term":"First","def":"First, weather as the short-term state of the atmosphere over hours and days."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing meaning of weather and climate with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Map and diagram questions in the ESSLCE geography paper","Explaining a local environmental or resource issue in your own region"],"summary":"Meaning of Weather and Climate: First, weather as the short-term state of the atmosphere over hours and days. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"Meaning of Weather and Climate\" is correct according to the MoE curriculum?","options":["First, weather as the short-term state of the atmosphere over hours and days.","Meaning of Weather and Climate applies only to a continent other than the one this unit covers","Meaning of Weather and Climate contradicts the definition this topic gives","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, weather as the short-term state of the atmosphere over hours and days. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"Meaning of Weather and Climate\"?","options":["Then climate as the average pattern of weather over a long period.","Meaning of Weather and Climate describes a physical process unrelated to this topic","Meaning of Weather and Climate applies only to a continent other than the one this unit covers","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Then climate as the average pattern of weather over a long period."},{"type":"tf","q":"True or false: First, weather as the short-term state of the atmosphere over hours and days.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover meaning of weather and climate.","answer":false,"difficulty":1,"explanation":"Meaning of Weather and Climate is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Explain the difference between weather and the climate of Ethiopia.","difficulty":2,"altAnswers":["Identify the elements of weather and distinguish them from their controls.","Analyze how latitude and altitude shape temperature and rainfall."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why meaning of weather and climate matters.","answer":"Meaning of Weather and Climate is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of meaning of weather and climate in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to meaning of weather and climate, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
+Lessons["g9-geography-ug2-t1"] = {
+  overview: "Weather and climate are closely related but have quite different meanings: weather is the short-term condition of the atmosphere at a place, while climate is the long-term pattern of weather. This lesson defines both terms and shows how to tell them apart.",
+  objectives: [
+    "Define weather as the short-term condition of the atmosphere at a given place",
+    "Define climate as the long-term pattern of weather experienced in an area",
+    "Distinguish the time scales on which weather and climate are described",
+    "Identify the atmospheric conditions used to describe weather at a place",
+    "Explain why a large area can experience only one type of climate"
+  ],
+  simple: "Weather is the condition of the atmosphere at a certain place over a short period of time. It is described in terms of temperature, rainfall, air pressure, wind, moisture, humidity and cloud cover, and it varies from hour to hour and from day to day. Climate is different: it is the pattern of weather conditions experienced in an area over a long period of time. Climate considers the trends, fluctuations and departures from average conditions in time and space. Because climate describes a long-term pattern rather than a moment, a large area can experience only one type of climate. A rainy afternoon anywhere in Ethiopia is weather; the fact that a place such as Ethiopia's highlands stays mild year after year is climate.",
+  detailed: "<p><b>What weather is.</b> Weather refers to the condition of the atmosphere in terms of temperature, rainfall, pressure, wind, moisture, cloud cover, humidity and similar observations made at a certain place over a short period of time. It is a phenomenon which varies very much from hour to hour, and even from day to day. A hot morning with a sudden shower at noon and a cool evening describes weather, because everything changes within a single day.</p><p><b>What climate is.</b> Climate is a pattern of weather conditions experienced in an area over a long period of time. It does not look at a single afternoon; it looks at the record. Climate considers the trends, fluctuations and vibration that may occur in departure from the average conditions in time and space. When we say a place is hot, wet or cool, we are describing the average behaviour of its weather over many years, which is climate.</p><p><b>The key difference is time.</b> Weather is the momentary state of the atmosphere; climate is the summing up of many states of the atmosphere over a long time. Weather belongs to the day and even the hour, while climate belongs to decades of records at a station. This is why a forecast tells you what will happen tomorrow, but a climatic description tells you what normally happens in a place.</p><p><b>One area, one climate, many weathers.</b> A large area can experience only one type of climate, yet the same area can pass through many kinds of weather within a single week. For example, the western highlands of Ethiopia have one clearly wet climate, but a particular week there may include a dry morning, a heavy storm and a cool drizzle, all of which are weathers within that single climate.</p><p><b>Why this matters.</b> Climate is an important control over the distribution of flora and fauna, and in consequence it largely determines the agricultural activities of an area and the materials available for shelter and clothing. Knowing the difference between weather and climate is the foundation for studying the elements, controls, regions and seasons of climate in the rest of this unit.</p>",
+  keyTerms: [
+    { term: "Weather", def: "The condition of the atmosphere in terms of temperature, rainfall, pressure, wind, moisture, cloud cover and humidity observed at a place over a short period of time." },
+    { term: "Climate", def: "A pattern of weather conditions experienced in an area over a long period of time, considering trends, fluctuations and departures from the average." },
+    { term: "Atmosphere", def: "The layer of air surrounding the Earth, whose condition is described when we talk about weather and climate." },
+    { term: "Temperature", def: "The degree of measurement of hotness or coldness of an object or the air." },
+    { term: "Humidity", def: "The concentration of water vapour present in the air." },
+    { term: "Cloud cover", def: "The extent to which visible masses of water droplets or ice crystals cover the sky at a place." },
+    { term: "Average condition", def: "The normal value of an element of weather or climate worked out from long-period records at a place." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "In one day a town in central Ethiopia has a hot sunny morning, thunderstorms at midday and a cool clear evening. Is this day's record weather or climate?",
+      given: "All the changes - sun, storms and coolness - happened within a single day at one place.",
+      formula: "Test: conditions observed over a short period are weather; long-period patterns are climate.",
+      substitution: "The observations cover hours of one day, which is a short period.",
+      calculation: "Since the record varies from hour to hour at one place, it fits the definition of weather, not of a long-term pattern.",
+      answer: "It is weather: the short-term condition of the atmosphere, which varies hour by hour."
+    },
+    {
+      problem: "A student claims that because one December in Afar lowlands near the coast was unusually wet, the climate of that area is wet. Evaluate the claim.",
+      given: "One unusual December is used to judge the whole climate of the area.",
+      formula: "Test: climate is the pattern of weather over a long period, not a single event.",
+      substitution: "One December is a single short episode, far below the long period needed to describe climate.",
+      calculation: "A single unusual month can only be an excursion of weather; the climate must be judged from trends and averages over years in time and space.",
+      answer: "The student is wrong: one month describes weather, while climate is the long-period pattern."
+    },
+    {
+      problem: "Explain the statement 'a large area can experience only one type of climate' using any large Ethiopian region.",
+      given: "A region, such as the southwestern highlands, is a large area with a characteristic wet climate.",
+      formula: "Concept: climate is the long-term pattern of a place; weather is the ever-changing surface of that pattern.",
+      substitution: "The southwestern highlands have a wet climate, yet individual days there can be dry, stormy or drizzly.",
+      calculation: "Many different weathers fit inside one long-term pattern, but the pattern itself - the climate - is single for the area.",
+      answer: "The region has one climate but many day-to-day weathers within it."
+    }
+  ],
+  commonMistakes: [
+    "Thinking weather and climate mean exactly the same thing.",
+    "Judging the climate of a place from a single hot day or a single wet month.",
+    "Saying climate changes every few hours, when it is weather that changes that fast.",
+    "Forgetting that climate describes trends and average conditions, not single events.",
+    "Confusing a daily forecast with a climatic description of a place.",
+    "Listing climate when asked to name the elements that describe weather."
+  ],
+  applications: [
+    "Using the daily weather report to decide when to plant or harvest in your area.",
+    "Describing your home area by its climate, for example mild highland climate, when writing about your kebele.",
+    "Choosing clothing and shelter materials that suit the long-term climate, as the textbook notes.",
+    "Explaining why farmers trust long-term climatic patterns more than one rainy afternoon.",
+    "Recording the weather of your school compound for a week and comparing it with the known climate of your woreda."
+  ],
+  summary: "Weather is the short-term condition of the atmosphere at a place, covering temperature, rainfall, pressure, wind, moisture, cloud cover and humidity, and it changes from hour to hour and day to day. Climate is the long-period pattern of weather in an area, including its trends and departures from average conditions, and a large area can experience only one type of climate. Climate controls the distribution of plants and animals and therefore agriculture, shelter and clothing.",
+  visuals: [
+    {
+      type: "comparison",
+      config: {
+        title: "Weather vs Climate",
+        left: { name: "Weather", items: ["Short period of time", "Varies hour to hour and day to day", "Observed at a certain place", "Example: afternoon thunderstorm"] },
+        right: { name: "Climate", items: ["Long period of time", "Pattern with trends and averages", "Experienced by a whole area", "Example: wet southwestern highlands"] }
+      }
+    },
+    {
+      type: "qa",
+      config: {
+        title: "Weather or Climate?",
+        pairs: [
+          { q: "It rained heavily in Addis Ababa yesterday afternoon.", a: "Weather - a short-period condition at a place." },
+          { q: "The southwestern plateau has 1400 to 2200 mm of rain nearly every year.", a: "Climate - a long-period pattern of the area." },
+          { q: "Temperatures rise above 45 degrees C in the Danakil Depression most years.", a: "Climate - a regularly repeated long-term condition." },
+          { q: "The sky over your town is cloudy this morning.", a: "Weather - an hourly observation." }
+        ]
+      }
+    },
+    {
+      type: "mindMap",
+      config: {
+        title: "What Describes Weather at a Place",
+        center: "Weather",
+        branches: [
+          { label: "Heat terms", items: ["Temperature", "Sunshine"] },
+          { label: "Water terms", items: ["Rainfall", "Humidity", "Moisture"] },
+          { label: "Air terms", items: ["Air pressure", "Wind"] },
+          { label: "Sky terms", items: ["Cloud cover"] }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "Weather refers to the condition of the atmosphere at a certain place over:", options: ["a long period of time", "a short period of time", "exactly one year", "centuries of records"], answer: 1, difficulty: 1, explanation: "Weather is observed over a short period of time and varies from hour to hour and day to day." },
+    { type: "mcq", q: "Climate is best described as:", options: ["the temperature of one afternoon", "a pattern of weather conditions over a long period of time", "the humidity of the air today", "a daily weather report"], answer: 1, difficulty: 1, explanation: "Climate is a pattern of weather conditions experienced in an area over a long period of time." },
+    { type: "tf", q: "A large area can experience only one type of climate.", answer: true, difficulty: 1, explanation: "The textbook states that a large area can experience only one type of climate." },
+    { type: "tf", q: "Weather varies from hour to hour and from day to day.", answer: true, difficulty: 1, explanation: "Weather is a phenomenon which varies very much from hour to hour, even from day to day." },
+    { type: "short", q: "Name any two conditions used to describe weather besides temperature.", answer: "rainfall|pressure|wind|moisture|cloud cover|humidity", difficulty: 1, explanation: "Weather is described in terms of temperature, rainfall, pressure, wind, moisture, cloud cover and humidity." },
+    { type: "concept", q: "Explain in one sentence why one wet December cannot define the climate of an area.", answer: "climate is a long period pattern|one month is only weather|single events do not make climate", difficulty: 2, explanation: "Climate is judged from patterns over a long period of time, so a single month is merely weather." },
+    { type: "mcq", q: "Climate considers which of the following?", options: ["Trends, fluctuations and departures from average conditions", "Only one day of records", "Only the wind", "Only plants and animals"], answer: 0, difficulty: 2, explanation: "Climate considers trends, fluctuations and vibration in departure from average conditions in time and space." },
+    { type: "concept", q: "Why is climate important to the distribution of flora and fauna and to agriculture?", answer: "climate controls the distribution of plants and animals|it determines agricultural activities|it shapes shelter and clothing", difficulty: 2, explanation: "Climate is an important control over the distribution of flora and fauna, and largely determines agriculture and the materials for shelter and clothing." },
+    { type: "mcq", q: "Which statement is TRUE?", options: ["Weather and climate both mean the same thing", "Climate changes every few hours", "Weather is observed over a short time while climate is a long-period pattern", "A large area can have many climates at once"], answer: 2, difficulty: 2, explanation: "Weather is short-term; climate is the long-period pattern; they do not mean the same thing." },
+    { type: "short", q: "Which term names the short-term state of the atmosphere, including temperature, humidity, precipitation, wind and visibility?", answer: "weather", difficulty: 1, explanation: "This is the definition of weather." },
+    { type: "concept", q: "Give one example of weather and one example of climate from your own region of Ethiopia.", answer: "a day of rain or sun is weather and the usual season after years is climate|any short-term observation vs long-term pattern", difficulty: 3, explanation: "A daily observation such as a storm is weather; the long-term pattern such as the Kiremt regime is climate." }
+  ]
+};
 
-Lessons["g9-geography-ug2-t2"] = {"overview":"<b>Elements of Weather and Climate</b> sits inside <b>Climate of Ethiopia</b>. Climate of Ethiopia is the subject of Unit 2 of Grade 9 Geography in the Ethiopian (FDRE Ministry of Education) curriculum. First, the unit separates weather from climate and lists the elements that describe the atmosphere. Then it explains the controls, mainly latitude and altitude, that steer the climate of Ethiopia from lowland heat to highland cold. Next, it maps the five agro-climatic zones and the rainfall regions before Unit 3: Natural Resource Base of Ethiopia builds on this physical setting. Students will also learn how the climate of Ethiopia applies to real-life situations such as farming seasons, clothing, and water supply.","objectives":["Explain the difference between weather and the climate of Ethiopia.","Identify the elements of weather and distinguish them from their controls.","Analyze how latitude and altitude shape temperature and rainfall.","Compare the five agro-climatic zones and the main rainfall regions.","Describe the instruments that measure each climatic element."],"simple":"<b>Elements of Weather and Climate in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, precipitation, temperature, and humidity as core elements.</li> <li>Next, air pressure, wind, sunshine, and cloud cover.</li> <li>Including the uneven spread of these elements over space and time.</li></ul>","detailed":"<p><b>Elements of Weather and Climate — the essentials.</b> First, precipitation, temperature, and humidity as core elements. Next, air pressure, wind, sunshine, and cloud cover. Including the uneven spread of these elements over space and time.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Explain the difference between weather and the climate of Ethiopia.</li><li>Identify the elements of weather and distinguish them from their controls.</li><li>Analyze how latitude and altitude shape temperature and rainfall.</li><li>Compare the five agro-climatic zones and the main rainfall regions.</li><li>Describe the instruments that measure each climatic element.</li></ul>","keyTerms":[{"term":"First","def":"First, precipitation, temperature, and humidity as core elements."},{"term":"Next","def":"Next, air pressure, wind, sunshine, and cloud cover."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing elements of weather and climate with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Map and diagram questions in the ESSLCE geography paper","Explaining a local environmental or resource issue in your own region"],"summary":"Elements of Weather and Climate: First, precipitation, temperature, and humidity as core elements. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"Elements of Weather and Climate\" is correct according to the MoE curriculum?","options":["First, precipitation, temperature, and humidity as core elements.","Elements of Weather and Climate applies only to a continent other than the one this unit covers","Elements of Weather and Climate contradicts the definition this topic gives","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, precipitation, temperature, and humidity as core elements. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"Elements of Weather and Climate\"?","options":["Next, air pressure, wind, sunshine, and cloud cover.","Elements of Weather and Climate describes a physical process unrelated to this topic","Elements of Weather and Climate applies only to a continent other than the one this unit covers","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Next, air pressure, wind, sunshine, and cloud cover."},{"type":"tf","q":"True or false: First, precipitation, temperature, and humidity as core elements.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover elements of weather and climate.","answer":false,"difficulty":1,"explanation":"Elements of Weather and Climate is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Explain the difference between weather and the climate of Ethiopia.","difficulty":2,"altAnswers":["Identify the elements of weather and distinguish them from their controls.","Analyze how latitude and altitude shape temperature and rainfall."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why elements of weather and climate matters.","answer":"Elements of Weather and Climate is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of elements of weather and climate in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to elements of weather and climate, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
+Lessons["g9-geography-ug2-t2"] = {
+  overview: "Both weather and climate are composed of common elements: precipitation, temperature, humidity, air pressure, wind, sunshine and cloud. This lesson defines each element and notes that their distribution over the Earth is uneven in space and time.",
+  objectives: [
+    "Define precipitation and name its forms",
+    "Define temperature, humidity and air pressure",
+    "Define wind and explain what causes it",
+    "Describe sunshine and cloud as visible sky conditions",
+    "State that the elements are distributed unevenly in space and time and are governed by climate controls"
+  ],
+  simple: "Weather and climate are both made up of the same elements. Precipitation is any liquid or frozen water that forms in the atmosphere and falls back to the Earth as rain, sleet, hail or snow. Temperature is the degree of measurement of hotness or coldness of an object. Humidity is the concentration of water vapour present in the air. Air pressure is the force exerted on a surface by the air above it as gravity pulls it to Earth. Wind is the movement of air, caused by the uneven heating of the Earth by the sun and by the Earth's own rotation. Sunshine is the direct sunlight to which an area is exposed, and cloud is any visible mass of water droplets or ice crystals suspended in the atmosphere.",
+  detailed: "<p><b>Elements of weather and climate.</b> Both weather and climate are composed of the same elements, each describing a different part of the state of the atmosphere. The most important elements are precipitation, temperature, humidity, air pressure, wind, sunshine and cloud cover.</p><p><b>Precipitation and temperature.</b> <b>Precipitation</b> is any liquid or frozen water that forms in the atmosphere and falls back to the Earth in the form of rain, sleet, hail and snow. Precipitation is the water that fills rivers and wells and supports farming. <b>Temperature</b> is the degree of measurement of hotness or coldness of an object; for the air, it tells us how hot or cold a place is at any moment.</p><p><b>Humidity and air pressure.</b> <b>Humidity</b> is the concentration of water vapour present in the air; the more water vapour the air holds, the more humid it is. <b>Air pressure</b> is the force exerted on a surface by the air above it as gravity pulls it to Earth. Pressure varies from place to place and from time to time, and these differences help drive the winds.</p><p><b>Wind, sunshine and cloud.</b> <b>Wind</b> is the movement of air, caused by the uneven heating of the Earth by the sun together with the Earth's own rotation. <b>Sunshine</b> is the direct sunlight to which a given area is exposed. <b>Cloud</b> is any visible mass of water droplets or ice crystals suspended in the atmosphere; cloud cover affects both sunshine and the warmth of nights.</p><p><b>An uneven distribution.</b> The distribution of these elements over the surface of the Earth is uneven in terms of magnitude and time. Some places are hot and wet while others are cold or dry, and a single place changes with the seasons. This spatial and temporal distribution of the climatic elements is governed by the climate control factors, which include latitude, altitude and the other controls studied in the next lesson.</p><p><b>Why the elements matter.</b> Each element can be measured with an instrument, and together they let us describe the weather of a day and the climate of a locality. Knowing the climatic condition of a place helps farmers plan planting, helps travellers prepare, and explains why plants, animals and people are distributed as they are over Ethiopia's varied landscapes.</p>",
+  keyTerms: [
+    { term: "Precipitation", def: "Any liquid or frozen water that forms in the atmosphere and falls back to the Earth in the form of rain, sleet, hail and snow." },
+    { term: "Temperature", def: "The degree of measurement of hotness or coldness of an object." },
+    { term: "Humidity", def: "The concentration of water vapour present in the air." },
+    { term: "Air pressure", def: "The force exerted on a surface by the air above it as gravity pulls it to Earth." },
+    { term: "Wind", def: "The movement of air, caused by the uneven heating of the Earth by the sun and the Earth's own rotation." },
+    { term: "Sunshine", def: "The direct sunlight to which a given area is exposed." },
+    { term: "Cloud", def: "Any visible mass of water droplets or ice crystals suspended in the atmosphere." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "A Grade 9 student in Bishoftu lists 'latitude and altitude' as elements of weather and climate. Correct the list.",
+      given: "Latitude and altitude are named as elements in the student's list.",
+      formula: "Test: elements are measurable parts of the atmosphere, such as temperature, precipitation, humidity, pressure, wind, sunshine and cloud.",
+      substitution: "Latitude and altitude do not describe the state of the air; they are among the controls that govern the distribution of the elements.",
+      calculation: "Moving latitude and altitude out of the list leaves the true elements, which are all properties of the atmosphere.",
+      answer: "The elements are temperature, precipitation, humidity, air pressure, wind, sunshine and cloud; latitude and altitude are controls, not elements."
+    },
+    {
+      problem: "During a July afternoon a hailstorm strikes a highland farm, while the same month brings gentle rain to a neighbouring town. Which single element covers both events?",
+      given: "Hail and rain both fell from the atmosphere to the ground.",
+      formula: "Test: precipitation includes any liquid or frozen water that forms in the atmosphere and falls back to the Earth.",
+      substitution: "Rain is liquid water falling to Earth; hail is frozen water falling to Earth.",
+      calculation: "Both forms meet the definition of precipitation, so they belong to the same element.",
+      answer: "Both are forms of precipitation."
+    },
+    {
+      problem: "On a clear night in the Bega season temperatures drop sharply, while on a cloudy night they stay milder. Explain this using two elements.",
+      given: "Cloud cover differs between the two nights, and the temperature response differs too.",
+      formula: "Concept: cloud is a visible mass of droplets suspended in the atmosphere, and temperature records hotness or coldness.",
+      substitution: "The clear night has little cloud, so heat escapes quickly and temperature falls; the cloudy blanket holds the warmth.",
+      calculation: "The cloud cover element modifies the temperature element, so two elements act together to produce the observation.",
+      answer: "Cloud cover and temperature interact: clear skies give cold nights, cloudy skies give milder nights."
+    }
+  ],
+  commonMistakes: [
+    "Confusing elements of climate with controls of climate such as latitude and altitude.",
+    "Thinking precipitation means only rain, forgetting sleet, hail and snow.",
+    "Defining wind as any movement of the Earth instead of movement of the air.",
+    "Saying humidity means rain, when it means water vapour in the air.",
+    "Forgetting sunshine and cloud cover when listing the elements.",
+    "Assuming the elements are evenly distributed over the Earth's surface."
+  ],
+  applications: [
+    "Listening to a weather report and identifying which element each figure refers to, such as temperature in degrees C or wind speed.",
+    "Explaining why the hot dry Danakil lowlands and the wet southwestern highlands differ in the same elements.",
+    "Planning a harvest by watching precipitation over several weeks in your locality.",
+    "Noting wind direction on a windy day to understand where moisture may come from.",
+    "Using cloud cover observations to guess whether the coming night will be warm or cold."
+  ],
+  summary: "Weather and climate are composed of the elements precipitation, temperature, humidity, air pressure, wind, sunshine and cloud cover. Precipitation falls as rain, sleet, hail or snow, wind is air movement caused by uneven heating and the Earth's rotation, and cloud is a visible mass of droplets or ice crystals. The distribution of these elements over the Earth is uneven in magnitude and time, and it is governed by the controls of climate.",
+  visuals: [
+    {
+      type: "mindMap",
+      config: {
+        title: "Elements of Weather and Climate",
+        center: "Elements",
+        branches: [
+          { label: "Water", items: ["Precipitation (rain, sleet, hail, snow)", "Humidity"] },
+          { label: "Heat and light", items: ["Temperature", "Sunshine"] },
+          { label: "Air", items: ["Air pressure", "Wind"] },
+          { label: "Sky", items: ["Cloud cover"] }
+        ]
+      }
+    },
+    {
+      type: "tableVisual",
+      config: {
+        title: "The Seven Elements Defined",
+        headers: ["Element", "Definition (short)"],
+        rows: [
+          ["Precipitation", "Water falling as rain, sleet, hail or snow"],
+          ["Temperature", "Degree of hotness or coldness"],
+          ["Humidity", "Water vapour concentration in the air"],
+          ["Air pressure", "Force of the air above a surface"],
+          ["Wind", "Movement of air"],
+          ["Sunshine", "Direct sunlight on an area"],
+          ["Cloud", "Visible droplets or ice crystals in the air"]
+        ]
+      }
+    },
+    {
+      type: "qa",
+      config: {
+        title: "Exam Quick-Check",
+        pairs: [
+          { q: "What causes wind?", a: "The uneven heating of the Earth by the sun plus the Earth's rotation." },
+          { q: "Name the four forms of precipitation.", a: "Rain, sleet, hail and snow." },
+          { q: "What is humidity?", a: "The concentration of water vapour present in the air." },
+          { q: "What unit idea describes air pressure at a place?", a: "The force exerted by the air above a surface, varying from place to place and time to time." }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "Which of the following is an element of weather and climate?", options: ["Latitude", "Precipitation", "Altitude", "Ocean currents"], answer: 1, difficulty: 1, explanation: "Precipitation is an element; latitude, altitude and ocean currents are controls of climate." },
+    { type: "mcq", q: "Precipitation falls back to the Earth in the form of:", options: ["rain, sleet, hail and snow", "only rain", "dust and wind", "clouds only"], answer: 0, difficulty: 1, explanation: "Precipitation is liquid or frozen water falling as rain, sleet, hail and snow." },
+    { type: "tf", q: "Humidity is the concentration of water vapour present in the air.", answer: true, difficulty: 1, explanation: "This is the textbook definition of humidity." },
+    { type: "tf", q: "Air pressure is the same at every place and at every time.", answer: false, difficulty: 1, explanation: "Air pressure varies from place to place and from time to time." },
+    { type: "short", q: "What two causes produce the movement of air called wind?", answer: "uneven heating of the earth by the sun and the earth's rotation|uneven heating and rotation", difficulty: 2, explanation: "Wind is caused by the uneven heating of the Earth by the sun and the Earth's own rotation." },
+    { type: "concept", q: "Distinguish an element of climate from a control of climate, with one example of each.", answer: "elements like temperature are measured parts of the atmosphere while controls like altitude govern them|element vs control", difficulty: 2, explanation: "Elements such as temperature or rainfall describe the atmosphere; controls such as altitude or latitude govern their distribution." },
+    { type: "mcq", q: "A visible mass of water droplets or ice crystals suspended in the atmosphere is called:", options: ["humidity", "wind", "cloud", "sunshine"], answer: 2, difficulty: 1, explanation: "Cloud is any visible mass of water droplets or ice crystals suspended in the atmosphere." },
+    { type: "mcq", q: "The direct sunlight to which a given area is exposed is called:", options: ["temperature", "sunshine", "air pressure", "humidity"], answer: 1, difficulty: 1, explanation: "Sunshine is direct sunlight to which a given area is exposed." },
+    { type: "concept", q: "Explain why the distribution of climatic elements is uneven over the Earth.", answer: "their magnitude and time differ by place and season and they are governed by climate controls", difficulty: 2, explanation: "The elements are uneven in magnitude and time, and their spatial and temporal distribution is governed by the climate controls." },
+    { type: "short", q: "Name the element that is the force exerted on a surface by the air above it.", answer: "air pressure", difficulty: 1, explanation: "Air pressure is the force exerted on a surface by the air above it as gravity pulls it to Earth." }
+  ]
+};
 
-Lessons["g9-geography-ug2-t3"] = {"overview":"<b>Controls of Weather and Climate in Ethiopia</b> sits inside <b>Climate of Ethiopia</b>. Climate of Ethiopia is the subject of Unit 2 of Grade 9 Geography in the Ethiopian (FDRE Ministry of Education) curriculum. First, the unit separates weather from climate and lists the elements that describe the atmosphere. Then it explains the controls, mainly latitude and altitude, that steer the climate of Ethiopia from lowland heat to highland cold. Next, it maps the five agro-climatic zones and the rainfall regions before Unit 3: Natural Resource Base of Ethiopia builds on this physical setting. Students will also learn how the climate of Ethiopia applies to real-life situations such as farming seasons, clothing, and water supply.","objectives":["Explain the difference between weather and the climate of Ethiopia.","Identify the elements of weather and distinguish them from their controls.","Analyze how latitude and altitude shape temperature and rainfall.","Compare the five agro-climatic zones and the main rainfall regions.","Describe the instruments that measure each climatic element."],"simple":"<b>Controls of Weather and Climate in Ethiopia in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, latitude, which sets the angle of the sun’s rays over the tropics.</li> <li>Then altitude, the strongest control on temperature across highlands and lowlands.</li> <li>Also mountain barriers, which give windward rain and leeward rain shadows.</li> <li>Because the interior sits far inland, distance from the sea and ocean currents matter little.</li></ul>","detailed":"<p><b>Controls of Weather and Climate in Ethiopia — the essentials.</b> First, latitude, which sets the angle of the sun’s rays over the tropics. Then altitude, the strongest control on temperature across highlands and lowlands. Also mountain barriers, which give windward rain and leeward rain shadows. Because the interior sits far inland, distance from the sea and ocean currents matter little.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Explain the difference between weather and the climate of Ethiopia.</li><li>Identify the elements of weather and distinguish them from their controls.</li><li>Analyze how latitude and altitude shape temperature and rainfall.</li><li>Compare the five agro-climatic zones and the main rainfall regions.</li><li>Describe the instruments that measure each climatic element.</li></ul>","keyTerms":[{"term":"First","def":"First, latitude, which sets the angle of the sun’s rays over the tropics."},{"term":"Then altitude","def":"Then altitude, the strongest control on temperature across highlands and lowlands."},{"term":"Also mountain barriers","def":"Also mountain barriers, which give windward rain and leeward rain shadows."},{"term":"Because the interior sits far inland","def":"Because the interior sits far inland, distance from the sea and ocean currents matter little."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing controls of weather and climate in ethiopia with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Map and diagram questions in the ESSLCE geography paper","Explaining a local environmental or resource issue in your own region"],"summary":"Controls of Weather and Climate in Ethiopia: First, latitude, which sets the angle of the sun’s rays over the tropics. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"Controls of Weather and Climate in Ethiopia\" is correct according to the MoE curriculum?","options":["First, latitude, which sets the angle of the sun’s rays over the tropics.","Controls of Weather and Climate in Ethiopia applies only to a continent other than the one this unit covers","Controls of Weather and Climate in Ethiopia contradicts the definition this topic gives","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, latitude, which sets the angle of the sun’s rays over the tropics. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"Controls of Weather and Climate in Ethiopia\"?","options":["Then altitude, the strongest control on temperature across highlands and lowlands.","Controls of Weather and Climate in Ethiopia describes a physical process unrelated to this topic","Controls of Weather and Climate in Ethiopia applies only to a continent other than the one this unit covers","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Then altitude, the strongest control on temperature across highlands and lowlands."},{"type":"tf","q":"True or false: First, latitude, which sets the angle of the sun’s rays over the tropics.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover controls of weather and climate in ethiopia.","answer":false,"difficulty":1,"explanation":"Controls of Weather and Climate in Ethiopia is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Explain the difference between weather and the climate of Ethiopia.","difficulty":2,"altAnswers":["Identify the elements of weather and distinguish them from their controls.","Analyze how latitude and altitude shape temperature and rainfall."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why controls of weather and climate in ethiopia matters.","answer":"Controls of Weather and Climate in Ethiopia is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of controls of weather and climate in ethiopia in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to controls of weather and climate in ethiopia, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
+Lessons["g9-geography-ug2-t3"] = {
+  overview: "The spatial and temporal distribution of Ethiopia's climatic elements is determined by physical factors known as controls of weather and climate. This lesson explains latitude, altitude, mountain barriers, the Earth's revolution and inclined axis, distance from the sea and ocean currents.",
+  objectives: [
+    "List the main controls of weather and climate acting on Ethiopia",
+    "Explain how latitude gives Ethiopia high temperatures and high diurnal ranges",
+    "Use altitude data to explain why temperature decreases towards the highlands",
+    "Describe how mountain barriers create windward and rain-shadow sides",
+    "Evaluate the weak roles of distance from the sea and ocean currents for interior Ethiopia"
+  ],
+  simple: "The physical factors that determine the distribution of Ethiopia's climatic elements are called controls of weather and climate. Latitude controls the angle of the sun's rays: Ethiopia's tropical location gives high temperatures for most of the year, high daily ranges and small annual ranges. Altitude is the main control of temperature, so Bako, Addis Ababa and Awash all at 9 degrees N have different temperatures. Mountain barriers make windward sides wet and leeward sides dry rain shadows. The Earth's axis inclines 23.5 degrees, producing seasons. Distance from the sea matters only in coastal areas, and ocean currents are inconsequential for Ethiopia. Together, altitude and latitude dominantly control the climate of Ethiopia.",
+  detailed: "<p><b>The six controls.</b> There are varieties of climate in Ethiopia, and the spatial and temporal distribution of its climatic elements is determined by physical factors known as controls of weather and climate. The most important are latitude, altitude, mountain barriers, the revolution of the Earth and the inclination of the Earth's axis, distance from the sea, and ocean currents. Among these, the climate of Ethiopia is dominantly controlled by altitude and latitude.</p><p><b>Latitude.</b> Latitude, as a climate control, is the angular location of a place with reference to the direct rays of the sun. The sun's rays fall vertical on the equator and slanting in the temperate and polar regions. Ethiopia's location within the tropical zone results in high temperatures during most of the year, high daily (diurnal) ranges of temperature, relatively small annual ranges of temperature, and little difference between summer and winter in the ratios of daylight to night.</p><p><b>Altitude, the strongest control.</b> Altitude is the main factor determining the spatial distribution of temperature in Ethiopia. Places sharing the same latitude might be expected to have equal temperatures, but their altitudes differ. Bako in West Shewa, Addis Ababa and Awash all lie at 9 degrees N, yet Addis Ababa at 2,200 m averages 16 degrees C, Bako at 1,800 m averages 17 degrees C, and Awash at 916 m averages 25 degrees C. The table confirms that temperature decreases as altitude ascends from the lowlands towards the interior highlands.</p><p><b>Mountain barriers.</b> Mountain barriers exert influence on the spatial distribution of rainfall. The side of a mountain facing the wind laden with moisture is the windward side, which receives rain; the leeward side, which does not face the laden moisture, receives little rain and is called the rain shadow. Ethiopia's mountains therefore create distinctly wet and dry neighbouring areas.</p><p><b>Revolution of the Earth and the inclined axis.</b> The axis of the Earth inclines 23.5 degrees to the normal of the elliptic. As the Earth revolves around the sun, this inclination produces changes in the angle of the sun's rays and in the length of time the sun shines each day. Changes in day length and in the directness of the sun's rays cause seasons, and these seasons cause the temporal variation of temperature within a year in Ethiopia. Because Ethiopia lies near the equator, every place experiences the overhead sun twice a year.</p><p><b>Distance from the sea and ocean currents.</b> Land masses absorb and release heat energy more quickly than water bodies do, so water bodies moderate the climate of adjacent lands. Distance from the sea affects the Horn's climate only in coastal areas adjacent to the Red Sea and the northwestern Indian Ocean; towards the interior its role is insignificant. Warm ocean currents heat the air over the ocean and bring higher temperatures to land, while cold currents lower air temperatures, but their effect reaches land only when local winds blow in from the sea. In Ethiopia the role of ocean current in climate control is inconsequential.</p>",
+  keyTerms: [
+    { term: "Control of climate", def: "A physical factor that determines the spatial and temporal distribution of climatic elements, such as latitude and altitude." },
+    { term: "Latitude", def: "The angular location of a place or point with reference to the direct rays of the sun." },
+    { term: "Altitude", def: "The height of a place above sea level; the main factor determining the spatial distribution of temperature in Ethiopia." },
+    { term: "Diurnal range", def: "The difference between day and night temperatures within one day; high in Ethiopia's tropical location." },
+    { term: "Windward side", def: "The side of a mountain that faces the wind laden with moisture and receives rain." },
+    { term: "Leeward side (rain shadow)", def: "The side of a mountain that does not face the moisture-laden wind and receives little rain." },
+    { term: "Inclination of the Earth's axis", def: "The 23.5 degree tilt of the Earth's axis to the normal of the elliptic, which causes the seasons." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "Bako, Addis Ababa and Awash all lie at 9 degrees N. Using the textbook data, explain why their average annual temperatures differ.",
+      given: "Addis Ababa: 2,200 m, 16 degrees C; Bako: 1,800 m, 17 degrees C; Awash: 916 m, 25 degrees C.",
+      formula: "Concept: altitude modifies temperature; temperature decreases as altitude ascends from the lowlands towards the interior highlands.",
+      substitution: "Awash is the lowest at 916 m and the warmest at 25 degrees C; Addis Ababa is the highest at 2,200 m and the coolest at 16 degrees C.",
+      calculation: "From Awash to Bako the altitude rises 884 m and the temperature falls 8 degrees C, about 1 degree C for every 100 m; from Bako to Addis Ababa it rises 400 m and falls 1 degree C more.",
+      answer: "The difference is caused by altitude, not latitude, since all three towns share 9 degrees N."
+    },
+    {
+      problem: "A moisture-laden wind meets the western escarpment of a highland range. Predict the rainfall on the two sides of the mountains.",
+      given: "One side faces the moisture-laden wind and the other side lies behind the barrier.",
+      formula: "Concept: mountain barriers influence rainfall; the windward side receives rain, the leeward side is a rain shadow.",
+      substitution: "The side facing the wind is the windward side; the opposite, hidden from the laden moisture, is the leeward side.",
+      calculation: "As the air is forced up the windward slope it releases its moisture as rain; little rain remains for the far side.",
+      answer: "The windward side receives abundant rain, while the leeward side receives little and forms a rain shadow."
+    },
+    {
+      problem: "State four temperature characteristics that Ethiopia's tropical location gives it.",
+      given: "Ethiopia lies within the tropical zone, where the sun's rays fall vertically rather than slanting.",
+      formula: "Concept: latitude as a control determines the angle of the sun's rays at a place.",
+      substitution: "Vertical rays at low latitudes concentrate energy through the year.",
+      calculation: "The textbook lists the results: high temperatures most of the year, high diurnal ranges, small annual ranges, and little summer-winter difference in daylight ratio.",
+      answer: "High temperatures most of the year; high daily ranges; small annual ranges; little difference between summer and winter day and night ratios."
+    },
+    {
+      problem: "Judge which two controls matter most for Ethiopia's climate and explain why two others are weak.",
+      given: "The controls are latitude, altitude, mountain barriers, revolution and inclined axis, distance from the sea, and ocean currents.",
+      formula: "Concept: apply each control to Ethiopia's geography of a high interior plateau with only short coasts.",
+      substitution: "Distance from the sea works only along the Red Sea and northwestern Indian Ocean coasts, and ocean currents reach land only on onshore winds.",
+      calculation: "Since most of Ethiopia is far inland and high, the sea-based controls barely reach it, while latitude and altitude act everywhere in the country.",
+      answer: "Altitude and latitude dominate Ethiopia's climate; distance from the sea is insignificant inland and ocean currents are inconsequential."
+    }
+  ],
+  commonMistakes: [
+    "Listing latitude and altitude as elements of climate instead of controls.",
+    "Thinking places on the same latitude always have the same temperature, ignoring altitude.",
+    "Confusing the windward and leeward sides of a mountain.",
+    "Saying ocean currents strongly affect Ethiopia's climate, when their role is inconsequential.",
+    "Forgetting that the Earth's axis inclines 23.5 degrees, which is the cause of the seasons.",
+    "Believing distance from the sea controls the climate of the whole of Ethiopia, when it matters only near the coasts."
+  ],
+  applications: [
+    "Explaining why highland towns like Addis Ababa stay mild while lowland Awash stays hot, despite equal latitude.",
+    "Predicting which side of a ridge receives rain when planning a farm or a village site.",
+    "Explaining why Ethiopian farmers plant the same crops in the same season each year, since the inclined axis repeats the seasons.",
+    "Describing why coastal Afar lowlands feel the sea's influence but the central plateau does not.",
+    "Using latitude to explain why day length changes little through the year in Ethiopia."
+  ],
+  summary: "The controls of weather and climate in Ethiopia are latitude, altitude, mountain barriers, the revolution of the Earth and the inclination of its axis at 23.5 degrees, distance from the sea, and ocean currents. The tropical latitude gives high temperatures with high diurnal and small annual ranges, while altitude makes temperature fall as land rises from Bako's 1,800 m to Addis Ababa's 2,200 m to Awash's 916 m in reverse. Ethiopia's climate is dominantly controlled by altitude and latitude, since the marine controls barely reach its interior.",
+  visuals: [
+    {
+      type: "tableVisual",
+      config: {
+        title: "The Role of Altitude in Modifying Temperatures",
+        headers: ["Town", "Latitude", "Altitude", "Average annual temperature"],
+        rows: [
+          ["Addis Ababa", "9 degrees N", "2,200 m", "16 degrees C"],
+          ["Bako (West Shewa)", "9 degrees N", "1,800 m", "17 degrees C"],
+          ["Awash", "9 degrees N", "916 m", "25 degrees C"]
+        ]
+      }
+    },
+    {
+      type: "comparison",
+      config: {
+        title: "Windward vs Leeward Sides of a Mountain",
+        left: { name: "Windward side", items: ["Faces the moisture-laden wind", "Receives rain", "Air rises and cools, releasing moisture"] },
+        right: { name: "Leeward side", items: ["Turned away from the laden moisture", "Receives little rain", "Known as the rain shadow"] }
+      }
+    },
+    {
+      type: "steps",
+      config: {
+        title: "The Six Controls, from Dominant to Weak for Ethiopia",
+        steps: [
+          { label: "Altitude", detail: "Main factor for temperature; above sea-level height cools the highlands and warms the lowlands." },
+          { label: "Latitude", detail: "Tropical angle of the sun's rays gives heat, high diurnal range and small annual range." },
+          { label: "Mountain barriers", detail: "Windward slopes get rain; leeward slopes get rain shadows." },
+          { label: "Revolution and inclined axis", detail: "The 23.5 degree tilt changes sun angle and day length, causing seasons." },
+          { label: "Distance from the sea", detail: "Moderates only coastal areas near the Red Sea and northwestern Indian Ocean." },
+          { label: "Ocean currents", detail: "Weak for Ethiopia's coasts; inconsequential inland." }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "Temperature variations in Ethiopia are mainly the result of:", options: ["altitude", "latitude", "ocean currents", "mountain barriers"], answer: 0, difficulty: 2, explanation: "Altitude is the main factor that determines the spatial distribution of temperature in Ethiopia." },
+    { type: "mcq", q: "The climate of Ethiopia is dominantly controlled by:", options: ["ocean currents and distance from the sea", "altitude and latitude", "wind and cloud", "volcanic activity only"], answer: 1, difficulty: 1, explanation: "Among the listed controls, the climate of Ethiopia is dominantly controlled by altitude and latitude." },
+    { type: "tf", q: "Temperature decreases as altitude ascends from the lowlands towards the interior highlands.", answer: true, difficulty: 1, explanation: "The altitude table confirms this pattern." },
+    { type: "tf", q: "Ocean currents play a large role in controlling Ethiopia's climate.", answer: false, difficulty: 2, explanation: "Cold and warm currents affect coastal regions only under onshore winds; in Ethiopia their role is inconsequential." },
+    { type: "short", q: "What is the inclination of the Earth's axis to the normal of the elliptic, in degrees?", answer: "23.5|23.5 degrees|twenty three and a half", difficulty: 2, explanation: "The Earth's axis inclines 23.5 degrees to the normal of the elliptic." },
+    { type: "concept", q: "Explain why Bako, Addis Ababa and Awash, all at 9 degrees N, have different temperatures.", answer: "their altitudes differ|altitude modifies temperature", difficulty: 2, explanation: "They share the same latitude but differ in altitude, so their temperatures differ from 16 to 25 degrees C." },
+    { type: "mcq", q: "The side of a mountain that receives little rain because it does not face the moisture-laden wind is the:", options: ["windward side", "leeward side or rain shadow", "plateau", "escarpment"], answer: 1, difficulty: 2, explanation: "The leeward side does not face the laden moisture and is called the rain shadow." },
+    { type: "mcq", q: "Which of the following results from Ethiopia's location in the tropical zone?", options: ["Large annual temperature ranges", "Small annual temperature ranges", "Long cold winters", "Very short day length in summer"], answer: 1, difficulty: 2, explanation: "The tropical location gives high temperatures most of the year, high diurnal ranges and small annual ranges." },
+    { type: "concept", q: "Why does distance from the sea affect Ethiopia's climate only in limited areas?", answer: "only coastal areas near the red sea and northwestern indian ocean are affected|inland the role is insignificant", difficulty: 3, explanation: "Distance from the sea affects the Horn's climate only in the coastal areas adjacent to the Red Sea and northwestern Indian Ocean; inland its role is insignificant." },
+    { type: "short", q: "How many times a year does every place in Ethiopia experience the overhead sun?", answer: "twice|two times", difficulty: 3, explanation: "Because of its tropical position relative to the apparent movement of the sun, every place experiences the overhead sun twice a year." }
+  ]
+};
 
-Lessons["g9-geography-ug2-t4"] = {"overview":"<b>Climatic Regions and Seasonal Variation in Ethiopia</b> sits inside <b>Climate of Ethiopia</b>. Climate of Ethiopia is the subject of Unit 2 of Grade 9 Geography in the Ethiopian (FDRE Ministry of Education) curriculum. First, the unit separates weather from climate and lists the elements that describe the atmosphere. Then it explains the controls, mainly latitude and altitude, that steer the climate of Ethiopia from lowland heat to highland cold. Next, it maps the five agro-climatic zones and the rainfall regions before Unit 3: Natural Resource Base of Ethiopia builds on this physical setting. Students will also learn how the climate of Ethiopia applies to real-life situations such as farming seasons, clothing, and water supply.","objectives":["Explain the difference between weather and the climate of Ethiopia.","Identify the elements of weather and distinguish them from their controls.","Analyze how latitude and altitude shape temperature and rainfall.","Compare the five agro-climatic zones and the main rainfall regions.","Describe the instruments that measure each climatic element."],"simple":"<b>Climatic Regions and Seasonal Variation in Ethiopia in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, the five agro-climatic zones, from hot Bereha to cold Wurch.</li> <li>Next, the seasonal march of temperature and the overhead sun.</li> <li>Including the Kiremt and Belg rains that supply most of the country’s water.</li> <li>Finally, the five rainfall regions tied to the Inter-Tropical Convergence Zone.</li></ul>","detailed":"<p><b>Climatic Regions and Seasonal Variation in Ethiopia — the essentials.</b> First, the five agro-climatic zones, from hot Bereha to cold Wurch. Next, the seasonal march of temperature and the overhead sun. Including the Kiremt and Belg rains that supply most of the country’s water. Finally, the five rainfall regions tied to the Inter-Tropical Convergence Zone.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Explain the difference between weather and the climate of Ethiopia.</li><li>Identify the elements of weather and distinguish them from their controls.</li><li>Analyze how latitude and altitude shape temperature and rainfall.</li><li>Compare the five agro-climatic zones and the main rainfall regions.</li><li>Describe the instruments that measure each climatic element.</li></ul>","keyTerms":[{"term":"First","def":"First, the five agro-climatic zones, from hot Bereha to cold Wurch."},{"term":"Next","def":"Next, the seasonal march of temperature and the overhead sun."},{"term":"Finally","def":"Finally, the five rainfall regions tied to the Inter-Tropical Convergence Zone."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing climatic regions and seasonal variation in ethiopia with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Map and diagram questions in the ESSLCE geography paper","Explaining a local environmental or resource issue in your own region"],"summary":"Climatic Regions and Seasonal Variation in Ethiopia: First, the five agro-climatic zones, from hot Bereha to cold Wurch. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"Climatic Regions and Seasonal Variation in Ethiopia\" is correct according to the MoE curriculum?","options":["First, the five agro-climatic zones, from hot Bereha to cold Wurch.","Climatic Regions and Seasonal Variation in Ethiopia applies only to a continent other than the one this unit covers","Climatic Regions and Seasonal Variation in Ethiopia contradicts the definition this topic gives","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, the five agro-climatic zones, from hot Bereha to cold Wurch. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"Climatic Regions and Seasonal Variation in Ethiopia\"?","options":["Next, the seasonal march of temperature and the overhead sun.","Climatic Regions and Seasonal Variation in Ethiopia describes a physical process unrelated to this topic","Climatic Regions and Seasonal Variation in Ethiopia applies only to a continent other than the one this unit covers","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Next, the seasonal march of temperature and the overhead sun."},{"type":"tf","q":"True or false: First, the five agro-climatic zones, from hot Bereha to cold Wurch.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover climatic regions and seasonal variation in ethiopia.","answer":false,"difficulty":1,"explanation":"Climatic Regions and Seasonal Variation in Ethiopia is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Explain the difference between weather and the climate of Ethiopia.","difficulty":2,"altAnswers":["Identify the elements of weather and distinguish them from their controls.","Analyze how latitude and altitude shape temperature and rainfall."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why climatic regions and seasonal variation in ethiopia matters.","answer":"Climatic Regions and Seasonal Variation in Ethiopia is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of climatic regions and seasonal variation in ethiopia in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to climatic regions and seasonal variation in ethiopia, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
+Lessons["g9-geography-ug2-t4"] = {
+  overview: "Ethiopia's altitude produces five agro-climatic zones from Bereha to Wurch, while the ITCZ drives seasonal variation of rainfall and the inclined axis drives seasonal variation of temperature. This lesson maps the zones, the four seasons and the five rainfall regions of the country.",
+  objectives: [
+    "Identify the five agro-climatic zones of Ethiopia with their altitude and temperature limits",
+    "Describe the natural and human features of the Wurch, Dega and Woina Dega zones",
+    "Explain how the ITCZ shifts and how its winds bring or withhold rain",
+    "Describe the seasonal variation of temperature and name the four Ethiopian seasons",
+    "Classify Ethiopia's five rainfall regions with their winds and representative stations"
+  ],
+  simple: "Altitude has divided Ethiopia into five traditional agro-climatic zones defined mainly by temperature. Wurch or Kur lies above 3,300 m with temperatures below 10 degrees C, Dega lies between 2,300 and 3,300 m at 10 to 15 degrees C, Woina Dega between 1,500 and 2,300 m at 15 to 20 degrees C, Kolla between 500 and 1,500 m at 20 to 30 degrees C, and Bereha below 500 m above 30 degrees C. Seasons alternate with the Earth's tilted axis and the shifting ITCZ: Kiremt rains fall from June to August, Belg from March to May, Meher from September to November and dry Bega from December to February. Ethiopia is divided into five rainfall regions, the largest being the summer rainfall region of the northwest.",
+  detailed: "<p><b>Five agro-climatic zones.</b> In Ethiopia the impact made by altitude has resulted in the formation of five agro-climatic zones, traditionally defined in terms of temperature. Wurch or Kur spans 3,300 m and above with mean annual temperatures below 10 degrees C, matching the Alpine or Afro-Alpine belt; Dega spans 2,300 to 3,300 m at 10 to 15 degrees C, the global Temperate equivalent; Woina Dega spans 1,500 to 2,300 m at 15 to 20 degrees C, equivalent to Subtropical; Kolla spans 500 to 1,500 m at 20 to 30 degrees C, the Tropical equivalent; and Bereha lies below 500 m with temperatures above 30 degrees C, the Desert equivalent.</p><p><b>Wurch and Dega zones.</b> Wurch areas have the highest altitudes and lowest temperatures, existing on the very high mountains of South Gondar, Wollo, Shewa, Arsi and Bale, including Mt. Ras Dashen in Semen Gondar, Mt. Guna in South Gondar, Mt. Megezez in North Shewa and Mt. Batu in Bale. Dega areas were historically the home of concentrated human settlement because of their secure location, reliable rainfall and absence of tropical diseases such as malaria. This dense population caused intensive cultivation, soil erosion, overgrazing and deforestation, and some humid Dega areas support two growing periods per year. Examples are Dinsho in Bale, Chillallo in Arsi, Hulla in Sidama and Debresina in North Shewa.</p><p><b>Woina Dega, Kolla and Bereha zones.</b> Woina Dega areas contain most of Ethiopia's agricultural land and are the main areas producing surplus grain and inset and its derivatives. Kolla is a warm to hot semi-arid climate of the lowlands between 500 and 1,500 m, with average annual temperatures of 20 to 30 degrees C and mean annual rainfall between 410 mm and 820 mm, though up to 1,600 mm in the wet western lowlands of Gambella. Bereha is the hot arid desert climate below 500 m, with rainfall under 400 mm and temperatures over 30 degrees C, marked by strong wind, low relative humidity and little cloud, where evapotranspiration exceeds rainfall; the Danakil Depression of the Afar lowlands is the example.</p><p><b>Seasons and the temperature cycle.</b> A season results from the inclination of the Earth's axis and the revolution of the Earth around the sun. In most of Ethiopia high temperatures are recorded from March to June, and low temperatures from November to February. In the Bega season days have clear skies, so daytime temperature rises and abruptly falls at night, producing a high diurnal range. Mean maximum temperatures occur over the western, northeastern and southeastern lowlands, while the lowest temperatures occur over the Semein and Arsi-Bale mountains; over 45 degrees C is recorded in the Danakil Depression, the hottest place in Ethiopia.</p><p><b>The ITCZ and its winds.</b> The Inter-Tropical Convergence Zone is a low atmospheric pressure zone formed by the convergence of the northeasterly and southeasterly trade winds, and it shifts north and south of the equator following the overhead sun. In June it stands at the Tropic of Cancer, when Ethiopia comes under the Equatorial Westerlies and Easterlies, which carry great moisture from water bodies to the highlands, decreasing northwards. In December it shifts to the Tropic of Capricorn and the dry continental Northeast Trades control Ethiopia, except for lowland Afar areas near the coast that catch a little moisture over the Red Sea. In March and September it stands near the equator, when the Equatorial Easterlies provide rain to the southeastern lowlands, the central and other highlands.</p><p><b>Four seasons and five rainfall regions.</b> Ethiopia has four seasons: Kiremt (summer) from June to August, Belg (spring) from March to May, Meher (autumn) from September to November, and dry Bega (winter) from December to February. Kiremt and Belg together contribute more than 90 percent of the country's rain supply. Based on rainfall distribution in space and time there are five rainfall regions: the year-round rainfall region of the southwestern plateau of Wollega, Kafa, Illubabor, Gamo and Goffa, fed by the Equatorial Westerlies from the Atlantic Ocean, with 1,400 to 2,200 mm at stations such as Gore, Mizan, Metu, Bonga and Gambella; the largest region, the summer rainfall region of the Northwest Highlands and Western Lowlands at Debre Markos, Fitche, Gondar and Bahir Dar; the autumn-and-spring region of the southeastern highlands and lowlands at Gode, Moyale, Jigjiga and Yabello with 500 to 1,000 mm from the Equatorial Easterlies; the winter rainfall region of the eastern escarpment of the Western Highlands, the middle Rift Valley and Afar at Assaita under the dry Northeasterlies; and the smallest, the merged spring, summer and autumn region of the western foothills of the Southeastern Highlands, stretching from the Sidama Highlands to the Hararge Plateau. In general, highland rainfall is more dependable than lowland rainfall, and rainfall variability decreases from areas of heavy rains to areas of low rainfall.</p>",
+  keyTerms: [
+    { term: "Agro-climatic zone", def: "One of the five traditional temperature-defined belts of Ethiopia formed by the impact of altitude, from Bereha to Wurch." },
+    { term: "Wurch (Kur)", def: "The Afro-Alpine zone above 3,300 m, with mean annual temperature below 10 degrees C." },
+    { term: "Dega", def: "The temperate zone from 2,300 to 3,300 m, at 10 to 15 degrees C, historically Ethiopia's zone of concentrated settlement." },
+    { term: "Woina Dega", def: "The subtropical zone from 1,500 to 2,300 m, at 15 to 20 degrees C, containing most of Ethiopia's agricultural land." },
+    { term: "Kolla", def: "The warm to hot semi-arid tropical zone from 500 to 1,500 m, at 20 to 30 degrees C." },
+    { term: "Bereha", def: "The hot arid desert zone below 500 m, over 30 degrees C with rainfall under 400 mm." },
+    { term: "ITCZ", def: "The Inter-Tropical Convergence Zone, a low pressure zone formed by converging trade winds that shifts north and south of the equator following the overhead sun." },
+    { term: "Rainfall variability", def: "The deviation from the expected amount and timing of rainfall, which decreases from areas of heavy rains to areas of low rainfall." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "A research station sits at 2,500 m above sea level with a mean annual temperature near 12 degrees C. Into which agro-climatic zone does it fall?",
+      given: "Altitude 2,500 m; mean annual temperature about 12 degrees C.",
+      formula: "Method: match altitude and temperature against the traditional zone table.",
+      substitution: "2,500 m lies between 2,300 and 3,300 m, and 12 degrees C lies between 10 and 15 degrees C.",
+      calculation: "Both the altitude and the temperature of the station fall inside the same belt of the table.",
+      answer: "The station lies in the Dega zone, the Temperate global equivalent."
+    },
+    {
+      problem: "The Danakil Depression records average annual temperatures over 30 degrees C, rainfall below 400 mm, strong winds and low relative humidity. Classify its climate.",
+      given: "Below 500 m altitude; over 30 degrees C; under 400 mm annually; little cloud.",
+      formula: "Method: test the zone definitions for hot desert conditions.",
+      substitution: "Bereha is defined as below 500 m, over 30 degrees C, under 400 mm of rain, with strong wind and little cloud.",
+      calculation: "Every measured value of the Depression matches the Bereha definition, and evapotranspiration there exceeds rainfall.",
+      answer: "The Danakil Depression belongs to the Bereha (hot arid desert) zone."
+    },
+    {
+      problem: "In June, where is the ITCZ, and which winds bring Ethiopia its Kiremt rain?",
+      given: "The ITCZ follows the overhead sun north and south of the equator.",
+      formula: "Method: trace the ITCZ position for the month and name the moisture-bearing winds it lets in.",
+      substitution: "In June the ITCZ stands at the Tropic of Cancer, and Ethiopia comes under the Equatorial Westerlies and Easterlies.",
+      calculation: "These winds originate from water bodies and carry moisture to the highlands, and they support the Kiremt rain season from June to August.",
+      answer: "In June the ITCZ is at the Tropic of Cancer, and the Equatorial Westerlies and Easterlies bring the Kiremt rain."
+    },
+    {
+      problem: "Gore, Metu, Bonga and Gambella each record 1,400 to 2,200 mm of rain wet in most months. Identify the rainfall region and its wind system.",
+      given: "The stations are on the southwestern plateau of Wollega, Kafa and Illubabor with rain in most months.",
+      formula: "Method: match stations, amounts and seasonality to the five rainfall regions.",
+      substitution: "The year-round region includes the southwestern plateau highlands, averages 1,400 to 2,200 mm, and is fed by the Equatorial Westerlies.",
+      calculation: "The listed stations, the amount range and the all-year wetness all fit the same region.",
+      answer: "It is the year-round rainfall region, dominated by the Equatorial Westerlies that pick up moisture from the Atlantic Ocean."
+    }
+  ],
+  commonMistakes: [
+    "Placing Dega above Wurch, forgetting that Wurch covers the highest and coldest belt.",
+    "Saying most of Ethiopia's agricultural land is in the Dega zone, when it is in the Woina Dega zone.",
+    "Confusing Kiremt (June to August) with Belg (March to May).",
+    "Thinking the ITCZ stays at the equator all year instead of following the overhead sun.",
+    "Believing Bega is a rainy season, when it is generally the dry season from December to February.",
+    "Ignoring that the Equatorial Easterlies, not the Westerlies, water the southeastern region."
+  ],
+  applications: [
+    "Finding your locality's agro-climatic zone from its altitude obtained at the kebele office.",
+    "Explaining why highland farmers in Woina Dega and Dega zones sometimes get two growing periods.",
+    "Understanding why the Kiremt rains decide the harvest of most highland farmers.",
+    "Explaining why the Danakil Depression records the highest temperatures in Ethiopia, over 45 degrees C.",
+    "Relating the dependable rain of the southwestern highlands to Ethiopia's coffee and homestead farming.",
+    "Comparing the wet monsoon season of the summer rainfall region with the early and late showers of the southeastern region."
+  ],
+  summary: "Altitude has produced five traditional agro-climatic zones in Ethiopia: Wurch above 3,300 m, Dega at 2,300 to 3,300 m, Woina Dega at 1,500 to 2,300 m, Kolla at 500 to 1,500 m and Bereha below 500 m, defined mainly by temperature. The shifting ITCZ and the Earth's inclined axis create the four seasons Kiremt, Belg, Meher and dry Bega, with Kiremt and Belg supplying over 90 percent of the rain. Five rainfall regions follow from wind systems: year-round southwest rain, the giant northwest summer region, autumn-and-spring rain in the southeast, winter rain in east and middle rift areas, and the smallest merged region on the western foothills of the southeast.",
+  visuals: [
+    {
+      type: "tableVisual",
+      config: {
+        title: "Agro-climatic Zones of Ethiopia",
+        headers: ["Altitude (m)", "Zone name", "Global equivalence", "Mean annual temperature"],
+        rows: [
+          ["3,300 and above", "Wurch / Kur", "Alpine or Afro-Alpine", "below 10 degrees C"],
+          ["2,300 - 3,300", "Dega", "Temperate", "10 - 15 degrees C"],
+          ["1,500 - 2,300", "Woina Dega", "Subtropical", "15 - 20 degrees C"],
+          ["500 - 1,500", "Kolla", "Tropical", "20 - 30 degrees C"],
+          ["Below 500", "Bereha", "Desert", "above 30 degrees C"]
+        ]
+      }
+    },
+    {
+      type: "comparison",
+      config: {
+        title: "ITCZ in June vs December",
+        left: { name: "June", items: ["ITCZ at the Tropic of Cancer", "Equatorial Westerlies and Easterlies prevail", "Moisture reaches the highlands", "Kiremt rainy season"] },
+        right: { name: "December", items: ["ITCZ at the Tropic of Capricorn", "Dry continental Northeast Trades prevail", "Rain only for coastal Afar lowlands", "Bega dry season"] }
+      }
+    },
+    {
+      type: "steps",
+      config: {
+        title: "The Four Ethiopian Seasons",
+        steps: [
+          { label: "Belg (spring)", detail: "March to May; one of the two main rainy seasons." },
+          { label: "Kiremt (summer)", detail: "June to August; the heavy main rain under the Equatorial Westerlies and Easterlies." },
+          { label: "Meher (autumn)", detail: "September to November; shorter and lighter rains of small coverage." },
+          { label: "Bega (winter)", detail: "December to February; dry with clear skies and only a little rain for Afar lowlands." }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "With regard to the traditional temperature zones of Ethiopia, which zone matches the Tropical Climate?", options: ["Bereha", "Kolla", "Wurch / Kur", "Woina Dega"], answer: 1, difficulty: 2, explanation: "Kolla at 500 to 1,500 m is the global Tropical equivalent, at 20 to 30 degrees C." },
+    { type: "mcq", q: "Which region of Ethiopia receives year-round rainfall and is least likely to be affected by drought?", options: ["Eastern lowlands", "Western lowlands as a whole", "Southwestern highlands", "Northeastern highlands"], answer: 2, difficulty: 2, explanation: "The year-round rainfall region covers the southwestern plateau highlands of Wollega, Kafa, Illubabor, Gamo and Goffa." },
+    { type: "tf", q: "The majority of Ethiopia's agricultural land is located in the Dega agro-climatic zone.", answer: false, difficulty: 2, explanation: "It is the Woina Dega zone, at 1,500 to 2,300 m, that contains most of Ethiopia's agricultural land." },
+    { type: "tf", q: "The ITCZ shifts north and south of the equator following the position of the overhead sun.", answer: true, difficulty: 1, explanation: "The ITCZ follows the overhead sun, standing at the Tropic of Cancer in June and the Tropic of Capricorn in December." },
+    { type: "short", q: "Name the two main rainy seasons that together supply more than 90 percent of Ethiopia's rain.", answer: "kiremt and belg|belg and kiremt", difficulty: 2, explanation: "Kiremt (June to August) and Belg (March to May) contribute more than 90 percent of the country's rain supply." },
+    { type: "concept", q: "Explain why Dega areas were historically the home of concentrated human settlement.", answer: "secure location|reliable rainfall|absence of tropical diseases like malaria", difficulty: 2, explanation: "People chose Dega areas for secure location, reliable rainfall and absence of tropical diseases such as malaria." },
+    { type: "mcq", q: "As summer rainfall is to the Northwest Highlands and Western Lowlands, autumn-and-spring rainfall is to the:", options: ["Southeastern Highlands and adjacent southeastern lowlands", "Middle Rift Valley only", "Afar subdivision", "Western foothills of the Sidama Highlands"], answer: 0, difficulty: 2, explanation: "The autumn-and-spring region covers the southeastern highlands and associated southeastern lowlands, at Gode, Moyale, Jigjiga and Yabello." },
+    { type: "mcq", q: "In the Bega season Ethiopian highlands often have cold nights even with intense daytime sun because:", options: ["days have cloudy skies", "days have clear skies so daytime temperature rises but drops abruptly at night", "the ITCZ pours rain", "ocean currents cool the land"], answer: 1, difficulty: 3, explanation: "Clear Bega skies intensify incoming solar rays by day and let heat escape by night, giving a high diurnal range." },
+    { type: "concept", q: "Which winds water the autumn-and-spring rainfall region of the southeast, and from what body of water do they pick up moisture?", answer: "equatorial easterlies from the indian ocean", difficulty: 3, explanation: "The Equatorial Easterlies pick up moisture from the Indian Ocean and blow over the region when the Northeasterlies and Westerlies are weak." },
+    { type: "short", q: "Name the hottest place in Ethiopia where temperatures above 45 degrees C are recorded.", answer: "danakil depression", difficulty: 1, explanation: "The Danakil Depression is the hottest place of Ethiopia." },
+    { type: "concept", q: "Why is highland rainfall more dependable than lowland rainfall in Ethiopia?", answer: "rainfall variability decreases from areas of heavy rains to areas of low rainfall|highlands have steadier rains", difficulty: 3, explanation: "Rainfall variability, the deviation from expected amount and time, decreases from areas of heavy rains to areas of low rainfall, and highland dependability falls off from the southwestern highlands in all directions." }
+  ]
+};
 
-Lessons["g9-geography-ug2-t5"] = {"overview":"<b>Measurements of Weather and Climate</b> sits inside <b>Climate of Ethiopia</b>. Climate of Ethiopia is the subject of Unit 2 of Grade 9 Geography in the Ethiopian (FDRE Ministry of Education) curriculum. First, the unit separates weather from climate and lists the elements that describe the atmosphere. Then it explains the controls, mainly latitude and altitude, that steer the climate of Ethiopia from lowland heat to highland cold. Next, it maps the five agro-climatic zones and the rainfall regions before Unit 3: Natural Resource Base of Ethiopia builds on this physical setting. Students will also learn how the climate of Ethiopia applies to real-life situations such as farming seasons, clothing, and water supply.","objectives":["Explain the difference between weather and the climate of Ethiopia.","Identify the elements of weather and distinguish them from their controls.","Analyze how latitude and altitude shape temperature and rainfall.","Compare the five agro-climatic zones and the main rainfall regions.","Describe the instruments that measure each climatic element."],"simple":"<b>Measurements of Weather and Climate in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, the thermometer for temperature and the rain gauge for rainfall.</li> <li>Then the barometer for air pressure and the anemometer for wind speed.</li> <li>Also the wind vane, which shows the direction the wind blows from.</li></ul>","detailed":"<p><b>Measurements of Weather and Climate — the essentials.</b> First, the thermometer for temperature and the rain gauge for rainfall. Then the barometer for air pressure and the anemometer for wind speed. Also the wind vane, which shows the direction the wind blows from.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Explain the difference between weather and the climate of Ethiopia.</li><li>Identify the elements of weather and distinguish them from their controls.</li><li>Analyze how latitude and altitude shape temperature and rainfall.</li><li>Compare the five agro-climatic zones and the main rainfall regions.</li><li>Describe the instruments that measure each climatic element.</li></ul>","keyTerms":[{"term":"First","def":"First, the thermometer for temperature and the rain gauge for rainfall."},{"term":"Also the wind vane","def":"Also the wind vane, which shows the direction the wind blows from."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing measurements of weather and climate with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Map and diagram questions in the ESSLCE geography paper","Explaining a local environmental or resource issue in your own region"],"summary":"Measurements of Weather and Climate: First, the thermometer for temperature and the rain gauge for rainfall. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"Measurements of Weather and Climate\" is correct according to the MoE curriculum?","options":["First, the thermometer for temperature and the rain gauge for rainfall.","Measurements of Weather and Climate applies only to a continent other than the one this unit covers","Measurements of Weather and Climate contradicts the definition this topic gives","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, the thermometer for temperature and the rain gauge for rainfall. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"Measurements of Weather and Climate\"?","options":["Then the barometer for air pressure and the anemometer for wind speed.","Measurements of Weather and Climate describes a physical process unrelated to this topic","Measurements of Weather and Climate applies only to a continent other than the one this unit covers","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Then the barometer for air pressure and the anemometer for wind speed."},{"type":"tf","q":"True or false: First, the thermometer for temperature and the rain gauge for rainfall.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover measurements of weather and climate.","answer":false,"difficulty":1,"explanation":"Measurements of Weather and Climate is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Explain the difference between weather and the climate of Ethiopia.","difficulty":2,"altAnswers":["Identify the elements of weather and distinguish them from their controls.","Analyze how latitude and altitude shape temperature and rainfall."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why measurements of weather and climate matters.","answer":"Measurements of Weather and Climate is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of measurements of weather and climate in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to measurements of weather and climate, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
-
+Lessons["g9-geography-ug2-t5"] = {
+  overview: "Each element of weather and climate is measured with a standard instrument: thermometers for temperature, rain gauges for rainfall, barometers for pressure, anemometers for wind speed and wind vanes for wind direction. This lesson explains the instruments and the common ways climate statistics are computed.",
+  objectives: [
+    "Describe how a thermometer measures air temperature and how its two scales differ",
+    "Read rainfall from a rain gauge and build monthly and annual totals",
+    "Explain how a barometer measures air pressure and state the sea-level value",
+    "Use an anemometer and a wind vane to measure wind speed and direction",
+    "Compute mean daily, monthly and annual temperature and rainfall figures from data"
+  ],
+  simple: "Temperature is measured with a thermometer, a narrow glass tube filled with mercury or alcohol, working on the principle that mercury expands when heated and contracts when cooled. Temperatures are marked in Fahrenheit, freezing at 32 and boiling at 212, or in Centigrade, freezing at 0 and boiling at 100; the two scales are interconvertible. Rainfall is measured in millimetres with a rain gauge whose top stands about 30 cm above the ground to stop rain splash, read at least once a day, usually at 9:00 a.m. Air pressure is measured with a barometer in millibars; at sea level it is 1013.25 millibars or 760 mm. Wind speed uses an anemometer and direction a wind vane, with winds named by the direction they blow from.",
+  detailed: "<p><b>Measuring temperature.</b> The instrument for measuring temperature is the thermometer, a narrow glass tube filled with mercury or alcohol. It works on the principle that mercury expands when heated and contracts when cooled. Thermometers are marked in one of two ways: on the Fahrenheit scale the freezing point is 32 degrees F and the boiling point 212 degrees F, while for most scientific purposes the Centigrade scale is preferred, freezing at 0 degrees C and boiling at 100 degrees C. The two scales are interconvertible: degrees C equals Fahrenheit minus 32 multiplied by 5 over 9, and degrees F equals degrees C multiplied by 9 over 5, plus 32.</p><p><b>Temperature statistics.</b> Mean daily temperature is calculated by adding the maximum and minimum temperature of the day and dividing the sum by 2. Daily (diurnal) range is the difference between the daily maximum and the daily minimum. Mean monthly temperature is found by adding together the daily averages and dividing by the number of days in a month, and mean annual temperature is the sum of the mean monthly temperatures divided by 12. Annual range of temperature is the difference between the temperatures of the hottest and the coldest months.</p><p><b>Measuring and totalling rainfall.</b> Rainfall is measured with a rain gauge, usually anchored in the ground with the top of the gauge about 30 cm above the ground surface so that rain splash does not affect the results. The depth of the rain in millimetres is read from the side of the container at least once a day, usually at 9:00 a.m., and a record is kept of the rain that fell in the past 24 hours. At the end of a month the daily records are added to give the monthly total. Mean monthly rainfall is the sum of the daily amounts divided by the days of the month; total annual rainfall is the sum of the amounts of the 12 months; and mean annual rainfall is the sum of the annual amounts for 30-35 years divided by the number of those years.</p><p><b>Measuring air pressure.</b> Air is made up of mixed gases and has weight, so it exerts a pressure on the Earth's surface which varies from place to place and from time to time. The instrument for measuring pressure is the barometer, and the units commonly used are the millibar and the millimetre. At sea level the mercury column stands at 1013.25 millibars, or 760 mm.</p><p><b>Measuring wind.</b> Wind speed is measured with an anemometer, which should be held at arm's length above the head so that its cups can rotate without any interference. Wind direction is reported by the direction it is blowing from, according to the compass: a wind blowing from the west travels eastwards, so it is called a westerly wind, not an easterly wind. Wind direction is often observed with a wind vane.</p><p><b>Using the measurements.</b> Together the instruments turn the elements into numbers that describe weather and climate. A station's thermometers, rain gauge, barometer and wind instruments build up the climate record over decades, and those records let geographers compare stations such as Addis Ababa with others, calculate ranges and means, and describe the agro-climatic conditions studied in the previous lesson.</p>",
+  keyTerms: [
+    { term: "Thermometer", def: "A narrow glass tube filled with mercury or alcohol, working on expansion when heated, used to measure temperature." },
+    { term: "Fahrenheit scale", def: "The temperature scale with freezing at 32 degrees F and boiling at 212 degrees F." },
+    { term: "Centigrade scale", def: "The temperature scale preferred for most scientific purposes, freezing at 0 degrees C and boiling at 100 degrees C." },
+    { term: "Rain gauge", def: "The instrument for measuring rainfall, set with its top about 30 cm above the ground and usually read at 9:00 a.m." },
+    { term: "Barometer", def: "The instrument used to measure air pressure, read in millibars or millimetres." },
+    { term: "Anemometer", def: "The instrument for measuring wind speed with rotating cups." },
+    { term: "Wind vane", def: "The instrument used to observe wind direction, with winds named by the direction they blow from." },
+    { term: "Annual range of temperature", def: "The difference between the temperatures of the hottest and coldest months." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "A station record reads 70 degrees F. Convert it to Centigrade.",
+      given: "Temperature = 70 degrees F; freezing point of the Fahrenheit scale is 32 degrees F.",
+      formula: "Formula: degrees C = (degrees F - 32) x 5 / 9.",
+      substitution: "degrees C = (70 - 32) x 5 / 9.",
+      calculation: "70 - 32 = 38; 38 x 5 = 190; 190 / 9 = about 21.1.",
+      answer: "70 degrees F is about 21.1 degrees C."
+    },
+    {
+      problem: "From the Addis Ababa table (1991-2020), April's mean was 25 max and 13 min, December's was 23 max and 8 min. Find the annual range of temperature.",
+      given: "April: max 25 degrees C, min 13 degrees C; December: max 23 degrees C, min 8 degrees C.",
+      formula: "Method: annual range = temperature of the hottest month minus temperature of the coldest month.",
+      substitution: "April mean daily temperature = (25 + 13) / 2 = 19 degrees C; December mean = (23 + 8) / 2 = 15.5 degrees C.",
+      calculation: "19 - 15.5 = 3.5 degrees C between the warmest and coldest months.",
+      answer: "The annual range of temperature is about 3.5 degrees C, small because of Ethiopia's tropical latitude."
+    },
+    {
+      problem: "Using the Addis Ababa monthly rainfall table for 2020 (13, 30, 60, 80, 85, 140, 280, 290, 150, 25, 7 and 7 mm), find the total annual rainfall and the wettest and driest months.",
+      given: "Jan 13, Feb 30, Mar 60, Apr 80, May 85, Jun 140, Jul 280, Aug 290, Sep 150, Oct 25, Nov 7, Dec 7 mm.",
+      formula: "Method: total annual rainfall = the sum of the amounts of the 12 months.",
+      substitution: "13 + 30 + 60 + 80 + 85 + 140 + 280 + 290 + 150 + 25 + 7 + 7 = 1,167 mm.",
+      calculation: "The largest single value is 290 mm in August, the Kiremt peak, and the smallest are 7 mm in November and December.",
+      answer: "Total annual rainfall is 1,167 mm; the wettest month is August at 290 mm and the driest are November and December at 7 mm each."
+    },
+    {
+      problem: "A woreda keeps annual rainfall totals for 32 years that sum to 46,080 mm. Find the mean annual rainfall.",
+      given: "Sum of 32 annual rainfall records; the textbook uses 30-35 years of records for mean annual rainfall.",
+      formula: "Formula: mean annual rainfall = sum of annual amounts divided by the number of years.",
+      substitution: "46,080 mm / 32 years.",
+      calculation: "46,080 / 32 = 1,440 mm per year.",
+      answer: "The mean annual rainfall of the woreda station is 1,440 mm."
+    }
+  ],
+  commonMistakes: [
+    "Calling a westerly wind the wind travelling from the east, when it blows from the west.",
+    "Setting a rain gauge at ground level so rain splash affects the reading.",
+    "Forgetting to divide by 2 when finding mean daily temperature.",
+    "Confusing daily (diurnal) range with annual range of temperature.",
+    "Reading the rain gauge at the wrong height or not once a day at the standard time, usually 9:00 a.m.",
+    "Thinking the barometer measures temperature, when it measures air pressure."
+  ],
+  applications: [
+    "Reading the school weather station's rain gauge each morning and recording the 24-hour total.",
+    "Comparing the maximum and minimum thermometer readings to compute the diurnal range in your locality.",
+    "Using the mean annual rainfall record to describe your woreda's climate in a geography project.",
+    "Understanding national weather bulletins that report pressure in millibars and rain in millimetres.",
+    "Setting up a simple wind vane to report which direction wind blows from on a school field trip."
+  ],
+  summary: "Thermometers measure temperature on Fahrenheit or Centigrade scales that are interconvertible, and rain gauges record millimetres of rainfall daily, building monthly and annual totals, with mean annual rainfall taken over 30-35 years. Barometers record air pressure, 1013.25 millibars or 760 mm at sea level, while anemometers give wind speed and wind vanes give direction, with winds named for where they come from. From these records geographers compute mean daily, monthly and annual statistics and ranges that describe climate.",
+  visuals: [
+    {
+      type: "tableVisual",
+      config: {
+        title: "Instruments for the Elements",
+        headers: ["Element", "Instrument", "Key detail"],
+        rows: [
+          ["Temperature", "Thermometer", "Mercury or alcohol expands when heated"],
+          ["Rainfall", "Rain gauge", "Top about 30 cm above ground; read from about 9:00 a.m."],
+          ["Air pressure", "Barometer", "Sea level: 1013.25 millibars or 760 mm"],
+          ["Wind speed", "Anemometer", "Held at arm's length so cups rotate freely"],
+          ["Wind direction", "Wind vane", "Winds named by the direction they blow from"]
+        ]
+      }
+    },
+    {
+      type: "steps",
+      config: {
+        title: "Reading a Rain Gauge",
+        steps: [
+          { label: "Placement", detail: "Anchor the gauge in the ground with the top about 30 cm above the surface." },
+          { label: "Daily reading", detail: "Read the depth in millimetres at least once a day, usually at 9:00 a.m." },
+          { label: "Record", detail: "Keep a record of the amount that fell in the past 24 hours." },
+          { label: "Monthly total", detail: "Add the daily records at the end of the month." },
+          { label: "Annual figures", detail: "Add the 12 monthly amounts for the total, and average 30-35 years for the mean annual rainfall." }
+        ]
+      }
+    },
+    {
+      type: "comparison",
+      config: {
+        title: "Centigrade vs Fahrenheit",
+        left: { name: "Centigrade (C)", items: ["Freezing point 0 degrees C", "Boiling point 100 degrees C", "Preferred for most scientific purposes"] },
+        right: { name: "Fahrenheit (F)", items: ["Freezing point 32 degrees F", "Boiling point 212 degrees F", "Interconvertible: C = (F - 32) x 5/9"] }
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "The instrument used to measure air pressure is:", options: ["an anemometer", "a barometer", "a rain gauge", "a thermometer"], answer: 1, difficulty: 1, explanation: "Air pressure is measured with a barometer." },
+    { type: "mcq", q: "On the Centigrade scale, the boiling point of water is:", options: ["32 degrees", "212 degrees", "100 degrees", "0 degrees"], answer: 2, difficulty: 1, explanation: "The Centigrade scale freezes at 0 degrees C and boils at 100 degrees C." },
+    { type: "tf", q: "The top of a rain gauge should stand about 30 cm above the ground surface so rain splash does not affect the results.", answer: true, difficulty: 2, explanation: "The gauge is anchored with its top about 30 cm above the surface to protect the reading from splash." },
+    { type: "tf", q: "A wind blowing from the west towards the east is called an easterly wind.", answer: false, difficulty: 2, explanation: "Winds are named by the direction they blow from, so a wind from the west travelling eastwards is a westerly wind." },
+    { type: "short", q: "What instrument measures wind speed?", answer: "anemometer", difficulty: 1, explanation: "Wind speed is measured using an anemometer." },
+    { type: "concept", q: "How is mean daily temperature calculated?", answer: "add the maximum and minimum and divide by 2|(max + min) / 2", difficulty: 2, explanation: "Mean daily temperature is the sum of the day's maximum and minimum divided by 2." },
+    { type: "mcq", q: "At sea level the mercury barometer reads:", options: ["760 mm or 1013.25 millibars", "1013.25 mm or 760 millibars", "1000 mm exactly", "30 cm of mercury"], answer: 0, difficulty: 2, explanation: "At sea level the mercury column is 1013.25 millibars, or 760 mm." },
+    { type: "concept", q: "Explain how mean annual rainfall is obtained.", answer: "add the annual amounts for 30-35 years and divide by the number of years", difficulty: 2, explanation: "Mean annual rainfall is the sum of annual amounts for 30-35 years divided by the number of those years." },
+    { type: "mcq", q: "Wind direction is reported according to the direction the wind blows:", options: ["to", "from", "up", "down"], answer: 1, difficulty: 1, explanation: "Wind direction is reported by the direction it is blowing from, according to the compass." },
+    { type: "mcq", q: "Mean monthly temperature of a place is found by:", options: ["adding the daily averages and dividing by the days in the month", "taking the hottest day only", "adding rainfall amounts", "dividing rainfall by wind speed"], answer: 0, difficulty: 2, explanation: "Mean monthly temperature adds the daily averages and divides by the number of days in the month." },
+    { type: "concept", q: "Total annual rainfall for Addis Ababa in 2020 was: Jan 13, Feb 30, Mar 60, Apr 80, May 85, Jun 140, Jul 280, Aug 290, Sep 150, Oct 25, Nov 7, Dec 7 mm. Calculate it and state the wettest month.", answer: "1167 mm with august the wettest at 290 mm|1,167 mm and august", difficulty: 3, explanation: "Adding the 12 monthly amounts gives 1,167 mm, with August the wettest at 290 mm." }
+  ]
+};

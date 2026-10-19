@@ -1,18 +1,895 @@
-/* Content: g11-geography-ug3 — migrated from generated JSON (Phase 0 pipeline restore).
-   Content upgrade to spec v2 happens per unit in later phases. */
+/* Content: Grade 11 Geography - Unit 3: Natural Resources and Conflicts over Resources (7 topics)
+   Source: MoE Geography Grade 11 Student Textbook, Unit 3. */
 window.Lessons = window.Lessons || {};
 
-Lessons["g11-geography-ug3-t1"] = {"overview":"<b>The Functions and Management of Land</b> sits inside <b>Natural Resources and Conflicts over Resources</b>. Natural resources are the focus of Unit 3 of Grade 11 Geography in the Ethiopian (FDRE Ministry of Education) curriculum. First, it treats land as the base of all natural resources, then it shows how soil, water, and forests fall under heavy human pressure. Next it turns to transboundary rivers, regional cooperation, the Nile waters of Ethiopia, Sudan, and Egypt, and the conflicts that scarce resources can spark, and it points ahead to Unit 4: Global Population Dynamics and Challenges. Students will also learn how natural resources apply to real-life situations.","objectives":["Describe the functions of land and the case for careful management.","Distinguish renewable from non-renewable natural resources.","Explain why soil, water, and forests fall under the greatest pressure.","Locate major transboundary rivers and the bodies that govern them.","Compare the water potential and use of Ethiopia, Sudan, and Egypt."],"simple":"<b>The Functions and Management of Land in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, land as resource, environment, economic asset, and cultural wealth.</li> <li>Then the split between renewable resources that regrow and non-renewable ones that run out.</li> <li>Finally, land management through care of soil, water, forest, and air.</li></ul>","detailed":"<p><b>The Functions and Management of Land — the essentials.</b> First, land as resource, environment, economic asset, and cultural wealth. Then the split between renewable resources that regrow and non-renewable ones that run out. Finally, land management through care of soil, water, forest, and air.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Describe the functions of land and the case for careful management.</li><li>Distinguish renewable from non-renewable natural resources.</li><li>Explain why soil, water, and forests fall under the greatest pressure.</li><li>Locate major transboundary rivers and the bodies that govern them.</li><li>Compare the water potential and use of Ethiopia, Sudan, and Egypt.</li></ul>","keyTerms":[{"term":"First","def":"First, land as resource, environment, economic asset, and cultural wealth."},{"term":"Finally","def":"Finally, land management through care of soil, water, forest, and air."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing the functions and management of land with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Map and diagram questions in the ESSLCE geography paper","Explaining a local environmental or resource issue in your own region"],"summary":"The Functions and Management of Land: First, land as resource, environment, economic asset, and cultural wealth. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"The Functions and Management of Land\" is correct according to the MoE curriculum?","options":["First, land as resource, environment, economic asset, and cultural wealth.","The Functions and Management of Land applies only to a continent other than the one this unit covers","The Functions and Management of Land contradicts the definition this topic gives","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, land as resource, environment, economic asset, and cultural wealth. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"The Functions and Management of Land\"?","options":["Then the split between renewable resources that regrow and non-renewable ones that run out.","The Functions and Management of Land describes a physical process unrelated to this topic","The Functions and Management of Land applies only to a continent other than the one this unit covers","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Then the split between renewable resources that regrow and non-renewable ones that run out."},{"type":"tf","q":"True or false: First, land as resource, environment, economic asset, and cultural wealth.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover the functions and management of land.","answer":false,"difficulty":1,"explanation":"The Functions and Management of Land is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Describe the functions of land and the case for careful management.","difficulty":2,"altAnswers":["Distinguish renewable from non-renewable natural resources.","Explain why soil, water, and forests fall under the greatest pressure."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why the functions and management of land matters.","answer":"The Functions and Management of Land is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of the functions and management of land in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to the functions and management of land, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
+Lessons["g11-geography-ug3-t1"] = {
+  overview: "Land is the ultimate resource and the foundation of all human activity. This lesson examines the importance and functions of land, classifies its resources, and explains how land management keeps exploitation and regeneration in balance.",
+  objectives: [
+    "Explain the importance of land as a natural resource from different perspectives",
+    "Classify land resources by regeneration, origin, availability, distribution and stage of development",
+    "Identify the functions of land as a resource and as an environment",
+    "Define land management and state its prime objective",
+    "Describe practical land management practices used to protect soil, water and vegetation"
+  ],
+  simple: "Land is a very broad concept. It can be viewed as a resource, an environment, a legal object, an economic asset and cultural wealth. Because land is the ultimate resource, life on Earth cannot be sustained without it. From land we obtain food, shelter, space to work and room to relax. Its resources come from the lithosphere, biosphere, atmosphere and hydrosphere, and are classified as renewable or non-renewable, biotic or abiotic, stock or flow, and potential, actual or conditional. Renewable resources replace themselves only if the rate of use is less than the rate of regeneration, so even renewables can be exhausted by excessive use. Non-renewable resources such as minerals and fossil fuels exist in finite supply and must be managed carefully through recycling and reuse. Land management is the proper use and protection of land resources; its prime objective is to control land degradation.",
+  detailed: "<p><b>Why land is the ultimate resource.</b> Land is a very broad concept with a wider range of meanings. It can be examined as a resource, an environment, a legal object, an economic asset and/or cultural wealth. It is the ultimate resource and the foundation of all forms of human activity: without it, life on Earth cannot be sustained. It is the source of all wealth, and it is both a physical commodity and an abstract concept, because the rights to own or use it are as much a part of the land as the object rooted in the soil. From the land we obtain food, shelter, space to work and room to relax.</p><p><b>Classifying land resources.</b> Land resources are useable materials occurring naturally in the environment. They are derived from the Earth, coming from the <b>Lithosphere</b>, <b>Biosphere</b>, <b>Atmosphere</b> or <b>Hydrosphere</b>. They are classified by: regeneration (renewable and non-renewable); origin (biotic and abiotic); current use and future availability (stock and flow resources); distribution and volume (ubiquitous, unique, common and rare resources); and stage of development (potential, actual and conditional resources).</p><p><b>Renewable resources.</b> Plants and animals are regenerative and replaceable after use, as long as the rate of use is less than the rate of regeneration and their environments are well kept. Renewable resources can be replenished or reproduced easily, but the rate of regeneration differs: crops take a short time to regenerate, soil may take a relatively long time, and forest resources take longer than others. Even so, many renewable resources can be depleted through excessive use - being renewable does not mean they can never be exhausted. Some must be used wisely; sustainable (wise) use is the basic requirement for preserving land resources. A few renewables are inexhaustible flow resources, such as sunlight, oxygen in the atmosphere and wind.</p><p><b>Non-renewable resources.</b> These exist in a finite supply and do not replace themselves after use; they diminish in size and quality with excessive use. Minerals and fossil fuels are the best examples. Their rate of formation is very slow, so once depleted they cannot be replenished soon. Because they are difficult to get back, recycling and reusing are among the recommended management options. Reuse means using a resource over and over again, in the same form or after recycling. However, coal and petroleum cannot be recycled the way metallic minerals can, so unmanaged use may cause rapid exhaustion and restrict the benefit of coming generations.</p><p><b>Land as an environment and its functions.</b> As an environment, land is an area of the Earth's surface embracing all biotic and abiotic components on, above and below the surface: plants and animals of the biosphere, atmospheric gases, underlying geology and soils, hydrology, and the results of past and present human activities. As a usable material, land serves several functions: a <b>production function</b> (a means of production), a <b>waste disposal function</b> (a sink of wastes), an <b>economic asset</b> (it can be converted into a capital resource), and a <b>cultural asset</b> (the host of traditional and religious sacred amenities). Ecologically, land plays a vital role in the breeding and survival of living organisms.</p><p><b>Land management.</b> Land management is the proper use and protection of land resources to provide optimal benefit to growing populations and uphold sustained ecosystem services. Managed land should deliver food and fiber, distinctive landscape opportunities for outdoor public recreation, and pivotal ecological functions. It must protect wider landscapes and resources - mountains, hills, rivers, depressions, water, air, vegetation and wildlife - and reflect the principles of sustainable resource use, building on national, regional and local needs. The <b>prime objective</b> of land management is to control land degradation to balance resource exploitation and regeneration. In practice it rests on managing soil, water, natural vegetation and air: proper farming practices, tree planting (afforestation and reforestation), controlled grazing, terracing and check-damming protect soils, water and forests, while fuel-saving technologies in vehicles and renewable power sources such as hydropower reduce environmental pollution. Because land management is materialized through protecting resources, it should also consider cultural, economic and political settings, rely on indigenous culture and local knowledge, and educate the immediate beneficiaries.</p>",
+  keyTerms: [
+    { term: "Land", def: "An area of the Earth's surface embracing all biotic and abiotic components on, above and below the surface; the ultimate resource and foundation of all human activity." },
+    { term: "Land resources", def: "Useable materials occurring naturally in the environment, derived from the lithosphere, biosphere, atmosphere or hydrosphere." },
+    { term: "Renewable resource", def: "A resource that is regenerative and replaceable after use, such as plants and animals, as long as the rate of use is below the rate of regeneration." },
+    { term: "Non-renewable resource", def: "A resource in finite supply that does not replace itself after use, such as minerals and fossil fuels; it diminishes with excessive use." },
+    { term: "Recycling and reuse", def: "Management options for non-renewables: using a resource over and over again in the same form (reuse) or after reprocessing it (recycling)." },
+    { term: "Land management", def: "The proper use and protection of land resources to provide optimal benefit to growing populations and uphold sustained ecosystem services." },
+    { term: "Sink of wastes", def: "The waste disposal function of land, which absorbs and processes wastes produced by human activity." },
+    { term: "Flow resource", def: "An inexhaustible resource that exists as a continuous flow, such as sunlight, wind and oxygen in the atmosphere." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "A student lists four resources found in a village in southern Ethiopia: Maize crops, forest cedar trees, soil, and sunshine. Using the concept of rate of regeneration, place them from fastest to slowest to regenerate and say what this implies for use.",
+      given: "The textbook states crops take a short time to regenerate, soil may take a relatively long time, and forest resources take longer than others.",
+      formula: "Concept: the rate of regeneration differs from resource to resource and limits how fast each can be used.",
+      substitution: "Ordering the four: crops (short), forest trees (long), soil (relatively long), sunlight (inexhaustible flow, not consumed up).",
+      calculation: "Resources used faster than their regeneration rate are depleted even though they are renewable; sunlight is a flow resource that renews continuously.",
+      answer: "Fastest to slowest: crops, then forest trees and soil, with sunlight inexhaustible; each resource must be used only at or below its regeneration rate."
+    },
+    {
+      problem: "A learner argues that a forest can never be exhausted because it is a renewable resource. Evaluate the claim against the textbook definition.",
+      given: "Renewable resources replace themselves as far as the rate of use is less than the rate of regeneration.",
+      formula: "Principle: being renewable does not mean never depleting; excessive use can exhaust any renewable resource.",
+      substitution: "If cutting for fuel and farmland clearing exceeds tree regrowth, the forest stock shrinks each year.",
+      calculation: "The claim fails the renewal test, since use above the regeneration rate makes the forest non-sustaining.",
+      answer: "The claim is wrong: renewable resources can be easily depleted if excessively used, so wise use is the basic requirement for preserving them."
+    },
+    {
+      problem: "A country relies heavily on its coal and petroleum reserves. The textbooks recommend recycling and reusing for non-renewables. Can coal and petroleum be protected in the same way as metallic minerals? Explain.",
+      given: "Coal and petroleum cannot be recycled like metallic minerals.",
+      formula: "Concept: management options for non-renewables depend on whether the resource can be physically recycled.",
+      substitution: "Metallic minerals can be melted and reprocessed; burned fuels become gases and wastes that cannot be reprocessed.",
+      calculation: "Since recycling is not possible for coal and petroleum, the only workable option is to carefully manage and reduce their use, or the resource will be rapidly exhausted.",
+      answer: "No. Coal and petroleum cannot be recycled, so they require careful management of use to avoid rapid exhaustion and restricted benefits to future generations."
+    },
+    {
+      problem: "Match each land use problem in a district with the land management practice the textbook suggests: (a) soil loss on steep slopes, (b) vegetation removal by grazing animals, (c) home cooking demand for firewood.",
+      given: "Practices named in the lesson: terracing, controlled grazing, afforestation and reforestation, check-damming, proper farming.",
+      formula: "Method: each physical problem has a matching conservation practice.",
+      substitution: "(a) Steep slopes and running water - terracing; (b) Grazing pressure - controlled grazing; (c) Fuel demand - tree planting and renewable power such as hydropower.",
+      calculation: "Terracing reduces the force of running water, controlled grazing spares vegetation, and planting plus renewable energy cuts the firewood burden on forests.",
+      answer: "(a) Terracing; (b) Controlled grazing; (c) Afforestation/reforestation supported by renewable energy sources."
+    }
+  ],
+  commonMistakes: [
+    "Believing that a renewable resource can never be depleted, ignoring the rate of regeneration.",
+    "Assuming coal and petroleum can be recycled the same way as metallic minerals.",
+    "Defining land narrowly as only the visible soil surface, forgetting rights of ownership, atmosphere, geology and past human activities.",
+    "Confusing the production function of land with its waste disposal function.",
+    "Thinking land management is only the government's business and has nothing to do with local beneficiaries.",
+    "Forgetting that land management must also protect water, air, vegetation and wildlife, not only farmland.",
+    "Treating land only as an economic asset and ignoring its cultural and ecological value."
+  ],
+  applications: [
+    "Joining tree planting campaigns such as Ethiopia's afforestation and reforestation programs in your woreda.",
+    "Advising a farmer on controlled grazing so communal pasturage can regenerate before the next season.",
+    "Supporting terracing and check-dam construction on degraded slopes in the highlands.",
+    "Choosing renewable power sources such as hydropower at home to reduce demand for firewood.",
+    "Explaining to a landlord that water rights and other usage rights are as much part of the land as the soil itself.",
+    "Protecting a hillside spring or stream in your community, since land management includes mountains, rivers and depressions."
+  ],
+  summary: "Land is the ultimate resource, the foundation of all human activity and the source of all wealth, viewed as resource, environment, legal object, economic asset and cultural wealth. Its resources fall into renewable and non-renewable, biotic and abiotic, stock and flow, common and rare, and potential, actual and conditional classes. Land management, whose prime objective is controlling land degradation, balances exploitation and regeneration through farming practices, tree planting, controlled grazing, terracing and check-dams.",
+  visuals: [
+    {
+      type: "mindMap",
+      config: {
+        title: "How Land Resources Are Classified",
+        center: "Land Resources",
+        branches: [
+          { label: "Regeneration", items: ["Renewable", "Non-renewable"] },
+          { label: "Origin", items: ["Biotic", "Abiotic"] },
+          { label: "Use and availability", items: ["Stock", "Flow"] },
+          { label: "Distribution and volume", items: ["Ubiquitous", "Unique", "Common", "Rare"] },
+          { label: "Stage of development", items: ["Potential", "Actual", "Conditional"] }
+        ]
+      }
+    },
+    {
+      type: "tableVisual",
+      config: {
+        title: "The Functions of Land",
+        headers: ["Function", "What land provides"],
+        rows: [
+          ["Production", "A means of production of food and fiber"],
+          ["Waste disposal", "A sink of wastes from human activity"],
+          ["Economic asset", "Can be converted into a capital resource"],
+          ["Cultural asset", "Host of traditional and religious sacred amenities"],
+          ["Ecological base", "Breeding ground and survival space for living organisms"]
+        ]
+      }
+    },
+    {
+      type: "comparison",
+      config: {
+        title: "Renewable vs Non-renewable Resources",
+        left: { name: "Renewable", items: ["Replaced after use", "Examples: plants, animals", "Rate matters: use below regeneration", "Some are inexhaustible flows (sunlight, wind)", "Can still be depleted by overuse"] },
+        right: { name: "Non-renewable", items: ["Finite supply", "Examples: minerals, fossil fuels", "Very slow formation rate", "Cannot be replenished once depleted", "Managed by recycling and reuse"] }
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "Land is described as the ultimate resource because:", options: ["it is the most expensive commodity", "without it life on Earth cannot be sustained", "it cannot be bought or sold", "it belongs only to governments"], answer: 1, difficulty: 1, explanation: "Land is the ultimate resource and foundation of all human activity; without it life on Earth cannot be sustained." },
+    { type: "mcq", q: "Which set correctly lists land resource classes based on distribution and volume?", options: ["Biotic and abiotic", "Stock and flow", "Ubiquitous, unique, common and rare", "Potential, actual and conditional"], answer: 2, difficulty: 2, explanation: "Distribution and volume classify resources as ubiquitous, unique, common and rare." },
+    { type: "tf", q: "Being classified as renewable means a resource can never be depleted.", answer: false, difficulty: 1, explanation: "Renewable resources can be easily depleted through excessive use; sustainable use keeps the rate of use below the rate of regeneration." },
+    { type: "mcq", q: "Which resource takes a relatively long time to renew compared with crops?", options: ["Vegetables", "Soil", "Weeds", "Sunlight"], answer: 1, difficulty: 2, explanation: "Crops regenerate quickly, but soil may take a relatively long time to renew, and forest takes longer still." },
+    { type: "short", q: "Which spheres of the Earth are the sources of land resources? Name three.", answer: "lithosphere|biosphere|atmosphere|hydrosphere", difficulty: 1, explanation: "Land resources are derived from the lithosphere, biosphere, atmosphere and hydrosphere." },
+    { type: "concept", q: "State the prime objective of land management in one sentence.", answer: "control land degradation to balance resource exploitation and regeneration", difficulty: 2, explanation: "The prime objective of land management is to control land degradation to balance resource exploitation and regeneration." },
+    { type: "mcq", q: "Which pair of non-renewable resources cannot be recycled the way metallic minerals can?", options: ["Gold and silver", "Coal and petroleum", "Iron and copper", "Diamonds and gold"], answer: 1, difficulty: 2, explanation: "Coal and petroleum cannot be recycled like metallic minerals, so their use must be carefully managed." },
+    { type: "tf", q: "Land serves as a sink of wastes as one of its functions.", answer: true, difficulty: 1, explanation: "The waste disposal function makes land a sink of wastes." },
+    { type: "concept", q: "Explain why land is considered both a physical commodity and an abstract concept.", answer: "rights to own or use it are part of the land|ownership and use rights belong to the land", difficulty: 3, explanation: "The rights to own or use land are as much a part of the land as the object rooted in the soil, making it an abstract (legal) concept as well as a physical one." },
+    { type: "ordering", q: "Arrange these stages of resource classification by stage of development from least developed.", options: ["Actual resources", "Conditional resources", "Potential resources"], answer: 2, difficulty: 2, explanation: "Stage of development orders resources as potential, actual and conditional." },
+    { type: "short", q: "Name the practice of letting livestock numbers match the regeneration capacity of a pasture.", answer: "controlled grazing", difficulty: 1, explanation: "Controlled grazing protects soils, water and vegetation from overstocking." }
+  ]
+};
 
-Lessons["g11-geography-ug3-t2"] = {"overview":"<b>Resources under Pressure</b> sits inside <b>Natural Resources and Conflicts over Resources</b>. Natural resources are the focus of Unit 3 of Grade 11 Geography in the Ethiopian (FDRE Ministry of Education) curriculum. First, it treats land as the base of all natural resources, then it shows how soil, water, and forests fall under heavy human pressure. Next it turns to transboundary rivers, regional cooperation, the Nile waters of Ethiopia, Sudan, and Egypt, and the conflicts that scarce resources can spark, and it points ahead to Unit 4: Global Population Dynamics and Challenges. Students will also learn how natural resources apply to real-life situations.","objectives":["Describe the functions of land and the case for careful management.","Distinguish renewable from non-renewable natural resources.","Explain why soil, water, and forests fall under the greatest pressure.","Locate major transboundary rivers and the bodies that govern them.","Compare the water potential and use of Ethiopia, Sudan, and Egypt."],"simple":"<b>Resources under Pressure in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, why soil, water, and forests suffer most from common-pool overuse.</li> <li>Then soil erosion, water stress, pollution, and the mid-century freshwater crisis.</li> <li>Finally, deforestation and the Green Legacy replanting that answers it.</li></ul>","detailed":"<p><b>Resources under Pressure — the essentials.</b> First, why soil, water, and forests suffer most from common-pool overuse. Then soil erosion, water stress, pollution, and the mid-century freshwater crisis. Finally, deforestation and the Green Legacy replanting that answers it.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Describe the functions of land and the case for careful management.</li><li>Distinguish renewable from non-renewable natural resources.</li><li>Explain why soil, water, and forests fall under the greatest pressure.</li><li>Locate major transboundary rivers and the bodies that govern them.</li><li>Compare the water potential and use of Ethiopia, Sudan, and Egypt.</li></ul>","keyTerms":[{"term":"First","def":"First, why soil, water, and forests suffer most from common-pool overuse."},{"term":"Then soil erosion","def":"Then soil erosion, water stress, pollution, and the mid-century freshwater crisis."},{"term":"Finally","def":"Finally, deforestation and the Green Legacy replanting that answers it."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing resources under pressure with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Map and diagram questions in the ESSLCE geography paper","Explaining a local environmental or resource issue in your own region"],"summary":"Resources under Pressure: First, why soil, water, and forests suffer most from common-pool overuse. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"Resources under Pressure\" is correct according to the MoE curriculum?","options":["First, why soil, water, and forests suffer most from common-pool overuse.","Resources under Pressure applies only to a continent other than the one this unit covers","Resources under Pressure contradicts the definition this topic gives","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, why soil, water, and forests suffer most from common-pool overuse. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"Resources under Pressure\"?","options":["Then soil erosion, water stress, pollution, and the mid-century freshwater crisis.","Resources under Pressure describes a physical process unrelated to this topic","Resources under Pressure applies only to a continent other than the one this unit covers","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Then soil erosion, water stress, pollution, and the mid-century freshwater crisis."},{"type":"tf","q":"True or false: First, why soil, water, and forests suffer most from common-pool overuse.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover resources under pressure.","answer":false,"difficulty":1,"explanation":"Resources under Pressure is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Describe the functions of land and the case for careful management.","difficulty":2,"altAnswers":["Distinguish renewable from non-renewable natural resources.","Explain why soil, water, and forests fall under the greatest pressure."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why resources under pressure matters.","answer":"Resources under Pressure is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of resources under pressure in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to resources under pressure, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
+Lessons["g11-geography-ug3-t2"] = {
+  overview: "Soils, water and forests are common-pool resources placed under immense pressure by rapid population growth and migration. This lesson examines how each is degraded and the measures that can reduce the pressure.",
+  objectives: [
+    "Identify the renewable resources that face the greatest human pressure",
+    "Explain the concept of common-pool resources and the tragedy of the commons",
+    "Describe the causes and forms of soil degradation",
+    "Explain the pressures and future risks facing freshwater resources",
+    "Evaluate measures to protect water resources and forest resources"
+  ],
+  simple: "All environmental resources are affected by excessive human use, but soils, water and forests are the most influenced and placed under increased pressure. Large parts of these resources are common-pool wealth, so they are repeatedly misused, mismanaged and degraded - a situation known as the tragedy of the commons. Nearly 33% of the world's arable land has been destroyed by soil erosion, through lost nutrients, removal of topsoil, crusting and compaction, and pollution. Freshwater suffers from pollution by wastes, plastic bags and water hyacinth, and scarcity now affects many arid areas of the Middle East, Africa and Asia. About 13 million hectares of forest are converted to other uses each year. Remedies include erosion control, safe sewerage, watershed management, afforestation such as Ethiopia's Green Legacy, and alternative renewable energy sources.",
+  detailed: "<p><b>Common-pool resources under pressure.</b> Of all renewable resources, <b>soils, water and forests</b> are the most influenced by humans and face increased pressure. Large parts of them exist as common-pool wealth in many areas and face greater pressure, known as the <b>tragedy of the commons</b>: because nobody holds exclusive responsibility, they are repeatedly misused, mismanaged and degraded through unwise and careless use. They face the prime impact of rapid population growth and increased rural-urban migration.</p><p><b>Soil resources.</b> Soils are essential agricultural resources, but they lose their intrinsic quality through erosion or excessive utilization. Nearly <b>33% of the world's arable land and soils has been destroyed by soil erosion</b> (assessed by GLASOD, the Global Assessment of Human-induced Soil Degradation, 1990). The main causes of depletion are loss of essential soil nutrients, reduction of biological components, removal of the topsoil, crusting and compaction, plus pollution and soil salinity. Soil degradation takes three forms: <b>physical</b> (crusting, compaction, depth reduction), <b>chemical</b> (salinization, alkalinisation, acidification), and <b>biological</b> (loss of soil biota and decline of soil organic carbon). Depletion reduces productive capacity and environmental quality and annihilates essential ecosystem functions. Solutions exist: proper utilization, adoption of erosion control structures, and the addition of manure and natural fertilizers.</p><p><b>Water resources.</b> Water is a basic life necessity for people and animals, essential for plant growth, soil formation, rock weathering, organic matter decomposition and rainfall formation, and it serves as a habitat for diverse life forms and as a producer of power. Yet at the start of the 21st century freshwater fell under greater pressure from more directions than ever before in Earth's history. Rivers and lakes near urban areas are polluted by domestic and industrial wastes, plastic bags and exotic water plants like the water hyacinth; oil spills from steamships and boats, and chemicals released from industries, cause excessive accumulation of nutrients and toxicity in lakes and rivers. Water scarcity is distressing many arid and semi-arid areas where population pressure is extensive, including parts of the Middle East, Africa and Asia. With world population likely to approach <b>10 billion by 2050</b>, demand from agriculture and industry will rise, and pollution of surface and ground waters will reduce freshwater quality; climate change may upset the hydrological cycle. The feared outcome is a <b>worldwide water crisis in the middle of this century</b>, and water may emerge as a source of contention between nations sharing river basins.</p><p><b>Measures to sustain freshwater.</b> The textbook lists measures that address competing uses: developing safe waste disposal sewerage systems, especially in urban areas, to keep domestic effluents from streams and lakes; adopting laws restricting the withdrawal of wastes to river and lake systems; locating industries far from rivers and lakes; desalination of sea water to minimize stress on streams and lakes; recycling waste water through careful treatment; using porous pavements so wastewater does not drain from impervious urban surfaces into watercourses; and watershed management.</p><p><b>Forest resources.</b> Forests constitute the largest terrestrial ecosystems and donate subsistence items, income and agricultural inputs to billions of people, while providing services like climate stabilization, flood control, waste filtration and soil erosion control, storing the world's carbon stocks, and serving as habitat for the Earth's known terrestrial species. Nevertheless, deforestation, encroachment of farming into communal forest areas and mismanagement greatly reduce these services. About <b>13 million hectares</b> of forested lands have been converted annually into other land uses at the global level over the past few decades. Forest clearance for large-scale plantation agriculture and livestock ranching in the tropics, for example in the Amazon basin, has destroyed rainforest ecosystems, while biofuel demand, mining, rapid urbanization, climate change and changing consumption patterns add pressure.</p><p><b>Protecting forests and pressured non-renewables.</b> Measures to safeguard forest security include initiating afforestation and reforestation programs like the <b>Green Legacy</b> practiced in Ethiopia; integrating forest management with Soil and Water Conservation (SWC) programs; seeking alternative energy from other renewables such as hydropower, solar power and wind power; adopting restrictive laws and bylaws on unwise use of common-pool forests; encouraging participatory forest management that engages users in decision making; education and awareness creation; and watershed management. Among non-renewable resources, fossil fuels (natural oil and coal) and precious minerals (gold and diamonds) face intense pressure, and their exploitation has frequently caused conflict among ethnic groups and between countries, for example in the Middle East, Central Africa and West Africa.</p>",
+  keyTerms: [
+    { term: "Common-pool resource", def: "A resource such as soil, water or forest that is available to many users and therefore vulnerable to overuse because no single user bears its full cost." },
+    { term: "Tragedy of the commons", def: "The greater degradation that common-pool resources suffer because no user community holds and enforces exclusive responsibility." },
+    { term: "Soil degradation", def: "Decline in soil quality through loss of nutrients, topsoil removal, crusting, compaction, pollution and salinity; classified as physical, chemical and biological." },
+    { term: "Water stress", def: "Pressure on freshwater when rising demand from population growth and industry approaches or exceeds supply." },
+    { term: "Water hyacinth", def: "An exotic water plant that invades and degrades lakes and rivers close to urban areas." },
+    { term: "Desalination", def: "Removing salt from sea water to minimize stress on streams and lakes." },
+    { term: "Watershed management", def: "The protection and integrated management of whole drainage areas to conserve soil and water." },
+    { term: "Participatory forest management", def: "Involving forest users in decision making so that communities help conserve common-pool forests." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "A district cropland of 90,000 hectares has followed the global pattern stated in the textbook: nearly 33% of the world's arable land has been destroyed by soil erosion. How many hectares would that represent, and how many remain healthy?",
+      given: "The textbook states nearly 33% of the world's arable land and soils have been destroyed by soil erosion (GLASOD, 1990).",
+      formula: "Method: percentage of a quantity = percent divided by 100 multiplied by the total; remaining share = 100% minus 33% = 67%.",
+      substitution: "Destroyed: 0.33 x 90,000 = 29,700 ha; remaining: 0.67 x 90,000 = 60,300 ha.",
+      calculation: "Multiplying the destroyed share and subtracting it from the total gives both figures directly.",
+      answer: "About 29,700 hectares destroyed and about 60,300 hectares still productive - a vivid reason to adopt erosion control structures and manure."
+    },
+    {
+      problem: "Sort these observed problems on a village farm into the three forms of soil degradation: hardened surface crust, salty white patches, and disappearance of earthworms.",
+      given: "Forms named in the textbook: physical (crusting, compaction, depth reduction), chemical (salinization, alkalinisation, acidification), biological (loss of soil biota, decline of soil organic carbon).",
+      formula: "Method: match each symptom to the degradation category it falls in.",
+      substitution: "Hardened crust - physical (crusting); salty white patches - chemical (salinization); missing earthworms - biological (loss of soil biota).",
+      calculation: "Each symptom is a direct example of one named category, so the sorting is complete without extra steps.",
+      answer: "Crust - physical; saline patches - chemical; loss of soil animals - biological. The farm shows all three forms and needs integrated treatment."
+    },
+    {
+      problem: "A planner reads that the world population is likely to approach 10 billion by 2050 and that demand for water is intensifying faster than ever. Explain the chain of consequences the textbook foresees for shared river basins.",
+      given: "Growing population increases needs of agriculture and industry; pollution of surface and ground waters reduces freshwater quality; climate change may upset the hydrological cycle in delicate areas.",
+      formula: "Concept: rising demand plus degrading quality leads to scarcity; shared scarcity leads to contention among riparian states.",
+      substitution: "10 billion people need more food (irrigation), more industry and more hydropower, while pollution shrinks usable freshwater.",
+      calculation: "When demand surpasses existing supply over wider areas, the textbook predicts a worldwide water crisis in the middle of the 21st century and water becoming a source of contention and skirmish between nations sharing river basins.",
+      answer: "More people mean more demand and more pollution; as supply falls short, a mid-century water crisis is feared and shared rivers become potential flashpoints."
+    },
+    {
+      problem: "Match each freshwater problem with its recommended measure: (a) urban domestic effluents entering a lake, (b) an industry discharging beside a river bank, (c) excessive evaporation loss of usable water in a coastal town.",
+      given: "Measures listed: safe sewerage systems, laws restricting waste withdrawal, locating industries far from rivers and lakes, desalination, recycling waste water, porous pavements, watershed management.",
+      formula: "Method: pair each pressure source with the measure designed for that source.",
+      substitution: "(a) Domestic effluents - safe sewerage systems in urban areas; (b) Industry at the bank - locate industries far from rivers and lakes; (c) Stress on streams - desalination of sea water.",
+      calculation: "Each textbook measure is designed for one pressure type, so the three pairings follow directly.",
+      answer: "(a) Safe sewerage; (b) Relocating industry away from water bodies; (c) Desalination."
+    }
+  ],
+  commonMistakes: [
+    "Thinking all resources suffer equally, when soils, water and forests are named as the most pressured.",
+    "Assuming degradation only happens in cities; erosion and depletion are worse over much of the rural arable land.",
+    "Confusing soil degradation forms: compaction is physical, salinization is chemical, and loss of biota is biological.",
+    "Believing water scarcity only concerns desert countries and cannot touch river basin communities.",
+    "Thinking desalination and recycling wastewater are the same measure.",
+    "Assuming forest protection means only planting trees and ignoring participatory management, bylaws and alternative energy.",
+    "Forgetting that pollution of groundwater, not just rivers, reduces freshwater quality."
+  ],
+  applications: [
+    "Taking part in Ethiopia's Green Legacy tree-planting campaign to rebuild forest cover in your area.",
+    "Camping lesson: organizing awareness against dumping plastic bags into rivers and lakes near your town.",
+    "Proposing porous pavements or proper drainage in a growing town so wastewater does not runoff into streams.",
+    "Suggesting solar or wind power for a school kitchen to cut firewood use from a nearby forest.",
+    "Supporting bylaws (shared rules) for a communal forest or grazing land to prevent the tragedy of the commons.",
+    "Advising a fishing community on keeping steams and lakes free of chemicals from nearby industries."
+  ],
+  summary: "Soils, water and forests are the most pressured renewable resources, degraded as common-pool wealth under population growth and rural-urban migration. About one third of the world's arable land has been destroyed by erosion, freshwater faces a feared mid-century crisis as demand from 10 billion people rises, and about 13 million hectares of forest are lost annually. Erosion control, sewerage, desalination, watershed management, afforestation like the Green Legacy and alternative renewable energy are the recommended responses.",
+  visuals: [
+    {
+      type: "flowChart",
+      config: {
+        title: "From Pressure to Degradation in Common-Pool Resources",
+        nodes: ["Rapid population growth", "Rural-urban migration", "Unwise uses of common-pool resources", "Soil, water and forest degradation", "Lost livelihoods and conflicts"]
+      }
+    },
+    {
+      type: "tableVisual",
+      config: {
+        title: "The Three Forms of Soil Degradation",
+        headers: ["Form", "Examples"],
+        rows: [
+          ["Physical", "Crusting, compaction, depth reduction"],
+          ["Chemical", "Salinization, alkalinisation, acidification"],
+          ["Biological", "Loss of soil biota, decline of soil organic carbon"]
+        ]
+      }
+    },
+    {
+      type: "steps",
+      config: {
+        title: "Safeguarding Forest Resources",
+        steps: [
+          { label: "Plant", detail: "Run afforestation and reforestation programs like the Green Legacy." },
+          { label: "Integrate", detail: "Combine forest management with Soil and Water Conservation programs." },
+          { label: "Change energy", detail: "Seek alternative energy such as hydropower, solar and wind power." },
+          { label: "Regulate", detail: "Adopt restrictive laws and bylaws on unwise use of common-pool forests." },
+          { label: "Involve users", detail: "Encourage participatory forest management and educate forest users." }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "Which set lists the renewable resources placed under the greatest human pressure?", options: ["Air, gold and gems", "Soils, water and forests", "Fish, oil and coal", "Minerals, diamonds and gravel"], answer: 1, difficulty: 1, explanation: "From all renewable resources, soils, water and forests are the most influenced by humans and under increased pressure." },
+    { type: "mcq", q: "The 'tragedy of the commons' describes what?", options: ["Private farms earning low profits", "Greater pressure and degradation on common-pool resources", "Government ownership of forests", "Urban residents moving to rural areas"], answer: 1, difficulty: 2, explanation: "Common-pool wealth faces greater pressure because it is repeatedly misused, mismanaged and degraded." },
+    { type: "tf", q: "Nearly 33% of the world's arable land and soils have been destroyed by soil erosion.", answer: true, difficulty: 1, explanation: "The textbook states nearly 33% of the world's arable land and soils have been destroyed by soil erosion." },
+    { type: "concept", q: "Salinization and acidification belong to which form of soil degradation, and crusting and compaction to which?", answer: "chemical|physical", difficulty: 2, explanation: "Chemical degradation includes salinization, alkalinisation and acidification; physical degradation includes crusting, compaction and depth reduction." },
+    { type: "mcq", q: "The textbook links which world population forecast to the water crisis feared in the middle of the 21st century?", options: ["8 billion by 2000", "9 billion by 2020", "10 billion by 2050", "7 billion by 2030"], answer: 2, difficulty: 2, explanation: "The world population is likely to approach 10 billion by 2050, raising water demand for agriculture and industry." },
+    { type: "short", q: "Name the exotic water plant that pollutes lakes and rivers near urban areas.", answer: "water hyacinth", difficulty: 1, explanation: "Rivers and lakes closer to urban areas are polluted by plastic bags and exotic water plants like the water hyacinth." },
+    { type: "mcq", q: "About how much forested land is converted annually into other land uses worldwide?", options: ["3 million ha", "13 million ha", "33 million ha", "50 million ha"], answer: 1, difficulty: 2, explanation: "About 13 million hectares of forested lands have been annually converted into other land uses in recent decades." },
+    { type: "tf", q: "Desalination of sea water is one of the measures listed for sustaining freshwater.", answer: true, difficulty: 1, explanation: "Desalination of sea water minimizes stress on streams and lakes." },
+    { type: "concept", q: "Explain why oil spills and industrial chemicals are dangerous to lakes, seas and rivers.", answer: "excessive accumulation of nutrients and toxicity|they poison the animals inhabiting the ecosystem", difficulty: 2, explanation: "Oil spills plus chemicals released from industries cause excessive accumulation of nutrients and toxicity over the animals inhabiting those ecosystems." },
+    { type: "mcq", q: "Which example of forest loss given in the textbook is from plantation agriculture and livestock ranching in the tropics?", options: ["The Nile delta", "The Amazon basin", "The Ganges plain", "The Kalahari"], answer: 1, difficulty: 2, explanation: "Forest clearance for large-scale plantation agriculture and livestock ranching in the tropics, e.g. in the Amazon basin, caused loss of rainforest ecosystems." },
+    { type: "short", q: "Which Ethiopian program for planting trees is named in the textbook?", answer: "the green legacy|the green legacy initiative|green legacy", difficulty: 1, explanation: "Afforestation and reforestation programs like the Green Legacy practiced in Ethiopia are recommended measures." }
+  ]
+};
 
-Lessons["g11-geography-ug3-t3"] = {"overview":"<b>Land Resource Depletion and Degradation</b> sits inside <b>Natural Resources and Conflicts over Resources</b>. Natural resources are the focus of Unit 3 of Grade 11 Geography in the Ethiopian (FDRE Ministry of Education) curriculum. First, it treats land as the base of all natural resources, then it shows how soil, water, and forests fall under heavy human pressure. Next it turns to transboundary rivers, regional cooperation, the Nile waters of Ethiopia, Sudan, and Egypt, and the conflicts that scarce resources can spark, and it points ahead to Unit 4: Global Population Dynamics and Challenges. Students will also learn how natural resources apply to real-life situations.","objectives":["Describe the functions of land and the case for careful management.","Distinguish renewable from non-renewable natural resources.","Explain why soil, water, and forests fall under the greatest pressure.","Locate major transboundary rivers and the bodies that govern them.","Compare the water potential and use of Ethiopia, Sudan, and Egypt."],"simple":"<b>Land Resource Depletion and Degradation in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, what resource degradation means for soil, water, and biomass.</li> <li>Then the underlying and proximate causes, from population growth to poor tillage.</li> <li>Finally, terracing, check dams, mulching, and manure as ways to restore land.</li></ul>","detailed":"<p><b>Land Resource Depletion and Degradation — the essentials.</b> First, what resource degradation means for soil, water, and biomass. Then the underlying and proximate causes, from population growth to poor tillage. Finally, terracing, check dams, mulching, and manure as ways to restore land.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Describe the functions of land and the case for careful management.</li><li>Distinguish renewable from non-renewable natural resources.</li><li>Explain why soil, water, and forests fall under the greatest pressure.</li><li>Locate major transboundary rivers and the bodies that govern them.</li><li>Compare the water potential and use of Ethiopia, Sudan, and Egypt.</li></ul>","keyTerms":[{"term":"First","def":"First, what resource degradation means for soil, water, and biomass."},{"term":"Then the underlying and proximate causes","def":"Then the underlying and proximate causes, from population growth to poor tillage."},{"term":"Finally","def":"Finally, terracing, check dams, mulching, and manure as ways to restore land."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing land resource depletion and degradation with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Map and diagram questions in the ESSLCE geography paper","Explaining a local environmental or resource issue in your own region"],"summary":"Land Resource Depletion and Degradation: First, what resource degradation means for soil, water, and biomass. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"Land Resource Depletion and Degradation\" is correct according to the MoE curriculum?","options":["First, what resource degradation means for soil, water, and biomass.","Land Resource Depletion and Degradation applies only to a continent other than the one this unit covers","Land Resource Depletion and Degradation contradicts the definition this topic gives","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, what resource degradation means for soil, water, and biomass. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"Land Resource Depletion and Degradation\"?","options":["Then the underlying and proximate causes, from population growth to poor tillage.","Land Resource Depletion and Degradation describes a physical process unrelated to this topic","Land Resource Depletion and Degradation applies only to a continent other than the one this unit covers","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Then the underlying and proximate causes, from population growth to poor tillage."},{"type":"tf","q":"True or false: First, what resource degradation means for soil, water, and biomass.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover land resource depletion and degradation.","answer":false,"difficulty":1,"explanation":"Land Resource Depletion and Degradation is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Describe the functions of land and the case for careful management.","difficulty":2,"altAnswers":["Distinguish renewable from non-renewable natural resources.","Explain why soil, water, and forests fall under the greatest pressure."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why land resource depletion and degradation matters.","answer":"Land Resource Depletion and Degradation is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of land resource depletion and degradation in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to land resource depletion and degradation, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
+Lessons["g11-geography-ug3-t3"] = {
+  overview: "Resource degradation is the overall loss of the quality and quantity of land resources, driven by underlying and proximate causes. This lesson traces the causes and consequences of degradation and the conservation measures that check it.",
+  objectives: [
+    "Define resource degradation and name its human and natural triggers",
+    "Distinguish underlying causes from proximate causes of land degradation",
+    "Describe the consequences of degradation for people and ecosystems",
+    "Identify physical conservation structures and soil improvement practices",
+    "Explain how degradation links to poverty, food insecurity and migration"
+  ],
+  simple: "Resource degradation is the overall loss or decline of the quality and quantity of land resources such as soils, water and biological mass. It is often initiated by human activity, and sometimes by natural hazards like earthquakes, volcanic eruptions, landslides and flooding. Degradation happens worldwide but hits developing countries like those in Africa hardest. Its causes split into underlying sources, such as rapid population growth, climate change, rough topography, improper land use and poor policy, and proximate causes they produce, such as intensive land use, deforestation and overgrazing. Consequences include loss of soil productivity, biodiversity loss, desertification, low agricultural yields, hunger, poverty and migration. Degradation can be checked through land management practices: afforestation, reforestation, area closures, terracing, check dams, mulching, shelterbelts, trenches, legume rotation and the addition of manure.",
+  detailed: "<p><b>The concept of degradation.</b> <b>Resource degradation</b> is the overall loss (decline) of the quality and quantity of land resources such as soils, water and biological mass. It is often initiated by human activity and sometimes by natural hazards such as earthquakes, volcanic eruptions, landsliding and flooding. Degraded land appears worldwide: the textbook photographs degraded land in the <b>Atsbi-Womberta area, Tigray, Ethiopia</b>, an eroded wasteland in Rajasthan (India), erosion on a cotton plantation farm in Ghana, and eroded 'badlands' over sodic soils in Bolivia. Although degradation happens at a wider scale all over the world, its impacts are <b>much worse in developing countries like those in Africa</b>. It is commonly connected with climate change and widespread poverty.</p><p><b>Underlying causes.</b> Sources of land resource degradation are categorized as underlying and proximate causes. The <b>underlying sources</b> are major causes that promote proximate issues to happen. They include rapid population growth, climate change (decreasing rainfalls and increasing temperatures), rough topography (steep slopes and depressions), improper land use practices and government policy, especially poor tenure policy that creates <b>tenure insecurity</b>.</p><p><b>Proximate causes.</b> The <b>proximate causes</b> are secondary issues initiated by the underlying agents. Rapid population growth raises the demand for food and farmland, producing intensive use of land, farmland fragmentation, repeated tillage and depletion of soil fertility. More demand for biomass energy and timber leads to <b>deforestation</b> and forest cover contraction. More demand for pasture and livestock feed produces overstocking and <b>overgrazing</b>, which uproot and remove vegetation. Climate change brings desertification - contraction of vegetation cover, decreasing crop harvest and poverty. Sudden, unprecedented and torrential rainfalls cause flooding, leading to soil and biodiversity losses and to sedimentation and siltation of dams and reservoirs. Steep slopes speed up stream flow so soil is removed from upper catchments, while depressions cause waterlogging, soil acidity and cultivation difficulties. Poor farming methods such as ploughing up and down slopes remove soil from farmlands, and poor land management - less use of fallowing, crop rotation and animal manure plus excessive irrigation - brings loss of soil nutrients, fertility depletion and salinization.</p><p><b>Consequences.</b> Rapid population growth and technological advances over the past 50 years have changed land use worldwide: forest covers have decreased, cultivated lands increased, rain-fed areas expanded, irrigated areas have doubled, and permanent meadows and pastures grew. A significant proportion of the world's arable land was destroyed by soil erosion, and the per capita farmland needed to feed people declined. Land resource degradation could finally result in: loss of biodiversity (reduction of animal and plant populations), desertification of local environments, low levels of agricultural yields and animal production, worsened hunger and poverty, food insecurity and migration, and a lessened capacity of the land to function within the ecological system.</p><p><b>Structural conservation measures.</b> Depletion and degradation can be checked through land management practices. <b>Afforestation</b> plants trees on barren lands that were not under forest cover before; <b>reforestation</b> replants trees in deforested areas; <b>area closures</b> close deforested areas from livestock contact to restore the previous status; <b>terracing</b> constructs bench terraces on steep lands to reduce the force of running water and trap moving soil; a <b>check dam</b> is a small or temporary structure built across a waterway to control erosion by reducing water flow velocity, important for conserving gullied areas; <b>mulching</b> covers soil with plant residue so the soil regains nutrients as the residue decays and loses less water to evaporation; and <b>shelterbelts</b> plant trees along lines to break the speed of blowing wind and reduce its erosivity. Other structures include diversion canals to divert upcoming floods from farmlands, trenches to trap down-going water and soil, and drainage channels (ditches) to remove excess water from depressed areas. The textbook illustrates these with stone Bunds in the May-Leiba catchment in Tigray, terrace structures over the loess hill slopes of China, a restored gully in Awzet, Farta, Ethiopia, and restored forest land in Nepal.</p><p><b>Agronomic measures.</b> Natural and farming measures complement the structures: <b>legume-rotation</b> to replenish soil fertility; the addition of <b>animal manure</b> to replace lost nutrients; <b>inter-cropping</b> to augment soil fertility; <b>proper irrigation</b> to minimize soil salinity; the addition of chemical fertilizer to replace lost nutrients; and using <b>green manure</b> to uphold soil fertility. Future improvement of rural livelihoods and income levels depends largely on the rational use of available resources and increased application of agricultural technologies.</p>",
+  keyTerms: [
+    { term: "Resource degradation", def: "The overall loss or decline of the quality and quantity of land resources such as soils, water and biological mass." },
+    { term: "Underlying cause", def: "A major root cause, such as rapid population growth or climate change, that promotes proximate causes to happen." },
+    { term: "Proximate cause", def: "A secondary, immediate cause initiated by underlying agents, such as overgrazing, deforestation or ploughing up and down slopes." },
+    { term: "Terracing", def: "Constructing bench terraces on steep lands to reduce the force of running water and trap moving soil." },
+    { term: "Desertification", def: "Contraction of vegetation cover and decline of crop harvest in dry environments, often linked to decreasing rainfall." },
+    { term: "Check dam", def: "A small or temporary dam across a waterway that reduces water flow velocity to control erosion and conserve gullied areas." },
+    { term: "Mulching", def: "Covering soil with plant residue so it regains nutrients as the residue decays and loses less water by evaporation." },
+    { term: "Shelterbelt", def: "A line of planted trees that breaks the speed of blowing wind and reduces its erosivity." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "Classify these drivers of degradation in a highland district as underlying or proximate causes: steep slopes, ploughing up and down slopes, rapid population growth, overgrazing, poor tenure policy.",
+      given: "The textbook divides causes into underlying sources (major causes) and proximate causes (secondary issues initiated by underlying agents).",
+      formula: "Method: ask whether the driver is a root pressure (underlying) or an on-the-ground practice it produces (proximate).",
+      substitution: "Rapid population growth - underlying; poor tenure policy - underlying; steep slopes - underlying (physical setting); ploughing up and down slopes - proximate (poor farming method); overgrazing - proximate (from demand for pasture).",
+      calculation: "Underlying agents cause proximate issues to happen, so the on-farm practices sit downstream of the root pressures.",
+      answer: "Underlying: rapid population growth, poor tenure policy, steep relief; proximate: ploughing along slopes and overgrazing."
+    },
+    {
+      problem: "Trace the chain the textbook gives from population growth to poverty: what sequence links increased demand for food and farmland with declining harvests?",
+      given: "Population growth increases demand for food and farmland; Table 3.1 links intensive use to farmland fragmentation, repeated tillage and depletion of soil fertility.",
+      formula: "Concept: cause-effect chains in resource degradation run from underlying demand to proximate land use to consequence.",
+      substitution: "Population growth - more food and farmland needed - intensive land use - farmland fragmentation and repeated tillage - soil fertility depletion - low yields.",
+      calculation: "Each stage is explicitly listed in the textbook's table, so the missing links are completed in order.",
+      answer: "Population growth causes intensive use and fragmentation of farms, repeated tillage exhausts soil fertility, harvests fall, and hunger and poverty worsen."
+    },
+    {
+      problem: "A catchment suffers from (a) a deepening gully below a road, (b) strong dry winds stripping topsoil, (c) bare soil losing moisture by evaporation. Which conservation measure fits each problem?",
+      given: "Measures defined: check dam (reduces water flow velocity, conserves gullied areas), shelterbelt (breaks wind speed and erosivity), mulching (reduces water loss from evaporation).",
+      formula: "Method: pair each local problem with the measure designed for that exact process.",
+      substitution: "(a) Gully - check dam; (b) Wind erosion - shelterbelt; (c) Evaporation loss - mulching.",
+      calculation: "The definitions of the three measures match the three processes one-to-one.",
+      answer: "(a) Check dam; (b) Shelterbelt; (c) Mulching."
+    },
+    {
+      problem: "Sudden torrential rain fell on a degraded upper catchment in Ethiopia. Following the textbook's table, list the proximate event and three consequences that flood brings.",
+      given: "In the textbook, sudden, unprecedented and torrential rainfalls cause flooding; flooding leads to soil and biodiversity losses, health problems, and sedimentation and siltation of dams (reservoirs).",
+      formula: "Concept: flooding is a proximate cause whose consequences include physical, health and infrastructure damages.",
+      substitution: "Torrential rain - flooding - then the three listed consequence groups.",
+      calculation: "Reading the cause and consequence columns together gives the full sequence.",
+      answer: "The proximate event is flooding; consequences are soil and biodiversity losses, health problems, and sedimentation and siltation of dams and reservoirs."
+    }
+  ],
+  commonMistakes: [
+    "Confusing underlying and proximate causes; population growth is underlying, overgrazing is proximate.",
+    "Forgetting natural hazards like earthquakes, volcanic eruptions, landsliding and flooding can also initiate degradation.",
+    "Assuming deforestation means any cutting of trees, when afforestation and reforestation are separate replanting practices.",
+    "Thinking terracing and check dams serve the same purpose; terracing slows runoff on steep land, check dams contain gullied waterways.",
+    "Believing drought alone causes desertification and ignoring the role of uprooted vegetation.",
+    "Assuming degradation affects only soils and generalizing it to humans; it also lessens biodiversity, yields and the land's ecological function.",
+    "Ignoring policy: poor tenure policy is an underlying cause of resource depletion."
+  ],
+  applications: [
+    "Helping construct stone bunds and terraces on cultivated slopes, as done in the May-Leiba catchment in Tigray.",
+    "Setting an area closure around a deforested municipal hill so livestock cannot graze it while it recovers.",
+    "Mulching a family vegetable plot with crop residues to save irrigation water between rains.",
+    "Planting shelterbelts along a wind-exposed field edge to break blowing wind and its erosivity.",
+    "Rotating legumes with cereals and adding animal manure to a depleted farm to rebuild soil fertility.",
+    "Building a check dam in a gully near a school to protect farmland downstream."
+  ],
+  summary: "Resource degradation is the overall decline in quality and quantity of soils, water and biological mass, initiated mainly by human activity but also by natural hazards. Its underlying causes are rapid population growth, climate change, rough topography, improper land use and poor policy; their proximate outcomes include intensive use, deforestation, overgrazing, flooding and salinization. Consequences range from biodiversity loss and desertification to hunger, migration and weaker ecosystem functions, and they are controlled by structural measures like terracing, check dams and shelterbelts plus agronomic measures like legume rotation and manure.",
+  visuals: [
+    {
+      type: "tableVisual",
+      config: {
+        title: "Underlying Causes, Proximate Causes and Consequences",
+        headers: ["Underlying cause", "Proximate cause", "Consequence"],
+        rows: [
+          ["Rapid population growth", "Intensive use of land", "Farmland fragmentation, repeated tillage, fertility depletion"],
+          ["Population and timber demand", "Deforestation", "Forest cover contraction, soil erosion"],
+          ["Demand for pasture", "Overstocking and overgrazing", "Uprooting and removal of vegetation"],
+          ["Climate change", "Desertification and flooding", "Vegetation contraction, siltation of dams"],
+          ["Rough topography", "Steep slopes and depressions", "Soil removal, waterlogging, soil acidity"],
+          ["Poor tenure policy", "Tenure insecurity", "Resource depletion"]
+        ]
+      }
+    },
+    {
+      type: "steps",
+      config: {
+        title: "Conservation Practices and What They Do",
+        steps: [
+          { label: "Terracing", detail: "Bench terraces on steep lands cut the force of running water and trap soil." },
+          { label: "Check dam", detail: "A small dam across a waterway slows flow and conserves gullied areas." },
+          { label: "Mulching", detail: "Plant residue covers soil, saving water from evaporation and adding nutrients." },
+          { label: "Shelterbelt", detail: "Tree lines break blowing wind and reduce its erosivity." },
+          { label: "Trench and ditch", detail: "Trenches trap moving water and soil; drainage channels empty depressed areas." }
+        ]
+      }
+    },
+    {
+      type: "flowChart",
+      config: {
+        title: "The Degradation-Poverty Chain",
+        nodes: ["Rapid population growth", "Deforestation and overgrazing", "Soil erosion and desertification", "Low harvests and food insecurity", "Poverty and migration"]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "Resource degradation is best defined as:", options: ["total removal of any resource", "the overall loss of quality and quantity of land resources", "changing land from farm to forest", "the building of terraces"], answer: 1, difficulty: 1, explanation: "Resource degradation is the overall loss (decline) of the quality and quantity of land resources such as soils, water and biological mass." },
+    { type: "mcq", q: "Which of these is an underlying rather than a proximate cause of degradation?", options: ["Overgrazing", "Ploughing up and down slopes", "Rapid population growth", "Repeated tillage"], answer: 2, difficulty: 2, explanation: "Underlying sources are major causes, such as rapid population growth, that promote proximate issues to happen." },
+    { type: "tf", q: "Degradation is often initiated by human activity but can also be started by natural hazards such as earthquakes and flooding.", answer: true, difficulty: 1, explanation: "The textbook states degradation is often initiated by human activity and sometimes by natural hazards." },
+    { type: "concept", q: "Explain how poor tenurial policy leads to resource depletion.", answer: "tenure insecurity|farmers with insecure rights do not invest in protecting the land", difficulty: 3, explanation: "Poor tenure policy produces tenure insecurity, the final proximate step toward resource depletion in Table 3.1." },
+    { type: "mcq", q: "Where does the textbook photograph degraded land in Ethiopia?", options: ["Awash valley", "Atsbi-Womberta area, Tigray", "Bale national park", "Lake Tana shore"], answer: 1, difficulty: 2, explanation: "The textbook shows degraded land in the Atsbi-Womberta area, Tigray, Ethiopia." },
+    { type: "short", q: "Name the practice of covering soil with plant residue to save moisture and add nutrients.", answer: "mulching", difficulty: 1, explanation: "Mulching covers soil with plant residue so it regains nutrients and reduces water loss from evaporation." },
+    { type: "mcq", q: "Which consequence of flooding does the textbook especially highlight for dams?", options: ["Higher turbines", "Sedimentation and siltation of reservoirs", "Lower water tables", "Rising fish harvests"], answer: 1, difficulty: 2, explanation: "Flooding brings soil and biodiversity losses, health problems, and sedimentation and siltation of dams (reservoirs)." },
+    { type: "tf", q: "The impacts of land degradation are worse in developing countries like those in Africa.", answer: true, difficulty: 1, explanation: "The textbook states its impacts are much worse in developing countries like those in Africa." },
+    { type: "concept", q: "Why does reduced rainfall almost always accompany desertification?", answer: "climate change decreases rainfalls and increases temperatures", difficulty: 2, explanation: "Climate change brings decreasing rainfalls and increasing temperatures, whose immediate outcome is desertification with contracted vegetation." },
+    { type: "ordering", q: "Arrange these conservation steps from planting to enrichment as the textbook defines afforestation, reforestation and area closure.", options: ["Close the area from livestock", "Plant trees on barren land (afforestation)", "Replant trees in deforested areas (reforestation)"], answer: 1, difficulty: 2, explanation: "Afforestation plants on barren lands, reforestation replants deforested areas, and area closures then keep livestock away so the area recovers." },
+    { type: "short", q: "What is a check dam used for?", answer: "to control erosion by reducing water flow velocity|conserving gullied areas|reducing water flow velocity", difficulty: 2, explanation: "A check dam, small or temporary, is constructed across a waterway to control erosion by reducing water flow velocity, important in gullied areas." }
+  ]
+};
 
-Lessons["g11-geography-ug3-t4"] = {"overview":"<b>Transboundary Rivers</b> sits inside <b>Natural Resources and Conflicts over Resources</b>. Natural resources are the focus of Unit 3 of Grade 11 Geography in the Ethiopian (FDRE Ministry of Education) curriculum. First, it treats land as the base of all natural resources, then it shows how soil, water, and forests fall under heavy human pressure. Next it turns to transboundary rivers, regional cooperation, the Nile waters of Ethiopia, Sudan, and Egypt, and the conflicts that scarce resources can spark, and it points ahead to Unit 4: Global Population Dynamics and Challenges. Students will also learn how natural resources apply to real-life situations.","objectives":["Describe the functions of land and the case for careful management.","Distinguish renewable from non-renewable natural resources.","Explain why soil, water, and forests fall under the greatest pressure.","Locate major transboundary rivers and the bodies that govern them.","Compare the water potential and use of Ethiopia, Sudan, and Egypt."],"simple":"<b>Transboundary Rivers in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, the 263 shared rivers, lakes, and aquifers that cross national borders.</li> <li>Then fifteen major basins, from the Nile and Congo to the Amazon and Danube.</li> <li>Finally, why shared rivers offer both cooperation and dispute.</li></ul>","detailed":"<p><b>Transboundary Rivers — the essentials.</b> First, the 263 shared rivers, lakes, and aquifers that cross national borders. Then fifteen major basins, from the Nile and Congo to the Amazon and Danube. Finally, why shared rivers offer both cooperation and dispute.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Describe the functions of land and the case for careful management.</li><li>Distinguish renewable from non-renewable natural resources.</li><li>Explain why soil, water, and forests fall under the greatest pressure.</li><li>Locate major transboundary rivers and the bodies that govern them.</li><li>Compare the water potential and use of Ethiopia, Sudan, and Egypt.</li></ul>","keyTerms":[{"term":"First","def":"First, the 263 shared rivers, lakes, and aquifers that cross national borders."},{"term":"Then fifteen major basins","def":"Then fifteen major basins, from the Nile and Congo to the Amazon and Danube."},{"term":"Finally","def":"Finally, why shared rivers offer both cooperation and dispute."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing transboundary rivers with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Map and diagram questions in the ESSLCE geography paper","Explaining a local environmental or resource issue in your own region"],"summary":"Transboundary Rivers: First, the 263 shared rivers, lakes, and aquifers that cross national borders. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"Transboundary Rivers\" is correct according to the MoE curriculum?","options":["First, the 263 shared rivers, lakes, and aquifers that cross national borders.","Transboundary Rivers applies only to a continent other than the one this unit covers","Transboundary Rivers contradicts the definition this topic gives","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, the 263 shared rivers, lakes, and aquifers that cross national borders. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"Transboundary Rivers\"?","options":["Then fifteen major basins, from the Nile and Congo to the Amazon and Danube.","Transboundary Rivers describes a physical process unrelated to this topic","Transboundary Rivers applies only to a continent other than the one this unit covers","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Then fifteen major basins, from the Nile and Congo to the Amazon and Danube."},{"type":"tf","q":"True or false: First, the 263 shared rivers, lakes, and aquifers that cross national borders.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover transboundary rivers.","answer":false,"difficulty":1,"explanation":"Transboundary Rivers is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Describe the functions of land and the case for careful management.","difficulty":2,"altAnswers":["Distinguish renewable from non-renewable natural resources.","Explain why soil, water, and forests fall under the greatest pressure."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why transboundary rivers matters.","answer":"Transboundary Rivers is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of transboundary rivers in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to transboundary rivers, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
+Lessons["g11-geography-ug3-t4"] = {
+  overview: "More than 263 transboundary watercourses criss-cross 145 nations and support about 40% of the global population. This lesson maps their distribution and shows why shared rivers bring both prospects for cooperation and risks of conflict.",
+  objectives: [
+    "Define transboundary rivers and transboundary waters",
+    "Describe the worldwide distribution of transboundary watercourses",
+    "Explain the prospects and ecosystem services of shared rivers",
+    "Identify sample shared basins with their sources, flows and riparian countries from data",
+    "Recognize why shared basins can also be sources of conflict"
+  ],
+  simple: "Transboundary rivers are watercourses shared by two or more countries. Together with transboundary lakes, inland waters and aquifers, they are called transboundary waters; oceans, territorial seas and coastal waters are not included. More than 263 transnational river and lake channels, plus numerous trans-border aquifers, are known to geographers. They make up around 60% of the world's freshwater flows and cover nearly half of the Earth's terrestrial surface, passing through 145 nations and supporting about 40% of the world's people. About 60% of Africa's and South America's space falls under inter-state rivers. Shared waters provide ecosystem services - food, shelter for aquatic life, flood and pollution control - and build hydrological, social and economic integration, yet they can also become sources of conflict among riparian countries, as Ethiopia and Egypt show over the Nile.",
+  detailed: "<p><b>What transboundary waters are.</b> <b>Transboundary rivers</b> are watercourses shared by two or more countries. Together with lakes, inland waters and aquifers, they are named 'transboundary waters'; oceans, territorial seas and coastal waters are not included in this category. Worldwide, more than <b>263 transnational river and lake channels</b> plus numerous trans-state aquifers are currently known to geographers. These 263 watercourses make up around <b>60% of the world's freshwater flows</b> and cover nearly <b>one-half of the Earth's terrestrial surface</b>. They pass across the terrains of <b>145 nations</b> and support about <b>40% of the global population</b>.</p><p><b>Regional patterns.</b> About 60% of the space of <b>Africa and South America</b> and nearly 40% of <b>North and Central America</b> fall under inter-state rivers. Around 80% of the total area of <b>44 countries</b> lies within international basins: twenty of these are in Africa, thirteen in Europe, seven in Asia and four in Latin America. The entire area of some <b>30 countries</b> falls within trans-state waters, and a total of <b>21 countries</b> lie entirely within international basins. Groundwaters interlinked with about <b>300 transboundary aquifers</b> also support nearly two million people around the world.</p><p><b>Shared basins by the numbers.</b> There are 13 basins worldwide shared between five and eight riparian states. Five basins - the <b>Congo, Niger, Nile, Rhine and Zambezi</b> - are shared between nine and eleven states. The river flowing through the most nations is the <b>Danube</b>, which travels through the territory of 19 nations. Sample basins in the textbook's table show how varied shared rivers are: the <b>Nile</b> rises from Lake Victoria, drains 3,030,700 square kilometres, delivers 84 billion cubic meters (BCM) annually, has 11 riparian countries, and runs 6,671 kilometres to the Mediterranean Sea; the <b>Congo</b> carries 1,250 BCM to the Atlantic Ocean; the <b>Zambezi</b> (source in Zambia) delivers 230 BCM to the Indian Ocean through 8 riparian countries; the <b>Amazon</b> (source in the Andes Mountains) covers 6,800,000 square kilometres across 9 riparian countries and flows 6,400 kilometres; and the <b>Jordan</b>, rising from Mount Hermon between Syria and Lebanon, is only 360 kilometres long with a flow of 540 million cubic meters per year, emptying into the Dead Sea with 5 riparian countries.</p><p><b>Prospects of shared rivers.</b> Internationally shared waters connect populations of diverse countries and support the revenues and livelihoods of millions of people. Shared wetlands, lakes and floodplains provide priceless <b>ecosystem services</b>: food, shelter for aquatic life, and control of flooding and pollution. They create hydrological, social and economic integrations among people and countries, and they can play a great role in socioeconomic development and help reduce poverty. Shared rivers also provide prospects for collaboration and improvement of regional peace and security in addition to socioeconomic growth.</p><p><b>The other side: impacts and conflict.</b> Exhausted, despoiled, poorly developed and unmanaged freshwater courses that result from rapid population increase may impede sustainable development and hinder partnership between main water-use segments such as agriculture, industry, energy, navigation, water supply and sanitation. Inter-state collaborations and partnerships are the best options to address diverging interests over shared basins. Nevertheless, shared watercourses appear to be sources of both <b>conflict and dialogue</b> among countries despite their implanted potential for cooperation - like the case of <b>Ethiopia and Egypt over the use of the Nile waters</b>.</p><p><b>Economic uses along the rivers.</b> Dams and economic projects over the Nile Basin listed in the textbook include Roseires in Sudan; the Aswan High Dam in Egypt; Owen Falls Dam in Uganda; and in Ethiopia the Tekeze hydroelectric power (HEP) project, Tana Beles, Tis Abay, the Fincha dam and Koga irrigation, plus the <b>Grand Ethiopian Renaissance Dam (GERD)</b>. Elsewhere in Africa, the Zambezi carries Victoria Falls and the Congo River runs the hydroelectric dam at <b>Inga Falls</b>, while the Niger supports fishing. Such waters serve fishing, transportation, development, offshore oilfields and culture - and could all become sources of conflict if not handled wisely.</p>",
+  keyTerms: [
+    { term: "Transboundary river", def: "A watercourse shared by two or more countries, part of the wider category of transboundary waters." },
+    { term: "Transboundary waters", def: "Transboundary rivers, lakes, inland waters and aquifers; oceans, territorial seas and coastal waters are excluded." },
+    { term: "Riparian country", def: "A country whose territory lies within the basin of a given river, sharing its waters." },
+    { term: "Aquifer", def: "An underground water-bearing layer; about 300 transboundary aquifers link countries' groundwaters." },
+    { term: "Drainage basin size", def: "The area in square kilometres a river collects water from, shown for each basin in the table of shared rivers." },
+    { term: "Flow volume", def: "The amount of water a river delivers, measured in billion cubic meters (BCM) or cubic meters per second." },
+    { term: "Ecosystem service", def: "A benefit of shared waters such as food, aquatic habitat, flood control and pollution control." },
+    { term: "Hydrological integration", def: "The shared dependence of riparian states on one hydrological system of a common basin." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "Using the textbook's basin table, which of the Nile and Congo carries more water per year, and by how much in BCM?",
+      given: "Nile: flow volume 84 BCM, destination Mediterranean Sea; Congo: flow volume 1,250 BCM, destination Atlantic Ocean.",
+      formula: "Method: extract the flow volume for each river and subtract to compare.",
+      substitution: "1,250 BCM - 84 BCM = 1,166 BCM.",
+      calculation: "Subtracting the Nile's annual flow from the Congo's gives the difference directly.",
+      answer: "The Congo carries about 1,166 BCM more water per year than the Nile, although the Nile is much longer at 6,671 km."
+    },
+    {
+      problem: "Estimate how many of the Earth's 145 riparian nations would be represented if all five basins shared by nine to eleven states were counted together. Which five basins are these?",
+      given: "Five basins are shared between nine and eleven states: the Congo, Niger, Nile, Rhine and Zambezi; the total set of riparian nations is 145.",
+      formula: "Method: range estimation from stated minimum and maximum shares.",
+      substitution: "Minimum: 5 x 9 = 45; maximum 5 x 11 = 55, though basins can overlap in membership.",
+      calculation: "That range of 45 to 55 basin memberships represents roughly a third of all countries within international basins, showing why cooperative management matters so widely.",
+      answer: "Roughly 45 - 55 memberships (overlapping), belonging to the Congo, Niger, Nile, Rhine and Zambezi basins."
+    },
+    {
+      problem: "A learner claims the river that flows through the most nations is also the longest river in the table. Check the claim using the textbook's data.",
+      given: "The Danube travels through the territory of 19 nations; the Nile is 6,671 km long with 11 riparian countries; the Amazon is 6,400 km.",
+      formula: "Method: compare two different variables - number of nations crossed versus river length - before claiming cause.",
+      substitution: "Danube: 19 nations but 2,850 km; Nile: 6,671 km and 11 nations; Amazon: 6,400 km and 9 nations.",
+      calculation: "Cross-nation count and length are separate measures: the Danube wins the national count but is not the longest.",
+      answer: "The claim is false: the Danube flows through the most nations (19), but the Nile at 6,671 km is the longest of the sampled rivers."
+    },
+    {
+      problem: "From the textbook's list, name the dams and economic projects over the Nile Basin located in Ethiopia, and add the one being built on the Blue Nile in the 2010s - 2020s.",
+      given: "The list includes Roseires (Sudan), Aswan High Dam (Egypt), Owen Falls Dam (Uganda), and in Ethiopia: Tekeze HEP project, Tana Beles, Tis Abay, Fincha, Koga irrigation, and the Grand Ethiopian Renaissance Dam (GERD).",
+      formula: "Method: read the country labels on the list and select the Ethiopian entries.",
+      substitution: "Ethiopian entries are: Tekeze, Tana Beles, Tis Abay, Fincha, Koga and GERD.",
+      calculation: "GERD (Grand Ethiopian Renaissance Dam) appears on the list itself as the flagship project.",
+      answer: "Ethiopian projects: Tekeze HEP, Tana Beles, Tis Abay, Fincha and Koga irrigation - plus the GERD on the Blue Nile."
+    }
+  ],
+  commonMistakes: [
+    "Including oceans, territorial seas and coastal waters in the category of transboundary waters; they are excluded.",
+    "Assuming only African rivers are transboundary; 13 of the 44 countries within international basins are in Europe.",
+    "Confusing river length with drainage size; a long river like the Nile has a smaller flow volume than the Congo.",
+    "Believing every shared river automatically causes war; they also create prospects for cooperation and regional peace.",
+    "Quoting flow data in the wrong units: the Nile's 84BCM is annual flow, while the Danube entry is given in cubic meters per second.",
+    "Forgetting aquifers - about 300 transboundary aquifers connect groundwaters below several borders.",
+    "Thinking the Jordan is a big basin: it is only 360 km long with a 540 million cubic meter flow, despite its conflicts."
+  ],
+  applications: [
+    "Sketching a map of Africa's transboundary rivers in a geography club to see how basins cross borders.",
+    "Discussing how a village near the Tekeze river benefits from hydroelectric power projects built for development.",
+    "Comparing the Nile with the Zambezi in a class debate on which basin cooperation model fits Ethiopia best.",
+    "Using the basins table to argue in a debate that Ethiopia gains little from Nile water today although 11 riparian states share it.",
+    "Reading about the Grand Ethiopian Renaissance Dam (GERD) in a news report and connecting it to the basins map.",
+    "Community action: proposing shared monitoring of a stream your kebele shares with a neighbouring kebele, as a model of riparian cooperation."
+  ],
+  summary: "Transboundary rivers are watercourses shared by two or more countries; with lakes, inland waters and aquifers they form over 263 transboundary watercourses, about 60% of global freshwater flow. They cross 145 nations, support about 40% of humanity, and cover about 60% of Africa's and South America's space. Shared basins bring ecosystem services and development prospects but also conflict, as Ethiopia and Egypt demonstrate over the Nile.",
+  visuals: [
+    {
+      type: "tableVisual",
+      config: {
+        title: "Sample Internationally Shared River Basins",
+        headers: ["River", "Source", "Flow volume", "Riparian countries", "Length (km)"],
+        rows: [
+          ["Nile", "Lake Victoria", "84 BCM", "11", "6,671"],
+          ["Congo", "Central Africa", "1,250 BCM", "11", "4,700"],
+          ["Zambezi", "Zambia", "230 BCM", "8", "3,000"],
+          ["Amazon", "Andes Mountains", "220,800 m3/s", "9", "6,400"],
+          ["Niger", "Guinea", "30 BCM", "11", "4,100"],
+          ["Jordan", "Mount Hermon", "540 million m3/yr", "5", "360"]
+        ]
+      }
+    },
+    {
+      type: "comparison",
+      config: {
+        title: "Prospects vs Impacts of Shared Rivers",
+        left: { name: "Prospects", items: ["Ecosystem services (food, habitat)", "Flood and pollution control", "Hydrological, social and economic integration", "Socioeconomic development and poverty reduction", "Regional peace and security"] },
+        right: { name: "Impacts and risks", items: ["Exhaustion and pollution of courses", "Diverging interests between users", "Barriers between agriculture, industry, power", "Contention among riparian states", "Case: Ethiopia and Egypt over the Nile"] }
+      }
+    },
+    {
+      type: "qa",
+      config: {
+        title: "Quick Check on Shared Rivers",
+        pairs: [
+          { q: "How many transboundary watercourses exist worldwide?", a: "More than 263 river and lake channels, plus numerous trans-state aquifers." },
+          { q: "How many nations do they cross and what population share do they support?", a: "145 nations, supporting about 40% of the global population." },
+          { q: "Which river flows through the most countries?", a: "The Danube, through 19 nations." },
+          { q: "Which five basins are shared by nine to eleven states?", a: "The Congo, Niger, Nile, Rhine and Zambezi." }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "Transboundary rivers are defined as:", options: ["rivers inside one country", "watercourses shared by two or more countries", "rivers entering the sea", "seasonal rivers only"], answer: 1, difficulty: 1, explanation: "Transboundary rivers are watercourses shared by two or more countries." },
+    { type: "mcq", q: "Which of the following is NOT part of the transboundary waters category?", options: ["Transboundary lakes", "Shared aquifers", "Oceans and territorial seas", "Inland waters"], answer: 2, difficulty: 2, explanation: "Oceans, territorial seas and coastal waters are not included in the transboundary waters category." },
+    { type: "tf", q: "The 263 transnational watercourses cover nearly half of the Earth's terrestrial surface.", answer: true, difficulty: 1, explanation: "The textbook states they make up around 60% of freshwater flows and cover nearly one-half of the Earth's terrestrial surface." },
+    { type: "short", q: "Name the river that flows through the most nations.", answer: "the danube|danube", difficulty: 1, explanation: "The Danube travels through the territory of 19 nations." },
+    { type: "concept", q: "Name any three of the five basins shared between nine and eleven states.", answer: "congo|niger|nile|rhine|zambezi", difficulty: 2, explanation: "The five are the Congo, Niger, Nile, Rhine and Zambezi." },
+    { type: "mcq", q: "How many riparian countries share the Nile basin?", options: ["4", "8", "11", "19"], answer: 2, difficulty: 2, explanation: "The table lists the Nile with 11 riparian countries, a length of 6,671 km and 84 BCM flow." },
+    { type: "tf", q: "The Congo river carries less water per year than the Nile.", answer: false, difficulty: 2, explanation: "The Congo carries 1,250 BCM yearly to the Atlantic, far above the Nile's 84 BCM." },
+    { type: "concept", q: "Explain one economic and one ecological prospect shared rivers offer riparian states.", answer: "hydropower and irrigation and navigation|food and habitat for aquatic life|flood and pollution control", difficulty: 3, explanation: "Prospects include socioeconomic development (dams, power, navigation) and ecosystem services such as food, aquatic habitat, flood and pollution control." },
+    { type: "mcq", q: "According to the textbook, around 80% of the area of 44 countries lies within international basins. How many of these countries are in Africa?", options: ["4", "10", "20", "30"], answer: 2, difficulty: 3, explanation: "Twenty of the 44 countries are in Africa, 13 in Europe, 7 in Asia and 4 in Latin America." },
+    { type: "short", q: "Which Nile basin dams and projects belong to Ethiopia according to the textbook list? Name two.", answer: "tekeze|tana beles|tis abay|fincha|koga|gerd", difficulty: 2, explanation: "Ethiopian entries are Tekeze HEP, Tana Beles, Tis Abay, Fincha, Koga irrigation and the GERD." },
+    { type: "concept", q: "Why might a shared watercourse become a source of dialogue rather than war, using the Nile case?", answer: "cooperation and negotiation among riparian states|potential for cooperation like ethiopia and egypt", difficulty: 3, explanation: "Shared watercourses implant potential for cooperation like Ethiopia and Egypt over the Nile; inter-state collaboration is the best option for diverging interests." }
+  ]
+};
 
-Lessons["g11-geography-ug3-t5"] = {"overview":"<b>Regional Cooperation for Sustainable Use of Shared Rivers</b> sits inside <b>Natural Resources and Conflicts over Resources</b>. Natural resources are the focus of Unit 3 of Grade 11 Geography in the Ethiopian (FDRE Ministry of Education) curriculum. First, it treats land as the base of all natural resources, then it shows how soil, water, and forests fall under heavy human pressure. Next it turns to transboundary rivers, regional cooperation, the Nile waters of Ethiopia, Sudan, and Egypt, and the conflicts that scarce resources can spark, and it points ahead to Unit 4: Global Population Dynamics and Challenges. Students will also learn how natural resources apply to real-life situations.","objectives":["Describe the functions of land and the case for careful management.","Distinguish renewable from non-renewable natural resources.","Explain why soil, water, and forests fall under the greatest pressure.","Locate major transboundary rivers and the bodies that govern them.","Compare the water potential and use of Ethiopia, Sudan, and Egypt."],"simple":"<b>Regional Cooperation for Sustainable Use of Shared Rivers in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, why riparian states need joint rules to share one basin.</li> <li>Then the Nile Basin Initiative and bodies such as the Zambezi River Authority and the US-Canada IJC.</li> <li>Finally, how cooperation prevents disputes better than rivalry.</li></ul>","detailed":"<p><b>Regional Cooperation for Sustainable Use of Shared Rivers — the essentials.</b> First, why riparian states need joint rules to share one basin. Then the Nile Basin Initiative and bodies such as the Zambezi River Authority and the US-Canada IJC. Finally, how cooperation prevents disputes better than rivalry.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Describe the functions of land and the case for careful management.</li><li>Distinguish renewable from non-renewable natural resources.</li><li>Explain why soil, water, and forests fall under the greatest pressure.</li><li>Locate major transboundary rivers and the bodies that govern them.</li><li>Compare the water potential and use of Ethiopia, Sudan, and Egypt.</li></ul>","keyTerms":[{"term":"First","def":"First, why riparian states need joint rules to share one basin."},{"term":"the Nile Basin Initiative and bodies","def":"Then the Nile Basin Initiative and bodies such as the Zambezi River Authority and the US-Canada IJC."},{"term":"Finally","def":"Finally, how cooperation prevents disputes better than rivalry."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing regional cooperation for sustainable use of shared rivers with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Map and diagram questions in the ESSLCE geography paper","Explaining a local environmental or resource issue in your own region"],"summary":"Regional Cooperation for Sustainable Use of Shared Rivers: First, why riparian states need joint rules to share one basin. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"Regional Cooperation for Sustainable Use of Shared Rivers\" is correct according to the MoE curriculum?","options":["First, why riparian states need joint rules to share one basin.","Regional Cooperation for Sustainable Use of Shared Rivers applies only to a continent other than the one this unit covers","Regional Cooperation for Sustainable Use of Shared Rivers contradicts the definition this topic gives","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, why riparian states need joint rules to share one basin. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"Regional Cooperation for Sustainable Use of Shared Rivers\"?","options":["Then the Nile Basin Initiative and bodies such as the Zambezi River Authority and the US-Canada IJC.","Regional Cooperation for Sustainable Use of Shared Rivers describes a physical process unrelated to this topic","Regional Cooperation for Sustainable Use of Shared Rivers applies only to a continent other than the one this unit covers","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Then the Nile Basin Initiative and bodies such as the Zambezi River Authority and the US-Canada IJC."},{"type":"tf","q":"True or false: First, why riparian states need joint rules to share one basin.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover regional cooperation for sustainable use of shared rivers.","answer":false,"difficulty":1,"explanation":"Regional Cooperation for Sustainable Use of Shared Rivers is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Describe the functions of land and the case for careful management.","difficulty":2,"altAnswers":["Distinguish renewable from non-renewable natural resources.","Explain why soil, water, and forests fall under the greatest pressure."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why regional cooperation for sustainable use of shared rivers matters.","answer":"Regional Cooperation for Sustainable Use of Shared Rivers is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of regional cooperation for sustainable use of shared rivers in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to regional cooperation for sustainable use of shared rivers, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
+Lessons["g11-geography-ug3-t5"] = {
+  overview: "Because shared basins cross many jurisdictions with different priorities, riparian states need organizing agreements and regional institutions. This lesson evaluates why cooperation matters and surveys the institutions that manage shared rivers.",
+  objectives: [
+    "Explain why regional cooperation is needed for the sustainable use of shared rivers",
+    "Appraise the role of regional institutions in preventing water use conflicts",
+    "Identify major river-based organizations and their member states",
+    "Interpret statistics on bilateral and multilateral water conventions",
+    "Evaluate the objectives of the Nile Basin Initiative"
+  ],
+  simple: "Rivers and lakes frequently pass across numerous governmental and jurisdictional confines whose holders have diverse priorities, intentions and interests. Because of political and institutional complications, the shared resources of a single basin cannot be managed rationally on a long-term basis without some organizing agreement and governing rule among the riparian states. Research shows plenty of institutions and treaties now govern rights, responsibilities and duties over shared watercourses: of the 263 shared basins of the world, 176 (67%) had bilateral conventions. For a rational thinker, conflict and war never benefit riparian states; formal interstate cooperation does. Examples include the Nile Basin Initiative, the Lesotho Highlands Development Authority, the Zambezi River Authority, the Kagera Basin Organization, the Southern African Power Pool, SARCCUS and the US-Canada International Joint Commission.",
+  detailed: "<p><b>Why cooperation is necessary.</b> Rivers and lakes frequently cross numerous governmental and jurisdictional confines that typically have diverse priorities, intentions and interests. The issue becomes more intricate when two or more countries are involved. Because of political and/or institutional complications, the shared resources of a single basin cannot be managed rationally on a long-term basis. This implies that some form of <b>organizing agreement</b> must be considered between the riparian states, and some form of <b>governing rule</b> is required to harmonize relations between riparian societies and organizations - to achieve effective water use and management that maximizes human welfare and safeguards the environment.</p><p><b>Institutions prevent disputes.</b> Some people argue that shared watercourses would be major sources of conflict and war between countries. But, for rational thinkers, conflicts and wars never benefit riparian states; they benefit more through inter-state formal cooperation. National, regional or international institutions are therefore considered basic components for the alleviation of potential disputes arising from the use of shared watercourses. Research shows plenty of institutions and treaties today focus on the rights, responsibilities and duties of countries sharing specific international watercourses.</p><p><b>Bilateral and multilateral treaties.</b> Of the 263 shared basins of the world, <b>176 (67%) had bilateral conventions</b>. Nevertheless, 79% of the covenants of the past were in watercourses crossing three or more riparian countries, and most joint covenants from multilateral basins were also of bilateral type (a 2:1 relation). This indicates that many of the agreements were intentionally excluding one or more riparian countries within a given catchment - a problem especially felt by downstream-ignored upstream states like Ethiopia in the Nile basin.</p><p><b>The Nile Basin Initiative (NBI).</b> The NBI grew from a pact created to coordinate Nile basin resource management and socio-economic development in the riparian states. It was initiated in <b>December 1992</b> with the creation of a Technical Cooperation Committee for the Promotion of Development and Environmental Protection of the Nile Basin (<b>TECCONILE</b>), first initiated by six Nile River riparian states: <b>Egypt, Sudan, Rwanda, Uganda, Tanzania and Zaire</b>. Ethiopia, Kenya, Eritrea and Burundi were observers at the initial time. Between 1997 and 2001 considerable progress was made in designing structures and institutions for a new basin regime, and TECCONILE was replaced by the NBI in 1999. The NBI was first signed by Ministers of Water Resources of the riparian states on <b>22 February 1999 in Dar-es-Salaam, Tanzania</b>. Its main objectives were to promote sustainable socio-economic development in the basin states, equitable utilization and benefit of the basin resources, recognition of the rights of all riparian states, and an inclusive legal framework (the Nile Task) for equitable and sustainable allocation of Nile waters and resources.</p><p><b>African river-basin organizations.</b> The <b>Lesotho Highlands Development Authority (LHDA)</b> was created by Lesotho and the Republic of South Africa by a treaty signed in <b>1986</b> to transfer water from the head-reaches of the <b>Orange River</b> to the key industrial areas of the RSA in the Pretoria-Witwatersrand-Vereeniging region; a Joint Permanent Technical Commission (JPTC) plus the LHDA in Lesotho and the Trans-Caledon Tunnel Authority (TCTA) in the RSA implement the project. The <b>Zambezi River Authority (ZRA)</b> is a bilateral river basin organization between <b>Zambia and Zimbabwe</b> whose objectives are to operate and maintain the <b>Kariba dam</b>, investigate new projects, and collect data linked with national utilities. The <b>Kagera Basin Organization (KBO)</b> was created in <b>1977</b> by Burundi, Rwanda and Tanzania, later joined by Uganda in 1981, to strengthen cooperation through joint planning and development of sub-regional potentials. The <b>Southern African Power Pool (SAPP)</b>, created in <b>1995</b>, serves a twelve-country region (Angola, Botswana, the Democratic Republic of Congo, Lesotho, Malawi, Mozambique, Namibia, South Africa, Swaziland, Tanzania, Zambia and Zimbabwe) with large cheap hydroelectric reserves in the north (principally the Inga reservoir), large low-cost coal deposits in the RSA, and the Kariba Dam on the Zambia-Zimbabwe border playing the buffer role. <b>SARCCUS</b> (Southern African Regional Commission for the Conservation and Utilization of the Soil) coordinates the conservation of water and soils on shared river basins among South African countries.</p><p><b>Beyond Africa.</b> The <b>US-Canada International Joint Commission (IJC)</b> is an international institution working on water management in the Great Lakes region of North America, created by the <b>Waters Treaty signed between the USA and Canada in 1909</b>. It works not only on water sharing but also on the lakes' environmental management and pollution control, and it is cited as successful in resolving all transboundary issues referred to it - proof that well-built institutional cooperation can hold a basin together for over a century.</p>",
+  keyTerms: [
+    { term: "Regional cooperation", def: "The joint action of riparian states through agreements and institutions to use and manage shared rivers sustainably." },
+    { term: "River basin organization (RBO)", def: "An institution created by riparian states to jointly manage a shared basin, such as the ZRA or KBO." },
+    { term: "Bilateral convention", def: "A treaty between two states; 176 of the 263 shared basins have bilateral conventions." },
+    { term: "Multilateral agreement", def: "A treaty involving three or more riparian countries, such as the NBI." },
+    { term: "TECCONILE", def: "The Technical Cooperation Committee for the Promotion of Development and Environmental Protection of the Nile Basin, initiated in December 1992 and replaced by the NBI in 1999." },
+    { term: "Nile Basin Initiative (NBI)", def: "The multilateral pact signed on 22 February 1999 in Dar-es-Salaam to promote sustainable socio-economic development, equitable utilization and recognition of the rights of all riparian states." },
+    { term: "Organizing agreement", def: "A formal arrangement between riparian states needed for long-term rational management of a shared basin." },
+    { term: "Kariba Dam", def: "The dam on the Zambia-Zimbabwe border operated by the ZRA and a buffer of the Southern African Power Pool." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "Compute the share of shared basins that had bilateral conventions, and state what the ratio reveals about who was included in past agreements.",
+      given: "Of the 263 shared basins of the world, 176 had bilateral conventions; 79% of past covenants were in watercourses crossing three or more riparian countries.",
+      formula: "Method: percentage = (part / total) x 100.",
+      substitution: "176 / 263 = 0.67, so 0.67 x 100 = 67%.",
+      calculation: "Since most multilateral basins were covered only by bilateral deals (a 2:1 relation), many agreements intentionally excluded one or more riparian countries of the same catchment.",
+      answer: "67% (176 of 263) had bilateral conventions - showing that even in three-plus-riparian basins, agreements often left some states out."
+    },
+    {
+      problem: "Ethiopia was an observer when TECCONILE was formed by six states. Which six states initiated it, and why does the observer status matter for water equity?",
+      given: "TECCONILE (December 1992) was initiated by Egypt, Sudan, Rwanda, Uganda, Tanzania and Zaire; Ethiopia, Kenya, Eritrea and Burundi were observers.",
+      formula: "Concept: membership status determines who has a voice in setting water-sharing rules.",
+      substitution: "Six founding members set the first agenda; Ethiopia, as an observer, had no full decision role at the initial stage.",
+      calculation: "Later, TECCONILE was replaced by the NBI in 1999, with Ethiopia joining as a full member - correcting that historical exclusion.",
+      answer: "Founders: Egypt, Sudan, Rwanda, Uganda, Tanzania and Zaire. Ethiopia's observer status shows the agreements initially excluded a major upstream contributor, an equity problem the NBI later partly addressed."
+    },
+    {
+      problem: "Classify each institution by its membership: NBI, ZRA, KBO, SAPP and IJC. Which are bilateral and which are multilateral?",
+      given: "NBI: many Nile riparian states; ZRA: Zambia and Zimbabwe; KBO: Burundi, Rwanda, Tanzania, later Uganda; SAPP: twelve southern African countries; IJC: USA and Canada.",
+      formula: "Method: count the member states; two states means bilateral, three or more means multilateral.",
+      substitution: "ZRA (2) - bilateral; IJC (2) - bilateral; NBI, KBO and SAPP (3 or more) - multilateral.",
+      calculation: "ZRA and IJC are plain bilateral bodies; NBI, KBO and SAPP coordinate several states.",
+      answer: "Bilateral: ZRA, IJC. Multilateral: NBI, KBO, SAPP."
+    },
+    {
+      problem: "Which organization would you contact for each problem, and why? (a) A shared lake with growing pollution; (b) Two countries planning a hydropower transfer scheme from a river headwater; (c) Member states wanting to pool cheap electricity regionally.",
+      given: "IJC manages Great Lakes water sharing, environmental management and pollution control; LHDA (1986 treaty) transfers Orange River headwater water to the RSA industrial region; SAPP (1995) pools regional power supply.",
+      formula: "Method: match the mandate of each real institution to the problem.",
+      substitution: "(a) Pollution of a shared lake - IJC; (b) Headwaters-to-industry transfer - LHDA with its JPTC and TCTA; (c) Regional power pooling - SAPP.",
+      calculation: "Each mandate in the textbook descriptions answers one scenario exactly.",
+      answer: "(a) IJC; (b) LHDA; (c) SAPP."
+    }
+  ],
+  commonMistakes: [
+    "Assuming a basin shared by many states is automatically managed by all; most past covenants were bilateral and excluded some riparian states.",
+    "Confusing TECCONILE (1992) with the NBI (signed 22 February 1999).",
+    "Recalling the founding states wrong: Ethiopia was an observer, not an initial member, of TECCONILE.",
+    "Thinking the ZRA covers the whole Zambezi basin community; it is a bilateral Zambia-Zimbabwe authority focused on the Kariba great dam operations.",
+    "Believing regional organizations only exist in Africa; the IJC of the USA and Canada dates to 1909.",
+    "Confusing arbitration power with coordination power: institutions harmonize interests, they do not impose one state's will.",
+    "Assuming water organizations deal only with water quality and ignoring mutual power pools like SAPP."
+  ],
+  applications: [
+    "Debating in class why Ethiopia should be a full, not an observer, member in Nile institutions.",
+    "Drafting a model bilateral agreement between two kebeles over a shared spring, applying the idea of governing rules.",
+    "Researching how SAPP-style power pooling could let East African states trade renewable electricity.",
+    "Proposing a regional website that publishes data flow and consultations for a shared basin, following the information exchange principle.",
+    "Explaining to a community council how joint environmental protection efforts lower conflict risk between neighbors.",
+    "Mapping which African basins in your country have formal river basin organizations and which lack them."
+  ],
+  summary: "Because shared rivers cross jurisdictions with diverse priorities, rational long-term management requires organizing agreements and governing rules among riparian states. Of the 263 shared basins, 176 (67%) have bilateral conventions, and many past agreements excluded some riparian countries. Institutions such as the NBI (1999), LHDA (1986), ZRA, KBO, SAPP (1995), SARCCUS and the US-Canada IJC (1909) show that formal cooperation, not conflict, benefits all riparian states.",
+  visuals: [
+    {
+      type: "timeline",
+      config: {
+        title: "Milestones of Regional Cooperation over Shared Waters",
+        events: [
+          { label: "1909", detail: "USA and Canada sign the Waters Treaty creating the IJC for the Great Lakes." },
+          { label: "1977", detail: "Burundi, Rwanda and Tanzania create the Kagera Basin Organization; Uganda joins in 1981." },
+          { label: "1986", detail: "Lesotho and the RSA sign the LHWA treaty for the Orange River water transfer." },
+          { label: "1992", detail: "TECCONILE is created by six Nile riparian states." },
+          { label: "1995", detail: "The twelve-country Southern African Power Pool (SAPP) is created." },
+          { label: "1999", detail: "Ministers of Water Resources sign the NBI at Dar-es-Salaam on 22 February." }
+        ]
+      }
+    },
+    {
+      type: "tableVisual",
+      config: {
+        title: "Regional Institutions over Shared Rivers",
+        headers: ["Institution", "Members", "Main work"],
+        rows: [
+          ["NBI", "Nile riparian states", "Sustainable development, equitable utilization, rights of all riparian states"],
+          ["LHDA", "Lesotho and RSA", "Transferring Orange River headwater water to RSA industrial areas"],
+          ["ZRA", "Zambia and Zimbabwe", "Operating the Kariba dam, new projects, data collection"],
+          ["KBO", "Burundi, Rwanda, Tanzania, Uganda", "Joint planning of Kagera basin potentials"],
+          ["SAPP", "12 southern African countries", "Pooling cheap regional hydroelectric power"],
+          ["IJC", "USA and Canada", "Great Lakes water sharing, environment and pollution control"]
+        ]
+      }
+    },
+    {
+      type: "qa",
+      config: {
+        title: "Exam Quick-Check",
+        pairs: [
+          { q: "Why can a single basin not be rationally managed without agreement?", a: "Political and institutional complications among states with diverse priorities block long-term management." },
+          { q: "What share of shared basins had bilateral conventions?", a: "176 of 263, about 67%." },
+          { q: "What risk do mostly-bilateral agreements carry?", a: "They can intentionally exclude one or more riparian countries of the same catchment." },
+          { q: "Name two Nile-specific Ethiopian projects listed with the NBI era.", a: "Tekeze HEP and the Grand Ethiopian Renaissance Dam (GERD), plus Tana Beles, Tis Abay, Fincha and Koga." }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "Why do riparian states need organizing agreements for shared basins?", options: ["to raise water prices", "because political and institutional complications block rational long-term management", "to sell basins to investors", "because rivers need dredging"], answer: 1, difficulty: 2, explanation: "Due to political and/or institutional complications, shared resources of a single basin cannot be rationally managed without an organizing agreement and governing rule." },
+    { type: "tf", q: "Of the 263 shared basins, 176 (67%) had bilateral conventions.", answer: true, difficulty: 1, explanation: "The textbook states 176 of the 263 basins (67%) had bilateral conventions." },
+    { type: "mcq", q: "TECCONILE, begun in December 1992, was first initiated by which six riparian states?", options: ["Ethiopia, Egypt, Sudan, Kenya, Eritrea, Burundi", "Egypt, Sudan, Rwanda, Uganda, Tanzania, Zaire", "Egypt, Sudan, Ethiopia, Uganda, Kenya, Tanzania", "Sudan, Zaire, Rwanda, Burundi, Ethiopia, Kenya"], answer: 1, difficulty: 2, explanation: "TECCONILE was initiated by Egypt, Sudan, Rwanda, Uganda, Tanzania and Zaire; Ethiopia, Kenya, Eritrea and Burundi were observers." },
+    { type: "short", q: "On what date and in which city was the NBI first signed by Ministers of Water Resources?", answer: "22 february 1999 in dar-es-salaam|22 february 1999", difficulty: 2, explanation: "The NBI was first signed on 22 February 1999 in Dar-es-Salaam, Tanzania." },
+    { type: "concept", q: "Explain one risk of the past treaty pattern where multilateral basins were covered mostly by bilateral deals.", answer: "intentionally excluding one or more riparian countries|exclusion of some riparian states", difficulty: 3, explanation: "Because such covenants were bilateral in character, many agreements intentionally excluded one or more riparian countries within a catchment." },
+    { type: "mcq", q: "Which institution created in 1986 transfers water from the head-reaches of the Orange River to South Africa's industrial region?", options: ["KBO", "ZRA", "LHDA", "SAPP"], answer: 2, difficulty: 2, explanation: "The Lesotho Highlands Development Authority was created by the 1986 treaty between Lesotho and the RSA." },
+    { type: "tf", q: "The Zambezi River Authority operates and maintains the Kariba dam.", answer: true, difficulty: 1, explanation: "ZRA objectives include operating and maintaining the Kariba dam, investigating new projects and collecting data." },
+    { type: "concept", q: "State two main objectives of the Nile Basin Initiative.", answer: "sustainable socioeconomic development|equitable utilization|recognition of the rights of all riparian states|inclusive legal framework", difficulty: 2, explanation: "Objectives include sustainable socio-economic development, equitable utilization and benefit of basin resources, recognition of riparian rights, and an inclusive legal framework for allocating Nile waters." },
+    { type: "mcq", q: "Which commission created in 1909 is cited as successful in resolving all transboundary issues referred to it?", options: ["SARCCUS", "IJC", "JPTC", "TCTA"], answer: 1, difficulty: 2, explanation: "The US-Canada International Joint Commission, created by the 1909 Waters Treaty, resolved all issues referred to it." },
+    { type: "ordering", q: "Arrange the Nile cooperation sequence from earliest to latest.", options: ["TECCONILE created (1992)", "NBI signed (22 February 1999)", "Designing structures and institutions (1997-2001)"], answer: 1, difficulty: 3, explanation: "TECCONILE opened in December 1992, structure-design ran 1997-2001, and the NBI was signed on 22 February 1999." },
+    { type: "short", q: "Name the objective of SARCCUS.", answer: "coordinating the conservation of water and soils on shared river basins|conservation of water and soils", difficulty: 2, explanation: "SARCCUS was established to coordinate the conservation of water and soils on the shared river basins." }
+  ]
+};
 
-Lessons["g11-geography-ug3-t6"] = {"overview":"<b>Potential and Actual Use of Water in Ethiopia, Egypt, and the Sudan</b> sits inside <b>Natural Resources and Conflicts over Resources</b>. Natural resources are the focus of Unit 3 of Grade 11 Geography in the Ethiopian (FDRE Ministry of Education) curriculum. First, it treats land as the base of all natural resources, then it shows how soil, water, and forests fall under heavy human pressure. Next it turns to transboundary rivers, regional cooperation, the Nile waters of Ethiopia, Sudan, and Egypt, and the conflicts that scarce resources can spark, and it points ahead to Unit 4: Global Population Dynamics and Challenges. Students will also learn how natural resources apply to real-life situations.","objectives":["Describe the functions of land and the case for careful management.","Distinguish renewable from non-renewable natural resources.","Explain why soil, water, and forests fall under the greatest pressure.","Locate major transboundary rivers and the bodies that govern them.","Compare the water potential and use of Ethiopia, Sudan, and Egypt."],"simple":"<b>Potential and Actual Use of Water in Ethiopia, Egypt, and the Sudan in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, the shared history and Nile ties of Ethiopia, Sudan, and Egypt.</li> <li>Then the colonial-era treaties that long favoured downstream Egypt and Sudan.</li> <li>Finally, the GERD and the debate over the 1959 agreement.</li></ul>","detailed":"<p><b>Potential and Actual Use of Water in Ethiopia, Egypt, and the Sudan — the essentials.</b> First, the shared history and Nile ties of Ethiopia, Sudan, and Egypt. Then the colonial-era treaties that long favoured downstream Egypt and Sudan. Finally, the GERD and the debate over the 1959 agreement.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Describe the functions of land and the case for careful management.</li><li>Distinguish renewable from non-renewable natural resources.</li><li>Explain why soil, water, and forests fall under the greatest pressure.</li><li>Locate major transboundary rivers and the bodies that govern them.</li><li>Compare the water potential and use of Ethiopia, Sudan, and Egypt.</li></ul>","keyTerms":[{"term":"First","def":"First, the shared history and Nile ties of Ethiopia, Sudan, and Egypt."},{"term":"Finally","def":"Finally, the GERD and the debate over the 1959 agreement."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing potential and actual use of water in ethiopia, egypt, and the sudan with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Map and diagram questions in the ESSLCE geography paper","Explaining a local environmental or resource issue in your own region"],"summary":"Potential and Actual Use of Water in Ethiopia, Egypt, and the Sudan: First, the shared history and Nile ties of Ethiopia, Sudan, and Egypt. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"Potential and Actual Use of Water in Ethiopia, Egypt, and the Sudan\" is correct according to the MoE curriculum?","options":["First, the shared history and Nile ties of Ethiopia, Sudan, and Egypt.","Potential and Actual Use of Water in Ethiopia, Egypt, and the Sudan applies only to a continent other than the one this unit covers","Potential and Actual Use of Water in Ethiopia, Egypt, and the Sudan contradicts the definition this topic gives","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, the shared history and Nile ties of Ethiopia, Sudan, and Egypt. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"Potential and Actual Use of Water in Ethiopia, Egypt, and the Sudan\"?","options":["Then the colonial-era treaties that long favoured downstream Egypt and Sudan.","Potential and Actual Use of Water in Ethiopia, Egypt, and the Sudan describes a physical process unrelated to this topic","Potential and Actual Use of Water in Ethiopia, Egypt, and the Sudan applies only to a continent other than the one this unit covers","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Then the colonial-era treaties that long favoured downstream Egypt and Sudan."},{"type":"tf","q":"True or false: First, the shared history and Nile ties of Ethiopia, Sudan, and Egypt.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover potential and actual use of water in ethiopia, egypt, and the sudan.","answer":false,"difficulty":1,"explanation":"Potential and Actual Use of Water in Ethiopia, Egypt, and the Sudan is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Describe the functions of land and the case for careful management.","difficulty":2,"altAnswers":["Distinguish renewable from non-renewable natural resources.","Explain why soil, water, and forests fall under the greatest pressure."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why potential and actual use of water in ethiopia, egypt, and the sudan matters.","answer":"Potential and Actual Use of Water in Ethiopia, Egypt, and the Sudan is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of potential and actual use of water in ethiopia, egypt, and the sudan in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to potential and actual use of water in ethiopia, egypt, and the sudan, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
+Lessons["g11-geography-ug3-t6"] = {
+  overview: "Ethiopia, Sudan and Egypt share the Nile, but the water they use differs sharply from the water they possess. This lesson compares potential and actual water use of the three countries and shows how colonial-era treaties still shape the dispute.",
+  objectives: [
+    "Compare the actual per capita water use of Ethiopia, Sudan and Egypt",
+    "Define the WHO water availability threshold and apply it",
+    "Describe the historical ties among the three countries",
+    "Summarize the major Nile treaties from 1929 and 1959",
+    "Explain why the 1959 treaty is contested although most of the Nile's water flows from Ethiopia"
+  ],
+  simple: "Ethiopia, Sudan and Egypt are African countries sharing several socioeconomic, cultural and natural resources. Ethiopia and Egypt exchanged popes for their Orthodox churches through long history, and Ethiopia and Sudan share a long land border plus strong economic ties. All three share the Nile water. Actual per capita water use is about 1,666 cubic meters per person per year in Ethiopia, around 1,981 cubic meters in Sudan, and only about 830 cubic meters in Egypt - below the 1,700 cubic meters per person per annum proposed by the World Health Organization. Although the Nile is shared by 11 riparian states and its basin supports over 160 million people, past hydropower and irrigation use was dominated by Egypt and Sudan through treaties like those of 1929 and 1959, while upstream countries, including Ethiopia, were left out.",
+  detailed: "<p><b>Three neighbors, one river.</b> Ethiopia, Sudan and Egypt share several socioeconomic, cultural and natural resources and have experienced similar culture, religion and even economic characteristics through their long history. Ethiopia and Egypt exchanged popes for their Orthodox Churches in the past; Ethiopia and Sudan share a long land border plus strong economic ties; and the three countries together share the Nile water and its resources. Yet they sometimes appear to experience conflicts among themselves: the sources of conflict originate from the <b>land and water resources shared among them</b>, and the main cause emanates from the utilization and development of the Nile waters.</p><p><b>Actual use compared with the WHO standard.</b> Actual per capita water use differs sharply: in <b>Ethiopia about 1,666 cubic meters</b> per person per year; in <b>Sudan about 1,981 cubic meters</b> per person per annum; and in <b>Egypt only about 830 cubic meters</b> per person per year. Egypt's figure is below the <b>1,700 cubic meters</b> per person per annum proposed by the World Health Organization (WHO) - meaning that despite its historic grip on the Nile, Egypt lives under severe per-capita water scarcity, which intensifies its sensitivity to any new upstream use.</p><p><b>The Nile and its users.</b> The Nile River is shared by <b>11 riparian countries</b>. The basin supports over <b>160 million people</b>, while the total population of the riparian states is estimated at over <b>300 million</b>. Yet the use of Nile waters for hydropower generation and irrigation was in the past <b>exclusively dominated by Egypt and Sudan</b>; widespread poverty and lingering political instability hindered upstream countries from effectively using the potential of the Nile. This mismatch between origin and use is the heart of the conflict: the great majority of the Nile water flows from Ethiopia, while the great share of its consumption happens downstream.</p><p><b>The 1929 treaty.</b> On 7 May <b>1929</b>, an 'Exchange of Notes' on the re-use of the waters of the River Nile for irrigation was signed between the <b>United Kingdom and Egypt</b>. Egypt claimed 'natural and historic rights' over the Nile waters, and the United Kingdom recognized Egypt's 'natural and historic rights in the waters of the Nile'. In 1952 Egypt and the UK exchanged notes on the Owen Falls Dam and Aswan High Dam proposal, the Aswan High Dam being proposed with 156 BCM per year of storage capacity. On 8 November 1954 Egypt demanded a share of additional water from Sudan, and that first round of negotiations ended inconclusively.</p><p><b>The 1959 treaty.</b> On 8 November <b>1959</b>, Egypt and Sudan signed a <b>treaty for the full utilization of the Nile waters</b> and created a <b>Permanent Joint Technical Commission</b>. Under it, all Nile water was distributed between just the two countries: Egypt was granted <b>55.5 BCM</b> and Sudan <b>18.5 BCM</b>, with the rest left for losses from evaporation and seepage. Ethiopia was not a party. As the unit summary stresses, Ethiopia will never be forced to accept the treaty signed in her absence, and the right of Ethiopia was deliberately overlooked in the 1959 treaty - which is why Ethiopia contests it and argues it has no obligation to abide by it.</p><p><b>Later developments.</b> Later conventions confirmed the intention to cooperate on Nile waters and to refrain from engaging in activities that cause appreciable harm to the interests of others; cooperation on sustainable development of the basin led to the creation of the <b>Lake Victoria Basin Commission</b>; and the signing of the <b>Cooperative Framework Agreement (CFA)</b> was designed to create a permanent Nile River Basin Commission based on common understanding, mutual benefit, good faith, win-win cooperation and principles of international law. Sudan and Egypt nowadays challenge the construction of the <b>GERD (Grand Ethiopian Renaissance Dam)</b>, saying it might affect their water supply, and they often argue Ethiopia should abide by the 1959 agreement; Ethiopia replies that the 1959 treaty allotted nothing to Ethiopia at all.</p>",
+  keyTerms: [
+    { term: "Per capita water use", def: "The volume of water used per person per year; Ethiopia about 1,666, Sudan about 1,981, Egypt about 830 cubic meters." },
+    { term: "WHO water threshold", def: "The 1,700 cubic meters of water per person per annum proposed by the World Health Organization; less than this signals water stress." },
+    { term: "'Natural and historic rights'", def: "The claim Egypt made in the 1929 Exchange of Notes with the UK that its rights over Nile waters were natural and historic." },
+    { term: "1959 Treaty", def: "The Egypt-Sudan agreement for full utilization of the Nile waters, granting Egypt 55.5 BCM and Sudan 18.5 BCM and creating a Permanent Joint Technical Commission." },
+    { term: "Permanent Joint Technical Commission", def: "The Egypt-Sudan body created in 1959 to oversee the distributed Nile water." },
+    { term: "CFA", def: "The Cooperative Framework Agreement designed to create a permanent Nile River Basin Commission on principles of mutual benefit, good faith, win-win and international law." },
+    { term: "GERD", def: "The Grand Ethiopian Renaissance Dam on the Blue Nile, the project whose construction Sudan and Egypt challenge." },
+    { term: "Appreciable harm", def: "The standard in later conventions requiring states to refrain from activities causing significant damage to other riparian states' interests." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "Using the per capita figures, compare Ethiopia's, Sudan's and Egypt's annual water use per person and identify which country falls short of the WHO proposal.",
+      given: "Ethiopia 1,666 m3 per person per year; Sudan 1,981 m3; Egypt 830 m3; WHO proposes 1,700 m3 per person per annum.",
+      formula: "Method: subtraction against the 1,700 m3 benchmark to find the gap.",
+      substitution: "Ethiopia: 1,700 - 1,666 = 34 m3 above the minimum; Sudan: 1,981 - 1,700 = 281 m3 above; Egypt: 1,700 - 830 = 870 m3 short.",
+      calculation: "Ethiopia barely clears the threshold while Egypt falls far below it, about half the benchmark.",
+      answer: "Egypt's per capita use (about 830 m3) is the only one below the WHO's 1,700 m3, which explains its acute sensitivity over the Nile."
+    },
+    {
+      problem: "How many BCM of Nile water were distributed by the 1959 treaty, and how much was left for losses?",
+      given: "The 1959 treaty granted Egypt 55.5 BCM and Sudan 18.5 BCM; the rest was left for losses from evaporation and seepage.",
+      formula: "Method: sum the allocated volumes and subtract from the basin's annual flow.",
+      substitution: "55.5 + 18.5 = 74 BCM allocated to Egypt and Sudan combined.",
+      calculation: "Deducting 74 BCM from the approximate annual flow of 84 BCM stated in the basin table leaves about 10 BCM counted for evaporation and seepage losses.",
+      answer: "74 BCM was split between Egypt (55.5) and Sudan (18.5), with almost everything else written off as evaporation and seepage - and nothing for Ethiopia."
+    },
+    {
+      problem: "Ethiopia argues it is not bound by the 1959 treaty. Build the geographic argument from the data.",
+      given: "Over 85% of the Nile water flows from Ethiopia; the 1959 treaty was signed in Ethiopia's absence; Egypt was granted 55.5 BCM and Sudan 18.5 BCM; Ethiopia received no share.",
+      formula: "Principle: fairness of allocation should relate water origin and basin population to shares.",
+      substitution: "The biggest contributor (Ethiopia) signed nothing and was allotted nothing, while non-contributing allocations went fully to downstream states.",
+      calculation: "A treaty signed in a country's absence cannot bind it under basic international principles of sovereignty as stated in the unit summary.",
+      answer: "Ethiopia will not be forced to accept a treaty signed in her absence and whose allocation deliberately overlooked her rights - hence the continuing contention over use and development of Nile water."
+    },
+    {
+      problem: "The Nile basin supports over 160 million people while the riparian states total over 300 million. What does this gap indicate about pressure on the river?",
+      given: "Basin population: over 160 million; total riparian-state population: over 300 million; actual irrigation and hydropower use historically dominated by Egypt and Sudan.",
+      formula: "Concept: basin population concentrates directly on the water resource, while state-wide population could spill into basins and raise demand.",
+      substitution: "About half of the three countries' wider populations already live inside the Nile basin; the other half can migrate in and raise demand.",
+      calculation: "Meet that with upstream countries being too poor and unstable to use the river, and the pressure argues for cooperative, not exclusive, use.",
+      answer: "Half of all riparian-state people depend directly on one basin dominated by two downstream users - a formula for rising demand and future contention unless use becomes equitable."
+    }
+  ],
+  commonMistakes: [
+    "Reciting the 1959 allocation incorrectly: Egypt 55.5 BCM and Sudan 18.5 BCM, not an equal split.",
+    "Assuming Ethiopia has a right under the 1959 treaty - the pact allotted Ethiopia nothing and was signed in her absence.",
+    "Mixing actual use with potential: Ethiopia's 1,666 m3 per capita is actual use, not its unrealized hydropower potential.",
+    "Forgetting Egypt's per capita use is the lowest of the three and below the WHO's 1,700 m3 benchmark.",
+    "Thinking only Egypt and Sudan use the Nile for irrigation and hydropower and that Ethiopia uses none, ignoring schemes like Tana Beles, Fincha and Koga.",
+    "Believing the conflict is about religion or politics only; the textbook traces it to shared land and water resources.",
+    "Assuming the Nile average annual flow is shared fully with riparian states and forgetting evaporation and seepage consume the rest."
+  ],
+  applications: [
+    "Writing a model solution paragraph that allocates Nile water per capita on the principles of equitable use and no appreciable harm.",
+    "Graphing per capita water use for Ethiopia, Sudan and Egypt against the WHO benchmark line for a class display.",
+    "Researching the CFA's proposal for a permanent Nile River Basin Commission and presenting its benefits.",
+    "Interviewing a family member on how a change in household water supply, like a new well, would change daily life - connecting local scarcity to the basin-scale picture.",
+    "Debating whether an upper riparian state is ever bound by a treaty signed in its absence.",
+    "Explaining to a community why Ethiopia fears water allocation regimes set under colonial-era logic."
+  ],
+  summary: "Ethiopia, Sudan and Egypt share the Nile and long-standing cultural ties, but actual per capita water use runs about 1,666 m3 in Ethiopia, 1,981 m3 in Sudan and just 830 m3 in Egypt, the only one below the WHO's 1,700 m3 benchmark. Under the 1959 Egypt-Sudan treaty, Egypt received 55.5 BCM and Sudan 18.5 BCM - made without Ethiopia, to whom no share was given despite most Nile water flowing from Ethiopia. Sudan and Egypt now challenge the GERD and invoke the 1959 pact, which Ethiopia rejects as signed in her absence.",
+  visuals: [
+    {
+      type: "comparison",
+      config: {
+        title: "Per Capita Water Use, Three Countries vs WHO Benchmark",
+        left: { name: "Above 1,700 m3 WHO bar", items: ["Sudan: about 1,981 m3 per person per year", "Ethiopia: about 1,666 m3 per person per year"] },
+        right: { name: "Below 1,700 m3 WHO bar", items: ["Egypt: about 830 m3 per person per year", "Nearly half the WHO benchmark", "Explains Egypt's Nile sensitivity"] }
+      }
+    },
+    {
+      type: "tableVisual",
+      config: {
+        title: "Notable Conventions on the Nile Waters",
+        headers: ["Year", "Parties", "Key content"],
+        rows: [
+          ["7 May 1929", "UK and Egypt", "Egypt's 'natural and historic rights' in the Nile waters recognized in the Exchange of Notes"],
+          ["1952", "Egypt and UK", "Owen Falls Dam and Aswan High Dam proposal (156 BCM per year storage)"],
+          ["8 Nov 1954", "Egypt and Sudan", "Egypt demands additional water; first talks end inconclusively"],
+          ["8 Nov 1959", "Egypt and Sudan", "Full utilization treaty: Egypt 55.5 BCM, Sudan 18.5 BCM; Permanent Joint Technical Commission created"],
+          ["Later", "Basin states", "Cooperation on sustainable development; Lake Victoria Basin Commission; signing of the CFA for a permanent Nile River Basin Commission"]
+        ]
+      }
+    },
+    {
+      type: "qa",
+      config: {
+        title: "Quick Check on the Three Countries",
+        pairs: [
+          { q: "Which of the three countries is below the WHO per capita water threshold?", a: "Egypt, with about 830 m3 per person per year against the 1,700 m3 proposal." },
+          { q: "How many riparian countries share the Nile and what population does the basin support?", a: "11 riparian states; the basin supports over 160 million people, and riparian states total over 300 million." },
+          { q: "Why does Ethiopia reject the 1959 treaty?", a: "It was signed in Ethiopia's absence and allotted no water to Ethiopia despite most Nile water originating there." },
+          { q: "What did later conventions commit states to?", a: "To cooperate and refrain from activities causing appreciable harm to the interests of others." }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "The actual per capita water use of Egypt is about:", options: ["830 cubic meters per person per year", "1,666 cubic meters", "1,981 cubic meters", "3,300 cubic meters"], answer: 0, difficulty: 2, explanation: "Egypt's per capita use is about 830 cubic meters per person per year - low compared with Ethiopia and Sudan." },
+    { type: "tf", q: "Egypt's per capita water use is below the 1,700 cubic meters proposed by WHO.", answer: true, difficulty: 1, explanation: "Egypt's usage of about 830 m3 is less than the 1,700 cubic meters per person per annum proposed by WHO." },
+    { type: "mcq", q: "Under the 1959 agreement, how much Nile water went to Egypt and how much to Sudan?", options: ["Egypt 18.5, Sudan 55.5 BCM", "Egypt 55.5, Sudan 18.5 BCM", "Both 37 BCM each", "Ethiopia 55.5, Egypt 18.5 BCM"], answer: 1, difficulty: 2, explanation: "Egypt was granted 55.5 BCM while Sudan received 18.5 BCM per year under the 1959 treaty." },
+    { type: "short", q: "How many riparian countries share the Nile River?", answer: "11|eleven", difficulty: 1, explanation: "The Nile River is shared by 11 riparian countries." },
+    { type: "concept", q: "Explain the historical ties the textbook mentions between Ethiopia and Egypt.", answer: "exchanging popes for their orthodox churches|orthodox church popes exchanged", difficulty: 2, explanation: "Ethiopia and Egypt exchanged popes for their Orthodox Churches during their past long history." },
+    { type: "tf", q: "The 1959 treaty allotted a large share of Nile water to Ethiopia.", answer: false, difficulty: 1, explanation: "All Nile water was distributed to Egypt and Sudan; Ethiopia received none, which the textbook says deliberately overlooked her right." },
+    { type: "mcq", q: "Which body did Egypt and Sudan create under the 1959 treaty?", options: ["The NBI", "TECCONILE", "A Permanent Joint Technical Commission", "The Lake Victoria Basin Commission"], answer: 2, difficulty: 2, explanation: "The 1959 treaty created the Permanent Joint Technical Commission." },
+    { type: "concept", q: "Why is Egypt's actual water use a paradox in the Nile dispute?", answer: "it uses historically the most but has the lowest per capita use and falls below the who threshold", difficulty: 3, explanation: "Historically Egypt dominated Nile irrigation and hydropower, yet its per capita use (about 830 m3) is the lowest of the three and under the WHO benchmark - so it contests any reduced flow." },
+    { type: "short", q: "Name the agreement signed later by basin states to create a permanent Nile River Basin Commission.", answer: "cfa|cooperative framework agreement", difficulty: 2, explanation: "The signing of the Cooperative Framework Agreement (CFA) was for the creation of a permanent Nile River Basin Commission." },
+    { type: "concept", q: "What is Sudan's and Egypt's stated fear about the GERD, and what does Ethiopia counter?", answer: "gerd might affect their water supply|they say ethiopia should abide by the 1959 agreement", difficulty: 3, explanation: "Sudan and Egypt challenge the GERD saying it might affect their water supply and argue Ethiopia should abide by 1959; Ethiopia rejects a treaty signed in her absence that gave her nothing." },
+    { type: "tf", q: "In the past, the use of Nile water for hydropower and irrigation was dominated exclusively by Egypt and Sudan.", answer: true, difficulty: 2, explanation: "Past use was exclusively dominated by Egypt and Sudan, while poverty and political instability hindered upstream countries." }
+  ]
+};
 
-Lessons["g11-geography-ug3-t7"] = {"overview":"<b>Conflicts over Resources</b> sits inside <b>Natural Resources and Conflicts over Resources</b>. Natural resources are the focus of Unit 3 of Grade 11 Geography in the Ethiopian (FDRE Ministry of Education) curriculum. First, it treats land as the base of all natural resources, then it shows how soil, water, and forests fall under heavy human pressure. Next it turns to transboundary rivers, regional cooperation, the Nile waters of Ethiopia, Sudan, and Egypt, and the conflicts that scarce resources can spark, and it points ahead to Unit 4: Global Population Dynamics and Challenges. Students will also learn how natural resources apply to real-life situations.","objectives":["Describe the functions of land and the case for careful management.","Distinguish renewable from non-renewable natural resources.","Explain why soil, water, and forests fall under the greatest pressure.","Locate major transboundary rivers and the bodies that govern them.","Compare the water potential and use of Ethiopia, Sudan, and Egypt."],"simple":"<b>Conflicts over Resources in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, how scarcity turns land, water, timber, oil, and minerals into flashpoints.</li> <li>Then real cases, from Darfur’s water clashes to Africa’s conflict diamonds.</li> <li>Finally, avoidance, negotiation, arbitration, and mediation as ways to settle disputes.</li></ul>","detailed":"<p><b>Conflicts over Resources — the essentials.</b> First, how scarcity turns land, water, timber, oil, and minerals into flashpoints. Then real cases, from Darfur’s water clashes to Africa’s conflict diamonds. Finally, avoidance, negotiation, arbitration, and mediation as ways to settle disputes.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Describe the functions of land and the case for careful management.</li><li>Distinguish renewable from non-renewable natural resources.</li><li>Explain why soil, water, and forests fall under the greatest pressure.</li><li>Locate major transboundary rivers and the bodies that govern them.</li><li>Compare the water potential and use of Ethiopia, Sudan, and Egypt.</li></ul>","keyTerms":[{"term":"First","def":"First, how scarcity turns land, water, timber, oil, and minerals into flashpoints."},{"term":"Then real cases","def":"Then real cases, from Darfur’s water clashes to Africa’s conflict diamonds."},{"term":"Finally","def":"Finally, avoidance, negotiation, arbitration, and mediation as ways to settle disputes."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing conflicts over resources with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Map and diagram questions in the ESSLCE geography paper","Explaining a local environmental or resource issue in your own region"],"summary":"Conflicts over Resources: First, how scarcity turns land, water, timber, oil, and minerals into flashpoints. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"Conflicts over Resources\" is correct according to the MoE curriculum?","options":["First, how scarcity turns land, water, timber, oil, and minerals into flashpoints.","Conflicts over Resources applies only to a continent other than the one this unit covers","Conflicts over Resources contradicts the definition this topic gives","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, how scarcity turns land, water, timber, oil, and minerals into flashpoints. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"Conflicts over Resources\"?","options":["Then real cases, from Darfur’s water clashes to Africa’s conflict diamonds.","Conflicts over Resources describes a physical process unrelated to this topic","Conflicts over Resources applies only to a continent other than the one this unit covers","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Then real cases, from Darfur’s water clashes to Africa’s conflict diamonds."},{"type":"tf","q":"True or false: First, how scarcity turns land, water, timber, oil, and minerals into flashpoints.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover conflicts over resources.","answer":false,"difficulty":1,"explanation":"Conflicts over Resources is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Describe the functions of land and the case for careful management.","difficulty":2,"altAnswers":["Distinguish renewable from non-renewable natural resources.","Explain why soil, water, and forests fall under the greatest pressure."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why conflicts over resources matters.","answer":"Conflicts over Resources is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of conflicts over resources in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to conflicts over resources, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
-
+Lessons["g11-geography-ug3-t7"] = {
+  overview: "When the size of natural resources shrinks, asset scarcity triggers disputes over access, control and use - the natural resource conflict. This lesson examines the concept, causes, forms, actors and resolution strategies of such conflicts worldwide.",
+  objectives: [
+    "Define natural resource conflict and explain how scarcity triggers it",
+    "Identify the four kinds of resource conflicts recognized as challenges to national stability",
+    "Give concrete examples of conflicts over water, land, timber, fuel and minerals",
+    "List the conditions under which resource conflicts arise and their forms of expression",
+    "Compare the six basic strategies people use to handle conflicts"
+  ],
+  simple: "Natural resources are useable assets essential for human livelihoods, and access to them partly decides the wealth and prestige of people and even the position of countries in the international economic system. Some resources, like diamonds, minerals and natural oil, are exhaustible: their market value rises as their quantities shrink, and the resulting asset scarcity triggers conflict among users - what is commonly called a natural resource conflict. Over the past six decades some 40-60% of civil wars were instigated by the control and use of natural resources. Conflicts arise over water and pasture, land, timber, fuel and minerals, and they are handled through strategies such as negotiation, arbitration, mediation and adjudication, or worsened through avoidance and coercion.",
+  detailed: "<p><b>The concept of resource conflict.</b> <b>Resource conflicts</b> are disputes arising over accessing, controlling and using materials found in nature. People use resources such as forests, water, pastures and land, so disputes often emerge from them. Conflicts also arise when the interests and needs of users are not met, or when the priorities of some user groups are not considered by governments. Such conflicts of interest are inevitable features of all societies, and in recent years their scope and magnitude have increased and intensified. If not addressed, they can escalate into violence and cause environmental degradation and deterioration of livelihoods; recognizing conflicts, however, is a prerequisite for sustainable management and equitable use.</p><p><b>Scarcity and market value.</b> Access to natural resources partly decides the wealth and prestige of people and even the position of countries in the international economic system. Resources like diamonds, minerals and natural oil are available in limited amounts and can be exhausted with use. The <b>market value of such resources rises when their quantities shrink</b>. When the size of natural resources shrinks, <b>asset scarcity</b> occurs, and the shortage triggers conflict among the resource users. The textbook warns that some <b>40-60% of the civil wars</b> of the past six decades were instigated by the control and use of natural resources, especially in countries with weak administration, high levels of corruption and fierce ethnic and political divisions. Yet grievances over shared resources can be markers of change and progress if handled properly and peacefully.</p><p><b>Four kinds of resource conflict.</b> At the wider scope, four kinds of resource conflict challenge national stability: (a) <b>secessionist conflicts</b> in which resource-rich regions seek to split away from the rest of a country; (b) disputes over resources as part of new national laws and conventions, for instance within a peace agreement or new constitution; (c) <b>grievances over standalone projects</b> such as mines and hydroelectric dams; and (d) <b>cumulative impacts of multiple small-scale clashes</b>, typically over land and livestock. Typically at the heart of these disputes are four contentious issues: ownership of the resources; allocation of power for managing access to or developing the resource; the distribution of resource revenues; and the environmental and social damage caused by extracting the resource.</p><p><b>Conflicts by resource.</b> Water and pasture shortages cause conflicts in many areas: protests in Pakistan and Bolivia; conflicts in China (in the Shandong and Guangdong Provinces in 2000); <b>Darfur (Sudan)</b>, where much of the fighting was due to water scarcity; between Nile riparian countries over the use of Nile water; pasture land conflict in Ethiopia <b>between Somali and Afar pastoralists</b>; and in Afghanistan, where village-level clashes in 2008 arose from the use of land and irrigation water. Bigger bodies of water serve fishing, transportation, development, offshore oilfields and culture, and could be sources of conflict if not handled wisely - fishing disputes led to the famous '<b>cod wars</b>' between the UK and Iceland in the 1950s and 1970s, and the world's more than 263 shared watercourses are all potential sources of conflict. <b>Land</b> grants access to minerals, timber, animals, pasture and farm plots; people have strong emotional and symbolic attachments to it, but population growth and degradation make usable land scarce: Ecuador and Peru fought several wars over their disputed border; violent land conflict occurred recently in China, East Timor, Kosovo, Rwanda and Tajikistan; border conflicts and wars were waged between Ethiopia and Eritrea and between Ethiopia and Somalia; and border conflicts persist between India and Pakistan (over Kashmir) and between Ethiopia and Sudan.</p><p><b>Timber, fuel and conflict minerals.</b> Timber grows scarcer with mounting populations; the textbook notes that today <b>46% of the 30% of world forest cover has been destroyed</b>, and population growth and industrialization are destroying rainforests; examples of timber conflicts are available in <b>Burma, Cambodia, the Democratic Republic of Congo and Liberia</b>. Fuel scarcity, especially of petroleum, is a major concern: the world's largest reserves in Iran, Iraq, Nigeria, Venezuela and Sudan face ardent conflicts, and oil caused the <b>Gulf war between Kuwait and Iraq</b> in the Middle East and conflict between <b>Cameroon and Nigeria</b> in Africa. Precious stones become <b>conflict minerals</b> when their control and exploitation contribute to armed conflicts: diamonds in Western and Central Africa were used as income sources by rebel groups such as <b>UNITA</b> (the National Union for the Total Independence of Angola) and <b>Sierra Leone's RUF</b> (Revolutionary United Front) in the late 1990s, and by rebel groups in Liberia, Ivory Coast, the Democratic Republic of Congo and the Republic of Congo; amber is cited in Russia and gold in Indonesia.</p><p><b>Conditions, forms, actors and settlement.</b> Conflicts arise when user groups are excluded from participating in natural resource management; when resources are poorly managed and inequitably shared; when contradictions arise between local and introduced management systems; when confusion develops from absent information about government policy; when laws and policies contradict or lack clarity; when inequality in distribution exists; and when poor policy and unsuccessful program implementation prevail. Conflicts show themselves by breaking rules, by acts of sabotage and violence, sometimes as hidden or latent disputes, through grievances that rage because of fear, and by showing distrust. Actors range from local people in homesteads and neighboring communities over woodland, to villages, community-based organizations, domestic and multinational businesses, governments, international development agencies and NGOs. People generally rely on the same basic procedural modes: <b>avoidance</b> (acting to keep a conflict from becoming publicly acknowledged), <b>coercion</b> (threatening or using force to impose one's will), <b>negotiation</b> (a voluntary process in which parties reach agreement through consent), <b>arbitration</b> (submitting a conflict to a mutually agreeable third party who renders a decision), <b>mediation</b> (a third party facilitates negotiation but lacks the authority to impose a solution), and <b>adjudication</b> (relying on a judge or administrator to make a binding decision). The unit summary stresses that the remedy is equitable use, transparency and respect for the rights of others.</p>",
+  keyTerms: [
+    { term: "Natural resource conflict", def: "A dispute arising over accessing, controlling and using materials found in nature - often triggered when scarcity of the resource grows." },
+    { term: "Asset scarcity", def: "The condition that occurs when the size of a natural resource shrinks, raising its market value and triggering conflict among users." },
+    { term: "Conflict minerals", def: "Precious stones whose control and exploitation contribute to armed conflicts, such as diamonds used by UNITA and the RUF." },
+    { term: "Secessionist conflict", def: "A conflict in which resource-rich regions seek to split away from the rest of a country." },
+    { term: "Negotiation", def: "A voluntary process in which parties reach an agreement through consent." },
+    { term: "Arbitration", def: "Submitting a conflict to a mutually agreeable third party who renders a decision." },
+    { term: "Mediation", def: "Using a third party to facilitate the negotiation process; the mediator lacks authority to impose a solution." },
+    { term: "Adjudication", def: "Relying on a judge or administrator to make a binding decision in a dispute." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "Some 40-60% of the civil wars of the past six decades were instigated by control and use of natural resources. Using the textbook's data, what share of civil wars had other root causes?",
+      given: "The textbook states about 40-60% of civil wars during the past six decades were instigated by the control and use of natural resources.",
+      formula: "Method: subtract the resource-linked share from 100% to find the residual share.",
+      substitution: "100% - 60% = 40% at the high end; 100% - 40% = 60% at the low end.",
+      calculation: "The residual range of 40-60% mirror-images the resource share, meaning resources are one of the two most powerful drivers in the period studied.",
+      answer: "Between about 40% and 60% of civil wars in the period had other - political, ethnic, ideological - root causes, but the resource share is remarkably high."
+    },
+    {
+      problem: "Sort these events into the four kinds of resource conflict: a mineral region declaring independence in Africa; a community opposing a new dam; repeated villages fighting over a watering point; and a dispute over resource clauses in a new constitution.",
+      given: "The four kinds: secessionist; disputes over resources as part of new national laws (peace agreement, new constitution); grievances over standalone projects such as mines and dams; cumulative impacts of multiple small-scale clashes over land and livestock.",
+      formula: "Method: classify by the pattern of the dispute, not its resource.",
+      substitution: "Mineral region splitting away - secessionist; anti-dam protests - grievance over a standalone project; watering-point clashes - cumulative small-scale clashes; constitution clauses - dispute in new national conventions.",
+      calculation: "Each scenario matches one named kind without overlap.",
+      answer: "1) Secessionist; 2) Standalone project grievance; 3) Cumulative small-scale clashes; 4) Dispute within new national conventions."
+    },
+    {
+      problem: "Distinguish mediation from arbitration as ways of settling a pasture dispute between two pastoralist kebeles. Why would the textbook rank one of them better for durable peace?",
+      given: "Mediation: a third party facilitates negotiation but lacks the authority to impose a solution; Arbitration: the parties submit to a mutually agreeable third party who renders a decision; Negotiation: a voluntary process where parties agree by consent.",
+      formula: "Principle: consented agreements tend to endure because all stakeholders own them.",
+      substitution: "In mediation, elders or a neutral agency guide the talks but cannot force a verdict; in arbitration the third party decides for both.",
+      calculation: "Because mediation ends in a consented negotiation, both kebeles own the outcome and the sharing rule is more likely to hold - though arbitration is faster where trust is thin.",
+      answer: "Mediation guides but never imposes; arbitration decides for the parties. Mediation suits a resource both sides must share for years, since consented rules are kept longer."
+    },
+    {
+      problem: "Diamonds became a rebel income source in Angola and Sierra Leone in the late 1990s. Explain the mechanism connecting reduced supply, rising price and conflict, and name one African state besides Angola and Sierra Leone from the example list.",
+      given: "The textbook: diamonds, minerals and natural oil are available in limited amounts; their market value rises when quantities shrink; when size shrinks, asset scarcity occurs and shortage triggers conflict.",
+      formula: "Concept: scarcity-price-conflict mechanism of exhaustible resources.",
+      substitution: "Fewer accessible diamond fields - higher world price - higher seizure value - armed groups (UNITA, RUF) fight for control.",
+      calculation: "Named states in the examples besides Angola and Sierra Leone are Liberia, Ivory Coast, the Democratic Republic of Congo and the Republic of Congo.",
+      answer: "Rising scarcity raised the stones' value, making seizure profitable for armed groups; additional examples are Liberia, Ivory Coast, the Democratic Republic of Congo and the Republic of Congo."
+    }
+  ],
+  commonMistakes: [
+    "Assuming scarcity alone always causes conflict; the textbook also shows grievances can be markers of change and progress when handled peacefully.",
+    "Confusing mediation and arbitration; the mediator facilitates but cannot impose, while the arbitrator renders a decision.",
+    "Forgetting conflicts can remain hidden or latent rather than always visible as violence.",
+    "Assuming resource conflicts concern only diamonds and oil; water, pasture, land, timber and fishing also trigger them.",
+    "Mixing up the Darfur and Kashmir examples: Darfur was about water scarcity; Kashmir is an India-Pakistan border conflict.",
+    "Believing conflict resolution is only courts and force; avoidance, negotiation, mediation and adjudication are all basic procedural modes.",
+    "Ignoring that recognizing conflict is a prerequisite for sustainable and equitable resource management."
+  ],
+  applications: [
+    "Reporting a water-point dispute in a school or kebele to elders and applying mediation rather than force.",
+    "Drafting equitable-use rules for a communal grazing land, applying the textbook's principles of transparency and respect for others' rights.",
+    "Analyzing the conflict between Somali and Afar pastoralists in Ethiopia as a case of resource pressure on pasture.",
+    "Tracing in a news article how oil contributed to conflict between Cameroon and Nigeria, then proposing prevention.",
+    "Checking whether a local shared forest has bylaws, joint monitoring and prior notification before extraction.",
+    "Teaching classmates why exchange of information and consultation between user groups reduce conflict risk."
+  ],
+  summary: "Natural resource conflicts are disputes over accessing, controlling and using resources, triggered when exhaustible assets shrink and their value rises; some 40-60% of civil wars of the past six decades were instigated by resource control. Conflicts occur over water and pasture (Pakistan, Bolivia, Darfur, the Nile, Somali-Afar), land (Ecuador-Peru, Ethiopia-Eritrea), timber (Burma, Cambodia, DRC, Liberia) and fuel and minerals (Gulf war, Cameroon-Nigeria, UNITA and RUF diamonds). Settlement rests on equitable use, transparency and peaceful mechanisms such as negotiation, arbitration, mediation and adjudication.",
+  visuals: [
+    {
+      type: "tableVisual",
+      config: {
+        title: "Conflicts by Resource",
+        headers: ["Resource", "Example conflicts from the textbook"],
+        rows: [
+          ["Water and pasture", "Protests in Pakistan and Bolivia; Shandong and Guangdong (China, 2000); Darfur; Nile riparian countries; Somali-Afar pastoralists; Afghanistan 2008"],
+          ["Large water bodies", "Cod wars between UK and Iceland (1950s and 1970s)"],
+          ["Land", "Ecuador-Peru wars; China, East Timor, Kosovo, Rwanda, Tajikistan; Ethiopia-Eritrea; Ethiopia-Somalia; Kashmir"],
+          ["Timber", "Burma, Cambodia, the Democratic Republic of Congo, Liberia"],
+          ["Fuel (oil)", "Gulf war between Kuwait and Iraq; Cameroon vs Nigeria"],
+          ["Minerals", "UNITA (Angola); RUF (Sierra Leone); Liberia, Ivory Coast, DRC; amber in Russia; gold in Indonesia"]
+        ]
+      }
+    },
+    {
+      type: "mindMap",
+      config: {
+        title: "Resource Conflict: Kinds and Causes",
+        center: "Resource Conflict",
+        branches: [
+          { label: "Kinds", items: ["Secessionist", "New laws and conventions", "Standalone projects (mines, dams)", "Cumulative small clashes"] },
+          { label: "Contentious issues", items: ["Ownership", "Power to manage access", "Revenue distribution", "Environmental and social damage"] },
+          { label: "Why they arise", items: ["User groups excluded", "Inequitable sharing", "Unclear laws", "Poor policy implementation"] },
+          { label: "Expressions", items: ["Breaking rules", "Sabotage and violence", "Hidden or latent", "Distrust"] }
+        ]
+      }
+    },
+    {
+      type: "steps",
+      config: {
+        title: "Six Procedural Modes of Handling Conflict",
+        steps: [
+          { label: "Avoidance", detail: "Acting in ways that keep a conflict from becoming publicly acknowledged." },
+          { label: "Coercion", detail: "Threatening or using force to impose one's will - risky and often harmful." },
+          { label: "Negotiation", detail: "A voluntary process in which parties reach agreement through consent." },
+          { label: "Arbitration", detail: "Submitting the dispute to a mutually agreeable third party who decides." },
+          { label: "Mediation", detail: "A third party facilitates negotiation but cannot impose a solution." },
+          { label: "Adjudication", detail: "Relying on a judge or administrator to make a binding decision." }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "A natural resource conflict is best described as:", options: ["a war caused only by religion", "a dispute over accessing, controlling and using materials found in nature", "any disagreement between neighbors", "an election dispute"], answer: 1, difficulty: 1, explanation: "Resource conflicts are disputes arising over accessing, controlling and using materials found in nature." },
+    { type: "tf", q: "The market value of exhaustible resources like diamonds rises when their quantities shrink.", answer: true, difficulty: 1, explanation: "The textbook states the market value of such resources rises when their quantities shrink, causing asset scarcity and conflict." },
+    { type: "mcq", q: "What share of civil wars of the past six decades were instigated by the control and use of natural resources?", options: ["10-20%", "25-30%", "40-60%", "70-80%"], answer: 2, difficulty: 2, explanation: "Some 40-60% of the civil wars during the past six decades were instigated by the control and use of natural resources." },
+    { type: "short", q: "Which Ethiopian pastoralist groups are named as parties to a pasture land conflict?", answer: "somali and afar pastoralists|somali|afar", difficulty: 2, explanation: "Pasture land conflict in Ethiopia occurred between Somali and Afar pastoralists." },
+    { type: "mcq", q: "The conflict in Darfur (Sudan) is given as an example of conflict mainly due to:", options: ["diamond mining", "water scarcity", "timber smuggling", "fishing rights"], answer: 1, difficulty: 2, explanation: "In Darfur, much of the fighting was due to water scarcity." },
+    { type: "concept", q: "Name three of the four kinds of resource conflicts recognized at the wider scope.", answer: "secessionist|standalone projects|new national laws|cumulative small-scale clashes", difficulty: 3, explanation: "The four kinds are secessionist conflicts; disputes within new national laws and conventions; grievances over standalone projects such as mines and dams; and cumulative impacts of multiple small-scale clashes." },
+    { type: "mcq", q: "Which fishing dispute does the textbook cite between the UK and Iceland?", options: ["Oil spills", "The cod wars of the 1950s and 1970s", "Salmon farming permits", "Whaling quotas"], answer: 1, difficulty: 2, explanation: "Fishing disputes led to 'cod wars' between the UK and Iceland in the 1950s and 1970s." },
+    { type: "short", q: "The Gulf war between Kuwait and Iraq is cited as a conflict caused by which resource?", answer: "natural oil|oil|petroleum|fuel", difficulty: 1, explanation: "Natural oil in the Middle East caused the Gulf war between Kuwait and Iraq; in Africa it caused conflict between Cameroon and Nigeria." },
+    { type: "concept", q: "Name the rebel groups that used diamonds in Angola and Sierra Leone in the late 1990s.", answer: "unita and ruf|unita|revolutionary united front", difficulty: 3, explanation: "The Angola National Union for the Total Independence of Angola (UNITA) and Sierra Leone's Revolutionary United Front (RUF) used diamonds as income in the late 1990s." },
+    { type: "ordering", q: "Arrange these conflict-handling modes from least to most third-party involvement.", options: ["Negotiation (parties alone)", "Mediation (facilitator joins)", "Arbitration (third party decides)"], answer: 1, difficulty: 2, explanation: "Negotiation is voluntary and party-led, mediation adds a facilitating third party, and arbitration gives decision power to a mutually agreeable third party." },
+    { type: "concept", q: "List three conditions under which conflicts arise even without absolute scarcity.", answer: "user groups excluded from management|inequitable sharing|unclear laws|poor policy implementation|inequality in distribution", difficulty: 3, explanation: "Conflicts arise when users are excluded from management, resources are inequitably shared, laws are unclear, information is absent, or implementation is poor." }
+  ]
+};

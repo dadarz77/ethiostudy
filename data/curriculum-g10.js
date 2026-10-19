@@ -243,7 +243,7 @@ Object.assign(window.CURRICULUM_G10, {
       id: "geography", title: "Geography", icon: "🌍", color: "#0e7490",
       units: [
       { id: "g1", title: "Landforms of Africa", topics: [
-        { id: "g1-1", title: "Overview of the World&#8217;s Major Landforms", difficulty: "easy", subtopics: [] },
+        { id: "g1-1", title: "Overview of the World's Major Landforms", difficulty: "easy", subtopics: [] },
         { id: "g1-2", title: "Location and Related Features of Africa", difficulty: "medium", subtopics: [] },
         { id: "g1-3", title: "Major Landforms of Africa", difficulty: "medium", subtopics: [] }
       ]},
@@ -251,7 +251,7 @@ Object.assign(window.CURRICULUM_G10, {
         { id: "g2-1", title: "Overview of World Climatic Regions and Types", difficulty: "easy", subtopics: [] },
         { id: "g2-2", title: "Climate Types and Regions of Africa", difficulty: "medium", subtopics: [] },
         { id: "g2-3", title: "Benefits of Climate for the Life of People in Africa", difficulty: "medium", subtopics: [] },
-        { id: "g2-4", title: "Climate Change and its Challenges to Africa&#8217;s Development Vision", difficulty: "hard", subtopics: [] }
+        { id: "g2-4", title: "Climate Change and its Challenges to Africa's Development Vision", difficulty: "hard", subtopics: [] }
       ]},
       { id: "g3", title: "Natural Resource Base of Africa", topics: [
         { id: "g3-1", title: "Overview of Major Natural Resources of the World", difficulty: "easy", subtopics: [] },
@@ -261,17 +261,17 @@ Object.assign(window.CURRICULUM_G10, {
       ]},
       { id: "g4", title: "Population of Africa", topics: [
         { id: "g4-1", title: "Overview of World Population Growth and Size", difficulty: "easy", subtopics: [] },
-        { id: "g4-2", title: "Africa&#8217;s Major Demographic Trends", difficulty: "medium", subtopics: [] },
+        { id: "g4-2", title: "Africa's Major Demographic Trends", difficulty: "medium", subtopics: [] },
         { id: "g4-3", title: "Population Structure", difficulty: "medium", subtopics: [] },
-        { id: "g4-4", title: "Distribution and Density of Africa&#8217;s Population", difficulty: "medium", subtopics: [] },
+        { id: "g4-4", title: "Distribution and Density of Africa's Population", difficulty: "medium", subtopics: [] },
         { id: "g4-5", title: "Urban and Rural Settlement Patterns in Africa", difficulty: "medium", subtopics: [] }
       ]},
       { id: "g5", title: "Major Economic and Cultural Activities of Africa", topics: [
         { id: "g5-1", title: "Overview of Employment Structure in the World", difficulty: "easy", subtopics: [] },
         { id: "g5-2", title: "Major Economic Activities in Africa", difficulty: "medium", subtopics: [] },
         { id: "g5-3", title: "Possible Solutions to the Problem of Unemployment", difficulty: "medium", subtopics: [] },
-        { id: "g5-4", title: "Africa&#8217;s Agenda 2063 and Its Implications", difficulty: "medium", subtopics: [] },
-        { id: "g5-5", title: "Africa&#8217;s Agenda 2063 Vis-à-vis Sustainable Development Goals (SDGs)", difficulty: "medium", subtopics: [] },
+        { id: "g5-4", title: "Africa's Agenda 2063 and Its Implications", difficulty: "medium", subtopics: [] },
+        { id: "g5-5", title: "Africa's Agenda 2063 and the Sustainable Development Goals (SDGs)", difficulty: "medium", subtopics: [] },
         { id: "g5-6", title: "Linguistic and Religious Diversity in Africa", difficulty: "medium", subtopics: [] }
       ]},
       { id: "g6", title: "Human-Natural Environment Interactions", topics: [

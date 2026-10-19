@@ -1,12 +1,504 @@
-/* Content: g12-geography-ug7 — migrated from generated JSON (Phase 0 pipeline restore).
-   Content upgrade to spec v2 happens per unit in later phases. */
+/* Content: Grade 12 Geography - Unit 7: Contemporary Global Geographic Issues and Public Concerns (4 topics)
+   Source: MoE Geography Grade 12 Student Textbook, Unit 7. */
 window.Lessons = window.Lessons || {};
 
-Lessons["g12-geography-ug7-t1"] = {"overview":"<b>Climate Change</b> sits inside <b>Contemporary Global Geographic Issues and Public Concerns</b>. Desertification and drought are the focus of Unit 7 of Grade 12 Geography in the Ethiopian (FDRE Ministry of Education) curriculum. First, it shows why climate change now ranks among the most pressing global geographic issues. Then it examines desertification and drought as linked processes, together with the famine that often follows, weighing their causes, effects and coping strategies, before moving on to geographical enquiry and map making. Students will also learn how desertification and drought apply to real-life situations.","objectives":["Explain why climate change ranks as a global concern.","Describe the causes and effects of desertification and drought.","Distinguish meteorological, hydrological and agricultural drought.","Analyze the links between desertification, drought and famine.","Assess the strategies that combat drought and famine."],"simple":"<b>Climate Change in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, why climate change now threatens billions of livelihoods.</li> <li>Then the Paris Agreement and the pledge to curb emissions.</li> <li>Finally, visible effects from melting ice to shifting species.</li></ul>","detailed":"<p><b>Climate Change — the essentials.</b> First, why climate change now threatens billions of livelihoods. Then the Paris Agreement and the pledge to curb emissions. Finally, visible effects from melting ice to shifting species.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Explain why climate change ranks as a global concern.</li><li>Describe the causes and effects of desertification and drought.</li><li>Distinguish meteorological, hydrological and agricultural drought.</li><li>Analyze the links between desertification, drought and famine.</li><li>Assess the strategies that combat drought and famine.</li></ul>","keyTerms":[{"term":"First","def":"First, why climate change now threatens billions of livelihoods."},{"term":"Then the Paris Agreement and the pledge to curb emissions","def":"Then the Paris Agreement and the pledge to curb emissions."},{"term":"Finally","def":"Finally, visible effects from melting ice to shifting species."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing climate change with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Map and diagram questions in the ESSLCE geography paper","Explaining a local environmental or resource issue in your own region"],"summary":"Climate Change: First, why climate change now threatens billions of livelihoods. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"Climate Change\" is correct according to the MoE curriculum?","options":["First, why climate change now threatens billions of livelihoods.","Climate Change applies only to a continent other than the one this unit covers","Climate Change contradicts the definition this topic gives","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, why climate change now threatens billions of livelihoods. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"Climate Change\"?","options":["Then the Paris Agreement and the pledge to curb emissions.","Climate Change describes a physical process unrelated to this topic","Climate Change applies only to a continent other than the one this unit covers","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Then the Paris Agreement and the pledge to curb emissions."},{"type":"tf","q":"True or false: First, why climate change now threatens billions of livelihoods.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover climate change.","answer":false,"difficulty":1,"explanation":"Climate Change is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Explain why climate change ranks as a global concern.","difficulty":2,"altAnswers":["Describe the causes and effects of desertification and drought.","Distinguish meteorological, hydrological and agricultural drought."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why climate change matters.","answer":"Climate Change is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of climate change in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to climate change, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
+Lessons["g12-geography-ug7-t1"] = {
+  overview: "Climate change is one of the most pressing global issues of our time, threatening the lives and livelihoods of billions of people. This lesson explains why climate change became a worldwide geographic concern and reviews its human causes and predicted impacts.",
+  objectives: [
+    "Explain why climate change is perceived as a contemporary global issue and a cause of public concern",
+    "Describe the spatial nature of climate change and why geographers study it",
+    "Interpret predicted impacts of temperature rise on health, ecosystems, agriculture and water resources",
+    "Identify global physical evidence of climate change such as melting ice and rising sea levels",
+    "Evaluate international responses to climate change such as the Paris Agreement"
+  ],
+  simple: "Climate change is a hot issue in academics all around the world because it threatens the lives and livelihoods of billions of people. It is fundamentally a spatial phenomenon, so geographers study how its impacts differ from place to place. The main cause is human emission of greenhouse gases. At the end of 2015, 195 Parties to the UN Framework Convention on Climate Change endorsed the Paris Agreement, pledging to curb emissions. If no major action is taken, global temperature is on track to rise by 2.5 to 4.5 degrees C. Evidence is already visible: ice is melting at the poles and on mountains, sea levels are rising about 3.2 millimetres a year, and species such as penguins, butterflies and forest pests are being affected.",
+  detailed: "<p><b>A contemporary worldwide issue.</b> Climate change is a hot issue in academics all around the world because it is one of the most pressing issues of our time, threatening the lives and livelihoods of billions of people. It is fundamentally a <i>spatial phenomenon</i>, meaning its effects vary from region to region, so geographers deal with it as well. Because people have different points of view, they often disagree on how it should be addressed, and identifying and evaluating those viewpoints improves decision making. Climate change requires comprehensive, integrated strategies that address social, economic and environmental consequences together.</p><p><b>The Paris Agreement.</b> At the end of 2015, 195 Parties to the UN Framework Convention on Climate Change (UNFCCC) endorsed the historic <i>Paris Agreement</i>. Participants pledged to curb emissions to minimize the rise in temperatures and to strengthen capacities to manage climate risks. The agreement sets the stage for progress in ending poverty, strengthening peace and ensuring a life of dignity and opportunity for all, the main tenets of human security.</p><p><b>How much warming is expected.</b> Climate change is mainly caused by human action. If we stopped emitting greenhouse gases today, the rise in global temperatures would begin to flatten within a few years. However, according to current estimates, if major actions are not taken to reduce emissions, global temperature is on track to rise by <b>2.5 to 4.5 degrees C</b> (4.5 degrees F to 8 degrees F). Different temperature stabilization scenarios produce very different impact outcomes for health, ecosystems, agriculture and water.</p><p><b>Predicted impacts rise with temperature.</b> A 1.2 degrees C change increases premature mortality by hundreds of thousands, excluding extreme heatwaves, and a 2.3 degrees C increase by 2080 may put 270 million people at risk of malaria. A 1 degrees C change may cause about 10 percent ecosystem damage, while a 2 degrees C rise shifts 20 percent of the global ecosystem and causes 10 percent coastal wetland loss. In agriculture, a rise up to 2 degrees C declines crop yields in the EU and US, and a 2.5 degrees C increase by 2080 results in 50 million additional people at risk of hunger. For water, a 2 to 2.5 degrees C rise puts 2.4 to 3.1 billion people at risk of water shortage, and above 2.5 degrees C the figure grows to 3.1 to 3.5 billion.</p><p><b>Catastrophic melting scenarios.</b> A 1.5 degrees C temperature rise would cause complete melting of the Greenland ice, producing a 7 metre sea level rise. A rise in the range of 2 to 4 degrees C would create a sheet of West Atlantic ice that may raise sea level by 5 to 6 metres, and a 4 degrees C rise increases the probability of thermohaline circulation shutdown to 50 percent and above. This is why climate change is taken as a worldwide geographic concern.</p><p><b>Effects already observed.</b> Ice is melting worldwide, especially at the Earth's poles, including mountain glaciers, the ice sheets covering West Antarctica and Greenland, and Arctic sea ice. In Montana's Glacier National Park the number of glaciers has declined to fewer than 30 from more than 150 in 1910. Melting ice contributes to sea level rise of <b>0.13 inches (3.2 millimetres) a year</b>, and the rate is increasing. Vanishing ice has challenged species such as the Aedile penguin in Antarctica, where some populations on the western peninsula have collapsed by 90 percent or more. Butterflies, foxes and alpine plants have migrated farther north or to higher, cooler areas.</p><p><b>Rain, drought and pests.</b> Precipitation has increased across the globe on average, yet some regions experience more severe drought, raising the risk of wildfires, lost crops and drinking water shortages. Some species, including mosquitoes, ticks, jellyfish and crop pests, are thriving. Booming populations of bark beetles that feed on spruce and pine trees have devastated millions of forested acres in the United States. For Ethiopia, these changes affect agriculture, water supply and livelihoods, which is why climate change is a serious cause of public concern.</p>",
+  keyTerms: [
+    { term: "Climate change", def: "A mainly human-caused change in global climate patterns; a fundamentally spatial phenomenon that threatens the lives and livelihoods of billions of people." },
+    { term: "Spatial phenomenon", def: "Something that occurs across and varies with locations on the Earth's surface, which is why geographers study climate change." },
+    { term: "UNFCCC", def: "The United Nations Framework Convention on Climate Change, whose 195 Parties endorsed the Paris Agreement at the end of 2015." },
+    { term: "Paris Agreement", def: "The historic 2015 climate accord in which parties pledged to curb emissions to minimize temperature rise and strengthen climate risk management." },
+    { term: "Sea level rise", def: "The rise of global sea levels, currently about 0.13 inches (3.2 millimetres) a year, partly fed by melting land ice." },
+    { term: "Thermohaline circulation", def: "The large-scale ocean current system; global warming of 4 degrees C raises the probability of its shutdown to 50 percent and above." },
+    { term: "Ecosystem shift", def: "A change in the distribution and composition of plants and animals, such as the 20 percent global ecosystem shift expected with a 2 degrees C rise." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "Using the temperature impact table, identify the warming range at which 2.4 to 3.1 billion people would be at risk of water shortage.",
+      given: "The table links water shortage risk to temperature stabilization scenarios.",
+      formula: "Match the population figure to its temperature column in Table 7.1.",
+      substitution: "The 2.4-3.1 billion figure appears in the water resource row for a rise of 2 to 2.5 degrees C.",
+      calculation: "Below 2 degrees C the risk is 400-800 million; above 2.5 degrees C it is 3.1-3.5 billion, so the stated range matches the 2-2.5 degrees C column.",
+      answer: "A rise of 2 to 2.5 degrees C puts 2.4 to 3.1 billion people at risk of water shortage."
+    },
+    {
+      problem: "Glacier National Park in Montana had more than 150 glaciers in 1910 and now has fewer than 30. Estimate the minimum percentage decline.",
+      given: "1910 count: about 150 glaciers; present count: fewer than 30.",
+      formula: "Percentage decline = (earlier count - later count) / earlier count x 100.",
+      substitution: "(150 - 30) / 150 x 100 = 120 / 150 x 100.",
+      calculation: "120 / 150 = 0.8; 0.8 x 100 = 80 percent.",
+      answer: "At least 80 percent of the glaciers have been lost, evidence of warming at mid-latitudes."
+    },
+    {
+      problem: "Global sea level is rising 0.13 inches (3.2 mm) per year. How much would sea level rise in 50 years at this rate?",
+      given: "Rate = 3.2 mm per year; time = 50 years.",
+      formula: "Total rise = rate x time.",
+      substitution: "3.2 mm/year x 50 years.",
+      calculation: "3.2 x 50 = 160 mm, or 0.16 metres.",
+      answer: "About 160 mm (16 cm) in 50 years, and the rate is rising faster in recent years."
+    },
+    {
+      problem: "According to the impact table, what sea level rise would follow complete melting of the Greenland ice, and at what temperature is this expected?",
+      given: "The table lists catastrophic ice-loss scenarios by temperature.",
+      formula: "Read the catastrophic events row for the matching temperature scenario.",
+      substitution: "A 1.5 degrees C rise causes complete melting of the Greenland ice.",
+      calculation: "Complete Greenland melting corresponds to a 7 metre sea level rise; a further 2-4 degrees C rise adds a 5-6 metre rise from a West Atlantic ice sheet.",
+      answer: "About 7 metres from Greenland melt, expected within a 1.5 degrees C warming scenario."
+    }
+  ],
+  commonMistakes: [
+    "Thinking climate change affects every region equally, when it is a spatial phenomenon with locally different impacts.",
+    "Confusing the Paris Agreement with a treaty that legally forces emission cuts; participants pledged to curb emissions voluntarily.",
+    "Reading the impact table as if all impacts occur at one temperature; each impact is tied to a specific warming scenario.",
+    "Assuming global precipitation has decreased everywhere, when it has increased on average even though some regions face more drought.",
+    "Attributing sea level rise only to floating sea ice melting rather than to land-based ice such as the Greenland ice sheet.",
+    "Believing stopping emissions today would reverse warming immediately, when the rise would only begin to flatten within a few years."
+  ],
+  applications: [
+    "Linking drought and flood episodes in Ethiopia to global climate change when discussing crop planning in a kebele meeting.",
+    "Using the impact table to explain why a 2 degrees C rise matters for Ethiopian lowlands dependent on rainfed agriculture.",
+    "Explaining how melting on East African highland ice and global glacier retreat signals shared global warming.",
+    "Supporting emission-reducing actions such as using solar energy for lighting instead of fossil-based sources.",
+    "Asking how a 50 million increase in people at risk of hunger by 2080 would affect food imports into Ethiopia.",
+    "Participating in tree planting and land rehabilitation, which help communities manage climate risks locally."
+  ],
+  summary: "Climate change is a spatial phenomenon and one of the most pressing global issues, and at the end of 2015 the 195 Parties to the UNFCCC endorsed the Paris Agreement to curb emissions. If major action is not taken, global temperature is on track to rise 2.5 to 4.5 degrees C, causing impacts from malaria risk and ecosystem shifts to water shortage for up to 3.5 billion people and multi-metre sea level rise. Evidence is already visible in melting glaciers, a 3.2 millimetre per year sea level rise, collapsing penguin populations, migrating species and thriving pests.",
+  visuals: [
+    {
+      type: "tableVisual",
+      config: {
+        title: "Predicted Impacts by Temperature Rise",
+        headers: ["Impact area", "Within 2 degrees C", "2-2.5 degrees C", "Above 3 degrees C"],
+        rows: [
+          ["Health", "1.2 C boosts premature mortality", "2.3 C by 2080: 270 million malaria risk", "3 C: 330 million malaria risk"],
+          ["Ecosystems", "1 C: 10% ecosystem damage", "1-2 C: 15-20% affected", "2 C: 20% shift, 10% coastal wetland loss"],
+          ["Agriculture", "Up to 2 C: EU and US crop yield decline", "1.7 C heat stress in the tropics", "2.5 C by 2080: 50 million more hungry"],
+          ["Water", "1.5 C: many regions water stressed", "400-800 million in shortage", "2.4-3.1 billion at risk above 2.5 C"],
+          ["Catastrophes", "1.5 C: Greenland melt, 7 m sea rise", "2-4 C: W. Atlantic ice adds 5-6 m", "4 C: thermohaline shutdown 50%+"]
+        ]
+      }
+    },
+    {
+      type: "comparison",
+      config: {
+        title: "Melting Ice: Where and How",
+        left: { name: "Mountain glaciers", items: ["Glacier National Park: under 30 left", "From over 150 in 1910", "Feeds mountain streams"] },
+        right: { name: "Polar ice", items: ["West Antarctica and Greenland ice sheets", "Arctic sea ice shrinking", "Melt drives sea level rise"] }
+      }
+    },
+    {
+      type: "mindMap",
+      config: {
+        title: "Evidence of Global Climate Change",
+        center: "Climate Change Evidence",
+        branches: [
+          { label: "Ice", items: ["Polar ice sheets melting", "Glacier retreat"] },
+          { label: "Oceans", items: ["Sea level up 3.2 mm a year", "Rising rate"] },
+          { label: "Wildlife", items: ["Aedile penguin down 90%", "Butterflies and foxes move poleward"] },
+          { label: "Pests and drought", items: ["Bark beetles destroy US forests", "More wildfires and crop loss"] }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "At the end of 2015, how many Parties to the UNFCCC endorsed the Paris Agreement?", options: ["95", "150", "195", "250"], answer: 2, difficulty: 1, explanation: "195 Parties endorsed the historic Paris Agreement at the end of 2015." },
+    { type: "tf", q: "Climate change is fundamentally a spatial phenomenon, so geographers study it.", answer: true, difficulty: 1, explanation: "The textbook states climate change is fundamentally a spatial phenomenon, which brings it into geography." },
+    { type: "mcq", q: "If major actions are not taken to reduce emissions, global temperature is on track to rise by:", options: ["0.5 to 1 degrees C", "1.5 to 2 degrees C", "2.5 to 4.5 degrees C", "6 to 8 degrees C"], answer: 2, difficulty: 2, explanation: "Current estimates project a rise of 2.5 to 4.5 degrees C (4.5 degrees F to 8 degrees F) without major action." },
+    { type: "mcq", q: "The current rate of global sea level rise is about:", options: ["0.13 inches (3.2 mm) a year", "1.3 inches a year", "3.2 inches a year", "13 inches a year"], answer: 0, difficulty: 2, explanation: "Global sea levels are rising 0.13 inches (3.2 millimetres) a year, and the rate is increasing." },
+    { type: "short", q: "Name the Antarctic penguin species whose populations on the western peninsula have collapsed by 90 percent or more.", answer: "aedile penguin|adelie penguin|penguin", difficulty: 1, explanation: "Vanishing ice has challenged the Aedile (Adelie) penguin in Antarctica." },
+    { type: "mcq", q: "According to the impact table, a 2.5 degrees C increase in 2080 results in how many additional people at risk of hunger?", options: ["5 million", "50 million", "270 million", "330 million"], answer: 1, difficulty: 2, explanation: "A 2.5 degrees C temperature increase by 2080 results in 50 million additional people at risk of hunger." },
+    { type: "mcq", q: "Which water-related impact is paired with a temperature rise above 2.5 degrees C?", options: ["400-800 million people in water shortage", "3.1-3.5 billion people at risk of water shortage", "1.5 degrees C water stress only", "no water impacts"], answer: 1, difficulty: 3, explanation: "Beyond 2.5 degrees C, warming puts an additional 3.1-3.5 billion people into water shortage risk." },
+    { type: "tf", q: "Precipitation has increased across the globe on average, yet some regions face more severe drought.", answer: true, difficulty: 2, explanation: "Global average precipitation has increased, but some regions experience more severe drought, wildfires and water shortages." },
+    { type: "concept", q: "Explain what happens to the rise in global temperatures if greenhouse gas emissions stopped today.", answer: "the rise would flatten within a few years", difficulty: 2, explanation: "If emissions stopped today, the temperature rise would begin to flatten within a few years." },
+    { type: "mcq", q: "Which organisms have devastated millions of forested acres of spruce and pine in the United States as temperatures changed?", options: ["Locusts", "Bark beetles", "Jellyfish", "Army worms"], answer: 1, difficulty: 2, explanation: "Booming bark beetle populations that feed on spruce and pine devastated millions of forested acres in the US." },
+    { type: "short", q: "Name one species group that has migrated farther north or to higher, cooler areas as temperatures changed.", answer: "butterflies|foxes|alpine plants", difficulty: 1, explanation: "Some butterflies, foxes and alpine plants have migrated farther north or to higher, cooler areas." }
+  ]
+};
 
-Lessons["g12-geography-ug7-t2"] = {"overview":"<b>Desertification</b> sits inside <b>Contemporary Global Geographic Issues and Public Concerns</b>. Desertification and drought are the focus of Unit 7 of Grade 12 Geography in the Ethiopian (FDRE Ministry of Education) curriculum. First, it shows why climate change now ranks among the most pressing global geographic issues. Then it examines desertification and drought as linked processes, together with the famine that often follows, weighing their causes, effects and coping strategies, before moving on to geographical enquiry and map making. Students will also learn how desertification and drought apply to real-life situations.","objectives":["Explain why climate change ranks as a global concern.","Describe the causes and effects of desertification and drought.","Distinguish meteorological, hydrological and agricultural drought.","Analyze the links between desertification, drought and famine.","Assess the strategies that combat drought and famine."],"simple":"<b>Desertification in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, how the UN defines desertification on vulnerable drylands.</li> <li>Then its causes, from population growth to overgrazing and deforestation.</li> <li>Also its consequences, such as falling yields, hunger and migration.</li> <li>Finally, desertification in East Africa and efforts to combat it.</li></ul>","detailed":"<p><b>Desertification — the essentials.</b> First, how the UN defines desertification on vulnerable drylands. Then its causes, from population growth to overgrazing and deforestation. Also its consequences, such as falling yields, hunger and migration. Finally, desertification in East Africa and efforts to combat it.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Explain why climate change ranks as a global concern.</li><li>Describe the causes and effects of desertification and drought.</li><li>Distinguish meteorological, hydrological and agricultural drought.</li><li>Analyze the links between desertification, drought and famine.</li><li>Assess the strategies that combat drought and famine.</li></ul>","keyTerms":[{"term":"First","def":"First, how the UN defines desertification on vulnerable drylands."},{"term":"Then its causes","def":"Then its causes, from population growth to overgrazing and deforestation."},{"term":"its consequences","def":"Also its consequences, such as falling yields, hunger and migration."},{"term":"Finally","def":"Finally, desertification in East Africa and efforts to combat it."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing desertification with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Map and diagram questions in the ESSLCE geography paper","Explaining a local environmental or resource issue in your own region"],"summary":"Desertification: First, how the UN defines desertification on vulnerable drylands. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"Desertification\" is correct according to the MoE curriculum?","options":["First, how the UN defines desertification on vulnerable drylands.","Desertification applies only to a continent other than the one this unit covers","Desertification contradicts the definition this topic gives","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, how the UN defines desertification on vulnerable drylands. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"Desertification\"?","options":["Then its causes, from population growth to overgrazing and deforestation.","Desertification describes a physical process unrelated to this topic","Desertification applies only to a continent other than the one this unit covers","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Then its causes, from population growth to overgrazing and deforestation."},{"type":"tf","q":"True or false: First, how the UN defines desertification on vulnerable drylands.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover desertification.","answer":false,"difficulty":1,"explanation":"Desertification is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Explain why climate change ranks as a global concern.","difficulty":2,"altAnswers":["Describe the causes and effects of desertification and drought.","Distinguish meteorological, hydrological and agricultural drought."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why desertification matters.","answer":"Desertification is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of desertification in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to desertification, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
+Lessons["g12-geography-ug7-t2"] = {
+  overview: "Desertification is human induced land degradation in dry and sub-humid regions, and it now damages roughly a quarter of the world's land surface. This lesson explains its causes, its social and economic consequences, and its concrete expression in East African countries.",
+  objectives: [
+    "Define deserts and desertification and distinguish the two ideas",
+    "Describe the characteristics and surface area of the world's drylands",
+    "Identify the major human induced and natural causes of desertification",
+    "Explain the consequences of desertification using concrete East African examples",
+    "Assess local and international strategies used to combat desertification"
+  ],
+  simple: "Deserts are naturally dry areas receiving 250 mm or less of rain per year. Desertification is different: it is human induced land degradation in dry and sub-humid regions, and it can only occur on land vulnerable to the process. Drylands cover about 46.2 percent of the global land area and are home to 3 billion people; about 70 percent of the drylands used for agriculture are already degraded. Major causes include rapid population growth, over-cultivation, overgrazing, deforestation for firewood, bush fires and climate change. Consequences include falling crop yields, hunger, poor water quality, poverty, biodiversity loss and migration, with over 42 billion USD of income lost annually in affected regions. In East Africa, Tanzania, Sudan, Ethiopia, Uganda and Kenya show how these forces work.",
+  detailed: "<p><b>Desert and desertification defined.</b> Deserts are areas of the Earth that get little or no rain, often <b>250 mm or less per year</b>. Desertification does not concern natural deserts and can only occur on land vulnerable to the process. The issue gained worldwide attention at the United Nations Conference on Desertification in <b>Nairobi in 1977</b>, mainly because of extended drought in the West African Sahel in the early 1970s. The UN definition (UNCCD) is <i>human induced land degradation in dry and sub-humid regions</i>, and the IPCC defines it as land degradation in arid, semi-arid and dry sub-humid areas, collectively called drylands, resulting from many factors including human activities and climatic change.</p><p><b>The world's drylands.</b> The range and intensity of desertification have increased in some dryland areas over recent decades. Drylands currently cover about <b>46.2 percent of the global land area</b> and are home to <b>3 billion people</b>. Desertification hotspots, identified by declining vegetation cover, extended to about 9.2 percent of drylands between the 1980s and 2000s, affecting about 500 million people in 2015, with the highest numbers in South and East Asia, the Sahara including North Africa, and the Middle East. Of the total 6.45 billion hectares of drylands, 1 billion hectares are hyper-arid real deserts such as the Sahara, while 5.45 billion hectares are arid, semi-arid and sub-humid areas where desertification occurs. Some <b>70 percent of the 5.2 billion hectares</b> of drylands used for agriculture are already degraded, so desertification damages nearly one quarter of the world's land surface and affects about two-thirds of its countries.</p><p><b>Why drylands are vulnerable.</b> Dryland environments have low precipitation that is infrequent, irregular and unpredictable; large variations between day and night temperatures; soil poor in organic matter; lack of water for consumption; and plants and animals adapted to heat and water shortage. Human pressure then tips fragile land into degradation. Global population grew from about 1 million in the Stone Age to 1 billion in 1850 and 6 billion in the 1990s, and in countries growing at 2 to 3 percent per year the population may double within 20 to 30 years, making land recovery impossible under traditional production methods.</p><p><b>Principal human causes.</b> Over-cultivation exhausts the soil, and overgrazing removes the vegetation cover that protects soil from erosion. Farmers maximize soil productivity in ways that degrade it: cropping in drought-risk areas, shortening crop cycles and fallow periods, insufficient fertilizer after harvest, inadequate crop rotation or monoculture, intense breeding and livestock trampling, separation of cattle rearing from agriculture which removes cattle dung as natural fertilizer, deforestation, bush and forest fires, ploughing down mountain slopes instead of following contour lines, and deterioration of terraces and soil and water conservation works. Since people caused the damage, people also have the ability to heal and rehabilitate the land.</p><p><b>Deforestation and energy.</b> The use of <b>firewood</b> is one of the principal causes of desertification. In tropical arid areas wood is the principal source of domestic energy for cooking and lighting in rural and urban areas, and is also used for construction, so large tracts of forest are destroyed. Because of water scarcity in the drylands, forest regeneration is very slow, although rest periods from grazing and longer fallow periods have spectacular regenerating effects. To limit deforestation, renewable sources of energy (hydraulic, wind, solar) and gas and petrol should replace wood consumption. Climate change adds another cause: El Nino variations in ocean temperature alter rain cycles, and deforestation, overgrazing and over-cultivation on semi-arid grasslands change the surface albedo, increasing desert conditions.</p><p><b>Consequences.</b> Desertification decreases the resilience of the land to climatic change, reduces soil productivity through wind and water erosion of topsoil, allows inedible plants to invade overgrazed pastures, and harms people outside the affected areas through downstream flooding, sedimentation of rivers, lakes, reservoirs and navigation channels, and dust storms. It is estimated that the <b>annual income lost in desertification-affected regions is over 42 billion USD</b>. Major effects include farming becoming next to impossible, decrease in crop yields, hunger, flooding, poor water quality, poverty, biodiversity loss, endangerment and extinction of species, destruction of habitats, and migration. Desertification often adds to famine where poverty, civil disturbance or conflict already exists.</p><p><b>Desertification in Eastern Africa and responses.</b> Two-thirds of Africa is classified as dryland, with <b>319 million hectares</b> vulnerable to desertification, concentrated in the Sahelian region, the Horn of Africa and the Kalahari; 41 percent of the population in the sub-Saharan drylands lives in extreme poverty. East Africa includes nine countries: Djibouti, Eritrea, Ethiopia, Kenya, Somalia, Sudan, South Sudan, Uganda and Tanzania. In Tanzania about <b>45 percent of the territory is impacted and another 35 percent is under threat</b>, worst in Sukumaland, Gogoland and the Masai steppe. In Sudan each settled household uses about <b>200 trees or bushes a year</b>, and agriculture introduced in the 450-650 mm rain zone accelerated desertification in Western Sudan. Ethiopia's experience is similar, especially in the north, northeast and southeast, aggravated by lack of political stability and recurrent war. Uganda's rapid population growth caused significant forest loss, and Kenya's grazing marginal lands cover <b>85 percent of the country</b>, with the Kerio Valley, Eastern and North Kenya, and Kajiado worst hit, while sedimentation along the Tana River threatens hydropower dams. Responses include Kenya's Presidential Commission on Soil Erosion and Afforestation, tree nurseries in each district and national tree planting days such as <b>Ethiopia's Green Legacy</b>, active agricultural extension work, and UNESCO's Integrated Project on Arid Lands begun in Kenya in 1976.</p>",
+  keyTerms: [
+    { term: "Desertification", def: "Human induced land degradation in dry and sub-humid regions (UNCCD), caused by human activities and climatic change." },
+    { term: "Dryland", def: "Arid, semi-arid and dry sub-humid areas collectively; they cover about 46.2 percent of global land and host 3 billion people." },
+    { term: "Land degradation", def: "The decline in the condition and productivity of land; it is called desertification only when it occurs in the drylands." },
+    { term: "Overgrazing", def: "Excessive grazing that removes the vegetation cover protecting soil from erosion; a leading cause of desertification." },
+    { term: "Fallow period", def: "A rest period given to farmland so soil nutrients regenerate; shortening it accelerates soil exhaustion." },
+    { term: "Albedo", def: "The reflectivity of the land surface; deforestation and overgrazing on semi-arid grasslands change albedo and increase desert conditions." },
+    { term: "Desertification hotspot", def: "An area of marked decline in vegetation cover; hotspots covered about 9.2 percent of drylands between the 1980s and 2000s." },
+    { term: "Green Legacy", def: "Ethiopia's national tree planting initiative, an example of national efforts to combat desertification." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "About 70 percent of the 5.2 billion hectares of drylands used for agriculture are degraded. Calculate the degraded area.",
+      given: "Agricultural drylands = 5.2 billion hectares; degraded share = 70 percent.",
+      formula: "Degraded area = total x degraded share.",
+      substitution: "5.2 x 0.70.",
+      calculation: "5.2 x 0.7 = 3.64 billion hectares.",
+      answer: "About 3.64 billion hectares of agricultural dryland are already degraded."
+    },
+    {
+      problem: "Each settled household in Western Sudan uses about 200 trees or bushes per year. How many trees does a village of 150 households consume annually?",
+      given: "200 trees per household per year; 150 households.",
+      formula: "Total trees = households x trees per household.",
+      substitution: "150 x 200.",
+      calculation: "150 x 200 = 30,000 trees per year.",
+      answer: "30,000 trees a year, explaining why tree cutting for domestic needs drives Sudanese desertification."
+    },
+    {
+      problem: "In Tanzania, about 45 percent of the territory is already impacted and another 35 percent is under threat. What total share is affected or at risk?",
+      given: "Impacted = 45 percent; threatened = 35 percent.",
+      formula: "Total share = impacted + threatened.",
+      substitution: "45 + 35.",
+      calculation: "45 + 35 = 80 percent.",
+      answer: "Up to 80 percent of Tanzania's territory is impacted or under threat of desertification."
+    },
+    {
+      problem: "Desertification-affected regions lose over 42 billion USD annually. Estimate the loss over 10 years if the rate stays constant.",
+      given: "Annual loss = 42 billion USD; 10 years.",
+      formula: "Total loss = annual loss x years.",
+      substitution: "42 x 10.",
+      calculation: "42 x 10 = 420 billion USD.",
+      answer: "Over 420 billion USD in a decade, showing the huge economic impact of desertification."
+    }
+  ],
+  commonMistakes: [
+    "Confusing natural deserts with desertification; desertification is degradation of vulnerable drylands, not the spread of the Sahara as moving sand.",
+    "Thinking desertification concerns only arid zones, when it occurs across arid, semi-arid and dry sub-humid areas.",
+    "Blaming only climate; the UNCCD definition stresses human induced causes such as overgrazing, over-cultivation and firewood harvesting.",
+    "Assuming soil recovers quickly in drylands, when water scarcity makes forest and soil regeneration very slow.",
+    "Believing desertification stays within the affected area, while sedimentation, dust storms and flooding harm people downstream.",
+    "Forgetting the socioeconomic side; desertification interacts with poverty, conflict and poor food distribution to trigger famine.",
+    "Treating planting days as enough, when combating desertification also needs fallowing, terracing, rotation and alternative energy."
+  ],
+  applications: [
+    "Applying Ethiopia's Green Legacy experience by planting and protecting trees on degraded local hillsides.",
+    "Designing crop rotation and fallow plans so village farmland is not exhausted by continuous cultivation.",
+    "Promoting solar or wind energy for cooking to reduce firewood harvesting near settlement in the dry Ethiopian lowlands.",
+    "Maintaining terraces and contour ploughing on mountain plots instead of cultivating down the slope.",
+    "Discussing how sedimentation reduces the storage of Ethiopian dams, as observed along the Tana River in Kenya.",
+    "Linking land rehabilitation to poverty reduction, since 41 percent of sub-Saharan dryland populations live in extreme poverty."
+  ],
+  summary: "Desertification is human induced land degradation in dry and sub-humid regions, a problem that drew global attention at the 1977 Nairobi conference after the Sahel drought. Drylands cover 46.2 percent of the land, host 3 billion people, and 70 percent of their agricultural land is degraded, driven by population growth, over-cultivation, overgrazing, deforestation for firewood and albedo-changing land use. Its consequences lose over 42 billion USD a year, and in East Africa Tanzania, Sudan, Ethiopia, Uganda and Kenya show the pattern, countered by efforts such as Ethiopia's Green Legacy.",
+  visuals: [
+    {
+      type: "comparison",
+      config: {
+        title: "Desert vs Desertification",
+        left: { name: "Natural desert", items: ["250 mm rain or less per year", "Adapted plants and animals", "Not human caused"] },
+        right: { name: "Desertification", items: ["Human induced land degradation", "In dry and sub-humid regions", "Reversible only with human effort"] }
+      }
+    },
+    {
+      type: "mindMap",
+      config: {
+        title: "Major Causes of Desertification",
+        center: "Desertification",
+        branches: [
+          { label: "Population", items: ["Growth of 2-3% a year", "Land cannot recover"] },
+          { label: "Cultivation", items: ["Over-cultivation", "Shortened fallow", "Monoculture"] },
+          { label: "Grazing", items: ["Overgrazing", "Livestock trampling"] },
+          { label: "Trees and fire", items: ["Firewood harvesting", "Deforestation", "Bush fires"] },
+          { label: "Slopes", items: ["Ploughing down slopes", "Deteriorating terraces"] }
+        ]
+      }
+    },
+    {
+      type: "tableVisual",
+      config: {
+        title: "Desertification in East African Countries",
+        headers: ["Country", "Main feature", "Key detail"],
+        rows: [
+          ["Tanzania", "Population pressure on land", "45% impacted, 35% threatened; Sukumaland worst"],
+          ["Sudan", "Tree cutting and millet expansion", "200 trees per household yearly; 450-650 mm zone"],
+          ["Ethiopia", "Like Sudan, plus instability", "North, northeast, southeast hit hardest"],
+          ["Uganda", "Forest loss", "Pearl of Africa; rapid population growth"],
+          ["Kenya", "Marginal grazing lands", "85% of country; Tana River dam sedimentation"]
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "Deserts are commonly defined as areas of the Earth that receive:", options: ["100 mm or less of rain per year", "250 mm or less of rain per year", "500 mm or less of rain per year", "1000 mm or less of rain per year"], answer: 1, difficulty: 1, explanation: "Deserts get little or no rain, often 250 mm or less per year." },
+    { type: "mcq", q: "The UN definition (UNCCD) describes desertification as:", options: ["the advance of sand dunes onto farmland", "human induced land degradation in dry and sub-humid regions", "any drought lasting over one year", "natural drying of the climate"], answer: 1, difficulty: 2, explanation: "UNCCD defines desertification as human induced land degradation in dry and sub-humid regions." },
+    { type: "tf", q: "Desertification can occur on natural desert terrain such as the deep Sahara.", answer: false, difficulty: 1, explanation: "Desertification does not concern natural deserts and can only occur on land vulnerable to the process." },
+    { type: "short", q: "In which city and year was the United Nations Conference on Desertification held?", answer: "nairobi 1977|1977 nairobi|nairobi, 1977", difficulty: 2, explanation: "The UN Conference on Desertification was held in Nairobi in 1977, after the Sahel drought of the early 1970s." },
+    { type: "mcq", q: "Drylands currently cover about what share of the global land area?", options: ["20 percent", "33 percent", "46.2 percent", "60 percent"], answer: 2, difficulty: 2, explanation: "Drylands cover about 46.2 percent of the global land area and are home to 3 billion people." },
+    { type: "mcq", q: "What share of the drylands used for agriculture around the world are already degraded?", options: ["about 30 percent", "about 50 percent", "about 70 percent", "about 90 percent"], answer: 2, difficulty: 2, explanation: "About 70 percent of the 5.2 billion hectares of agricultural drylands are already degraded." },
+    { type: "tf", q: "In the drylands, allowing rest periods from grazing and longer fallow periods can have spectacular regenerating effects on vegetation.", answer: true, difficulty: 2, explanation: "The textbook notes that grazing rest periods and longer fallows regenerate forest spectacularly, though slowly under water scarcity." },
+    { type: "concept", q: "Explain how firewood use causes desertification in tropical arid areas.", answer: "wood is the main domestic energy source|forests are destroyed|regeneration is slow", difficulty: 3, explanation: "Wood is the principal domestic energy for cooking and lighting, so forests are destroyed and regenerate very slowly under water scarcity." },
+    { type: "mcq", q: "In which country does each settled household use about 200 trees or bushes a year, contributing to desertification?", options: ["Kenya", "Sudan", "Tanzania", "Djibouti"], answer: 1, difficulty: 2, explanation: "In Sudan each settled household uses about 200 trees or bushes a year for domestic needs." },
+    { type: "mcq", q: "In Kenya, the usefulness of hydropower plants is threatened mainly by:", options: ["seasonal snowmelt", "severe sedimentation of man-made dams along the Tana River", "volcanic activity", "illegal fishing"], answer: 1, difficulty: 3, explanation: "Severe sedimentation of dams along the Tana River threatens their hydropower usefulness, linked to vegetation destruction." },
+    { type: "short", q: "Name Ethiopia's national tree planting initiative that exemplifies efforts to combat desertification.", answer: "green legacy", difficulty: 1, explanation: "Ethiopian Green Legacy is cited as a typical example of national tree planting efforts." }
+  ]
+};
 
-Lessons["g12-geography-ug7-t3"] = {"overview":"<b>Drought</b> sits inside <b>Contemporary Global Geographic Issues and Public Concerns</b>. Desertification and drought are the focus of Unit 7 of Grade 12 Geography in the Ethiopian (FDRE Ministry of Education) curriculum. First, it shows why climate change now ranks among the most pressing global geographic issues. Then it examines desertification and drought as linked processes, together with the famine that often follows, weighing their causes, effects and coping strategies, before moving on to geographical enquiry and map making. Students will also learn how desertification and drought apply to real-life situations.","objectives":["Explain why climate change ranks as a global concern.","Describe the causes and effects of desertification and drought.","Distinguish meteorological, hydrological and agricultural drought.","Analyze the links between desertification, drought and famine.","Assess the strategies that combat drought and famine."],"simple":"<b>Drought in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, how a rainfall deficit defines drought against a local norm.</li> <li>Then meteorological, hydrological and agricultural types of drought.</li> <li>Also the indices, such as the Palmer and Standardized Precipitation Index.</li> <li>Finally, the natural and human causes and the wide economic impact.</li></ul>","detailed":"<p><b>Drought — the essentials.</b> First, how a rainfall deficit defines drought against a local norm. Then meteorological, hydrological and agricultural types of drought. Also the indices, such as the Palmer and Standardized Precipitation Index. Finally, the natural and human causes and the wide economic impact.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Explain why climate change ranks as a global concern.</li><li>Describe the causes and effects of desertification and drought.</li><li>Distinguish meteorological, hydrological and agricultural drought.</li><li>Analyze the links between desertification, drought and famine.</li><li>Assess the strategies that combat drought and famine.</li></ul>","keyTerms":[{"term":"First","def":"First, how a rainfall deficit defines drought against a local norm."},{"term":"Then meteorological","def":"Then meteorological, hydrological and agricultural types of drought."},{"term":"the indices","def":"Also the indices, such as the Palmer and Standardized Precipitation Index."},{"term":"Finally","def":"Finally, the natural and human causes and the wide economic impact."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing drought with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Map and diagram questions in the ESSLCE geography paper","Explaining a local environmental or resource issue in your own region"],"summary":"Drought: First, how a rainfall deficit defines drought against a local norm. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"Drought\" is correct according to the MoE curriculum?","options":["First, how a rainfall deficit defines drought against a local norm.","Drought applies only to a continent other than the one this unit covers","Drought contradicts the definition this topic gives","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, how a rainfall deficit defines drought against a local norm. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"Drought\"?","options":["Then meteorological, hydrological and agricultural types of drought.","Drought describes a physical process unrelated to this topic","Drought applies only to a continent other than the one this unit covers","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Then meteorological, hydrological and agricultural types of drought."},{"type":"tf","q":"True or false: First, how a rainfall deficit defines drought against a local norm.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover drought.","answer":false,"difficulty":1,"explanation":"Drought is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Explain why climate change ranks as a global concern.","difficulty":2,"altAnswers":["Describe the causes and effects of desertification and drought.","Distinguish meteorological, hydrological and agricultural drought."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why drought matters.","answer":"Drought is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of drought in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to drought, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
+Lessons["g12-geography-ug7-t3"] = {
+  overview: "Drought is the absence of regular rainfall over an extended period, and of all natural hazards it carries the greatest economic impact and affects the greatest number of people. This lesson covers drought definitions, the five dryland zones, the three types of drought, measurement indices, causes and impacts.",
+  objectives: [
+    "Define drought and distinguish it from permanent aridity",
+    "Locate the five main dryland zones of the world and their rainfall belts",
+    "Distinguish meteorological, hydrological and agricultural drought",
+    "Interpret drought indices such as the SPI and Percent of Normal Precipitation",
+    "Explain the natural and human causes and the major impacts of drought"
+  ],
+  simple: "Drought is a temporary reduction in water or moisture availability significantly below the normal or expected amount for a specified period. A permanent rainfall deficiency causes aridity, which is different. The planet has five main dryland zones, from the Sonoran and Atacama deserts to the huge belt from the Atlantic to China, the Namib-Kalahari and most of Australia. Drought is commonly divided into meteorological drought, based only on rainfall statistics; hydrological drought, based on stream flow, lake levels and groundwater; and agricultural drought, based on soil moisture deficit over the growing season. Indices such as the Percent of Normal Precipitation and the Standardized Precipitation Index measure drought. Natural causes include El Nino and La Nina, while land use change and greenhouse gases act as human factors, and impacts run from hunger and disease to conflict and migration.",
+  detailed: "<p><b>Defining drought.</b> A permanent rainfall deficiency causes <i>aridity</i>, whereas <b>drought is the absence of regular rainfall over an extended period</b>. The widely accepted definition is a temporary reduction in water or moisture availability significantly below the normal or expected amount for a specified period. Its assumptions are: the reduction is temporary; it is significant; it is defined in relation to a norm; and the period taken as the basis for the norm is specified. The norm may be defined technically, for example when availability falls below about <b>80 percent of the average over the preceding 20 years</b>, or culturally, in terms of the level of water availability a society has come to expect. Quantitatively, dryness ratios and indices measure rainfall deficits, and the Sahelian and Sudanese ecosystems of Africa are the most frequently drought-affected areas.</p><p><b>Drought-prone regions.</b> Our planet has five main diagonal zones of drylands: the Sonoran Desert of northwest Mexico and its extension in the dry basins of the southwestern United States; the Atacama Desert along the western foot of the Andes from south of Ecuador to Central Chile, crossing the Andes near Antafogasta and extending eastwards into Patagonia; a vast diagonal running from the Atlantic Ocean to China, including the Sahara, the Arabian Desert, the Rajasthan Desert of Pakistan and India, the deserts of Iran and the former USSR, and the Taklamakan and Gobi of China and Mongolia; the Namib-Kalahari and its surroundings in Southern Africa; and most of the Australian continent. These belts are divided into arid zones with rainfall below about 100-150 mm per year; drylands with rainfall below about 200-250 mm where vegetation can support pastoralism; semi-arid zones with 250-300 mm up to 600 mm where drought-resistant crops can be cultivated; and dry sub-humid zones with 600-1200 mm of rainfall and a maximum 6 month growing season.</p><p><b>Three types of drought.</b> <b>Meteorological drought</b> describes a reduction in rainfall for a specified period below a specified proportion of the long-term average; its definition involves only precipitation statistics and depends on the time of year and location. <b>Hydrological drought</b> involves a reduction in water resources, such as stream flows, lake levels, groundwater and underground aquifers, below a specified level for a given period. The two can be blurred: irrigated agriculture alongside the River Nile in Egypt may experience a hydrological drought as a result of a meteorological drought in the Ethiopian Highlands, regardless of rainfall within Egypt itself. <b>Agricultural drought</b> occurs when the water supply necessary for agriculture becomes scarce, defined by a consistently high soil moisture deficit over the growing season; in human terms it is a moisture deficit large enough to disrupt the rural economy, and in an extreme case crops fail and animals and perhaps people die. Shifting thresholds show how crop choice matters, for example substituting maize, a more water-demanding cash crop, for millet in the Kenyan landscape. The three categories are usually, but incorrectly, viewed as synonymous.</p><p><b>Measuring drought with indices.</b> The <b>Palmer Drought Severity Index (PDSI)</b>, developed in the United States in 1965, is a soil moisture algorithm based on precipitation and temperature data; negative values depict drought (range -6 to 6), it is comprehensive and good for long-term drought, but slow to respond. The <b>Crop Moisture Index (CMI)</b> of 1968 responds rapidly and changes week to week, so it suits short-term agricultural dryness but is useful only in the growing season. The <b>Satellite Vegetative Health Index (VHI)</b> combines chlorophyll and moisture content with surface thermal change, giving values 0 to 100 from extremely poor to excellent, and is good for early detection. <b>Percent of Normal Precipitation</b> is calculated as PNP = (actual precipitation / normal precipitation) x 100, easy to compute and easy for the media and public to understand. The <b>Standardized Precipitation Index (SPI)</b> fits the long-term precipitation record to a probability distribution, giving mean zero; it is negative for drought (range -2 to 2), provides early warning of onset and end, but uses only precipitation data.</p><p><b>SPI drought levels.</b> For a 12-month scale, SPI values classify conditions: 2.0 and above is extremely wet; 1.5 to 1.99 very wet; 1.0 to 1.49 moderately wet; -0.99 to 0.99 near normal; -1.0 to -1.49 moderately dry; -1.5 to -1.99 severely dry; and -2 and less extremely dry. This lets analysts compare drought severity across regions and seasons on a common scale.</p><p><b>Causes.</b> Droughts are primarily caused by changing weather patterns, including excessive accumulation of heat on the Earth's surface and meteorological changes bringing less rainfall and lower cloud cover, producing higher evaporation. Natural factors dominate: the <b>El Nino and La Nina</b> effects. In Africa drought occurs most frequently during the warm El Nino period, while Southern and Eastern Africa droughts often occur during cold La Nina events, and a powerful La Nina was the primary cause of the Horn of Africa drought of <b>2010-2011</b>. The recent severe Sahel droughts were caused by ocean warming, the southward warming gradient of the Atlantic and steady warming of the Indian Ocean, and the southward shift of the Inter Tropical Convergence Zone (ITCZ). Anthropogenic contributors include land use change altering land-atmosphere feedbacks and human induced greenhouse gas emissions. The severity also depends on the proportion of production that is irrigated, the moisture retention capacity of the soil, the timeliness of rainfall within the growing season, and the adaptive behavior of farmers.</p><p><b>Impacts.</b> Of all natural hazards, droughts have potentially the greatest economic impact and affect the greatest number of people; they cover whole countries or parts of continents and may last months or years, unlike short-lived earthquakes and cyclones. The textbook contrasts two semi-arid countries with a <b>50 percent reduction in annual rainfall</b>: Country X, a high income economy where agriculture contributes only 10 percent of GDP and water comes from reliable underground aquifers, suffers negligible impact, while Country Y, a low income economy where rainfed agriculture contributes 50 percent of GDP, suffers severe impacts. Typical consequences include reduced farmer income, decreased local spending, falling livestock prices as pasture costs rise, increased staple food prices, and household coping tactics such as switching to cheaper foods, reducing food intake, borrowing, selling assets, local income diversification and migration. Reduced food intake worsens nutrition and resistance to infection, scarce water raises diarrheal diseases, competition for remaining water sources provokes local disputes and conflict, school attendance falls, and migration breaks up communities and families.</p>",
+  keyTerms: [
+    { term: "Drought", def: "A temporary reduction in water or moisture availability significantly below the normal or expected amount for a specified period." },
+    { term: "Aridity", def: "A permanent rainfall deficiency of a region; unlike drought, it does not refer to a temporary anomaly." },
+    { term: "Meteorological drought", def: "A reduction in rainfall for a specified period below a proportion of the long-term average; defined only by precipitation statistics." },
+    { term: "Hydrological drought", def: "A reduction in water resources such as stream flows, lake levels, groundwater and aquifers below a specified level for a given period." },
+    { term: "Agricultural drought", def: "A shortage of water for agriculture, defined as a consistently high soil moisture deficit over the growing season, disrupting the rural economy." },
+    { term: "SPI", def: "The Standardized Precipitation Index, fitted to a long-term precipitation record; negative values denote drought over a range of -2 to 2." },
+    { term: "PDSI", def: "The Palmer Drought Severity Index of 1965, a soil moisture algorithm using precipitation and temperature data; range -6 to 6." },
+    { term: "El Nino and La Nina", def: "Pacific ocean-atmosphere variations; El Nino brings frequent African drought, and a strong La Nina caused the Horn of Africa drought of 2010-2011." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "A station received 450 mm of rain in a year when its normal precipitation is 900 mm. Calculate the Percent of Normal Precipitation and interpret it.",
+      given: "Actual precipitation = 450 mm; normal precipitation = 900 mm.",
+      formula: "PNP = (Actual precipitation / Normal precipitation) x 100",
+      substitution: "PNP = (450 / 900) x 100",
+      calculation: "450 / 900 = 0.5; 0.5 x 100 = 50 percent.",
+      answer: "PNP = 50 percent, half of normal, indicating a significant moisture deficit for that period."
+    },
+    {
+      problem: "An SPI value of -1.7 is reported for a 12-month period. What drought level does this indicate?",
+      given: "SPI = -1.7 for 12 months.",
+      formula: "Match the SPI value to the standard drought classification table.",
+      substitution: "Severely dry is -1.5 to -1.99; extremely dry is -2 and less.",
+      calculation: "-1.7 falls between -1.5 and -1.99, so the class is severely dry; -2.0 or less would be extremely dry.",
+      answer: "Severely dry conditions, one class above extremely dry."
+    },
+    {
+      problem: "Two semi-arid countries each suffer a 50 percent rainfall reduction. Country X has agriculture at 10 percent of GDP with reliable aquifers; Country Y has rainfed agriculture at 50 percent of GDP. Predict which suffers more and why.",
+      given: "Same rainfall shock; different economic structures.",
+      formula: "Impact = severity of moisture deficit x sensitivity of the economy and society.",
+      substitution: "Country X uses reliable underground aquifers and agriculture is only 10 percent of GDP; Country Y depends on rainfed farming equal to half of GDP.",
+      calculation: "Country Y's food production and income depend directly on rainfall, so its output, prices and employment are hit far harder.",
+      answer: "Country Y suffers severe impacts; Country X feels almost none, showing drought impact depends on the economy, not only rainfall."
+    },
+    {
+      problem: "Drought is defined technically when water availability falls below about 80 percent of the 20-year average. A region's long-term average supply is 500 million cubic metres but falls to 380 million cubic metres. Is this a technical drought?",
+      given: "20-year average = 500 million cubic metres; current supply = 380 million cubic metres.",
+      formula: "Threshold = 0.80 x average availability.",
+      substitution: "0.80 x 500 = 400 million cubic metres.",
+      calculation: "380 million is below the 400 million threshold, about 76 percent of average.",
+      answer: "Yes, the supply falls below 80 percent of the 20-year average, so it qualifies as a drought."
+    }
+  ],
+  commonMistakes: [
+    "Treating drought and aridity as the same; aridity is a permanent deficiency while drought is temporary and defined against a norm.",
+    "Using the three drought types as synonyms when meteorological, hydrological and agricultural droughts are essentially different.",
+    "Forgetting that hydrological drought can occur where rainfall is normal, as in Egypt when Ethiopian Highlands rainfall fails.",
+    "Reading a positive SPI as drought, when negative values indicate drought on a scale of -2 to 2.",
+    "Assuming the same rainfall loss always causes the same damage, when impact depends on irrigated share, soil moisture retention and farmer adaptation.",
+    "Believing droughts are short-lived like earthquakes and cyclones, although droughts may last months or years over large areas.",
+    "Ignoring cultural definitions of the norm, where a society used to wetter years perceives average rain as drought."
+  ],
+  applications: [
+    "Using PNP calculations with Ethiopian Meteorological Institute data to announce drought status to farming communities.",
+    "Explaining how weak 2010-2011 La Nina conditions relate to the Horn of Africa drought when planning relief for pastoral areas.",
+    "Teaching farmers in semi-arid Ethiopia to keep a mix of drought-resistant crops like millet rather than only maize.",
+    "Planning wells and reservoirs so a meteorological drought in the highlands does not become a hydrological drought downstream.",
+    "Arguing for irrigation and soil moisture conservation so a rainfall deficit does not devastate the rural economy.",
+    "Predicting school withdrawal and water conflicts in drought-affected woredas and preparing social support programs."
+  ],
+  summary: "Drought is a temporary reduction in water or moisture availability significantly below the expected norm, unlike permanent aridity, and it affects five great dryland zones including the Sahel and the Horn of Africa. It appears as meteorological, hydrological or agricultural drought, measured by indices such as the PDSI, CMI, VHI, Percent of Normal Precipitation and SPI. Caused naturally by El Nino, La Nina, ocean warming and ITCZ shifts plus human land use change, drought has the greatest economic impact of all natural hazards, driving hunger, disease, water conflicts and migration.",
+  visuals: [
+    {
+      type: "tableVisual",
+      config: {
+        title: "Three Types of Drought Compared",
+        headers: ["Type", "Measured by", "Key example"],
+        rows: [
+          ["Meteorological", "Rainfall far below long-term average", "Only precipitation statistics"],
+          ["Hydrological", "Stream flow, lake levels, groundwater", "Nile irrigation hit by Ethiopian Highlands drought"],
+          ["Agricultural", "Soil moisture deficit in growing season", "Maize replacing millet in Kenya"]
+        ]
+      }
+    },
+    {
+      type: "comparison",
+      config: {
+        title: "Drought vs Aridity",
+        left: { name: "Drought", items: ["Temporary reduction in moisture", "Defined against a norm", "Can occur in any climate"] },
+        right: { name: "Aridity", items: ["Permanent rainfall deficiency", "Describes the regional climate", "Sahel and Sudan ecosystems are prone"] }
+      }
+    },
+    {
+      type: "steps",
+      config: {
+        title: "How Drought Impacts Spread Through a Society",
+        steps: [
+          { label: "Rainfall fails", detail: "Precipitation falls far below the expected norm for the season." },
+          { label: "Crops and pasture suffer", detail: "Farmers sell livestock cheaply as feed and pasture costs rise." },
+          { label: "Food prices rise", detail: "Staple food prices increase while farm incomes fall." },
+          { label: "Households cope", detail: "People eat cheaper food, borrow, sell assets and migrate." },
+          { label: "Health and conflict", detail: "Nutrition falls, diarrheal disease rises and water disputes grow." }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "short", q: "Define drought in one sentence, as the textbook gives it.", answer: "absence of regular rainfall over an extended period|temporary reduction in water or moisture availability below the norm", difficulty: 1, explanation: "Drought is the absence of regular rainfall over an extended period, defined as a temporary reduction below the expected amount." },
+    { type: "tf", q: "A permanent rainfall deficiency is called drought.", answer: false, difficulty: 1, explanation: "A permanent rainfall deficiency causes aridity; drought is a temporary reduction defined against a norm." },
+    { type: "mcq", q: "Technically, a reduction in water availability qualifies as drought when it falls below about what share of the average availability over the preceding 20 years?", options: ["50 percent", "65 percent", "80 percent", "95 percent"], answer: 2, difficulty: 2, explanation: "The technical norm is about 80 percent of average availability over the preceding 20 years." },
+    { type: "mcq", q: "Hydrological drought involves a reduction in:", options: ["rainfall statistics only", "stream flows, lake levels, groundwater and aquifers", "soil moisture over the growing season", "crop yields alone"], answer: 1, difficulty: 2, explanation: "Hydrological drought reduces water resources such as stream flows, lake levels, groundwater and underground aquifers." },
+    { type: "concept", q: "Why may irrigated areas along the River Nile in Egypt experience hydrological drought even when Egypt's own rainfall is normal?", answer: "caused by meteorological drought in the ethiopian highlands|nile flow from the highlands", difficulty: 3, explanation: "Egypt's Nile water comes largely from the Ethiopian Highlands, so a meteorological drought there causes hydrological drought in Egypt." },
+    { type: "mcq", q: "Agricultural drought is best described in terms of:", options: ["rainfall statistics only", "soil moisture deficit over the growing season", "aquifer exhaustion", "snowmelt reduction"], answer: 1, difficulty: 2, explanation: "Agricultural drought occurs when there is a consistently high soil moisture deficit over the growing season." },
+    { type: "mcq", q: "Which drought index was the first to be developed in the United States in 1965 and uses a soil moisture algorithm with a range of -6 to 6?", options: ["SPI", "PDSI", "CMI", "VHI"], answer: 1, difficulty: 2, explanation: "The Palmer Drought Severity Index, developed in 1965, ranges from -6 to 6 with negative values depicting drought." },
+    { type: "short", q: "A region's normal annual precipitation is 1000 mm but only 600 mm fell. Calculate the Percent of Normal Precipitation.", answer: "60 percent|60%", difficulty: 2, explanation: "PNP = (600 / 1000) x 100 = 60 percent." },
+    { type: "mcq", q: "An SPI value of -1.7 on the 12-month scale indicates:", options: ["moderately wet", "near normal", "severely dry", "extremely wet"], answer: 2, difficulty: 3, explanation: "Values from -1.5 to -1.99 are severely dry; -2 and less is extremely dry." },
+    { type: "mcq", q: "Which event was the primary natural cause of the Horn of Africa drought of 2010-2011?", options: ["El Nino", "a powerful La Nina", "volcanic eruption", "monsoon failure"], answer: 1, difficulty: 2, explanation: "A powerful La Nina event was the primary cause of the Horn of Africa drought in 2010-2011." },
+    { type: "tf", q: "Of all natural hazards, droughts have potentially the greatest economic impact and affect the greatest number of people.", answer: true, difficulty: 1, explanation: "The textbook states droughts are potentially the hazards with the greatest economic impact and the greatest number of people affected." }
+  ]
+};
 
-Lessons["g12-geography-ug7-t4"] = {"overview":"<b>Famine</b> sits inside <b>Contemporary Global Geographic Issues and Public Concerns</b>. Desertification and drought are the focus of Unit 7 of Grade 12 Geography in the Ethiopian (FDRE Ministry of Education) curriculum. First, it shows why climate change now ranks among the most pressing global geographic issues. Then it examines desertification and drought as linked processes, together with the famine that often follows, weighing their causes, effects and coping strategies, before moving on to geographical enquiry and map making. Students will also learn how desertification and drought apply to real-life situations.","objectives":["Explain why climate change ranks as a global concern.","Describe the causes and effects of desertification and drought.","Distinguish meteorological, hydrological and agricultural drought.","Analyze the links between desertification, drought and famine.","Assess the strategies that combat drought and famine."],"simple":"<b>Famine in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, why famine is a process rather than a single event.</li> <li>Then the idea of food security and its two forms of insecurity.</li> <li>Also the natural and human causes that cut food availability.</li> <li>Finally, relief measures that protect people’s access to food.</li></ul>","detailed":"<p><b>Famine — the essentials.</b> First, why famine is a process rather than a single event. Then the idea of food security and its two forms of insecurity. Also the natural and human causes that cut food availability. Finally, relief measures that protect people’s access to food.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Explain why climate change ranks as a global concern.</li><li>Describe the causes and effects of desertification and drought.</li><li>Distinguish meteorological, hydrological and agricultural drought.</li><li>Analyze the links between desertification, drought and famine.</li><li>Assess the strategies that combat drought and famine.</li></ul>","keyTerms":[{"term":"First","def":"First, why famine is a process rather than a single event."},{"term":"Finally","def":"Finally, relief measures that protect people’s access to food."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing famine with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Map and diagram questions in the ESSLCE geography paper","Explaining a local environmental or resource issue in your own region"],"summary":"Famine: First, why famine is a process rather than a single event. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"Famine\" is correct according to the MoE curriculum?","options":["First, why famine is a process rather than a single event.","Famine applies only to a continent other than the one this unit covers","Famine contradicts the definition this topic gives","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, why famine is a process rather than a single event. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"Famine\"?","options":["Then the idea of food security and its two forms of insecurity.","Famine describes a physical process unrelated to this topic","Famine applies only to a continent other than the one this unit covers","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Then the idea of food security and its two forms of insecurity."},{"type":"tf","q":"True or false: First, why famine is a process rather than a single event.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover famine.","answer":false,"difficulty":1,"explanation":"Famine is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Explain why climate change ranks as a global concern.","difficulty":2,"altAnswers":["Describe the causes and effects of desertification and drought.","Distinguish meteorological, hydrological and agricultural drought."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why famine matters.","answer":"Famine is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of famine in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to famine, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
-
+Lessons["g12-geography-ug7-t4"] = {
+  overview: "Famine is not a single event but a sequence of processes that reduce food availability or food entitlements, causing widespread and substantially increased morbidity and mortality. This lesson explains famine through the food security framework, its causes and the measures used to maintain food security.",
+  objectives: [
+    "Define famine as a process within the food security framework",
+    "Distinguish chronic and transitory food insecurity",
+    "Trace the historical incidence of famine from ancient societies to the Ethiopian famine of 1984-1985",
+    "Classify the natural and human-induced causes of famine",
+    "Evaluate short-term relief measures that protect food availability and entitlements"
+  ],
+  simple: "Famine is best understood as a process, not a single clearly identifiable event. It results from a sequence of processes and events that reduce food availability or food entitlements, causing widespread and substantially increased morbidity and mortality. The food security framework of the World Bank (1986) defines food security as access by all people at all times to enough food for an active, healthy life. Food insecurity is either chronic, a continuously inadequate diet from persistent inability to buy or produce food, or transitory, a temporary decline in access whose worst form produces famine. Famines are caused by a decline in food availability, by a reduction in people's ability to acquire food, or both, and are fought through measures such as price stabilization, food subsidies, employment creation, food distributions and complementary water and health programs.",
+  detailed: "<p><b>Defining famine.</b> For many people the word famine is defined by images of mass starvation, and the power of modern media means some define it by the horrific, such as widely screened films of feeding camps in Ethiopia and southern Sudan. Accepting that famine is a <i>process</i> rather than a single clearly identifiable event makes it hard to separate from other prevalent conditions such as chronic hunger, which affects as many as one-third of the world's population and causes the premature death of many among the world's poor. The safest definition is: <b>famine results from a sequence of processes and events that reduce food availability or food entitlements, causing widespread and substantially increased morbidity and mortality</b>.</p><p><b>The food security framework.</b> Over the last two decades the concept of food security has emerged as a definitional scheme linking food production, distribution and consumption, widely used by governments and donor agencies. The World Bank (1986) definition is: food security is <b>access by all people at all times to enough food for an active, healthy life</b>. Its essential elements are the availability of food and the ability to acquire it. Food insecurity, in turn, is the lack of access to enough food. <b>Chronic food insecurity</b> is a continuously inadequate diet caused by a household's persistent lack of ability to buy or to produce enough food. <b>Transitory food insecurity</b> is a temporary decline in a household's access to enough food, often resulting from instability in food prices, declining food production or household incomes, and in its worst form it produces famine.</p><p><b>Historical incidence.</b> Famines have occurred periodically in most societies throughout history. Chronicles of ancient civilizations in India, Egypt, Western Asia, China, Greece and Rome record famines; in the Middle Ages famine was frequent in Europe, and historians estimate <b>89 general famines in France</b> during the 900 years from the 10th to the 18th century, plus hundreds of local famines. Since then famines in Western Europe have become markedly less frequent because of agricultural innovation and the Industrial Revolution, though the <b>Ireland Great Famine of 1846-51</b> was possibly one of the most catastrophic. The most recent Western European famine developed in the Netherlands in the winter of 1944, when a military stalemate between the advancing Allied Forces and the retreating German Army caused severe food shortages and significantly increased mortality in the main urban areas. In modern history, the <b>Ethiopian Famine of 1984-1985 is the most disastrous</b> one, though death estimates for particular famines are often poor, exaggerated and disputed.</p><p><b>Causes of famine.</b> Famines are caused by either or both of two factors: a decline in food availability, and a reduction in people's access to, or ability to acquire, food. Declines in availability may come from natural factors such as agricultural drought, floods, high winds, unseasonable cold spells or frosts, crop disease, and pest invasion by locusts, army worms and quellea birds. Human-induced factors include conflict that prevents farmers from planting, weeding, harvesting and selling, or that physically destroys standing crops; external economic shocks, such as sudden rises in the price of imported oil or fertilizers or a decline in export earnings, limiting imports needed for agricultural production; internal macro-economic mismanagement, such as poor agricultural pricing policies and overtaxing export commodities; and forced procurement of farm produce by state organizations or over-export of food that reduces national availability below required levels.</p><p><b>Measures to maintain food security.</b> The overall objective of short-term relief is to protect people's access to food by <b>ensuring the availability of food in the affected area</b> and <b>protecting the entitlements of all groups within the affected population</b>. Principal measures include price stabilization, food subsidies, employment creation programs, general food distributions, supplementary feeding programs, special programs for livestock and pastoralist populations, and complementary water and health programs. Entitlement to food means the pathways through which people access food, whether by production, purchase, social protection programs or other means, so relief must sustain these pathways rather than simply shipping food.</p><p><b>Famine in Ethiopia's context.</b> The Ethiopian famine of 1984-1985 remains the most disastrous famine in modern history and is remembered through the feeding camps screened worldwide. The textbook's reflective activities ask students to write an essay on Ethiopian famines at different times by interviewing elderly people in their community, connecting the global framework to local memory. Understanding famine as a process helps planners act early: because drought, land degradation and poverty interact, protecting entitlements before markets collapse can prevent a crisis from becoming a famine.</p>",
+  keyTerms: [
+    { term: "Famine", def: "A sequence of processes and events that reduce food availability or food entitlements, causing widespread and substantially increased morbidity and mortality." },
+    { term: "Food security", def: "Access by all people at all times to enough food for an active, healthy life (World Bank, 1986)." },
+    { term: "Food availability", def: "The presence of enough food within an area, from production, stocks or imports." },
+    { term: "Entitlement to food", def: "The pathways through which people access food, whether by production, purchase, social protection programs or other means." },
+    { term: "Chronic food insecurity", def: "A continuously inadequate diet caused by a household's persistent lack of ability to buy or produce enough food." },
+    { term: "Transitory food insecurity", def: "A temporary decline in a household's access to enough food, often from price instability or falling production; its worst form produces famine." },
+    { term: "Morbidity", def: "The condition of suffering disease or illness; famine causes widespread increased morbidity and mortality." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "A woreda has food in its markets, but households that lost their livestock income cannot afford to buy it. Using the two famine causes, classify this situation.",
+      given: "Food is available in local markets; purchasing power has collapsed.",
+      formula: "Famine causes: (1) decline in food availability; (2) reduction in access or ability to acquire food.",
+      substitution: "Availability is roughly intact, but the entitlement of poorer households has fallen.",
+      calculation: "The crisis matches the second cause, a reduction in people's access to or ability to acquire food.",
+      answer: "An entitlement failure, not an availability failure; relief must protect incomes and purchasing power."
+    },
+    {
+      problem: "Classify each case: (a) a household too poor for adequate food year after year; (b) a household facing hunger after a sudden maize price rise.",
+      given: "Case (a) is persistent; case (b) follows price instability.",
+      formula: "Chronic insecurity is continuous; transitory insecurity is a temporary decline in access.",
+      substitution: "Case (a) shows a persistent inability to buy or produce enough food; case (b) shows a temporary decline from unstable prices.",
+      calculation: "(a) matches chronic food insecurity; (b) matches transitory food insecurity, whose worst form produces famine.",
+      answer: "(a) chronic food insecurity; (b) transitory food insecurity."
+    },
+    {
+      problem: "A locust invasion destroys crops in one region while conflict blocks harvesters and traders in another. Identify whether each driver is natural or human-induced.",
+      given: "Locust invasion; armed conflict destroying standing crops.",
+      formula: "Sort availability-reducing factors into natural and human-induced lists.",
+      substitution: "Pest invasion is listed among natural factors; conflict preventing harvest and destroying crops is human-induced.",
+      calculation: "The locusts are a natural factor; the conflict is a human-induced factor reducing food availability.",
+      answer: "Locust invasion is natural; conflict is human-induced. Both reduce food availability."
+    },
+    {
+      problem: "A government plans famine relief. Match each measure to its goal: (a) general food distribution; (b) employment creation programs; (c) complementary water programs.",
+      given: "Three proposed relief measures.",
+      formula: "Relief must ensure food availability in the affected area and protect entitlements of all groups.",
+      substitution: "(a) directly supplies food in the affected area; (b) restores income so people can purchase food; (c) supports health so people can work and absorb food.",
+      calculation: "Each measure serves one of the two objectives of short-term relief.",
+      answer: "(a) availability; (b) entitlement protection through income; (c) complementary health and water support."
+    }
+  ],
+  commonMistakes: [
+    "Defining famine only by media images of mass starvation, when it is a process of reduced availability and entitlements.",
+    "Confusing famine with chronic hunger, which affects as many as one-third of the world's population even without famine.",
+    "Assuming famine is always caused by absolute food shortages when entitlement failure alone can trigger it.",
+    "Listing conflict, pricing policy and forced procurement as natural causes when they are human-induced.",
+    "Believing food relief alone solves famine, when water, health and employment measures are also needed to protect entitlements.",
+    "Forgetting that famine deaths are often recorded poorly and estimates may be exaggerated and disputed.",
+    "Treating transitory and chronic food insecurity as identical; one is temporary, the other continuous."
+  ],
+  applications: [
+    "Interviewing elderly community members about the Ethiopian famine of 1984-1985 and local coping strategies.",
+    "Supporting price stabilization debates when staple grain prices spike after a failed belg season.",
+    "Linking employment creation programs such as public works to household entitlement during drought years.",
+    "Explaining how conflict in a farming zone can cause famine even when rains were normal.",
+    "Advocating supplementary feeding programs for children and pastoralist households in famine-prone woredas.",
+    "Planning complementary water and health programs alongside food distribution in relief camps."
+  ],
+  summary: "Famine is a process, not a single event: a sequence of processes and events that reduce food availability or food entitlements, causing widespread increased morbidity and mortality. It is framed by the World Bank 1986 concept of food security, is fueled by natural and human-induced declines in availability or in access, and ranges historically from France's 89 general famines to the Ireland Great Famine of 1846-51 and the Ethiopian famine of 1984-1985, the most disastrous in modern history. Relief protects access to food by ensuring availability and safeguarding entitlements through distribution, subsidies, employment and complementary programs.",
+  visuals: [
+    {
+      type: "comparison",
+      config: {
+        title: "The Two Root Causes of Famine",
+        left: { name: "Decline in food availability", items: ["Agricultural drought and floods", "Pest invasion by locusts", "Conflict destroys standing crops"] },
+        right: { name: "Decline in food entitlements", items: ["Loss of income to buy food", "Poor pricing policies", "Price spikes after shocks"] }
+      }
+    },
+    {
+      type: "tableVisual",
+      config: {
+        title: "Measures to Maintain Food Security",
+        headers: ["Measure", "What it does"],
+        rows: [
+          ["Price stabilization", "Keeps staple food prices affordable"],
+          ["Food subsidies", "Lowers the cost of food for poor households"],
+          ["Employment creation", "Restores income so people can buy food"],
+          ["General and supplementary food distribution", "Feeds affected groups directly"],
+          ["Livestock and pastoralist programs", "Protects herds and herders"],
+          ["Water and health programs", "Prevent disease and support nutrition"]
+        ]
+      }
+    },
+    {
+      type: "mindMap",
+      config: {
+        title: "Food Security Framework",
+        center: "Food Security",
+        branches: [
+          { label: "Availability", items: ["Production", "Imports", "Food distribution"] },
+          { label: "Access", items: ["Purchase", "Entitlements", "Social protection"] },
+          { label: "Insecurity types", items: ["Chronic", "Transitory"] },
+          { label: "Worst outcome", items: ["Famine: morbidity and mortality rise"] }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "short", q: "State the World Bank (1986) definition of food security.", answer: "access by all people at all times to enough food for an active healthy life", difficulty: 2, explanation: "The World Bank defined food security as access by all people at all times to enough food for an active, healthy life." },
+    { type: "mcq", q: "The two kinds of food insecurity are:", options: ["chronic and transitory", "natural and human", "rural and urban", "wet and dry"], answer: 0, difficulty: 1, explanation: "Food insecurity is of two kinds: chronic and transitory." },
+    { type: "tf", q: "Famine is a single clearly identifiable event that happens suddenly.", answer: false, difficulty: 2, explanation: "Famine is a process, a sequence of processes and events, which makes it hard to separate from chronic hunger." },
+    { type: "mcq", q: "Historians estimate how many general famines in France between the 10th and 18th centuries?", options: ["12", "45", "89", "200"], answer: 2, difficulty: 2, explanation: "About 89 general famines struck France during the 900-year period, plus hundreds of local famines." },
+    { type: "mcq", q: "Which famine was possibly one of the most catastrophic in Western Europe?", options: ["the Netherlands famine of 1944", "the Ireland Great Famine of 1846-51", "the France famine of the 12th century", "the Ethiopian famine of 1984-85"], answer: 1, difficulty: 1, explanation: "The 1846-51 Great Famine in Ireland was possibly one of the most catastrophic famines." },
+    { type: "short", q: "Which famine is described as the most disastrous in modern history?", answer: "ethiopian famine of 1984-1985|ethiopia 1984-85 famine", difficulty: 1, explanation: "In modern history, the Ethiopian Famine of 1984-1985 is the most disastrous one." },
+    { type: "concept", q: "State the two overarching causes that can produce a famine.", answer: "decline in food availability|reduction in access or ability to acquire food", difficulty: 3, explanation: "Famines are caused by either or both a decline in food availability and a reduction in people's access to or ability to acquire food." },
+    { type: "mcq", q: "Which of the following is listed as a natural factor that may cause a decline in food availability?", options: ["Poor agricultural pricing policies", "Pest invasion by locusts and quellea birds", "Forced procurement by the state", "Over-needing exports"], answer: 1, difficulty: 2, explanation: "Pest invasion by locusts, army worms and quellea birds is a natural factor; the others are human-induced." },
+    { type: "mcq", q: "The term entitlement to food refers to:", options: ["right-to-food legislation", "the pathways through which people access food, by production, purchase, social protection or other means", "food surpluses with distribution", "land titles for farmers"], answer: 1, difficulty: 2, explanation: "Entitlement to food means the pathways through which people access food, whether by production, purchase, social protection programs or other means." },
+    { type: "short", q: "Name any two principal measures for maintaining food security listed in the lesson.", answer: "price stabilization|food subsidies|employment creation programs|general food distributions|supplementary feeding programs|special programs for livestock and pastoralist populations|complementary water programs|complementary health programs", difficulty: 2, explanation: "Measures include price stabilization, food subsidies, employment creation, food distributions, supplementary feeding, livestock and pastoralist programs, and water and health programs." },
+    { type: "tf", q: "Chronic food insecurity is a continuously inadequate diet caused by a household's persistent lack of ability to buy or to produce enough food.", answer: true, difficulty: 1, explanation: "That is exactly the textbook definition of chronic food insecurity." }
+  ]
+};

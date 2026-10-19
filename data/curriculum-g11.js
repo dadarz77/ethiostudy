@@ -294,7 +294,7 @@ Object.assign(window.CURRICULUM_G11, {
       ]},
       { id: "g2", title: "Climate Classification and Climate Regions of Our World", topics: [
         { id: "g2-1", title: "Criteria for Climate Classification", difficulty: "medium", subtopics: [] },
-        { id: "g2-2", title: "Köppen&#8217;s Climate Classification", difficulty: "medium", subtopics: [] },
+        { id: "g2-2", title: "Koppen's Climate Classification", difficulty: "medium", subtopics: [] },
         { id: "g2-3", title: "World Climatic Regions", difficulty: "medium", subtopics: [] },
         { id: "g2-4", title: "Factors Influencing the World Climatic Regions", difficulty: "medium", subtopics: [] },
         { id: "g2-5", title: "Local Climate Classification of Ethiopia", difficulty: "medium", subtopics: [] }

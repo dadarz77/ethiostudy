@@ -1,10 +1,388 @@
-/* Content: g11-geography-ug8 — migrated from generated JSON (Phase 0 pipeline restore).
-   Content upgrade to spec v2 happens per unit in later phases. */
+/* Content: Grade 11 Geography - Unit 8: Geo-spatial Information and Data Processing (3 topics)
+   Source: MoE Geography Grade 11 Student Textbook, Unit 8. */
 window.Lessons = window.Lessons || {};
 
-Lessons["g11-geography-ug8-t1"] = {"overview":"<b>Representation of Relief Features on Topographic Maps</b> sits inside <b>Geo-spatial Information and Data Processing</b>. Geospatial information is the focus of Unit 8 of Grade 11 Geography in the Ethiopian (FDRE Ministry of Education) curriculum. First, it shows how contour lines and hachures turn a three-dimensional landscape into flat topographic maps. Then it introduces the geographic information system (GIS), its five components, and hands-on ArcMap tools for handling geospatial information, building on Unit 7: Geographic Issues and Public Concerns. Students will also learn how geospatial information applies to real-life situations.","objectives":["Draw major relief features, such as hills, valleys, and plateaus, on a contour map.","Explain how contour lines show slope, height, and drainage.","Define GIS and describe its five components.","Distinguish raster data from vector data.","Use core ArcMap tools to open, save, and navigate a map document."],"simple":"<b>Representation of Relief Features on Topographic Maps in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, relief, topographic maps, and the difference between hachures and contours.</li> <li>How contour spacing reveals gentle, steep, and uniform slopes.</li> <li>Then hills, ridges, valleys, saddles, plateaus, spurs, cliffs, and depressions in contour form.</li> <li>Finally, how contours trace a catchment, its divide, and its drainage pattern.</li></ul>","detailed":"<p><b>Representation of Relief Features on Topographic Maps — the essentials.</b> First, relief, topographic maps, and the difference between hachures and contours. How contour spacing reveals gentle, steep, and uniform slopes. Then hills, ridges, valleys, saddles, plateaus, spurs, cliffs, and depressions in contour form. Finally, how contours trace a catchment, its divide, and its drainage pattern.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Draw major relief features, such as hills, valleys, and plateaus, on a contour map.</li><li>Explain how contour lines show slope, height, and drainage.</li><li>Define GIS and describe its five components.</li><li>Distinguish raster data from vector data.</li><li>Use core ArcMap tools to open, save, and navigate a map document.</li></ul>","keyTerms":[{"term":"First","def":"First, relief, topographic maps, and the difference between hachures and contours."},{"term":"How contour spacing reveals gentle","def":"How contour spacing reveals gentle, steep, and uniform slopes."},{"term":"Then hills","def":"Then hills, ridges, valleys, saddles, plateaus, spurs, cliffs, and depressions in contour form."},{"term":"Finally","def":"Finally, how contours trace a catchment, its divide, and its drainage pattern."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing representation of relief features on topographic maps with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Map and diagram questions in the ESSLCE geography paper","Explaining a local environmental or resource issue in your own region"],"summary":"Representation of Relief Features on Topographic Maps: First, relief, topographic maps, and the difference between hachures and contours. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"Representation of Relief Features on Topographic Maps\" is correct according to the MoE curriculum?","options":["First, relief, topographic maps, and the difference between hachures and contours.","Representation of Relief Features on Topographic Maps applies only to a continent other than the one this unit covers","Representation of Relief Features on Topographic Maps contradicts the definition this topic gives","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, relief, topographic maps, and the difference between hachures and contours. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"Representation of Relief Features on Topographic Maps\"?","options":["How contour spacing reveals gentle, steep, and uniform slopes.","Representation of Relief Features on Topographic Maps describes a physical process unrelated to this topic","Representation of Relief Features on Topographic Maps applies only to a continent other than the one this unit covers","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: How contour spacing reveals gentle, steep, and uniform slopes."},{"type":"tf","q":"True or false: First, relief, topographic maps, and the difference between hachures and contours.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover representation of relief features on topographic maps.","answer":false,"difficulty":1,"explanation":"Representation of Relief Features on Topographic Maps is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Draw major relief features, such as hills, valleys, and plateaus, on a contour map.","difficulty":2,"altAnswers":["Explain how contour lines show slope, height, and drainage.","Define GIS and describe its five components."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why representation of relief features on topographic maps matters.","answer":"Representation of Relief Features on Topographic Maps is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of representation of relief features on topographic maps in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to representation of relief features on topographic maps, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
+Lessons["g11-geography-ug8-t1"] = {
+  overview: "Relief is the difference in elevation between the highest and lowest points of a landscape, and topographic maps show it in two dimensions. This lesson explains hachures, contours and spot heights, and how the shapes of contour lines reveal hills, valleys, ridges, saddles, depressions and other landforms.",
+  objectives: [
+    "Define relief and a topographic map",
+    "Describe how hachures and contour lines represent relief on maps",
+    "State the general properties of contour lines",
+    "Identify landforms such as hills, valleys, ridges, saddles, depressions and plateaus from their contours",
+    "Trace a drainage basin, its watershed and drainage patterns on a contour map"
+  ],
+  simple: "Relief is the difference in elevation between the highest point and the lowest point on a landscape. A topographic map shows natural and man-made features such as rivers, roads, settlements and contours in detail. Relief is represented by hachures and contour lines. Hachures are short lines drawn in the direction of the slope; they are thicker and closer together when slopes are steep. A contour is an imaginary line joining places of equal elevation above mean sea level, drawn at regular intervals in brown. Widely spaced contours mean gentle slopes, and closely spaced contours mean steep slopes. The shapes of contours reveal hills, valleys, ridges, saddles, depressions, plateaus, gorges, spurs and cliffs, and they allow us to trace drainage basins and drainage patterns.",
+  detailed: "<p><b>Relief and the topographic map.</b> Relief is typically defined as the difference in elevation between the highest point and the lowest point on the landscape, in meters. The physical shape or surface of the earth is referred to as a relief feature or landform, and landform features include plateaus, escarpments, hills, mountains, volcanoes, peaks, saddles, cliffs, valleys, gullies, gorges, depressions, floodplains and alluvial fans. A <b>topographic map</b> is a detailed and accurate illustration of natural and man-made features such as water bodies, rivers, lakes, forests, settlements, roads, railways and contour lines. It is a two-dimensional representation of the earth's three-dimensional landscapes, built from colors, symbols, letters, numbers and map scale.</p><p><b>Hachures.</b> Hachures are short disconnected lines that represent slopes, drawn in the direction of the ground slope or water flow. They are drawn thicker and closer together when slopes are steep, and thinner and spaced wide apart when slopes are gentle; hachures for steep slopes are shorter than those for gentle slopes. They were first used on simple sketch or small-scale maps, and are used to show depressions and small banks or escarpments that are too small for the chosen contour interval. Hachures have limitations: they do not indicate height or exact gradients, they give only qualitative information, and they are laborious to draw and hard to read, so they are used together with contours.</p><p><b>Contours.</b> A <b>contour</b> (isohypse) is an imaginary line connecting places having equal elevation on the ground surface above a datum or mean sea level. Mean sea level is the average level of the sea, calculated from observations taken at equal intervals of time, and is the standard level from which all heights are measured. Contours illustrate relief without hiding other map features; they are commonly drawn at regular intervals in brown. They are generally drawn at a 20 m interval on 1:50,000 toposheets and a 100 m interval on 1:250,000 toposheets, and they never cut across one another. The <b>index contour</b> starts from zero elevation (mean sea level) and is every fifth, heavier contour line; the thinner lines between index contours are intermediate contours. With four intermediate contours, the contour interval equals the elevation difference between two consecutive index contours divided by five.</p><p><b>Properties of contours.</b> Contours cannot merge or cross one another on maps except at vertical cliffs, waterfalls and hanging cliffs. They never branch; branching lines on a map represent rivers, roads and boundaries. Contours are numbered in the direction in which altitude increases. Evenly spaced contours represent a uniform slope, widely spaced contours a gentle slope, and closely spaced contours a steep slope. Contour lines are generated from <b>spot heights</b>, which are statistical points representing the specific altitude of a place at a particular point.</p><p><b>Landforms from contour shapes.</b> A <b>hill</b> appears as contour lines forming concentric circles, a series of increasingly small closed contours at higher elevations, below 1,000 m; the smallest closed circle marks the hilltop. A <b>mountain range</b> shows closed, elongated contours increasing in value toward the center. A <b>ridge</b> is a narrow slope of high ground with two or more peaks shown by an elliptical contour line, with U or V shapes whose closed end points away from the high ground. A <b>valley</b> is a long narrow groove usually formed by streams, bounded by higher ground on three sides; its U or V closed end always points upstream or toward high ground. A <b>saddle</b> is a dip or low point between two areas of higher ground. A <b>depression</b> is low ground surrounded by higher ground in all directions, shown by closed, more or less circular contours with tick marks pointing toward the low ground and values decreasing toward the center.</p><p><b>Plateaus, gorges, spurs, cliffs, cuts and fills.</b> A <b>plateau</b> is elevated land shown by closed, roughly rectangular contours with increasing values toward the center; one formed in the foothills is a piedmont plateau, and one enclosed by mountains is an intermontane plateau. A <b>gorge</b> is a very steep valley at higher elevations, identified by closely converging contours along the river course. A <b>spur</b> is a short sloping line of high ground jutting out from the side of a ridge, drawn with U or V shapes pointing away from the high ground. On a <b>cliff</b> so steep that it is vertical, contours merge into a single carrying contour with tick marks toward low ground; overhanging parts are shown with dotted contour lines because they are not visible from the top. A <b>cut</b> or a <b>fill</b> is a man-made feature where a road or railway crosses raised or low ground; both are shown when at least 10 feet high, with tick marks pointing toward the lower ground.</p><p><b>Catchments and drainage patterns.</b> A drainage basin (catchment area) is the entire geographical space drained by a major river and its tributaries; the meeting point of a tributary and the main river is a confluence, the start is the source, and the end is the mouth. To trace a watershed on a contour map: mark the outlet with a circle, highlight the tributaries and their flow directions, put X marks at high points and ridges near the sources of tributaries, draw arrows showing the direction of surface flow, and trace the outline from the outlet connecting the high points. Water always flows down on all sides of a hill and from the top of a saddle or ridge. Drainage patterns also identify rock structure: dendritic patterns, tree-like with branches, form in areas of homogeneous rock with horizontal strata; trellis patterns develop where harder and softer rocks alternate and folding and faulting influence the pattern; radial patterns occur when rivers flow outward in all directions from a raised feature; and centripetal patterns form where rivers flow from surrounding high ground toward a central basin.</p>",
+  keyTerms: [
+    { term: "Relief", def: "The difference in elevation between the highest point and the lowest point on the landscape, in meters." },
+    { term: "Topographic map", def: "A detailed and accurate illustration of natural and man-made features on the ground, a two-dimensional representation of the earth's three-dimensional landscape." },
+    { term: "Hachures", def: "Short disconnected lines drawn in the direction of the slope to show steepness; thicker and closer together on steep slopes." },
+    { term: "Contour", def: "An imaginary line connecting places of equal elevation on the ground surface above a datum or mean sea level." },
+    { term: "Spot height", def: "A statistical point that represents the specific altitude of a place at that particular point; contours are generated from spot heights." },
+    { term: "Index contour", def: "Every fifth, heavier contour line, starting from zero elevation or mean sea level." },
+    { term: "Saddle", def: "A dip or low point between two areas of higher ground, not necessarily lower ground between two hilltops." },
+    { term: "Drainage basin", def: "The entire geographical space drained by a major river and its tributaries, also called a catchment area." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "Two consecutive index contours on a 1:50,000 toposheet are 400 m and 500 m. There are four intermediate contours between them. Find the contour interval.",
+      given: "Elevation difference between index contours = 500 - 400 = 100 m; four intermediate contours lie between the two index contours.",
+      formula: "Contour interval = (difference in elevation between two consecutive index contours) / 5",
+      substitution: "Contour interval = 100 m / 5",
+      calculation: "100 / 5 = 20 m",
+      answer: "The contour interval is 20 m, the standard interval used on 1:50,000 toposheets."
+    },
+    {
+      problem: "On a 1:50,000 topographic map, two confluence points lie 4 cm apart. What is the real ground distance between them?",
+      given: "Map distance = 4 cm; map scale = 1:50,000, so 1 cm on the map equals 50,000 cm on the ground.",
+      formula: "Ground distance = map distance x scale denominator",
+      substitution: "Ground distance = 4 cm x 50,000 = 200,000 cm",
+      calculation: "200,000 cm = 2,000 m = 2 km",
+      answer: "The real distance is 2 km."
+    },
+    {
+      problem: "Map A shows closed, nearly circular contours with values increasing toward the center and no tick marks. Map B shows closed circular contours with values decreasing toward the center and short tick marks pointing inward. Identify both landforms.",
+      given: "Map A values increase toward the center; Map B values decrease toward the center and have tick marks pointing toward the low ground.",
+      formula: "Rule: closed contours increasing toward the center are hills; closed contours with inward tick marks and decreasing values are depressions.",
+      substitution: "Map A matches the hill rule; Map B matches the depression rule.",
+      calculation: "A hill is a rounded surface rising above its surroundings; a depression is surrounded by higher ground and its ticks point at right angles toward the center of the low ground.",
+      answer: "Map A is a hill; Map B is a depression."
+    },
+    {
+      problem: "On a contour map you find V-shaped contours bending upward with values increasing upward in one place, and V-shaped contours pointing away from the high ground in another. Identify each feature.",
+      given: "Feature 1: V shapes bending upward, values increasing upward. Feature 2: U or V shapes pointing away from the high ground.",
+      formula: "Rule: valley contours have V shapes pointing upstream toward high ground; spur contours have U or V shapes pointing away from the high ground.",
+      substitution: "Feature 1 points upstream toward high ground; Feature 2 points away from the high ground.",
+      calculation: "A valley is a long narrow groove formed by a stream; a spur is a projection of land from higher to lower ground between two streams.",
+      answer: "Feature 1 is a valley; Feature 2 is a spur."
+    }
+  ],
+  commonMistakes: [
+    "Believing contour lines can cross anywhere; they only meet at vertical cliffs, waterfalls and hanging cliffs.",
+    "Mixing up valley and spur Vs: valley Vs point upstream toward high ground, spur Vs point away from the high ground.",
+    "Reading closely spaced contours as gentle slopes, when they actually show steep slopes.",
+    "Confusing a hill with a depression by ignoring whether the values increase or decrease toward the center and whether tick marks are present.",
+    "Thinking hachures give exact heights, when they give only qualitative information about steepness.",
+    "Assuming branching lines on a map are branching contours; branching lines represent rivers, roads and boundaries.",
+    "Misreading map scale, for example treating 1:50,000 as 1 cm equal to 1 km instead of 500 m."
+  ],
+  applications: [
+    "Reading the closely converging contours of the Blue Nile Gorge on a topographic sheet to identify it as a gorge.",
+    "Using contour spacing on a sheet of the Ethiopian highlands to plan a school fieldwork route, avoiding steep slopes marked by close contours.",
+    "Tracing the watershed of a nearby river basin by connecting high points, to decide where conservation work should be targeted.",
+    "Identifying the escarpments around the Ethiopian Rift Valley from elongated contours and hachure marks.",
+    "Recognizing plateau contours, roughly rectangular with increasing values toward the center, when studying the Ethiopian plateau and its intermontane basins.",
+    "Using cut and fill contour symbols shown when a road crosses raised or low ground to understand how highways are levelled."
+  ],
+  summary: "Relief is the elevation difference between the highest and lowest points of a landscape, and topographic maps represent it with hachures and contour lines drawn above a datum of mean sea level. Contour spacing shows slope types, while contour shapes show hills, mountains, ridges, valleys, saddles, depressions, plateaus, gorges, spurs, cliffs, cuts and fills. Contour patterns also let us trace drainage basins, watersheds and dendritic, trellis, radial and centripetal drainage patterns.",
+  visuals: [
+    {
+      type: "comparison",
+      config: {
+        title: "Hachures vs Contours",
+        left: { name: "Hachures", items: ["Short disconnected slope lines", "Thicker and closer on steep slopes", "Only qualitative, no exact height", "Laborious to draw and read", "Used with contours for escarpments and depressions"] },
+        right: { name: "Contours", items: ["Lines of equal elevation", "Drawn at regular intervals in brown", "Show exact heights above mean sea level", "Universal method, never branch", "Spacing shows uniform, gentle or steep slopes"] }
+      }
+    },
+    {
+      type: "tableVisual",
+      config: {
+        title: "Landforms and Their Contour Signatures",
+        headers: ["Landform", "Contour pattern"],
+        rows: [
+          ["Hill", "Concentric circles, values increasing to center, below 1,000 m"],
+          ["Ridge", "Elliptical contours, U or V closed end away from high ground"],
+          ["Valley", "V shapes bending upward, closed end points upstream"],
+          ["Depression", "Closed circular contours, tick marks toward low ground"],
+          ["Plateau", "Closed, roughly rectangular contours, values increase to center"],
+          ["Gorge", "Closely converging contours along the river course"],
+          ["Spur", "U or V shapes pointing away from the high ground"],
+          ["Cliff", "Contours merge into one carrying contour, tick marks to low ground"]
+        ]
+      }
+    },
+    {
+      type: "steps",
+      config: {
+        title: "Tracing a Watershed on a Contour Map",
+        steps: [
+          { label: "Mark the outlet", detail: "Find the main river and draw a circle at the outlet or downstream point of the watershed." },
+          { label: "Highlight tributaries", detail: "Mark the watercourses of the tributaries and their flow directions." },
+          { label: "Find high points", detail: "Look at ridges and contours near the origins of tributaries and put X at the high points." },
+          { label: "Draw flow arrows", detail: "Visualize surface flow from the high points and draw arrows showing the direction of flow." },
+          { label: "Trace the divide", detail: "Connect the high points from the outlet with solid or broken lines to show the basin and watershed." }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "A contour line is best defined as an imaginary line connecting places having the same:", options: ["rainfall", "elevation above mean sea level", "temperature", "population density"], answer: 1, difficulty: 1, explanation: "A contour connects places of equal elevation on the ground surface above a datum or mean sea level." },
+    { type: "mcq", q: "On 1:50,000 toposheets, contours are generally drawn at a standard interval of:", options: ["5 m", "20 m", "100 m", "250 m"], answer: 1, difficulty: 1, explanation: "Contours are drawn at about 20 m intervals on 1:50,000 sheets and 100 m intervals on 1:250,000 sheets." },
+    { type: "tf", q: "Contours can merge or cross one another only at vertical cliffs, waterfalls and hanging cliffs.", answer: true, difficulty: 2, explanation: "These are the only exceptions to the rule that contours never cross or merge." },
+    { type: "tf", q: "Hachures indicate the exact height of the land they represent.", answer: false, difficulty: 2, explanation: "Hachures do not indicate height and exact gradients; they give only qualitative information." },
+    { type: "mcq", q: "Closely spaced contour lines on a map indicate a:", options: ["uniform slope", "gentle slope", "steep slope", "flat plain"], answer: 2, difficulty: 1, explanation: "Closely spaced contours illustrate a steep slope; widely spaced ones show a gentle slope." },
+    { type: "short", q: "What name is given to the heavier contour line drawn every fifth contour, starting from zero elevation?", answer: "index contour", difficulty: 1, explanation: "The index contour starts from mean sea level and represents every fifth, heavier line." },
+    { type: "mcq", q: "Closed, more or less circular contours with tick marks pointing toward the low ground represent a:", options: ["hill", "plateau", "depression", "saddle"], answer: 2, difficulty: 2, explanation: "Depressions have closing ticks pointing toward the low ground and values decreasing toward the center." },
+    { type: "concept", q: "Explain how the V shapes of valley contours differ from those of spur contours.", answer: "valley v points upstream toward high ground|valley bends upward, spur v points away from high ground", difficulty: 2, explanation: "Valley contours have V shapes pointing upstream toward high ground; spur contours have U or V shapes pointing away from the high ground." },
+    { type: "mcq", q: "A series of increasingly small, closed contours at higher elevations with a maximum height below 1,000 m represents a:", options: ["mountain range", "hill", "plateau", "gorge"], answer: 1, difficulty: 1, explanation: "Concentric closed contours below 1,000 m show a hill; the smallest circle marks the hilltop." },
+    { type: "mcq", q: "A tree-like drainage pattern with branches that forms in areas of homogeneous rock with horizontal strata is called:", options: ["trellis", "radial", "centripetal", "dendritic"], answer: 3, difficulty: 2, explanation: "Dendritic patterns are tree-like and form in areas of homogeneous rock." },
+    { type: "ordering", q: "Arrange the steps for tracing a watershed on a contour map in the correct order.", options: ["Trace the outline connecting the high points", "Draw a circle at the outlet of the watershed", "Put X marks at the high points and ridges", "Highlight the tributaries and their flow directions"], answer: 1, difficulty: 3, explanation: "The order is: circle the outlet, highlight tributaries, mark high points with X, draw flow arrows, then trace the outline from the outlet connecting high points." },
+    { type: "mcq", q: "Two consecutive index contours read 300 m and 400 m with four intermediate contours between them. The contour interval is:", options: ["10 m", "20 m", "25 m", "50 m"], answer: 1, difficulty: 3, explanation: "Interval = (400 - 300)/5 = 20 m." }
+  ]
+};
 
-Lessons["g11-geography-ug8-t2"] = {"overview":"<b>Basic Concepts of Geographic Information System (GIS)</b> sits inside <b>Geo-spatial Information and Data Processing</b>. Geospatial information is the focus of Unit 8 of Grade 11 Geography in the Ethiopian (FDRE Ministry of Education) curriculum. First, it shows how contour lines and hachures turn a three-dimensional landscape into flat topographic maps. Then it introduces the geographic information system (GIS), its five components, and hands-on ArcMap tools for handling geospatial information, building on Unit 7: Geographic Issues and Public Concerns. Students will also learn how geospatial information applies to real-life situations.","objectives":["Draw major relief features, such as hills, valleys, and plateaus, on a contour map.","Explain how contour lines show slope, height, and drainage.","Define GIS and describe its five components.","Distinguish raster data from vector data.","Use core ArcMap tools to open, save, and navigate a map document."],"simple":"<b>Basic Concepts of Geographic Information System (GIS) in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, how a GIS captures, stores, analyses, and displays geospatial information.</li> <li>Why planners lean on GIS for land use, health, and disaster work.</li> <li>Then the five components: hardware, software, data, people, and methods.</li> <li>Finally, the split between raster grids and vector points, lines, and polygons.</li></ul>","detailed":"<p><b>Basic Concepts of Geographic Information System (GIS) — the essentials.</b> First, how a GIS captures, stores, analyses, and displays geospatial information. Why planners lean on GIS for land use, health, and disaster work. Then the five components: hardware, software, data, people, and methods. Finally, the split between raster grids and vector points, lines, and polygons.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Draw major relief features, such as hills, valleys, and plateaus, on a contour map.</li><li>Explain how contour lines show slope, height, and drainage.</li><li>Define GIS and describe its five components.</li><li>Distinguish raster data from vector data.</li><li>Use core ArcMap tools to open, save, and navigate a map document.</li></ul>","keyTerms":[{"term":"First","def":"First, how a GIS captures, stores, analyses, and displays geospatial information."},{"term":"Why planners lean on GIS for land use","def":"Why planners lean on GIS for land use, health, and disaster work."},{"term":"Then the five components: hardware","def":"Then the five components: hardware, software, data, people, and methods."},{"term":"Finally","def":"Finally, the split between raster grids and vector points, lines, and polygons."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing basic concepts of geographic information system (gis) with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Map and diagram questions in the ESSLCE geography paper","Explaining a local environmental or resource issue in your own region"],"summary":"Basic Concepts of Geographic Information System (GIS): First, how a GIS captures, stores, analyses, and displays geospatial information. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"Basic Concepts of Geographic Information System (GIS)\" is correct according to the MoE curriculum?","options":["First, how a GIS captures, stores, analyses, and displays geospatial information.","Basic Concepts of Geographic Information System (GIS) applies only to a continent other than the one this unit covers","Basic Concepts of Geographic Information System (GIS) contradicts the definition this topic gives","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, how a GIS captures, stores, analyses, and displays geospatial information. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"Basic Concepts of Geographic Information System (GIS)\"?","options":["Why planners lean on GIS for land use, health, and disaster work.","Basic Concepts of Geographic Information System (GIS) describes a physical process unrelated to this topic","Basic Concepts of Geographic Information System (GIS) applies only to a continent other than the one this unit covers","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Why planners lean on GIS for land use, health, and disaster work."},{"type":"tf","q":"True or false: First, how a GIS captures, stores, analyses, and displays geospatial information.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover basic concepts of geographic information system (gis).","answer":false,"difficulty":1,"explanation":"Basic Concepts of Geographic Information System (GIS) is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Draw major relief features, such as hills, valleys, and plateaus, on a contour map.","difficulty":2,"altAnswers":["Explain how contour lines show slope, height, and drainage.","Define GIS and describe its five components."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why basic concepts of geographic information system (gis) matters.","answer":"Basic Concepts of Geographic Information System (GIS) is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of basic concepts of geographic information system (gis) in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to basic concepts of geographic information system (gis), as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
+Lessons["g11-geography-ug8-t2"] = {
+  overview: "A Geographic Information System (GIS) is a computer-based system for capturing, storing, checking, manipulating, analyzing and displaying geographically referenced data. This lesson defines GIS and its importance, and explains its five key components: hardware, software, data, people and methods.",
+  objectives: [
+    "Define GIS and explain its importance in decision making",
+    "Describe the five key components of GIS and how they are linked",
+    "Distinguish raster data from vector data",
+    "Classify geographic features as points, lines and polygons",
+    "Differentiate spatial data from attribute (non-spatial) data"
+  ],
+  simple: "A Geographic Information System (GIS) is a computer-based system for capturing, preparing, storing, checking, retrieving, manipulating, analyzing and displaying geographically referenced data. GIS integrates hardware, software and geospatial data to reveal relationships, patterns and trends as maps and charts that support decisions on land use, natural resources, transport, health and facilities. GIS has five key components: hardware, software, data, people and methods. Data is the most important component, stored in two formats. Raster data is a grid of cells used for continuous features such as elevation, rainfall and vegetation. Vector data represents features as points such as wells and schools, lines such as roads and rivers, and polygons such as lakes and national parks. Attribute tables store non-spatial facts such as a lake's name, depth and water quality.",
+  detailed: "<p><b>Definition and importance of GIS.</b> A <b>Geographic Information System (GIS)</b> is a computer-based system for capturing, preparing, storing, checking, retrieving, manipulating, analyzing and displaying geographically referenced or geospatial data. GIS integrates hardware, software and geospatial data to analyze relationships, patterns and trends in the form of maps and charts, supporting decisions on land use, natural resources, environment, transportation, urban facilities and administrative records. A major benefit of GIS is that it integrates complex and diverse information into a simple and illustrative map, merging data sources such as project information, socio-economic data, census data and spatial base data like administrative boundaries, roads, cities and infrastructure. It also provides a platform for project planning, monitoring, reporting, data sharing and visualizing scenarios.</p><p><b>Where GIS is applied.</b> GIS works in environmental and social sciences, including population, public health, crime study and market planning. It helps address global problems such as climate change, increasing food production, vanishing natural resources and natural disasters, and local issues such as siting facilities like schools, hospitals and retail developments, managing emergency services, and conserving natural resources. GIS is applied in mapping and analyzing network services, suitable sites for urban development, transport management, suitable agriculture, disaster management, planning and community development, irrigation management and wildlife management. It can also examine the spatial relationship between deprivation and crime, measure vegetation destruction, relate rock type to relief, and identify areas with a high risk of slope erosion.</p><p><b>Hardware.</b> Working with GIS involves the integration of five key components: hardware, software, data, people and methods. Hardware is the technical equipment needed to run a GIS task, divided into input and output. The input part includes a computer with high processor speed, memory and storage capacity, plus GPS receivers, mobile phones, scanners and digitizers. GIS runs on hardware from centralized computer servers to standalone or networked desktop computers. The output part includes the printer, plotter and hard disc.</p><p><b>Software.</b> GIS software provides the functions and tools needed to input, store, manage, analyze and display geographic information, and to derive new geoinformation from existing spatial and attribute data. Environmental Systems Research Institute (ESRI) products such as ArcView, ArcInfo and ArcGIS are commonly used, and the ArcGIS desktop environment includes ArcMap, ArcCatalog, ArcScene and ArcGlobe. QGIS is a very capable open-source, free alternative that covers most ArcGIS functionality. Key software components are database management systems (DBMS), which allow users to set up, organize, store, manipulate, maintain and integrate a database, together with tools for geographic query, analysis and visualization. A database is an organized collection of large data sets stored and accessed electronically.</p><p><b>Data.</b> Data is the most important component of GIS. Geographic data is stored in two main formats: raster and vector. In raster format each object is a cell or grid with its own reflectance value, arranged in rows and columns, each cell storing a single value; the resolution of a raster is its cell width in ground units. Rasters represent continuous layers such as elevation, slope, aspect, soil, vegetation, temperature and rainfall, and ArcGIS can use raster formats such as jpg and tiff. Vector data expresses discrete features by different geometries: wells, airports, cities, schools and health posts are zero-dimensional <b>points</b>, with no measurement of point features; rivers, roads, railroads and trails are one-dimensional <b>lines</b> or polylines, which can measure distance; lakes, national parks, administrative and watershed boundaries, buildings and land uses are two-dimensional <b>polygons</b>, which can measure perimeter and area. A single feature geometry type can be stored in the <b>Shapefile</b> format, and a collection of point, polyline and polygon feature classes in a geodatabase sharing a common coordinate system is a <b>feature dataset</b>.</p><p><b>Spatial and attribute data.</b> Spatial data refer to the shape, size, location and orientation of a geographical feature, and are generally multi-dimensional and autocorrelated. Vector data are excellent for capturing and storing spatial details. Non-spatial data, or attributes, are additional characteristics independent of geometry: for example, for lakes these include depth, water quality, pollution level, name, area and volume. Attribute data are stored along with the spatial data, and GIS data input involves entering the spatial data and the non-spatial data and linking the two together. Geographic data is acquired from paper maps by digitizing or scanning, from field surveys using GPS, and from remote sensing such as aerial photography and satellite images.</p><p><b>People and methods.</b> People are the component that makes a GIS work, and GIS technology has limited value without them. GIS users browse the geographic database for reference, perform professional services and make decisions; GIS specialists make the system work by collecting, managing and analyzing geographic data and giving technical support. Methods are the well-designed plans and rules, the models and operating practices unique to each organization, that successful GIS operations follow.</p>",
+  keyTerms: [
+    { term: "GIS", def: "A computer-based system for capturing, preparing, storing, checking, retrieving, manipulating, analyzing and displaying geographically referenced data." },
+    { term: "Geospatial data", def: "Data bearing a definable relationship to space, which can operate in a GIS package." },
+    { term: "Raster data", def: "Data in which each object is a grid cell with its own reflectance value, used for continuous layers such as elevation, rainfall and vegetation." },
+    { term: "Vector data", def: "Data expressing discrete features as points, lines or polygons; excellent for capturing and storing spatial details." },
+    { term: "Polygon", def: "A two-dimensional vector geometry for features covering an area, such as lakes, parks and administrative boundaries; it can measure perimeter and area." },
+    { term: "Attribute data", def: "Non-spatial characteristics of features, such as a lake's name, depth, water quality and pollution level, stored and linked with spatial data." },
+    { term: "DBMS", def: "A software package that allows the user to set up, use, organize, store, manipulate, maintain and integrate a database." },
+    { term: "Feature dataset", def: "A collection of feature classes such as points, polylines and polygons within a geodatabase sharing a common coordinate system." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "You are building a GIS for a woreda. Choosing the vector geometry for each feature: health posts and wells, the road network, and Lake Tana and its shorelands. Which geometry suits each?",
+      given: "Health posts and wells occupy exact locations; roads and rivers connect locations; the lake covers a surface area.",
+      formula: "Rule: features without area are points, one-dimensional features that measure distance are lines, and features covering an area are polygons.",
+      substitution: "Wells and health posts are zero-dimensional; roads and trails are one-dimensional; lakes and parks cover the earth's surface.",
+      calculation: "Points have no measurement; lines can measure distance; polygons can measure perimeter and area.",
+      answer: "Health posts and wells as points; the road network as lines (polylines); Lake Tana as a polygon."
+    },
+    {
+      problem: "A project needs two new layers: annual rainfall over the highlands, and the locations of schools. Which format, raster or vector, is better for each layer?",
+      given: "Rainfall varies continuously across space; schools are discrete features at specific sites.",
+      formula: "Rule: rasters represent continuous layers; vectors represent discrete features.",
+      substitution: "Elevation, slope, aspect, soil, vegetation, temperature and rainfall are continuous layers; wells, cities and schools are discrete points.",
+      calculation: "A cell grid stores one value per cell, which suits continuous surfaces; point geometry suits discrete sites.",
+      answer: "Rainfall as raster data; school locations as vector (point) data."
+    },
+    {
+      problem: "Classify each GIS item by component: a GPS receiver used in field surveys, the ArcMap application, a rule that all attribute tables must follow the same naming plan, and a technician who maintains the system.",
+      given: "Items: GPS receiver; ArcMap; organizational naming rules; system technician.",
+      formula: "Rule: GIS components are hardware, software, data, people and methods.",
+      substitution: "GPS belongs to input hardware; ArcMap is ESRI software; naming plans are operating practices; the technician is a GIS specialist.",
+      calculation: "Hardware is equipment; software provides tools; methods are plans and rules unique to each organization; specialists collect, manage and analyze data.",
+      answer: "GPS = hardware (input); ArcMap = software; naming rule = method; technician = people (GIS specialist)."
+    },
+    {
+      problem: "For a lake stored in a GIS, sort these pieces of information into spatial and attribute data: the lake's boundary coordinates, its area, its water pollution level, and its name.",
+      given: "Boundary coordinates and extent describe location and shape; area, pollution level and name describe characteristics of the feature.",
+      formula: "Rule: spatial data describe shape, size, location and orientation; attribute data are additional characteristics independent of geometry.",
+      substitution: "Boundary coordinates are geometric; pollution level and name do not depend on location; area describes the feature itself.",
+      calculation: "Attributes are stored along with the vector geometry or raster cell position and linked to it during data input.",
+      answer: "Spatial: boundary coordinates (shape and location). Attribute: name, area and pollution level."
+    }
+  ],
+  commonMistakes: [
+    "Thinking GIS is only a map-drawing program, when it is a full system for capturing, storing, analyzing and displaying geospatial data.",
+    "Treating data as the least important component, when the textbook calls data the most important component of GIS.",
+    "Mixing up raster and vector: rasters suit continuous layers like rainfall, while vectors suit discrete features like wells and roads.",
+    "Assuming points and lines can measure the same things; points have no measurement, lines measure distance, and polygons measure perimeter and area.",
+    "Believing GIS is made of hardware and software alone and forgetting people and methods.",
+    "Confusing spatial data (shape, size, location, orientation) with attribute data such as depth, water quality and name.",
+    "Forgetting that open-source QGIS can do most of what ArcGIS does, assuming only commercial software works."
+  ],
+  applications: [
+    "Siting a new school or health post by overlaying settlement, road and census layers in a woreda.",
+    "Merging woreda administrative boundaries, roads and census data into one illustrative map for regional planning.",
+    "Managing disasters such as floods and drought by mapping risk areas and coordinating emergency services.",
+    "Studying the spatial relationship between deprivation and crime in parts of a growing city, and mapping market catchments.",
+    "Supporting irrigation management and wildlife management, including vegetation change in national parks.",
+    "Mapping relationships between rock type and relief, and identifying areas with a high risk of slope erosion."
+  ],
+  summary: "GIS is a computer-based system that captures, stores, checks, manipulates, analyzes and displays geographically referenced data, integrating hardware, software, data, people and methods to support planning and decision making. Data, the most important component, comes in raster form (grids for continuous layers such as elevation and rainfall) and vector form (points, lines and polygons for discrete features), with attribute tables linked to the geometry. People, guided by organizational methods, keep the system working.",
+  visuals: [
+    {
+      type: "mindMap",
+      config: {
+        title: "The Five Components of GIS",
+        center: "GIS",
+        branches: [
+          { label: "Hardware", items: ["Input: computer, GPS, scanner", "Output: printer, plotter, hard disc"] },
+          { label: "Software", items: ["ArcGIS: ArcMap, ArcCatalog", "QGIS, DBMS"] },
+          { label: "Data", items: ["Raster", "Vector: points, lines, polygons", "Attribute tables"] },
+          { label: "People", items: ["GIS users", "GIS specialists"] },
+          { label: "Methods", items: ["Plans and rules unique to each organization"] }
+        ]
+      }
+    },
+    {
+      type: "comparison",
+      config: {
+        title: "Raster vs Vector Data",
+        left: { name: "Raster", items: ["Grid of cells, rows and columns", "One value per cell", "Continuous layers: elevation, rainfall, soils", "Resolution equals cell width", "Formats: jpg and tiff"] },
+        right: { name: "Vector", items: ["Points, lines and polygons", "Discrete features: wells, roads, lakes", "Points no measure, lines distance, polygons area", "Single geometry stored as a Shapefile", "Excellent for spatial detail"] }
+      }
+    },
+    {
+      type: "tableVisual",
+      config: {
+        title: "Vector Geometry Types",
+        headers: ["Geometry", "Dimension", "Examples", "Can measure"],
+        rows: [
+          ["Point", "Zero-dimensional", "Wells, schools, health posts, cities", "Nothing"],
+          ["Line (polyline)", "One-dimensional", "Rivers, roads, railroads, trails", "Distance"],
+          ["Polygon", "Two-dimensional", "Lakes, parks, admin boundaries, land uses", "Perimeter and area"]
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "GIS is best defined as a computer-based system for:", options: ["printing paper maps only", "capturing, storing, analyzing and displaying geographically referenced data", "sending text messages", "bill payment"], answer: 1, difficulty: 1, explanation: "GIS captures, prepares, stores, checks, retrieves, manipulates, analyzes and displays geospatial data." },
+    { type: "tf", q: "Data is the most important component of a GIS.", answer: true, difficulty: 1, explanation: "The textbook explicitly calls data the most important component of GIS." },
+    { type: "mcq", q: "Which of the following belongs to the input part of GIS hardware?", options: ["Plotter", "Printer", "GPS receiver and scanner", "MS Word"], answer: 2, difficulty: 2, explanation: "Input hardware includes computers, GPS, mobile phones, scanners and digitizers; printers and plotters are output." },
+    { type: "short", q: "Name the free, open-source GIS software that covers most of the functionality of ArcGIS.", answer: "qgis", difficulty: 1, explanation: "QGIS is a very capable open-source GIS encompassing most ArcGIS functionality." },
+    { type: "mcq", q: "Which vector geometry is used to represent rivers, roads and railroads, and what can it measure?", options: ["Point; nothing", "Line; distance", "Polygon; area", "Raster; elevation"], answer: 1, difficulty: 2, explanation: "One-dimensional lines or polylines represent linear features and can measure distance." },
+    { type: "tf", q: "Raster data are used to represent continuous layers such as elevation and rainfall.", answer: true, difficulty: 1, explanation: "Rasters store continuous layers like elevation, slope, soil, vegetation, temperature and rainfall." },
+    { type: "concept", q: "Give one example of non-spatial (attribute) data that could describe a lake.", answer: "water quality|depth|pollution level|name|volume", difficulty: 2, explanation: "Attributes independent of location include depth, water quality, pollution level, name, area and volume." },
+    { type: "mcq", q: "In a GIS, people are divided into GIS users and GIS specialists. Specialists are those who:", options: ["only view maps", "collect, manage and analyze geographic data and provide technical support", "buy the computers", "print the maps"], answer: 1, difficulty: 2, explanation: "GIS specialists make the GIS work by collecting, managing and analyzing data and supporting others." },
+    { type: "short", q: "What is the collection of point, polyline and polygon feature classes in a geodatabase that share a common coordinate system called?", answer: "feature dataset", difficulty: 2, explanation: "A feature dataset shares a common coordinate system across its feature classes." },
+    { type: "concept", q: "Explain how GIS supports decision making in urban planning.", answer: "integrates diverse data into one map|visualizes scenarios like siting services", difficulty: 3, explanation: "GIS merges project, socio-economic, census and base data, integrates information into an illustrative map, and visualizes scenarios such as siting a new service center." },
+    { type: "mcq", q: "A trellis drainage pattern and a new road layer, plus schools, could be analyzed together in a GIS mainly because the software provides tools for:", options: ["word processing", "geographic query, analysis and visualization supported by a DBMS", "music playback", "e-mail"], answer: 1, difficulty: 3, explanation: "Key software components are DBMS plus tools for input, manipulation, query, analysis and visualization." }
+  ]
+};
 
-Lessons["g11-geography-ug8-t3"] = {"overview":"<b>ArcMap and Main Tools</b> sits inside <b>Geo-spatial Information and Data Processing</b>. Geospatial information is the focus of Unit 8 of Grade 11 Geography in the Ethiopian (FDRE Ministry of Education) curriculum. First, it shows how contour lines and hachures turn a three-dimensional landscape into flat topographic maps. Then it introduces the geographic information system (GIS), its five components, and hands-on ArcMap tools for handling geospatial information, building on Unit 7: Geographic Issues and Public Concerns. Students will also learn how geospatial information applies to real-life situations.","objectives":["Draw major relief features, such as hills, valleys, and plateaus, on a contour map.","Explain how contour lines show slope, height, and drainage.","Define GIS and describe its five components.","Distinguish raster data from vector data.","Use core ArcMap tools to open, save, and navigate a map document."],"simple":"<b>ArcMap and Main Tools in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, how to open, save, and close an ArcMap document and its MXD file.</li> <li>The core tools, from zoom and pan to identify, measure, and add XY.</li> <li>Then ArcToolbox and ArcCatalog for geoprocessing and data management.</li> <li>Finally, how to add, remove, and display layers in data and layout views.</li></ul>","detailed":"<p><b>ArcMap and Main Tools — the essentials.</b> First, how to open, save, and close an ArcMap document and its MXD file. The core tools, from zoom and pan to identify, measure, and add XY. Then ArcToolbox and ArcCatalog for geoprocessing and data management. Finally, how to add, remove, and display layers in data and layout views.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Draw major relief features, such as hills, valleys, and plateaus, on a contour map.</li><li>Explain how contour lines show slope, height, and drainage.</li><li>Define GIS and describe its five components.</li><li>Distinguish raster data from vector data.</li><li>Use core ArcMap tools to open, save, and navigate a map document.</li></ul>","keyTerms":[{"term":"First","def":"First, how to open, save, and close an ArcMap document and its MXD file."},{"term":"The core tools","def":"The core tools, from zoom and pan to identify, measure, and add XY."},{"term":"Finally","def":"Finally, how to add, remove, and display layers in data and layout views."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing arcmap and main tools with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Map and diagram questions in the ESSLCE geography paper","Explaining a local environmental or resource issue in your own region"],"summary":"ArcMap and Main Tools: First, how to open, save, and close an ArcMap document and its MXD file. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"ArcMap and Main Tools\" is correct according to the MoE curriculum?","options":["First, how to open, save, and close an ArcMap document and its MXD file.","ArcMap and Main Tools applies only to a continent other than the one this unit covers","ArcMap and Main Tools contradicts the definition this topic gives","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, how to open, save, and close an ArcMap document and its MXD file. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"ArcMap and Main Tools\"?","options":["The core tools, from zoom and pan to identify, measure, and add XY.","ArcMap and Main Tools describes a physical process unrelated to this topic","ArcMap and Main Tools applies only to a continent other than the one this unit covers","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: The core tools, from zoom and pan to identify, measure, and add XY."},{"type":"tf","q":"True or false: First, how to open, save, and close an ArcMap document and its MXD file.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover arcmap and main tools.","answer":false,"difficulty":1,"explanation":"ArcMap and Main Tools is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Draw major relief features, such as hills, valleys, and plateaus, on a contour map.","difficulty":2,"altAnswers":["Explain how contour lines show slope, height, and drainage.","Define GIS and describe its five components."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why arcmap and main tools matters.","answer":"ArcMap and Main Tools is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of arcmap and main tools in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to arcmap and main tools, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
-
+Lessons["g11-geography-ug8-t3"] = {
+  overview: "ArcMap is the primary application of the ArcGIS desktop environment, used to add data, make maps, perform analysis and access ArcCatalog and ArcToolbox. This lesson covers opening, saving and closing ArcMap documents, the main menus and tools, ArcToolbox, and adding, removing and displaying data.",
+  objectives: [
+    "Open, save and close ArcMap documents on a computer",
+    "Explain what an ArcMap (MXD) document stores and what it does not store",
+    "Describe the functions of the main ArcMap tools",
+    "List common ArcToolbox toolboxes and the work they support",
+    "Add, organize and remove data layers and switch between data view and layout view"
+  ],
+  simple: "ArcMap is the primary application of the ArcGIS desktop environment, used to add data, make maps, perform analysis, edit GIS data, access ArcCatalog and ArcToolbox, use geoprocessing tools and integrate GPS field data. Work is saved as an ArcMap document, an MXD file, which contains the map and pointers to data locations but does not store the data itself. ArcMap opens from the Start Menu or by double-clicking an .mxd file, and closes from the File menu. Its main tools include Add Data, Zoom in and out, Pan, Full extent, Identify, Find, Add XY and Measure. ArcToolbox organizes geoprocessing tools into toolboxes, and maps are displayed in data view or arranged for printing in layout view.",
+  detailed: "<p><b>ArcMap and the MXD document.</b> ArcMap is a program in which we add data, make maps, perform analysis, edit GIS data, access ArcCatalog and ArcToolbox, use geoprocessing tools and integrate GPS field data; it is the primary application and interface of ArcGIS software. <b>Map Exchange Documents (MXD)</b> are ArcMap document files that contain a map, specify the GIS data used, including pointers to the file location of each dataset, and hold display information such as symbology and labeling. An MXD does not store data; it only refers to the data you use, so when you Add Data you only add a reference to the original data source.</p><p><b>Opening, saving and closing.</b> ArcMap is accessible by single-clicking the ArcMap icon in the Start Menu, or by double-clicking an ArcMap document (an .mxd file) on the desktop, which opens ArcMap with the desired map. By default, ArcMap begins with a new, empty map document. After working on a map, you save it as a document on the hard disk; ArcMap automatically appends the .mxd extension to the name, and you must give a name and folder location the first time you save. A <b>map package</b> can also be used to save the map with its data and share it with other users. To close an opened map, click File and then Close; opening a new map also closes the current one.</p><p><b>Main menus and tools.</b> The ArcMap toolbar includes New Project (opens a new blank document), Open Project, Save Project, Print, Add layers (adds GIS data stored locally, on a network or over the internet), Edit function, ArcCatalog and ArcToolbox buttons. Navigation tools include <b>Zoom in</b> and <b>Zoom out</b> by clicking or dragging a rectangular box, Fixed zoom in and Fixed zoom out to zoom a set amount, <b>Pan</b> to move the map view with the hand tool, and <b>Full extent</b> to expand the view to the full geographical extent of the project's data. Query tools include <b>Select element</b> (choose a circle, rectangle, line or polygon to select features of the active theme), <b>Identify</b> (query the active data theme), <b>Find</b> (perform a string query on any theme in the map view), <b>Add XY</b> (drop a point and generate the X, Y coordinate for a location) and <b>Measure</b> (measure distance in specified units between locations).</p><p><b>ArcToolbox and its toolboxes.</b> ArcToolbox is an integrated application developed by Esri that organizes a collection of geoprocessing tools, models and scripts, supporting all data types including geodatabase, shapefile and coverage. Toolboxes are containers for toolsets, and toolsets are logical containers of tools and other toolsets; a toolbox cannot contain another toolbox, and a tool is a single geoprocessing operation including dialog, models and scripts. Common toolboxes are: <b>Analysis</b> (overlays, buffers, statistics and proximity analysis on vector data), <b>Cartography</b> (map production meeting cartographic standards), <b>Conversion</b> (converting data between formats), <b>Coverage</b>, <b>Data Management</b> (developing and maintaining feature classes, datasets, layers and raster structures), <b>Geocoding</b> (address locators and geocoding addresses), <b>Linear Referencing</b>, and <b>Spatial Analyst</b> (creating, querying, mapping and analyzing cell-based raster data and integrating raster with vector). All items are sorted alphabetically.</p><p><b>ArcCatalog and metadata.</b> ArcCatalog is primarily used as a file manager and to develop metadata for GIS data. Metadata is information that explains your data to people who may want to use it: the field attributes of the dataset, the data projection, how the dataset was created and any analysis performed on it. ArcCatalog handles data management tasks such as creating, copying and deleting shapefiles, and it can be accessed as a standalone application from the Start Menu or the desktop.</p><p><b>Adding data.</b> Adding GIS data is one of the first steps when creating a new map document, using local shapefiles, geodatabases, tabular data, or data streamed from online services. There are two primary methods: browse for data in the ArcCatalog window and drag and drop the file into the project, or use the <b>Add Data</b> button. The Add Data pull-down menu has three commands: <b>Add Data</b>, which opens a dialog box for local data or a known data server; <b>Add Basemap</b>, which offers pre-made base maps published by ESRI and other groups; and <b>Add Data from ArcGIS Online</b>, which opens the ArcGIS Online portal to browse numerous base maps and data services. Added layers enter the Table of Contents (TOC) organized by geometry type: point features on top of line features, line features on top of polygon features, and polygon features on top of raster datasets.</p><p><b>Removing data and displaying maps.</b> To remove data, locate the layer in the Table of Contents, the list of data layers on the left side of the ArcMap window, right-click the layer name, and choose Remove from the context menu. Maps are displayed in two views. <b>Data view</b> is a geographic window for exploring, displaying and querying the map, where you work in real-world coordinates and measurements. <b>Layout view</b> lets you work with map layout elements such as titles, north arrows and scale bars arranged with the data frame on a page, mostly in page space such as inches or centimeters. You can switch between them from the main menu with View, then Data View or Layout View.</p>",
+  keyTerms: [
+    { term: "ArcMap", def: "The primary application and interface of ArcGIS, used to add data, make maps, perform analysis, edit GIS data and use geoprocessing tools." },
+    { term: "MXD (Map Exchange Document)", def: "An ArcMap document file that stores the map, pointers to data locations and display information, but not the data itself." },
+    { term: "ArcToolbox", def: "An integrated Esri application that organizes geoprocessing tools, models and scripts in toolboxes and toolsets." },
+    { term: "Toolset", def: "A logical container of tools and other toolsets within a toolbox; a toolbox itself cannot contain another toolbox." },
+    { term: "ArcCatalog", def: "The GIS file manager used for data management tasks and for developing metadata, accessible standalone or within ArcMap." },
+    { term: "Metadata", def: "Information that explains a dataset's field attributes, projection, origin and any analysis performed on it." },
+    { term: "Table of Contents (TOC)", def: "The list of data layers on the left side of the ArcMap window, ordered by geometry type from points down to rasters." },
+    { term: "Layout view", def: "The ArcMap view for arranging map layout elements such as titles, north arrows and scale bars on a page, working in page space." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "You add four layers to a new ArcMap project in this order: a hillshade raster, a woreda polygon layer, a road polyline layer, and a school point layer. Which order do the layers take in the Table of Contents?",
+      given: "Layers added: raster, polygons, lines, points.",
+      formula: "Rule: the TOC organizes layers by geometry type - points over lines over polygons over rasters.",
+      substitution: "School points fill the top positions, roads sit under them, woreda polygons under the roads, and the raster sits lowest.",
+      calculation: "The rule applies regardless of the order in which the layers were added, so ArcMap rearranges them automatically.",
+      answer: "From top to bottom: school points, road lines, woreda polygons, hillshade raster."
+    },
+    {
+      problem: "Choose the correct ArcMap tool for each task: (a) find the school named after a person by typing its name, (b) measure the distance between two towns in kilometers, (c) drop a marker and record its X, Y coordinates.",
+      given: "Tasks: search a theme by a text string; measure distance in specified units; generate coordinates of a location.",
+      formula: "Rule: Find performs a string query, Measure measures distance in specified units, and Add XY drops a point and generates its X, Y coordinate.",
+      substitution: "Task (a) needs a text search; task (b) needs distance measurement; task (c) needs coordinate capture.",
+      calculation: "Identify queries the active theme by clicking, but does not search by name or measure distance.",
+      answer: "(a) Find tool; (b) Measure tool; (c) Add XY tool."
+    },
+    {
+      problem: "You must prepare the final printed map of a river basin with a title, north arrow and scale bar, and also query which tributaries lie within one woreda. Which ArcMap view fits each task?",
+      given: "Task 1 arranges titles, north arrows and scale bars on a page; task 2 explores and queries geographic data in real-world coordinates.",
+      formula: "Rule: data view is a geographic window for exploring and querying, while layout view arranges layout elements on a page.",
+      substitution: "Coordinate work suits data view; page-based arrangement suits layout view.",
+      calculation: "In layout view you work primarily in page space, typically inches or centimeters, except inside the data frame.",
+      answer: "Print-ready map with map elements: layout view. Exploring and querying tributaries: data view."
+    },
+    {
+      problem: "Abebe wants to send a colleague both his finished map and the data behind it. Explain why saving only the .mxd file is not enough, and give the correct solution.",
+      given: "An .mxd stores the map, symbology, labeling and pointers to data locations, but does not store the data itself.",
+      formula: "Rule: adding data only adds a reference to the original data source; a map package saves the map with its data.",
+      substitution: "The colleague will see broken references if the data files are missing on his computer.",
+      calculation: "Because the MXD only links to the data, the data must travel with the map to be usable.",
+      answer: "Use a map package, which saves the map together with its related data for sharing."
+    }
+  ],
+  commonMistakes: [
+    "Believing an .mxd file contains the GIS data, when it only holds the map and references (pointers) to the data.",
+    "Assuming opened ArcMap documents cannot be closed except by shutting down the computer; File then Close does it, and opening a new map also closes the current one.",
+    "Confusing Zoom in with Fixed zoom in: one zooms to a chosen location or box, the other zooms a set amount.",
+    "Using layout view to explore and query data, instead of data view where you work in real-world coordinates.",
+    "Expecting data layers to stay in the order you added them, when the TOC reorganizes them by geometry type.",
+    "Searching for a toolbox within another toolbox, which is impossible because a toolbox cannot contain another toolbox.",
+    "Forgetting that the first save requires a name and folder location, after which ArcMap appends .mxd automatically."
+  ],
+  applications: [
+    "Producing and displaying a map of Ethiopia in ArcMap, arranged with titles, north arrows and scale bars in layout view.",
+    "Making a zonal or district map for a woreda administration using ArcMap's Add Data and layout tools.",
+    "Collecting field records with GPS, then generating point, polyline and polygon features in ArcMap for a school mapping project.",
+    "Planning health services by adding health post points, road lines and woreda polygons and querying them in data view.",
+    "Using ArcCatalog to manage shapefiles and write metadata so other users can understand the district dataset.",
+    "Using geoprocessing tools from ArcToolbox, such as buffers and overlays, to sit facilities or manage emergency services."
+  ],
+  summary: "ArcMap is the primary ArcGIS application for adding data, making maps and performing analysis, with work saved in an MXD document that references, rather than stores, the data. Menus and tools such as Add Data, Zoom, Pan, Full extent, Identify, Find, Add XY and Measure support navigation, query and measurement, while ArcToolbox organizes geoprocessing tools and ArcCatalog manages data and metadata. Data layers enter the Table of Contents ordered by geometry type, and maps are explored in data view or composed for printing in layout view.",
+  visuals: [
+    {
+      type: "steps",
+      config: {
+        title: "A Basic ArcMap Work Session",
+        steps: [
+          { label: "Open ArcMap", detail: "Single-click the ArcMap icon in the Start Menu, or double-click an .mxd file on the desktop." },
+          { label: "Add data", detail: "Click Add Data, browse to and select the data, then click Add; or drag and drop it from the ArcCatalog window." },
+          { label: "Work on the map", detail: "Navigate with Zoom in, Zoom out, Pan and Full extent in data view, and query with Identify or Find." },
+          { label: "Arrange the layout", detail: "Switch to layout view and add titles, north arrows and scale bars with the data frame on the page." },
+          { label: "Save and close", detail: "Save with the .mxd extension, or as a map package to include the data, then close from the File menu." }
+        ]
+      }
+    },
+    {
+      type: "tableVisual",
+      config: {
+        title: "Key ArcMap Tools and Their Roles",
+        headers: ["Tool", "Role"],
+        rows: [
+          ["Add layers", "Adds GIS data from local files, a network or the internet"],
+          ["Zoom in / Zoom out", "Zoom to a clicked location or a drawn rectangular box"],
+          ["Pan", "Moves the map view in the desired direction with the hand tool"],
+          ["Full extent", "Expands the view to the full geographical extent of the data"],
+          ["Identify", "Queries the active data theme by clicking on it"],
+          ["Find", "Performs a string query on any theme in the map view"],
+          ["Add XY", "Drops a point and generates the X, Y coordinate of a location"],
+          ["Measure", "Measures distance in specified units between two locations"]
+        ]
+      }
+    },
+    {
+      type: "comparison",
+      config: {
+        title: "Data View vs Layout View",
+        left: { name: "Data view", items: ["Geographic window for exploring data", "Displaying and querying the map", "Work in real-world coordinates", "Best for analysis and symbolizing layers"] },
+        right: { name: "Layout view", items: ["Arranges layout elements on a page", "Titles, north arrows, scale bars", "Data frame embedded in the page", "Work in page space, inches or cm"] }
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "ArcMap is best described as:", options: ["a spreadsheet program", "the primary application and interface of ArcGIS for making maps and performing analysis", "an internet browser", "a database server"], answer: 1, difficulty: 1, explanation: "ArcMap is the primary application of ArcGIS, used to add data, make maps, analyze and edit GIS data." },
+    { type: "tf", q: "An ArcMap (.mxd) document stores the actual GIS data inside the file.", answer: false, difficulty: 2, explanation: "The MXD stores the map, symbology and pointers to the data; adding data only adds a reference to the original source." },
+    { type: "mcq", q: "How is ArcMap started with a desired pre-made map?", options: ["By restarting the computer", "By double-clicking an ArcMap document (.mxd file) shortcut", "By opening Notepad", "By uninstalling ArcGIS"], answer: 1, difficulty: 1, explanation: "Double-clicking an .mxd file on the desktop shortcut starts ArcMap with the desired map." },
+    { type: "short", q: "Which menu command closes an opened map in ArcMap?", answer: "file then close|file > close|file menu", difficulty: 1, explanation: "Click the File menu and then Close; opening a new map also closes the current map." },
+    { type: "mcq", q: "Which tool allows a user to drop a point and generate the X, Y coordinate for a specific location?", options: ["Identify", "Add XY", "Pan", "Measure"], answer: 1, difficulty: 1, explanation: "The Add XY tool drops a point and generates the X, Y coordinate for a location." },
+    { type: "mcq", q: "Which ArcToolbox toolbox would you use to convert a shapefile to another data format?", options: ["Analysis Toolbox", "Conversion Toolbox", "Geocoding Toolbox", "Cartography Toolbox"], answer: 1, difficulty: 2, explanation: "The Conversion Toolbox contains tools that convert data between various formats." },
+    { type: "tf", q: "A toolbox in ArcToolbox can contain another toolbox.", answer: false, difficulty: 2, explanation: "A toolbox cannot contain another toolbox; toolsets contain tools and other toolsets." },
+    { type: "short", q: "What is the information that explains your data, such as its field attributes, projection and how it was created, called?", answer: "metadata", difficulty: 2, explanation: "Metadata explains a dataset's attributes, projection, creation and analysis to other users." },
+    { type: "concept", q: "In which view do you arrange titles, north arrows and scale bars for a printable map, and why?", answer: "layout view|layout", difficulty: 2, explanation: "Layout view works with map layout elements arranged with the data frame on a page, in page space." },
+    { type: "mcq", q: "When data layers enter the Table of Contents, they are organized by geometry type. Which layer sits at the very bottom?", options: ["Point features", "Line features", "Polygon features", "Raster datasets"], answer: 3, difficulty: 2, explanation: "Points are on top of lines, lines on top of polygons, and polygons on top of raster datasets." },
+    { type: "ordering", q: "Arrange the steps for adding local data with the Add Data button in the correct order.", options: ["Click Add", "Click Add Data on the ArcMap toolbar", "The layer is placed in the Table of Contents", "Browse to and select the data you want"], answer: 1, difficulty: 3, explanation: "The order is: click Add Data, browse and select the data, click Add, then the layer appears in the TOC." },
+    { type: "concept", q: "Name the three commands of the Add Data pull-down menu.", answer: "add data, add basemap, add data from arcgis online", difficulty: 3, explanation: "The menu has Add Data, Add Basemap and Add Data from ArcGIS Online." }
+  ]
+};

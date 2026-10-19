@@ -1,14 +1,594 @@
-/* Content: g9-geography-ug5 — migrated from generated JSON (Phase 0 pipeline restore).
-   Content upgrade to spec v2 happens per unit in later phases. */
+/* Content: Grade 9 Geography - Unit 5: Major Economic and Cultural Activities in Ethiopia (5 topics)
+   Source: MoE Geography Grade 9 Student Textbook, Unit 5. */
 window.Lessons = window.Lessons || {};
 
-Lessons["g9-geography-ug5-t1"] = {"overview":"<b>Major Economic Activities in Ethiopia</b> sits inside <b>Major Economic and Cultural Activities in Ethiopia</b>. Economic activities are the focus of Unit 5 of Grade 9 Geography in the Ethiopian (FDRE Ministry of Education) curriculum. First, the unit sorts economic activities into five classes, from primary farming to quinary decision-making. Then it weighs subsistence and cash-crop farming, the mainstay of the national economy. Next, it follows trade, transport, and road safety before Unit 6: Human and Natural Environment Interactions examines their impact on the land. Students will also learn how economic activities apply to real-life situations such as jobs, exports, and tourism.","objectives":["List the five classes of economic activities with examples.","Explain the role of subsistence and cash-crop farming in the economy.","Describe the main types of trade and transport in the country.","Analyze the causes and consequences of road traffic accidents.","Identify the leading cultural landscapes and tourist sites."],"simple":"<b>Major Economic Activities in Ethiopia in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, the five classes, primary, secondary, tertiary, quaternary, and quinary.</li> <li>Then primary activities such as farming, forestry, fishing, and mining.</li> <li>Also secondary manufacturing and the service-based tertiary sector.</li> <li>Including advanced quaternary research and quinary decision-making.</li></ul>","detailed":"<p><b>Major Economic Activities in Ethiopia — the essentials.</b> First, the five classes, primary, secondary, tertiary, quaternary, and quinary. Then primary activities such as farming, forestry, fishing, and mining. Also secondary manufacturing and the service-based tertiary sector. Including advanced quaternary research and quinary decision-making.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>List the five classes of economic activities with examples.</li><li>Explain the role of subsistence and cash-crop farming in the economy.</li><li>Describe the main types of trade and transport in the country.</li><li>Analyze the causes and consequences of road traffic accidents.</li><li>Identify the leading cultural landscapes and tourist sites.</li></ul>","keyTerms":[{"term":"First","def":"First, the five classes, primary, secondary, tertiary, quaternary, and quinary."},{"term":"primary activities","def":"Then primary activities such as farming, forestry, fishing, and mining."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing major economic activities in ethiopia with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Map and diagram questions in the ESSLCE geography paper","Explaining a local environmental or resource issue in your own region"],"summary":"Major Economic Activities in Ethiopia: First, the five classes, primary, secondary, tertiary, quaternary, and quinary. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"Major Economic Activities in Ethiopia\" is correct according to the MoE curriculum?","options":["First, the five classes, primary, secondary, tertiary, quaternary, and quinary.","Major Economic Activities in Ethiopia applies only to a continent other than the one this unit covers","Major Economic Activities in Ethiopia contradicts the definition this topic gives","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, the five classes, primary, secondary, tertiary, quaternary, and quinary. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"Major Economic Activities in Ethiopia\"?","options":["Then primary activities such as farming, forestry, fishing, and mining.","Major Economic Activities in Ethiopia describes a physical process unrelated to this topic","Major Economic Activities in Ethiopia applies only to a continent other than the one this unit covers","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Then primary activities such as farming, forestry, fishing, and mining."},{"type":"tf","q":"True or false: First, the five classes, primary, secondary, tertiary, quaternary, and quinary.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover major economic activities in ethiopia.","answer":false,"difficulty":1,"explanation":"Major Economic Activities in Ethiopia is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"List the five classes of economic activities with examples.","difficulty":2,"altAnswers":["Explain the role of subsistence and cash-crop farming in the economy.","Describe the main types of trade and transport in the country."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why major economic activities in ethiopia matters.","answer":"Major Economic Activities in Ethiopia is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of major economic activities in ethiopia in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to major economic activities in ethiopia, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
+Lessons["g9-geography-ug5-t1"] = {
+  overview: "Ethiopians are engaged in many activities designed to satisfy their material and spiritual needs. This lesson classifies those activities into five sectors and examines the primary activities, agriculture, forestry, fishing and mining, together with Ethiopia's manufacturing base.",
+  objectives: [
+    "Define economic activity as the production, distribution and exchange of goods and services",
+    "List and describe the five types of economic activities: primary, secondary, tertiary, quaternary and quinary",
+    "Explain the characteristics of primary economic activities such as agriculture, forestry, fishing and mining",
+    "Identify the major farming systems of Ethiopia and the zones where each is practiced",
+    "Explain how economic activities modify and transform natural resources into goods"
+  ],
+  simple: "Economic activity is the production, distribution and exchange of goods and services. Geographers group these activities into five sectors: primary, secondary, tertiary, quaternary and quinary. Primary activities take resources directly from nature, such as farming, forestry, fishing and mining. Secondary activities turn raw materials into products in factories, while tertiary activities provide services like trade, transport and tourism. Quaternary and quinary activities use specialised knowledge and high-level decision making. Ethiopia's economy leans heavily on primary activities. Agriculture, practiced since 4000 BC, includes crop production and livestock raising, and Ethiopia stands first in Africa in cattle population. Manufacturing is divided into old cottage industries and young light industries, and mining contributes only 1.5 percent of GDP.",
+  detailed: "<p><b>What economic activity is.</b> Humans are involved in many activities to satisfy their diverse material and spiritual needs, and these activities are known as economic activities. Economic activity is the production, distribution and exchange of goods and services. Examples include hunting, fishing, farming, grazing, mining, manufacturing, transportation and trade. These activities are highly diversified in nature and character: some are simple while others are complex, some primitive while others are advanced, but all are equally important in satisfying people's needs. The way jobs are distributed among these activities in a country may even indicate the level of development of that country.</p><p><b>The five sectors.</b> The economic activities practiced in the world are grouped into five: primary, secondary, tertiary, quaternary and quinary. <b>Primary activities</b> focus directly on the extraction of resources from the environment and produce foodstuffs and raw materials; agriculture, fishing, forestry and mining are the main ones, and they are all dependent on the natural environment and shaped by the condition of the physical environment. <b>Secondary activities</b> include manufacturing, construction and power production, which turn raw materials into products using labour, energy and equipment in places called industries. <b>Tertiary activities</b> provide services to other businesses and to final consumers, for example legal and medical services, trade, transportation and tourism. The <b>quaternary sector</b> is an advanced form of service activity involving specialised knowledge, technical skill, communication ability and administrative competence, including research, financial services and government activities, and it is concentrated in large urban centres. <b>Quinary activities</b> are a subset of quaternary activities that involve high-level decision making and scientific research, performed by top business executives, government officials and research scientists, usually near major universities and research centres.</p><p><b>Agriculture, the leading primary activity.</b> Agriculture is the science and art of cultivation of the soil and the rearing of livestock for either local consumption or commercial purposes. In Ethiopia it is an old activity, practiced since 4000 BC, and the country is mentioned as one of the original centres of the world's most important cultivated crops. Most production takes place in the Dega and Woina Dega zones, where land productivity has traditionally coincided with the densest rural population. Ethiopian agriculture divides into crop production (arable farming) and livestock raising. Arable farming has four types: first, seed (grain) production of cereals such as teff, barley, wheat, maize, sorghum, millet and oats, of pulses such as horse beans, chickpeas, haricot beans, field peas, lentils and vetch, and of oilseeds such as noug, linseed, fenugreek, rapeseed, sunflower, groundnuts and sesame, common in the Woina Dega and Dega zones of the northwestern highlands and parts of the southeastern highlands; second, permanent (perennial) crop cultivation of enset, coffee and cotton in the Woina Dega areas of the south and southwest, where enset is the staple food; third, shifting cultivation, the cut-and-burn system, practiced on the western and southwestern fringes of the highlands in Benishangul-Gumuz, Gambella and the Southern Regions where population density is low; and fourth, plantation agriculture producing cash or industrial crops like sugarcane, cotton, coffee, tea and rubber in areas with abundant rainfall or possible irrigation. In livestock raising, Ethiopia keeps cattle, goats, sheep, camels, poultry and pack animals, and stands first in Africa and tenth in the world in cattle population.</p><p><b>Forestry, fishery and mining.</b> A forest is a mass of plants or a wooded area in which trees are the most common features, and the extraction of forest products from it is called forestry. Forests earn little foreign exchange, yet their local significance is large and their contribution to GDP is about 6.10 percent; most cut trees are used domestically for fuel wood, timber for household furniture, and building and construction. Fishing is the catching and harvesting of fish and other marine creatures and is one of the oldest occupations of humankind; in Ethiopia most fishing takes place in freshwater, and the fishing grounds are classified as lakes and rivers. Mining is the extraction of mineral-bearing substances from the earth's crust; a mineral is an inorganic chemical element or compound found naturally in the crust, and mining currently contributes only 1.5 percent of GDP.</p><p><b>Manufacturing in Ethiopia.</b> Ethiopian manufacturing industries are classified into two. The <i>cottage (traditional) industries</i> include weaving, wood carving, pottery, metal works and basketry. They have existed with little change and refinement throughout history, but their development was hindered by negative traditional outlooks, so people engaged in them sometimes held a low social status, which has still not entirely disappeared. The <i>modern manufacturing industries</i> are at a low level, as Ethiopia is a developing nation, and consist largely of light industries that produce consumer goods.</p>",
+  keyTerms: [
+    { term: "Economic activity", def: "The production, distribution and exchange of goods and services, such as farming, mining, manufacturing, transport and trade." },
+    { term: "Primary economic activity", def: "An activity that extracts resources directly from the environment and produces foodstuffs and raw materials; it depends on the natural environment." },
+    { term: "Secondary economic activity", def: "Manufacturing, construction and power production, which turn raw materials into products using labour, energy and equipment." },
+    { term: "Tertiary economic activity", def: "An activity based on the provision of services, such as trade, transport, medical services and tourism." },
+    { term: "Quaternary sector", def: "An advanced service activity involving specialised knowledge and technical skill, including research, financial services and government activities." },
+    { term: "Quinary sector", def: "A subset of quaternary activities involving high-level decision making and scientific research by top executives and scientists." },
+    { term: "Arable farming", def: "Crop production, the cultivation of plants for food, feed, fibre, medicinal or industrial ingredients." },
+    { term: "Cottage industry", def: "A traditional small-scale industry such as weaving, pottery, wood carving or basketry." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "Classify these Ethiopian livelihoods into their economic sectors: a farmer in the Dega highlands, a worker in a textile factory, a bus driver working for a transport company, and a researcher in a statistics office.",
+      given: "Farming produces foodstuffs from the land; textile factories turn raw materials into products; buses carry people; research uses specialised knowledge.",
+      formula: "Concept: match each activity to the sector it belongs to - primary extracts resources, secondary manufactures, tertiary provides services, quaternary applies specialised knowledge.",
+      substitution: "Farming is resource extraction; a textile factory manufactures; a bus company gives a transport service; research is a specialised knowledge activity.",
+      calculation: "The farmer fits the definition of primary activity; the factory worker fits secondary; the driver fits tertiary; the researcher fits quaternary.",
+      answer: "Farmer - primary; textile worker - secondary; bus driver - tertiary; researcher - quaternary."
+    },
+    {
+      problem: "Shifting cultivation is practiced in Benishangul-Gumuz, Gambella and the Southern Regions but not in the central highlands. Explain this geographic pattern.",
+      given: "The textbook places shifting cultivation on the western and southwestern fringes of the highlands and lowlands where population density is low and livestock rearing is limited.",
+      formula: "Concept: a farming system spreads where the conditions it needs - land availability and low population pressure - are met.",
+      substitution: "These fringe regions are thinly populated, so plots are abundant enough to be cleared, cropped and then abandoned for new plots.",
+      calculation: "In densely populated highlands the same land cannot be abandoned periodically, but in the fringes the cut-and-burn cycle is possible.",
+      answer: "Shifting cultivation survives in the thinly populated western and southwestern fringes because abundant land allows periodic clearing and abandonment."
+    },
+    {
+      problem: "Forestry contributes about 6.10 percent to GDP while mining contributes only 1.5 percent, yet forests earn little foreign exchange. What does this show about where forest value lies?",
+      given: "Forest and forest products are little in earning foreign exchange but their significance at local level is large; most cut trees go to fuel wood, furniture timber and construction.",
+      formula: "Concept: compare a sector's domestic value with its export value to locate its importance.",
+      substitution: "The 6.10 percent GDP share comes mostly from domestic uses, not from exports like coffee or flowers.",
+      calculation: "Since export earnings are small, the GDP share must come mainly from local consumption of fuel wood, timber and construction wood.",
+      answer: "Ethiopian forestry is locally important rather than export oriented; its value lies in domestic fuel, furniture and construction."
+    }
+  ],
+  commonMistakes: [
+    "Listing only three sectors and forgetting the quaternary and quinary activities.",
+    "Placing fishing or mining among secondary activities when both are primary.",
+    "Thinking industry means a company or firm when the textbook uses it for the place where manufacturing takes place.",
+    "Believing shifting cultivation is found in densely populated highlands instead of thinly populated fringes.",
+    "Assuming Ethiopia's forest sector earns large foreign exchange when its value is mainly domestic.",
+    "Confusing crop production with livestock raising as the only distinction within arable farming."
+  ],
+  applications: [
+    "Identifying which primary activities dominate the kebele or district you live in.",
+    "Relating dense rural settlement in the Dega and Woina Dega zones to higher land productivity.",
+    "Explaining why a new road to a plantation zone helps move cash crops like sugarcane and coffee.",
+    "Counting how many of your family's income sources are primary, secondary or tertiary activities.",
+    "Linking the presence of lakes such as Tana, Abbaya and Ziway to freshwater fishing grounds.",
+    "Urging respect for weavers, potters and basket makers whose crafts are cottage industries."
+  ],
+  summary: "Economic activity is the production, distribution and exchange of goods and services, and geographers arrange it into five sectors: primary, secondary, tertiary, quaternary and quinary. Ethiopia's primary sector rests on agriculture, practiced since 4000 BC, with four arable farming types and huge livestock resources, first in Africa in cattle population. Forestry contributes about 6.10 percent and mining only 1.5 percent of GDP, while manufacturing remains at a low level, divided between long-standing cottage industries and young light industries.",
+  visuals: [
+    {
+      type: "mindMap",
+      config: {
+        title: "The Five Economic Sectors",
+        center: "Economic Activities",
+        branches: [
+          { label: "Primary", items: ["Agriculture", "Forestry", "Fishing", "Mining"] },
+          { label: "Secondary", items: ["Manufacturing", "Construction", "Power production"] },
+          { label: "Tertiary", items: ["Trade", "Transport", "Tourism"] },
+          { label: "Quaternary", items: ["Research", "Financial services", "Government"] },
+          { label: "Quinary", items: ["Top executives", "Research scientists"] }
+        ]
+      }
+    },
+    {
+      type: "tableVisual",
+      config: {
+        title: "Farming Systems of Ethiopia",
+        headers: ["System", "Main crops or animals", "Where practiced"],
+        rows: [
+          ["Seed (grain) farming", "Teff, barley, wheat, maize, sorghum, pulses, oilseeds", "Dega and Woina Dega highlands"],
+          ["Perennial crops", "Enset, coffee, cotton", "Southern and southwestern Woina Dega areas"],
+          ["Shifting cultivation", "Cut-and-burn plots", "Benishangul-Gumuz, Gambella, Southern Regions"],
+          ["Plantation agriculture", "Sugarcane, cotton, coffee, tea, rubber", "Areas of abundant rain or irrigation"],
+          ["Livestock raising", "Cattle, goats, sheep, camels, poultry", "Throughout the country"]
+        ]
+      }
+    },
+    {
+      type: "comparison",
+      config: {
+        title: "Cottage vs Modern Manufacturing",
+        left: { name: "Cottage (traditional) industries", items: ["Weaving, pottery, wood carving, basketry", "Existed with little change throughout history", "Long held back by low social status", "Household or small workshop scale"] },
+        right: { name: "Modern manufacturing industries", items: ["At a low level of development", "Largely light industries", "Produce consumer goods", "Use labour, energy and equipment in factories"] }
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "Economic activity is best defined as the:", options: ["production, distribution and exchange of goods and services", "collection of taxes by the government", "movement of people only", "building of roads and dams"], answer: 0, difficulty: 1, explanation: "The textbook defines economic activity as the production, distribution and exchange of goods and services." },
+    { type: "mcq", q: "Which is the correct complete set of economic sectors?", options: ["Primary, secondary and tertiary only", "Primary, secondary, tertiary, quaternary and quinary", "Agriculture, industry, mining and trade", "Rural, urban and peri-urban"], answer: 1, difficulty: 2, explanation: "The five classes are primary, secondary, tertiary, quaternary and quinary." },
+    { type: "tf", q: "Primary economic activities focus directly on the extraction of resources from the environment.", answer: true, difficulty: 1, explanation: "Primary activities extract resources directly and produce foodstuffs and raw materials." },
+    { type: "mcq", q: "In which traditional zones does most Ethiopian agricultural production take place?", options: ["Kolla and Berha zones", "Dega and Woina Dega zones", "Desert oases", "Afro-alpine zones"], answer: 1, difficulty: 2, explanation: "Most agricultural production takes place in the Dega and Woina Dega zones where productivity coincided with densest rural population." },
+    { type: "short", q: "Name the perennial crop that is the staple food of the peoples of southern and southwestern Ethiopia.", answer: "enset|false banana", difficulty: 1, explanation: "Enset is the staple food of the Woina Dega areas of southern and southwestern Ethiopia." },
+    { type: "mcq", q: "Shifting cultivation, the cut-and-burn system, is practiced mainly in:", options: ["the Dega highlands of Tigray", "Benishangul-Gumuz, Gambella and the Southern Regions", "central Addis Ababa", "the Rift Valley lakes"], answer: 1, difficulty: 2, explanation: "It is practiced in the western and southwestern fringes where population density is low." },
+    { type: "tf", q: "Ethiopia stands first in the world in cattle population.", answer: false, difficulty: 2, explanation: "Ethiopia stands first in Africa and tenth in the world in cattle population." },
+    { type: "concept", q: "Explain why the distribution of jobs among the economic activities indicates a country's level of development.", answer: "countries with more primary jobs are less developed|advanced countries have more service and knowledge jobs|development shifts jobs to services", difficulty: 2, explanation: "The share of jobs in each sector reflects development; advanced economies hold more secondary, tertiary, quaternary and quinary jobs." },
+    { type: "ordering", q: "Arrange the sectors from the one closest to nature to the most knowledge based.", options: ["Quinary activities", "Primary activities", "Tertiary activities", "Secondary activities"], answer: 1, difficulty: 2, explanation: "The order is primary, secondary, tertiary, quaternary, quinary; Primary comes first." },
+    { type: "mcq", q: "Which pair correctly matches a manufacturing type with an example?", options: ["Cottage industry - weaving and basketry", "Modern industry - shifting cultivation", "Cottage industry - shipbuilding", "Modern industry - fishing"], answer: 0, difficulty: 3, explanation: "Weaving, wood carving, pottery, metal works and basketry are cottage industries." },
+    { type: "tf", q: "Mining currently contributes more than 10 percent of Ethiopia's GDP.", answer: false, difficulty: 1, explanation: "Mining contributes only 1.5 percent of GDP." }
+  ]
+};
 
-Lessons["g9-geography-ug5-t2"] = {"overview":"<b>Contribution of Subsistence Farming and Cash Crop</b> sits inside <b>Major Economic and Cultural Activities in Ethiopia</b>. Economic activities are the focus of Unit 5 of Grade 9 Geography in the Ethiopian (FDRE Ministry of Education) curriculum. First, the unit sorts economic activities into five classes, from primary farming to quinary decision-making. Then it weighs subsistence and cash-crop farming, the mainstay of the national economy. Next, it follows trade, transport, and road safety before Unit 6: Human and Natural Environment Interactions examines their impact on the land. Students will also learn how economic activities apply to real-life situations such as jobs, exports, and tourism.","objectives":["List the five classes of economic activities with examples.","Explain the role of subsistence and cash-crop farming in the economy.","Describe the main types of trade and transport in the country.","Analyze the causes and consequences of road traffic accidents.","Identify the leading cultural landscapes and tourist sites."],"simple":"<b>Contribution of Subsistence Farming and Cash Crop in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, agriculture as the source of most jobs, food, and export earnings.</li> <li>Then subsistence farming that feeds the household with little surplus.</li> <li>Also cash crops such as coffee, oilseeds, chat, and flowers grown for sale.</li> <li>Because land, rainfall, and tools fall short, several problems slow the sector.</li></ul>","detailed":"<p><b>Contribution of Subsistence Farming and Cash Crop — the essentials.</b> First, agriculture as the source of most jobs, food, and export earnings. Then subsistence farming that feeds the household with little surplus. Also cash crops such as coffee, oilseeds, chat, and flowers grown for sale. Because land, rainfall, and tools fall short, several problems slow the sector.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>List the five classes of economic activities with examples.</li><li>Explain the role of subsistence and cash-crop farming in the economy.</li><li>Describe the main types of trade and transport in the country.</li><li>Analyze the causes and consequences of road traffic accidents.</li><li>Identify the leading cultural landscapes and tourist sites.</li></ul>","keyTerms":[{"term":"First","def":"First, agriculture as the source of most jobs, food, and export earnings."},{"term":"cash crops","def":"Also cash crops such as coffee, oilseeds, chat, and flowers grown for sale."},{"term":"Because land","def":"Because land, rainfall, and tools fall short, several problems slow the sector."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing contribution of subsistence farming and cash crop with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Map and diagram questions in the ESSLCE geography paper","Explaining a local environmental or resource issue in your own region"],"summary":"Contribution of Subsistence Farming and Cash Crop: First, agriculture as the source of most jobs, food, and export earnings. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"Contribution of Subsistence Farming and Cash Crop\" is correct according to the MoE curriculum?","options":["First, agriculture as the source of most jobs, food, and export earnings.","Contribution of Subsistence Farming and Cash Crop applies only to a continent other than the one this unit covers","Contribution of Subsistence Farming and Cash Crop contradicts the definition this topic gives","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, agriculture as the source of most jobs, food, and export earnings. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"Contribution of Subsistence Farming and Cash Crop\"?","options":["Then subsistence farming that feeds the household with little surplus.","Contribution of Subsistence Farming and Cash Crop describes a physical process unrelated to this topic","Contribution of Subsistence Farming and Cash Crop applies only to a continent other than the one this unit covers","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Then subsistence farming that feeds the household with little surplus."},{"type":"tf","q":"True or false: First, agriculture as the source of most jobs, food, and export earnings.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover contribution of subsistence farming and cash crop.","answer":false,"difficulty":1,"explanation":"Contribution of Subsistence Farming and Cash Crop is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"List the five classes of economic activities with examples.","difficulty":2,"altAnswers":["Explain the role of subsistence and cash-crop farming in the economy.","Describe the main types of trade and transport in the country."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why contribution of subsistence farming and cash crop matters.","answer":"Contribution of Subsistence Farming and Cash Crop is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of contribution of subsistence farming and cash crop in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to contribution of subsistence farming and cash crop, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
+Lessons["g9-geography-ug5-t2"] = {
+  overview: "Agriculture is the pillar of the Ethiopian national economy, employing about 80 percent of the people. This lesson shows how subsistence farming and cash crop production feed the country, earn foreign exchange and create jobs, and why production still stagnates.",
+  objectives: [
+    "Describe the place of agriculture in the national economy of Ethiopia",
+    "Explain the contribution of subsistence farming to household food security and livelihoods",
+    "Explain the contribution of cash crop production to export earnings, capital and employment",
+    "Read and interpret data on sectoral GDP shares and farmland size distribution",
+    "Identify and describe the major problems of agriculture in Ethiopia"
+  ],
+  simple: "Agriculture is the pillar of Ethiopia's national economy. About 80 percent of the population earns its living from it, it supplies more than 90 percent of export commodities, and it contributed 32.7 percent of GDP in 2019/20. Subsistence farming produces food mainly to feed the farm family, using traditional tools such as the oxen-drawn plough, so little surplus reaches the market; it protects rural households from food insecurity. Commercial farming aims at money and raises cash crops such as coffee, oilseeds, pulses, chat and flowers; coffee alone earned about 28.6 percent of export value in 2019/20. Ethiopia still faces serious problems: soil erosion, unreliable rainfall, fragmented plots, backward technology and poor rural infrastructure.",
+  detailed: "<p><b>Agriculture as the mainstay of the economy.</b> The Ethiopian national economy largely bases itself on agriculture, which is the principal source of income and employment for the majority of the population, and the greater proportion of foreign exchange the country earns comes from this sector. Three facts show its predominance: agriculture employs the majority (80 percent) of the total population; it supplies more than 90 percent of export commodities; and it contributed 32.7 percent of GDP in 2019/20. Sectoral shares have shifted over time: agriculture's share fell from 39.6 percent in 2014/15 to 32.7 percent in 2019/20, while industry rose from 21.0 to 29.0 percent and service stayed near 39.5 percent. Agriculture had been the leading sector until 2014/15, but after 2015/16 the service sector emerged as dominant, mainly due to natural and economic factors.</p><p><b>Contribution of subsistence farming.</b> Subsistence farming is a method of farming in which nearly all of the crops or livestock raised are used to maintain the farmer and the family, leaving little, if any, surplus for sale or trade. It is a common feature of developing countries including Ethiopia, and both crop farming and animal rearing there use traditional tools and techniques, making it hand-to-mouth in nature. The subsistence sector produces food crops for different agro-climatic conditions: cereals such as teff, wheat and barley, the enset staple of parts of southern, western and central Ethiopia, as well as pulses and oilseeds. Agriculture in Ethiopia is typically characterised by smallholder and subsistence farming which is highly dependent on rainfall, and the small farm constitutes the life support mechanism of the country since urban livelihoods also depend on the rural economy. Most agricultural households mainly produce for own consumption but also for sale, to save, buy food or non-food items, pay tax or repay loans. Subsistence farming plays an important role in the economy by reducing the vulnerability of rural food-insecure households and improving livelihoods.</p><p><b>Contribution of cash crop production.</b> Commercial farming, as opposed to subsistence farming, is concerned with producing crops for sale, so its main objective is to make money. Ethiopian farmers produce cash crops such as coffee, oilseeds, pulses, chat, sugar cane, cotton and fruit. Their contribution comes in three ways. First, agriculture is the source of food and raw materials, supplying food grains, dairy and meat products to consumers and raw materials to agro-industries. Second, it is a source of capital: cash crops raise capital for agricultural investment through agricultural taxation and the export of agricultural products, and they accelerate institutions that enable further commercialisation. Coffee is Ethiopia's most important export commodity, accounting for about 28.6 percent of the value of all exports in 2019/20, while oilseeds took 11.5 percent, chat 10.9 percent and pulses 7.9 percent. Third, it contributes to employment: about 80 percent of the population earns a living from agriculture, and cash crops bring substantial wage and employment opportunities to the rural economy.</p><p><b>Problems of agriculture in Ethiopia.</b> Although the majority of Ethiopians are farmers, they have not yet secured food at large; production shows virtual stagnation while the population rises and domestically produced food per capita declines. The major obstacles follow. <b>Land degradation:</b> because of the topography of the land, 50 percent of the cultivable land is exposed to various levels of soil erosion, and degraded soil loses fertility, depth, nutrients and water-holding capacity, reducing crop production. <b>Variable rainfall:</b> agriculture depends heavily on unreliable rain that is sometimes early, late, short or in excess, highly affecting both productivity and food security. <b>Fragmentation of plots:</b> farmland is continuously divided among families through inheritance, so 38 percent of households access less than 0.5 hectares, 23.65 percent between 0.51 and 1.0 hectares, 24.04 percent between 1 and 2 hectares, and only 14.31 percent more than 2 hectares; households with less than one hectare are often unable to fulfil household needs including food consumption. <b>Backward technology:</b> land is prepared with the oxen-drawn plough, planting is done by manual broadcasting, weeding is manual and harvesting uses the sickle. <b>Poor rural infrastructure:</b> irrigation, transport, electric power and agricultural markets are poorly developed, and bad rural roads raise the cost of transporting products and reduce farmers' income.</p>",
+  keyTerms: [
+    { term: "Subsistence farming", def: "Farming in which nearly all crops or livestock raised are used to maintain the farmer and family, leaving little surplus for sale." },
+    { term: "Commercial farming", def: "Farming concerned with producing crops for sale, whose main objective is to make money." },
+    { term: "Cash crop", def: "A crop produced mainly for sale and export, such as coffee, oilseeds, pulses, chat, cotton and fruit." },
+    { term: "Capital formation", def: "The build-up of funds for investment, supplied in Ethiopia by agricultural taxation and export of agricultural products." },
+    { term: "Agro-industry", def: "An industry that processes agricultural raw materials supplied by the farming sector." },
+    { term: "Land degradation", def: "The loss of soil fertility, depth, nutrients and water-holding capacity, exposing 50 percent of Ethiopia's cultivable land to erosion." },
+    { term: "Fragmentation of plots", def: "The continuous division of farmland among families through inheritance, producing very small holdings." },
+    { term: "GDP", def: "Gross Domestic Product, the total value of goods and services produced in a country in a year." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "Table 5.1 shows agriculture's share of GDP was 39.6 percent in 2014/15 and 32.7 percent in 2019/20. Describe the trend and suggest what it implies for Ethiopian farming.",
+      given: "Agriculture: 39.6 (2014/15), 37.5, 36.3, 34.9, 33.3, 32.7 (2019/20); industry rose from 21.0 to 29.0; service stayed about 39.5.",
+      formula: "Concept: read a time-series table by comparing the first and last values and the direction of change between them.",
+      substitution: "32.7 - 39.6 = -6.9 percentage points over six consecutive declining years.",
+      calculation: "The share falls every single year, so the trend is steady decline in relative importance even while agriculture remains the largest employer.",
+      answer: "Agriculture's GDP share is steadily decreasing as industry and services grow, yet farming still employs 80 percent of Ethiopians."
+    },
+    {
+      problem: "Using Table 5.2, what percentage of Ethiopian farming households access less than one hectare of land, and why is this worrying?",
+      given: "Households under 0.5 hectares: 38 percent (7.71 under 0.10 plus 30.29 from 0.10-0.5); households 0.51-1.00 hectares: 23.65 percent.",
+      formula: "Concept: add class percentages that fall below the chosen threshold.",
+      substitution: "38 + 23.65 = 61.65 percent.",
+      calculation: "The textbook states households with less than one hectare are often unable to fulfil household needs including necessary food consumption.",
+      answer: "About 61.65 percent of households farm less than one hectare, which helps explain rural food shortfalls."
+    },
+    {
+      problem: "In 2019/20 coffee exports earned 855.9 million USD out of total exports of 2,987.7 million USD. Verify that coffee's share was about 28.6 percent.",
+      given: "Coffee export value 855.9 million USD; total export value 2,987.7 million USD; flower second at 14.1 percent and oilseeds third at 11.5 percent.",
+      formula: "Concept: percentage share = item value divided by total value multiplied by 100.",
+      substitution: "855.9 / 2,987.7 x 100.",
+      calculation: "855.9 / 2,987.7 is about 0.286, and 0.286 x 100 gives about 28.6 percent, matching the textbook figure.",
+      answer: "Coffee is confirmed as the dominant export at about 28.6 percent of export value in 2019/20."
+    }
+  ],
+  commonMistakes: [
+    "Thinking subsistence farmers produce nothing for sale at all, when most also sell small surpluses.",
+    "Assuming agriculture's GDP share is rising when Table 5.1 shows it falling year after year.",
+    "Believing cash crops are only grown on plantations by companies rather than by smallholders too.",
+    "Confusing enset's role as a food security crop with cash crops like coffee that earn foreign exchange.",
+    "Ignoring production problems and assuming Ethiopia's large farm population guarantees food security.",
+    "Quoting fragmentation as a factory problem instead of the division of farmland by inheritance."
+  ],
+  applications: [
+    "Explaining why a drought year hits national export earnings as well as village food supplies.",
+    "Using terracing or composting on a family plot to fight soil erosion on degraded land.",
+    "Proposing how a farmers' market day lets a subsistence household turn surplus pulses or oilseeds into cash.",
+    "Recognising that a neighbour planting coffee or chat alongside food crops is diversifying income, not abandoning food farming.",
+    "Supporting a village savings group so smallholders can buy fertilizer beyond their own family labour.",
+    "Debating how consolidating fragmented inherited plots could raise household food production."
+  ],
+  summary: "Agriculture is the pillar of Ethiopia's economy: it employs 80 percent of the people, supplies over 90 percent of exports and contributed 32.7 percent of GDP in 2019/20, though its share has fallen every year since 2014/15. Subsistence farming protects food-insecure rural households while cash crops such as coffee, oilseeds and chat earn foreign exchange, capital and jobs. Production nevertheless stagnates because of land degradation, variable rainfall, fragmented holdings, backward technology and poor rural infrastructure.",
+  visuals: [
+    {
+      type: "comparison",
+      config: {
+        title: "Subsistence vs Commercial Farming",
+        left: { name: "Subsistence farming", items: ["For family needs first", "Traditional tools and techniques", "Hand-to-mouth in nature", "Little surplus enters the market"] },
+        right: { name: "Commercial farming", items: ["Crops produced for sale", "Main objective is to make money", "Coffee, oilseeds, chat, cotton, fruit", "Supplies exports and agro-industries"] }
+      }
+    },
+    {
+      type: "tableVisual",
+      config: {
+        title: "Agriculture in Numbers",
+        headers: ["Indicator", "Value"],
+        rows: [
+          ["Population earning a living from agriculture", "About 80 percent"],
+          ["Share of export commodities supplied by agriculture", "More than 90 percent"],
+          ["Agriculture share of GDP 2019/20", "32.7 percent"],
+          ["Coffee share of export value 2019/20", "About 28.6 percent"],
+          ["Households farming under 1 hectare", "About 61.65 percent"]
+        ]
+      }
+    },
+    {
+      type: "steps",
+      config: {
+        title: "The Five Problems of Ethiopian Agriculture",
+        steps: [
+          { label: "Land degradation", detail: "50 percent of cultivable land is exposed to soil erosion, cutting fertility and yields." },
+          { label: "Variable rainfall", detail: "Rains come early, late, short or in excess, hurting productivity and food security." },
+          { label: "Fragmented plots", detail: "Inheritance divides holdings; most households farm less than one hectare." },
+          { label: "Backward technology", detail: "Oxen plough, manual broadcasting, hand weeding and sickle harvesting." },
+          { label: "Poor infrastructure", detail: "Weak irrigation, transport, power and markets raise costs and lower income." }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "According to the textbook, agriculture contributed what percentage of GDP in 2019/20?", options: ["39.6", "32.7", "29.0", "21.0"], answer: 1, difficulty: 1, explanation: "Agriculture contributed 32.7 percent of GDP in 2019/20, down from 39.6 percent in 2014/15." },
+    { type: "mcq", q: "After 2015/16, which sector became the dominant sector of the Ethiopian economy?", options: ["Agriculture", "Industry", "Service", "Mining"], answer: 2, difficulty: 2, explanation: "The service sector emerged as dominant after 2015/16 due to natural and economic factors." },
+    { type: "tf", q: "Agriculture supplies more than 90 percent of Ethiopia's export commodities.", answer: true, difficulty: 1, explanation: "Agriculture supplies more than 90 percent of export commodities and is the main source of export earnings." },
+    { type: "short", q: "Name Ethiopia's most important export commodity, which accounted for about 28.6 percent of export value in 2019/20.", answer: "coffee", difficulty: 1, explanation: "Coffee is the most important export commodity at about 28.6 percent of export value." },
+    { type: "mcq", q: "Which of the following is NOT listed as a problem of Ethiopian agriculture?", options: ["Land degradation", "Variable rainfall", "Fragmentation of farm plots", "Overuse of modern tractors"], answer: 3, difficulty: 2, explanation: "The problems listed are land degradation, rainfall variability, fragmentation, backward technology and poor infrastructure." },
+    { type: "mcq", q: "According to Table 5.2, what share of farming households accesses less than 0.5 hectares?", options: ["7.71 percent", "38 percent", "61.65 percent", "14.31 percent"], answer: 1, difficulty: 2, explanation: "38 percent of households access less than 0.5 hectares when the two smallest classes are combined." },
+    { type: "tf", q: "Subsistence farming produces mainly for family needs, leaving little surplus for the market.", answer: true, difficulty: 1, explanation: "Nearly all crops or livestock raised are used to maintain the farmer and family." },
+    { type: "concept", q: "Explain why households farming less than one hectare often face food shortages.", answer: "the plot is too small to produce enough food|fragmented plots cannot fulfill household needs", difficulty: 2, explanation: "Households with less than one hectare are often unable to fulfill household needs including necessary food consumption." },
+    { type: "ordering", q: "Arrange the steps of traditional smallholder farming in the order the textbook describes.", options: ["Manual weeding", "Land preparation with an oxen drawn plough", "Harvesting with a sickle", "Planting by manual broadcasting"], answer: 1, difficulty: 2, explanation: "The order is land preparation, planting by broadcasting, manual weeding, then harvesting with the sickle." },
+    { type: "mcq", q: "Cash crop production contributes to the Ethiopian economy mainly by:", options: ["feeding only the farming family", "raising capital through taxation and exports while creating rural employment", "replacing manufacturing", "reducing foreign exchange earnings"], answer: 1, difficulty: 2, explanation: "Cash crops supply raw materials, raise capital via agricultural taxation and exports, and bring wage employment to the rural economy." },
+    { type: "tf", q: "Bad road conditions in rural areas raise transport costs and reduce farmers' income.", answer: true, difficulty: 2, explanation: "The bad condition of rural roads raises transport costs, which in turn reduces farmers' income." }
+  ]
+};
 
-Lessons["g9-geography-ug5-t3"] = {"overview":"<b>Trade and Transport in Ethiopia</b> sits inside <b>Major Economic and Cultural Activities in Ethiopia</b>. Economic activities are the focus of Unit 5 of Grade 9 Geography in the Ethiopian (FDRE Ministry of Education) curriculum. First, the unit sorts economic activities into five classes, from primary farming to quinary decision-making. Then it weighs subsistence and cash-crop farming, the mainstay of the national economy. Next, it follows trade, transport, and road safety before Unit 6: Human and Natural Environment Interactions examines their impact on the land. Students will also learn how economic activities apply to real-life situations such as jobs, exports, and tourism.","objectives":["List the five classes of economic activities with examples.","Explain the role of subsistence and cash-crop farming in the economy.","Describe the main types of trade and transport in the country.","Analyze the causes and consequences of road traffic accidents.","Identify the leading cultural landscapes and tourist sites."],"simple":"<b>Trade and Transport in Ethiopia in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, internal trade and the foreign trade of exports and imports.</li> <li>Next, coffee as the leading export and a standing trade deficit.</li> <li>Including road, rail, water, and air transport across the country.</li></ul>","detailed":"<p><b>Trade and Transport in Ethiopia — the essentials.</b> First, internal trade and the foreign trade of exports and imports. Next, coffee as the leading export and a standing trade deficit. Including road, rail, water, and air transport across the country.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>List the five classes of economic activities with examples.</li><li>Explain the role of subsistence and cash-crop farming in the economy.</li><li>Describe the main types of trade and transport in the country.</li><li>Analyze the causes and consequences of road traffic accidents.</li><li>Identify the leading cultural landscapes and tourist sites.</li></ul>","keyTerms":[{"term":"First","def":"First, internal trade and the foreign trade of exports and imports."},{"term":"Next","def":"Next, coffee as the leading export and a standing trade deficit."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing trade and transport in ethiopia with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Map and diagram questions in the ESSLCE geography paper","Explaining a local environmental or resource issue in your own region"],"summary":"Trade and Transport in Ethiopia: First, internal trade and the foreign trade of exports and imports. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"Trade and Transport in Ethiopia\" is correct according to the MoE curriculum?","options":["First, internal trade and the foreign trade of exports and imports.","Trade and Transport in Ethiopia applies only to a continent other than the one this unit covers","Trade and Transport in Ethiopia contradicts the definition this topic gives","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, internal trade and the foreign trade of exports and imports. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"Trade and Transport in Ethiopia\"?","options":["Next, coffee as the leading export and a standing trade deficit.","Trade and Transport in Ethiopia describes a physical process unrelated to this topic","Trade and Transport in Ethiopia applies only to a continent other than the one this unit covers","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Next, coffee as the leading export and a standing trade deficit."},{"type":"tf","q":"True or false: First, internal trade and the foreign trade of exports and imports.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover trade and transport in ethiopia.","answer":false,"difficulty":1,"explanation":"Trade and Transport in Ethiopia is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"List the five classes of economic activities with examples.","difficulty":2,"altAnswers":["Explain the role of subsistence and cash-crop farming in the economy.","Describe the main types of trade and transport in the country."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why trade and transport in ethiopia matters.","answer":"Trade and Transport in Ethiopia is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of trade and transport in ethiopia in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to trade and transport in ethiopia, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
+Lessons["g9-geography-ug5-t3"] = {
+  overview: "Trade and transport knit Ethiopia's economy together: trade exchanges goods and services while transport moves people and goods from surplus to deficit areas. This lesson examines the structure of Ethiopian trade, its chronic deficit, and the country's road, rail, water and air transport systems.",
+  objectives: [
+    "Define trade and explain the need for expanding trade in Ethiopia",
+    "Distinguish internal (domestic) trade from external (foreign) trade",
+    "Describe the structure of Ethiopia's export and import trade and its trade balance",
+    "Identify the traditional and modern modes of transport in Ethiopia",
+    "Explain the importance of transport to the Ethiopian economy using network data"
+  ],
+  simple: "Trade is the buying and selling of goods and services. Ethiopia has internal trade within the country and foreign trade with other countries. Exports are mostly agricultural raw materials such as coffee, oilseeds, flowers and chat, while imports are finished products like machinery, transport equipment, electronics and fuel. Because imports exceed exports, Ethiopia has a trade deficit. Transport moves people and goods from areas of surplus to areas of deficit. Traditional transport uses pack animals and human porterage; modern transport uses roads, railways, waterways and air services. The road network grew from 39,477 km in 2005/06 to 138,127 km in 2018/19, and more than 95 percent of Ethiopia's trade passes through Djibouti, served by the new standard gauge railway.",
+  detailed: "<p><b>What trade is and why it must expand.</b> Trade is a basic economic concept involving the buying and selling of goods and services, with compensation paid by a buyer to a seller, or the exchange of goods and services between parties. In Ethiopia there are two main types. <b>Internal (domestic) trade</b> is the exchange of goods and services within the country, and it is the base for foreign trade. <b>External (foreign) trade</b> involves the exchange of commodities among different countries; since no country is self-sufficient in all its demands, the movement of items between countries in the form of trade is unavoidable.</p><p><b>The export trade sector.</b> Because Ethiopia is an agrarian economy, its export items are mainly raw materials that originate from the agricultural sector: coffee, oilseeds, flower, chat, pulses, gold, textiles and textile products, leather and leather products, meat, fruit and vegetables, live animals and electricity. According to the National Bank of Ethiopia 2019/20 report, coffee is the most dominant export item, earning 855.9 million USD or 28.6 percent of export value. Despite a persistent decline of coffee's share since 2018/19, it is still the major source of export earning. In 2019/20 flower took second place with 422.3 million USD (14.1 percent) and oilseeds third with 345 million USD (11.5 percent), followed by chat at 10.9 percent and pulses at 7.9 percent. Total exports in 2019/20 reached 2,987.7 million USD, with textiles also growing strongly to 168.9 million USD.</p><p><b>The import trade sector and the trade balance.</b> Ethiopia imports mainly finished products such as machinery, transport equipment, electrical and electronic goods and fuel. The total merchandise import bill stood at 15.1 billion USD in 2018/19 and fell to 13.9 billion USD in 2019/20, an 8.1 percent decline mainly due to lower bills for fuel, capital goods and consumer goods, though payments for semi-finished goods, raw materials and miscellaneous goods grew. <b>Trade balance</b> is the yearly difference between export and import values: when exports exceed imports the balance is positive or surplus, and when imports exceed exports it is negative. In Ethiopia import values far exceed export values, so the country experiences a trade deficit.</p><p><b>Transport and its modes.</b> Transportation is the movement of materials, goods or people from one place to another with a specified objective. It is fundamental to the functioning of any society; one of its major functions is to move goods from areas of surplus to areas of deficit, and it plays a vital role in expanding the socio-economic life of people at all levels. Traditional transport includes pack animals and human porterage. Modern transport uses four modes: road, railway, inland waterways and air.</p><p><b>Road transport and the road network.</b> Road transportation uses buses, cars and trucks, and is more widespread and more flexible than railway; roads are the most important transport infrastructure in providing access to rural and urban areas in Ethiopia. The classified road network grew from 39,477 km in 2005/06 to 138,127 km in 2018/19. In 2018/19 the total network consisted of 55,808 km (40.4 percent) of woreda roads, 30,924 km (22 percent) of rural roads, 28,699 km (20.8 percent) of federal roads and 22,697 km (16.4 percent) of urban roads, and asphalt roads accounted for only about 11.5 percent of the network.</p><p><b>Railways, waterways and air transport.</b> Rail transport helps move bulky products. Ethiopia was served for more than a century by a meter gauge railway from Addis Ababa to Djibouti, built from 1897 to 1917 and about 781 km long, but it eventually closed down. Recently a new standard gauge railway of 752.7 km was officially inaugurated in 2018, the backbone of the new Ethiopian National Railway Network; it is double-tracked for 115 km from Addis Ababa to Adama, has power supplied through 20 distribution stations (17 in Ethiopia and 3 in Djibouti), and connects to the Port of Doraleh, through which more than 95 percent of Ethiopia's trade passes. The Addis Ababa Light Rail Transit (AA-LRT) is the first light rail in eastern and Sub-Saharan Africa, with two lines about 31.6 km long and 39 stations, carrying about 60,000 passengers daily. Water transport is cheap and convenient for bulky goods, but the use of Ethiopian rivers and lakes as inland waterways is extremely limited due to rugged topography and the seasonal nature of rainfall; the only navigable river is Baro, with small-scale transport on lakes Tana, Abbaya and Ziway. Air transport is the most recent and fastest mode, of special significance where topography is difficult; Ethiopian Airlines, established in 1945, is the leading and most profitable airline in Africa, serving more than 62 African destinations, more than 127 international destinations, over 22 domestic destinations and 58 cargo destinations, joined Star Alliance in 2011, and supported 1.54 billion USD of GDP in 2018, rising to 4.15 billion USD when spending by air-arriving tourists is added.</p>",
+  keyTerms: [
+    { term: "Trade", def: "The buying and selling of goods and services, with compensation paid by a buyer to a seller, or exchange between parties." },
+    { term: "Domestic trade", def: "The exchange of goods and services within a country; the base for foreign trade." },
+    { term: "Foreign trade", def: "The exchange of commodities among different countries, unavoidable because no country is self-sufficient." },
+    { term: "Trade balance", def: "The yearly difference between export and import values; negative when imports exceed exports." },
+    { term: "Trade deficit", def: "The situation of Ethiopia, whose import values consistently exceed its export values." },
+    { term: "Mode of transport", def: "A means of moving people, goods and materials; traditional (pack animals, porterage) or modern (road, rail, water, air)." },
+    { term: "Standard gauge railway", def: "The new 752.7 km Addis Ababa - Djibouti railway inaugurated in 2018, the backbone of Ethiopia's National Railway Network." },
+    { term: "Light rail transit", def: "Urban rail such as the AA-LRT, the first light rail in eastern and Sub-Saharan Africa, carrying about 60,000 people daily." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "In 2019/20 Ethiopia exported 2,987.7 million USD of goods and imported 13,881.3 million USD. What is the trade balance, and what type is it?",
+      given: "Total exports 2019/20: 2,987.7 million USD; total imports 2019/20: 13,881.3 million USD.",
+      formula: "Concept: trade balance = yearly export value minus yearly import value.",
+      substitution: "2,987.7 - 13,881.3 = -10,893.6 million USD.",
+      calculation: "The result is negative, meaning imports exceed exports by about 10.9 billion USD.",
+      answer: "Ethiopia had a negative trade balance (a trade deficit) of about 10.9 billion USD in 2019/20."
+    },
+    {
+      problem: "The road network grew from 39,477 km in 2005/06 to 138,127 km in 2018/19. By how many kilometres did it grow, and roughly how many times larger did it become?",
+      given: "Classified road length 2005/06: 39,477 km; 2018/19: 138,127 km, of which asphalt is only about 11.5 percent.",
+      formula: "Concept: growth = final value minus initial value; multiple = final value divided by initial value.",
+      substitution: "138,127 - 39,477 = 98,650 km; 138,127 / 39,477 is about 3.5.",
+      calculation: "The network grew by 98,650 km and became roughly three and a half times its earlier length in thirteen years.",
+      answer: "Ethiopia added about 98,650 km of roads and roughly tripled its network, yet most roads remain non-asphalt."
+    },
+    {
+      problem: "Ethiopian farmers offer Ethiopia powdered milk machinery spare parts, while an exporter ships coffee to Germany. Which flow is export and which is import, and what does the mix reveal about the economy?",
+      given: "Ethiopia exports mainly agricultural raw materials; it imports mainly finished products like machinery, transport equipment, electrical goods and fuel.",
+      formula: "Concept: in an agrarian economy, primary exports finance imports of manufactured capital goods.",
+      substitution: "Coffee is a raw agricultural product leaving the country; machinery spare parts are finished goods entering the country.",
+      calculation: "Coffee going out is export trade; machinery coming in is import trade, a typical pattern of a developing agrarian economy.",
+      answer: "Coffee is an export; machinery parts are an import, showing Ethiopia exports raw materials and imports finished products."
+    }
+  ],
+  commonMistakes: [
+    "Thinking external trade happens only by sea when most of Ethiopia's trade crosses Djibouti by rail and road.",
+    "Calling the trade balance an equality of exports and imports instead of their yearly difference.",
+    "Assuming Ethiopia exports finished goods when exports are mostly agricultural raw materials.",
+    "Believing Ethiopian rivers are widely navigable because water transport is cheap elsewhere.",
+    "Forgetting that traditional transport, pack animals and human porterage, still matters in Ethiopia.",
+    "Confusing the old 781 km meter gauge line with the new 752.7 km standard gauge railway."
+  ],
+  applications: [
+    "Tracing the route of a bag of exported coffee from a farmer's store to the Port of Doraleh via Djibouti.",
+    "Explaining why a farmer in a deficit zone cannot sell surplus teff profitably where roads are bad.",
+    "Comparing the daily cost and speed of sending goods by lorry, by the new railway, and by Ethiopian Airlines cargo.",
+    "Reading import bills for fuel and fertilizer to see how world prices squeeze the national budget.",
+    "Using the light rail's 60,000 daily riders as evidence that urban transport reduces traffic congestion.",
+    "Debating why the Baro River, though navigable, still carries only small-scale transport."
+  ],
+  summary: "Trade in Ethiopia splits into domestic exchange within the country and foreign trade with the world; agrarian exports led by coffee (28.6 percent of value in 2019/20) meet import bills for machinery, electronics and fuel, leaving a large trade deficit. Transport moves goods from surplus to deficit areas through traditional means and modern roads, railways, waterways and air. The road network tripled to 138,127 km between 2005/06 and 2018/19, the new Addis Ababa - Djibouti standard gauge railway serves over 95 percent of the country's trade, and Ethiopian Airlines is Africa's leading carrier.",
+  visuals: [
+    {
+      type: "mindMap",
+      config: {
+        title: "Modes of Transport in Ethiopia",
+        center: "Transport in Ethiopia",
+        branches: [
+          { label: "Traditional", items: ["Pack animals", "Human porterage"] },
+          { label: "Road", items: ["138,127 km (2018/19)", "Most widespread and flexible", "Only 11.5 percent asphalt"] },
+          { label: "Rail", items: ["Old line 1897-1917", "New standard gauge 752.7 km", "AA-LRT about 31.6 km"] },
+          { label: "Water", items: ["Baro River navigable", "Lakes Tana, Abbaya, Ziway"] },
+          { label: "Air", items: ["Ethiopian Airlines since 1945", "Over 127 international destinations"] }
+        ]
+      }
+    },
+    {
+      type: "comparison",
+      config: {
+        title: "Exports vs Imports of Ethiopia",
+        left: { name: "Export items", items: ["Coffee (28.6 percent)", "Flower (14.1 percent)", "Oilseeds (11.5 percent)", "Chat and pulses", "Gold and textiles"] },
+        right: { name: "Import items", items: ["Machinery and transport equipment", "Electrical and electronic goods", "Fuel and petroleum products", "Fertilizer", "Consumer goods"] }
+      }
+    },
+    {
+      type: "tableVisual",
+      config: {
+        title: "Major Export Items, 2019/20 (National Bank of Ethiopia)",
+        headers: ["Export item", "Million USD", "Share"],
+        rows: [
+          ["Coffee", "855.9", "28.6 percent"],
+          ["Flower", "422.3", "14.1 percent"],
+          ["Oilseeds", "345.0", "11.5 percent"],
+          ["Chat", "324.4", "10.9 percent"],
+          ["Pulses", "234.8", "7.9 percent"],
+          ["Gold", "196.5", "6.6 percent"]
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "Trade is best defined as:", options: ["the buying and selling of goods and services", "a tax charged at borders", "a national currency", "the storage of grain"], answer: 0, difficulty: 1, explanation: "Trade involves buying and selling of goods and services with compensation paid by a buyer to a seller." },
+    { type: "mcq", q: "Internal (domestic) trade differs from foreign trade because it takes place:", options: ["between different countries", "within the country", "only by ship", "only in Addis Ababa"], answer: 1, difficulty: 2, explanation: "Internal trade is the exchange of goods and services within the country and is the base for foreign trade." },
+    { type: "tf", q: "More than 95 percent of Ethiopia's trade passes through Djibouti.", answer: true, difficulty: 1, explanation: "The new railway links Addis Ababa with Djibouti and its Port of Doraleh, through which more than 95 percent of trade passes." },
+    { type: "mcq", q: "In 2019/20, the second largest export item by value share was:", options: ["Chat", "Oilseeds", "Flower", "Gold"], answer: 2, difficulty: 2, explanation: "Flower and oilseeds held the second and third positions with 14.1 percent and 11.5 percent." },
+    { type: "short", q: "Name the only navigable river in Ethiopia.", answer: "Baro", difficulty: 1, explanation: "The Baro is the only navigable river, with small-scale transport also on lakes Tana, Abbaya and Ziway." },
+    { type: "mcq", q: "The use of Ethiopian rivers for inland navigation is extremely limited mainly because of:", options: ["an absence of rivers", "high tolls", "the rugged topography and the seasonal nature of rainfall", "the warm climate"], answer: 2, difficulty: 2, explanation: "Ruggedness of topography and seasonal rainfall make river use extremely limited." },
+    { type: "tf", q: "Ethiopia imports mainly agricultural raw materials.", answer: false, difficulty: 2, explanation: "Ethiopia imports mainly finished products such as machinery, transport equipment, electrical goods and fuel." },
+    { type: "concept", q: "Explain what a trade balance is and describe Ethiopia's trade balance.", answer: "yearly difference between export and import values|imports exceed exports so deficit|negative trade balance", difficulty: 2, explanation: "Trade balance is the yearly difference between exports and imports; in Ethiopia imports exceed exports, giving a deficit." },
+    { type: "ordering", q: "Arrange these transport milestones from earliest to latest.", options: ["Ethiopian Airlines established in 1945", "Addis Ababa - Djibouti meter gauge railway built (1897-1917)", "Addis Ababa Light Rail Transit", "New standard gauge railway inaugurated (2018)"], answer: 1, difficulty: 2, explanation: "The order is the old railway, Ethiopian Airlines, the AA-LRT, then the new railway." },
+    { type: "mcq", q: "The total length of the two AA-LRT lines with their 39 stations is about:", options: ["31.6 km", "752.7 km", "781 km", "138 km"], answer: 0, difficulty: 3, explanation: "The north-south and east-west lines total about 31.6 kilometres with 39 stations, carrying about 60,000 people daily." },
+    { type: "tf", q: "Road transport is more widespread and more flexible than railway transport in Ethiopia.", answer: true, difficulty: 1, explanation: "Road transport is more widespread and more flexible, and roads give access to rural and urban areas." }
+  ]
+};
 
-Lessons["g9-geography-ug5-t4"] = {"overview":"<b>Road Safety in Ethiopia</b> sits inside <b>Major Economic and Cultural Activities in Ethiopia</b>. Economic activities are the focus of Unit 5 of Grade 9 Geography in the Ethiopian (FDRE Ministry of Education) curriculum. First, the unit sorts economic activities into five classes, from primary farming to quinary decision-making. Then it weighs subsistence and cash-crop farming, the mainstay of the national economy. Next, it follows trade, transport, and road safety before Unit 6: Human and Natural Environment Interactions examines their impact on the land. Students will also learn how economic activities apply to real-life situations such as jobs, exports, and tourism.","objectives":["List the five classes of economic activities with examples.","Explain the role of subsistence and cash-crop farming in the economy.","Describe the main types of trade and transport in the country.","Analyze the causes and consequences of road traffic accidents.","Identify the leading cultural landscapes and tourist sites."],"simple":"<b>Road Safety in Ethiopia in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, the sharp rise in road traffic crashes, deaths, and injuries.</li> <li>Then the driver, vehicle, road, and environment factors behind them.</li> <li>Also the safety rules that protect drivers and pedestrians.</li></ul>","detailed":"<p><b>Road Safety in Ethiopia — the essentials.</b> First, the sharp rise in road traffic crashes, deaths, and injuries. Then the driver, vehicle, road, and environment factors behind them. Also the safety rules that protect drivers and pedestrians.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>List the five classes of economic activities with examples.</li><li>Explain the role of subsistence and cash-crop farming in the economy.</li><li>Describe the main types of trade and transport in the country.</li><li>Analyze the causes and consequences of road traffic accidents.</li><li>Identify the leading cultural landscapes and tourist sites.</li></ul>","keyTerms":[{"term":"First","def":"First, the sharp rise in road traffic crashes, deaths, and injuries."},{"term":"Then the driver","def":"Then the driver, vehicle, road, and environment factors behind them."},{"term":"Also the safety rules that protect drivers and pedestrians","def":"Also the safety rules that protect drivers and pedestrians."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing road safety in ethiopia with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Map and diagram questions in the ESSLCE geography paper","Explaining a local environmental or resource issue in your own region"],"summary":"Road Safety in Ethiopia: First, the sharp rise in road traffic crashes, deaths, and injuries. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"Road Safety in Ethiopia\" is correct according to the MoE curriculum?","options":["First, the sharp rise in road traffic crashes, deaths, and injuries.","Road Safety in Ethiopia applies only to a continent other than the one this unit covers","Road Safety in Ethiopia contradicts the definition this topic gives","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, the sharp rise in road traffic crashes, deaths, and injuries. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"Road Safety in Ethiopia\"?","options":["Then the driver, vehicle, road, and environment factors behind them.","Road Safety in Ethiopia describes a physical process unrelated to this topic","Road Safety in Ethiopia applies only to a continent other than the one this unit covers","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Then the driver, vehicle, road, and environment factors behind them."},{"type":"tf","q":"True or false: First, the sharp rise in road traffic crashes, deaths, and injuries.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover road safety in ethiopia.","answer":false,"difficulty":1,"explanation":"Road Safety in Ethiopia is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"List the five classes of economic activities with examples.","difficulty":2,"altAnswers":["Explain the role of subsistence and cash-crop farming in the economy.","Describe the main types of trade and transport in the country."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why road safety in ethiopia matters.","answer":"Road Safety in Ethiopia is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of road safety in ethiopia in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to road safety in ethiopia, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
+Lessons["g9-geography-ug5-t4"] = {
+  overview: "Roads are Ethiopia's major means of transportation, but road traffic accidents have been rising dramatically. This lesson defines road safety and the classes of accident severity, evaluates the accident situation with data, identifies the causes, and sets out the safety rules that drivers and pedestrians must follow.",
+  objectives: [
+    "Define road safety and the current accident severity classes used in Ethiopia",
+    "Use national and global data to describe the scale of road traffic accidents",
+    "Identify the main road safety actors and the regional distribution of fatalities",
+    "Explain the four factors and the specific causes of road traffic accidents",
+    "Demonstrate the road safety rules for pedestrians and for drivers"
+  ],
+  simple: "Road safety means using roads in ways that protect pedestrians, cyclists and drivers. An accident is fatal when someone dies within 30 days, a serious injury requires hospital in-patient treatment, a slight injury is treated as an out-patient, and a property damage accident harms only vehicles. Road accidents are increasing in Ethiopia: deaths more than doubled between 2007 and 2018, from 2,161 to 4,597, meaning about 13 people lost every day and one person killed every two hours. Passengers and pedestrians are the main victims, and four central regions share almost 85 percent of deaths. Accidents arise from driver distraction and impairment, mechanical failure, poor road conditions and unsafe speed, so everyone must obey safety rules.",
+  detailed: "<p><b>What road safety means.</b> Road safety is safety in using roads: there are ways to make roads safe for motor traffic, cyclists and pedestrians. It involves rules such as speed limits and rules about drinking and driving, and control systems such as traffic lights and crossings. To measure accidents, Ethiopia currently defines four classes of severity. A <b>fatal accident</b> is one in which one or more individuals die within the same 30 days after the occurrence of the accident. A <b>serious injury</b> is one in which the victim sustains severe cuts, bleeding, breaks and other damage requiring in-patient hospital treatment. A <b>slight injury</b> involves only small cuts, scratches and other small damage treated as an out-patient. A <b>property damage only accident</b> is one in which no person is injured but one or more vehicles are damaged.</p><p><b>How big is the problem?</b> Road accidents are a global problem affecting all parts of society, yet road safety has received insufficient attention at national and regional levels. According to the WHO 2020 report, an estimated 1.3 million people die and about 50 million are injured each year on the world's roads, with most deaths in low- and middle-income countries. Ethiopia, where the road is the major means of transportation, has experienced high rates of road traffic accidents: official statistics show deaths more than doubled in the 12 years between 2007 and 2018, rising from 2,161 to 4,597. With the vehicle fleet at 1,071,345 vehicles in 2018, nearly 43 people were killed per 10,000 vehicles. Put another way, Ethiopia loses 13 people per day in road traffic crashes, and one person is killed on the roads every two hours. Road traffic injuries mostly affect passengers and pedestrians, and actual fatalities are likely larger than reported because of underreporting and misclassification.</p><p><b>Actors and regional pattern.</b> The National Road Safety Council (NRSC) is overseen by several ministries and private stakeholders and is led by the Ministry of Transport, together with the Ministry of Finance, the Ministry of Education, the Ministry of Health, the Federal Police Commission, the Ethiopian Roads Authority, the Federal Transport Authority, and private and public transport associations. The distribution of crashes is uneven: road fatalities concentrate on roads in the central part of the country, and four out of 12 regional states, Oromia, Amhara, SNNPR and the Addis Ababa City Administration, accounted for almost 85 percent of the fatalities. Vehicle registration is also concentrated: Addis Ababa alone had 596,084 of the 1,071,345 registered vehicles, followed by Oromia with 171,308.</p><p><b>Factors and causes of accidents.</b> Four groups of factors influence road traffic accidents: vehicle related, road related, road user related and environmental related factors. Many factors can contribute to a single crash. <b>Driver distraction</b> occurs when drivers lose attention to fiddling with technical devices, talking with passengers, eating or grooming, dealing with children or pets, or retrieving dropped items. <b>Driver impairment</b> describes factors that prevent a driver from driving at normal skill level, including illness, alcohol, legal or illegal drugs and sleepiness; impaired driving is the cause of more than half of all car crashes. <b>Mechanical failure</b> includes flat tires or blowouts, brake failure, axle failure and steering mechanism failure. <b>Road conditions</b> include obstacles or substances on the surface, slick roads and damage such as potholes. <b>Speed exceeding safe conditions</b> means driving faster than the road was designed for, or faster than the weather and surrounding traffic allow.</p><p><b>Consequences and safety rules.</b> The consequences of road traffic accidents include loss of productivity of the victims, the cost of the legal system, the cost of pain and suffering, and loss of quality of life of the victims and their families; the crashes have become a burden of economic, social and health proportions. Pedestrians should prepare a safe walking route in advance, use sidewalks where available, walk facing the traffic, obey all signs and signals, cross only at designated areas, stay on well-lit paths at night, and wear bright colours by day and reflective tape at night. Drivers must never drink and drive, must always wear a seat belt, keep a safe distance from the vehicle ahead, avoid all distractions, never break a red signal, drive within the speed limit, and avoid drowsiness.</p>",
+  keyTerms: [
+    { term: "Road safety", def: "Safety in using roads, involving rules like speed limits and control systems like traffic lights and crossings." },
+    { term: "Fatal accident", def: "An accident in which one or more people die as a result of the crash within 30 days of its occurrence." },
+    { term: "Serious injury", def: "An injury with severe cuts, bleeding or breaks requiring in-patient treatment in a hospital." },
+    { term: "Slight injury", def: "A small injury of cuts or scratches that can be treated as an out-patient without hospital admission." },
+    { term: "Property damage only accident", def: "An accident in which no person is injured and only vehicles are damaged." },
+    { term: "Driver impairment", def: "Factors such as illness, alcohol, drugs and sleepiness that prevent a driver from driving at a normal skill level." },
+    { term: "Driver distraction", def: "Loss of driver attention to devices, passengers, food, children or dropped items while driving." },
+    { term: "Pedestrian", def: "A person travelling on foot, who along with passengers suffers most road traffic injuries in Ethiopia." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "In 2018, Ethiopia had 1,071,345 registered vehicles and 4,597 road traffic deaths. Verify the textbook's claim that nearly 43 people were killed per 10,000 vehicles.",
+      given: "Road deaths in 2018: 4,597; vehicle fleet in 2018: 1,071,345 vehicles.",
+      formula: "Concept: fatality rate per 10,000 vehicles = deaths divided by the number of vehicles, multiplied by 10,000.",
+      substitution: "4,597 / 1,071,345 x 10,000.",
+      calculation: "4,597 / 1,071,345 is about 0.0043, and 0.0043 x 10,000 gives about 43 deaths per 10,000 vehicles.",
+      answer: "The rate is about 43 deaths per 10,000 vehicles, confirming the textbook's estimate."
+    },
+    {
+      problem: "Ethiopia recorded 4,597 road deaths in 2018. Show that this is consistent with the claim that the country loses about 13 people per day in road traffic crashes.",
+      given: "Annual road deaths 2018: 4,597; claimed daily loss: about 13 people.",
+      formula: "Concept: daily average = annual total divided by 365 days.",
+      substitution: "4,597 / 365.",
+      calculation: "4,597 / 365 is about 12.6, which rounds to about 13 people per day.",
+      answer: "The daily toll of about 13 deaths follows from the annual figure of 4,597 deaths."
+    },
+    {
+      problem: "Road fatalities concentrate in central Ethiopia: four out of 12 regional states accounted for almost 85 percent of deaths. What geographic explanation fits, and what remedy does it suggest?",
+      given: "Oromia, Amhara, SNNPR and Addis Ababa share about 85 percent of fatalities; Addis Ababa alone registered 596,084 of 1,071,345 vehicles.",
+      formula: "Concept: accidents cluster where vehicles, traffic density and road use are highest.",
+      substitution: "The central regions hold most of the vehicle fleet and the busiest roads linking Addis Ababa with the interior.",
+      calculation: "High vehicle density plus dense traffic in central corridors explains the concentration reported by the Federal Police Commission (2019).",
+      answer: "Safety investment should target the central corridor roads where most vehicles, traffic and fatalities occur."
+    }
+  ],
+  commonMistakes: [
+    "Counting a death as fatal even when it occurs after 30 days, outside Ethiopia's severity definition.",
+    "Assuming most accident victims are drivers when the statistics show passengers and pedestrians suffer most.",
+    "Treating speeding alone as the only dangerous behaviour, forgetting impairment causes over half of crashes.",
+    "Believing accidents are spread evenly across the country when four central regions hold about 85 percent.",
+    "Ignoring underreporting, so quoted fatality figures are taken as exact.",
+    "Confusing property damage accidents with slight injuries, which both exist but are classified differently."
+  ],
+  applications: [
+    "Planning a safe walking route to school along sidewalks or facing-side paths and crossing only at designated areas.",
+    "Wearing bright or reflective clothing when walking on rural roads at dusk or night.",
+    "Reminding a driver in your family to use a seat belt, keep distance and never drive after drinking.",
+    "Campaigning at school against passengers distracting minibus drivers during rush trips.",
+    "Reporting potholes or slick road damage on the route to town so that they can be repaired.",
+    "Discussing why the National Road Safety Council brings health, education, finance and police ministries together."
+  ],
+  summary: "Road safety is safety in using roads, measured through fatal, serious, slight and property damage accident classes. Ethiopia's road deaths more than doubled from 2,161 in 2007 to 4,597 in 2018, about 43 deaths per 10,000 vehicles, 13 deaths a day and one death every two hours, with passengers and pedestrians as main victims and four central regions holding almost 85 percent of fatalities. Accidents rise from distraction, impairment, mechanical failure, poor road conditions and unsafe speed, countered by pedestrian and driver safety rules.",
+  visuals: [
+    {
+      type: "tableVisual",
+      config: {
+        title: "Accident Severity Classes in Ethiopia",
+        headers: ["Class", "Definition"],
+        rows: [
+          ["Fatal accident", "One or more people die within 30 days of the accident"],
+          ["Serious injury", "Severe cuts, bleeding or breaks needing hospital in-patient treatment"],
+          ["Slight injury", "Small cuts or scratches treated as out-patient"],
+          ["Property damage only", "No person injured; one or more vehicles damaged"]
+        ]
+      }
+    },
+    {
+      type: "mindMap",
+      config: {
+        title: "Causes of Road Traffic Accidents",
+        center: "Road Accidents",
+        branches: [
+          { label: "Driver", items: ["Distraction", "Impairment by alcohol or sleepiness"] },
+          { label: "Vehicle", items: ["Flat tires", "Brake or steering failure"] },
+          { label: "Road", items: ["Potholes", "Slick surfaces and obstacles"] },
+          { label: "Behaviour", items: ["Speed beyond safe conditions"] },
+          { label: "Environment", items: ["Weather", "Vehicle and road related factors"] }
+        ]
+      }
+    },
+    {
+      type: "steps",
+      config: {
+        title: "Pedestrian Road Safety Rules",
+        steps: [
+          { label: "Plan", detail: "Prepare a safe walking route in advance." },
+          { label: "Walk", detail: "Use sidewalks where available; otherwise walk facing the traffic." },
+          { label: "Cross", detail: "Cross only at designated areas and obey all signs and signals." },
+          { label: "Be seen", detail: "Stay on well-lit paths at night; wear bright colours by day and reflective tape at night." }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "Under Ethiopia's current definition, a fatal accident is one in which:", options: ["the vehicles are only scratched", "no one is hurt", "one or more individuals die within 30 days of the accident", "the driver loses a licence"], answer: 2, difficulty: 1, explanation: "A fatal accident causes one or more deaths within the same 30 days of occurrence." },
+    { type: "mcq", q: "According to the WHO 2020 report, about how many people die on the world's roads each year?", options: ["1.3 million", "50 million", "45,97", "120,000"], answer: 0, difficulty: 2, explanation: "An estimated 1.3 million people die and about 50 million are injured each year, mostly in low- and middle-income countries." },
+    { type: "tf", q: "Road traffic deaths in Ethiopia more than doubled between 2007 and 2018.", answer: true, difficulty: 1, explanation: "Deaths rose from 2,161 in 2007 to 4,597 in 2018." },
+    { type: "short", q: "How many people does Ethiopia lose per day in road traffic crashes, according to the tablebased statistics?", answer: "13|about 13", difficulty: 1, explanation: "Ethiopia loses 13 people per day, and one person is killed every two hours." },
+    { type: "mcq", q: "About how many people were killed per 10,000 vehicles in Ethiopia in 2018?", options: ["4.3", "13", "43", "430"], answer: 2, difficulty: 2, explanation: "With 4,597 deaths and 1,071,345 vehicles, nearly 43 people were killed per 10,000 vehicles." },
+    { type: "mcq", q: "Road traffic injuries in Ethiopia mostly affect:", options: ["farm animals", "passengers and pedestrians", "export traders", "railway staff"], answer: 1, difficulty: 2, explanation: "Road traffic injuries mostly affect passengers and pedestrians." },
+    { type: "tf", q: "Oromia, Amhara, SNNPR and Addis Ababa together accounted for almost 85 percent of road traffic fatalities.", answer: true, difficulty: 2, explanation: "Four regional states accounted for almost 85 percent of fatalities, concentrated in central Ethiopia." },
+    { type: "concept", q: "Explain why impaired driving is considered the most dangerous of the listed causes.", answer: "it causes more than half of all car crashes|prevention of normal driving skill", difficulty: 2, explanation: "Impairment by illness, alcohol, drugs or sleepiness prevents normal driving and causes more than half of all crashes." },
+    { type: "ordering", q: "Arrange the pedestrian safety steps from planning to night-time visibility.", options: ["Wear reflective tape at night", "Prepare a safe walking route in advance", "Stay on well-lit paths at night", "Cross only at designated areas"], answer: 1, difficulty: 2, explanation: "The order starts with preparing the safe route, then crossing safely, then night-time steps." },
+    { type: "mcq", q: "Which of the following is a vehicle-related cause of accidents?", options: ["Driver tiredness", "Brake failure and flat tires", "Potholes", "Speeding"], answer: 1, difficulty: 2, explanation: "Mechanical failure includes flat tires, brake failure, axle failure and steering mechanism failure." },
+    { type: "tf", q: "A property damage only accident is one in which no person is injured.", answer: true, difficulty: 1, explanation: "In property damage only accidents only the vehicles involved are damaged." }
+  ]
+};
 
-Lessons["g9-geography-ug5-t5"] = {"overview":"<b>Cultural Landscapes and Tourism in Ethiopia</b> sits inside <b>Major Economic and Cultural Activities in Ethiopia</b>. Economic activities are the focus of Unit 5 of Grade 9 Geography in the Ethiopian (FDRE Ministry of Education) curriculum. First, the unit sorts economic activities into five classes, from primary farming to quinary decision-making. Then it weighs subsistence and cash-crop farming, the mainstay of the national economy. Next, it follows trade, transport, and road safety before Unit 6: Human and Natural Environment Interactions examines their impact on the land. Students will also learn how economic activities apply to real-life situations such as jobs, exports, and tourism.","objectives":["List the five classes of economic activities with examples.","Explain the role of subsistence and cash-crop farming in the economy.","Describe the main types of trade and transport in the country.","Analyze the causes and consequences of road traffic accidents.","Identify the leading cultural landscapes and tourist sites."],"simple":"<b>Cultural Landscapes and Tourism in Ethiopia in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, the Konso cultural landscape and its UNESCO recognition.</li> <li>Next, natural attractions such as the Simien and Bale national parks.</li> <li>Finally, human-made sites such as Lalibela, Axum, and Harar.</li></ul>","detailed":"<p><b>Cultural Landscapes and Tourism in Ethiopia — the essentials.</b> First, the Konso cultural landscape and its UNESCO recognition. Next, natural attractions such as the Simien and Bale national parks. Finally, human-made sites such as Lalibela, Axum, and Harar.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>List the five classes of economic activities with examples.</li><li>Explain the role of subsistence and cash-crop farming in the economy.</li><li>Describe the main types of trade and transport in the country.</li><li>Analyze the causes and consequences of road traffic accidents.</li><li>Identify the leading cultural landscapes and tourist sites.</li></ul>","keyTerms":[{"term":"First","def":"First, the Konso cultural landscape and its UNESCO recognition."},{"term":"Next, natural attractions","def":"Next, natural attractions such as the Simien and Bale national parks."},{"term":"human-made sites","def":"Finally, human-made sites such as Lalibela, Axum, and Harar."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing cultural landscapes and tourism in ethiopia with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Map and diagram questions in the ESSLCE geography paper","Explaining a local environmental or resource issue in your own region"],"summary":"Cultural Landscapes and Tourism in Ethiopia: First, the Konso cultural landscape and its UNESCO recognition. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"Cultural Landscapes and Tourism in Ethiopia\" is correct according to the MoE curriculum?","options":["First, the Konso cultural landscape and its UNESCO recognition.","Cultural Landscapes and Tourism in Ethiopia applies only to a continent other than the one this unit covers","Cultural Landscapes and Tourism in Ethiopia contradicts the definition this topic gives","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, the Konso cultural landscape and its UNESCO recognition. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"Cultural Landscapes and Tourism in Ethiopia\"?","options":["Next, natural attractions such as the Simien and Bale national parks.","Cultural Landscapes and Tourism in Ethiopia describes a physical process unrelated to this topic","Cultural Landscapes and Tourism in Ethiopia applies only to a continent other than the one this unit covers","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Next, natural attractions such as the Simien and Bale national parks."},{"type":"tf","q":"True or false: First, the Konso cultural landscape and its UNESCO recognition.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover cultural landscapes and tourism in ethiopia.","answer":false,"difficulty":1,"explanation":"Cultural Landscapes and Tourism in Ethiopia is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"List the five classes of economic activities with examples.","difficulty":2,"altAnswers":["Explain the role of subsistence and cash-crop farming in the economy.","Describe the main types of trade and transport in the country."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why cultural landscapes and tourism in ethiopia matters.","answer":"Cultural Landscapes and Tourism in Ethiopia is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of cultural landscapes and tourism in ethiopia in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to cultural landscapes and tourism in ethiopia, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
+Lessons["g9-geography-ug5-t5"] = {
+  overview: "Some places owe their character to both nature and human history, and travel to such places has become an industry. This lesson defines cultural landscapes, studies the Konso example, and surveys the natural and human-made tourist attraction sites of Ethiopia and the importance of tourism.",
+  objectives: [
+    "Define cultural landscape as the combined works of nature and man",
+    "Describe the Konso cultural landscape and its UNESCO recognition",
+    "Define tourism and explain why it is called a smokeless industry",
+    "Identify natural and human-made tourist attraction sites in Ethiopia",
+    "Explain the importance of tourism to jobs, income and the economy"
+  ],
+  simple: "A cultural landscape is a geographic area, with both cultural and natural resources, that is associated with a historic event, activity or person or shows cultural and aesthetic values; it represents the combined works of nature and man. The Konso cultural landscape of southern Ethiopia shows dry stone terrace agriculture and walled towns practiced for up to 400 years, with terraces reaching 5 meters high, and was recognised by UNESCO in 2011. Tourism is the collection of activities, services and industries that deliver a travel experience, from transport and accommodation to restaurants and shops. It is a source of jobs and income called a smokeless industry. Ethiopian attractions include the Simien and Bale Mountains, the Blue Nile Falls and Lake Tana naturally, and Lalibela, Axum, Harar, Gonder Castle and Tiya as human-made sites.",
+  detailed: "<p><b>What a cultural landscape is.</b> A cultural landscape is a geographic area, including both cultural and natural resources, that is associated with a historic event, activity or person, or that exhibits other cultural or aesthetic values. Cultural landscapes represent the combined works of nature and man. They matter to geographers because they show how a people has shaped and been shaped by a specific environment over a long time, and several of them are globally recognised heritage places.</p><p><b>The Konso cultural landscape.</b> Ethiopia's outstanding example is the Konso cultural landscape, located in a dry, hilly environment at the edge of the Rift Valley in southern Ethiopia. It is characterised by dry stone terrace agriculture and walled town settlement, a lifestyle that might have been practiced for 400 years. The terracing is an indigenous adaptation to the Konso environment that is mountainous, barren and rocky: the dry stone terraces retain soil from erosion and create terrace saddles used for agriculture. The terraces are the main feature of the landscape, contouring the hills and reaching, at some places, up to 5 meters high. The Konso Cultural Landscape was officially recognised by the United Nations Educational, Scientific and Cultural Organisation (UNESCO) in 2011.</p><p><b>What tourism is.</b> Tourism is a collection of activities, services and industries that delivers a travel experience. It includes transportation, accommodations, eating and drinking establishments, retail shops, entertainment businesses, activity facilities and other hospitality services provided for individuals or groups travelling away from home. Tourism is a source of both job opportunities and income, and it is known as a <i>smokeless industry</i> because it generates earnings without the smoke of factories. The main tourist attractions fall into two groups: natural features and human-made features.</p><p><b>Natural attractions.</b> Ethiopia's natural tourist attraction sites include the Simien Mountains National Park, Bale Mountains National Park, Awash National Park, NechSar National Park, Omo National Park, Mago National Park, Gambella National Park and Abijata-Shalla National Park. Non-park natural attractions include the Blue Nile Falls (Tis Isat Falls), Lake Tana and the Rift Valley itself, as well as the Sof Omar Cave. These sites combine landscapes, wildlife and water features formed by geology and climate.</p><p><b>Human-made attractions and the value of tourism.</b> Ethiopia's human-made attractions include the rock-hewn churches and surroundings of Lalibela, the walled city of Harar, the stelae of Axum, the Gonder castle and the stelae of Tiya, all built by past Ethiopian societies and recognised as heritage sites. Together with the natural sites they draw foreign and domestic visitors whose spending supports the economy; as the transport lesson noted, foreign tourists arriving by air supported about 2.61 billion USD of GDP in 2018. When tourism is developed well, it supplies employment, income and foreign exchange while celebrating the nation's culture and landscapes.</p>",
+  keyTerms: [
+    { term: "Cultural landscape", def: "A geographic area with cultural and natural resources associated with a historic event, activity or person, representing the combined works of nature and man." },
+    { term: "Terrace agriculture", def: "Farming on step-like dry stone terraces built on hillsides to hold soil and water; the main feature of the Konso landscape." },
+    { term: "Walled town", def: "A settlement enclosed by defensive stone walls, characteristic of Konso settlements." },
+    { term: "Tourism", def: "The collection of activities, services and industries that deliver a travel experience for people travelling away from home." },
+    { term: "Smokeless industry", def: "A name for tourism because it creates jobs and income without the smoke of manufacturing." },
+    { term: "Tourist attraction", def: "A natural or human-made feature that draws visitors, such as national parks or ancient churches." },
+    { term: "Natural attraction", def: "A site formed by nature, such as the Simien Mountains, the Blue Nile Falls, Lake Tana or the Sof Omar Cave." },
+    { term: "Human-made attraction", def: "A site built by people, such as Lalibela, Axum, Harar, Gonder Castle and Tiya." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "Sort these Ethiopian sites into natural and human-made attractions: Sof Omar Cave, Gonder Castle, Bale Mountains National Park, Harar.",
+      given: "Natural attractions form through geology and climate; human-made attractions are built by societies.",
+      formula: "Concept: classify a site by how it came to exist - shaped by nature or constructed by people.",
+      substitution: "Sof Omar Cave is carved by an underground river; the Bale Mountains are a landscape; Gonder Castle and Harar are built structures and settlements.",
+      calculation: "Cave and mountains need no human building, while the castle and walled city are works of human hands.",
+      answer: "Natural: Sof Omar Cave and Bale Mountains National Park; human-made: Gonder Castle and Harar."
+    },
+    {
+      problem: "Konso's land is mountainous, barren and rocky, yet the people farm it successfully. Explain the adaptation using the cultural landscape concept.",
+      given: "The Konso built dry stone terraces, practiced for up to 400 years, which reach up to 5 meters high at some places.",
+      formula: "Concept: a cultural landscape records the combined works of nature and man as a people adapts to a difficult environment.",
+      substitution: "On steep rocky slopes, plain cultivation would lose soil to erosion every rainy season.",
+      calculation: "By building terraces, the soil is retained from erosion and terrace saddles are created that can be used for agriculture, turning barren hills into productive land.",
+      answer: "Dry stone terraces are an indigenous adaptation that stops erosion and creates farmable saddles, which is why UNESCO recognised the Konso landscape in 2011."
+    },
+    {
+      problem: "Why is tourism described as a smokeless industry, and what services does it gather under one roof?",
+      given: "Tourism includes transportation, accommodations, eating and drinking establishments, retail shops, entertainment and hospitality services for travellers away from home.",
+      formula: "Concept: compare tourism with manufacturing by asking what it produces and what it emits.",
+      substitution: "Manufacturing transforms raw materials in factories; tourism delivers travel experiences using services rather than smokestacks.",
+      calculation: "Since the industry earns income and jobs without factory production, it is called smokeless.",
+      answer: "Tourism is a smokeless industry because it creates jobs and income through services, and it bundles transport, lodging, food, shops and entertainment."
+    }
+  ],
+  commonMistakes: [
+    "Thinking a cultural landscape is only a natural scenery site with no human work in it.",
+    "Placing Lalibela or Axum among natural attractions when they are human-made heritage sites.",
+    "Believing tourism belongs to the primary sector when it is a tertiary (service) activity.",
+    "Forgetting that Konso terraces function partly by creating terrace saddles used for farming.",
+    "Assuming tourism exists only for foreigners, ignoring domestic visitors.",
+    "Treating the smokeless industry phrase as meaning no factories exist in Ethiopia at all."
+  ],
+  applications: [
+    "Describing the cultural landscapes of your own area, such as old churches, hillsides farmed for generations or traditional walled compounds.",
+    "Planning a class geography tour to a nearby attraction and listing the transport, lodging and food services it supports.",
+    "Arguing for protecting Lake Tana and the Blue Nile Falls from degradation so they keep attracting visitors.",
+    "Listing which of Ethiopia's national parks lie in your region and what wildlife or landforms they preserve.",
+    "Connecting Ethiopian Airlines routes to the flow of foreign tourists who supported 2.61 billion USD of GDP in 2018.",
+    "Debating how walled town heritage like Harar can earn income for local residents without damage."
+  ],
+  summary: "A cultural landscape is a geographic area of combined cultural and natural resources linked to historic events or people, embodying the combined works of nature and man; the Konso landscape, with its dry stone terraces up to 5 meters high and walled towns practiced for 400 years, was recognised by UNESCO in 2011. Tourism gathers transport, accommodation, food, shops and entertainment into a smokeless industry that generates jobs and income. Ethiopia's attractions range from natural sites like the Simien and Bale Mountains, the Blue Nile Falls and Lake Tana to human-made sites like Lalibela, Axum, Harar, Gonder Castle and Tiya.",
+  visuals: [
+    {
+      type: "comparison",
+      config: {
+        title: "Natural vs Human-made Attractions",
+        left: { name: "Natural sites", items: ["Simien and Bale Mountains parks", "Blue Nile Falls (Tis Isat)", "Lake Tana and the Rift Valley", "Sof Omar Cave"] },
+        right: { name: "Human-made sites", items: ["Lalibela rock-hewn churches", "Axum stelae and Tiya", "Gonder Castle", "The walled city of Harar"] }
+      }
+    },
+    {
+      type: "mindMap",
+      config: {
+        title: "Cultural Landscapes and Tourism",
+        center: "Tourism in Ethiopia",
+        branches: [
+          { label: "Cultural landscape", items: ["Combined works of nature and man", "Konso terraces and walled towns"] },
+          { label: "Natural attractions", items: ["National parks", "Blue Nile Falls", "Lake Tana"] },
+          { label: "Human-made attractions", items: ["Lalibela", "Axum", "Harar", "Gonder Castle"] },
+          { label: "Value", items: ["Jobs and income", "Smokeless industry", "Foreign exchange"] }
+        ]
+      }
+    },
+    {
+      type: "qa",
+      config: {
+        title: "Exam Quick-Check",
+        pairs: [
+          { q: "What does a cultural landscape represent?", a: "The combined works of nature and man." },
+          { q: "When did UNESCO officially recognise the Konso Cultural Landscape?", a: "In 2011." },
+          { q: "Give four natural tourist attractions of Ethiopia.", a: "Any of: Simien Mountains, Bale, Blue Nile Falls, Lake Tana, Sof Omar Cave." },
+          { q: "Why is tourism called a smokeless industry?", a: "It creates jobs and income through services, without factory smoke." }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "A cultural landscape is best described as:", options: ["the combined works of nature and man", "an untouched wilderness", "a factory zone", "a map projection"], answer: 0, difficulty: 1, explanation: "Cultural landscapes represent the combined works of nature and man, tied to historic events, activities or persons." },
+    { type: "mcq", q: "The Konso cultural landscape is characterised by:", options: ["dry stone terrace agriculture and walled towns", "irrigated rice fields", "deep sea ports", "open grassland ranches"], answer: 0, difficulty: 2, explanation: "It is characterised by dry stone terrace agriculture and walled town settlement at the edge of the Rift Valley." },
+    { type: "tf", q: "UNESCO officially recognised the Konso Cultural Landscape in 2011.", answer: true, difficulty: 1, explanation: "UNESCO officially recognised it in 2011." },
+    { type: "short", q: "What name is given to tourism because it produces income without factories?", answer: "smokeless industry|smokeless", difficulty: 1, explanation: "Tourism is known as a smokeless industry." },
+    { type: "mcq", q: "Which of the following is a natural tourist attraction?", options: ["Lalibela", "Tiya", "The Simien Mountains National Park", "Gonder Castle"], answer: 2, difficulty: 2, explanation: "The Simien Mountains National Park is natural; Lalibela, Tiya and Gonder Castle are human-made." },
+    { type: "mcq", q: "Which set contains only human-made tourist attractions?", options: ["Harar, Axum, Gonder Castle", "Lake Tana, Sof Omar Cave, Rift Valley", "Bale Mountains, Awash Park", "Blue Nile Falls, Lake Tana"], answer: 0, difficulty: 2, explanation: "Harar, Axum, Gonder Castle and Tiya are human-made sites." },
+    { type: "tf", q: "The Konso dry stone terraces can reach up to 5 meters high at some places.", answer: true, difficulty: 2, explanation: "The terraces contoured on the hills reach, at some places, up to 5 meters high." },
+    { type: "concept", q: "Explain why dry stone terracing suits the Konso environment.", answer: "the land is mountainous barren and rocky and terraces retain soil from erosion|terraces stop erosion and create farm saddles", difficulty: 2, explanation: "Terracing is an indigenous adaptation that retains soil from erosion and creates terrace saddles for agriculture." },
+    { type: "mcq", q: "Which statement best explains the importance of tourism to Ethiopia's economy?", options: ["It consumes foreign exchange", "It creates jobs and income as a smokeless industry", "It substitutes for manufacturing", "It lowers electricity exports"], answer: 1, difficulty: 3, explanation: "Tourism is a source of both job opportunities and income, known as a smokeless industry." },
+    { type: "tf", q: "The Blue Nile Falls is also known as the Tis Isat Falls.", answer: true, difficulty: 1, explanation: "The Blue Nile Falls is called Tis Isat Falls and is a natural attraction." },
+    { type: "concept", q: "Define a cultural landscape in one sentence.", answer: "a geographic area with cultural and natural resources linked to a historic event activity or person|an area showing combined works of nature and man", difficulty: 2, explanation: "It is a geographic area associated with a historic event, activity or person, or exhibiting cultural or aesthetic values." }
+  ]
+};
 
