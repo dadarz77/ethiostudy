@@ -7,6 +7,11 @@ import { useId } from 'react';
 import { Rich } from './Rich';
 import type { z } from 'zod';
 import type { VisualSchema } from '../data/schema';
+import {
+  LineChart as LineChartIcon, BarChart3, Activity, MoveHorizontal, RefreshCw,
+  Network, MoveUpRight, ArrowDownToLine, Workflow, ListOrdered,
+  MessageCircleQuestion, Scale, History, Sigma, Table,
+} from 'lucide-react';
 
 export type Visual = z.infer<typeof VisualSchema>;
 
@@ -37,6 +42,27 @@ const itemSub = (it: unknown): string => {
 const PAL = ['#60a5fa', '#a78bfa', '#34d399', '#f2c94c', '#fb7185', '#38bdf8'];
 const fmt = (n: number) => (Math.abs(n) >= 1000 ? n.toLocaleString('en', { maximumFractionDigits: 0 }) : String(Math.round(n * 100) / 100));
 const txtW = (t: string, fs = 12) => t.length * fs * 0.58 + 16;
+
+/* ---------- frame chrome: one icon + label per visual type ---------- */
+type IconComp = typeof Network;
+const TYPE_META: Record<string, { icon: IconComp; label: string }> = {
+  lineGraph:         { icon: LineChartIcon,        label: 'Line graph' },
+  motionGraph:       { icon: Activity,             label: 'Motion graph' },
+  barChart:          { icon: BarChart3,            label: 'Bar chart' },
+  numberLine:        { icon: MoveHorizontal,       label: 'Number line' },
+  cycleDiagram:      { icon: RefreshCw,            label: 'Cycle diagram' },
+  mindMap:           { icon: Network,              label: 'Mind map' },
+  vectorDiagram:     { icon: MoveUpRight,          label: 'Vector diagram' },
+  forceDiagram:      { icon: ArrowDownToLine,      label: 'Force diagram' },
+  flowChart:         { icon: Workflow,             label: 'Flow chart' },
+  steps:             { icon: ListOrdered,          label: 'Steps' },
+  qa:                { icon: MessageCircleQuestion, label: 'Q & A' },
+  comparison:        { icon: Scale,                label: 'Comparison' },
+  timeline:          { icon: History,              label: 'Timeline' },
+  formulaDerivation: { icon: Sigma,                label: 'Derivation' },
+  tableVisual:       { icon: Table,                label: 'Table' },
+  table:             { icon: Table,                label: 'Table' },
+};
 
 /* ---------- shared svg bits ---------- */
 function ArrowDefs({ id, color = 'var(--fg-3)' }: { id: string; color?: string }) {
@@ -177,7 +203,7 @@ function NumberLineVisual({ cfg }: { cfg: Cfg }) {
   const sx = (v: number) => L + ((v - min) / (max - min)) * (W - L - R);
   const lineY = 74;
   const all: Array<Cfg & { kind: number }> = [...marks.map(m => ({ ...asObj(m), kind: 0 })), ...highlights.map(m => ({ ...asObj(m), kind: 1 }))];
-  const crowded = all.length * txtW(String(itemMain(all[0] ?? '') || 'x'.repeat(8)), 10) > (W - L - R);
+  const crowded = all.length * txtW(String(itemMain(all[0] ?? '') || 'x'.repeat(8)), 11) > (W - L - R);
   return (
     <svg viewBox={`0 0 ${W} ${H}`} className="vis-svg" role="img">
       <defs><ArrowDefs id="nl-a" /><ArrowDefs id="nl-b" /></defs>
@@ -201,7 +227,7 @@ function NumberLineVisual({ cfg }: { cfg: Cfg }) {
           <g key={i}>
             <line x1={x} x2={x} y1={lineY} y2={yText + (up ? -1 : 3) + (up ? 4 : -8)} stroke={color} strokeWidth={1} opacity={0.65} />
             <circle cx={x} cy={lineY} r={3.4} fill={color} />
-            <text x={x} y={yText} textAnchor="middle" fontSize={10} fill={color}>{label}</text>
+            <text x={x} y={yText} textAnchor="middle" fontSize={11} fill={color}>{label}</text>
           </g>
         );
       })}
@@ -231,17 +257,17 @@ function CycleDiagramVisual({ cfg }: { cfg: Cfg }) {
   const box = (ndv: unknown) => {
     const nd = asObj(ndv);
     const label = itemMain(nd), sub = itemSub(nd);
-    return { w: Math.max(110, txtW(label, 12), sub ? txtW(sub.slice(0, 34), 9.5) : 0), h: sub ? 46 : 32 };
+    return { w: Math.max(118, txtW(label, 12) + 8, sub ? txtW(sub.slice(0, 34), 11) + 8 : 0), h: sub ? 54 : 40 };
   };
   return (
     <svg viewBox={`0 0 ${W} ${H}`} className="vis-svg" role="img">
-      <defs><ArrowDefs id={arrowId} color="var(--accent)" /></defs>
+      <defs><ArrowDefs id={arrowId} color="var(--border-strong)" /></defs>
       {nodes.map((nd, i) => {
         const { w, h } = box(nd);
         const nxt = pos[(i + 1) % n], cur = pos[i];
         const p1 = rectEdge(cur.x, cur.y, w / 2 + 2, h / 2 + 2, nxt.x, nxt.y);
         const p2 = rectEdge(nxt.x, nxt.y, w / 2 + 8, h / 2 + 8, cur.x, cur.y);
-        return <line key={`l${i}`} x1={p1.x} y1={p1.y} x2={p2.x} y2={p2.y} stroke="var(--accent)" strokeWidth={1.6} opacity={0.75} markerEnd={`url(#${arrowId})`} />;
+        return <line key={`l${i}`} x1={p1.x} y1={p1.y} x2={p2.x} y2={p2.y} stroke="var(--border-strong)" strokeWidth={1.6} opacity={0.75} markerEnd={`url(#${arrowId})`} />;
       })}
       {nodes.map((nd, i) => {
         const { w, h } = box(nd);
@@ -249,9 +275,9 @@ function CycleDiagramVisual({ cfg }: { cfg: Cfg }) {
         const color = PAL[i % PAL.length];
         return (
           <g key={i}>
-            <rect x={x - w / 2} y={y - h / 2} width={w} height={h} rx={10} fill="var(--card-2)" stroke={color} strokeWidth={1.4} />
-            <text x={x} y={y - (itemSub(nd) ? 4 : -4)} textAnchor="middle" fontSize={11.5} fontWeight={600} fill="var(--fg)">{itemMain(nd)}</text>
-            {itemSub(nd) && <text x={x} y={y + 12} textAnchor="middle" fontSize={9.5} fill="var(--fg-3)">{itemSub(nd)}</text>}
+            <rect x={x - w / 2} y={y - h / 2} width={w} height={h} rx={10} fill="var(--card-solid)" stroke={color} strokeWidth={1.4} />
+            <text x={x} y={y - (itemSub(nd) ? 5 : -5)} textAnchor="middle" fontSize={12} fontWeight={600} fill="var(--fg)">{itemMain(nd)}</text>
+            {itemSub(nd) && <text x={x} y={y + 14} textAnchor="middle" fontSize={11} fill="var(--fg-2)">{itemSub(nd)}</text>}
           </g>
         );
       })}
@@ -273,24 +299,24 @@ function MindMapVisual({ cfg }: { cfg: Cfg }) {
         const a = -Math.PI / 2 + (i * 2 * Math.PI) / n;
         const bx = Math.min(W - 100, Math.max(100, cx + RX * Math.cos(a)));
         const by = Math.min(H - 46, Math.max(46, cy + RY * Math.sin(a)));
-        const w = Math.max(130, txtW(itemMain(b), 11.5), ...items.map(it => txtW(itemMain(it) || String(it), 9.5)));
-        const h = 26 + items.length * 13 + 8;
+        const w = Math.max(146, txtW(itemMain(b), 12) + 8, ...items.map(it => txtW(itemMain(it) || String(it), 11) + 8));
+        const h = 34 + items.length * 14 + 8;
         const color = PAL[i % PAL.length];
         const e = rectEdge(cx, cy, 58, 20, bx, by);
         return (
           <g key={i}>
-            <line x1={e.x} y1={e.y} x2={bx} y2={by} stroke={color} strokeWidth={1.6} opacity={0.7} />
-            <rect x={bx - w / 2} y={by - h / 2} width={w} height={h} rx={10} fill="var(--card-2)" stroke={color} strokeWidth={1.3} />
-            <text x={bx} y={by - h / 2 + 17} textAnchor="middle" fontSize={11.5} fontWeight={700} fill={color}>{itemMain(b)}</text>
+            <line x1={e.x} y1={e.y} x2={bx} y2={by} stroke="var(--border-strong)" strokeWidth={1.6} opacity={0.85} />
+            <rect x={bx - w / 2} y={by - h / 2} width={w} height={h} rx={10} fill="var(--card-solid)" stroke={color} strokeWidth={1.3} />
+            <text x={bx} y={by - h / 2 + 21} textAnchor="middle" fontSize={12} fontWeight={700} fill={color}>{itemMain(b)}</text>
             {items.map((it, j) => (
-              <text key={j} x={bx} y={by - h / 2 + 31 + j * 13} textAnchor="middle" fontSize={9.5} fill="var(--fg-2)">{typeof it === 'string' ? it : itemMain(it)}</text>
+              <text key={j} x={bx} y={by - h / 2 + 37 + j * 14} textAnchor="middle" fontSize={11} fill="var(--fg-2)">{typeof it === 'string' ? it : itemMain(it)}</text>
             ))}
           </g>
         );
       })}
-      <rect x={cx - 62} y={cy - 20} width={124} height={40} rx={20} fill="url(#mm-g)" stroke="none" />
-      <defs><linearGradient id="mm-g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stopColor="#60a5fa" /><stop offset="1" stopColor="#a78bfa" /></linearGradient></defs>
-      <text x={cx} y={cy + 5} textAnchor="middle" fontSize={13} fontWeight={800} fill="#0b1020">{center}</text>
+      <rect x={cx - 66} y={cy - 22} width={132} height={44} rx={22} fill="url(#mm-g)" stroke="var(--border-strong)" />
+      <defs><linearGradient id="mm-g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" style={{ stopColor: 'var(--accent)' }} /><stop offset="1" style={{ stopColor: 'var(--accent-2)' }} /></linearGradient></defs>
+      <text x={cx} y={cy + 6} textAnchor="middle" fontSize={13} fontWeight={800} fill="#fff">{center}</text>
     </svg>
   );
 }
@@ -314,7 +340,7 @@ function VectorDiagramVisual({ cfg }: { cfg: Cfg }) {
   }, { x: 0, y: 0 });
   const tips = vectors.map(tip);
   const allX = [ox, ...tips.map(t => t.x), showR ? ox + sum.x : ox], allY = [oy, ...tips.map(t => t.y), showR ? oy + sum.y : oy];
-  const minX = Math.min(...allX) - 52, maxX = Math.max(...allX) + 52, minY = Math.min(...allY) - 30, maxY = Math.max(...allY) + 36;
+  const minX = Math.min(...allX) - 52, maxX = Math.max(...allX) + 88, minY = Math.min(...allY) - 34, maxY = Math.max(...allY) + 44;
   const rTip = { x: ox + sum.x, y: oy + sum.y };
   return (
     <svg viewBox={`${minX} ${minY} ${maxX - minX} ${maxY - minY}`} className="vis-svg vis-svg-narrow" role="img">
@@ -334,7 +360,7 @@ function VectorDiagramVisual({ cfg }: { cfg: Cfg }) {
           <g key={i}>
             <defs><ArrowDefs id={vid} color={color} /></defs>
             <line x1={ox} y1={oy} x2={t.x} y2={t.y} stroke={color} strokeWidth={2.4} markerEnd={`url(#${vid})`} />
-            <text x={t.x + (t.x >= ox ? 8 : -8)} y={t.y - 6} textAnchor={t.x >= ox ? 'start' : 'end'} fontSize={12} fontWeight={700} fill={color}>{itemMain(v)}</text>
+            <text x={t.x + (t.x >= ox ? 8 : -8)} y={t.y - 6} textAnchor={t.x >= ox ? 'start' : 'end'} fontSize={12.5} fontWeight={700} fill={color}>{itemMain(v)}</text>
           </g>
         );
       })}
@@ -484,7 +510,7 @@ function TableVisual({ cfg }: { cfg: Cfg }) {
   const rows = asArr<unknown>(cfg.rows).map(r => (Array.isArray(r) ? r as unknown[] : asArr<unknown>(Object.values(asObj(r)))));
   return (
     <div className="vis-tablewrap">
-      <table className="vis-table">
+      <table className="vis-table visual-table">
         {headers.length > 0 && <thead><tr>{headers.map((h, i) => <th key={i}>{h}</th>)}</tr></thead>}
         <tbody>
           {rows.map((r, i) => (
@@ -501,6 +527,7 @@ function TableVisual({ cfg }: { cfg: Cfg }) {
 export function VisualBlock({ visual }: { visual: Visual }) {
   const cfg = asObj(visual.config);
   const title = asStr(cfg.title);
+  const meta = TYPE_META[visual.type] ?? { icon: Table, label: 'Visual' };
   const body = (() => {
     switch (visual.type) {
       case 'lineGraph': return <LineGraphVisual cfg={cfg} />;
@@ -523,10 +550,15 @@ export function VisualBlock({ visual }: { visual: Visual }) {
     }
   })();
   if (!body) return null;
+  const MetaIcon = meta.icon;
   return (
-    <figure className="vis">
-      {title && <figcaption className="vis-title">{title}</figcaption>}
-      {body}
+    <figure className="vis visual-frame">
+      <figcaption className="visual-frame-head">
+        <span className="visual-frame-badge"><MetaIcon size={14} /></span>
+        <span className="visual-frame-title">{title || meta.label}</span>
+        <span className="visual-frame-type">{meta.label}</span>
+      </figcaption>
+      <div className="visual-frame-body">{body}</div>
     </figure>
   );
 }

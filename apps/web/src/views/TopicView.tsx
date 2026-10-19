@@ -4,7 +4,7 @@ import {
   ChevronLeft, ChevronRight, CheckCircle2, Type, NotebookPen,
   ChevronDown, Check, BookOpen, Lightbulb, BookMarked, Layers,
   KeyRound, FlaskConical, PenTool, AlertTriangle, ClipboardList,
-  Globe, X,
+  Globe, X, Target, BarChart3, Sigma,
 } from 'lucide-react';
 import { useAppStore } from '../store/useAppStore';
 import { topicById, lessonFor, loadLesson, getAdjacentTopics } from '../lib/curriculum';
@@ -34,19 +34,20 @@ const SUBJECT_DATA: Record<string, { accent: string; glow: string; label: string
   civics:        { accent: '#14b8a6', glow: 'rgba(20,184,166,.15)',  label: 'civics' },
 };
 
-/* ─── TOC section config ───────────────────────────────────────── */
-const TOC_SECTIONS = [
-  { id: 'lesson-objectives', icon: '🎯', label: 'Objectives' },
-  { id: 'lesson-simple',     icon: '💡', label: 'Plain Words' },
-  { id: 'lesson-detailed',   icon: '📖', label: 'Full Story' },
-  { id: 'lesson-visuals',    icon: '📊', label: 'Visuals' },
-  { id: 'lesson-terms',      icon: '🔑', label: 'Key Terms' },
-  { id: 'lesson-formulas',   icon: '🧮', label: 'Formulas' },
-  { id: 'lesson-examples',   icon: '✍️', label: 'Examples' },
-  { id: 'lesson-applications',icon: '🌍', label: 'Applications' },
-  { id: 'lesson-mistakes',   icon: '⚠️', label: 'Mistakes' },
-  { id: 'lesson-summary',    icon: '📋', label: 'Summary' },
-] as const;
+/* --- TOC section config (lucide chrome, no emoji icons) --- */
+type TocIcon = typeof BookOpen;
+const TOC_SECTIONS: { id: string; icon: TocIcon; label: string }[] = [
+  { id: 'lesson-objectives', icon: Target,       label: 'Objectives' },
+  { id: 'lesson-simple',     icon: Lightbulb,    label: 'Plain Words' },
+  { id: 'lesson-detailed',   icon: BookMarked,   label: 'Full Story' },
+  { id: 'lesson-visuals',    icon: BarChart3,    label: 'Visuals' },
+  { id: 'lesson-terms',      icon: KeyRound,     label: 'Key Terms' },
+  { id: 'lesson-formulas',   icon: Sigma,        label: 'Formulas' },
+  { id: 'lesson-examples',   icon: PenTool,      label: 'Examples' },
+  { id: 'lesson-applications', icon: Globe,      label: 'Applications' },
+  { id: 'lesson-mistakes',   icon: AlertTriangle, label: 'Mistakes' },
+  { id: 'lesson-summary',    icon: ClipboardList, label: 'Summary' },
+];
 
 export default function TopicView() {
   const { tid = '' } = useParams();
@@ -259,20 +260,24 @@ export default function TopicView() {
         )}
       </div>
 
-      <div className="tabs mt-4" role="tablist" aria-label="Topic study modes">
-        {(['lesson', 'quiz', 'tutor', 'notes'] as Tab[]).map(t => (
-          <button
-            key={t}
-            id={`tab-${t}`}
-            role="tab"
-            aria-selected={tab === t}
-            aria-controls={`panel-${t}`}
-            className={'tab' + (tab === t ? ' active' : '')}
-            onClick={() => setTab(t)}
-          >
-            {t === 'lesson' ? '📖 Lesson' : t === 'quiz' ? '🎯 Quiz' : t === 'tutor' ? '🤖 AI Tutor' : '📒 Notes'}
-          </button>
-        ))}
+      <div className="tabs topic-tabs mt-4" role="tablist" aria-label="Topic study modes">
+        {(['lesson', 'quiz', 'tutor', 'notes'] as Tab[]).map(t => {
+          const Ico = t === 'lesson' ? BookOpen : t === 'quiz' ? Target : t === 'tutor' ? Layers : NotebookPen;
+          return (
+            <button
+              key={t}
+              id={`tab-${t}`}
+              role="tab"
+              aria-selected={tab === t}
+              aria-controls={`panel-${t}`}
+              className={'topic-tab' + (tab === t ? ' active' : '')}
+              onClick={() => setTab(t)}
+            >
+              <Ico size={15} />
+              {t === 'lesson' ? 'Lesson' : t === 'quiz' ? 'Quiz' : t === 'tutor' ? 'AI Tutor' : 'Notes'}
+            </button>
+          );
+        })}
       </div>
 
       {tab === 'lesson' && (
@@ -565,18 +570,21 @@ function LessonPane({
       {/* ── Sticky TOC Pill Bar ── */}
       {availableSections.length > 1 && (
         <nav className="lesson-toc" aria-label="Lesson sections">
-          {availableSections.map(s => (
-            <button
-              key={s.id}
-              className={`toc-pill${activeSection === s.id ? ' active' : ''}${understood.has(s.id) ? ' done' : ''}`}
-              onClick={() => scrollTo(s.id)}
-              title={s.label}
-            >
-              <span>{s.icon}</span>
-              <span className="toc-pill-label">{s.label}</span>
-              {understood.has(s.id) && <Check size={10} />}
-            </button>
-          ))}
+          {availableSections.map(s => {
+            const Ico = s.icon;
+            return (
+              <button
+                key={s.id}
+                className={`toc-pill${activeSection === s.id ? ' active' : ''}${understood.has(s.id) ? ' done' : ''}`}
+                onClick={() => scrollTo(s.id)}
+                title={s.label}
+              >
+                <span className="toc-pill-ico"><Ico size={12} /></span>
+                <span className="toc-pill-label">{s.label}</span>
+                {understood.has(s.id) && <Check size={10} />}
+              </button>
+            );
+          })}
         </nav>
       )}
 
@@ -769,21 +777,19 @@ function SectionHeader({
   sectionId,
   understood,
   onUnderstood,
-  subjectKey,
 }: {
   icon: React.ReactNode;
   title: string;
   sectionId: string;
   understood: Set<string>;
   onUnderstood: (id: string) => void;
-  subjectKey: string;
+  subjectKey?: string;
 }) {
   const done = understood.has(sectionId);
-  const subj = SUBJECT_DATA[subjectKey];
   return (
     <div className="section-header-row">
-      <h3 className="section-title" style={subj ? { color: subj.accent } as React.CSSProperties : undefined}>
-        <span className="section-icon" style={subj ? { color: subj.accent } as React.CSSProperties : undefined}>{icon}</span>
+      <h3 className="section-title">
+        <span className={`section-icon sec-badge${done ? ' done' : ''}`}>{icon}</span>
         {title}
       </h3>
       <button
