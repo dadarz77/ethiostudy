@@ -54,7 +54,7 @@ Single token-based system, both themes structurally identical:
 
 ## 5. Admin panel (`/admin`, classic console)
 
-- **Access:** `profiles.is_admin` checked client-side; route guarded and hidden from the main nav; unauthenticated/non-admin visits redirect to `/auth`; "Supabase not configured" notice in offline/dev fallback.
+- **Access:** `profiles.is_admin` checked client-side; route guarded and hidden from the main nav; unauthenticated/non-admin visits redirect to `/auth`; "Supabase not configured" notice in offline/dev fallback. A banned user (`profiles.is_banned = true`) is signed out by the auth store at session load; the refresh in `last_seen` stops for banned users.
 - **Own sidebar tabs: Overview / Users / Engagement / Content.**
   - **Overview:** stat cards (total users, active today, quizzes/day, average score), popular-topics bar list, recent signups.
   - **Users:** searchable table (grade filter, active dot, quiz count, avg score); per-row actions: view that user's progress detail, ban/unban (`profiles.is_banned`), reset progress (delete their `student_progress` rows behind a confirm modal). CSV export client-side.
