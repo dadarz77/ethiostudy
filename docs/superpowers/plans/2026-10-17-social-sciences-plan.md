@@ -2,9 +2,7 @@
 
 **Design:** `docs/superpowers/specs/2026-10-17-social-sciences-design.md`
 
-**Status (updated 2026-10-17):** Phase 0 complete. Phase 1 complete (all 16 civics units, 69 topics, spec v2). Phase 5 grouping + accents + derived tests complete. Phases 2-4 (upgrade the 467 existing social topics) pending.
-
-**Remaining gap (measured):** 467 social lessons average 92 `detailed` words, 0 visuals, 6.9 questions, 2.4 key terms — versus the spec-v2 target (260+ words, 3 visuals, 9-11 questions, 6-8 key terms).
+**Status (updated 2026-10-20):** COMPLETE — all phases done. Phase 0 pipeline restored. Phase 1 civics: 16 units / 69 topics (G9-10), spec v2. Phase 2 history: 36 units / 193 topics. Phase 3 geography: 32 units / 143 topics. Phase 4 economics: 31 units / 134 topics. Phase 5 UI grouping (Science vs Social Sciences) + accents + derived tests done. Final gates: converter 215 units / 9,228 questions / `CONVERT_OK`, 0 orphans; vitest 103/103; `tsc -b` exit 0. All 799 social-science lessons at full spec-v2 parity (no stubs or phased upgrades remaining).
 
 
 **Goal:** Bring History, Geography, Economics (grades 9–12) and Citizenship Education (grades 9–10) to full `AUTHORING-SPEC.md` v2 parity, restore `data/` as the source of truth, and group subjects as Science vs Social Sciences.
