@@ -153,7 +153,7 @@ export default function App() {
             <X size={18} />
           </button>
           <div className="sidebar-brand">
-            <div className="brand-mark">🎓</div>
+            <div className="brand-mark"><GraduationCap size={26} strokeWidth={2.2} /></div>
             <div className="brand-text">
               <div className="brand-name">Ethio<span>Study</span></div>
               <div className="brand-sub">Grade 9–12 · New Curriculum</div>

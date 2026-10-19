@@ -1,8 +1,23 @@
 import { useNavigate, useSearchParams, Link } from 'react-router-dom';
+import { BookOpen, Library, Compass, Beaker, Sigma, Dna, Atom, FlaskConical, Landmark, Earth, TrendingUp, Scale, BookOpenText, BookMarked, ArrowUpRight } from 'lucide-react';
 import { useAppStore } from '../store/useAppStore';
 import { CURRICULUM, subjectsByGroup, subject as subjectOf, type Grade } from '../lib/curriculum';
 import { statsFor } from '../lib/scoring';
-import { Chip, DiffChip, ProgressBar, EmptyState } from '../components/ui';
+import { Chip, DiffChip } from '../components/ui';
+import { useOrbitTilt } from '../lib/useOrbitTilt';
+
+/* Shared subject icon map — same treatment as the Dashboard orbit cards. */
+const SUBJECT_ICONS: Record<string, typeof Sigma> = {
+  mathematics: Sigma,
+  biology: Dna,
+  physics: Atom,
+  chemistry: FlaskConical,
+  history: Landmark,
+  geography: Earth,
+  economics: TrendingUp,
+  civics: Scale,
+  esl: BookOpenText,
+};
 
 export default function Browse() {
   const navigate = useNavigate();
@@ -11,6 +26,8 @@ export default function Browse() {
   const setSetting = useAppStore(s => s.setSetting);
   const progress = useAppStore(s => s.progress);
   const mastery = useAppStore(s => s.mastery);
+  /* enables the shared 3D pointer tilt on .subject-orbit-card grids */
+  useOrbitTilt();
 
   const subjKey = params.get('subject');
   const unitId = params.get('unit');
@@ -26,11 +43,13 @@ export default function Browse() {
     return (p?.totalQ ?? 0) > 0 || (p?.studySec ?? 0) > 0;
   };
 
+  const iconOf = (key: string) => SUBJECT_ICONS[key] ?? BookMarked;
+
   return (
     <>
       <section className="page-hero page-hero-browse">
         <div className="spread">
-          <h1>📚 Browse Curriculum</h1>
+          <h1><BookOpen size={26} /> Browse Curriculum</h1>
           <div className="row">
             {Object.keys(CURRICULUM).sort((a, b) => Number(a) - Number(b)).map(g => (
               <button key={g} className={'btn ' + (g === grade ? 'btn-primary' : '')}
@@ -43,39 +62,50 @@ export default function Browse() {
 
       {!subjKey && (
         <div className="subject-groups mt-4">
-          {subjectsByGroup(grade as Grade).map(({ group, label, subjects: gsubjects }) => (
-            <div key={group} className="subject-group">
-              <h3 className="subject-group-title"><span aria-hidden="true">{label.icon}</span> {label.en}</h3>
-              <div className="grid grid-2">
-                {gsubjects.map(({ key, s: subj }) => {
-                  const st = statsFor(CURRICULUM as never, progress, { grade, subjectKey: key });
-                  return (
-                    <button key={key} className={'card card-hover curriculum-card subject-' + key} onClick={() => go({ subject: key })}>
-                      <div className="spread">
-                        <div style={{ fontSize: '2rem' }}>{subj.icon}</div>
-                        <div style={{ textAlign: 'right' }}>
-                          <div style={{ fontWeight: 800, fontSize: '1.2rem' }}>{subj.title}</div>
-                          <div className="tiny">{st.studied}/{st.total} topics · {st.pct}%</div>
-                        </div>
-                      </div>
-                      <div className="mt-3"><ProgressBar pct={st.pct} /></div>
-                      <div className="tiny mt-3 muted">{subj.units.length} units</div>
-                    </button>
-                  );
-                })}
+          {subjectsByGroup(grade as Grade).map(({ group, label, subjects: gsubjects }) => {
+            const GroupIcon = group === 'science' ? Beaker : Compass;
+            return (
+              <div key={group} className="subject-group">
+                <h3 className="subject-group-title"><GroupIcon size={14} /> {label.en}</h3>
+                <div className="subject-card-grid">
+                  {gsubjects.map(({ key, s: subj }) => {
+                    const st = statsFor(CURRICULUM as never, progress, { grade, subjectKey: key });
+                    const SIcon = iconOf(key);
+                    return (
+                      <button key={key} className={'subject-orbit-card subject-' + key}
+                        onClick={() => go({ subject: key })}>
+                        <span className="card-orbit" />
+                        <span className="subject-icon-tile"><SIcon size={22} /></span>
+                        <span className="subject-card-content">
+                          <b>{subj.title}</b>
+                          <small>{st.studied}/{st.total} topics · {subj.units.length} units{st.avgMastery ? ' · ' + st.avgMastery + '% mastery' : ''}</small>
+                          <span className="subject-progress"><i style={{ width: st.pct + '%' }} /></span>
+                        </span>
+                        <span className="card-arrow"><ArrowUpRight size={18} /></span>
+                      </button>
+                    );
+                  })}
+                </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
       )}
 
       {subjKey && !unitId && (() => {
         const subj = subjectOf(grade as Grade, subjKey);
-        if (!subj) return <EmptyState icon="🔍" title="Subject not found" />;
+        if (!subj) return (
+          <div className="empty-state mt-4">
+            <span className="icon-tile" style={{ ['--tile-accent' as string]: 'var(--accent)', margin: '0 auto var(--space-3)' }}><Compass size={24} /></span>
+            <h3>Subject not found</h3>
+            <p className="muted" style={{ margin: '0 auto', maxWidth: 380 }}>That subject isn't in this curriculum yet — pick one from the list above.</p>
+            <button className="btn btn-primary mt-3" onClick={() => navigate('/browse?grade=' + grade)}>Back to subjects</button>
+          </div>
+        );
         return (
           <>
             <div className="breadcrumb mt-3">
-              <Link to="/">Dashboard</Link> / <span>{subj.icon} {subj.title}</span>
+              <Link to="/">Dashboard</Link> / <span>{subj.title}</span>
             </div>
             <div className="grid mt-4">
               {subj.units.map((u, i) => {
@@ -98,7 +128,14 @@ export default function Browse() {
       {subjKey && unitId && (() => {
         const subj = subjectOf(grade as Grade, subjKey);
         const unit = subj?.units.find(u => u.id === unitId);
-        if (!subj || !unit) return <EmptyState icon="🔍" title="Unit not found" />;
+        if (!subj || !unit) return (
+          <div className="empty-state mt-4">
+            <span className="icon-tile" style={{ ['--tile-accent' as string]: 'var(--accent)', margin: '0 auto var(--space-3)' }}><Library size={24} /></span>
+            <h3>Unit not found</h3>
+            <p className="muted" style={{ margin: '0 auto', maxWidth: 380 }}>That unit may have moved — head back to the subject's unit list.</p>
+            <button className="btn btn-primary mt-3" onClick={() => navigate('/browse?grade=' + grade + '&subject=' + subjKey)}>Back to units</button>
+          </div>
+        );
         const ui = subj.units.indexOf(unit) + 1;
         return (
           <>

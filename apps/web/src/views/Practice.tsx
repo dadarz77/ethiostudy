@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { Dices, ClipboardList, BookOpen, Target, AlertCircle } from 'lucide-react';
 import { useAppStore } from '../store/useAppStore';
 import { CURRICULUM, ALL_TOPICS, loadLesson, subjectsFor, type Grade } from '../lib/curriculum';
 import { weakTopicIds } from '../lib/scoring';
@@ -54,15 +55,17 @@ export default function Practice() {
   return (
     <>
       <div className="picker-hero">
-        <span className="picker-dice">🎲</span>
+        <span className="icon-tile picker-badge" style={{ ['--tile-accent' as string]: 'var(--accent)' }}>
+          <Dices size={30} />
+        </span>
         <h1 style={{ fontSize: '2rem' }}>Random Topic Picker</h1>
         <p className="muted">Pick a smart topic tailored to what you need — or go fully random.</p>
         <button className="picker-btn mt-4" onClick={pick} disabled={picking}>
-          {picking ? '⏳ Loading…' : '🎲 PICK A TOPIC'}
+          <Dices size={20} /> {picking ? 'Loading...' : 'PICK A TOPIC'}
         </button>
         {pickError && (
-          <div role="alert" className="tiny mt-3" style={{ color: 'var(--danger)', background: 'color-mix(in srgb, var(--danger) 12%, transparent)', padding: '8px 12px', borderRadius: 8, maxWidth: 420 }}>
-            ⚠️ {pickError}
+          <div role="alert" className="tiny mt-3 practice-alert" style={{ color: 'var(--danger)', background: 'color-mix(in srgb, var(--danger) 12%, transparent)', padding: '8px 12px', borderRadius: 8, maxWidth: 420 }}>
+            <AlertCircle size={13} /> {pickError}
           </div>
         )}
       </div>
@@ -81,7 +84,7 @@ export default function Practice() {
           <label>Subject</label>
           <select value={selSubject} onChange={e => { setSelSubject(e.target.value); setSelUnit('all'); }}>
             <option value="all">All subjects</option>
-            {subjectsFor(selGrade).map(({ key, s }) => <option key={key} value={key}>{s.icon} {s.title}</option>)}
+            {subjectsFor(selGrade).map(({ key, s }) => <option key={key} value={key}>{s.title}</option>)}
           </select>
         </div>
         <div>
@@ -94,25 +97,25 @@ export default function Practice() {
         <div>
           <label>Mode</label>
           <select value={selMode} onChange={e => setSelMode(e.target.value as 'smart' | 'random')}>
-            <option value="smart">🧠 Smart (prioritize weak)</option>
-            <option value="random">🎲 Fully random</option>
+            <option value="smart">Smart (prioritize weak)</option>
+            <option value="random">Fully random</option>
           </select>
         </div>
       </div>
 
       <div className="grid grid-3 mt-4">
         <button className="card card-hover mode-card" onClick={() => navigate('/exam')}>
-          <div className="mode-ico" style={{ fontSize: '1.8rem' }}>📝</div>
+          <span className="icon-tile mode-ico-tile" style={{ ['--tile-accent' as string]: 'var(--gold)' }}><ClipboardList size={26} /></span>
           <h3 style={{ margin: '8px 0 4px' }}>Practice Exam</h3>
           <p className="tiny muted" style={{ margin: 0 }}>Mixed questions across a whole subject, timed.</p>
         </button>
         <button className="card card-hover mode-card" onClick={() => navigate('/browse')}>
-          <div className="mode-ico" style={{ fontSize: '1.8rem' }}>📚</div>
+          <span className="icon-tile mode-ico-tile" style={{ ['--tile-accent' as string]: 'var(--accent)' }}><BookOpen size={26} /></span>
           <h3 style={{ margin: '8px 0 4px' }}>Browse Curriculum</h3>
           <p className="tiny muted" style={{ margin: 0 }}>Manually select a topic and study.</p>
         </button>
         <button className="card card-hover mode-card" onClick={() => navigate('/progress')}>
-          <div className="mode-ico" style={{ fontSize: '1.8rem' }}>🔥</div>
+          <span className="icon-tile mode-ico-tile" style={{ ['--tile-accent' as string]: 'var(--danger)' }}><Target size={26} /></span>
           <h3 style={{ margin: '8px 0 4px' }}>Weak Topics</h3>
           <p className="tiny muted" style={{ margin: 0 }}>Study topics where mastery is low.</p>
         </button>
@@ -124,7 +127,7 @@ export default function Practice() {
         if (!weak.length) return null;
         return (
           <div className="card mt-4">
-            <h3>🔥 Needs attention <Chip text="smart picks" cls="chip-subject" /></h3>
+            <h3 style={{ display: 'flex', alignItems: 'center', gap: 8 }}><Target size={18} /> Needs attention <Chip text="smart picks" cls="chip-subject" /></h3>
             <div className="row mt-3" style={{ flexWrap: 'wrap', gap: 8 }}>
               {weak.map(t => (
                 <button key={t._id} className="btn btn-sm" onClick={() => navigate('/topic/' + t._id)}>{t.title}</button>
