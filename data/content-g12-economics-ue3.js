@@ -1,14 +1,643 @@
-/* Content: g12-economics-ue3 — migrated from generated JSON (Phase 0 pipeline restore).
-   Content upgrade to spec v2 happens per unit in later phases. */
+/* Content: Grade 12 Economics - Unit 3: Market Failure and Consumer Protection (5 topics)
+   Source: MoE Economics Grade 12 Student Textbook, Unit 3. */
 window.Lessons = window.Lessons || {};
 
-Lessons["g12-economics-ue3-t1"] = {"overview":"<b>Market Failure</b> sits inside <b>Market Failure and Consumer Protection</b>. Market failure is the focus of Unit 3 of Grade 12 Economics in the Ethiopian (FDRE Ministry of Education) curriculum. First, it defines market failure and its common types. Then it explains public goods and their features. Next, it covers externalities and asymmetric information. Finally, it turns to consumer protection. Students will also learn how market failure calls for real-life government action.","objectives":["Define market failure and identify its causes.","State the characteristics of public goods.","Explain externalities and asymmetric information.","Describe the main solutions, from taxes to regulation.","Explain the meaning of consumer protection."],"simple":"<b>Market Failure in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, an inefficient allocation of resources when markets fail.</li> <li>Then its common types.</li> <li>Also the possible solutions, including government action.</li></ul>","detailed":"<p><b>Market Failure — the essentials.</b> First, an inefficient allocation of resources when markets fail. Then its common types. Also the possible solutions, including government action.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Define market failure and identify its causes.</li><li>State the characteristics of public goods.</li><li>Explain externalities and asymmetric information.</li><li>Describe the main solutions, from taxes to regulation.</li><li>Explain the meaning of consumer protection.</li></ul>","keyTerms":[{"term":"First","def":"First, an inefficient allocation of resources when markets fail."},{"term":"Then its common types","def":"Then its common types."},{"term":"the possible solutions","def":"Also the possible solutions, including government action."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing market failure with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Interpreting economic news about Ethiopia in the media","The applied data-response questions in the ESSLCE economics paper"],"summary":"Market Failure: First, an inefficient allocation of resources when markets fail. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"Market Failure\" is correct according to the MoE curriculum?","options":["First, an inefficient allocation of resources when markets fail.","Market Failure holds only under conditions this topic says do not apply","Market Failure inverts the direction of the relationship this topic describes","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, an inefficient allocation of resources when markets fail. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"Market Failure\"?","options":["Then its common types.","Market Failure is a household-level claim, not the national-level claim of this topic","Market Failure holds only under conditions this topic says do not apply","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Then its common types."},{"type":"tf","q":"True or false: First, an inefficient allocation of resources when markets fail.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover market failure.","answer":false,"difficulty":1,"explanation":"Market Failure is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Define market failure and identify its causes.","difficulty":2,"altAnswers":["State the characteristics of public goods.","Explain externalities and asymmetric information."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why market failure matters.","answer":"Market Failure is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of market failure in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to market failure, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
+Lessons["g12-economics-ue3-t1"] = {
+  overview: "In a free market, the equilibrium price and quantity may not be optimal: tobacco and alcohol are over-consumed while education and healthcare are under-consumed. This lesson defines market failure, identifies its common types and analyses private and government solutions.",
+  objectives: [
+    "Define market failure and explain why free market equilibrium may not be optimal",
+    "Explain how individually rational decisions can produce irrational outcomes for the group",
+    "Identify the common types of market failure, including the public goods problem",
+    "Recognise market failure inside government activity, such as rent-seeking",
+    "Analyse private, government and voluntary collective action solutions to market failure"
+  ],
+  simple: "Market failure is the economic situation defined by an inefficient distribution of goods and services in the free market. It occurs when the price mechanism fails to account for all the costs and benefits needed to provide and consume a good. Each individual may make the correct decision for himself or herself, yet these decisions may prove wrong for the group. Left alone, the market over-consumes tobacco and alcohol and under-consumes education and healthcare. Common types of market failure include externalities, monopoly, information asymmetries and factor immobility, and the problem of public goods such as national defence. Solutions can come from the private market, from government action such as taxes, subsidies and legislation, or from voluntary collective action such as cooperatives.",
+  detailed: "<p><b>What market failure is.</b> Market failure is the economic situation defined by an inefficient distribution of goods and services in the free market. It occurs when the price mechanism fails to account for all of the costs and benefits that are necessary to provide and consume a good. Furthermore, the individual incentives for rational behaviour do not lead to rational outcomes for the group: each individual makes the correct decision for himself or herself, but these may prove to be the wrong decisions for the group. In traditional microeconomics, this is shown as a steady state disequilibrium in which the quantity supplied is not equal to the quantity demanded.</p><p><b>Why equilibrium may not be optimal.</b> In the free market, equilibrium is determined by the forces of demand and supply, yet the equilibrium price and quantity may not be the optimal ones. For example, tobacco and alcohol are over-consumed while education and healthcare are under-consumed in the absence of government intervention. Allocative efficiency is achieved when it is impossible to change the allocation of resources in a way that will increase the welfare of society, and this occurs when marginal social benefit equals marginal social cost. Marginal social benefit is the sum of marginal private benefit and marginal external benefit, while marginal social cost is the sum of marginal private cost and marginal external cost. Externalities are costs and benefits of consumption or production experienced by society other than the producers or consumers.</p><p><b>Common types of market failure.</b> Commonly cited market failures include externalities, monopoly, information asymmetries and factor immobility. The structure of market systems contributes to failure: in the real world markets cannot be perfect, due to inefficient producers, externalities, environmental concerns and lack of public goods.</p><p><b>The public goods problem.</b> Public goods are goods or services for which the producer cannot limit consumption to paying customers and for which consumption by one individual does not limit the consumption by others. National defence is one such public good, because each citizen receives similar benefits regardless of how much they pay. It is very difficult to privately produce the optimal amount of national defence, and since governments also cannot use a competitive price system to determine the correct level, this is an example of a market failure with no pure solution.</p><p><b>Market failure in government activity.</b> Contrary to what the name implies, market failure does not describe inherent imperfections of the market economy alone. A noteworthy example is rent-seeking by special interest groups, who can gain a large benefit by lobbying for small costs on everyone else, such as through a tariff. When each small group imposes its costs, the whole group is worse off than if no lobbying had taken place. Also note that not every bad outcome from market activity counts as a market failure, a market failure does not imply that private market actors cannot solve the problem, and not all market failures have a potential solution, even with prudent regulation.</p><p><b>Solutions to market failure.</b> Solutions can take the form of private market solutions, government-imposed solutions, or voluntary collective action. Externalities such as pollution are solved with tort lawsuits that raise the opportunity cost for the polluter. Tech-companies that receive positive externalities from tech-educated graduates can subsidize computer education through scholarships. Governments can impose taxes and subsidies: a tax on tobacco raises the cost of consumption, while subsidies encourage behaviour with positive externalities. Private collective action also helps: parties can privately agree to limit consumption and enforce rules among themselves to overcome the tragedy of the commons, and consumers and producers can form co-ops, such as a utility co-op for electric service to rural homes or a co-operatively held refrigerated storage facility for dairy farmers. Government responses further include legislation, direct provision of merit and public goods, taxation, subsidies, tradable permits, extension of property rights, advertising, and international cooperation among governments.</p>",
+  keyTerms: [
+    { term: "Market failure", def: "The economic situation defined by an inefficient distribution of goods and services in the free market, where the price mechanism fails to account for all costs and benefits." },
+    { term: "Allocative efficiency", def: "Achieved when it is impossible to change the allocation of resources in a way that increases the welfare of society; it occurs where marginal social benefit equals marginal social cost." },
+    { term: "Marginal social benefit", def: "The sum of marginal private benefit and marginal external benefit." },
+    { term: "Marginal social cost", def: "The sum of marginal private cost and marginal external cost." },
+    { term: "Externality", def: "A cost or benefit of consumption or production experienced by society other than the producer or consumer." },
+    { term: "Public goods", def: "Goods or services whose consumption cannot be limited to paying customers and whose consumption by one person does not limit consumption by others." },
+    { term: "Rent-seeking", def: "Lobbying by special interest groups to gain a large benefit by imposing small costs on everyone else, for example through a tariff." },
+    { term: "Factor immobility", def: "A commonly cited market failure in which factors of production cannot move easily between uses or places." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "Every farmer in a village grazes one extra cow on shared pasture because each individual gain is private, while overgrazing costs are spread over all. Explain why this is a market failure.",
+      given: "Each individual makes the correct decision for himself or herself; the group ends up worse off.",
+      formula: "Principle: market failure occurs when individual rational incentives do not lead to rational outcomes for the group.",
+      substitution: "Each farmer gains privately but the imposition of many costs on everyone leaves the group worse off than if they had acted together.",
+      calculation: "The group incurs too many costs relative to benefits, so the outcome deviates from what economists consider optimal and inefficient distribution results.",
+      answer: "Market failure: rational self-interest produces a worse-off group outcome, here the tragedy of the commons."
+    },
+    {
+      problem: "A special interest group lobbies parliament to impose a tariff. The tariff gives the group a large gain but places a small cost on every household in the country. Is this a market failure?",
+      given: "One small group gains largely; millions each pay a small cost through the tariff.",
+      formula: "Principle: market failure can occur in government activity, for example rent-seeking by special interest groups.",
+      substitution: "The group gains a large benefit by lobbying for small costs imposed on everyone else.",
+      calculation: "Adding up the small costs across all households exceeds the group's benefit, so the whole group is worse off than if no lobbying had taken place.",
+      answer: "Yes, this is rent-seeking, a market failure arising within government activity rather than in the market itself."
+    },
+    {
+      problem: "A tobacco tax is proposed to reduce smoking. Using the lesson, explain how this solution works.",
+      given: "Smoking is over-consumed in the free market absent government intervention.",
+      formula: "Principle: taxation can help cut down negative behaviour such as smoking.",
+      substitution: "Placing a tax on tobacco increases the cost of consumption, making it more expensive for people to smoke.",
+      calculation: "Higher cost discourages consumption, moving the market closer to the optimal level of consumption.",
+      answer: "The tax raises the price of smoking, cutting down the over-consumed negative behaviour."
+    },
+    {
+      problem: "Dairy farmers in one area build a co-operatively held refrigerated storage facility to chill their milk at an efficient scale. Which type of solution to market failure does this illustrate?",
+      given: "The service would be underprovided in a pure market; farmers band together voluntarily.",
+      formula: "Principle: private collective action, such as co-ops, can provide services underprovided by a pure market.",
+      substitution: "Consumers and producers can band together to form co-ops for services like rural electric utilities or shared cold storage.",
+      calculation: "The farmers voluntarily agree among themselves, so this is neither direct taxation nor a court order but collective self-organization.",
+      answer: "Voluntary collective action: a producer co-op providing a service the pure market would underprovide."
+    }
+  ],
+  commonMistakes: [
+    "Assuming that a market equilibrium automatically means the outcome is optimal for society.",
+    "Believing market failure describes imperfections only in private markets and never in government activity.",
+    "Counting every bad or unpleasant market outcome as a market failure.",
+    "Thinking a market failure implies private actors can never solve the problem.",
+    "Assuming all market failures have a potential solution with prudent regulation or public awareness.",
+    "Listing monopoly as a solution rather than as a cause of market failure.",
+    "Forgetting that services like milk storage can be solved by voluntary cooperation, not only by the state."
+  ],
+  applications: [
+    "Noticing that tobacco and alcohol are over-consumed in Ethiopia without excise taxes and public regulation.",
+    "Supporting legislation and taxation to correct under-consumption of education and healthcare.",
+    "Forming or joining a cooperative, such as a dairy co-op, to supply a service the market underprovides.",
+    "Evaluating a lobbying campaign for a tariff by asking whether the whole group is worse off.",
+    "Recognising why national defence is funded by the federal government rather than sold privately.",
+    "Using tort lawsuits and property rights to raise the opportunity cost for polluters of rivers."
+  ],
+  summary: "Market failure is the inefficient distribution of goods and services in the free market, arising when the price mechanism ignores costs and benefits and when privately rational decisions harm the group. Its common types are externalities, monopoly, information asymmetries and factor immobility, with public goods like national defence as a leading example, and it can even appear inside government through rent-seeking. Solutions range from private lawsuits and co-ops to government taxes, subsidies, legislation, tradable permits and property rights.",
+  visuals: [
+    {
+      type: "mindMap",
+      config: {
+        title: "Causes and Types of Market Failure",
+        center: "Market Failure",
+        branches: [
+          { label: "Externalities", items: ["Pollution", "Education benefits"] },
+          { label: "Market structure", items: ["Monopoly", "Inefficient producers"] },
+          { label: "Information", items: ["Information asymmetries"] },
+          { label: "Resources", items: ["Factor immobility", "Lack of public goods"] },
+          { label: "Government", items: ["Rent-seeking", "Special interest tariffs"] }
+        ]
+      }
+    },
+    {
+      type: "tableVisual",
+      config: {
+        title: "Three Kinds of Solution to Market Failure",
+        headers: ["Solution type", "How it works", "Example from the lesson"],
+        rows: [
+          ["Private market", "When private actors solve the failure alone", "Tech-companies subsidize computer education through scholarships"],
+          ["Government-imposed", "Taxes, subsidies, legislation, permits", "A tax on tobacco raises the cost of smoking"],
+          ["Voluntary collective action", "Parties agree and enforce rules among themselves", "A utility co-op for rural electric service; dairy co-op cold storage"]
+        ]
+      }
+    },
+    {
+      type: "qa",
+      config: {
+        title: "Exam Quick-Check",
+        pairs: [
+          { q: "What condition defines allocative efficiency?", a: "It is impossible to change the allocation of resources to increase welfare; marginal social benefit equals marginal social cost." },
+          { q: "Give the formula components of MSC and MSB.", a: "MSC = MPC + MEC and MSB = MPB + MEB." },
+          { q: "Is national defence a market failure with a pure solution?", a: "No, it is cited as a market failure with no pure solution." },
+          { q: "Does every bad market outcome count as market failure?", a: "No, not every bad outcome from market activity counts as a market failure." }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "Market failure occurs when the free market fails to:", options: ["allocate resources efficiently or distribute goods and services equitably", "produce any goods at all", "determine any equilibrium price", "sell goods to foreigners"], answer: 0, difficulty: 1, explanation: "Market failure is defined as the failure to allocate resources efficiently or distribute goods and services equitably." },
+    { type: "mcq", q: "In the absence of government intervention, the textbook notes that tobacco and alcohol are:", options: ["under-consumed", "over-consumed", "not produced at all", "consumed in optimal amounts"], answer: 1, difficulty: 1, explanation: "The introduction states tobacco and alcohol are over-consumed while education and healthcare are under-consumed." },
+    { type: "tf", q: "Allocative efficiency is achieved when marginal social benefit equals marginal social cost.", answer: true, difficulty: 1, explanation: "Allocative efficiency occurs when MSB = MSC, so no reallocation can raise society's welfare." },
+    { type: "short", q: "Marginal social cost is the sum of marginal private cost and which other component?", answer: "marginal external cost|external cost|MEC", difficulty: 2, explanation: "MSC = MPC + MEC, that is, marginal private cost plus marginal external cost." },
+    { type: "mcq", q: "Which of the following is a commonly cited market failure?", options: ["Externalities", "A fall in demand", "Seasonal price changes", "Zero unemployment"], answer: 0, difficulty: 1, explanation: "Commonly cited market failures include externalities, monopoly, information asymmetries and factor immobility." },
+    { type: "tf", q: "Market failure can occur in government activity, for example through rent-seeking by special interest groups.", answer: true, difficulty: 2, explanation: "The lesson states market failure does not describe only inherent market imperfections; rent-seeking lobbying for tariffs is an example in government activity." },
+    { type: "concept", q: "Explain in one sentence why individually rational decisions can still harm the group.", answer: "rational self interest can make the group worse off|individual correct decisions are wrong for the group", difficulty: 2, explanation: "Each individual makes the correct decision for himself or herself, but these may prove to be the wrong decisions for the group." },
+    { type: "mcq", q: "Placing a tax on tobacco is a government solution that works by:", options: ["subsidizing smokers", "increasing the cost of consumption", "nationalizing tobacco farms", "creating tradable permits"], answer: 1, difficulty: 2, explanation: "A tobacco tax increases the cost of consumption, making smoking more expensive and cutting down the negative behaviour." },
+    { type: "mcq", q: "Dairy farmers building a co-operatively held refrigerated storage facility is an example of:", options: ["a private market solution by one firm", "private collective action", "direct government provision", "a tort lawsuit"], answer: 1, difficulty: 2, explanation: "Consumers and producers can band together to form co-ops for services that a pure market would underprovide." },
+    { type: "tf", q: "Every bad outcome from market activity counts as a market failure.", answer: false, difficulty: 2, explanation: "The lesson warns that not every bad outcome from market activity counts as a market failure." },
+    { type: "concept", q: "Give two government responses to market failure other than taxation.", answer: "legislation|subsidies|tradable permits|direct provision of merit and public goods|extension of property rights|advertising|international cooperation", difficulty: 2, explanation: "Government responses include legislation, direct provision of merit and public goods, subsidies, tradable permits, extension of property rights, advertising and international cooperation." }
+  ]
+};
 
-Lessons["g12-economics-ue3-t2"] = {"overview":"<b>Public Goods</b> sits inside <b>Market Failure and Consumer Protection</b>. Market failure is the focus of Unit 3 of Grade 12 Economics in the Ethiopian (FDRE Ministry of Education) curriculum. First, it defines market failure and its common types. Then it explains public goods and their features. Next, it covers externalities and asymmetric information. Finally, it turns to consumer protection. Students will also learn how market failure calls for real-life government action.","objectives":["Define market failure and identify its causes.","State the characteristics of public goods.","Explain externalities and asymmetric information.","Describe the main solutions, from taxes to regulation.","Explain the meaning of consumer protection."],"simple":"<b>Public Goods in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, public goods that are non-rival and non-excludable.</li> <li>Then the free-rider problem.</li></ul>","detailed":"<p><b>Public Goods — the essentials.</b> First, public goods that are non-rival and non-excludable. Then the free-rider problem.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Define market failure and identify its causes.</li><li>State the characteristics of public goods.</li><li>Explain externalities and asymmetric information.</li><li>Describe the main solutions, from taxes to regulation.</li><li>Explain the meaning of consumer protection.</li></ul>","keyTerms":[{"term":"First","def":"First, public goods that are non-rival and non-excludable."},{"term":"Then the free-rider problem","def":"Then the free-rider problem."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing public goods with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Interpreting economic news about Ethiopia in the media","The applied data-response questions in the ESSLCE economics paper"],"summary":"Public Goods: First, public goods that are non-rival and non-excludable. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"Public Goods\" is correct according to the MoE curriculum?","options":["First, public goods that are non-rival and non-excludable.","Public Goods holds only under conditions this topic says do not apply","Public Goods inverts the direction of the relationship this topic describes","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, public goods that are non-rival and non-excludable. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"Public Goods\"?","options":["Then the free-rider problem.","Public Goods is a household-level claim, not the national-level claim of this topic","Public Goods holds only under conditions this topic says do not apply","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Then the free-rider problem."},{"type":"tf","q":"True or false: First, public goods that are non-rival and non-excludable.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover public goods.","answer":false,"difficulty":1,"explanation":"Public Goods is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Define market failure and identify its causes.","difficulty":2,"altAnswers":["State the characteristics of public goods.","Explain externalities and asymmetric information."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why public goods matters.","answer":"Public Goods is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of public goods in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to public goods, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
+Lessons["g12-economics-ue3-t2"] = {
+  overview: "Public goods are goods whose benefits are shared, from national defence to clean air, and their non-rival and non-excludable nature makes the market fail to supply them. This lesson explains their features, classification and the free rider problem, and compares how pure public and pure private goods differ in efficiency.",
+  objectives: [
+    "Define public goods and state their two major features",
+    "Classify goods as pure public, pure private or impure public goods",
+    "Explain how technology and market conditions change excludability",
+    "Explain the free rider problem and why the market fails to supply public goods",
+    "Compare mechanisms for providing the efficient level of public goods"
+  ],
+  simple: "Public goods are goods whose benefits are shared. They have two major features. Non-rivalry in consumption means that once a good is provided, consumption by one person does not reduce the quantity available to another, so the marginal cost of an extra consumer is zero. Non-excludability means it is difficult and expensive to prevent non-payers from consuming the good. Goods with both features, like national defence and clean air, are pure public goods; rival and excludable goods like food and clothes are pure private goods; goods in between are impure public goods. Because nobody can be excluded, everyone wants to enjoy the benefit without paying: the free rider problem. The market may then provide no output, so collective mechanisms such as taxes, entrance fees, private provision or shared beliefs are needed.",
+  detailed: "<p><b>Definition and features.</b> Public goods are goods whose benefits are shared. They have two major features. First, <b>non-rivalry in consumption</b>: once the good is provided or supplied, consumption by one person does not reduce the quantity available for consumption by another, meaning the marginal cost of allowing another person to consume the good is zero. Second, <b>non-excludability</b>: it is difficult and expensive to prevent or exclude someone, including non-payers, from consuming the good.</p><p><b>Pure and impure public goods.</b> Goods that fulfil both properties are known as pure public goods; examples are national defence, clean air, biodiversity and wilderness, which are extreme cases. At the other extreme, pure private goods are rivalrous in consumption and excludable, and most goods around us fall in this category, for example food items, clothes, household furniture and houses. Goods in between the two extremes, satisfying one part of the definition and not another, are called impure public goods; on this basis public goods can be classified into four major groups.</p><p><b>Classification depends on technology and conditions.</b> Classification of goods as public goods is not absolute; it depends on market conditions and technology. Technology now allows radio or TV broadcasts to be encrypted so that those without a special decoder are excluded. Many forms of information have public good characteristics: a poem can be read by many people without reducing its availability, so it is non-rivalrous, yet the author may prohibit non-payers through copyright, so it is excludable. Some countries use tool booths and radio waves to monitor traffic and enforce payment on certain roads, for example the Ethiopian express roads from Addis Ababa to Adama or to Hawassa, so technology makes excludability easy. Other points worth noting: everyone consumes the same quantity of a public good but may not value it equally, some even valuing national defence negatively; non-commodities such as honesty, fair income distribution, certain information, polio vaccination and HIV/AIDS blood tests have public good characteristics; private goods are not necessarily supplied by the private sector, since governments supply electricity and telecommunications, while many public goods like protection and guarding are supplied by the private sector; and public provision does not necessarily mean public production, since a municipality may collect garbage with its own trucks and labour or hire a private firm to do the job.</p><p><b>The free rider (social loafer).</b> A free rider is a person who seeks to enjoy the benefit of public goods without contributing anything to the cost of financing the amount made. The problem was first observed in trade unions, where non-members benefit from the successful bargaining of union members and were therefore unwilling to become members and contribute. Free ridership arises because public goods are non-excludable: since it is difficult to exclude non-payers, there is an incentive not to pay. Suppose individual A chooses to be a free rider; since B is equally smart, B also has an incentive to let other people pay, so there is no automatic force that makes the good provided. For this reason the market fails to supply it, and the private market may provide no output at all.</p><p><b>Other mechanisms for providing the efficient level of public goods.</b> Where the private market fails, provision requires collective action: people must recognize the situation and either raise contributions from private individuals or let the government provide the good. The mechanisms include: private provision of excludable public goods, such as movies and music concerts; public provision of excludable public goods through entrance fees, such as entrance fees for a National Park; public provision of non-excludable public goods through tax revenues, such as taxes earmarked for national defence; and religious beliefs, since church and mosque services are public goods financed by a basket passed during the ceremony, and religion can prevent free riding by convincing people that God is watching.</p>",
+  keyTerms: [
+    { term: "Public goods", def: "Goods whose benefits are shared; consumption by one person does not reduce what is available to others and non-payers cannot easily be excluded." },
+    { term: "Non-rivalry", def: "Once the good is provided, consumption by one person does not reduce the quantity available to another; the marginal cost of an extra consumer is zero." },
+    { term: "Non-excludability", def: "It is difficult and expensive to prevent or exclude someone, including non-payers, from consuming the good." },
+    { term: "Pure public good", def: "A good that fulfils both non-rivalry and non-excludability, such as national defence, clean air, biodiversity or wilderness." },
+    { term: "Pure private good", def: "A good that is rivalrous in consumption and excludable, such as food items, clothes, furniture and houses." },
+    { term: "Impure public good", def: "A good that satisfies one part of the public good definition and not the other, falling between the two extremes." },
+    { term: "Free rider (social loafer)", def: "A person who enjoys the benefit of a public good without contributing anything to the cost of financing it." },
+    { term: "Provision versus production", def: "A government may provide a service while a private firm produces it, as when a municipality hires a private garbage collection firm." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "Classify national defence as a good type using the two features of public goods.",
+      given: "Each citizen receives similar benefits regardless of how much they pay; no payer can be excluded.",
+      formula: "Rule: a pure public good is non-rivalrous in consumption and non-excludable.",
+      substitution: "Defence of one person does not reduce the defence available to another, and it is very difficult to exclude anyone who does not pay.",
+      calculation: "Both properties are fully satisfied, so the good is at the extreme public end of the classification.",
+      answer: "National defence is a pure public good: non-rivalrous and non-excludable."
+    },
+    {
+      problem: "A poet publishes a poem that anyone may read, but copyright allows her to prohibit non-payers from using it. Classify the poem.",
+      given: "Reading by many people does not reduce availability; copyright can withhold it from non-payers.",
+      formula: "Rule: test each property separately, since a good may satisfy one part of the public good definition and not the other.",
+      substitution: "Non-rivalry holds, but excludability also holds because copyright excludes non-payers.",
+      calculation: "It satisfies one characteristic but not the other, so it is not a pure public good.",
+      answer: "An impure public good: non-rivalrous but excludable through copyright."
+    },
+    {
+      problem: "Explain, using the free rider chain of reasoning, why a private market likely provides zero output of a non-excludable public good.",
+      given: "Individual A decides to ride free; B knows this and is equally smart.",
+      formula: "Rule: non-excludability creates an incentive not to pay, so no automatic force supplies the good.",
+      substitution: "A stays out; B follows A, and every similar person does the same.",
+      calculation: "With no one willing to purchase or contribute, there is no automatic force making the good provided, and the market fails to supply it.",
+      answer: "The private market provides no output because everyone waits for others to pay."
+    },
+    {
+      problem: "A national park charges an entrance fee while national defence is financed from earmarked tax revenues. Classify each financing mechanism.",
+      given: "The park can exclude non-payers; defence protects everyone, including non-payers.",
+      formula: "Rule: excludable public goods can use entrance fees; non-excludable public goods need tax revenues.",
+      substitution: "Entrance fees work where exclusion is possible; taxes are used where exclusion is impossible.",
+      calculation: "Match the mechanism to the excludability of each good.",
+      answer: "The park is public provision of an excludable public good through entrance fees; defence is public provision of a non-excludable public good through tax revenues."
+    }
+  ],
+  commonMistakes: [
+    "Thinking public goods are simply goods supplied by the government, rather than goods with shared benefits.",
+    "Confusing non-rivalry with non-excludability; they are two separate features.",
+    "Assuming classification as a public good is permanent, forgetting that technology can make goods excludable.",
+    "Believing everyone values a public good equally just because everyone consumes the same quantity.",
+    "Free riding personally while expecting others to pay for shared services.",
+    "Mixing up provision with production; a government can provide what a private firm produces.",
+    "Assuming private goods can only ever come from the private sector, when governments also supply electricity and telecommunications."
+  ],
+  applications: [
+    "Appreciating street lights and national defence as shared benefits you cannot personally buy in a shop.",
+    "Understanding why the Addis Ababa to Adama and Addis Ababa to Hawassa express roads can charge for use through tolls enforced by technology.",
+    "Explaining why nobody voluntarily funds radio broadcasts that everyone receives freely.",
+    "Contributing to an idir or church collection basket as a community mechanism against free riding.",
+    "Recognising that a municipality may provide garbage collection even when a private firm produces the service.",
+    "Seeing how encrypted TV decoders turn a broadcast from non-excludable to excludable."
+  ],
+  summary: "Public goods are goods whose benefits are shared and whose two features, non-rivalry and non-excludability, make the marginal cost of an extra consumer zero while non-payers cannot easily be stopped. Pure public goods like national defence and clean air contrast with pure private goods, and classification shifts with technology. Because free ridership removes any incentive to pay, the market may provide zero output, so provision requires collective mechanisms: private provision of excludable goods, entrance fees, earmarked taxes, or shared religious and community beliefs.",
+  visuals: [
+    {
+      type: "tableVisual",
+      config: {
+        title: "Four Classes of Goods",
+        headers: ["Class", "Rivalry", "Excludability", "Examples"],
+        rows: [
+          ["Pure public good", "Non-rival", "Non-excludable", "National defence, clean air, wilderness"],
+          ["Common resource", "Rival", "Non-excludable", "Congested city street"],
+          ["Excludable, non-rival goods", "Non-rival", "Excludable", "Satellite streaming music, encrypted broadcasts"],
+          ["Pure private good", "Rival", "Excludable", "Food, clothes, furniture, a taxi"]
+        ]
+      }
+    },
+    {
+      type: "steps",
+      config: {
+        title: "Mechanisms for Providing Public Goods",
+        steps: [
+          { label: "Private provision", detail: "Excludable public goods supplied privately, such as movies and music concerts." },
+          { label: "Public provision with fees", detail: "Excludable public goods financed by entrance fees, such as a National Park." },
+          { label: "Public provision with taxes", detail: "Non-excludable public goods financed by tax revenues, such as earmarked defence taxes." },
+          { label: "Religious and community beliefs", detail: "Basket collections at church or mosque; belief that God is watching prevents free riding." }
+        ]
+      }
+    },
+    {
+      type: "mindMap",
+      config: {
+        title: "Public Goods at a Glance",
+        center: "Public Goods",
+        branches: [
+          { label: "Features", items: ["Non-rivalry", "Non-excludability"] },
+          { label: "Pure examples", items: ["National defence", "Clean air", "Biodiversity", "Wilderness"] },
+          { label: "Non-commodity examples", items: ["Honesty", "Fair income distribution", "Polio vaccination"] },
+          { label: "Problem", items: ["Free rider", "Market provides no output"] }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "The two key characteristics of public goods are:", options: ["rivalry and excludability", "non-rivalry and non-excludability", "rivalry and non-excludability", "non-rivalry and excludability"], answer: 1, difficulty: 1, explanation: "Public goods are non-rivalrous in consumption and it is difficult and expensive to exclude non-payers." },
+    { type: "tf", q: "Once a public good is provided, the marginal cost of allowing another person to consume it is zero.", answer: true, difficulty: 2, explanation: "Non-rivalry in consumption implies the marginal cost of allowing another person to consume the good is zero." },
+    { type: "mcq", q: "Which of the following is a pure public good?", options: ["National defence", "A taxi", "A loaf of bread", "Household furniture"], answer: 0, difficulty: 1, explanation: "National defence, clean air, biodiversity and wilderness are examples of pure public goods." },
+    { type: "mcq", q: "A good that is rival and non-excludable is a:", options: ["private good", "public good", "common resource", "government good"], answer: 2, difficulty: 2, explanation: "According to the review questions, a good that is rival and non-excludable is a common resource." },
+    { type: "tf", q: "Technology can make a previously non-excludable good excludable, for example through encrypted broadcasts.", answer: true, difficulty: 2, explanation: "Radio or TV broadcasts can now be encrypted so that those without a special decoder are excluded." },
+    { type: "short", q: "What do we call a person who enjoys the benefits of a public good without contributing to its cost?", answer: "free rider|social loafer", difficulty: 1, explanation: "A free rider, also called a social loafer, enjoys the benefit without paying anything toward the cost." },
+    { type: "mcq", q: "The free rider problem was first observed in:", options: ["trade unions", "banks", "government ministries", "software markets"], answer: 0, difficulty: 2, explanation: "It was observed where non-members benefited from successful bargaining by union members, so they were unwilling to join and contribute." },
+    { type: "concept", q: "Explain why the private market fails to supply a non-excludable public good.", answer: "free riding|incentive not to pay|no automatic force|no one willing to purchase", difficulty: 2, explanation: "Non-excludability means everyone has an incentive to let others pay, so no automatic force provides the good and the private market may offer no output." },
+    { type: "mcq", q: "Church and mosque services financed by a collection basket during the ceremony illustrate provision of public goods through:", options: ["entrance fees", "earmarked taxes", "religious beliefs", "private monopoly"], answer: 2, difficulty: 2, explanation: "Religious beliefs are listed as a mechanism, since religion can prevent free riding by convincing people that God is watching." },
+    { type: "mcq", q: "When a city street is congested, it is:", options: ["a public good", "a common resource", "a private good", "non-rival and non-excludable"], answer: 1, difficulty: 3, explanation: "The review questions classify a congested street as a common resource: rival in use but non-excludable." },
+    { type: "tf", q: "Public provision of a good necessarily means the government also produces it.", answer: false, difficulty: 2, explanation: "A municipality may provide garbage collection while hiring a private firm to produce it; provision and production are different." }
+  ]
+};
 
-Lessons["g12-economics-ue3-t3"] = {"overview":"<b>Externalities</b> sits inside <b>Market Failure and Consumer Protection</b>. Market failure is the focus of Unit 3 of Grade 12 Economics in the Ethiopian (FDRE Ministry of Education) curriculum. First, it defines market failure and its common types. Then it explains public goods and their features. Next, it covers externalities and asymmetric information. Finally, it turns to consumer protection. Students will also learn how market failure calls for real-life government action.","objectives":["Define market failure and identify its causes.","State the characteristics of public goods.","Explain externalities and asymmetric information.","Describe the main solutions, from taxes to regulation.","Explain the meaning of consumer protection."],"simple":"<b>Externalities in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, externalities as costs or benefits that fall on third parties.</li> <li>Also the difference between positive and negative externalities.</li></ul>","detailed":"<p><b>Externalities — the essentials.</b> First, externalities as costs or benefits that fall on third parties. Also the difference between positive and negative externalities.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Define market failure and identify its causes.</li><li>State the characteristics of public goods.</li><li>Explain externalities and asymmetric information.</li><li>Describe the main solutions, from taxes to regulation.</li><li>Explain the meaning of consumer protection.</li></ul>","keyTerms":[{"term":"First","def":"First, externalities as costs or benefits that fall on third parties."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing externalities with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Interpreting economic news about Ethiopia in the media","The applied data-response questions in the ESSLCE economics paper"],"summary":"Externalities: First, externalities as costs or benefits that fall on third parties. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"Externalities\" is correct according to the MoE curriculum?","options":["First, externalities as costs or benefits that fall on third parties.","Externalities holds only under conditions this topic says do not apply","Externalities inverts the direction of the relationship this topic describes","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, externalities as costs or benefits that fall on third parties. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"Externalities\"?","options":["Also the difference between positive and negative externalities.","Externalities is a household-level claim, not the national-level claim of this topic","Externalities holds only under conditions this topic says do not apply","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Also the difference between positive and negative externalities."},{"type":"tf","q":"True or false: First, externalities as costs or benefits that fall on third parties.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover externalities.","answer":false,"difficulty":1,"explanation":"Externalities is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Define market failure and identify its causes.","difficulty":2,"altAnswers":["State the characteristics of public goods.","Explain externalities and asymmetric information."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why externalities matters.","answer":"Externalities is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of externalities in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to externalities, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
+Lessons["g12-economics-ue3-t3"] = {
+  overview: "Externalities are costs or benefits of consumption or production that fall on third parties and are not reflected in the price, which makes the free market allocate resources inefficiently. This lesson defines positive and negative externalities, shows how each destroys efficiency, and reviews tax, subsidy, bargaining and property right solutions.",
+  objectives: [
+    "Define externalities and distinguish positive from negative externalities",
+    "Give examples of externalities arising from both consumers and producers",
+    "Explain why externalities break the efficiency condition MC = P",
+    "Use MSC, MPC and MEB to reason about over production and under production",
+    "Analyse Pigovian taxes, Coasean bargaining, property rights and subsidies as solutions"
+  ],
+  simple: "An externality occurs when the consumption or production of a good has positive or negative effects on other people's utility that are not reflected in the price. A positive externality benefits third parties without payment: education, flower farming, street lights, parks and a neat neighbourhood. A negative externality harms third parties without compensation: smoking, shouting, factory pollution of air and rivers, global warming. Externality creates a gap between price and marginal cost, and efficiency requires MC = P. With negative externalities MSC > MPC, so the market over-produces; with positive externalities MSB > MPB, so it under-produces. Both create a deadweight loss. Solutions internalize the externality: a per-unit Pigovian tax, private bargaining under the Coase theorem, selling property rights, or a subsidy for goods with external benefits.",
+  detailed: "<p><b>Definition and nature.</b> An externality occurs when the consumption or production of goods has positive or negative effects on other people's utility where these effects are not reflected in the price. Positive externalities occur when one person's consumption of a good also increases other people's utility without them having to pay for it. A negative externality occurs when one person's consumption of a good decreases other people's utility without them receiving any compensation. The same is true in production: firms produce goods but in doing so also pollute the environment, and the pollution costs the firm nothing even though it is a negative externality for society. For example, smoking contaminates the clean air of a room, so non-smokers suffer while having no part in the consumption, and downstream farmers suffer from sewage discharged into rivers without any compensation through the market mechanism.</p><p><b>Examples.</b> Activities that generate positive externalities include flower farming, education, street lights, a neighbouring fence, parks, beautifying the landscape and the neatness of a neighbourhood. Activities that generate negative externalities include smoking, shouting, and manufacturing products such as textiles or leather garments which emit carbon dioxide into the air and waste into nearby rivers. Pollution, global warming and climate change are all negative externalities.</p><p><b>Characteristics of externalities.</b> First, externalities can be positive or negative: an economic agent generates positive externalities when its activities benefit the third party and negative ones when they harm the third party, taking the producer or seller as the first party and the buyer as the second. Second, externalities can be generated by consumers or producers, for example smoking by individuals and manufacturing both cause air pollution, and they can be viewed as a special kind of public good or bad since they are non-rival and non-excludable. Third, externalities are reciprocal in nature: a firm may impose a bad smell on residents, but residents' demand for less odour imposes a cost on the firm; a smoker harms non-smokers but non-smokers also burden the smoker; externality results from the combined action of two or more parties.</p><p><b>Negative externality and efficiency.</b> In the presence of an externality, the free market will not allocate resources efficiently, because the externality creates a difference between marginal cost and price, while efficiency requires MC = P. With a negative externality, MSC > MPC because there is an external cost of pollution, and MSC = MPC + MEC where MEC is marginal external cost. The profit-maximizing condition MPC = P yields point e, whereas the socially optimal point is e*, so over production arises to the amount of QQ*. Welfare at e* exceeds welfare at e by the area ee*c, which is the deadweight loss or efficiency loss from too much output.</p><p><b>Positive externality and efficiency.</b> With a positive externality, MSB > MPB because there is an external benefit, and MSB = MPB + MEB. The profit-maximizing condition MPB = MC gives point e, while the social optimum is at e*, so under production arises to the amount of QQ*. Welfare at e* is again larger by the area ee*c, so here too there is a deadweight loss. In general, inefficiency is created by over production and under production, that is by the difference between the profit-maximizing and the socially optimal levels of output.</p><p><b>Solutions.</b> For a negative externality: a per-unit tax equal to the difference between SMC and PMC at the socially optimal output, a solution first proposed by A.C. Pigou in 1920 assuming externality equals the MSC-MPC gap, a competitive industry, a firm emitting smoke, constant pollution per unit of output, and the external cost borne by others; private bargaining between affected parties, proposed by Coase in 1960 assuming zero or minimal transaction cost, a small number of affected individuals and well-defined initial property rights, with the optimum outcome depending on the bargaining power of the parties, which is the Coase theorem; and defining and enforcing property rights for those who would like to pollute, so producers face extra costs and produce smaller quantities, with the limitation that the market for such rights may not be perfectly competitive. For a positive externality: a per-unit subsidy equal to the difference between SMB and PMB at the socially optimal output, so subsidized firms supply the optimal output; or the government itself supplies the product and bears the loss. Bear in mind that optimum pollution does not mean zero pollution, because zero pollution would imply zero production. All solutions recognize the need for internalizing externalities, that is, putting the external cost or benefit into the private cost or benefit of individuals so they account for external effects in their decisions.</p>",
+  keyTerms: [
+    { term: "Externality", def: "A positive or negative effect of consumption or production on other people's utility that is not reflected in the price." },
+    { term: "Positive externality", def: "An activity that increases the utility of third parties without them paying, such as education, flower farming or a park." },
+    { term: "Negative externality", def: "An activity that decreases the utility of third parties without compensation, such as smoking, shouting or pollution." },
+    { term: "Marginal external cost (MEC)", def: "The extra cost falling on third parties; MSC = MPC + MEC." },
+    { term: "Marginal external benefit (MEB)", def: "The extra benefit accruing to third parties; MSB = MPB + MEB." },
+    { term: "Deadweight loss", def: "The efficiency loss from over production or under production, equal to the welfare gap ee*c between point e and e*." },
+    { term: "Pigovian tax", def: "A per-unit tax equal to the difference between SMC and PMC at the socially optimal output, proposed by A.C. Pigou in 1920." },
+    { term: "Coase theorem", def: "With zero or minimal transaction cost, few affected parties and well-defined property rights, private bargaining leads to the optimum outcome, which depends on the parties' bargaining power." },
+    { term: "Internalizing externalities", def: "Including the external cost or benefit in the private cost or benefit of decision-makers so external effects are accounted for." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "A leather factory releases waste into a nearby river used by downstream farmers. Classify the externality and predict the market outcome.",
+      given: "The waste harms farmers who take no part in production and receive no compensation.",
+      formula: "Rule: a harmful third-party effect not reflected in the price is a negative externality; there MSC > MPC.",
+      substitution: "Social cost includes the river damage, so MSC = MPC + MEC with MEC above zero.",
+      calculation: "The firm produces where MPC = P and ignores MEC, so it produces more than the social optimum, an over production of QQ*.",
+      answer: "Negative externality in production; the free market over-produces relative to the social optimum."
+    },
+    {
+      problem: "A graduated student moves into a village, shares knowledge informally and the neighbourhood becomes neater and better informed. Classify and predict the market outcome.",
+      given: "Neighbours gain a benefit they did not pay for.",
+      formula: "Rule: an unpaid third-party benefit is a positive externality; there MSB > MPB.",
+      substitution: "MSB = MPB + MEB with MEB above zero, but the student and the market count only private benefit.",
+      calculation: "Private decisions follow MPB = MC, so output falls short of the social optimum, an under production of QQ*.",
+      answer: "Positive externality; the market under-produces, so a subsidy or public supply is justified."
+    },
+    {
+      problem: "A polluting firm faces both a Pigovian tax and a proposal for private bargaining with affected villagers. State the conditions each solution needs.",
+      given: "The tax requires certain market assumptions; bargaining requires transaction conditions.",
+      formula: "Rule: Pigou (1920) assumes competitive industry and constant pollution per unit; Coase (1960) assumes zero or minimal transaction cost, small numbers and well-defined property rights.",
+      substitution: "The tax equals the MSC-MPC gap at the socially optimal output; bargaining works if the parties are few and rights are clear.",
+      calculation: "Check each condition: the tax internalizes the cost through price; bargaining internalizes it through agreement.",
+      answer: "Use a per-unit tax equal to the MSC-MPC gap, or rely on Coasean bargaining only where transaction costs are minimal, parties are few and property rights are well defined."
+    },
+    {
+      problem: "An official proposes banning a factory's pollution completely. Evaluate the proposal using the textbook's reasoning.",
+      given: "The firm's pollution per unit of output is tied to its production.",
+      formula: "Optimum pollution does not mean zero pollution, since zero pollution implies zero production.",
+      substitution: "A total ban stops the externality but also stops all output and its benefits.",
+      calculation: "The efficient aim is the level where MSC and MSB balance, not the elimination of all pollution.",
+      answer: "A full ban is inefficient; the goal is the optimal, not zero, level of pollution."
+    }
+  ],
+  commonMistakes: [
+    "Believing that if the polluter did not intend harm there is no externality; impact on third parties is what matters.",
+    "Confusing private cost with social cost by forgetting the marginal external cost.",
+    "Assuming a negative externality causes under production rather than over production.",
+    "Thinking the Coase theorem needs no conditions; it assumes minimal transaction costs, few parties and defined property rights.",
+    "Equating the efficient solution with zero pollution, although zero pollution implies zero production.",
+    "Forgetting that externalities are reciprocal and arise from the combined action of two or more parties.",
+    "Applying a Pigovian tax without checking its assumptions, such as a competitive industry and constant pollution per unit."
+  ],
+  applications: [
+    "Identifying the negative externality when textiles or leather factories emit waste into Ethiopian rivers.",
+    "Valuing education beyond school fees because classmates and neighbours gain spillover benefits.",
+    "Seeing how a street light or a neighbour's fenced and tidy compound benefits everyone on the street.",
+    "Recalling that smokers in a shared taxi impose costs on non-smokers, while non-smokers impose restrictions on the smoker.",
+    "Understanding carbon dioxide emissions, global warming and climate change as society-wide negative externalities.",
+    "Weighing villager-factory disputes by asking whether bargaining could work with few parties and clear rights."
+  ],
+  summary: "An externality is a cost or benefit of consumption or production falling on third parties and not reflected in the price, breaking the efficiency condition MC = P. Negative externalities make MSC exceed MPC and cause over production, while positive externalities make MSB exceed MPB and cause under production, and both generate a deadweight loss. Solutions internalize the externality: Pigovian taxes, Coasean bargaining, property rights for polluters, or subsidies and public supply for goods with external benefits, remembering that the optimum is not zero pollution.",
+  visuals: [
+    {
+      type: "comparison",
+      config: {
+        title: "Negative vs Positive Externality",
+        left: { name: "Negative externality", items: ["Harms third parties", "MSC = MPC + MEC, so MSC > MPC", "Market over-produces (QQ*)", "Fix with per-unit tax", "Examples: smoking, pollution"] },
+        right: { name: "Positive externality", items: ["Benefits third parties", "MSB = MPB + MEB, so MSB > MPB", "Market under-produces (QQ*)", "Fix with per-unit subsidy or public supply", "Examples: education, flower farming"] }
+      }
+    },
+    {
+      type: "tableVisual",
+      config: {
+        title: "Solutions to Externality Problems",
+        headers: ["Problem", "Solution", "Key condition"],
+        rows: [
+          ["Negative externality", "Per-unit Pigovian tax equal to the MSC - MPC gap at optimal output", "Pigou 1920: competitive industry, constant pollution per unit"],
+          ["Negative externality", "Private bargaining between affected parties", "Coase 1960: minimal transaction cost, few parties, defined property rights"],
+          ["Negative externality", "Define and enforce (sell) property rights to pollute", "Rights market may not be perfectly competitive"],
+          ["Positive externality", "Per-unit subsidy equal to the SMB - PMB gap at optimal output", "Subsidized firms supply the optimal output"],
+          ["Positive externality", "Government supplies the product itself", "State bears the loss"]
+        ]
+      }
+    },
+    {
+      type: "qa",
+      config: {
+        title: "Exam Quick-Check",
+        pairs: [
+          { q: "What efficiency condition does an externality break?", a: "Efficiency requires MC = P; the externality creates a gap between them." },
+          { q: "With a negative externality, does the market over- or under-produce?", a: "Over production, to the amount QQ* beyond the social optimum." },
+          { q: "Does optimum pollution mean zero pollution?", a: "No; zero pollution would imply zero production." },
+          { q: "What general requirement do all externality solutions share?", a: "Internalizing externalities so private decisions include the external cost or benefit." }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "An externality is best defined as:", options: ["an extra private cost paid by the producer", "a cost or benefit of consumption or production falling on others that is not reflected in the price", "a government fee on imports", "the profit earned by a monopoly"], answer: 1, difficulty: 1, explanation: "An externality is a cost or benefit that affects an otherwise uninvolved party who did not choose to bear it." },
+    { type: "tf", q: "Education and flower farming are examples of activities that generate positive externalities.", answer: true, difficulty: 1, explanation: "The lesson lists flower farming, education, street lights, parks and neatness as positive externality activities." },
+    { type: "mcq", q: "In the presence of a negative externality:", options: ["MSC > PMC", "MSC < PMC", "MSC = PMC", "MSB = MSC"], answer: 0, difficulty: 2, explanation: "With an external cost of pollution, marginal social cost exceeds marginal private cost, since MSC = MPC + MEC." },
+    { type: "mcq", q: "When a negative externality exists, the profit-maximizing market produces:", options: ["the socially optimal output", "more than the social optimum, an over production of QQ*", "less than the social optimum", "zero output"], answer: 1, difficulty: 2, explanation: "Producing where MPC = P ignores the external cost, so over production of QQ* arises relative to point e*." },
+    { type: "concept", q: "State the efficiency condition that the presence of an externality breaks.", answer: "MC=P|marginal cost equals price|MSC equals P|MSC=MSB", difficulty: 2, explanation: "The externality creates a difference between marginal cost and price, while efficiency requires MC = P." },
+    { type: "tf", q: "Both negative and positive externalities create a deadweight loss to society.", answer: true, difficulty: 2, explanation: "Whether from over production or under production, welfare at e* exceeds welfare at e by the area ee*c, a deadweight loss." },
+    { type: "mcq", q: "The per-unit tax proposed by A.C. Pigou in 1920 should equal:", options: ["the difference between MSC and PMC at the socially optimal output", "the firm's entire profit", "the price of the product", "the total revenue of the firm"], answer: 0, difficulty: 2, explanation: "Pigou's per-unit tax equals the gap between social and private cost corresponding to the socially optimal output." },
+    { type: "mcq", q: "According to the Coase theorem (1960), private bargaining succeeds when:", options: ["transaction costs are zero or minimal, affected parties are few and property rights are well defined", "the government fixes prices", "pollution is banned completely", "the industry is a monopoly"], answer: 0, difficulty: 3, explanation: "Coase's assumptions are minimal transaction cost, a small number of individuals and well-defined initial property rights; the optimum then depends on bargaining power." },
+    { type: "short", q: "What is the term for making the external cost or benefit part of the decision-maker's own private cost or benefit?", answer: "internalizing externalities|internalization|internalising", difficulty: 2, explanation: "All externality solutions recognize the need for internalizing externalities." },
+    { type: "tf", q: "The optimal amount of pollution is zero pollution.", answer: false, difficulty: 2, explanation: "Optimum pollution does not mean zero pollution, because zero pollution implies zero production." },
+    { type: "concept", q: "Give two characteristics of externalities from the lesson (besides being positive or negative).", answer: "generated by consumers or producers|non-rival and non-excludable|reciprocal in nature|result from combined action of parties", difficulty: 3, explanation: "Externalities arise from consumers or producers, are a special kind of public good or bad, and are reciprocal in nature." }
+  ]
+};
 
-Lessons["g12-economics-ue3-t4"] = {"overview":"<b>Asymmetric Information</b> sits inside <b>Market Failure and Consumer Protection</b>. Market failure is the focus of Unit 3 of Grade 12 Economics in the Ethiopian (FDRE Ministry of Education) curriculum. First, it defines market failure and its common types. Then it explains public goods and their features. Next, it covers externalities and asymmetric information. Finally, it turns to consumer protection. Students will also learn how market failure calls for real-life government action.","objectives":["Define market failure and identify its causes.","State the characteristics of public goods.","Explain externalities and asymmetric information.","Describe the main solutions, from taxes to regulation.","Explain the meaning of consumer protection."],"simple":"<b>Asymmetric Information in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, asymmetric information, where one side knows more than the other.</li> <li>Also how it leads to problems such as adverse selection.</li></ul>","detailed":"<p><b>Asymmetric Information — the essentials.</b> First, asymmetric information, where one side knows more than the other. Also how it leads to problems such as adverse selection.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Define market failure and identify its causes.</li><li>State the characteristics of public goods.</li><li>Explain externalities and asymmetric information.</li><li>Describe the main solutions, from taxes to regulation.</li><li>Explain the meaning of consumer protection.</li></ul>","keyTerms":[{"term":"First","def":"First, asymmetric information, where one side knows more than the other."},{"term":"how it leads to problems","def":"Also how it leads to problems such as adverse selection."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing asymmetric information with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Interpreting economic news about Ethiopia in the media","The applied data-response questions in the ESSLCE economics paper"],"summary":"Asymmetric Information: First, asymmetric information, where one side knows more than the other. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"Asymmetric Information\" is correct according to the MoE curriculum?","options":["First, asymmetric information, where one side knows more than the other.","Asymmetric Information holds only under conditions this topic says do not apply","Asymmetric Information inverts the direction of the relationship this topic describes","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, asymmetric information, where one side knows more than the other. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"Asymmetric Information\"?","options":["Also how it leads to problems such as adverse selection.","Asymmetric Information is a household-level claim, not the national-level claim of this topic","Asymmetric Information holds only under conditions this topic says do not apply","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Also how it leads to problems such as adverse selection."},{"type":"tf","q":"True or false: First, asymmetric information, where one side knows more than the other.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover asymmetric information.","answer":false,"difficulty":1,"explanation":"Asymmetric Information is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Define market failure and identify its causes.","difficulty":2,"altAnswers":["State the characteristics of public goods.","Explain externalities and asymmetric information."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why asymmetric information matters.","answer":"Asymmetric Information is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of asymmetric information in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to asymmetric information, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
+Lessons["g12-economics-ue3-t4"] = {
+  overview: "Asymmetric information exists when one party in a transaction knows more than the other, giving the informed side power that can make transactions collapse. This lesson explores its two problems, adverse selection and moral hazard, and the solutions of signalling and screening.",
+  objectives: [
+    "Define asymmetric information and contrast it with symmetric information",
+    "Explain why informational imbalance can make a transaction disappear",
+    "Distinguish adverse selection (hidden information) from moral hazard (hidden action)",
+    "Apply the concepts to insurance, used-car and credit markets",
+    "Evaluate signalling and screening as solutions and their limitations"
+  ],
+  simple: "Asymmetric information is a situation in which different agents have a different amount of information about a good, so one party to a transaction possesses more knowledge than the other. Sellers can then take advantage of buyers, and the resulting imbalance of power can sometimes cause the transaction to go away altogether. Two problems follow. Adverse selection, the hidden information problem, occurs when one side cannot observe the type or quality of the other side, so bad products or customers are more likely to be selected, for example people likely to get sick being the ones who buy health insurance. Moral hazard, the hidden action problem, occurs when one side cannot observe the actions of the other, so an insured person behaves less carefully. Solutions include signalling, such as degrees and warranties, and screening, such as banks investigating borrowers.",
+  detailed: "<p><b>What asymmetric information is.</b> Asymmetric information is a situation in which different agents have a different amount of information about a good; in other words, one party in a transaction is in possession of more information than the other. In certain transactions sellers can take advantage of buyers because the seller knows more about the good being sold. In general, information asymmetry deals with the study of decisions in transactions where one party has more information than the other, and it creates an imbalance in power in transactions which can sometimes cause the transaction to go away. Its mirror image, symmetric information, means all parties have complete information about the economic variables relevant for their decisions.</p><p><b>The adverse selection problem.</b> Adverse selection refers to situations where one side of the market cannot observe the type or quality of the goods on the other side of the market. It is sometimes known as the hidden information problem, the anti-selection problem or the negative selection problem, and the term is used in economics, insurance, statistics and risk management. When bad results occur due to information asymmetries between buyers and sellers, the bad products or customers are more likely to be selected. For example, health insurance is more likely to be purchased by people who are more likely to get sick.</p><p><b>The moral hazard problem.</b> Moral hazard refers to a situation where one side of the market cannot observe the actions of the others. It is sometimes known as the hidden action problem: the inability to observe and verify the agent's action. It is the prospect that a party insulated from risk may behave differently from the way it would behave if it were fully exposed to the risk. A moral hazard problem arises when an individual or firm does not bear the full consequences of its actions, and therefore tends to act less carefully, leaving another party to bear some responsibility for the consequences. For example, an individual with insurance against automobile theft may be less vigilant about locking his or her car, since the negative consequences of theft are partially borne by the insurance company. There is also ex-post moral hazard: insured parties do not necessarily behave in a more risky manner, but they ask the insurer to pay for more of the negative consequences as insurance coverage increases, for example people who forgo medical treatment without insurance but, once insured, request treatment costs be covered that they would not otherwise have undergone.</p><p><b>Signalling.</b> Signalling is the idea that one party, the agent, conveys some meaningful information about itself to another party, the principal. Employees signal the level of their skills to employers by acquiring a certain degree of education. In a market for used goods, the owner of a good used car can offer a warranty, signalling that the car is good, since owners of bad used cars cannot afford to offer the same warranty. Signalling has limitations: how much time, energy or money should the sender spend on sending the signal; how can the receiver trust the signal to be an honest declaration of information; and even if a signalling equilibrium exists, under what circumstances will that equilibrium break down?</p><p><b>Screening.</b> Screening refers to a strategy of combating adverse selection, in which the party with less information tries to rectify the asymmetry. Suppose Hana knows more about herself than Hikma knows about Hana; if they engage in a transaction, they need to develop a long-term relationship in which the screener, Hikma, learns as much as she can about Hana. Banks often screen people interested in borrowing money to weed out those who will not be able to repay the debt, asking for financial history, job security, reason for borrowing and assets, education and experience. Another example is offering health insurance as part of a package of fringe benefits: the insurance company bases its rates on averages over the set of employees and is assured that all employees participate, thus eliminating the adverse selection.</p>",
+  keyTerms: [
+    { term: "Asymmetric information", def: "A situation in which different agents have a different amount of information about a good, so one party has more knowledge than the other." },
+    { term: "Symmetric information", def: "The situation in which all parties have complete information about the economic variables relevant for their decisions." },
+    { term: "Adverse selection", def: "A problem where one side of the market cannot observe the type or quality of the other side; the hidden information or anti-selection problem." },
+    { term: "Moral hazard", def: "A problem where one side cannot observe the actions of the other; the hidden action problem, leading to less careful behaviour when insulated from risk." },
+    { term: "Ex-post moral hazard", def: "Behaviour change after an event, where insured parties ask the insurer to pay for more negative consequences as coverage increases." },
+    { term: "Signalling", def: "An agent conveying meaningful information about itself to a principal, such as a degree or a warranty on a good used car." },
+    { term: "Screening", def: "A strategy for combating adverse selection in which the less informed party learns about the other side, such as banks investigating borrowers." },
+    { term: "Principal and agent", def: "The receiver and the sender of a signal; the principal relies on information supplied by the agent." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "In a used-car market, sellers know their own cars well but buyers cannot tell good cars from bad ones. Explain what happens using adverse selection reasoning.",
+      given: "Buyers cannot observe quality, only sellers know the type of each car.",
+      formula: "Rule: adverse selection is the hidden information problem, where bad products are more likely to be selected.",
+      substitution: "Buyers pool all cars together and offer an average price, which good-car owners reject and bad-car owners accept.",
+      calculation: "The cars actually traded skew toward bad quality, so the market selects adverse outcomes.",
+      answer: "Bad products are more likely to be selected: many good cars leave the market and trade is reduced."
+    },
+    {
+      problem: "A farmer who just insured his oxen stops guarding them at night. Is this adverse selection or moral hazard?",
+      given: "The insurance company cannot observe how carefully the farmer behaves afterwards.",
+      formula: "Rule: moral hazard is the hidden action problem, where a party insulated from risk behaves less carefully.",
+      substitution: "The action, night guarding, cannot be observed or verified by the insurer.",
+      calculation: "The farmer does not bear the full consequence of theft, so he acts less carefully, leaving the insurer to bear part of the cost.",
+      answer: "Moral hazard: an unobservable action after the contract changes behaviour."
+    },
+    {
+      problem: "A good used-car owner offers a warranty while owners of bad cars cannot afford one. Identify the solution and its logic.",
+      given: "Warranties cost money; only owners of reliable cars can profitably promise them.",
+      formula: "Rule: signalling means the informed agent conveys meaningful information to the principal.",
+      substitution: "The warranty is costly to fake, so it credibly signals quality.",
+      calculation: "Because bad-car owners cannot afford the signal, buyers can infer the type of car from the offer.",
+      answer: "Signalling: the warranty separates good cars from bad ones."
+    },
+    {
+      problem: "A microfinance institution asks applicants for financial history, job security, reason for borrowing, education and experience before lending. Identify the solution.",
+      given: "The lender knows less about the applicant than the applicant knows about himself.",
+      formula: "Rule: screening is when the less informed party learns as much as it can about the other side.",
+      substitution: "The institution weeds out those who will not be able to repay the debt.",
+      calculation: "By investigating applicants, the lender reduces the chance that bad risks are selected.",
+      answer: "Screening, a strategy for combating adverse selection in credit markets."
+    }
+  ],
+  commonMistakes: [
+    "Confusing adverse selection with moral hazard; the first is hidden information before the deal, the second hidden action after it.",
+    "Thinking asymmetry only helps sellers; buyers such as insurers can also be the more informed party.",
+    "Assuming a warranty or degree is always honest; signalling has limits on trust and cost.",
+    "Believing insurance itself causes losses; the problem is unobserved behaviour, not insurance as such.",
+    "Supposing asymmetric information merely means unfair prices rather than a power imbalance that can stop trade.",
+    "Forgetting ex-post moral hazard, where insured parties claim more treatment as coverage increases.",
+    "Thinking screening is done by the informed party; in fact screening is done by the less informed party."
+  ],
+  applications: [
+    "Checking a seller's claims carefully when buying second-hand phones or furniture in an Ethiopian market.",
+    "Understanding why lenders at Ethiopian microfinance institutions examine income sources and guarantors before lending.",
+    "Seeing how a driver who behaves less carefully because of insurance shifts costs to the insurer.",
+    "Recognising job applicants who use a diploma as a signal of skill to employers.",
+    "Interpreting health insurance pools offered through employers as a way to eliminate adverse selection.",
+    "Explaining why some deals silently vanish when one side suspects the other knows more."
+  ],
+  summary: "Asymmetric information means one party to a transaction knows more than the other, which creates a power imbalance that can make transactions go away. It produces adverse selection, the hidden information problem where bad types are more likely to be selected, and moral hazard, the hidden action problem where parties insulated from risk behave less carefully. The main remedies are signalling, such as education degrees and warranties, and screening, such as bank investigations of borrowers and employer-based insurance pools.",
+  visuals: [
+    {
+      type: "comparison",
+      config: {
+        title: "Adverse Selection vs Moral Hazard",
+        left: { name: "Adverse selection", items: ["Hidden information problem", "Cannot observe the type or quality", "Occurs before the transaction", "Bad types are more likely selected", "Example: sick people buy health insurance"] },
+        right: { name: "Moral hazard", items: ["Hidden action problem", "Cannot observe or verify actions", "Occurs after the transaction", "Insured party acts less carefully", "Example: driver stops locking his car"] }
+      }
+    },
+    {
+      type: "steps",
+      config: {
+        title: "Solutions and Their Limits",
+        steps: [
+          { label: "Signalling", detail: "The agent sends meaningful information: a degree for skills, a warranty for a good used car." },
+          { label: "Signalling limits", detail: "Cost to the sender, trust by the receiver, and possible breakdown of the signalling equilibrium." },
+          { label: "Screening", detail: "The less informed party learns about the other: banks check financial history and job security." },
+          { label: "Pool everyone", detail: "Offer insurance through fringe benefits and rate on the employee average so all participate." }
+        ]
+      }
+    },
+    {
+      type: "qa",
+      config: {
+        title: "Exam Quick-Check",
+        pairs: [
+          { q: "Give the other names of adverse selection.", a: "Hidden information, anti-selection and negative selection problem." },
+          { q: "Give the other name of moral hazard.", a: "The hidden action problem." },
+          { q: "What does asymmetric information do to a transaction?", a: "It creates an imbalance in power which can sometimes cause the transaction to go away." },
+          { q: "Who screens and who signals?", a: "The less informed party screens (like a bank); the informed agent signals (like a worker with a degree)." }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "Asymmetric information exists when:", options: ["one party to a transaction has more information than the other", "all parties have complete information", "the government publishes all prices", "a single seller controls the market"], answer: 0, difficulty: 1, explanation: "Asymmetric information means different agents have a different amount of information about a good." },
+    { type: "tf", q: "Adverse selection is sometimes known as the hidden information problem.", answer: true, difficulty: 1, explanation: "Adverse selection is also called the hidden information, anti-selection or negative selection problem." },
+    { type: "mcq", q: "Health insurance being more likely purchased by people who are more likely to get sick is an example of:", options: ["moral hazard", "adverse selection", "signalling", "screening"], answer: 1, difficulty: 2, explanation: "This is the hidden information problem: the insurer cannot observe the buyer's health type." },
+    { type: "mcq", q: "An insured driver becoming less vigilant about locking his car illustrates:", options: ["adverse selection", "moral hazard", "free riding", "screening"], answer: 1, difficulty: 2, explanation: "The hidden action problem: the party insulated from risk behaves less carefully, since the insurer bears part of the loss." },
+    { type: "short", q: "What is the term for the situation where one side of the market cannot observe the actions of the other side?", answer: "moral hazard|hidden action problem", difficulty: 2, explanation: "Moral hazard, the hidden action problem, is the inability to observe and verify the agent's action." },
+    { type: "concept", q: "A good used-car owner offers a warranty while owners of bad cars cannot afford one. Name the solution and explain why it works.", answer: "signalling|warranty as signal", difficulty: 2, explanation: "Signalling conveys meaningful information: only owners of good cars can profitably offer a warranty." },
+    { type: "mcq", q: "Banks asking borrowers for financial history, job security and reason for borrowing is an example of:", options: ["signalling", "screening", "hoarding", "a subsidy"], answer: 1, difficulty: 2, explanation: "Screening is a strategy for combating adverse selection where the less informed lender learns about the borrower." },
+    { type: "tf", q: "Symmetric information means all parties have complete information about the economic variables relevant for their decisions.", answer: true, difficulty: 1, explanation: "This is the definition of symmetric information given in the unit summary." },
+    { type: "concept", q: "Explain why asymmetric information can cause a transaction to disappear.", answer: "imbalance in power|distrust of the other side|transaction can go away", difficulty: 2, explanation: "Information asymmetry creates an imbalance in power in transactions which can sometimes cause the transaction to go away." },
+    { type: "mcq", q: "Offering health insurance as a fringe benefit with rates based on the average over all employees is designed to eliminate:", options: ["moral hazard", "adverse selection", "free riding", "the tragedy of the commons"], answer: 1, difficulty: 3, explanation: "Because all employees participate and rates are based on the employee average, adverse selection is eliminated." },
+    { type: "concept", q: "State two limitations of signalling mentioned in the lesson.", answer: "cost of time money or energy to the sender|receiver may not trust the signal|signalling equilibrium may break down", difficulty: 3, explanation: "The limitations concern how much the sender should spend, whether the receiver can trust the signal, and when the signalling equilibrium breaks down." }
+  ]
+};
 
-Lessons["g12-economics-ue3-t5"] = {"overview":"<b>Consumer Protection</b> sits inside <b>Market Failure and Consumer Protection</b>. Market failure is the focus of Unit 3 of Grade 12 Economics in the Ethiopian (FDRE Ministry of Education) curriculum. First, it defines market failure and its common types. Then it explains public goods and their features. Next, it covers externalities and asymmetric information. Finally, it turns to consumer protection. Students will also learn how market failure calls for real-life government action.","objectives":["Define market failure and identify its causes.","State the characteristics of public goods.","Explain externalities and asymmetric information.","Describe the main solutions, from taxes to regulation.","Explain the meaning of consumer protection."],"simple":"<b>Consumer Protection in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, consumer protection and consumer rights.</li> <li>Also why markets need rules to protect buyers.</li></ul>","detailed":"<p><b>Consumer Protection — the essentials.</b> First, consumer protection and consumer rights. Also why markets need rules to protect buyers.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Define market failure and identify its causes.</li><li>State the characteristics of public goods.</li><li>Explain externalities and asymmetric information.</li><li>Describe the main solutions, from taxes to regulation.</li><li>Explain the meaning of consumer protection.</li></ul>","keyTerms":[{"term":"First","def":"First, consumer protection and consumer rights."},{"term":"Also why markets need rules to protect buyers","def":"Also why markets need rules to protect buyers."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing consumer protection with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Interpreting economic news about Ethiopia in the media","The applied data-response questions in the ESSLCE economics paper"],"summary":"Consumer Protection: First, consumer protection and consumer rights. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"Consumer Protection\" is correct according to the MoE curriculum?","options":["First, consumer protection and consumer rights.","Consumer Protection holds only under conditions this topic says do not apply","Consumer Protection inverts the direction of the relationship this topic describes","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, consumer protection and consumer rights. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"Consumer Protection\"?","options":["Also why markets need rules to protect buyers.","Consumer Protection is a household-level claim, not the national-level claim of this topic","Consumer Protection holds only under conditions this topic says do not apply","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Also why markets need rules to protect buyers."},{"type":"tf","q":"True or false: First, consumer protection and consumer rights.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover consumer protection.","answer":false,"difficulty":1,"explanation":"Consumer Protection is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Define market failure and identify its causes.","difficulty":2,"altAnswers":["State the characteristics of public goods.","Explain externalities and asymmetric information."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why consumer protection matters.","answer":"Consumer Protection is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of consumer protection in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to consumer protection, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
-
+Lessons["g12-economics-ue3-t5"] = {
+  overview: "Consumer protection means safeguarding the interest and rights of consumers against unscrupulous business malpractices, from adulterated goods to misleading advertising. This lesson covers the need for protection, the arguments supporting it, and the rights and objectives set out in Ethiopia's Consumer Proclamation No. 813/2013.",
+  objectives: [
+    "Define consumer protection and explain the malpractices it targets",
+    "Explain why consumers need protection given their helpless position",
+    "Analyse the social and business arguments for consumer protection",
+    "State the consumer rights recognised in Ethiopia's Proclamation No. 813/2013",
+    "Outline the main objectives of the Ethiopian Consumer Protection Act"
+  ],
+  simple: "We buy goods and services daily and pay for them, yet sometimes we are not satisfied because of poor quality, overcharging, misleading advertising or defective products. Consumer protection means safeguarding the interest and rights of consumers: the measures adopted by government or NGOs to protect consumers from unscrupulous and unethical malpractices by business and to provide speedy redressal of grievances. Malpractices include adulterated, spurious, sub-standard, duplicate and defective goods, false weights and measures, hoarding and black marketing, charging above the maximum retail price, and misleading advertisements. Protection is needed because consumers are in a helpless position and often unaware of their rights. In Ethiopia, Consumer Proclamation No. 813/2013 grants rights to information, free choice, respectful treatment and compensation, and the Act aims to ensure safe goods, protect fair competition and accelerate economic development.",
+  detailed: "<p><b>Concept of consumer protection.</b> In day-to-day life we buy a variety of goods and receive services, paying for them and deriving satisfaction from their use. Sometimes, however, we do not feel satisfied, on account of poor quality of the product, overcharging by the shopkeeper, lower quantity of parts, misleading advertising and so on. Obviously these practices should not be allowed to continue. Consumer protection means safeguarding the interest and rights of consumers; in other words, it refers to the measures adopted for the protection of consumers from unscrupulous and unethical malpractices by business, in order to provide them with speedy redressal of their grievances. The measures are adopted by the government or by non-governmental organizations (NGOs).</p><p><b>Common business malpractices.</b> The most common malpractices leading to consumer exploitation are: sale of adulterated goods, adding something inferior to the product; sale of spurious goods, selling something of little value instead of the real product; sale of sub-standard goods that do not conform to prescribed quality standards; sale of duplicate goods; use of false weights and measures leading to underweight; hoarding and black-marketing leading to scarcity and a rise in price; charging more than the maximum retail price; supply of defective goods; misleading advertisements that falsely claim superior quality or grade; and supply of inferior services whose quality is below what was agreed upon.</p><p><b>Need for consumer protection.</b> Protection is mainly necessary due to the helpless position of consumers. Consumers have the basic right to be protected from loss or injury caused by defective goods and deficient services, but many do not exercise their rights because of lack of awareness, ignorance or laziness. Given prevailing malpractices and their vulnerability to them, consumers need physical safety, protection of economic interests, access to information, satisfactory product standards, and statutory measures for the redressal of their grievances.</p><p><b>Arguments supporting consumer protection.</b> Under social responsibility, business must be guided by social and ethical norms, and it is the moral responsibility of producers and traders to provide the right quality and quantity at fair prices. Increasing awareness: consumers are becoming more mature and conscious of their rights, and consumer organizations build awareness and help enforce rights. Consumer satisfaction is the key to the success of a business, so firms should provide quality goods and services at reasonable prices. The principle of social justice requires manufacturers, traders and service providers to refrain from malpractices and take care of consumers' interests. The principle of trusteeship holds that manufacturers and producers are not the real owners of business, because resources are supplied by society; they are merely trustees and should use those resources for the benefit of society, including consumers. Finally, the survival and growth of business argue for consumer orientation: with globalization and increased competition, a business that indulges in malpractices will find it difficult to continue.</p><p><b>Consumer protection in Ethiopia.</b> In Ethiopia, the Consumer Proclamation No. 813/2013 has provided rights to consumers, including: consumers should receive sufficient and accurate information or explanation as to the quality and type of goods or services they purchase; they should buy goods and services on the basis of their own choice; they should not be obliged to buy merely because they looked into the quality or options of goods or services or made price bargains; they should be received humbly and respectfully by any business person and be protected from insult, threat, frustration and defamation; and they should be able to claim compensation, jointly or severally, from persons who participated in the supply of the goods or services, such as the manufacturer, importer, wholesaler or retailer, for damages suffered from the purchase or use of the goods or services.</p><p><b>Objectives of the Consumer Protection Act.</b> The main objectives of the Consumer Protection Act in Ethiopia are: to protect the business community from anti-competitive and unfair market practices and also consumers from misleading market conduct, and to establish a system conducive to the promotion of a competitive free market; to ensure that consumers get goods and services that are safe and suitable to their health and equivalent to the price they pay; and to accelerate economic development.</p>",
+  keyTerms: [
+    { term: "Consumer protection", def: "Safeguarding the interest and rights of consumers through measures adopted by government or NGOs against unethical business malpractices and for speedy redressal of grievances." },
+    { term: "Adulterated goods", def: "Goods to which something inferior has been added before sale." },
+    { term: "Spurious goods", def: "Selling something of little value instead of the real product." },
+    { term: "Sub-standard goods", def: "Goods that do not conform to prescribed quality standards." },
+    { term: "Hoarding and black-marketing", def: "Withholding goods from the market, creating scarcity and a rise in price." },
+    { term: "Maximum retail price", def: "The highest price fixed for a product; charging more is a malpractice." },
+    { term: "Principle of trusteeship", def: "The view that manufacturers and producers are merely trustees of resources supplied by society and should use them for society's benefit." },
+    { term: "Consumer Proclamation No. 813/2013", def: "The Ethiopian law that provides consumer rights to information, free choice, respectful treatment and compensation." },
+    { term: "Redressal of grievances", def: "The mechanisms consumers can use to obtain remedy, including compensation claims against suppliers." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "A merchant fills an oil container with cheaper liquid before selling it as cooking oil. Classify the malpractice and the remedy.",
+      given: "Something inferior has been added to the product being sold.",
+      formula: "Rule: adding something inferior to the product is the sale of adulterated goods.",
+      substitution: "The buyer pays the price of pure oil but receives a mixture, a loss of economic interest.",
+      calculation: "This is one of the listed malpractices, so the consumer can seek redressal under consumer protection measures.",
+      answer: "Adulterated goods; the consumer deserves speedy redressal and compensation."
+    },
+    {
+      problem: "A shopkeeper sells a cheap imitation watch displayed as the famous brand requested. Classify the malpractice.",
+      given: "Something of little value is sold instead of the real product.",
+      formula: "Rule: selling something of little value instead of the real product is a sale of spurious goods.",
+      substitution: "The imitation also falsely claims the brand's superior quality, so it may also be a duplicate good.",
+      calculation: "Both the spurious and duplicate-good categories describe the act, so the buyer is exploited.",
+      answer: "Sale of spurious (and duplicate) goods, a consumer exploitation malpractice."
+    },
+    {
+      problem: "A trader stores grain until the price rises sharply, then sells at the high price. Analyse using the lesson.",
+      given: "Goods are withheld from the market deliberately.",
+      formula: "Rule: hoarding and black-marketing lead to scarcity and a rise in price.",
+      substitution: "Withholding grain creates artificial scarcity.",
+      calculation: "The scarcity raises prices at the expense of consumers, which is a listed malpractice that protection measures target.",
+      answer: "Hoarding and black-marketing, an exploitative practice prohibited under consumer protection."
+    },
+    {
+      problem: "A buyer is insulted by a merchant after bargaining without buying. What right under Proclamation No. 813/2013 is violated?",
+      given: "The consumer looked into the goods and bargained over price, then left without purchase.",
+      formula: "Rule: consumers must not be obliged to buy because they examined quality or bargained, and must be received respectfully.",
+      substitution: "Browsing and bargaining do not create an obligation to buy.",
+      calculation: "The merchant failed both the free-choice right and the right to be received humbly and respectfully, protected from insult and defamation.",
+      answer: "Violated: the right not to be obliged to buy and the right to respectful, non-abusive treatment."
+    }
+  ],
+  commonMistakes: [
+    "Thinking consumer protection only means cheap prices rather than rights, safety and redressal.",
+    "Believing consumers of defective goods have no claim; it is their basic right to be protected from loss or injury.",
+    "Not exercising rights because of unawareness, ignorance or laziness.",
+    "Assuming consumer protection harms all business; it aims to protect fair competition and consumer-oriented firms.",
+    "Confusing adulterated with spurious goods; one adds inferior material, the other substitutes a worthless product.",
+    "Thinking manufacturers alone are liable, while importers, wholesalers and retailers can be claimed against jointly or severally.",
+    "Believing a customer who only inspects goods or bargains has any obligation to buy."
+  ],
+  applications: [
+    "Checking the price and weight of goods against the maximum retail price and true measure at your local shop.",
+    "Insisting on accurate information about the quality and type of a service before paying, as guaranteed by Proclamation 813/2013.",
+    "Reporting adulterated or expired food items to trade and consumer affairs offices in your town.",
+    "Demanding respectful service and refusing to be pressured or insulted by a seller.",
+    "Claiming compensation for damages from any participant in the supply chain, from manufacturer to retailer.",
+    "Recognising that consumer satisfaction, not deception, sustains a business in a competitive free market."
+  ],
+  summary: "Consumer protection safeguards the interests and rights of consumers against unethical malpractices such as adulterated, spurious, sub-standard and defective goods, false measures, hoarding, overcharging and misleading advertising, providing speedy redressal of grievances. It is needed because consumers occupy a helpless position and often lack awareness, and it is justified by social responsibility, trusteeship, social justice and even the survival of business itself. Ethiopia's Proclamation No. 813/2013 grants rights to information, free choice, respectful treatment and compensation, and the Act aims to protect competition, ensure safe goods worth their price and accelerate economic development.",
+  visuals: [
+    {
+      type: "tableVisual",
+      config: {
+        title: "Common Business Malpractices",
+        headers: ["Malpractice", "Meaning"],
+        rows: [
+          ["Adulterated goods", "Adding something inferior to the product sold"],
+          ["Spurious goods", "Selling something of little value instead of the real product"],
+          ["Sub-standard goods", "Goods not conforming to prescribed quality standards"],
+          ["False weights and measures", "Leading to underweight"],
+          ["Hoarding and black-marketing", "Creating scarcity and a rise in price"],
+          ["Misleading advertisements", "Falsely claiming superior quality, grade or standard"],
+          ["Inferior services", "Service quality below what was agreed upon"]
+        ]
+      }
+    },
+    {
+      type: "mindMap",
+      config: {
+        title: "Why Consumers Need Protection",
+        center: "Need for Consumer Protection",
+        branches: [
+          { label: "Consumer position", items: ["Helpless position", "Lack of awareness", "Ignorance or laziness"] },
+          { label: "Social arguments", items: ["Social responsibility", "Social justice", "Trusteeship"] },
+          { label: "Business arguments", items: ["Consumer satisfaction", "Survival and growth"] },
+          { label: "What consumers need", items: ["Physical safety", "Access to information", "Statutory redressal"] }
+        ]
+      }
+    },
+    {
+      type: "qa",
+      config: {
+        title: "Proclamation No. 813/2013 Rights",
+        pairs: [
+          { q: "What information right do consumers have?", a: "Sufficient and accurate information or explanation about the quality and type of goods or services." },
+          { q: "Must a consumer buy after bargaining?", a: "No; they should not be obliged to buy because they looked into quality or made price bargains." },
+          { q: "From whom can a consumer claim compensation?", a: "Jointly or severally from any participant in the supply: manufacturer, importer, wholesaler or retailer." },
+          { q: "How must business persons receive customers?", a: "Humbly and respectfully, protecting them from insult, threat, frustration and defamation." }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "Consumer protection means:", options: ["safeguarding the interest and rights of consumers", "protecting producers from competition", "controlling all prices by government", "banning advertising entirely"], answer: 0, difficulty: 1, explanation: "It refers to measures protecting consumers from unscrupulous and unethical malpractices by business, with speedy redressal of grievances." },
+    { type: "mcq", q: "Selling something of little value instead of the real product is the sale of:", options: ["adulterated goods", "spurious goods", "sub-standard goods", "defective goods"], answer: 1, difficulty: 2, explanation: "Spurious goods mean selling something of little value instead of the real product." },
+    { type: "tf", q: "Hoarding and black-marketing lead to scarcity and a rise in price.", answer: true, difficulty: 1, explanation: "This is stated among the common business malpractices leading to consumer exploitation." },
+    { type: "short", q: "Which Ethiopian law provided rights to consumers in 2013?", answer: "Consumer Proclamation No. 813/2013|proclamation 813|813/2013", difficulty: 2, explanation: "The Consumer Proclamation No. 813/2013 provides the rights to consumers." },
+    { type: "mcq", q: "Under Proclamation No. 813/2013, a consumer can claim compensation:", options: ["only from the retailer", "jointly or severally from the manufacturer, importer, wholesaler or retailer", "from nobody", "only from the government"], answer: 1, difficulty: 3, explanation: "Compensation may be claimed jointly or severally from persons who participated in the supply of the goods or services." },
+    { type: "tf", q: "A consumer who examined quality or made price bargains can be obliged to buy the goods.", answer: false, difficulty: 2, explanation: "Consumers should not be obliged to buy because they looked into quality or options or made price bargains." },
+    { type: "concept", q: "Give one reason the lesson gives for why consumers need protection.", answer: "helpless position of consumers|lack of awareness|ignorance|laziness|vulnerability to malpractices", difficulty: 2, explanation: "The necessity arises mainly due to the helpless position of consumers, and many do not exercise their rights due to lack of awareness, ignorance or laziness." },
+    { type: "mcq", q: "The principle of trusteeship states that manufacturers and producers:", options: ["fully own society's resources", "are merely trustees of resources supplied by society", "should ignore consumer interests", "must fix maximum retail prices"], answer: 1, difficulty: 3, explanation: "Resources are supplied by society, so businesses are merely trustees who should use them for society's benefit, including consumers." },
+    { type: "mcq", q: "One main objective of the Ethiopian Consumer Protection Act is to:", options: ["accelerate economic development", "abolish the free market", "tax all consumers", "nationalize retail shops"], answer: 0, difficulty: 2, explanation: "The Act's objectives include protecting the market from unfair practices, ensuring safe and suitable goods for the price paid, and accelerating economic development." },
+    { type: "tf", q: "Consumers' satisfaction is described as the key to the success of a business.", answer: true, difficulty: 1, explanation: "The lesson states consumer satisfaction is the key to business success, so firms should serve consumer interests." },
+    { type: "short", q: "What term describes goods that do not conform to prescribed quality standards?", answer: "sub-standard goods|sale of sub-standard goods", difficulty: 2, explanation: "Sub-standard goods are goods which do not conform to prescribed quality standards." }
+  ]
+};

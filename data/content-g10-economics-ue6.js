@@ -1,14 +1,633 @@
-/* Content: g10-economics-ue6 — migrated from generated JSON (Phase 0 pipeline restore).
-   Content upgrade to spec v2 happens per unit in later phases. */
+/* Content: Grade 10 Economics - Unit 6: Economic Growth (5 topics)
+   Source: MoE Economics Grade 10 Student Textbook, Unit 6. */
 window.Lessons = window.Lessons || {};
 
-Lessons["g10-economics-ue6-t1"] = {"overview":"<b>Review of Macroeconomic Variables</b> sits inside <b>Economic Growth</b>. Economic growth is the focus of Unit 6 of Grade 10 Economics in the Ethiopian (FDRE Ministry of Education) curriculum. First, it reviews the macroeconomic variables behind growth. Then it defines and measures economic growth, and separates it from economic development. Next, it examines the sources of growth, above all productivity. Also it weighs the limits of GDP per capita as a measure. Finally, it walks through the phases of the business cycle. Students will also learn how economic growth shapes real-life living standards.","objectives":["Review the main macroeconomic variables.","Define and measure economic growth.","Distinguish growth from economic development.","Identify the major sources of growth.","Explain the weaknesses of GDP per capita."],"simple":"<b>Review of Macroeconomic Variables in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, a review of GDP, GNP, inflation, and unemployment.</li> <li>Also why these variables matter for growth.</li></ul>","detailed":"<p><b>Review of Macroeconomic Variables — the essentials.</b> First, a review of GDP, GNP, inflation, and unemployment. Also why these variables matter for growth.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Review the main macroeconomic variables.</li><li>Define and measure economic growth.</li><li>Distinguish growth from economic development.</li><li>Identify the major sources of growth.</li><li>Explain the weaknesses of GDP per capita.</li></ul>","keyTerms":[{"term":"First","def":"First, a review of GDP, GNP, inflation, and unemployment."},{"term":"Also why these variables matter for growth","def":"Also why these variables matter for growth."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing review of macroeconomic variables with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Interpreting economic news about Ethiopia in the media","The applied data-response questions in the ESSLCE economics paper"],"summary":"Review of Macroeconomic Variables: First, a review of GDP, GNP, inflation, and unemployment. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"Review of Macroeconomic Variables\" is correct according to the MoE curriculum?","options":["First, a review of GDP, GNP, inflation, and unemployment.","Review of Macroeconomic Variables holds only under conditions this topic says do not apply","Review of Macroeconomic Variables inverts the direction of the relationship this topic describes","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, a review of GDP, GNP, inflation, and unemployment. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"Review of Macroeconomic Variables\"?","options":["Also why these variables matter for growth.","Review of Macroeconomic Variables is a household-level claim, not the national-level claim of this topic","Review of Macroeconomic Variables holds only under conditions this topic says do not apply","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Also why these variables matter for growth."},{"type":"tf","q":"True or false: First, a review of GDP, GNP, inflation, and unemployment.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover review of macroeconomic variables.","answer":false,"difficulty":1,"explanation":"Review of Macroeconomic Variables is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Review the main macroeconomic variables.","difficulty":2,"altAnswers":["Define and measure economic growth.","Distinguish growth from economic development."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why review of macroeconomic variables matters.","answer":"Review of Macroeconomic Variables is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of review of macroeconomic variables in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to review of macroeconomic variables, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
+Lessons["g10-economics-ue6-t1"] = {
+  overview: "Economics answers scarcity at two levels: the individual and the nation. This lesson reviews the major macroeconomic variables - current account balance, inflation, economic growth and unemployment - and the goals governments pursue for each.",
+  objectives: [
+    "Distinguish macroeconomics from microeconomics",
+    "Identify the four major macroeconomic variables",
+    "Compute and interpret a country's trade balance",
+    "Explain the two causes of inflation",
+    "Classify the four types of unemployment by their cause"
+  ],
+  simple: "Macroeconomics studies decisions made at the level of the whole country, while microeconomics studies individual consumers and producers. The major macroeconomic variables are the current account balance, inflation, economic growth and unemployment. The current account balance is the value of exports minus imports; a surplus is desirable, a deficit is not. Inflation is a rise in the overall price level, which lowers the purchasing power of money; it can be cost-push or demand-pull. Economic growth is the increase in output over a period, usually a year, and it is extremely desirable because people become richer. Unemployment counts people willing and able to work but without a job at the going wage rate; it comes in frictional, structural, seasonal and cyclical forms.",
+  detailed: "<p><b>Micro versus macro.</b> Scarcity makes the study of economics a necessity rather than a choice. When decisions about limited resources are made by individual decision makers - the consumer trying to maximise satisfaction and the producer trying to maximise profit - the analysis belongs to <b>microeconomics</b>, and choosing the best use of a limited budget is called optimisation. When the same decisions are made at the country level, the analysis belongs to <b>macroeconomics</b>. Nations make decisions through their governments, and macroeconomics is the best tool for setting priorities in production and consumption so that the macroeconomic goals are reached.</p><p><b>The macroeconomic variables and goals.</b> The major macroeconomic variables are: current account balance, inflation, economic growth and unemployment. Each variable has a goal that governments pursue: improved current account balance, stable prices, increased economic growth, and reduced unemployment.</p><p><b>Current account balance.</b> Countries sell goods and services abroad (exports) and buy from abroad (imports). Current account or trade balance = Exports (X) - Imports (M). If the value of exports is greater than the value of imports there is a <b>trade surplus</b>, a desirable outcome, which is true for developed countries exporting expensive manufactured commodities. If exports are less than imports there is a <b>trade deficit</b>, a non-desirable outcome in which the country loses from trade. Least developed countries face this because they export cheap primary agricultural commodities.</p><p><b>Inflation.</b> Inflation is an increase in the overall price level of goods and services over a certain period of time. When the general level of prices rises, a unit of currency effectively buys less than it did in prior periods, so purchasing power falls over time. High inflation is not desirable, so policymakers try to keep it low. Inflation has two types (causes): <b>cost-push</b> inflation, when the costs of production are high so producers increase prices to remain profitable; and <b>demand-pull</b> inflation, when growing demand for goods allows firms to increase prices to gain more profit.</p><p><b>Economic growth.</b> Economic growth is the amount that the level of output within an economy increases over a given time period, usually a year. Growth is extremely desirable because it means that people within the economy are getting richer. It can be increased in a number of ways, such as technological improvement, an increase in the demand for goods and services, and an increase in the size of the workforce.</p><p><b>Unemployment.</b> Unemployment refers to the number of people within an economy who are willing and able to work but do not have a job at the going wage rate. It has four types: <b>frictional</b> unemployment, caused by the search for a new job or a transition between jobs; <b>structural</b> unemployment, caused by the decline of a specific industry, such as type-writing or coal mining; <b>seasonal</b> unemployment, caused by the time of year, such as the drought time for farmers; and <b>cyclical</b> unemployment, caused by a recession, a reduction in the level of output within an economy.</p>",
+  keyTerms: [
+    { term: "Microeconomics", def: "The analysis of decisions made by individual consumers and producers about their limited resources; the study of optimisation." },
+    { term: "Macroeconomics", def: "The analysis of decisions made at the country level, used to set priorities so that the macroeconomic goals are attained." },
+    { term: "Current account balance", def: "The difference between the dollar value of goods a country exports and the dollar value it imports; trade balance = X - M." },
+    { term: "Trade surplus", def: "The situation when exports exceed imports; a desirable outcome in which the country benefits from trade." },
+    { term: "Trade deficit", def: "The situation when imports exceed exports; a non-desirable outcome in which the country loses from trade." },
+    { term: "Inflation", def: "An increase in the overall price level of goods and services over a period, which lowers the purchasing power of money." },
+    { term: "Demand-pull inflation", def: "Inflation caused by growing demand for goods, which allows firms to raise prices for more profit." },
+    { term: "Cyclical unemployment", def: "Unemployment caused by a recession, the reduction in the level of output within an economy." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "A country exports goods worth 1,800 million dollars and imports goods worth 2,300 million dollars in a year. Compute the trade balance and classify it.",
+      given: "Exports X = 1,800 million dollars; imports M = 2,300 million dollars.",
+      formula: "Current account or trade balance = Exports (X) - Imports (M).",
+      substitution: "Trade balance = 1,800 - 2,300.",
+      calculation: "1,800 - 2,300 = -500 million dollars. Because X is less than M, the balance is negative.",
+      answer: "The trade balance is -500 million dollars, a trade deficit, which is not a desirable outcome."
+    },
+    {
+      problem: "A country exports goods worth 3,000 million dollars and imports worth 2,400 million dollars. What is the trade balance and who usually enjoys this outcome?",
+      given: "Exports X = 3,000 million dollars; imports M = 2,400 million dollars.",
+      formula: "Trade balance = X - M.",
+      substitution: "Trade balance = 3,000 - 2,400.",
+      calculation: "3,000 - 2,400 = +600 million dollars. X is greater than M, so the result is a surplus.",
+      answer: "A trade surplus of 600 million dollars; developed countries exporting expensive manufactured commodities typically face this scenario."
+    },
+    {
+      problem: "Fertiliser and fuel prices rise sharply, so farmers and factories face higher production costs and raise their prices. Distinguish the type of inflation and its effect on money.",
+      given: "The costs of production rise first; sellers then increase prices to stay profitable.",
+      formula: "Principle: cost-push inflation occurs when high production costs force prices up.",
+      substitution: "The trigger here is higher input costs, not stronger demand.",
+      calculation: "High costs -> higher prices, so the inflation is cost-push; as the price level rises, a unit of money buys less than before, so purchasing power falls.",
+      answer: "Cost-push inflation; it lowers the purchasing power of the currency over time."
+    },
+    {
+      problem: "Workers face four situations. (a) A graduate spends months searching for her first job. (b) A typist loses work as typewriters disappear. (c) A farmer has no work during the drought season. (d) A worker loses a job when national output falls. Name the type of unemployment in each.",
+      given: "Each case has a different cause: search, declining industry, time of year, falling output.",
+      formula: "Principle: match each cause to its type - frictional, structural, seasonal, cyclical.",
+      substitution: "Search -> frictional; decline of an industry -> structural; drought time -> seasonal; recession -> cyclical.",
+      calculation: "Applying each definition to the four cases gives one case per type.",
+      answer: "(a) Frictional, (b) structural, (c) seasonal, (d) cyclical unemployment."
+    }
+  ],
+  commonMistakes: [
+    "Thinking macroeconomics is simply 'bigger' microeconomics; it analyses decisions at country level, not just large firms.",
+    "Defining trade balance as exports plus imports instead of exports minus imports.",
+    "Calling any rise in the price of one good inflation; inflation is a rise in the overall price level.",
+    "Confusing cost-push inflation with demand-pull inflation by ignoring whether costs or demand triggered it.",
+    "Measuring unemployment by all people without a job, instead of those willing and able to work at the going wage rate.",
+    "Mixing up structural and seasonal unemployment; one comes from a declining industry, the other from the time of year.",
+    "Blaming cyclical unemployment on workers' choice rather than on a recession."
+  ],
+  applications: [
+    "Ethiopia's coffee and other primary agricultural exports face the least developed country pattern: cheap exports against dearer imports, so the textbook expects a trade deficit.",
+    "A farmer in a drought year has no work at some times of the year, an example of seasonal unemployment.",
+    "When fuel or fertiliser costs rise, Ethiopian producers raise prices, showing cost-push inflation at work.",
+    "When incomes in towns rise quickly and buyers bid up the prices of goods, demand-pull inflation appears.",
+    "A government that wants faster growth can support technological improvement, higher demand and a larger workforce.",
+    "Watching your own purchasing power, the same 50 birr buy fewer goods when prices rise, is daily evidence of inflation."
+  ],
+  summary: "Macroeconomics handles the decisions of a whole country; its key variables are the current account balance, inflation, economic growth and unemployment, and the matching goals are a better trade balance, stable prices, faster growth and less unemployment. Trade balance = X - M: a surplus is desirable, a deficit is not, and least developed countries usually face the deficit. Inflation is cost-push or demand-pull, and unemployment is frictional, structural, seasonal or cyclical depending on its cause.",
+  visuals: [
+    {
+      type: "comparison",
+      config: {
+        title: "Microeconomics vs Macroeconomics",
+        left: { name: "Microeconomics", items: ["Individual consumers and producers", "Maximise satisfaction or profit", "Decisions on a limited budget", "Optimisation"] },
+        right: { name: "Macroeconomics", items: ["The nation as decision maker", "Government macroeconomic policies", "Priorities at country level", "Goals: growth, price stability, jobs, trade balance"] }
+      }
+    },
+    {
+      type: "tableVisual",
+      config: {
+        title: "Four Macroeconomic Variables and Their Goals",
+        headers: ["Variable", "Meaning", "Desirable position"],
+        rows: [
+          ["Current account balance", "Exports minus imports (X - M)", "Improved balance; surplus"],
+          ["Inflation", "Rise in overall price level", "Stable prices; low inflation"],
+          ["Economic growth", "Increase in output over a year", "Increased growth"],
+          ["Unemployment", "People able and willing to work without a job", "Reduced unemployment"]
+        ]
+      }
+    },
+    {
+      type: "qa",
+      config: {
+        title: "Trade Balance Quick-Check",
+        pairs: [
+          { q: "Write the formula for the current account balance.", a: "Trade balance = Exports (X) - Imports (M)." },
+          { q: "When is there a trade surplus?", a: "When the value of exports is greater than the value of imports." },
+          { q: "Why do least developed countries face a trade deficit?", a: "They export cheap primary agricultural commodities and import dearer goods." },
+          { q: "What happens to purchasing power during inflation?", a: "It falls: a unit of currency buys less than it did in prior periods." },
+          { q: "Which unemployment type comes from a recession?", a: "Cyclical unemployment." }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "Which of the following is NOT one of the major macroeconomic variables named in the lesson?", options: ["Current account balance", "Inflation", "Economic growth", "Consumer satisfaction"], answer: 3, difficulty: 1, explanation: "The major variables are current account balance, inflation, economic growth and unemployment; consumer satisfaction is a microeconomic aim." },
+    { type: "mcq", q: "If a country's exports are worth less than its imports, the country has:", options: ["a trade surplus", "a trade deficit", "stable prices", "a current account surplus"], answer: 1, difficulty: 1, explanation: "When X is less than M there is a trade deficit, a non-desirable outcome." },
+    { type: "tf", q: "Current account or trade balance = Exports (X) - Imports (M).", answer: true, difficulty: 1, explanation: "The textbook defines the current account balance exactly this way." },
+    { type: "mcq", q: "Highest inflation occurs when firms raise prices because buyers can pay more. This is:", options: ["cost-push inflation", "demand-pull inflation", "structural inflation", "seasonal inflation"], answer: 1, difficulty: 2, explanation: "Growing demand that lets firms raise prices is demand-pull inflation." },
+    { type: "tf", q: "High inflation is desirable because it makes exports cheaper.", answer: false, difficulty: 2, explanation: "High inflation is not desirable; it lowers the purchasing power of money, so policymakers try to keep inflation low." },
+    { type: "short", q: "Name the type of unemployment caused by the decline of a specific industry, such as type-writing.", answer: "structural unemployment|structural", difficulty: 1, explanation: "Structural unemployment is caused by the decline of a specific industry." },
+    { type: "mcq", q: "A worker loses his job because the economy's level of output has fallen. His unemployment is:", options: ["frictional", "seasonal", "cyclical", "structural"], answer: 2, difficulty: 2, explanation: "Cyclical unemployment is caused by a recession, a reduction in the level of output." },
+    { type: "short", q: "State one way economic growth can be increased.", answer: "technological improvement|increase in the demand for goods and services|increase in the size of the workforce|technological change", difficulty: 1, explanation: "Growth can rise through technological improvement, higher demand, or a larger workforce." },
+    { type: "concept", q: "Explain in one sentence what inflation does to the purchasing power of money.", answer: "purchasing power falls|money buys less than before", difficulty: 2, explanation: "With inflation a unit of currency effectively buys less than it did in prior periods." },
+    { type: "concept", q: "Why is a trade surplus described as a desirable outcome?", answer: "the country benefits from trade|the country gains from trade", difficulty: 2, explanation: "With X greater than M the country is benefitting from trade." },
+    { type: "ordering", q: "Arrange these steps of a trade evaluation from first to last.", options: ["Compare X and M", "Add up the value of imports (M)", "Add up the value of exports (X)", "Decide surplus or deficit"], answer: 2, difficulty: 2, explanation: "First add up exports (X), then imports (M), then compare X with M, and finally decide surplus or deficit." }
+  ]
+};
 
-Lessons["g10-economics-ue6-t2"] = {"overview":"<b>Definition and Measurement of Economic Growth</b> sits inside <b>Economic Growth</b>. Economic growth is the focus of Unit 6 of Grade 10 Economics in the Ethiopian (FDRE Ministry of Education) curriculum. First, it reviews the macroeconomic variables behind growth. Then it defines and measures economic growth, and separates it from economic development. Next, it examines the sources of growth, above all productivity. Also it weighs the limits of GDP per capita as a measure. Finally, it walks through the phases of the business cycle. Students will also learn how economic growth shapes real-life living standards.","objectives":["Review the main macroeconomic variables.","Define and measure economic growth.","Distinguish growth from economic development.","Identify the major sources of growth.","Explain the weaknesses of GDP per capita."],"simple":"<b>Definition and Measurement of Economic Growth in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, economic growth as a sustained rise in real output.</li> <li>Then how to measure it using real GDP and GDP per capita.</li> <li>Also the difference between growth and economic development.</li></ul>","detailed":"<p><b>Definition and Measurement of Economic Growth — the essentials.</b> First, economic growth as a sustained rise in real output. Then how to measure it using real GDP and GDP per capita. Also the difference between growth and economic development.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Review the main macroeconomic variables.</li><li>Define and measure economic growth.</li><li>Distinguish growth from economic development.</li><li>Identify the major sources of growth.</li><li>Explain the weaknesses of GDP per capita.</li></ul>","keyTerms":[{"term":"First","def":"First, economic growth as a sustained rise in real output."},{"term":"Then how to measure it using real GDP and GDP per capita","def":"Then how to measure it using real GDP and GDP per capita."},{"term":"Also the difference between growth and economic development","def":"Also the difference between growth and economic development."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing definition and measurement of economic growth with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Interpreting economic news about Ethiopia in the media","The applied data-response questions in the ESSLCE economics paper"],"summary":"Definition and Measurement of Economic Growth: First, economic growth as a sustained rise in real output. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"Definition and Measurement of Economic Growth\" is correct according to the MoE curriculum?","options":["First, economic growth as a sustained rise in real output.","Definition and Measurement of Economic Growth holds only under conditions this topic says do not apply","Definition and Measurement of Economic Growth inverts the direction of the relationship this topic describes","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, economic growth as a sustained rise in real output. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"Definition and Measurement of Economic Growth\"?","options":["Then how to measure it using real GDP and GDP per capita.","Definition and Measurement of Economic Growth is a household-level claim, not the national-level claim of this topic","Definition and Measurement of Economic Growth holds only under conditions this topic says do not apply","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Then how to measure it using real GDP and GDP per capita."},{"type":"tf","q":"True or false: First, economic growth as a sustained rise in real output.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover definition and measurement of economic growth.","answer":false,"difficulty":1,"explanation":"Definition and Measurement of Economic Growth is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Review the main macroeconomic variables.","difficulty":2,"altAnswers":["Define and measure economic growth.","Distinguish growth from economic development."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why definition and measurement of economic growth matters.","answer":"Definition and Measurement of Economic Growth is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of definition and measurement of economic growth in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to definition and measurement of economic growth, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
+Lessons["g10-economics-ue6-t2"] = {
+  overview: "Economic growth is measured from real GDP: in the short run it is the rate of increase in RGDP, and in the long run it is a sustained rise in per capita income with structural change. This lesson defines both, teaches the two key formulas, and separates growth from development.",
+  objectives: [
+    "Define economic growth in the short run and in the long run",
+    "Calculate the growth rate of real GDP between two years",
+    "Calculate real GDP per capita and use it to compare living standards",
+    "Describe structural change that accompanies long-run growth",
+    "Differentiate economic growth from economic development"
+  ],
+  simple: "In the short run, economic growth means real GDP (RGDP) increases, measured as g = (RGDPt - RGDPt-1) / RGDPt-1 x 100%. In the long run, growth means a sustained increase in per capita income plus structural change, usually industrialisation: agriculture's share of GDP and of the workforce falls while industry and services expand. Real GDP per capita is the RGDP of a year divided by that year's total population, and it shows income of the average person. Growth and development are not synonyms: growth is the rate of increase in GDP or GDP per capita, while development is a broader transformation of social, political, institutional and economic structures. Growth can occur without development; for development, growth is necessary but not sufficient, so growth is a subset of development.",
+  detailed: "<p><b>Growth in the short run.</b> Economic growth in the short run is when RGDP increases in the short run. The increase in RGDP is given by: <b>g = (RGDPt - RGDPt-1) / RGDPt-1 x 100%</b>. In words, take this year's real GDP, subtract last year's real GDP, divide the difference by last year's real GDP, and multiply by 100 percent. The level of real GDP is a good indicator of economic prosperity, and the growth of real GDP is a good indicator of economic progress; the growth rate measures how rapidly real GDP per person grew in the typical year.</p><p><b>Growth in the long run.</b> Long-run growth is a sustained increase in per capita income and associated structural changes in the economy: GDP keeps increasing for subsequent years and the structure of production shifts from the agricultural sector to the manufacturing sector. <b>Per capita real GDP</b>, also known as per capita income, is calculated as RGDP of the given year divided by the total population of that year: Per capita RGDP = RGDPt / Populationt.</p><p><b>Structural change.</b> Structural changes are usually characterised by industrialisation: a fall in the share of agriculture both in GDP and in the workforce, and a corresponding increase in the share of the industrial and service sectors. So a country that is truly growing over the long run is not just producing more each year; it is also transforming what it produces and who does what kind of work.</p><p><b>What growth brings.</b> Economic growth is characterised by the supply of more as well as better goods and services on a sustainable basis with minimum harmful by-products. A higher growth rate of GDP is taken as basic for improving living standard, alleviating poverty, creating more employment opportunities and greater social security.</p><p><b>Growth versus development.</b> The two terms are wrongly taken as synonyms. Growth refers to the rate of increase in GDP or GDP per capita. Development is a much broader concept, a process of overall transformation in different aspects of human life, dealing with progressive changes in social, political, institutional and economic structures. Economic growth can take place without economic development, but for economic development to take place, economic growth is a necessary but not a sufficient condition. We can therefore say that growth is a subset of development.</p>",
+  keyTerms: [
+    { term: "Economic growth (short run)", def: "An increase in real GDP within an economy over a given period, usually a year, expressed as a growth rate in percent." },
+    { term: "Economic growth (long run)", def: "A sustained increase in per capita income together with structural changes such as the shift from agriculture to manufacturing." },
+    { term: "Real GDP (RGDP)", def: "The value of the economy's total output adjusted for price changes; its level indicates prosperity and its growth indicates progress." },
+    { term: "Real GDP per capita", def: "RGDP of the given year divided by the total population of that year; also called per capita income." },
+    { term: "Structural change", def: "The movement of the economy from less productive agricultural activities toward more productive industrial and service activities." },
+    { term: "Industrialisation", def: "The rise of the industrial sector's share in GDP and in the workforce as an economy develops." },
+    { term: "Economic development", def: "A broad process of overall transformation across social, political, institutional and economic structures of life." },
+    { term: "Growth rate (g)", def: "The percentage change of RGDP between two years: g = (RGDPt - RGDPt-1) / RGDPt-1 x 100%." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "A country's real GDP was 800 billion birr last year and 872 billion birr this year. Calculate the growth rate of real GDP.",
+      given: "RGDPt = 872 billion birr; RGDPt-1 = 800 billion birr.",
+      formula: "g = (RGDPt - RGDPt-1) / RGDPt-1 x 100%.",
+      substitution: "g = (872 - 800) / 800 x 100%.",
+      calculation: "(872 - 800) = 72; 72 / 800 = 0.09; 0.09 x 100% = 9%.",
+      answer: "Real GDP grew by 9%, so the economy experienced economic growth in the short run."
+    },
+    {
+      problem: "During a bad year, real GDP falls from 1,500 billion birr to 1,425 billion birr. Compute the growth rate and interpret it.",
+      given: "RGDPt = 1,425 billion birr; RGDPt-1 = 1,500 billion birr.",
+      formula: "g = (RGDPt - RGDPt-1) / RGDPt-1 x 100%.",
+      substitution: "g = (1,425 - 1,500) / 1,500 x 100%.",
+      calculation: "(1,425 - 1,500) = -75; -75 / 1,500 = -0.05; -0.05 x 100% = -5%.",
+      answer: "The growth rate is -5%, a negative growth: output contracted instead of growing."
+    },
+    {
+      problem: "A country's real GDP in a given year is 2,500 million birr and its total population is 5 million. Find real GDP per capita.",
+      given: "RGDPt = 2,500 million birr; populationt = 5 million.",
+      formula: "Per capita RGDP = RGDPt / Populationt.",
+      substitution: "Per capita RGDP = 2,500 million / 5 million.",
+      calculation: "2,500 / 5 = 500.",
+      answer: "Real GDP per capita is 500 birr, the income of the average person that year."
+    },
+    {
+      problem: "Two economies both raise real GDP by 4% a year, but in country A the share of agriculture in GDP and employment stays constant, while in country B it falls as industry expands. Which country shows growth in the long run, and why?",
+      given: "Same rate of RGDP growth; only B shows a falling share of agriculture.",
+      formula: "Principle: long-run growth is a sustained increase in per capita income plus structural change.",
+      substitution: "B satisfies the structural-change condition; A does not.",
+      calculation: "Since structural change from agriculture to manufacturing is part of long-run growth, only B meets the full definition.",
+      answer: "Country B shows long-run growth; A shows short-run GDP increases without structural transformation."
+    }
+  ],
+  commonMistakes: [
+    "Dividing by this year's RGDP instead of last year's when computing the growth rate.",
+    "Forgetting to multiply by 100%, reporting 0.09 instead of 9%.",
+    "Calling any rise in nominal spending economic growth; the measure must be real GDP.",
+    "Confusing GDP with GDP per capita; per capita divides RGDP by population.",
+    "Treating economic growth and economic development as synonyms.",
+    "Believing growth alone guarantees development; growth is necessary but not sufficient for development.",
+    "Measuring long-run growth by one good year instead of sustained increases with structural change."
+  ],
+  applications: [
+    "Computing Ethiopia's growth rate means taking real GDP data for two consecutive years and applying g = (RGDPt - RGDPt-1) / RGDPt-1 x 100%.",
+    "Comparing per capita RGDP across years shows whether the income of the average Ethiopian is actually rising.",
+    "As Ethiopian industry and services expand while agriculture's share falls, the economy displays the structural change typical of long-run growth.",
+    "A policy maker judging success by GDP growth alone is warned: development also needs social, political and institutional transformation.",
+    "Higher growth supports poverty alleviation, more employment opportunities and greater social security.",
+    "Students should think about Ethiopia's economic status throughout this unit, associating every theoretical discussion with Ethiopia's perspective."
+  ],
+  summary: "Short-run growth is the rate of increase of real GDP, g = (RGDPt - RGDPt-1) / RGDPt-1 x 100%, while long-run growth is a sustained rise in per capita income, RGDPt / Populationt, with structural change from agriculture to industry and services. Growth means more and better goods on a sustainable basis and underpins better living standards and poverty alleviation. Development is broader than growth: growth can occur without development, but development cannot occur without growth, so growth is a subset of development.",
+  visuals: [
+    {
+      type: "steps",
+      config: {
+        title: "Computing the Growth Rate of Real GDP",
+        steps: [
+          { label: "Get RGDPt", detail: "Find this year's real GDP." },
+          { label: "Get RGDPt-1", detail: "Find last year's real GDP." },
+          { label: "Subtract", detail: "RGDPt - RGDPt-1 gives the change in output." },
+          { label: "Divide", detail: "Divide the change by RGDPt-1." },
+          { label: "Multiply", detail: "Multiply by 100% to report the growth rate g." }
+        ]
+      }
+    },
+    {
+      type: "comparison",
+      config: {
+        title: "Economic Growth vs Economic Development",
+        left: { name: "Growth", items: ["Rate of increase in GDP or GDP per capita", "Measured from RGDP", "Can occur without development", "A subset of development"] },
+        right: { name: "Development", items: ["Overall transformation of human life", "Social, political, institutional and economic change", "Requires growth but needs more", "Progressive change in structures"] }
+      }
+    },
+    {
+      type: "tableVisual",
+      config: {
+        title: "Growth Indicators at a Glance",
+        headers: ["Indicator", "Formula in words", "What it tells you"],
+        rows: [
+          ["Growth rate (g)", "Change in RGDP divided by previous RGDP, times 100%", "How fast RGDP grows in the typical year"],
+          ["Per capita RGDP", "RGDP of the year divided by population of the year", "Income of the average person"],
+          ["Real GDP level", "Total output of the economy", "Indicator of economic prosperity"],
+          ["Structural change", "Shares of agriculture, industry and services in GDP and jobs", "Whether transformation is happening"]
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "Economic growth in the short run is defined as:", options: ["an increase in nominal spending", "an increase in RGDP", "a fall in population", "a rise in prices"], answer: 1, difficulty: 1, explanation: "In the short run growth is an increase in real GDP." },
+    { type: "mcq", q: "A country's real GDP rises from 400 billion birr to 440 billion birr. The growth rate is:", options: ["4%", "10%", "40%", "0.9%"], answer: 1, difficulty: 2, explanation: "g = (440 - 400) / 400 x 100% = 40/400 x 100% = 10%." },
+    { type: "tf", q: "Per capita real GDP is RGDP of the year divided by the total population of the year.", answer: true, difficulty: 1, explanation: "This is the textbook definition of per capita RGDP (per capita income)." },
+    { type: "mcq", q: "Which pairing correctly separates growth from development?", options: ["Growth is broad; development only counts GDP", "Growth is the rate of increase in GDP per capita; development is broader overall transformation", "Both mean exactly the same thing", "Development is only about factories"], answer: 1, difficulty: 2, explanation: "Growth is the rate of increase in GDP or GDP per capita; development is broader, covering social, political, institutional and economic change." },
+    { type: "tf", q: "Economic growth can take place without economic development.", answer: true, difficulty: 2, explanation: "The textbook states growth can take place without development; for development, growth is necessary but not sufficient." },
+    { type: "short", q: "Structural change in long-run growth is usually characterised by what word?", answer: "industrialisation", difficulty: 1, explanation: "Structural changes are usually characterised by industrialisation." },
+    { type: "concept", q: "Describe the two changes in shares that define structural change.", answer: "agriculture share falls in GDP and workforce|industry and services share rises", difficulty: 2, explanation: "Agriculture's share in GDP and the workforce falls while industrial and service shares increase." },
+    { type: "short", q: "What is the relationship between growth and development expressed as a set?", answer: "growth is a subset of development|growth is a subset", difficulty: 2, explanation: "Because development requires growth but includes more, growth is called a subset of development." },
+    { type: "concept", q: "A year's real GDP is 990 billion birr, up from 900 billion birr, with population constant. An economist says living standards improved. Justify with a calculation.", answer: "g = 10 percent|10% growth", difficulty: 3, explanation: "g = (990 - 900) / 900 x 100% = 10%, so real GDP per person rises and prosperity improves." },
+    { type: "ordering", q: "Arrange these steps for finding real GDP per capita.", options: ["Divide RGDP by population", "Find the total population of the year", "Find the RGDP of the given year", "Report the result as per capita income"], answer: 2, difficulty: 2, explanation: "First find RGDP of the year, then the population of that year, divide RGDP by population, and report per capita income." },
+    { type: "mcq", q: "The level of real GDP is described in the lesson as a good indicator of:", options: ["economic prosperity", "population size", "inflation", "unemployment"], answer: 0, difficulty: 1, explanation: "The level of real GDP indicates prosperity, and the growth of real GDP indicates progress." }
+  ]
+};
 
-Lessons["g10-economics-ue6-t3"] = {"overview":"<b>Sources of Economic Growth</b> sits inside <b>Economic Growth</b>. Economic growth is the focus of Unit 6 of Grade 10 Economics in the Ethiopian (FDRE Ministry of Education) curriculum. First, it reviews the macroeconomic variables behind growth. Then it defines and measures economic growth, and separates it from economic development. Next, it examines the sources of growth, above all productivity. Also it weighs the limits of GDP per capita as a measure. Finally, it walks through the phases of the business cycle. Students will also learn how economic growth shapes real-life living standards.","objectives":["Review the main macroeconomic variables.","Define and measure economic growth.","Distinguish growth from economic development.","Identify the major sources of growth.","Explain the weaknesses of GDP per capita."],"simple":"<b>Sources of Economic Growth in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, productivity as the main source of higher living standards.</li> <li>Then the characteristics of growth and what drives differences between countries.</li> <li>Also the grouping of countries by income level.</li></ul>","detailed":"<p><b>Sources of Economic Growth — the essentials.</b> First, productivity as the main source of higher living standards. Then the characteristics of growth and what drives differences between countries. Also the grouping of countries by income level.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Review the main macroeconomic variables.</li><li>Define and measure economic growth.</li><li>Distinguish growth from economic development.</li><li>Identify the major sources of growth.</li><li>Explain the weaknesses of GDP per capita.</li></ul>","keyTerms":[{"term":"First","def":"First, productivity as the main source of higher living standards."},{"term":"Also the grouping of countries by income level","def":"Also the grouping of countries by income level."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing sources of economic growth with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Interpreting economic news about Ethiopia in the media","The applied data-response questions in the ESSLCE economics paper"],"summary":"Sources of Economic Growth: First, productivity as the main source of higher living standards. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"Sources of Economic Growth\" is correct according to the MoE curriculum?","options":["First, productivity as the main source of higher living standards.","Sources of Economic Growth holds only under conditions this topic says do not apply","Sources of Economic Growth inverts the direction of the relationship this topic describes","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, productivity as the main source of higher living standards. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"Sources of Economic Growth\"?","options":["Then the characteristics of growth and what drives differences between countries.","Sources of Economic Growth is a household-level claim, not the national-level claim of this topic","Sources of Economic Growth holds only under conditions this topic says do not apply","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Then the characteristics of growth and what drives differences between countries."},{"type":"tf","q":"True or false: First, productivity as the main source of higher living standards.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover sources of economic growth.","answer":false,"difficulty":1,"explanation":"Sources of Economic Growth is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Review the main macroeconomic variables.","difficulty":2,"altAnswers":["Define and measure economic growth.","Distinguish growth from economic development."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why sources of economic growth matters.","answer":"Sources of Economic Growth is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of sources of economic growth in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to sources of economic growth, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
+Lessons["g10-economics-ue6-t3"] = {
+  overview: "Why are some countries rich and others poor? The one-word answer is productivity. This lesson covers the four determinants of productivity, Simon Kuznets' five characteristics of modern growth, and the World Bank's income classification of countries.",
+  objectives: [
+    "Explain productivity's role in differences in living standards",
+    "Identify the four determinants of productivity with examples",
+    "List Simon Kuznets' five characteristics of modern economic growth",
+    "Classify countries by GNI per capita into the World Bank groups",
+    "Explain why growth rates differ and how fast growth transforms a country"
+  ],
+  simple: "Average income in rich countries such as the United States, Japan or Germany is more than ten times the average income in poor countries such as India, Indonesia or Nigeria, and a single word explains it: productivity - an economy's income is its output. A nation can live well only if it produces much, and productivity depends on four determinants: physical capital per worker (tools and machinery), human capital per worker (knowledge and skills from education, training and experience), natural resources per worker (land, rivers, minerals) and technological knowledge (the best ways to produce). Simon Kuznets lists five characteristics of modern growth: high growth of per capita income, rising factor productivity, structural transformation, higher saving and investment, and scientific knowledge applied in production. The World Bank ranks 210 economies by GNI per capita into low income, lower middle, upper middle and high income groups.",
+  detailed: "<p><b>Why productivity is so important.</b> There is tremendous variation in the standard of living of the world: average income in rich countries is more than ten times the average income of poor countries, producing large differences in quality of life - nutrition, housing, healthcare, life expectancy, telephones and televisions. The explanation is one word: <b>productivity</b>. An economy's GDP measures both the total income earned by everyone and the total expenditure on the economy's output, and they must be equal: an economy's income is the economy's output. A nation can enjoy a high standard of living only if it can produce a large quantity of goods and services. Americans live better than Nigerians because American workers are more productive; the Japanese enjoy faster growth in living standards than Argentineans because Japanese productivity grew faster.</p><p><b>Four determinants of productivity.</b> Like Robinson Crusoe catching more fish with better poles, skills, fish supply or a better lure, nations are productive through four determinants. <b>Physical capital per worker</b> is the stock of tools and machinery for each worker. <b>Human capital per worker</b> is the knowledge and skills workers acquire through education, training and experience, produced with inputs such as teachers, libraries and student time. <b>Natural resources per worker</b> are inputs provided by nature, such as land, rivers and mineral deposits; Kuwait and Saudi Arabia are rich because of oil, yet natural resources are not necessary - rich Japan has few of them and imports resources while exporting manufactures. <b>Technological knowledge</b> is the understanding of the best ways to produce goods and services; advances in farm technology freed most Americans from farm work to produce other goods.</p><p><b>Kuznets' five characteristics.</b> Simon Kuznets, the father of national income accounting, identified five characteristics of modern economic growth: (a) high rates of increase in per capita income over a fairly long period; (b) high rates of increase in factor productivity; (c) high rates of structural transformation from less productive agricultural to more productive industrial activities, requiring a growth of the entrepreneurial class; (d) increases in the rates of saving and investment, supported by modern financial services to mobilise domestic resources; and (e) increasing application of modern scientific knowledge in production, which raises efficiency and provides substitutes for scarce resources.</p><p><b>Growth rates differ across countries.</b> Some East Asian countries, such as Singapore, South Korea and Taiwan, achieved growth of about seven percent per year, at which rate average income doubles every ten years. China has recently grown even faster, about twelve percent per year. A country with such rapid growth can move, in one generation, from among the poorest in the world to among the richest.</p><p><b>Classifying countries by income.</b> The most common way to define the world's countries is by per capita income as developed and developing. In the World Bank's classification system, 210 economies with a population of at least 30,000 are ranked by GNI per capita: <b>low-income countries (LICs)</b> with per capita GNI in 2008 of 975 dollars or less; <b>lower middle-income countries (LMCs)</b> between 976 and 3,855 dollars; <b>upper-middle-income countries (UMCs)</b> between 3,856 and 11,906 dollars; and <b>high-income OECD and other high-income countries</b> at 11,907 dollars or more. LMCs and UMCs are informally grouped as middle-income countries. The United Nations groups low income, low human capital and high economic vulnerability as Least Developed Countries (LDCs), 49 countries in all as of 2010: 33 in Africa, 15 in Asia plus Haiti.</p>",
+  keyTerms: [
+    { term: "Productivity", def: "The quantity of goods and services produced per worker; because income equals output, it explains differences in living standards." },
+    { term: "Physical capital per worker", def: "The amount of tools and machinery available for each worker to work with." },
+    { term: "Human capital per worker", def: "The knowledge and skills workers acquire through education, training and experience." },
+    { term: "Natural resources per worker", def: "Inputs provided by nature, such as land, rivers and mineral deposits." },
+    { term: "Technological knowledge", def: "The understanding of the best ways to produce goods and services." },
+    { term: "Structural transformation", def: "Kuznets' shift of economic activities from less productive agriculture to more productive industry, led by entrepreneurs." },
+    { term: "GNI per capita", def: "Gross national income per person, used by the World Bank to rank and classify economies by income." },
+    { term: "Least Developed Countries (LDCs)", def: "UN countries with low income, low human capital and high economic vulnerability; 49 countries as of 2010." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "An economy reports GNI per capita of 5,000 dollars (2008 dollars). Into which World Bank income group does it fall?",
+      given: "GNI per capita = 5,000 dollars; thresholds: LIC 975 or less, LMC 976-3,855, UMC 3,856-11,906, high income 11,907 or more.",
+      formula: "Principle: match GNI per capita to the World Bank income bands.",
+      substitution: "5,000 lies between 3,856 and 11,906.",
+      calculation: "Since 3,856 <= 5,000 <= 11,906, the classification is upper-middle-income.",
+      answer: "Upper-middle-income country (UMC), informally grouped as a middle-income country."
+    },
+    {
+      problem: "A poor economy grows at 7% per year, like some East Asian economies. What happens to its average income, and what about a country growing at 12% like China?",
+      given: "Growth rate 7% per year; comparison at 12% per year.",
+      formula: "Principle: at 7% growth per year average income doubles every ten years.",
+      substitution: "7% per year -> doubling every 10 years; 12% per year is an even higher rate, so doubling comes faster than every ten years.",
+      calculation: "With sustained 7% growth, income doubles in 10 years and is four times the starting level after 20 years; at 12% the pace is faster still.",
+      answer: "At 7% average income doubles every ten years; at 12%, growth is even faster, and either pace can turn one of the world's poorest countries into one of the richest within a generation."
+    },
+    {
+      problem: "Classify each change by the determinant of productivity it builds: (a) a firm buys tractors to replace oxen; (b) female students finish high school and join the workforce; (c) a country discovers iron ore deposits; (d) researchers develop a faster way to produce goods.",
+      given: "Four changes; determinants are physical capital, human capital, natural resources, technological knowledge.",
+      formula: "Principle: match each change to the factor that raises output per worker.",
+      substitution: "Tractors are tools (physical capital); schooling and training build skills (human capital); ore is a gift of nature (natural resources); a better production method is technological knowledge.",
+      calculation: "Applying each definition gives one match per case.",
+      answer: "(a) Physical capital per worker, (b) human capital per worker, (c) natural resources per worker, (d) technological knowledge."
+    },
+    {
+      problem: "Japan is rich despite having few natural resources, while some oil-rich countries are rich in resources. Using the four determinants, explain Japan's success.",
+      given: "Japan has scarce natural resources but high productivity; it trades internationally.",
+      formula: "Principle: natural resources matter but are not necessary for high productivity.",
+      substitution: "Japan relies on human capital, physical capital and technological knowledge and uses trade.",
+      calculation: "Japan imports the natural resources it needs, such as oil, and exports its manufactured goods to economies rich in resources.",
+      answer: "Japan substitutes strong physical capital, human capital and technological knowledge, plus international trade, for missing natural resources."
+    }
+  ],
+  commonMistakes: [
+    "Believing GDP alone, not productivity, is the reason some countries are richer than others.",
+    "Forgetting that GDP measures total income and total expenditure at the same time and must be equal.",
+    "Assuming natural resources are always necessary; Japan is rich while having few of them.",
+    "Listing human capital as machinery instead of knowledge and skills from education, training and experience.",
+    "Naming only one or two of Kuznets' five characteristics when all five define modern economic growth.",
+    "Mixing up the boundaries of the World Bank groups, such as calling an upper-middle-income country high-income.",
+    "Expecting a poor country to become rich in a few years; such transformations take sustained growth over a generation."
+  ],
+  applications: [
+    "Ethiopia raises output per worker when farmers use tractors instead of oxen, the textbook's own example of physical capital and technology.",
+    "Every extra trained teacher, library and hour of student time Ethiopia invests builds human capital and future productivity.",
+    "Kuznets' characteristic (d) explains why establishing and expanding modern financial services, like banks and MFIs from Unit 5, is needed to mobilise domestic saving and investment.",
+    "Comparing Ethiopia's living standard with neighbouring Kenya means comparing productivity and its four determinants, not just total GDP.",
+    "Using the World Bank bands, an economist can locate Ethiopia among low-income or lower-middle-income economies and track its movement over time.",
+    "The East Asian example of 7% annual growth, doubling income every ten years, shows the pace at which poverty can be transformed within a generation."
+  ],
+  summary: "Productivity, the amount produced per worker, explains why rich countries earn more than ten times the income of poor ones; it depends on physical capital, human capital, natural resources and technological knowledge, of which natural resources are helpful but not necessary. Kuznets summarised modern growth in five characteristics: rising per capita income, rising factor productivity, structural transformation, higher saving and investment, and applied scientific knowledge. The World Bank ranks 210 economies by GNI per capita into low, lower-middle, upper-middle and high-income groups, while the UN lists 49 Least Developed Countries.",
+  visuals: [
+    {
+      type: "mindMap",
+      config: {
+        title: "Four Determinants of Productivity",
+        center: "Productivity",
+        branches: [
+          { label: "Physical capital", items: ["Tools", "Machinery", "Per worker"] },
+          { label: "Human capital", items: ["Education", "Training", "Experience"] },
+          { label: "Natural resources", items: ["Land", "Rivers", "Minerals"] },
+          { label: "Technological knowledge", items: ["Best production methods", "Farm technology example"] }
+        ]
+      }
+    },
+    {
+      type: "tableVisual",
+      config: {
+        title: "World Bank Classification by GNI Per Capita (2008 dollars)",
+        headers: ["Group", "GNI per capita", "Informal grouping"],
+        rows: [
+          ["Low-income (LICs)", "975 or less", "Poor economies"],
+          ["Lower middle-income (LMCs)", "976 to 3,855", "Middle-income"],
+          ["Upper middle-income (UMCs)", "3,856 to 11,906", "Middle-income"],
+          ["High-income OECD and others", "11,907 or more", "Rich economies"]
+        ]
+      }
+    },
+    {
+      type: "qa",
+      config: {
+        title: "Sources of Growth Quick-Check",
+        pairs: [
+          { q: "What single word explains why living standards differ so much across countries?", a: "Productivity." },
+          { q: "Whose work identifies the five characteristics of modern economic growth?", a: "Simon Kuznets, the father of national income accounting." },
+          { q: "Give one example that natural resources are not necessary for richness.", a: "Japan is rich despite few natural resources, importing oil and exporting manufactures." },
+          { q: "Which countries make up the LDC group?", a: "49 countries with low income, low human capital and high economic vulnerability: 33 in Africa, 15 in Asia plus Haiti (as of 2010)." },
+          { q: "Why must saving and investment rise for growth?", a: "Growth takes place when domestic saving and investment rates rise, mobilised by modern financial services." }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "The single word that summarises the explanation for large international differences in living standards is:", options: ["population", "productivity", "inflation", "geography"], answer: 1, difficulty: 1, explanation: "The textbook says the explanation can be summarised in a single word - productivity." },
+    { type: "mcq", q: "The knowledge and skills workers acquire through education, training and experience are called:", options: ["physical capital", "human capital", "natural resources", "technological knowledge"], answer: 1, difficulty: 1, explanation: "Human capital is the economist's term for knowledge and skills gained through education, training and experience." },
+    { type: "tf", q: "Natural resources are necessary for an economy to be highly productive.", answer: false, difficulty: 2, explanation: "Natural resources can be important but are not necessary; rich Japan has few and imports what it needs." },
+    { type: "mcq", q: "Kuwait and Saudi Arabia are rich mainly because of which determinant of productivity?", options: ["Human capital", "Technological knowledge", "Natural resources", "Physical capital"], answer: 2, difficulty: 2, explanation: "They sit on top of some of the largest pools of oil in the world, a natural resource." },
+    { type: "short", q: "Who is called the father of national income accounting and identified five characteristics of modern economic growth?", answer: "Simon Kuznets|Kuznets", difficulty: 1, explanation: "Simon Kuznets identified the five characteristics of modern economic growth." },
+    { type: "mcq", q: "At about 7% growth per year, average income in East Asian economies:", options: ["doubles every 10 years", "doubles every year", "stays constant", "falls after 5 years"], answer: 0, difficulty: 2, explanation: "At about 7% per year their average income doubles every ten years." },
+    { type: "tf", q: "Economic growth requires a rise in the rates of domestic saving and investment.", answer: true, difficulty: 2, explanation: "Kuznets' fourth characteristic is increasing rates of saving and investment, supported by modern financial services." },
+    { type: "short", q: "How many economies with population of at least 30,000 does the World Bank rank by GNI per capita?", answer: "210", difficulty: 2, explanation: "210 economies with a population of at least 30,000 are ranked by their levels of GNI per capita." },
+    { type: "concept", q: "Why can growth of the entrepreneurial class be called essential for structural transformation?", answer: "entrepreneurs undertake new economic activities|they have the desire and capacity for new activities", difficulty: 3, explanation: "Kuznets notes growth of the entrepreneurial class, with the desire and capacity to undertake new activities, is an essential prerequisite for structural transformation." },
+    { type: "concept", q: "An economy with GNI per capita of 700 dollars (2008) - state its classification and the UN vulnerability label it would likely share.", answer: "low income|LDC|least developed country", difficulty: 3, explanation: "At 975 dollars or less it is a low-income country; low income with low human capital and high vulnerability marks the UN's Least Developed Countries." },
+    { type: "ordering", q: "Arrange the four World Bank groups from lowest to highest GNI per capita.", options: ["Upper middle-income", "Low-income", "High-income", "Lower middle-income"], answer: 1, difficulty: 2, explanation: "The order by income is low-income, lower middle-income, upper middle-income, then high-income." }
+  ]
+};
 
-Lessons["g10-economics-ue6-t4"] = {"overview":"<b>The Weaknesses of Using GDP per Capita</b> sits inside <b>Economic Growth</b>. Economic growth is the focus of Unit 6 of Grade 10 Economics in the Ethiopian (FDRE Ministry of Education) curriculum. First, it reviews the macroeconomic variables behind growth. Then it defines and measures economic growth, and separates it from economic development. Next, it examines the sources of growth, above all productivity. Also it weighs the limits of GDP per capita as a measure. Finally, it walks through the phases of the business cycle. Students will also learn how economic growth shapes real-life living standards.","objectives":["Review the main macroeconomic variables.","Define and measure economic growth.","Distinguish growth from economic development.","Identify the major sources of growth.","Explain the weaknesses of GDP per capita."],"simple":"<b>The Weaknesses of Using GDP per Capita in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, what GDP per capita leaves out, such as income distribution and unpaid work.</li> <li>Also why a higher average can hide inequality.</li></ul>","detailed":"<p><b>The Weaknesses of Using GDP per Capita — the essentials.</b> First, what GDP per capita leaves out, such as income distribution and unpaid work. Also why a higher average can hide inequality.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Review the main macroeconomic variables.</li><li>Define and measure economic growth.</li><li>Distinguish growth from economic development.</li><li>Identify the major sources of growth.</li><li>Explain the weaknesses of GDP per capita.</li></ul>","keyTerms":[{"term":"what GDP per capita leaves out","def":"First, what GDP per capita leaves out, such as income distribution and unpaid work."},{"term":"Also why a higher average can hide inequality","def":"Also why a higher average can hide inequality."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing the weaknesses of using gdp per capita with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Interpreting economic news about Ethiopia in the media","The applied data-response questions in the ESSLCE economics paper"],"summary":"The Weaknesses of Using GDP per Capita: First, what GDP per capita leaves out, such as income distribution and unpaid work. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"The Weaknesses of Using GDP per Capita\" is correct according to the MoE curriculum?","options":["First, what GDP per capita leaves out, such as income distribution and unpaid work.","The Weaknesses of Using GDP per Capita holds only under conditions this topic says do not apply","The Weaknesses of Using GDP per Capita inverts the direction of the relationship this topic describes","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, what GDP per capita leaves out, such as income distribution and unpaid work. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"The Weaknesses of Using GDP per Capita\"?","options":["Also why a higher average can hide inequality.","The Weaknesses of Using GDP per Capita is a household-level claim, not the national-level claim of this topic","The Weaknesses of Using GDP per Capita holds only under conditions this topic says do not apply","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Also why a higher average can hide inequality."},{"type":"tf","q":"True or false: First, what GDP per capita leaves out, such as income distribution and unpaid work.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover the weaknesses of using gdp per capita.","answer":false,"difficulty":1,"explanation":"The Weaknesses of Using GDP per Capita is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Review the main macroeconomic variables.","difficulty":2,"altAnswers":["Define and measure economic growth.","Distinguish growth from economic development."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why the weaknesses of using gdp per capita matters.","answer":"The Weaknesses of Using GDP per Capita is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of the weaknesses of using gdp per capita in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to the weaknesses of using gdp per capita, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
+Lessons["g10-economics-ue6-t4"] = {
+  overview: "GDP per person looks like a natural measure of well-being because income and expenditure are two sides of the same coin. This lesson shows what GDP leaves out - leisure, home production, volunteer work, environmental quality, income distribution and black markets.",
+  objectives: [
+    "Explain why GDP per person seems a natural measure of well-being",
+    "Show how leisure and non-market home production are left out of GDP",
+    "Analyse the effect of ignoring environmental quality on measured GDP",
+    "Demonstrate how the same GDP per capita can hide unequal income distributions",
+    "Evaluate GDP as a measure of economic well-being for most but not all purposes"
+  ],
+  simple: "GDP measures both the economy's total income and total expenditure on goods and services, so GDP per person seems a natural measure of the average person's well-being. But it is not perfect. It leaves out leisure: if everyone worked every day, GDP would rise, yet we could not say people were better off. Because it uses market prices, it omits goods and services produced at home and volunteer work. It ignores the quality of the environment: without regulations GDP might rise while well-being falls. It says nothing about the distribution of income: two very different societies can have the same GDP per person. It also excludes black market transactions. So GDP is a good measure of well-being for most, but not all, purposes.",
+  detailed: "<p><b>Why GDP per person seems natural.</b> GDP measures both the economy's total income and the economy's total expenditure on goods and services, so GDP per person tells us the income and expenditure of the average person. Because most people would prefer higher income and higher expenditure, GDP per person seems a natural measure of the economic well-being of the average individual. Yet the lesson's task is to identify its weaknesses as a measure of economic performance.</p><p><b>Leisure is left out.</b> Some things that contribute to a good life are simply out of GDP. One is <b>leisure</b>. Suppose everyone in the economy suddenly started working every day of the week instead of enjoying leisure on weekends: more goods and services would be produced and GDP would rise. But we should not conclude that everyone is better off - the loss from reduced leisure would offset the gain from producing and consuming a greater quantity of goods and services.</p><p><b>Non-market activity and volunteer work.</b> Because GDP uses market prices to value goods and services, it excludes almost all activity that takes place outside markets. GDP omits the value of goods and services produced at home: when a chef prepares a delicious meal and sells it in his restaurant the value is part of GDP, but if he prepares the same meal for his family the value added to the raw ingredients is left out. Child care in day-care centres is part of GDP while child care by parents at home is not. Volunteer work contributes to well-being but is not reflected in GDP.</p><p><b>Environmental quality.</b> GDP excludes the quality of the environment. Imagine the government eliminated all environmental regulations: firms could produce without considering the pollution they create, and GDP might rise, yet well-being would most likely fall, because the deterioration of air and water quality would more than offset the gains from greater production.</p><p><b>Income distribution.</b> GDP says nothing about the distribution of income. A society of 100 people each earning 50,000 dollars a year has GDP of 5 million dollars and GDP per person of 50,000 dollars. A society in which 10 people earn 500,000 dollars and 90 people have nothing at all has the same GDP and the same GDP per person. Behind the average lies a large variety of personal experiences, so few people would call those two situations equivalent.</p><p><b>Black markets and the verdict.</b> GDP also excludes transactions that take place in black markets: they are valuable to society's well-being but, being illegal, they are not counted. In the end, GDP is a good measure of economic well-being for most - but not all - purposes; it is important to remember what GDP includes and what it leaves out.</p>",
+  keyTerms: [
+    { term: "GDP per person", def: "GDP divided by population; it tells the income and expenditure of the average person in the economy." },
+    { term: "Non-market activity", def: "Production outside market prices, such as goods and services prepared at home, which GDP omits." },
+    { term: "Leisure", def: "Free time such as weekends that contributes to a good life but is excluded from GDP." },
+    { term: "Volunteer work", def: "Unpaid help that contributes to well-being but is not counted in GDP." },
+    { term: "Underground economy", def: "The part of economic activity, including black market transactions, that is left out of official GDP." },
+    { term: "Black market", def: "Illegal markets whose valuable transactions are not counted in GDP." },
+    { term: "Income distribution", def: "How income is spread across people; GDP says nothing about it, so the same average can hide inequality." },
+    { term: "Environmental quality", def: "The condition of air, water and nature, which GDP excludes although it affects well-being." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "Society A has 100 people each earning 50,000 dollars a year. Society B has 10 people earning 500,000 dollars and 90 people earning nothing. Compare the two GDPs and GDP per capita.",
+      given: "A: 100 people x 50,000 dollars. B: 10 people x 500,000 dollars + 90 people x 0.",
+      formula: "Principle: GDP equals total income; GDP per person equals GDP divided by the number of people.",
+      substitution: "A: GDP = 100 x 50,000 = 5,000,000 dollars. B: GDP = 10 x 500,000 = 5,000,000 dollars.",
+      calculation: "Both societies have GDP of 5 million dollars; with 100 people each, GDP per person is 5,000,000 / 100 = 50,000 dollars in both cases.",
+      answer: "The two societies have identical GDP and identical GDP per capita of 50,000 dollars, yet incomes are spread very differently - GDP says nothing about the distribution of income."
+    },
+    {
+      problem: "Everyone in an economy starts working all seven days of the week, abandoning weekends. Predict what happens to GDP and to well-being.",
+      given: "Workdays rise; leisure falls; more goods and services are produced.",
+      formula: "Principle: GDP rises with more production, but the loss of leisure offsets the gain.",
+      substitution: "More labour -> more output -> GDP rises; but reduced leisure is a loss GDP never records.",
+      calculation: "The gain from producing and consuming more goods and services is offset by the loss from reduced leisure.",
+      answer: "GDP would rise, yet we should not conclude that everyone is better off; well-being may not improve at all."
+    },
+    {
+      problem: "A chef sells a meal in his restaurant for 300 birr, and on another day prepares the same meal for his family using 100 birr of ingredients. How much enters GDP in each case?",
+      given: "Sold meal: market price 300 birr. Family meal: only the raw ingredients (100 birr) were market purchases.",
+      formula: "Principle: GDP includes only goods and services valued at market prices; home production is left out.",
+      substitution: "Sold meal: 300 birr is a market transaction. Family meal: only the 100 birr of ingredients counts; the value the chef adds at home is excluded.",
+      calculation: "Same cooking work, but one preparation adds 300 birr to GDP and the other roughly 100 birr.",
+      answer: "The restaurant meal is counted in full; the family meal is left out except for the bought ingredients - GDP omits the value added at home."
+    },
+    {
+      problem: "A government abolishes all environmental regulations and factory output soars while rivers become polluted. Evaluate the effect on GDP and on well-being.",
+      given: "Production rises; air and water quality deteriorates.",
+      formula: "Principle: GDP ignores the quality of the environment.",
+      substitution: "More output -> GDP might rise; pollution -> well-being falls.",
+      calculation: "The deterioration in the quality of air and water would more than offset the gains from greater production.",
+      answer: "GDP might rise, yet well-being most likely falls - a clear weakness of GDP as a measure of well-being."
+    }
+  ],
+  commonMistakes: [
+    "Treating GDP per person as a complete measure of well-being rather than a good measure for most but not all purposes.",
+    "Assuming a rise in GDP always means people are better off, forgetting leisure.",
+    "Adding the chef's home-cooked meal to GDP, although home production is excluded.",
+    "Counting volunteer work in GDP, although it is not reflected at all.",
+    "Believing two societies with equal GDP per capita are equally well-off; distribution is ignored.",
+    "Thinking pollution makes GDP fall; polluted production may raise GDP while well-being falls.",
+    "Including illegal black market transactions in official GDP; they are not counted."
+  ],
+  applications: [
+    "Evaluating Ethiopia's growth over the past five years asks at the same time whether it is underestimated or overestimated - home production and black markets pull the estimate down.",
+    "A mother caring for her children at home adds nothing to GDP, while a day-care centre doing the same work does - a real weakness when judging well-being.",
+    "The farmer's volunteer labour in building a school through community work raises well-being but not GDP.",
+    "If growth comes with more pollution of rivers and air around towns, measured GDP may rise while actual well-being falls.",
+    "An average GDP per capita hides how income is shared, so two kebeles with the same average can live very differently.",
+    "Recall from your Grade 9 economics course that GDP measures total income and total expenditure - the starting point for judging what it leaves out."
+  ],
+  summary: "GDP per person seems a natural measure of well-being because GDP captures both income and expenditure, but it is imperfect: it leaves out leisure, home production and volunteer work, overlooks environmental quality, ignores income distribution, and excludes black market transactions. The same GDP per capita can describe societies with very different distributions. GDP remains a good measure of well-being for most but not all purposes, provided we remember what it includes and what it leaves out.",
+  visuals: [
+    {
+      type: "comparison",
+      config: {
+        title: "What GDP Counts vs What It Leaves Out",
+        left: { name: "Counted in GDP", items: ["Meals sold in restaurants", "Paid day-care services", "Factory output", "Market transactions"] },
+        right: { name: "Left out of GDP", items: ["Leisure", "Home cooking and home child care", "Volunteer work", "Black market transactions"] }
+      }
+    },
+    {
+      type: "qa",
+      config: {
+        title: "Is It Inside GDP?",
+        pairs: [
+          { q: "A chef cooks the same meal at home as in his restaurant. Which version enters GDP?", a: "Only the restaurant version; the home-meal value added is left out." },
+          { q: "Everyone works seven days a week and GDP rises. Are people better off?", a: "Not necessarily; the loss of leisure offsets the gain in production." },
+          { q: "Two societies have the same GDP per person. Are they equally well-off?", a: "Not necessarily; GDP says nothing about income distribution." },
+          { q: "A factory pollutes a river while raising output. What happens to measured GDP and well-being?", a: "GDP may rise while well-being falls." },
+          { q: "Are black market transactions counted in GDP?", a: "No; being illegal they are excluded, which makes GDP weaker as a well-being measure." }
+        ]
+      }
+    },
+    {
+      type: "mindMap",
+      config: {
+        title: "Six Weaknesses of GDP Per Capita",
+        center: "GDP Weaknesses",
+        branches: [
+          { label: "Time", items: ["Leisure ignored"] },
+          { label: "Non-market", items: ["Home production", "Volunteer work"] },
+          { label: "Nature", items: ["Environmental quality ignored"] },
+          { label: "People", items: ["Income distribution ignored", "Black markets excluded"] }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "GDP per person seems a natural measure of well-being because GDP measures:", options: ["only government spending", "both total income and total expenditure", "only environmental quality", "only manufactured exports"], answer: 1, difficulty: 1, explanation: "GDP measures the economy's total income and total expenditure on goods and services at once." },
+    { type: "mcq", q: "If everyone worked every day of the week, GDP would rise, but well-being:", options: ["would rise by the same amount", "is uncertain because leisure is lost", "would fall to zero", "would be unaffected"], answer: 1, difficulty: 2, explanation: "The loss from reduced leisure would offset the gain from producing more, so we cannot conclude people are better off." },
+    { type: "tf", q: "Child care by parents at home is counted in GDP.", answer: false, difficulty: 2, explanation: "Child care in day-care centres is part of GDP, but child care by parents at home is not." },
+    { type: "mcq", q: "Which of the following does GDP exclude?", options: ["Meals sold in a restaurant", "Goods produced at home for the family", "Day-care services sold to parents", "Manufactured exports"], answer: 1, difficulty: 1, explanation: "GDP omits the value of goods and services produced at home." },
+    { type: "tf", q: "Eliminating environmental regulations might raise GDP while well-being falls.", answer: true, difficulty: 2, explanation: "Deterioration of air and water quality would more than offset the gains from greater production." },
+    { type: "short", q: "What does GDP say nothing about, so that an average of 50,000 dollars can hide the difference between equal and highly unequal societies?", answer: "income distribution|distribution of income|how income is distributed", difficulty: 2, explanation: "GDP says nothing about the distribution of income." },
+    { type: "mcq", q: "Transactions in black markets are excluded from GDP because:", options: ["they are small", "they are illegal", "they involve no money", "the tax office counts them"], answer: 1, difficulty: 2, explanation: "Since black market transactions are illegal, they are not counted in GDP." },
+    { type: "short", q: "Name one thing that contributes to a good life but is left out of GDP.", answer: "leisure|home production|volunteer work|environmental quality", difficulty: 1, explanation: "Leisure, home production, volunteer work and environmental quality are all left out of GDP." },
+    { type: "concept", q: "Society C has GDP of 5 million dollars and 100 people. Compute GDP per person.", answer: "50,000 dollars|50,000", difficulty: 2, explanation: "GDP per person = 5,000,000 / 100 = 50,000 dollars." },
+    { type: "concept", q: "State the textbook's final verdict on GDP as a measure of well-being.", answer: "good for most but not all purposes|good measure for most but not all", difficulty: 3, explanation: "GDP is a good measure of economic well-being for most, but not all, purposes; remember what it includes and leaves out." },
+    { type: "mcq", q: "Volunteer work that benefits the community is:", options: ["counted at market prices in GDP", "not reflected in GDP", "counted only if volunteers are trained", "part of government spending"], answer: 1, difficulty: 1, explanation: "Volunteer work contributes to well-being but GDP does not reflect these contributions." }
+  ]
+};
 
-Lessons["g10-economics-ue6-t5"] = {"overview":"<b>The Business Cycle and Its Phases</b> sits inside <b>Economic Growth</b>. Economic growth is the focus of Unit 6 of Grade 10 Economics in the Ethiopian (FDRE Ministry of Education) curriculum. First, it reviews the macroeconomic variables behind growth. Then it defines and measures economic growth, and separates it from economic development. Next, it examines the sources of growth, above all productivity. Also it weighs the limits of GDP per capita as a measure. Finally, it walks through the phases of the business cycle. Students will also learn how economic growth shapes real-life living standards.","objectives":["Review the main macroeconomic variables.","Define and measure economic growth.","Distinguish growth from economic development.","Identify the major sources of growth.","Explain the weaknesses of GDP per capita."],"simple":"<b>The Business Cycle and Its Phases in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, the business cycle as the ups and downs of economic activity.</li> <li>Then its phases: boom, recession, trough, and recovery.</li></ul>","detailed":"<p><b>The Business Cycle and Its Phases — the essentials.</b> First, the business cycle as the ups and downs of economic activity. Then its phases: boom, recession, trough, and recovery.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Review the main macroeconomic variables.</li><li>Define and measure economic growth.</li><li>Distinguish growth from economic development.</li><li>Identify the major sources of growth.</li><li>Explain the weaknesses of GDP per capita.</li></ul>","keyTerms":[{"term":"First","def":"First, the business cycle as the ups and downs of economic activity."},{"term":"Then its phases: boom","def":"Then its phases: boom, recession, trough, and recovery."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing the business cycle and its phases with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Interpreting economic news about Ethiopia in the media","The applied data-response questions in the ESSLCE economics paper"],"summary":"The Business Cycle and Its Phases: First, the business cycle as the ups and downs of economic activity. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"The Business Cycle and Its Phases\" is correct according to the MoE curriculum?","options":["First, the business cycle as the ups and downs of economic activity.","The Business Cycle and Its Phases holds only under conditions this topic says do not apply","The Business Cycle and Its Phases inverts the direction of the relationship this topic describes","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, the business cycle as the ups and downs of economic activity. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"The Business Cycle and Its Phases\"?","options":["Then its phases: boom, recession, trough, and recovery.","The Business Cycle and Its Phases is a household-level claim, not the national-level claim of this topic","The Business Cycle and Its Phases holds only under conditions this topic says do not apply","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Then its phases: boom, recession, trough, and recovery."},{"type":"tf","q":"True or false: First, the business cycle as the ups and downs of economic activity.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover the business cycle and its phases.","answer":false,"difficulty":1,"explanation":"The Business Cycle and Its Phases is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Review the main macroeconomic variables.","difficulty":2,"altAnswers":["Define and measure economic growth.","Distinguish growth from economic development."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why the business cycle and its phases matters.","answer":"The Business Cycle and Its Phases is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of the business cycle and its phases in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to the business cycle and its phases, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
-
+Lessons["g10-economics-ue6-t5"] = {
+  overview: "Economic activity does not grow smoothly; it fluctuates in an irregular, largely unpredictable pattern called the business cycle. This lesson defines the cycle and explains its four phases: prosperity or boom, recession, depression and recovery.",
+  objectives: [
+    "Define the business cycle and explain why the name is misleading",
+    "Identify the four phases of the business cycle",
+    "Explain the chain of events from boom to recession",
+    "Describe the depression phase and its lowest point",
+    "Explain how recovery leads the economy back toward boom"
+  ],
+  simple: "The business cycle is the irregular and largely unpredictable fluctuation in economic activity, measured by the production of goods and services or the number of people employed. The name is misleading because fluctuations follow no regular, predictable pattern. Changes in aggregate demand change the level of output, employment, income and price, following four phases: prosperity or boom, when demand, prices, investment, employment and incomes all rise; recession, when an over-heated economy meets cautious cuts in investment, employment, incomes and demand, so prices may begin to fall; depression or slump, when business confidence, investment, employment, output, income and prices touch the bottom; and recovery or expansion, when investment, employment, output, income and prices move upward again, possibly ending in a new boom.",
+  detailed: "<p><b>Definition and a misleading name.</b> The term business cycle is somewhat misleading because it suggests that economic fluctuations follow a regular, predictable pattern. In fact, economic fluctuations are not at all regular and are almost impossible to predict with much accuracy. Thus, the <b>business cycle</b> is the irregular and largely unpredictable fluctuation in economic activity, as measured by the production of goods and services or the number of people employed.</p><p><b>Four phases.</b> Changes in aggregate demand bring about changes in the level of output, employment, income and price. These changes are generally cyclical in nature and follow a cycle of four different phases: prosperity or boom; recession; depression or slump; and recovery. The cycle is usually drawn around a long-run trend line, with real GDP rising and falling around it.</p><p><b>Prosperity, boom or peak.</b> This phase is characterised by rising demand, rising prices, rising investment, rising employment, rising incomes and rising purchasing power, which in turn feed rising demand again. Investors voluntarily undertake risks and go in for investment. These further fuel boom conditions through the working of the multiplier effect.</p><p><b>Recession.</b> During the boom the economy may get over-heated, and the monetary authorities, financial institutions and business itself may begin to play cautious. There may be cuts in investment, resulting in cuts in employment, a fall in incomes, a decline in purchasing power and demand. Prices may begin to fall.</p><p><b>Depression, slump or trough.</b> If effective corrective measures cannot be undertaken, the economy may find itself going into depression. It is a stage when business confidence is at its lowest: investment, employment, output, income and prices touch the bottom. This trough is the lowest point of the cycle.</p><p><b>Recovery or expansion.</b> As the economy moves out of depression it enters recovery. Sustained recovery finds the level of investment, employment, output, income and prices moving upwards, and this may finally result in boom conditions in the economy, closing the circle of the cycle.</p>",
+  keyTerms: [
+    { term: "Business cycle", def: "The irregular and largely unpredictable fluctuation in economic activity, measured by production of goods and services or the number of people employed." },
+    { term: "Aggregate demand", def: "Total demand whose changes bring about changes in the level of output, employment, income and price." },
+    { term: "Prosperity (boom)", def: "The phase of rising demand, prices, investment, employment, incomes and purchasing power, fuelled further by the multiplier effect." },
+    { term: "Recession", def: "The phase after an over-heated boom in which cuts in investment lead to cuts in employment, lower incomes, weaker demand and falling prices." },
+    { term: "Depression (slump)", def: "The stage when business confidence is at its lowest and investment, employment, output, income and prices touch the bottom." },
+    { term: "Recovery (expansion)", def: "The phase in which investment, employment, output, income and prices move upwards, possibly ending in boom conditions." },
+    { term: "Multiplier effect", def: "The mechanism by which new investment in the boom phase further fuels boom conditions." },
+    { term: "Trend line", def: "The long-run path of the economy around which the business cycle fluctuates." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "An economy reports: demand rising, prices rising, firms investing in new machines, employment and incomes up. Which phase is it in, and what mechanism keeps fuelling it?",
+      given: "All indicators - demand, prices, investment, employment, incomes - are rising.",
+      formula: "Principle: the phase with rising demand, prices, investment, employment and incomes is prosperity or boom.",
+      substitution: "The described economy matches the boom definition.",
+      calculation: "Investors voluntarily undertake risks and invest, and this further fuels boom conditions through the multiplier effect.",
+      answer: "Prosperity (boom or peak); the multiplier effect keeps fuelling the boom."
+    },
+    {
+      problem: "After two boom years, banks and firms become cautious: investment is cut, workers are laid off, incomes fall, demand weakens and prices begin to slip. Name the phase and trace the chain of events.",
+      given: "Cuts in investment -> cuts in employment -> lower incomes -> weaker purchasing power and demand -> prices may fall.",
+      formula: "Principle: when the over-heated economy meets caution, these cuts mark the recession phase.",
+      substitution: "The described sequence matches recession exactly.",
+      calculation: "The chain runs: boom -> over-heating -> cautious monetary authorities, financial institutions and business -> investment cuts -> employment cuts -> income fall -> demand decline -> falling prices.",
+      answer: "Recession; the chain of cuts runs from investment through employment and incomes to demand and prices."
+    },
+    {
+      problem: "In a certain economy, business confidence is at its lowest, factories are idle, employment and prices have touched their bottom. What phase is this, and what happens if corrective measures fail?",
+      given: "Confidence lowest; investment, employment, output, income and prices all touch the bottom.",
+      formula: "Principle: the phase of lowest business confidence and bottomed-out indicators is depression or slump.",
+      substitution: "The description matches the depression (trough) definition.",
+      calculation: "If effective corrective measures cannot be undertaken, the economy stays in depression rather than escaping it.",
+      answer: "Depression or slump, the trough of the cycle; without effective corrective measures the economy may find itself stuck there."
+    },
+    {
+      problem: "Government and the monetary authorities support firms so that investment, employment, output, income and prices begin moving upwards month after month. Name the phase and state where it may end.",
+      given: "All key indicators are moving upwards after a trough.",
+      formula: "Principle: a sustained upward movement of investment, employment, output, income and prices defines recovery.",
+      substitution: "The described economy matches recovery (expansion).",
+      calculation: "Sustained recovery may finally result in boom conditions in the economy.",
+      answer: "Recovery or expansion; it may finally lead back into boom conditions."
+    }
+  ],
+  commonMistakes: [
+    "Believing business cycles are regular and predictable; the textbook stresses they are irregular and almost impossible to predict.",
+    "Defining the business cycle by prices alone instead of production of goods and services or the number of people employed.",
+    "Naming only two or three phases instead of the four: prosperity, recession, depression and recovery.",
+    "Mixing up recession and depression; recession is the falling phase, depression is the trough where everything touches the bottom.",
+    "Forgetting that the boom is fuelled further by the multiplier effect.",
+    "Thinking recovery begins while investment and employment are still falling; recovery means they move upwards.",
+    "Assuming the cycle happens without a cause; changes in aggregate demand bring the phases about."
+  ],
+  applications: [
+    "When Ethiopian demand, prices and investment all rise together, the economy is moving through a boom-like phase of the cycle.",
+    "A drought year that cuts output and jobs pushes an economy downward, mimicking the downturn side of the cycle.",
+    "Central bank caution and credit limits after an over-heated period can turn a boom into a recession.",
+    "Recovery policies that lift investment, employment, output, income and prices upward guide the economy out of depression.",
+    "Knowing the phases helps firms and households time their decisions: investing in boom, budgeting carefully in recession.",
+    "Tracking real GDP over the years drew around a trend line shows which phase Ethiopia's economy is in at a given time."
+  ],
+  summary: "The business cycle is the irregular, largely unpredictable fluctuation in economic activity measured by production or employment; the name is misleading because fluctuations are not regular. Changes in aggregate demand produce four phases - prosperity or boom, recession, depression or slump, and recovery - through which investment, employment, output, income and prices rise, fall, touch bottom and then rise again toward a new boom.",
+  visuals: [
+    {
+      type: "cycleDiagram",
+      config: {
+        title: "The Four Phases of the Business Cycle",
+        nodes: [
+          { label: "Prosperity (boom)", detail: "Demand, prices, investment, employment, incomes all rise; multiplier effect fuels the boom" },
+          { label: "Recession", detail: "Over-heating breeds caution; cuts in investment, employment, incomes and demand; prices may fall" },
+          { label: "Depression (slump)", detail: "Business confidence lowest; investment, employment, output, income and prices touch the bottom" },
+          { label: "Recovery (expansion)", detail: "Investment, employment, output, income and prices move upwards, ending in a new boom" }
+        ]
+      }
+    },
+    {
+      type: "flowChart",
+      config: {
+        title: "From Boom to Depression",
+        steps: [
+          "Boom: rising demand, prices and investment",
+          "Economy over-heats; authorities and business turn cautious",
+          "Investment cut",
+          "Employment cut; incomes fall",
+          "Purchasing power and demand decline; prices begin to fall",
+          "Corrective measures fail? -> depression: everything touches the bottom"
+        ]
+      }
+    },
+    {
+      type: "comparison",
+      config: {
+        title: "Boom vs Depression",
+        left: { name: "Prosperity (boom)", items: ["Rising demand and prices", "Rising investment and employment", "Rising incomes and purchasing power", "Investors take risks"] },
+        right: { name: "Depression (slump)", items: ["Business confidence lowest", "Investment and employment at bottom", "Output, income at bottom", "Prices touch the bottom"] }
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "The business cycle is best defined as:", options: ["a regular, predictable pattern of fluctuations", "the irregular and largely unpredictable fluctuation in economic activity", "the yearly farming season", "a government plan lasting four years"], answer: 1, difficulty: 1, explanation: "The business cycle is the irregular and largely unpredictable fluctuation in economic activity." },
+    { type: "tf", q: "The term business cycle is misleading because it suggests fluctuations follow a regular, predictable pattern.", answer: true, difficulty: 2, explanation: "The textbook warns the name is misleading; fluctuations are not regular and are hard to predict." },
+    { type: "short", q: "Name the four phases of the business cycle.", answer: "prosperity or boom, recession, depression or slump, recovery", difficulty: 1, explanation: "The phases are prosperity/boom, recession, depression/slump and recovery/expansion." },
+    { type: "mcq", q: "In which phase do investment, employment, output, income and prices touch the bottom?", options: ["Prosperity", "Recession", "Depression", "Recovery"], answer: 2, difficulty: 2, explanation: "In depression, business confidence is at its lowest and all these indicators touch the bottom." },
+    { type: "tf", q: "Changes in aggregate demand bring about changes in the level of output, employment, income and price.", answer: true, difficulty: 1, explanation: "These aggregate demand changes are the cause of the cyclical phases." },
+    { type: "mcq", q: "During a boom, investors voluntarily take risks, and the boom is further fuelled by:", options: ["the multiplier effect", "falling demand", "the trade deficit", "seasonal unemployment"], answer: 0, difficulty: 2, explanation: "Boom conditions are further fuelled through the working of the multiplier effect." },
+    { type: "short", q: "Which phase begins as the economy moves out of depression?", answer: "recovery|expansion", difficulty: 2, explanation: "As the economy moves out of depression it enters the phase of recovery." },
+    { type: "concept", q: "Explain the chain that turns an over-heated boom into falling demand.", answer: "caution cuts investment, then employment, incomes, purchasing power and demand fall", difficulty: 3, explanation: "Over-heating makes authorities, financial institutions and business cautious; investment cuts lead to employment cuts, falling incomes and demand." },
+    { type: "concept", q: "A sustained recovery may finally result in what condition in the economy?", answer: "boom conditions|prosperity|boom", difficulty: 2, explanation: "Sustained recovery's upward movement may finally result in boom conditions." },
+    { type: "ordering", q: "Arrange the four phases in the order the economy passes through them.", options: ["Recession", "Prosperity or boom", "Recovery", "Depression"], answer: 1, difficulty: 2, explanation: "The order is prosperity (boom), recession, depression, then recovery back toward boom." },
+    { type: "mcq", q: "Economic activity in the business cycle is measured by:", options: ["production of goods and services or the number of people employed", "the size of the government budget", "the number of banks", "rainfall levels"], answer: 0, difficulty: 1, explanation: "Fluctuations are measured by production of goods and services or the number of people employed." }
+  ]
+};

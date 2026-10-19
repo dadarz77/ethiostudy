@@ -1,12 +1,497 @@
-/* Content: g11-economics-ue4 — migrated from generated JSON (Phase 0 pipeline restore).
-   Content upgrade to spec v2 happens per unit in later phases. */
+/* Content: Grade 11 Economics - Unit 4: Consumption, Saving and Investment (4 topics)
+   Source: MoE Economics Grade 11 Student Textbook, Unit 4. */
 window.Lessons = window.Lessons || {};
 
-Lessons["g11-economics-ue4-t1"] = {"overview":"<b>Consumption</b> sits inside <b>Consumption, Saving and Investment</b>. Consumption and saving are the focus of Unit 4 of Grade 11 Economics in the Ethiopian (FDRE Ministry of Education) curriculum. First, it studies consumption, the average and marginal propensity to consume, and what determines them. Then it studies saving, the average and marginal propensity to save, and its determinants. Next, it links saving to consumption. Finally, it examines investment, its types, and its role in economic growth. Students will also learn how consumption and saving shape real-life economic activity.","objectives":["Compute the average and marginal propensity to consume.","Compute the average and marginal propensity to save.","Explain the determinants of consumption and saving.","Describe the types and determinants of investment.","Explain how consumption and saving relate to investment."],"simple":"<b>Consumption in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, the average propensity to consume (APC = C/Y).</li> <li>Then the marginal propensity to consume (MPC = ΔC/ΔY).</li> <li>Also the determinants of consumption expenditure.</li></ul>","detailed":"<p><b>Consumption — the essentials.</b> First, the average propensity to consume (APC = C/Y). Then the marginal propensity to consume (MPC = ΔC/ΔY). Also the determinants of consumption expenditure.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Compute the average and marginal propensity to consume.</li><li>Compute the average and marginal propensity to save.</li><li>Explain the determinants of consumption and saving.</li><li>Describe the types and determinants of investment.</li><li>Explain how consumption and saving relate to investment.</li></ul>","keyTerms":[{"term":"First","def":"First, the average propensity to consume (APC = C/Y)."},{"term":"Then the marginal propensity to consume (MPC = ΔC/ΔY)","def":"Then the marginal propensity to consume (MPC = ΔC/ΔY)."},{"term":"Also the determinants of consumption expenditure","def":"Also the determinants of consumption expenditure."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing consumption with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Interpreting economic news about Ethiopia in the media","The applied data-response questions in the ESSLCE economics paper"],"summary":"Consumption: First, the average propensity to consume (APC = C/Y). Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"Consumption\" is correct according to the MoE curriculum?","options":["First, the average propensity to consume (APC = C/Y).","Consumption holds only under conditions this topic says do not apply","Consumption inverts the direction of the relationship this topic describes","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, the average propensity to consume (APC = C/Y). The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"Consumption\"?","options":["Then the marginal propensity to consume (MPC = ΔC/ΔY).","Consumption is a household-level claim, not the national-level claim of this topic","Consumption holds only under conditions this topic says do not apply","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Then the marginal propensity to consume (MPC = ΔC/ΔY)."},{"type":"tf","q":"True or false: First, the average propensity to consume (APC = C/Y).","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover consumption.","answer":false,"difficulty":1,"explanation":"Consumption is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Compute the average and marginal propensity to consume.","difficulty":2,"altAnswers":["Compute the average and marginal propensity to save.","Explain the determinants of consumption and saving."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why consumption matters.","answer":"Consumption is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of consumption in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to consumption, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
+Lessons["g11-economics-ue4-t1"] = {
+  overview: "Consumption is the largest component of aggregate demand, about two thirds of GDP. This lesson defines disposable income, builds the Keynesian consumption function C = C0 + cYd, and explains how to compute average and marginal propensity to consume.",
+  objectives: [
+    "Define consumption and disposable income and explain why consumption is crucial for short-run aggregate demand",
+    "Derive the Keynesian consumption function and identify its autonomous and induced components",
+    "Compute average propensity to consume and marginal propensity to consume from numerical data",
+    "Describe the properties of the consumption function, APC and MPC",
+    "Identify the major determinants of consumption expenditure"
+  ],
+  simple: "Consumption is household spending on goods and services. It accounts for about two thirds of GDP, so changes in consumption are a key element of booms and recessions. What households can spend depends on disposable income, which is gross income minus personal taxes: Yd = Y - T. Keynes showed that consumption rises with disposable income. In the simple linear form, C = C0 + cYd. Here C0 is autonomous consumption, the minimum spending needed even at zero income, paid for by borrowing or past savings. The term cYd is induced consumption, which depends on income. The slope c is the marginal propensity to consume, which lies between 0 and 1. The average propensity to consume is C divided by Yd. Consumption also depends on income, taxes, expectations, the interest rate, wealth and income distribution.",
+  detailed: "<p><b>Consumption and aggregate demand.</b> The consumption decision is crucial for short-run analysis because of its role in determining total or aggregate demand. Consumption accounts for about two thirds of GDP, so fluctuations in consumption are a key element of booms and recessions. As Adam Smith put it, consumption is the sole end and purpose of all production: firms produce goods because households demand them, so studying consumption is the natural starting point of macroeconomics.</p><p><b>Disposable income.</b> Households decide how much to spend and save depending on their income after tax. Income left in the hands of consumers after tax is deducted is called disposable income, written Yd = Y - T, where Y is gross income and T is personal income tax. The relationship between consumption and disposable income was summarised in John Maynard Keynes's General Theory of Employment, Interest and Money, published in 1936. Keynes made the consumption function central to his theory of economic fluctuations. He saw a positive relationship between consumption spending and disposable income; for simplicity we assume a linear relationship, which means the rate of change in consumption as income changes remains constant.</p><p><b>The consumption function.</b> The linear Keynesian consumption function is C = C0 + cYd with 0 < c < 1. C0 is the minimum consumption a household needs to survive at zero income; it is called autonomous consumption because it is independent of disposable income, and it is the y-intercept of the function. When income is zero, consumption is not zero: people use past income or borrow from friends and relatives. Autonomous consumption changes due to factors other than income; for example, when a person becomes ill, medical consumption rises although income is unchanged, and during holidays people spend more, shifting the consumption curve up. The term cYd is induced consumption, the part that depends on income. Total consumption is the sum of autonomous and induced consumption.</p><p><b>Average propensity to consume.</b> APC is the ratio of total consumption expenditure to total income at a given level of income: APC = C / Yd. It measures the tendency to consume income on average. If a consumer has 4000 ETB and spends 3000 ETB, then APC = 3000 / 4000 = 0.75, so on average the household allocates 75 percent of its income to consumption. APC may be greater than 1, because at a very low income level consumption exceeds income to meet basic necessities; this implies negative saving, called dissaving. Under the Keynesian function, APC falls as income rises.</p><p><b>Marginal propensity to consume.</b> The small c is the slope of the consumption function and is called the marginal propensity to consume. MPC shows the rate of change in the household's tendency to consume due to a change in income; it is the unit increase in consumption for a unit increase in disposable income: MPC = change in C / change in Yd. Properties: MPC lies between zero and 1, where 0 means no change in consumption and 1 means the entire new income is consumed; and MPC decreases as income rises, so the MPC of the poor is higher than the MPC of the rich. Example: if disposable income rises from 1000 to 2000 ETB and consumption rises from 800 to 1400 ETB, MPC = 600 / 1000 = 0.6, so 60 percent of the extra income is spent and the remaining 40 percent, 400 ETB, is saved. Graphically the consumption function is an upward-sloping line that does not pass through the origin; its y-intercept is C0 and its slope is MPC, so a steeper line means a higher MPC.</p><p><b>Determinants of consumption.</b> Consumption can change in three ways: through a change in MPC, a change in disposable income, or a change in the autonomous component. The major determinants of consumption expenditure at individual and national levels are six. Money income is the primary determinant: higher income raises consumption and lower income cuts it. Distribution of income matters because consumption per unit of income is greater for the poor than the rich. A higher level of direct taxes lowers disposable income and consumption. Expectations matter: if prices and income are expected to rise, present consumption increases, and expected falls lower it. A higher interest rate reduces consumption and raises saving, since the interest rate is the cost of holding money outside banks. Finally, a higher level of wealth leads to higher consumption.</p>",
+  keyTerms: [
+    { term: "Consumption", def: "Household spending on goods and services; the largest component of aggregate demand, about two thirds of GDP." },
+    { term: "Disposable income", def: "Income left in the hands of consumers after personal taxes are deducted: Yd = Y - T." },
+    { term: "Autonomous consumption", def: "The minimum consumption C0 needed to survive at zero income; independent of disposable income and the y-intercept of the consumption function." },
+    { term: "Induced consumption", def: "The part of consumption that depends on income, cYd, in the consumption function." },
+    { term: "Consumption function", def: "The relationship between consumption and disposable income, written C = C0 + cYd with 0 < c < 1." },
+    { term: "Average propensity to consume (APC)", def: "The ratio of total consumption expenditure to total income: APC = C / Yd; it can exceed 1 at very low incomes." },
+    { term: "Marginal propensity to consume (MPC)", def: "The ratio of the change in consumption to the change in disposable income; the slope of the consumption function, between 0 and 1." },
+    { term: "Dissaving", def: "A situation in which consumption exceeds income, so saving is negative, usually at very low income levels." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "A consumer has a disposable income of 4000 ETB and makes consumption expenditure of 3000 ETB. Find the average propensity to consume.",
+      given: "Yd = 4000 ETB; C = 3000 ETB.",
+      formula: "APC = C / Yd, the ratio of total consumption to total disposable income.",
+      substitution: "APC = 3000 / 4000.",
+      calculation: "3000 divided by 4000 equals 0.75.",
+      answer: "APC = 0.75, so on average the household allocates 75 percent of its income to consumption."
+    },
+    {
+      problem: "A consumer's disposable income rises from 1000 ETB to 2000 ETB and consumption rises from 800 ETB to 1400 ETB. Find the MPC and the amount saved from the new income.",
+      given: "Change in Yd = 2000 - 1000 = 1000; change in C = 1400 - 800 = 600.",
+      formula: "MPC = change in consumption / change in disposable income.",
+      substitution: "MPC = 600 / 1000.",
+      calculation: "600 divided by 1000 equals 0.6, so 40 percent of the new income is saved: 0.4 x 1000 = 400 ETB.",
+      answer: "MPC = 0.6; the household spent 60 percent of the extra income on consumption and saved the remaining 400 ETB."
+    },
+    {
+      problem: "A family's consumption function is C = 80 + 0.7Yd. If disposable income is 800 ETB, find the induced consumption and total consumption.",
+      given: "C0 = 80 ETB; c = 0.7; Yd = 800 ETB.",
+      formula: "C = C0 + cYd, where C0 is autonomous and cYd is induced consumption.",
+      substitution: "C = 80 + 0.7 x 800.",
+      calculation: "Induced consumption = 0.7 x 800 = 560; total consumption = 80 + 560 = 640.",
+      answer: "Induced consumption is 560 ETB and total consumption is 640 ETB."
+    },
+    {
+      problem: "A household with an income of 200 ETB consumes 240 ETB to cover basic necessities. Compute APC and describe the saving position.",
+      given: "Yd = 200 ETB; C = 240 ETB.",
+      formula: "APC = C / Yd; dissaving occurs when consumption exceeds income.",
+      substitution: "APC = 240 / 200.",
+      calculation: "240 divided by 200 equals 1.2; saving = 200 - 240 = -40.",
+      answer: "APC = 1.2, which is above 1; the household is dissaving, with negative saving of 40 ETB."
+    }
+  ],
+  commonMistakes: [
+    "Thinking consumption falls to zero when income is zero; autonomous consumption keeps it positive because households borrow or use past savings.",
+    "Confusing MPC with APC; MPC uses changes in consumption and income, while APC uses their total values.",
+    "Believing MPC can be greater than 1; any extra birr is partly spent and partly saved, so 0 < c < 1.",
+    "Using gross income instead of disposable income when computing propensities, forgetting to deduct personal taxes.",
+    "Saying a higher interest rate increases consumption; it reduces consumption and encourages saving.",
+    "Assuming the rich have a higher MPC; the MPC of the poor is higher than the MPC of the rich.",
+    "Mixing up autonomous and induced consumption; autonomous consumption is independent of income, induced consumption depends on it."
+  ],
+  applications: [
+    "A farm family with a good harvest spends part of the extra income and saves the rest; the fraction spent is its MPC.",
+    "If households expect prices to rise, they increase present consumption now, which raises aggregate demand in Ethiopian markets.",
+    "An increase in income tax lowers disposable income and consumption spending of salaried workers.",
+    "During hard months a poor household may consume more than it earns by borrowing or selling assets, so its APC is above 1.",
+    "When deposit interest rates rise, households find saving more attractive and cut consumption spending.",
+    "Because consumption is about two thirds of GDP, higher urban consumption after a pay rise signals producers to expand output and employment."
+  ],
+  summary: "Consumption is the largest part of aggregate demand, about two thirds of GDP, and depends on disposable income, Yd = Y - T. The Keynesian consumption function C = C0 + cYd separates autonomous consumption, the positive minimum spent even at zero income, from induced consumption, which varies with income. APC is C / Yd and falls as income rises, while MPC is the slope of the function, lies between 0 and 1, and is higher for the poor than for the rich.",
+  visuals: [
+    {
+      type: "comparison",
+      config: {
+        title: "Autonomous vs Induced Consumption",
+        left: { name: "Autonomous (C0)", items: ["Independent of income", "The y-intercept of the function", "Minimum spending to survive", "Changes with illness or holidays"] },
+        right: { name: "Induced (cYd)", items: ["Depends on disposable income", "Determines the slope", "Rises as income rises", "Equal to MPC times income"] }
+      }
+    },
+    {
+      type: "tableVisual",
+      config: {
+        title: "APC vs MPC",
+        headers: ["Property", "APC", "MPC"],
+        rows: [
+          ["Meaning", "Average tendency to consume", "Extra consumption per extra birr of income"],
+          ["Formula", "APC = C / Yd", "MPC = change in C / change in Yd"],
+          ["Value range", "Can exceed 1", "Between 0 and 1"],
+          ["As income rises", "Falls", "Falls (poor have higher MPC)"]
+        ]
+      }
+    },
+    {
+      type: "mindMap",
+      config: {
+        title: "Determinants of Consumption",
+        center: "Consumption Expenditure",
+        branches: [
+          { label: "Income side", items: ["Money income", "Distribution of income", "Direct taxes"] },
+          { label: "Expectations", items: ["Future income", "Future prices"] },
+          { label: "Cost of money", items: ["Rate of interest"] },
+          { label: "Assets", items: ["Level of wealth"] }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "In general, consumption accounts for about what share of GDP?", options: ["One tenth", "One half", "Two thirds", "Almost all of it"], answer: 2, difficulty: 1, explanation: "Consumption accounts for two-thirds of GDP, so its fluctuations drive booms and recessions." },
+    { type: "mcq", q: "Disposable income is calculated as:", options: ["gross income plus personal taxes", "gross income minus personal taxes", "income after saving", "total income before any deduction"], answer: 1, difficulty: 2, explanation: "Disposable income is Yd = Y - T, gross income minus personal income tax." },
+    { type: "tf", q: "Autonomous consumption is independent of disposable income.", answer: true, difficulty: 1, explanation: "C0 is the y-intercept of the consumption function and does not depend on income." },
+    { type: "short", q: "In the consumption function C = C0 + cYd, what does C0 represent?", answer: "autonomous consumption|minimum consumption|the amount consumed at zero income", difficulty: 1, explanation: "C0 is autonomous consumption, the minimum a household needs to survive at zero income." },
+    { type: "mcq", q: "Disposable income rises from 1000 to 2000 ETB and consumption rises from 800 to 1400 ETB. The MPC is:", options: ["0.4", "0.6", "0.75", "1.4"], answer: 1, difficulty: 2, explanation: "MPC = 600 / 1000 = 0.6, so 60 percent of the extra income is consumed." },
+    { type: "concept", q: "Why may the average propensity to consume be greater than 1?", answer: "at very low income consumption exceeds income to meet basic necessities|dissaving", difficulty: 2, explanation: "At very low income, consumption exceeds income to meet basic necessities, so APC can exceed 1 and saving is negative." },
+    { type: "tf", q: "The marginal propensity to consume of the poor is lower than that of the rich.", answer: false, difficulty: 2, explanation: "MPC decreases as income rises, so the MPC of the poor is higher than the MPC of the rich." },
+    { type: "mcq", q: "A steeper consumption function graph represents a consumption function with:", options: ["a higher MPC", "a lower MPC", "a higher autonomous consumption only", "a negative slope"], answer: 0, difficulty: 2, explanation: "The slope of the consumption function is the MPC, so a steeper line means a higher MPC." },
+    { type: "mcq", q: "If people expect prices and incomes to rise in the future, present consumption expenditure will:", options: ["increase", "decrease", "stay the same", "become negative"], answer: 0, difficulty: 2, explanation: "Expectation about future income and prices: expected rises increase present consumption." },
+    { type: "short", q: "Using the function C = 80 + 0.7Yd, compute total consumption when disposable income is 800 ETB.", answer: "640", difficulty: 2, explanation: "C = 80 + 0.7 x 800 = 80 + 560 = 640 ETB." },
+    { type: "concept", q: "State the three ways through which consumption can be affected.", answer: "change in MPC|change in disposable income|change in autonomous consumption", difficulty: 3, explanation: "Consumption changes through a change in MPC, a change in disposable income, or a change in the autonomous component." }
+  ]
+};
 
-Lessons["g11-economics-ue4-t2"] = {"overview":"<b>Saving</b> sits inside <b>Consumption, Saving and Investment</b>. Consumption and saving are the focus of Unit 4 of Grade 11 Economics in the Ethiopian (FDRE Ministry of Education) curriculum. First, it studies consumption, the average and marginal propensity to consume, and what determines them. Then it studies saving, the average and marginal propensity to save, and its determinants. Next, it links saving to consumption. Finally, it examines investment, its types, and its role in economic growth. Students will also learn how consumption and saving shape real-life economic activity.","objectives":["Compute the average and marginal propensity to consume.","Compute the average and marginal propensity to save.","Explain the determinants of consumption and saving.","Describe the types and determinants of investment.","Explain how consumption and saving relate to investment."],"simple":"<b>Saving in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, the average propensity to save (APS = S/Y).</li> <li>Then the marginal propensity to save (MPS = ΔS/ΔY).</li> <li>Also the determinants of saving.</li></ul>","detailed":"<p><b>Saving — the essentials.</b> First, the average propensity to save (APS = S/Y). Then the marginal propensity to save (MPS = ΔS/ΔY). Also the determinants of saving.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Compute the average and marginal propensity to consume.</li><li>Compute the average and marginal propensity to save.</li><li>Explain the determinants of consumption and saving.</li><li>Describe the types and determinants of investment.</li><li>Explain how consumption and saving relate to investment.</li></ul>","keyTerms":[{"term":"First","def":"First, the average propensity to save (APS = S/Y)."},{"term":"Then the marginal propensity to save (MPS = ΔS/ΔY)","def":"Then the marginal propensity to save (MPS = ΔS/ΔY)."},{"term":"Also the determinants of saving","def":"Also the determinants of saving."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing saving with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Interpreting economic news about Ethiopia in the media","The applied data-response questions in the ESSLCE economics paper"],"summary":"Saving: First, the average propensity to save (APS = S/Y). Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"Saving\" is correct according to the MoE curriculum?","options":["First, the average propensity to save (APS = S/Y).","Saving holds only under conditions this topic says do not apply","Saving inverts the direction of the relationship this topic describes","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, the average propensity to save (APS = S/Y). The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"Saving\"?","options":["Then the marginal propensity to save (MPS = ΔS/ΔY).","Saving is a household-level claim, not the national-level claim of this topic","Saving holds only under conditions this topic says do not apply","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Then the marginal propensity to save (MPS = ΔS/ΔY)."},{"type":"tf","q":"True or false: First, the average propensity to save (APS = S/Y).","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover saving.","answer":false,"difficulty":1,"explanation":"Saving is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Compute the average and marginal propensity to consume.","difficulty":2,"altAnswers":["Compute the average and marginal propensity to save.","Explain the determinants of consumption and saving."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why saving matters.","answer":"Saving is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of saving in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to saving, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
+Lessons["g11-economics-ue4-t2"] = {
+  overview: "Saving is the part of disposable income that is not consumed, S = Yd - C. This lesson derives the saving function, explains APS and MPS, and highlights Ethiopian saving practice such as Iqub.",
+  objectives: [
+    "Define saving and distinguish the act of saving from accumulated savings",
+    "Derive the saving function from the consumption function",
+    "Compute average propensity to save and marginal propensity to save from data",
+    "Explain saving and savings as flow and stock concepts",
+    "Identify the major determinants of saving"
+  ],
+  simple: "Saving is the difference between disposable income and consumption: S = Yd - C. Disposable income can be used only for consumption or saving, so Yd = C + S. Substituting the consumption function C = C0 + cYd gives the saving function S = -C0 + (1 - c)Yd. The negative constant -C0 is dissaving by people who consume even at zero income. The average propensity to save is APS = S / Yd and equals 1 - APC. The marginal propensity to save is MPS = change in S / change in Yd and equals 1 - c; MPS rises as income rises. Savings increase in two ways: raise income or reduce consumption. Saving is an act, a flow; savings is the accumulated amount, a stock. Ethiopians also save through Iqub, a rotating savings arrangement outside the formal financial system.",
+  detailed: "<p><b>What saving is.</b> Savings, in the flow sense called saving, is the difference between disposable income and consumption. The part of income which is not spent on consumption is saving. Disposable income can be used only for consumption or saving, so Yd = C + S, and therefore S = Yd - C. People save what is left after spending for consumption.</p><p><b>Deriving the saving function.</b> Since C = C0 + cYd, substitute into S = Yd - C: S = Yd - (C0 + cYd). Distributing the minus sign gives S = Yd - C0 - cYd, and collecting similar terms gives S = -C0 + (1 - c)Yd. The term -C0 is the amount of dis-saving associated with autonomous consumption: when people consume with zero income they are either borrowing or drawing on wealth or previous savings. The slope (1 - c) is the marginal propensity to save.</p><p><b>Saving versus savings.</b> Saving and savings are not the same. Saving refers to the act of depositing money, while savings refer to the already accumulated money. Saving is a flow concept while savings is a stock concept. Savings can be increased through two ways: one is to increase income, since with increased income there is a higher tendency to save; the second is to decrease consumption, because reducing consumption improves saving.</p><p><b>Average propensity to save.</b> APS is the ratio of total savings to total income, the part of total income which is saved: APS = S / Yd. Since S = Yd - C, by substitution APS = (Yd - C) / Yd = 1 - C / Yd = 1 - APC. Example: if a household saves 500 ETB each month from a disposable income of 2000 ETB, APS = 500 / 2000 = 0.25, so on average the household saves 25 percent of its income.</p><p><b>Marginal propensity to save.</b> MPS is the ratio of the change in saving to the change in disposable income; it is the slope of the saving function and equals 1 - c: MPS = change in S / change in Yd. Its properties mirror MPC: MPS values lie between zero and 1, where zero means no change in saving and 1 shows maximum saving out of the new income; and MPS increases as income increases, so the MPS of the poor is less than the MPS of the rich.</p><p><b>Determinants of saving and the Iqub.</b> The major determinants of saving are: the level of income, which raises saving but less than proportionally because consumption rises by less than income; the distribution of income, since saving increases when income inequality increases because the rich have a greater tendency to save; expectations about future prices and income, since an expected fall in prices raises present saving while an expected income rise reduces present saving; the rate of interest, where a higher rate induces greater saving; the level of wealth; the level of direct taxes, where higher taxes reduce disposable income and savings; and the individual nature of the person, since a miser saves more than a spendthrift. In Ethiopia, Iqub is a typical indigenous practice of saving outside the formal financial system: members contribute a fixed amount periodically and take the collected sum in turns, usually by lottery. Groups are usually small, 10 to 30 people who trust one another, an existing Iqub ends when all members have taken the money, and every member names a guarantor who pays if that member cannot contribute.</p>",
+  keyTerms: [
+    { term: "Saving", def: "The act of not spending part of disposable income; the difference between disposable income and consumption, a flow concept." },
+    { term: "Savings", def: "The already accumulated money or wealth set aside in the past; a stock concept." },
+    { term: "Saving function", def: "The relationship between saving and disposable income: S = -C0 + (1 - c)Yd." },
+    { term: "Dissaving", def: "Consuming more than current income, shown by the -C0 term; households borrow or draw on past wealth." },
+    { term: "Average propensity to save (APS)", def: "The ratio of total savings to total income: APS = S / Yd = 1 - APC." },
+    { term: "Marginal propensity to save (MPS)", def: "The ratio of the change in saving to the change in disposable income; the slope of the saving function, equal to 1 - c." },
+    { term: "Flow concept", def: "A quantity measured per period of time, such as saving per month." },
+    { term: "Iqub", def: "A traditional Ethiopian rotating savings arrangement outside the formal financial system, in which members contribute fixed amounts periodically and take the collected sum in turns." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "Autonomous consumption is 60 ETB and MPC is 0.8. Write the consumption and saving equations.",
+      given: "C0 = 60; MPC = c = 0.8.",
+      formula: "C = C0 + cYd and S = -C0 + (1 - c)Yd.",
+      substitution: "C = 60 + 0.8Yd; MPS = 1 - 0.8 = 0.2, so S = -60 + 0.2Yd.",
+      calculation: "Replace c with 0.8 in the consumption function and 1 - c with 0.2 in the saving function.",
+      answer: "C = 60 + 0.8Yd and S = -60 + 0.2Yd."
+    },
+    {
+      problem: "Using the functions above, find consumption and saving when income is 500 ETB.",
+      given: "C = 60 + 0.8Yd; S = -60 + 0.2Yd; Yd = 500.",
+      formula: "Substitute Yd into each function, or use S = Yd - C.",
+      substitution: "C = 60 + 0.8 x 500 = 60 + 400; S = -60 + 0.2 x 500 = -60 + 100.",
+      calculation: "C = 460; S = 40. Check: 460 + 40 = 500 = Yd.",
+      answer: "Consumption is 460 ETB and saving is 40 ETB."
+    },
+    {
+      problem: "A household saves 500 ETB each month from a disposable income of 2000 ETB. Find the average propensity to save.",
+      given: "S = 500 ETB; Yd = 2000 ETB.",
+      formula: "APS = S / Yd, the ratio of total savings to total income.",
+      substitution: "APS = 500 / 2000.",
+      calculation: "500 divided by 2000 equals 0.25.",
+      answer: "APS = 0.25, so on average the household saves 25 percent of its income."
+    },
+    {
+      problem: "Disposable income rises from 1000 to 2000 ETB and consumption rises from 800 to 1400 ETB. Find saving before and after and compute the MPS.",
+      given: "Before: Yd = 1000, C = 800. After: Yd = 2000, C = 1400.",
+      formula: "S = Yd - C and MPS = change in S / change in Yd = 1 - c.",
+      substitution: "Saving before = 1000 - 800 = 200; saving after = 2000 - 1400 = 600; change in S = 400, change in Yd = 1000.",
+      calculation: "MPS = 400 / 1000 = 0.4, which equals 1 - 0.6 because MPC = 600 / 1000 = 0.6.",
+      answer: "Saving rises from 200 to 600 ETB and MPS = 0.4."
+    }
+  ],
+  commonMistakes: [
+    "Using saving and savings interchangeably; saving is the act, a flow, while savings is the accumulated amount, a stock.",
+    "Forgetting the minus sign on autonomous consumption when writing the saving function, which should start with -C0.",
+    "Believing MPS falls as income rises; MPS increases with income, so the MPS of the poor is less than that of the rich.",
+    "Thinking saving equals income; saving is income minus consumption, S = Yd - C.",
+    "Writing MPS values below 0 or above 1; MPS must lie between 0 and 1.",
+    "Computing APS without checking APC + APS = 1, which always holds.",
+    "Assuming a lower interest rate increases saving; a higher rate of interest induces greater saving."
+  ],
+  applications: [
+    "Joining an Iqub lets a small trader in Merkato accumulate a lump sum to expand stock without a bank loan.",
+    "Rural households store grain after harvest, which is saving in kind that can be consumed or sold later.",
+    "A salaried worker who cuts unnecessary festive spending raises saving even without any change in income.",
+    "When banks raise deposit interest rates, households save more because a higher rate of interest induces greater saving.",
+    "Richer households save a larger fraction of income than poorer ones, so the distribution of income shapes national saving.",
+    "A miser tends to accumulate savings while a spendthrift consumes almost everything, showing that individual nature affects saving."
+  ],
+  summary: "Saving is the part of disposable income not spent, S = Yd - C, and the saving function derived from the consumption function is S = -C0 + (1 - c)Yd, where -C0 is dissaving at zero income. APS = S / Yd = 1 - APC, while MPS = change in S / change in Yd = 1 - c lies between 0 and 1 and rises as income rises. Saving is a flow and savings a stock, and saving depends on income, income distribution, expectations, the interest rate, wealth, taxes and individual character.",
+  visuals: [
+    {
+      type: "steps",
+      config: {
+        title: "Deriving the Saving Function",
+        steps: [
+          { label: "Start", detail: "Disposable income is either consumed or saved: Yd = C + S, so S = Yd - C." },
+          { label: "Substitute", detail: "Put the consumption function into it: S = Yd - (C0 + cYd)." },
+          { label: "Distribute", detail: "S = Yd - C0 - cYd." },
+          { label: "Collect terms", detail: "S = -C0 + (1 - c)Yd, with MPS = 1 - c as the slope." }
+        ]
+      }
+    },
+    {
+      type: "comparison",
+      config: {
+        title: "Saving vs Savings",
+        left: { name: "Saving", items: ["The act of not spending", "Measured per period", "A flow concept", "Example: saving 500 ETB this month"] },
+        right: { name: "Savings", items: ["The accumulated amount", "Measured at a point in time", "A stock concept", "Example: 6000 ETB in a bank account"] }
+      }
+    },
+    {
+      type: "tableVisual",
+      config: {
+        title: "How Determinants Act on Saving",
+        headers: ["Determinant", "Effect on saving"],
+        rows: [
+          ["Income rises", "Saving rises, but by less than income"],
+          ["Income inequality rises", "Saving rises (the rich save more)"],
+          ["Interest rate rises", "Saving rises"],
+          ["Direct taxes rise", "Saving falls (less disposable income)"],
+          ["Wealth falls", "Saving falls"]
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "Saving is defined as:", options: ["consumption minus income", "disposable income minus consumption", "disposable income plus consumption", "income divided by consumption"], answer: 1, difficulty: 1, explanation: "Saving is the difference between disposable income and consumption: S = Yd - C." },
+    { type: "tf", q: "Saving is a stock concept while savings is a flow concept.", answer: false, difficulty: 2, explanation: "It is the reverse: saving is a flow concept while savings is a stock concept." },
+    { type: "short", q: "If autonomous consumption is 60 and MPC is 0.8, write the saving function.", answer: "S = -60 + 0.2Yd|-60+0.2Yd", difficulty: 2, explanation: "MPS = 1 - 0.8 = 0.2, so S = -60 + 0.2Yd." },
+    { type: "mcq", q: "A household saves 500 ETB from a disposable income of 2000 ETB. The APS is:", options: ["0.25", "0.4", "4", "0.75"], answer: 0, difficulty: 2, explanation: "APS = 500 / 2000 = 0.25, so 25 percent of income is saved on average." },
+    { type: "concept", q: "State the relationship between APS and APC.", answer: "APS = 1 - APC|APC plus APS equals 1|APC + APS = 1", difficulty: 2, explanation: "Since Yd = C + S, dividing by Yd gives APC + APS = 1, so APS = 1 - APC." },
+    { type: "mcq", q: "As income increases, the marginal propensity to save:", options: ["falls", "rises", "stays constant", "becomes negative"], answer: 1, difficulty: 2, explanation: "MPS increases with an increase in income, so the MPS of the poor is less than the MPS of the rich." },
+    { type: "tf", q: "A higher rate of interest induces greater saving.", answer: true, difficulty: 2, explanation: "A higher rate of interest induces greater saving, and the principle also acts inversely." },
+    { type: "short", q: "If MPC is 0.8, what is the value of MPS?", answer: "0.2", difficulty: 2, explanation: "MPS = 1 - c = 1 - 0.8 = 0.2." },
+    { type: "concept", q: "Give the two ways savings can be increased.", answer: "increase income|decrease consumption|raise income and cut consumption", difficulty: 2, explanation: "Savings can be increased by increasing income or by decreasing consumption." },
+    { type: "mcq", q: "Which statement about Iqub is correct?", options: ["It is a formal bank loan", "It is a rotating savings arrangement outside the formal financial system", "It is a tax collected by the government", "It is an investment fund sold by commercial banks"], answer: 1, difficulty: 2, explanation: "Iqub is a typical indigenous revolving savings practice, a form of informal financing." },
+    { type: "mcq", q: "If C = 80 + 0.7Yd, the saving function is:", options: ["S = 80 + 0.7Yd", "S = -80 + 0.3Yd", "S = 80 - 0.3Yd", "S = -80 + 0.7Yd"], answer: 1, difficulty: 3, explanation: "S = Yd - (80 + 0.7Yd) = -80 + 0.3Yd, since MPS = 1 - 0.7 = 0.3." }
+  ]
+};
 
-Lessons["g11-economics-ue4-t3"] = {"overview":"<b>The Relationship between Saving and Consumption</b> sits inside <b>Consumption, Saving and Investment</b>. Consumption and saving are the focus of Unit 4 of Grade 11 Economics in the Ethiopian (FDRE Ministry of Education) curriculum. First, it studies consumption, the average and marginal propensity to consume, and what determines them. Then it studies saving, the average and marginal propensity to save, and its determinants. Next, it links saving to consumption. Finally, it examines investment, its types, and its role in economic growth. Students will also learn how consumption and saving shape real-life economic activity.","objectives":["Compute the average and marginal propensity to consume.","Compute the average and marginal propensity to save.","Explain the determinants of consumption and saving.","Describe the types and determinants of investment.","Explain how consumption and saving relate to investment."],"simple":"<b>The Relationship between Saving and Consumption in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, how income splits between consumption and saving.</li> <li>Also why APC + APS = 1 and MPC + MPS = 1.</li></ul>","detailed":"<p><b>The Relationship between Saving and Consumption — the essentials.</b> First, how income splits between consumption and saving. Also why APC + APS = 1 and MPC + MPS = 1.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Compute the average and marginal propensity to consume.</li><li>Compute the average and marginal propensity to save.</li><li>Explain the determinants of consumption and saving.</li><li>Describe the types and determinants of investment.</li><li>Explain how consumption and saving relate to investment.</li></ul>","keyTerms":[{"term":"First","def":"First, how income splits between consumption and saving."},{"term":"Also why APC + APS = 1 and MPC + MPS = 1","def":"Also why APC + APS = 1 and MPC + MPS = 1."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing the relationship between saving and consumption with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Interpreting economic news about Ethiopia in the media","The applied data-response questions in the ESSLCE economics paper"],"summary":"The Relationship between Saving and Consumption: First, how income splits between consumption and saving. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"The Relationship between Saving and Consumption\" is correct according to the MoE curriculum?","options":["First, how income splits between consumption and saving.","The Relationship between Saving and Consumption holds only under conditions this topic says do not apply","The Relationship between Saving and Consumption inverts the direction of the relationship this topic describes","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, how income splits between consumption and saving. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"The Relationship between Saving and Consumption\"?","options":["Also why APC + APS = 1 and MPC + MPS = 1.","The Relationship between Saving and Consumption is a household-level claim, not the national-level claim of this topic","The Relationship between Saving and Consumption holds only under conditions this topic says do not apply","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Also why APC + APS = 1 and MPC + MPS = 1."},{"type":"tf","q":"True or false: First, how income splits between consumption and saving.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover the relationship between saving and consumption.","answer":false,"difficulty":1,"explanation":"The Relationship between Saving and Consumption is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Compute the average and marginal propensity to consume.","difficulty":2,"altAnswers":["Compute the average and marginal propensity to save.","Explain the determinants of consumption and saving."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why the relationship between saving and consumption matters.","answer":"The Relationship between Saving and Consumption is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of the relationship between saving and consumption in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to the relationship between saving and consumption, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
+Lessons["g11-economics-ue4-t3"] = {
+  overview: "Every birr of disposable income is either consumed or saved, so MPC + MPS = 1 and APC + APS = 1. This lesson proves these identities, introduces the 45 degree line, and locates the break-even income where saving is zero.",
+  objectives: [
+    "State and prove the identity MPC + MPS = 1",
+    "State and prove the identity APC + APS = 1",
+    "Compute MPC or MPS when the other is given",
+    "Explain the 45 degree reference line and the break-even income",
+    "Distinguish positive saving from dissaving around the break-even point"
+  ],
+  simple: "Disposable income has only two uses: consumption and saving. Any change in disposable income can change only consumption or saving, so the marginal propensity to consume plus the marginal propensity to save must equal 1: MPC + MPS = 1. For example, if MPS is 0.6, MPC is 1 - 0.6 = 0.4. Dividing the identity Yd = C + S by Yd proves that APC + APS = 1 as well. The 45 degree line plots points where the value on the x-axis equals the value on the y-axis; with income on the x-axis and total expenditure C + S on the y-axis, it is the expenditure equals income line. Where the consumption function crosses this line, consumption equals income and saving is zero, the break-even point. Above it, saving is positive; below it, consumption exceeds income and there is dissaving.",
+  detailed: "<p><b>Why MPC + MPS = 1.</b> Since any change in disposable income can change only consumption or saving, every extra birr of income is partly consumed and partly saved. Hence the marginal propensity to consume plus the marginal propensity to save must equal 1: MPC + MPS = 1. Example: if MPS is 0.6, then MPC is 1 - 0.6, which equals 0.4. Mathematically, this is simply adding c and 1 - c, and c + (1 - c) = 1 always.</p><p><b>Proving APC + APS = 1.</b> The same logic applies to the averages. We know Yd = C + S, that income equals consumption plus saving. Dividing both sides of the equation by Yd gives C / Yd + S / Yd = 1, and since APC = C / Yd and APS = S / Yd, it follows that APC + APS = 1. The proof is very simple and holds at every income level, even when APC is above 1 and dissaving occurs.</p><p><b>The 45 degree reference line.</b> To study the relationship between consumption and saving graphically, we use the 45 degree reference line, which shows equality between the value of the variable on the x-axis and on the y-axis. If we measure income on the x-axis and total expenditure (C + S) on the y-axis, then Y = C + S is called the expenditure equals income line. The significance is that each point on this line shows that expenditure equals income, so comparing the consumption function curve with the 45 degree line at any point tells us whether consumption is equal to, greater than or less than the income level.</p><p><b>Break-even and dissaving.</b> When the consumption function crosses the expenditure equals income line, income equals consumption and there is no saving; this income level, Yd*, is the break-even point. When income is above Yd*, consumption is less than income and there is positive saving. On the contrary, when income is less than Yd*, consumption exceeds income and there is dissaving, financed by borrowing or by drawing on past wealth. Note that the two identities always hold: even while a household dissaves, MPC + MPS = 1 and APC + APS = 1 remain true because saving is simply negative.</p><p><b>A numerical illustration.</b> Take C = 80 + 0.7Yd. At the break-even point consumption equals income: 80 + 0.7Yd = Yd, so 0.3Yd = 80 and Yd* is about 266.7 ETB. Above that income, saving is positive: at Yd = 1000, consumption is 80 + 700 = 780, so saving is 1000 - 780 = 220, giving APC = 0.78 and APS = 0.22, which sum to 1. Below it, there is dissaving: at Yd = 100, consumption is 150, so saving is -50, giving APC = 1.5 and APS = -0.5, which still sum to 1. This shows how the propensities move around the break-even point while the identities hold unchanged.</p>",
+  keyTerms: [
+    { term: "MPC + MPS = 1", def: "The marginal identity: any change in disposable income is split between a change in consumption and a change in saving." },
+    { term: "APC + APS = 1", def: "The average identity: consumption and saving shares of disposable income must add up to unity." },
+    { term: "45 degree reference line", def: "The line on which the value on the x-axis equals the value on the y-axis; with income and expenditure measured, it is the locus of points where Y = C + S." },
+    { term: "Expenditure equals income line", def: "The line Y = C + S; each point on it shows that expenditure equals income." },
+    { term: "Break-even point", def: "The income level Yd* at which consumption equals income, so saving is zero." },
+    { term: "Positive saving", def: "The situation when income is above the break-even level and consumption is less than income." },
+    { term: "Unity", def: "The number 1; the sum of the marginal or average propensities to consume and to save." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "If the marginal propensity to save is 0.6, what is the marginal propensity to consume?",
+      given: "MPS = 0.6.",
+      formula: "MPC + MPS = 1, so MPC = 1 - MPS.",
+      substitution: "MPC = 1 - 0.6.",
+      calculation: "1 - 0.6 = 0.4.",
+      answer: "MPC = 0.4; 0.4 plus 0.6 equals 1, since any change in disposable income changes only consumption or saving."
+    },
+    {
+      problem: "At a disposable income of 500 ETB a household consumes 460 ETB. Verify that APC + APS = 1.",
+      given: "Yd = 500; C = 460, so S = 500 - 460 = 40.",
+      formula: "APC = C / Yd and APS = S / Yd, and APC + APS = 1.",
+      substitution: "APC = 460 / 500; APS = 40 / 500.",
+      calculation: "APC = 0.92 and APS = 0.08; 0.92 + 0.08 = 1.",
+      answer: "APC = 0.92 and APS = 0.08, confirming the identity APC + APS = 1."
+    },
+    {
+      problem: "For the consumption function C = 80 + 0.7Yd, find the break-even income at which saving is zero.",
+      given: "C = 80 + 0.7Yd; at the break-even point Yd = C.",
+      formula: "Set consumption equal to income: C0 + cYd = Yd, so Yd* = C0 / (1 - c).",
+      substitution: "80 + 0.7Yd = Yd, which gives 80 = 0.3Yd.",
+      calculation: "Yd* = 80 / 0.3 = 266.7 approximately.",
+      answer: "The break-even income is about 266.7 ETB; above it there is positive saving, below it dissaving."
+    },
+    {
+      problem: "Using C = 80 + 0.7Yd, find saving at income 1000 ETB and at income 100 ETB, and compute APC and APS at both levels.",
+      given: "C = 80 + 0.7Yd; S = Yd - C.",
+      formula: "S = Yd - C; APC = C / Yd; APS = S / Yd; APC + APS = 1.",
+      substitution: "At Yd = 1000: C = 780, S = 220. At Yd = 100: C = 150, S = -50.",
+      calculation: "At 1000: APC = 0.78, APS = 0.22. At 100: APC = 1.5, APS = -0.5. Both pairs sum to 1.",
+      answer: "At income 1000 ETB there is positive saving of 220 ETB; at income 100 ETB there is dissaving of 50 ETB; the identity holds at both levels."
+    }
+  ],
+  commonMistakes: [
+    "Expecting MPC + MPS to be less than or more than 1; the two propensities must add exactly to 1.",
+    "Confusing the 45 degree reference line with the consumption function; the 45 degree line shows where expenditure equals income.",
+    "Believing saving is positive below the break-even income; below it consumption exceeds income and there is dissaving.",
+    "Interchanging APC with MPC in the identities; MPC + MPS = 1 uses marginal values, APC + APS = 1 uses average values.",
+    "Thinking the identity APC + APS = 1 breaks down when APC is greater than 1; APS simply becomes negative.",
+    "Mixing up the break-even point with zero income; at zero income there is autonomous consumption and dissaving, not balance."
+  ],
+  applications: [
+    "A household that knows its MPC can predict how a salary change divides between extra spending and extra saving.",
+    "Policymakers watch APC and APS to judge whether households will support demand for firms or supply loanable funds for investment.",
+    "An Iqub member whose MPS is 0.6 can plan how much of every extra birr goes to the monthly contribution.",
+    "During a job loss or famine, families consume more than income by selling livestock or borrowing, living below the break-even point through dissaving.",
+    "Because the poor have a higher MPC, income redistribution raises consumption demand more than saving, which matters for aggregate demand policy."
+  ],
+  summary: "Because every birr of disposable income is either consumed or saved, the marginal identity MPC + MPS = 1 always holds, as does the average identity APC + APS = 1, proved by dividing Yd = C + S by Yd. The 45 degree line shows where expenditure equals income; where the consumption function crosses it saving is zero, above it saving is positive, and below it there is dissaving. These identities hold at every income level, even when saving is negative.",
+  visuals: [
+    {
+      type: "steps",
+      config: {
+        title: "Proving APC + APS = 1",
+        steps: [
+          { label: "Identity", detail: "Income equals consumption plus saving: Yd = C + S." },
+          { label: "Divide by Yd", detail: "C / Yd + S / Yd = 1." },
+          { label: "Recognise", detail: "C / Yd is APC and S / Yd is APS." },
+          { label: "Conclude", detail: "APC + APS = 1 (unity) at every income level." }
+        ]
+      }
+    },
+    {
+      type: "comparison",
+      config: {
+        title: "Above vs Below the Break-Even Income",
+        left: { name: "Income above Yd*", items: ["Consumption less than income", "Positive saving", "APC less than 1", "APS positive"] },
+        right: { name: "Income below Yd*", items: ["Consumption exceeds income", "Dissaving", "APC greater than 1", "APS negative"] }
+      }
+    },
+    {
+      type: "qa",
+      config: {
+        title: "Exam Quick-Check",
+        pairs: [
+          { q: "If MPS = 0.6, what is MPC?", a: "1 - 0.6 = 0.4." },
+          { q: "What does the 45 degree line show?", a: "Points where expenditure equals income, Y = C + S." },
+          { q: "What happens where the consumption function crosses the 45 degree line?", a: "Income equals consumption and saving is zero, the break-even point." },
+          { q: "Do APC and APS always sum to 1?", a: "Yes, even when APC is above 1 and dissaving occurs." }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "short", q: "State the sum of the marginal propensity to consume and the marginal propensity to save.", answer: "1|one|unity", difficulty: 1, explanation: "MPC + MPS = 1, because any change in disposable income changes only consumption or saving." },
+    { type: "mcq", q: "If the marginal propensity to save is 0.6, the marginal propensity to consume is:", options: ["0.4", "0.6", "1", "0"], answer: 0, difficulty: 1, explanation: "MPC = 1 - MPS = 1 - 0.6 = 0.4." },
+    { type: "tf", q: "The average propensity to consume plus the average propensity to save equals 1.", answer: true, difficulty: 1, explanation: "Dividing Yd = C + S by Yd proves APC + APS = 1." },
+    { type: "mcq", q: "The 45 degree reference line shows:", options: ["points where expenditure equals income", "the slope of the consumption function", "the break-even saving line", "the level of autonomous consumption"], answer: 0, difficulty: 2, explanation: "The 45 degree line shows the locus of points where the value on the x-axis equals the value on the y-axis, that is Y = C + S." },
+    { type: "concept", q: "What is the income level at which consumption equals income and saving is zero called?", answer: "break-even income|break-even point|break-even level", difficulty: 2, explanation: "It is the break-even point, and it lies where the consumption function crosses the 45 degree line." },
+    { type: "mcq", q: "When income is less than the break-even income Yd*:", options: ["saving is positive", "consumption exceeds income and there is dissaving", "consumption equals income", "APC plus APS is greater than 1"], answer: 1, difficulty: 2, explanation: "Below Yd*, consumption exceeds income and there is dissaving." },
+    { type: "short", q: "Disposable income is 500 ETB and consumption is 400 ETB. Compute the average propensity to save.", answer: "0.2", difficulty: 2, explanation: "S = 500 - 400 = 100, so APS = 100 / 500 = 0.2." },
+    { type: "tf", q: "When income is zero, saving is positive.", answer: false, difficulty: 2, explanation: "At zero income the household still consumes autonomously, so it dissaves: saving equals -C0." },
+    { type: "mcq", q: "For C = 80 + 0.7Yd, the break-even income is approximately:", options: ["80 ETB", "267 ETB", "400 ETB", "800 ETB"], answer: 1, difficulty: 3, explanation: "Set 80 + 0.7Yd = Yd, so 0.3Yd = 80 and Yd = 266.7 ETB, about 267." },
+    { type: "concept", q: "Explain why MPC and MPS must add up to 1.", answer: "any extra birr of income is partly consumed and partly saved|a change in income can change only consumption or saving", difficulty: 2, explanation: "Since any change in disposable income can change only consumption or saving, the two propensities exhaust the whole change and sum to 1." },
+    { type: "mcq", q: "If APC is greater than 1 at a very low income, then saving is:", options: ["positive", "zero", "negative", "equal to income"], answer: 2, difficulty: 2, explanation: "APC + APS = 1, so APS is negative when APC exceeds 1, meaning dissaving is occurring." }
+  ]
+};
 
-Lessons["g11-economics-ue4-t4"] = {"overview":"<b>Investment</b> sits inside <b>Consumption, Saving and Investment</b>. Consumption and saving are the focus of Unit 4 of Grade 11 Economics in the Ethiopian (FDRE Ministry of Education) curriculum. First, it studies consumption, the average and marginal propensity to consume, and what determines them. Then it studies saving, the average and marginal propensity to save, and its determinants. Next, it links saving to consumption. Finally, it examines investment, its types, and its role in economic growth. Students will also learn how consumption and saving shape real-life economic activity.","objectives":["Compute the average and marginal propensity to consume.","Compute the average and marginal propensity to save.","Explain the determinants of consumption and saving.","Describe the types and determinants of investment.","Explain how consumption and saving relate to investment."],"simple":"<b>Investment in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, the types of investment.</li> <li>Then the determinants of investment.</li> <li>Also the role of investment in economic growth.</li></ul>","detailed":"<p><b>Investment — the essentials.</b> First, the types of investment. Then the determinants of investment. Also the role of investment in economic growth.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Compute the average and marginal propensity to consume.</li><li>Compute the average and marginal propensity to save.</li><li>Explain the determinants of consumption and saving.</li><li>Describe the types and determinants of investment.</li><li>Explain how consumption and saving relate to investment.</li></ul>","keyTerms":[{"term":"First","def":"First, the types of investment."},{"term":"Then the determinants of investment","def":"Then the determinants of investment."},{"term":"Also the role of investment in economic growth","def":"Also the role of investment in economic growth."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing investment with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Interpreting economic news about Ethiopia in the media","The applied data-response questions in the ESSLCE economics paper"],"summary":"Investment: First, the types of investment. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"Investment\" is correct according to the MoE curriculum?","options":["First, the types of investment.","Investment holds only under conditions this topic says do not apply","Investment inverts the direction of the relationship this topic describes","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, the types of investment. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"Investment\"?","options":["Then the determinants of investment.","Investment is a household-level claim, not the national-level claim of this topic","Investment holds only under conditions this topic says do not apply","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Then the determinants of investment."},{"type":"tf","q":"True or false: First, the types of investment.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover investment.","answer":false,"difficulty":1,"explanation":"Investment is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Compute the average and marginal propensity to consume.","difficulty":2,"altAnswers":["Compute the average and marginal propensity to save.","Explain the determinants of consumption and saving."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why investment matters.","answer":"Investment is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of investment in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to investment, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
-
+Lessons["g11-economics-ue4-t4"] = {
+  overview: "Investment is the purchase of goods that are not consumed today but are used in the future to generate wealth. This lesson classifies investment, explains gross and net investment, real and nominal interest rates, the determinants of investment and the accelerator theory.",
+  objectives: [
+    "Define investment and distinguish it from consumption",
+    "Classify investment as gross or net, autonomous or induced, private or public",
+    "Compute net investment as gross investment minus depreciation and interpret its sign",
+    "Explain the difference between nominal and real interest rates and how interest rate affects investment",
+    "Describe the accelerator theory and the role of investment in economic growth"
+  ],
+  simple: "Investment is the amount of goods purchased or accumulated per unit of time that are not consumed at the present time; in a strict sense it increases the stock of capital. Gross investment is total spending on new capital, including replacement of worn-out machines; net investment equals gross investment minus depreciation, and positive net investment raises the productive capacity of the economy. Investment can be autonomous, independent of income and made mainly by government for welfare, or induced, motivated by profit and rising with income, and private or public depending on who invests. The real interest rate is the nominal rate minus inflation; for example 15 percent minus 8 percent gives 7 percent. Investment depends on the interest rate, expectations about future sales and business taxes. The accelerator theory states that capital investment outlay is a function of output: a change in demand for consumer goods triggers a larger percentage change in demand for capital goods.",
+  detailed: "<p><b>What investment is.</b> Investment is the amount of goods that are purchased or accumulated per unit of time and which are not consumed at the present time. It may mean putting savings into assets that become worth more than their initial worth or that will help produce income with time. In an economic outlook, investment is the purchase of goods that are not consumed today but are used in the future to generate wealth. In a strict sense, investment should lead to an increase in the stock of capital, finished goods or raw materials.</p><p><b>Gross and net investment.</b> Gross investment, or gross capital investment, is a company's capital investment before deducting depreciation: the total amount the economy spends on new capital, including an estimate for the value of capital depreciation, since some investment is needed each year just to replace used-up or worn-out plant and machinery. The value of a piece of equipment decreases as we use it in production, which is called depreciation of capital; investment made to compensate for such depreciation is not real investment but replacement investment. Net investment is gross investment minus the depreciation on the existing capital. If gross investment is higher than depreciation, then net investment is positive, and a positive net investment increases the productive capacity of the economy.</p><p><b>Autonomous and induced investment.</b> Investment can also be divided into induced and autonomous. Autonomous investment is expenditure on capital formation which is independent of the change in income, rate of interest or rate of profit; it is income inelastic and is generally taken by the government sector, usually for welfare considerations. Induced investment is investment made with the motive of earning a profit or income; it depends directly on profit expectations and is income elastic. If national income goes up, induced investment also goes up, because an increase in national income leads to an increase in the demand for goods and services, which increases investor interest in meeting that demand. Graphically, autonomous investment is a horizontal line, while induced investment varies directly with profit or income.</p><p><b>Private and public investment.</b> By the criterion of who invests, investment is private or public. Private investment is made by the private sector in the form of new machinery and equipment, the building of new factories and increases in inventories. Public investment is investment by the state, whether through central or local government or through publicly owned industries or corporations, and it originates in the need to provide goods, infrastructure or services of vital national interest that the private sector cannot provide, such as police and national defence, electricity, clean water and sewage services. Public investment has three broad classes: physical investment, tangible investment in infrastructure like transport, telecommunications and buildings; human or intangible investment in education, skills and knowledge; and consumption investment in consumption goods and services, for example social security benefits and pensions. Today there is growing pressure on governments to reduce public investment where the private sector can operate, a demand for privatization and deregulation, with governments buying services through public-private partnerships.</p><p><b>Nominal and real interest rates.</b> Two types of interest rates affect the profitability of investment. The nominal interest rate is the rate before taking inflation into account; it is not corrected for inflation, it is the rate the bank pays, and almost all rates reported in newspapers are nominal. The real interest rate has been adjusted to remove the effects of inflation; it reflects the real cost of borrowing and captures changes in purchasing power. Real interest rate equals nominal interest rate minus inflation: r = i - inflation. For example, if the nominal interest rate is 15 percent and inflation is 8 percent, the real interest rate is 7 percent. If you save money in a bank you receive the nominal rate, but because of inflation the real gain is the real interest rate, 7 percent in this case.</p><p><b>Determinants of investment.</b> Investment depends on the interest rate, expectations about future sales and business taxes. As the interest rate rises, the cost of a given investment project rises and businesses invest less, because the interest rate measures the cost of borrowed funds; investment becomes less profitable and investment demand declines, so investment varies inversely with the interest rate. Businesses invest because they expect to sell what they produce: optimism about future sales grows investment spending and aggregate demand, while pessimism contracts them. Businesses also consider expected after-tax profits: an increase in business taxes lowers expected profitability and investment, while a tax decrease raises both. Beyond these, firms in Ethiopia report challenges such as poor infrastructure, access to finance, rules and regulations, lack of raw materials, practices of the informal sector and lack of markets. The World Bank tracks the business environment with its ease of doing business (EoDB) index, and Ethiopia's rank was 159th out of 190 countries in 2019, showing the need for the reforms the government has introduced.</p><p><b>Investment, growth and the accelerator.</b> Economic growth is an increase in the total output of a nation over time. Investment boosts economic activities because it is a component of aggregate demand and, more importantly, it influences the productive capacity of the economy by adding to the stock of capital, which is a crucial determinant of productivity. Consumption spending is not a waste: an appropriate level of consumption creates demand for producers, and according to the accelerator theory, capital investment outlay is a function of output. When there is a change in demand for consumer goods, there will be a higher percentage change in demand for capital goods; firms respond to sustained rises in demand by investing in capital goods, equipment and technology. If It is investment in period t, Kt the capital stock, and a proportion a of output Yt is invested, then It = Kt - Kt-1 and It = a(Yt - Yt-1), where a is called the accelerator coefficient, so changes in demand or income accelerate investment.</p>",
+  keyTerms: [
+    { term: "Investment", def: "The amount of goods purchased or accumulated per unit of time and not consumed at present; in a strict sense it increases the stock of capital." },
+    { term: "Gross investment", def: "Total capital investment before deducting depreciation; the total amount the economy spends on new capital including replacement." },
+    { term: "Net investment", def: "Gross investment minus depreciation of the existing capital; positive net investment increases productive capacity." },
+    { term: "Depreciation", def: "The fall in the value of equipment as it is used in the production process; replacing it is called replacement investment." },
+    { term: "Autonomous investment", def: "Capital formation independent of income, interest rate or profit; income inelastic and generally undertaken by government for welfare." },
+    { term: "Induced investment", def: "Investment made with the motive of earning profit; income elastic and rising with national income and demand." },
+    { term: "Real interest rate", def: "The nominal interest rate minus the rate of inflation; it reflects the real cost of borrowing and purchasing power changes." },
+    { term: "Accelerator theory", def: "The theory that capital investment outlay is a function of output: a change in demand for consumer goods causes a proportionately larger change in demand for capital goods, It = a(Yt - Yt-1) with a the accelerator coefficient." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "The nominal interest rate is 15 percent and inflation is 8 percent. Find the real interest rate and interpret it for a saver.",
+      given: "Nominal interest rate i = 15 percent; rate of inflation = 8 percent.",
+      formula: "Real interest rate = nominal interest rate - inflation.",
+      substitution: "r = 15 - 8.",
+      calculation: "15 - 8 = 7.",
+      answer: "The real interest rate is 7 percent; a saver receives the nominal 15 percent but the real gain after inflation is only 7 percent."
+    },
+    {
+      problem: "An economy spends 800 million birr on new capital this year, while 200 million birr of existing capital wears out. Find net investment and interpret it.",
+      given: "Gross investment = 800 million birr; depreciation = 200 million birr.",
+      formula: "Net investment = gross investment - depreciation.",
+      substitution: "Net investment = 800 - 200.",
+      calculation: "800 - 200 = 600.",
+      answer: "Net investment is 600 million birr; because it is positive, the productive capacity of the economy increases."
+    },
+    {
+      problem: "The accelerator coefficient is 0.5 and GDP rises from 200 billion birr to 220 billion birr. Find the induced investment spending.",
+      given: "a = 0.5; Yt = 220; Yt-1 = 200.",
+      formula: "Accelerator theory: It = a(Yt - Yt-1), investment is a function of the change in output.",
+      substitution: "It = 0.5 x (220 - 200).",
+      calculation: "0.5 x 20 = 10.",
+      answer: "Investment demand is 10 billion birr; the rise in national income induces investment through the accelerator effect."
+    },
+    {
+      problem: "Classify each project: a government builds a drought-relief water scheme whatever the income level; a shoe factory doubles its machines after footwear demand surges.",
+      given: "Project 1 is by government and unresponsive to income or profit; project 2 follows demand and profit.",
+      formula: "Autonomous investment is independent of income, interest or profit; induced investment is profit-motivated and income elastic.",
+      substitution: "Project 1 does not change with income or profit; project 2 responds to rising demand and expected profit.",
+      calculation: "Matching each project to its definition shows different motives and different sensitivities to income.",
+      answer: "The water scheme is autonomous investment; the shoe factory expansion is induced investment."
+    }
+  ],
+  commonMistakes: [
+    "Thinking investment means only depositing money in a bank; in economics it means purchasing goods not consumed today, which add to capital.",
+    "Counting replacement investment as real investment; investment that only offsets depreciation does not add to productive capacity.",
+    "Forgetting to subtract depreciation when computing net investment.",
+    "Judging a project with the nominal interest rate instead of the real rate, ignoring inflation.",
+    "Believing higher interest rates encourage investment; a rise in the interest rate raises the cost of borrowing and reduces investment demand.",
+    "Assuming consumption spending is only a waste and saving is all that matters; consumption demand induces investment through the accelerator effect.",
+    "Confusing autonomous with induced investment; the first is income inelastic and state-led, the second is profit-motivated and income elastic."
+  ],
+  applications: [
+    "Government electrification and road programmes in rural Ethiopia are autonomous public investment aimed at welfare, not profit.",
+    "A shopkeeper borrowing at a given nominal rate should deduct expected inflation to judge the real cost before expanding stock.",
+    "Improving Ethiopia's ease of doing business rank, which was 159th of 190 countries in 2019, attracts new investment and helps existing firms.",
+    "Rising urban incomes raise demand for furniture and cement, inducing producers to invest in more machines through the accelerator effect.",
+    "A large national dam project adds to the capital stock, shifting the economy's productive capacity and supporting long-run growth.",
+    "Public-private partnerships let governments buy services the private sector can provide while still funding vital infrastructure."
+  ],
+  summary: "Investment is the purchase of goods not consumed today but used to generate future wealth, and it adds to the capital stock that drives productivity and growth. Net investment equals gross investment minus depreciation, and investment types include autonomous (government, income inelastic) versus induced (profit-motivated, income elastic) and private versus public investment. Investment varies inversely with the real interest rate, the nominal rate minus inflation, and the accelerator theory stresses that a change in demand for consumer goods triggers a proportionately larger change in investment demand.",
+  visuals: [
+    {
+      type: "mindMap",
+      config: {
+        title: "Types of Investment",
+        center: "Investment",
+        branches: [
+          { label: "By capital change", items: ["Gross investment", "Net investment", "Depreciation"] },
+          { label: "By behaviour", items: ["Autonomous", "Induced"] },
+          { label: "By owner", items: ["Private investment", "Public investment"] },
+          { label: "Public classes", items: ["Physical", "Human", "Consumption"] }
+        ]
+      }
+    },
+    {
+      type: "comparison",
+      config: {
+        title: "Nominal vs Real Interest Rate",
+        left: { name: "Nominal rate", items: ["Before inflation is considered", "The rate the bank pays", "Reported in newspapers", "Example: 15 percent"] },
+        right: { name: "Real rate", items: ["Adjusted to remove inflation", "Real cost of borrowing", "Captures purchasing power", "Example: 15 - 8 = 7 percent"] }
+      }
+    },
+    {
+      type: "steps",
+      config: {
+        title: "The Accelerator Effect",
+        steps: [
+          { label: "Demand rises", detail: "Consumption spending and demand for goods and services increase." },
+          { label: "Firms respond", detail: "Firms expand output, use full capacity or sell inventory first." },
+          { label: "Capacity investment", detail: "To meet sustained demand they invest in capital goods, equipment and technology." },
+          { label: "Amplified investment", detail: "A percentage change in consumer demand causes a larger percentage change in investment: It = a(Yt - Yt-1)." }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "Investment, in the economic sense, is best described as:", options: ["buying goods that are consumed today", "the purchase of goods not consumed today but used in the future to generate wealth", "putting money in a current account", "paying taxes to the government"], answer: 1, difficulty: 1, explanation: "Investment is the purchase of goods that are not consumed today but are used in the future to generate wealth." },
+    { type: "short", q: "State the formula for net investment.", answer: "gross investment - depreciation|gross minus depreciation", difficulty: 1, explanation: "Net investment equals gross investment minus depreciation on the existing capital." },
+    { type: "tf", q: "Investment made only to compensate for depreciation is known as replacement investment and is not real investment.", answer: true, difficulty: 2, explanation: "Investment that merely offsets depreciation caused by production is replacement, not real, investment." },
+    { type: "mcq", q: "Autonomous investment is characterized by:", options: ["dependence on profit expectations", "independence from changes in income, interest rate or profit", "direct response to national income", "being made only by private firms"], answer: 1, difficulty: 2, explanation: "Autonomous investment is income inelastic and independent of income, interest rate or rate of profit, generally undertaken by government." },
+    { type: "mcq", q: "If the nominal interest rate is 15 percent and inflation is 8 percent, the real interest rate is:", options: ["23 percent", "15 percent", "8 percent", "7 percent"], answer: 3, difficulty: 2, explanation: "Real interest rate = nominal rate - inflation = 15 - 8 = 7 percent." },
+    { type: "concept", q: "Explain why investment demand falls when the interest rate rises.", answer: "the cost of borrowing rises so investment projects become less profitable|rises cost of borrowed funds", difficulty: 2, explanation: "The interest rate measures the cost of borrowed funds; as it rises, investment projects cost more and become less profitable, so businesses invest less." },
+    { type: "mcq", q: "If national income goes up, induced investment:", options: ["also goes up", "goes down", "stays the same", "becomes autonomous"], answer: 0, difficulty: 2, explanation: "Induced investment is income elastic; higher national income raises demand for goods and investor interest in supplying them." },
+    { type: "concept", q: "Name the three broad classes of public investment.", answer: "physical|human|consumption", difficulty: 2, explanation: "Public investment is divided into physical investment, human or intangible investment, and consumption investment." },
+    { type: "tf", q: "Ethiopia's rank in the World Bank ease of doing business index in 2019 was 159th out of 190 countries.", answer: true, difficulty: 2, explanation: "Ethiopia ranked 159th of 190 countries in 2019, showing the business environment needed improvement." },
+    { type: "mcq", q: "With an accelerator coefficient of 0.5, if GDP rises from 200 to 220 billion birr, investment demand equals:", options: ["5 billion birr", "10 billion birr", "11 billion birr", "110 billion birr"], answer: 1, difficulty: 3, explanation: "It = a(Yt - Yt-1) = 0.5 x 20 = 10 billion birr." },
+    { type: "concept", q: "State the accelerator effect in words.", answer: "a change in demand for consumer goods causes a higher percentage change in demand for capital goods|investment demand rises more than proportionally with demand", difficulty: 3, explanation: "The accelerator effect states that when there is a change in demand for consumer goods, there will be a higher percentage change in demand for capital goods." }
+  ]
+};

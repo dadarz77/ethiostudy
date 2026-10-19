@@ -1,12 +1,488 @@
-/* Content: g12-economics-ue5 — migrated from generated JSON (Phase 0 pipeline restore).
-   Content upgrade to spec v2 happens per unit in later phases. */
+/* Content: Grade 12 Economics - Unit 5: Tax Theory and Practice (4 topics)
+   Source: MoE Economics Grade 12 Student Textbook, Unit 5. */
 window.Lessons = window.Lessons || {};
 
-Lessons["g12-economics-ue5-t1"] = {"overview":"<b>Taxes: Definition, Principles, Objectives, and Classifications</b> sits inside <b>Tax Theory and Practice</b>. Taxation is the focus of Unit 5 of Grade 12 Economics in the Ethiopian (FDRE Ministry of Education) curriculum. First, it defines taxes and sets out their objectives, principles, and classifications. Then it explains the marks of a good tax system. Next, it compares the benefits and ability-to-pay approaches to tax equity. Also it reviews the tax system and tax accounting in Ethiopia. Finally, it examines the problems of taxation in Ethiopia. Students will also learn how taxation funds real-life public services.","objectives":["Explain the concept and objectives of taxes.","Distinguish the main types of taxes.","Identify the principles of a good tax system.","Compare the benefits and ability-to-pay approaches.","Explain the nature and problems of taxation in Ethiopia."],"simple":"<b>Taxes: Definition, Principles, Objectives, and Classifications in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, the definition and key terms of tax.</li> <li>Then the objectives of taxes.</li> <li>Also the principles of taxation and the marks of a good tax system.</li> <li>Finally, the classification of taxes and their main sources.</li></ul>","detailed":"<p><b>Taxes: Definition, Principles, Objectives, and Classifications — the essentials.</b> First, the definition and key terms of tax. Then the objectives of taxes. Also the principles of taxation and the marks of a good tax system. Finally, the classification of taxes and their main sources.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Explain the concept and objectives of taxes.</li><li>Distinguish the main types of taxes.</li><li>Identify the principles of a good tax system.</li><li>Compare the benefits and ability-to-pay approaches.</li><li>Explain the nature and problems of taxation in Ethiopia.</li></ul>","keyTerms":[{"term":"First","def":"First, the definition and key terms of tax."},{"term":"Then the objectives of taxes","def":"Then the objectives of taxes."},{"term":"Finally","def":"Finally, the classification of taxes and their main sources."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing taxes: definition, principles, objectives, and classifications with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Interpreting economic news about Ethiopia in the media","The applied data-response questions in the ESSLCE economics paper"],"summary":"Taxes: Definition, Principles, Objectives, and Classifications: First, the definition and key terms of tax. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"Taxes: Definition, Principles, Objectives, and Classifications\" is correct according to the MoE curriculum?","options":["First, the definition and key terms of tax.","Taxes: Definition, Principles, Objectives, and Classifications holds only under conditions this topic says do not apply","Taxes: Definition, Principles, Objectives, and Classifications inverts the direction of the relationship this topic describes","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, the definition and key terms of tax. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"Taxes: Definition, Principles, Objectives, and Classifications\"?","options":["Then the objectives of taxes.","Taxes: Definition, Principles, Objectives, and Classifications is a household-level claim, not the national-level claim of this topic","Taxes: Definition, Principles, Objectives, and Classifications holds only under conditions this topic says do not apply","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Then the objectives of taxes."},{"type":"tf","q":"True or false: First, the definition and key terms of tax.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover taxes: definition, principles, objectives, and classifications.","answer":false,"difficulty":1,"explanation":"Taxes: Definition, Principles, Objectives, and Classifications is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Explain the concept and objectives of taxes.","difficulty":2,"altAnswers":["Distinguish the main types of taxes.","Identify the principles of a good tax system."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why taxes: definition, principles, objectives, and classifications matters.","answer":"Taxes: Definition, Principles, Objectives, and Classifications is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of taxes: definition, principles, objectives, and classifications in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to taxes: definition, principles, objectives, and classifications, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
+Lessons["g12-economics-ue5-t1"] = {
+  overview: "Taxation is the compulsory, unrequited payment citizens and firms make to government, and it funds most state activity in peacetime. This lesson defines taxation, explains the key terms and principles, and classifies taxes into direct and indirect.",
+  objectives: [
+    "Define taxation using the OECD terms compulsory and unrequited",
+    "Explain the macroeconomic and social objectives of taxation",
+    "State Adam Smith's canons and the modern principles of taxation",
+    "Describe the characteristics of a good tax system",
+    "Classify taxes into direct and indirect using impact and incidence"
+  ],
+  simple: "A tax is a compulsory, unrequited payment to general government. Compulsory means it must be paid because the law says so; unrequited means the taxpayer gets nothing direct in return. Taxes raise revenue for administration, law and order, defence, infrastructure and public services, and they help redistribute income and discourage harmful goods. Taxes are described by their rate, base, incidence, impact and effect. Adam Smith set out famous canons of taxation such as equity, certainty, convenience and economy, and a good tax system is simple, adequate, elastic and administratively efficient. Taxes are either direct, where the burden falls on the person who pays, or indirect, where the burden can be shifted to someone else.",
+  detailed: "<p><b>What a tax is.</b> The Organisation for Economic Cooperation and Development (OECD) defines a tax as a compulsory, unrequited payment to general government. Compulsory means taxes are not voluntary purchase payments but mandatory impositions, payable in line with what is legislated; to enforce this, governments use constitutions, proclamations, regulations and directives. Unrequited means the benefits government provides to a taxpayer are not in proportion to the payments made, so tax is levied without a quid pro quo, without anything in direct return. Taxation is not the only source of government revenue - there is also borrowing, fees for services and printing money - but taxation typically accounts for 90 percent or more of total governmental receipts in times of peace.</p><p><b>Why governments tax.</b> In minimalist terms, governments impose taxes for three basic purposes: to cover the cost of administration, to maintain law and order and to defend the public. They also tax to fund economic infrastructure, health facilities, transport, education, telecom and electricity, and to provide facilities for less able members of society. Beyond revenue, taxation helps provide public goods, promotes redistribution of income and wealth, and discourages consumption of harmful goods (demerit goods with negative externalities such as cigarettes and alcohol). The objectives list also includes stabilizing the economy, encouraging capital formation, reducing regional imbalance, enhancing living standards, directing scarce resources to essential goods, and minimizing unemployment while encouraging exports.</p><p><b>Key terminology.</b> <i>Tax rate</i> is the per-unit amount or the percentage rate at which the economic activity is taxed. <i>Tax base</i> is the level or quantity of the economic activity that is taxed; a higher tax rate reduces the tax base because it makes the activity less attractive. <i>Tax incidence</i> concerns how the burden is distributed among economic units; it is the final resting place of the tax, found by seeing who is made worse off and by how much. <i>Impact of a tax</i> is its first point of contact with the taxpayer, felt by whoever bears the first statutory responsibility for paying it. <i>Effect of a tax</i> refers to the responses of taxpayers and the economy, influencing production, growth, saving, investment and inequality.</p><p><b>Principles of taxation.</b> In the Wealth of Nations (1776), Adam Smith proposed the canons of taxation: every subject should contribute in proportion to his ability; the tax each must pay should be certain, not arbitrary, with the time, manner and quantity to be paid clear and plain; every tax should be levied at the time and in the manner most convenient to the contributor; every tax should take as little as possible out of people's pockets over and above what it brings into the public treasury; the cost of collection should be minimal (the canon of economy); and the system should yield enough revenue that government is not forced into deficit financing (the canon of fiscal adequacy). Modern principles add that a tax system should not distort the optimal allocation of factors in efficient markets, should be fair, a flexible automatic stabilizer, clear and transparent, definitive and inexpensive to collect.</p><p><b>Characteristics of a good tax system.</b> Taxation is compulsory (non-payment is a criminal offense), revenues are spent on collective use serving a common interest, taxes are paid regularly with known due dates, and taxes are levied on all people without discrimination yet according to ability to pay. A good tax system is simple, financially adequate and elastic; broad based, taxing not only income but also property and commodities; administratively efficient; balanced and harmonious; it reduces economic inequalities, ensures economic stability, raises the standard of living, acts as an instrument of economic growth, is socially advantageous and enables optimum allocation of resources. In short, a good tax system must be both equitable and efficient.</p><p><b>Classification and world examples.</b> Based on impact or incidence there are two major types. <b>Direct taxes</b> impose impact and incidence on the same person who earns the income; they are computed on ability to pay, and include employee income tax, business income tax, rental income tax, agricultural income tax, poll tax, land tax, property tax, royalty tax, capital gains tax, gift tax and inheritance tax, further divided into income tax, transfer tax (commonly levied on real estate and the taxable property of a deceased person), property tax (charged on land and buildings) and capital gains tax (charged when assets such as stocks, real estate or a business are sold, computed from the acquisition and selling amounts). <b>Indirect taxes</b> impose impact and incidence on different persons; examples are VAT, excise tax, turnover tax, surtax, customs duty and stamp duty. In the UK, the main taxes include income tax with a basic rate of 20 percent on income above a threshold of 11,500 pounds, national insurance contributions, consumption tax (VAT at 17.5 percent), excise duties on alcohol and tobacco, corporation tax and stamp duty, plus a sin tax on tobacco, alcohol, sugar-added drinks and gambling. In the USA the five most common taxes are payroll tax, individual income tax, corporate income tax, wealth taxes and consumption taxes, the first four being direct; the US federal government gets 41.6 percent of its tax revenue from individual income tax, 34.8 percent from payroll taxes and 15.1 percent from corporate income tax (Gruber, 2015).</p>",
+  keyTerms: [
+    { term: "Tax", def: "A compulsory, unrequited payment to general government, levied by law without anything given directly in return." },
+    { term: "Tax rate", def: "The per-unit amount or the percentage rate at which the economic activity is taxed." },
+    { term: "Tax base", def: "The level or quantity of an economic activity that is taxed; higher tax rates generally shrink the base." },
+    { term: "Tax incidence", def: "The distribution of the burden of a tax; its final resting place, determined by who is made worse off." },
+    { term: "Impact of a tax", def: "The tax's first point of contact with the taxpayer, borne by those with the first statutory duty to pay." },
+    { term: "Effect of a tax", def: "The responses of taxpayers and the economy to the tax, affecting production, growth, saving, investment and inequality." },
+    { term: "Direct tax", def: "A tax whose impact and incidence fall on the same person who earns the income, assessed on ability to pay." },
+    { term: "Indirect tax", def: "A tax whose impact and incidence fall on different persons, such as VAT, excise tax and customs duty." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "The US federal government draws 41.6 percent of tax revenue from individual income tax, 34.8 percent from payroll taxes and 15.1 percent from corporate income tax. These three direct taxes together supply what share of federal tax revenue?",
+      given: "Individual income tax = 41.6%; payroll tax = 34.8%; corporate income tax = 15.1%.",
+      formula: "Direct tax share = individual income share + payroll share + corporate income share.",
+      substitution: "Direct tax share = 41.6% + 34.8% + 15.1%.",
+      calculation: "41.6 + 34.8 = 76.4; 76.4 + 15.1 = 91.5.",
+      answer: "About 91.5 percent of US federal tax revenue comes from these three direct taxes, leaving only a small share from consumption and other taxes."
+    },
+    {
+      problem: "Classify each tax as direct or indirect using the impact and incidence test: employee income tax, VAT, property tax, customs duty, capital gains tax.",
+      given: "Five taxes: three on income or property of the payer, two on transactions.",
+      formula: "Principle: a direct tax puts impact and incidence on the same person; an indirect tax puts them on different persons.",
+      substitution: "Employee income tax, property tax and capital gains tax are assessed on the income or property of the person who pays; VAT and customs duty are collected at transactions and their burden can rest on consumers.",
+      calculation: "Taxes on income and property pass the same-person test, so they are direct; taxes collected at sale and import pass through to others, so they are indirect.",
+      answer: "Direct: employee income tax, property tax, capital gains tax. Indirect: VAT, customs duty."
+    },
+    {
+      problem: "In peacetime taxation accounts for 90 percent or more of total governmental receipts. If a government collects total receipts of 200 billion birr, what is the minimum amount expected from taxation?",
+      given: "Total governmental receipts = 200 billion birr; tax share is 90 percent or more.",
+      formula: "Minimum tax revenue = 90% of total receipts.",
+      substitution: "Minimum tax revenue = 0.90 x 200 billion birr.",
+      calculation: "0.90 x 200 = 180.",
+      answer: "At least 180 billion birr should come from taxation, though borrowing, fees and money printing supply the rest."
+    }
+  ],
+  commonMistakes: [
+    "Thinking a tax is a price for a specific service, when in fact it is compulsory and unrequited with no direct return.",
+    "Confusing tax incidence (final resting place) with impact (first point of contact).",
+    "Believing taxation is the only source of government revenue, ignoring borrowing, fees and money creation.",
+    "Mixing up direct and indirect taxes by assuming all taxes on goods are direct.",
+    "Forgetting that a higher tax rate usually shrinks the tax base by making the activity less attractive.",
+    "Listing certainty or convenience as objectives of taxation when they are principles (canons) of taxation.",
+    "Assuming a good tax system needs only to raise revenue, ignoring equity and efficiency."
+  ],
+  applications: [
+    "Recognising that the salary income tax withheld by an employer in Ethiopia is a direct tax whose burden stays with the worker.",
+    "Explaining why excise tax on cigarettes and alcohol is used to discourage harmful consumption while raising revenue.",
+    "Comparing Ethiopia's scheduled income taxes with the UK's 20 percent basic rate and the USA's payroll and income taxes.",
+    "Using tax incidence analysis to judge whether a new import duty will finally rest on importers or on consumers.",
+    "Appraising Ethiopia's tax system against Adam Smith's canons such as certainty, convenience and economy.",
+    "Arguing that a tax is legitimate only when backed by legislation such as proclamations, regulations and directives."
+  ],
+  summary: "A tax is a compulsory, unrequited payment to general government that typically supplies 90 percent or more of receipts in peacetime and serves revenue, redistribution and regulatory objectives. Adam Smith's canons and the modern principles demand equity, certainty, convenience and economy from a system that should be simple, adequate, elastic and administratively efficient. Taxes divide into direct taxes, whose burden rests on the income earner, and indirect taxes such as VAT, excise and customs duty, whose burden can be shifted.",
+  visuals: [
+    {
+      type: "comparison",
+      config: {
+        title: "Direct vs Indirect Taxes",
+        left: { name: "Direct taxes", items: ["Impact and incidence on the same person", "Assessed on ability to pay", "Income, property, capital gains", "Cannot easily be shifted", "Examples: income tax, poll tax"] },
+        right: { name: "Indirect taxes", items: ["Impact and incidence on different persons", "Collected at transactions", "Consumption and trade taxes", "Burden can be shifted", "Examples: VAT, excise, customs"] }
+      }
+    },
+    {
+      type: "mindMap",
+      config: {
+        title: "The Anatomy of a Tax",
+        center: "Tax",
+        branches: [
+          { label: "Tax rate", items: ["Percentage or per-unit amount", "Higher rate shrinks the base"] },
+          { label: "Tax base", items: ["Quantity of activity taxed", "Income, property, goods"] },
+          { label: "Incidence", items: ["Final resting place", "Who is made worse off"] },
+          { label: "Impact and effect", items: ["First point of contact", "Economy's response"] }
+        ]
+      }
+    },
+    {
+      type: "tableVisual",
+      config: {
+        title: "Tax Sources of the US Federal Government",
+        headers: ["Tax", "Type", "Share of revenue"],
+        rows: [
+          ["Individual income tax", "Direct", "41.6%"],
+          ["Payroll taxes", "Direct", "34.8%"],
+          ["Corporate income tax", "Direct", "15.1%"],
+          ["Consumption and other taxes", "Indirect", "Small share"]
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "According to the OECD definition used in the textbook, a tax is:", options: ["A voluntary payment for public services", "A compulsory, unrequited payment to general government", "A loan to the government", "A fee charged in direct proportion to benefits received"], answer: 1, difficulty: 1, explanation: "The OECD defines tax as compulsory, unrequited payments to general government." },
+    { type: "mcq", q: "The word unrequited in the definition of tax means that:", options: ["Taxes are never refunded", "Benefits from government are not proportional to the tax paid", "Taxpayers receive no public services at all", "Taxes are paid only in cash"], answer: 1, difficulty: 2, explanation: "Unrequited means benefits provided are not in proportion to payments, so tax is levied without a quid pro quo." },
+    { type: "tf", q: "Taxation typically accounts for 90 percent or more of total governmental receipts in times of peace.", answer: true, difficulty: 1, explanation: "The textbook states taxation typically accounts for 90 percent or more of receipts in peacetime." },
+    { type: "mcq", q: "Adam Smith proposed the classical canons of taxation in:", options: ["The Wealth of Nations (1776)", "The General Theory (1936)", "The FDRE Constitution (1995)", "Proclamation No. 286/2002"], answer: 0, difficulty: 2, explanation: "Adam Smith set out the canons of taxation in The Wealth of Nations, 1776." },
+    { type: "short", q: "Which canon of taxation requires that the cost of collection should be the minimum possible?", answer: "economy|canon of economy", difficulty: 2, explanation: "The canon of economy says the cost of collection should be minimum." },
+    { type: "mcq", q: "The canon of fiscal adequacy requires that the tax system:", options: ["Yields enough revenue so government is not forced into deficit financing", "Taxes everyone at exactly the same rate", "Collects tax only in convenient seasons", "Exempts all luxury goods"], answer: 0, difficulty: 2, explanation: "Fiscal adequacy means the system yields enough revenue to avoid deficit financing." },
+    { type: "concept", q: "Define the incidence of a tax.", answer: "final resting place of the tax|distribution of the tax burden among economic units", difficulty: 2, explanation: "Incidence is the final resting place of the tax, found by who is made worse off and by how much." },
+    { type: "mcq", q: "Which of the following is an indirect tax?", options: ["Employee income tax", "Property tax", "Value added tax (VAT)", "Poll tax"], answer: 2, difficulty: 1, explanation: "VAT is a consumption tax whose impact and incidence fall on different persons, making it indirect." },
+    { type: "tf", q: "A higher tax rate tends to reduce the level of the tax base because it makes the activity less attractive.", answer: true, difficulty: 2, explanation: "The textbook notes higher rates reduce the tax base by making the taxed activity less attractive." },
+    { type: "mcq", q: "In the UK, the basic rate of income tax is 20 percent paid on income above a threshold of:", options: ["5,000 pounds", "11,500 pounds", "20,000 pounds", "50,000 pounds"], answer: 1, difficulty: 3, explanation: "The textbook gives a basic rate of 20 percent on income over the threshold of 11,500 pounds." },
+    { type: "concept", q: "State any two characteristics of a good tax system.", answer: "simple, financially adequate and elastic|broad based|administratively efficient|balanced and harmonious|reduces inequalities|ensures economic stability|instrument of economic growth|socially advantageous|optimum allocation of resources", difficulty: 2, explanation: "Any two features from the textbook list, such as simplicity, adequacy, elasticity and administrative efficiency, are correct." }
+  ]
+};
 
-Lessons["g12-economics-ue5-t2"] = {"overview":"<b>Approaches to Tax Equity</b> sits inside <b>Tax Theory and Practice</b>. Taxation is the focus of Unit 5 of Grade 12 Economics in the Ethiopian (FDRE Ministry of Education) curriculum. First, it defines taxes and sets out their objectives, principles, and classifications. Then it explains the marks of a good tax system. Next, it compares the benefits and ability-to-pay approaches to tax equity. Also it reviews the tax system and tax accounting in Ethiopia. Finally, it examines the problems of taxation in Ethiopia. Students will also learn how taxation funds real-life public services.","objectives":["Explain the concept and objectives of taxes.","Distinguish the main types of taxes.","Identify the principles of a good tax system.","Compare the benefits and ability-to-pay approaches.","Explain the nature and problems of taxation in Ethiopia."],"simple":"<b>Approaches to Tax Equity in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, the benefits approach.</li> <li>Then the ability-to-pay approach.</li></ul>","detailed":"<p><b>Approaches to Tax Equity — the essentials.</b> First, the benefits approach. Then the ability-to-pay approach.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Explain the concept and objectives of taxes.</li><li>Distinguish the main types of taxes.</li><li>Identify the principles of a good tax system.</li><li>Compare the benefits and ability-to-pay approaches.</li><li>Explain the nature and problems of taxation in Ethiopia.</li></ul>","keyTerms":[{"term":"First","def":"First, the benefits approach."},{"term":"Then the ability-to-pay approach","def":"Then the ability-to-pay approach."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing approaches to tax equity with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Interpreting economic news about Ethiopia in the media","The applied data-response questions in the ESSLCE economics paper"],"summary":"Approaches to Tax Equity: First, the benefits approach. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"Approaches to Tax Equity\" is correct according to the MoE curriculum?","options":["First, the benefits approach.","Approaches to Tax Equity holds only under conditions this topic says do not apply","Approaches to Tax Equity inverts the direction of the relationship this topic describes","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, the benefits approach. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"Approaches to Tax Equity\"?","options":["Then the ability-to-pay approach.","Approaches to Tax Equity is a household-level claim, not the national-level claim of this topic","Approaches to Tax Equity holds only under conditions this topic says do not apply","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Then the ability-to-pay approach."},{"type":"tf","q":"True or false: First, the benefits approach.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover approaches to tax equity.","answer":false,"difficulty":1,"explanation":"Approaches to Tax Equity is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Explain the concept and objectives of taxes.","difficulty":2,"altAnswers":["Distinguish the main types of taxes.","Identify the principles of a good tax system."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why approaches to tax equity matters.","answer":"Approaches to Tax Equity is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of approaches to tax equity in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to approaches to tax equity, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
+Lessons["g12-economics-ue5-t2"] = {
+  overview: "How should the tax load be shared fairly? This lesson compares the benefits approach with the ability-to-pay approach and shows how progressive, proportional and regressive taxes classify taxes by their impact on income groups.",
+  objectives: [
+    "State the benefits approach to tax equity and its main limitation",
+    "Explain the ability-to-pay approach and the questions it raises",
+    "Distinguish horizontal equity from vertical equity",
+    "Define progressive, proportional and regressive taxes in terms of the average tax rate",
+    "Classify a tax as progressive, proportional or regressive from tax payment data"
+  ],
+  simple: "There are two approaches to tax equity. The benefits approach says each taxpayer should contribute according to the benefits received from public services, but about half of government spending, such as on the army or courts, cannot be traced to specific beneficiaries. The ability-to-pay approach says taxes should be distributed according to the taxpayer's capacity to pay, calling for horizontal equity (equal people pay equal taxes) and vertical equity (the unequal treated unequally). Taxes are then classified by impact: a progressive tax sees the average rate rise with income, a proportional tax keeps the average rate the same at all income levels, and a regressive tax lets the average rate fall as income rises.",
+  detailed: "<p><b>The benefits approach.</b> Under the benefits approach, an equitable tax system is one in which each taxpayer contributes in line with the benefits he or she receives from public services. The aim is to work out how much each person gains from public spending. Its great advantage is that it links tax equity to the expenditure side of the public budget. However, it is much easier to state this abstract basis than to apply it: while spending on health, education and social subsidies can be attributed to beneficiary households, about half of government spending cannot be. It is difficult, if not impossible, to determine who benefits most from spending on the army, police, diplomatic service or judicial system.</p><p><b>The ability-to-pay approach.</b> Here tax is levied on each taxpayer in line with his or her ability to pay, so the approach focuses on the distributive nature of taxation. People with equal capacity should pay the same, and people with greater ability should pay more. Three questions arise: how to measure ability to pay, how to set a fair set of tax rates for differing abilities, and how to compare the economic status of different taxpayers. Ideally the measure would reflect the entire welfare a person can derive from consumption (present and future), holding of wealth and enjoyment of leisure, but such a comprehensive measure is not practicable.</p><p><b>Horizontal and vertical equity.</b> The ability-to-pay approach rests on two equity ideas. <b>Horizontal equity</b> means people in the same circumstances pay the same taxes. <b>Vertical equity</b> means unequals should be treated unequally, with a degree of proportionality so that larger ability bears a larger burden. Together they answer the classroom question of whether the rich should pay more: under the ability-to-pay view, they should.</p><p><b>Classifying taxes by impact.</b> The concepts of progressive, proportional and regressive taxes (called type by impact by Greenlaw and Taylor, 2017) operationalize vertical equity. A <b>progressive tax</b> is one where those with higher incomes pay a higher share of taxes out of their income than those with lower incomes; the average tax rate rises with income. A <b>proportional tax</b> takes the same share from everyone regardless of income level; the average tax rate is the same at all income levels. A <b>regressive tax</b> takes a lower share from high-income people than from low-income people; the average tax rate falls when income rises.</p><p><b>Ethiopian application.</b> Ethiopia's employment income tax applies rates ranging from 10 percent to 35 percent, with the higher rate charged at higher earnings; as the average rate rises with income, this schedule is progressive and expresses vertical equity. Understanding the type by impact matters because it determines who finally bears the relative burden: a regressive tax places a proportionally heavier load on the poor even if the rich pay more in absolute birr.</p>",
+  keyTerms: [
+    { term: "Tax equity", def: "Fairness in distributing the tax burden among taxpayers." },
+    { term: "Benefits approach", def: "The principle that tax obligations should be based on the benefits received from public services." },
+    { term: "Ability-to-pay approach", def: "The principle that taxes should be distributed according to each taxpayer's capacity to pay." },
+    { term: "Horizontal equity", def: "People in the same circumstances paying the same taxes." },
+    { term: "Vertical equity", def: "Treating unequals unequally, so those with greater ability pay proportionally more." },
+    { term: "Progressive tax", def: "A tax whose average rate rises with income, so higher earners pay a higher share of their income." },
+    { term: "Proportional tax", def: "A tax whose average rate is the same at all income levels." },
+    { term: "Regressive tax", def: "A tax whose average rate falls as income rises, so higher earners pay a lower share of their income." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "Ayele has an income of 4,000 birr and pays tax of 300 birr, while Atote has an income of 20,000 birr and pays tax of 1,400 birr. Is this tax progressive, proportional or regressive?",
+      given: "Ayele: income 4,000 birr, tax 300 birr. Atote: income 20,000 birr, tax 1,400 birr.",
+      formula: "Average tax rate = tax paid / income; the tax is progressive if the average rate rises with income, regressive if it falls.",
+      substitution: "Ayele's average rate = 300 / 4,000; Atote's average rate = 1,400 / 20,000.",
+      calculation: "300 / 4,000 = 0.075 = 7.5%; 1,400 / 20,000 = 0.07 = 7.0%. The average rate falls from 7.5% to 7.0% as income rises.",
+      answer: "The tax is regressive, because the higher earner pays a smaller percentage of income in tax."
+    },
+    {
+      problem: "Suppose a worker earning 1,000 birr pays 100 birr in tax and a manager earning 10,000 birr pays 1,500 birr. Classify the tax by impact.",
+      given: "Low earner: income 1,000 birr, tax 100 birr. High earner: income 10,000 birr, tax 1,500 birr.",
+      formula: "Average tax rate = tax paid / income; compare the two rates.",
+      substitution: "Worker's rate = 100 / 1,000; manager's rate = 1,500 / 10,000.",
+      calculation: "100 / 1,000 = 10%; 1,500 / 10,000 = 15%. The average rate rises with income.",
+      answer: "The tax is progressive: higher-income people pay a higher share of their income."
+    },
+    {
+      problem: "A flat tax takes exactly 15 percent of every taxpayer's income, whatever the level. What type is it, and does it satisfy horizontal equity?",
+      given: "Average rate is 15 percent at every income level.",
+      formula: "Principle: a proportional tax has the same average rate at all income levels.",
+      substitution: "A person earning 2,000 birr pays 300 birr; a person earning 20,000 birr pays 3,000 birr; both pay 15 percent.",
+      calculation: "Both pay the same share, so the average rate does not change with income; equals in ability are treated equally.",
+      answer: "It is a proportional tax, and it satisfies horizontal equity because people in the same circumstances pay the same share."
+    },
+    {
+      problem: "Ethiopia taxes employment income at rates ranging from 10 to 35 percent. Which tax-equity concept does this rate structure express, and why?",
+      given: "Schedule A rates range from 10 percent to 35 percent of employment income.",
+      formula: "Principle: vertical equity means unequals should be treated unequally, so rates should rise with ability to pay.",
+      substitution: "Low earners face the 10 percent end of the range and high earners the 35 percent end.",
+      calculation: "Since the rate rises with earnings, the average tax burden grows with ability to pay.",
+      answer: "Vertical equity, implemented through a progressive employment income tax."
+    }
+  ],
+  commonMistakes: [
+    "Judging progressivity by the absolute birr amount paid instead of by the percentage of income (average rate).",
+    "Assuming that when a rich person pays more birr than a poor person the tax is automatically progressive.",
+    "Confusing horizontal equity (equals treated equally) with vertical equity (unequals treated unequally).",
+    "Believing the benefits approach can measure who benefits from every kind of spending, when about half of spending cannot be attributed.",
+    "Calling a regressive tax one where the rich pay less in total birr, when the point is that they pay a smaller share of income.",
+    "Forgetting that only proportional taxes keep the average rate constant at all income levels."
+  ],
+  applications: [
+    "Using the 10 to 35 percent employment income tax range to show classmates why Ethiopian salary tax is progressive.",
+    "Applying the benefits approach when analysing fees for a service users can clearly identify, and noting why it fails for defence spending.",
+    "Computing average tax rates for two earners to decide whether a proposed tax is fair to low-income households.",
+    "Explaining to a market trader why a fixed tax per transaction may be regressive against small vendors.",
+    "Using vertical equity to argue why large business profits should bear a larger percentage than small incomes.",
+    "Recognising that tax knowledge and fairness perception shape voluntary compliance, as the textbook notes."
+  ],
+  summary: "Tax equity can be pursued through the benefits approach, which links tax to received public services but fails where spending cannot be traced, or through the ability-to-pay approach built on horizontal and vertical equity. By impact, a tax is progressive when the average rate rises with income, proportional when it is constant, and regressive when it falls. Ethiopia's employment income tax rates of 10 to 35 percent are a progressive application of vertical equity.",
+  visuals: [
+    {
+      type: "comparison",
+      config: {
+        title: "Benefits Approach vs Ability-to-Pay Approach",
+        left: { name: "Benefits approach", items: ["Pay in line with benefits received", "Links tax to budget spending", "Easy for health and education", "Impossible for army and courts", "About half of spending untraceable"] },
+        right: { name: "Ability-to-pay approach", items: ["Pay in line with capacity to pay", "Focuses on distribution", "Uses horizontal and vertical equity", "Needs a measure of ability", "Ideal full-welfare measure not practicable"] }
+      }
+    },
+    {
+      type: "tableVisual",
+      config: {
+        title: "Types of Taxes by Impact",
+        headers: ["Type", "Average tax rate", "Who bears the burden"],
+        rows: [
+          ["Progressive", "Rises as income rises", "Higher earners pay a higher share"],
+          ["Proportional", "Same at all income levels", "Everyone pays the same share"],
+          ["Regressive", "Falls as income rises", "Lower earners pay a higher share"]
+        ]
+      }
+    },
+    {
+      type: "qa",
+      config: {
+        title: "Exam Quick-Check",
+        pairs: [
+          { q: "What does horizontal equity require?", a: "People in the same circumstances pay the same taxes." },
+          { q: "What does vertical equity require?", a: "Unequals should be treated unequally, with proportionality." },
+          { q: "How does the average tax rate behave under a regressive tax?", a: "It falls as income rises." },
+          { q: "Give one weakness of the benefits approach.", a: "About half of government spending, such as the army or courts, cannot be attributed to specific beneficiaries." }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "Suppose Ayele has an income of 4,000 birr and pays tax of 300 birr while Atote has an income of 20,000 birr and pays tax of 1,400 birr. This tax is:", options: ["Regressive", "Proportional", "Progressive", "None of the above"], answer: 0, difficulty: 3, explanation: "Average rates are 7.5 percent for Ayele and 7 percent for Atote; the rate falls as income rises, so the tax is regressive." },
+    { type: "tf", q: "Under the benefits approach, tax obligations should be based on the benefits received from the enjoyment of public services.", answer: true, difficulty: 1, explanation: "The benefits approach ties each taxpayer's contribution to the benefits received from public services." },
+    { type: "mcq", q: "The main weakness of the benefits approach is that:", options: ["Nobody ever benefits from public spending", "About half of government spending cannot be attributed to specific beneficiaries", "It is required by Adam Smith's canons", "It ignores the expenditure side of the budget"], answer: 1, difficulty: 2, explanation: "It is hard, if not impossible, to determine who benefits most from spending on the army, police, diplomacy or the courts." },
+    { type: "concept", q: "Define horizontal equity.", answer: "people in the same circumstances pay the same taxes|equal ability treated equally", difficulty: 2, explanation: "Horizontal equity means people in the same circumstances pay the same taxes." },
+    { type: "mcq", q: "A progressive tax is one where:", options: ["The average tax rate falls as income rises", "Everyone pays the same percentage of income", "The average tax rate rises with income", "Only the rich pay any tax at all"], answer: 2, difficulty: 1, explanation: "Under a progressive tax the average rate rises with income, so high earners pay a higher share." },
+    { type: "tf", q: "Under a proportional tax, the average tax rate is the same at all income levels.", answer: true, difficulty: 1, explanation: "A proportional tax takes the same share of income from everyone." },
+    { type: "concept", q: "State the two equity principles on which the ability-to-pay approach is based.", answer: "horizontal equity and vertical equity|horizontal and vertical equity", difficulty: 2, explanation: "The ability-to-pay approach rests on horizontal equity and vertical equity." },
+    { type: "mcq", q: "Under a regressive tax, people with higher incomes pay:", options: ["A higher percentage of their income in taxes", "The same percentage of their income in taxes", "A lower percentage of their income in taxes", "No taxes at all"], answer: 2, difficulty: 2, explanation: "The average rate falls when income rises, so high earners pay a lower share of income." },
+    { type: "short", q: "Why is a comprehensive measure of ability to pay (covering consumption, wealth and leisure) not used in practice?", answer: "such a measure is not practicable|it is too difficult to measure", difficulty: 3, explanation: "The textbook states the ideal comprehensive measure is not practicable, even though it would reflect entire welfare." },
+    { type: "concept", q: "Ethiopia's employment income tax applies rates from 10 to 35 percent. Which equity concept does this express?", answer: "vertical equity|progressivity|progressive taxation", difficulty: 3, explanation: "Rates rise with earnings, applying vertical equity through a progressive structure." }
+  ]
+};
 
-Lessons["g12-economics-ue5-t3"] = {"overview":"<b>5.3 &#038; 5.4 – Tax System and Accounting in Ethiopia</b> sits inside <b>Tax Theory and Practice</b>. Taxation is the focus of Unit 5 of Grade 12 Economics in the Ethiopian (FDRE Ministry of Education) curriculum. First, it defines taxes and sets out their objectives, principles, and classifications. Then it explains the marks of a good tax system. Next, it compares the benefits and ability-to-pay approaches to tax equity. Also it reviews the tax system and tax accounting in Ethiopia. Finally, it examines the problems of taxation in Ethiopia. Students will also learn how taxation funds real-life public services.","objectives":["Explain the concept and objectives of taxes.","Distinguish the main types of taxes.","Identify the principles of a good tax system.","Compare the benefits and ability-to-pay approaches.","Explain the nature and problems of taxation in Ethiopia."],"simple":"<b>5.3 &#038; 5.4 – Tax System and Accounting in Ethiopia in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, the main problems of tax collection in Ethiopia.</li> <li>Also why weak collection lowers public revenue.</li></ul>","detailed":"<p><b>5.3 &#038; 5.4 – Tax System and Accounting in Ethiopia — the essentials.</b> First, the main problems of tax collection in Ethiopia. Also why weak collection lowers public revenue.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Explain the concept and objectives of taxes.</li><li>Distinguish the main types of taxes.</li><li>Identify the principles of a good tax system.</li><li>Compare the benefits and ability-to-pay approaches.</li><li>Explain the nature and problems of taxation in Ethiopia.</li></ul>","keyTerms":[{"term":"First","def":"First, the main problems of tax collection in Ethiopia."},{"term":"Also why weak collection lowers public revenue","def":"Also why weak collection lowers public revenue."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing 5.3 &#038; 5.4 – tax system and accounting in ethiopia with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Interpreting economic news about Ethiopia in the media","The applied data-response questions in the ESSLCE economics paper"],"summary":"5.3 &#038; 5.4 – Tax System and Accounting in Ethiopia: First, the main problems of tax collection in Ethiopia. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"5.3 &#038; 5.4 – Tax System and Accounting in Ethiopia\" is correct according to the MoE curriculum?","options":["First, the main problems of tax collection in Ethiopia.","5.3 &#038; 5.4 – Tax System and Accounting in Ethiopia holds only under conditions this topic says do not apply","5.3 &#038; 5.4 – Tax System and Accounting in Ethiopia inverts the direction of the relationship this topic describes","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, the main problems of tax collection in Ethiopia. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"5.3 &#038; 5.4 – Tax System and Accounting in Ethiopia\"?","options":["Also why weak collection lowers public revenue.","5.3 &#038; 5.4 – Tax System and Accounting in Ethiopia is a household-level claim, not the national-level claim of this topic","5.3 &#038; 5.4 – Tax System and Accounting in Ethiopia holds only under conditions this topic says do not apply","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Also why weak collection lowers public revenue."},{"type":"tf","q":"True or false: First, the main problems of tax collection in Ethiopia.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover 5.3 &#038; 5.4 – tax system and accounting in ethiopia.","answer":false,"difficulty":1,"explanation":"5.3 &#038; 5.4 – Tax System and Accounting in Ethiopia is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Explain the concept and objectives of taxes.","difficulty":2,"altAnswers":["Distinguish the main types of taxes.","Identify the principles of a good tax system."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why 5.3 &#038; 5.4 – tax system and accounting in ethiopia matters.","answer":"5.3 &#038; 5.4 – Tax System and Accounting in Ethiopia is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of 5.3 &#038; 5.4 – tax system and accounting in ethiopia in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to 5.3 &#038; 5.4 – tax system and accounting in ethiopia, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
+Lessons["g12-economics-ue5-t3"] = {
+  overview: "Ethiopia's tax system has evolved from a 1944 agricultural decree into a scheduled income tax system run by the Ministry of Revenues. This lesson covers the constitutional framework, the income tax schedules, and the indirect taxes and tax accounting practices of Ethiopia.",
+  objectives: [
+    "Trace the historical development of Ethiopia's tax system from 1944 to the present",
+    "Explain the constitutional sharing of revenue between federal and regional governments",
+    "Describe the five schedules of income under Tax Proclamation 286/2002",
+    "Compute obligations under VAT, TOT, surtax, withholding and pension contributions using official rates",
+    "Explain the link between accounting records and the determination of tax liability"
+  ],
+  simple: "Ethiopia introduced income taxation in 1944, when the Emperor decreed that peasants pay one-tenth of their agricultural products to tax officials. Today the Ministry of Revenues collects taxes under the FDRE Constitution, which lets federal and regional governments share revenue sources. Under Tax Proclamation 286/2002 income falls into schedules: A (employment, taxed 10 to 35 percent and withheld by employers), B (rental of buildings), C (business), D (other income) and E (exempt income). Indirect taxes include VAT at a 15 percent standard rate since 2003, turnover tax of 2 or 10 percent, excise tax on 19 groups of goods, a 10 percent surtax on imports, withholding tax of 2 percent, stamp duty and customs duty. Accounting records supply the figures from which tax liabilities are calculated.",
+  detailed: "<p><b>History and institutions.</b> Ethiopia introduced income taxation in 1944, when the Emperor issued a decree requiring all peasants to pay one-tenth of their agricultural products to tax officials; tax regimes have changed with changes of government since then. Currently the federal <b>Ministry of Revenues (MoR)</b> is responsible for tax collection. It prepares decrees, directives and regulations on fiscal policy matters and submits them for parliament to legislate. As a federal country, Ethiopia's constitution allows revenue sharing between federal and regional governments.</p><p><b>Legal framework.</b> The legal framework is provided by Proclamation No. 33/1992 and the FDRE Constitution (1995), which promulgated sharing of revenue between federal and regional governments. The federal government levies taxes and collects duties on revenue sources reserved to it and draws up, approves and administers the federal budget (Article 51(10)). Regional states levy and collect taxes and duties on sources reserved to the states and administer their own budgets (Article 52(2(e))). As of April 2022 Ethiopia has 11 regional states plus 2 autonomous administrations, Addis Ababa and Dire Dawa Cities.</p><p><b>The five schedules.</b> Under Tax Proclamation No. 286/2002 and Regulations No. 78/2002 there are four schedules of income in addition to exempt income. <b>Schedule A</b> covers income from employment, taxed at rates ranging from 10 to 35 percent; it is withheld by employers and is a final tax, so employees earning income exclusively from employment need not declare it. Employment income includes salary, wages, allowances, bonus, commission, gratuity, the value of fringe benefits, and payments on termination such as redundancy compensation or a golden handshake. <b>Schedule B</b> covers income from rental of buildings; taxable income is the gross rental amount reduced by allowed deductions. <b>Schedule C</b> covers business income, also taxed after allowed deductions. <b>Schedule D</b> covers other income: royalties, income paid for services rendered outside Ethiopia, income from games, dividends, casual rental of property, interest and specified non-business capital gains. <b>Schedule E</b> lists exempt income, including the cost of medical treatment of employees, hardship allowance, salary of domestic servants, maintenance or child support payments, travelling expenses of employees recruited from elsewhere, pension contribution and compensation payments.</p><p><b>VAT.</b> Value added tax is levied on the value added at different stages and is a sales tax administered in a different form. Ethiopia introduced the VAT Act on 1 January 2003 with a standard rate of <b>15 percent</b> on every taxable transaction by a registered person; VAT must be included in the selling price of every taxable supply by a vendor (a person registered or required to be registered for VAT). VAT is destination-based, a consumption tax, so only consumption is taxed. On exempt supplies the supplier charges no output tax but must still bear input VAT on purchases.</p><p><b>TOT, excise and surtax.</b> <b>Turnover tax</b> is an equalization tax imposed on persons not registered for VAT; VAT registration is limited to those whose annual transactions exceed 500,000 Birr. For services rendered locally the rate is <b>2 percent</b> on contractors, grain mills, tractors and combine harvesters, and <b>10 percent</b> on others. <b>Excise tax</b> applies to selected goods, luxury items and demand-inelastic basic goods, and to goods hazardous to health; it covers 19 groups of items and 378 goods, with rates from 5 to 500 percent, payable at customs clearing on imports and not later than 30 days from the date of production for locally produced goods (EIC, 2020). <b>Surtax</b> is an additional 10 percent on imported goods except fertilizers, petroleum and lubricants, motor vehicles for freight, passengers and special purposes, aircraft, spacecraft and parts thereof, and capital (investment) goods; the Ministry of Finance may adjust the exempt list.</p><p><b>Pension, withholding, stamp and customs.</b> Contributions to the Private Organizations Pension Fund are based on the employee's salary, paid <b>11 percent by the employer</b> and <b>7 percent by the employee</b>. <b>Withholding tax</b> of <b>2 percent</b> of the value of domestic transactions is deducted by all bodies and specified sole proprietor businesses and remitted monthly. <b>Stamp duty</b> is imposed on services rendered through affixing official seals or marks on documents, indicating that a required tax has been paid. <b>Customs duty</b> is imposed on imported or exported goods and is the best instrument to prevent or reduce importation, serving as a trade barrier; rates may reach 100 percent or above, which protects infant domestic industries from stiff competition with subsidized foreign importers.</p><p><b>Tax and accounting.</b> Tax and accounting are two separate entities that are also linked: all taxation involves accounting processes, the practice of calculating financial statements and figures, and those statements are used to make tax calculations. Tax accounting is used by individuals, businesses and other entities. For an individual it focuses on income, qualifying deductions and any investment gains or losses; individuals employed in public establishments in Ethiopia have their income tax paid by their employers. Businesses must keep up-to-date financial records to determine their tax liabilities.</p>",
+  keyTerms: [
+    { term: "Ministry of Revenues (MoR)", def: "The federal agency responsible for tax collection in Ethiopia; it drafts fiscal decrees, directives and regulations for parliament to legislate." },
+    { term: "Schedule", def: "Under Proclamation 286/2002, a category of income for tax purposes: A employment, B rental, C business, D other income, E exempt." },
+    { term: "Value added tax (VAT)", def: "An indirect consumption tax of 15 percent on value added at each stage, introduced in Ethiopia on 1 January 2003." },
+    { term: "Turnover tax (TOT)", def: "An equalization tax of 2 or 10 percent on persons not registered for VAT, completing coverage of the tax system." },
+    { term: "Excise tax", def: "A tax on selected luxury and demand-inelastic goods, covering 19 groups and 378 goods at rates from 5 to 500 percent." },
+    { term: "Surtax", def: "An additional 10 percent tax on imported goods, with exemptions such as fertilizers and capital goods." },
+    { term: "Withholding tax", def: "A 2 percent deduction on the value of domestic transactions, remitted monthly to the tax authority." },
+    { term: "Exempt income", def: "Income listed in Schedule E that is not taxed, such as medical treatment costs, hardship allowance and pension contributions." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "An employee in a private organization earns a monthly salary of 5,000 Birr. Compute the pension contributions to the Private Organizations Pension Fund for the employee and the employer.",
+      given: "Monthly salary = 5,000 Birr; employee contribution rate = 7%; employer contribution rate = 11%.",
+      formula: "Contribution = salary x contribution rate.",
+      substitution: "Employee = 5,000 x 0.07; employer = 5,000 x 0.11.",
+      calculation: "5,000 x 0.07 = 350; 5,000 x 0.11 = 550; total = 350 + 550 = 900.",
+      answer: "The employee contributes 350 Birr and the employer 550 Birr, a total of 900 Birr per month; pension contribution is also exempt income under Schedule E."
+    },
+    {
+      problem: "A registered vendor sells taxable goods for 10,000 Birr. VAT at Ethiopia's standard rate applies. What output VAT must the vendor account for?",
+      given: "Taxable supply value = 10,000 Birr; VAT standard rate = 15%.",
+      formula: "VAT = taxable amount x standard VAT rate.",
+      substitution: "VAT = 10,000 x 0.15.",
+      calculation: "10,000 x 0.15 = 1,500.",
+      answer: "The vendor charges 1,500 Birr output VAT on the 10,000 Birr taxable supply, VAT being a 15 percent destination-based consumption tax."
+    },
+    {
+      problem: "Two unregistered service providers each render local services worth 20,000 Birr in a month: one is a contractor, the other an ordinary service provider. Compare their turnover tax (TOT).",
+      given: "Service value = 20,000 Birr each; TOT rate = 2% on contractors, grain mills, tractors and combine harvesters; 10% on others.",
+      formula: "TOT = value of services x applicable TOT rate.",
+      substitution: "Contractor: 20,000 x 0.02; other provider: 20,000 x 0.10.",
+      calculation: "20,000 x 0.02 = 400; 20,000 x 0.10 = 2,000.",
+      answer: "The contractor pays 400 Birr while the other provider pays 2,000 Birr, because TOT charges 2 percent on contractors and 10 percent on other local services."
+    },
+    {
+      problem: "A trading company concludes a domestic transaction with a value of 50,000 Birr. Calculate the withholding tax it must deduct and remit.",
+      given: "Transaction value = 50,000 Birr; withholding rate = 2% of transaction value.",
+      formula: "Withholding tax = transaction value x 2%.",
+      substitution: "Withholding tax = 50,000 x 0.02.",
+      calculation: "50,000 x 0.02 = 1,000.",
+      answer: "The company deducts 1,000 Birr and remits it to the tax authority monthly, as required for withholding on domestic transactions."
+    }
+  ],
+  commonMistakes: [
+    "Believing Ethiopia's income taxation began in 2002, when in fact the first income tax decree dates to 1944.",
+    "Assuming employees must declare their income when all their earnings come from employment, since Schedule A tax is withheld and is a final tax.",
+    "Calling VAT an origin-based tax, when the textbook stresses it is destination-based, taxing only consumption.",
+    "Mixing up the TOT rates, 2 percent for contractors, grain mills, tractors and combine harvesters and 10 percent for others.",
+    "Forgetting that surtax exempts fertilizers, petroleum and lubricants, certain motor vehicles, aircraft and capital goods, not just luxury items.",
+    "Reversing the pension contribution shares, which are 11 percent from the employer and 7 percent from the employee.",
+    "Thinking tax and accounting are unrelated, when accounting statements are exactly what tax calculations are built on."
+  ],
+  applications: [
+    "Checking whether a business you know exceeds the 500,000 Birr annual transaction threshold and so must register for VAT rather than pay TOT.",
+    "Using the Schedule A withholding rule to explain why a salaried worker's payslip shows tax deducted before payment.",
+    "Applying the excise tax rationale of 5 to 500 percent rates to argue a health case for raising prices of hazardous goods.",
+    "Noting that a rental property owner reports gross rental income less allowed deductions under Schedule B.",
+    "Observing that imported machinery for an investment project may escape the 10 percent surtax as a capital good.",
+    "Encouraging a small business to keep up-to-date financial records so its Schedule C tax liability can be correctly determined."
+  ],
+  summary: "Ethiopia's tax system grew from the 1944 decree on peasant produce into a constitutionally shared federal-regional system administered by the Ministry of Revenues under Proclamations 33/1992 and 286/2002. Income is taxed through Schedules A to E, with employment income taxed at 10 to 35 percent and withheld as a final tax, while VAT (15 percent), TOT (2 and 10 percent), excise (5 to 500 percent), surtax (10 percent), withholding (2 percent), stamp and customs duties make up the indirect taxes. Accounting records feed the calculations from which every liability is determined.",
+  visuals: [
+    {
+      type: "timeline",
+      config: {
+        title: "Development of Ethiopian Taxation",
+        events: [
+          { year: "1944", label: "First income tax decree", detail: "Emperor's decree requires peasants to pay one-tenth of their agricultural products to tax officials." },
+          { year: "1992", label: "Proclamation No. 33/1992", detail: "Provides the legal framework for tax and revenue sharing between federal and regional governments." },
+          { year: "1995", label: "FDRE Constitution", detail: "Federal government levies federal taxes (Art. 51(10)); regional states levy their reserved taxes (Art. 52(2(e)))." },
+          { year: "2002", label: "Proclamation 286/2002 and Regulations 78/2002", detail: "Establish the five schedules of income, the Excise Tax Proclamation 307/2002 and related rules." },
+          { year: "2003", label: "VAT Act begins", detail: "VAT is introduced on 1 January 2003 with a standard rate of 15 percent." }
+        ]
+      }
+    },
+    {
+      type: "tableVisual",
+      config: {
+        title: "Income Tax Schedules of Ethiopia (Proclamation 286/2002)",
+        headers: ["Schedule", "Income type", "Key point"],
+        rows: [
+          ["A", "Employment income", "Rates 10-35%, withheld by employers, final tax"],
+          ["B", "Rental of buildings", "Gross rent less allowed deductions"],
+          ["C", "Business income", "Total business income less deductions"],
+          ["D", "Other income", "Royalties, dividends, interest, casual rental, non-business gains"],
+          ["E", "Exempt income", "Medical costs, hardship allowance, pension contribution and more"]
+        ]
+      }
+    },
+    {
+      type: "mindMap",
+      config: {
+        title: "Ethiopian Taxes at a Glance",
+        center: "Ethiopian Tax System",
+        branches: [
+          { label: "Direct taxes", items: ["Schedule A-E income taxes", "Withholding 2%"] },
+          { label: "Consumption taxes", items: ["VAT 15%", "TOT 2% and 10%", "Excise 5-500%"] },
+          { label: "Trade taxes", items: ["Surtax 10% on imports", "Customs duty up to 100%+"] },
+          { label: "Other taxes", items: ["Stamp duty", "Pension 11% employer, 7% employee"] }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "Ethiopia introduced the concept of income taxation in 1944 with a decree requiring all peasants to pay:", options: ["A fixed head tax in cash", "One-tenth of their agricultural products", "Two percent of trade value", "Fifteen percent of their income"], answer: 1, difficulty: 2, explanation: "The 1944 decree required peasants to pay one-tenth of their agricultural products to tax officials." },
+    { type: "tf", q: "Employment income tax is withheld by employers and is a final tax, so employees earning only employment income need not declare it.", answer: true, difficulty: 2, explanation: "Schedule A employment income tax is withheld by employers and is a final tax." },
+    { type: "mcq", q: "Under Proclamation No. 286/2002, income from rental of buildings falls under:", options: ["Schedule A", "Schedule B", "Schedule C", "Schedule D"], answer: 1, difficulty: 2, explanation: "Schedule B covers income from rental of buildings." },
+    { type: "ordering", q: "Arrange the income tax schedules in their correct alphabetical order.", options: ["Schedule C: business income", "Schedule A: employment income", "Schedule D: other income", "Schedule B: rental of buildings"], answer: 1, difficulty: 1, explanation: "The order is A employment, B rental, C business, D other income, plus E exempt." },
+    { type: "mcq", q: "Ethiopia's standard VAT rate, applied since 1 January 2003, is:", options: ["10%", "15%", "17.5%", "35%"], answer: 1, difficulty: 1, explanation: "The VAT Act took effect on 1 January 2003 with a standard rate of 15 percent." },
+    { type: "mcq", q: "For services rendered locally, the turnover tax rate is:", options: ["2% on contractors, grain mills, tractors and combine harvesters and 10% on others", "15% on everyone", "2% on everyone", "10% on contractors and 2% on others"], answer: 0, difficulty: 2, explanation: "TOT is 2 percent on contractors, grain mills, tractors and combine harvesters and 10 percent on other services." },
+    { type: "short", q: "Registration for VAT is limited to persons whose annual transactions in total value exceed what amount?", answer: "500,000 birr|5 hundred thousand birr", difficulty: 3, explanation: "Administrative feasibility limits VAT registration to those with annual transactions exceeding 500,000 Birr." },
+    { type: "mcq", q: "Which statement about Ethiopian excise tax is correct?", options: ["It applies to only 5 goods at 10%", "It applies to 19 groups of items and 378 goods with rates from 5% to 500%", "It is payable only on exports", "It has a flat rate of 35%"], answer: 1, difficulty: 3, explanation: "Excise tax is applicable on 19 groups of items and 378 goods, with rates ranging from 5 to 500 percent." },
+    { type: "tf", q: "Surtax of 10 percent applies to fertilizers, petroleum and lubricants imported into Ethiopia.", answer: false, difficulty: 2, explanation: "Surtax applies to imported goods except fertilizers, petroleum and lubricants, certain motor vehicles, aircraft, spacecraft and capital goods." },
+    { type: "short", q: "State the pension contribution shares payable by the employer and the employee to the Private Organizations Pension Fund.", answer: "employer 11% and employee 7%|11% employer 7% employee", difficulty: 2, explanation: "Contributions are 11 percent from the employer and 7 percent from the employee, based on salary." },
+    { type: "concept", q: "Explain how tax and accounting are linked.", answer: "all taxation involves accounting processes|financial statements are used to make tax calculations|records determine tax liability", difficulty: 2, explanation: "Taxation involves accounting processes: financial statements and figures are used for the tax calculations, and businesses keep records to determine liabilities." }
+  ]
+};
 
-Lessons["g12-economics-ue5-t4"] = {"overview":"<b>Problems Associated with Taxation in Ethiopia</b> sits inside <b>Tax Theory and Practice</b>. Taxation is the focus of Unit 5 of Grade 12 Economics in the Ethiopian (FDRE Ministry of Education) curriculum. First, it defines taxes and sets out their objectives, principles, and classifications. Then it explains the marks of a good tax system. Next, it compares the benefits and ability-to-pay approaches to tax equity. Also it reviews the tax system and tax accounting in Ethiopia. Finally, it examines the problems of taxation in Ethiopia. Students will also learn how taxation funds real-life public services.","objectives":["Explain the concept and objectives of taxes.","Distinguish the main types of taxes.","Identify the principles of a good tax system.","Compare the benefits and ability-to-pay approaches.","Explain the nature and problems of taxation in Ethiopia."],"simple":"<b>Problems Associated with Taxation in Ethiopia in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, the main problems of tax collection in Ethiopia.</li> <li>Also why weak collection lowers public revenue.</li></ul>","detailed":"<p><b>Problems Associated with Taxation in Ethiopia — the essentials.</b> First, the main problems of tax collection in Ethiopia. Also why weak collection lowers public revenue.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Explain the concept and objectives of taxes.</li><li>Distinguish the main types of taxes.</li><li>Identify the principles of a good tax system.</li><li>Compare the benefits and ability-to-pay approaches.</li><li>Explain the nature and problems of taxation in Ethiopia.</li></ul>","keyTerms":[{"term":"First","def":"First, the main problems of tax collection in Ethiopia."},{"term":"Also why weak collection lowers public revenue","def":"Also why weak collection lowers public revenue."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing problems associated with taxation in ethiopia with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Interpreting economic news about Ethiopia in the media","The applied data-response questions in the ESSLCE economics paper"],"summary":"Problems Associated with Taxation in Ethiopia: First, the main problems of tax collection in Ethiopia. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"Problems Associated with Taxation in Ethiopia\" is correct according to the MoE curriculum?","options":["First, the main problems of tax collection in Ethiopia.","Problems Associated with Taxation in Ethiopia holds only under conditions this topic says do not apply","Problems Associated with Taxation in Ethiopia inverts the direction of the relationship this topic describes","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, the main problems of tax collection in Ethiopia. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"Problems Associated with Taxation in Ethiopia\"?","options":["Also why weak collection lowers public revenue.","Problems Associated with Taxation in Ethiopia is a household-level claim, not the national-level claim of this topic","Problems Associated with Taxation in Ethiopia holds only under conditions this topic says do not apply","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Also why weak collection lowers public revenue."},{"type":"tf","q":"True or false: First, the main problems of tax collection in Ethiopia.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover problems associated with taxation in ethiopia.","answer":false,"difficulty":1,"explanation":"Problems Associated with Taxation in Ethiopia is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Explain the concept and objectives of taxes.","difficulty":2,"altAnswers":["Distinguish the main types of taxes.","Identify the principles of a good tax system."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why problems associated with taxation in ethiopia matters.","answer":"Problems Associated with Taxation in Ethiopia is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of problems associated with taxation in ethiopia in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to problems associated with taxation in ethiopia, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
-
+Lessons["g12-economics-ue5-t4"] = {
+  overview: "Tax systems everywhere are criticised for complex administration and for being hard to understand and comply with. This lesson explains how those failures breed tax avoidance and tax evasion, and the specific problems and remedies for tax administration in Ethiopia.",
+  objectives: [
+    "Explain why complexity of administration and compliance difficulty generate wider costs",
+    "Define tax compliance and describe its main forms of failure",
+    "Distinguish tax avoidance from tax evasion and state its legal status of each",
+    "Give the two reasons the underground economy exists",
+    "Suggest remedial actions for the problems of taxation in developing countries including Ethiopia"
+  ],
+  simple: "Tax systems face heavy criticism for complexity of administration and the difficulty taxpayers have in understanding and complying with the law. Both raise the cost of calculating tax correctly, and this pushes some people into the underground economy: unreported transactions (tax evasion) and tax shelters (tax avoidance). Tax avoidance means legally arranging one's affairs to minimise tax using exemptions, deductions and incentives; evasion means falsifying returns or not filing at all, which is illegal. In developing countries like Ethiopia the problems include perceived corruption, compliance costs, weak fairness perception and limited tax knowledge. Remedies include simplifying rules, modernising customer service with client orientation, cutting assessment and collection costs, and improving management.",
+  detailed: "<p><b>Global criticisms of tax systems.</b> Major criticisms around the world focus on the complexity of tax administration and the difficulty taxpayers have in understanding and complying with it. Both problems cause taxpayers to incur costs simply to calculate their tax liability correctly. A complex system also encourages the growth of unreported transactions in the underground economy (tax evasion) and the growth of demand for tax shelters (tax avoidance). In developed countries, a main tool for improving efficiency is to modernise customer services, applying new management techniques built on the concepts of client orientation or customer orientation.</p><p><b>Problems in developing countries.</b> In developing countries, including Ethiopia, tax systems face diverse problems: the complexity of the tax system, perception of corruption, the cost of compliance, the fairness perception of the tax system, and tax knowledge. Tax knowledge matters because it has a positive effect on voluntary tax compliance - the better taxpayers understand the system, the more willingly they comply. Broadly, these problems fall under two headings: tax compliance and bureaucracy in the tax system.</p><p><b>Compliance and non-compliance.</b> Problems related to tax compliance are the biggest problems faced by any tax administration. <i>Tax compliance</i> refers to the degree to which taxpayers comply with the tax laws. On the contrary, <i>tax non-compliance</i> takes the form of tax avoidance and tax evasion, and both shrink the revenue available for public services.</p><p><b>Tax avoidance versus tax evasion.</b> <b>Tax avoidance</b> means arranging one's affairs so as to minimise the tax burden, taking full advantage of the provisions of the tax code or schedule to reduce one's obligations - for example, reducing the burden through exemptions, deductions or incentives approved in the tax schedule. From the perspective of law, tax avoidance is not illegal, though it poses problems for tax administration. <b>Tax evasion</b> means falsifying information on a tax return to reduce one's liability, or even not filing at all (failing to pay legally due taxes), which is illegal.</p><p><b>The underground economy.</b> Tax evasion is rooted in underground economic activities that exist for at least two reasons. First, certain activities are themselves illegal, so individuals do not want any record that those activities took place. Second, high marginal tax rates give people an incentive to obtain income without reporting it. Both forces hide economic activity from the tax authority and erode the tax base.</p><p><b>Other administrative problems and remedies.</b> Tax administrations in Ethiopia and elsewhere also face a steadily growing workload, the complexity of fiscal legislation, the attitude of taxpayers and the degree of non-compliance, the need to improve customer service, the need to reduce the costs of tax assessment and collection, and the need for efficient and effective management. These raise questions of how collection can be made more efficient and effective - which is why modernised, client-oriented service and simpler, more transparent rules are emphasised as remedies.</p>",
+  keyTerms: [
+    { term: "Tax compliance", def: "The degree to which taxpayers comply with the tax laws." },
+    { term: "Tax non-compliance", def: "Failure to comply with tax laws, taking the form of tax avoidance and tax evasion." },
+    { term: "Tax avoidance", def: "Legally arranging one's affairs to minimise the tax burden using exemptions, deductions or incentives in the tax schedule." },
+    { term: "Tax evasion", def: "Illegally falsifying information on a tax return, or not filing at all, to avoid paying legally due taxes." },
+    { term: "Tax shelter", def: "A legal arrangement approved in the tax code that reduces a taxpayer's burden, fuelling demand under avoidance." },
+    { term: "Underground economy", def: "Unreported economic activity, generated by illegal activities or high marginal tax rates that reward non-reporting." },
+    { term: "Cost of compliance", def: "The cost taxpayers incur to correctly calculate and pay their tax liability." },
+    { term: "Client orientation", def: "A modern tax-administration philosophy that treats taxpayers as customers to be served efficiently." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "Taxpayer X claims every exemption and deduction approved in the tax schedule to reduce her bill. Taxpayer Y falsifies his sales figures on his return and under-reports income. Classify each behaviour and state its legal status.",
+      given: "X uses approved exemptions, deductions and incentives. Y falsifies information on a tax return.",
+      formula: "Principle: using provisions of the tax schedule is avoidance (not illegal); falsifying information or not filing is evasion (illegal).",
+      substitution: "X takes full advantage of the provisions of the tax code, so her conduct fits the definition of avoidance. Y falsifies information, which fits the definition of evasion.",
+      calculation: "Avoidance is not illegal from the perspective of law but burdens administration; evasion is illegal.",
+      answer: "X is practising tax avoidance (legal); Y is practising tax evasion, which is a crime."
+    },
+    {
+      problem: "A country sharply raises marginal tax rates on reported income. Predict the effect on the underground economy and name the mechanism the textbook gives for it.",
+      given: "Marginal tax rates on reported income increase sharply.",
+      formula: "Principle: high marginal tax rates give people an incentive to obtain income without reporting it.",
+      substitution: "Since unreported income escapes the now-higher marginal rate, the reward for hiding income rises.",
+      calculation: "More taxpayers choose not to report, so unreported transactions grow and the tax base shrinks even though rates rose.",
+      answer: "The underground economy grows, driven by the incentive of high marginal tax rates to keep income unreported; this is why evasion rises even when rates do."
+    },
+    {
+      problem: "A tax office in a developing country is seen as corrupt and publishes rules taxpayers cannot understand. Explain, using the textbook factors, what happens to voluntary compliance and how the office can respond.",
+      given: "Problems present: complexity of the tax system, perception of corruption, fairness perception and tax knowledge.",
+      formula: "Principle: complexity and perceived unfairness or corruption raise compliance costs and lower voluntary compliance, while tax knowledge raises it.",
+      substitution: "Taxpayers face higher costs to calculate liability correctly and less trust, so compliance falls and evasion tempting; some shift to legal shelters.",
+      calculation: "Remedies follow from the causes: modernise customer service with client orientation, simplify the rules, cut assessment and collection costs, and raise taxpayer knowledge.",
+      answer: "Voluntary compliance falls; the office should simplify administration, improve client-oriented customer service and taxpayer education to rebuild fairness perception and compliance."
+    }
+  ],
+  commonMistakes: [
+    "Thinking tax avoidance is illegal, when the textbook states it is not illegal from the perspective of law.",
+    "Thinking tax evasion is merely clever planning, when it is falsifying information or not filing, which is illegal.",
+    "Assuming tax evasion grows only from greed and ignoring the two roots: illegal activities and high marginal tax rates.",
+    "Believing complexity harms only the tax office, when it also costs taxpayers dearly to calculate liability correctly.",
+    "Forgetting that tax knowledge positively affects voluntary tax compliance, so taxpayer education is a remedy.",
+    "Confusing tax compliance itself with its failures; compliance is the degree to which taxpayers follow the tax laws.",
+    "Assuming developed and developing countries face identical tax problems; Ethiopia's include perceived corruption and weak fairness perception."
+  ],
+  applications: [
+    "File honest returns for a family business rather than under-reporting sales, since evasion is illegal.",
+    "Using only exemptions and deductions approved in the Ethiopian tax schedule, which is legal avoidance, and never falsifying figures.",
+    "Explaining to peers why an underground market of unreported trade ultimately starves schools and clinics of funding.",
+    "Advocating simpler tax forms and client-oriented counters at the local revenue office to cut compliance costs.",
+    "Supporting tax-awareness clubs in your locality, since taxpayer knowledge improves voluntary compliance.",
+    "Arguing that lowering excessive marginal rates can reduce the incentive to keep income unreported."
+  ],
+  summary: "Tax systems worldwide are criticised for administrative complexity and compliance difficulty, which raise compliance costs and push activity into the underground economy. Non-compliance appears as tax avoidance, the legal use of exemptions, deductions and incentives, and tax evasion, the illegal falsification or non-filing of returns, rooted in illegal activities and high marginal tax rates. In Ethiopia the biggest problems are complexity, perceived corruption, compliance costs, fairness perception and limited tax knowledge, addressed through modernised client-oriented administration and simpler, transparent rules.",
+  visuals: [
+    {
+      type: "comparison",
+      config: {
+        title: "Tax Avoidance vs Tax Evasion",
+        left: { name: "Tax avoidance", items: ["Arranging affairs to lower the burden", "Uses exemptions, deductions, incentives", "Approved by the tax schedule", "Not illegal", "Poses problems for administration"] },
+        right: { name: "Tax evasion", items: ["Falsifying information on a return", "Not filing or not paying due taxes", "Against the law", "Rooted in the underground economy", "Driven partly by high marginal rates"] }
+      }
+    },
+    {
+      type: "flowChart",
+      config: {
+        title: "From Complexity to Non-Compliance",
+        steps: [
+          "Complex tax system: rules hard to understand",
+          "High cost of compliance: paying to calculate liability correctly",
+          "Weak fairness perception: corruption perceived, distrust grows",
+          "Non-compliance: avoidance, evasion, underground economy",
+          "Lower revenue: less money for public services"
+        ]
+      }
+    },
+    {
+      type: "mindMap",
+      config: {
+        title: "Problems of Taxation in Ethiopia",
+        center: "Tax Problems",
+        branches: [
+          { label: "Design", items: ["Complexity of the tax system", "Complex fiscal legislation"] },
+          { label: "Trust", items: ["Perception of corruption", "Fairness perception"] },
+          { label: "Taxpayers", items: ["Cost of compliance", "Attitude and tax knowledge"] },
+          { label: "Administration", items: ["Growing workload", "Costs of assessment and collection", "Need for efficient management"] }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "The two biggest criticisms of tax systems around the world focus on:", options: ["High rates and low rates", "Complexity of administration and difficulty of understanding and complying", "Corruption and inflation", "Deficit financing and money printing"], answer: 1, difficulty: 1, explanation: "The textbook names complexity of administration and the difficulty for taxpayers to understand and comply as the major criticisms." },
+    { type: "tf", q: "Tax avoidance is illegal from the perspective of the law.", answer: false, difficulty: 2, explanation: "Tax avoidance is not illegal; it takes full advantage of provisions of the tax code, though it burdens administration." },
+    { type: "mcq", q: "Tax evasion is best described as:", options: ["Using deductions approved in the tax schedule", "Arranging one's affairs to reduce the tax burden", "Falsifying information on a tax return or not filing at all", "Paying taxes early"], answer: 2, difficulty: 2, explanation: "Evasion means falsifying information on a return to reduce liability, or failing to file and pay legally due taxes, which is illegal." },
+    { type: "concept", q: "State the two reasons the textbook gives for the existence of underground economic activities.", answer: "illegal activities and high marginal tax rates|illegal activities; high marginal rates incentivize non-reporting", difficulty: 3, explanation: "Underground activities exist because certain activities are illegal and want no records, and high marginal tax rates give an incentive to obtain income without reporting it." },
+    { type: "mcq", q: "Which of the following is listed as a problem of tax systems in developing countries including Ethiopia?", options: ["Perception of corruption", "Too much customer orientation", "Excess simplification of rules", "Too little borrowing"], answer: 0, difficulty: 2, explanation: "Developing-country problems include complexity, perception of corruption, cost of compliance, fairness perception and tax knowledge." },
+    { type: "tf", q: "Tax knowledge has a positive effect on voluntary tax compliance.", answer: true, difficulty: 1, explanation: "The textbook states tax knowledge has a positive effect on voluntary tax compliance." },
+    { type: "short", q: "What term describes the degree to which taxpayers comply with the tax laws?", answer: "tax compliance", difficulty: 1, explanation: "Tax compliance is the degree to which taxpayers comply with the tax laws." },
+    { type: "mcq", q: "In developed countries, a key tool for improving tax administration efficiency is:", options: ["Raising marginal tax rates", "Modernising customer services with client orientation", "Banning all tax shelters", "Printing money to replace taxes"], answer: 1, difficulty: 2, explanation: "Developed countries modernise customer services, applying client-oriented or customer-oriented management techniques." },
+    { type: "concept", q: "Explain how complexity of a tax system leads to lower revenue.", answer: "complexity raises compliance costs which encourages evasion and avoidance|complex rules grow the underground economy", difficulty: 3, explanation: "Complexity makes correct calculation costly, encouraging unreported transactions (evasion) and demand for shelters (avoidance), shrinking revenue." },
+    { type: "mcq", q: "Which is a need that tax administrations in Ethiopia and elsewhere must confront?", options: ["Reducing costs of tax assessment and collection", "Increasing the complexity of fiscal legislation", "Discouraging voluntary compliance", "Eliminating taxpayer service"], answer: 0, difficulty: 2, explanation: "Administrations face growing workload, legislative complexity, taxpayer attitude, and the need to improve service and reduce assessment and collection costs." }
+  ]
+};

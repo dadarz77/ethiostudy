@@ -1,10 +1,379 @@
-/* Content: g12-economics-ue2 — migrated from generated JSON (Phase 0 pipeline restore).
-   Content upgrade to spec v2 happens per unit in later phases. */
+/* Content: Grade 12 Economics - Unit 2: Aggregate Demand and Aggregate Supply Analysis (3 topics)
+   Source: MoE Economics Grade 12 Student Textbook, Unit 2. */
 window.Lessons = window.Lessons || {};
 
-Lessons["g12-economics-ue2-t1"] = {"overview":"<b>Aggregate Demand</b> sits inside <b>Aggregate Demand and Aggregate Supply Analysis</b>. Aggregate demand and supply are the focus of Unit 2 of Grade 12 Economics in the Ethiopian (FDRE Ministry of Education) curriculum. First, it builds the concept of aggregate demand, its curve, and the shifts in it. Then it does the same for aggregate supply, in both the short run and the long run. Finally, it brings the two together to find equilibrium and to trace demand and supply shocks. Students will also learn how the aggregate demand and supply model explains real-life fluctuations.","objectives":["Explain the concept of aggregate demand and its curve.","Explain the concept of aggregate supply in the short and long run.","Distinguish a movement along a curve from a shift of the curve.","Show short-run and long-run equilibrium at potential output.","Use the aggregate demand and supply model to analyze fluctuations."],"simple":"<b>Aggregate Demand in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, the concept of aggregate demand.</li> <li>Then the downward-sloping aggregate demand curve.</li> <li>Also the factors that shift the curve.</li></ul>","detailed":"<p><b>Aggregate Demand — the essentials.</b> First, the concept of aggregate demand. Then the downward-sloping aggregate demand curve. Also the factors that shift the curve.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Explain the concept of aggregate demand and its curve.</li><li>Explain the concept of aggregate supply in the short and long run.</li><li>Distinguish a movement along a curve from a shift of the curve.</li><li>Show short-run and long-run equilibrium at potential output.</li><li>Use the aggregate demand and supply model to analyze fluctuations.</li></ul>","keyTerms":[{"term":"First","def":"First, the concept of aggregate demand."},{"term":"Then the downward-sloping aggregate demand curve","def":"Then the downward-sloping aggregate demand curve."},{"term":"Also the factors that shift the curve","def":"Also the factors that shift the curve."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing aggregate demand with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Interpreting economic news about Ethiopia in the media","The applied data-response questions in the ESSLCE economics paper"],"summary":"Aggregate Demand: First, the concept of aggregate demand. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"Aggregate Demand\" is correct according to the MoE curriculum?","options":["First, the concept of aggregate demand.","Aggregate Demand holds only under conditions this topic says do not apply","Aggregate Demand inverts the direction of the relationship this topic describes","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, the concept of aggregate demand. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"Aggregate Demand\"?","options":["Then the downward-sloping aggregate demand curve.","Aggregate Demand is a household-level claim, not the national-level claim of this topic","Aggregate Demand holds only under conditions this topic says do not apply","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Then the downward-sloping aggregate demand curve."},{"type":"tf","q":"True or false: First, the concept of aggregate demand.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover aggregate demand.","answer":false,"difficulty":1,"explanation":"Aggregate Demand is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Explain the concept of aggregate demand and its curve.","difficulty":2,"altAnswers":["Explain the concept of aggregate supply in the short and long run.","Distinguish a movement along a curve from a shift of the curve."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why aggregate demand matters.","answer":"Aggregate Demand is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of aggregate demand in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to aggregate demand, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
+Lessons["g12-economics-ue2-t1"] = {
+  overview: "Aggregate demand (AD) is the total spending that households, firms and the government plan to make on the economy's goods and services. This lesson defines AD, breaks it into its four components, explains why the AD curve slopes downward and what shifts it.",
+  objectives: [
+    "Define the concept of aggregate demand",
+    "Identify and explain the four components of aggregate demand",
+    "Describe why the aggregate demand curve slopes downward",
+    "Distinguish a change in the quantity demanded from a change in aggregate demand",
+    "Explain the factors that shift the aggregate demand curve"
+  ],
+  simple: "Aggregate demand is the total amount of money that all sections of the economy, such as households, firms and government, are ready to spend on goods and services produced in a given period. It has four components: consumption (C), private investment (I), government purchases (G) and net exports (X - M), so AD = C + I + G + (X - M). The AD curve slopes downward: when the general price level falls, the total quantity of real output demanded rises. This happens through the real balance, interest rate and international trade effects. If any spending component rises at a given price level, the whole AD curve shifts right; if it falls, AD shifts left.",
+  detailed: "<p><b>What aggregate demand is.</b> Aggregate demand (AD) refers to the total amount that different sectors in the economy willingly spend in a given period. It is measured by the total expenditure of the economy's community on goods and services. More specifically, AD is the total amount of money which all sections, that is households, firms and governments, are ready to spend on the purchase of goods and services produced in an economy during a given period. It is the sum of spending by consumers, businesses and governments, and it depends on the level of prices as well as on monetary policy, fiscal policy and other factors.</p><p><b>The four components.</b> Aggregate demand has four major components: household consumption demand (C), private investment demand (I), government demand for goods and services (G) and net export demand (X - M). This gives the equation AD = C + I + G + (X - M). Consumption is mainly determined by disposable income, household wealth, longer term trends in income and the aggregate price level. Investment spending includes private purchases of structures, equipment and the accumulation of inventories, and its major determinants are the level of output, the cost of capital and expectations about the future. Government purchases are determined directly by government spending decisions. Net exports, the value of exports minus the value of imports, are determined by domestic and foreign incomes, relative prices and exchange rates.</p><p><b>The aggregate demand curve.</b> The AD curve is a schedule that shows the amount of real output that buyers collectively desire to purchase at each price level, ceteris paribus. The relationship between the price level and real GDP demanded is inverse or negative, so the AD curve slopes downward. When the general price level falls from P1 to P0, the aggregate quantity demanded of output increases from Q1 to Q0. Remember the law of demand you learnt in Grade 9, but here it applies to the whole economy.</p><p><b>Why the AD curve slopes downward.</b> The inverse relationship is explained by three effects. The <b>real balance effect</b>: a rise in the price level causes purchasing power to fall, which decreases a person's monetary wealth; as people become less wealthy, the quantity demanded of real GDP falls. The <b>interest rate effect</b>, also called the money supply effect: a higher price level increases the demand for money, and given a fixed money supply, this drives up the interest rate; higher interest rates curtail investment spending and interest-sensitive consumption. For example, a firm expecting a 6% rate of return will invest when the interest rate is 5% but not when it has risen to 7%. The <b>international trade effect</b>: if the price level in Ethiopia rises, Ethiopian goods become relatively more expensive than foreign goods, so both Ethiopians and foreigners buy fewer Ethiopian goods, and the quantity demanded of Ethiopia's real GDP falls.</p><p><b>Change in quantity demanded versus change in aggregate demand.</b> A change in the quantity demanded of real GDP is brought about by a change in the price level, and it is a movement from one point to another along the same AD curve. A change in aggregate demand is a shift of the entire AD curve from AD1 to AD2: the quantity demanded of real GDP changes even though the price level remains constant. At a constant general price level, any positive change in the general level of income of the people, the real interest rate, the level of economic activity in other countries (which determines exports), the availability of credit, or the level of economic activity in the economy itself shifts the AD curve rightward, and a negative change shifts it leftward.</p><p><b>Factors affecting consumption and investment.</b> Four factors affect consumption: wealth (greater wealth makes people feel financially more secure and more willing to spend), expectations about future prices and income (if people expect higher prices or higher future income, they increase current consumption), the interest rate (a higher rate raises the monthly payments on borrowed consumer durables and reduces their consumption), and income taxes (higher taxes reduce disposable income and consumption, while tax cuts raise them). Three factors change investment: the interest rate (a higher rate raises the cost of a project and businesses invest less), expectations about future sales (optimism grows investment, pessimism contracts it), and business taxes (higher business taxes lower expected profitability and investment).</p><p><b>Factors affecting government spending and net exports.</b> An increase in government purchases, for example on military equipment or transport projects, shifts the AD curve to the right as long as tax collections and interest rates do not change as a result; a reduction in government spending shifts it to the left. Net exports depend mainly on domestic and foreign incomes, relative prices, the exchange rate, trade policies, and preferences and technology. When foreign real national income rises, foreigners buy more Ethiopian goods, exports rise, net exports rise and aggregate demand increases. Exchange rate changes matter too: if 1 Birr = 2 Indian Rupee, an Ethiopian leather jacket priced at 1500 Birr costs an Indian buyer 3000 Rupee; if the Rupee then depreciates to 3 Rupee = 1 Birr, the same jacket now costs 4500 Rupee. Depreciation of a nation's currency makes foreign goods more expensive, cuts imports, raises exports and therefore increases net exports and aggregate demand; appreciation works in the opposite direction.</p>",
+  keyTerms: [
+    { term: "Aggregate demand", def: "The total amount of money which all sections (households, firms and government) are ready to spend on goods and services produced in an economy during a given period." },
+    { term: "Consumption (C)", def: "Spending by households on goods and services, primarily determined by disposable income, wealth, expectations and the price level." },
+    { term: "Investment (I)", def: "Private purchases of structures, equipment and the accumulation of inventories, determined by output, the cost of capital and expectations." },
+    { term: "Net exports (X - M)", def: "The value of exports minus the value of imports, determined by domestic and foreign incomes, relative prices and exchange rates." },
+    { term: "Real balance effect", def: "The fall in purchasing power and monetary wealth caused by a rise in the price level, which reduces the quantity demanded of real GDP." },
+    { term: "Interest rate effect", def: "A higher price level raises money demand and the interest rate, cutting investment and interest-sensitive consumption; also called the money supply effect." },
+    { term: "International trade effect", def: "A higher domestic price level makes home goods relatively more expensive, reducing exports and home purchases and lowering real GDP demanded." },
+    { term: "Change in aggregate demand", def: "A shift of the entire AD curve, caused at a constant price level by a change in spending such as consumption, investment, government purchases or net exports." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "The government cuts income taxes, so households have more take-home pay while the price level is unchanged. Predict what happens to aggregate demand and the AD curve.",
+      given: "Income taxes fall; disposable income rises; the general price level stays constant.",
+      formula: "AD = C + I + G + (X - M); less tax raises disposable income and consumption.",
+      substitution: "Consumption (C) increases at the given price level.",
+      calculation: "A rise in consumption at a given price level increases total spending on Ethiopian goods and services, so aggregate demand rises and the AD curve shifts to the right.",
+      answer: "Aggregate demand increases and the AD curve shifts rightward from AD1 to AD2."
+    },
+    {
+      problem: "A firm expects a 6% rate of return on a capital purchase. The interest rate rises from 5% to 7%. Explain the effect on investment and aggregate demand.",
+      given: "Expected return = 6%; interest rate rises from 5% to 7%.",
+      formula: "Investment is profitable when the expected rate of return exceeds the interest rate.",
+      substitution: "At 5%, 6% > 5%, so the project is profitable. At 7%, 6% < 7%, so it is unprofitable.",
+      calculation: "The project will not be made at 7%; investment spending declines, and as investment falls, aggregate demand also decreases.",
+      answer: "Investment falls and aggregate demand decreases, shifting the AD curve leftward."
+    },
+    {
+      problem: "An Ethiopian leather jacket costs 1500 Birr. The exchange rate moves from 1 Birr = 2 Indian Rupee to 1 Birr = 3 Indian Rupee. What happens to Ethiopian net exports and aggregate demand?",
+      given: "Jacket price = 1500 Birr; first rate 1 Birr = 2 Rupee, then 3 Rupee per Birr.",
+      formula: "Price in Rupee = Birr price x Rupee per Birr.",
+      substitution: "First: 1500 x 2 = 3000 Rupee. After: 1500 x 3 = 4500 Rupee for the same jacket.",
+      calculation: "Indian buyers face a higher Rupee price, so they buy fewer Ethiopian jackets; but wait, here it is the Rupee that needs more units per Birr, so the Birr has appreciated and the Rupee depreciated. Ethiopian goods become more expensive for Indians, exports fall, while foreign goods become cheaper for Ethiopians and imports rise.",
+      answer: "Net exports decrease, so aggregate demand decreases and the AD curve shifts leftward."
+    },
+    {
+      problem: "The general price level falls from P1 to P0 while the AD curve itself is unchanged, and the quantity of real GDP demanded rises from Q1 to Q0. Is this a change in aggregate demand or a change in quantity demanded?",
+      given: "Price level falls; quantity demanded rises along the same AD curve.",
+      formula: "A change in the price level moves along the curve; only non-price spending changes shift the curve.",
+      substitution: "The AD curve position did not change; only the point on it changed.",
+      calculation: "Since the movement was caused purely by a change in the price level, it is a movement along the same demand curve, not a shift.",
+      answer: "It is a change in the quantity demanded of real GDP, shown as a movement along the AD curve."
+    }
+  ],
+  commonMistakes: [
+    "Treating a fall in the price level as an increase in aggregate demand, when it is only a movement along the AD curve.",
+    "Confusing the downward-sloping AD curve with the single-market law of demand without knowing the three underlying effects.",
+    "Leaving net exports out of AD = C + I + G + (X - M), or writing exports instead of net exports.",
+    "Believing a currency appreciation increases exports, when appreciation makes home goods dearer and lowers them.",
+    "Saying higher government spending always shifts AD right even when taxes and interest rates change simultaneously.",
+    "Mixing up the real balance effect (purchasing power of money wealth) with the interest rate effect (cost of borrowing).",
+    "Assuming investment depends only on profit expectations and ignoring the interest rate and business taxes."
+  ],
+  applications: [
+    "When the National Bank raises interest rates, purchases of cars and houses on loans fall, reducing consumption and shifting AD left.",
+    "Increased government spending on roads and transport projects shifts the AD curve to the right, other things equal.",
+    "When the Birr depreciates, imported goods become expensive for Ethiopians and Ethiopian exports become cheaper, raising net exports and AD.",
+    "If coffee buyers in Europe earn higher national incomes, they buy more Ethiopian coffee, raising exports, net exports and aggregate demand.",
+    "When people expect higher prices next season, they buy goods now at lower current prices, increasing present consumption and AD.",
+    "An income tax cut raises take-home pay, so households spend more and the AD curve shifts rightward."
+  ],
+  summary: "Aggregate demand is the total planned spending by households, firms and government on the economy's output, and AD = C + I + G + (X - M). The AD curve slopes downward because of the real balance, interest rate and international trade effects, so a lower price level means a larger quantity of real GDP demanded. A change in the price level moves the economy along the curve, while changes in wealth, expectations, interest rates, taxes, government spending or net exports shift the entire curve.",
+  visuals: [
+    {
+      type: "comparison",
+      config: {
+        title: "Change in Quantity Demanded vs Change in Aggregate Demand",
+        left: { name: "Change in quantity demanded", items: ["Caused by a change in the price level", "Movement along the same AD curve", "AD curve does not shift", "Example: P falls from P1 to P0, Q rises"] },
+        right: { name: "Change in aggregate demand", items: ["Caused by changes in spending at a given price level", "The whole AD curve shifts left or right", "Price level stays constant", "Example: more investment shifts AD1 to AD2"] }
+      }
+    },
+    {
+      type: "mindMap",
+      config: {
+        title: "Components of Aggregate Demand",
+        center: "AD = C + I + G + (X - M)",
+        branches: [
+          { label: "Consumption", items: ["Disposable income", "Wealth", "Expectations"] },
+          { label: "Investment", items: ["Interest rate", "Expected sales", "Business taxes"] },
+          { label: "Government", items: ["Spending decisions", "Projects and equipment"] },
+          { label: "Net exports", items: ["Foreign income", "Exchange rates", "Relative prices"] }
+        ]
+      }
+    },
+    {
+      type: "flowChart",
+      config: {
+        title: "The Interest Rate Effect Chain",
+        nodes: [
+          "Price level rises",
+          "Demand for money increases",
+          "Interest rate rises (fixed money supply)",
+          "Investment and interest-sensitive consumption fall",
+          "Quantity of real GDP demanded falls"
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "Aggregate demand is defined as:", options: ["the output of a single industry", "the total amount all sectors willingly spend on goods and services in a given period", "the money supply of the economy", "the total quantity of resources available"], answer: 1, difficulty: 1, explanation: "AD is the total expenditure of households, firms and government on goods and services produced in a given period." },
+    { type: "mcq", q: "AD = C + I + G + (X - M). In this equation X - M stands for:", options: ["consumption minus taxes", "exports minus imports", "government minus investment", "money supply minus money demand"], answer: 1, difficulty: 1, explanation: "X is exports, M is imports, so X - M is net export demand." },
+    { type: "mcq", q: "The increase in spending that occurs because the real value of money rises when the price level falls is called:", options: ["the interest rate effect", "the international trade effect", "the real balance effect", "the income tax effect"], answer: 2, difficulty: 2, explanation: "The real balance effect works through changes in the value of monetary wealth as the price level changes." },
+    { type: "mcq", q: "A firm expects a 6% return on a project. In which case will the investment be made?", options: ["when the interest rate is 5%", "when the interest rate is 7%", "when the interest rate equals 8%", "never, whatever the interest rate"], answer: 0, difficulty: 2, explanation: "Investment is potentially profitable when the expected return (6%) exceeds the interest rate, as at 5%." },
+    { type: "tf", q: "The aggregate demand curve is downward sloping because of an inverse relationship between the price level and real GDP demanded.", answer: true, difficulty: 1, explanation: "With other factors constant, aggregate quantity demanded rises as the general price level falls." },
+    { type: "tf", q: "A change in the price level shifts the aggregate demand curve.", answer: false, difficulty: 2, explanation: "A change in the price level causes a movement along the AD curve; only other spending factors shift the curve." },
+    { type: "short", q: "Name the three effects that explain why the AD curve slopes downward.", answer: "real balance effect, interest rate effect, international trade effect", difficulty: 2, explanation: "The inverse relationship is explained by the real balance, interest rate and international trade effects." },
+    { type: "concept", q: "State one AD determinant mentioned in the lesson that lies under government control and one that is exogenous.", answer: "fiscal or monetary policy variables under government control|foreign economic activity or technological change as exogenous", difficulty: 2, explanation: "Policy variables include monetary and fiscal policy; exogenous variables include foreign economic activity and technological change." },
+    { type: "concept", q: "Explain, in order, how a fall in the price level increases the quantity of real GDP demanded through the international trade effect.", answer: "Ethiopian goods become cheaper relative to foreign goods|Ethiopians and foreigners buy more Ethiopian goods|quantity demanded of real GDP rises", difficulty: 3, explanation: "A lower domestic price level makes home goods relatively cheaper, raising both home and foreign purchases of Ethiopian output." },
+    { type: "ordering", q: "Arrange the real balance effect in the correct causal order.", options: ["Quantity demanded of real GDP falls", "The price level rises", "Monetary wealth and purchasing power fall"], answer: 1, difficulty: 2, explanation: "The order is: price level rises, purchasing power and monetary wealth fall, quantity demanded of real GDP falls." },
+    { type: "tf", q: "If the Ethiopian Birr depreciates, foreign goods become more expensive and Ethiopian exports become cheaper for foreigners.", answer: true, difficulty: 2, explanation: "Depreciation makes imports dearer and exports cheaper, so exports rise, imports fall and net exports increase." }
+  ]
+};
 
-Lessons["g12-economics-ue2-t2"] = {"overview":"<b>Aggregate Supply</b> sits inside <b>Aggregate Demand and Aggregate Supply Analysis</b>. Aggregate demand and supply are the focus of Unit 2 of Grade 12 Economics in the Ethiopian (FDRE Ministry of Education) curriculum. First, it builds the concept of aggregate demand, its curve, and the shifts in it. Then it does the same for aggregate supply, in both the short run and the long run. Finally, it brings the two together to find equilibrium and to trace demand and supply shocks. Students will also learn how the aggregate demand and supply model explains real-life fluctuations.","objectives":["Explain the concept of aggregate demand and its curve.","Explain the concept of aggregate supply in the short and long run.","Distinguish a movement along a curve from a shift of the curve.","Show short-run and long-run equilibrium at potential output.","Use the aggregate demand and supply model to analyze fluctuations."],"simple":"<b>Aggregate Supply in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, the concept of aggregate supply.</li> <li>Then the upward-sloping short-run supply curve (SRAS).</li> <li>Also the vertical long-run supply curve (LRAS) at potential output.</li></ul>","detailed":"<p><b>Aggregate Supply — the essentials.</b> First, the concept of aggregate supply. Then the upward-sloping short-run supply curve (SRAS). Also the vertical long-run supply curve (LRAS) at potential output.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Explain the concept of aggregate demand and its curve.</li><li>Explain the concept of aggregate supply in the short and long run.</li><li>Distinguish a movement along a curve from a shift of the curve.</li><li>Show short-run and long-run equilibrium at potential output.</li><li>Use the aggregate demand and supply model to analyze fluctuations.</li></ul>","keyTerms":[{"term":"First","def":"First, the concept of aggregate supply."},{"term":"Then the upward-sloping short-run supply curve (SRAS)","def":"Then the upward-sloping short-run supply curve (SRAS)."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing aggregate supply with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Interpreting economic news about Ethiopia in the media","The applied data-response questions in the ESSLCE economics paper"],"summary":"Aggregate Supply: First, the concept of aggregate supply. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"Aggregate Supply\" is correct according to the MoE curriculum?","options":["First, the concept of aggregate supply.","Aggregate Supply holds only under conditions this topic says do not apply","Aggregate Supply inverts the direction of the relationship this topic describes","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, the concept of aggregate supply. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"Aggregate Supply\"?","options":["Then the upward-sloping short-run supply curve (SRAS).","Aggregate Supply is a household-level claim, not the national-level claim of this topic","Aggregate Supply holds only under conditions this topic says do not apply","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Then the upward-sloping short-run supply curve (SRAS)."},{"type":"tf","q":"True or false: First, the concept of aggregate supply.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover aggregate supply.","answer":false,"difficulty":1,"explanation":"Aggregate Supply is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Explain the concept of aggregate demand and its curve.","difficulty":2,"altAnswers":["Explain the concept of aggregate supply in the short and long run.","Distinguish a movement along a curve from a shift of the curve."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why aggregate supply matters.","answer":"Aggregate Supply is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of aggregate supply in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to aggregate supply, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
+Lessons["g12-economics-ue2-t2"] = {
+  overview: "Aggregate supply (AS) is the total quantity of goods and services, real GDP, that firms offer for sale at various price levels. This lesson distinguishes the upward-sloping short-run AS curve from the vertical long-run AS curve and explains the determinants that shift them.",
+  objectives: [
+    "Define the concept of aggregate supply",
+    "Explain why the short-run aggregate supply curve slopes upward",
+    "Describe the sticky-wage and worker-misperception explanations",
+    "Explain why the long-run aggregate supply curve is vertical at natural real GDP",
+    "Identify the determinants that shift the aggregate supply curve"
+  ],
+  simple: "Aggregate supply is the quantity supplied of all goods and services (real GDP) at various price levels, ceteris paribus, and it has a direct or positive relationship with the price level. In the short run, the SRAS curve slopes upward: as the price level rises, firms supply more. Two explanations are sticky wages, where wages are locked in by labour contracts so a fall in the price level pushes real wages up and output down, and worker misperceptions of real wage changes. In the long run, wages adjust and misperceptions vanish, so the LRAS curve is vertical at full-employment or natural real GDP. AS shifts with input costs, resource availability, productivity, technology, tax policy and weather.",
+  detailed: "<p><b>What aggregate supply is.</b> Aggregate supply refers to the quantity supplied of all goods and services (real GDP) at various price levels, ceteris paribus. There is a direct or positive relationship between the price level and the amount of real output that firms offer for sale. Aggregate supply includes both short-run aggregate supply (SRAS) and long-run aggregate supply (LRAS). The short run is a time horizon during which at least one of the firm's inputs cannot be varied, while the long run is long enough for a firm to vary all of its inputs. The AS curve reflects conditions in both the factor markets and the goods markets.</p><p><b>Keynesian and classical supply curves.</b> The Keynesian supply curve is horizontal: firms will supply whatever amount of goods is demanded at the existing price level, because there is unemployment and firms can obtain as much labour as they want at the current wage, with average costs assumed not to change as output changes. The classical aggregate supply curve is vertical, indicating the same amount of goods will be supplied whatever the price level, based on the assumption that the labour market is always in equilibrium with full employment of the labour force.</p><p><b>Why the SRAS curve slopes upward - sticky wages.</b> The short-run aggregate supply curve shows the quantity supplied of all goods and services at different price levels; as the price level rises, firms increase the quantity supplied, and as it drops, they decrease it. One explanation is sticky wages: wages are inflexible because they are locked in for a few years by labour contract agreements, or because of social conventions and perceived notions of fairness. Firms pay nominal wages but hire based on real wages, where Real wage = Nominal wage / Price level. For example, with a nominal wage of $30 an hour and a price index of 1.50, the real wage is $20. If the firm had locked in $30 for three years expecting the index to stay at 1.50, but the index falls to 1.25, the real wage rises to $24 ($30/1.25). Since the quantity demanded of labour is inversely related to the real wage, the firm cuts back, say, from 1,000 to 800 workers. With fewer workers, less output is produced, so a fall in the price level brings a fall in output, which is exactly what an upward-sloping SRAS curve represents.</p><p><b>Worker misperceptions.</b> A second explanation holds that workers may misperceive real wage changes. Suppose the nominal wage falls from $30 to $25 at the same time the price index falls from 1.50 to 1.25. The real wage is unchanged at $20 ($25/1.25), but workers may think the price level fell only to 1.39 and so believe their real wage fell from $20 ($30/1.50) to about $17.98 ($25/1.39). In response to this misperceived fall, workers reduce the quantity of labour they supply, and with fewer resources firms produce less. So if workers misperceive real wage changes, a fall in the price level brings about a decline in output, again an upward-sloping SRAS curve.</p><p><b>Determinants and shifts of SRAS.</b> A change in the price level is a movement along the SRAS curve; a change in other factors shifts it. The determinants include the cost of inputs (input prices, especially wage rates), domestic resource availability (land, labour, capital, managerial ability, prices of imported resources, market power), changes in productivity, the state of technology, government tax policy (business taxes and subsidies), and weather, which applies particularly to agricultural output. The impact works through Profit per unit = Price per unit - Cost per unit. Higher wage rates mean higher costs and, at constant prices, lower profits, so managers reduce the units they produce: at the given price level P1 the economy moves from Q1 to Q2, which lies on a new, higher curve SRAS2. Thus a rise in equilibrium wage rates leads to a leftward shift of the SRAS curve; lower wage rates shift it rightward.</p><p><b>The long-run aggregate supply curve.</b> The reasons for the upward slope of SRAS, sticky wages and misperceptions, hold only temporarily. In time wages become flexible and misperceptions turn into accurate perceptions, and the economy is then said to be in the long run. Most economists argue that in the long run the economy produces the full-employment real GDP, also called the natural real GDP (QN). The long-run aggregate supply (LRAS) curve is therefore vertical: it identifies the output the economy produces whatever the price level. Long-run equilibrium identifies the real GDP the economy produces when wages and prices have adjusted to their final equilibrium levels and there are no misperceptions on the part of workers, and that level is natural real GDP (QN).</p>",
+  keyTerms: [
+    { term: "Aggregate supply", def: "The quantity supplied of all goods and services (real GDP) at various price levels, ceteris paribus, with a direct relationship to the price level." },
+    { term: "Short-run aggregate supply (SRAS)", def: "The upward-sloping curve showing real GDP supplied at different price levels when at least one input, such as wages, cannot fully adjust." },
+    { term: "Long-run aggregate supply (LRAS)", def: "The vertical curve showing the full-employment output the economy produces in the long run, natural real GDP (QN)." },
+    { term: "Sticky wages", def: "Nominal wages locked in for one to three years by labour contracts, so they do not adjust quickly when the price level changes." },
+    { term: "Real wage", def: "The nominal wage divided by the price level; it measures what the wage can actually buy." },
+    { term: "Worker misperceptions", def: "Errors workers make in judging real wage changes when they observe nominal wages but not exactly how much prices fell." },
+    { term: "Keynesian supply curve", def: "A horizontal aggregate supply curve: firms supply whatever is demanded at the existing price level because of unemployment." },
+    { term: "Classical supply curve", def: "A vertical aggregate supply curve based on full employment of the labour force, so the same output is supplied at any price level." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "A firm pays a nominal wage of $30 an hour and the price index is 1.50. It expected the index to stay at 1.50, but the index falls to 1.25. Find the real wages and the likely effect on employment and output.",
+      given: "Nominal wage = $30, locked in for three years; price index falls from 1.50 to 1.25.",
+      formula: "Real wage = Nominal wage / Price level.",
+      substitution: "Expected real wage = $30 / 1.50 = $20. New real wage = $30 / 1.25 = $24.",
+      calculation: "The real wage rises from $20 to $24, higher than the firm expected. Because the quantity demanded of labour is inversely related to the real wage, the firm cuts employment, for example from 1,000 to 800 workers, so output falls.",
+      answer: "Real wage rises from $20 to $24; employment and output fall, illustrating the upward-sloping SRAS curve."
+    },
+    {
+      problem: "Workers earn $25 an hour and the price level is 1.25, but they mistakenly believe it is 1.39. Compare the true and perceived real wages and predict the labour supply response.",
+      given: "Nominal wage = $25; true price level = 1.25; believed price level = 1.39.",
+      formula: "Real wage = Nominal wage / Price level.",
+      substitution: "True real wage = $25 / 1.25 = $20. Perceived real wage = $25 / 1.39 = about $17.98.",
+      calculation: "Workers believe the real wage fell (from $20 when wages were $30 and prices 1.50), so they reduce the quantity of labour they supply, and firms produce less.",
+      answer: "True real wage is $20 but perceived as about $17.98; labour supply and output fall."
+    },
+    {
+      problem: "Equilibrium wage rates rise across the economy while the price level is constant, with the economy initially at price P1 and output Q1 on SRAS1. Predict the effect on the SRAS curve.",
+      given: "Wage rates rise; price level constant; Profit per unit = Price per unit - Cost per unit.",
+      formula: "Profit per unit = Price per unit - Cost per unit.",
+      substitution: "Higher wages raise cost per unit, so at a constant price, profit per unit falls.",
+      calculation: "Lower profit per unit leads managers to reduce production from Q1 to Q2 at the given price level, a point on a new curve SRAS2.",
+      answer: "The SRAS curve shifts leftward from SRAS1 to SRAS2; a wage fall would shift it rightward."
+    },
+    {
+      problem: "Classify each case as a movement along the SRAS curve or a shift of the SRAS curve: (a) technology improves; (b) the price level rises.",
+      given: "Case (a) is a change in the state of technology; case (b) is a change in the price level.",
+      formula: "The price level moves along SRAS; other determinants shift it.",
+      substitution: "Technology is listed as a determinant of aggregate supply; the price level is the axis variable.",
+      calculation: "A technology improvement increases productivity and output at every price level, so the curve shifts rightward. A higher price level raises the quantity supplied at the given productivity and costs, a movement along the curve.",
+      answer: "(a) Shifts the SRAS curve rightward; (b) movement along (up) the SRAS curve."
+    }
+  ],
+  commonMistakes: [
+    "Drawing the long-run aggregate supply curve upward sloping instead of vertical.",
+    "Confusing nominal wages with real wages; the hiring decision depends on the real wage.",
+    "Treating a change in the price level as a shift of the SRAS curve instead of a movement along it.",
+    "Believing sticky wages are just a labourer's excuse, when contracts and fairness conventions lock wages in for years.",
+    "Forgetting that a fall in the price level with locked-in nominal wages raises real wages and reduces firms' labour demand.",
+    "Ignoring weather as an aggregate supply determinant, although it matters greatly for agricultural output.",
+    "Assuming the economy produces natural real GDP in the short run, when that holds only in the long run."
+  ],
+  applications: [
+    "A rise in the price of imported fuel raises input costs for Ethiopian firms and shifts SRAS leftward.",
+    "Good rains raise coffee and grain harvests, increasing agricultural output and shifting aggregate supply rightward.",
+    "Firms that sign two-year wage contracts with workers lock in nominal wages, so a price drop raises real wages and cuts output.",
+    "Government business tax reductions raise expected profitability and shift the SRAS curve to the right.",
+    "Adoption of better farming technology raises productivity, increasing the output supplied at every price level.",
+    "A shortage of labour, land or capital reduces domestic resource availability and limits aggregate supply."
+  ],
+  summary: "Aggregate supply is the quantity of real GDP firms offer for sale at each price level. The short-run AS curve slopes upward because wages are sticky, locked in by contracts, and because workers misperceive real wage changes, so a lower price level temporarily lowers output. In the long run wages and prices fully adjust and the LRAS curve is vertical at natural real GDP; input costs, resource availability, productivity, technology, taxes and weather shift the AS curves.",
+  visuals: [
+    {
+      type: "comparison",
+      config: {
+        title: "Short-Run vs Long-Run Aggregate Supply",
+        left: { name: "SRAS", items: ["Upward sloping curve", "Sticky wages and misperceptions", "Price level rises, output rises", "Output can differ from QN"] },
+        right: { name: "LRAS", items: ["Vertical curve", "Flexible wages, no misperceptions", "Output fixed at natural real GDP", "Full-employment output (QN)"] }
+      }
+    },
+    {
+      type: "tableVisual",
+      config: {
+        title: "Determinants of Aggregate Supply and Their Shifts",
+        headers: ["Determinant", "Change", "Effect on SRAS"],
+        rows: [
+          ["Wage rates (input cost)", "Rise", "Shifts leftward"],
+          ["Input / imported resource prices", "Fall", "Shifts rightward"],
+          ["State of technology", "Improves", "Shifts rightward"],
+          ["Business taxes", "Rise", "Shifts leftward"],
+          ["Weather (agriculture)", "Good rains", "Shifts rightward"],
+          ["Resource availability", "Improves", "Shifts rightward"]
+        ]
+      }
+    },
+    {
+      type: "steps",
+      config: {
+        title: "How Sticky Wages Explain the Upward-Sloping SRAS",
+        steps: [
+          { label: "Lock in wages", detail: "A firm agrees to pay $30 an hour for three years, expecting a price index of 1.50." },
+          { label: "Price level falls", detail: "The index falls to 1.25 instead of staying at 1.50." },
+          { label: "Real wage rises", detail: "Real wage = 30 / 1.25 = $24, above the expected $20." },
+          { label: "Cut labour", detail: "Since labour demand falls as real wages rise, the firm reduces workers, say 1,000 to 800." },
+          { label: "Output falls", detail: "With fewer workers, output falls, so a lower price level means lower quantity supplied." }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "Aggregate supply refers to:", options: ["the quantity of one good supplied by one firm", "the quantity supplied of all goods and services (real GDP) at various price levels", "the total spending in the economy", "the money value of imports"], answer: 1, difficulty: 1, explanation: "AS is the quantity supplied of all goods and services at various price levels, ceteris paribus." },
+    { type: "mcq", q: "Real wage is calculated as:", options: ["nominal wage times price level", "nominal wage divided by the price level", "price level divided by nominal wage", "nominal wage minus profit"], answer: 1, difficulty: 1, explanation: "Real wage = Nominal wage / Price level." },
+    { type: "mcq", q: "Which of the following is a determinant that shifts the aggregate supply curve?", options: ["the price level", "the wage of workers", "the interest rate on loans to households", "export demand abroad"], answer: 1, difficulty: 2, explanation: "Wage rates are a major input cost; higher wages shift SRAS leftward, while the price level only moves along the curve." },
+    { type: "mcq", q: "The long-run aggregate supply curve is vertical because:", options: ["wages never change", "in the long run the economy produces full-employment real GDP whatever the price level", "firms refuse to change output", "the price level is fixed in the long run"], answer: 1, difficulty: 2, explanation: "In the long run wages and prices fully adjust, so output equals natural real GDP (QN) at any price level." },
+    { type: "mcq", q: "According to the Keynesian view, the aggregate supply curve is horizontal because:", options: ["the labour market is always at full employment", "firms can supply any amount demanded at the existing price level when there is unemployment", "firms cannot change output", "technology is fixed"], answer: 1, difficulty: 3, explanation: "With unemployment, firms obtain labour at the current wage and supply whatever is demanded at the existing price level." },
+    { type: "tf", q: "A rise in equilibrium wage rates shifts the short-run aggregate supply curve to the left.", answer: true, difficulty: 2, explanation: "Higher wages raise cost per unit, lower profit per unit, and reduce output at each price level, shifting SRAS left." },
+    { type: "tf", q: "In the short run, a fall in the price level with sticky nominal wages increases the output firms produce.", answer: false, difficulty: 2, explanation: "A lower price level raises real wages, so firms hire fewer workers and output declines." },
+    { type: "short", q: "A firm locked in a $30 nominal wage. If the price index falls from 1.50 to 1.25, what is the new real wage?", answer: "24|24 dollars|$24", difficulty: 2, explanation: "Real wage = 30 / 1.25 = $24." },
+    { type: "concept", q: "Distinguish between a change in the quantity supplied of real GDP and a change in short-run aggregate supply.", answer: "movement along SRAS due to price level change|shift of SRAS due to other determinants", difficulty: 3, explanation: "A change in quantity supplied is caused by a change in the price level (movement along SRAS); a change in aggregate supply shifts the whole curve." },
+    { type: "ordering", q: "Arrange the worker misperception story in the correct order.", options: ["Workers supply less labour", "Nominal wage and price level both fall", "Workers believe the real wage fell", "Firms produce less output"], answer: 1, difficulty: 3, explanation: "Order: nominal wage and prices fall together; workers misperceive a real wage fall; they supply less labour; firms produce less." },
+    { type: "tf", q: "Profit per unit equals price per unit minus cost per unit.", answer: true, difficulty: 1, explanation: "This textbook equation links input costs to how many units managers choose to produce." }
+  ]
+};
 
-Lessons["g12-economics-ue2-t3"] = {"overview":"<b>Equilibrium of Aggregate Demand and Aggregate Supply</b> sits inside <b>Aggregate Demand and Aggregate Supply Analysis</b>. Aggregate demand and supply are the focus of Unit 2 of Grade 12 Economics in the Ethiopian (FDRE Ministry of Education) curriculum. First, it builds the concept of aggregate demand, its curve, and the shifts in it. Then it does the same for aggregate supply, in both the short run and the long run. Finally, it brings the two together to find equilibrium and to trace demand and supply shocks. Students will also learn how the aggregate demand and supply model explains real-life fluctuations.","objectives":["Explain the concept of aggregate demand and its curve.","Explain the concept of aggregate supply in the short and long run.","Distinguish a movement along a curve from a shift of the curve.","Show short-run and long-run equilibrium at potential output.","Use the aggregate demand and supply model to analyze fluctuations."],"simple":"<b>Equilibrium of Aggregate Demand and Aggregate Supply in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, short-run and long-run equilibrium.</li> <li>Then shocks to aggregate demand.</li> <li>Also shocks to aggregate supply.</li></ul>","detailed":"<p><b>Equilibrium of Aggregate Demand and Aggregate Supply — the essentials.</b> First, short-run and long-run equilibrium. Then shocks to aggregate demand. Also shocks to aggregate supply.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Explain the concept of aggregate demand and its curve.</li><li>Explain the concept of aggregate supply in the short and long run.</li><li>Distinguish a movement along a curve from a shift of the curve.</li><li>Show short-run and long-run equilibrium at potential output.</li><li>Use the aggregate demand and supply model to analyze fluctuations.</li></ul>","keyTerms":[{"term":"First","def":"First, short-run and long-run equilibrium."},{"term":"Then shocks to aggregate demand","def":"Then shocks to aggregate demand."},{"term":"Also shocks to aggregate supply","def":"Also shocks to aggregate supply."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing equilibrium of aggregate demand and aggregate supply with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Interpreting economic news about Ethiopia in the media","The applied data-response questions in the ESSLCE economics paper"],"summary":"Equilibrium of Aggregate Demand and Aggregate Supply: First, short-run and long-run equilibrium. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"Equilibrium of Aggregate Demand and Aggregate Supply\" is correct according to the MoE curriculum?","options":["First, short-run and long-run equilibrium.","Equilibrium of Aggregate Demand and Aggregate Supply holds only under conditions this topic says do not apply","Equilibrium of Aggregate Demand and Aggregate Supply inverts the direction of the relationship this topic describes","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, short-run and long-run equilibrium. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"Equilibrium of Aggregate Demand and Aggregate Supply\"?","options":["Then shocks to aggregate demand.","Equilibrium of Aggregate Demand and Aggregate Supply is a household-level claim, not the national-level claim of this topic","Equilibrium of Aggregate Demand and Aggregate Supply holds only under conditions this topic says do not apply","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Then shocks to aggregate demand."},{"type":"tf","q":"True or false: First, short-run and long-run equilibrium.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover equilibrium of aggregate demand and aggregate supply.","answer":false,"difficulty":1,"explanation":"Equilibrium of Aggregate Demand and Aggregate Supply is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Explain the concept of aggregate demand and its curve.","difficulty":2,"altAnswers":["Explain the concept of aggregate supply in the short and long run.","Distinguish a movement along a curve from a shift of the curve."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why equilibrium of aggregate demand and aggregate supply matters.","answer":"Equilibrium of Aggregate Demand and Aggregate Supply is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of equilibrium of aggregate demand and aggregate supply in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to equilibrium of aggregate demand and aggregate supply, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
-
+Lessons["g12-economics-ue2-t3"] = {
+  overview: "When aggregate demand and short-run aggregate supply interact, they determine the economy's equilibrium price level and real GDP. This lesson shows how surplus and shortage push the economy toward equilibrium, distinguishes short-run from long-run equilibrium, and analyses demand and supply shocks.",
+  objectives: [
+    "Define macroeconomic equilibrium",
+    "Identify the concepts of short-run and long-run equilibrium",
+    "Explain how surplus and shortage move the economy toward equilibrium",
+    "Differentiate between demand shocks and supply shocks",
+    "Predict the effects of expansionary and contractionary shocks on the price level and real GDP"
+  ],
+  simple: "Putting aggregate demand and short-run aggregate supply together determines the economy's price level and real GDP. At a price level above equilibrium there is a surplus: the price level falls, firms cut output and consumers buy more. Below equilibrium there is a shortage: the price level rises, firms raise output and consumers cut back. Where the quantity of real GDP demanded equals the short-run quantity supplied is the short-run equilibrium, at price PE and output QE. Long-run equilibrium is where AD crosses the vertical LRAS curve, so output equals natural real GDP. Demand shocks shift AD and change P and Y in the same direction; supply shocks change them in opposite directions, as when higher oil prices raise prices while lowering output.",
+  detailed: "<p><b>Short-run equilibrium.</b> Aggregate demand and short-run aggregate supply together determine the price level and real GDP. Consider the quantity demanded and quantity supplied of real GDP at three price levels: P1, P2 and PE. At P1, the quantity supplied of real GDP (Q2) is greater than the quantity demanded (Q1), so there is a surplus of goods; the price level drops, firms decrease output, and consumers increase consumption. Consumers buy more as prices fall because of the real balance, interest rate and international trade effects. At P2, the quantity supplied (Q1) is less than the quantity demanded (Q2), so there is a shortage of goods; the price level rises, firms increase output, and consumers decrease consumption. In both cases economic forces move the economy toward the point E where the quantity demanded equals the short-run quantity supplied: PE is the short-run equilibrium price level and QE is the short-run equilibrium real GDP.</p><p><b>Long-run (static) equilibrium.</b> The short-run equilibrium occurs at the intersection of the AD and SRAS curves, while the long-run equilibrium is where the AD curve intersects the long-run aggregate supply curve. In long-run equilibrium, wages and prices have adjusted to their final equilibrium levels and workers hold no misperceptions, and the economy produces the natural real GDP (QN). If the AD and AS curves were to remain unchanged, the economy would continue to produce the natural rate of output with an equilibrium price indefinitely.</p><p><b>Shocks to aggregate demand.</b> Many reasons can shift the AD and AS curves, and a change in either will affect the price level and/or real GDP. A one-time unexpected exogenous positive shock to aggregate demand could arise from an expansionary monetary-policy action, an expansionary fiscal-policy action, or an increase in desired expenditures from another source. A demand shock can be expansionary or contractionary, words that refer to the effect of the shock on the equilibrium level of output. An expansionary demand shock shifts AD to the right, more output is demanded at each price level, and both the price level (P) and real output (Y) increase. A contractionary demand shock shifts AD leftward, so P and Y both decrease.</p><p><b>Shocks to aggregate supply.</b>Aggregate supply shocks cause P and Y to change in opposite directions. An improvement in production technology, or an increase in the amount of labour or capital resources available, increases the aggregate amount produced and shifts the short-run AS curve to the right; output rises and the price level falls. A storm that destroys agricultural crops, or a sudden interruption in the availability of imported inputs such as oil, shifts the AS curves leftward. A negative supply shock such as an increase in the price of oil shifts SRAS leftward: real output falls, for example from Y1 to Y2, while the price level rises, for example from P1 to P2. This combination of falling output with rising prices is the distinctive signature of a supply shock, the opposite pairing from a demand shock.</p>",
+  keyTerms: [
+    { term: "Macroeconomic equilibrium", def: "The situation where the quantity of real GDP demanded equals the quantity of real GDP supplied, determining the equilibrium price level and output." },
+    { term: "Short-run equilibrium", def: "The point where AD intersects SRAS, giving the short-run equilibrium price level (PE) and real GDP (QE)." },
+    { term: "Long-run equilibrium", def: "The point where AD intersects the vertical LRAS; wages and prices have fully adjusted and output equals natural real GDP (QN)." },
+    { term: "Surplus", def: "At a price level above equilibrium, the quantity supplied of real GDP exceeds the quantity demanded, so the price level falls." },
+    { term: "Shortage", def: "At a price level below equilibrium, the quantity demanded exceeds the quantity supplied, so the price level rises." },
+    { term: "Demand shock", def: "An unexpected change in aggregate demand; it can be expansionary (AD shifts right, P and Y rise) or contractionary (AD shifts left, P and Y fall)." },
+    { term: "Supply shock", def: "An unexpected change in aggregate supply; it moves the price level and output in opposite directions." },
+    { term: "Natural real GDP (QN)", def: "The full-employment level of real GDP the economy produces in long-run equilibrium." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "An expansionary fiscal-policy action shifts the AD curve rightward while SRAS is unchanged. Predict what happens to the price level and real GDP.",
+      given: "AD curve shifts right; SRAS unchanged.",
+      formula: "Expansionary demand shock: P and Y move in the same direction.",
+      substitution: "More output is demanded at each level of the aggregate price index.",
+      calculation: "The rightward AD shift raises both the equilibrium price level and the equilibrium real GDP in the short run.",
+      answer: "Expansionary demand shock: the price level rises and real GDP increases."
+    },
+    {
+      problem: "The international price of oil rises sharply and hits an economy that imports oil as a key input. Analyse the effect on the SRAS curve, output and the price level.",
+      given: "A negative supply shock raises input prices.",
+      formula: "Supply shocks cause P and Y to change in opposite directions.",
+      substitution: "Higher imported input costs raise costs per unit and shift SRAS leftward.",
+      calculation: "Output falls, for example from Y1 to Y2, while the price level rises, for example from P1 to P2.",
+      answer: "SRAS shifts leftward: real GDP falls and the price level rises, a negative supply shock."
+    },
+    {
+      problem: "At a price level P1, the quantity supplied of real GDP is Q2 but the quantity demanded is only Q1, with Q2 greater than Q1. Describe the adjustment toward equilibrium.",
+      given: "At P1, quantity supplied Q2 > quantity demanded Q1.",
+      formula: "Surplus: price level falls until quantity demanded equals quantity supplied.",
+      substitution: "There is a surplus of goods at the price level P1.",
+      calculation: "The price level drops, firms decrease output and consumers increase consumption, so the economy moves toward the equilibrium point E at price PE and output QE.",
+      answer: "A surplus pushes the price level down; firms cut output and buyers increase purchases until the short-run equilibrium is reached."
+    },
+    {
+      problem: "An economy's AD curve intersects its vertical LRAS curve where output equals natural real GDP. Distinguish this from the short-run equilibrium formed with SRAS.",
+      given: "Two intersections: AD with LRAS, and AD with SRAS.",
+      formula: "Short-run equilibrium: AD x SRAS. Long-run equilibrium: AD x LRAS at QN.",
+      substitution: "In the long run wages are flexible and there are no worker misperceptions.",
+      calculation: "The AD-SRAS intersection gives PE and QE that may differ from full employment; the AD-LRAS intersection gives long-run equilibrium output at natural real GDP.",
+      answer: "Short-run equilibrium sets PE and QE from AD and SRAS; long-run equilibrium is the AD-LRAS intersection at output QN with fully adjusted wages and prices."
+    }
+  ],
+  commonMistakes: [
+    "Saying a surplus at a high price level causes the price level to rise, when the surplus forces it down.",
+    "Claiming supply shocks move the price level and output in the same direction, when they move in opposite directions.",
+    "Confusing expansionary and contractionary as descriptions of the policy itself rather than of the effect on equilibrium output.",
+    "Assuming the short-run equilibrium output always equals natural real GDP, which holds only in long-run equilibrium.",
+    "Treating an increase in the price of oil as a demand shock; it is a classic negative supply shock on the import side.",
+    "Forgetting that a demand shock shifts the whole AD curve rather than moving the economy along it.",
+    "Drawing long-run equilibrium at the AD-SRAS intersection instead of the AD-LRAS intersection."
+  ],
+  applications: [
+    "A world coffee price boom raises export earnings and shifts AD rightward, raising both output and prices in the short run.",
+    "A drought that destroys crops is a negative supply shock: agricultural output falls while food prices rise.",
+    "A sudden interruption of imported fuel raises producers' costs, shifting SRAS leftward and lowering real GDP.",
+    "When the central bank takes an expansionary monetary policy action, AD shifts right and both P and Y increase.",
+    "Ethiopian firms cutting back investment after pessimism about future sales is a contractionary demand shock lowering P and Y.",
+    "In the long run, when wages and prices fully adjust, the economy returns to producing natural real GDP."
+  ],
+  summary: "Short-run equilibrium is where AD intersects SRAS, setting the equilibrium price level PE and real GDP QE; a surplus drives prices down and a shortage drives them up toward this point. Long-run equilibrium is where AD intersects the vertical LRAS at natural real GDP with fully adjusted wages and prices. Demand shocks move the price level and output in the same direction, while supply shocks move them in opposite directions, as with an oil price shock.",
+  visuals: [
+    {
+      type: "comparison",
+      config: {
+        title: "Demand Shocks vs Supply Shocks",
+        left: { name: "Demand shock", items: ["Shifts the AD curve", "Expansionary: AD right, P and Y both rise", "Contractionary: AD left, P and Y both fall", "P and Y move together"] },
+        right: { name: "Supply shock", items: ["Shifts the AS curve", "Negative: SRAS left, Y falls while P rises", "Positive: SRAS right, Y rises while P falls", "P and Y move in opposite directions"] }
+      }
+    },
+    {
+      type: "flowChart",
+      config: {
+        title: "Adjustment From Surplus to Equilibrium",
+        nodes: [
+          "Price level above equilibrium (P1)",
+          "Quantity supplied Q2 exceeds quantity demanded Q1",
+          "Surplus of goods",
+          "Price level drops, firms cut output, consumers buy more",
+          "Economy reaches short-run equilibrium at PE and QE"
+        ]
+      }
+    },
+    {
+      type: "qa",
+      config: {
+        title: "Exam Quick-Check",
+        pairs: [
+          { q: "Where is short-run equilibrium located?", a: "At the intersection of the AD and SRAS curves, giving PE and QE." },
+          { q: "Where is long-run equilibrium located?", a: "At the intersection of AD and the vertical LRAS, at natural real GDP (QN)." },
+          { q: "How do P and Y behave after an expansionary demand shock?", a: "Both increase, because AD shifts rightward." },
+          { q: "How do P and Y behave after a negative supply shock such as higher oil prices?", a: "In opposite directions: output falls while the price level rises." }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "Short-run macroeconomic equilibrium occurs where:", options: ["the AD curve intersects the SRAS curve", "the AD curve intersects the LRAS curve", "the SRAS curve crosses the price axis", "the economy is at full employment"], answer: 0, difficulty: 1, explanation: "Short-run equilibrium is where the quantity demanded of real GDP equals the short-run quantity supplied." },
+    { type: "mcq", q: "In long-run equilibrium, the economy produces:", options: ["more than full-employment output", "natural real GDP (QN)", "zero output", "whatever quantity is demanded"], answer: 1, difficulty: 1, explanation: "Long-run equilibrium identifies the real GDP produced when wages and prices have fully adjusted, equal to natural real GDP." },
+    { type: "mcq", q: "Aggregate supply shocks cause the price level and real output to change:", options: ["in the same direction", "in opposite directions", "not at all", "only in the long run"], answer: 1, difficulty: 2, explanation: "For supply shocks, P and Y move in opposite directions; for example Y falls while P rises after a negative shock." },
+    { type: "mcq", q: "An increase in government spending, as an expansionary demand shock, will:", options: ["shift AD left and lower P and Y", "shift AD right and raise both P and Y", "shift SRAS right", "lower output and raise prices"], answer: 1, difficulty: 2, explanation: "An expansionary demand shock shifts AD right, increasing both the price level and real GDP." },
+    { type: "mcq", q: "A sudden interruption in the availability of imported inputs such as oil will:", options: ["shift SRAS rightward", "raise output and lower prices", "shift SRAS leftward, reducing output and raising the price level", "shift AD rightward"], answer: 2, difficulty: 2, explanation: "Higher input costs shift the AS curves leftward: output falls and prices rise." },
+    { type: "tf", q: "At a price level above short-run equilibrium there is a surplus of goods, so the price level falls.", answer: true, difficulty: 1, explanation: "When quantity supplied exceeds quantity demanded, the price level drops, firms cut output and consumers buy more." },
+    { type: "tf", q: "If the aggregate demand and aggregate supply curves remain unchanged, the economy keeps producing natural output at an equilibrium price indefinitely.", answer: true, difficulty: 2, explanation: "The textbook states the economy would continue producing the natural rate of output with an equilibrium price indefinitely." },
+    { type: "short", q: "Give one source of an unexpected exogenous positive demand shock.", answer: "expansionary monetary policy|expansionary fiscal policy|increase in desired expenditures", difficulty: 1, explanation: "Sources include expansionary monetary-policy action, expansionary fiscal-policy action, or increased desired expenditures." },
+    { type: "concept", q: "Distinguish a demand shock from a supply shock in terms of how P and Y move.", answer: "demand shock: P and Y same direction|supply shock: P and Y opposite directions", difficulty: 3, explanation: "Demand shocks move price and output together; supply shocks move them in opposite directions." },
+    { type: "concept", q: "A storm destroys agricultural crops across a country. Identify the type of shock and its effects on output and the price level.", answer: "negative supply shock|output falls and price level rises", difficulty: 2, explanation: "The storm shifts AS curves leftward: real GDP falls while the price level rises." },
+    { type: "ordering", q: "Arrange the shortage adjustment in the correct order.", options: ["Firms increase output", "Quantity supplied is less than quantity demanded", "The price level rises", "Consumers decrease consumption"], answer: 1, difficulty: 2, explanation: "Order: shortage appears, the price level rises, firms increase output, and consumers decrease consumption until equilibrium." }
+  ]
+};

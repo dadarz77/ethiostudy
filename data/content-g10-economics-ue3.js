@@ -1,8 +1,262 @@
-/* Content: g10-economics-ue3 — migrated from generated JSON (Phase 0 pipeline restore).
-   Content upgrade to spec v2 happens per unit in later phases. */
+/* Content: Grade 10 Economics - Unit 3: Theories of Production and Cost (2 topics)
+   Source: MoE Economics Grade 10 Student Textbook, Unit 3. */
 window.Lessons = window.Lessons || {};
 
-Lessons["g10-economics-ue3-t1"] = {"overview":"<b>Theory of Production</b> sits inside <b>Theories of Production and Cost</b>. Production and cost are the focus of Unit 3 of Grade 10 Economics in the Ethiopian (FDRE Ministry of Education) curriculum. First, it develops the theory of production, from the production function to returns to scale. Then it turns to the theory of cost in the short run and the long run. Also it links the product curves to the cost curves. Students will also learn how production and cost shape real-life firm decisions.","objectives":["State the short-run and long-run production functions.","Calculate average and marginal product and cost.","Explain the law of diminishing marginal productivity.","Describe returns to scale.","Draw and relate the product and cost curves."],"simple":"<b>Theory of Production in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, the production function linking inputs to output.</li> <li>Then short-run production, with total, average, and marginal product, and the law of diminishing marginal productivity.</li> <li>Also the three stages of production.</li> <li>Next, long-run production, isoquants, and their properties.</li></ul>","detailed":"<p><b>Theory of Production — the essentials.</b> First, the production function linking inputs to output. Then short-run production, with total, average, and marginal product, and the law of diminishing marginal productivity. Also the three stages of production. Next, long-run production, isoquants, and their properties. Finally, returns to scale and the effect of technology change.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>State the short-run and long-run production functions.</li><li>Calculate average and marginal product and cost.</li><li>Explain the law of diminishing marginal productivity.</li><li>Describe returns to scale.</li><li>Draw and relate the product and cost curves.</li></ul>","keyTerms":[{"term":"First","def":"First, the production function linking inputs to output."},{"term":"Then short-run production","def":"Then short-run production, with total, average, and marginal product, and the law of diminishing marginal productivity."},{"term":"Also the three stages of production","def":"Also the three stages of production."},{"term":"Next","def":"Next, long-run production, isoquants, and their properties."},{"term":"Finally","def":"Finally, returns to scale and the effect of technology change."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing theory of production with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Interpreting economic news about Ethiopia in the media","The applied data-response questions in the ESSLCE economics paper"],"summary":"Theory of Production: First, the production function linking inputs to output. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"Theory of Production\" is correct according to the MoE curriculum?","options":["First, the production function linking inputs to output.","Theory of Production holds only under conditions this topic says do not apply","Theory of Production inverts the direction of the relationship this topic describes","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, the production function linking inputs to output. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"Theory of Production\"?","options":["Then short-run production, with total, average, and marginal product, and the law of diminishing marginal productivity.","Theory of Production is a household-level claim, not the national-level claim of this topic","Theory of Production holds only under conditions this topic says do not apply","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Then short-run production, with total, average, and marginal product, and the law of diminishing marginal productivity."},{"type":"tf","q":"True or false: First, the production function linking inputs to output.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover theory of production.","answer":false,"difficulty":1,"explanation":"Theory of Production is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"State the short-run and long-run production functions.","difficulty":2,"altAnswers":["Calculate average and marginal product and cost.","Explain the law of diminishing marginal productivity."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why theory of production matters.","answer":"Theory of Production is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of theory of production in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to theory of production, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
+Lessons["g10-economics-ue3-t1"] = {
+  overview: "Production transforms inputs such as labor and capital into goods and services that add economic value. This lesson defines the production function, develops the total, average and marginal product concepts, explains the law of diminishing returns and the three stages of production, and introduces isoquants, returns to scale and technical progress.",
+  objectives: [
+    "Define the production function in the short run and the long run",
+    "Calculate average product and marginal product from total product data",
+    "State the law of diminishing marginal productivity and its implications",
+    "Identify the three stages of production and the relation between AP and MP",
+    "Describe isoquants, returns to scale and the effect of technology change"
+  ],
+  simple: "Production is the process of transforming raw materials and inputs into desired goods and services by adding economic value. The production function Q = f(L, K) shows the maximum output a firm can get from every combination of inputs. In the short run at least one input, usually capital, is fixed, so output changes only when the variable input, labor, changes. From this we derive three concepts: total product (TP), average product (AP = TP / L) and marginal product (MP = change in TP / change in L). As more labor is added to fixed capital, MP first rises, then falls (the law of diminishing returns), and finally becomes negative. Production passes through three stages, and a rational firm operates in stage II. In the long run all inputs are variable, isoquants show alternatives, and scale and technology matter.",
+  detailed: "<p><b>Production and the production function.</b> Production is a scientific process that involves the transformation of raw materials (inputs) into desired products or services (outputs) by adding economic value. The <b>production function</b> shows the highest output that a firm can produce for every specified combination of inputs. Assuming labor (L) and capital (K) as the only inputs, it is written as Q = f(L, K). The function allows inputs to be combined in varying proportions, so output can be produced in many ways, using either more capital or less labor or vice versa.</p><p><b>Short run versus long run.</b> The short run is the period over which at least one factor of production is fixed; in reality land and capital (plants and equipment) are usually treated as fixed. The long run is the planning horizon that is sufficient for all quantities of inputs to be variable. For a wheat farmer whose only variable input is labor, the short run production function is Q = F(L, La, K, T), where the bar over La, K and T implies they are constant. It tells us only the effect of a change in labor on output while land, capital and technology stay constant.</p><p><b>The three product concepts.</b> <b>Total product (TP)</b> is the total output produced by a given amount of a variable input, keeping other inputs constant. <b>Average product (AP)</b> is output per unit of the variable input: APL = TP / L. <b>Marginal product (MP)</b> is the extra output obtained with one extra unit of the variable input: MPL = change in TP / change in L. MP is the slope of TP. MPL increases when TP increases at an increasing rate; MPL falls but stays positive when TP increases at a decreasing rate; MPL is zero when TP is maximum; and MPL is negative when TP is falling.</p><p><b>The law of diminishing marginal productivity.</b> With some inputs fixed, production cannot be expanded indefinitely. At first, adding more labor to the fixed inputs raises output dramatically. But as the number of workers increases with fixed capital, the production capacity goes toward exhaustion and eventually total output declines. The law of diminishing returns states that increasing the variable factor (labor) with the fixed factor (capital) will lead to an eventual decline in the marginal contribution of additional labor to total output, accompanied eventually by a decline in total output itself.</p><p><b>The three stages of production.</b> Table 3.1 of the textbook follows a farmer on one hectare of land: with 1 worker TP is 5 quintals; by the 4th worker TP is 30 and MP peaks at 11 quintals; TP reaches a maximum of 60 quintals with the 11th worker, where MP is zero; from the 12th worker MP turns negative and TP falls toward 45 quintals with 15 workers. <b>Stage I (increasing returns)</b> covers the range where MP continues to rise; <b>Stage II (diminishing returns)</b> covers the range where MP is positive but decreasing; <b>Stage III (negative returns)</b> is the range of negative MP, where extra labor actually decreases TP. A rational firm operates in stage II.</p><p><b>The relation between AP and MP.</b> The MP curve reaches its maximum before the AP curve. As long as AP is rising, MP lies above it (APL rises when MPL > APL); when AP is falling, MP lies below it (APL falls when MPL < APL); and AP is at its maximum when AP equals MP. For example, in table 3.1, AP peaks at 8 quintals per worker when MP also equals 8.</p><p><b>Isoquants, returns to scale and technical progress.</b> In the long run, both L and K vary, and an <b>isoquant</b> is a curve showing all possible efficient combinations of inputs that yield the same level of output. An isoquant schedule for 100 units runs from 1 L with 11 K, through 3 L with 4 K, to 5 L with 1 K. Isoquants slope downward, are convex to the origin, never cross, and the farther one lies from the origin the greater the output. The slope of an isoquant is the <b>marginal rate of technical substitution (MRTS)</b>, the amount of capital that can be reduced when one extra unit of labor is used with output constant; it diminishes as we move down the curve. <b>Returns to scale</b> describe what happens when all inputs increase in the same proportion m: output may rise by more than m (increasing), exactly m (constant) or less than m (decreasing) returns to scale. Finally, technological change makes factors more productive and shifts the production function upward, so more output is produced with the same inputs or the same output with fewer inputs.</p>",
+  keyTerms: [
+    { term: "Production", def: "A scientific process that transforms raw materials (inputs) into desired products or services (outputs) by adding economic value." },
+    { term: "Production function", def: "A function showing the highest output a firm can produce from every specified combination of inputs, written Q = f(L, K)." },
+    { term: "Total product (TP)", def: "The total output produced by a given amount of a variable input, with the quantity of fixed inputs held constant." },
+    { term: "Average product (AP)", def: "Output per unit of the variable input, found by dividing total product by the number of units of the input: AP = TP / L." },
+    { term: "Marginal product (MP)", def: "The extra output obtained with one extra unit of the variable input while all other inputs remain constant: MP = change in TP / change in L." },
+    { term: "Law of diminishing marginal productivity", def: "As more of a variable factor is combined with a fixed factor, the marginal contribution of the additional units eventually declines, and eventually total output declines too." },
+    { term: "Isoquant", def: "A curve showing all possible efficient combinations of two variable inputs that yield the same level of output." },
+    { term: "Marginal rate of technical substitution (MRTS)", def: "The slope of an isoquant: the amount by which capital can be reduced when one extra unit of labor is used so that output remains constant." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "A farmer producing wheat on one hectare of fixed land gets 19 quintals with 3 workers and 30 quintals with 4 workers. Calculate the average product and marginal product of the 4th worker.",
+      given: "TP = 19 quintals at L = 3, and TP = 30 quintals at L = 4; land, capital and technology are fixed.",
+      formula: "AP = TP / L and MP = change in TP / change in L.",
+      substitution: "AP at 4 workers = 30 / 4; MP of the 4th worker = (30 - 19) / (4 - 3).",
+      calculation: "AP = 30 / 4 = 7.5 quintals per worker. MP = 11 / 1 = 11 quintals.",
+      answer: "AP = 7.5 quintals per worker and MP = 11 quintals; the MP reaches its peak here, marking the end of the increasing returns stage."
+    },
+    {
+      problem: "Using table 3.1, the farmer employs the 10th, 11th and 12th workers and TP becomes 60, 60 and 58 quintals respectively. Identify where total product is maximum and where stage III begins.",
+      given: "TP at 10 workers = 60 quintals, at 11 workers = 60 quintals, at 12 workers = 58 quintals.",
+      formula: "MP = change in TP / change in L; TP is maximum when MP = 0, and stage III is the range of negative MP.",
+      substitution: "MP of 11th worker = (60 - 60) / 1 = 0; MP of 12th worker = (58 - 60) / 1 = -2.",
+      calculation: "MP = 0 at the 11th worker, so TP is at its maximum of 60 quintals. MP = -2 at the 12th worker, which is negative.",
+      answer: "TP is maximum (60 quintals) at 11 workers where MP = 0; negative returns (stage III) begin from the 12th worker, when extra labor reduces total output."
+    },
+    {
+      problem: "From table 3.1, MP of the variable input follows 5, 6, 8, 11, 10, 8, 6, 3 for the 1st to 8th worker. Explain how the law of diminishing marginal productivity shows itself in this series.",
+      given: "MP rises from 5 to a maximum of 11 at the 4th worker, then falls: 10, 8, 6 and 3 for the 5th to 8th workers.",
+      formula: "Law of diminishing returns: with the fixed factor constant, the marginal contribution of extra units of the variable factor eventually declines.",
+      substitution: "MP rises while the fixed input (1 hectare and capital) is underutilized, then falls once capacity is increasingly exhausted.",
+      calculation: "The decline sets in after the 4th worker: MP drops from 11 to 10, then to 8, 6 and 3, although TP keeps rising at a decreasing rate.",
+      answer: "The law operates because MP first rises but eventually declines after its peak; in table 3.1 the decline begins after the 4th worker while declines in TP itself come later."
+    },
+    {
+      problem: "From the isoquant schedule for 100 units of output, combination B uses 2 labor and 7 capital, and combination C uses 3 labor and 4 capital. Find the MRTS of labor for capital between B and C.",
+      given: "B: L = 2, K = 7; C: L = 3, K = 4; both combinations produce 100 units.",
+      formula: "MRTS(L,K) = change in K / change in L along an isoquant with output constant.",
+      substitution: "Change in L = 3 - 2 = 1; change in K = 4 - 7 = -3.",
+      calculation: "MRTS = -3 / 1 = -3, so in absolute terms 3 units of capital can be given up when 1 extra unit of labor is added while output stays at 100 units.",
+      answer: "The MRTS is 3 units of capital per extra unit of labor; it shows diminishing MRTS as the firm substitutes labor for capital along the convex isoquant."
+    }
+  ],
+  commonMistakes: [
+    "Confusing average product with marginal product; AP is TP divided by L, while MP is the change in TP from one more unit of L.",
+    "Believing the law of diminishing returns means total product falls immediately; MP falls first, and TP keeps rising at a decreasing rate.",
+    "Thinking the law of diminishing returns applies in the long run; it is a short run law because at least one input must be fixed.",
+    "Assuming a rational firm should produce in stage I or stage III; stage III has negative MP and a firm operates in stage II.",
+    "Believing TP is maximum when MP is at its maximum; TP is maximum when MP is zero.",
+    "Ignoring that AP rises whenever MP is above AP, even while MP itself is falling.",
+    "Treating isoquants as indifference-like lines that can cross; isoquants do not cross each other."
+  ],
+  applications: [
+    "A smallholder wheat farmer deciding how many additional laborers to hire on a fixed plot must watch the falling marginal product before hiring more.",
+    "A garment firm in Adama deciding between more sewing machines or more workers uses the idea of substituting inputs along an isoquant.",
+    "A coffee producer expanding everyone's inputs (land, labor, machines) together shows increasing or decreasing returns to scale in the long run.",
+    "Adopting a new seed variety or better tool shifts the production function upward, letting the same farm produce more from the same inputs.",
+    "Workshops that keep adding workers into a fixed room see output per worker fall, which is exactly the law of diminishing returns at work."
+  ],
+  summary: "The production function Q = f(L, K) gives the maximum output from each input combination; in the short run capital is fixed so output depends on the variable input, labor. Total, average and marginal products describe labor productivity, and the law of diminishing returns makes MP eventually decline, dividing production into three stages of which stage II is the rational operating range. In the long run all inputs are variable, isoquants with a diminishing MRTS show substitution possibilities, returns to scale describe the effect of scaling all inputs, and technical progress shifts the production function outward.",
+  visuals: [
+    {
+      type: "tableVisual",
+      config: {
+        title: "Short Run Production Data (Table 3.1, quintals)",
+        headers: ["Labor", "TP", "AP", "MP", "Stage"],
+        rows: [
+          ["1", "5", "5", "5", "Stage I"],
+          ["2", "11", "5.5", "6", "Stage I"],
+          ["3", "19", "6.33", "8", "Stage I"],
+          ["4", "30", "7.5", "11", "Stage I"],
+          ["5", "40", "8", "10", "Stage I"],
+          ["6", "48", "8", "8", "Stage I"],
+          ["7", "54", "7.71", "6", "Stage I"],
+          ["8", "57", "7.12", "3", "Stage II"],
+          ["11", "60", "5.4", "0", "Stage II"],
+          ["12", "58", "4.80", "-2", "Stage III"]
+        ]
+      }
+    },
+    {
+      type: "comparison",
+      config: {
+        title: "Short Run vs Long Run Production",
+        left: { name: "Short run", items: ["At least one input is fixed", "Capital and land treated as fixed", "Q = F(L, La, K, T) with fixed inputs", "Law of diminishing returns applies", "Three stages of production"] },
+        right: { name: "Long run", items: ["All inputs are variable", "Planning horizon of the firm", "Q = f(L, K)", "Isoquants and returns to scale", "Technical progress shifts the function"] }
+      }
+    },
+    {
+      type: "mindMap",
+      config: {
+        title: "Theory of Production",
+        center: "Production",
+        branches: [
+          { label: "Product concepts", items: ["TP", "AP = TP / L", "MP = dTP / dL"] },
+          { label: "Stages", items: ["I: rising MP", "II: MP positive but falling", "III: MP negative"] },
+          { label: "Long run tools", items: ["Isoquants", "MRTS", "Returns to scale"] },
+          { label: "Technology", items: ["Shifts function upward", "Capital-side progress", "Labor-side progress", "Neutral progress"] }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "The production function shows:", options: ["the total cost of production", "the highest output from every specified combination of inputs", "the price of the output", "the profit of the firm"], answer: 1, difficulty: 1, explanation: "The production function tells us the quantity of output the firm can produce given quantities of the inputs it might employ." },
+    { type: "short", q: "Write the production function with labor and capital as the only inputs.", answer: "Q = f(L,K)", difficulty: 1, explanation: "Assuming labor (L) and capital (K) as the only inputs, Q = f(L, K)." },
+    { type: "mcq", q: "In the short run, which factor is typically treated as fixed?", options: ["Labor", "Raw materials", "Capital", "Output"], answer: 2, difficulty: 1, explanation: "In the real world, land and capital (plants and equipment) are usually treated as fixed factors." },
+    { type: "mcq", q: "A firm's TP rises from 40 to 48 when the 6th worker is hired. The MP of the 6th worker and the AP at 6 workers are respectively:", options: ["8 and 8", "48 and 48", "6 and 8", "8 and 6.67"], answer: 0, difficulty: 2, explanation: "MP = (48 - 40) / 1 = 8 and AP = 48 / 6 = 8 quintals per worker." },
+    { type: "tf", q: "Total product is maximum at the point where marginal product equals zero.", answer: true, difficulty: 2, explanation: "MPL reaches zero when TP is maximum; beyond that, MP becomes negative and TP falls." },
+    { type: "tf", q: "The law of diminishing marginal productivity applies when all factors of production are variable.", answer: false, difficulty: 2, explanation: "The law requires some inputs to be fixed, so it is a short run law." },
+    { type: "mcq", q: "In which stage of production does a rational firm prefer to operate?", options: ["Stage I", "Stage II", "Stage III", "Any stage"], answer: 1, difficulty: 2, explanation: "Stage II, the diminishing returns stage where MP is positive but decreasing, is the rational range." },
+    { type: "concept", q: "State the relationship between MP and AP when the average product of labor is at its maximum.", answer: "MP equals AP|MPL equals APL|they are equal", difficulty: 2, explanation: "APL is at its maximum if APL = MPL; whenever AP is rising MP is above it and whenever AP is falling MP is below it." },
+    { type: "concept", q: "Define an isoquant and state two of its properties.", answer: "curve showing combinations of inputs with equal output; downward sloping; convex; do not cross", difficulty: 3, explanation: "An isoquant shows all efficient input combinations producing the same output; it slopes downward, is convex to the origin and isoquants never cross." },
+    { type: "mcq", q: "If a firm increases all inputs by 50 percent and output rises by exactly 50 percent, this is:", options: ["increasing returns to scale", "constant returns to scale", "decreasing returns to scale", "diminishing marginal returns"], answer: 1, difficulty: 2, explanation: "When inputs increase by proportion m and output increases by the same proportion, returns to scale are constant." },
+    { type: "ordering", q: "Arrange the stages of production in the order TP passes through them.", options: ["Negative returns stage", "Increasing returns stage", "Diminishing returns stage"], answer: 1, difficulty: 2, explanation: "The order is Stage I (increasing returns), Stage II (diminishing returns) and Stage III (negative returns)." }
+  ]
+};
 
-Lessons["g10-economics-ue3-t2"] = {"overview":"<b>Theory of Cost</b> sits inside <b>Theories of Production and Cost</b>. Production and cost are the focus of Unit 3 of Grade 10 Economics in the Ethiopian (FDRE Ministry of Education) curriculum. First, it develops the theory of production, from the production function to returns to scale. Then it turns to the theory of cost in the short run and the long run. Also it links the product curves to the cost curves. Students will also learn how production and cost shape real-life firm decisions.","objectives":["State the short-run and long-run production functions.","Calculate average and marginal product and cost.","Explain the law of diminishing marginal productivity.","Describe returns to scale.","Draw and relate the product and cost curves."],"simple":"<b>Theory of Cost in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, short-run costs: fixed, variable, total, average, and marginal cost.</li> <li>Then long-run costs and the long-run average cost curve.</li> <li>Also the link between the product curves and the cost curves.</li></ul>","detailed":"<p><b>Theory of Cost — the essentials.</b> First, short-run costs: fixed, variable, total, average, and marginal cost. Then long-run costs and the long-run average cost curve. Also the link between the product curves and the cost curves.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>State the short-run and long-run production functions.</li><li>Calculate average and marginal product and cost.</li><li>Explain the law of diminishing marginal productivity.</li><li>Describe returns to scale.</li><li>Draw and relate the product and cost curves.</li></ul>","keyTerms":[{"term":"First","def":"First, short-run costs: fixed, variable, total, average, and marginal cost."},{"term":"Then long-run costs and the long-run average cost curve","def":"Then long-run costs and the long-run average cost curve."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing theory of cost with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Interpreting economic news about Ethiopia in the media","The applied data-response questions in the ESSLCE economics paper"],"summary":"Theory of Cost: First, short-run costs: fixed, variable, total, average, and marginal cost. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"Theory of Cost\" is correct according to the MoE curriculum?","options":["First, short-run costs: fixed, variable, total, average, and marginal cost.","Theory of Cost holds only under conditions this topic says do not apply","Theory of Cost inverts the direction of the relationship this topic describes","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, short-run costs: fixed, variable, total, average, and marginal cost. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"Theory of Cost\"?","options":["Then long-run costs and the long-run average cost curve.","Theory of Cost is a household-level claim, not the national-level claim of this topic","Theory of Cost holds only under conditions this topic says do not apply","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Then long-run costs and the long-run average cost curve."},{"type":"tf","q":"True or false: First, short-run costs: fixed, variable, total, average, and marginal cost.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover theory of cost.","answer":false,"difficulty":1,"explanation":"Theory of Cost is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"State the short-run and long-run production functions.","difficulty":2,"altAnswers":["Calculate average and marginal product and cost.","Explain the law of diminishing marginal productivity."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why theory of cost matters.","answer":"Theory of Cost is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of theory of cost in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to theory of cost, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
+Lessons["g10-economics-ue3-t2"] = {
+  overview: "Cost of production is what a firm spends on the inputs it employs. This lesson divides short-run cost into fixed and variable parts, builds the average and marginal cost measures from the textbook cost tables, and shows how cost curves mirror production curves and behave in the long run.",
+  objectives: [
+    "Define the cost of production and explain why cost functions are derived functions",
+    "Distinguish total fixed cost, total variable cost and total cost",
+    "Calculate AFC, AVC, ATC and MC from a cost table",
+    "Describe the shapes of the short-run average and marginal cost curves",
+    "Explain long-run costs, economies of scale and the link between product and cost curves"
+  ],
+  simple: "The cost of production is the expenditure a firm incurs on inputs to produce output. Cost functions are derived from production functions and describe the cheapest way to produce each level of output. In the short run total cost splits into total fixed cost (TFC), which does not vary with output, and total variable cost (TVC), which rises as more is produced. TC = TFC + TVC. From these we get per-unit measures: AFC = TFC / Q, AVC = TVC / Q, ATC = TC / Q = AFC + AVC, and MC = change in TC / change in Q. AFC falls continuously as output grows, while AVC, ATC and MC are U-shaped because of the law of variable proportions, and MC passes through the minimum points of AVC and ATC. In the long run there are no fixed costs, and economies and diseconomies of scale shape the LAC curve.",
+  detailed: "<p><b>What cost of production is.</b> In the production process the firm needs to employ inputs in order to produce outputs. The prices of inputs, or the expenditures the firm incurs on these inputs, are the <b>cost of production</b>. Cost functions are derived functions (derived from production functions) that describe the cheapest way to produce each level of output, given the prices of factors and technology. Total cost depends on output, technology, and the prices of variable and fixed factors.</p><p><b>Short-run costs.</b> Short-run costs are costs during a period when some factors (usually capital equipment and management) are fixed. <b>Total fixed cost (TFC)</b> does not vary with the level of output: examples are salaries of administrative staff and expenses for building depreciation and repairs. <b>Total variable cost (TVC)</b> varies directly with output, rising as more is produced and falling as less is produced; examples are the costs of raw materials and labor. <b>Total cost</b> is the sum of all fixed and variable costs: TC = TFC + TVC. In the textbook table, TFC is 100 Birr at every output, and with TVC of 30, 56, 75, 85, 90, 100 and 130 Birr for outputs 1 to 7, TC becomes 130, 156, 175, 185, 190, 200 and 230 Birr. Because TFC does not depend on output it is a horizontal line, while TVC and TC first rise at a decreasing rate and then more and more steeply as the productivity of the variable input falls.</p><p><b>Average costs.</b> <b>AFC = TFC / Q</b>; since TFC is constant, rising output continually reduces AFC, so the AFC curve approaches the output axis as output rises: at Q = 1 it is 100 Birr, at Q = 4 it is 25 Birr and at Q = 7 it is about 14.28 Birr. <b>AVC = TVC / Q</b>, the per-unit cost of the variable factors: 30, 28, 25, 21.25, 18, 16.67 and 18.57 Birr for outputs 1 to 7, first falling then rising. <b>ATC = TC / Q = AFC + AVC</b>: 130, 78, 58.33, 46.25, 38, 33.33 and 32.86 Birr. At each output the ATC curve lies above the AVC curve at a vertical distance equal to AFC.</p><p><b>Marginal cost.</b> <b>MC</b> is the extra total cost that results from producing one more unit of output: MC = change in TC / change in Q. Since TFC does not change in the short run, MC can also be computed as change in TVC / change in Q. Using the table: between Q = 5 and Q = 6, MC = (200 - 190) = 10 Birr; between Q = 6 and Q = 7, MC = (230 - 200) = 30 Birr. The MC declines first, reaches its minimum, and then rises, giving it a U-shape due to the law of variable proportions.</p><p><b>Curves and their relations.</b> The AVC curve slopes downward up to the output OQ1 (the optimum capacity level of output) and upward beyond it. The MC curve passes through the minimum point of both the AVC curve (point A) and the ATC curve (point B). AFC falls continuously as output increases, so the gap between ATC and AVC keeps narrowing, since ATC - AVC = AFC. This is why, from 5 Birr at the minimum of AVC toward Q = 7, MC (30 Birr) pulls AVC and ATC upward again.</p><p><b>Long-run costs.</b> In the long run all factors can be varied, so there are no fixed costs. We use three curves: the long-run total cost (LTC), the long-run average cost (LAC) and long-run marginal cost (LMC) curves. LAC and LMC are U-shaped but flatter than the short-run curves: total cost first increases at a decreasing rate due to increasing returns to scale (economies of scale), then at an increasing rate due to decreasing returns to scale. The range left of the minimum of LAC is the <b>economies of scale range</b>, where output can be doubled for less than a doubled cost; the range right of it is <b>diseconomies of scale</b>, where doubling output requires more than a doubling of cost.</p><p><b>The mirror relation between production and cost.</b> Cost and production curves are mirror images of each other: when AP (MP) rises, AC (MC) falls; when AP (MP) falls, AC (MC) rises; and when AP (MP) is at a maximum, AC (MC) is at a minimum. This is why the falling part of AP maps to the falling part of AVC and the peak of AP corresponds to the minimum of AVC.</p>",
+  keyTerms: [
+    { term: "Cost of production", def: "The prices of inputs, or the expenditures a firm incurs on the inputs it employs to produce output." },
+    { term: "Total fixed cost (TFC)", def: "A cost that does not vary with the level of output, such as administrative salaries and building depreciation; it exists even at zero output." },
+    { term: "Total variable cost (TVC)", def: "A cost that varies directly with output, such as raw materials and labor, rising as more is produced." },
+    { term: "Total cost (TC)", def: "The cost incurred on all inputs, fixed and variable: TC = TFC + TVC." },
+    { term: "Average total cost (ATC)", def: "Per-unit cost of both fixed and variable factors: ATC = TC / Q = AFC + AVC." },
+    { term: "Marginal cost (MC)", def: "The extra total cost resulting from producing one more unit of output: MC = change in TC / change in Q." },
+    { term: "Economies of scale", def: "The range left of the minimum of LAC where output can be doubled for less than a doubled cost, caused by increasing returns to scale." },
+    { term: "Diseconomies of scale", def: "The range right of the minimum of LAC where doubling output requires more than a doubled cost." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "A firm has a fixed cost of 100 Birr and a total variable cost of 90 Birr when it produces 5 units. Find its total cost and its average total cost at 5 units.",
+      given: "TFC = 100 Birr, TVC = 90 Birr at Q = 5.",
+      formula: "TC = TFC + TVC and ATC = TC / Q.",
+      substitution: "TC = 100 + 90; ATC = TC / 5.",
+      calculation: "TC = 190 Birr. ATC = 190 / 5 = 38 Birr per unit.",
+      answer: "Total cost is 190 Birr and average total cost is 38 Birr per unit, exactly as in table 3.4."
+    },
+    {
+      problem: "From the textbook cost table, TFC = 100 Birr, TVC = 85 Birr and TC = 185 Birr at an output of 4 units, and TC was 175 Birr at 3 units. Find AFC, AVC, ATC and MC at 4 units.",
+      given: "Q = 4, TFC = 100, TVC = 85, TC = 185; TC at Q = 3 is 175.",
+      formula: "AFC = TFC / Q, AVC = TVC / Q, ATC = TC / Q and MC = change in TC / change in Q.",
+      substitution: "AFC = 100 / 4, AVC = 85 / 4, ATC = 185 / 4, MC = (185 - 175) / (4 - 3).",
+      calculation: "AFC = 25 Birr, AVC = 21.25 Birr, ATC = 46.25 Birr, MC = 10 / 1 = 10 Birr.",
+      answer: "At Q = 4: AFC = 25, AVC = 21.25, ATC = 46.25 and MC = 10 Birr; this confirms ATC = AFC + AVC = 25 + 21.25 = 46.25."
+    },
+    {
+      problem: "Between 6 and 7 units of output, TVC rises from 100 Birr to 130 Birr while TFC stays at 100 Birr. Show the marginal cost between these outputs using both definitions of MC.",
+      given: "TFC = 100 Birr constant; TVC rises from 100 to 130 Birr; TC therefore rises from 200 to 230 Birr.",
+      formula: "MC = change in TC / change in Q, and since TFC is constant in the short run, MC = change in TVC / change in Q.",
+      substitution: "MC = (230 - 200) / (7 - 6) or MC = (130 - 100) / (7 - 6).",
+      calculation: "MC = 30 / 1 = 30 Birr by either route.",
+      answer: "MC = 30 Birr; both definitions agree because fixed cost does not change in the short run."
+    },
+    {
+      problem: "At an output of 7 units a firm has AFC = 14.28 Birr and AVC = 18.57 Birr. Verify the relation between ATC, AFC and AVC and explain why the gap between ATC and AVC narrows as output rises.",
+      given: "AFC = 14.28 Birr and AVC = 18.57 Birr at Q = 7; the textbook lists ATC = 32.86 Birr there.",
+      formula: "ATC = AFC + AVC.",
+      substitution: "ATC = 14.28 + 18.57.",
+      calculation: "14.28 + 18.57 = 32.85, which equals the listed ATC of 32.86 Birr up to rounding.",
+      answer: "ATC = AFC + AVC holds (about 32.86 Birr). The gap ATC - AVC equals AFC, and since AFC falls continuously as output rises (from 100 at Q = 1 to about 14.28 at Q = 7), the gap keeps narrowing."
+    }
+  ],
+  commonMistakes: [
+    "Multiplying fixed cost by output; fixed cost is constant and does not change with the level of output.",
+    "Believing a firm can avoid fixed costs by producing zero output; fixed costs are incurred regardless of the output level.",
+    "Computing MC from TC using the change in TFC; in the short run MC = change in TVC / change in Q because TFC is constant.",
+    "Forgetting that ATC = AFC + AVC, so the vertical gap between ATC and AVC equals AFC and shrinks as output rises.",
+    "Thinking the AFC curve is U-shaped; AFC falls continuously and approaches the output axis.",
+    "Assuming MC is lowest when ATC is lowest; the MC curve falls first and passes through the minimum points of AVC and ATC before rising.",
+    "Claiming there are fixed costs in the long run; in the long run all inputs are variable and no costs are fixed."
+  ],
+  applications: [
+    "A bakery in Bahir Dar must pay its oven and premises costs (fixed) even on days it bakes nothing, while flour and yeast costs (variable) fall when production falls.",
+    "Filling the TC column of a cost table, as the textbook review exercise asks, is how a manager plans the cheapest way to produce each level of output.",
+    "Cement firms operating far left of the minimum of LAC enjoy economies of scale, producing more output for less than a proportional extra cost.",
+    "When a workshop hires more workers into a fixed plant, falling labor productivity raises AVC and MC, which is the law of variable proportions seen in costs.",
+    "A farmer comparing cost per quintal (ATC) at different output levels identifies the optimum capacity where ATC is minimum."
+  ],
+  summary: "Cost of production is the firm's expenditure on inputs, and short-run total cost divides into fixed cost (constant regardless of output) and variable cost (rising with output), so that TC = TFC + TVC. Average costs AFC, AVC and ATC together with MC describe per-unit behavior: AFC falls continuously while AVC, ATC and MC are U-shaped due to the law of variable proportions, and MC passes through the minimum points of AVC and ATC. In the long run there are no fixed costs, LAC and LMC are flatter U-curves reflecting economies and diseconomies of scale, and cost curves mirror the corresponding product curves.",
+  visuals: [
+    {
+      type: "tableVisual",
+      config: {
+        title: "Short-Run Cost Table (Birr)",
+        headers: ["Q", "TFC", "TVC", "TC", "AFC", "AVC", "ATC", "MC"],
+        rows: [
+          ["0", "100", "0", "100", "-", "-", "-", "-"],
+          ["1", "100", "30", "130", "100", "30", "130", "30"],
+          ["2", "100", "56", "156", "50", "28", "78", "26"],
+          ["3", "100", "75", "175", "30.33", "25", "58.33", "19"],
+          ["4", "100", "85", "185", "25", "21.25", "46.25", "10"],
+          ["5", "100", "90", "190", "20", "18", "38", "5"],
+          ["6", "100", "100", "200", "16.67", "16.67", "33.33", "10"],
+          ["7", "100", "130", "230", "14.28", "18.57", "32.86", "30"]
+        ]
+      }
+    },
+    {
+      type: "comparison",
+      config: {
+        title: "Short Run vs Long Run Costs",
+        left: { name: "Short run", items: ["Some factors are fixed", "TFC + TVC make up TC", "AFC falls continuously", "AVC, ATC and MC are U-shaped", "MC crosses AVC and ATC minima"] },
+        right: { name: "Long run", items: ["All inputs are variable", "No fixed costs at all", "Only LTC, LAC and LMC used", "LAC and LMC are flatter U-curves", "Economies then diseconomies of scale"] }
+      }
+    },
+    {
+      type: "qa",
+      config: {
+        title: "Cost Formulas Quick-Check",
+        pairs: [
+          { q: "How is total cost built from its parts?", a: "TC = TFC + TVC." },
+          { q: "How do you get AFC, AVC and ATC?", a: "AFC = TFC / Q, AVC = TVC / Q, ATC = TC / Q = AFC + AVC." },
+          { q: "What is marginal cost in the short run?", a: "MC = change in TC / change in Q = change in TVC / change in Q, because TFC is constant." },
+          { q: "Which curve is never U-shaped?", a: "AFC; it falls continuously and approaches the output axis." },
+          { q: "Where does the MC curve cut the AVC and ATC curves?", a: "Through their minimum points, due to the law of variable proportions." }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "Total cost of production equals:", options: ["TFC minus TVC", "TFC plus TVC", "TFC times TVC", "ATC plus MC"], answer: 1, difficulty: 1, explanation: "Total cost of production is the sum of all fixed and variable costs: TC = TFC + TVC." },
+    { type: "mcq", q: "Which of the following is a fixed cost?", options: ["Cost of raw materials", "Salaries of administrative staff", "Wages of production workers", "Cost of electricity for machines"], answer: 1, difficulty: 1, explanation: "Fixed costs include salaries of administrative staff and building depreciation and repairs; raw materials and labor are variable." },
+    { type: "short", q: "Write the formula for average total cost in terms of TC and Q.", answer: "ATC = TC / Q", difficulty: 1, explanation: "ATC is obtained by dividing total cost by the total units of output." },
+    { type: "mcq", q: "A firm has TFC = 100 Birr, TVC = 75 Birr at 3 units. Its ATC at 3 units is:", options: ["25 Birr", "58.33 Birr", "75 Birr", "175 Birr"], answer: 1, difficulty: 2, explanation: "TC = 100 + 75 = 175 Birr, so ATC = 175 / 3 = 58.33 Birr." },
+    { type: "tf", q: "The AFC curve is U-shaped like the AVC and ATC curves.", answer: false, difficulty: 2, explanation: "AFC falls continuously as output increases and approaches the output axis; only AVC, ATC and MC are U-shaped." },
+    { type: "tf", q: "In the short run, marginal cost can be computed as the change in total variable cost divided by the change in output.", answer: true, difficulty: 2, explanation: "MC = change in TC / change in Q, and since TFC = 0 change in the short run, MC = change in TVC / change in Q." },
+    { type: "mcq", q: "All of the following curves are U-shaped EXCEPT:", options: ["the AVC curve", "the ATC curve", "the AFC curve", "the MC curve"], answer: 2, difficulty: 2, explanation: "AFC declines continuously as output rises; AVC, ATC and MC are U-shaped." },
+    { type: "mcq", q: "The MC curve passes through:", options: ["the origin", "the minimum points of both AVC and ATC", "the maximum points of AVC and ATC", "the minimum point of AFC"], answer: 1, difficulty: 3, explanation: "The MC curve declines first, then rises, and passes through the minimum point of both the AVC and ATC curves." },
+    { type: "concept", q: "Explain why the vertical gap between the ATC curve and the AVC curve narrows as output increases.", answer: "the gap equals AFC which falls continuously", difficulty: 2, explanation: "The gap ATC - AVC equals AFC, and since TFC is constant, AFC = TFC / Q keeps falling as output rises." },
+    { type: "concept", q: "State the mirror relationship between product curves and cost curves.", answer: "when AP rises AC falls; when MP rises MC falls; when AP is maximum AC is minimum", difficulty: 3, explanation: "Cost and production curves are mirror images: AP (MP) rising means AC (MC) falling, AP (MP) falling means AC (MC) rising, and AP (MP) maximum matches AC (MC) minimum." },
+    { type: "ordering", q: "Arrange these long-run cost regions in the order they occur as output expands along the LAC curve.", options: ["Diseconomies of scale", "Economies of scale", "Minimum of the LAC curve"], answer: 1, difficulty: 2, explanation: "Output first passes the economies of scale range (left of LAC minimum), then the minimum, then the diseconomies of scale range." },
 
+  ]
+};

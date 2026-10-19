@@ -1,12 +1,492 @@
-/* Content: g11-economics-ue1 — migrated from generated JSON (Phase 0 pipeline restore).
-   Content upgrade to spec v2 happens per unit in later phases. */
+/* Content: Grade 11 Economics - Unit 1: Theory of Consumer Behavior and Demand (4 topics)
+   Source: MoE Economics Grade 11 Student Textbook, Unit 1. */
 window.Lessons = window.Lessons || {};
 
-Lessons["g11-economics-ue1-t1"] = {"overview":"<b>Review of the Cardinal Utility Approach</b> sits inside <b>Theory of Consumer Behavior and Demand</b>. Indifference curves are the focus of Unit 1 of Grade 11 Economics in the Ethiopian (FDRE Ministry of Education) curriculum. First, it reviews the cardinal utility approach. Then it builds the ordinal utility theory around indifference curves, their properties, and the marginal rate of substitution. Next, it draws the budget line and shows how income and price changes move it. Finally, it finds the consumer optimum and derives the demand curve. Students will also learn how indifference curves explain real-life consumer choices.","objectives":["Differentiate the cardinal and ordinal utility approaches.","Define the indifference curve, set, and map.","Explain the properties and the marginal rate of substitution.","Draw the budget line and show how income and prices move it.","Determine the consumer optimum and derive the demand curve."],"simple":"<b>Review of the Cardinal Utility Approach in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, a review of cardinal utility, total and marginal utility, and the law of diminishing marginal utility.</li> <li>Also the limits that push economists toward the ordinal approach.</li></ul>","detailed":"<p><b>Review of the Cardinal Utility Approach — the essentials.</b> First, a review of cardinal utility, total and marginal utility, and the law of diminishing marginal utility. Also the limits that push economists toward the ordinal approach.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Differentiate the cardinal and ordinal utility approaches.</li><li>Define the indifference curve, set, and map.</li><li>Explain the properties and the marginal rate of substitution.</li><li>Draw the budget line and show how income and prices move it.</li><li>Determine the consumer optimum and derive the demand curve.</li></ul>","keyTerms":[{"term":"First","def":"First, a review of cardinal utility, total and marginal utility, and the law of diminishing marginal utility."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing review of the cardinal utility approach with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Interpreting economic news about Ethiopia in the media","The applied data-response questions in the ESSLCE economics paper"],"summary":"Review of the Cardinal Utility Approach: First, a review of cardinal utility, total and marginal utility, and the law of diminishing marginal utility. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"Review of the Cardinal Utility Approach\" is correct according to the MoE curriculum?","options":["First, a review of cardinal utility, total and marginal utility, and the law of diminishing marginal utility.","Review of the Cardinal Utility Approach holds only under conditions this topic says do not apply","Review of the Cardinal Utility Approach inverts the direction of the relationship this topic describes","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, a review of cardinal utility, total and marginal utility, and the law of diminishing marginal utility. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"Review of the Cardinal Utility Approach\"?","options":["Also the limits that push economists toward the ordinal approach.","Review of the Cardinal Utility Approach is a household-level claim, not the national-level claim of this topic","Review of the Cardinal Utility Approach holds only under conditions this topic says do not apply","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Also the limits that push economists toward the ordinal approach."},{"type":"tf","q":"True or false: First, a review of cardinal utility, total and marginal utility, and the law of diminishing marginal utility.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover review of the cardinal utility approach.","answer":false,"difficulty":1,"explanation":"Review of the Cardinal Utility Approach is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Differentiate the cardinal and ordinal utility approaches.","difficulty":2,"altAnswers":["Define the indifference curve, set, and map.","Explain the properties and the marginal rate of substitution."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why review of the cardinal utility approach matters.","answer":"Review of the Cardinal Utility Approach is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of review of the cardinal utility approach in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to review of the cardinal utility approach, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
+Lessons["g11-economics-ue1-t1"] = {
+  overview: "Cardinal utility theory treats satisfaction as a quantity that can be measured in absolute numbers called utils. This lesson reviews utility, marginal utility and the law of diminishing marginal utility, then uses them to state the consumer optimum and to derive a demand curve.",
+  objectives: [
+    "Define utility and explain cardinal utility measured in utils",
+    "Explain marginal utility and the law of diminishing marginal utility",
+    "State the condition for consumer optimum in the cardinal approach",
+    "Compute marginal utility from a change in total utility",
+    "Explain how the demand curve is derived from the marginal utility curve"
+  ],
+  simple: "Utility is the level of satisfaction or happiness a consumer gets from consuming goods and services. Cardinal utility theory assumes this satisfaction can be measured in absolute numbers, using units called utils. Marginal utility is the extra satisfaction from consuming one more unit of a good. The law of diminishing marginal utility says that as a person consumes more of a good, the marginal utility of each extra unit falls. Because money income is limited, choice is mandatory. The consumer is at the optimum when the marginal utility ratios of any two goods equal their price ratios, marginal utility per birr spent is the same for every good, and all income is spent. When marginal utility is measured in money terms, the demand curve is the positive segment of the marginal utility curve.",
+  detailed: "<p><b>What utility is.</b> Utility refers to the level of satisfaction or happiness that consumers get from the consumption of goods and services. Commodities are desired because of their ability to satisfy wants, and different goods differ in that ability: one person may choose coffee rather than tea, another may choose tea rather than coffee, yet both derive some level of satisfaction from the good they have chosen. Given any two consumption bundles, a consumer can compare them and decide that one is better than the other, or that they lead to the same satisfaction.</p><p><b>Cardinal measurement.</b> Cardinal utility theory is based on the measurement of utility or satisfaction in absolute numbers. The unit of measurement is called the <i>util</i>. So a consumer may say that a cup of coffee gives 5 utils and a plate of dinner gives 20 utils. This measurability assumption is what separates the cardinal approach from the ordinal approach, which only asks consumers to rank bundles.</p><p><b>Marginal utility.</b> Marginal utility (MU) is the additional satisfaction that a consumer gets because of changing consumption by one unit. It is the extra utility due to a change in consumption. For example, total utility from 4 units of tea is 40 utils and total utility from 5 units is 50 utils, so the marginal utility of the 5th cup is 50 - 40 = 10 utils.</p><p><b>The law of diminishing marginal utility.</b> The law states that as the amount of a good consumed increases, the marginal utility of the good decreases. The first glass of water on a hot day gives great satisfaction; the third gives less; a tenth may give almost none. Total utility can still rise as long as marginal utility is positive, but it rises more and more slowly because each extra unit adds less than the one before.</p><p><b>Consumer optimum.</b> The consumer faces limited money income, which shows the scarcity of resources, and so choice is mandatory. The best choice is defined by the point at which the marginal utility ratios for any two goods equal the price ratios and the consumer spends the entire income. For two goods X and Y the optimum condition is MUx / Px = MUy / Py, which is the same as MUx / MUy = Px / Py. Stated another way, consumer optimum is the point where marginal utility per birr spent is the same for all commodities, and income equals expenditure.</p><p><b>Deriving the demand curve.</b> The derivation of the demand curve is based on diminishing marginal utility. If the marginal utility is measured using monetary units, the demand curve for a commodity is the same as the positive segment of the marginal utility curve. As the consumer takes more units, the marginal utility of each unit falls, so the maximum money the consumer is willing to pay for an extra unit falls too; that is exactly why the demand curve slopes downward from left to right.</p>",
+  keyTerms: [
+    { term: "Utility", def: "The level of satisfaction or happiness that consumers get from the consumption of goods and services." },
+    { term: "Cardinal utility", def: "The view that satisfaction can be measured in absolute (cardinal) numbers." },
+    { term: "Util", def: "The hypothetical unit of measurement of utility in the cardinal approach." },
+    { term: "Total utility", def: "The overall satisfaction obtained from consuming a given quantity of a commodity." },
+    { term: "Marginal utility (MU)", def: "The additional satisfaction a consumer gets because of changing consumption by one unit." },
+    { term: "Law of diminishing marginal utility", def: "The law that the marginal utility of a good decreases as the amount consumed increases." },
+    { term: "Consumer optimum", def: "The point where marginal utility ratios equal price ratios, marginal utility per birr spent is equal for all goods, and income equals expenditure." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "Fenet increases her consumption of tea from 4 units to 5 units. Total utility rises from 40 utils to 50 utils. What is the marginal utility of the 5th cup of tea?",
+      given: "Total utility at 4 units = 40 utils; total utility at 5 units = 50 utils.",
+      formula: "Marginal utility = change in total utility / change in quantity consumed.",
+      substitution: "MU = (50 - 40) utils / (5 - 4) units.",
+      calculation: "MU = 10 utils / 1 unit = 10 utils.",
+      answer: "The marginal utility of the 5th cup of tea is 10 utils."
+    },
+    {
+      problem: "A consumer buys goods X and Y. The marginal utility of X is 40 utils with a price of 4 birr, and the marginal utility of Y is 50 utils with a price of 5 birr. Is the consumer at the cardinal optimum?",
+      given: "MUx = 40, Px = 4 birr, MUy = 50, Py = 5 birr.",
+      formula: "Consumer optimum: MUx / Px = MUy / Py, and income equals expenditure.",
+      substitution: "MUx / Px = 40 / 4 = 10 utils per birr; MUy / Py = 50 / 5 = 10 utils per birr.",
+      calculation: "The two ratios are equal, so each birr spent brings the same extra satisfaction from either good; provided all income is spent, the condition holds.",
+      answer: "Yes. The consumer is at the optimum because marginal utility per birr is equal (10) for both goods."
+    },
+    {
+      problem: "For another consumer, MUx / Px = 8 while MUy / Py = 12, and all income is already spent. How should the consumer rearrange purchases to reach optimum?",
+      given: "MUx / Px = 8 utils per birr; MUy / Py = 12 utils per birr.",
+      formula: "At optimum, marginal utility per birr spent must be the same for all commodities.",
+      substitution: "A birr taken from X and moved to Y loses 8 utils but gains 12 utils, a net gain of 4 utils.",
+      calculation: "The consumer should buy more of Y and less of X. As Y consumption rises its marginal utility falls and as X consumption falls its marginal utility rises, until the two ratios are equal.",
+      answer: "Shift spending from X toward Y until MUx / Px = MUy / Py, keeping total expenditure equal to income."
+    }
+  ],
+  commonMistakes: [
+    "Confusing total utility with marginal utility; marginal utility is only the extra satisfaction from one more unit.",
+    "Thinking that total utility falls as soon as marginal utility falls; total utility still rises while marginal utility is positive.",
+    "Believing cardinal utility means ranking bundles first, second and third; that is the ordinal approach.",
+    "Stating the optimum condition but forgetting that the consumer must spend the entire income, so income equals expenditure.",
+    "Assuming marginal utility stays constant as consumption grows, which contradicts the law of diminishing marginal utility.",
+    "Saying the demand curve is the whole marginal utility curve instead of only its positive segment."
+  ],
+  applications: [
+    "Every Ethiopian consumer facing limited monthly income must choose between goods such as coffee, tea, bread and sugar; the theory predicts they spread spending so each birr brings equal satisfaction.",
+    "A household that notices its satisfaction from a second kilogram of sugar is lower than from the first is experiencing diminishing marginal utility in daily life.",
+    "The maximum price a customer is willing to pay for an extra unit of khat or coffee reflects the marginal utility of that unit in money terms.",
+    "A family reallocating its budget away from a good whose extra satisfaction per birr is low and toward one whose is higher is moving toward consumer optimum.",
+    "Shops can predict demand: as price falls, consumers whose marginal utility of the good, measured in birr, exceeds the new price start buying more.",
+    "Understanding scarcity reminds students that an increase in a student's pocket money, not wishful thinking, is what allows more goods to be bought."
+  ],
+  summary: "Cardinal utility theory measures satisfaction in absolute numbers called utils and explains consumption using marginal utility and the law of diminishing marginal utility. The consumer optimum requires MUx / Px = MUy / Py with all income spent, meaning marginal utility per birr is equal for every good. Because marginal utility falls as consumption rises, the demand curve derived from the marginal utility curve (when MU is in money terms) slopes downward.",
+  visuals: [
+    {
+      type: "comparison",
+      config: {
+        title: "Cardinal vs Ordinal Utility",
+        left: { name: "Cardinal approach", items: ["Utility measured in absolute numbers", "Unit is the util", "Uses marginal utility MU", "Optimum: MUx/Px = MUy/Py", "Directly derives demand"] },
+        right: { name: "Ordinal approach", items: ["Utility only ranked, not measured", "Uses ranking 1st, 2nd, 3rd", "Uses indifference curves", "Optimum: MRS = Px/Py", "Demand derived from the PCC"] }
+      }
+    },
+    {
+      type: "steps",
+      config: {
+        title: "Finding the Consumer Optimum (Cardinal Approach)",
+        steps: [
+          { label: "Measure utility", detail: "Assume satisfaction of each good can be counted in utils." },
+          { label: "Find marginal utility", detail: "For each good, record the extra utils from one more unit." },
+          { label: "Divide by price", detail: "Compute marginal utility per birr: MUx/Px and MUy/Py." },
+          { label: "Compare and reallocate", detail: "Move spending toward the good with the higher ratio until the ratios are equal." },
+          { label: "Verify budget", detail: "Check that total expenditure equals the whole income." }
+        ]
+      }
+    },
+    {
+      type: "qa",
+      config: {
+        title: "Exam Quick-Check",
+        pairs: [
+          { q: "What is the unit of measurement in cardinal utility theory?", a: "The util, an absolute (cardinal) number" },
+          { q: "State the law of diminishing marginal utility.", a: "As the amount of a good consumed increases, its marginal utility decreases." },
+          { q: "State the consumer optimum condition.", a: "MUx/Px = MUy/Py with income equal to expenditure." },
+          { q: "When is the demand curve identical to a marginal utility curve?", a: "When marginal utility is measured in monetary units; demand is the positive segment of the MU curve." }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "Utility refers to:", options: ["the price paid for a good", "the satisfaction a consumer gets from consuming goods and services", "the total cost of producing a good", "the amount of money income a consumer earns"], answer: 1, difficulty: 1, explanation: "Utility is the level of satisfaction or happiness from the consumption of goods and services." },
+    { type: "short", q: "What is the unit of measurement of utility in the cardinal approach called?", answer: "util|utils", difficulty: 1, explanation: "Utility is measured in absolute numbers called utils." },
+    { type: "tf", q: "Marginal utility is the additional satisfaction obtained from changing consumption by one unit.", answer: true, difficulty: 1, explanation: "MU is the extra utility due to a one-unit change in consumption." },
+    { type: "mcq", q: "The law of diminishing marginal utility says that as the amount of a good consumed increases:", options: ["total utility always falls", "the price of the good rises", "the marginal utility of the good decreases", "the marginal utility of the good increases"], answer: 2, difficulty: 1, explanation: "Diminishing marginal utility means MU decreases as consumption increases." },
+    { type: "mcq", q: "Total utility rises from 40 utils to 50 utils when consumption rises from 4 to 5 units. The marginal utility of the 5th unit is:", options: ["50 utils", "10 utils", "40 utils", "90 utils"], answer: 1, difficulty: 2, explanation: "MU = (50 - 40) / (5 - 4) = 10 utils." },
+    { type: "tf", q: "At consumer optimum, the marginal utility ratios for any two goods equal the price ratios and the consumer spends the entire income.", answer: true, difficulty: 2, explanation: "The optimum is where MUx/Px = MUy/Py and income = expenditure." },
+    { type: "concept", q: "A consumer finds MUx/Px = 6 and MUy/Py = 10 with income fully spent. What should the consumer do?", answer: "buy more y and less x|shift spending toward y|increase consumption of y", difficulty: 2, explanation: "A birr on Y yields 10 utils versus 6 on X, so spending should shift to Y until the ratios are equal." },
+    { type: "mcq", q: "In words, consumer optimum is the point where:", options: ["total utility is zero", "marginal utility of every good is equal", "marginal utility per birr spent is the same for all commodities and income equals expenditure", "the consumer spends less than income and saves the rest"], answer: 2, difficulty: 2, explanation: "The textbook states optimum occurs where MU per money spent is the same for all commodities and income equals expenditure." },
+    { type: "tf", q: "If marginal utility is measured in monetary units, the demand curve is the same as the positive segment of the marginal utility curve.", answer: true, difficulty: 2, explanation: "This is the textbook basis for deriving the demand curve from diminishing marginal utility." },
+    { type: "mcq", q: "The demand curve derived in the cardinal approach slopes downward because:", options: ["consumers get bored of the good", "marginal utility falls as consumption increases, so the willingness to pay falls", "producers force prices down", "total utility falls as consumption increases"], answer: 2, difficulty: 1, explanation: "Diminishing MU makes the maximum willingness to pay for extra units fall, giving a downward sloping demand curve." },
+    { type: "short", q: "State what cardinal utility theory assumes about satisfaction.", answer: "it is measurable in absolute numbers|measurable in cardinal numbers|measurable in utils", difficulty: 2, explanation: "Cardinal theory assumes utility is measurable in absolute (cardinal) numbers, in utils." }
+  ]
+};
 
-Lessons["g11-economics-ue1-t2"] = {"overview":"<b>The Ordinal Utility Theory and Preferences</b> sits inside <b>Theory of Consumer Behavior and Demand</b>. Indifference curves are the focus of Unit 1 of Grade 11 Economics in the Ethiopian (FDRE Ministry of Education) curriculum. First, it reviews the cardinal utility approach. Then it builds the ordinal utility theory around indifference curves, their properties, and the marginal rate of substitution. Next, it draws the budget line and shows how income and price changes move it. Finally, it finds the consumer optimum and derives the demand curve. Students will also learn how indifference curves explain real-life consumer choices.","objectives":["Differentiate the cardinal and ordinal utility approaches.","Define the indifference curve, set, and map.","Explain the properties and the marginal rate of substitution.","Draw the budget line and show how income and prices move it.","Determine the consumer optimum and derive the demand curve."],"simple":"<b>The Ordinal Utility Theory and Preferences in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, the indifference curve, set, and map.</li> <li>Then the properties of indifference curves.</li> <li>Also the marginal rate of substitution (MRS) and its link to marginal utility.</li> <li>Finally, special types of indifference curves, such as perfect substitutes and complements.</li></ul>","detailed":"<p><b>The Ordinal Utility Theory and Preferences — the essentials.</b> First, the indifference curve, set, and map. Then the properties of indifference curves. Also the marginal rate of substitution (MRS) and its link to marginal utility. Finally, special types of indifference curves, such as perfect substitutes and complements.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Differentiate the cardinal and ordinal utility approaches.</li><li>Define the indifference curve, set, and map.</li><li>Explain the properties and the marginal rate of substitution.</li><li>Draw the budget line and show how income and prices move it.</li><li>Determine the consumer optimum and derive the demand curve.</li></ul>","keyTerms":[{"term":"First","def":"First, the indifference curve, set, and map."},{"term":"Then the properties of indifference curves","def":"Then the properties of indifference curves."},{"term":"special types of indifference curves","def":"Finally, special types of indifference curves, such as perfect substitutes and complements."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing the ordinal utility theory and preferences with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Interpreting economic news about Ethiopia in the media","The applied data-response questions in the ESSLCE economics paper"],"summary":"The Ordinal Utility Theory and Preferences: First, the indifference curve, set, and map. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"The Ordinal Utility Theory and Preferences\" is correct according to the MoE curriculum?","options":["First, the indifference curve, set, and map.","The Ordinal Utility Theory and Preferences holds only under conditions this topic says do not apply","The Ordinal Utility Theory and Preferences inverts the direction of the relationship this topic describes","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, the indifference curve, set, and map. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"The Ordinal Utility Theory and Preferences\"?","options":["Then the properties of indifference curves.","The Ordinal Utility Theory and Preferences is a household-level claim, not the national-level claim of this topic","The Ordinal Utility Theory and Preferences holds only under conditions this topic says do not apply","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Then the properties of indifference curves."},{"type":"tf","q":"True or false: First, the indifference curve, set, and map.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover the ordinal utility theory and preferences.","answer":false,"difficulty":1,"explanation":"The Ordinal Utility Theory and Preferences is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Differentiate the cardinal and ordinal utility approaches.","difficulty":2,"altAnswers":["Define the indifference curve, set, and map.","Explain the properties and the marginal rate of substitution."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why the ordinal utility theory and preferences matters.","answer":"The Ordinal Utility Theory and Preferences is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of the ordinal utility theory and preferences in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to the ordinal utility theory and preferences, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
+Lessons["g11-economics-ue1-t2"] = {
+  overview: "The ordinal utility approach replaces measured satisfaction with ranking: consumers order bundles as preferred, indifferent or inferior. This lesson introduces preferences, the assumptions of ordinal theory, the indifference set, curve and map, the marginal rate of substitution, and the special indifference curves for perfect substitutes and perfect complements.",
+  objectives: [
+    "Explain the ordinal utility approach and the notation of preferences",
+    "State the main assumptions of ordinal utility theory",
+    "Define the indifference set, indifference curve and indifference map",
+    "Calculate and interpret the marginal rate of substitution (MRS)",
+    "Describe the special indifference curves for perfect substitutes and perfect complements"
+  ],
+  simple: "Ordinal utility theory says satisfaction cannot be measured in utils; instead, consumers rank bundles in order of preference: 1st, 2nd, 3rd. Preference is the ability to state choices: a consumer may prefer X to Y, prefer Y to X, or be indifferent between them. An indifference curve is a line joining all combinations of two goods that give the same satisfaction, so the consumer is indifferent among them. An indifference map is a collection of such curves; curves farther from the origin mean higher satisfaction. The marginal rate of substitution measures how many units of Y the consumer gives up for one more unit of X while staying equally satisfied, and it falls as we move down the curve. Indifference curves are straight lines for perfect substitutes and L-shaped for perfect complements.",
+  detailed: "<p><b>Preference and its notation.</b> Preference is simply the ability of the consumer to state or express choices given alternatives. Facing two bundles X and Y, three things may happen: the consumer prefers X to Y, written X > Y; prefers Y to X, written Y > X; or gets the same satisfaction from both, written X ~ Y, in which case the consumer is <b>indifferent</b>. A bundle x is preferred to y if and only if the utility of x is larger than the utility of y.</p><p><b>The ordinal approach.</b> The ordinal utility approach argues that utility cannot be measured in cardinal numbers, like 1 util, 2 utils or 3 utils. It is always possible, however, for consumers to express utility in relative terms and to rank commodities in order of preference as 1st, 2nd, 3rd and so on. Because this approach studies behaviour with indifference curves, ordinal utility theory is also known as <b>indifference curve analysis</b>.</p><p><b>Assumptions of the theory.</b> The theory rests on simplifying assumptions: consumers are <b>rational</b> and maximize satisfaction given limited income and market prices; utility is measured <b>ordinally</b> by ranking; there is <b>diminishing marginal rate of substitution</b>; ordering is <b>complete</b>, so every combination can be classed as preferred, indifferent or inferior; preferences are <b>transitive</b> (if X > Y and Y > Z, then X > Z) and <b>consistent</b> (if X > Y, Y cannot be preferred to X at another time); money income is <b>limited</b>, so optimization is mandatory; and there is <b>non-satiation</b>, meaning consumers always prefer more of a good to less.</p><p><b>Indifference set, curve and map.</b> The <b>indifference set (schedule)</b> is a tabular presentation of combinations of goods that give the same utility. For goods orange (X) and banana (Y) the schedule shows: A = (1 orange, 23 bananas), B = (3 orange, 15 bananas), C = (5 orange, 9 bananas) and D = (7 orange, 6 bananas), all giving equal satisfaction. An <b>indifference curve (IC)</b> is the locus of points, drawn from such a table, which yield the same satisfaction, so it is an iso-utility curve. An <b>indifference map</b> is a set of indifference curves with different satisfaction levels; a higher curve refers to a higher level of satisfaction. A consumer has an infinite number of possible indifference curves, and which one can be achieved depends on income and prices.</p><p><b>Properties of indifference curves.</b> First, ICs are <b>negatively sloped</b>: more of one good can compensate only for less of the other if utility is constant. Second, ICs <b>never intersect</b>: an intersection would mean two different satisfaction levels from a single combination, and the transitivity rule would be violated, since points C and D that share only a crossing point E would have to be both indifferent and unequal. Third, a <b>higher IC is always preferred</b> to a lower one, because baskets like S (A2, B2) contain more of both goods than baskets like R (A1, B1) and more is preferred to less. Fourth, ICs are <b>convex to the origin</b>: their slope falls in absolute terms as we move down to the right, because the goods are imperfect substitutes for one another.</p><p><b>The marginal rate of substitution.</b> The MRS of X for Y is the number of units of Y that must be given up in exchange for an extra unit of X while keeping the same level of satisfaction; it is the slope of the indifference curve. Because moving along an IC keeps utility constant, the gain MUx times extra X must equal the loss MUy times given-up Y, so MUx times dX + MUy times dY = 0, and therefore MRS = dY/dX = -MUx/MUy. Since the raw value is negative, economists report MRS as a positive number, its absolute value. From the schedule above, moving A to B: MRS = 8/2 = 4; B to C: MRS = 6/2 = 3; C to D: MRS = 3/2. The MRS falls as we move downwards, which is exactly why the curve is convex.</p><p><b>Special types of indifference curves.</b> <b>Perfect substitutes</b> are goods that can be replaced for one another at a constant rate, like a blue pen and a black pen; the IC is a downward sloping straight line and the MRS is constant, with utility function U(X, Y) = aX + bY. <b>Perfect complements</b> are goods consumed always jointly at a constant rate, like a left shoe and a right shoe; the IC is L-shaped (a right angle), the MRS is zero because no substitution is possible, the utility function is U(X, Y) = Min (aX, bY), and the vertex of the curve shows the right combination.</p>",
+  keyTerms: [
+    { term: "Preference", def: "The ability of the consumer to state or express choices given alternatives, written X > Y, Y > X or X ~ Y." },
+    { term: "Ordinal utility", def: "The view that utility cannot be measured cardinally but can be ranked in order of preference." },
+    { term: "Indifference", def: "Getting the same level of satisfaction from two bundles, so the consumer cannot choose one over the other, written X ~ Y." },
+    { term: "Indifference set (schedule)", def: "A tabular presentation of combinations of two goods from which the consumer derives the same utility." },
+    { term: "Indifference curve (IC)", def: "The locus of combinations of two goods that yield the same satisfaction; an iso-utility curve." },
+    { term: "Indifference map", def: "A set of indifference curves reflecting the complete tastes and preferences of the consumer." },
+    { term: "Marginal rate of substitution (MRS)", def: "The number of units of Y that must be given up for an extra unit of X while keeping satisfaction constant; MRS = dY/dX = MUx/MUy." },
+    { term: "Perfect complements", def: "Goods consumed always jointly at a constant rate, such as left and right shoes, giving an L-shaped indifference curve with zero MRS." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "Using the indifference schedule below, calculate the MRS of X for Y between combinations A and B. A = (1 orange, 23 bananas); B = (3 orange, 15 bananas).",
+      given: "Moving from A to B, X rises from 1 to 3 (dX = 2) and Y falls from 23 to 15 (dY = -8).",
+      formula: "MRS = dY/dX, the units of Y given up per unit of X gained, reported as an absolute value.",
+      substitution: "MRS = -8 / 2.",
+      calculation: "MRS = -4; taking the absolute value gives MRS = 4. The consumer gives up 8 bananas to obtain 2 more oranges.",
+      answer: "MRS = 4: the consumer is willing to forgo 8 bananas to gain 2 oranges, or 4 bananas per orange."
+    },
+    {
+      problem: "For the same schedule, C = (5 orange, 9 bananas) and D = (7 orange, 6 bananas). Find the MRS between B and C and between C and D, and state the pattern.",
+      given: "B = (3, 15), C = (5, 9), D = (7, 6); each step adds 2 oranges.",
+      formula: "MRS = dY/dX for a movement along the same indifference curve.",
+      substitution: "B to C: MRS = (9 - 15) / (5 - 3) = -6/2. C to D: MRS = (6 - 9) / (7 - 5) = -3/2.",
+      calculation: "Absolute values: B to C gives MRS = 3; C to D gives MRS = 3/2. The values fall from 4, to 3, to 3/2 as more oranges and fewer bananas are held.",
+      answer: "The MRS diminishes (4, 3, 3/2), which explains why the indifference curve is convex to the origin."
+    },
+    {
+      problem: "At a point on an indifference curve, the marginal utility of X is 10 and the marginal utility of Y is 5. What is the MRS at that point?",
+      given: "MUx = 10, MUy = 5, movement is along one indifference curve so total utility is constant.",
+      formula: "MRS = MUx / MUy, the negative of the slope of the indifference curve.",
+      substitution: "MRS = 10 / 5.",
+      calculation: "MRS = 2. The consumer gives up 2 units of Y for 1 more unit of X with no change in total satisfaction.",
+      answer: "MRS = 2, the absolute value of the indifference curve slope at that bundle."
+    },
+    {
+      problem: "A student treats a blue pen and a black pen as interchangeable one-for-one, but wears exactly one left shoe with one right shoe. What indifference curve shapes apply and what MRS does each give?",
+      given: "Pens are perfect substitutes with a 1:1 trade rate; shoes are perfect complements used in a fixed 1:1 ratio.",
+      formula: "Perfect substitutes give a straight-line IC with constant MRS and U = aX + bY; perfect complements give an L-shaped IC with MRS = 0 and U = Min (aX, bY).",
+      substitution: "For pens, trading one black pen for one blue pen never changes satisfaction, so the rate of exchange stays 1:1 no matter how many exchanges occur.",
+      calculation: "Extra right shoes with only one left shoe add no satisfaction, so no substitution of shoes is possible and MRS = 0.",
+      answer: "Pens: straight-line IC with constant MRS of 1. Shoes: L-shaped IC with MRS = 0, and the vertex (1 left, 1 right) is the right combination."
+    }
+  ],
+  commonMistakes: [
+    "Believing ordinal utility measures satisfaction in utils; the ordinal approach only ranks bundles.",
+    "Drawing indifference curves that intersect; this would give one combination two satisfaction levels and violates transitivity.",
+    "Forgetting that MRS is defined only for a movement along the same indifference curve.",
+    "Reporting MRS as a negative number without explanation; the convention is to use its absolute (positive) value.",
+    "Assuming MRS is constant for ordinary goods; for standard goods MRS diminishes as we move down the curve.",
+    "Mixing up the two special cases: straight lines belong to perfect substitutes, L-shaped curves to perfect complements.",
+    "Thinking a lower indifference curve can ever be preferred to a higher one; higher curves always mean higher satisfaction."
+  ],
+  applications: [
+    "A student choosing between bundles of tea and coffee in a cafeteria is expressing a preference ordering, exactly the raw material of ordinal analysis.",
+    "Households in Addis Ababa who see teff bread and rice as replaceable, one for one, behave like perfect substitutes with straight indifference curves.",
+    "Goods consumed strictly together, such as a sim card and a phone, behave like perfect complements and produce L-shaped indifference curves.",
+    "When a consumer who owns many bananas but few oranges refuses to swap bananas for oranges, we observe the diminishing marginal rate of substitution in action.",
+    "Ranking market baskets before a monthly shopping trip, rather than scoring satisfaction numerically, is the practical way consumers reveal ordinal preferences.",
+    "Development planners infer preferences from observed choices, since stated rankings of bundles are enough to build indifference maps without measurable utils."
+  ],
+  summary: "Ordinal utility theory abandons measurable utils and ranks bundles, using indifference curves as iso-utility lines that never cross, slope downward, are convex to the origin, and lie higher for higher satisfaction. The marginal rate of substitution, MRS = dY/dX = MUx/MUy, falls along the curve, which explains the convexity; straight-line curves arise for perfect substitutes and L-shaped curves for perfect complements.",
+  visuals: [
+    {
+      type: "mindMap",
+      config: {
+        title: "Assumptions of Ordinal Utility Theory",
+        center: "Ordinal Utility Theory",
+        branches: [
+          { label: "Behaviour", items: ["Rational consumer", "Limited money income", "Non-satiation (prefers more)"] },
+          { label: "Measurement", items: ["Ordinal ranking only", "Complete ordering"] },
+          { label: "Consistency", items: ["Transitivity", "Consistency of preference"] },
+          { label: "Substitution", items: ["Diminishing MRS", "Convex indifference curves"] }
+        ]
+      }
+    },
+    {
+      type: "tableVisual",
+      config: {
+        title: "Indifference Schedule (same utility in every row)",
+        headers: ["Combination", "Orange (X)", "Banana (Y)", "MRS of X for Y"],
+        rows: [
+          ["A", "1", "23", "-"],
+          ["B", "3", "15", "4"],
+          ["C", "5", "9", "3"],
+          ["D", "7", "6", "3/2"]
+        ]
+      }
+    },
+    {
+      type: "comparison",
+      config: {
+        title: "Perfect Substitutes vs Perfect Complements",
+        left: { name: "Perfect substitutes", items: ["Blue pen and black pen", "Straight-line IC, negative slope", "MRS is constant", "U(X, Y) = aX + bY", "Only the total number matters"] },
+        right: { name: "Perfect complements", items: ["Left shoe and right shoe", "L-shaped (right angle) IC", "MRS is zero", "U(X, Y) = Min (aX, bY)", "Vertex is the right combination"] }
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "The ordinal utility approach argues that utility:", options: ["is measured in absolute numbers called utils", "cannot be measured cardinally but can be ranked in order of preference", "is always zero for inferior goods", "equals the price of the good"], answer: 1, difficulty: 1, explanation: "Ordinal theory requires only ranking as 1st, 2nd, 3rd, not cardinal measurement." },
+    { type: "short", q: "Write the notation used when a consumer gets the same level of satisfaction from bundles X and Y.", answer: "x ~ y|x~y", difficulty: 1, explanation: "Indifference is written X ~ Y; X > Y means X is preferred to Y." },
+    { type: "tf", q: "A standard indifference curve is downward sloping to the right.", answer: true, difficulty: 1, explanation: "Utility is constant only if more of one good is balanced by less of the other, so the slope is negative." },
+    { type: "mcq", q: "Two indifference curves that intersect would violate:", options: ["the law of diminishing marginal utility", "the transitivity property of indifference theory", "the budget constraint", "the assumption of non-satiation"], answer: 1, difficulty: 2, explanation: "Intersecting ICs would make the consumer both indifferent and non-indifferent between two bundles, breaking transitivity." },
+    { type: "mcq", q: "In the schedule A = (1, 23), B = (3, 15), C = (5, 9), D = (7, 6), the MRS between B and C, in absolute value, is:", options: ["4", "3", "3/2", "6"], answer: 1, difficulty: 2, explanation: "MRS = dY/dX = 6/2 = 3 between B and C." },
+    { type: "concept", q: "Explain why an indifference curve is convex to the origin.", answer: "mrs diminishes along the curve|diminishing marginal rate of substitution|willingness to substitute falls", difficulty: 2, explanation: "As more of X and less of Y are held, the MRS falls, so the absolute slope declines and the curve is convex." },
+    { type: "tf", q: "The MRS is defined only for a movement along the same indifference curve.", answer: true, difficulty: 2, explanation: "MRS keeps total satisfaction constant, which only holds when moving on one IC." },
+    { type: "short", q: "Express the MRS in terms of marginal utilities.", answer: "mrs = mux / muy|mux/muy", difficulty: 2, explanation: "MRS equals the ratio of marginal utilities: MRS = MUx/MUy, the negative of the IC slope." },
+    { type: "mcq", q: "On an indifference map, a curve farther from the origin:", options: ["represents lower satisfaction", "represents higher utility", "is never reachable by any consumer", "has a positive slope"], answer: 1, difficulty: 2, explanation: "Baskets on upper curves contain more of both goods, so points on higher ICs represent higher utility." },
+    { type: "ordering", q: "Arrange these MRS values in the order they arise as the consumer moves from A to D along the schedule (dX = 2 at each step).", options: ["3/2", "4", "3"], answer: 1, difficulty: 3, explanation: "The MRS falls as we move down: 4 (A to B), 3 (B to C), then 3/2 (C to D)." },
+    { type: "mcq", q: "For perfect complements such as left and right shoes, the indifference curve is:", options: ["a straight line with constant MRS", "L-shaped, with MRS equal to zero", "upward sloping", "a horizontal line"], answer: 1, difficulty: 3, explanation: "Perfect complements are consumed in a fixed ratio, no substitution is possible, so the IC is L-shaped and MRS = 0." }
+  ]
+};
 
-Lessons["g11-economics-ue1-t3"] = {"overview":"<b>The Budget Line</b> sits inside <b>Theory of Consumer Behavior and Demand</b>. Indifference curves are the focus of Unit 1 of Grade 11 Economics in the Ethiopian (FDRE Ministry of Education) curriculum. First, it reviews the cardinal utility approach. Then it builds the ordinal utility theory around indifference curves, their properties, and the marginal rate of substitution. Next, it draws the budget line and shows how income and price changes move it. Finally, it finds the consumer optimum and derives the demand curve. Students will also learn how indifference curves explain real-life consumer choices.","objectives":["Differentiate the cardinal and ordinal utility approaches.","Define the indifference curve, set, and map.","Explain the properties and the marginal rate of substitution.","Draw the budget line and show how income and prices move it.","Determine the consumer optimum and derive the demand curve."],"simple":"<b>The Budget Line in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, the budget line and its slope, the price ratio.</li> <li>Then the factors that shift the budget line.</li> <li>Also the effects of changes in income and in prices.</li></ul>","detailed":"<p><b>The Budget Line — the essentials.</b> First, the budget line and its slope, the price ratio. Then the factors that shift the budget line. Also the effects of changes in income and in prices.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Differentiate the cardinal and ordinal utility approaches.</li><li>Define the indifference curve, set, and map.</li><li>Explain the properties and the marginal rate of substitution.</li><li>Draw the budget line and show how income and prices move it.</li><li>Determine the consumer optimum and derive the demand curve.</li></ul>","keyTerms":[{"term":"First","def":"First, the budget line and its slope, the price ratio."},{"term":"Then the factors that shift the budget line","def":"Then the factors that shift the budget line."},{"term":"Also the effects of changes in income and in prices","def":"Also the effects of changes in income and in prices."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing the budget line with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Interpreting economic news about Ethiopia in the media","The applied data-response questions in the ESSLCE economics paper"],"summary":"The Budget Line: First, the budget line and its slope, the price ratio. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"The Budget Line\" is correct according to the MoE curriculum?","options":["First, the budget line and its slope, the price ratio.","The Budget Line holds only under conditions this topic says do not apply","The Budget Line inverts the direction of the relationship this topic describes","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, the budget line and its slope, the price ratio. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"The Budget Line\"?","options":["Then the factors that shift the budget line.","The Budget Line is a household-level claim, not the national-level claim of this topic","The Budget Line holds only under conditions this topic says do not apply","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Then the factors that shift the budget line."},{"type":"tf","q":"True or false: First, the budget line and its slope, the price ratio.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover the budget line.","answer":false,"difficulty":1,"explanation":"The Budget Line is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Differentiate the cardinal and ordinal utility approaches.","difficulty":2,"altAnswers":["Define the indifference curve, set, and map.","Explain the properties and the marginal rate of substitution."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why the budget line matters.","answer":"The Budget Line is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of the budget line in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to the budget line, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
+Lessons["g11-economics-ue1-t3"] = {
+  overview: "Indifference curves show what a consumer is willing to buy, but only income and prices show what the consumer is able to buy. This lesson defines the budget line, derives its equation, intercepts and slope, separates feasible from non-feasible bundles, and analyses how income and price changes move the line.",
+  objectives: [
+    "Define the budget line and explain demand as wish backed by purchasing power",
+    "Write and use the budget equation PxX + PyY = M",
+    "Calculate the intercepts and the slope of a budget line from income and prices",
+    "Distinguish feasible from non-feasible combinations on a budget line",
+    "Analyse the effects of income changes and price changes on the position of the budget line"
+  ],
+  simple: "A budget line shows the different combinations of two goods a consumer can buy with a given income at given prices. Demand is a wish backed by purchasing power, and the budget line summarises that buying ability. With income M and prices Px and Py, the budget equation is PxX + PyY = M. The Y-intercept is M/Py, the X-intercept is M/Px, and the slope is the negative price ratio -Px/Py. Combinations outside the line are non-feasible because they cost more than income; points inside or on the line are feasible. A rise in income shifts the line outward parallel, because the slope depends only on prices. A change in the price of one good rotates the line around the other good's intercept.",
+  detailed: "<p><b>Ability to buy, not wish to buy.</b> In economics we study the demand of a consumer, not the wish of a consumer. Demand is a wish backed by purchasing power. Indifference curves tell us the consumer's willingness to substitute between two goods, but they cannot tell which combination will actually be bought. The budget constraint limits people's ability to consume given the prices they must pay, and the <b>budget line</b> gives a summary of the buying ability of the consumer: it indicates the different combinations of two goods that a consumer can buy with a given income at given prices.</p><p><b>Assumptions.</b> To draw a budget line we assume: only two goods, X and Y, are bought in quantities X and Y; the consumer faces market-determined prices Px and Py; and the consumer has a known, fixed money income M. A change in any of these changes the position of the budget line.</p><p><b>The budget equation.</b> If the consumer spends all income on the two goods, the budget constraint, also called the <b>budget equation</b>, is PxX + PyY = M, where PX and PY are prices and X and Y are quantities. The textbook example: a household has 100 birr per month for bread (X) at 4 birr each and sugar (Y) at 20 birr each, so Px = 4, Py = 20, M = 100 and the budget line is 4X + 20Y = 100. Spending all income on sugar gives the Y-intercept (0, 5); spending it all on bread gives the X-intercept (25, 0). These are the two extreme values of the line.</p><p><b>Intercepts and slope.</b> Rearranging the budget equation gives Y = M/Py - (Px/Py)X. The vertical intercept is M/Py = 100/20 = 5 and the horizontal intercept is M/Px = 100/4 = 25, so each intercept equals income divided by that good's price. The slope of the budget line is the negative of the ratio of the prices of the two goods, defined as the price of the X-axis good over the price of the Y-axis good: slope = -Px/Py = -4/20 = -1/5 = -0.2. The line is linear with constant slope; the same value, -0.2, appears from coordinate movements such as from (5, 4) to (10, 3) or from (15, 2) to (20, 1).</p><p><b>Feasible and non-feasible areas.</b> The area outside the budget line represents non-feasible (unattainable) combinations, because total expenditure there is beyond the consumer's income. The area inside, or on, the budget line is feasible. A consumer inside the line has money left over, but consumer theory assumes the consumer uses all income for consumption and that savings do not generate utility, so the consumer is expected to be on the budget line where income equals expenditure.</p><p><b>Effects of income changes.</b> If income changes while prices stay constant, the budget line shifts. An increase in income causes an upward shift allowing more of both goods; a decrease causes a downward shift. Since the intercepts are M/Px and M/Py, higher income raises both intercepts while the slope, which depends only on prices, does not change, so the new line is parallel to the old one.</p><p><b>Effects of price changes.</b> A change in the price of one good causes a rotation of the budget line. If the price of X falls while Py and M are constant, the Y-intercept M/Py is unchanged and the X-intercept M/Px rises, so the line pivots outward on the X-axis, as from AB to AB'. If the price of X rises, the line pivots inward the same way: less of X can be bought when all income goes to X. A rise in the price of Y lowers the Y-intercept and rotates the line around the fixed X-intercept. If both prices rise proportionately, both intercepts fall, the slope stays the same, and the line shifts parallel inward, just as a fall in income would.</p>",
+  keyTerms: [
+    { term: "Budget line", def: "A line showing the different combinations of two goods that a consumer can buy with a given income at given prices." },
+    { term: "Budget equation (constraint)", def: "PxX + PyY = M, the statement that money spent on X plus money spent on Y equals money income." },
+    { term: "Demand", def: "A wish for a good backed by purchasing power, not merely desire." },
+    { term: "Feasible area", def: "The combinations inside or on the budget line, which the consumer's income can cover." },
+    { term: "Non-feasible (unattainable) area", def: "Combinations outside the budget line whose total expenditure exceeds the consumer's income." },
+    { term: "X-intercept", def: "M/Px, the maximum quantity of good X buyable when all income is spent on X." },
+    { term: "Slope of the budget line", def: "The negative of the price ratio, -Px/Py, constant along the line." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "A household has 100 birr per month for bread (X) at 4 birr each and sugar (Y) at 20 birr each. Write the budget equation and find both intercepts.",
+      given: "M = 100 birr, Px = 4 birr, Py = 20 birr.",
+      formula: "Budget equation: PxX + PyY = M; X-intercept = M/Px; Y-intercept = M/Py.",
+      substitution: "4X + 20Y = 100; X-intercept = 100/4; Y-intercept = 100/20.",
+      calculation: "X-intercept = 25 (buy 25 loaves, no sugar); Y-intercept = 5 (buy 5 units of sugar, no bread).",
+      answer: "The budget line is 4X + 20Y = 100 with intercepts (25, 0) and (0, 5)."
+    },
+    {
+      problem: "Using the same line, calculate the slope of the budget line using the prices and confirm it using the coordinates of two points, B = (5, 4) and C = (10, 3), that both lie on the line.",
+      given: "Px = 4, Py = 20; B (5, 4) and C (10, 3) are on 4X + 20Y = 100.",
+      formula: "Slope = -Px/Py, or slope = (Y2 - Y1) / (X2 - X1) between two points on the line.",
+      substitution: "By prices: slope = -4/20. By coordinates: slope = (3 - 4) / (10 - 5) = -1/5.",
+      calculation: "Both give slope = -0.2. Each additional loaf of bread costs the consumer 0.2 units of sugar.",
+      answer: "Slope = -0.2, the negative price ratio, and it is constant along the whole line."
+    },
+    {
+      problem: "A student has 60 birr for tea (X) at 3 birr and coffee (Y) at 6 birr. Is the bundle of 10 teas and 4 coffees affordable? Is the bundle of 15 teas and 5 coffees affordable?",
+      given: "M = 60 birr, Px = 3 birr (tea), Py = 6 birr (coffee).",
+      formula: "Feasibility test: PxX + PyY <= M.",
+      substitution: "Bundle 1: 3(10) + 6(4) = 30 + 24 = 54 birr. Bundle 2: 3(15) + 6(5) = 45 + 30 = 75 birr.",
+      calculation: "54 birr is less than 60, so bundle 1 is inside the budget line with 6 birr left. 75 birr exceeds 60, so bundle 2 lies outside the line.",
+      answer: "The first bundle is feasible (with 6 birr unspent); the second is non-feasible at this income and these prices."
+    },
+    {
+      problem: "For the student in the previous example, describe the new budget line if (a) income rises by 50 percent, (b) the price of tea doubles, (c) the price of coffee falls to 3 birr.",
+      given: "Original: 3X + 6Y = 60, with intercepts (20, 0) and (0, 10) and slope -0.5.",
+      formula: "Income changes shift the line parallel (slope = -Px/Py unchanged); a price change rotates the line around the other good's intercept.",
+      substitution: " (a) M = 90: 3X + 6Y = 90, intercepts 30 and 15. (b) Px = 6: 6X + 6Y = 60, X-intercept = 10, Y-intercept still 10. (c) Py = 3: 3X + 3Y = 60, Y-intercept = 20, X-intercept still 20.",
+      calculation: "In (a) both intercepts rise by 50 percent with slope unchanged. In (b) the line pivots inward around the coffee intercept 10. In (c) it pivots outward around the tea intercept 20.",
+      answer: "(a) parallel outward shift; (b) inward rotation on the tea axis; (c) outward rotation on the coffee axis."
+    }
+  ],
+  commonMistakes: [
+    "Treating a desire for a good as demand; without purchasing power it is only a wish.",
+    "Computing the slope of the budget line as +Px/Py and forgetting the negative sign.",
+    "Swapping the intercepts: the X-intercept is M/Px and the Y-intercept is M/Py, not the reverse.",
+    "Thinking a rise in income makes the budget line steeper or flatter; only prices determine the slope.",
+    "Believing points outside the budget line can be bought by careful budgeting; they cost more than income, period.",
+    "Forgetting that a change in the price of only one good rotates the line instead of shifting it parallel.",
+    "Assuming a consumer choosing inside the budget line is maximizing utility; theory assumes all income is spent because savings generate no utility."
+  ],
+  applications: [
+    "A family with 100 birr for bread and sugar is exactly textbook case: each good's maximum purchase is income divided by its price.",
+    "A student's monthly pocket money defines the budget line between call credit and transport; if fares rise, the line rotates inward on the transport axis.",
+    "When a salary increase arrives but prices do not change, a household moves to a parallel budget line farther from the origin, able to buy more of everything it used to buy.",
+    "Checking whether a planned purchase fits the month's budget is a feasibility test, PxX + PyY <= M, which families perform whenever they shop.",
+    "When fuel or food prices rise proportionately, consumers experience it like an income cut, because the budget line shifts inward parallel.",
+    "Governments study budget lines to understand how taxes and subsidies, which change effective prices, rotate consumers' opportunity sets."
+  ],
+  summary: "The budget line lists the combinations of two goods a consumer can buy with fixed income M at prices Px and Py, written PxX + PyY = M, with intercepts M/Px and M/Py and constant slope -Px/Py. Bundles outside the line are unattainable while consumers are assumed to spend all income on the line itself. Income changes shift the line parallel; a price change rotates it around the unchanged intercept of the other good.",
+  visuals: [
+    {
+      type: "steps",
+      config: {
+        title: "Drawing a Budget Line",
+        steps: [
+          { label: "Collect the data", detail: "Fix the income M and the two market prices Px and Py." },
+          { label: "Write the equation", detail: "Form the budget equation PxX + PyY = M." },
+          { label: "Compute intercepts", detail: "X-intercept = M/Px when Y = 0; Y-intercept = M/Py when X = 0." },
+          { label: "Join the intercepts", detail: "The straight segment between them is the budget line with slope -Px/Py." },
+          { label: "Read the areas", detail: "Points beyond the line are non-feasible; points inside or on it are feasible." }
+        ]
+      }
+    },
+    {
+      type: "tableVisual",
+      config: {
+        title: "Budget Combinations (M = 100, Px = 4, Py = 20)",
+        headers: ["Alternative", "Bread (X)", "Sugar (Y)"],
+        rows: [
+          ["A", "0", "5"],
+          ["B", "5", "4"],
+          ["C", "10", "3"],
+          ["D", "15", "2"],
+          ["E", "20", "1"],
+          ["F", "25", "0"]
+        ]
+      }
+    },
+    {
+      type: "comparison",
+      config: {
+        title: "Income Change vs Price Change",
+        left: { name: "Income change", items: ["Line shifts parallel outward for a rise", "Line shifts parallel inward for a fall", "Both intercepts move (M/Px and M/Py)", "Slope -Px/Py unchanged"] },
+        right: { name: "Price of X change", items: ["Line rotates (pivots) on the Y-intercept", "Price fall: X-intercept moves outward", "Price rise: X-intercept moves inward", "Slope -Px/Py changes"] }
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "A budget line shows:", options: ["combinations of two goods that give equal satisfaction", "combinations of two goods a consumer can buy with a given income at given prices", "the consumer's ranking of bundles", "the marginal utility of each good"], answer: 1, difficulty: 1, explanation: "The budget line summarises the buying ability of the consumer given income and prices." },
+    { type: "short", q: "Write the general budget equation in terms of Px, Py, X, Y and M.", answer: "pxx + pyy = m|px*x + py*y = m", difficulty: 1, explanation: "Spending on X plus spending on Y equals money income: PxX + PyY = M." },
+    { type: "tf", q: "Demand is a wish backed by purchasing power.", answer: true, difficulty: 1, explanation: "The textbook stresses that we study demand, not wish, and demand requires the ability to pay." },
+    { type: "mcq", q: "With M = 100 birr, Px = 4 birr and Py = 20 birr, the X-intercept and Y-intercept of the budget line are:", options: ["25 and 5", "5 and 25", "400 and 2000", "20 and 4"], answer: 0, difficulty: 2, explanation: "X-intercept = M/Px = 100/4 = 25; Y-intercept = M/Py = 100/20 = 5." },
+    { type: "mcq", q: "The slope of a budget line is:", options: ["the ratio of marginal utilities", "positive and equal to Px/Py", "the negative of the price ratio, -Px/Py", "always equal to -1"], answer: 2, difficulty: 2, explanation: "Slope = -Px/Py, the price of the X-axis good over the price of the Y-axis good, with a negative sign." },
+    { type: "concept", q: "What does a consumer located inside (below) the budget line show about expenditure?", options: [], answer: "expenditure is less than income|money is left over|not all income is spent", difficulty: 2, explanation: "Inside the line, total expenditure is below income, so some money remains unspent." },
+    { type: "tf", q: "If income rises while prices are unchanged, the budget line shifts outward parallel and its slope does not change.", answer: true, difficulty: 2, explanation: "Both intercepts M/Px and M/Py rise, but the slope depends only on prices." },
+    { type: "mcq", q: "If the price of X rises while Py and income stay constant, the budget line:", options: ["shifts parallel outward", "pivots inward around the unchanged Y-intercept", "does not move", "becomes horizontal"], answer: 1, difficulty: 3, explanation: "The Y-intercept M/Py is fixed and the X-intercept M/Px shrinks, so the line rotates inward." },
+    { type: "short", q: "A student has 60 birr and tea costs 3 birr. What is the maximum amount of tea the student can buy if all income goes to tea?", answer: "20|20 units|20 teas", difficulty: 2, explanation: "X-intercept = M/Px = 60/3 = 20." },
+    { type: "mcq", q: "If the prices of both goods rise proportionately while money income is unchanged, the budget line:", options: ["shifts parallel inward like a fall in income", "rotates outward around the origin", "is unchanged", "becomes steeper only"], answer: 0, difficulty: 3, explanation: "Both intercepts M/Px and M/Py fall while the price ratio is unchanged, so the line moves parallel inward." },
+    { type: "tf", q: "Points on the budget line itself are considered non-feasible because all income is spent there.", answer: false, difficulty: 2, explanation: "Points on and inside the line are feasible; the line shows spending exactly equal to income." }
+  ]
+};
 
-Lessons["g11-economics-ue1-t4"] = {"overview":"<b>Optimum of the Consumer</b> sits inside <b>Theory of Consumer Behavior and Demand</b>. Indifference curves are the focus of Unit 1 of Grade 11 Economics in the Ethiopian (FDRE Ministry of Education) curriculum. First, it reviews the cardinal utility approach. Then it builds the ordinal utility theory around indifference curves, their properties, and the marginal rate of substitution. Next, it draws the budget line and shows how income and price changes move it. Finally, it finds the consumer optimum and derives the demand curve. Students will also learn how indifference curves explain real-life consumer choices.","objectives":["Differentiate the cardinal and ordinal utility approaches.","Define the indifference curve, set, and map.","Explain the properties and the marginal rate of substitution.","Draw the budget line and show how income and prices move it.","Determine the consumer optimum and derive the demand curve."],"simple":"<b>Optimum of the Consumer in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, consumer equilibrium where the indifference curve touches the budget line.</li> <li>Then the effects of income and price changes on that equilibrium.</li> <li>Also the price-consumption curve and how it derives the demand curve.</li></ul>","detailed":"<p><b>Optimum of the Consumer — the essentials.</b> First, consumer equilibrium where the indifference curve touches the budget line. Then the effects of income and price changes on that equilibrium. Also the price-consumption curve and how it derives the demand curve.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Differentiate the cardinal and ordinal utility approaches.</li><li>Define the indifference curve, set, and map.</li><li>Explain the properties and the marginal rate of substitution.</li><li>Draw the budget line and show how income and prices move it.</li><li>Determine the consumer optimum and derive the demand curve.</li></ul>","keyTerms":[{"term":"First","def":"First, consumer equilibrium where the indifference curve touches the budget line."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing optimum of the consumer with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Interpreting economic news about Ethiopia in the media","The applied data-response questions in the ESSLCE economics paper"],"summary":"Optimum of the Consumer: First, consumer equilibrium where the indifference curve touches the budget line. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"Optimum of the Consumer\" is correct according to the MoE curriculum?","options":["First, consumer equilibrium where the indifference curve touches the budget line.","Optimum of the Consumer holds only under conditions this topic says do not apply","Optimum of the Consumer inverts the direction of the relationship this topic describes","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, consumer equilibrium where the indifference curve touches the budget line. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"Optimum of the Consumer\"?","options":["Then the effects of income and price changes on that equilibrium.","Optimum of the Consumer is a household-level claim, not the national-level claim of this topic","Optimum of the Consumer holds only under conditions this topic says do not apply","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Then the effects of income and price changes on that equilibrium."},{"type":"tf","q":"True or false: First, consumer equilibrium where the indifference curve touches the budget line.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover optimum of the consumer.","answer":false,"difficulty":1,"explanation":"Optimum of the Consumer is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Differentiate the cardinal and ordinal utility approaches.","difficulty":2,"altAnswers":["Define the indifference curve, set, and map.","Explain the properties and the marginal rate of substitution."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why optimum of the consumer matters.","answer":"Optimum of the Consumer is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of optimum of the consumer in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to optimum of the consumer, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
-
+Lessons["g11-economics-ue1-t4"] = {
+  overview: "Consumer optimum is reached where the highest attainable indifference curve is tangent to the budget line. This lesson states the tangency condition MRS = Px/Py, traces how income changes move the optimum along the income consumption curve (ICC), and how price changes trace the price consumption curve (PCC) from which the demand curve is derived.",
+  objectives: [
+    "State the necessary conditions for consumer optimum in the ordinal approach",
+    "Show the optimum graphically as a tangency between the budget line and an indifference curve",
+    "Explain how changes in income shift the optimum and define the income consumption curve",
+    "Distinguish normal goods from inferior goods using the income effect",
+    "Relate price changes to the price consumption curve and the derivation of the demand curve"
+  ],
+  simple: "A consumer maximizes utility by reaching the highest indifference curve the budget line allows. This happens where an indifference curve is tangent to the budget line: the slope of the curve (the MRS) equals the slope of the line (Px/Py), and the consumer spends all income. As income rises, the budget line shifts parallel outward and new optima appear on higher curves; joining these equilibrium points traces the income consumption curve (ICC). Along it, consumption of normal goods like meat and milk rises with income, while consumption of inferior goods like bus travel falls. As the price of one good changes, the budget line rotates and new optima trace the price consumption curve (PCC). Plotting each price against the equilibrium quantity gives the individual demand curve, which slopes downward.",
+  detailed: "<p><b>What the consumer seeks.</b> Consumers seek to maximize satisfaction by spending their income on goods and services. Preferences are shown by indifference curves and purchasing ability by the budget line, so the consumer tries to attain the highest possible indifference curve given the budget line. Combinations above and to the right of the budget line are beyond the reach of the consumer and are irrelevant for equilibrium consideration.</p><p><b>The tangency condition.</b> Consumer optimum, or consumer equilibrium, occurs where an indifference curve is tangent to the budget line, so that the slope of the indifference curve (MRSx,y) equals the slope of the budget line (Px/Py) while the consumer spends all income on the line. At the optimum position, MRS = Px/Py, which in marginal utility terms is MUx/MUy = Px/Py or MUx/Px = MUy/Py. The consumer must be on the budget line, since bundles beyond it are unattainable with existing income and prices.</p><p><b>Finding point E graphically.</b> Consider points on the budget line. At point A the consumer reaches only IC1. Moving down the line to point B brings the consumer onto IC2, so B is preferred to A. Moving further to point E, the budget line just touches IC3, the greatest satisfaction within reach. Point E, the tangency of the highest attainable indifference curve with the budget line, is the <b>point of consumer optimum</b>. A bundle like G on an even higher curve is unattainable with the given income and prices.</p><p><b>Income changes and the ICC.</b> An increase in income shifts the budget line parallel outward and lets the consumer meet indifference curves previously unreachable, creating a new equilibrium; a fall in income shifts the line parallel inward. Connecting all equilibrium market baskets corresponding to all possible levels of money income gives the <b>income consumption curve (ICC)</b>, the locus of consumer equilibrium points resulting when only income varies, all other things remaining the same. For a <b>normal good</b>, consumption increases with income; the textbook gives meat and milk as examples. An <b>inferior good</b> is one whose consumption decreases as income increases; traveling by public bus is a typical example, though for someone who previously travelled on foot the bus could be a normal good. As people get richer they tend to reduce consumption of inferior goods.</p><p><b>Price changes and the PCC.</b> A change in the price of one good rotates the budget line: a rise in the price of X rotates the line inward on the X-axis, and a decrease rotates it outward, letting the consumer buy more X while the Y-intercept is unchanged. Each price of X creates its own budget line and its own tangency equilibrium. The <b>price-consumption curve (PCC)</b> is the locus of utility-maximizing combinations of products that result from variations in the price of one commodity when other product prices, income and other factors are held constant. With original budget line AB1, a lower price of X gives AB2 and a still lower price gives AB3, producing equilibrium points E1, E2 and E3; connecting them traces the PCC.</p><p><b>Deriving the demand curve.</b> The individual demand curve can be derived from the PCC. Each equilibrium point pairs a price of X with the utility-maximizing quantity of X consumed. When the price falls successively from Px1 to Px2 to Px3, the budget line rotates outward and the optimum quantities rise from point to point; plotting these price-quantity pairs in a lower panel yields the demand curve. Demand shows an <b>inverse relationship</b> between the price of a good and the quantity demanded at equilibrium, and the demand curve is derived from consumer optimum combinations under both the cardinal and ordinal approaches.</p>",
+  keyTerms: [
+    { term: "Consumer optimum (equilibrium)", def: "The tangency of the highest attainable indifference curve with the budget line, where MRS = Px/Py and all income is spent." },
+    { term: "Tangency condition", def: "The equality of the slope of the indifference curve and the slope of the budget line at the optimum." },
+    { term: "Income consumption curve (ICC)", def: "The locus of consumer equilibrium points as income varies, prices remaining constant." },
+    { term: "Price consumption curve (PCC)", def: "The locus of utility-maximizing bundles as the price of one commodity varies, with other prices and income held constant." },
+    { term: "Normal good", def: "A good whose consumption increases as consumer income increases, such as meat and milk." },
+    { term: "Inferior good", def: "A good whose consumption decreases as income increases, such as traveling by public bus." },
+    { term: "Derived demand curve", def: "The price-quantity pairs traced from the PCC, showing the inverse price-quantity relationship." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "A consumer spends total expenditure E = 2900 birr on goods X and Y with Px = 50 birr and Py = 40 birr, and marginal utilities MUx = X and MUy = 4Y. Formulate the budget equation, find the slope of the budget line, and work out the optimum quantities of the two goods.",
+      given: "M = 2900 birr, Px = 50, Py = 40, MUx = X, MUy = 4Y.",
+      formula: "Budget equation PxX + PyY = M; slope = -Px/Py; optimum requires MUx/Px = MUy/Py with the equation satisfied.",
+      substitution: "Budget: 50X + 40Y = 2900. Slope = -50/40 = -1.25. Optimum: X/50 = 4Y/40, so X/50 = Y/10, giving X = 5Y.",
+      calculation: "Substitute X = 5Y into the budget equation: 50(5Y) + 40Y = 250Y + 40Y = 290Y = 2900, so Y = 10 and X = 5(10) = 50. Check: MUx/Px = 50/50 = 1 and MUy/Py = 4(10)/40 = 1.",
+      answer: "The budget line is 50X + 40Y = 2900 with slope -1.25, and the optimum bundle is X = 50 units of X and Y = 10 units of Y."
+    },
+    {
+      problem: "At a candidate bundle on the budget line, the consumer's MRS is 3 while the price ratio Px/Py is 2. Is this bundle the optimum? What adjustment should the consumer make?",
+      given: "MRS = 3 (willing to give 3 units of Y for 1 more X); Px/Py = 2 (market asks only 2 units of Y per unit of X).",
+      formula: "At the consumer optimum, MRS must equal the price ratio Px/Py.",
+      substitution: "MRS = 3 > Px/Py = 2, so the consumer values an extra X more than the market charges for it in Y.",
+      calculation: "Buying more X and less Y raises the quantity of X held and lowers its marginal utility, so the MRS falls from 3 toward 2 as the consumer moves down the budget line.",
+      answer: "Not yet the optimum. The consumer should substitute X for Y along the budget line until MRS = Px/Py = 2."
+    },
+    {
+      problem: "A consumer with M = 100 birr faces Px = 4 birr and Py = 20 birr, so the budget line has intercepts (25, 0) and (0, 5) and equilibrium at E. Income rises to 160 birr with prices unchanged. Describe the new budget line and the new optimum for normal goods.",
+      given: "M rises from 100 to 160; Px = 4, Py = 20 unchanged.",
+      formula: "An income rise shifts the budget line parallel outward; intercepts are M/Px and M/Py.",
+      substitution: "New X-intercept = 160/4 = 40; new Y-intercept = 160/20 = 8; slope stays -4/20 = -0.2.",
+      calculation: "The parallel outward line touches a higher indifference curve, so the new equilibrium E2 lies on a higher curve. For normal goods, both equilibrium quantities rise; joining E and E2 starts the ICC.",
+      answer: "The line shifts parallel outward to intercepts (40, 0) and (0, 8); the new optimum is on a higher indifference curve with more of both normal goods."
+    },
+    {
+      problem: "From a price consumption curve, the equilibrium quantity of good X is 5 units when Px = 20 birr, 10 units when Px = 10 birr, and 20 units when Px = 5 birr. What does the derived demand curve look like?",
+      given: "Pairs (Px, X): (20, 5), (10, 10), (5, 20), with income and Py constant.",
+      formula: "Plot each PCC equilibrium price against its equilibrium quantity to obtain the individual demand curve.",
+      substitution: "As Px falls from 20 to 10 to 5 birr, equilibrium quantity rises from 5 to 10 to 20 units.",
+      calculation: "Plotting prices on the vertical axis and quantities on the horizontal axis traces a curve sloping downward from left to right.",
+      answer: "The demand curve slopes downward, confirming the inverse relationship between price and quantity demanded."
+    }
+  ],
+  commonMistakes: [
+    "Accepting any intersection of the budget line with an indifference curve as equilibrium; only the tangency point is the optimum.",
+    "Forgetting the second condition that the consumer spends all income, so the optimum must lie on the budget line.",
+    "Writing the tangency condition as MRS = Py/Px and inverting the price ratio; the correct condition is MRS = Px/Py.",
+    "Assuming a price change shifts the budget line parallel; a price change rotates the line while a pure income change is the parallel case.",
+    "Calling all goods normal goods; consumption of inferior goods like public bus travel falls as income rises.",
+    "Thinking the ICC is drawn by varying prices; the ICC varies income, while varying price traces the PCC.",
+    "Believing the demand curve comes directly from one indifference curve; it is derived by connecting a whole series of optimum points from the PCC."
+  ],
+  applications: [
+    "A family choosing between teff and rice with a fixed monthly budget reaches its optimum where its willingness to trade equals the market price ratio.",
+    "As Ethiopian household incomes rise, spending shifts toward meat and milk, textbook examples of normal goods traced along the ICC.",
+    "A worker who switches from public bus to private taxi or motorcycle after a raise shows how bus travel behaves as an inferior good.",
+    "When sugar prices fall, consumers rotate along a new budget line and buy more sugar; connecting their responses shows the PCC and explains market demand.",
+    "Firms use the downward sloping demand curve derived from consumer optimum to predict how sales respond to discount campaigns.",
+    "Policy analysts use income changes, such as salary reforms, to predict how consumption patterns of normal and inferior goods will shift across households."
+  ],
+  summary: "Consumer optimum occurs where the budget line is tangent to the highest attainable indifference curve, so MRS = Px/Py and all income is spent. Rising income shifts the budget line parallel outward and successively higher equilibria trace the income consumption curve, along which normal goods (meat, milk) expand and inferior goods (bus travel) contract. Changing the price of one good rotates the line and traces the price consumption curve, from which the downward sloping individual demand curve is derived.",
+  visuals: [
+    {
+      type: "steps",
+      config: {
+        title: "Reaching the Consumer Optimum",
+        steps: [
+          { label: "Draw the budget line", detail: "Use income M and prices Px, Py to fix the feasible set." },
+          { label: "Draw the indifference map", detail: "Sketch several ICs; higher curves mean higher satisfaction." },
+          { label: "Find the tangency", detail: "Locate where the highest reachable IC just touches the budget line." },
+          { label: "Check the condition", detail: "Confirm MRS = Px/Py at the touching point." },
+          { label: "Confirm spending", detail: "Verify the bundle lies on the budget line, so income equals expenditure." }
+        ]
+      }
+    },
+    {
+      type: "mindMap",
+      config: {
+        title: "Consumer Equilibrium and Its Curves",
+        center: "Consumer Optimum",
+        branches: [
+          { label: "Conditions", items: ["MRS = Px/Py", "All income spent", "Highest reachable IC"] },
+          { label: "Income effect", items: ["Parallel line shifts", "Income consumption curve (ICC)"] },
+          { label: "Goods types", items: ["Normal goods: meat, milk", "Inferior goods: bus travel"] },
+          { label: "Price effect", items: ["Line rotates", "Price consumption curve (PCC)", "Demand curve derived"] }
+        ]
+      }
+    },
+    {
+      type: "comparison",
+      config: {
+        title: "Income Change vs Price Change at the Optimum",
+        left: { name: "Income changes", items: ["Budget line shifts parallel", "New optimum on higher (or lower) IC", "Traces the ICC", "Normal goods: more bought", "Inferior goods: less bought"] },
+        right: { name: "Price of X changes", items: ["Budget line rotates on Y-intercept", "New optimum moves along the line", "Traces the PCC", "Lower Px: more X bought", "Demand curve derived from PCC"] }
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "When a consumer wants to maximize utility, the consumer can do so by:", options: ["maximizing the marginal utility obtained from only one good", "saving more money and spending less on goods", "consuming outside the budget line", "finding the point of tangency between the budget line and an indifference curve"], answer: 3, difficulty: 1, explanation: "Equilibrium is established at the tangency of the highest possible indifference curve with the budget line." },
+    { type: "tf", q: "At the consumer optimum, the marginal rate of substitution equals the price ratio Px/Py.", answer: true, difficulty: 1, explanation: "The tangency condition is MRS = Px/Py, and the consumer also spends all income." },
+    { type: "mcq", q: "The curve showing the relationship between equilibrium quantities of two goods and various levels of income is the:", options: ["price consumption curve (PCC)", "demand curve", "income consumption curve (ICC)", "indifference curve (IC)"], answer: 2, difficulty: 1, explanation: "The ICC joins consumer equilibrium points as income varies with prices constant." },
+    { type: "mcq", q: "Given goods X and Y and income M, if the price of X increases while money income and the price of Y stay the same, the budget line:", options: ["rotates to the right", "rotates inward for the X commodity", "keeps the same slope", "changes both intercepts together"], answer: 1, difficulty: 2, explanation: "The Y-intercept M/Py is unchanged while M/Px shrinks, so the line pivots inward on the X-axis." },
+    { type: "tf", q: "Indifference curves above the region of the budget line are irrelevant for equilibrium because they are beyond the consumer's reach.", answer: true, difficulty: 2, explanation: "Bundles beyond the budget line are unattainable with existing income and prices." },
+    { type: "concept", q: "Define the income consumption curve.", answer: "locus of equilibrium points as income changes|locus of consumer optimum points when only income varies", difficulty: 2, explanation: "The ICC joins all optimum market baskets corresponding to different levels of money income, prices constant." },
+    { type: "mcq", q: "Which pair of goods does the textbook give as examples of normal goods?", options: ["Public bus travel and khat", "Meat and milk", "Blue pens and black pens", "Left shoes and right shoes"], answer: 1, difficulty: 2, explanation: "Normal goods are goods whose consumption increases with income; the examples are meat and milk." },
+    { type: "short", q: "What is the name of the curve that is the locus of utility-maximizing combinations resulting from variations in the price of one commodity, other prices and income constant?", answer: "price consumption curve|pcc|price-consumption curve", difficulty: 2, explanation: "That locus is the price consumption curve (PCC)." },
+    { type: "mcq", q: "At a bundle on the budget line, MUx = 60, Px = 6 birr, MUy = 20 and Py = 4 birr. To reach optimum the consumer should:", options: ["stop consuming both goods", "buy more Y and less X", "buy more X and less Y", "keep the bundle unchanged"], answer: 2, difficulty: 3, explanation: "MUx/Px = 10 exceeds MUy/Py = 5, so shifting a birr from Y to X raises satisfaction until the ratios equalize." },
+    { type: "ordering", q: "Arrange the steps for locating the consumer optimum graphically.", options: ["Locate the tangency point of curve and line", "Draw the budget line from income and prices", "Verify that MRS equals Px/Py and all income is spent", "Draw the indifference map with higher curves preferred"], answer: 1, difficulty: 3, explanation: "First draw the budget line, then the indifference map, then find the tangency, then verify the optimum conditions." },
+    { type: "concept", q: "Explain why the demand curve derived from the price consumption curve slopes downward.", answer: "lower prices raise the optimum quantity|inverse relationship between price and quantity|falls in px rotate the line outward and increase x", difficulty: 3, explanation: "Successive falls in Px rotate the budget line outward and raise the equilibrium quantity, so price and quantity move inversely." }
+  ]
+};

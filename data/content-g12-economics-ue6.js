@@ -1,12 +1,509 @@
-/* Content: g12-economics-ue6 — migrated from generated JSON (Phase 0 pipeline restore).
-   Content upgrade to spec v2 happens per unit in later phases. */
+/* Content: Grade 12 Economics - Unit 6: Poverty and Inequality (4 topics)
+   Source: MoE Economics Grade 12 Student Textbook, Unit 6. */
 window.Lessons = window.Lessons || {};
 
-Lessons["g12-economics-ue6-t1"] = {"overview":"<b>Concept of Poverty and Its Measurement</b> sits inside <b>Poverty and Inequality</b>. Poverty and inequality are the focus of Unit 6 of Grade 12 Economics in the Ethiopian (FDRE Ministry of Education) curriculum. First, it defines poverty, its types, and how to measure it, including Sen’s approach. Then it explains income inequality and its measures. Next, it compares global and regional poverty and looks at women and poverty. Finally, it reviews poverty and inequality in Ethiopia and the role of indigenous knowledge. Students will also learn how poverty and inequality affect real-life communities.","objectives":["Define poverty and explain how to measure it.","Explain income inequality and its measures.","Compare global, regional, and national poverty.","Identify the groups most affected by poverty.","Assess the role of indigenous knowledge in reducing poverty in Ethiopia."],"simple":"<b>Concept of Poverty and Its Measurement in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, poverty and its types.</li> <li>Then how to measure poverty.</li> <li>Also Sen’s approach to poverty and wellbeing.</li></ul>","detailed":"<p><b>Concept of Poverty and Its Measurement — the essentials.</b> First, poverty and its types. Then how to measure poverty. Also Sen’s approach to poverty and wellbeing.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Define poverty and explain how to measure it.</li><li>Explain income inequality and its measures.</li><li>Compare global, regional, and national poverty.</li><li>Identify the groups most affected by poverty.</li><li>Assess the role of indigenous knowledge in reducing poverty in Ethiopia.</li></ul>","keyTerms":[{"term":"First","def":"First, poverty and its types."},{"term":"Then how to measure poverty","def":"Then how to measure poverty."},{"term":"Also Sen’s approach to poverty and wellbeing","def":"Also Sen’s approach to poverty and wellbeing."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing concept of poverty and its measurement with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Interpreting economic news about Ethiopia in the media","The applied data-response questions in the ESSLCE economics paper"],"summary":"Concept of Poverty and Its Measurement: First, poverty and its types. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"Concept of Poverty and Its Measurement\" is correct according to the MoE curriculum?","options":["First, poverty and its types.","Concept of Poverty and Its Measurement holds only under conditions this topic says do not apply","Concept of Poverty and Its Measurement inverts the direction of the relationship this topic describes","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, poverty and its types. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"Concept of Poverty and Its Measurement\"?","options":["Then how to measure poverty.","Concept of Poverty and Its Measurement is a household-level claim, not the national-level claim of this topic","Concept of Poverty and Its Measurement holds only under conditions this topic says do not apply","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Then how to measure poverty."},{"type":"tf","q":"True or false: First, poverty and its types.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover concept of poverty and its measurement.","answer":false,"difficulty":1,"explanation":"Concept of Poverty and Its Measurement is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Define poverty and explain how to measure it.","difficulty":2,"altAnswers":["Explain income inequality and its measures.","Compare global, regional, and national poverty."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why concept of poverty and its measurement matters.","answer":"Concept of Poverty and Its Measurement is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of concept of poverty and its measurement in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to concept of poverty and its measurement, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
+Lessons["g12-economics-ue6-t1"] = {
+  overview: "Poverty is a multidimensional deprivation that goes far beyond a lack of money, and economists have developed several tools to count and compare it. This lesson defines poverty, separates absolute from relative poverty, and walks through the main measures from the headcount index to the MPI and Sen's capability approach.",
+  objectives: [
+    "Explain the meaning of poverty using the voices of the poor and the World Bank definition",
+    "Distinguish absolute poverty from relative poverty",
+    "List the reasons for measuring poverty and the three steps involved",
+    "Compute and interpret the headcount index and the poverty gap",
+    "Explain the Multidimensional Poverty Index and Sen's capability approach"
+  ],
+  simple: "Poverty is more than a lack of income. Poor people themselves describe hunger, powerlessness, shame, illness, and the lack of roads, clean water and schooling, which shows that poverty is multidimensional. The World Bank defines poverty as pronounced deprivation in wellbeing. Poverty has two main types: absolute poverty, where a person cannot meet subsistence essentials such as food, clothing and shelter, and relative poverty, judged against how others in society live. To measure poverty, economists define a welfare indicator, set a poverty line, and compute a summary statistic such as the headcount index (H/N), the total poverty gap, or the Foster-Greer-Thorbecke index. The Multidimensional Poverty Index adds health, education and living standards. Amartya Sen argues that poverty is really the inability to pursue wellbeing because of a lack of economic means.",
+  detailed: "<p><b>The voices of the poor.</b> To understand poverty we start with what poor people themselves say: a woman from Uganda speaks of having no say in public, no food, no clothing; a group in Brazil mentions low salaries, lack of jobs, medicine, food and clothes; a rural Ethiopian group describes youth migrating to towns or joining the army to escape hunger. The common thread is that poverty is multidimensional. At least six dimensions feature prominently in poor people's definitions: first, poverty consists of interlocked dimensions and the bottom line is always hunger; second, it has psychological dimensions such as powerlessness, voicelessness, dependency, shame and humiliation; third, the poor lack access to basic infrastructure such as roads, transportation and clean water; fourth, they thirst for literacy even though schooling receives mixed reviews; fifth, poor health and illness are dreaded as sources of destitution; and sixth, the poor rarely speak of income but focus on managing assets - physical, human, social and environmental - to cope with vulnerability.</p><p><b>The World Bank definition.</b> The World Bank (2000) defines poverty as the pronounced deprivation in wellbeing, and wellbeing is seen from three angles: command over commodities (not enough income or consumption to pass an adequate minimum threshold), a specific type of consumption (people can be house poor, food poor or health poor), and the capability of the individual to function in society. The textbook also generalises about where the poor are: they are disproportionately located in rural areas, primarily engaged in agriculture, more likely to be women and children than adult males, and often concentrated among minority ethnic groups and indigenous peoples. About 80% of all target poverty groups live in rural areas in Africa and Asia, and about 50% in Latin America.</p><p><b>Types of poverty.</b> <b>Relative poverty</b> is defined in comparison to other people's standing in the economy; a person can be relatively poor even while meeting basic needs, and it is seen as a failure of distributive justice. <b>Absolute poverty</b> is the situation of someone being unable or only barely able to meet the subsistence essentials such as food, clothing and shelter; it is a failure to meet basic human dignity and even human rights. Its extent is expressed by the number of people living below a specified minimum real income, such as the international poverty line of less than $1.25 a day or $2 a day in purchasing power parity (PPP) dollars.</p><p><b>Why and how poverty is measured.</b> There are four reasons to measure poverty: to keep poor people on the agenda, to identify poor people so interventions can be targeted, to monitor and evaluate projects and policies, and to evaluate the effectiveness of institutions that help the poor. Measurement then follows three steps: defining an indicator of welfare; establishing a minimum acceptable standard of that indicator to separate the poor from the non-poor (the poverty line); and generating a summary statistic that aggregates the information relative to the poverty line. In practice this means a fixed, monetary, consumption-based threshold, with data from a household survey, and poverty measured as the percentage of individuals whose per capita consumption is below the poverty line.</p><p><b>The main poverty measures.</b> The <b>headcount index</b> takes the headcount (H) of people whose income or consumption falls below the absolute poverty line (Yp) as a fraction of the total population (N), so headcount ratio = H/N. The <b>total poverty gap (TPG)</b> measures the total amount of income needed to raise everyone below the poverty line up to that line: the sum of the differences between the poverty line and the actual incomes of all people below it, while the <b>average poverty gap (APG)</b> divides the TPG by the total population. The <b>Foster-Greer-Thorbecke (FGT) index</b> is a class of absolute poverty measures that also reveals income inequality among the poor.</p><p><b>The Multidimensional Poverty Index and Sen.</b> The <b>MPI</b>, adopted by the UNDP in 2010, uses three dimensions - health, education and standard of living - because they reflect problems the poor often mention and are well established as human rights. Health has two indicators (a child having died, or malnutrition) each counting one-sixth; education has two indicators (no member completed five years of schooling, or a school-age child out of school for grades one to eight) each also one-sixth; and the standard of living uses six deprivations (electricity, safe drinking water, sanitation, flooring, cooking fuel, and assets such as a telephone, radio, television, bicycle or motorbike). Sabina Alkire and James extended the FGT index to these dimensions using the dual cut-off method: first a cut-off within each dimension, then a cut-off in the number of deprivations needed to be counted as multidimensionally poor. Finally, Amartya Sen, the 1998 Nobel Laureate, argued with his <b>capability approach</b> that income and wealth are not ends in themselves but instruments; what matters is what a person is, or can be, and does, or can do - the <i>functionings</i> a person achieves and the <i>capabilities</i> (real freedoms) a person has. Poverty, for Sen, is not low wellbeing but the inability to pursue wellbeing because of a lack of economic means; a book, he notes, is of little value to an illiterate person except perhaps as a cooking fuel.</p>",
+  keyTerms: [
+    { term: "Poverty", def: "Pronounced deprivation in wellbeing, covering lack of income, basic social services, personal security and empowerment (World Bank, 2000)." },
+    { term: "Absolute poverty", def: "The situation of being unable or only barely able to meet subsistence essentials such as food, clothing and shelter; counted against a poverty line such as $1.25 or $2 a day PPP." },
+    { term: "Relative poverty", def: "Poverty defined in comparison to other people's standing in the economy; seen as a failure of distributive justice." },
+    { term: "Poverty line", def: "A minimum acceptable standard of a welfare indicator used to separate the poor from the non-poor." },
+    { term: "Headcount index", def: "The number of people below the poverty line (H) as a fraction of the total population (N), so the headcount ratio is H/N." },
+    { term: "Total poverty gap (TPG)", def: "The sum of the differences between the poverty line and the actual incomes of all people living below that line; divided by total population it gives the average poverty gap." },
+    { term: "Multidimensional Poverty Index (MPI)", def: "The UNDP's 2010 poverty index using three dimensions - health, education and standard of living - each with its own indicators and weights." },
+    { term: "Capability approach", def: "Sen's view that wellbeing rests on functionings (what a person does or can do) and capabilities (real freedoms), not on income or utility; poverty is the inability to pursue wellbeing." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "A survey covers a population of 400 people and finds that 60 of them live below the absolute poverty line. Calculate the headcount index.",
+      given: "Headcount H = 60 people below the poverty line; total population N = 400.",
+      formula: "Headcount index = H/N, the headcount as a fraction of the total population.",
+      substitution: "H/N = 60/400.",
+      calculation: "60/400 = 0.15, which expressed as a percentage is 15%. Every 100 people, about 15 are counted as absolutely poor.",
+      answer: "The headcount index is 0.15, or 15% of the population lives below the poverty line."
+    },
+    {
+      problem: "In a five-person household the poverty line is 1,500 birr per month per person. Individual monthly incomes are 1,200, 1,000 and 800 birr for three members, and the other two members earn 2,500 birr each. Find the total poverty gap and the average poverty gap.",
+      given: "Poverty line (Yp) = 1,500 birr; incomes below the line are 1,200, 1,000 and 800 birr; total population N = 5.",
+      formula: "TPG = the sum of (poverty line - actual income) over all people below the line; APG = TPG divided by the total population.",
+      substitution: "Gaps are 1,500 - 1,200 = 300, 1,500 - 1,000 = 500, and 1,500 - 800 = 700 birr, so TPG = 300 + 500 + 700.",
+      calculation: "TPG = 1,500 birr. APG = TPG/N = 1,500/5 = 300 birr. The two members earning 2,500 birr are above the line and add nothing to the gaps.",
+      answer: "TPG = 1,500 birr; APG = 300 birr per person, the average income transfer per person needed to push all members up to the line."
+    },
+    {
+      problem: "Using the international lines, classify three individuals with per capita consumption of $1.20, $1.80 and $2.10 per day (PPP).",
+      given: "Absolute poverty is counted on the $1.25 a day line, with a broader $2 a day line used as an additional threshold.",
+      formula: "Principle: a person below a threshold line is counted as poor against that line.",
+      substitution: "Person 1 is on $1.20 (below $1.25); person 2 is on $1.80 (between $1.25 and $2); person 3 is on $2.10 (above both lines).",
+      calculation: "Person 1 falls below the $1.25 extreme poverty line; person 2 escapes the extreme line but still counts below $2 a day; person 3 passes both thresholds.",
+      answer: "Person 1 is extremely poor, person 2 is poor on the $2 a day measure, and person 3 is above both absolute poverty lines."
+    },
+    {
+      problem: "Two candidate welfare indicators are proposed for Ethiopian poverty monitoring: per capita consumption and Sen's capability measure. Which does the textbook's standard three-step method use, and why does Sen object?",
+      given: "The standard method uses a fixed, monetary, consumption-based threshold from a household survey; Sen stresses functionings and conversion factors.",
+      formula: "Principle: the poverty line is set on an indicator of welfare, and the measure chosen determines who is counted poor.",
+      substitution: "The conventional method counts a person poor when per capita consumption is below the line; Sen asks instead what a person can do with the commodities - a book is worthless to an illiterate person except as fuel.",
+      calculation: "Income alone cannot capture powerlessness, literacy or health, so Sen argues poverty is the inability to pursue wellbeing and insists on capabilities, not only the headcount percentage.",
+      answer: "The standard method uses per capita consumption against a fixed poverty line; Sen objects that what matters is functionings and capabilities, not income or utility."
+    }
+  ],
+  commonMistakes: [
+    "Reducing poverty to income alone and ignoring its psychological, infrastructure, health and asset dimensions.",
+    "Mixing up absolute and relative poverty: relative poverty can exist even when basic needs are met.",
+    "Defining the headcount index as a total number of people instead of H as a fraction of N.",
+    "Confusing the total poverty gap (a total income sum) with the average poverty gap (TPG divided by the total population).",
+    "Thinking the MPI replaced income poverty instead of complementing income-based measures.",
+    "Believing Sen's capability approach means income does not matter at all, rather than that income is an instrument for wellbeing.",
+    "Quoting the poverty line without the PPP qualifier, since the $1.25 or $2 lines are purchasing power parity dollars."
+  ],
+  applications: [
+    "Interpreting Ethiopia's Household Income and Consumption Expenditure Survey results, which report the percentage of people below the poverty line.",
+    "Designing a food security intervention that targets the hunger dimension first, since the bottom line of poverty is always food.",
+    "Using the total poverty gap to estimate how much income a regional transfer programme must deliver to lift everyone to the line.",
+    "Applying the MPI lens to a kebele where a child died or is malnourished and a school-age child is out of school.",
+    "Judging rural water and road projects as poverty reduction because the poor cite lack of infrastructure alongside hunger.",
+    "Using Sen's view to argue that building a school matters even where incomes rise, because capability, not commodity ownership, is the goal."
+  ],
+  summary: "Poverty is pronounced deprivation in wellbeing, multidimensional in the eyes of the poor, and split into absolute poverty (failure to meet subsistence essentials against lines such as $1.25 a day) and relative poverty (standing compared with others). Measurement follows three steps - welfare indicator, poverty line, summary statistic - producing tools such as the headcount index (H/N), the total poverty gap, the FGT index and the MPI's health, education and living-standard deprivations. Sen's capability approach reframes poverty as the inability to pursue wellbeing, so what matters is what a person can do and be, not merely what a person has.",
+  visuals: [
+    {
+      type: "comparison",
+      config: {
+        title: "Absolute vs Relative Poverty",
+        left: { name: "Absolute poverty", items: ["Cannot meet subsistence essentials: food, clothing, shelter", "Counted against a poverty line such as $1.25 a day PPP", "Expressed by the number of people below the line", "Seen as a failure of basic dignity and human rights"] },
+        right: { name: "Relative poverty", items: ["Defined against other people's standing in the economy", "Can persist even when basic needs are met", "Observed within a society or internationally", "Seen as a failure of distributive justice"] }
+      }
+    },
+    {
+      type: "steps",
+      config: {
+        title: "Three Steps of Poverty Measurement",
+        steps: [
+          { label: "Define the indicator", detail: "Choose the welfare indicator, usually per capita income or consumption." },
+          { label: "Set the poverty line", detail: "Establish the minimum acceptable standard that separates the poor from the non-poor." },
+          { label: "Run the survey", detail: "Implement a representative survey measuring the income or consumption concept." },
+          { label: "Compute the statistic", detail: "Calculate a measure such as the headcount index or poverty gap relative to the line." }
+        ]
+      }
+    },
+    {
+      type: "mindMap",
+      config: {
+        title: "Ways of Measuring Poverty",
+        center: "Poverty Measurement",
+        branches: [
+          { label: "Income-based", items: ["Headcount index H/N", "Total poverty gap", "Average poverty gap", "FGT index"] },
+          { label: "Multidimensional", items: ["MPI: health, education, standard of living", "Dual cut-off method"] },
+          { label: "Capability view", items: ["Functionings", "Capabilities as real freedoms", "Conversion factors"] },
+          { label: "Lines", items: ["$1.25 a day", "$2 a day PPP"] }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "Which organisation defined poverty as the pronounced deprivation in wellbeing?", options: ["IMF", "World Bank", "ILO", "UNESCO"], answer: 1, difficulty: 1, explanation: "The World Bank (2000) defines poverty as the pronounced deprivation in wellbeing." },
+    { type: "mcq", q: "Which of the following correctly characterises absolute poverty?", options: ["It is defined only against other countries' incomes", "It is the inability or barely ability to meet subsistence essentials like food, clothing and shelter", "It applies only in rich countries", "It is measured by the Gini coefficient"], answer: 1, difficulty: 1, explanation: "Absolute poverty is being unable, or only barely able, to meet subsistence essentials such as food, clothing and shelter." },
+    { type: "tf", q: "A person can be poor in the relative sense even while meeting all basic needs.", answer: true, difficulty: 2, explanation: "Relative poverty is judged against other people's standing in the economy, so it can exist even when basic needs are met." },
+    { type: "short", q: "State the international absolute poverty line per day (in PPP dollars) most commonly used for extreme poverty.", answer: "1.25|1.25 dollars a day|usd 1.25", difficulty: 1, explanation: "The textbook cites people living on less than $1.25 a day in PPP dollars as one absolute poverty line." },
+    { type: "mcq", q: "In the three steps of measuring poverty, which comes first?", options: ["Generating a summary statistic", "Choosing the survey households", "Defining the indicator of welfare", "calculating the Gini coefficient"], answer: 2, difficulty: 2, explanation: "The first step is defining an indicator of welfare; then the poverty line, then the summary statistic." },
+    { type: "concept", q: "Give the term for the minimum acceptable standard of a welfare indicator that separates the poor from the non-poor.", answer: "poverty line", difficulty: 1, explanation: "That minimum standard is called the poverty line." },
+    { type: "mcq", q: "A kebele has 200 residents and 40 live below the poverty line. Its headcount index is:", options: ["0.4", "0.2", "5", "40% of 200 times 2"], answer: 1, difficulty: 2, explanation: "Headcount index = H/N = 40/200 = 0.2." },
+    { type: "tf", q: "The Multidimensional Poverty Index uses health, education and standard of living as its three dimensions.", answer: true, difficulty: 1, explanation: "The MPI (UNDP, 2010) incorporates health, education and standard of living at the household level." },
+    { type: "mcq", q: "According to Sen's capability approach, poverty is best understood as:", options: ["low income measured by the headcount", "the inability to pursue wellbeing because of a lack of economic means", "owning few commodities", "utility obtained from consumption"], answer: 1, difficulty: 3, explanation: "Sen argues poverty is not low wellbeing itself but the inability to pursue wellbeing for lack of economic means; what matters is capabilities." },
+    { type: "ordering", q: "Arrange the three steps of poverty measurement in the correct order.", options: ["Generate a summary statistic", "Define the welfare indicator", "Establish the poverty line"], answer: 1, difficulty: 2, explanation: "The order is: define the welfare indicator, set the poverty line, then generate the summary statistic." },
+    { type: "short", q: "Name one of the reasons for measuring poverty given in the lesson.", answer: "keep poor people on the agenda|identify poor people|monitor and evaluate projects and policies|evaluate the effectiveness of institutions", difficulty: 2, explanation: "Poverty is measured to keep the poor on the agenda, to target interventions, to monitor and evaluate projects, and to assess institutions." }
+  ]
+};
 
-Lessons["g12-economics-ue6-t2"] = {"overview":"<b>Concept of Inequality and Its Measurement</b> sits inside <b>Poverty and Inequality</b>. Poverty and inequality are the focus of Unit 6 of Grade 12 Economics in the Ethiopian (FDRE Ministry of Education) curriculum. First, it defines poverty, its types, and how to measure it, including Sen’s approach. Then it explains income inequality and its measures. Next, it compares global and regional poverty and looks at women and poverty. Finally, it reviews poverty and inequality in Ethiopia and the role of indigenous knowledge. Students will also learn how poverty and inequality affect real-life communities.","objectives":["Define poverty and explain how to measure it.","Explain income inequality and its measures.","Compare global, regional, and national poverty.","Identify the groups most affected by poverty.","Assess the role of indigenous knowledge in reducing poverty in Ethiopia."],"simple":"<b>Concept of Inequality and Its Measurement in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, income inequality.</li> <li>Then how to measure it, such as with the Gini coefficient.</li></ul>","detailed":"<p><b>Concept of Inequality and Its Measurement — the essentials.</b> First, income inequality. Then how to measure it, such as with the Gini coefficient.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Define poverty and explain how to measure it.</li><li>Explain income inequality and its measures.</li><li>Compare global, regional, and national poverty.</li><li>Identify the groups most affected by poverty.</li><li>Assess the role of indigenous knowledge in reducing poverty in Ethiopia.</li></ul>","keyTerms":[{"term":"First","def":"First, income inequality."},{"term":"how to measure it","def":"Then how to measure it, such as with the Gini coefficient."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing concept of inequality and its measurement with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Interpreting economic news about Ethiopia in the media","The applied data-response questions in the ESSLCE economics paper"],"summary":"Concept of Inequality and Its Measurement: First, income inequality. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"Concept of Inequality and Its Measurement\" is correct according to the MoE curriculum?","options":["First, income inequality.","Concept of Inequality and Its Measurement holds only under conditions this topic says do not apply","Concept of Inequality and Its Measurement inverts the direction of the relationship this topic describes","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, income inequality. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"Concept of Inequality and Its Measurement\"?","options":["Then how to measure it, such as with the Gini coefficient.","Concept of Inequality and Its Measurement is a household-level claim, not the national-level claim of this topic","Concept of Inequality and Its Measurement holds only under conditions this topic says do not apply","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Then how to measure it, such as with the Gini coefficient."},{"type":"tf","q":"True or false: First, income inequality.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover concept of inequality and its measurement.","answer":false,"difficulty":1,"explanation":"Concept of Inequality and Its Measurement is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Define poverty and explain how to measure it.","difficulty":2,"altAnswers":["Explain income inequality and its measures.","Compare global, regional, and national poverty."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why concept of inequality and its measurement matters.","answer":"Concept of Inequality and Its Measurement is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of concept of inequality and its measurement in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to concept of inequality and its measurement, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
+Lessons["g12-economics-ue6-t2"] = {
+  overview: "Inequality is the uneven distribution of income or opportunity, and economists describe it with the size distribution of income, the Lorenz curve and the Gini coefficient. This lesson explains both functional and personal income distribution and shows how the Lorenz curve and Gini index summarise how unequal a country is.",
+  objectives: [
+    "Define inequality and distinguish economic inequality from social and political inequality",
+    "Distinguish functional (factor share) from personal (size) distribution of income",
+    "Construct and interpret quintile and decile income shares and the Kuznets ratio",
+    "Explain how the Lorenz curve is constructed and what its shape reveals",
+    "Interpret the Gini coefficient values from 0 to 1"
+  ],
+  simple: "Inequality refers to being unequal or uneven, a social disparity in distribution or opportunity, and it has economic, social and political dimensions. Economic inequality is the disproportionate distribution of total national income among households. It is studied in two ways: functional or factor share distribution, which asks what share of national income goes to land, labour and capital as rent, wages and profit, and personal or size distribution, which looks at the incomes individuals and households receive regardless of source. To measure personal distribution, rank people by income, group them into quintiles or deciles, and see what income share each group receives; the Kuznets ratio compares rich and poor groups. The Lorenz curve plots cumulative income shares against cumulative population shares, and the Gini coefficient, running from 0 (perfect equality) to 1 (perfect inequality), summarises how far the curve bows away from the 45-degree equality line.",
+  detailed: "<p><b>What inequality means.</b> Inequality refers to the situation of being unequal or uneven, or a social disparity of distribution or opportunity. It takes many dimensions - economic, social and political - including inequalities of power, prestige, status, gender, job satisfaction, conditions of work, degree of participation and freedom of choice. Here the focus is on the economic, mainly income, dimension. <b>Economic inequality</b> is the disproportionate distribution of total national income among households, and income distribution is divided into two concepts: the functional (factor share) distribution and the personal (size) distribution.</p><p><b>Functional versus personal distribution.</b> The <b>functional or factor share distribution</b> shows the share of total national income received by each factor of production - land, labour and capital - and compares what labour receives in total with the shares going as rent, interest and profit, explaining factor incomes by their contribution to production. The <b>personal or size distribution</b> is the most commonly used indicator of income distribution: it deals with individual persons or households and the total incomes they receive, regardless of how they earned that income.</p><p><b>Measuring the size distribution.</b> First arrange all individuals by ascending personal income; second, divide the population into successive quintiles (fifths) or deciles (tenths) and determine what proportion of total national income each group receives. In the textbook's Table 6.1, 20 individuals have annual incomes ranging from 0.8 to 15.0 units, totalling 100 units. The first quintile (the bottom 20%, four of twenty people) receives only 5% of total income; the second quintile receives 9%; so the bottom 40% receives just 14%, while the top 20% (fifth quintile) receives 51%. The ratio of incomes received by the top 20% to the bottom 40%, called the <b>Kuznets ratio</b> after Simon Kuznets, is 14/51, approximately 0.28. Deciles refine the picture: the bottom 10% (the two poorest individuals) receive only 1.8% of income, while the top 10% (the two richest) receive 28.5%. The top 5% - the single richest individual - receives 15%, a higher share than the whole bottom 40% combined (14%).</p><p><b>The Lorenz curve.</b> Developed by economist Max Lorenz in 1905 to analyse personal income statistics, the Lorenz curve shows cumulative shares of income received by individuals or groups. Construction is simple: put the cumulative percentage of income recipients on the horizontal axis and the cumulative share of income received on the vertical axis; both run to 100%, so the figure is a square. A diagonal line is drawn from the lower-left corner to the upper-right corner, and at every point on it the percentage of income received equals the percentage of recipients - halfway along, 50% of income goes to exactly 50% of the population. The diagonal therefore represents <b>perfect equality</b>, where each group receives the same share of income. In practice Lorenz curves lie between the 45-degree line and the line of complete inequality, and the more bowed out the curve, the less equal the distribution.</p><p><b>The Gini coefficient.</b> The <b>Gini coefficient</b> is a measure of inequality expressed as the ratio of the area between the Lorenz curve and the 45-degree line to the total area under the 45-degree line. It is named after the Italian statistician Corrado Gini, who first formulated it in 1912. The higher the value, the higher the inequality: if the Gini coefficient is 0, the Lorenz curve coincides with the main diagonal, implying perfect equality; if it is 1, there is perfect inequality and all income is owned by one person. For example, if countries A and B have Gini coefficients of 0.28 and 0.60 respectively, country B has a more unequal income distribution than A.</p>",
+  keyTerms: [
+    { term: "Inequality", def: "The situation of being unequal or uneven, or a social disparity of distribution or opportunity, with economic, social and political dimensions." },
+    { term: "Economic inequality", def: "The disproportionate distribution of total national income among households." },
+    { term: "Functional (factor share) distribution", def: "The share of total national income received by each factor of production - land, labour and capital - as rent, wages and profit." },
+    { term: "Personal (size) distribution", def: "The distribution of total income across individuals or households regardless of the source of that income; the most commonly used indicator." },
+    { term: "Quintile", def: "One fifth (20%) of the population ranked by ascending income; deciles are tenths (10%)." },
+    { term: "Kuznets ratio", def: "The ratio of income received by the top 20% of the population to that received by the bottom 40%, used to gauge inequality between high- and low-income groups." },
+    { term: "Lorenz curve", def: "A curve introduced by Max Lorenz in 1905 plotting cumulative income shares against cumulative population shares; bowed-out curves signal greater inequality." },
+    { term: "Gini coefficient", def: "The ratio of the area between the Lorenz curve and the 45-degree line to the total area under the line; 0 means perfect equality and 1 perfect inequality (Corrado Gini, 1912)." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "Using Table 6.1 data, the bottom 40% of the population receives 14% of national income while the top 20% receives 51%. Calculate the Kuznets ratio.",
+      given: "Income share of the bottom 40% = 14%; income share of the top 20% = 51%.",
+      formula: "Kuznets ratio = income received by the top 20% divided by income received by the bottom 40%, comparing high-income and low-income groups.",
+      substitution: "Ratio = 14/51.",
+      calculation: "14/51 = 0.2745, approximately 0.28. A smaller ratio signals a larger gap between the two extremes, since the bottom groups hold a tiny share.",
+      answer: "The Kuznets ratio is approximately 0.28, showing the top fifth holds far more income than the entire bottom two fifths (51 against 14)."
+    },
+    {
+      problem: "Country A has a Gini coefficient of 0.28 and country B has 0.60. Which country has a more unequal income distribution, and what would a Gini of 0 or 1 mean?",
+      given: "Gini(A) = 0.28; Gini(B) = 0.60; the Gini coefficient ranges from 0 to 1.",
+      formula: "Principle: the higher the Gini coefficient, the higher the inequality, because the area between the Lorenz curve and the 45-degree line is larger.",
+      substitution: "0.60 > 0.28, so B's Lorenz curve is bowed further from the equality diagonal.",
+      calculation: "A Gini of 0 would mean the Lorenz curve lies exactly on the diagonal - perfect equality; a Gini of 1 would mean one person owns all income - perfect inequality.",
+      answer: "Country B is more unequal; Gini = 0 is perfect equality and Gini = 1 is perfect inequality where all income is owned by one person."
+    },
+    {
+      problem: "From Table 6.1, the bottom 10% of the population receives 1.8% of income and the top 10% receives 28.5%. How many times larger is the richest decile share?",
+      given: "Bottom decile share = 1.8%; top decile share = 28.5%.",
+      formula: "Ratio of shares = top decile percentage divided by bottom decile percentage.",
+      substitution: "28.5/1.8.",
+      calculation: "28.5/1.8 = 15.83, roughly 16 times. The two richest individuals earn about sixteen times the income share of the two poorest.",
+      answer: "The top decile receives about 16 times the share of the bottom decile, a dramatic concentration of income at the top."
+    },
+    {
+      problem: "A Lorenz curve shows the bottom 20% of the population receiving 5% of income. Compare this with the perfect-equality diagonal and state what the comparison tells us.",
+      given: "On the 45-degree diagonal, the cumulative percentage of income equals the cumulative percentage of recipients.",
+      formula: "Principle: on the perfect-equality diagonal, the bottom 20% of recipients would receive 20% of income.",
+      substitution: "Actual share = 5%; diagonal share = 20%; the actual curve sits 15 percentage points below the diagonal at that point.",
+      calculation: "Because 5% is far below 20%, the Lorenz curve bows outward at the bottom, signalling inequality concentrated against the poorest group.",
+      answer: "The poorest fifth receive only a quarter of the equality share, so the curve bows out and the distribution is unequal - more bowing means less equality."
+    }
+  ],
+  commonMistakes: [
+    "Confusing functional distribution (shares of land, labour, capital) with personal (size) distribution across households.",
+    "Mixing up quintiles (fifths, 20% each) and deciles (tenths, 10% each).",
+    "Computing the Kuznets ratio upside down as 51/14 instead of the bottom 40% share divided by the top 20% share.",
+    "Reading the Lorenz curve as if it showed income levels rather than cumulative percentages of recipients and income.",
+    "Believing a Gini coefficient of 1 indicates equality; it indicates perfect inequality with all income owned by one person.",
+    "Forgetting that both axes of the Lorenz diagram run cumulatively to 100%, which is why the figure is a square with a 45-degree diagonal.",
+    "Assuming a higher Gini coefficient means a fairer distribution; the higher it is, the higher the inequality."
+  ],
+  applications: [
+    "Comparing the Gini coefficients of regions in Ethiopia's Poverty Analysis Report to see which regions distribute income most unequally.",
+    "Reading the Kuznets ratio of a country to judge the income gap between its richest and poorest groups.",
+    "Using quintile shares to argue for progressive taxation when the top quintile holds a majority of national income.",
+    "Tracking a country's Lorenz curve over time to see whether growth is also reducing inequality.",
+    "Using decile shares to identify how small the income of the poorest 10% is compared with the top decile.",
+    "Explaining wage policy debates by contrasting what labour receives as a whole with returns to land and capital in the functional distribution."
+  ],
+  summary: "Inequality is unevenness in distribution or opportunity; economic inequality is the disproportionate distribution of total national income among households, analysed through functional (factor) shares and personal (size) distribution. Ranking people and grouping them into quintiles and deciles yields shares such as the textbook's 5%, 9%, 14% and 51%, and summary tools like the Kuznets ratio, the Lorenz curve (Max Lorenz, 1905) and the Gini coefficient (Corrado Gini, 1912), which runs from 0 for perfect equality to 1 for perfect inequality.",
+  visuals: [
+    {
+      type: "tableVisual",
+      config: {
+        title: "Size Distribution of Income (Table 6.1 Highlights)",
+        headers: ["Group of population", "Share of total income"],
+        rows: [
+          ["Bottom 20% (1st quintile)", "5%"],
+          ["2nd quintile", "9%"],
+          ["Bottom 40% (Q1 + Q2)", "14%"],
+          ["Top 20% (5th quintile)", "51%"],
+          ["Bottom 10% (1st decile)", "1.8%"],
+          ["Top 10% (10th decile)", "28.5%"],
+          ["Top 5% (richest individual)", "15%"]
+        ]
+      }
+    },
+    {
+      type: "steps",
+      config: {
+        title: "Constructing a Lorenz Curve",
+        steps: [
+          { label: "Rank incomes", detail: "Arrange all individuals by ascending personal income." },
+          { label: "Group the population", detail: "Divide recipients into quintiles or deciles and total each group's income." },
+          { label: "Plot cumulative shares", detail: "Put cumulative population percentages on the horizontal axis and cumulative income shares on the vertical axis." },
+          { label: "Add the diagonal", detail: "Draw the 45-degree line from the origin, which represents perfect equality." },
+          { label: "Interpret", detail: "The more the curve bows out from the diagonal, the less equal the distribution." }
+        ]
+      }
+    },
+    {
+      type: "comparison",
+      config: {
+        title: "Gini Coefficient at the Extremes",
+        left: { name: "Gini = 0 (perfect equality)", items: ["Lorenz curve lies on the 45-degree diagonal", "Everyone receives the same income share", "Bottom 40% gets 40% of income", "Area between curve and diagonal is zero"] },
+        right: { name: "Gini = 1 (perfect inequality)", items: ["All income is owned by one person", "Curve follows the bottom and right edges of the square", "Everyone else receives nothing", "Area between curve and diagonal is maximal"] }
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "The functional or factor share distribution of income compares:", options: ["households ranked by income", "the share of labour in total income with returns to land and capital as rent, interest and profit", "urban and rural incomes", "government tax shares"], answer: 1, difficulty: 2, explanation: "Functional distribution asks what percentage of national income labour receives as a whole versus rent, interest and profit." },
+    { type: "mcq", q: "A quintile contains what fraction of the population?", options: ["5%", "10%", "20%", "25%"], answer: 2, difficulty: 1, explanation: "Quintiles are fifths, so each quintile is 20% of the population; deciles are tenths." },
+    { type: "mcq", q: "In the textbook data, what share of total income does the bottom 40% of the population receive?", options: ["5%", "9%", "14%", "51%"], answer: 2, difficulty: 2, explanation: "The first quintile receives 5% and the second 9%, so the bottom 40% receives 14% of total income." },
+    { type: "mcq", q: "Using the Kuznets ratio with a bottom-40% share of 14% and a top-20% share of 51%, the ratio is approximately:", options: ["0.28", "2.75", "0.14", "0.51"], answer: 0, difficulty: 2, explanation: "The ratio is 14 divided by 51, approximately 0.28." },
+    { type: "mcq", q: "At the point halfway along the 45-degree diagonal of the Lorenz diagram:", options: ["50% of income goes to 50% of the population", "20% of income goes to 80% of the population", "the axis reaches 100%", "the curve is at its most bowed point"], answer: 0, difficulty: 2, explanation: "On the diagonal the percentage of income received always equals the percentage of recipients, so halfway means 50 to 50." },
+    { type: "tf", q: "The more bowed out the Lorenz curve, the less equal the distribution of income.", answer: true, difficulty: 2, explanation: "A curve bowed further from the 45-degree line represents a more unequal distribution." },
+    { type: "mcq", q: "The Gini coefficient is expressed as the ratio of:", options: ["the area between the Lorenz curve and the 45-degree line to the total area under the 45-degree line", "the top quintile share to the bottom quintile share", "national income to population", "the poverty line to average income"], answer: 0, difficulty: 2, explanation: "The Gini coefficient is the area between the curve and diagonal divided by the total area under the diagonal." },
+    { type: "short", q: "Name the Italian statistician who first formulated the Gini coefficient in 1912.", answer: "Corrado Gini|Gini", difficulty: 1, explanation: "The Gini coefficient is named after Corrado Gini." },
+    { type: "concept", q: "Explain what a Lorenz curve with a Gini coefficient of 0.28 versus 0.60 tells you about two countries.", answer: "high gini means more unequal|0.60 country is more unequal than the 0.28 country", difficulty: 3, explanation: "The higher Gini (0.60) means the second country's income is distributed more unequally." },
+    { type: "mcq", q: "In the textbook data, the top 5% of the population (the richest individual) receives:", options: ["less than the bottom 40% combined", "15%, more than the bottom 40% combined", "28.5%", "1.8%"], answer: 1, difficulty: 3, explanation: "The richest individual receives 15% of income, exceeding the 14% received by the entire bottom 40%." },
+    { type: "ordering", q: "Arrange the steps of analysing the size distribution of income in order.", options: ["Divide the population into quintiles or deciles", "Arrange individuals by ascending income", "Determine what proportion of national income each group receives"], answer: 1, difficulty: 2, explanation: "First rank incomes in ascending order, then group into quintiles or deciles, then find each group's income share." }
+  ]
+};
 
-Lessons["g12-economics-ue6-t3"] = {"overview":"<b>6.3 &#038; 6.4 – Global, Regional, and Gendered Poverty</b> sits inside <b>Poverty and Inequality</b>. Poverty and inequality are the focus of Unit 6 of Grade 12 Economics in the Ethiopian (FDRE Ministry of Education) curriculum. First, it defines poverty, its types, and how to measure it, including Sen’s approach. Then it explains income inequality and its measures. Next, it compares global and regional poverty and looks at women and poverty. Finally, it reviews poverty and inequality in Ethiopia and the role of indigenous knowledge. Students will also learn how poverty and inequality affect real-life communities.","objectives":["Define poverty and explain how to measure it.","Explain income inequality and its measures.","Compare global, regional, and national poverty.","Identify the groups most affected by poverty.","Assess the role of indigenous knowledge in reducing poverty in Ethiopia."],"simple":"<b>6.3 &#038; 6.4 – Global, Regional, and Gendered Poverty in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, poverty and its types.</li> <li>Then how to measure poverty.</li> <li>Also Sen’s approach to poverty and wellbeing.</li></ul>","detailed":"<p><b>6.3 &#038; 6.4 – Global, Regional, and Gendered Poverty — the essentials.</b> First, poverty and its types. Then how to measure poverty. Also Sen’s approach to poverty and wellbeing.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Define poverty and explain how to measure it.</li><li>Explain income inequality and its measures.</li><li>Compare global, regional, and national poverty.</li><li>Identify the groups most affected by poverty.</li><li>Assess the role of indigenous knowledge in reducing poverty in Ethiopia.</li></ul>","keyTerms":[{"term":"First","def":"First, poverty and its types."},{"term":"Then how to measure poverty","def":"Then how to measure poverty."},{"term":"Also Sen’s approach to poverty and wellbeing","def":"Also Sen’s approach to poverty and wellbeing."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing 6.3 &#038; 6.4 – global, regional, and gendered poverty with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Interpreting economic news about Ethiopia in the media","The applied data-response questions in the ESSLCE economics paper"],"summary":"6.3 &#038; 6.4 – Global, Regional, and Gendered Poverty: First, poverty and its types. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"6.3 &#038; 6.4 – Global, Regional, and Gendered Poverty\" is correct according to the MoE curriculum?","options":["First, poverty and its types.","6.3 &#038; 6.4 – Global, Regional, and Gendered Poverty holds only under conditions this topic says do not apply","6.3 &#038; 6.4 – Global, Regional, and Gendered Poverty inverts the direction of the relationship this topic describes","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, poverty and its types. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"6.3 &#038; 6.4 – Global, Regional, and Gendered Poverty\"?","options":["Then how to measure poverty.","6.3 &#038; 6.4 – Global, Regional, and Gendered Poverty is a household-level claim, not the national-level claim of this topic","6.3 &#038; 6.4 – Global, Regional, and Gendered Poverty holds only under conditions this topic says do not apply","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Then how to measure poverty."},{"type":"tf","q":"True or false: First, poverty and its types.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover 6.3 &#038; 6.4 – global, regional, and gendered poverty.","answer":false,"difficulty":1,"explanation":"6.3 &#038; 6.4 – Global, Regional, and Gendered Poverty is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Define poverty and explain how to measure it.","difficulty":2,"altAnswers":["Explain income inequality and its measures.","Compare global, regional, and national poverty."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why 6.3 &#038; 6.4 – global, regional, and gendered poverty matters.","answer":"6.3 &#038; 6.4 – Global, Regional, and Gendered Poverty is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of 6.3 &#038; 6.4 – global, regional, and gendered poverty in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to 6.3 &#038; 6.4 – global, regional, and gendered poverty, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
+Lessons["g12-economics-ue6-t3"] = {
+  overview: "Global extreme poverty has fallen sharply since 1990, yet hundreds of millions - most of them in sub-Saharan Africa - still live below the international lines. This lesson tracks the global and regional figures, links them to SDG Goal 1 and the PRSP process, and examines why women make up the majority of the world's poor and how policy can respond.",
+  objectives: [
+    "Describe the global trend in extreme poverty between 1990 and 2015",
+    "Recognise the concentration of extreme poverty in sub-Saharan Africa",
+    "Explain how SDG Goal 1 and the PRSP process shape poverty policy",
+    "Identify the reasons women are disproportionately poor and deprived",
+    "Propose measures that integrate women into development programmes"
+  ],
+  simple: "The world has made real progress against extreme poverty: the share of people in extreme poverty fell from 36% in 1990 to 10% in 2015, helped by countries such as China. Yet in 2010 more than 1.2 billion people lived on less than $1.25 a day and about 2.4 billion on less than $2 a day. Most of the extremely poor now live in sub-Saharan Africa, which saw virtually no poverty reduction from 1950 to 2000. SDG Goal 1 (2015-2030) aims to end poverty in all its forms, and many developing countries, including Ethiopia, have used the World Bank's Poverty Reduction Strategy Paper process. Women make up a substantial majority of the world's poor: they earn less, head the poorest households, have less access to education and formal jobs, and see most of their income go into family nutrition, so programmes that target women are more effective.",
+  detailed: "<p><b>Global progress and its limits.</b> It is difficult to obtain a tight estimate of global poverty, but conditions clearly improved over the past half century as countries such as China lifted millions of citizens out of poverty. The number of people in extreme poverty nonetheless remained large: in 2010 more than 1.2 billion people lived on less than $1.25 per day and some 2.4 billion - more than one third of the world's population - lived on less than $2 a day. The extreme poverty rate itself declined from 36% in 1990 to 10% in 2015. The UN reported that more than 700 million people, about 10% of the world population, were living in extreme poverty, and the majority of people on less than $1.90 a day live in sub-Saharan Africa - a region that experienced virtually no poverty rate reduction from 1950 to 2000. This gravity pushed developing countries to make poverty eradication their policy goal, reflected in the Sustainable Development Goals of 2015-2030, where Goal 1 aims to end poverty in all its forms. The World Bank favours the Poverty Reduction Strategy Paper (PRSP) process to help countries think systematically about improving the position of the poor, and many developing countries, including Ethiopia, have gone through it. Meanwhile global inequality has been rising due to globalisation, technical progress, and the policies and institutions of different countries.</p><p><b>Why women bear the heaviest deprivation.</b> Globally, women make up a substantial majority of the world's poor, and among the poorest communities of the developing world women and children experience the harshest deprivation - they are more likely to be poor and malnourished and less likely to receive medical services, clean water, sanitation and other benefits. The textbook traces this to the prevalence of female-headed households, the lower earning capacity of women, and their limited control over their spouses' income. Since women's earning potential is considerably below that of men, they are more likely to be among the very poor, and women also have less access to education, formal-sector employment, social security and government employment programmes.</p><p><b>Household-level disadvantage.</b> In urban areas women are much less likely to obtain formal employment in private companies or public agencies and are frequently restricted to illegal, low-productivity jobs; rural women have less access to the resources needed to generate stable incomes, and social customs and laws sometimes restrict their ownership of property. Household income alone even fails to describe the severity of women's deprivation: female-headed households are disproportionately situated in the poorest areas with little or no access to piped water, sanitation and health care, so their members fall ill more often and get less medical attention, and their children are less likely to be enrolled in school and more likely to work for extra income. Within households, there may be a bias against females in the allocation of nutrition, medical care, education and inheritance - but studies find that where women's share of income within the home is relatively high, discrimination against girls falls.</p><p><b>Control over resources and why women-targeted programmes work.</b> Women's control over household income is limited because much of their work is unremunerated, such as collecting firewood, cooking, and even intangible work like parenting, and many poor women are unpaid for work in family agriculture or business while a male head controls all funds from cash crops. When household income is marginal, most of women's income goes toward household nutritional intake, while a far smaller fraction of men's income does, so a rise in male earnings produces a less than proportionate increase in funds for daily needs. It is therefore unsurprising that nutrition and family health programmes are more effective when they target women rather than men.</p><p><b>Policy lessons and consequences.</b> Public poverty programmes that work exclusively with men tend to exacerbate these inequalities: urban training programmes are generally geared to men, and agricultural extension promotes male-dominated crops at the expense of women's vegetable plots. The design of development policy must instead integrate women into programmes - increasing female participation in education and training, formal-sector employment and agricultural extension - and ensure women have equal access to government services such as schooling and health, while formalising informal female employment where the female labour force is largely informal. A decline in women's economic status has both ethical and long-term economic consequences: growth that fails to improve the welfare of those in greatest hardship fails a principal goal of development, and the low status of women translates into slower economic growth, whereas the benefits of investments in human capital are passed to future generations when women are successfully integrated into the growth process.</p>",
+  keyTerms: [
+    { term: "Extreme poverty", def: "Living below the international lines - less than $1.25 or $1.90 a day; more than 700 million people (10% of the world) were in this condition." },
+    { term: "Sustainable Development Goals (SDGs)", def: "The global goals for 2015-2030; Goal 1 aims to end poverty in all its forms." },
+    { term: "Poverty Reduction Strategy Paper (PRSP)", def: "The World Bank-favoured process that helps countries think systematically about improving the position of poor people and act accordingly." },
+    { term: "Female-headed household", def: "A household whose head is a woman; these households are disproportionately among the poorest and in areas with little access to public services." },
+    { term: "Earnings differential", def: "The gap in earning potential between men and women, which explains part of the income disparity between male- and female-headed households." },
+    { term: "Intra-household resource allocation", def: "How income and resources are distributed within a household, which may carry a bias against females in nutrition, medical care, education and inheritance." },
+    { term: "Unremunerated work", def: "Work by women that earns no pay, such as collecting firewood, cooking and parenting, which limits control over household resources." },
+    { term: "Agricultural extension programme", def: "A public programme promoting crops and techniques, which often promotes male-dominated crops at the expense of women's vegetable plots." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "The global extreme poverty rate was 36% in 1990 and 10% in 2015. By how many percentage points did it fall, and roughly how does the 2015 level compare with 1990?",
+      given: "Rate in 1990 = 36%; rate in 2015 = 10%.",
+      formula: "Percentage-point change = later rate - earlier rate; relative comparison = later rate divided by earlier rate.",
+      substitution: "Change = 10 - 36 = -26 percentage points; relative level = 10/36.",
+      calculation: "The rate fell 26 percentage points, and 10/36 is about 0.28, so the extreme poverty rate in 2015 was roughly 28% of its 1990 level - a fall of about 72%.",
+      answer: "Extreme poverty fell 26 percentage points, ending 2015 at roughly a quarter of its 1990 level - yet hundreds of millions remained poor."
+    },
+    {
+      problem: "Classify the global population using the 2010 figures: more than 1.2 billion people lived on less than $1.25 per day and some 2.4 billion on less than $2 a day. How many people lived on between $1.25 and $2 a day?",
+      given: "Below $1.25 a day: more than 1.2 billion; below $2 a day: about 2.4 billion.",
+      formula: "Principle: the broader $2 line includes everyone below $1.25, so the difference isolates people between the two lines.",
+      substitution: "Between the lines = 2.4 billion - 1.2 billion.",
+      calculation: "About 1.2 billion people lived between the two poverty lines, in addition to the more than 1.2 billion in extreme poverty - together more than a third of the world's population.",
+      answer: "Roughly 1.2 billion people lived on between $1.25 and $2 a day, doubling the total counted as poor under the $2 line."
+    },
+    {
+      problem: "A health ministry must choose where to direct a nutrition programme: extra earnings delivered to fathers or to mothers in marginal-income households. Which is more effective, and why?",
+      given: "When household income is marginal, most of women's income is contributed to household nutritional intake; only a far smaller fraction of men's income goes to daily needs.",
+      formula: "Principle: the nutrition impact of added income depends on what fraction of that income reaches household nutrition.",
+      substitution: "A rise in male earnings leads to a less than proportionate increase in funds for daily provision, while women's earnings flow mostly to nutrition.",
+      calculation: "The same amount of income produces more nutrition if channelled to women, so women-targeted programmes yield more family health per birr.",
+      answer: "Target women: nutrition and family health programmes are more effective when targeting women than when targeting men."
+    },
+    {
+      problem: "A new rural development programme trains only male farmers and promotes male-dominated cash crops. Evaluate its likely effect on gendered poverty, and redesign it.",
+      given: "Programmes working exclusively with men tend to exacerbate inequalities; women's vegetable plots are marginalised and much of their work is unremunerated.",
+      formula: "Principle: policy design must integrate women into programmes that influence the welfare of women and children.",
+      substitution: "The current design deepens women's exclusion from education, training, formal employment and extension services.",
+      calculation: "Rebuild the programme to increase female participation in educational and training programmes, formal-sector employment and agricultural extension, and give women equal access to government resources.",
+      answer: "The male-only programme would worsen gender inequality; the redesigned programme integrates women, which raises household welfare and supports long-term growth."
+    }
+  ],
+  commonMistakes: [
+    "Assuming global progress means poverty is solved; extreme poverty still remains widespread, especially in sub-Saharan Africa.",
+    "Mixing the poverty headcount number (over 700 million) with the rate (10% of the world population).",
+    "Forgetting that the majority of those living on less than $1.90 a day are in sub-Saharan Africa.",
+    "Believing SDG Goal 1 concerns only income poverty; it aims to end poverty in all its forms.",
+    "Explaining women's poverty by household income alone, ignoring female-headed households' location in the poorest areas.",
+    "Assuming nutrition programmes work equally well when targeted at men rather than women.",
+    "Overlooking the intra-household biases against females in nutrition, medical care, education and inheritance."
+  ],
+  applications: [
+    "Reading UN and World Bank reports on Goal 1 progress to see which regions lag in extreme poverty reduction.",
+    "Designing a local women's savings and training group to raise the share of household income controlled by women.",
+    "Advocating formalisation of informal female employment to improve women's economic status.",
+    "Setting up a nutrition and family health intervention that delivers resources through mothers.",
+    "Studying Ethiopia's PRSP to understand how poor countries plan poverty reduction systematically.",
+    "Tracing how higher female education today lowers discrimination against girls and passes human capital to the next generation."
+  ],
+  summary: "Global extreme poverty fell from 36% in 1990 to 10% in 2015, yet in 2010 over 1.2 billion people lived on less than $1.25 a day and some 2.4 billion on less than $2, with the majority of the extremely poor in sub-Saharan Africa, where reduction was almost nil from 1950 to 2000 - the reality behind SDG Goal 1 and the PRSP process. Women make up the substantial majority of the world's poor because of lower earning capacity, female-headed households, limited control over spouses' income and unremunerated work, so development policy must integrate women into education, training, employment and extension to reduce poverty and sustain growth.",
+  visuals: [
+    {
+      type: "comparison",
+      config: {
+        title: "Global Progress vs Sub-Saharan Africa",
+        left: { name: "World trend", items: ["Extreme poverty: 36% (1990) to 10% (2015)", "China lifted millions out of poverty", "Over 700 million still in extreme poverty", "SDG Goal 1: end poverty in all its forms"] },
+        right: { name: "Sub-Saharan Africa", items: ["Majority of those on less than $1.90 a day", "Virtually no rate reduction 1950 to 2000", "More than a third of humanity lived on under $2 a day in 2010", "PRSP process adopted by many countries"] }
+      }
+    },
+    {
+      type: "mindMap",
+      config: {
+        title: "Why Women Are Disproportionately Poor",
+        center: "Women and Poverty",
+        branches: [
+          { label: "Earning power", items: ["Lower earning capacity", "Earnings differentials", "No formal-sector jobs"] },
+          { label: "Household position", items: ["Female-headed households in poorest areas", "Limited control over spouses' income", "Unremunerated work"] },
+          { label: "Access barriers", items: ["Less education", "Less social security", "Restrictive property customs"] },
+          { label: "Responses", items: ["Integrate women into programmes", "Equal access to services", "Formalise informal work"] }
+        ]
+      }
+    },
+    {
+      type: "qa",
+      config: {
+        title: "Exam Quick-Check",
+        pairs: [
+          { q: "Which SDG aims to end poverty?", a: "Goal 1: end poverty in all its forms (2015-2030)." },
+          { q: "How many people lived on less than $2 a day in 2010?", a: "About 2.4 billion, more than one third of the world's population." },
+          { q: "Why do nutrition programmes target women?", a: "Most of women's marginal income goes to household nutrition, so targeting women is more effective." },
+          { q: "What happens when poverty programmes work exclusively with men?", a: "They tend to exacerbate gender inequalities." }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "The proportion of the world's population living in extreme poverty declined from 36% in 1990 to what level in 2015?", options: ["5%", "10%", "15%", "20%"], answer: 1, difficulty: 1, explanation: "Extreme poverty declined from 36% in 1990 to 10% in 2015." },
+    { type: "mcq", q: "In 2010, about how many people lived on less than $2 a day?", options: ["1.2 billion", "2.4 billion", "700 million", "12 million"], answer: 1, difficulty: 2, explanation: "Some 2.4 billion people, more than one third of the world's population, lived on less than $2 a day in 2010." },
+    { type: "mcq", q: "The majority of people living on less than $1.90 a day are found in:", options: ["South Asia", "Latin America", "sub-Saharan Africa", "Europe"], answer: 2, difficulty: 2, explanation: "The UN reported that the majority of people on less than $1.90 a day live in sub-Saharan Africa." },
+    { type: "tf", q: "Sub-Saharan Africa experienced virtually no poverty rate reduction from 1950 to 2000.", answer: true, difficulty: 2, explanation: "The textbook states the region experienced virtually no rate reduction from 1950 to 2000." },
+    { type: "mcq", q: "SDG Goal 1 (2015-2030) aims to:", options: ["end poverty in all its forms", "raise average income growth", "expand export sectors", "build a single world market"], answer: 0, difficulty: 1, explanation: "Goal 1 of the SDGs aims to end poverty in all its forms." },
+    { type: "concept", q: "State two reasons given in the lesson for women being over-represented among the world's poor.", answer: "lower earning capacity|female-headed households|limited control over spouses income|less access to education|less access to formal employment|less access to social security", difficulty: 2, explanation: "Female-headed households, lower earning capacity, limited control over spouses' income and less access to education and formal employment combine against women." },
+    { type: "mcq", q: "Nutrition and family health programmes are more effective when they target women because:", options: ["women visit clinics more often", "most of women's marginal income goes into household nutritional intake", "men refuse to eat better food", "women control government budgets"], answer: 1, difficulty: 2, explanation: "When household income is marginal, most of women's income goes toward household nutrition, unlike men's income." },
+    { type: "tf", q: "Public poverty programmes that work exclusively with men tend to reduce gender inequality.", answer: false, difficulty: 2, explanation: "Such programmes tend to exacerbate inequalities, since training and extension services favour men and marginalise women's plots." },
+    { type: "short", q: "Give one example of unremunerated work done by women that limits their control over household resources.", answer: "collecting firewood|cooking|parenting|unpaid family agriculture work|unpaid family business work", difficulty: 1, explanation: "Collecting firewood, cooking and parenting are unremunerated, and much family agriculture or business work is unpaid." },
+    { type: "mcq", q: "Which is a stated consequence of a decline in women's economic status?", options: ["faster economic growth", "slower rates of economic growth in the long run", "higher male earnings", "no effect on development"], answer: 1, difficulty: 3, explanation: "The low status of women is likely to translate into slower rates of economic growth, and growth that misses the worst-off fails a principal goal of development." },
+    { type: "concept", q: "What should development policy do about women, according to the lesson, and why?", answer: "integrate women into development programmes|increase female participation in education training employment extension|equal access to government resources", difficulty: 3, explanation: "Policy must integrate women into programmes - education, training, formal employment and extension - because their welfare determines children's welfare and future growth." }
+  ]
+};
 
-Lessons["g12-economics-ue6-t4"] = {"overview":"<b>6.5 &#038; 6.6 – Poverty and Inequality in Ethiopia</b> sits inside <b>Poverty and Inequality</b>. Poverty and inequality are the focus of Unit 6 of Grade 12 Economics in the Ethiopian (FDRE Ministry of Education) curriculum. First, it defines poverty, its types, and how to measure it, including Sen’s approach. Then it explains income inequality and its measures. Next, it compares global and regional poverty and looks at women and poverty. Finally, it reviews poverty and inequality in Ethiopia and the role of indigenous knowledge. Students will also learn how poverty and inequality affect real-life communities.","objectives":["Define poverty and explain how to measure it.","Explain income inequality and its measures.","Compare global, regional, and national poverty.","Identify the groups most affected by poverty.","Assess the role of indigenous knowledge in reducing poverty in Ethiopia."],"simple":"<b>6.5 &#038; 6.6 – Poverty and Inequality in Ethiopia in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, poverty and its types.</li> <li>Then how to measure poverty.</li> <li>Also Sen’s approach to poverty and wellbeing.</li></ul>","detailed":"<p><b>6.5 &#038; 6.6 – Poverty and Inequality in Ethiopia — the essentials.</b> First, poverty and its types. Then how to measure poverty. Also Sen’s approach to poverty and wellbeing.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Define poverty and explain how to measure it.</li><li>Explain income inequality and its measures.</li><li>Compare global, regional, and national poverty.</li><li>Identify the groups most affected by poverty.</li><li>Assess the role of indigenous knowledge in reducing poverty in Ethiopia.</li></ul>","keyTerms":[{"term":"First","def":"First, poverty and its types."},{"term":"Then how to measure poverty","def":"Then how to measure poverty."},{"term":"Also Sen’s approach to poverty and wellbeing","def":"Also Sen’s approach to poverty and wellbeing."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing 6.5 &#038; 6.6 – poverty and inequality in ethiopia with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Interpreting economic news about Ethiopia in the media","The applied data-response questions in the ESSLCE economics paper"],"summary":"6.5 &#038; 6.6 – Poverty and Inequality in Ethiopia: First, poverty and its types. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"6.5 &#038; 6.6 – Poverty and Inequality in Ethiopia\" is correct according to the MoE curriculum?","options":["First, poverty and its types.","6.5 &#038; 6.6 – Poverty and Inequality in Ethiopia holds only under conditions this topic says do not apply","6.5 &#038; 6.6 – Poverty and Inequality in Ethiopia inverts the direction of the relationship this topic describes","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, poverty and its types. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"6.5 &#038; 6.6 – Poverty and Inequality in Ethiopia\"?","options":["Then how to measure poverty.","6.5 &#038; 6.6 – Poverty and Inequality in Ethiopia is a household-level claim, not the national-level claim of this topic","6.5 &#038; 6.6 – Poverty and Inequality in Ethiopia holds only under conditions this topic says do not apply","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Then how to measure poverty."},{"type":"tf","q":"True or false: First, poverty and its types.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover 6.5 &#038; 6.6 – poverty and inequality in ethiopia.","answer":false,"difficulty":1,"explanation":"6.5 &#038; 6.6 – Poverty and Inequality in Ethiopia is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Define poverty and explain how to measure it.","difficulty":2,"altAnswers":["Explain income inequality and its measures.","Compare global, regional, and national poverty."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why 6.5 &#038; 6.6 – poverty and inequality in ethiopia matters.","answer":"6.5 &#038; 6.6 – Poverty and Inequality in Ethiopia is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of 6.5 &#038; 6.6 – poverty and inequality in ethiopia in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to 6.5 &#038; 6.6 – poverty and inequality in ethiopia, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
-
+Lessons["g12-economics-ue6-t4"] = {
+  overview: "Ethiopia grew fast and cut its poverty headcount roughly in half between 1992 and 2011, yet it remains one of the poorest countries on earth. This lesson reviews Ethiopia's poverty and inequality figures and measurement system, then explores how indigenous knowledge and institutions - Idir, Iqub, Debo, cottage industries and cooperatives - help reduce poverty.",
+  objectives: [
+    "Relate Ethiopia's economic growth record to the decline of its national poverty rate",
+    "Interpret Ethiopia's headcount poverty, income and HDI figures",
+    "Explain how Ethiopia monitors poverty through HICES, WMS and the Poverty Analysis Report",
+    "Describe the roles of Idir, Iqub and Debo in reducing poverty",
+    "Explain how cottage industries and modern cooperatives lift people out of poverty"
+  ],
+  simple: "Ethiopia had an estimated 118 million people in 2021. The economy grew on average 9.8% a year from 2008/09 to 2018/19, and the share of the population below the national poverty line fell from 38% to 24%. Government figures show headcount poverty declining from 59% in 1992 to 29.5% in 2011, but Ethiopia remains one of the poorest countries: per capita annual income is about $883, the 2019 HDI was 0.485 (ranked 173 of 189, low human development), 44% earn less than a dollar a day and 89% live below $2 a day. The Central Statistical Agency runs the HICES and WMS surveys to track poverty. Indigenous institutions also fight poverty: Idir works like group life insurance, Iqub is a rotating credit club, Debo pools labour, and cottage industries and cooperatives such as coffee unions create employment and income.",
+  detailed: "<p><b>Ethiopia's growth and poverty record.</b> Ethiopia had an estimated population of 118 million people as of 2021. According to the World Bank (2020), the economy grew strongly and broadly, averaging 9.8% a year from 2008/09 to 2018/19, while the share of the population living below the national poverty line declined from 38% to 24% over that period. The government reckons that headcount poverty declined from 59% in 1992 to 29.5% in 2011 (MoFED, 2012). Even so, Ethiopia remains one of the poorest countries in the world, with an estimated per capita annual income of $883 (MoFEC, 2019).</p><p><b>The poverty and vulnerability picture.</b> In 2019 Ethiopia's HDI value was 0.485, positioning it at 173 out of 189 countries and territories, in the low human development category (UNDP). Moreover, 44% of people earn less than a dollar per day and 89% fall below the $2 per day poverty line. The International Fund for Agricultural Development (IFAD) estimated that more than 12 million people are chronically or at least periodically food insecure; most live in rural areas on a per capita income of less than US$0.50 a day, and the majority are smallholder farmers, the largest group of poor people in Ethiopia. Poverty has generally decreased but remains a challenge, especially in rural areas where the rate of decrease is slower than in urban areas, most rural livelihoods depend on rain-fed agriculture exposed to climate-related vulnerabilities, and the inadequate health and education systems plus poor access to basic services mirror this vulnerability.</p><p><b>How Ethiopia measures poverty.</b> Ethiopia pursues the World Bank's Poverty Reduction Strategy Paper (PRSP) process. Within it, the Central Statistical Agency conducts regular Household Income and Consumption Expenditure Surveys (HICES) and the Welfare Monitoring Survey (WMS), established in 1996, while the Ministry of Finance and Economic Development prepares the corresponding analytical Poverty Analysis Report, which provides the status and trends of national-, rural-, urban- and regional-level poverty incidence, gap and severity, as well as income inequality measured by the Gini coefficient (MoFED, 2013).</p><p><b>Indigenous knowledge.</b> Indigenous knowledge is the accumulated set of common-sense knowledge and ideas of local people about their everyday realities of living, unique to a given community; it forms the basis for local-level decision-making in agriculture and connects people directly with their environment (Warren and Rajasekaran, 1993). Also called traditional knowledge, local knowledge or traditional wisdom, it is locally based, dynamic, and used to solve problems including the relief of poverty - very often by pooling resources for a common good.</p><p><b>Idir and Iqub.</b> <b>Idir</b> is the most common informal institution in Ethiopia: a burial society established among neighbours or workers that raises funds for emergencies such as death within the group. Often described as a group life insurance, it has a large membership with minimal weekly or monthly contributions affordable to all, guarantees grieving families complete financial and social assistance, and requires members to attend funerals and help with burials; it can be formed by a community or village, at the workplace, or among friends and family. <b>Iqub</b> (also called Ikub) is a rotating credit association in which a small group contributes weekly or monthly to a pool, acting as a savings club. It enables a family - particularly a poor one - to fund weddings, house building or a small business, making investments that would otherwise be impossible for lack of money; it is more flexible and accessible than banks, with minimal paperwork, so people without formal education are not discouraged from joining. While Idir is a long-term association, Iqub can be temporary or permanent depending on members' needs. Both are informal, bottom-up, widely practiced socio-economic traditions that are sustainable and based on available resources; their motto is: Idir, Iqub, for mutual benefits, to lessen societal burden. Because they rest on participatory principles, they promote accountability, transparency, tolerance and dialogue, foster friendship, and the strong ties among Iqub members discourage defaults.</p><p><b>Debo, cottage industries and cooperatives.</b> <b>Debo</b> is a work group where community members assist an individual on a rotational basis, often for free - typically organised by men to pool their labour on each other's farmland in rotation. <b>Cottage industries</b> are small-scale, decentralised manufacturing units producing goods and services with conventional, low-technology methods, often operated out of a home and defined by the investment required and the number of people employed. The oldest forms in Ethiopia are weaving, leather working, pottery, basket making and blacksmithing, plus making agricultural, household and construction equipment; locally produced handicrafts and textiles remain the backbone of many rural economies. Requiring very little investment, cottage industries employ labour-intensive techniques, reducing unemployment and offering self-employment for men and women. Finally, modern cooperatives such as coffee unions are key vehicles for implementing poverty reduction and sustainable livelihood development in Ethiopia.</p>",
+  keyTerms: [
+    { term: "HICES", def: "The Household Income and Consumption Expenditure Survey conducted regularly by the Central Statistical Agency as part of Ethiopia's PRSP process." },
+    { term: "WMS", def: "The Welfare Monitoring Survey, established in 1996, which monitors welfare alongside the HICES." },
+    { term: "Poverty Analysis Report", def: "The analytical report prepared by the Ministry of Finance and Economic Development giving poverty incidence, gap, severity and Gini inequality at national, rural, urban and regional levels." },
+    { term: "Indigenous knowledge", def: "The accumulated common-sense knowledge and ideas of local people about their everyday realities, unique to a community, dynamic, and used to solve problems such as poverty." },
+    { term: "Idir", def: "Ethiopia's most common informal institution, a burial association among neighbours or workers that raises funds for emergencies and works like group life insurance." },
+    { term: "Iqub", def: "A rotating credit and savings association in which members contribute weekly or monthly so each can receive substantial funding in turn, more flexible than banks." },
+    { term: "Debo", def: "A work group in which community members assist an individual on a rotational basis, often for free, usually pooling labour on each other's farmland." },
+    { term: "Cottage industry", def: "A small-scale, decentralised manufacturing unit using conventional low-technology methods, often home-based, defined by its investment size and number employed." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "Ethiopia's headcount poverty was 59% in 1992 and 29.5% in 2011. By how many percentage points did it fall, and how does the 2011 rate compare with the 1992 rate?",
+      given: "Headcount poverty in 1992 = 59%; headcount poverty in 2011 = 29.5%.",
+      formula: "Percentage-point change = later rate - earlier rate; relative comparison = later rate divided by earlier rate.",
+      substitution: "Change = 29.5 - 59 = -29.5 percentage points; relative level = 29.5/59.",
+      calculation: "The fall is 29.5 percentage points, and 29.5/59 = 0.5, so the 2011 headcount is exactly half the 1992 headcount - poverty halved over 19 years.",
+      answer: "Headcount poverty fell 29.5 percentage points, from 59% to 29.5% - precisely halved between 1992 and 2011."
+    },
+    {
+      problem: "The share of Ethiopians below the national poverty line fell from 38% to 24% between 2008/09 and 2018/19, and 44% earn less than a dollar a day while 89% fall below $2 a day. Interpret each pair of figures.",
+      given: "National poverty line share: 38% to 24%; under $1/day: 44%; under $2/day: 89%.",
+      formula: "Principle: the broader $2 line includes everyone below the stricter line, so subtracting shares isolates the group between the two lines.",
+      substitution: "Between $1 and $2 a day: 89% - 44% = 45%; national poverty line decline: 38 - 24 = 14 percentage points.",
+      calculation: "About 45% of people live on between $1 and $2 a day - larger than the 44% group below $1 - and poverty along the national line fell by 14 percentage points during the growth decade.",
+      answer: "Poverty dropped 14 percentage points below the national line, yet nearly half the population still lives in the $1-$2 a-day band above the poorest group."
+    },
+    {
+      problem: "An Iqub of 10 members contributes 1,000 birr each month into a common pool. How much money circulates per round, and what can the rotating fund finance?",
+      given: "10 members contribute 1,000 birr monthly; Iqub is a rotating credit association where each member takes the pot in turn.",
+      formula: "Principle: the pool equals the number of members times the periodic contribution, rotating among members.",
+      substitution: "Pool per round = 10 x 1,000 = 10,000 birr.",
+      calculation: "Each month one member receives 10,000 birr, and over 10 monthly rounds every member has received the pool once. A poor family can therefore fund activities such as weddings, building a house or starting a small business that it would normally never consider for lack of money.",
+      answer: "The pool is 10,000 birr per round; over ten rounds each member obtains substantial funding - an investment route a bank might never open for them."
+    },
+    {
+      problem: "A woman in a rural town does not own a bank account but weaves cloth at home for sale. Using the textbook's categories, explain how she is drawn out of poverty.",
+      given: "Weaving is one of Ethiopia's oldest cottage industries; cottage industries are small-scale, home-based, low-technology manufacturing units.",
+      formula: "Principle: cottage industries need very little investment but employ labour-intensive techniques, creating employment and self-employment.",
+      substitution: "Her weaving requires almost no capital, uses mainly her own labour, and produces a good with steady local demand.",
+      calculation: "The income from weaving supplements household earnings and offers self-employment, thereby reducing unemployment, which is exactly the poverty-reduction role the textbook assigns to cottage industries.",
+      answer: "As a cottage-industry weaver she is self-employed with minimal investment, generating income that lifts her household toward higher wellbeing."
+    }
+  ],
+  commonMistakes: [
+    "Thinking fast average growth of 9.8% a year eliminated poverty; Ethiopia remains one of the poorest countries.",
+    "Mixing the national poverty line figures (38% to 24%) with the headcount poverty figures (59% in 1992 to 29.5% in 2011).",
+    "Confusing HICES (household income and consumption survey) with WMS (welfare monitoring survey).",
+    "Assuming Idir is a rotating credit association; Iqub is the rotating credit club while Idir is a burial society like group life insurance.",
+    "Believing Iqub and Idir are official government programmes; they are informal, bottom-up associations that stay outside the documented formal arena.",
+    "Forgetting that rural poverty in Ethiopia decreases more slowly than urban poverty because livelihoods depend on rain-fed agriculture.",
+    "Assuming cottage industries need large investment; they are defined by very small investment and labour-intensive methods."
+  ],
+  applications: [
+    "Joining a family Iqub to save for school fees, a house or a small trading enterprise without needing a bank loan.",
+    "Contributing to the neighbourhood Idir so a bereaved family receives instant financial and social support.",
+    "Participating in Debo labour pooling when a neighbour's farmland needs ploughing or harvesting.",
+    "Starting a home-based pottery, weaving or basket-making activity as low-investment self-employment.",
+    "Reading the Central Statistical Agency's HICES results to see whether poverty in your region is falling.",
+    "Joining or supporting cooperatives such as coffee unions to gain better prices and sustainable livelihoods."
+  ],
+  summary: "Ethiopia grew about 9.8% a year from 2008/09 to 2018/19 while national-poverty-line incidence fell from 38% to 24% and headcount poverty halved from 59% (1992) to 29.5% (2011), yet with per capita income of $883, an HDI of 0.485 (rank 173 of 189) and 89% below $2 a day, poverty remains a rural, smallholder-centred challenge. The state tracks it through the CSA's HICES and WMS surveys and MoFED's Poverty Analysis Report, while indigenous institutions - Idir as group life insurance, Iqub as a rotating credit club, Debo as labour pooling with cottage industries and coffee-union cooperatives - pool resources for the common good and reduce poverty sustainably.",
+  visuals: [
+    {
+      type: "tableVisual",
+      config: {
+        title: "Ethiopia's Key Poverty and Welfare Figures",
+        headers: ["Indicator", "Figure"],
+        rows: [
+          ["Estimated population (2021)", "118 million"],
+          ["Average annual growth, 2008/09-2018/19", "9.8%"],
+          ["Share below national poverty line", "38% down to 24%"],
+          ["Headcount poverty, 1992 to 2011", "59% down to 29.5%"],
+          ["Per capita annual income (2019)", "$883"],
+          ["HDI 2019 (rank 173 of 189)", "0.485, low human development"],
+          ["Under $1 and under $2 a day", "44% and 89%"],
+          ["Chronically or periodically food insecure", "More than 12 million (IFAD)"]
+        ]
+      }
+    },
+    {
+      type: "comparison",
+      config: {
+        title: "Idir vs Iqub",
+        left: { name: "Idir", items: ["Burial society for emergencies", "Described as group life insurance", "Large membership, minimal dues", "Long-term association", "Members must attend funerals"] },
+        right: { name: "Iqub", items: ["Rotating credit association", "Acts as a savings club", "Weekly or monthly contributions", "Temporary or permanent", "Funds weddings, houses, small businesses"] }
+      }
+    },
+    {
+      type: "mindMap",
+      config: {
+        title: "Indigenous Knowledge Against Poverty",
+        center: "Indigenous Institutions",
+        branches: [
+          { label: "Financial pooling", items: ["Idir: burial and emergency funds", "Iqub: rotating credit and savings"] },
+          { label: "Labour pooling", items: ["Debo: rotational free work groups"] },
+          { label: "Production", items: ["Cottage industries: weaving, pottery, leather, blacksmithing", "Labour-intensive employment"] },
+          { label: "Modern bodies", items: ["Cooperatives", "Coffee unions"] },
+          { label: "Shared values", items: ["Accountability", "Transparency", "Tolerance and dialogue"] }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "Ethiopia's estimated population as of 2021 was about:", options: ["98 million", "108 million", "118 million", "128 million"], answer: 2, difficulty: 1, explanation: "The textbook gives an estimated population of 118 million people as of 2021." },
+    { type: "mcq", q: "According to the World Bank (2020), the share of Ethiopians below the national poverty line fell from 38% to what level between 2008/09 and 2018/19?", options: ["29.5%", "24%", "20%", "44%"], answer: 1, difficulty: 2, explanation: "The share below the national poverty line declined from 38% to 24% over 2008/09-2018/19." },
+    { type: "mcq", q: "Government figures show Ethiopian headcount poverty declining from 59% in 1992 to:", options: ["44% in 2005", "38% in 2008/09", "29.5% in 2011", "24% in 2011"], answer: 2, difficulty: 2, explanation: "Headcount poverty declined from 59% in 1992 to 29.5% in 2011 (MoFED, 2012)." },
+    { type: "mcq", q: "By how many percentage points did headcount poverty fall from 1992 to 2011?", options: ["59", "38", "29.5", "24"], answer: 2, difficulty: 2, explanation: "59 minus 29.5 equals 29.5 percentage points, meaning poverty was exactly halved." },
+    { type: "mcq", q: "Ethiopia's 2019 HDI of 0.485 places it at rank 173 of 189 countries, in which category?", options: ["Very high human development", "High human development", "Medium human development", "Low human development"], answer: 3, difficulty: 2, explanation: "An HDI of 0.485 puts the country in the low human development category (UNDP)." },
+    { type: "mcq", q: "Which agency conducts Ethiopia's Household Income and Consumption Expenditure Surveys and the Welfare Monitoring Survey?", options: ["MoFED", "Central Statistical Agency", "IFAD", "Ministry of Health"], answer: 1, difficulty: 2, explanation: "The Central Statistical Agency conducts the regular HICES and the WMS established in 1996." },
+    { type: "tf", q: "Idir is Ethiopia's rotating credit association in which members contribute weekly or monthly to a common pool.", answer: false, difficulty: 3, explanation: "That describes Iqub; Idir is a traditional burial association characterised as group life insurance." },
+    { type: "concept", q: "Explain why Iqub is more accessible than banks for a poor Ethiopian family.", answer: "more flexible and accessible than banks|minimal paperwork|no discouragement of people without formal education", difficulty: 2, explanation: "Iqub requires minimal paperwork, is flexible and accessible, and weekly or monthly contributions keep a steady flow of money on a rotational basis." },
+    { type: "mcq", q: "Cottage industries contribute to poverty reduction mainly because they:", options: ["require very little investment but employ labour-intensive techniques", "use imported high technology", "operate only in urban areas", "are owned by the government"], answer: 0, difficulty: 2, explanation: "Cottage industries need very little investment yet employ labour-intensive techniques, cutting unemployment and offering self-employment for men and women." },
+    { type: "short", q: "Name one of the oldest forms of cottage industry in Ethiopia.", answer: "weaving|leather working|pottery|basket making|blacksmithing", difficulty: 1, explanation: "Weaving, leather working, pottery, basket making and blacksmithing are the oldest cottage industries in Ethiopia." },
+    { type: "tf", q: "Rural poverty in Ethiopia is declining faster than urban poverty.", answer: false, difficulty: 3, explanation: "Poverty is still a challenge especially in rural areas where the rate of decrease is slower than urban areas, with rain-fed agriculture exposed to climate vulnerability." }
+  ]
+};

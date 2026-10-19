@@ -1,14 +1,619 @@
-/* Content: g10-economics-ue5 — migrated from generated JSON (Phase 0 pipeline restore).
-   Content upgrade to spec v2 happens per unit in later phases. */
+/* Content: Grade 10 Economics - Unit 5: Banking and Finance (5 topics)
+   Source: MoE Economics Grade 10 Student Textbook, Unit 5 (sections 5.1-5.7). */
 window.Lessons = window.Lessons || {};
 
-Lessons["g10-economics-ue5-t1"] = {"overview":"<b>5.1 &#038; 5.2 – Financial Intermediaries and Financial Markets</b> sits inside <b>Banking and Finance</b>. Banking and finance are the focus of Unit 5 of Grade 10 Economics in the Ethiopian (FDRE Ministry of Education) curriculum. First, it explains financial intermediaries and the financial markets that move funds from savers to borrowers. Then it describes financial institutions, both banking and non-banking. Next, it traces the history of banking in Ethiopia and the rise of microfinance. Finally, it covers electronic banking and indigenous institutions such as equb and iddir. Students will also learn how banking and finance support real-life saving and investment.","objectives":["Describe the main types of financial intermediaries.","Distinguish banking from non-banking institutions.","Trace the historical development of banks in Ethiopia.","Explain the role of microfinance institutions.","Evaluate how banking and finance serve society."],"simple":"<b>5.1 &#038; 5.2 – Financial Intermediaries and Financial Markets in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, banking institutions such as commercial banks.</li> <li>Then non-banking institutions such as insurance companies and pension funds.</li></ul>","detailed":"<p><b>5.1 &#038; 5.2 – Financial Intermediaries and Financial Markets — the essentials.</b> First, banking institutions such as commercial banks. Then non-banking institutions such as insurance companies and pension funds.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Describe the main types of financial intermediaries.</li><li>Distinguish banking from non-banking institutions.</li><li>Trace the historical development of banks in Ethiopia.</li><li>Explain the role of microfinance institutions.</li><li>Evaluate how banking and finance serve society.</li></ul>","keyTerms":[{"term":"banking institutions","def":"First, banking institutions such as commercial banks."},{"term":"non-banking institutions","def":"Then non-banking institutions such as insurance companies and pension funds."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing 5.1 &#038; 5.2 – financial intermediaries and financial markets with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Interpreting economic news about Ethiopia in the media","The applied data-response questions in the ESSLCE economics paper"],"summary":"5.1 &#038; 5.2 – Financial Intermediaries and Financial Markets: First, banking institutions such as commercial banks. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"5.1 &#038; 5.2 – Financial Intermediaries and Financial Markets\" is correct according to the MoE curriculum?","options":["First, banking institutions such as commercial banks.","5.1 &#038; 5.2 – Financial Intermediaries and Financial Markets holds only under conditions this topic says do not apply","5.1 &#038; 5.2 – Financial Intermediaries and Financial Markets inverts the direction of the relationship this topic describes","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, banking institutions such as commercial banks. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"5.1 &#038; 5.2 – Financial Intermediaries and Financial Markets\"?","options":["Then non-banking institutions such as insurance companies and pension funds.","5.1 &#038; 5.2 – Financial Intermediaries and Financial Markets is a household-level claim, not the national-level claim of this topic","5.1 &#038; 5.2 – Financial Intermediaries and Financial Markets holds only under conditions this topic says do not apply","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Then non-banking institutions such as insurance companies and pension funds."},{"type":"tf","q":"True or false: First, banking institutions such as commercial banks.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover 5.1 &#038; 5.2 – financial intermediaries and financial markets.","answer":false,"difficulty":1,"explanation":"5.1 &#038; 5.2 – Financial Intermediaries and Financial Markets is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Describe the main types of financial intermediaries.","difficulty":2,"altAnswers":["Distinguish banking from non-banking institutions.","Trace the historical development of banks in Ethiopia."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why 5.1 &#038; 5.2 – financial intermediaries and financial markets matters.","answer":"5.1 &#038; 5.2 – Financial Intermediaries and Financial Markets is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of 5.1 &#038; 5.2 – financial intermediaries and financial markets in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to 5.1 &#038; 5.2 – financial intermediaries and financial markets, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
+Lessons["g10-economics-ue5-t1"] = {
+  overview: "Financial intermediaries such as banks stand between savers who have excess money and borrowers who need finance. This lesson explains how financial intermediation works and how financial markets split into money and capital markets.",
+  objectives: [
+    "Define financial intermediation and identify financial intermediaries in the Ethiopian economy",
+    "Explain the benefits of financial intermediaries for depositors and borrowers",
+    "Describe financial markets as channels that allocate savings to investment",
+    "Identify the two major components of the financial markets",
+    "Distinguish money market instruments from capital market securities by their maturity"
+  ],
+  simple: "Finance is the money an economy uses, and it works like blood circulating in a body; an economy cannot function without it. Some people have excess money, which they save at banks, while others face a shortage and borrow. An institution standing between the two parties is a financial intermediary, such as the Commercial Bank of Ethiopia. It gives depositors safety and interest, and gives borrowers finance for investment at an annual interest charge. The transfer of funds from a surplus spending unit to a deficit spending unit through such intermediaries is called financial intermediation. Financial markets provide channels that allocate savings to investment. They have two components: the money market, with instruments maturing in one year or less such as treasury bills, commercial papers and certificates of deposit, and the capital market, which issues long-term equities and debt obligations such as notes and bonds.",
+  detailed: "<p><b>What a financial intermediary is.</b> A financial intermediary is an entity that acts as the middleman between two parties in a financial transaction; the Commercial Bank of Ethiopia is one example. Financial intermediaries offer a number of benefits to the average consumer, such as safety, liquidity and the economies of scale involved in banking and asset management. They mediate between the providers of financial capital, who have excess money, and the users, who have a shortage. The transfer of funds from a surplus spending unit to a deficit spending unit through financial intermediaries is called <b>financial intermediation</b>.</p><p><b>Benefits for depositors and borrowers.</b> For depositors, financial intermediaries provide safety and interest earning. Safety means the money of depositors is free from any risk of loss, and banks pay interest on money saved with them. For borrowers, the benefits work differently: people who borrow money from banks and other intermediaries are known as investors. They go to intermediaries to obtain finance for production and are charged annual interest on what they borrow. The more money they borrow, the more investment and production they undertake, which is useful for the country.</p><p><b>Finance is like blood.</b> Finance (money) in an economy is like the blood circulating in a body: no economy or country can function well without money, just as the body cannot function without circulating blood. We use money to buy our day-to-day needs, since demand means willingness plus ability, and ability is the money or finance we have.</p><p><b>Financial markets.</b> Financial markets are markets that provide channels for the allocation of savings to investment. They provide a variety of assets to savers as well as various forms in which investors can raise funds, and thereby decouple the acts of saving and investment. In them, savers and investors are constrained not by their individual abilities but by the economy's ability to invest and save respectively. Financial markets contribute to economic development to the extent that development depends on the rates of savings and investment.</p><p><b>The money market.</b> The financial markets have two major components. The money market is the sector of the financial market that includes financial instruments with a maturity date of one year or less at the time of issuance. Its instruments include treasury bills, commercial papers, negotiable certificates of deposit, repurchase agreements and bankers' acceptances. <b>Treasury bills</b> are issued by governments with maturity dates of three weeks, one month, three months or six months; the holder earns a return by buying the security for less than its maturity value and receiving the full maturity value at maturity. <b>Commercial papers</b> are promissory notes, written promises to pay, issued by a large creditworthy corporation or a municipality, with original maturities from one day to two hundred seventy (270) days, and they may be interest bearing or sold at a discount. <b>Negotiable certificates of deposit</b> are written promises by a bank to pay a depositor; large commercial banks issue them with maturities between one month and one year, and at maturity the issuer repays the principal plus interest.</p><p><b>The capital market.</b> The capital market is the sector where long-term financial instruments are issued by corporations and governments; they have original maturities greater than a year, and perpetual securities with no maturity. There are two types of capital market securities. <b>Equity</b> includes common stock and preferred stock: common stock represents ownership of a perpetual corporation and is thus a perpetual security, while preferred stock also represents an ownership interest but may either have a redemption (maturity) date or be perpetual. <b>Debt obligations</b> are instruments whereby the borrower promises to repay the maturity value at a specified time beyond one year; they include bank loans, one form of which is the syndicated bank loan, where a group of banks provides funds to the borrower, and debt securities, namely notes with a maturity at issuance of ten years or less and bonds with maturities greater than ten years.</p>",
+  keyTerms: [
+    { term: "Financial intermediary", def: "An entity that acts as the middleman between two parties in a financial transaction, for example the Commercial Bank of Ethiopia." },
+    { term: "Financial intermediation", def: "The transfer of funds from a surplus spending unit to a deficit spending unit through financial intermediaries." },
+    { term: "Financial market", def: "A market that provides channels for the allocation of savings to investment, offering assets to savers and forms of finance to investors." },
+    { term: "Money market", def: "The sector of the financial market that includes financial instruments with a maturity date of one year or less at the time of issuance." },
+    { term: "Capital market", def: "The sector of the financial market where long-term financial instruments with original maturities greater than one year, and perpetual securities, are issued." },
+    { term: "Treasury bill", def: "A financial instrument issued by governments with maturity dates of three weeks, one month, three months or six months." },
+    { term: "Commercial paper", def: "A promissory note issued by a large creditworthy corporation or a municipality, with an original maturity of one day to 270 days." },
+    { term: "Equity", def: "A capital market instrument that includes common stock, a perpetual ownership security, and preferred stock." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "Ato Bekele, a farmer with excess money, deposits his savings at the Commercial Bank of Ethiopia, while a dressmaker in Adama borrows finance to buy sewing machines. Describe the economic role being played by the bank.",
+      given: "Bekele is a surplus spending unit; the dressmaker is a deficit spending unit; the bank stands between them.",
+      formula: "Financial intermediation = transfer of funds from a surplus spending unit to a deficit spending unit through an intermediary.",
+      substitution: "Bekele's deposit goes to the bank, which lends finance to the dressmaker for production.",
+      calculation: "The bank earns interest from the borrower, pays interest to the depositor, and the borrower undertakes more investment and production, which is useful for the country.",
+      answer: "The bank acts as a financial intermediary; it channels savings to investment, which is financial intermediation."
+    },
+    {
+      problem: "A treasury bill has a maturity value of 10,000 birr, matures after six months, and is bought today for 9,300 birr. How does the holder earn a return, and how large is it?",
+      given: "Buying price 9,300 birr; maturity value 10,000 birr.",
+      formula: "Return = maturity value - purchasing price, because a treasury bill is bought for less than its maturity value and pays nothing until maturity.",
+      substitution: "Return = 10,000 birr - 9,300 birr.",
+      calculation: "Return = 700 birr, received at maturity when the full maturity value is paid.",
+      answer: "The holder earns 700 birr by buying the bill below its maturity value and collecting the full value at maturity."
+    },
+    {
+      problem: "A village savings group reviews four instruments: a six-month treasury bill, a 270-day commercial paper, a 15-year bond and common stock. Classify each into the money market or the capital market.",
+      given: "Money market instruments mature in one year or less at issuance; capital market instruments mature beyond one year or are perpetual.",
+      formula: "Test each instrument against the one-year maturity boundary.",
+      substitution: "Treasury bill (six months) and commercial paper (270 days) fall within one year; the 15-year bond has a maturity greater than ten years; common stock is perpetual ownership.",
+      calculation: "Two instruments satisfy the one-year-or-less rule and two do not.",
+      answer: "Treasury bill and commercial paper belong to the money market; the bond and common stock belong to the capital market."
+    },
+    {
+      problem: "Three commercial banks jointly provide a large loan to a factory so that no single bank carries the whole amount. Classify this instrument and its component.",
+      given: "A group of banks provides funds to a single borrower; the loan runs beyond one year.",
+      formula: "Capital market debt obligations include bank loans and debt securities; a loan provided by a group of banks is a syndicated bank loan.",
+      substitution: "The borrower must repay the maturity value at a specified period beyond one year.",
+      calculation: "Since the loan matures beyond one year, it is not a money market instrument, and it is not equity because no ownership is transferred.",
+      answer: "It is a syndicated bank loan, a bank loan within capital market debt obligations."
+    }
+  ],
+  commonMistakes: [
+    "Believing a treasury bill pays periodic interest coupons, when in fact the holder earns a return only by buying it for less than its maturity value.",
+    "Putting commercial paper or certificates of deposit in the capital market despite maturities of one day to one year, which is money market territory.",
+    "Thinking that a person who borrows from a bank is never an investor.",
+    "Confusing commercial paper, an instrument of corporations and municipalities, with a government instrument.",
+    "Assuming common stock has a maturity date; common stock is a perpetual security.",
+    "Believing financial markets benefit investors only and give savers nothing."
+  ],
+  applications: [
+    "Opening a savings account at a commercial bank keeps your money safe from loss and earns you interest.",
+    "Buying treasury bills provides the government with funds while giving you a guaranteed maturity value at maturity.",
+    "A garment factory raising long-term finance issues debt obligations through the capital market instead of short-term loans.",
+    "A large firm with a seasonal cash surplus placing funds in commercial paper short of one year is using the money market.",
+    "When telling a friend why more loans to small producers matter, explain that the more producers borrow for investment, the more production the country gets."
+  ],
+  summary: "A financial intermediary such as a bank is the middleman that transfers funds from surplus spending units to deficit spending units, which is financial intermediation; it protects depositors and finances investors for interest. Financial markets allocate savings to investment and divide into a money market of instruments maturing within one year or less (treasury bills, commercial papers, certificates of deposit) and a capital market of long-term equities and debt obligations such as notes, bonds and bank loans.",
+  visuals: [
+    {
+      type: "comparison",
+      config: {
+        title: "Money Market vs Capital Market",
+        left: { name: "Money market", items: ["Maturity of one year or less at issuance", "Government treasury bills (3 weeks to 6 months)", "Commercial paper (1 day to 270 days)", "Certificates of deposit (1 month to 1 year)"] },
+        right: { name: "Capital market", items: ["Original maturity greater than a year", "Equity: common and preferred stock", "Debt obligations: bank loans", "Debt securities: notes (10 years or less) and bonds (over 10 years)"] }
+      }
+    },
+    {
+      type: "tableVisual",
+      config: {
+        title: "Main Money Market Instruments",
+        headers: ["Instrument", "Issued by", "Maturity at issuance"],
+        rows: [
+          ["Treasury bills", "The government", "Three weeks, one month, three months or six months"],
+          ["Commercial papers", "A large creditworthy corporation or a municipality", "One day to 270 days; interest bearing or discounted"],
+          ["Negotiable certificates of deposit", "Large commercial banks", "One month to one year; principal plus interest repaid at maturity"]
+        ]
+      }
+    },
+    {
+      type: "flowChart",
+      config: {
+        title: "How an Intermediary Channels Funds",
+        nodes: [
+          { label: "Surplus spending unit", detail: "A saver with excess money deposits it at the bank for safety and interest." },
+          { label: "Financial intermediary", detail: "The bank accepts deposits safely and offers liquidity and economies of scale." },
+          { label: "Deficit spending unit", detail: "A borrower, known as an investor, receives finance and pays annual interest." },
+          { label: "Investment and production", detail: "More borrowed finance means more investment and production for the country." }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "A financial intermediary is best described as:", options: ["An entity acting as the middleman between two parties in a financial transaction", "A government office that collects taxes", "Any shop that sells goods on credit", "A market where only goods and services are sold"], answer: 0, difficulty: 1, explanation: "A financial intermediary, such as the Commercial Bank of Ethiopia, acts as the middleman between savers and borrowers." },
+    { type: "mcq", q: "The sector of the financial market that includes instruments with a maturity date of one year or less at issuance is the:", options: ["Capital market", "Money market", "Goods market", "Labor market"], answer: 1, difficulty: 1, explanation: "The money market trades instruments with a maturity of one year or less at issuance." },
+    { type: "tf", q: "Treasury bills are issued by governments.", answer: true, difficulty: 1, explanation: "Treasury bills are financial instruments issued by governments with short maturity dates." },
+    { type: "mcq", q: "The holder of a treasury bill earns a return by:", options: ["Receiving interest coupons every month", "Buying the bill for less than the maturity value and receiving the maturity value at maturity", "Selling the bill to the central bank at a loss", "Receiving dividends once a year"], answer: 1, difficulty: 2, explanation: "T-bill holders buy the security below its maturity value and receive the full maturity value at maturity." },
+    { type: "tf", q: "The original maturity of commercial paper can range from one day to 270 days.", answer: true, difficulty: 2, explanation: "Commercial paper has an original maturity of one day to two hundred seventy days." },
+    { type: "short", q: "Name the two major components of the financial markets.", answer: "money market and capital market|money and capital markets", difficulty: 1, explanation: "The financial markets have two components: the money market and the capital market." },
+    { type: "mcq", q: "Which of the following is a perpetual security?", options: ["A six-month treasury bill", "A 270-day commercial paper", "Common stock", "A one-year certificate of deposit"], answer: 2, difficulty: 2, explanation: "Common stock represents ownership of a perpetual corporation and is therefore a perpetual security." },
+    { type: "concept", q: "Why is more borrowing for production useful for the country?", answer: "more investment and more production|borrowers are investors", difficulty: 2, explanation: "Borrowers use finance as investors, and the more they borrow the more investment and production the country obtains." },
+    { type: "ordering", q: "Choose the option that lists the intermediation process in the correct order.", options: ["The borrower invests, the saver deposits, the bank lends", "The saver deposits at the bank, the bank lends to the borrower, the borrower invests the finance", "The bank lends first, the saver deposits later, the borrower invests last", "The borrower invests, the bank lends, the saver deposits"], answer: 1, difficulty: 2, explanation: "Funds flow from the saver to the bank, then to the borrower, who invests them in production." },
+    { type: "mcq", q: "A syndicated bank loan differs from an ordinary loan because it is:", options: ["A loan with a maturity of three weeks", "A loan provided by a group, or syndicate, of banks to the borrower", "An ownership share in a perpetual corporation", "A government promissory note"], answer: 1, difficulty: 3, explanation: "In a syndicated bank loan, a group of banks provides funds to the borrower; it remains a bank loan, a capital market debt obligation." }
+  ]
+};
 
-Lessons["g10-economics-ue5-t2"] = {"overview":"<b>Financial Institutions</b> sits inside <b>Banking and Finance</b>. Banking and finance are the focus of Unit 5 of Grade 10 Economics in the Ethiopian (FDRE Ministry of Education) curriculum. First, it explains financial intermediaries and the financial markets that move funds from savers to borrowers. Then it describes financial institutions, both banking and non-banking. Next, it traces the history of banking in Ethiopia and the rise of microfinance. Finally, it covers electronic banking and indigenous institutions such as equb and iddir. Students will also learn how banking and finance support real-life saving and investment.","objectives":["Describe the main types of financial intermediaries.","Distinguish banking from non-banking institutions.","Trace the historical development of banks in Ethiopia.","Explain the role of microfinance institutions.","Evaluate how banking and finance serve society."],"simple":"<b>Financial Institutions in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, banking institutions such as commercial banks.</li> <li>Then non-banking institutions such as insurance companies and pension funds.</li></ul>","detailed":"<p><b>Financial Institutions — the essentials.</b> First, banking institutions such as commercial banks. Then non-banking institutions such as insurance companies and pension funds.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Describe the main types of financial intermediaries.</li><li>Distinguish banking from non-banking institutions.</li><li>Trace the historical development of banks in Ethiopia.</li><li>Explain the role of microfinance institutions.</li><li>Evaluate how banking and finance serve society.</li></ul>","keyTerms":[{"term":"banking institutions","def":"First, banking institutions such as commercial banks."},{"term":"non-banking institutions","def":"Then non-banking institutions such as insurance companies and pension funds."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing financial institutions with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Interpreting economic news about Ethiopia in the media","The applied data-response questions in the ESSLCE economics paper"],"summary":"Financial Institutions: First, banking institutions such as commercial banks. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"Financial Institutions\" is correct according to the MoE curriculum?","options":["First, banking institutions such as commercial banks.","Financial Institutions holds only under conditions this topic says do not apply","Financial Institutions inverts the direction of the relationship this topic describes","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, banking institutions such as commercial banks. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"Financial Institutions\"?","options":["Then non-banking institutions such as insurance companies and pension funds.","Financial Institutions is a household-level claim, not the national-level claim of this topic","Financial Institutions holds only under conditions this topic says do not apply","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Then non-banking institutions such as insurance companies and pension funds."},{"type":"tf","q":"True or false: First, banking institutions such as commercial banks.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover financial institutions.","answer":false,"difficulty":1,"explanation":"Financial Institutions is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Describe the main types of financial intermediaries.","difficulty":2,"altAnswers":["Distinguish banking from non-banking institutions.","Trace the historical development of banks in Ethiopia."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why financial institutions matters.","answer":"Financial Institutions is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of financial institutions in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to financial institutions, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
+Lessons["g10-economics-ue5-t2"] = {
+  overview: "Institutions are the rules of the game that organize social, political and economic life, and financial institutions are the ones serving as intermediaries. This lesson classifies financial institutions, explains how banks enhance development, and introduces non-bank financial institutions.",
+  objectives: [
+    "Define institutions and distinguish formal from informal institutions",
+    "Describe financial institutions and classify their three major types",
+    "Explain the roles of banks in mobilizing saving and improving capital allocation",
+    "Identify the two factors behind bank efficiency and predict the effects of competition among banks",
+    "Describe non-bank financial institutions and list their examples"
+  ],
+  simple: "Institutions are norms that organize social, political and economic relations; they are the underlying rules of the game in any society. Formal institutions are written laws, policies and regulations enforced by officials, while informal institutions are unwritten social norms, customs and traditions. Financial institutions are the institutions that serve as financial intermediaries. There are three major types: depositary institutions such as banks and credit unions, contractual institutions such as insurance companies and pension funds, and investment institutes such as investment banks, underwriters and brokerage firms. The banking sector enhances development by mobilizing saving, identifying good investment and exerting sound corporate control. A non-bank financial institution has no full banking license and offers bank-related services such as insurance, investment and risk pooling.",
+  detailed: "<p><b>What institutions are.</b> Institutions are norms that organize social, political and economic relations; they are 'the underlying rules of the game' in any society or organization. They come in two forms. <b>Formal institutions</b> include the written constitution, laws, policies, rights and regulations enforced by official authorities. <b>Informal institutions</b> are the usually unwritten social norms, customs or traditions that shape thought and behavior.</p><p><b>Financial institutions.</b> Financial institutions are the institutions that serve as financial intermediaries. There are three major types. First, <b>depositary institutions</b> are deposit-taking institutions that accept and manage deposits and make loans; examples are banks and credit unions. Second, <b>contractual institutions</b> are insurance companies and pension funds. Third, <b>investment institutes</b> are investment banks, underwriters and brokerage firms.</p><p><b>The banking financial institution.</b> A bank is a financial intermediary that gives money in the form of loans to borrowers and accepts deposits (savings) from depositors. The banking sector, as an intermediary in any economy, has a major role in enhancing development and growth through its activities of mobilizing saving, identifying good investment, and exerting sound corporate control, particularly during the early stages of economic development and in a weak institutional environment.</p><p><b>Two deeper roles of banks.</b> The roles of banks in an economy include acquiring information about firms and managers, thereby improving capital allocation and corporate governance, and managing cross-sectional, inter-temporal and liquidity risk, thereby enhancing investment efficiency and economic growth.</p><p><b>Bank efficiency and competition.</b> The efficiency of a bank depends on two key factors: the degree of competition that exists among banks and the nature of the regulation to which banks are subject. Competition among banks in the economy is believed to result in greater technical efficiency within deposit institutions, lower interest rates for borrowers, higher interest rates for depositors and a greater variety of services.</p><p><b>Non-bank financial institutions.</b> A non-bank financial institution (NBFI) is a financial institution that does not have a full banking license or is not supervised by a national or international banking regulatory agency. NBFIs facilitate bank-related financial services such as investment, insurance, risk pooling, contractual savings and market brokering. Examples include insurance companies, pawn shops, cashier's check issuers, check cashing locations, payday lending, currency exchanges and microloan organizations.</p>",
+  keyTerms: [
+    { term: "Institution", def: "A norm that organizes social, political and economic relations; the underlying rules of the game in any society or organization." },
+    { term: "Formal institutions", def: "Institutions such as the written constitution, laws, policies, rights and regulations enforced by official authorities." },
+    { term: "Informal institutions", def: "The usually unwritten social norms, customs or traditions that shape thought and behavior." },
+    { term: "Financial institutions", def: "Institutions that serve as financial intermediaries between savers and borrowers." },
+    { term: "Depositary institutions", def: "Deposit-taking institutions that accept and manage deposits and make loans, such as banks and credit unions." },
+    { term: "Contractual institutions", def: "Financial institutions such as insurance companies and pension funds that provide risk protection and retirement savings." },
+    { term: "Investment institutes", def: "Financial institutions such as investment banks, underwriters and brokerage firms that help investors raise and trade funds." },
+    { term: "Non-bank financial institution (NBFI)", def: "A financial institution without a full banking license, or not supervised by a national or international banking regulatory agency." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "Classify three firms: the Commercial Bank of Ethiopia, an insurance company selling motor vehicle policies, and a brokerage firm that helps clients trade securities.",
+      given: "Three major types exist: depositary institutions, contractual institutions and investment institutes.",
+      formula: "Classification: which type matches each firm's function.",
+      substitution: "The bank accepts deposits and makes loans; the insurance company sells policies; the brokerage firm trades investment instruments.",
+      calculation: "Deposit taking and lending defines depositary institutions, so bank first; insurance defines contractual institutions; securities trading defines investment institutes.",
+      answer: "Commercial Bank of Ethiopia is a depositary institution; the insurance company is a contractual institution; the brokerage firm is an investment institute."
+    },
+    {
+      problem: "A town is served by one bank that faces no rivals. Then three more private banks enter the market. Predict what competition among banks does to depositors and borrowers.",
+      given: "Bank efficiency depends on the degree of competition among banks and the nature of regulation.",
+      formula: "Competition result: greater technical efficiency in deposit institutions, lower interest rates for borrowers, higher interest rates for depositors, greater variety of services.",
+      substitution: "The number of competing banks rises from one to four.",
+      calculation: "Applying the textbook result, borrowers face lower interest rates while depositors earn higher rates and enjoy more service choices.",
+      answer: "Borrowers pay less, depositors earn more, and everyone receives a greater variety of services."
+    },
+    {
+      problem: "A firm in your town offers payday lending and currency exchange without holding a banking license. What is it, and which services does it provide?",
+      given: "The firm has no full banking license and offers bank-related services.",
+      formula: "Test: does the firm have a full banking license and banking supervision?",
+      substitution: "It fails the license test, so it cannot be a bank; its services are investment, insurance, risk pooling, contractual savings and market brokering.",
+      calculation: "The definition of an NBFI matches the firm exactly, and payday lending plus currency exchange are its listed examples.",
+      answer: "It is a non-bank financial institution (NBFI) providing bank-related services such as lending and currency exchange."
+    },
+    {
+      problem: "A bank holds depositors' money that savers may withdraw at any moment, while it lends much of it to investors for years. Explain how this behaves as an economic risk-management function.",
+      given: "Banks manage cross-sectional, inter-temporal and liquidity risk.",
+      formula: "Banks' roles: acquiring information about firms and managers; managing cross-sectional, inter-temporal and liquidity risk.",
+      substitution: "Small, quickly withdrawable savings are transformed into long-term investment finance.",
+      calculation: "Handling both the timing of withdrawals and the timing of repayment enhances investment efficiency and economic growth.",
+      answer: "The bank manages inter-temporal and liquidity risk, turning short-term saving into long-term investment and raising growth."
+    }
+  ],
+  commonMistakes: [
+    "Thinking financial institutions include only banks.",
+    "Believing an insurance company is a bank just because it receives money.",
+    "Assuming informal institutions are criminal; they are simply unwritten customs and traditions.",
+    "Grouping pension funds together with banks instead of with contractual institutions.",
+    "Believing competition among banks raises the interest rates borrowers pay, when it lowers them.",
+    "Thinking bank efficiency depends only on employees, ignoring competition and regulation."
+  ],
+  applications: [
+    "Naming the depository institutions in your town: a commercial bank accepts your savings, and a credit union serves its members' loans.",
+    "A family covering a fire or road accident risk through a contractual institution, the insurance company.",
+    "Expecting that new private banks entering the Ethiopian market will push loan interest rates down and savings interest rates up.",
+    "Recognizing informal institutions, such as local customs of honest dealing, that shape how people think about money.",
+    "Explaining to a friend why a pawn shop or currency exchange is a financial institution even though it is not a bank."
+  ],
+  summary: "Institutions are the rules of the game: formal ones are written laws enforced by authorities, informal ones are unwritten customs. Financial institutions serve as intermediaries and come in three types: depositary, contractual and investment institutes. Banks mobilize saving, identify good investments and manage risk, gaining efficiency where competition and regulation grow stronger; non-bank financial institutions serve similar purposes without holding a full banking license.",
+  visuals: [
+    {
+      type: "mindMap",
+      config: {
+        title: "Types of Financial Institutions",
+        center: "Financial Institutions",
+        branches: [
+          { label: "Depositary institutions", items: ["Banks", "Credit unions"] },
+          { label: "Contractual institutions", items: ["Insurance companies", "Pension funds"] },
+          { label: "Investment institutes", items: ["Investment banks", "Underwriters", "Brokerage firms"] },
+          { label: "Non-bank (NBFI)", items: ["Pawn shops", "Currency exchanges", "Microloan organizations"] }
+        ]
+      }
+    },
+    {
+      type: "comparison",
+      config: {
+        title: "Banking vs Non-Banking Financial Institution",
+        left: { name: "Bank", items: ["Holds a full banking license", "Accepts and manages deposits", "Grants loans", "Supervised as part of the banking sector"] },
+        right: { name: "NBFI", items: ["No full banking license or banking supervision", "Facilitates bank-related services", "Investment, insurance, risk pooling, contractual savings, brokering", "Examples: pawn shops, payday lending, currency exchanges"] }
+      }
+    },
+    {
+      type: "tableVisual",
+      config: {
+        title: "The Three Major Types of Financial Institutions",
+        headers: ["Type", "What they do", "Examples"],
+        rows: [
+          ["Depositary institutions", "Accept and manage deposits and make loans", "Banks and credit unions"],
+          ["Contractual institutions", "Provide protection and retirement finance on contracts", "Insurance companies and pension funds"],
+          ["Investment institutes", "Help raise and trade investment finance", "Investment banks, underwriters, brokerage firms"]
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "Institutions are best described as:", options: ["Buildings owned by the government", "Norms that organize social, political and economic relations", "Only the written laws of a country", "Any organization that earns profit"], answer: 1, difficulty: 1, explanation: "Institutions are norms organizing relations, the underlying rules of the game in a society." },
+    { type: "tf", q: "Informal institutions are the usually unwritten social norms, customs or traditions that shape thought and behavior.", answer: true, difficulty: 1, explanation: "Informal institutions are unwritten; formal institutions are written and enforced by official authorities." },
+    { type: "mcq", q: "Insurance companies and pension funds are classified as:", options: ["Depositary institutions", "Investment institutes", "Contractual institutions", "Non-institutional groups"], answer: 2, difficulty: 1, explanation: "Contractual institutions are insurance companies and pension funds." },
+    { type: "mcq", q: "Which of the following is NOT a result of competition among banks?", options: ["Greater technical efficiency within deposit institutions", "Lower interest rates for borrowers", "Higher interest rates for depositors", "A smaller variety of services"], answer: 3, difficulty: 2, explanation: "Competition brings a GREATER variety of services, along with lower borrower rates and higher depositor rates." },
+    { type: "tf", q: "A non-bank financial institution does not have a full banking license or is not supervised by a national or international banking regulatory agency.", answer: true, difficulty: 2, explanation: "This is the textbook definition of an NBFI." },
+    { type: "ordering", q: "Choose the option that lists the three major types of financial institutions in the order used in the textbook.", options: ["Contractual institutions, depositary institutions, investment institutes", "Investment institutes, contractual institutions, depositary institutions", "Depositary institutions, contractual institutions, investment institutes", "Depositary institutions, investment institutes, contractual institutions"], answer: 2, difficulty: 2, explanation: "The textbook lists depositary institutions first, then contractual institutions, then investment institutes." },
+    { type: "short", q: "Give any one example of the third major type of financial institution, the investment institutes.", answer: "investment bank|underwriter|brokerage firm", difficulty: 1, explanation: "Investment institutes are investment banks, underwriters and brokerage firms." },
+    { type: "concept", q: "How can banks improve capital allocation in an economy?", answer: "by acquiring information about firms and managers", difficulty: 2, explanation: "Banks acquire information about firms and managers, thereby improving capital allocation and corporate governance." },
+    { type: "concept", q: "List the bank-related services that non-bank financial institutions facilitate.", answer: "investment, insurance, risk pooling, contractual savings, market brokering", difficulty: 3, explanation: "NBFIs facilitate investment, insurance, risk pooling, contractual savings and market brokering." },
+    { type: "mcq", q: "The efficiency of a bank depends chiefly on:", options: ["The size of its head office building", "The degree of competition among banks and the nature of the regulation banks face", "The number of depositors it can turn away", "The brand of its computers only"], answer: 1, difficulty: 2, explanation: "Bank efficiency depends on the degree of competition among banks and the nature of regulation." }
+  ]
+};
 
-Lessons["g10-economics-ue5-t3"] = {"overview":"<b>Historical Development of Banks in Ethiopia</b> sits inside <b>Banking and Finance</b>. Banking and finance are the focus of Unit 5 of Grade 10 Economics in the Ethiopian (FDRE Ministry of Education) curriculum. First, it explains financial intermediaries and the financial markets that move funds from savers to borrowers. Then it describes financial institutions, both banking and non-banking. Next, it traces the history of banking in Ethiopia and the rise of microfinance. Finally, it covers electronic banking and indigenous institutions such as equb and iddir. Students will also learn how banking and finance support real-life saving and investment.","objectives":["Describe the main types of financial intermediaries.","Distinguish banking from non-banking institutions.","Trace the historical development of banks in Ethiopia.","Explain the role of microfinance institutions.","Evaluate how banking and finance serve society."],"simple":"<b>Historical Development of Banks in Ethiopia in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, the history of banking in Ethiopia from the Bank of Abyssinia onward.</li> <li>Also the roles and functions of banks in the Ethiopian economy.</li></ul>","detailed":"<p><b>Historical Development of Banks in Ethiopia — the essentials.</b> First, the history of banking in Ethiopia from the Bank of Abyssinia onward. Also the roles and functions of banks in the Ethiopian economy.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Describe the main types of financial intermediaries.</li><li>Distinguish banking from non-banking institutions.</li><li>Trace the historical development of banks in Ethiopia.</li><li>Explain the role of microfinance institutions.</li><li>Evaluate how banking and finance serve society.</li></ul>","keyTerms":[{"term":"First","def":"First, the history of banking in Ethiopia from the Bank of Abyssinia onward."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing historical development of banks in ethiopia with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Interpreting economic news about Ethiopia in the media","The applied data-response questions in the ESSLCE economics paper"],"summary":"Historical Development of Banks in Ethiopia: First, the history of banking in Ethiopia from the Bank of Abyssinia onward. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"Historical Development of Banks in Ethiopia\" is correct according to the MoE curriculum?","options":["First, the history of banking in Ethiopia from the Bank of Abyssinia onward.","Historical Development of Banks in Ethiopia holds only under conditions this topic says do not apply","Historical Development of Banks in Ethiopia inverts the direction of the relationship this topic describes","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, the history of banking in Ethiopia from the Bank of Abyssinia onward. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"Historical Development of Banks in Ethiopia\"?","options":["Also the roles and functions of banks in the Ethiopian economy.","Historical Development of Banks in Ethiopia is a household-level claim, not the national-level claim of this topic","Historical Development of Banks in Ethiopia holds only under conditions this topic says do not apply","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Also the roles and functions of banks in the Ethiopian economy."},{"type":"tf","q":"True or false: First, the history of banking in Ethiopia from the Bank of Abyssinia onward.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover historical development of banks in ethiopia.","answer":false,"difficulty":1,"explanation":"Historical Development of Banks in Ethiopia is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Describe the main types of financial intermediaries.","difficulty":2,"altAnswers":["Distinguish banking from non-banking institutions.","Trace the historical development of banks in Ethiopia."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why historical development of banks in ethiopia matters.","answer":"Historical Development of Banks in Ethiopia is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of historical development of banks in ethiopia in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to historical development of banks in ethiopia, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
+Lessons["g10-economics-ue5-t3"] = {
+  overview: "Modern banking in Ethiopia began in 1905 with a foreign-owned bank and developed through occupation, state monopoly and nationalization into today's system of central, commercial and development banking. This lesson traces that history and the roles of the National Bank of Ethiopia, the Commercial Bank of Ethiopia and the Development Bank of Ethiopia.",
+  objectives: [
+    "Trace the origin of modern banking in Ethiopia from 1905",
+    "Describe the rise and fall of the Bank of Abyssinia and the Bank of Ethiopia",
+    "Explain the role of the State Bank of Ethiopia and its 1963 split",
+    "Analyse the socialist period when banks were nationalized and merged",
+    "Describe the roles and functions of the NBE, CBE and DBE"
+  ],
+  simple: "Modern banking in Ethiopia started in 1905 with the Abyssinian Bank, based on a fifty-year agreement with the Anglo-Egyptian National Bank. The Bank of Abyssinia, founded in 1906 under Emperor Menelik II, was managed by a foreign bank and was liquidated in 1931, when the government-owned Bank of Ethiopia replaced it as the first independent Ethiopian bank. The State Bank of Ethiopia, established in 1943, acted as both central bank and commercial bank until 1963, when it was split into the National Bank of Ethiopia and the Commercial Bank of Ethiopia. During the socialist period from 1974 to 1991 the financial sector held only three monopoly banks: the NBE, the CBE and the Agricultural and Industrial Development Bank. Since 1991 the sector is liberal, and Proclamation No. 83/1994 opened banking to private investment.",
+  detailed: "<p><b>The beginning: 1905-1931.</b> Modern banking started in Ethiopia in 1905 with the establishment of the Abyssinian Bank, based on a fifty-year agreement with the Anglo-Egyptian National Bank. It was Emperor Menelik II who introduced modern banking through an agreement with the British owned National Bank of Egypt, and the first modern bank, the <b>Bank of Abyssinia</b>, was founded in 1906 as a result. The bank was totally managed by the Egyptian National Bank, a foreign bank, and was given a 50-year concession to issue notes, collect deposits and grant loans, though its clients were mostly foreign businessmen and wealthy Ethiopians. The Bank was a private bank whose shares were sold in Addis Ababa, New York, Paris, London and Vienna, and it financed the Franco-Ethiopian Railway project, which reached Addis Ababa in 1917. It opened branches in Harar (1906), Dire Dawa (1908), Gore (1912), and Dessie and Djibouti (1920). In 1908 a new development bank, called Societe Nationale d'Ethiope Pour le Development de l'Agriculture et du Commerce, and two other foreign banks, Banque de l'Indochine and the Compagnie de l'Afrique Orientale, were also established; these banks were criticized for being wholly foreign owned. The Bank of Abyssinia was liquidated in 1931.</p><p><b>The Bank of Ethiopia: 1931-1936.</b> In 1931 the Bank of Abyssinia was liquidated and legally replaced by the Bank of Ethiopia, shortly after Emperor Haile Selassie came to power. The new bank was totally under government control, and it retained the management, staff, premises and clients of the previous bank. It was the first independent bank of Ethiopia, took over the commercial activities of the Bank of Abyssinia, and was authorized to issue notes and coins. Keeping the previous branches, it added an agency in Gambella and a transit office in Djibouti. It was, however, short lived; it was liquidated during the Italian occupation in 1936.</p><p><b>The Italian occupation and after: 1936-1943.</b> During their invasion from 1936 to 1941 the Italians introduced Banca d'Italia, Banco di Roma, Banco di Napoli and Banca Nazionale del Lavoro, branches of the main Italian banks, operating in the main towns during the five-year occupation. Only Banco di Roma and Banco di Napoli, which were operating in Asmara, continued their operations after 1941. Another foreign bank, Barclays Bank, came in 1941 with the British troops and organized banking services in Addis Ababa until its early withdrawal in 1943.</p><p><b>The State Bank of Ethiopia: 1943-1963.</b> The State Bank of Ethiopia was established in 1943 as the central bank of Ethiopia, with the power of issuing bank notes and coins as the agent of the Ministry of Finance. It also functioned as the principal commercial bank, engaging in all commercial banking activities, so its establishment marked the rebirth of Ethiopian independent banking. It had established 21 branches, including a branch in Khartoum, Sudan, and a transit office in Djibouti, until it ceased to exist by a bank proclamation issued in December 1963. Under Proclamation No. 206 of 1963, the previous State Bank was split into the National Bank of Ethiopia and the Commercial Bank of Ethiopia; the NBE began operation in January 1964.</p><p><b>The socialist period: 1974-1991.</b> After socialism was declared in 1974 the government extended its control over the whole economy and nationalized all large corporations. The three private owned banks, Addis Ababa Bank, Banco di Roma and Banco di Napoli, were merged in 1976 to form the second largest bank, Addis Bank. Addis Ababa Bank was an affiliate that National and Grindlays Bank had established in 1963, of which it owned 40 percent, and at nationalization it had 26 branches. In 1980 the government created Addis Bank from the merger of the newly nationalized Addis Ababa Bank and the Ethiopian operations of Banco di Roma and Banco di Napoli, and merged Addis Bank with the Commercial Bank of Ethiopia, making CBE the sole commercial bank in the country until private commercial banks were established from 1994. The CBE commenced its operation in 1980 with a capital of Birr 65 million, 128 branches and 3,633 employees. The Agricultural and Industrial Bank was formed in 1970 as a 100 percent state-owned bank under the umbrella of the National Bank of Ethiopia, and was renamed the Agricultural and Industrial Development Bank (AIDB) in 1979, financing medium and long-term credits and short-term agricultural production loans. The financial sector then contained only three banks, each enjoying monopoly power in its market: the National Bank of Ethiopia, the Commercial Bank of Ethiopia and the AIDB.</p><p><b>Liberalization since 1991.</b> In 1991 the country became a liberal economy system, and the National Bank of Ethiopia outlined its main functions separated from the previous total government control. The Licensing and Supervision of Banking Business was formulated in 1994 through the Monetary and Banking Proclamation No. 83/1994, which laid down the legal basis for investment in the banking sector.</p><p><b>The roles of the three Ethiopian banks today.</b> The National Bank of Ethiopia (NBE) is not a profit-making bank: on behalf of the government it controls and regulates the financial sector, commercial banks, insurance companies and microfinance institutions, aiming to bring price stability or control inflation. It prints the currency and mints the coins, issues bonds, treasury bills and promissory notes on behalf of the government, maintains low levels of inflation, authorizes and controls micro and other financial institutions, deposits government money and provides direct advances to the government, lends money to commercial banks, regulates the money supply and interest rates, controls credit creation by commercial banks, formulates the monetary policy framework, and manages the international reserves and foreign exchange of the country. The Commercial Bank of Ethiopia (CBE) is the biggest and leading commercial bank, the result of the 1980 merging of Addis Bank S.C and the former CBE. It accepts saving and deposits from households, individuals and firms, gives loans to households and firms, provides safe custody for valuables, sells and purchases foreign currencies, and issues letters of credit (LC), traveler's cheques and similar services. The Development Bank of Ethiopia (DBE), which took this name in the 1994 financial reform, provides short, medium and long-term development credits and follows a project-based lending tradition, with projects carefully selected, prepared through appraisal, closely supervised and systematically evaluated. Its mandate is to provide loans for the development of the agricultural and industrial sectors and to supervise and control the activities of projects it finances.</p>",
+  keyTerms: [
+    { term: "Bank of Abyssinia", def: "The first modern bank in Ethiopia, founded in 1906 after an agreement between Emperor Menelik II and the British owned National Bank of Egypt; it was foreign managed and liquidated in 1931." },
+    { term: "Bank of Ethiopia", def: "Established in 1931 as the first independent bank totally under Ethiopian government control; it was authorized to issue notes and coins and was liquidated during the Italian occupation in 1936." },
+    { term: "State Bank of Ethiopia", def: "Established in 1943 as the central bank and agent of the Ministry of Finance, it issued notes and coins and also acted as the principal commercial bank until December 1963." },
+    { term: "National Bank of Ethiopia (NBE)", def: "The central bank, established in 1963 by Proclamation No. 206 of 1963 and operating from January 1964; it regulates the financial sector, prints currency and aims at price stability." },
+    { term: "Commercial Bank of Ethiopia (CBE)", def: "The biggest and leading commercial bank, formed when the State Bank was split in 1963 and enlarged when Addis Bank merged with it in 1980." },
+    { term: "Development Bank of Ethiopia (DBE)", def: "An institution providing short, medium and long-term development credits on a project basis, named so in the 1994 financial reform." },
+    { term: "Nationalization", def: "Government takeover of private corporations, as done from 1974 to the banks of the socialist period." },
+    { term: "Financial liberalization", def: "The move to a liberal economy after 1991, whose legal basis for banking investment was Proclamation No. 83/1994." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "Put four milestones in order: founding of the Bank of Abyssinia, creation of the Bank of Ethiopia, establishment of the State Bank of Ethiopia, establishment of the National Bank of Ethiopia.",
+      given: "Dates: Bank of Abyssinia 1906; Bank of Ethiopia 1931; State Bank 1943; NBE 1963.",
+      formula: "Order the events by year.",
+      substitution: "1906, then 1931, then 1943, then 1963.",
+      calculation: "Each milestone replaces or reshapes the previous bank, so the order follows the succession of institutions.",
+      answer: "Bank of Abyssinia (1906), Bank of Ethiopia (1931), State Bank of Ethiopia (1943), National Bank of Ethiopia (1963)."
+    },
+    {
+      problem: "Classify each function under its proper bank: printing currency and minting coins; giving loans to households; managing international reserves; selling and purchasing foreign currencies; supervising financed projects; issuing traveler's cheques.",
+      given: "The NBE is the central bank, the CBE is a commercial bank, the DBE is a development bank.",
+      formula: "Central bank functions regulate the whole system; commercial functions serve customers; development functions finance projects.",
+      substitution: "Print currency and manage reserves are system wide; loans and traveler's cheques are retail banking; supervising projects is development lending.",
+      calculation: "Group the six functions by who performs them in the economy.",
+      answer: "NBE: printing currency, managing international reserves. CBE: household loans, foreign currency trading, traveler's cheques. DBE: supervising financed projects."
+    },
+    {
+      problem: "A textile factory wants a medium and long-term credit to build a new production line, and the project will be appraised and closely evaluated. Which bank should it apply to and why?",
+      given: "Project-based lending with careful appraisal, supervision and evaluation.",
+      formula: "Match the borrowing need to the bank's mandate.",
+      substitution: "The loan is for developing an industrial sector over a long term and is a definable project.",
+      calculation: "The DBE mandate is to provide short, medium and long-term development loans to agriculture and industry and to supervise financed projects; a household loan from a commercial bank does not fit a long-term industrial project.",
+      answer: "The Development Bank of Ethiopia, because it provides project-based development credits for the agricultural and industrial sectors."
+    },
+    {
+      problem: "During 1974-1991 the financial sector held only three banks, each with monopoly power in its market. Predict what this meant for the services and prices bank customers received.",
+      given: "The economic lesson: competition lowers borrower rates, raises depositor rates and widens service variety.",
+      formula: "Apply the competition result when competition is absent.",
+      substitution: "Each bank faced no rivals in its respective market.",
+      calculation: "Without banking competition, the shifts toward better customer outcomes expected from rivalry did not appear, which the 1994 Proclamation No. 83 reforms later addressed by opening the sector to private investment.",
+      answer: "Customers faced limited services and monopoly conditions, one reason the post-1991 reforms licensed private banks."
+    }
+  ],
+  commonMistakes: [
+    "Saying modern banking started with the State Bank of Ethiopia instead of with the Abyssinian Bank agreement of 1905.",
+    "Attributing the Bank of Abyssinia to Ethiopian ownership, when a foreign bank totally managed it.",
+    "Confusing the Bank of Ethiopia (1931) with the National Bank of Ethiopia (1963); they are different institutions from different eras.",
+    "Believing commercial banking and central banking were always separate; the State Bank of Ethiopia performed both until 1963.",
+    "Thinking many private banks competed in the socialist period; only three banks existed, each with monopoly power in its market.",
+    "Believing the National Bank of Ethiopia is a profit-making bank like the CBE; it exists to control the financial sector and stabilize prices."
+  ],
+  applications: [
+    "Dating the beginning of banking in your country: the 1905 agreement behind the Abyssinian Bank agreement is where the story starts.",
+    "When you visit a CBE branch today, you are using functions such as saving, loans, safe custody and traveler's cheques that date back to its 1963 and 1980 transformations.",
+    "A farmer applying for a long-term loan to expand irrigation should think of the DBE and its project-based lending.",
+    "Debating the advantages of more private banks: competition meets the lesson, giving borrowers lower rates, depositors higher rates and more services.",
+    "Tracing your region's banking history: branches appeared in Harar, Dire Dawa, Gore and Dessie before they spread nationwide."
+  ],
+  summary: "Ethiopian banking began in 1905 through a foreign-owned agreement, producing the Bank of Abyssinia of 1906, succeeded by the government-controlled Bank of Ethiopia in 1931 and the State Bank of Ethiopia in 1943. In 1963 Proclamation No. 206 split the State Bank into the National Bank of Ethiopia and the Commercial Bank of Ethiopia, and the socialist years of 1974-1991 left only three monopoly banks before Proclamation No. 83/1994 opened banking to private investment. Today the NBE regulates and stabilizes prices, the CBE provides commercial banking services, and the DBE finances agricultural and industrial projects.",
+  visuals: [
+    {
+      type: "timeline",
+      config: {
+        title: "Development of Banking in Ethiopia",
+        events: [
+          { year: "1905/06", text: "Bank of Abyssinia founded under the Menelik II agreement with the Anglo-Egyptian National Bank" },
+          { year: "1931", text: "Bank of Abyssinia liquidated; Bank of Ethiopia becomes the first government-controlled bank" },
+          { year: "1936-1941", text: "Italian occupation banks: Banca d'Italia, Banco di Roma, Banco di Napoli" },
+          { year: "1943", text: "State Bank of Ethiopia established as the central bank and principal commercial bank" },
+          { year: "1963", text: "Proclamation No. 206 splits the State Bank into the NBE and the Commercial Bank of Ethiopia" },
+          { year: "1980", text: "Addis Bank merged into CBE, making it the sole commercial bank" },
+          { year: "1994", text: "Proclamation No. 83/1994 opens the banking sector to private investment" }
+        ]
+      }
+    },
+    {
+      type: "tableVisual",
+      config: {
+        title: "Roles and Functions of the Three Ethiopian Banks",
+        headers: ["Bank", "Type", "Main functions"],
+        rows: [
+          ["National Bank of Ethiopia (NBE)", "Central bank (non-profit making)", "Prints currency, issues bonds and treasury bills, maintains low inflation, lends to commercial banks, regulates money supply and foreign exchange, aims at price stability"],
+          ["Commercial Bank of Ethiopia (CBE)", "Commercial bank", "Accepts savings and deposits, gives loans, safe custody, buys and sells foreign currencies, issues letters of credit and traveler's cheques"],
+          ["Development Bank of Ethiopia (DBE)", "Development bank", "Short, medium and long-term project-based development credits for agriculture and industry, with appraisal, supervision and evaluation"]
+        ]
+      }
+    },
+    {
+      type: "mindMap",
+      config: {
+        title: "Ethiopia's Banking Sector Today",
+        center: "Ethiopian Banks",
+        branches: [
+          { label: "NBE (central)", items: ["Price stability", "Money supply", "Foreign exchange", "Lender to banks"] },
+          { label: "CBE (commercial)", items: ["Deposits", "Loans", "Safe custody", "Letters of credit"] },
+          { label: "DBE (development)", items: ["Project lending", "Agriculture", "Industry"] },
+          { label: "History drivers", items: ["Foreign concessions", "1980 mergers", "1994 liberalization"] }
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "Modern banking in Ethiopia began in 1905 with the establishment of the Abyssinian Bank based on a fifty-year agreement with the:", options: ["National Bank of Egypt (Anglo-Egyptian National Bank)", "Barclays Bank", "Banca d'Italia", "Bank of Ghana"], answer: 0, difficulty: 1, explanation: "The Abyssinian Bank agreement of 1905 was with the Anglo-Egyptian National Bank." },
+    { type: "short", q: "Name the first modern bank founded in Ethiopia.", answer: "bank of abyssinia", difficulty: 1, explanation: "The Bank of Abyssinia was founded in 1906 as the first modern bank." },
+    { type: "mcq", q: "Why was the Bank of Ethiopia of 1931 historically important?", options: ["It was the first bank totally under Ethiopian government control", "It was the first foreign bank in Ethiopia", "It was created during the Italian occupation", "It was the first microfinance institution"], answer: 0, difficulty: 2, explanation: "It was the first independent bank of Ethiopia, totally under government control." },
+    { type: "tf", q: "The State Bank of Ethiopia performed both central banking and commercial banking activities until 1963.", answer: true, difficulty: 2, explanation: "The State Bank issued notes and coins as central bank and also acted as the principal commercial bank." },
+    { type: "mcq", q: "Proclamation No. 206 of 1963 split the State Bank of Ethiopia into:", options: ["CBE and the AIDB", "NBE and CBE", "NBE and DBE", "CBE and Addis Bank"], answer: 1, difficulty: 2, explanation: "The proclamation split the State Bank into the National Bank of Ethiopia and the Commercial Bank of Ethiopia." },
+    { type: "tf", q: "During the socialist period from 1974 to 1991, many private banks competed freely in the Ethiopian financial sector.", answer: false, difficulty: 2, explanation: "Only three banks existed, each enjoying monopoly power in its respective market." },
+    { type: "short", q: "Which bank provides project-based short, medium and long-term development loans to agriculture and industry?", answer: "development bank of ethiopia|dbe", difficulty: 2, explanation: "The Development Bank of Ethiopia provides project-based development credits." },
+    { type: "concept", q: "State any two roles the National Bank of Ethiopia plays to control the financial sector.", answer: "prints currency|mints coins|issue bonds|treasury bills|maintains low inflation|lends to commercial banks|regulates money supply|controls credit creation|formulates monetary policy|manages international reserve|regulates foreign exchange", difficulty: 2, explanation: "NBE roles include printing currency, issuing government securities, controlling money supply and credit, and regulating foreign exchange." },
+    { type: "mcq", q: "What happened in 1980?", options: ["The Bank of Abyssinia was founded", "The State Bank of Ethiopia was established", "Addis Bank merged with the CBE, making it the sole commercial bank", "Proclamation No. 83 was issued"], answer: 2, difficulty: 3, explanation: "In 1980 Addis Bank and the Commercial Bank of Ethiopia merged; the CBE commenced operation in 1980 with Birr 65 million capital, 128 branches and 3,633 employees." },
+    { type: "concept", q: "How did the banking sector reopen to private investment after socialism?", answer: "1994|proclamation 83|monetary and banking proclamation", difficulty: 3, explanation: "After the 1991 liberalization, Proclamation No. 83/1994 laid down the legal basis for investment in the banking sector." }
+  ]
+};
 
-Lessons["g10-economics-ue5-t4"] = {"overview":"<b>Micro-finance Institutions</b> sits inside <b>Banking and Finance</b>. Banking and finance are the focus of Unit 5 of Grade 10 Economics in the Ethiopian (FDRE Ministry of Education) curriculum. First, it explains financial intermediaries and the financial markets that move funds from savers to borrowers. Then it describes financial institutions, both banking and non-banking. Next, it traces the history of banking in Ethiopia and the rise of microfinance. Finally, it covers electronic banking and indigenous institutions such as equb and iddir. Students will also learn how banking and finance support real-life saving and investment.","objectives":["Describe the main types of financial intermediaries.","Distinguish banking from non-banking institutions.","Trace the historical development of banks in Ethiopia.","Explain the role of microfinance institutions.","Evaluate how banking and finance serve society."],"simple":"<b>Micro-finance Institutions in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, microfinance and microcredit, and the clients they serve.</li> <li>Then the difference between microfinance and money lenders.</li> <li>Also the microfinance institutions operating in Ethiopia.</li></ul>","detailed":"<p><b>Micro-finance Institutions — the essentials.</b> First, microfinance and microcredit, and the clients they serve. Then the difference between microfinance and money lenders. Also the microfinance institutions operating in Ethiopia.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Describe the main types of financial intermediaries.</li><li>Distinguish banking from non-banking institutions.</li><li>Trace the historical development of banks in Ethiopia.</li><li>Explain the role of microfinance institutions.</li><li>Evaluate how banking and finance serve society.</li></ul>","keyTerms":[{"term":"First","def":"First, microfinance and microcredit, and the clients they serve."},{"term":"Then the difference between microfinance and money lenders","def":"Then the difference between microfinance and money lenders."},{"term":"Also the microfinance institutions operating in Ethiopia","def":"Also the microfinance institutions operating in Ethiopia."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing micro-finance institutions with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Interpreting economic news about Ethiopia in the media","The applied data-response questions in the ESSLCE economics paper"],"summary":"Micro-finance Institutions: First, microfinance and microcredit, and the clients they serve. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"Micro-finance Institutions\" is correct according to the MoE curriculum?","options":["First, microfinance and microcredit, and the clients they serve.","Micro-finance Institutions holds only under conditions this topic says do not apply","Micro-finance Institutions inverts the direction of the relationship this topic describes","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, microfinance and microcredit, and the clients they serve. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"Micro-finance Institutions\"?","options":["Then the difference between microfinance and money lenders.","Micro-finance Institutions is a household-level claim, not the national-level claim of this topic","Micro-finance Institutions holds only under conditions this topic says do not apply","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Then the difference between microfinance and money lenders."},{"type":"tf","q":"True or false: First, microfinance and microcredit, and the clients they serve.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover micro-finance institutions.","answer":false,"difficulty":1,"explanation":"Micro-finance Institutions is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Describe the main types of financial intermediaries.","difficulty":2,"altAnswers":["Distinguish banking from non-banking institutions.","Trace the historical development of banks in Ethiopia."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why micro-finance institutions matters.","answer":"Micro-finance Institutions is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of micro-finance institutions in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to micro-finance institutions, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
+Lessons["g10-economics-ue5-t4"] = {
+  overview: "Microfinance institutions give savings, credit, insurance and money transfer to poor people whom collateral-demanding banks would never serve. This lesson traces microfinance from Mohammed Yunus and the Grameen Bank to Ethiopia's 41 institutions, and compares it with informal moneylenders.",
+  objectives: [
+    "Explain microfinancing and its origin with Mohammed Yunus and the Grameen Bank",
+    "Define microcredit and describe the group lending mechanism",
+    "Identify the clients of microfinance and the features that qualify them",
+    "Compare microfinance institutions with informal moneylenders",
+    "Analyse the scale and role of microfinance institutions in Ethiopia"
+  ],
+  simple: "Formal banks demand collateral, assets they can hold, so poor people were long shut out of credit until Mohammed Yunus, a Bangladeshi economist born in 1940, founded the Grameen Bank and pioneered microfinancing and microcredit. Microfinance institutions (MFIs) give the economically active poor access to savings, credit, insurance and money transfer without asking for collateral. Microcredit is a small loan given to an individual through a group lending mechanism in which the group is taken as the collateral and repayment rests on peer pressure. Clients must have economic opportunities and entrepreneurial skills and use loans for productive purposes, not consumption. Informal moneylenders charge far higher interest, though they keep simple procedures and clear terms. By 2020/21 Ethiopia had 41 MFIs with about Birr 47 billion in savings and about Birr 64.6 billion in loans.",
+  detailed: "<p><b>Why microfinance appeared.</b> Banks ask for collateral, assets to be held, when they give loans, so excluded households needed another answer. State-run banks in different countries had already tried to provide loans to poor households, but they left a legacy of inefficiency, corruption and millions of dollars of wasted subsidies. The answer came from Mohammed Yunus, a Bangladeshi economist born in 1940, whose prize-winning idea of microfinancing and microcredit led to the establishment of the Grameen Bank. Yunus started making small loans to local poor villagers with no collateral, who could not get loans from formal traditional banks, and he believed his poor clients would make profits and repay the loans reliably.</p><p><b>What microfinance institutions are.</b> Microfinance institutions (MFIs) are financial institutions that give access to financial services such as savings, credit, insurance and money transfer to people that otherwise would remain un-served by the traditional banking system that asks for collateral. What makes microfinance different from other anti-poverty tools is the idea that it improves the living conditions of the poor through their own efforts: microcredit supports micro-businesses, letting low-income people respond to economic opportunities. For such people the main constraint is a small investment in working capital, and microcredit allows overcoming this obstacle. MFIs do more than lend: they also give saving services, insurance services and money transfer services that improve well-being, help poor people stabilize income and protect against risks.</p><p><b>Microcredit and group lending.</b> A microcredit is a small credit given to a client by a microfinance institution. It is offered, often without collateral, to an individual through a group lending mechanism, which allows a number of individuals to obtain a loan through a group scheme; the group is taken as the collateral. The incentive to repay is based on peer pressure: if one person in the group defaults, the other group members must make up the payment amount. Microcredit has proven an effective tool against poverty, enabling those without access to the formal financial system to borrow the small funds they need and start or develop small businesses.</p><p><b>Clients of microfinance.</b> The clients are the economically active poor, or low-income persons without access to formal financial institutions. They must have economic opportunities and entrepreneurial skills, because the money they receive must be used for productive purposes, not for consumption. Micro-entrepreneurs are business people who, through microfinance, take advantage of economic opportunities that would otherwise remain unserved due to financial constraints. The 'poorest of the poor', or the destitute, are generally excluded from the circle of microfinance and are targeted by other development programs, because they lack economic opportunities or entrepreneurial skills. Group lending works where social ties and the influence of peer pressure in society are strong.</p><p><b>Microfinance and informal moneylenders.</b> Informal moneylenders are the more direct competitors of MFIs. The interest they charge almost always far exceeds what MFIs charge, and borrowers have no protection from abusive behaviors such as abusive lending or unfair loan collection practices. Urban and rural moneylenders lend to the poor who have no access to MFIs, and even where MFIs exist some poor people may prefer them. Moneylenders do have positive features: simple procedures, clear terms, timely disbursement, and loans backed by the borrowers' character rather than by group collateral. Microfinance has taken the combination of these positive features into more formal financial institutions.</p><p><b>Microfinance in Ethiopia.</b> By the year 2020/21 (Gregorian calendar), forty-one (41) Microfinance Institutions were operational in Ethiopia. Altogether they mobilized approximately Birr 47 billion in savings deposits and provided loans of approximately Birr 64.6 billion to the economically active poor Ethiopians (National Bank of Ethiopia, 2020/21).</p>",
+  keyTerms: [
+    { term: "Microfinance institution (MFI)", def: "A financial institution that gives the poor access to savings, credit, insurance and money transfer services that traditional collateral-demanding banks would refuse." },
+    { term: "Microcredit", def: "A small credit given to a client by a microfinance institution, often without collateral, through a group lending mechanism." },
+    { term: "Group lending", def: "A mechanism that allows a number of individuals to obtain a loan through a group scheme, where the group itself is taken as collateral." },
+    { term: "Peer pressure", def: "The social force inside a lending group that pushes members to repay; if one member defaults, the others must make up the payment amount." },
+    { term: "Group collateral", def: "The substitute for physical assets in microcredit: the group of members guarantees the repayment of each individual loan." },
+    { term: "Micro-entrepreneur", def: "A member of the economically active poor who uses microfinance to seize economic opportunities otherwise blocked by lack of finance." },
+    { term: "Economically active poor", def: "Low-income people with economic opportunities and entrepreneurial skills whose loans must serve productive purposes rather than consumption." },
+    { term: "Loan default", def: "Failure by a member to repay, after which the other members of the lending group must make up the payment." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "Five women form a lending group with an MFI. Each member's scheduled repayment is 2,000 birr, and one member cannot pay. Using group lending rules, find how much each of the remaining members must pay.",
+      given: "5 members; one scheduled payment of 2,000 birr defaults; the group is the collateral.",
+      formula: "Each remaining member pays the defaulted amount divided by the number of remaining group members.",
+      substitution: "Remaining members = 5 - 1 = 4; payment each = 2,000 birr / 4.",
+      calculation: "2,000 / 4 = 500 birr for each remaining member, so the group as a whole still repays the full 2,000 birr owed.",
+      answer: "Each of the other 4 members makes up 500 birr, which is how peer pressure sustains repayment without physical collateral."
+    },
+    {
+      problem: "Two households apply for help: one runs a small poultry business and needs working capital of 3,000 birr; the other, destitute and without any livelihood, has neither opportunity nor entrepreneurial skill. Which household matches microfinance clients, and why?",
+      given: "Clients are the economically active poor; the money must be used for productive purposes.",
+      formula: "Client test: economic opportunity + entrepreneurial skills + productive use.",
+      substitution: "The poultry household has a business and a productive plan; the destitute household has neither.",
+      calculation: "The first household passes the test; the second fails it and is targeted by other development programs instead.",
+      answer: "The poultry operator is the microfinance client; the destitute household is generally excluded and needs other programs."
+    },
+    {
+      problem: "A borrower needs money today: a moneylender delivers it within an hour but charges interest far above the MFI rate, while the MFI completes disbursement within days at a lower cost. Which trade-off does this reveal, and what innovation did microfinance borrow from moneylenders?",
+      given: "Moneylenders: fast and simple but very high interest with no protection against abuse; MFIs: fairer terms but more formal steps.",
+      formula: "Compare on interest cost and protection, on the one hand, with speed, simplicity and terms, on the other.",
+      substitution: "Textbook: moneylender interest almost always far exceeds MFI charges, yet features include simple procedures, clear terms, timely disbursement and loans backed by the borrower's character.",
+      calculation: "The borrower weighs cost and protection against speed and simplicity; microfinance copied the strengths while keeping fairer pricing.",
+      answer: "The trade-off is cost and protection versus speed; microfinance adopted simple procedures, clear terms and character-based lending into a formal institution."
+    },
+    {
+      problem: "In 2020/21 Ethiopian MFIs mobilized about Birr 47 billion in savings and extended about Birr 64.6 billion in loans. Compute the difference and interpret the composition of their services.",
+      given: "Savings deposits of about 47 billion birr; loans of about 64.6 billion birr.",
+      formula: "Difference = loans - savings mobilized, the scale comparison asked by the figures.",
+      substitution: "64.6 billion - 47 billion.",
+      calculation: "64.6 - 47 = 17.6 billion birr, so lending exceeded savings mobilization, which suggests MFIs raise funds beyond member deposits; both figures concern the economically active poor.",
+      answer: "About Birr 17.6 billion more was lent than was mobilized in savings, showing credit services ran ahead of deposit collection in scale."
+    }
+  ],
+  commonMistakes: [
+    "Believing microfinance lends to anyone, when its clients must be the economically active poor with productive plans.",
+    "Thinking MFIs target the poorest of the poor; the destitute are normally served by other development programs.",
+    "Confusing microcredit with a free grant or charity; it is a loan that earns income for the MFI.",
+    "Assuming group members lend to each other out of their own pockets, instead of the MFI lending through a group scheme.",
+    "Believing loans may be used for consumption; they must finance productive purposes.",
+    "Claiming moneylenders are always cheaper than MFIs; their interest almost always far exceeds MFI charges.",
+    "Forgetting that MFIs also give savings, insurance and money transfer services, not only credit."
+  ],
+  applications: [
+    "A mother in your kebele borrows a small MFI loan to buy better poultry feed, increasing her income from her own efforts.",
+    "Joining a lending group with neighbors or coworkers you have strong social ties with, since the group works as the collateral.",
+    "Choosing an MFI over a roadside moneylender because MFIs give protection from abusive collection and fairer charges.",
+    "Saving small, regular deposits with an MFI to stabilize family income and protect against risks such as illness.",
+    "When families study business opportunities, microcredit can overcome the constraint of a small working capital investment."
+  ],
+  summary: "Microfinance institutions arose from Mohammed Yunus and the Grameen Bank to serve the economically active poor whom collateral-demanding banks wrote off. Microcredit is delivered through group lending, where the group is the collateral and peer pressure secures repayment, while MFIs also provide savings, insurance and money transfer services. Ethiopia had 41 MFIs in 2020/21 holding about Birr 47 billion in savings and lending about Birr 64.6 billion, competing directly, and drawing lessons, from informal moneylenders.",
+  visuals: [
+    {
+      type: "steps",
+      config: {
+        title: "How Group Lending Works",
+        steps: [
+          { label: "Form a group", detail: "Individuals join a group scheme with strong social ties; the group itself is taken as the collateral." },
+          { label: "Receive microcredit", detail: "Each member obtains a small loan from the MFI, often without physical collateral." },
+          { label: "Repay together", detail: "The incentive to repay is based on peer pressure within the group." },
+          { label: "Cover default", detail: "If one member defaults, the other group members must make up the payment amount." },
+          { label: "Grow the business", detail: "Funds flow into micro-businesses, starting or developing small enterprises." }
+        ]
+      }
+    },
+    {
+      type: "comparison",
+      config: {
+        title: "MFI vs Informal Moneylender",
+        left: { name: "Microfinance institution", items: ["Lower interest charges", "Group lends through a scheme with group collateral", "Protection from abusive collection", "Also gives savings, insurance and money transfer"] },
+        right: { name: "Informal moneylender", items: ["Interest almost always far exceeds MFI charges", "Simple procedures and clear terms", "Timely disbursement", "Loans backed by the borrower's character, no group collateral"] }
+      }
+    },
+    {
+      type: "tableVisual",
+      config: {
+        title: "Microfinance Institutions in Ethiopia (2020/21)",
+        headers: ["Indicator", "Approximate value"],
+        rows: [
+          ["MFIs operational in Ethiopia", "41"],
+          ["Savings deposits mobilized", "Birr 47 billion"],
+          ["Loans to the economically active poor", "Birr 64.6 billion"],
+          ["Source", "National Bank of Ethiopia, 2020/21"]
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "Mohammed Yunus pioneered microfinancing and microcredit in Bangladesh, resulting in the establishment of:", options: ["The Commercial Bank of Ethiopia", "The Grameen Bank", "The State Bank of Ethiopia", "The Africa Development Bank"], answer: 1, difficulty: 1, explanation: "Yunus's idea led to the establishment of the Grameen Bank." },
+    { type: "mcq", q: "Why is microcredit usually supplied through a group lending mechanism?", options: ["Because the law forbids individual lending", "Because the group is taken as the collateral in place of physical assets", "Because groups always borrow more per person", "Because the government pays the interest"], answer: 1, difficulty: 2, explanation: "In group lending the group is taken as collateral, and repayment relies on peer pressure." },
+    { type: "tf", q: "If one member of a lending group defaults, the other group members must make up the payment amount.", answer: true, difficulty: 2, explanation: "This is the peer pressure mechanism that keeps group loans repaid." },
+    { type: "short", q: "Give the name for business people who use microfinance to take advantage of economic opportunities that would otherwise remain unserved.", answer: "micro-entrepreneurs|micro entrepreneurs|economically active poor", difficulty: 1, explanation: "Micro-entrepreneurs, or the economically active poor, use microfinance to seize opportunities." },
+    { type: "concept", q: "Why are the 'poorest of the poor', the destitute, generally excluded from microfinance?", answer: "they lack economic opportunities or entrepreneurial skills|no opportunity and no skill", difficulty: 2, explanation: "Microfinance money must be used productively, so clients need opportunities and skills; the destitute are targeted by other development programs." },
+    { type: "mcq", q: "Which is a positive feature of informal moneylenders that microfinance has adopted into formal institutions?", options: ["Charging interest far above MFI rates", "Simple procedures, clear terms and timely disbursement", "Unfair loan collection practices", "Requiring land as collateral"], answer: 1, difficulty: 2, explanation: "Moneylenders offer simple procedures, clear terms, timely disbursement and character-based loans." },
+    { type: "tf", q: "Loans received from microfinance institutions may be used for consumption instead of production.", answer: false, difficulty: 2, explanation: "The money clients receive must be used for productive purposes, not for consumption." },
+    { type: "ordering", q: "Choose the option that lists the group lending process in the correct order.", options: ["Members receive microcredit, the group is formed, repayments begin", "The group is formed, members receive microcredit, repayments occur and defaulting members are covered by the others", "Repayments occur first, then the group is formed, then members receive microcredit", "One member defaults immediately, then the group is formed, then loans are issued"], answer: 1, difficulty: 2, explanation: "Group first, then lending through the group scheme, then repayment under group responsibility." },
+    { type: "mcq", q: "By the year 2020/21, how many microfinance institutions were operational in Ethiopia?", options: ["17", "26", "41", "64"], answer: 2, difficulty: 1, explanation: "Forty-one MFIs were operational in Ethiopia by 2020/21." },
+    { type: "concept", q: "List two financial services, besides credit, that MFIs provide to their clients, and state one benefit they bring.", answer: "savings, insurance and money transfer|stabilize income|protect against risks", difficulty: 3, explanation: "MFIs give savings, insurance and money transfer services that help the poor stabilize income and protect against risks." }
+  ]
+};
 
-Lessons["g10-economics-ue5-t5"] = {"overview":"<b>5.6 &#038; 5.7 – Electronic Banking and Indigenous Financial Institutions</b> sits inside <b>Banking and Finance</b>. Banking and finance are the focus of Unit 5 of Grade 10 Economics in the Ethiopian (FDRE Ministry of Education) curriculum. First, it explains financial intermediaries and the financial markets that move funds from savers to borrowers. Then it describes financial institutions, both banking and non-banking. Next, it traces the history of banking in Ethiopia and the rise of microfinance. Finally, it covers electronic banking and indigenous institutions such as equb and iddir. Students will also learn how banking and finance support real-life saving and investment.","objectives":["Describe the main types of financial intermediaries.","Distinguish banking from non-banking institutions.","Trace the historical development of banks in Ethiopia.","Explain the role of microfinance institutions.","Evaluate how banking and finance serve society."],"simple":"<b>5.6 &#038; 5.7 – Electronic Banking and Indigenous Financial Institutions in plain words.</b> The exam wants you to recognise the core ideas, not to memorise whole paragraphs. Focus on:<ul><li>First, banking institutions such as commercial banks.</li> <li>Then non-banking institutions such as insurance companies and pension funds.</li></ul>","detailed":"<p><b>5.6 &#038; 5.7 – Electronic Banking and Indigenous Financial Institutions — the essentials.</b> First, banking institutions such as commercial banks. Then non-banking institutions such as insurance companies and pension funds.</p><p><b>What the MoE expects you to be able to do:</b></p><ul><li>Describe the main types of financial intermediaries.</li><li>Distinguish banking from non-banking institutions.</li><li>Trace the historical development of banks in Ethiopia.</li><li>Explain the role of microfinance institutions.</li><li>Evaluate how banking and finance serve society.</li></ul>","keyTerms":[{"term":"banking institutions","def":"First, banking institutions such as commercial banks."},{"term":"non-banking institutions","def":"Then non-banking institutions such as insurance companies and pension funds."}],"formulas":[],"workedExamples":[],"commonMistakes":["Vague answers with no named example — the exam marks named specifics","Confusing 5.6 &#038; 5.7 – electronic banking and indigenous financial institutions with the neighbouring topic in the same unit","Writing a fact without linking it to the question asked"],"applications":["Interpreting economic news about Ethiopia in the media","The applied data-response questions in the ESSLCE economics paper"],"summary":"5.6 &#038; 5.7 – Electronic Banking and Indigenous Financial Institutions: First, banking institutions such as commercial banks. Remember one named local example for the exam.","visuals":[],"questions":[{"type":"mcq","q":"Which statement about \"5.6 &#038; 5.7 – Electronic Banking and Indigenous Financial Institutions\" is correct according to the MoE curriculum?","options":["First, banking institutions such as commercial banks.","5.6 &#038; 5.7 – Electronic Banking and Indigenous Financial Institutions holds only under conditions this topic says do not apply","5.6 &#038; 5.7 – Electronic Banking and Indigenous Financial Institutions inverts the direction of the relationship this topic describes","None of the above"],"answer":0,"difficulty":1,"explanation":"Correct: First, banking institutions such as commercial banks. The other options make claims the curriculum does not make."},{"type":"mcq","q":"Which is a key point covered under \"5.6 &#038; 5.7 – Electronic Banking and Indigenous Financial Institutions\"?","options":["Then non-banking institutions such as insurance companies and pension funds.","5.6 &#038; 5.7 – Electronic Banking and Indigenous Financial Institutions is a household-level claim, not the national-level claim of this topic","5.6 &#038; 5.7 – Electronic Banking and Indigenous Financial Institutions holds only under conditions this topic says do not apply","None of the above"],"answer":0,"difficulty":2,"explanation":"Correct: Then non-banking institutions such as insurance companies and pension funds."},{"type":"tf","q":"True or false: First, banking institutions such as commercial banks.","answer":true,"difficulty":1,"explanation":"This is a direct curriculum point for this topic."},{"type":"tf","q":"True or false: the MoE curriculum does not cover 5.6 &#038; 5.7 – electronic banking and indigenous financial institutions.","answer":false,"difficulty":1,"explanation":"5.6 &#038; 5.7 – Electronic Banking and Indigenous Financial Institutions is an explicit part of this unit."},{"type":"short","q":"State one official learning outcome of this topic.","answer":"Describe the main types of financial intermediaries.","difficulty":2,"altAnswers":["Distinguish banking from non-banking institutions.","Trace the historical development of banks in Ethiopia."],"explanation":"Taken directly from the MoE learning outcomes."},{"type":"concept","q":"Explain in one sentence why 5.6 &#038; 5.7 – electronic banking and indigenous financial institutions matters.","answer":"5.6 &#038; 5.7 – Electronic Banking and Indigenous Financial Institutions is a core curriculum point tested in the national exam.","difficulty":2,"explanation":"Any accurate statement linking the topic to the curriculum earns the mark."},{"type":"app","q":"Give a real-life example of 5.6 &#038; 5.7 – electronic banking and indigenous financial institutions in Ethiopia or the Horn of Africa.","answer":"An Ethiopian example connected to 5.6 &#038; 5.7 – electronic banking and indigenous financial institutions, as discussed in the unit.","difficulty":3,"explanation":"The exam rewards named local examples over generic ones."}]};
-
+Lessons["g10-economics-ue5-t5"] = {
+  overview: "Technology has made banking electronic, from ATMs and direct deposits to mobile payments, while Ethiopians still rely on indigenous systems such as iqqub, iddir and SACCOs. This lesson covers both worlds: electronic banking services and the traditional institutions that gather and rotate community savings.",
+  objectives: [
+    "Define electronic banking and its role in modern financial services",
+    "Describe the key aspects of e-banking: ATMs, direct deposits, debit card purchases and mobile banking",
+    "Distinguish debit card purchases from credit card borrowing",
+    "Describe iqqub, iddir and SACCOs and how they differ in purpose and operation",
+    "Evaluate the economic and social roles of indigenous financial institutions for their communities"
+  ],
+  simple: "Electronic banking, also called electronic fund transfer (EFT), moves funds from one account to another through electronic methods. Its key aspects are automated teller machines (ATMs), direct deposits through the automated clearing house network, debit card purchases taken straight from your account, and mobile banking from anywhere at any time. Unlike a debit card, which spends only money you have, a credit card borrows from the card company and charges interest on unpaid balances. Alongside e-banking, Ethiopians keep indigenous institutions: iqqub is a rotating savings club collecting about 100 to 10,000 birr per week based on members' capability; iddir supports members mainly at funerals through monthly contributions and by-laws; SACCOs are semi-formal savings and credit cooperatives that finance short-term agricultural and off-farm activities.",
+  detailed: "<p><b>What electronic banking is.</b> Electronic banking, also known as electronic fund transfer (EFT), refers to the transfer of funds from one account to another through electronic methods. Mobile phone payment is a good example: a study in the United States of America found that more than twenty percent of mobile phone owners used mobile phone payment methods. Banking and money management have become increasingly electronic as technology changes faster than ever.</p><p><b>Automated teller machines and direct deposit.</b> There are three key aspects of electronic banking: automated teller machines (ATMs), direct deposits and debit card purchases. ATMs let you withdraw cash quickly and easily from your registered account using a credit or debit card, at almost any time, given electric power and a network connection. They also transfer funds between or into other accounts, make deposits, pay bills and exchange currencies, all without a branch representative or teller; service fees are commonly charged for cash withdrawals. <b>Direct deposit</b> is an employer paying your salary straight into your bank account; it is also used for tax refunds, investment redemptions, payments from retirement accounts and government benefits. Direct deposit requires a network that allows deposits between banks, called the automated clearing house (ACH); because funds are transferred electronically, recipients' accounts are credited automatically.</p><p><b>Debit cards versus credit cards.</b> In a debit card purchase, made in person, online or over the phone, money is taken directly out of your linked account, and you cannot spend more than you have; you pay for the item then and there by drawing on your bank account. When you use a credit card, however, you are essentially borrowing money from the card company: it pays the merchant and then bills you, and you repay when your monthly statement arrives. If you do not pay the whole amount, you pay interest on the remaining portion, just as with any loan. <b>Mobile banking</b> is the act of making financial transactions on a mobile device; its advantages are the ability to bank anywhere and at any time, while its disadvantages include security concerns and a limited range of capabilities compared with banking in person or on a computer.</p><p><b>Indigenous financial institutions in Ethiopia.</b> Ethiopians have traditional indigenous financial systems called iqqub and iddir (mahiber). According to their income, Ethiopians save from about 100 birr up to 10,000 birr per week in iqqubs; while most employees contribute on a monthly basis, business people often save weekly or even daily. The iqqub money is used mostly for social occasions such as weddings, funerals and sickness, and to finish unfinished activities like building a house, and it circulates among members regularly until all the members get their part of the saving. Iddir, on the other hand, exists mostly for funerals and associated services: membership is based on locality, contributions are monthly, and it rests on the wisdom that death to a family member is sure to come one day, so members contribute every month and receive money from the iddir when a loss strikes the family.</p><p><b>The iqqub in detail.</b> Membership in the iqqub (saving club) is based on pre-established social ties and consists of homogeneous groups: people from the same workplace, ethnic background, trade or business activity, schooling background or neighborhood. People from all walks of life, from the rural poor to the urban rich, from shoe-shine boys to high level government officials, participate, with contributions varying by the purpose of the iqqub and the economic status of its members. People prefer iqqub to the formal financial sector because of the strengthening of ties of solidarity and friendship in the group, the forced savings of a contractual nature, the flexibility and adaptability of the iqqub to various situations and needs, the low risk of default, the low or practically non-existent costs of administration and transactions, the absence of a minimum investment threshold, and the tendency to gamble and the consequent attraction which the lottery holds for them.</p><p><b>The iddir in detail.</b> Iddir is an indigenous financial and social institution that exists almost everywhere throughout Ethiopia. It provides a wide range of services, including financial and material assistance and consolations to a member in the event of difficulties, as well as entertainment. Its services include funeral expenses and financial assistance to families of the deceased and, in some cases, coverage of other risks such as medical expenses and losses due to fire or theft. Almost every iddir has its own by-laws specifying members' duties and responsibilities and the procedures and functions of officials; social ties matter, so members must attend meetings, attend funerals and visit the sick, and the by-laws are observed through powerful social sanctions and fines for deviant behavior. Most of the common fund is deposited in a bank account opened for the iddir, while a small sum is kept with officials for emergencies, and most iddirs own tents, benches or chairs and utensils used mainly when a member's family member dies.</p><p><b>Savings and credit cooperatives (SACCos).</b> Savings and credit co-operatives (SACCos) can be designated as semi-formal financial institutions; they are outside the control of the central authorities with respect to ownership of assets and management. SACCOs in Ethiopia have recent origins: the oldest ones were established in the late 1960s and grew very slowly until 1978, a slowness partly caused by the political and social instability that followed the 1974 uprising; they have been growing fast since 1978, though the rate of growth differs across cooperatives. SACCOs are considered to have immense potential in financing short-term loans for agricultural production technologies and off-farm income-generating activities.</p>",
+  keyTerms: [
+    { term: "Electronic banking (e-banking)", def: "Also known as electronic fund transfer (EFT); the transfer of funds from one account to another through electronic methods." },
+    { term: "Automated teller machine (ATM)", def: "A machine letting customers withdraw cash, transfer funds, make deposits, pay bills and exchange currencies without a teller." },
+    { term: "Direct deposit", def: "An electronic payment, such as a salary or government benefit, deposited straight into the recipient's bank account." },
+    { term: "Automated clearing house (ACH)", def: "The electronic network that allows deposits to take place between banks, crediting recipients' accounts automatically." },
+    { term: "Iqqub", def: "A traditional Ethiopian rotating savings club whose money is used for social occasions and projects and circulates among members until everyone gets a turn." },
+    { term: "Iddir", def: "An indigenous financial and social institution existing almost everywhere in Ethiopia, providing funeral expenses and other assistance through monthly contributions and by-laws." },
+    { term: "SACCO", def: "A savings and credit cooperative, a semi-formal financial institution that owns and manages its assets outside central authority control." },
+    { term: "Mobile banking", def: "Making financial transactions on a mobile device, allowing banking anywhere at any time but with security concerns and limited capabilities." }
+  ],
+  formulas: [],
+  workedExamples: [
+    {
+      problem: "An iqqub has 12 members, each contributing 1,000 birr every month, and it rotates monthly. Compute the monthly pool and state how long it takes every member to receive a turn.",
+      given: "12 members; 1,000 birr each per month; the pool is paid to one member per month.",
+      formula: "Monthly pool = number of members x contribution per member; the rotation completes in as many months as there are members.",
+      substitution: "12 members x 1,000 birr = 12,000 birr pool each month.",
+      calculation: "With one member taking the pool each month, the turnover spans 12 months, so every member receives the 12,000 birr pool once per year.",
+      answer: "Pool = 12,000 birr per month; the full cycle takes 12 months, and each member receives the pool once."
+    },
+    {
+      problem: "Mrs Tigist's monthly contribution joins an iqqub whose members range from 100 birr to 10,000 birr per week depending on capability. If 20 members each save 500 birr weekly, what is the weekly pool, and what fraction does one member's share take?",
+      given: "20 members x 500 birr weekly contribution.",
+      formula: "Weekly pool = members x weekly contribution; share fraction = contribution of one member / pool size.",
+      substitution: "20 x 500 = 10,000 birr; 500 / 10,000 = 0.05.",
+      calculation: "Each week the pool totals 10,000 birr, and one member's contribution is 5 percent of the pool.",
+      answer: "Weekly pool 10,000 birr; each member contributes one twentieth (5 percent) of each pool."
+    },
+    {
+      problem: "You buy an item for 4,000 birr once with a debit card and once with a credit card, and you do not pay the credit card balance when the monthly statement arrives. Explain the difference in payment and cost.",
+      given: "Debit card draws directly on your linked account; a credit card borrows from the card company and bills you monthly.",
+      formula: "Debit: money leaves your account immediately; credit: unpaid balance attracts interest on the remaining portion, as with a loan.",
+      substitution: "Debit: 4,000 birr leaves your account at once, consuming only what you have. Credit: the card company pays the merchant and bills you.",
+      calculation: "Because the 4,000 birr credit balance is unpaid, you pay interest on the remaining portion until you settle it.",
+      answer: "Debit costs exactly 4,000 birr from current funds; the credit card purchase becomes a loan bearing interest."
+    },
+    {
+      problem: "Four families face different needs: funeral expenses for a deceased relative, weekly savings to build a house, a short-term loan for farm production technology, and informal help after sickness. Match each need with the appropriate indigenous or semi-formal institution.",
+      given: "Institutions: iqqub (rotating savings club), iddir (funeral and assistance), SACCO (short-term credit).",
+      formula: "Match the purpose of each institution to each family's need.",
+      substitution: "Iddir exists mostly for funerals; iqqub money funds occasions and unfinished projects like house building; SACCOs finance short-term loans for agricultural technologies and off-farm activities.",
+      calculation: "Assign each need to the institution whose service list it matches.",
+      answer: "Iddir for funeral expenses, iqqub for building the house and saving socially, SACCO for the farm technology loan, and iddir assistance for sickness where its by-laws cover it."
+    }
+  ],
+  commonMistakes: [
+    "Believing e-banking requires a branch visit; ATMs and mobile banking let customers complete basic transactions without a teller.",
+    "Mixing up debit cards and credit cards; a credit card borrows from the card company and charges interest on any unpaid portion.",
+    "Thinking direct deposits are done manually; they require the automated clearing house network that links banks electronically.",
+    "Assuming the iddir's main purpose is business savings; its services centre on funerals and associated assistance.",
+    "Confusing the iddir's monthly, locality-based contributions with the iqqub's rotating pool of weekly or monthly savings.",
+    "Treating SACCOs as fully formal institutions; they are semi-formal and outside central control of asset ownership and management.",
+    "Forgetting the disadvantages of mobile banking, such as security concerns and a limited range of capabilities."
+  ],
+  applications: [
+    "Withdrawing cash from an ATM in town at almost any time, given electric power and a network connection.",
+    "Receiving a parent's salary or a government benefit through direct deposit, credited automatically through the ACH network.",
+    "Using mobile banking to pay bills or send money instead of travelling to a branch, while guarding against security risks.",
+    "Joining an iqqub formed from your workplace or neighborhood and taking turns to draw the pool to build or furnish a home.",
+    "Registering in an iddir so your family receives funeral expenses and financial assistance when death strikes, and attending meetings as the by-laws require.",
+    "Farming families taking short-term SACCO loans for agricultural production technologies or off-farm income generating activities."
+  ],
+  summary: "Electronic banking, or EFT, transfers funds between accounts through ATMs, direct deposits over the ACH network, debit card purchases drawn straight from your account, and mobile banking; a debit card spends only what you have, while an unpaid credit card balance becomes a loan with interest. Alongside the technology, Ethiopians save through iqqub, which rotates a pool of weekly contributions until every member draws a turn, and through iddir, which collects monthly contributions under by-laws to cover funerals and other hardships, while SACCOs supply semi-formal short-term credit for farms and off-farm activities.",
+  visuals: [
+    {
+      type: "mindMap",
+      config: {
+        title: "Services of Electronic Banking (EFT)",
+        center: "E-banking",
+        branches: [
+          { label: "ATMs", items: ["Withdraw cash", "Transfer funds", "Deposits and bill payments", "Currency exchange"] },
+          { label: "Direct deposit", items: ["Salaries", "Tax refunds", "Government benefits", "ACH network"] },
+          { label: "Debit card", items: ["In person", "Online", "Over the phone", "Spends only what you have"] },
+          { label: "Mobile banking", items: ["Bank anywhere and anytime", "Security concerns", "Limited capabilities"] }
+        ]
+      }
+    },
+    {
+      type: "comparison",
+      config: {
+        title: "Iqqub vs Iddir",
+        left: { name: "Iqqub (saving club)", items: ["Rotating savings pool", "Weekly contributions of 100 to 10,000 birr by capability", "Used for weddings, funerals, sickness and projects like building a house", "Circulates among members until all get their part"] },
+        right: { name: "Iddir", items: ["Mostly for funerals and associated services", "Monthly contributions, locality-based membership", "By-laws backed by social sanctions and fines", "Fund mostly kept in a bank account, with tents and utensils for ceremonies"] }
+      }
+    },
+    {
+      type: "tableVisual",
+      config: {
+        title: "Indigenous and Semi-Formal Financial Institutions in Ethiopia",
+        headers: ["Institution", "Main purpose", "How it operates"],
+        rows: [
+          ["Iqqub", "Rotating savings for social occasions and unfinished activities", "Contributions based on social ties (workplace, neighborhood, trade); money circulates until all members get their part"],
+          ["Iddir", "Funeral expenses and assistance in difficulties such as sickness, fire or theft", "Monthly contributions; by-laws enforced by social sanctions; common fund in a bank account with small cash kept for emergencies"],
+          ["SACCOs", "Savings and credit for members, especially short-term loans", "Semi-formal cooperatives; oldest from the late 1960s; fast growth since 1978; finance farm technologies and off-farm activities"]
+        ]
+      }
+    }
+  ],
+  questions: [
+    { type: "mcq", q: "Electronic banking is also known as:", options: ["Electronic fund transfer (EFT)", "Manual ledger transfer", "Cash carry-over banking", "Government fund allocation"], answer: 0, difficulty: 1, explanation: "Electronic banking is also known as electronic fund transfer (EFT), moving funds between accounts through electronic methods." },
+    { type: "tf", q: "Mobile phone payment is one good example of electronic banking.", answer: true, difficulty: 1, explanation: "Mobile phone payment transfers funds through electronic methods, so it is an example of e-banking." },
+    { type: "mcq", q: "Which of the following is NOT one of the three key aspects of electronic banking?", options: ["Automated teller machines (ATMs)", "Direct deposits", "Debit card purchases", "Printing new currency at the branch"], answer: 3, difficulty: 2, explanation: "The three key aspects are ATMs, direct deposits and debit card purchases." },
+    { type: "mcq", q: "Which statement correctly distinguishes debit cards from credit cards?", options: ["A debit card borrows money from the card company", "In a debit card purchase the money is taken directly out of your linked account and you cannot spend more than you have", "Credit card users pay no interest on unpaid balances", "Debit card purchases can only be made in person"], answer: 1, difficulty: 3, explanation: "Debit purchases draw on your own funds immediately; credit cards borrow from the card company, and unpaid balances attract interest." },
+    { type: "short", q: "Name the electronic network that allows deposits to take place between banks.", answer: "automated clearing house|ach", difficulty: 1, explanation: "The automated clearing house (ACH) is the network that moves deposits between banks." },
+    { type: "tf", q: "Money saved in an iqqub typically ranges from 100 birr to 10,000 birr per week based on the capability of the members.", answer: true, difficulty: 2, explanation: "Contributions range from 100 to 10,000 birr weekly according to members' income and capability." },
+    { type: "mcq", q: "The iddir is chiefly designed to provide:", options: ["Long-term industrial development loans", "Funeral expenses and assistance during difficulties such as sickness, fire or theft", "Foreign currency exchange services", "Letters of credit for traders"], answer: 1, difficulty: 2, explanation: "Iddir serves funerals and associated services, plus in some cases medical expenses and losses due to fire or theft." },
+    { type: "concept", q: "Give two reasons why people prefer the iqqub to the formal financial sector.", answer: "solidarity and friendship|forced savings|flexibility and adaptability|low risk of default|low administration and transaction costs|absence of minimum investment threshold", difficulty: 2, explanation: "Reasons include stronger social ties, forced savings, flexibility, low default risk, near-zero administrative costs and no minimum threshold." },
+    { type: "mcq", q: "What is true about the growth of SACCOs in Ethiopia?", options: ["They grew fast from their late 1960s beginning", "The oldest ones grew very slowly until 1978 and have grown fast since then", "They grew only after the 1994 proclamation", "They have never grown"], answer: 1, difficulty: 2, explanation: "Oldest SACCOs date from the late 1960s, grew slowly until 1978 partly due to instability after the 1974 uprising, and have grown fast since 1978." },
+    { type: "ordering", q: "Choose the option that lists the SACCO chronology in the correct order.", options: ["Oldest SACCOs established in the 1990s, fast growth since 1978, slow growth until 1978", "Oldest SACCOs established in the late 1960s, very slow growth until 1978, fast growth since 1978", "Slow growth first, then establishment of the oldest SACCOs, then fast growth", "Fast growth since 1978, then slow growth, then establishment of the oldest SACCOs"], answer: 1, difficulty: 2, explanation: "The correct sequence is: establishment in the late 1960s, slow growth until 1978, then fast growth." },
+    { type: "concept", q: "State one advantage and one disadvantage of mobile banking.", answer: "bank anywhere|at any time|security concerns|limited range of capabilities", difficulty: 3, explanation: "Advantages: banking anywhere at any time. Disadvantages: security concerns and limited capabilities compared with banking in person or on a computer." }
+  ]
+};

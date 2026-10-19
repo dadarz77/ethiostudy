@@ -359,8 +359,8 @@ Object.assign(window.CURRICULUM_G11, {
         { id: "e3-1", title: "Nature and Importance of National Income Accounting", difficulty: "medium", subtopics: [] },
         { id: "e3-2", title: "Gross Domestic Product and Gross National Product", difficulty: "medium", subtopics: [] },
         { id: "e3-3", title: "Approaches to Measuring National Income", difficulty: "medium", subtopics: [] },
-        { id: "e3-4", title: "3.4 &#038; 3.5 – GDP Problems, the Deflator, and the CPI", difficulty: "hard", subtopics: [] },
-        { id: "e3-5", title: "3.6 &#038; 3.7 – Other Measures and Income Distribution", difficulty: "medium", subtopics: [] }
+        { id: "e3-4", title: "3.4 & 3.5 – GDP Problems, the Deflator, and the CPI", difficulty: "hard", subtopics: [] },
+        { id: "e3-5", title: "3.6 & 3.7 – Other Measures and Income Distribution", difficulty: "medium", subtopics: [] }
       ]},
       { id: "e4", title: "Consumption, Saving and Investment", topics: [
         { id: "e4-1", title: "Consumption", difficulty: "medium", subtopics: [] },
@@ -369,7 +369,7 @@ Object.assign(window.CURRICULUM_G11, {
         { id: "e4-4", title: "Investment", difficulty: "medium", subtopics: [] }
       ]},
       { id: "e5", title: "Trade and Finance", topics: [
-        { id: "e5-1", title: "5.1 &#038; 5.2 – Domestic Trade and the Basis of International Trade", difficulty: "medium", subtopics: [] },
+        { id: "e5-1", title: "5.1 & 5.2 – Domestic Trade and the Basis of International Trade", difficulty: "medium", subtopics: [] },
         { id: "e5-2", title: "Basic Theories of International Trade", difficulty: "easy", subtopics: [] },
         { id: "e5-3", title: "Balance of Payments", difficulty: "medium", subtopics: [] },
         { id: "e5-4", title: "Trade Policies and Strategies", difficulty: "medium", subtopics: [] },
@@ -380,8 +380,8 @@ Object.assign(window.CURRICULUM_G11, {
         { id: "e6-1", title: "Economic Growth and Economic Development", difficulty: "medium", subtopics: [] },
         { id: "e6-2", title: "Measures of Productivity", difficulty: "medium", subtopics: [] },
         { id: "e6-3", title: "Human Development Index (HDI)", difficulty: "medium", subtopics: [] },
-        { id: "e6-4", title: "6.4 &#038; 6.5 – Capability Approach and Sustainable Development", difficulty: "medium", subtopics: [] },
-        { id: "e6-5", title: "6.6 &#038; 6.7 – The MDGs and the SDGs", difficulty: "medium", subtopics: [] }
+        { id: "e6-4", title: "6.4 & 6.5 – Capability Approach and Sustainable Development", difficulty: "medium", subtopics: [] },
+        { id: "e6-5", title: "6.6 & 6.7 – The MDGs and the SDGs", difficulty: "medium", subtopics: [] }
       ]},
       { id: "e7", title: "Main Sectors, Sectorial Policies and Strategies of Ethiopia", topics: [
         { id: "e7-1", title: "7.1 to 7.3 – The Agricultural Sector", difficulty: "medium", subtopics: [] },

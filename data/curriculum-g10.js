@@ -319,11 +319,11 @@ Object.assign(window.CURRICULUM_G10, {
         { id: "e4-4", title: "Oligopoly Market", difficulty: "medium", subtopics: [] }
       ]},
       { id: "e5", title: "Banking and Finance", topics: [
-        { id: "e5-1", title: "5.1 &#038; 5.2 – Financial Intermediaries and Financial Markets", difficulty: "medium", subtopics: [] },
+        { id: "e5-1", title: "5.1 & 5.2 – Financial Intermediaries and Financial Markets", difficulty: "medium", subtopics: [] },
         { id: "e5-2", title: "Financial Institutions", difficulty: "medium", subtopics: [] },
         { id: "e5-3", title: "Historical Development of Banks in Ethiopia", difficulty: "medium", subtopics: [] },
         { id: "e5-4", title: "Micro-finance Institutions", difficulty: "medium", subtopics: [] },
-        { id: "e5-5", title: "5.6 &#038; 5.7 – Electronic Banking and Indigenous Financial Institutions", difficulty: "medium", subtopics: [] }
+        { id: "e5-5", title: "5.6 & 5.7 – Electronic Banking and Indigenous Financial Institutions", difficulty: "medium", subtopics: [] }
       ]},
       { id: "e6", title: "Economic Growth", topics: [
         { id: "e6-1", title: "Review of Macroeconomic Variables", difficulty: "medium", subtopics: [] },
