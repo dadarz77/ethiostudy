@@ -30,7 +30,7 @@ export default function Progress() {
   return (
     <>
       <h1><TrendingUp size={26} /> Your Progress</h1>
-      <div className="grid grid-4 mt-4">
+      <div className="grid grid-4 stat-grid mt-4">
         <StatTile num={overall.studied} label="Topics completed" icon={CircleCheck} accent="var(--success)" />
         <StatTile num={overall.avgScore ? overall.avgScore + '%' : '—'} label="Average score" icon={Target} accent="var(--accent-2)" />
         <StatTile num={streak.current} label={`Day streak (best ${streak.best})`} icon={Flame} accent="#f97316" />

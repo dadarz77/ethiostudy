@@ -6,3 +6,7 @@ apps/web/node_modules/
 apps/web/dist/
 apps/web/shots/
 apps/web/test-results/
+.superpowers/brainstorm/*/state/
+apps/web/screens/
+apps/web/audit-report.json
+scripts_*_shots.py
