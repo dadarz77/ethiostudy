@@ -2,7 +2,7 @@
 
 **Design:** `docs/superpowers/specs/2026-10-20-ui-ux-auth-admin-design.md`
 
-**Status (2026-10-20):** Not started.
+**Status (2026-10-20):** COMPLETE — all phases A–G implemented, verified (tsc 0, 111/111 vitest), committed.
 
 **Rule:** one phase at a time, verify each with `npx vitest run` (all pass) + `npx tsc -b` (exit 0) + visual check via browser before the next. Keep all work consistent with the spec. Data pipeline (`data/`, converter) is untouched.
 
