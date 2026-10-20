@@ -2634,4 +2634,200 @@ tr:hover td { background: color-mix(in srgb, var(--card-2) 60%, transparent); }
 .visual-table tbody tr:last-child td { border-bottom: none; }
 [data-theme="light"] .visual-table tbody tr:nth-child(even) td { background: color-mix(in srgb, var(--fg) 4%, transparent); }
 
+/* ============================================================
+   Auth Page (/auth) - floating glass card over the 3D cosmos
+   Scene3D renders the fixed backdrop (.auth-scene) which carries
+   the deep-space gradient and a CSS .auth-fallback-sky starfield
+   so a WebGL outage degrades to plain CSS, never to nothing.
+   ============================================================ */
+.auth-scene {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background: linear-gradient(160deg, #04060f 0%, #0a1230 55%, #141d40 100%);
+}
+[data-theme="light"] .auth-scene {
+  /* still cosmic in light mode (card floats above) but slightly lighter */
+  background: linear-gradient(160deg, #0d1631 0%, #16224b 55%, #1e2c5c 100%);
+}
+.auth-fallback-sky {
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(1px 1px at 12% 20%, rgba(255,255,255,.5) 50%, transparent 50%),
+    radial-gradient(1px 1px at 68% 12%, rgba(255,255,255,.35) 50%, transparent 50%),
+    radial-gradient(1.5px 1.5px at 82% 64%, rgba(160,180,255,.4) 50%, transparent 50%),
+    radial-gradient(1px 1px at 34% 78%, rgba(255,255,255,.28) 50%, transparent 50%),
+    radial-gradient(1px 1px at 92% 34%, rgba(160,180,255,.3) 50%, transparent 50%),
+    radial-gradient(1.5px 1.5px at 4% 88%, rgba(255,255,255,.22) 50%, transparent 50%),
+    radial-gradient(1px 1px at 45% 42%, rgba(255,255,255,.3) 50%, transparent 50%),
+    radial-gradient(1px 1px at 57% 88%, rgba(160,180,255,.26) 50%, transparent 50%),
+    radial-gradient(1.2px 1.2px at 22% 55%, rgba(255,255,255,.32) 50%, transparent 50%);
+}
+.auth-scene > canvas {
+  position: absolute !important;
+  inset: 0;
+  width: 100% !important;
+  height: 100% !important;
+  display: block;
+}
+
+.auth-view {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - var(--topbar-h) - 130px);
+  padding: var(--space-5) 0 var(--space-7);
+}
+/* Immersive mode: sidebar/topbar/bottom-nav absent on /auth */
+.app-immersive { display: block !important; }
+.app-immersive .view { height: auto; min-height: 100vh; padding-top: 0; }
+.app-immersive .auth-view { min-height: 100vh; padding: var(--space-6) var(--space-4) var(--space-7); }
+.auth-card {
+  position: relative;
+  width: 100%;
+  max-width: 420px;
+  background: var(--card);
+  border: 1px solid var(--border-strong);
+  border-radius: 24px;
+  padding: 32px 30px 28px;
+  box-shadow: var(--shadow-lg);
+  backdrop-filter: blur(22px);
+  overflow: hidden;
+  animation: slideInUp 0.35s ease-out;
+}
+/* 1px gradient-border highlight, like .card::before */
+.auth-card::before {
+  content: '';
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(160,180,255,.45), transparent);
+}
+[data-theme="light"] .auth-card {
+  background: rgba(255,255,255,.92);
+}
+.auth-card-title {
+  font-family: var(--font-display);
+  font-size: 1.55rem;
+  font-weight: 800;
+  margin: 0 0 4px;
+  letter-spacing: -.02em;
+}
+.auth-card-sub {
+  color: var(--fg-2);
+  font-size: .86rem;
+  margin: 0 0 18px;
+}
+.auth-tabs {
+  display: flex;
+  gap: 6px;
+  background: var(--bg-2);
+  padding: 4px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  margin-bottom: 18px;
+}
+.auth-opt {
+  flex: 1;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: .82rem;
+  font-weight: 700;
+  font-family: var(--font-body);
+  border: none;
+  background: transparent;
+  color: var(--fg-2);
+  cursor: pointer;
+  transition: all var(--tr);
+}
+.auth-opt.active {
+  background: var(--card-solid);
+  color: var(--fg);
+  box-shadow: var(--shadow-sm);
+}
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.auth-input.invalid {
+  border-color: var(--danger);
+}
+.auth-field-error {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin: 0;
+  color: var(--danger);
+  font-size: .73rem;
+  line-height: 1.35;
+}
+.auth-input-eye {
+  padding-right: 40px !important;
+}
+.auth-eye {
+  position: absolute;
+  right: 8px;
+  display: flex;
+  padding: 4px;
+  border: none;
+  background: none;
+  color: var(--fg-3);
+  cursor: pointer;
+  border-radius: 6px;
+  transition: color var(--tr);
+}
+.auth-eye:hover {
+  color: var(--fg);
+}
+.auth-back-link {
+  align-self: center;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--fg-3);
+  font-size: .78rem;
+  margin-top: 2px;
+}
+.auth-back-link:hover {
+  color: var(--accent);
+}
+.auth-benefits {
+  display: flex;
+  justify-content: center;
+  gap: 6px 16px;
+  flex-wrap: wrap;
+  margin-top: 2px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+}
+.auth-benefit {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--fg-2);
+  font-size: .75rem;
+  font-weight: 600;
+}
+.auth-benefit svg {
+  color: var(--accent);
+}
+
+@media (max-width: 640px) {
+  .auth-view {
+    min-height: calc(100vh - var(--topbar-h) - 80px);
+    padding: var(--space-4) 0 var(--space-6);
+  }
+  .auth-card {
+    padding: 26px 22px 24px;
+    border-radius: 20px;
+  }
+}
+
+
 

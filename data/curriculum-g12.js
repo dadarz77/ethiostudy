@@ -325,14 +325,14 @@ Object.assign(window.CURRICULUM_G12, {
       { id: "e5", title: "Tax Theory and Practice", topics: [
         { id: "e5-1", title: "Taxes: Definition, Principles, Objectives, and Classifications", difficulty: "easy", subtopics: [] },
         { id: "e5-2", title: "Approaches to Tax Equity", difficulty: "medium", subtopics: [] },
-        { id: "e5-3", title: "5.3 &#038; 5.4 – Tax System and Accounting in Ethiopia", difficulty: "medium", subtopics: [] },
+        { id: "e5-3", title: "5.3 & 5.4 - Tax System and Accounting in Ethiopia", difficulty: "medium", subtopics: [] },
         { id: "e5-4", title: "Problems Associated with Taxation in Ethiopia", difficulty: "hard", subtopics: [] }
       ]},
       { id: "e6", title: "Poverty and Inequality", topics: [
         { id: "e6-1", title: "Concept of Poverty and Its Measurement", difficulty: "easy", subtopics: [] },
         { id: "e6-2", title: "Concept of Inequality and Its Measurement", difficulty: "easy", subtopics: [] },
-        { id: "e6-3", title: "6.3 &#038; 6.4 – Global, Regional, and Gendered Poverty", difficulty: "medium", subtopics: [] },
-        { id: "e6-4", title: "6.5 &#038; 6.6 – Poverty and Inequality in Ethiopia", difficulty: "medium", subtopics: [] }
+        { id: "e6-3", title: "6.3 & 6.4 - Global, Regional, and Gendered Poverty", difficulty: "medium", subtopics: [] },
+        { id: "e6-4", title: "6.5 & 6.6 - Poverty and Inequality in Ethiopia", difficulty: "medium", subtopics: [] }
       ]},
       { id: "e7", title: "Macroeconomic Reforms in Ethiopia", topics: [
         { id: "e7-1", title: "National Development Objectives and Strategies", difficulty: "medium", subtopics: [] },

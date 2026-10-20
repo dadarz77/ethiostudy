@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState, Suspense, lazy } from 'react';
-import { NavLink, Route, Routes, useNavigate } from 'react-router-dom';
+import { NavLink, Route, Routes, useLocation, useNavigate } from 'react-router-dom';
 import {
   LayoutDashboard,
   BookOpen,
@@ -31,7 +31,6 @@ import ScrollToTop from './components/ScrollToTop';
 import { BottomNav } from './components/BottomNav';
 import { OfflineIndicator } from './components/OfflineIndicator';
 import { FormulaSheetModal } from './components/FormulaSheetModal';
-import { AuthModal } from './components/AuthModal';
 import { ErrorBoundary } from './components/ErrorBoundary';
 
 const ParticleField = lazy(() => import('./components/ParticleField'));
@@ -50,6 +49,7 @@ const Bookmarks = lazy(() => import('./views/Bookmarks'));
 const Notes = lazy(() => import('./views/Notes'));
 const Settings = lazy(() => import('./views/Settings'));
 const NotFound = lazy(() => import('./views/NotFound'));
+const Auth = lazy(() => import('./views/Auth'));
 
 const NAV_GROUPS = [
   {
@@ -95,9 +95,10 @@ export default function App() {
 
   const user = useAuthStore(s => s.user);
   const initializeAuth = useAuthStore(s => s.initializeAuth);
-  const openAuthModal = useAuthStore(s => s.openAuthModal);
 
   const navigate = useNavigate();
+  const location = useLocation();
+  const isAuthPage = location.pathname === '/auth';
   const [navOpen, setNavOpen] = useState(false);
   const [formulaOpen, setFormulaOpen] = useState(false);
   const sidebarRef = useRef<HTMLElement | null>(null);
@@ -141,13 +142,13 @@ export default function App() {
   return (
     <>
       <ScrollToTop />
-      <AuthModal />
       <FormulaSheetModal open={formulaOpen} onClose={() => setFormulaOpen(false)} />
       <a href="#view" className="skip-link">Skip to main content</a>
       <Suspense fallback={null}>
         <ParticleField />
       </Suspense>
-      <div id="app">
+      <div id="app" className={isAuthPage ? 'app-immersive' : undefined}>
+        {!isAuthPage && (
         <aside className={'sidebar' + (navOpen ? ' open' : '')} id="sidebar" ref={sidebarRef} aria-label="Main navigation" aria-modal={navOpen ? 'true' : undefined}>
           <button className="icon-btn sidebar-close" aria-label="Close menu" onClick={() => setNavOpen(false)}>
             <X size={18} />
@@ -190,9 +191,11 @@ export default function App() {
             <div className="sidebar-time">{new Date().toLocaleDateString(undefined, { weekday: 'short', month: 'short', day: 'numeric' })}</div>
           </div>
         </aside>
+        )}
         {navOpen && <div className="nav-scrim" aria-hidden="true" onClick={() => setNavOpen(false)} />}
 
         <div className="main-wrap">
+          {!isAuthPage && (
           <header className="topbar">
             <button className="icon-btn menu-toggle" aria-label="Open menu" aria-expanded={navOpen} aria-controls="sidebar"
               ref={menuBtnRef} onClick={() => setNavOpen(true)}>
@@ -235,13 +238,14 @@ export default function App() {
             ) : (
               <button
                 className="btn btn-sm btn-primary topbar-signin-btn"
-                onClick={() => openAuthModal('login')}
+                onClick={() => navigate('/auth')}
                 title="Sign in or create account"
               >
                 <User size={14} /> <span className="hide-sm">Sign In</span>
               </button>
             )}
           </header>
+          )}
 
           <main className="view" id="view" tabIndex={-1}>
             <ErrorBoundary>
@@ -260,6 +264,7 @@ export default function App() {
                 <Route path="/bookmarks" element={<Bookmarks />} />
                 <Route path="/notes" element={<Notes />} />
                 <Route path="/settings" element={<Settings />} />
+                <Route path="/auth" element={<Auth />} />
                 <Route path="*" element={<NotFound />} />
               </Routes>
               </Suspense>
@@ -267,7 +272,7 @@ export default function App() {
           </main>
         </div>
       </div>
-      <BottomNav onNavClick={() => setNavOpen(false)} />
+      {!isAuthPage && <BottomNav onNavClick={() => setNavOpen(false)} />}
     </>
   );
 }

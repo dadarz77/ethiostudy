@@ -10,7 +10,7 @@ import { useAppStore } from '../store/useAppStore';
 
 export default function ProfileView() {
   const navigate = useNavigate();
-  const { user, signOut, updateProfile, openAuthModal, syncStatus } = useAuthStore();
+  const { user, signOut, updateProfile, syncStatus } = useAuthStore();
   const progress = useAppStore(s => s.progress);
   const streak = useAppStore(s => s.streak);
   const totalStudySec = useAppStore(s => s.totalStudySec);
@@ -71,7 +71,7 @@ export default function ProfileView() {
           <p className="muted" style={{ maxWidth: 520, margin: '8px auto 20px' }}>
             All your quiz scores and study times are saved on this device. Sign in or create a free account to back up your progress to the cloud and sync across your phone and laptop!
           </p>
-          <button className="btn btn-primary btn-lg" onClick={() => openAuthModal('signup')}>
+          <button className="btn btn-primary btn-lg" onClick={() => navigate('/auth?tab=signup')}>
             Sign In or Create Account <ArrowRight size={18} />
           </button>
         </div>
