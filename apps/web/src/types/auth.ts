@@ -7,6 +7,9 @@ export interface UserProfile {
   avatarUrl?: string;
   createdAt: string;
   updatedAt?: string;
+  /** Admin console flags (additive, from profiles.is_admin / is_banned). */
+  isAdmin?: boolean;
+  isBanned?: boolean;
 }
 
 export interface CloudProgressPayload {

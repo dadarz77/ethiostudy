@@ -50,6 +50,7 @@ const Notes = lazy(() => import('./views/Notes'));
 const Settings = lazy(() => import('./views/Settings'));
 const NotFound = lazy(() => import('./views/NotFound'));
 const Auth = lazy(() => import('./views/Auth'));
+const Admin = lazy(() => import('./views/Admin'));
 
 const NAV_GROUPS = [
   {
@@ -99,6 +100,10 @@ export default function App() {
   const navigate = useNavigate();
   const location = useLocation();
   const isAuthPage = location.pathname === '/auth';
+  // /admin renders the classic console (own sidebar chrome), so the main
+  // app shell is hidden for it exactly like the auth page.
+  const isAdminPage = location.pathname.startsWith('/admin');
+  const isImmersive = isAuthPage || isAdminPage;
   const [navOpen, setNavOpen] = useState(false);
   const [formulaOpen, setFormulaOpen] = useState(false);
   const sidebarRef = useRef<HTMLElement | null>(null);
@@ -147,8 +152,8 @@ export default function App() {
       <Suspense fallback={null}>
         <ParticleField />
       </Suspense>
-      <div id="app" className={isAuthPage ? 'app-immersive' : undefined}>
-        {!isAuthPage && (
+      <div id="app" className={isImmersive ? 'app-immersive' : undefined}>
+        {!isImmersive && (
         <aside className={'sidebar' + (navOpen ? ' open' : '')} id="sidebar" ref={sidebarRef} aria-label="Main navigation" aria-modal={navOpen ? 'true' : undefined}>
           <button className="icon-btn sidebar-close" aria-label="Close menu" onClick={() => setNavOpen(false)}>
             <X size={18} />
@@ -195,7 +200,7 @@ export default function App() {
         {navOpen && <div className="nav-scrim" aria-hidden="true" onClick={() => setNavOpen(false)} />}
 
         <div className="main-wrap">
-          {!isAuthPage && (
+          {!isImmersive && (
           <header className="topbar">
             <button className="icon-btn menu-toggle" aria-label="Open menu" aria-expanded={navOpen} aria-controls="sidebar"
               ref={menuBtnRef} onClick={() => setNavOpen(true)}>
@@ -247,7 +252,7 @@ export default function App() {
           </header>
           )}
 
-          <main className="view" id="view" tabIndex={-1}>
+          <main className={'view' + (isAdminPage ? ' view-admin' : '')} id="view" tabIndex={-1}>
             <ErrorBoundary>
               <Suspense fallback={<div className="card" style={{ textAlign: 'center', padding: 48 }}><div className="orbit-star" style={{ position: 'static', display: 'inline-block' }}>✦</div><p className="muted mt-3">Loading view…</p></div>}>
               <Routes>
@@ -265,6 +270,7 @@ export default function App() {
                 <Route path="/notes" element={<Notes />} />
                 <Route path="/settings" element={<Settings />} />
                 <Route path="/auth" element={<Auth />} />
+                <Route path="/admin" element={<Admin />} />
                 <Route path="*" element={<NotFound />} />
               </Routes>
               </Suspense>
@@ -272,7 +278,7 @@ export default function App() {
           </main>
         </div>
       </div>
-      {!isAuthPage && <BottomNav onNavClick={() => setNavOpen(false)} />}
+      {!isImmersive && <BottomNav onNavClick={() => setNavOpen(false)} />}
     </>
   );
 }

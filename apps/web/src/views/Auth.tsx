@@ -75,6 +75,7 @@ export default function Auth() {
   // email sign-in (store sets the user), or OAuth return - leave /auth.
   // StrictMode/child-effect ordering safe: reacts to store state, not mount.
   const user = useAuthStore((s) => s.user);
+  const accountBanned = useAuthStore((s) => s.accountBanned);
   const navigatedRef = useRef(false);
   useEffect(() => {
     if (!user || navigatedRef.current) return;
@@ -225,6 +226,13 @@ export default function Auth() {
             >
               Create Account
             </button>
+          </div>
+        )}
+
+        {accountBanned && (
+          <div className="auth-alert error" role="alert">
+            <AlertCircle size={16} />
+            <span>Your account has been suspended. Contact your school administrator.</span>
           </div>
         )}
 

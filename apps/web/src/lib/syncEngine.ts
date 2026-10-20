@@ -78,6 +78,21 @@ export function mergeProgress(local: PersistedState, cloud: Partial<PersistedSta
 }
 
 /**
+ * Refresh profiles.last_seen = now() for the signed-in user on an
+ * authenticated sync flow. Single UPDATE, fire-and-forget: a failure here
+ * must never break the sync it piggybacks on. Banned-offline users are
+ * naturally excluded because they are signed out at session load.
+ */
+function touchLastSeen(userId: string) {
+  if (!supabase || !isSupabaseConfigured) return;
+  void supabase
+    .from('profiles')
+    .update({ last_seen: new Date().toISOString() })
+    .eq('id', userId)
+    .then(undefined, () => undefined); // ignore errors, non-blocking
+}
+
+/**
  * Push local state to cloud.
  */
 export async function pushToCloud(userId: string) {
@@ -103,6 +118,7 @@ export async function pushToCloud(userId: string) {
       useAuthStore.getState().setSyncStatus('error');
     } else {
       useAuthStore.getState().setSyncStatus('synced');
+      touchLastSeen(userId);
     }
   } catch {
     useAuthStore.getState().setSyncStatus('error');
@@ -143,6 +159,7 @@ export async function pullFromCloud(userId: string) {
       useAppStore.setState(merged);
     }
     useAuthStore.getState().setSyncStatus('synced');
+    touchLastSeen(userId);
   } catch {
     useAuthStore.getState().setSyncStatus('error');
   }
