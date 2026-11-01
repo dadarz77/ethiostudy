@@ -1,4 +1,5 @@
 import { Component, type ReactNode, type ErrorInfo } from 'react';
+import { reportError } from '../lib/observability';
 
 interface Props {
   children: ReactNode;
@@ -8,6 +9,8 @@ interface Props {
 
 interface State {
   error: Error | null;
+  /** Short fingerprint shown to the student so "what's your error code?" works. */
+  code: string | null;
 }
 
 /**
@@ -18,19 +21,26 @@ interface State {
 export class ErrorBoundary extends Component<Props, State> {
   constructor(props: Props) {
     super(props);
-    this.state = { error: null };
+    this.state = { error: null, code: null };
   }
 
-  static getDerivedStateFromError(error: Error): State {
+  static getDerivedStateFromError(error: Error): Partial<State> {
     return { error };
   }
 
   componentDidCatch(error: Error, info: ErrorInfo) {
-    // In production you'd send this to an error reporting service
+    // Reaches Supabase error_log; queues locally if the student is offline.
+    const code = reportError(error, {
+      source: 'react.render',
+      event: 'render_error',
+      ctx: { componentStack: info.componentStack?.slice(0, 300) },
+    });
+    this.setState({ code });
+    // Keep the console line: it is the only signal if reporting is unavailable.
     console.error('[EthioStudy] Uncaught render error:', error, info.componentStack);
   }
 
-  reset = () => this.setState({ error: null });
+  reset = () => this.setState({ error: null, code: null });
 
   render() {
     const { error } = this.state;
@@ -52,6 +62,12 @@ export class ErrorBoundary extends Component<Props, State> {
           <p className="muted" style={{ margin: '0 0 20px' }}>
             This view ran into an unexpected error. Your study progress is safe — it's saved locally.
           </p>
+          {this.state.code && (
+            <p className="muted" style={{ margin: '0 0 12px', fontSize: '0.75rem' }}>
+              Error code <code style={{ letterSpacing: '0.08em' }}>{this.state.code}</code>
+              {' '}— this report was sent automatically. Mention the code when asking for help.
+            </p>
+          )}
           <details style={{ marginBottom: 20, textAlign: 'left', fontSize: '0.75rem', color: 'var(--fg-3)' }}>
             <summary style={{ cursor: 'pointer', marginBottom: 6 }}>Error details</summary>
             <pre style={{ whiteSpace: 'pre-wrap', wordBreak: 'break-word' }}>{error.message}</pre>
