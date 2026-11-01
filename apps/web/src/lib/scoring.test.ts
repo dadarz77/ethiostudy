@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest';
 import {
   touchStreak, recomputeMastery, applyQuiz, applyStudy, emptyProgress,
-  statsFor, weakTopicIds, DAY, type TopicProgress, type Streak,
+  statsFor, weakTopicIds, DAY, todayStr, type TopicProgress, type Streak,
 } from './scoring';
 
 const NOW = new Date('2026-09-07T12:00:00Z').getTime();
@@ -24,6 +24,28 @@ describe('streak', () => {
   it('first ever day starts at 1 and updates best', () => {
     const out = touchStreak({ current: 0, best: 0, lastDate: null }, new Date(NOW));
     expect(out).toMatchObject({ current: 1, best: 1, lastDate: iso(NOW) });
+  });
+});
+
+describe('todayStr uses the LOCAL calendar day', () => {
+  // The suite runs with TZ=Africa/Addis_Ababa (UTC+3) — see vite.config.ts.
+  // 01:30 local on Nov 1 is 22:30 UTC on Oct 31, so a UTC-derived date string
+  // makes the app think a student studied "yesterday" when they studied tonight.
+
+  it('returns the local day, not the UTC day', () => {
+    expect(todayStr(new Date(2026, 10, 1, 1, 30))).toBe('2026-11-01');
+  });
+
+  it('advances the streak across local midnight', () => {
+    // Late-night study is normal for exam prep; this must be a continuation,
+    // not a broken streak.
+    const out = touchStreak({ current: 3, best: 5, lastDate: '2026-10-31' }, new Date(2026, 10, 1, 1, 30));
+    expect(out.current).toBe(4);
+  });
+
+  it('still breaks on a genuine two-day gap', () => {
+    const out = touchStreak({ current: 3, best: 5, lastDate: '2026-10-30' }, new Date(2026, 10, 1, 1, 30));
+    expect(out.current).toBe(1);
   });
 });
 

@@ -1,6 +1,7 @@
 import { describe, it, expect } from 'vitest';
 import { mergeProgress } from './syncEngine';
 import { defaults, type PersistedState } from '../store/useAppStore';
+import { emptyProgress, type TopicProgress, type Counters } from './scoring';
 
 describe('syncEngine — mergeProgress', () => {
   it('merges local and cloud progress taking the maximum mastery and combined scores', () => {
@@ -144,5 +145,103 @@ describe('syncEngine — mergeProgress', () => {
     const merged = mergeProgress(local, cloud);
     expect(merged.notes!['t1'].map(n => n.text)).toEqual(['local note']);
     expect(merged.notes!['t2'].map(n => n.text)).toEqual(['cloud note']);
+  });
+});
+
+describe('syncEngine — cumulative counters (per-device G-Counter)', () => {
+  const topic = (o: Partial<TopicProgress> = {}): TopicProgress => ({ ...emptyProgress(), ...o });
+  const counters = (o: Partial<Counters> = {}): Counters => ({ attempts: 0, correct: 0, totalQ: 0, studySec: 0, ...o });
+
+  it('sums distinct devices instead of taking the max', () => {
+    // Phone did 5 attempts, laptop did 7 — the student did 12. Max() reported 7.
+    const local = defaults();
+    local.progress = { t1: topic({ dev: { phone: counters({ attempts: 7, totalQ: 7, studySec: 200 }) } }) };
+
+    const cloud: Partial<PersistedState> = {
+      progress: { t1: topic({ dev: { laptop: counters({ attempts: 5, totalQ: 5, studySec: 100 }) } }) },
+    };
+
+    const merged = mergeProgress(local, cloud);
+    expect(merged.progress!['t1'].attempts).toBe(12);
+    expect(merged.progress!['t1'].totalQ).toBe(12);
+    expect(merged.progress!['t1'].studySec).toBe(300);
+  });
+
+  it('is idempotent — merging the same cloud payload again never inflates', () => {
+    // This is what a naive `a + b` on counters gets wrong: the cloud row already
+    // holds this device's history, so every sync would double-count it.
+    const local = defaults();
+    local.progress = { t1: topic({ dev: { me: counters({ attempts: 3, totalQ: 30, studySec: 600 }) } }) };
+
+    const cloud: Partial<PersistedState> = {
+      progress: { t1: topic({ dev: { me: counters({ attempts: 3, totalQ: 30, studySec: 600 }), other: counters({ attempts: 2, totalQ: 20, studySec: 300 }) } }) },
+    };
+
+    const once = mergeProgress(local, cloud);
+    expect(once.progress!['t1'].attempts).toBe(5);
+    expect(once.progress!['t1'].studySec).toBe(900);
+
+    const twice = mergeProgress({ ...local, ...once } as PersistedState, cloud);
+    expect(twice.progress!['t1'].attempts).toBe(5);
+    expect(twice.progress!['t1'].studySec).toBe(900);
+  });
+
+  it('treats pre-upgrade flat counters as a single bucket, so nothing inflates', () => {
+    // A row written before per-device tracking has no `dev` map. Both sides
+    // describe the same history, so this must stay 5 — not 10.
+    const local = defaults();
+    local.progress = { t1: topic({ attempts: 5, totalQ: 50, studySec: 400, correct: 40 }) };
+
+    const cloud: Partial<PersistedState> = {
+      progress: { t1: topic({ attempts: 5, totalQ: 50, studySec: 400, correct: 40 }) },
+    };
+
+    const merged = mergeProgress(local, cloud);
+    expect(merged.progress!['t1'].attempts).toBe(5);
+    expect(merged.progress!['t1'].studySec).toBe(400);
+  });
+
+  it('keeps new work added on top of a legacy bucket', () => {
+    const local = defaults();
+    local.progress = { t1: topic({ attempts: 5, totalQ: 50, studySec: 400, dev: { legacy: counters({ attempts: 5, totalQ: 50, studySec: 400 }), phone: counters({ attempts: 2, totalQ: 20, studySec: 60 }) } }) };
+
+    const cloud: Partial<PersistedState> = {
+      progress: { t1: topic({ dev: { legacy: counters({ attempts: 5, totalQ: 50, studySec: 400 }) } }) },
+    };
+
+    const merged = mergeProgress(local, cloud);
+    expect(merged.progress!['t1'].attempts).toBe(7);
+    expect(merged.progress!['t1'].studySec).toBe(460);
+  });
+
+  it('pulls weakMap from the cloud (it was pushed but never read back)', () => {
+    const local = defaults();
+    local.weakMap = { t1: 2 };
+
+    const cloud: Partial<PersistedState> = { weakMap: { t1: 1, t2: 4 } };
+
+    const merged = mergeProgress(local, cloud);
+    expect(merged.weakMap).toEqual({ t1: 2, t2: 4 });
+  });
+
+  it('unions quizScores without duplicating an identical history', () => {
+    const local = defaults();
+    local.progress = { t1: topic({ quizScores: [60, 80] }) };
+
+    const cloud: Partial<PersistedState> = { progress: { t1: topic({ quizScores: [60, 80] }) } };
+
+    const merged = mergeProgress(local, cloud);
+    expect(merged.progress!['t1'].quizScores).toEqual([60, 80]);
+  });
+
+  it('derives totalStudySec from per-topic study time', () => {
+    const local = defaults();
+    local.progress = { t1: topic({ studySec: 120 }), t2: topic({ studySec: 60 }) };
+
+    const cloud: Partial<PersistedState> = { progress: { t1: topic({ studySec: 300 }) } };
+
+    const merged = mergeProgress(local, cloud);
+    expect(merged.progress!['t1'].studySec).toBe(300);
+    expect(merged.totalStudySec).toBe(360);
   });
 });

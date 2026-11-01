@@ -24,6 +24,9 @@ export interface Settings {
 }
 
 export interface PersistedState {
+  /** Stable per-browser id; keys the grow-only progress counters so two
+   *  devices never double-count each other's work. */
+  deviceId: string;
   settings: Settings;
   progress: Record<string, TopicProgress>;
   bookmarks: Bookmark[];
@@ -48,7 +51,16 @@ export interface AppStore extends PersistedState {
   resetAll: () => void;
 }
 
+/** Stable per-browser id for the progress G-Counter. Persisted, so it survives reloads. */
+function newDeviceId(): string {
+  try {
+    if (typeof crypto !== 'undefined' && typeof crypto.randomUUID === 'function') return crypto.randomUUID();
+  } catch { /* insecure context / old browser — fall through */ }
+  return `dev-${Math.random().toString(36).slice(2, 10)}${Date.now().toString(36)}`;
+}
+
 export const defaults = (): PersistedState => ({
+  deviceId: newDeviceId(),
   settings: { theme: 'dark', grade: '10', language: 'en', sound: true, quizLen: 10, examLen: 10, motion: 'full' },
   progress: {},
   bookmarks: [],
@@ -65,6 +77,7 @@ export function migrateV1(raw: unknown): PersistedState {
   if (!raw || typeof raw !== 'object') return d;
   const r = raw as Partial<PersistedState>;
   return {
+    deviceId: typeof r.deviceId === 'string' && r.deviceId ? r.deviceId : d.deviceId,
     settings: { ...d.settings, ...(r.settings ?? {}) },
     progress: r.progress ?? {},
     bookmarks: Array.isArray(r.bookmarks) ? r.bookmarks : [],
@@ -84,7 +97,7 @@ export const useAppStore = create<AppStore>()(
       setSetting: (k, v) => set(s => ({ settings: { ...s.settings, [k]: v } })),
 
       logStudy: (tid, seconds) => set(s => {
-        const applied = applyStudy(s.progress[tid] ?? emptyProgress(), seconds);
+        const applied = applyStudy(s.progress[tid] ?? emptyProgress(), seconds, Date.now(), s.deviceId);
         if (!applied) return {};
         const history: HistoryEntry[] = [{ type: 'study' as const, topicId: tid, sec: seconds, at: Date.now() }, ...s.history].slice(0, 500);
         return {
@@ -96,7 +109,7 @@ export const useAppStore = create<AppStore>()(
       }),
 
       logQuiz: (tid, correct, total, scorePct, wrongIds) => set(s => {
-        const applied = applyQuiz(s.progress[tid] ?? emptyProgress(), correct, total, scorePct);
+        const applied = applyQuiz(s.progress[tid] ?? emptyProgress(), correct, total, scorePct, Date.now(), s.deviceId);
         const weakMap = { ...s.weakMap };
         for (const wid of wrongIds ?? []) weakMap[wid] = (weakMap[wid] || 0) + 1;
         const history: HistoryEntry[] = [{ type: 'quiz' as const, topicId: tid, score: scorePct, correct, total, at: Date.now() }, ...s.history].slice(0, 500);
@@ -138,7 +151,7 @@ export const useAppStore = create<AppStore>()(
     }),
     {
       name: 'ethiostudy_v1',
-      version: 2,
+      version: 3,
       // Legacy blobs have no {state, version} envelope — migrateV1 handles both shapes.
       migrate: (persisted: unknown) => {
         const p = persisted as { state?: unknown; version?: number };

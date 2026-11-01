@@ -5,6 +5,23 @@
 
 export const DAY = 86400000;
 
+/**
+ * Per-device cumulative counters.
+ *
+ * These are the one thing that cannot merge with max() — and must not merge with
+ * plain addition either:
+ *   - max() under-counts when two devices study between syncs.
+ *   - `a + b` double-counts, because the cloud row already holds this device's
+ *     own history, so every merge inflates the total permanently.
+ * Recording each device's own contribution and summing the per-device maxima is
+ * a grow-only counter (G-Counter): it converges, never inflates, never loses
+ * work. See mergeProgress() in syncEngine.ts.
+ */
+export interface Counters { attempts: number; correct: number; totalQ: number; studySec: number }
+
+/** Bucket for progress written before per-device tracking existed. */
+export const LEGACY_DEVICE = 'legacy';
+
 export interface TopicProgress {
   mastery: number;
   attempts: number;
@@ -16,16 +33,70 @@ export interface TopicProgress {
   correct: number;
   totalQ: number;
   wrongStreak: number;
+  /** Per-device contributions. Absent on rows written before Phase 0.2. */
+  dev?: Record<string, Counters>;
 }
 
 export interface Streak { current: number; best: number; lastDate: string | null }
+
+export function zeroCounters(): Counters {
+  return { attempts: 0, correct: 0, totalQ: 0, studySec: 0 };
+}
 
 export function emptyProgress(): TopicProgress {
   return { mastery: 0, attempts: 0, bestScore: 0, quizScores: [], studySec: 0, lastStudy: null, lastQuiz: null, correct: 0, totalQ: 0, wrongStreak: 0 };
 }
 
+/**
+ * p's per-device counters, materialising a shared `legacy` bucket for progress
+ * recorded before per-device tracking. Existing rows keep merging by max()
+ * inside that bucket, so upgrading never inflates a student's stats.
+ */
+export function devCounters(p: TopicProgress): Record<string, Counters> {
+  if (p.dev && Object.keys(p.dev).length) return { ...p.dev };
+  return {
+    [LEGACY_DEVICE]: {
+      attempts: p.attempts || 0,
+      correct: p.correct || 0,
+      totalQ: p.totalQ || 0,
+      studySec: p.studySec || 0,
+    },
+  };
+}
+
+/** Sum every device's contribution into the flattened counters the UI reads. */
+export function sumCounters(dev: Record<string, Counters>): Counters {
+  const out = zeroCounters();
+  for (const c of Object.values(dev)) {
+    if (!c) continue;
+    out.attempts += c.attempts || 0;
+    out.correct += c.correct || 0;
+    out.totalQ += c.totalQ || 0;
+    out.studySec += c.studySec || 0;
+  }
+  return out;
+}
+
+/** Add a delta to one device's bucket and recompute the flattened totals. */
+function bumpDevice(
+  p: TopicProgress, deviceId: string, delta: Partial<Counters>,
+): { dev: Record<string, Counters>; totals: Counters } {
+  const dev = devCounters(p);
+  const cur = { ...zeroCounters(), ...(dev[deviceId] ?? {}) };
+  cur.attempts += delta.attempts ?? 0;
+  cur.correct += delta.correct ?? 0;
+  cur.totalQ += delta.totalQ ?? 0;
+  cur.studySec += delta.studySec ?? 0;
+  const next = { ...dev, [deviceId]: cur };
+  return { dev: next, totals: sumCounters(next) };
+}
+
 export function todayStr(now = new Date()): string {
-  return now.toISOString().slice(0, 10);
+  // The LOCAL calendar day. toISOString() is UTC — for a UTC+3 student studying
+  // at 01:30 it returns *yesterday*, which silently breaks their streak.
+  const m = String(now.getMonth() + 1).padStart(2, '0');
+  const d = String(now.getDate()).padStart(2, '0');
+  return `${now.getFullYear()}-${m}-${d}`;
 }
 
 /** Advance the daily streak. Mutates a copy-safe object. */
@@ -64,23 +135,43 @@ export function recomputeMastery(p: TopicProgress, now = Date.now()): number {
 }
 
 /** Apply a quiz result to progress (returns new object; streak handled by caller) */
-export function applyQuiz(p: TopicProgress, correct: number, total: number, scorePct: number, now = Date.now()): TopicProgress {
-  const n: TopicProgress = { ...p, quizScores: [...p.quizScores] };
-  n.attempts++;
-  n.correct += correct;
-  n.totalQ += total;
-  n.quizScores.push(scorePct);
-  if (n.quizScores.length > 30) n.quizScores.shift();
-  n.bestScore = Math.max(n.bestScore, scorePct);
-  n.lastQuiz = now;
-  n.lastStudy = now;
-  n.wrongStreak = scorePct < 60 ? n.wrongStreak + 1 : 0;
-  return n;
+export function applyQuiz(
+  p: TopicProgress, correct: number, total: number, scorePct: number,
+  now = Date.now(), deviceId: string = LEGACY_DEVICE,
+): TopicProgress {
+  const { dev, totals } = bumpDevice(p, deviceId, { attempts: 1, correct, totalQ: total });
+  const quizScores = [...p.quizScores, scorePct];
+  if (quizScores.length > 30) quizScores.shift();
+  return {
+    ...p,
+    dev,
+    attempts: totals.attempts,
+    correct: totals.correct,
+    totalQ: totals.totalQ,
+    studySec: totals.studySec,
+    quizScores,
+    bestScore: Math.max(p.bestScore, scorePct),
+    lastQuiz: now,
+    lastStudy: now,
+    wrongStreak: scorePct < 60 ? p.wrongStreak + 1 : 0,
+  };
 }
 
-export function applyStudy(p: TopicProgress, seconds: number, now = Date.now()): TopicProgress | null {
+export function applyStudy(
+  p: TopicProgress, seconds: number,
+  now = Date.now(), deviceId: string = LEGACY_DEVICE,
+): TopicProgress | null {
   if (!seconds || seconds < 5) return null; // ignore noise
-  return { ...p, studySec: p.studySec + seconds, lastStudy: now };
+  const { dev, totals } = bumpDevice(p, deviceId, { studySec: seconds });
+  return {
+    ...p,
+    dev,
+    attempts: totals.attempts,
+    correct: totals.correct,
+    totalQ: totals.totalQ,
+    studySec: totals.studySec,
+    lastStudy: now,
+  };
 }
 
 /* ---------- aggregates (need the curriculum tree) ---------- */
