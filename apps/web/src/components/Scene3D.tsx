@@ -95,8 +95,8 @@ function Cosmos({ motion, pointer }: { motion: boolean; pointer: React.RefObject
   const starsRef = useRef<THREE.Points>(null);
   const moonAngle = useRef(1.15);
 
-  const starGeo = useMemo(buildStarGeometry, []);
-  const starSprite = useMemo(makeStarSprite, []);
+  const starGeo = useMemo(() => buildStarGeometry(), []);
+  const starSprite = useMemo(() => makeStarSprite(), []);
   const haloTex = useMemo(
     () => makeRadialTexture('rgba(143,123,255,0.34)', 'rgba(143,123,255,0.10)'),
     []
@@ -233,15 +233,20 @@ function detectWebGL(): boolean {
 }
 
 export default function Scene3D() {
-  const supported = useMemo(detectWebGL, []);
-  const [reducedMotion, setReducedMotion] = useState(false);
-  const [hidden, setHidden] = useState(false);
+  const supported = useMemo(() => detectWebGL(), []);
+  // Read the media query during render, not in an effect: setting state
+  // synchronously in an effect renders twice and flashes full motion for a
+  // user who asked for reduced motion.
+  const [reducedMotion, setReducedMotion] = useState(() => {
+    if (typeof window === 'undefined') return false;
+    return Boolean(window.matchMedia?.('(prefers-reduced-motion: reduce)')?.matches);
+  });
+  const [hidden, setHidden] = useState(() => typeof document !== 'undefined' && document.hidden);
   const pointer = useRef<Pointer>({ x: 0, y: 0 });
 
   useEffect(() => {
     const mq = window.matchMedia?.('(prefers-reduced-motion: reduce)');
     if (!mq) return undefined;
-    setReducedMotion(mq.matches);
     const onChange = (e: MediaQueryListEvent) => setReducedMotion(e.matches);
     mq.addEventListener('change', onChange);
     return () => mq.removeEventListener('change', onChange);

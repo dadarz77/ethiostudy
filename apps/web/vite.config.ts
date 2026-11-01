@@ -34,6 +34,15 @@ export default defineConfig({
     environment: 'jsdom',
     setupFiles: [],
     include: ['src/**/*.test.{ts,tsx}'],
+    // Run the suite in the users' timezone, not the runner's. The app derives
+    // streaks from local calendar days; a UTC runner would silently pass
+    // timezone bugs that reset a student's streak at 01:30 local time.
+    env: { TZ: 'Africa/Addis_Ababa' },
+    // curriculum.test.ts loads 216 lesson JSON files (~3 MB). 5s was never a
+    // realistic budget — but if this ever needs more than 30s, the fixture
+    // loader is the problem, not the timeout.
+    testTimeout: 30_000,
+    hookTimeout: 30_000,
     // Use forked child processes instead of worker_threads. On Windows,
     // worker_threads share the V8 heap and time-out when multiple tests
     // simultaneously load the large JSON fixtures (nat-exams, curriculum…).

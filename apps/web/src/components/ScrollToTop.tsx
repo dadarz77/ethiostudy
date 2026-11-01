@@ -13,7 +13,7 @@ export default function ScrollToTop() {
     // Intercept legacy hash URLs: #/path -> /path (strict allowlist so a
     // crafted '#//evil.com' can't spoof the address bar via replaceState)
     const hash = window.location.hash;
-    if (hash && /^#\/[A-Za-z0-9._\-\/]*$/.test(hash)) {
+    if (hash && /^#\/[A-Za-z0-9._/-]*$/.test(hash)) {
       const cleanPath = hash.slice(1);
       window.history.replaceState(null, '', cleanPath);
       navigate(cleanPath, { replace: true });

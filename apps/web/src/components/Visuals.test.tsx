@@ -1,4 +1,16 @@
+// @vitest-environment node
+// renderToStaticMarkup is a Node API, and this file renders every visual in the
+// authored bank (~2000 renders). Under the suite-wide jsdom environment it paid
+// DOM setup per test and timed out even at 30s.
 import { describe, expect, it } from 'vitest';
+import { JSDOM } from 'jsdom';
+
+// richtext.ts sanitizes with the browser's DOMParser. Rather than run the whole
+// file under jsdom, hand it a single parser instance — the component code stays
+// identical, and the DOM cost is one object instead of thousands.
+if (typeof globalThis.DOMParser === 'undefined') {
+  globalThis.DOMParser = new JSDOM('').window.DOMParser as unknown as typeof DOMParser;
+}
 import { renderToStaticMarkup } from 'react-dom/server';
 import { readFileSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
@@ -81,5 +93,5 @@ describe('VisualBlock — the real authored bank', () => {
     }
     expect(total).toBeGreaterThanOrEqual(500);
     expect(typesSeen.size).toBe(16);
-  }, 30_000);
+  }, 120_000);
 });
