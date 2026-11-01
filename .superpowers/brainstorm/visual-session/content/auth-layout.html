@@ -1,0 +1,89 @@
+<h2>Which layout for the sign-in page?</h2>
+<p class="subtitle">Shown in dark (Refined Cosmos). It will use the light theme's Bright Study Room equivalent once selected. Click the layout you prefer.</p>
+
+<style>
+  ap-wrap{border-radius:14px;overflow:hidden;display:flex;min-height:300px;font-family:system-ui}
+  ap-brand{flex:1;padding:26px;display:flex;flex-direction:column;justify-content:space-between}
+  ap-form{flex:1;padding:26px;display:flex;flex-direction:column;justify-content:center;gap:9px}
+  ap-input{border:1px solid #2a3358;background:#10152a;border-radius:9px;padding:8px 11px;color:#8893c4;font-size:11px}
+  ap-btn{border-radius:9px;padding:9px;text-align:center;font-weight:700;font-size:11.5px;color:#fff;background:linear-gradient(90deg,#5b4bc4,#6d5cff)}
+  ap-gh{border:1px solid #2a3358;border-radius:9px;padding:8px;text-align:center;color:#c9d2ff;font-size:11px;background:#10152a}
+  ap-feat{display:flex;gap:8px;align-items:flex-start;margin-top:6px}
+  ap-feat b{display:block;color:#e8ecff;font-size:11.5px}
+  ap-feat span{color:#8a94c2;font-size:10px}
+  ap-dot{width:22px;height:22px;border-radius:7px;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:11px;color:#fff}
+</style>
+
+<div class="cards">
+
+<div class="card" data-choice="split-brand" onclick="toggleSelect(this)">
+  <div class="card-image" style="padding:0;background:#0a0e1a">
+    <ap-wrap>
+      <ap-brand style="background:linear-gradient(160deg,#141938,#0d1230 55%,#0a0e1a)">
+        <div><div style="display:flex;align-items:center;gap:8px"><div style="width:26px;height:26px;border-radius:8px;background:linear-gradient(135deg,#6d5cff,#a78bfa);display:flex;align-items:center;justify-content:center;font-size:12px">🎓</div><b style="color:#fff;font-size:13px">EthioStudy</b></div>
+        <div style="color:#fff;font-size:19px;font-weight:800;line-height:1.25;margin-top:26px">Ethiopia's new curriculum,<br>made simple.</div></div>
+        <div>
+          <ap-feat><ap-dot style="background:#1c2a4a;color:#8f9eff">✓</ap-dot><div><b>916 lessons, full depth</b><span>Key terms, visuals, worked examples</span></div></ap-feat>
+          <ap-feat><ap-dot style="background:#1c2a4a;color:#8f9eff">✓</ap-dot><div><b>Progress synced to the cloud</b><span>Pick up on any device</span></div></ap-feat>
+          <ap-feat><ap-dot style="background:#1c2a4a;color:#8f9eff">✓</ap-dot><div><b>National exam practice</b><span>Real past questions with scoring</span></div></ap-feat>
+        </div>
+        <div style="color:#5e6a99;font-size:9.5px">Grade 9-12 - New Curriculum</div>
+      </ap-brand>
+      <ap-form style="background:#0a0e1a;border-left:1px solid #1d2545">
+        <div style="color:#fff;font-size:17px;font-weight:800">Welcome back</div>
+        <div style="color:#8893c4;font-size:11px">Sign in to sync your progress and streaks.</div>
+        <ap-gh style="margin-top:6px">Continue with Google</ap-gh>
+        <div style="display:flex;align-items:center;gap:8px;color:#3d477d;font-size:9px;margin:4px 0"><div style="flex:1;height:1px;background:#1d2545"></div>OR WITH EMAIL<div style="flex:1;height:1px;background:#1d2545"></div></div>
+        <ap-input>student@example.com</ap-input>
+        <ap-input>Password</ap-input>
+        <ap-btn>Sign In</ap-btn>
+        <div style="text-align:center;color:#6d78a8;font-size:10px">New here? <span style="color:#9d94ff">Create free account</span></div>
+      </ap-form>
+    </ap-wrap>
+  </div>
+  <div class="card-body" style="background:#0a0e1a;color:#e8ecff"><h3 style="color:#fff">A. Split screen</h3><p style="color:#a3aede">Brand story + feature list on the left, clean form on the right. Feels like a full product page; best on desktop, stacks vertically on mobile.</p></div>
+</div>
+
+<div class="card" data-choice="centered-card" onclick="toggleSelect(this)">
+  <div class="card-image" style="padding:20px;background:radial-gradient(ellipse at 30% 20%,#1a2050,#0a0e1a 70%)">
+    <div style="font-family:system-ui;max-width:270px;margin:8px auto;border-radius:14px;background:#10152a;border:1px solid #2a3358;padding:20px;display:flex;flex-direction:column;gap:9px;box-shadow:0 18px 50px #0008">
+      <div style="display:flex;align-items:center;gap:8px"><div style="width:26px;height:26px;border-radius:8px;background:linear-gradient(135deg,#6d5cff,#a78bfa);display:flex;align-items:center;justify-content:center;font-size:12px">🎓</div><b style="color:#fff;font-size:13px">EthioStudy</b></div>
+      <div style="color:#fff;font-size:17px;font-weight:800;margin-top:4px">Welcome back</div>
+      <div style="color:#8893c4;font-size:11px">Sign in to sync your progress and streaks.</div>
+      <ap-gh style="margin-top:6px">Continue with Google</ap-gh>
+      <div style="display:flex;align-items:center;gap:8px;color:#3d477d;font-size:9px"><div style="flex:1;height:1px;background:#1d2545"></div>OR WITH EMAIL<div style="flex:1;height:1px;background:#1d2545"></div></div>
+      <ap-input>student@example.com</ap-input>
+      <ap-input>Password</ap-input>
+      <ap-btn>Sign In</ap-btn>
+      <div style="text-align:center;color:#6d78a8;font-size:10px">New here? <span style="color:#9d94ff">Create free account</span></div>
+    </div>
+  </div>
+  <div class="card-body" style="background:#0a0e1a;color:#e8ecff"><h3 style="color:#fff">B. Floating card on starfield</h3><p style="color:#a3aede">Keeps the cosmic identity: a glassy card floating over the animated particle field. Lighter footprint, works everywhere, closest to today's brand.</p></div>
+</div>
+
+<div class="card" data-choice="centered-stats" onclick="toggleSelect(this)">
+  <div class="card-image" style="padding:20px;background:#0a0e1a">
+    <div style="font-family:system-ui;max-width:340px;margin:8px auto;border-radius:14px;background:#10152a;border:1px solid #2a3358;overflow:hidden">
+      <div style="padding:14px 20px;background:linear-gradient(90deg,#1a1f3d,#141938);display:flex;justify-content:space-between;align-items:center">
+        <div style="color:#fff;font-weight:800;font-size:13px">Sign in to EthioStudy</div>
+        <div style="display:flex;gap:6px">
+          <span style="background:#1c2450;border-radius:99px;padding:3px 9px;color:#9fb0ff;font-size:9px;font-weight:700">916 LESSONS</span>
+          <span style="background:#1c2450;border-radius:99px;padding:3px 9px;color:#9fb0ff;font-size:9px;font-weight:700">FREE</span>
+        </div>
+      </div>
+      <div style="padding:18px 20px;display:flex;flex-direction:column;gap:9px">
+        <ap-gh>Continue with Google</ap-gh>
+        <div style="display:flex;align-items:center;gap:8px;color:#3d477d;font-size:9px"><div style="flex:1;height:1px;background:#1d2545"></div>OR WITH EMAIL<div style="flex:1;height:1px;background:#1d2545"></div></div>
+        <ap-input>student@example.com</ap-input>
+        <ap-input>Password</ap-input>
+        <ap-btn>Sign In</ap-btn>
+        <div style="display:flex;gap:10px;color:#5e6a99;font-size:9.5px;border-top:1px solid #1d2545;padding-top:10px">
+          <span>✓ Synced progress</span><span>✓ Streaks</span><span>✓ Leaderboard</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card-body" style="background:#0a0e1a;color:#e8ecff"><h3 style="color:#fff">C. Compact card + perks bar</h3><p style="color:#a3aede">A tighter centered card with a perks strip under the form. Minimal, fast, a modest evolution of the current modal.</p></div>
+</div>
+
+</div>

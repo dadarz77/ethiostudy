@@ -1,0 +1,120 @@
+<h2>Which visual direction should the redesign follow?</h2>
+<p class="subtitle">Each card shows a real mini-mockup of the same dashboard hero + subject card + a lesson table visual, rendered in that style. Click the one that feels right.</p>
+
+<style>
+  mm-hero{display:flex;gap:16px;align-items:center;justify-content:space-between;border-radius:14px;padding:18px 20px;margin-bottom:14px}
+  mm-badges{display:flex;gap:6px}
+  mm-badge{font-size:9px;letter-spacing:1.2px;font-weight:700;padding:3px 8px;border-radius:99px}
+  mm-sub{display:flex;align-items:center;gap:12px;border-radius:14px;padding:14px}
+  mm-ico{width:40px;height:40px;border-radius:11px;display:flex;align-items:center;justify-content:center;font-size:18px;flex-shrink:0}
+  mm-bar{height:5px;border-radius:99px;margin-top:10px;overflow:hidden}
+  mm-bar i{display:block;height:100%;border-radius:99px}
+  mm-viz{border-radius:12px;padding:12px;margin-top:6px;font-size:11px}
+  h4, .mm-h4{margin:6px 0 10px;font-size:12px;text-transform:uppercase;letter-spacing:1.4px;opacity:.6}
+</style>
+
+<div class="cards">
+
+<div class="card" data-choice="refined-dark" onclick="toggleSelect(this)">
+  <div class="card-image" style="padding:18px;background:#0a0e1a">
+    <div style="font-family:system-ui">
+      <mm-hero style="background:linear-gradient(120deg,#161b33,#0d1230);border:1px solid #2a3358">
+        <div><div style="color:#93a0d8;font-size:9px;letter-spacing:1.6px;font-weight:700">ETHIOPIAN NEW CURRICULUM</div>
+        <div style="color:#fff;font-size:21px;font-weight:800;margin-top:5px">Welcome back, Student</div>
+        <div style="color:#7c88b8;font-size:11px;margin-top:5px">Continue Lesson 4.3 - Market Equilibrium</div></div>
+        <div style="width:66px;height:66px;border-radius:50%;background:conic-gradient(#6d5cff 0 62%,#242c52 62% 100%);display:flex;align-items:center;justify-content:center"><div style="width:52px;height:52px;border-radius:50%;background:#101528;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:800;font-size:13px">62%</div></div>
+      </mm-hero>
+      <div style="display:flex;gap:10px">
+        <mm-sub style="flex:1;background:#10152a;border:1px solid #232c50">
+          <mm-ico style="background:linear-gradient(135deg,#2b3a8f,#5b4bc4);color:#c9d2ff">M</mm-ico>
+          <div style="flex:1"><div style="color:#fff;font-weight:700;font-size:13px">Mathematics</div><div style="color:#8893c4;font-size:10px">27 topics - 62% mastered</div>
+          <mm-bar style="background:#1c2347"><i style="width:62%;background:linear-gradient(90deg,#6d5cff,#8f7bff)"></i></mm-bar></div>
+        </mm-sub>
+        <mm-sub style="flex:1;background:#10152a;border:1px solid #232c50">
+          <mm-ico style="background:linear-gradient(135deg,#0b6e4f,#12a86d);color:#c4ffe6">B</mm-ico>
+          <div style="flex:1"><div style="color:#fff;font-weight:700;font-size:13px">Biology</div><div style="color:#8893c4;font-size:10px">23 topics - 18% mastered</div>
+          <mm-bar style="background:#1c2347"><i style="width:18%;background:linear-gradient(90deg,#12a86d,#37c58f)"></i></mm-bar></div>
+        </mm-sub>
+      </div>
+      <mm-viz style="background:#10152a;border:1px solid #232c50;margin-top:10px">
+        <div style="color:#9aa5d4;font-weight:600;margin-bottom:6px">Market equilibrium - schedule</div>
+        <table style="width:100%;border-collapse:collapse;color:#cbd3f2;font-size:10.5px">
+        <tr style="color:#8b96c6;border-bottom:1px solid #232c50"><td style="padding:3px 2px">Price (Birr)</td><td>Qd</td><td>Qs</td><td style="color:#7ee2a8">Status</td></tr>
+        <tr><td>8</td><td>20</td><td>40</td><td style="color:#ff9d9d">Surplus 20</td></tr>
+        <tr style="background:#1a2b22"><td style="padding:3px 2px;color:#7ee2a8;font-weight:700">6</td><td style="color:#7ee2a8;font-weight:700">30</td><td style="color:#7ee2a8;font-weight:700">30</td><td style="color:#7ee2a8;font-weight:700">Equilibrium</td></tr>
+        <tr><td>4</td><td>40</td><td>20</td><td style="color:#ff9d9d">Shortage 20</td></tr></table>
+      </mm-viz>
+    </div>
+  </div>
+  <div class="card-body" style="background:#0a0e1a;color:#e8ecff"><h3 style="color:#fff">A. Refined Cosmos (dark-first)</h3><p style="color:#a3aede">Keep the cosmic identity, raise the polish: glassy layered cards, gradient rings, cleaner accent hierarchy, real icon system instead of emoji, luminous data tables.</p></div>
+</div>
+
+<div class="card" data-choice="clean-light" onclick="toggleSelect(this)">
+  <div class="card-image" style="padding:18px;background:#f3f5fa">
+    <div style="font-family:system-ui">
+      <mm-hero style="background:#fff;border:1px solid #e3e7f2;box-shadow:0 8px 24px #141c3810">
+        <div><div style="color:#6d7aa8;font-size:9px;letter-spacing:1.6px;font-weight:700">ETHIOPIAN NEW CURRICULUM</div>
+        <div style="color:#111a3b;font-size:21px;font-weight:800;margin-top:5px">Welcome back, Student</div>
+        <div style="color:#5a6690;font-size:11px;margin-top:5px">Continue Lesson 4.3 - Market Equilibrium</div></div>
+        <div style="width:66px;height:66px;border-radius:50%;background:conic-gradient(#4f46e5 0 62%,#e5e7f5 62% 100%);display:flex;align-items:center;justify-content:center"><div style="width:52px;height:52px;border-radius:50%;background:#fff;display:flex;align-items:center;justify-content:center;color:#111a3b;font-weight:800;font-size:13px">62%</div></div>
+      </mm-hero>
+      <div style="display:flex;gap:10px">
+        <mm-sub style="flex:1;background:#fff;border:1px solid #e3e7f2">
+          <mm-ico style="background:#eef1ff;color:#4f46e5">M</mm-ico>
+          <div style="flex:1"><div style="color:#111a3b;font-weight:700;font-size:13px">Mathematics</div><div style="color:#6d7aa8;font-size:10px">27 topics - 62% mastered</div>
+          <mm-bar style="background:#e9ecf6"><i style="width:62%;background:linear-gradient(90deg,#4f46e5,#7c6ff7)"></i></mm-bar></div>
+        </mm-sub>
+        <mm-sub style="flex:1;background:#fff;border:1px solid #e3e7f2">
+          <mm-ico style="background:#e9f9f1;color:#0f9d63">B</mm-ico>
+          <div style="flex:1"><div style="color:#111a3b;font-weight:700;font-size:13px">Biology</div><div style="color:#6d7aa8;font-size:10px">23 topics - 18% mastered</div>
+          <mm-bar style="background:#e9ecf6"><i style="width:18%;background:linear-gradient(90deg,#0f9d63,#27c281)"></i></mm-bar></div>
+        </mm-sub>
+      </div>
+      <mm-viz style="background:#fff;border:1px solid #e3e7f2;margin-top:10px">
+        <div style="color:#3a4774;font-weight:700;margin-bottom:6px">Market equilibrium - schedule</div>
+        <table style="width:100%;border-collapse:collapse;color:#2a3457;font-size:10.5px">
+        <tr style="color:#6d7aa8;border-bottom:1px solid #e3e7f2"><td style="padding:3px 2px">Price (Birr)</td><td>Qd</td><td>Qs</td><td style="color:#0f9d63">Status</td></tr>
+        <tr><td>8</td><td>20</td><td>40</td><td style="color:#c24444">Surplus 20</td></tr>
+        <tr style="background:#e9f9f1"><td style="padding:3px 2px;color:#0f9d63;font-weight:700">6</td><td style="color:#0f9d63;font-weight:700">30</td><td style="color:#0f9d63;font-weight:700">30</td><td style="color:#0f9d63;font-weight:700">Equilibrium</td></tr>
+        <tr><td>4</td><td>40</td><td>20</td><td style="color:#c24444">Shortage 20</td></tr></table>
+      </mm-viz>
+    </div>
+  </div>
+  <div class="card-body"><h3>B. Bright Study Room (light-first)</h3><p>Flip to a crisp daylight default: white cards, one confident indigo accent, flat clean borders, maximum readability for long study sessions. Dark mode kept as the toggle.</p></div>
+</div>
+
+<div class="card" data-choice="duotone" onclick="toggleSelect(this)">
+  <div class="card-image" style="padding:18px;background:#131313">
+    <div style="font-family:system-ui">
+      <mm-hero style="background:#1c1c1c;border:1px solid #333;border-left:5px solid #e2c341;border-radius:10px">
+        <div><div style="color:#e2c341;font-size:9px;letter-spacing:2.2px;font-weight:800">ETHIOPIAN NEW CURRICULUM</div>
+        <div style="color:#fff;font-size:22px;font-weight:900;margin-top:6px;letter-spacing:-.5px">Welcome back,<br><span style="color:#e2c341">Student</span></div>
+        <div style="color:#9a9a9a;font-size:11px;margin-top:6px">Continue Lesson 4.3 - Market Equilibrium</div></div>
+        <div style="width:66px;height:66px;border-radius:8px;background:#e2c341;display:flex;align-items:center;justify-content:center;color:#131313;font-weight:900;font-size:16px">62%</div>
+      </mm-hero>
+      <div style="display:flex;gap:10px">
+        <mm-sub style="flex:1;background:#1c1c1c;border:1px solid #333">
+          <div style="flex:1"><div style="color:#8f8f8f;font-size:9px;letter-spacing:1.6px;font-weight:700">SUBJECT</div><div style="color:#fff;font-weight:800;font-size:15px;margin-top:3px">Mathematics</div><div style="color:#9a9a9a;font-size:10px;margin-top:2px">27 topics</div>
+          <mm-bar style="background:#333"><i style="width:62%;background:#e2c341"></i></mm-bar></div>
+          <div style="color:#e2c341;font-weight:900;font-size:18px">62%</div>
+        </mm-sub>
+        <mm-sub style="flex:1;background:#1c1c1c;border:1px solid #333">
+          <div style="flex:1"><div style="color:#8f8f8f;font-size:9px;letter-spacing:1.6px;font-weight:700">SUBJECT</div><div style="color:#fff;font-weight:800;font-size:15px;margin-top:3px">Biology</div><div style="color:#9a9a9a;font-size:10px;margin-top:2px">23 topics</div>
+          <mm-bar style="background:#333"><i style="width:18%;background:#e2c341"></i></mm-bar></div>
+          <div style="color:#e2c341;font-weight:900;font-size:18px">18%</div>
+        </mm-sub>
+      </div>
+      <mm-viz style="background:#1c1c1c;border:1px solid #333;margin-top:10px">
+        <div style="color:#e2c341;font-weight:700;margin-bottom:6px;font-size:10.5px;letter-spacing:.4px">MARKET EQUILIBRIUM - SCHEDULE</div>
+        <table style="width:100%;border-collapse:collapse;color:#dcdcdc;font-size:10.5px">
+        <tr style="color:#8f8f8f;border-bottom:1px solid #333"><td style="padding:3px 2px">Price (Birr)</td><td>Qd</td><td>Qs</td><td>Status</td></tr>
+        <tr><td>8</td><td>20</td><td>40</td><td style="color:#ff8080">Surplus 20</td></tr>
+        <tr style="background:#2a2610"><td style="padding:3px 2px;color:#e2c341;font-weight:800">6</td><td style="color:#e2c341;font-weight:800">30</td><td style="color:#e2c341;font-weight:800">30</td><td style="color:#e2c341;font-weight:800">Equilibrium</td></tr>
+        <tr><td>4</td><td>40</td><td>20</td><td style="color:#ff8080">Shortage 20</td></tr></table>
+      </mm-viz>
+    </div>
+  </div>
+  <div class="card-body" style="background:#131313;color:#dcdcdc"><h3 style="color:#fff">C. Monochrome + Gold (studio look)</h3><p style="color:#9a9a9a">Maximum contrast and whitespace: black surfaces, a single gold accent, bold editorial typography. Striking and modern, but the biggest departure from today's design.</p></div>
+</div>
+
+</div>
