@@ -216,7 +216,9 @@ export default function App() {
             >
               <BookMarked size={18} />
             </button>
-            <button className="icon-btn lang-pill" aria-label="Switch language" title={lang === 'en' ? 'Switch to Amharic' : 'Switch to English'}
+            {/* The accessible name must contain the visible text (WCAG 2.5.3),
+                otherwise a speech-input user saying "EN" cannot activate it. */}
+            <button className="icon-btn lang-pill" aria-label={lang === 'en' ? 'EN — switch to Amharic' : 'አማ — switch to English'} title={lang === 'en' ? 'Switch to Amharic' : 'Switch to English'}
               onClick={() => setSetting('language', lang === 'en' ? 'am' : 'en')}>
               {lang === 'en' ? 'EN' : 'አማ'}
             </button>

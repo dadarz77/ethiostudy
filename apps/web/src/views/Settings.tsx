@@ -40,14 +40,16 @@ export default function Settings() {
       <div className="card">
         <h3>🧪 Quiz & exam</h3>
         <div className="spread" style={{ marginBottom: 10 }}>
-          <span>Quiz length</span><b>{settings.quizLen} questions</b>
+          <label htmlFor="quiz-len">Quiz length</label><b>{settings.quizLen} questions</b>
         </div>
-        <input type="range" min={5} max={20} step={5} value={settings.quizLen} style={{ width: '100%' }}
+        <input id="quiz-len" type="range" min={5} max={20} step={5} value={settings.quizLen}
+          aria-valuetext={`${settings.quizLen} questions`} style={{ width: '100%' }}
           onChange={e => setSetting('quizLen', Number(e.target.value))} />
         <div className="spread" style={{ margin: '18px 0 10px' }}>
-          <span>Exam length</span><b>{settings.examLen} questions</b>
+          <label htmlFor="exam-len">Exam length</label><b>{settings.examLen} questions</b>
         </div>
-        <input type="range" min={10} max={50} step={5} value={settings.examLen} style={{ width: '100%' }}
+        <input id="exam-len" type="range" min={10} max={50} step={5} value={settings.examLen}
+          aria-valuetext={`${settings.examLen} questions`} style={{ width: '100%' }}
           onChange={e => setSetting('examLen', Number(e.target.value))} />
       </div>
 

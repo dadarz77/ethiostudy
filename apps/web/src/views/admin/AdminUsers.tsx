@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import {
   Download,
   Eye,
@@ -17,6 +17,7 @@ import {
   type AdminProfile,
   type UserProgressDetail,
 } from '../../lib/admin';
+import { useFocusTrap } from '../../lib/useFocusTrap';
 
 const PAGE_SIZE = 25;
 
@@ -51,6 +52,11 @@ export default function AdminUsers() {
   const [confirm, setConfirm] = useState<ConfirmAction>(null);
   const [reloadTick, setReloadTick] = useState(0);
   const [tick, setTick] = useState(0); // for relative last-seenness
+
+  // Destructive confirm dialog: trap Tab and return focus to the button that
+  // opened it. Losing focus after "Cancel" would be especially disorienting here.
+  const confirmRef = useRef<HTMLDivElement>(null);
+  useFocusTrap(confirmRef, confirm !== null);
 
   // Debounced filtered fetch (search + filter changes restart it).
   useEffect(() => {
@@ -203,9 +209,17 @@ export default function AdminUsers() {
       </div>
 
       {confirm && confirmCopy && (
-        <div className="modal-backdrop" onClick={() => setConfirm(null)} role="dialog" aria-modal="true">
-          <div className="modal adm-confirm-modal" onClick={(e) => e.stopPropagation()}>
-            <h3 className="adm-confirm-title">{confirmCopy.title}</h3>
+        <div className="modal-backdrop" onClick={() => setConfirm(null)}>
+          <div
+            className="modal adm-confirm-modal"
+            ref={confirmRef}
+            tabIndex={-1}
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="adm-confirm-title"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <h3 className="adm-confirm-title" id="adm-confirm-title">{confirmCopy.title}</h3>
             <p className="muted mt-3">{confirmCopy.body}</p>
             <div className="spread mt-4">
               <button type="button" className="btn" onClick={() => setConfirm(null)}>Cancel</button>

@@ -14,6 +14,7 @@ import { QuestionCard } from '../components/QuestionCard';
 import { Chip, DiffChip, ScoreRing, EmptyState } from '../components/ui';
 import { Rich } from '../components/Rich';
 import { readTime } from '../lib/richtext';
+import { useFocusTrap } from '../lib/useFocusTrap';
 import { VisualBlock } from '../components/Visuals';
 import { fireConfetti, playChime } from '../lib/celebrate';
 
@@ -107,6 +108,10 @@ export default function TopicView() {
   /* Quick note drawer */
   const [noteDrawerOpen, setNoteDrawerOpen] = useState(false);
   const [quickNote, setQuickNote] = useState('');
+  // The drawer is a dialog: keep Tab inside it and restore focus to the
+  // notebook button when it closes.
+  const noteDrawerRef = useRef<HTMLDivElement>(null);
+  useFocusTrap(noteDrawerRef, noteDrawerOpen);
   const saveQuickNote = () => {
     const val = quickNote.trim();
     if (val) { addNote(tid, val); setQuickNote(''); setNoteDrawerOpen(false); }
@@ -447,7 +452,7 @@ export default function TopicView() {
             <NotebookPen size={20} />
           </button>
           {noteDrawerOpen && (
-            <div className="quick-note-drawer card" role="dialog" aria-label="Quick note">
+            <div className="quick-note-drawer card" ref={noteDrawerRef} tabIndex={-1} role="dialog" aria-modal="true" aria-label="Quick note">
               <div className="spread" style={{ marginBottom: 10 }}>
                 <span style={{ fontWeight: 700, fontSize: '0.92rem' }}>📝 Quick Note</span>
                 <button className="icon-btn" onClick={() => setNoteDrawerOpen(false)} aria-label="Close"><X size={16} /></button>

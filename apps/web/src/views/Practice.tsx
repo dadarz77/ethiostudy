@@ -72,8 +72,8 @@ export default function Practice() {
 
       <div className="filter-box mt-4">
         <div>
-          <label>Grade</label>
-          <select value={selGrade} onChange={e => { setSelGrade(e.target.value as Grade); setSelSubject('all'); setSelUnit('all'); }}>
+          <label htmlFor="practice-grade">Grade</label>
+          <select id="practice-grade" value={selGrade} onChange={e => { setSelGrade(e.target.value as Grade); setSelSubject('all'); setSelUnit('all'); }}>
             <option value="9">Grade 9</option>
             <option value="10">Grade 10</option>
             <option value="11">Grade 11</option>
@@ -81,22 +81,22 @@ export default function Practice() {
           </select>
         </div>
         <div>
-          <label>Subject</label>
-          <select value={selSubject} onChange={e => { setSelSubject(e.target.value); setSelUnit('all'); }}>
+          <label htmlFor="practice-subject">Subject</label>
+          <select id="practice-subject" value={selSubject} onChange={e => { setSelSubject(e.target.value); setSelUnit('all'); }}>
             <option value="all">All subjects</option>
             {subjectsFor(selGrade).map(({ key, s }) => <option key={key} value={key}>{s.title}</option>)}
           </select>
         </div>
         <div>
-          <label>Unit</label>
-          <select value={selUnit} onChange={e => setSelUnit(e.target.value)}>
+          <label htmlFor="practice-unit">Unit</label>
+          <select id="practice-unit" value={selUnit} onChange={e => setSelUnit(e.target.value)}>
             <option value="all">All units</option>
             {subj?.s.units.map((u, i) => <option key={u.id} value={u.id}>Unit {i + 1}: {u.title}</option>)}
           </select>
         </div>
         <div>
-          <label>Mode</label>
-          <select value={selMode} onChange={e => setSelMode(e.target.value as 'smart' | 'random')}>
+          <label htmlFor="practice-mode">Mode</label>
+          <select id="practice-mode" value={selMode} onChange={e => setSelMode(e.target.value as 'smart' | 'random')}>
             <option value="smart">Smart (prioritize weak)</option>
             <option value="random">Fully random</option>
           </select>

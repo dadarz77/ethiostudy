@@ -1,10 +1,14 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { X, Mail, Lock, User, GraduationCap, Building2, AlertCircle, ArrowRight } from 'lucide-react';
 import { useAuthStore } from '../store/useAuthStore';
 import { isSupabaseConfigured } from '../lib/supabase';
+import { useFocusTrap } from '../lib/useFocusTrap';
 
 export function AuthModal() {
   const { authModalOpen, authModalTab, closeAuthModal, openAuthModal, signInWithEmail, signUpWithEmail, signInWithGoogle } = useAuthStore();
+  const cardRef = useRef<HTMLDivElement>(null);
+  // Keeps Tab inside the dialog and returns focus to the opener on close.
+  useFocusTrap(cardRef, authModalOpen);
 
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -65,8 +69,16 @@ export function AuthModal() {
   };
 
   return (
-    <div className="modal-backdrop" onClick={closeAuthModal} role="dialog" aria-modal="true" aria-labelledby="auth-modal-title">
-      <div className="auth-modal card" onClick={(e) => e.stopPropagation()}>
+    <div className="modal-backdrop" onClick={closeAuthModal}>
+      <div
+        className="auth-modal card"
+        ref={cardRef}
+        tabIndex={-1}
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="auth-modal-title"
+        onClick={(e) => e.stopPropagation()}
+      >
         <div className="spread auth-modal-header">
           <div>
             <h2 id="auth-modal-title" className="auth-title">

@@ -1,5 +1,6 @@
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import { BookMarked, Search, X } from 'lucide-react';
+import { useFocusTrap } from '../lib/useFocusTrap';
 
 interface Formula {
   title: string;
@@ -49,6 +50,8 @@ interface FormulaSheetModalProps {
 export function FormulaSheetModal({ open, onClose, defaultSubject = 'all' }: FormulaSheetModalProps) {
   const [activeTab, setActiveTab] = useState<'all' | 'math' | 'physics' | 'chem' | 'bio'>(defaultSubject);
   const [search, setSearch] = useState('');
+  const cardRef = useRef<HTMLDivElement>(null);
+  useFocusTrap(cardRef, open);
 
   if (!open) return null;
 
@@ -62,8 +65,16 @@ export function FormulaSheetModal({ open, onClose, defaultSubject = 'all' }: For
   });
 
   return (
-    <div className="modal-backdrop" onClick={onClose} role="dialog" aria-modal="true" aria-labelledby="formula-title">
-      <div className="card formula-sheet-modal" onClick={e => e.stopPropagation()}>
+    <div className="modal-backdrop" onClick={onClose}>
+      <div
+        className="card formula-sheet-modal"
+        ref={cardRef}
+        tabIndex={-1}
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="formula-title"
+        onClick={e => e.stopPropagation()}
+      >
         <div className="spread formula-header">
           <div className="row" style={{ gap: 8, alignItems: 'center' }}>
             <BookMarked size={22} className="text-accent" />
