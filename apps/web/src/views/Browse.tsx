@@ -29,6 +29,12 @@ export default function Browse() {
   /* enables the shared 3D pointer tilt on .subject-orbit-card grids */
   useOrbitTilt();
 
+  // Sync grade from URL params on mount (fixes deep links like /browse?grade=9&subject=civics)
+  const urlGrade = params.get('grade');
+  if (urlGrade && urlGrade !== grade) {
+    setSetting('grade', urlGrade as Grade);
+  }
+
   const subjKey = params.get('subject');
   const unitId = params.get('unit');
 
